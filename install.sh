@@ -71,28 +71,6 @@ scorex {
 }" > ergo.conf
 
 
-spin() {
-    sp='/-\|'
-    printf ' '
-    while true; do
-        printf '\b%.1s' "$sp"
-        sp=${sp#?}${sp%???}
-        sleep 0.05
-    done
-}
-
-progressbar()
-{
-    bar="##################################################"
-    barlength=${#bar}
-    n=$(($1*barlength/100))
-    printf "\r[%-${barlength}s (%d%%)] " "${bar:0:n}" "$1" 
-}
-
-
-
-
-
 ###########################################################################           
 ### Run the server, the -Xmx3G flag specifies the JVM Heap size
 ### Change this depending on system specs.                                                        
@@ -176,8 +154,7 @@ get_heights(){
 # Dummy values to start
 let PERCENT_BLOCKS=100
 let PERCENT_HEADERS=100
-#spin &
-#pid=$!
+
 
 while sleep 2
 do
@@ -189,18 +166,12 @@ do
       "- Headers: ~$(( 100 - $PERCENT_HEADERS ))% Complete ($HEADERS_HEIGHT/$API_HEIGHT)"\
       "- Blocks:  ~$(( 100 - $PERCENT_BLOCKS ))% Complete ($HEIGHT/$API_HEIGHT)"\
       "To use the API, enter your password ('$input') on 127.0.0.1:9053/panel under 'Set API key'."\
-      "Please follow the next steps on docs.ergoplatform.org to initialise your wallet."
-     
-    #progressbar $(( 100 - $PERCENT_HEADERS ))
-    #progressbar $(( 100 - $PERCENT_BLOCKS ))
-    
+      "Please follow the next steps on docs.ergoplatform.org to initialise your wallet."  
     echo ""
     echo "server.log tail"
     tail -n 10 server.log 
 
-    
     get_heights
     
 done
 
-kill $pid > /dev/null 2>&1
