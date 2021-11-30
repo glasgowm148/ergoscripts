@@ -23,6 +23,7 @@ else
     echo "- Downloading Latest known Ergo release: ${LATEST_ERGO_RELEASE}."
     curl --silent -L ${ERGO_DOWNLOAD_URL} --output ergo.jar
 fi 
+kill $pid > /dev/null 2>&1
 
 
 ###########################################################################           
@@ -31,14 +32,13 @@ fi
 read -p "- Please enter a password. This will be used to unlock your API: " input
 export RAND=$(curl -s --location -g --request GET 'api.hashify.net/hash/BLAKE2B-256/hex?value='$input)
 export blake_hash=${RAND[@]:10:66}       
-if [ -z ${blake_hash+x} ]; then echo "blake_hash is unset"; else echo "blake_hash is set to '$blake_hash'"; fi
+if [ -z ${blake_hash+x} ]; then echo "blake_hash is unset"; fi
 
 read -p "- How many GB of ram should we set the JVM heap size to? (Recommended: 1 for Pi, 2-3 for laptops): " JVM_HEAP
 
 ###########################################################################           
 ### Write the config file with the generated hash                                                                    
 ###########################################################################
-echo "- Writing the config file"
 echo "
 ergo {
         node {
@@ -47,6 +47,7 @@ ergo {
             # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
             # The node still applying transactions to UTXO set and so checks UTXO set digests for each block.
             skipV1TransactionsValidation = true
+            blocksToKeep = 0
             }
     }
 scorex {
@@ -60,18 +61,38 @@ scorex {
 }" > ergo.conf
 
 
+spin() {
+    sp='/-\|'
+    printf ' '
+    while true; do
+        printf '\b%.1s' "$sp"
+        sp=${sp#?}${sp%???}
+        sleep 0.05
+    done
+}
+
+progressbar()
+{
+    bar="##################################################"
+    barlength=${#bar}
+    n=$(($1*barlength/100))
+    printf "\r[%-${barlength}s (%d%%)] " "${bar:0:n}" "$1" 
+}
+
+
+
+
+
 ###########################################################################           
 ### Run the server, the -Xmx3G flag specifies the JVM Heap size
 ### Change this depending on system specs.                                                        
 ###########################################################################
-echo "- Starting the server"
-export JVM_HEAP_SIZE="-Xmx${JVM_HEAP}g"
-echo $JVM_HEAP_SIZE
 
-java -jar $JVM_HEAP_SIZE ergo.jar  --mainnet -c ergo.conf > server.log 2>&1 &
+export JVM_HEAP_SIZE="-Xmx${JVM_HEAP}g"
+java -jar -Djava.util.logging.config.file=logging.properties  $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
+
+echo "- Starting the server"
 while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.'; done;  # wait for node be ready with progress bar
-echo ""
-echo "- Node started."
 
 
 ###########################################################################           
@@ -114,7 +135,7 @@ get_heights(){
 
     # Set the percentages
     if [ -n $HEADERS_HEIGHT ]; then
-        echo "api: $API_HEIGHT, hh:$HEADERS_HEIGHT"
+       # echo "api: $API_HEIGHT, hh:$HEADERS_HEIGHT"
         let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   ))      
     fi
 
@@ -144,21 +165,29 @@ get_heights(){
 # Dummy values to start
 let PERCENT_BLOCKS=100
 let PERCENT_HEADERS=100
+#spin &
+#pid=$!
 
 while sleep 2
 do
     clear
+    
+    
     printf "%s    \n\n" \
       "Sync Progress;"\
-      "- Headers: $(( 100 - $PERCENT_HEADERS ))% Complete ($HEADERS_HEIGHT/$API_HEIGHT)"\
-      "- Blocks:  $(( 100 - $PERCENT_BLOCKS ))% Complete ($HEIGHT/$API_HEIGHT)"\
+      "- Headers: ~$(( 100 - $PERCENT_HEADERS ))% Complete ($HEADERS_HEIGHT/$API_HEIGHT)"\
+      "- Blocks:  ~$(( 100 - $PERCENT_BLOCKS ))% Complete ($HEIGHT/$API_HEIGHT)"\
       "To use the API, enter your password ('$input') on 127.0.0.1:9053/panel under 'Set API key'."\
       "Please follow the next steps on docs.ergoplatform.org to initialise your wallet."
      
+    #progressbar $(( 100 - $PERCENT_HEADERS ))
+    #progressbar $(( 100 - $PERCENT_BLOCKS ))
     
+    echo ""
     echo "server.log tail"
     tail -n 5 server.log 
-
     get_heights
-
+    
 done
+
+kill $pid > /dev/null 2>&1
