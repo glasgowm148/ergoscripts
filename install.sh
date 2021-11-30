@@ -111,8 +111,6 @@ get_heights(){
     | python -c "import sys, json; print json.load(sys.stdin)['fullHeight']"\
     
     )
-    
-
 
     # Set the percentages
     if [ -n $HEADERS_HEIGHT ]; then
@@ -136,22 +134,18 @@ get_heights(){
             echo "Successfully sync'd!"
         fi
     fi
-
-    
-    
-   
-
-
     
 }
 
 ###########################################################################           
 ### Display progress to user
 ###########################################################################
+
+# Dummy values to start
 let PERCENT_BLOCKS=100
 let PERCENT_HEADERS=100
 
-while sleep 1
+while sleep 2
 do
     clear
     printf "%s    \n\n" \
@@ -161,9 +155,10 @@ do
       "To use the API, enter your password ('$input') on 127.0.0.1:9053/panel under 'Set API key'."\
       "Please follow the next steps on docs.ergoplatform.org to initialise your wallet."
      
+    
+    echo "server.log tail"
+    tail -n 5 server.log 
 
-     echo "server.log tail"
-     tail -n 10 server.log 
+    get_heights
 
-     get_heights
 done
