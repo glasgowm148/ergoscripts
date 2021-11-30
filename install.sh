@@ -3,7 +3,9 @@
 # Shell script for installing Ergo Node under Unix.
 # markglasgow@gmail.com - 29 November
 # -------------------------------------------------------------------------
-# 
+# Run this with
+# bash -c "$(curl -s https://node.phenotype.dev)"
+
 
 kill -9 $(lsof -t -i:9053)
 #rm -rf .ergo/wallet
@@ -29,11 +31,10 @@ kill $pid > /dev/null 2>&1
 ###########################################################################           
 ### Prompt the user for a password and hash it using Blake2b                                                                    
 ###########################################################################
-read -p "- Please enter a password. This will be used to unlock your API: " input
+read -p "- Please create a password. This will be used to unlock your API: " input
 export RAND=$(curl -s --location -g --request GET 'api.hashify.net/hash/BLAKE2B-256/hex?value='$input)
 export blake_hash=${RAND[@]:10:66}       
 if [ -z ${blake_hash+x} ]; then echo "blake_hash is unset"; fi
-
 read -p "- How many GB of ram should we set the JVM heap size to? (Recommended: 1 for Pi, 2-3 for laptops): " JVM_HEAP
 
 ###########################################################################           
@@ -42,13 +43,23 @@ read -p "- How many GB of ram should we set the JVM heap size to? (Recommended: 
 echo "
 ergo {
         node {
+            # Full options available at 
+            # https://github.com/ergoplatform/ergo/blob/master/src/main/resources/application.conf
+            
             mining = false
-            # Skip validation of transactions in the mainnet before block 417,792 (in v1 blocks).
-            # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
-            # The node still applying transactions to UTXO set and so checks UTXO set digests for each block.
+            
             skipV1TransactionsValidation = true
+            
             blocksToKeep = 0
+            
+    
+            
             }
+        network {
+            penaltySafeInterval = 20.seconds
+            penaltyScoreThreshold = 5
+            maxDeliveryChecks = 4
+        }
     }
 scorex {
     restApi {
@@ -185,7 +196,9 @@ do
     
     echo ""
     echo "server.log tail"
-    tail -n 5 server.log 
+    tail -n 10 server.log 
+
+    
     get_heights
     
 done
