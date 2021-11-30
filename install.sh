@@ -51,13 +51,12 @@ ergo {
             skipV1TransactionsValidation = true
             
             blocksToKeep = 0
-            
-    
-            
+
             }
         network {
-            penaltySafeInterval = 20.seconds
-            penaltyScoreThreshold = 5
+
+            penaltySafeInterval = 1m
+            penaltyScoreThreshold = 10
             maxDeliveryChecks = 4
         }
     }
