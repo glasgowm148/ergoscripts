@@ -100,7 +100,8 @@ progressbar()
 ###########################################################################
 
 export JVM_HEAP_SIZE="-Xmx${JVM_HEAP}g"
-java -jar -Djava.util.logging.config.file=logging.properties  $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
+#-Djava.util.logging.config.file=logging.properties
+java -jar   $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
 
 echo "- Starting the server"
 while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.'; done;  # wait for node be ready with progress bar
