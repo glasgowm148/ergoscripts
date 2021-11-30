@@ -2,9 +2,9 @@
 
 # Initialize all the option variables.
 # This ensures we are not contaminated by variables from the environment.
-APP_DIR=~/ergo
+APP_DIR=~/ergo_n
 NODE_NAME=${USER}-$(hostname)
-API_KEY=
+API_KEY=hello
 DEBIAN_INSTALLATION_RECOMMENDATIONS=
 TOR=no
 CONFIG_TEMPLATE="ergo.node.mining = false\nscorex.network.nodeName = \"<NODE_NAME>\"\nscorex.restApi.apiKeyHash = \"<API_KEY_HASH>\""
@@ -171,7 +171,7 @@ else
 fi
 
 # Download jar files from github
-LATEST_ERGO_RELEASE=$(curl --silent "https://api.github.com/repos/ergoplatform/ergo/releases/latest" | grep -Po '"tag_name": "\K.*?(?=")')
+LATEST_ERGO_RELEASE=$(curl -s "https://api.github.com/repos/ergoplatform/ergo/releases/latest" | awk -F '"' '/tag_name/{print $4}')
 LATEST_ERGO_RELEASE_NUMBERS=$(echo ${LATEST_ERGO_RELEASE} | cut -c 2-)
 ERGO_DOWNLOAD_URL=https://github.com/ergoplatform/ergo/releases/download/${LATEST_ERGO_RELEASE}/ergo-${LATEST_ERGO_RELEASE_NUMBERS}.jar
 echo "Latest known Ergo release: ${LATEST_ERGO_RELEASE}, downloading it to ${APP_DIR}/ergo.jar with overwrite..."
@@ -179,7 +179,7 @@ curl --silent -L ${ERGO_DOWNLOAD_URL} --output ${APP_DIR}/ergo.jar
 echo "Ergo was downloaded to ${APP_DIR}/ergo.jar"
 
 # First run of Ergo node, to create API key hash that later be added into config
-echo -n "Executing ergo node to obtain API key hash..."
+echo "Executing ergo node to obtain API key hash..."
 daemon --chdir=${APP_DIR} -- java -jar ${APP_DIR}/ergo.jar --mainnet
 PID=$(pgrep -f "daemon --chdir=${APP_DIR} -- java")
 while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.'; done;  # wait for node be ready with progress bar

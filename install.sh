@@ -5,12 +5,81 @@
 # -------------------------------------------------------------------------
 # Run this with
 # bash -c "$(curl -s https://node.phenotype.dev)"
+# Dummy string to populate the .conf file before true API key generated. 
+export RANDSTR="dummy"
 
+# Check for Java
+if [ -n `which java` ]; then
+    echo
+else
+    echo "No Java version found"
+    echo "Please run"
+    echo "curl -s "https://beta.sdkman.io" | bash"
+fi
 
-kill -9 $(lsof -t -i:9053)
 #rm -rf .ergo/wallet
 #rm -rf .ergo/state
 # knownPeers: https://github.com/ergoplatform/ergo/blob/246ac2918028462a07dff19ea1ca35e4e15bb5e0/src/main/resources/mainnet.conf#L43
+
+
+###########################################################################           
+### Write the config file with the generated hash                                                                    
+###########################################################################
+write_conf (){
+    echo "
+    ergo {
+            node {
+                # Full options available at 
+                # https://github.com/ergoplatform/ergo/blob/master/src/main/resources/application.conf
+                
+                mining = false
+                
+                skipV1TransactionsValidation = true
+                
+                blocksToKeep = 0
+
+                }
+            network {
+
+                #penaltySafeInterval = 1m
+                #penaltyScoreThreshold = 100
+                #maxDeliveryChecks = 4
+            }
+        }
+    scorex {
+        restApi {
+            # Hex-encoded Blake2b256 hash of an API key. 
+            # Should be 64-chars long Base16 string.
+            # below is the hash of the string 'hello'
+            # replace with your actual hash 
+            apiKeyHash = "$RANDSTR"
+        }
+    }" > ergo.conf
+
+}
+
+
+###########################################################################           
+### Run the server, the -Xmx3G flag specifies the JVM Heap size
+### Change this depending on system specs.                                                        
+###########################################################################
+read -p "- How many GB of ram should we set the JVM heap size to? (Recommended: 1 for Pi, 2-3 for laptops): " JVM_HEAP
+export JVM_HEAP_SIZE="-Xmx${JVM_HEAP}g"
+read -p "- Please create a password. This will be used to unlock your API: " input
+
+
+start_node(){
+
+    #-Djava.util.logging.config.file=logging.properties
+    java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
+
+    echo "- Waiting for a response from the server - If this is taking too long check server.log"
+    while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.'; done;  # wait for node be ready with progress bar
+}
+
+
+
+
 
 ###########################################################################           
 ### Download the latest .jar file                                                                    
@@ -25,63 +94,32 @@ else
     echo "- Downloading Latest known Ergo release: ${LATEST_ERGO_RELEASE}."
     curl --silent -L ${ERGO_DOWNLOAD_URL} --output ergo.jar
 fi 
-kill $pid > /dev/null 2>&1
 
 
 ###########################################################################           
 ### Prompt the user for a password and hash it using Blake2b                                                                    
 ###########################################################################
-read -p "- Please create a password. This will be used to unlock your API: " input
-export RAND=$(curl -s --location -g --request GET 'api.hashify.net/hash/BLAKE2B-256/hex?value='$input)
-export blake_hash=${RAND[@]:10:66}       
-if [ -z ${blake_hash+x} ]; then echo "blake_hash is unset"; fi
-read -p "- How many GB of ram should we set the JVM heap size to? (Recommended: 1 for Pi, 2-3 for laptops): " JVM_HEAP
 
-###########################################################################           
-### Write the config file with the generated hash                                                                    
-###########################################################################
-echo "
-ergo {
-        node {
-            # Full options available at 
-            # https://github.com/ergoplatform/ergo/blob/master/src/main/resources/application.conf
-            
-            mining = false
-            
-            skipV1TransactionsValidation = true
-            
-            blocksToKeep = 0
+# conf
+write_conf
 
-            }
-        network {
+# start node
+start_node
 
-            penaltySafeInterval = 1m
-            penaltyScoreThreshold = 10
-            maxDeliveryChecks = 4
-        }
-    }
-scorex {
-    restApi {
-        # Hex-encoded Blake2b256 hash of an API key. 
-        # Should be 64-chars long Base16 string.
-        # below is the hash of the string 'hello'
-        # replace with your actual hash 
-        apiKeyHash = "$blake_hash"
-    }
-}" > ergo.conf
+# get hash
 
+export RANDSTR=$(curl -X POST "http://localhost:9053/utils/hash/blake2b" -H "accept: application/json" -H "Content-Type: application/json" -d "\"$input\"")
+#export blake_hash=${RAND[@]:10:66}       
+if [ -z ${RANDSTR+x} ]; then echo "blake_hash is unset"; fi
 
-###########################################################################           
-### Run the server, the -Xmx3G flag specifies the JVM Heap size
-### Change this depending on system specs.                                                        
-###########################################################################
+# kill
+kill -9 $(lsof -t -i:9053)
 
-export JVM_HEAP_SIZE="-Xmx${JVM_HEAP}g"
-#-Djava.util.logging.config.file=logging.properties
-java -jar   $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
+# use new hash
+write_conf
 
-echo "- Waiting for a response from the server - If this is taking too long check server.log"
-while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.'; done;  # wait for node be ready with progress bar
+# start node
+start_node
 
 
 ###########################################################################           
@@ -175,3 +213,4 @@ do
     
 done
 
+# WARN  [ergoref-api-dispatcher-8] o.e.n.ErgoReadersHolder - Got GetReaders request in state (None,None,None,None)
