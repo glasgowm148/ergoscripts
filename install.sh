@@ -7,21 +7,42 @@
 # bash -c "$(curl -s https://node.phenotype.dev)"
 # Dummy string to populate the .conf file before true API key generated. 
 export RANDSTR="dummy"
+rm server.log
 
-# Check for Java
-if [ -n `which java` ]; then
-    echo
-else
-    echo "No Java version found"
-    echo "Please run"
-    echo "curl -s "https://beta.sdkman.io" | bash"
-fi
+### Check OS
+# https://stackoverflow.com/questions/3466166/how-to-check-if-running-in-cygwin-mac-or-linux
+
+
+case "$(uname -s)" in
+
+   CYGWIN*|MINGW32*|MSYS*|MINGW*)
+     echo 'MS Windows'
+     netstat -ano | findstr :9053
+     taskkill /PID 9053 /F
+     ;;
+
+   # Add here more strings to compare
+   # See correspondence table at the bottom of this answer
+
+   *)
+     echo 'Other OS' 
+     if [ -n `which java` ]; then
+        echo 
+     else
+        echo "No Java version found"
+        echo "Please run"
+        echo "curl -s "https://beta.sdkman.io" | bash"
+     fi        
+     ;;
+esac
+
+
 
 #rm -rf .ergo/wallet
 #rm -rf .ergo/state
 # knownPeers: https://github.com/ergoplatform/ergo/blob/246ac2918028462a07dff19ea1ca35e4e15bb5e0/src/main/resources/mainnet.conf#L43
 
-
+# Ergo Node Interface behind NGINX : https://gist.github.com/joshp23/23fc49e3b1ed11efcac0082d2241314b
 ###########################################################################           
 ### Write the config file with the generated hash                                                                    
 ###########################################################################
@@ -63,9 +84,24 @@ write_conf (){
 ### Run the server, the -Xmx3G flag specifies the JVM Heap size
 ### Change this depending on system specs.                                                        
 ###########################################################################
-read -p "- How many GB of ram should we set the JVM heap size to? (Recommended: 1 for Pi, 2-3 for laptops): " JVM_HEAP
+read -p "
+#### How many GB of memory should we give the node? ####   
+
+This must be less than your total RAM size. 
+
+Recommended: 
+- 1 for Raspberry Pi
+- 2-3 for laptops
+
+" JVM_HEAP
 export JVM_HEAP_SIZE="-Xmx${JVM_HEAP}g"
-read -p "- Please create a password. This will be used to unlock your API: " input
+
+read -p "
+#### Please create a password. #### 
+
+This will be used to unlock your API. Generally using the same API key through the entire sync process can prevent 'Bad API Key' errors.
+
+" input
 
 
 start_node(){
@@ -73,7 +109,7 @@ start_node(){
     #-Djava.util.logging.config.file=logging.properties
     java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
 
-    echo "- Waiting for a response from the server - If this is taking too long check server.log"
+    echo "#### Waiting for a response from the server. If this is taking too long please check `server.log`"
     while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.'; done;  # wait for node be ready with progress bar
 }
 
@@ -161,9 +197,11 @@ get_heights(){
     )
 
     # Set the percentages
-    if [ -n $HEADERS_HEIGHT ]; then
+    if [ -n $HEADERS_HEIGHT ] || [$HEADERS_HEIGHT -ne 0]  ]; then
        # echo "api: $API_HEIGHT, hh:$HEADERS_HEIGHT"
-        let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   ))      
+       # ./install.sh: line 185: ( (631331 - ) * 100) / 631331   : syntax error: operand expected (error token is ") * 100) / 631331   ")
+        let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
+        echo "API:" $API_HEIGHT "HEADERS_HEIGHT:"  $HEADERS_HEIGHT "API_HEIGHT:"$API_HEIGHT
     fi
 
     if [ $HEIGHT -ne 0 ]; then
@@ -200,13 +238,14 @@ do
     
     
     printf "%s    \n\n" \
+        "To use the API, enter your password ('$input') on 127.0.0.1:9053/panel under 'Set API key'."\
+      "Please follow the next steps on docs.ergoplatform.org to initialise your wallet."  \
       "Sync Progress;"\
-      "- Headers: ~$(( 100 - $PERCENT_HEADERS ))% Complete ($HEADERS_HEIGHT/$API_HEIGHT)"\
-      "- Blocks:  ~$(( 100 - $PERCENT_BLOCKS ))% Complete ($HEIGHT/$API_HEIGHT)"\
-      "To use the API, enter your password ('$input') on 127.0.0.1:9053/panel under 'Set API key'."\
-      "Please follow the next steps on docs.ergoplatform.org to initialise your wallet."  
+      "### Headers: ~$(( 100 - $PERCENT_HEADERS ))% Complete ($HEADERS_HEIGHT/$API_HEIGHT) ### "\
+      "### Blocks:  ~$(( 100 - $PERCENT_BLOCKS ))% Complete ($HEIGHT/$API_HEIGHT) ### "
+      
     echo ""
-    echo "server.log tail"
+    echo "The ten most recent lines from `server.log` will be shown here:"
     tail -n 10 server.log 
 
     get_heights
