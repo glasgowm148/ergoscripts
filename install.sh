@@ -109,7 +109,7 @@ start_node(){
     #-Djava.util.logging.config.file=logging.properties
     java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
 
-    echo "#### Waiting for a response from the server. If this is taking too long please check `server.log`"
+    echo "#### Waiting for a response from the server. If this is taking too long please check server.log"
     while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.'; done;  # wait for node be ready with progress bar
 }
 
@@ -245,7 +245,7 @@ do
       "### Blocks:  ~$(( 100 - $PERCENT_BLOCKS ))% Complete ($HEIGHT/$API_HEIGHT) ### "
       
     echo ""
-    echo "The ten most recent lines from `server.log` will be shown here:"
+    echo "The ten most recent lines from server.log will be shown here:"
     tail -n 10 server.log 
 
     get_heights
