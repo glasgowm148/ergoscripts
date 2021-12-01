@@ -206,6 +206,7 @@ get_heights(){
 
     if [ $HEIGHT -ne 0 ]; then
         let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
+        echo "API:" $API_HEIGHT "HEIGHT:"  $HEIGHT "API_HEIGHT:"$API_HEIGHT
     fi
 
     # Compare against the 'fullHeight' JSON component
