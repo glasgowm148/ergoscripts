@@ -258,13 +258,15 @@ do
     echo "The ten most recent lines from server.log will be shown here:"
     tail -n 10 server.log 
 
-    ERROR_NONE=$(tail -n 10 server.log | grep "(None,None,None,None)")
-    ERROR_LOCK=$(tail -n 10 server.log | grep "peers/LOCK")
+    #ERROR_NONE=$(tail -n 10 server.log | grep "(None,None,None,None)")
+    #ERROR_LOCK=$(tail -n 10 server.log | grep "peers/LOCK")
+    ERROR=$(tail -n 10 server.log | grep "ERROR")
 
-    if $ERROR_NONE || $ERROR_LOCK ; then
+    if $ERROR ; then
         echo 
     else
-        echo "ERROR:" $ERROR_NONE
+        echo "ERROR:" $ERROR
+        echo "$ERROR" >> error.log
     fi
     get_heights
     
