@@ -189,20 +189,18 @@ get_heights(){
 
     HEADERS_HEIGHT=$(\
         curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
-        | python -c "import sys, json; print json.load(sys.stdin)['headersHeight']"\
+        | python -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
     )
     #echo "Current header height: $HEADERS_HEIGHT"
 
     HEIGHT=$(\
     curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-    | python -c "import sys, json; print json.load(sys.stdin)['parameters']['height']"\
-    
+    | python -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
     )
     
     FULL_HEIGHT=$(\
     curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-    | python -c "import sys, json; print json.load(sys.stdin)['fullHeight']"\
-    
+    | python -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
     )
 
     # Set the percentages
