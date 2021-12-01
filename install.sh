@@ -63,9 +63,9 @@ write_conf (){
                 
                 mining = false
                 
-                skipV1TransactionsValidation = true
+                #skipV1TransactionsValidation = true
                 
-                blocksToKeep = 0
+                #blocksToKeep = 0
 
                 }
             network {
