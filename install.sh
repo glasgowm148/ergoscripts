@@ -7,37 +7,45 @@
 # bash -c "$(curl -s https://node.phenotype.dev)"
 # Dummy string to populate the .conf file before true API key generated. 
 export RANDSTR="dummy"
-rm server.log
-
-### Check OS
-# https://stackoverflow.com/questions/3466166/how-to-check-if-running-in-cygwin-mac-or-linux
-
-
-case "$(uname -s)" in
-
-   CYGWIN*|MINGW32*|MSYS*|MINGW*)
-     echo 'MS Windows'
-     netstat -ano | findstr :9053
-     taskkill /PID 9053 /F
-     ;;
-
-   # Add here more strings to compare
-   # See correspondence table at the bottom of this answer
-
-   *)
-     echo 'Other OS' 
-     if [ -n `which java` ]; then
-        echo 
-     else
-        echo "No Java version found"
-        echo "Please run"
-        echo "curl -s "https://beta.sdkman.io" | bash"
-     fi        
-     ;;
-esac
 
 
 
+
+###########################################################################           
+### Write the config file with the generated hash                                                                    
+###########################################################################
+serial_killer(){
+    case "$(uname -s)" in
+
+    CYGWIN*|MINGW32*|MSYS*|MINGW*)
+        echo 'MS Windows'
+        netstat -ano | findstr :9053
+        taskkill /PID 9053 /F
+        ;;
+
+    # Add here more strings to compare
+    # See correspondence table at the bottom of this answer
+
+    *)
+        #echo 'Other OS' 
+        kill -9 $(lsof -t -i:9053)
+        ;;
+    esac
+
+}
+
+serial_killer # Call it once at the start to kill any hanging processes
+rm server.log # remove the log file on each run so it doesn't become useless.
+###########################################################################           
+
+
+ if [ -n `which java` ]; then
+    echo 
+else
+    echo "No Java version found"
+    echo "Please run"
+    echo "curl -s "https://beta.sdkman.io" | bash"
+fi        
 #rm -rf .ergo/wallet
 #rm -rf .ergo/state
 # knownPeers: https://github.com/ergoplatform/ergo/blob/246ac2918028462a07dff19ea1ca35e4e15bb5e0/src/main/resources/mainnet.conf#L43
@@ -121,7 +129,8 @@ start_node(){
 ### Download the latest .jar file                                                                    
 ###########################################################################
 if [ -e *.jar ]; then 
-    echo "- Node .jar is already downloaded"
+    echo
+    #echo "- Node .jar is already downloaded"
 else
     echo "- Retrieving latest node release.."
     LATEST_ERGO_RELEASE=$(curl -s "https://api.github.com/repos/ergoplatform/ergo/releases/latest" | awk -F '"' '/tag_name/{print $4}')
@@ -144,12 +153,12 @@ start_node
 
 # get hash
 
-export RANDSTR=$(curl -X POST "http://localhost:9053/utils/hash/blake2b" -H "accept: application/json" -H "Content-Type: application/json" -d "\"$input\"")
+export RANDSTR=$(curl --silent -X POST "http://localhost:9053/utils/hash/blake2b" -H "accept: application/json" -H "Content-Type: application/json" -d "\"$input\"")
 #export blake_hash=${RAND[@]:10:66}       
 if [ -z ${RANDSTR+x} ]; then echo "blake_hash is unset"; fi
 
 # kill
-kill -9 $(lsof -t -i:9053)
+serial_killer
 
 # use new hash
 write_conf
@@ -201,12 +210,12 @@ get_heights(){
        # echo "api: $API_HEIGHT, hh:$HEADERS_HEIGHT"
        # ./install.sh: line 185: ( (631331 - ) * 100) / 631331   : syntax error: operand expected (error token is ") * 100) / 631331   ")
         let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
-        echo "API:" $API_HEIGHT "HEADERS_HEIGHT:"  $HEADERS_HEIGHT "API_HEIGHT:"$API_HEIGHT
+        echo "1. API:" $API_HEIGHT "HEADERS_HEIGHT:"  $HEADERS_HEIGHT "HEIGHT:"  $HEIGHT 
     fi
 
     if [ $HEIGHT -ne 0 ]; then
         let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
-        echo "API:" $API_HEIGHT "HEIGHT:"  $HEIGHT "API_HEIGHT:"$API_HEIGHT
+        echo "2. API:" $API_HEIGHT "HEIGHT:"  $HEIGHT "HEADERS_HEIGHT:"  $HEADERS_HEIGH
     fi
 
     # Compare against the 'fullHeight' JSON component
@@ -249,8 +258,17 @@ do
     echo "The ten most recent lines from server.log will be shown here:"
     tail -n 10 server.log 
 
+    ERROR_NONE=$(tail -n 10 server.log | grep "(None,None,None,None)")
+    ERROR_LOCK=$(tail -n 10 server.log | grep "peers/LOCK")
+
+    if $ERROR_NONE || $ERROR_LOCK ; then
+        echo 
+    else
+        echo "ERROR:" $ERROR_NONE
+    fi
     get_heights
     
 done
 
 # WARN  [ergoref-api-dispatcher-8] o.e.n.ErgoReadersHolder - Got GetReaders request in state (None,None,None,None)
+# https://stackoverflow.com/questions/3466166/how-to-check-if-running-in-cygwin-mac-or-linux
