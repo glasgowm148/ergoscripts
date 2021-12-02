@@ -162,9 +162,8 @@ start_node(){
 
 error_log(){
     
-    ERROR=$(tail -n 10 server.log | grep 'ERROR\|WARN') 
-
-    if $ERROR; then
+    ERROR=$(tail -n 1 server.log | grep 'ERROR\|WARN') 
+    if [ -z "$ERROR" ]; then
         echo 
     else
         echo "ERROR:" $ERROR
@@ -253,7 +252,7 @@ get_heights(){
     )
 
     # Set the percentages
-    if [ -n $HEADERS_HEIGHT ] || [$HEADERS_HEIGHT -ne 0]  ]; then
+    if [ -n "$HEADERS_HEIGHT" ] || [ "$HEADERS_HEIGHT" -ne 0]  ]; then
        # echo "api: $API_HEIGHT, hh:$HEADERS_HEIGHT"
        # ./install.sh: line 185: ( (631331 - ) * 100) / 631331   : syntax error: operand expected (error token is ") * 100) / 631331   ")
        echo "1. API:" $API_HEIGHT "HEADERS_HEIGHT:"  $HEADERS_HEIGHT "HEIGHT:"  $HEIGHT 
@@ -261,15 +260,15 @@ get_heights(){
         
     fi
 
-    if [ $HEIGHT -ne 0 ]; then
+    if [ "$HEIGHT" -ne 0 ]; then
         let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
         echo "2. API:" $API_HEIGHT "HEIGHT:"  $HEIGHT "HEADERS_HEIGHT:"  $HEADERS_HEIGH
     fi
 
     # Compare against the 'fullHeight' JSON component
-    if [ -z $FULL_HEIGHT ]; then
+    if [ -z "$FULL_HEIGHT" ]; then
         echo "Full height is $FULL_HEIGHT"
-        if [$FULL_HEIGHT -ne $API_HEIGHT ]; then
+        if [ "$FULL_HEIGHT" -ne "$API_HEIGHT" ]; then
             echo "WARN - Full height and API height do not match!"
             echo "FULL_HEIGHT is $FULL_HEIGHT"
             echo "API_HEIGHT is $API_HEIGHT"
@@ -290,7 +289,7 @@ let PERCENT_BLOCKS=100
 let PERCENT_HEADERS=100
 
 
-while sleep 5
+while sleep 1
 do
     clear
     
@@ -305,8 +304,6 @@ do
     echo ""
     echo "The most recent lines from server.log will be shown here:"
     
-
-
     get_heights
     error_log
 
