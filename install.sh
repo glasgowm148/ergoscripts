@@ -95,6 +95,8 @@ write_conf (){
                 }
             network {
                 
+                #bindAddress = '0.0.0.0:9053'
+
                 # Misbehaving peer penalty score will not be increased withing this time interval,
                 # unless permanent penalty is applied
                 penaltySafeInterval = 1m
@@ -106,7 +108,7 @@ write_conf (){
                 # number of delivery attempts
                 maxDeliveryChecks = 2
             }
-        }
+        
     scorex {
         restApi {
             # Hex-encoded Blake2b256 hash of an API key. 
@@ -115,6 +117,7 @@ write_conf (){
             # replace with your actual hash 
             apiKeyHash = "$BLAKE_HASH"
         }
+    }
     }" > ergo.conf
 
 }
