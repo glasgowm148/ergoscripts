@@ -6,7 +6,16 @@
 # Run this with
 # bash -c "$(curl -s https://node.phenotype.dev)"
 # Dummy string to populate the .conf file before true API key generated. 
-export RANDSTR="dummy"
+export BLAKE_HASH="dummy"
+
+# Clean up error files if exist
+if [ -e *.log ]; then 
+    mv error.log error_backup.log
+    rm error.log
+    rm ergo.log
+    rm server.log # remove the log file on each run so it doesn't become useless.
+fi
+
 
 
 
@@ -35,7 +44,7 @@ serial_killer(){
 }
 
 serial_killer # Call it once at the start to kill any hanging processes
-rm server.log # remove the log file on each run so it doesn't become useless.
+
 ###########################################################################           
 
 
@@ -63,16 +72,39 @@ write_conf (){
                 
                 mining = false
                 
-                #skipV1TransactionsValidation = true
+                # Skip validation of transactions in the mainnet before block 417,792 (in v1 blocks).
+                # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
+                # The node still applying transactions to UTXO set and so checks UTXO set digests for each block.
+                # skipV1TransactionsValidation = true
                 
-                #blocksToKeep = 0
+                # Number of last blocks to keep with transactions and ADproofs, for all other blocks only header will be stored.
+                # Keep all blocks from genesis if negative
+                # blocksToKeep = 0
+
+                # State type.  Possible options are:
+                # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
+                # "digest" - keep state root hash only and validate transactions via ADProofs
+                # stateType = "digest"
+
+                # Download block transactions and verify them (requires BlocksToKeep == 0 if disabled)
+                # verifyTransactions = false
+
+                # Download PoPoW proof on node bootstrap
+                # PoPoWBootstrap = true
 
                 }
             network {
+                
+                # Misbehaving peer penalty score will not be increased withing this time interval,
+                # unless permanent penalty is applied
+                penaltySafeInterval = 1m
+                
+                # Max penalty score peer can accumulate before being banned
+                penaltyScoreThreshold = 100
 
-                #penaltySafeInterval = 1m
-                #penaltyScoreThreshold = 100
-                #maxDeliveryChecks = 4
+                # Max number of delivery checks. Stop expecting modifier (and penalize peer) if it was not delivered after that
+                # number of delivery attempts
+                maxDeliveryChecks = 2
             }
         }
     scorex {
@@ -81,7 +113,7 @@ write_conf (){
             # Should be 64-chars long Base16 string.
             # below is the hash of the string 'hello'
             # replace with your actual hash 
-            apiKeyHash = "$RANDSTR"
+            apiKeyHash = "$BLAKE_HASH"
         }
     }" > ergo.conf
 
@@ -92,17 +124,19 @@ write_conf (){
 ### Run the server, the -Xmx3G flag specifies the JVM Heap size
 ### Change this depending on system specs.                                                        
 ###########################################################################
-read -p "
-#### How many GB of memory should we give the node? ####   
+if [ -z $JVM_HEAP_SIZE ]; then
+    read -p "
+    #### How many GB of memory should we give the node? ####   
 
-This must be less than your total RAM size. 
+    This must be less than your total RAM size. 
 
-Recommended: 
-- 1 for Raspberry Pi
-- 2-3 for laptops
+    Recommended: 
+    - 1 for Raspberry Pi
+    - 2-3 for laptops
 
-" JVM_HEAP
-export JVM_HEAP_SIZE="-Xmx${JVM_HEAP}g"
+    " JVM_HEAP
+    export JVM_HEAP_SIZE="-Xmx${JVM_HEAP}g"
+fi 
 
 read -p "
 #### Please create a password. #### 
@@ -111,17 +145,29 @@ This will be used to unlock your API. Generally using the same API key through t
 
 " input
 
+export API_KEY=$input
 
 start_node(){
 
     #-Djava.util.logging.config.file=logging.properties
     java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
-
-    echo "#### Waiting for a response from the server. If this is taking too long please check server.log"
-    while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.'; done;  # wait for node be ready with progress bar
+    
+    echo "#### Waiting for a response from the server. ####"
+    while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.'; tail -n 1 server.log;  done;  # wait for node be ready with progress bar
+    error_log
 }
 
+error_log(){
+    
+    ERROR=$(tail -n 10 server.log | grep 'ERROR\|WARN') 
 
+    if $ERROR; then
+        echo 
+    else
+        echo "ERROR:" $ERROR
+        echo "$ERROR" >> error.log
+    fi
+}
 
 
 
@@ -153,9 +199,9 @@ start_node
 
 # get hash
 
-export RANDSTR=$(curl --silent -X POST "http://localhost:9053/utils/hash/blake2b" -H "accept: application/json" -H "Content-Type: application/json" -d "\"$input\"")
+export BLAKE_HASH=$(curl --silent -X POST "http://localhost:9053/utils/hash/blake2b" -H "accept: application/json" -H "Content-Type: application/json" -d "\"$input\"")
 #export blake_hash=${RAND[@]:10:66}       
-if [ -z ${RANDSTR+x} ]; then echo "blake_hash is unset"; fi
+if [ -z ${BLAKE_HASH+x} ]; then echo "blake_hash is unset"; fi
 
 # kill
 serial_killer
@@ -207,8 +253,9 @@ get_heights(){
     if [ -n $HEADERS_HEIGHT ] || [$HEADERS_HEIGHT -ne 0]  ]; then
        # echo "api: $API_HEIGHT, hh:$HEADERS_HEIGHT"
        # ./install.sh: line 185: ( (631331 - ) * 100) / 631331   : syntax error: operand expected (error token is ") * 100) / 631331   ")
+       echo "1. API:" $API_HEIGHT "HEADERS_HEIGHT:"  $HEADERS_HEIGHT "HEIGHT:"  $HEIGHT 
         let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
-        echo "1. API:" $API_HEIGHT "HEADERS_HEIGHT:"  $HEADERS_HEIGHT "HEIGHT:"  $HEIGHT 
+        
     fi
 
     if [ $HEIGHT -ne 0 ]; then
@@ -240,34 +287,26 @@ let PERCENT_BLOCKS=100
 let PERCENT_HEADERS=100
 
 
-while sleep 2
+while sleep 5
 do
     clear
     
     
     printf "%s    \n\n" \
-        "To use the API, enter your password ('$input') on 127.0.0.1:9053/panel under 'Set API key'."\
+      "To use the API, enter your password ('$input') on 127.0.0.1:9053/panel under 'Set API key'."\
       "Please follow the next steps on docs.ergoplatform.org to initialise your wallet."  \
       "Sync Progress;"\
       "### Headers: ~$(( 100 - $PERCENT_HEADERS ))% Complete ($HEADERS_HEIGHT/$API_HEIGHT) ### "\
       "### Blocks:  ~$(( 100 - $PERCENT_BLOCKS ))% Complete ($HEIGHT/$API_HEIGHT) ### "
       
     echo ""
-    echo "The ten most recent lines from server.log will be shown here:"
-    tail -n 10 server.log 
-
-    #ERROR_NONE=$(tail -n 10 server.log | grep "(None,None,None,None)")
-    #ERROR_LOCK=$(tail -n 10 server.log | grep "peers/LOCK")
-    ERROR=$(tail -n 10 server.log | grep "ERROR")
-
-    if $ERROR ; then
-        echo 
-    else
-        echo "ERROR:" $ERROR
-        echo "$ERROR" >> error.log
-    fi
-    get_heights
+    echo "The most recent lines from server.log will be shown here:"
     
+
+
+    get_heights
+    error_log
+
 done
 
 # WARN  [ergoref-api-dispatcher-8] o.e.n.ErgoReadersHolder - Got GetReaders request in state (None,None,None,None)

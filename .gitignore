@@ -4,3 +4,4 @@
 .ergo
 *.properties
 *.log.gz
+*.out
