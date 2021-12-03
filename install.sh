@@ -7,6 +7,8 @@
 # bash -c "$(curl -s https://node.phenotype.dev)"
 # Dummy string to populate the .conf file before true API key generated. 
 export BLAKE_HASH="dummy"
+WHAT_AM_I=$(uname -m)
+echo "$WHAT_AM_I"
 dt=$(date '+%d/%m/%Y %H:%M:%S');
 i=0
 # Clean up error files if exist
@@ -46,11 +48,12 @@ write_conf (){
                 # Skip validation of transactions in the mainnet before block 417,792 (in v1 blocks).
                 # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
                 # The node still applying transactions to UTXO set and so checks UTXO set digests for each block.
-                skipV1TransactionsValidation = true
+                #skipV1TransactionsValidation = true
                 
                 # Number of last blocks to keep with transactions and ADproofs, for all other blocks only header will be stored.
                 # Keep all blocks from genesis if negative
-                blocksToKeep = 0
+                # download and keep only ~4 days of full-blocks
+                # blocksToKeep = 2880
 
                 # State type.  Possible options are:
                 # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
@@ -58,10 +61,10 @@ write_conf (){
                 stateType = "digest"
 
                 # Download block transactions and verify them (requires BlocksToKeep == 0 if disabled)
-                verifyTransactions = false
+                #verifyTransactions = false
 
                 # Download PoPoW proof on node bootstrap
-                PoPoWBootstrap = true
+                #PoPoWBootstrap = true
 
                 }
             network {
@@ -91,6 +94,19 @@ write_conf (){
     }
     }" > ergo.conf
 
+}
+
+###########################################################################           
+### Starting the node                                                                  
+###########################################################################
+start_node(){
+
+    #-Djava.util.logging.config.file=logging.properties
+    java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
+    
+    echo "#### Waiting for a response from the server. ####"
+    while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.'; tail -n 1 server.log;  done;  # wait for node be ready with progress bar
+    error_log
 }
 
 ###########################################################################           
@@ -185,23 +201,10 @@ serial_killer(){
 
 
 
-###########################################################################           
 
 
 
 
-###########################################################################           
-### Starting the node                                                                  
-###########################################################################
-start_node(){
-
-    #-Djava.util.logging.config.file=logging.properties
-    java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
-    
-    echo "#### Waiting for a response from the server. ####"
-    while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.'; tail -n 1 server.log;  done;  # wait for node be ready with progress bar
-    error_log
-}
 
 
 ###########################################################################           
@@ -268,7 +271,17 @@ serial_killer # Call it once at the start to kill any hanging processes
 # Check for .log
 first_run
 
-
+#######################################
+# Get various heights
+# GLOBALS:
+#   A_STRING_PREFIX
+# ARGUMENTS:
+#   String to print
+# OUTPUTS:
+#   Write String to stdout
+# RETURN:
+#   0 if print succeeds, non-zero on error.
+#######################################
 
 
 ###########################################################################           
@@ -310,9 +323,8 @@ get_heights(){
 
     # Set the percentages [ -n "$HEADERS_HEIGHT" ] && 
     if [ $HEADERS_HEIGHT -ne 0 ]; then
-
+       
        # echo "api: $API_HEIGHT, hh:$HEADERS_HEIGHT"
-       # ./install.sh: line 185: ( (631331 - ) * 100) / 631331   : syntax error: operand expected (error token is ") * 100) / 631331   ")
        echo "API:" $API_HEIGHT "HEADERS_HEIGHT:" $HEADERS_HEIGHT "HEIGHT:"  $HEIGHT 
        let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
         
