@@ -347,7 +347,6 @@ get_heights(){
 
     # Set the percentages [ -n "$HEADERS_HEIGHT" ] && 
     if [ $HEADERS_HEIGHT -ne 0 ]; then
-       
        # echo "api: $API_HEIGHT, hh:$HEADERS_HEIGHT"
        echo "API:" $API_HEIGHT "HEADERS_HEIGHT:" $HEADERS_HEIGHT "HEIGHT:"  $HEIGHT 
        let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
@@ -364,34 +363,34 @@ get_heights(){
     ### The `fullHeight` field should only be set when the node is sync'd
     ### This checks that height against the reported API height and 
     ###########################################################################
-    if [ -n "$FULL_HEIGHT" ] && [ $FULL_HEIGHT -ne 0 ]; then
-        # echo $FULL_HEIGHT " != None"
-        echo
-        if [ $FULL_HEIGHT -ne $API_HEIGHT ]; then
-            echo "##### WARN - Full height and API height do not match! ##### "
-            echo "##### FULL_HEIGHT is $FULL_HEIGHT #####"
-            echo "##### API_HEIGHT is $API_HEIGHT #####"
-            echo "##### Writing my.log file and starting sync from scratch #####"
-            echo "##### Please check the .log files for further details #####"
-            echo "$dt - ERROR: MISSYNC - FULL_HEIGHT is $FULL_HEIGHT while API_HEIGHT is $API_HEIGHT" >> my.log
-            sleep 20
-            rm -rf .ergo 
+    #if [ -n "$FULL_HEIGHT" ] && [ $FULL_HEIGHT -ne 0 ]; then
+    #    # echo $FULL_HEIGHT " != None"
+    #    echo
+    #    if [ $FULL_HEIGHT -ne $API_HEIGHT ]; then
+    #        echo "##### WARN - Full height and API height do not match! ##### "
+    #        echo "##### FULL_HEIGHT is $FULL_HEIGHT #####"
+    #        echo "##### API_HEIGHT is $API_HEIGHT #####"
+    #        echo "##### Writing my.log file and starting sync from scratch #####"
+    #        echo "##### Please check the .log files for further details #####"
+    #        echo "$dt - ERROR: MISSYNC - FULL_HEIGHT is $FULL_HEIGHT while API_HEIGHT is $API_HEIGHT" >> my.log
+    #        sleep 20
+    #        #rm -rf .ergo 
             
             # kill
-            serial_killer
+    #        serial_killer
             
             # start node
-            start_node
+    #        start_node
 
-        else
-            echo "$FULL_HEIGHT ne to $API_HEIGHT"
-            echo "Successfully sync'd!"
-            sleep 60
-        fi
-    else
-        echo
+    #   else
+    #        echo "$FULL_HEIGHT ne to $API_HEIGHT"
+    #        echo "Successfully sync'd!"
+    #        sleep 60
+    #    fi
+    #else
+    #    echo
         #echo "fullheight is $FULL_HEIGHT" #0
-    fi
+    # fi
 
    
     
