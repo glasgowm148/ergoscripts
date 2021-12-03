@@ -2,6 +2,8 @@
 
 ## When attempting to run a second instance
 
+Missing a nullcheck?
+
 ```
 ./install.sh: line 323: [: -ne: unary operator expected
 ./install.sh: line 314: [: -ne: unary operator expected

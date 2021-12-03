@@ -9,8 +9,26 @@
 export BLAKE_HASH="dummy"
 WHAT_AM_I=$(uname -m)
 echo "$WHAT_AM_I"
+pyv="$(python -V 2>&1)"
+echo "$pyv"
+
+if ! hash python; then
+    echo "python is not installed"
+    #exit 1
+fi
+
+ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
+echo "$ver"
+if [ "$ver" -gt "27" ]; then
+    echo ver:$ver
+    #echo "This script requires python 2.7 or lesser"
+    #exit 1
+fi
+
 dt=$(date '+%d/%m/%Y %H:%M:%S');
 i=0
+
+
 # Clean up error files if exist
 
 ###########################################################################           
@@ -303,11 +321,10 @@ python -mwebbrowser http://127.0.0.1:9053/panel
 ###########################################################################
 get_heights(){
     
-    API_HEIGHT==$(\
-        curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" \
-        | python -c "import sys, json; print json.load(sys.stdin)['height']"\
-    )
-    let API_HEIGHT=${API_HEIGHT#?}
+    API_HEIGHT2==$(\
+        curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
+    API_HEIGHT=${API_HEIGHT2:92:6}
+    #echo $API_HEIGHT
     
     #echo "Target height retrieved from API: $API_HEIGHT"
 
