@@ -188,6 +188,9 @@ serial_killer(){
         taskkill /PID 9053 /F
         ;;
 
+    armv*)
+      echo 'Pi'
+      ;;
     # Add here more strings to compare
     # See correspondence table at the bottom of this answer
 
