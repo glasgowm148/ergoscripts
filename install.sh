@@ -11,26 +11,10 @@ dt=$(date '+%d/%m/%Y %H:%M:%S');
 
 # Clean up error files if exist
 
-
-count=`ls -1 *.log 2>/dev/null | wc -l`
-if [ $count != 0 ]; then 
-    echo true
-    #mv error.log error_backup.log
-    #rm error.log
-    rm ergo.log
-    rm server.log # remove the log file on each run so it doesn't become useless.
-else
-    if [ -n `which java` ]; then
-        echo 
-    else
-        echo "No Java version found"
-        echo "Please run"
-        echo "curl -s "https://beta.sdkman.io" | bash"
-
-    ###########################################################################           
-    ### Run the server, the -Xmx3G flag specifies the JVM Heap size
-    ### Change this depending on system specs.                                                        
-    ###########################################################################
+###########################################################################           
+### Run the server, the -Xmx3G flag specifies the JVM Heap size
+###########################################################################
+INPUT_heap_size() {
     if [ -z $JVM_HEAP_SIZE ]; then
         read -p "
         #### How many GB of memory should we give the node? ####   
@@ -43,81 +27,10 @@ else
 
         " JVM_HEAP
         export JVM_HEAP_SIZE="-Xmx${JVM_HEAP}g"
+        echo "$JVM_HEAP_SIZE" > my.conf
     fi 
-
-    read -p "
-        #### Please create a password. #### 
-
-        This will be used to unlock your API. Generally using the same API key through the entire sync process can prevent 'Bad API Key' errors.
-
-        " input
-
-    export API_KEY=$input
-
-    ###########################################################################           
-    ### Download the latest .jar file                                                                    
-    ###########################################################################
-    if [ -e *.jar ]; then 
-        echo
-        #echo "- Node .jar is already downloaded"
-    else
-        echo "- Retrieving latest node release.."
-        LATEST_ERGO_RELEASE=$(curl -s "https://api.github.com/repos/ergoplatform/ergo/releases/latest" | awk -F '"' '/tag_name/{print $4}')
-        LATEST_ERGO_RELEASE_NUMBERS=$(echo ${LATEST_ERGO_RELEASE} | cut -c 2-)
-        ERGO_DOWNLOAD_URL=https://github.com/ergoplatform/ergo/releases/download/${LATEST_ERGO_RELEASE}/ergo-${LATEST_ERGO_RELEASE_NUMBERS}.jar
-        echo "- Downloading Latest known Ergo release: ${LATEST_ERGO_RELEASE}."
-        curl --silent -L ${ERGO_DOWNLOAD_URL} --output ergo.jar
-    fi 
-
-
-    ###########################################################################           
-    ### Prompt the user for a password and hash it using Blake2b                                                                    
-    ###########################################################################
-
-    # conf
-    write_conf
-
-fi   
-fi 
-
-
-
-
-
-###########################################################################           
-### Write the config file with the generated hash                                                                    
-###########################################################################
-serial_killer(){
-    case "$(uname -s)" in
-
-    CYGWIN*|MINGW32*|MSYS*|MINGW*)
-        echo 'MS Windows'
-        netstat -ano | findstr :9053
-        taskkill /PID 9053 /F
-        ;;
-
-    # Add here more strings to compare
-    # See correspondence table at the bottom of this answer
-
-    *)
-        #echo 'Other OS' 
-        kill -9 $(lsof -t -i:9053)
-        ;;
-    esac
-
 }
 
-serial_killer # Call it once at the start to kill any hanging processes
-
-###########################################################################           
-
-
-     
-#rm -rf .ergo/wallet
-#rm -rf .ergo/state
-# knownPeers: https://github.com/ergoplatform/ergo/blob/246ac2918028462a07dff19ea1ca35e4e15bb5e0/src/main/resources/mainnet.conf#L43
-
-# Ergo Node Interface behind NGINX : https://gist.github.com/joshp23/23fc49e3b1ed11efcac0082d2241314b
 ###########################################################################           
 ### Write the config file with the generated hash                                                                    
 ###########################################################################
@@ -180,8 +93,106 @@ write_conf (){
 
 }
 
+###########################################################################           
+### Check for .log files to see if this is the first run
+###########################################################################
+first_run() {
+    count=`ls -1 *.log 2>/dev/null | wc -l`
+    if [ $count != 0 ]; then 
+        #echo true
+        #mv error.log error_backup.log
+        #rm error.log
+        rm ergo.log
+        rm server.log # remove the log file on each run so it doesn't become useless.
+        JVM_HEAP_SIZE=$(cat "my.conf")
+        echo $JVM_HEAP_SIZE
+        start_node
+    else # If no .log file - we assume first run
+        if [ -n `which java` ]; 
+            then
+                echo 
+            else
+                echo "No Java version found"
+                echo "Please run"
+                echo "curl -s "https://beta.sdkman.io" | bash"
+        fi
+
+        INPUT_heap_size 
+
+        read -p "
+            #### Please create a password. #### 
+
+            This will be used to unlock your API. Generally using the same API key through the entire sync process can prevent 'Bad API Key' errors.
+
+            " input
+
+        export API_KEY=$input
+
+        ###########################################################################           
+        ### Download the latest .jar file                                                                    
+        ###########################################################################
+        if [ -e *.jar ]; 
+        then 
+            echo
+            #echo "- Node .jar is already downloaded"
+        else
+            echo "- Retrieving latest node release.."
+            LATEST_ERGO_RELEASE=$(curl -s "https://api.github.com/repos/ergoplatform/ergo/releases/latest" | awk -F '"' '/tag_name/{print $4}')
+            LATEST_ERGO_RELEASE_NUMBERS=$(echo ${LATEST_ERGO_RELEASE} | cut -c 2-)
+            ERGO_DOWNLOAD_URL=https://github.com/ergoplatform/ergo/releases/download/${LATEST_ERGO_RELEASE}/ergo-${LATEST_ERGO_RELEASE_NUMBERS}.jar
+            echo "- Downloading Latest known Ergo release: ${LATEST_ERGO_RELEASE}."
+            curl --silent -L ${ERGO_DOWNLOAD_URL} --output ergo.jar
+        fi 
 
 
+        ###########################################################################           
+        ### Prompt the user for a password and hash it using Blake2b                                                                    
+        ###########################################################################
+
+        # Write basic conf
+        write_conf
+
+        # Set the API key
+        API_getter_setter
+
+    fi 
+
+}
+
+
+###########################################################################           
+### Write the config file with the generated hash                                                                    
+###########################################################################
+serial_killer(){
+    case "$(uname -s)" in
+
+    CYGWIN*|MINGW32*|MSYS*|MINGW*)
+        echo 'MS Windows'
+        netstat -ano | findstr :9053
+        taskkill /PID 9053 /F
+        ;;
+
+    # Add here more strings to compare
+    # See correspondence table at the bottom of this answer
+
+    *)
+        #echo 'Other OS' 
+        kill -9 $(lsof -t -i:9053)
+        ;;
+    esac
+
+}
+
+serial_killer # Call it once at the start to kill any hanging processes
+
+###########################################################################           
+
+
+
+
+###########################################################################           
+### Starting the node                                                                  
+###########################################################################
 start_node(){
 
     #-Djava.util.logging.config.file=logging.properties
@@ -192,6 +203,10 @@ start_node(){
     error_log
 }
 
+
+###########################################################################           
+### Export ERROR/WARN only to error.log                                                                 
+###########################################################################
 error_log(){
     
     ERROR=$(tail -n 5 server.log | grep 'ERROR\|WARN') 
@@ -204,26 +219,36 @@ error_log(){
 }
 
 
+###########################################################################           
+### Get & Set API key                                                                
+###########################################################################
+API_getter_setter(){
+    start_node
+
+    if [ -z ${BLAKE_HASH+x} ]; then 
+        #echo "blake_hash is unset";
+        export BLAKE_HASH=$(curl --silent -X POST "http://localhost:9053/utils/hash/blake2b" -H "accept: application/json" -H "Content-Type: application/json" -d "\"$input\"")
+    fi
+
+    serial_killer
+
+    write_conf
+
+    start_node
+
+}
+
+###########################################################################
+###########################################################################           
+### main()   
+### 
+###########################################################################
+###########################################################################
+
+# Check for .log
+first_run
 
 
-
-# start node
-start_node
-
-# get hash
-
-export BLAKE_HASH=$(curl --silent -X POST "http://localhost:9053/utils/hash/blake2b" -H "accept: application/json" -H "Content-Type: application/json" -d "\"$input\"")
-#export blake_hash=${RAND[@]:10:66}       
-if [ -z ${BLAKE_HASH+x} ]; then echo "blake_hash is unset"; fi
-
-# kill
-serial_killer
-
-# use new hash
-write_conf
-
-# start node
-start_node
 
 
 ###########################################################################           
@@ -261,7 +286,7 @@ get_heights(){
     curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
     | python -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
     )
-    echo "Full height is" $FULL_HEIGHT
+    echo "$FULL_HEIGHT:" $FULL_HEIGHT
 
     # Set the percentages
     if [ -n $HEADERS_HEIGHT ] || [ $HEADERS_HEIGHT -ne 0]  ]; then
