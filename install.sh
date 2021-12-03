@@ -63,6 +63,7 @@ write_conf (){
                 
                 mining = false
                 
+                ### there's light regime where the node is not storing UTXO set, and can validate only limited in length suffix of full blocks . Such nodes are running on Raspberry Pi with 0.5 GB given even.
                 # Skip validation of transactions in the mainnet before block 417,792 (in v1 blocks).
                 # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
                 # The node still applying transactions to UTXO set and so checks UTXO set digests for each block.
@@ -321,29 +322,56 @@ python -mwebbrowser http://127.0.0.1:9053/panel
 ###########################################################################
 get_heights(){
     
-    API_HEIGHT2==$(\
-        curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
-    API_HEIGHT=${API_HEIGHT2:92:6}
-    #echo $API_HEIGHT
-    
-    #echo "Target height retrieved from API: $API_HEIGHT"
+    if [ "$ver" -gt "27" ]; then
+        API_HEIGHT2==$(\
+            curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
+        API_HEIGHT=${API_HEIGHT2:92:6}
+        #echo $API_HEIGHT
+        
+        #echo "Target height retrieved from API: $API_HEIGHT"
 
-    HEADERS_HEIGHT=$(\
-        curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
-        | python -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
-    )
-    #echo "Current header height: $HEADERS_HEIGHT"
+        HEADERS_HEIGHT=$(\
+            curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
+            | python2 -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
+        )
+        #echo "Current header height: $HEADERS_HEIGHT"
 
-    HEIGHT=$(\
-    curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-    | python -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
-    )
-    
-    let FULL_HEIGHT=$(\
-    curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-    | python -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
-    )
-    echo "FULL_HEIGHT:" $FULL_HEIGHT
+        HEIGHT=$(\
+        curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+        | python2 -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
+        )
+        
+        let FULL_HEIGHT=$(\
+        curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+        | python2 -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
+        )
+        echo "FULL_HEIGHT:" $FULL_HEIGHT
+    else
+         API_HEIGHT2==$(\
+            curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
+        API_HEIGHT=${API_HEIGHT2:92:6}
+        #echo $API_HEIGHT
+        
+        #echo "Target height retrieved from API: $API_HEIGHT"
+
+        HEADERS_HEIGHT=$(\
+            curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
+            | python -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
+        )
+        #echo "Current header height: $HEADERS_HEIGHT"
+
+        HEIGHT=$(\
+        curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+        | python -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
+        )
+        
+        let FULL_HEIGHT=$(\
+        curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+        | python -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
+        )
+        echo "FULL_HEIGHT:" $FULL_HEIGHT
+    fi
+
 
     # Set the percentages [ -n "$HEADERS_HEIGHT" ] && 
     if [ $HEADERS_HEIGHT -ne 0 ]; then
@@ -357,44 +385,12 @@ get_heights(){
         let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
         echo "API:" $API_HEIGHT "HEIGHT:"  $HEIGHT 
     fi
-
+}
     
-    ###########################################################################           
-    ### The `fullHeight` field should only be set when the node is sync'd
-    ### This checks that height against the reported API height and 
-    ###########################################################################
-    #if [ -n "$FULL_HEIGHT" ] && [ $FULL_HEIGHT -ne 0 ]; then
-    #    # echo $FULL_HEIGHT " != None"
-    #    echo
-    #    if [ $FULL_HEIGHT -ne $API_HEIGHT ]; then
-    #        echo "##### WARN - Full height and API height do not match! ##### "
-    #        echo "##### FULL_HEIGHT is $FULL_HEIGHT #####"
-    #        echo "##### API_HEIGHT is $API_HEIGHT #####"
-    #        echo "##### Writing my.log file and starting sync from scratch #####"
-    #        echo "##### Please check the .log files for further details #####"
-    #        echo "$dt - ERROR: MISSYNC - FULL_HEIGHT is $FULL_HEIGHT while API_HEIGHT is $API_HEIGHT" >> my.log
-    #        sleep 20
-    #        #rm -rf .ergo 
-            
-            # kill
-    #        serial_killer
-            
-            # start node
-    #        start_node
 
-    #   else
-    #        echo "$FULL_HEIGHT ne to $API_HEIGHT"
-    #        echo "Successfully sync'd!"
-    #        sleep 60
-    #    fi
-    #else
-    #    echo
-        #echo "fullheight is $FULL_HEIGHT" #0
-    # fi
 
    
     
-}
 
 ###########################################################################           
 ### Display progress to user
