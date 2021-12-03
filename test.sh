@@ -1,20 +1,18 @@
 #!/bin/bash
 
-if [ -z $JVM_HEAP_SIZE ]; then
-    read -p "
-    #### How many GB of memory should we give the node? ####   
+while sleep 1
+    do
+    LINE=$(tail -n 1 height.log)
+    LINE1=${LINE:30:6}
+    echo "LINE1:" $LINE1
 
-    This must be less than your total RAM size. 
+    LINE_2=$(tail -n 1 height.log)
+    LINE2=${LINE2:30:6}
+    echo "LINE2:" $LINE2
 
-    Recommended: 
-    - 1 for Raspberry Pi
-    - 2-3 for laptops
-
-    " JVM_HEAP
-    export JVM_HEAP_SIZE="-Xmx${JVM_HEAP}g"
-    echo "$JVM_HEAP_SIZE"
-    echo "$JVM_HEAP_SIZE" > my.conf
-    
-    name=$(cat "my.conf")
-    echo "name:" $name
-fi 
+    if [ $LINE -ne $LINE2 ]; then
+        echo true
+        else
+        false
+    fi
+done

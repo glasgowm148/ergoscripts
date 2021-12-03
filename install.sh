@@ -8,7 +8,7 @@
 # Dummy string to populate the .conf file before true API key generated. 
 export BLAKE_HASH="dummy"
 dt=$(date '+%d/%m/%Y %H:%M:%S');
-
+i=0
 # Clean up error files if exist
 
 ###########################################################################           
@@ -183,7 +183,7 @@ serial_killer(){
 
 }
 
-serial_killer # Call it once at the start to kill any hanging processes
+
 
 ###########################################################################           
 
@@ -210,12 +210,30 @@ start_node(){
 error_log(){
     
     ERROR=$(tail -n 5 server.log | grep 'ERROR\|WARN') 
+    t_NONE=$(tail -n 5 server.log | grep 'Got GetReaders request in state (None,None,None,None)')
     if [ -z "$ERROR" ]; then
-        echo 
+        echo "INFO:" $ERROR
     else
-        echo "ERROR:" $ERROR
+        echo "WARN/ERROR:" $ERROR
         echo "$ERROR" >> error.log
     fi
+
+    if [ ! -z "$t_NONE" ]; then
+        echo i: $i
+        ((i=i+1)) 
+    else
+        echo #i: $i
+    fi
+
+    if [ $i -gt 10 ]; then
+        i=0
+        echo i: $i
+        serial_killer
+        start_node
+        
+    fi
+   
+    # if NoneNoneNone > 10x then kill/restart
 }
 
 
@@ -244,6 +262,8 @@ API_getter_setter(){
 ### 
 ###########################################################################
 ###########################################################################
+
+serial_killer # Call it once at the start to kill any hanging processes
 
 # Check for .log
 first_run
@@ -286,13 +306,14 @@ get_heights(){
     curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
     | python -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
     )
-    echo "$FULL_HEIGHT:" $FULL_HEIGHT
+    echo "FULL_HEIGHT:" $FULL_HEIGHT
 
-    # Set the percentages
-    if [ -n $HEADERS_HEIGHT ] || [ $HEADERS_HEIGHT -ne 0]  ]; then
+    # Set the percentages [ -n "$HEADERS_HEIGHT" ] && 
+    if [ $HEADERS_HEIGHT -ne 0 ]; then
+
        # echo "api: $API_HEIGHT, hh:$HEADERS_HEIGHT"
        # ./install.sh: line 185: ( (631331 - ) * 100) / 631331   : syntax error: operand expected (error token is ") * 100) / 631331   ")
-       echo "API:" $API_HEIGHT "HEADERS_HEIGHT:" $HEADERS_HEIGHT
+       echo "API:" $API_HEIGHT "HEADERS_HEIGHT:" $HEADERS_HEIGHT "HEIGHT:"  $HEIGHT 
        let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
         
     fi
@@ -363,7 +384,10 @@ do
       
     echo ""
     echo "The most recent lines from server.log will be shown here:"
-    
+
+    dt=$(date '+%d/%m/%Y %H:%M:%S');
+    echo "$dt: HEADERS: $HEADERS_HEIGHT, HEIGHT:$HEIGHT" >> height.log
+
     get_heights
     error_log
 
