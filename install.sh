@@ -218,6 +218,7 @@ error_log(){
         echo "$ERROR" >> error.log
     fi
 
+    ## Count the occurance of t_NONE and kill/restart if > 10
     if [ ! -z "$t_NONE" ]; then
         echo i: $i
         ((i=i+1)) 
@@ -232,8 +233,7 @@ error_log(){
         start_node
         
     fi
-   
-    # if NoneNoneNone > 10x then kill/restart
+
 }
 
 
