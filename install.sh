@@ -29,7 +29,7 @@ INPUT_heap_size() {
 
         " JVM_HEAP
         export JVM_HEAP_SIZE="-Xmx${JVM_HEAP}g"
-        echo "$JVM_HEAP_SIZE" > my.conf
+        echo "$JVM_HEAP_SIZE" > jvm.conf
     fi 
 }
 
@@ -120,8 +120,11 @@ first_run() {
         #rm error.log
         rm ergo.log
         rm server.log # remove the log file on each run so it doesn't become useless.
-        JVM_HEAP_SIZE=$(cat "my.conf")
+        JVM_HEAP_SIZE=$(cat "jvm.conf")
         echo $JVM_HEAP_SIZE
+
+        API_KEY=$(cat "api.conf")
+        echo $API_KEY
         start_node
     else # If no .log file - we assume first run
         if [ -n `which java` ]; 
@@ -143,7 +146,7 @@ first_run() {
             " input
 
         export API_KEY=$input
-
+        echo "$API_KEY" > api.conf
         ###########################################################################           
         ### Download the latest .jar file                                                                    
         ###########################################################################
@@ -169,7 +172,7 @@ first_run() {
         write_conf
 
         # Set the API key
-        API_getter_setter
+        start_and_hash
 
     fi 
 
@@ -216,7 +219,7 @@ serial_killer(){
 error_log(){
     
     ERROR=$(tail -n 5 server.log | grep 'ERROR\|WARN') 
-    t_NONE=$(tail -n 5 server.log | grep 'Got GetReaders request in state (None,None,None,None)')
+    t_NONE=$(tail -n 5 server.log | grep 'Got GetReaders request in state (None,None,None,None)\|port')
     if [ -z "$ERROR" ]; then
         echo "INFO:" $ERROR
     else
@@ -246,7 +249,7 @@ error_log(){
 ###########################################################################           
 ### Get & Set API key                                                                
 ###########################################################################
-API_getter_setter(){
+start_and_hash(){
     start_node
 
     if [ -z ${BLAKE_HASH+x} ]; then 
@@ -255,9 +258,10 @@ API_getter_setter(){
     fi
 
     serial_killer
-
+    sleep 2
     write_conf
-
+    sleep 2
+    
     start_node
 
 }
@@ -391,7 +395,7 @@ do
     
     
     printf "%s    \n\n" \
-      "To use the API, enter your password ('$input') on 127.0.0.1:9053/panel under 'Set API key'."\
+      "To use the API, enter your password ('$API_KEY') on 127.0.0.1:9053/panel under 'Set API key'."\
       "Please follow the next steps on docs.ergoplatform.org to initialise your wallet."  \
       "Sync Progress;"\
       "### Headers: ~$(( 100 - $PERCENT_HEADERS ))% Complete ($HEADERS_HEIGHT/$API_HEIGHT) ### "\
