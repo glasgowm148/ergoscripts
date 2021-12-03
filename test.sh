@@ -1,18 +1,17 @@
 #!/bin/bash
 
-while sleep 1
-    do
-    LINE=$(tail -n 1 height.log)
-    LINE1=${LINE:30:6}
-    echo "LINE1:" $LINE1
+API_HEIGHT==$(\
+        curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" \
+        | python -c "import sys, json; print json.load(sys.stdin)['height']"\
+    )
 
-    LINE_2=$(tail -n 1 height.log)
-    LINE2=${LINE2:30:6}
-    echo "LINE2:" $LINE2
+API_HEIGHT2==$(\
+        curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
 
-    if [ $LINE -ne $LINE2 ]; then
-        echo true
-        else
-        false
-    fi
-done
+#API_HEIGHT2=${API_HEIGHT2#?}
+
+#echo $API_HEIGHT2
+echo ""
+echo ${API_HEIGHT2:10}
+
+#for i in * ; do mv -- "$i" "${i:0:5}" ; done
