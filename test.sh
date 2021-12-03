@@ -1,10 +1,6 @@
+#!/bin/bash
 
-    
-
-if [ -e $ERROR ]; then
-    echo "b"
-else
-    echo "ERROR:" $ERROR
-    echo "$ERROR" >> test.log
-fi
-
+count=`ls -1 *.pog 2>/dev/null | wc -l`
+if [ $count != 0 ]; then 
+echo true
+fi 

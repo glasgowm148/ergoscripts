@@ -7,14 +7,78 @@
 # bash -c "$(curl -s https://node.phenotype.dev)"
 # Dummy string to populate the .conf file before true API key generated. 
 export BLAKE_HASH="dummy"
+dt=$(date '+%d/%m/%Y %H:%M:%S');
 
 # Clean up error files if exist
-if [ -e *.log ]; then 
-    mv error.log error_backup.log
-    rm error.log
+
+
+count=`ls -1 *.log 2>/dev/null | wc -l`
+if [ $count != 0 ]; then 
+    echo true
+    #mv error.log error_backup.log
+    #rm error.log
     rm ergo.log
     rm server.log # remove the log file on each run so it doesn't become useless.
-fi
+else
+    if [ -n `which java` ]; then
+        echo 
+    else
+        echo "No Java version found"
+        echo "Please run"
+        echo "curl -s "https://beta.sdkman.io" | bash"
+
+    ###########################################################################           
+    ### Run the server, the -Xmx3G flag specifies the JVM Heap size
+    ### Change this depending on system specs.                                                        
+    ###########################################################################
+    if [ -z $JVM_HEAP_SIZE ]; then
+        read -p "
+        #### How many GB of memory should we give the node? ####   
+
+        This must be less than your total RAM size. 
+
+        Recommended: 
+        - 1 for Raspberry Pi
+        - 2-3 for laptops
+
+        " JVM_HEAP
+        export JVM_HEAP_SIZE="-Xmx${JVM_HEAP}g"
+    fi 
+
+    read -p "
+        #### Please create a password. #### 
+
+        This will be used to unlock your API. Generally using the same API key through the entire sync process can prevent 'Bad API Key' errors.
+
+        " input
+
+    export API_KEY=$input
+
+    ###########################################################################           
+    ### Download the latest .jar file                                                                    
+    ###########################################################################
+    if [ -e *.jar ]; then 
+        echo
+        #echo "- Node .jar is already downloaded"
+    else
+        echo "- Retrieving latest node release.."
+        LATEST_ERGO_RELEASE=$(curl -s "https://api.github.com/repos/ergoplatform/ergo/releases/latest" | awk -F '"' '/tag_name/{print $4}')
+        LATEST_ERGO_RELEASE_NUMBERS=$(echo ${LATEST_ERGO_RELEASE} | cut -c 2-)
+        ERGO_DOWNLOAD_URL=https://github.com/ergoplatform/ergo/releases/download/${LATEST_ERGO_RELEASE}/ergo-${LATEST_ERGO_RELEASE_NUMBERS}.jar
+        echo "- Downloading Latest known Ergo release: ${LATEST_ERGO_RELEASE}."
+        curl --silent -L ${ERGO_DOWNLOAD_URL} --output ergo.jar
+    fi 
+
+
+    ###########################################################################           
+    ### Prompt the user for a password and hash it using Blake2b                                                                    
+    ###########################################################################
+
+    # conf
+    write_conf
+
+fi   
+fi 
 
 
 
@@ -48,13 +112,7 @@ serial_killer # Call it once at the start to kill any hanging processes
 ###########################################################################           
 
 
- if [ -n `which java` ]; then
-    echo 
-else
-    echo "No Java version found"
-    echo "Please run"
-    echo "curl -s "https://beta.sdkman.io" | bash"
-fi        
+     
 #rm -rf .ergo/wallet
 #rm -rf .ergo/state
 # knownPeers: https://github.com/ergoplatform/ergo/blob/246ac2918028462a07dff19ea1ca35e4e15bb5e0/src/main/resources/mainnet.conf#L43
@@ -75,22 +133,22 @@ write_conf (){
                 # Skip validation of transactions in the mainnet before block 417,792 (in v1 blocks).
                 # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
                 # The node still applying transactions to UTXO set and so checks UTXO set digests for each block.
-                # skipV1TransactionsValidation = true
+                skipV1TransactionsValidation = true
                 
                 # Number of last blocks to keep with transactions and ADproofs, for all other blocks only header will be stored.
                 # Keep all blocks from genesis if negative
-                # blocksToKeep = 0
+                blocksToKeep = 0
 
                 # State type.  Possible options are:
                 # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
                 # "digest" - keep state root hash only and validate transactions via ADProofs
-                # stateType = "digest"
+                stateType = "digest"
 
                 # Download block transactions and verify them (requires BlocksToKeep == 0 if disabled)
-                # verifyTransactions = false
+                verifyTransactions = false
 
                 # Download PoPoW proof on node bootstrap
-                # PoPoWBootstrap = true
+                PoPoWBootstrap = true
 
                 }
             network {
@@ -123,32 +181,6 @@ write_conf (){
 }
 
 
-###########################################################################           
-### Run the server, the -Xmx3G flag specifies the JVM Heap size
-### Change this depending on system specs.                                                        
-###########################################################################
-if [ -z $JVM_HEAP_SIZE ]; then
-    read -p "
-    #### How many GB of memory should we give the node? ####   
-
-    This must be less than your total RAM size. 
-
-    Recommended: 
-    - 1 for Raspberry Pi
-    - 2-3 for laptops
-
-    " JVM_HEAP
-    export JVM_HEAP_SIZE="-Xmx${JVM_HEAP}g"
-fi 
-
-read -p "
-#### Please create a password. #### 
-
-This will be used to unlock your API. Generally using the same API key through the entire sync process can prevent 'Bad API Key' errors.
-
-" input
-
-export API_KEY=$input
 
 start_node(){
 
@@ -162,7 +194,7 @@ start_node(){
 
 error_log(){
     
-    ERROR=$(tail -n 1 server.log | grep 'ERROR\|WARN') 
+    ERROR=$(tail -n 5 server.log | grep 'ERROR\|WARN') 
     if [ -z "$ERROR" ]; then
         echo 
     else
@@ -173,28 +205,7 @@ error_log(){
 
 
 
-###########################################################################           
-### Download the latest .jar file                                                                    
-###########################################################################
-if [ -e *.jar ]; then 
-    echo
-    #echo "- Node .jar is already downloaded"
-else
-    echo "- Retrieving latest node release.."
-    LATEST_ERGO_RELEASE=$(curl -s "https://api.github.com/repos/ergoplatform/ergo/releases/latest" | awk -F '"' '/tag_name/{print $4}')
-    LATEST_ERGO_RELEASE_NUMBERS=$(echo ${LATEST_ERGO_RELEASE} | cut -c 2-)
-    ERGO_DOWNLOAD_URL=https://github.com/ergoplatform/ergo/releases/download/${LATEST_ERGO_RELEASE}/ergo-${LATEST_ERGO_RELEASE_NUMBERS}.jar
-    echo "- Downloading Latest known Ergo release: ${LATEST_ERGO_RELEASE}."
-    curl --silent -L ${ERGO_DOWNLOAD_URL} --output ergo.jar
-fi 
 
-
-###########################################################################           
-### Prompt the user for a password and hash it using Blake2b                                                                    
-###########################################################################
-
-# conf
-write_conf
 
 # start node
 start_node
@@ -246,37 +257,61 @@ get_heights(){
     | python -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
     )
     
-    FULL_HEIGHT=$(\
+    let FULL_HEIGHT=$(\
     curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
     | python -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
     )
+    echo "Full height is" $FULL_HEIGHT
 
     # Set the percentages
-    if [ -n "$HEADERS_HEIGHT" ] || [ "$HEADERS_HEIGHT" -ne 0]  ]; then
+    if [ -n $HEADERS_HEIGHT ] || [ $HEADERS_HEIGHT -ne 0]  ]; then
        # echo "api: $API_HEIGHT, hh:$HEADERS_HEIGHT"
        # ./install.sh: line 185: ( (631331 - ) * 100) / 631331   : syntax error: operand expected (error token is ") * 100) / 631331   ")
-       echo "1. API:" $API_HEIGHT "HEADERS_HEIGHT:"  $HEADERS_HEIGHT "HEIGHT:"  $HEIGHT 
-        let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
+       echo "API:" $API_HEIGHT "HEADERS_HEIGHT:" $HEADERS_HEIGHT
+       let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
         
     fi
 
-    if [ "$HEIGHT" -ne 0 ]; then
+    if [ $HEIGHT -ne 0 ]; then
         let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
-        echo "2. API:" $API_HEIGHT "HEIGHT:"  $HEIGHT "HEADERS_HEIGHT:"  $HEADERS_HEIGH
+        echo "API:" $API_HEIGHT "HEIGHT:"  $HEIGHT 
     fi
 
-    # Compare against the 'fullHeight' JSON component
-    if [ -z "$FULL_HEIGHT" ]; then
-        echo "Full height is $FULL_HEIGHT"
-        if [ "$FULL_HEIGHT" -ne "$API_HEIGHT" ]; then
-            echo "WARN - Full height and API height do not match!"
-            echo "FULL_HEIGHT is $FULL_HEIGHT"
-            echo "API_HEIGHT is $API_HEIGHT"
+    
+    ###########################################################################           
+    ### The `fullHeight` field should only be set when the node is sync'd
+    ### This checks that height against the reported API height and 
+    ###########################################################################
+    if [ -n "$FULL_HEIGHT" ] && [ $FULL_HEIGHT -ne 0 ]; then
+        # echo $FULL_HEIGHT " != None"
+        echo
+        if [ $FULL_HEIGHT -ne $API_HEIGHT ]; then
+            echo "##### WARN - Full height and API height do not match! ##### "
+            echo "##### FULL_HEIGHT is $FULL_HEIGHT #####"
+            echo "##### API_HEIGHT is $API_HEIGHT #####"
+            echo "##### Writing my.log file and starting sync from scratch #####"
+            echo "##### Please check the .log files for further details #####"
+            echo "$dt - ERROR: MISSYNC - FULL_HEIGHT is $FULL_HEIGHT while API_HEIGHT is $API_HEIGHT" >> my.log
+            sleep 20
+            rm -rf .ergo 
             
+            # kill
+            serial_killer
+            
+            # start node
+            start_node
+
         else
+            echo "$FULL_HEIGHT ne to $API_HEIGHT"
             echo "Successfully sync'd!"
+            sleep 60
         fi
+    else
+        echo
+        #echo "fullheight is $FULL_HEIGHT" #0
     fi
+
+   
     
 }
 
