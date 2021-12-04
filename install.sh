@@ -5,36 +5,43 @@
 # -------------------------------------------------------------------------
 # Run this with
 # bash -c "$(curl -s https://node.phenotype.dev)"
-# Dummy string to populate the .conf file before true API key generated. 
-export BLAKE_HASH="dummy"
-WHAT_AM_I=$(uname -m)
-echo "$WHAT_AM_I"
-pyv="$(python -V 2>&1)"
-echo "$pyv"
-
-if ! hash python; then
-    echo "python is not installed"
-    #exit 1
-fi
-
-ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
-echo "$ver"
-if [ "$ver" -gt "27" ]; then
-    echo ver:$ver
-    #echo "This script requires python 2.7 or lesser"
-    #exit 1
-fi
-
-dt=$(date '+%d/%m/%Y %H:%M:%S');
-i=0
 
 
-# Clean up error files if exist
+set_envs(){
+# Variables
+#
+    export API_KEY="dummy"
+    WHAT_AM_I=$(uname -m)
+    echo "$WHAT_AM_I"
+    pyv="$(python -V 2>&1)"
+    echo "$pyv"
+    dt=$(date '+%d/%m/%Y %H:%M:%S');
+    i=0
+    let PERCENT_BLOCKS=100
+    let PERCENT_HEADERS=100
+}
 
-###########################################################################           
-### Run the server, the -Xmx3G flag specifies the JVM Heap size
-###########################################################################
-INPUT_heap_size() {
+
+check_python(){
+# Check for Python version
+#
+    if ! hash python; then
+        echo "python is not installed"
+        exit 1
+    fi
+
+    ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
+    echo "$ver"
+    if [ "$ver" -gt "27" ]; then
+        echo ver:$ver
+        #echo "This script requires python 2.7 or lesser"
+        #exit 1
+    fi
+}
+
+set_heap() {
+# the -Xmx3G flag specifies the JVM Heap size
+#
     if [ -z $JVM_HEAP_SIZE ]; then
         read -p "
         #### How many GB of memory should we give the node? ####   
@@ -51,10 +58,8 @@ INPUT_heap_size() {
     fi 
 }
 
-###########################################################################           
-### Write the config file with the generated hash                                                                    
-###########################################################################
-write_conf (){
+set_conf (){
+# Write the config file with the generated hash   
     echo "
     ergo {
             node {
@@ -108,18 +113,17 @@ write_conf (){
             # Should be 64-chars long Base16 string.
             # below is the hash of the string 'hello'
             # replace with your actual hash 
-            apiKeyHash = "$BLAKE_HASH"
+            apiKeyHash = "$API_KEY"
         }
     }
     }" > ergo.conf
 
 }
 
-###########################################################################           
-### Starting the node                                                                  
-###########################################################################
-start_node(){
 
+start_node(){
+# Starting the node      
+#
     #-Djava.util.logging.config.file=logging.properties
     java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
     
@@ -128,10 +132,11 @@ start_node(){
     error_log
 }
 
-###########################################################################           
-### Check for .log files to see if this is the first run
-###########################################################################
-first_run() {
+
+check_run() {
+# Check for .log files to see if this is the first run
+# If(.log) -> extract env -> start_node
+# else set_heap() ->  set_conf() -> get_hash() -> set_conf()
     count=`ls -1 *.log 2>/dev/null | wc -l`
     if [ $count != 0 ]; then 
         #echo true
@@ -154,8 +159,9 @@ first_run() {
                 echo "Please run"
                 echo "curl -s "https://beta.sdkman.io" | bash"
         fi
-
-        INPUT_heap_size 
+        
+        # ()
+        set_heap 
 
         read -p "
             #### Please create a password. #### 
@@ -188,20 +194,22 @@ first_run() {
         ###########################################################################
 
         # Write basic conf
-        write_conf
+        set_conf
 
         # Set the API key
-        start_and_hash
+        get_hash
+
+        # Write basic conf
+        set_conf
+
 
     fi 
 
 }
 
-
-###########################################################################           
-### Write the config file with the generated hash                                                                    
-###########################################################################
-serial_killer(){
+# curl -X POST "http://127.0.0.1:9053/node/shutdown" -H "api_key: hellomyd"
+case_kill(){
+# Kill process across platform
     case "$(uname -s)" in
 
     CYGWIN*|MINGW32*|MSYS*|MINGW*)
@@ -211,13 +219,11 @@ serial_killer(){
         ;;
 
     ARMV*|aarch64)
-      echo 'Pi' > pi.log
-      ;;
-    # Add here more strings to compare
-    # See correspondence table at the bottom of this answer
-
-    *)
-        #echo 'Other OS' 
+        echo "Pi!"
+        echo 'Pi' > pi.log
+        kill -9 $(lsof -t -i:9053)
+        ;;
+    *) #Other
         kill -9 $(lsof -t -i:9053)
         ;;
     esac
@@ -225,18 +231,9 @@ serial_killer(){
 }
 
 
-
-
-
-
-
-
-
-###########################################################################           
-### Export ERROR/WARN only to error.log                                                                 
-###########################################################################
 error_log(){
-    
+# Export ERROR/WARN only to error.log  
+#
     ERROR=$(tail -n 5 server.log | grep 'ERROR\|WARN') 
     t_NONE=$(tail -n 5 server.log | grep 'Got GetReaders request in state (None,None,None,None)\|port')
     if [ -z "$ERROR" ]; then
@@ -257,172 +254,156 @@ error_log(){
     if [ $i -gt 10 ]; then
         i=0
         echo i: $i
-        serial_killer
+        case_kill
         start_node
         
     fi
 
 }
 
-
-###########################################################################           
-### Get & Set API key                                                                
-###########################################################################
-start_and_hash(){
+get_hash(){
+# Get & Set API key
+#
     start_node
 
-    if [ -z ${BLAKE_HASH+x} ]; then 
-        #echo "blake_hash is unset";
-        export BLAKE_HASH=$(curl --silent -X POST "http://localhost:9053/utils/hash/blake2b" -H "accept: application/json" -H "Content-Type: application/json" -d "\"$input\"")
+    if [ -z ${API_KEY+x} ]; then 
+        #echo "API_KEY is unset";
+        export API_KEY=$(curl --silent -X POST "http://localhost:9053/utils/hash/blake2b" -H "accept: application/json" -H "Content-Type: application/json" -d "\"$input\"")
     fi
 
-    serial_killer
-    sleep 2
-    write_conf
-    sleep 2
+    case_kill
     
+    set_conf
+
     start_node
 
 }
 
-###########################################################################
-###########################################################################           
-### main()   
-### 
-###########################################################################
-###########################################################################
-
-serial_killer # Call it once at the start to kill any hanging processes
-
-# Check for .log
-first_run
-
-#######################################
-# Get various heights
-# GLOBALS:
-#   A_STRING_PREFIX
-# ARGUMENTS:
-#   String to print
-# OUTPUTS:
-#   Write String to stdout
-# RETURN:
-#   0 if print succeeds, non-zero on error.
-#######################################
-
-
-###########################################################################           
-### This should open the browser (providing python is installed)
-### At this stage you can check if your API key works as prompted.                                                        
-###########################################################################
-python -mwebbrowser http://127.0.0.1:9053/panel 
-
-
-###########################################################################           
-### This method pulls the latest height and header height from /info
-###########################################################################
 get_heights(){
+# This method pulls the latest height and header height from /info
+#
+    # run with python2 if python3 is default
+    if [[ "$ver" -gt "27" ]]; 
+        then
+            API_HEIGHT2==$(\
+                curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
+            API_HEIGHT=${API_HEIGHT2:92:6}
+            #echo $API_HEIGHT
+            
+            #echo "Target height retrieved from API: $API_HEIGHT"
+
+            HEADERS_HEIGHT=$(\
+                curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
+                | python2 -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
+            )
+            #echo "Current header height: $HEADERS_HEIGHT"
+
+            HEIGHT=$(\
+            curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+            | python2 -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
+            )
+            
+            let FULL_HEIGHT=$(\
+            curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+            | python2 -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
+            )
+            #echo "FULL_HEIGHT:" $FULL_HEIGHT
+        else
+            API_HEIGHT2==$(\
+                curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
+            API_HEIGHT=${API_HEIGHT2:92:6}
+            #echo $API_HEIGHT
+            
+            #echo "Target height retrieved from API: $API_HEIGHT"
+
+            HEADERS_HEIGHT=$(\
+                curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
+                | python -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
+            )
+            #echo "Current header height: $HEADERS_HEIGHT"
+
+            HEIGHT=$(\
+            curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+            | python -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
+            )
+            
+            let FULL_HEIGHT=$(\
+            curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+            | python -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
+            )
+            #echo "FULL_HEIGHT:" $FULL_HEIGHT
+    fi
+
+    if [ ! -z ${HEADERS_HEIGHT+x} ]; then
+        if [ $HEADERS_HEIGHT -ne 0 ]; then
+                let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
+        fi
+    fi
     
-    if [ "$ver" -gt "27" ]; then
-        API_HEIGHT2==$(\
-            curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
-        API_HEIGHT=${API_HEIGHT2:92:6}
-        #echo $API_HEIGHT
-        
-        #echo "Target height retrieved from API: $API_HEIGHT"
-
-        HEADERS_HEIGHT=$(\
-            curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
-            | python2 -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
-        )
-        #echo "Current header height: $HEADERS_HEIGHT"
-
-        HEIGHT=$(\
-        curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-        | python2 -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
-        )
-        
-        let FULL_HEIGHT=$(\
-        curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-        | python2 -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
-        )
-        echo "FULL_HEIGHT:" $FULL_HEIGHT
-    else
-         API_HEIGHT2==$(\
-            curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
-        API_HEIGHT=${API_HEIGHT2:92:6}
-        #echo $API_HEIGHT
-        
-        #echo "Target height retrieved from API: $API_HEIGHT"
-
-        HEADERS_HEIGHT=$(\
-            curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
-            | python -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
-        )
-        #echo "Current header height: $HEADERS_HEIGHT"
-
-        HEIGHT=$(\
-        curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-        | python -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
-        )
-        
-        let FULL_HEIGHT=$(\
-        curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-        | python -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
-        )
-        echo "FULL_HEIGHT:" $FULL_HEIGHT
-    fi
-
-
-    # Set the percentages [ -n "$HEADERS_HEIGHT" ] && 
-    if [ $HEADERS_HEIGHT -ne 0 ]; then
-       # echo "api: $API_HEIGHT, hh:$HEADERS_HEIGHT"
-       echo "API:" $API_HEIGHT "HEADERS_HEIGHT:" $HEADERS_HEIGHT "HEIGHT:"  $HEIGHT 
-       let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
-        
-    fi
-
-    if [ $HEIGHT -ne 0 ]; then
-        let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
-        echo "API:" $API_HEIGHT "HEIGHT:"  $HEIGHT 
+    if [ ! -z ${HEIGHT+x} ]; then
+            if [ $HEIGHT -ne 0 ]; then
+                    let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
+            fi
     fi
 }
     
+launch_panel() {
+# Open browser to panel page
+#
+    if [ "$ver" -gt "27" ]; 
+        then
+            python2 -mwebbrowser http://127.0.0.1:9053/panel 
+        else
+            python -mwebbrowser http://127.0.0.1:9053/panel 
+    fi
+}
 
 
-   
-    
 
-###########################################################################           
-### Display progress to user
-###########################################################################
+# main()
+#
+set_envs
 
-# Dummy values to start
-let PERCENT_BLOCKS=100
-let PERCENT_HEADERS=100
+case_kill 
 
+check_run 
+
+set_conf
 
 while sleep 1
 do
     clear
-    
-    
     printf "%s    \n\n" \
-      "To use the API, enter your password ('$API_KEY') on 127.0.0.1:9053/panel under 'Set API key'."\
-      "Please follow the next steps on docs.ergoplatform.org to initialise your wallet."  \
-      "Sync Progress;"\
-      "### Headers: ~$(( 100 - $PERCENT_HEADERS ))% Complete ($HEADERS_HEIGHT/$API_HEIGHT) ### "\
-      "### Blocks:  ~$(( 100 - $PERCENT_BLOCKS ))% Complete ($HEIGHT/$API_HEIGHT) ### "
-      
+    "To use the API, enter your password ('$API_KEY') on 127.0.0.1:9053/panel under 'Set API key'."\
+    "Please follow the next steps on docs.ergoplatform.org to initialise your wallet."  \
+    "For best results please disable any sleep mode while syncing"  \
+    "Sync Progress;"\
+    "### Headers: ~$(( 100 - $PERCENT_HEADERS ))% Complete ($HEADERS_HEIGHT/$API_HEIGHT) ### "\
+    "### Blocks:  ~$(( 100 - $PERCENT_BLOCKS ))% Complete ($HEIGHT/$API_HEIGHT) ### "
+    
     echo ""
     echo "The most recent lines from server.log will be shown here:"
-
+    error_log
+    
     dt=$(date '+%d/%m/%Y %H:%M:%S');
     echo "$dt: HEADERS: $HEADERS_HEIGHT, HEIGHT:$HEIGHT" >> height.log
 
     get_heights
-    error_log
+    
 
 done
+
+
+
+
+
+
+   
+
+
+
+
+
 
 # WARN  [ergoref-api-dispatcher-8] o.e.n.ErgoReadersHolder - Got GetReaders request in state (None,None,None,None)
 # https://stackoverflow.com/questions/3466166/how-to-check-if-running-in-cygwin-mac-or-linux
