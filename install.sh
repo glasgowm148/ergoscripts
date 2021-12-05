@@ -21,7 +21,6 @@ set_envs(){
     let PERCENT_HEADERS=100
 }
 
-
 check_python(){
 # Check for Python version
 #
@@ -236,7 +235,8 @@ error_log(){
 #
     ERROR=$(tail -n 5 server.log | grep 'ERROR\|WARN') 
     t_NONE=$(tail -n 5 server.log | grep 'Got GetReaders request in state (None,None,None,None)\|port')
-    if [ -z "$ERROR" ]; then
+
+    if [ -z ${ERROR+x} ]; then
         echo "INFO:" $ERROR
     else
         echo "WARN/ERROR:" $ERROR
@@ -358,10 +358,10 @@ launch_panel() {
     fi
 }
 
-
-
-# main()
+######################
 #
+# main()
+######################
 set_envs
 
 case_kill 
@@ -392,18 +392,3 @@ do
     
 
 done
-
-
-
-
-
-
-   
-
-
-
-
-
-
-# WARN  [ergoref-api-dispatcher-8] o.e.n.ErgoReadersHolder - Got GetReaders request in state (None,None,None,None)
-# https://stackoverflow.com/questions/3466166/how-to-check-if-running-in-cygwin-mac-or-linux
