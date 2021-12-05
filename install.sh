@@ -24,12 +24,24 @@ set_env(){
     # Check for python
     if ! hash python; then
         echo "python is not installed"
+        
         exit 1
     fi
     #pyv="$(python -V 2>&1)"
     #echo "$pyv"
     ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
-    echo $ver
+    #echo $ver
+
+    ## Java check
+    if [ -n `which java` ]; 
+        then
+            echo 
+        else
+            echo "No Java version found"
+            echo "Please run the following command on Linux/Mac"
+            echo "curl -s "https://beta.sdkman.io" | bash"
+            exit 1
+    fi
   
     # Set memory
     case "$(uname -s)" in
@@ -38,7 +50,7 @@ set_env(){
             echo 'MS Windows'
             #WIN_MEM=$(systeminfo)
             WIN_MEM=$(wmic OS get FreePhysicalMemory)
-            kb_to_mb=$((memory * 1024))
+            kb_to_mb=$((memory*1024))
             echo "WIN memory !!-- " $kb_to_mb
             JVM_HEAP_SIZE="-Xmx${kb_to_mb}m"
             ;;
@@ -52,9 +64,7 @@ set_env(){
         Darwin) #Other
             memory=$(top -l1 | awk '/PhysMem/ {print $2}')
             half_mem=$((${memory%?} / 2))
-            JVM_HEAP_SIZE="-Xmx${half_mem}g"
-            export blocksToKeep="#blocksToKeep = 1440 # Set this to 1440-2880 for Pi"
-            
+            JVM_HEAP_SIZE="-Xmx${half_mem}g"            
             ;;
 
         Other*)
@@ -97,7 +107,7 @@ ergo {
         # Skip validation of transactions in the mainnet before block 417,792 (in v1 blocks).
         # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
         # The node still applying transactions to UTXO set and so checks UTXO set digests for each block.
-        #skipV1TransactionsValidation = true
+        skipV1TransactionsValidation = true
         
         # Number of last blocks to keep with transactions and ADproofs, for all other blocks only header will be stored.
         # Keep all blocks from genesis if negative
@@ -162,15 +172,7 @@ first_run() {
 # If(.log) -> extract env -> start_node
 # Set basic config for boot, boot & get the hash and then re-set config
     
-    ## Java check
-    if [ -n `which java` ]; 
-        then
-            echo 
-        else
-            echo "No Java version found"
-            echo "Please run"
-            echo "curl -s "https://beta.sdkman.io" | bash"
-    fi
+    
                 
          
     ### Download the latest .jar file                                                                    
