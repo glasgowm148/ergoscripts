@@ -207,6 +207,31 @@ check_run() {
 
 }
 
+case_mem(){
+    case "$(uname -s)" in
+
+    CYGWIN*|MINGW32*|MSYS*|MINGW*)
+        echo 'MS Windows'
+       
+        ;;
+
+    armv7l*|aarch64)
+        echo "on Pi!"
+        sleep 5
+        echo 'Pi' > pi.log
+        #kill -9 $(lsof -t -i:9053)
+        PI_MEM=$(free)
+        echo "Pi memory !!-- " $PI_MEM
+        sleep 5
+        #PI_MEM_AVAIL=${PI_MEM:92:6}
+        ;;
+    *) #Other
+        echo
+        #echo "other trig"
+        #kill -9 $(lsof -t -i:9053)
+        ;;
+    esac
+}
 # curl -X POST "http://127.0.0.1:9053/node/shutdown" -H "api_key: hellomyd"
 case_kill(){
 # Kill process across platform
@@ -369,6 +394,8 @@ launch_panel() {
 # main()
 ######################
 set_envs
+
+case_mem
 
 case_kill 
 
