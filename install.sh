@@ -437,10 +437,9 @@ print_con() {
 ######################
 # main()
 ######################
+set_envs    # 1. Set some environment variables
 
-case_mem    # 1. Gets the available memory for each OS
-
-set_envs    # 2. Set some environment variables
+case_mem    # 2. Gets the available memory for each OS
 
 case_kill   # 3. Cross-platform kill port
 
