@@ -40,15 +40,17 @@ set_env(){
 
         CYGWIN*|MINGW32*|MSYS*|MINGW*)
             echo 'MS Windows'
-            
-            WIN_MEM=$(systeminfo)
-            echo "WIN memory !!-- " $WIN_MEM
+            #WIN_MEM=$(systeminfo)
+            WIN_MEM=$(wmic OS get FreePhysicalMemory)
+            kb_to_mb=$((memory * 1024))
+            echo "WIN memory !!-- " $kb_to_mb
+            JVM_HEAP_SIZE="-Xmx${kb_to_mb}m"
+            echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
             blocksToKeep="#blocksToKeep = "
             ;;
 
         Linux)
             #echo "Raspberry Pi"
-           # memory=$(echo -e 'import re\nmatched=re.search(r"^MemTotal:\s+(\d+)",open("/proc/meminfo").read())\nprint(int(matched.groups()[0])/(1024.**2))' | python)
             memory=`awk '/MemTotal/ {printf( "%d\n", $2 / 1024 )}' /proc/meminfo` 
             half_mem=$((${memory%.*} / 3))
             JVM_HEAP_SIZE="-Xmx${half_mem}m"
@@ -63,8 +65,9 @@ set_env(){
             echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
             blocksToKeep="#blocksToKeep = 2880 # Set this to 1440-2880 for Pi"
             sleep 5
-           
-            #kill -9 $(lsof -t -i:9053)
+            ;;
+        Other*)
+            JVM_HEAP_SIZE="-Xmx2g"
             ;;
     esac
     
@@ -76,60 +79,62 @@ set_conf (){
 # CALLEDBY: check_run
 # TODO: Add custom Pi conf ('blockToKeep' / )
     echo "
-    ergo {
-            node {
-                # Full options available at 
-                # https://github.com/ergoplatform/ergo/blob/master/src/main/resources/application.conf
-                
-                mining = false
-                
-                ### there's light regime where the node is not storing UTXO set, and can validate only limited in length suffix of full blocks . Such nodes are running on Raspberry Pi with 0.5 GB given even.
-                # Skip validation of transactions in the mainnet before block 417,792 (in v1 blocks).
-                # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
-                # The node still applying transactions to UTXO set and so checks UTXO set digests for each block.
-                #skipV1TransactionsValidation = true
-                
-                # Number of last blocks to keep with transactions and ADproofs, for all other blocks only header will be stored.
-                # Keep all blocks from genesis if negative
-                # download and keep only ~4 days of full-blocks
-                $blocksToKeep
-
-                # State type.  Possible options are:
-                # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
-                # "digest" - keep state root hash only and validate transactions via ADProofs
-                stateType = "digest"
-
-                # Download block transactions and verify them (requires BlocksToKeep == 0 if disabled)
-                #verifyTransactions = false
-
-                # Download PoPoW proof on node bootstrap
-                #PoPoWBootstrap = true
-
-                }
-            network {
-                
-                # Misbehaving peer penalty score will not be increased withing this time interval,
-                # unless permanent penalty is applied
-                penaltySafeInterval = 1m
-                
-                # Max penalty score peer can accumulate before being banned
-                penaltyScoreThreshold = 100
-
-                # Max number of delivery checks. Stop expecting modifier (and penalize peer) if it was not delivered after that
-                # number of delivery attempts
-                maxDeliveryChecks = 2
-            }
+ergo {
+    node {
+        # Full options available at 
+        # https://github.com/ergoplatform/ergo/blob/master/src/main/resources/application.conf
         
-    scorex {
-        restApi {
-            # Hex-encoded Blake2b256 hash of an API key. 
-            # Should be 64-chars long Base16 string.
-            # below is the hash of the string 'hello'
-            # replace with your actual hash 
-            apiKeyHash = "$API_KEY"
-        }
+        mining = false
+        
+        ### there's light regime where the node is not storing UTXO set, and can validate only limited in length suffix of full blocks . Such nodes are running on Raspberry Pi with 0.5 GB given even.
+        # Skip validation of transactions in the mainnet before block 417,792 (in v1 blocks).
+        # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
+        # The node still applying transactions to UTXO set and so checks UTXO set digests for each block.
+        #skipV1TransactionsValidation = true
+        
+        # Number of last blocks to keep with transactions and ADproofs, for all other blocks only header will be stored.
+        # Keep all blocks from genesis if negative
+        # download and keep only ~4 days of full-blocks
+        $blocksToKeep
+
+        # State type.  Possible options are:
+        # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
+        # "digest" - keep state root hash only and validate transactions via ADProofs
+        stateType = "digest"
+
+        # Download block transactions and verify them (requires BlocksToKeep == 0 if disabled)
+        #verifyTransactions = false
+
+        # Download PoPoW proof on node bootstrap
+        #PoPoWBootstrap = true
+
     }
-    }" > ergo.conf
+
+}      
+        
+scorex {
+    restApi {
+        # Hex-encoded Blake2b256 hash of an API key. 
+        # Should be 64-chars long Base16 string.
+        # below is the hash of the string 'hello'
+        # replace with your actual hash 
+        apiKeyHash = "$API_KEY"
+    }
+    network {
+            
+            # Misbehaving peer penalty score will not be increased withing this time interval,
+            # unless permanent penalty is applied
+            penaltySafeInterval = 1m
+            
+            # Max penalty score peer can accumulate before being banned
+            penaltyScoreThreshold = 100
+
+            # Max number of delivery checks. Stop expecting modifier (and penalize peer) if it was not delivered after that
+            # number of delivery attempts
+            maxDeliveryChecks = 2
+        }
+}
+    " > ergo.conf
 
 }
 
