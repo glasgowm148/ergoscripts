@@ -1,10 +1,8 @@
 #!/bin/bash
 
-
-API_HEIGHT2==$(\
-        curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" )
-
-#API_HEIGHT=${API_HEIGHT2:92:6}
-echo ${API_HEIGHT2}[2]
-
-#for i in * ; do mv -- "$i" "${i:0:5}" ; done
+memory=15
+echo "memory !!-- " $memory
+half_mem=$((memory / 2))
+echo "half_mem !!-- " $half_mem
+JVM_HEAP_SIZE="-Xmx${half_mem}g"
+echo "JVM_HEAP_SIZE !!-- " $JVM_HEAP_SIZE

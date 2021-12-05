@@ -23,17 +23,19 @@ case_mem(){
         Linux)
             echo "on Pi!"
             echo 'Pi' > pi.log
-            JVM_HEAP_SIZE=$(echo -e 'import re\nmatched=re.search(r"^MemTotal:\s+(\d+)",open("/proc/meminfo").read())\nprint(int(matched.groups()[0])/(1024.**2))' | python)
-            echo "MemTotal !!-- " $JVM_HEAP_SIZE
-            export JVM_HEAP_SIZE="-Xmx${JVM_HEAP_SIZE*.5}g"
-            echo "Heap set to !!-- " $JVM_HEAP_SIZE
+            memory=$(echo -e 'import re\nmatched=re.search(r"^MemTotal:\s+(\d+)",open("/proc/meminfo").read())\nprint(int(matched.groups()[0])/(1024.**2))' | python)
+            half_mem=$((memory / 2))
+            JVM_HEAP_SIZE="-Xmx${half_mem}g"
+            echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
+
 
             sleep 5
             ;;
         Darwin) #Other
-            JVM_HEAP_SIZE=$(top -l1 | awk '/PhysMem/ {print $2}')
-            echo "MemTotal !!-- " $JVM_HEAP_SIZE
-            export JVM_HEAP_SIZE="-Xmx${JVM_HEAP_SIZE}"
+            memory=$(top -l1 | awk '/PhysMem/ {print $2}')
+            half_mem=$((${memory%?} / 2))
+            JVM_HEAP_SIZE="-Xmx${half_mem}g"
+            echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
 
             sleep 5
            
