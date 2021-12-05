@@ -332,15 +332,16 @@ get_heights(){
             curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
             | python2 -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
             )
-            #echo "FULL_HEIGHT:" $FULL_HEIGHT
+            
         else
+            #echo "FULL_HEIGHT:" $FULL_HEIGHT
             API_HEIGHT2==$(\
                 curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
-            API_HEIGHT=${API_HEIGHT2:92:6}
+            
             #echo $API_HEIGHT
             
             #echo "Target height retrieved from API: $API_HEIGHT"
-
+            # TODO: None [ Integer expression expected 
             HEADERS_HEIGHT=$(\
                 curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
                 | python -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
@@ -359,6 +360,10 @@ get_heights(){
             #echo "FULL_HEIGHT:" $FULL_HEIGHT
     fi
     # TODO: Arthim error
+    if [ ! -z ${API_HEIGHT+x} ]; then
+        API_HEIGHT=${API_HEIGHT2:92:6}
+    fi
+    
     if [ ! -z ${HEADERS_HEIGHT+x} ]; then
         if [ $HEADERS_HEIGHT -ne 0 ]; then
                 let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
