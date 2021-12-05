@@ -22,13 +22,12 @@ case_mem(){
 
         Linux)
             echo "on Pi!"
-            echo 'Pi' > pi.log
             memory=$(echo -e 'import re\nmatched=re.search(r"^MemTotal:\s+(\d+)",open("/proc/meminfo").read())\nprint(int(matched.groups()[0])/(1024.**2))' | python)
+            echo "memory:" $memory
             half_mem=$((memory / 2))
+            echo "half_mem:" $memory
             JVM_HEAP_SIZE="-Xmx${half_mem}g"
             echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
-
-
             sleep 5
             ;;
         Darwin) #Other
