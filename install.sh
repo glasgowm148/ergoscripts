@@ -30,14 +30,7 @@ set_env(){
     #echo "$pyv"
     ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
     echo $ver
-    #${API_HEIGHT2:92:6}
-    #echo "$ver"
-    #if [ "$ver" -gt "27" ]; then
-    #    echo ver:$ver
-        #echo "This script requires python 2.7 or lesser"
-        #exit 1
-    # fi
-
+  
     # Set memory
     case "$(uname -s)" in
 
@@ -90,7 +83,7 @@ set_env(){
 
 set_conf (){
 # Write the config file with the generated hash
-# CALLEDBY: check_run
+# CALLEDBY: first_run
 # TODO: Add custom Pi conf ('blockToKeep' / )
     echo "
 ergo {
@@ -164,94 +157,62 @@ start_node(){
 }
 
 
-check_run() {
+first_run() {
 # Check for .log files to see if this is the first run
 # If(.log) -> extract env -> start_node
 # Set basic config for boot, boot & get the hash and then re-set config
-    count=`ls -1 *.log 2>/dev/null | wc -l`
-    if [ $count != 0 ]; then 
-        rm ergo.log
-        rm server.log # remove the log file on each run so it doesn't become useless.
-        #JVM_HEAP_SIZE=$(cat "jvm.conf")
-        #echo "jvm.conf: JVM Heap size is set to: $JVM_HEAP_SIZE"
-
-        API_KEY=$(cat "api.conf")
-        echo "api.conf: API Key is set to: $API_KEY"
-        
-        start_node
-    else # If no .log file - we assume first run
-        if [ -n `which java` ]; 
-            then
-                echo 
-            else
-                echo "No Java version found"
-                echo "Please run"
-                echo "curl -s "https://beta.sdkman.io" | bash"
-        fi
-        
-        # ()
-        #set_heap 
-        
-        read -p "
-            #### Please create a password. #### 
-
-            This will be used to unlock your API. Generally using the same API key through the entire sync process can prevent 'Bad API Key' errors.
-
-            " input
-
-        export API_KEY=$input
-        echo "$API_KEY" > api.conf
-        ###########################################################################           
-        ### Download the latest .jar file                                                                    
-        ###########################################################################
-        if [ -e *.jar ]; 
-        then 
-            echo
-            #echo "- Node .jar is already downloaded"
+    
+    ## Java check
+    if [ -n `which java` ]; 
+        then
+            echo 
         else
-            echo "- Retrieving latest node release.."
-            LATEST_ERGO_RELEASE=$(curl -s "https://api.github.com/repos/ergoplatform/ergo/releases/latest" | awk -F '"' '/tag_name/{print $4}')
-            LATEST_ERGO_RELEASE_NUMBERS=$(echo ${LATEST_ERGO_RELEASE} | cut -c 2-)
-            ERGO_DOWNLOAD_URL=https://github.com/ergoplatform/ergo/releases/download/${LATEST_ERGO_RELEASE}/ergo-${LATEST_ERGO_RELEASE_NUMBERS}.jar
-            echo "- Downloading Latest known Ergo release: ${LATEST_ERGO_RELEASE}."
-            curl --silent -L ${ERGO_DOWNLOAD_URL} --output ergo.jar
-        fi 
-
-
-        ###########################################################################           
-        ### Prompt the user for a password and hash it using Blake2b                                                                    
-        ###########################################################################
-
-        # Write basic conf
-        set_conf
-        
-       
-        
-        # Set the API key
-        if [ ! -z ${API_KEY+x} ]; then 
-            
-            start_node
-            
-            export BLAKE_HASH=$(curl --silent -X POST "http://localhost:9053/utils/hash/blake2b" -H "accept: application/json" -H "Content-Type: application/json" -d "\"$input\"")
-            echo "BLAKE_HASH:$BLAKE_HASH"
-            
-            echo "reset conf"
-            set_conf
-            
-            curl -X POST "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
-            
-            case_kill
-            start_node
-            
-        fi
-        echo "pass"
-        sleep 10
-
-        # Write basic conf
-        set_conf
-
-
+            echo "No Java version found"
+            echo "Please run"
+            echo "curl -s "https://beta.sdkman.io" | bash"
+    fi
+                
+         
+    ### Download the latest .jar file                                                                    
+    if [ ! -e *.jar ]; then 
+        echo "- Retrieving latest node release.."
+        LATEST_ERGO_RELEASE=$(curl -s "https://api.github.com/repos/ergoplatform/ergo/releases/latest" | awk -F '"' '/tag_name/{print $4}')
+        LATEST_ERGO_RELEASE_NUMBERS=$(echo ${LATEST_ERGO_RELEASE} | cut -c 2-)
+        ERGO_DOWNLOAD_URL=https://github.com/ergoplatform/ergo/releases/download/${LATEST_ERGO_RELEASE}/ergo-${LATEST_ERGO_RELEASE_NUMBERS}.jar
+        echo "- Downloading Latest known Ergo release: ${LATEST_ERGO_RELEASE}."
+        curl --silent -L ${ERGO_DOWNLOAD_URL} --output ergo.jar
     fi 
+
+   
+    
+    # API 
+    read -p "#### Please create a password. #### 
+
+        This will be used to unlock your API. Generally using the same API key through the entire sync process can prevent 'Bad API Key' errors.
+
+        " input
+
+    export API_KEY=$input
+    echo "$API_KEY" > api.conf
+    
+    # Write basic conf
+    set_conf
+    
+    start_node
+    
+    export BLAKE_HASH=$(curl --silent -X POST "http://localhost:9053/utils/hash/blake2b" -H "accept: application/json" -H "Content-Type: application/json" -d "\"$input\"")
+    echo "$BLAKE_HASH" > blake.conf
+    #echo "BLAKE_HASH:$BLAKE_HASH"
+    
+    case_kill
+
+    # Add blake hash
+    set_conf
+    
+    start_node
+    
+    # Add blake hash
+    set_conf
 
 }
 
@@ -301,7 +262,8 @@ error_log(){
     if [ $i -gt 10 ]; then
         i=0
         echo i: $i
-        case_kill
+        #case_kill
+        curl -X POST "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
         start_node
         
     fi
@@ -335,20 +297,12 @@ get_heights(){
     if [ -n "$API_HEIGHT" ] && [ "$API_HEIGHT" -eq "$API_HEIGHT" ] 2>/dev/null; then
         echo #number
         
-
         if [ -n "$HEADERS_HEIGHT" ] && [ "$HEADERS_HEIGHT" -eq "$HEADERS_HEIGHT" ] 2>/dev/null; then
-        
-            echo "header:$HEADERS_HEIGHT"
             let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
-           
         fi
 
         if [ -n "$HEIGHT" ] && [ "$HEIGHT" -eq "$HEIGHT" ] 2>/dev/null; then
-
-           
-                let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
-          
-
+            let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
         fi
     
     fi
@@ -397,8 +351,20 @@ set_env
 # Cross-platform port killer
 case_kill   
 
-# Check if first run
-check_run   
+count=`ls -1 *.log 2>/dev/null | wc -l`
+if [ $count != 0 ]; then 
+    rm ergo.log
+    rm server.log # remove the log file on each run so it doesn't become useless.
+    
+    API_KEY=$(cat "api.conf")
+    echo "api.conf: API Key is set to: $API_KEY"
+    BLAKE_HASH=$(cat "blake.conf")
+    echo "blake.conf: Blake hash is: $BLAKE_HASH"
+    start_node
+else 
+    # If no .log file - we assume first run
+    first_run 
+fi
 
 # Set the configuration file
 set_conf   
@@ -406,5 +372,5 @@ set_conf
 # Launch in browser
 python${ver:0:1} -mwebbrowser http://127.0.0.1:9053/panel 
 
-# Set the configuration file
-print_con   # 5. Print to console
+# 5. Print to console
+print_con   
