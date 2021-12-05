@@ -20,7 +20,7 @@ case_mem(){
             echo "WIN memory !!-- " $WIN_MEM
             ;;
 
-        armv7l)
+        ARMV*)
             echo "on Pi!"
             echo 'Pi' > pi.log
             JVM_HEAP_SIZE=$(echo -e 'import re\nmatched=re.search(r"^MemTotal:\s+(\d+)",open("/proc/meminfo").read())\nprint(int(matched.groups()[0])/(1024.**2))' | python)
