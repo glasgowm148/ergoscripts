@@ -25,6 +25,8 @@ case_mem(){
             echo 'Pi' > pi.log
             JVM_HEAP_SIZE=$(echo -e 'import re\nmatched=re.search(r"^MemTotal:\s+(\d+)",open("/proc/meminfo").read())\nprint(int(matched.groups()[0])/(1024.**2))' | python)
             echo "MemTotal !!-- " $JVM_HEAP_SIZE
+            export JVM_HEAP_SIZE="-Xmx${JVM_HEAP_SIZE*.5}g"
+            echo "Heap set to !!-- " $JVM_HEAP_SIZE
 
             sleep 5
             ;;
