@@ -31,17 +31,17 @@ set_env(){
     #echo "$pyv"
     ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
     #echo $ver
+    #echo `java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
+    jver=`java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
 
-    ## Java check
-    if [ -n `which java` ]; 
-        then
-            echo "java found!"
-        else
-            echo "No Java version found"
-            echo "Please run the following command on Linux/Mac"
-            echo "curl -s "https://beta.sdkman.io" | bash"
-            exit 1
+    if [[ $jver == "1.8" ]]; then                
+        echo $jver is less than java 8
+        echo "Please update to the latest version"
+        echo "curl -s "https://beta.sdkman.io" | bash"
+    else
+        echo $jver is java 17
     fi
+   
   
     # Set memory
     case "$(uname -s)" in
