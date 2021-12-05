@@ -218,7 +218,7 @@ case_kill(){
         taskkill /PID 9053 /F
         ;;
 
-    armv*|aarch64)
+    armv7l*|aarch64)
         echo "on Pi!"
         sleep 5
         echo 'Pi' > pi.log
