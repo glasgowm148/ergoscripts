@@ -35,7 +35,7 @@ set_env(){
     ## Java check
     if [ -n `which java` ]; 
         then
-            echo 
+            echo "java found!"
         else
             echo "No Java version found"
             echo "Please run the following command on Linux/Mac"
