@@ -40,7 +40,7 @@ check_python(){
 
 set_heap() {
 # the -Xmx3G flag specifies the JVM Heap size
-#
+#TODO:change to MB
     if [ -z $JVM_HEAP_SIZE ]; then
         read -p "
         #### How many GB of memory should we give the node? ####   
@@ -58,7 +58,8 @@ set_heap() {
 }
 
 set_conf (){
-# Write the config file with the generated hash   
+# Write the config file with the generated hash
+# TODO: Add custom Pi conf ('blockToKeep' / )
     echo "
     ergo {
             node {
@@ -217,10 +218,15 @@ case_kill(){
         taskkill /PID 9053 /F
         ;;
 
-    ARMV*|aarch64)
-        echo "Pi!"
+    armv*|aarch64)
+        echo "on Pi!"
+        sleep 5
         echo 'Pi' > pi.log
         kill -9 $(lsof -t -i:9053)
+        PI_MEM=$(free)
+        echo "Pi memory !!-- " $PI_MEM
+        sleep 5
+        #PI_MEM_AVAIL=${PI_MEM:92:6}
         ;;
     *) #Other
         kill -9 $(lsof -t -i:9053)
@@ -333,7 +339,7 @@ get_heights(){
             )
             #echo "FULL_HEIGHT:" $FULL_HEIGHT
     fi
-
+    # TODO: Arthim error
     if [ ! -z ${HEADERS_HEIGHT+x} ]; then
         if [ $HEADERS_HEIGHT -ne 0 ]; then
                 let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
@@ -389,6 +395,8 @@ do
     echo "$dt: HEADERS: $HEADERS_HEIGHT, HEIGHT:$HEIGHT" >> height.log
 
     get_heights
+
+    #TODO: Exit when height is met? 
     
 
 done
