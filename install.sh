@@ -20,7 +20,7 @@ case_mem(){
             echo "WIN memory !!-- " $WIN_MEM
             ;;
 
-        ARMV*)
+        Linux)
             echo "on Pi!"
             echo 'Pi' > pi.log
             JVM_HEAP_SIZE=$(echo -e 'import re\nmatched=re.search(r"^MemTotal:\s+(\d+)",open("/proc/meminfo").read())\nprint(int(matched.groups()[0])/(1024.**2))' | python)
@@ -28,7 +28,7 @@ case_mem(){
 
             sleep 5
             ;;
-        *) #Other
+        Darwin) #Other
             JVM_HEAP_SIZE=$(top -l1 | awk '/PhysMem/ {print $2}')
             echo "MemTotal !!-- " $JVM_HEAP_SIZE
             export JVM_HEAP_SIZE="-Xmx${JVM_HEAP_SIZE}"
