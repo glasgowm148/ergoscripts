@@ -60,6 +60,7 @@ set_env(){
             half_mem=$((${memory%?} / 2))
             JVM_HEAP_SIZE="-Xmx${half_mem}g"
             export blocksToKeep="#blocksToKeep = 1440 # Set this to 1440-2880 for Pi"
+            
             ;;
 
         Other*)
@@ -73,9 +74,13 @@ set_env(){
             half_mem=$((${memory%.*} / 3))
             JVM_HEAP_SIZE="-Xmx${half_mem}m"
             echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
-            sleep 5
-            echo "Raspberry Pi detected, running node in light-mode and only keeping last 1440 blocks"
+            
+            echo "Raspberry Pi detected, running node in light-mode" 
+            echo "blocksToKeep = 1440 # keep ~2 days of blocks"
+            echo "stateType = digest # Note: You cannot validate arbitrary block and generate ADProofs due to this"
+            sleep 10
             export blocksToKeep="blocksToKeep = 1440 # 1440 = ~2days"
+            export stateType = "stateType = digest"
             ;;
     esac
     
@@ -107,8 +112,7 @@ ergo {
         # State type.  Possible options are:
         # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
         # "digest" - keep state root hash only and validate transactions via ADProofs
-        stateType = "digest"
-
+        $stateType
         # Download block transactions and verify them (requires BlocksToKeep == 0 if disabled)
         #verifyTransactions = false
 
