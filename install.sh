@@ -28,6 +28,8 @@ set_env(){
     #pyv="$(python -V 2>&1)"
     #echo "$pyv"
     ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
+    echo $ver
+    #${API_HEIGHT2:92:6}
     #echo "$ver"
     #if [ "$ver" -gt "27" ]; then
     #    echo ver:$ver
@@ -303,55 +305,31 @@ get_heights(){
 # This method pulls the latest height and header height from /info
 #
     
-    # run with python2 if python3 is default
-    if [[ "$ver" -gt "27" ]]; then
-
-            API_HEIGHT2==$(\
+    API_HEIGHT2==$(\
                 curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
 
-            HEADERS_HEIGHT=$(\
-                curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
-                | python2 -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
-            )
+    HEADERS_HEIGHT=$(\
+        curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
+        | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
+    )
 
-            HEIGHT=$(\
-            curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-            | python2 -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
-            )
-            
-            FULL_HEIGHT=$(\
-            curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-            | python2 -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
-            )
-            
-        else
-
-            API_HEIGHT2==$(\
-                curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
-            
-            HEADERS_HEIGHT=$(\
-                curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
-                | python -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
-            )
-
-            HEIGHT=$(\
-            curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-            | python -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
-            )
-            
-            FULL_HEIGHT=$(\
-            curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-            | python -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
-            )
-
-    fi
+    HEIGHT=$(\
+    curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+    | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
+    )
+    
+    FULL_HEIGHT=$(\
+    curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+    | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
+    )
     
     # Calculate %
+    # TODO: Simplify
     if [ ! -z ${API_HEIGHT2+x} ]; then
         API_HEIGHT=${API_HEIGHT2:92:6}
 
-        if [ ! -z ${HEADERS_HEIGHT+x} ]; then # TODO: Triggers an error when 0??
-
+        if [ ! -z ${HEADERS_HEIGHT+x} ]; then
+        #TODO: Integer expected
             if [ $HEADERS_HEIGHT -ne 0 ]; then
                     let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
             fi
@@ -371,21 +349,13 @@ get_heights(){
 } 
     
 
-launch_panel() {
-# Open browser to panel page
-#
-    if [ "$ver" -gt "27" ]; 
-        then
-            python2 -mwebbrowser http://127.0.0.1:9053/panel 
-        else
-            python -mwebbrowser http://127.0.0.1:9053/panel 
-    fi
-}
+
 
 
 print_con() {
 #TODO: Exit when height is met? 
 #TODO: Setup System services?
+    python${ver:0:1} -mwebbrowser http://127.0.0.1:9053/info
     while sleep 1
         do
         clear
@@ -413,12 +383,21 @@ print_con() {
 ######################
 # main()
 ######################
-set_env     # 1. Set some environment variables
 
-case_kill   # 2. Cross-platform port killer
+# Set some environment variables
+set_env     
 
-check_run   # 3. Check if first run
+# Cross-platform port killer
+case_kill   
 
-set_conf    # 4. Set the configuration file
+# Check if first run
+check_run   
 
+# Set the configuration file
+set_conf   
+
+# Launch in browser
+python${ver:0:1} -mwebbrowser http://127.0.0.1:9053/panel 
+
+# Set the configuration file
 print_con   # 5. Print to console
