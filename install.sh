@@ -50,7 +50,7 @@ set_env(){
             #echo "Raspberry Pi"
            # memory=$(echo -e 'import re\nmatched=re.search(r"^MemTotal:\s+(\d+)",open("/proc/meminfo").read())\nprint(int(matched.groups()[0])/(1024.**2))' | python)
             memory=`awk '/MemTotal/ {printf( "%d\n", $2 / 1024 )}' /proc/meminfo` 
-            half_mem=$((${memory%.*} / 2))
+            half_mem=$((${memory%.*} / 3))
             JVM_HEAP_SIZE="-Xmx${half_mem}m"
             echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
             #blocksToKeep="blocksToKeep = 2880 "
