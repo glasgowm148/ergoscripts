@@ -65,7 +65,7 @@ set_envs(){
     check_python
     export API_KEY="dummy"
     WHAT_AM_I=$(uname -m)
-    echo "$WHAT_AM_I"
+    echo "uname -m = " $WHAT_AM_I
     pyv="$(python -V 2>&1)"
     echo "$pyv"
     dt=$(date '+%d/%m/%Y %H:%M:%S');
