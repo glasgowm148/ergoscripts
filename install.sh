@@ -28,12 +28,12 @@ set_env(){
     #pyv="$(python -V 2>&1)"
     #echo "$pyv"
     ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
-    echo "$ver"
-    if [ "$ver" -gt "27" ]; then
-        echo ver:$ver
+    #echo "$ver"
+    #if [ "$ver" -gt "27" ]; then
+    #    echo ver:$ver
         #echo "This script requires python 2.7 or lesser"
         #exit 1
-    fi
+    # fi
 
     # Set memory
     case "$(uname -s)" in
@@ -45,8 +45,7 @@ set_env(){
             kb_to_mb=$((memory * 1024))
             echo "WIN memory !!-- " $kb_to_mb
             JVM_HEAP_SIZE="-Xmx${kb_to_mb}m"
-            echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
-            blocksToKeep="#blocksToKeep = "
+            #echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
             ;;
 
         Linux)
@@ -55,7 +54,6 @@ set_env(){
             half_mem=$((${memory%.*} / 3))
             JVM_HEAP_SIZE="-Xmx${half_mem}m"
             echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
-            #blocksToKeep="blocksToKeep = 2880 "
             sleep 5
             ;;
         Darwin) #Other
@@ -63,7 +61,8 @@ set_env(){
             half_mem=$((${memory%?} / 2))
             JVM_HEAP_SIZE="-Xmx${half_mem}g"
             echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
-            blocksToKeep="#blocksToKeep = 2880 # Set this to 1440-2880 for Pi"
+            export blocksToKeep="#blocksToKeep = 1440 # Set this to 1440-2880 for Pi"
+
             sleep 5
             ;;
         Other*)
@@ -73,9 +72,10 @@ set_env(){
 
     case "$(uname -m)" in
         armv7l|aarch64)
-            echo "PI!"
-            sleep 10
-            JVM_HEAP_SIZE="-Xmx2g"
+            #echo "PI!"
+            #sleep 10
+            #JVM_HEAP_SIZE="-Xmx2g"
+            export blocksToKeep="blocksToKeep = 1440 # Set this to 1440-2880 for Pi"
             ;;
     esac
     
