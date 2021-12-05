@@ -1,29 +1,48 @@
 #!/bin/bash
 
-# Shell script for installing Ergo Node under Unix.
+# Shell script for installing Ergo Node on any platform.
 # markglasgow@gmail.com - 29 November
 # -------------------------------------------------------------------------
 # Run this with
 # bash -c "$(curl -s https://node.phenotype.dev)"
 
 
-set_envs(){
-# Variables
-#
-    export API_KEY="dummy"
-    WHAT_AM_I=$(uname -m)
-    echo "$WHAT_AM_I"
-    pyv="$(python -V 2>&1)"
-    echo "$pyv"
-    dt=$(date '+%d/%m/%Y %H:%M:%S');
-    i=0
-    let PERCENT_BLOCKS=100
-    let PERCENT_HEADERS=100
+case_mem(){
+# Check for available memory
+# CALLEDBY: main
+# TODO: Windows/Pi    
+    case "$(uname -s)" in
+
+        CYGWIN*|MINGW32*|MSYS*|MINGW*)
+            echo 'MS Windows'
+            
+            WIN_MEM=$(systeminfo)
+            echo "WIN memory !!-- " $WIN_MEM
+            ;;
+
+        armv7l|aarch64)
+            echo "on Pi!"
+            echo 'Pi' > pi.log
+            JVM_HEAP_SIZE=$(echo -e 'import re\nmatched=re.search(r"^MemTotal:\s+(\d+)",open("/proc/meminfo").read())\nprint(int(matched.groups()[0])/(1024.**2))' | python)
+            echo "MemTotal !!-- " $JVM_HEAP_SIZE
+
+            sleep 5
+            ;;
+        *) #Other
+            JVM_HEAP_SIZE=$(top -l1 | awk '/PhysMem/ {print $2}')
+            echo "MemTotal !!-- " $JVM_HEAP_SIZE
+            export JVM_HEAP_SIZE="-Xmx${JVM_HEAP_SIZE}"
+
+            sleep 5
+           
+            #kill -9 $(lsof -t -i:9053)
+            ;;
+    esac
 }
 
 check_python(){
 # Check for Python version
-#
+# CALLEDBY: set_env
     if ! hash python; then
         echo "python is not installed"
         exit 1
@@ -38,10 +57,30 @@ check_python(){
     fi
 }
 
+set_envs(){
+# Variables
+# CALLEDBY: main
+# CALLS: check_python
+#
+    check_python
+    export API_KEY="dummy"
+    WHAT_AM_I=$(uname -m)
+    echo "$WHAT_AM_I"
+    pyv="$(python -V 2>&1)"
+    echo "$pyv"
+    dt=$(date '+%d/%m/%Y %H:%M:%S');
+    i=0
+    let PERCENT_BLOCKS=100
+    let PERCENT_HEADERS=100
+}
+
+
 set_heap() {
 # the -Xmx3G flag specifies the JVM Heap size
-#TODO:change to MB
-    if [ -z $JVM_HEAP_SIZE ]; then
+# CALLEDBY: check_run
+# TODO: change to MB
+    if [ ! -z ${JVM_HEAP_SIZE+x} ]; then
+    #if [ -z $JVM_HEAP_SIZE ]; then
         read -p "
         #### How many GB of memory should we give the node? ####   
 
@@ -59,6 +98,7 @@ set_heap() {
 
 set_conf (){
 # Write the config file with the generated hash
+# CALLEDBY: check_run
 # TODO: Add custom Pi conf ('blockToKeep' / )
     echo "
     ergo {
@@ -126,7 +166,7 @@ start_node(){
 #
     #-Djava.util.logging.config.file=logging.properties
     java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
-    
+    echo "JVM Heap is set to:" $JVM_HEAP_SIZE
     echo "#### Waiting for a response from the server. ####"
     while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.'; tail -n 1 server.log;  done;  # wait for node be ready with progress bar
     error_log
@@ -139,16 +179,14 @@ check_run() {
 # else set_heap() ->  set_conf() -> get_hash() -> set_conf()
     count=`ls -1 *.log 2>/dev/null | wc -l`
     if [ $count != 0 ]; then 
-        #echo true
-        #mv error.log error_backup.log
-        #rm error.log
         rm ergo.log
         rm server.log # remove the log file on each run so it doesn't become useless.
-        JVM_HEAP_SIZE=$(cat "jvm.conf")
-        echo $JVM_HEAP_SIZE
+        #JVM_HEAP_SIZE=$(cat "jvm.conf")
+        #echo "jvm.conf: JVM Heap size is set to: $JVM_HEAP_SIZE"
 
         API_KEY=$(cat "api.conf")
-        echo $API_KEY
+        echo "api.conf: API Key is set to: $API_KEY"
+        
         start_node
     else # If no .log file - we assume first run
         if [ -n `which java` ]; 
@@ -207,34 +245,9 @@ check_run() {
 
 }
 
-case_mem(){
-    case "$(uname -s)" in
-
-    CYGWIN*|MINGW32*|MSYS*|MINGW*)
-        echo 'MS Windows'
-       
-        ;;
-
-    armv7l|aarch64)
-        echo "on Pi!"
-        sleep 5
-        echo 'Pi' > pi.log
-        #kill -9 $(lsof -t -i:9053)
-        PI_MEM=$(free)
-        echo "Pi memory !!-- " $PI_MEM
-        sleep 5
-        #PI_MEM_AVAIL=${PI_MEM:92:6}
-        ;;
-    *) #Other
-        echo
-        #echo "other trig"
-        #kill -9 $(lsof -t -i:9053)
-        ;;
-    esac
-}
-# curl -X POST "http://127.0.0.1:9053/node/shutdown" -H "api_key: hellomyd"
 case_kill(){
 # Kill process across platform
+# TODO: safe kill # curl -X POST "http://127.0.0.1:9053/node/shutdown" -H "api_key: hellomyd"
     case "$(uname -s)" in
 
     CYGWIN*|MINGW32*|MSYS*|MINGW*)
@@ -253,7 +266,6 @@ case_kill(){
     esac
 
 }
-
 
 error_log(){
 # Export ERROR/WARN only to error.log  
@@ -307,13 +319,15 @@ get_hash(){
 get_heights(){
 # This method pulls the latest height and header height from /info
 #
+    echo # "get_heights"
     # run with python2 if python3 is default
     if [[ "$ver" -gt "27" ]]; 
+        echo #$ver
         then
             API_HEIGHT2==$(\
                 curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
             API_HEIGHT=${API_HEIGHT2:92:6}
-            #echo $API_HEIGHT
+            #echo $API_HEIGHT2
             
             #echo "Target height retrieved from API: $API_HEIGHT"
 
@@ -334,11 +348,12 @@ get_heights(){
             )
             
         else
+            echo $ver
             #echo "FULL_HEIGHT:" $FULL_HEIGHT
             API_HEIGHT2==$(\
                 curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
             
-            #echo $API_HEIGHT
+            echo $API_HEIGHT
             
             #echo "Target height retrieved from API: $API_HEIGHT"
             # TODO: None [ Integer expression expected 
@@ -359,23 +374,26 @@ get_heights(){
             )
             #echo "FULL_HEIGHT:" $FULL_HEIGHT
     fi
+    
     # TODO: Arthim error
     if [ ! -z ${API_HEIGHT+x} ]; then
         API_HEIGHT=${API_HEIGHT2:92:6}
-    fi
-    
-    if [ ! -z ${HEADERS_HEIGHT+x} ]; then
-        if [ $HEADERS_HEIGHT -ne 0 ]; then
-                let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
+        echo #"test:" $HEADERS_HEIGHT
+        if [ ! -z ${HEADERS_HEIGHT+x} ]; then
+            if [ $HEADERS_HEIGHT -ne 0 ]; then
+                    let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
+            fi
         fi
-    fi
-    
-    if [ ! -z ${HEIGHT+x} ]; then
+        if [ ! -z ${HEIGHT+x} ]; then
             if [ $HEIGHT -ne 0 ]; then
                     let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
             fi
+        fi
+    
     fi
-}
+    
+   } 
+    
     
 launch_panel() {
 # Open browser to panel page
@@ -388,44 +406,46 @@ launch_panel() {
     fi
 }
 
+
+print_con() {
+#TODO: Exit when height is met? 
+#TODO: Setup System services?
+    while sleep 1
+        do
+        clear
+        printf "%s    \n\n" \
+        "To use the API, enter your password ('$API_KEY') on 127.0.0.1:9053/panel under 'Set API key'."\
+        "Please follow the next steps on docs.ergoplatform.org to initialise your wallet."  \
+        "For best results please disable any sleep mode while syncing"  \
+        "Sync Progress;"\
+        "### Headers: ~$(( 100 - $PERCENT_HEADERS ))% Complete ($HEADERS_HEIGHT/$API_HEIGHT) ### "\
+        "### Blocks:  ~$(( 100 - $PERCENT_BLOCKS ))% Complete ($HEIGHT/$API_HEIGHT) ### "
+        
+        echo ""
+        echo "The most recent lines from server.log will be shown here:"
+        error_log
+        
+        dt=$(date '+%d/%m/%Y %H:%M:%S');
+        echo "$dt: HEADERS: $HEADERS_HEIGHT, HEIGHT:$HEIGHT" >> height.log
+
+        get_heights  
+
+    done
+}
+
+
 ######################
-#
 # main()
 ######################
 
-case_mem
+case_mem    # 1. Gets the available memory for each OS
 
-set_envs
+set_envs    # 2. Set some environment variables
 
+case_kill   # 3. Cross-platform kill port
 
+check_run   # 4. Check if first run
 
-case_kill 
+set_conf    # 5. Set the configuration file
 
-check_run 
-
-set_conf
-
-while sleep 1
-do
-    clear
-    printf "%s    \n\n" \
-    "To use the API, enter your password ('$API_KEY') on 127.0.0.1:9053/panel under 'Set API key'."\
-    "Please follow the next steps on docs.ergoplatform.org to initialise your wallet."  \
-    "For best results please disable any sleep mode while syncing"  \
-    "Sync Progress;"\
-    "### Headers: ~$(( 100 - $PERCENT_HEADERS ))% Complete ($HEADERS_HEIGHT/$API_HEIGHT) ### "\
-    "### Blocks:  ~$(( 100 - $PERCENT_BLOCKS ))% Complete ($HEIGHT/$API_HEIGHT) ### "
-    
-    echo ""
-    echo "The most recent lines from server.log will be shown here:"
-    error_log
-    
-    dt=$(date '+%d/%m/%Y %H:%M:%S');
-    echo "$dt: HEADERS: $HEADERS_HEIGHT, HEIGHT:$HEIGHT" >> height.log
-
-    get_heights
-
-    #TODO: Exit when height is met? 
-    
-
-done
+print_con   # 6. Print to console
