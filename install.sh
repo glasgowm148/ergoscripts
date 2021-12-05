@@ -215,7 +215,7 @@ case_mem(){
        
         ;;
 
-    armv7l*|aarch64)
+    armv7l|aarch64)
         echo "on Pi!"
         sleep 5
         echo 'Pi' > pi.log
@@ -245,13 +245,7 @@ case_kill(){
 
     armv7l*|aarch64)
         echo "on Pi!"
-        sleep 5
-        echo 'Pi' > pi.log
         kill -9 $(lsof -t -i:9053)
-        PI_MEM=$(free)
-        echo "Pi memory !!-- " $PI_MEM
-        sleep 5
-        #PI_MEM_AVAIL=${PI_MEM:92:6}
         ;;
     *) #Other
         kill -9 $(lsof -t -i:9053)
