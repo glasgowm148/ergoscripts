@@ -14,7 +14,6 @@ set_env(){
     # Initial variables
     export API_KEY="dummy"
     WHAT_AM_I=$(uname -m)
-    echo "uname -m = " $WHAT_AM_I
     
     dt=$(date '+%d/%m/%Y %H:%M:%S');
     i=0
@@ -49,7 +48,8 @@ set_env(){
 
         Linux)
             #echo "Raspberry Pi"
-            memory=$(echo -e 'import re\nmatched=re.search(r"^MemTotal:\s+(\d+)",open("/proc/meminfo").read())\nprint(int(matched.groups()[0])/(1024.**2))' | python)
+           # memory=$(echo -e 'import re\nmatched=re.search(r"^MemTotal:\s+(\d+)",open("/proc/meminfo").read())\nprint(int(matched.groups()[0])/(1024.**2))' | python)
+            memory=$(awk '$3=="kB"{if ($2>1024^2){$2=$2/1024^2;$3="GB";} else if ($2>1024){$2=$2/1024;$3="MB";}} 1' /proc/meminfo | column -t)
             half_mem=$((${memory%.*} / 2))
             JVM_HEAP_SIZE="-Xmx${half_mem}g"
             echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
