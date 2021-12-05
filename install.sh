@@ -393,9 +393,12 @@ launch_panel() {
 #
 # main()
 ######################
-set_envs
 
 case_mem
+
+set_envs
+
+
 
 case_kill 
 
