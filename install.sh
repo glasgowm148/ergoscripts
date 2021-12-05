@@ -14,6 +14,7 @@ set_env(){
     # Initial variables
     export API_KEY="dummy"
     WHAT_AM_I=$(uname -m)
+    export BLAKE_HASH="unset"
     
     dt=$(date '+%d/%m/%Y %H:%M:%S');
     i=0
@@ -78,6 +79,7 @@ set_env(){
             echo "Raspberry Pi detected, running node in light-mode" 
             echo "blocksToKeep = 1440 # keep ~2 days of blocks"
             echo "stateType = digest # Note: You cannot validate arbitrary block and generate ADProofs due to this"
+            echo "To be able to do this on a Pi please "
             sleep 10
             export blocksToKeep="blocksToKeep = 1440 # 1440 = ~2days"
             export stateType = "stateType = digest"
@@ -129,7 +131,7 @@ scorex {
         # Should be 64-chars long Base16 string.
         # below is the hash of the string 'hello'
         # replace with your actual hash 
-        apiKeyHash = "$API_KEY"
+        apiKeyHash = "$BLAKE_HASH"
     }
     network {
             
@@ -165,7 +167,7 @@ start_node(){
 check_run() {
 # Check for .log files to see if this is the first run
 # If(.log) -> extract env -> start_node
-# else set_conf() -> get_hash() -> set_conf()
+# Set basic config for boot, boot & get the hash and then re-set config
     count=`ls -1 *.log 2>/dev/null | wc -l`
     if [ $count != 0 ]; then 
         rm ergo.log
@@ -222,9 +224,28 @@ check_run() {
 
         # Write basic conf
         set_conf
-
+        
+       
+        
         # Set the API key
-        get_hash
+        if [ ! -z ${API_KEY+x} ]; then 
+            
+            start_node
+            
+            export BLAKE_HASH=$(curl --silent -X POST "http://localhost:9053/utils/hash/blake2b" -H "accept: application/json" -H "Content-Type: application/json" -d "\"$input\"")
+            echo "BLAKE_HASH:$BLAKE_HASH"
+            
+            echo "reset conf"
+            set_conf
+            
+            curl -X POST "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
+            
+            case_kill
+            start_node
+            
+        fi
+        echo "pass"
+        sleep 10
 
         # Write basic conf
         set_conf
@@ -236,7 +257,7 @@ check_run() {
 
 case_kill(){
 # Kill process across platform
-# TODO: safe kill # curl -X POST "http://127.0.0.1:9053/node/shutdown" -H "api_key: hellomyd"
+# TODO: safe kill # curl -X POST "http://127.0.0.1:9053/node/shutdown" -H "api_key: hello"
     case "$(uname -s)" in
 
     CYGWIN*|MINGW32*|MSYS*|MINGW*)
@@ -258,7 +279,7 @@ case_kill(){
 
 error_log(){
 # Export ERROR/WARN only to error.log  
-#
+# TODO: ValueError: No JSON object could be decoded -> start_node
     ERROR=$(tail -n 5 server.log | grep 'ERROR\|WARN') 
     t_NONE=$(tail -n 5 server.log | grep 'Got GetReaders request in state (None,None,None,None)\|port')
 
@@ -271,7 +292,7 @@ error_log(){
 
     ## Count the occurance of t_NONE and kill/restart if > 10
     if [ ! -z "$t_NONE" ]; then
-        echo i: $i
+        echo "Readers not ready. If this keeps happening we'll attempt to restart: $i"
         ((i=i+1)) 
     else
         echo #i: $i
@@ -287,23 +308,6 @@ error_log(){
 
 }
 
-get_hash(){
-# Get & Set API key
-#
-    start_node
-
-    if [ -z ${API_KEY+x} ]; then 
-        #echo "API_KEY is unset";
-        export API_KEY=$(curl --silent -X POST "http://localhost:9053/utils/hash/blake2b" -H "accept: application/json" -H "Content-Type: application/json" -d "\"$input\"")
-    fi
-
-    case_kill
-    
-    set_conf
-
-    start_node
-
-}
 
 get_heights(){
 # This method pulls the latest height and header height from /info
@@ -326,25 +330,24 @@ get_heights(){
     curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
     | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
     )
-    
+    API_HEIGHT=${API_HEIGHT2:92:6}
     # Calculate %
-    # TODO: Simplify
-    if [ ! -z ${API_HEIGHT2+x} ]; then
-        API_HEIGHT=${API_HEIGHT2:92:6}
+    if [ -n "$API_HEIGHT" ] && [ "$API_HEIGHT" -eq "$API_HEIGHT" ] 2>/dev/null; then
+        echo #number
+        
 
-        if [ ! -z ${HEADERS_HEIGHT+x} ]; then
-        #TODO: Integer expected
-            if [ $HEADERS_HEIGHT -ne 0 ]; then
-                    let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
-            fi
-
+        if [ -n "$HEADERS_HEIGHT" ] && [ "$HEADERS_HEIGHT" -eq "$HEADERS_HEIGHT" ] 2>/dev/null; then
+        
+            echo "header:$HEADERS_HEIGHT"
+            let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
+           
         fi
 
-        if [ ! -z ${HEIGHT+x} ]; then
+        if [ -n "$HEIGHT" ] && [ "$HEIGHT" -eq "$HEIGHT" ] 2>/dev/null; then
 
-            if [ $HEIGHT -ne 0 ]; then
-                    let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
-            fi
+           
+                let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
+          
 
         fi
     
