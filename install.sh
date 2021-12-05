@@ -26,7 +26,7 @@ case_mem(){
             echo "memory:" $memory
             half_mem=$((memory / 2))
             echo "half_mem:" $memory
-            JVM_HEAP_SIZE="-Xmx${half_mem}g"
+            JVM_HEAP_SIZE="-Xmx${half_mem%.*}g"
             echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
             sleep 5
             ;;
