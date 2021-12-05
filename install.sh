@@ -70,7 +70,14 @@ set_env(){
             JVM_HEAP_SIZE="-Xmx2g"
             ;;
     esac
-    
+
+    case "$(uname -m)" in
+        armv7l|aarch64)
+            echo "PI!"
+            sleep 10
+            JVM_HEAP_SIZE="-Xmx2g"
+            ;;
+    esac
     
 }
 
@@ -345,7 +352,7 @@ get_heights(){
     if [ ! -z ${API_HEIGHT2+x} ]; then
         API_HEIGHT=${API_HEIGHT2:92:6}
 
-        if [ ! -z ${HEADERS_HEIGHT+x} ]; then
+        if [ ! -z ${HEADERS_HEIGHT+x} ]; then # TODO: Triggers an error when 0??
 
             if [ $HEADERS_HEIGHT -ne 0 ]; then
                     let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
