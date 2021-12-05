@@ -7,51 +7,27 @@
 # bash -c "$(curl -s https://node.phenotype.dev)"
 
 
-case_mem(){
-# Check for available memory
+set_env(){
+# Variables
 # CALLEDBY: main
-# TODO: Windows/Pi    
-    case "$(uname -s)" in
+#
+    # Initial variables
+    export API_KEY="dummy"
+    WHAT_AM_I=$(uname -m)
+    echo "uname -m = " $WHAT_AM_I
+    
+    dt=$(date '+%d/%m/%Y %H:%M:%S');
+    i=0
+    let PERCENT_BLOCKS=100
+    let PERCENT_HEADERS=100
 
-        CYGWIN*|MINGW32*|MSYS*|MINGW*)
-            echo 'MS Windows'
-            
-            WIN_MEM=$(systeminfo)
-            echo "WIN memory !!-- " $WIN_MEM
-            ;;
-
-        Linux)
-            echo "on Pi!"
-            memory=$(echo -e 'import re\nmatched=re.search(r"^MemTotal:\s+(\d+)",open("/proc/meminfo").read())\nprint(int(matched.groups()[0])/(1024.**2))' | python)
-            echo "memory:" $memory
-            half_mem=$((${memory%.*} / 2))
-            echo "half_mem:" $memory
-             
-            JVM_HEAP_SIZE="-Xmx${half_mem}g"
-            echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
-            sleep 5
-            ;;
-        Darwin) #Other
-            memory=$(top -l1 | awk '/PhysMem/ {print $2}')
-            half_mem=$((${memory%?} / 2))
-            JVM_HEAP_SIZE="-Xmx${half_mem}g"
-            echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
-
-            sleep 5
-           
-            #kill -9 $(lsof -t -i:9053)
-            ;;
-    esac
-}
-
-check_python(){
-# Check for Python version
-# CALLEDBY: set_env
+    # Check for python
     if ! hash python; then
         echo "python is not installed"
         exit 1
     fi
-
+    #pyv="$(python -V 2>&1)"
+    #echo "$pyv"
     ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
     echo "$ver"
     if [ "$ver" -gt "27" ]; then
@@ -59,45 +35,40 @@ check_python(){
         #echo "This script requires python 2.7 or lesser"
         #exit 1
     fi
-}
 
-set_envs(){
-# Variables
-# CALLEDBY: main
-# CALLS: check_python
-#
-    check_python
-    export API_KEY="dummy"
-    WHAT_AM_I=$(uname -m)
-    echo "uname -m = " $WHAT_AM_I
-    pyv="$(python -V 2>&1)"
-    echo "$pyv"
-    dt=$(date '+%d/%m/%Y %H:%M:%S');
-    i=0
-    let PERCENT_BLOCKS=100
-    let PERCENT_HEADERS=100
-}
+    # Set memory
+    case "$(uname -s)" in
 
+        CYGWIN*|MINGW32*|MSYS*|MINGW*)
+            echo 'MS Windows'
+            
+            WIN_MEM=$(systeminfo)
+            echo "WIN memory !!-- " $WIN_MEM
+            blocksToKeep="#blocksToKeep = "
+            ;;
 
-set_heap() {
-# the -Xmx3G flag specifies the JVM Heap size
-# CALLEDBY: check_run
-# TODO: change to MB
-    if [ ! -z ${JVM_HEAP_SIZE+x} ]; then
-    #if [ -z $JVM_HEAP_SIZE ]; then
-        read -p "
-        #### How many GB of memory should we give the node? ####   
-
-        This must be less than your total RAM size. 
-
-        Recommended: 
-        - 1 for Raspberry Pi
-        - 2-3 for laptops
-
-        " JVM_HEAP
-        export JVM_HEAP_SIZE="-Xmx${JVM_HEAP}g"
-        echo "$JVM_HEAP_SIZE" > jvm.conf
-    fi 
+        Linux)
+            #echo "Raspberry Pi"
+            memory=$(echo -e 'import re\nmatched=re.search(r"^MemTotal:\s+(\d+)",open("/proc/meminfo").read())\nprint(int(matched.groups()[0])/(1024.**2))' | python)
+            half_mem=$((${memory%.*} / 2))
+            JVM_HEAP_SIZE="-Xmx${half_mem}g"
+            echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
+            #blocksToKeep="blocksToKeep = 2880 "
+            sleep 5
+            ;;
+        Darwin) #Other
+            memory=$(top -l1 | awk '/PhysMem/ {print $2}')
+            half_mem=$((${memory%?} / 2))
+            JVM_HEAP_SIZE="-Xmx${half_mem}g"
+            echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
+            blocksToKeep="#blocksToKeep = 2880 # Set this to 1440-2880 for Pi"
+            sleep 5
+           
+            #kill -9 $(lsof -t -i:9053)
+            ;;
+    esac
+    
+    
 }
 
 set_conf (){
@@ -121,7 +92,7 @@ set_conf (){
                 # Number of last blocks to keep with transactions and ADproofs, for all other blocks only header will be stored.
                 # Keep all blocks from genesis if negative
                 # download and keep only ~4 days of full-blocks
-                # blocksToKeep = 2880
+                $blocksToKeep
 
                 # State type.  Possible options are:
                 # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
@@ -137,8 +108,6 @@ set_conf (){
                 }
             network {
                 
-                #bindAddress = '0.0.0.0:9053'
-
                 # Misbehaving peer penalty score will not be increased withing this time interval,
                 # unless permanent penalty is applied
                 penaltySafeInterval = 1m
@@ -180,7 +149,7 @@ start_node(){
 check_run() {
 # Check for .log files to see if this is the first run
 # If(.log) -> extract env -> start_node
-# else set_heap() ->  set_conf() -> get_hash() -> set_conf()
+# else set_conf() -> get_hash() -> set_conf()
     count=`ls -1 *.log 2>/dev/null | wc -l`
     if [ $count != 0 ]; then 
         rm ergo.log
@@ -203,8 +172,8 @@ check_run() {
         fi
         
         # ()
-        set_heap 
-
+        #set_heap 
+        
         read -p "
             #### Please create a password. #### 
 
@@ -323,82 +292,75 @@ get_hash(){
 get_heights(){
 # This method pulls the latest height and header height from /info
 #
-    echo # "get_heights"
+    
     # run with python2 if python3 is default
-    if [[ "$ver" -gt "27" ]]; 
-        echo #$ver
-        then
+    if [[ "$ver" -gt "27" ]]; then
+
             API_HEIGHT2==$(\
                 curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
-            API_HEIGHT=${API_HEIGHT2:92:6}
-            #echo $API_HEIGHT2
-            
-            #echo "Target height retrieved from API: $API_HEIGHT"
 
             HEADERS_HEIGHT=$(\
                 curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
                 | python2 -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
             )
-            #echo "Current header height: $HEADERS_HEIGHT"
 
             HEIGHT=$(\
             curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
             | python2 -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
             )
             
-            let FULL_HEIGHT=$(\
+            FULL_HEIGHT=$(\
             curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
             | python2 -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
             )
             
         else
-            echo $ver
-            #echo "FULL_HEIGHT:" $FULL_HEIGHT
+
             API_HEIGHT2==$(\
                 curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
             
-            echo $API_HEIGHT
-            
-            #echo "Target height retrieved from API: $API_HEIGHT"
-            # TODO: None [ Integer expression expected 
             HEADERS_HEIGHT=$(\
                 curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
                 | python -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
             )
-            #echo "Current header height: $HEADERS_HEIGHT"
 
             HEIGHT=$(\
             curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
             | python -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
             )
             
-            let FULL_HEIGHT=$(\
+            FULL_HEIGHT=$(\
             curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
             | python -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
             )
-            #echo "FULL_HEIGHT:" $FULL_HEIGHT
+
     fi
     
-    # TODO: Arthim error
-    if [ ! -z ${API_HEIGHT+x} ]; then
+    # Calculate %
+    if [ ! -z ${API_HEIGHT2+x} ]; then
         API_HEIGHT=${API_HEIGHT2:92:6}
-        echo #"test:" $HEADERS_HEIGHT
+
         if [ ! -z ${HEADERS_HEIGHT+x} ]; then
+
             if [ $HEADERS_HEIGHT -ne 0 ]; then
                     let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
             fi
+
         fi
+
         if [ ! -z ${HEIGHT+x} ]; then
+
             if [ $HEIGHT -ne 0 ]; then
                     let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
             fi
+
         fi
     
     fi
     
-   } 
+} 
     
-    
+
 launch_panel() {
 # Open browser to panel page
 #
@@ -441,14 +403,12 @@ print_con() {
 ######################
 # main()
 ######################
-set_envs    # 1. Set some environment variables
+set_env     # 1. Set some environment variables
 
-case_mem    # 2. Gets the available memory for each OS
+case_kill   # 2. Cross-platform port killer
 
-case_kill   # 3. Cross-platform kill port
+check_run   # 3. Check if first run
 
-check_run   # 4. Check if first run
+set_conf    # 4. Set the configuration file
 
-set_conf    # 5. Set the configuration file
-
-print_con   # 6. Print to console
+print_con   # 5. Print to console
