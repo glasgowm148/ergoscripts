@@ -89,7 +89,7 @@ set_env(){
             echo "stateType = digest # Note: You cannot validate arbitrary block and generate ADProofs due to this"
             echo "To be able to do this on a Pi please "
             sleep 10
-            export blocksToKeep="blocksToKeep = 1440 # 1440 = ~2days"
+            export blocksToKeep="#blocksToKeep = 1440 # 1440 = ~2days"
             export stateType = "stateType = digest"
             ;;
     esac
@@ -122,7 +122,7 @@ ergo {
         # A node is considering that the chain is synced if sees a block header with timestamp no more
         # than headerChainDiff blocks on average from future
         # testnet value is 800 blocks ~= 1600 minutes (~1.1 days)
-        headerChainDiff = 80
+        #headerChainDiff = 800
 
         # State type.  Possible options are:
         # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
@@ -169,12 +169,14 @@ start_node(){
 # Starting the node      
 #
     #-Djava.util.logging.config.file=logging.properties
+    #java -jar -Xmx14G ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
     java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
     echo "JVM Heap is set to:" $JVM_HEAP_SIZE
     echo "#### Waiting for a response from the server. ####"
     while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.';  done;  # wait for node be ready with progress bar
     #error_log
 }
+     > server.log 2>&1 & 
 
 
 first_run() {
@@ -230,7 +232,7 @@ Generally using the same API key through the entire sync process can prevent 'Ba
 
 case_kill(){
 # Kill process across platform
-# TODO: safe kill # curl -X POST "http://127.0.0.1:9053/node/shutdown" -H "api_key: hello"
+# TODO: safe kill # curl -X POST "http://127.0.0.1:9053/node/shutdown" -H "api_key: Dj821642148!"
     case "$(uname -s)" in
 
     CYGWIN*|MINGW32*|MSYS*|MINGW*)
@@ -367,8 +369,8 @@ case_kill
 
 count=`ls -1 *.log 2>/dev/null | wc -l`
 if [ $count != 0 ]; then 
-    rm ergo.log
-    rm server.log # remove the log file on each run so it doesn't become useless.
+    #rm ergo.log
+    #rm server.log # remove the log file on each run so it doesn't become useless.
     
     API_KEY=$(cat "api.conf")
     echo "api.conf: API Key is set to: $API_KEY"
