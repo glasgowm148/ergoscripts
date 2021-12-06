@@ -5,3 +5,4 @@
 *.properties
 *.log.gz
 *.out
+/ergo_node*

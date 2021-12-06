@@ -8,13 +8,16 @@
 
 
 set_env(){
-# Variables
-# CALLEDBY: main
-#
+# Set some variables and check for python/java
+# TODO: Win support for java/python
     # Initial variables
     export API_KEY="dummy"
-    WHAT_AM_I=$(uname -m)
     export BLAKE_HASH="unset"
+
+    #OS=$(uname -m)
+
+    [ -d ergo_node ] || mkdir ergo_node && cd ergo_node
+    
     
     dt=$(date '+%d/%m/%Y %H:%M:%S');
     i=0
@@ -24,7 +27,9 @@ set_env(){
     # Check for python
     if ! hash python; then
         echo "python is not installed"
-        
+        #curl https://pyenv.run | bash
+        #echo "Python installed, please re-run"
+        #https://github.com/pyenv-win/pyenv-win
         exit 1
     fi
     #pyv="$(python -V 2>&1)"
@@ -113,6 +118,11 @@ ergo {
         # Keep all blocks from genesis if negative
         # download and keep only ~4 days of full-blocks
         $blocksToKeep
+        
+        # A node is considering that the chain is synced if sees a block header with timestamp no more
+        # than headerChainDiff blocks on average from future
+        # testnet value is 800 blocks ~= 1600 minutes (~1.1 days)
+        headerChainDiff = 80
 
         # State type.  Possible options are:
         # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
@@ -162,18 +172,15 @@ start_node(){
     java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
     echo "JVM Heap is set to:" $JVM_HEAP_SIZE
     echo "#### Waiting for a response from the server. ####"
-    while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.'; tail -n 1 server.log;  done;  # wait for node be ready with progress bar
-    error_log
+    while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.';  done;  # wait for node be ready with progress bar
+    #error_log
 }
 
 
 first_run() {
 # Check for .log files to see if this is the first run
 # If(.log) -> extract env -> start_node
-# Set basic config for boot, boot & get the hash and then re-set config
-    
-    
-                
+# Set basic config for boot, boot & get the hash and then re-set config              
          
     ### Download the latest .jar file                                                                    
     if [ ! -e *.jar ]; then 
@@ -188,11 +195,14 @@ first_run() {
    
     
     # API 
-    read -p "#### Please create a password. #### 
+    read -p "
+#### Please create a password. #### 
 
-        This will be used to unlock your API. Generally using the same API key through the entire sync process can prevent 'Bad API Key' errors.
+This will be used to unlock your API. 
 
-        " input
+Generally using the same API key through the entire sync process can prevent 'Bad API Key' errors:
+
+" input
 
     export API_KEY=$input
     echo "$API_KEY" > api.conf
@@ -214,7 +224,7 @@ first_run() {
     start_node
     
     # Add blake hash
-    set_conf
+    #set_conf
 
 }
 
@@ -245,16 +255,16 @@ error_log(){
 # TODO: ValueError: No JSON object could be decoded -> start_node
     ERROR=$(tail -n 5 server.log | grep 'ERROR\|WARN') 
     t_NONE=$(tail -n 5 server.log | grep 'Got GetReaders request in state (None,None,None,None)\|port')
-
-    if [ -z ${ERROR+x} ]; then
+    if [ -z "$ERROR" ]; then
         echo "INFO:" $ERROR
     else
         echo "WARN/ERROR:" $ERROR
         echo "$ERROR" >> error.log
     fi
 
+
     ## Count the occurance of t_NONE and kill/restart if > 10
-    if [ ! -z "$t_NONE" ]; then
+    if [ -n "$t_NONE" ]; then
         echo "Readers not ready. If this keeps happening we'll attempt to restart: $i"
         ((i=i+1)) 
     else
@@ -314,7 +324,6 @@ get_heights(){
 
 
 
-
 print_con() {
 #TODO: Exit when height is met? 
 #TODO: Setup System services?
@@ -333,11 +342,14 @@ print_con() {
         echo ""
         echo "The most recent lines from server.log will be shown here:"
         error_log
+        error=$(tail error.log | grep 'ERROR\|WARN')
+        echo $error
         
         dt=$(date '+%d/%m/%Y %H:%M:%S');
         echo "$dt: HEADERS: $HEADERS_HEIGHT, HEIGHT:$HEIGHT" >> height.log
 
         get_heights  
+        #sleep 10
 
     done
 }
