@@ -15,7 +15,7 @@ set_env(){
     export BLAKE_HASH="unset"
 
     #OS=$(uname -m)
-
+    #cd ../ergo_node
     [ -d ergo_node ] || mkdir ergo_node && cd ergo_node
     
     
@@ -100,67 +100,67 @@ set_conf (){
 # Write the config file with the generated hash
 # CALLEDBY: first_run
 # TODO: Add custom Pi conf ('blockToKeep' / )
-    echo "
-ergo {
-    node {
-        # Full options available at 
-        # https://github.com/ergoplatform/ergo/blob/master/src/main/resources/application.conf
-        
-        mining = false
-        
-        ### there's light regime where the node is not storing UTXO set, and can validate only limited in length suffix of full blocks . Such nodes are running on Raspberry Pi with 0.5 GB given even.
-        # Skip validation of transactions in the mainnet before block 417,792 (in v1 blocks).
-        # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
-        # The node still applying transactions to UTXO set and so checks UTXO set digests for each block.
-        skipV1TransactionsValidation = true
-        
-        # Number of last blocks to keep with transactions and ADproofs, for all other blocks only header will be stored.
-        # Keep all blocks from genesis if negative
-        # download and keep only ~4 days of full-blocks
-        $blocksToKeep
-        
-        # A node is considering that the chain is synced if sees a block header with timestamp no more
-        # than headerChainDiff blocks on average from future
-        # testnet value is 800 blocks ~= 1600 minutes (~1.1 days)
-        #headerChainDiff = 800
-
-        # State type.  Possible options are:
-        # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
-        # "digest" - keep state root hash only and validate transactions via ADProofs
-        $stateType
-        # Download block transactions and verify them (requires BlocksToKeep == 0 if disabled)
-        #verifyTransactions = false
-
-        # Download PoPoW proof on node bootstrap
-        #PoPoWBootstrap = true
-
-    }
-
-}      
-        
-scorex {
-    restApi {
-        # Hex-encoded Blake2b256 hash of an API key. 
-        # Should be 64-chars long Base16 string.
-        # below is the hash of the string 'hello'
-        # replace with your actual hash 
-        apiKeyHash = "$BLAKE_HASH"
-    }
-    network {
+echo "
+    ergo {
+        node {
+            # Full options available at 
+            # https://github.com/ergoplatform/ergo/blob/master/src/main/resources/application.conf
             
-            # Misbehaving peer penalty score will not be increased withing this time interval,
-            # unless permanent penalty is applied
-            penaltySafeInterval = 1m
+            mining = false
             
-            # Max penalty score peer can accumulate before being banned
-            penaltyScoreThreshold = 100
+            ### there's light regime where the node is not storing UTXO set, and can validate only limited in length suffix of full blocks . Such nodes are running on Raspberry Pi with 0.5 GB given even.
+            # Skip validation of transactions in the mainnet before block 417,792 (in v1 blocks).
+            # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
+            # The node still applying transactions to UTXO set and so checks UTXO set digests for each block.
+            skipV1TransactionsValidation = true
+            
+            # Number of last blocks to keep with transactions and ADproofs, for all other blocks only header will be stored.
+            # Keep all blocks from genesis if negative
+            # download and keep only ~4 days of full-blocks
+            $blocksToKeep
+            
+            # A node is considering that the chain is synced if sees a block header with timestamp no more
+            # than headerChainDiff blocks on average from future
+            # testnet value is 800 blocks ~= 1600 minutes (~1.1 days)
+            #headerChainDiff = 800
 
-            # Max number of delivery checks. Stop expecting modifier (and penalize peer) if it was not delivered after that
-            # number of delivery attempts
-            maxDeliveryChecks = 2
+            # State type.  Possible options are:
+            # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
+            # "digest" - keep state root hash only and validate transactions via ADProofs
+            $stateType
+            # Download block transactions and verify them (requires BlocksToKeep == 0 if disabled)
+            #verifyTransactions = false
+
+            # Download PoPoW proof on node bootstrap
+            #PoPoWBootstrap = true
+
         }
-}
-    " > ergo.conf
+
+    }      
+            
+    scorex {
+        restApi {
+            # Hex-encoded Blake2b256 hash of an API key. 
+            # Should be 64-chars long Base16 string.
+            # below is the hash of the string 'hello'
+            # replace with your actual hash 
+            apiKeyHash = "$BLAKE_HASH"
+        }
+        network {
+                
+                # Misbehaving peer penalty score will not be increased withing this time interval,
+                # unless permanent penalty is applied
+                #penaltySafeInterval = 1m
+                
+                # Max penalty score peer can accumulate before being banned
+                #penaltyScoreThreshold = 100
+
+                # Max number of delivery checks. Stop expecting modifier (and penalize peer) if it was not delivered after that
+                # number of delivery attempts
+                #maxDeliveryChecks = 2
+            }
+    }
+        " > ergo.conf
 
 }
 
@@ -225,8 +225,7 @@ Generally using the same API key through the entire sync process can prevent 'Ba
     
     start_node
     
-    # Add blake hash
-    #set_conf
+
 
 }
 
@@ -285,76 +284,11 @@ error_log(){
 }
 
 
-get_heights(){
-# This method pulls the latest height and header height from /info
-#
     
-    API_HEIGHT2==$(\
-                curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
 
-    HEADERS_HEIGHT=$(\
-        curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
-        | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
-    )
-
-    HEIGHT=$(\
-    curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-    | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
-    )
-    
-    FULL_HEIGHT=$(\
-    curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-    | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
-    )
-    API_HEIGHT=${API_HEIGHT2:92:6}
-    # Calculate %
-    if [ -n "$API_HEIGHT" ] && [ "$API_HEIGHT" -eq "$API_HEIGHT" ] 2>/dev/null; then
-        echo #number
-        
-        if [ -n "$HEADERS_HEIGHT" ] && [ "$HEADERS_HEIGHT" -eq "$HEADERS_HEIGHT" ] 2>/dev/null; then
-            let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
-        fi
-
-        if [ -n "$HEIGHT" ] && [ "$HEIGHT" -eq "$HEIGHT" ] 2>/dev/null; then
-            let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
-        fi
-    
-    fi
-    
-} 
     
 
 
-
-print_con() {
-#TODO: Exit when height is met? 
-#TODO: Setup System services?
-    python${ver:0:1} -mwebbrowser http://127.0.0.1:9053/info
-    while sleep 1
-        do
-        clear
-        printf "%s    \n\n" \
-        "To use the API, enter your password ('$API_KEY') on 127.0.0.1:9053/panel under 'Set API key'."\
-        "Please follow the next steps on docs.ergoplatform.org to initialise your wallet."  \
-        "For best results please disable any sleep mode while syncing"  \
-        "Sync Progress;"\
-        "### Headers: ~$(( 100 - $PERCENT_HEADERS ))% Complete ($HEADERS_HEIGHT/$API_HEIGHT) ### "\
-        "### Blocks:  ~$(( 100 - $PERCENT_BLOCKS ))% Complete ($HEIGHT/$API_HEIGHT) ### "
-        
-        echo ""
-        echo "The most recent lines from server.log will be shown here:"
-        error_log
-        error=$(tail error.log | grep 'ERROR\|WARN')
-        echo $error
-        
-        dt=$(date '+%d/%m/%Y %H:%M:%S');
-        echo "$dt: HEADERS: $HEADERS_HEIGHT, HEIGHT:$HEIGHT" >> height.log
-
-        get_heights  
-        #sleep 10
-
-    done
-}
 
 
 ######################
@@ -363,6 +297,7 @@ print_con() {
 
 # Set some environment variables
 set_env     
+set_conf
 
 # Cross-platform port killer
 case_kill   
@@ -385,8 +320,12 @@ fi
 # Set the configuration file
 set_conf   
 
-# Launch in browser
-python${ver:0:1} -mwebbrowser http://127.0.0.1:9053/panel 
+case_kill
 
-# 5. Print to console
-print_con   
+echo "done"
+echo "This script sets your hash and then exits. Please run with.."
+exit 1
+
+# Launch in browser
+#python${ver:0:1} -mwebbrowser http://127.0.0.1:9053/panel 
+
