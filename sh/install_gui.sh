@@ -44,7 +44,7 @@ set_env(){
         echo "Please update to the latest version"
         echo "curl -s "https://beta.sdkman.io" | bash"
     else
-        echo $jver is java 17
+        echo $jver is > java 17
     fi
    
   
@@ -158,6 +158,10 @@ scorex {
             # Max number of delivery checks. Stop expecting modifier (and penalize peer) if it was not delivered after that
             # number of delivery attempts
             #maxDeliveryChecks = 2
+
+               
+            maxConnections = 100
+
         }
 }
     " > ergo.conf
@@ -277,39 +281,69 @@ error_log(){
         i=0
         echo i: $i
         #case_kill
-        curl -X POST "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
+        curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
         start_node
         
     fi
 
 }
 
+FAIL_CODE=6
+
+check_status(){
+    LRED="\033[1;31m" # Light Red
+    LGREEN="\033[1;32m" # Light Green
+    NC='\033[0m' # No Color
+
+
+    string=$(curl -sf --max-time 20 "${1}")
+    
+    if [ -z "$string" ]; then
+        echo -e "${LRED}${1} is down${NC}"
+        kill -9 $(lsof -t -i:9053)
+        kill -9 $(lsof -t -i:9030)
+        killall -9 java
+        sleep 10
+        start_node
+        print_con
+    else
+       #echo "string:" $string
+       echo -e "${LGREEN}${1} is online${NC}"
+
+    fi
+}
+
+
+
+
+
 
 get_heights(){
 # This method pulls the latest height and header height from /info
 #
-    
+    check_status "localhost:9053/info"
+
     API_HEIGHT2==$(\
-                curl --silent --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
+                curl --silent --max-time 10 --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
 
     HEADERS_HEIGHT=$(\
-        curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
+        curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
         | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
     )
 
     HEIGHT=$(\
-    curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+    curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
     | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
     )
     
     FULL_HEIGHT=$(\
-    curl --silent --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+    curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
     | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
     )
     API_HEIGHT=${API_HEIGHT2:92:6}
     # Calculate %
     if [ -n "$API_HEIGHT" ] && [ "$API_HEIGHT" -eq "$API_HEIGHT" ] 2>/dev/null; then
-        echo #number
+        
         
         if [ -n "$HEADERS_HEIGHT" ] && [ "$HEADERS_HEIGHT" -eq "$HEADERS_HEIGHT" ] 2>/dev/null; then
             let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
@@ -318,7 +352,9 @@ get_heights(){
         if [ -n "$HEIGHT" ] && [ "$HEIGHT" -eq "$HEIGHT" ] 2>/dev/null; then
             let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
         fi
-    
+        
+
+
     fi
     
 } 
@@ -329,7 +365,8 @@ get_heights(){
 print_con() {
 #TODO: Exit when height is met? 
 #TODO: Setup System services?
-    python${ver:0:1} -mwebbrowser http://127.0.0.1:9053/info
+    
+    
     while sleep 1
         do
         clear
@@ -351,7 +388,7 @@ print_con() {
         echo "$dt: HEADERS: $HEADERS_HEIGHT, HEIGHT:$HEIGHT" >> height.log
 
         get_heights  
-        #sleep 10
+        sleep 5
 
     done
 }
@@ -386,7 +423,7 @@ fi
 set_conf   
 
 # Launch in browser
-python${ver:0:1} -mwebbrowser http://127.0.0.1:9053/panel 
+python${ver:0:1} -mwebbrowser http://127.0.0.1:9053/info 
 
 # 5. Print to console
 print_con   

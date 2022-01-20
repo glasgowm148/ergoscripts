@@ -1,1 +1,0 @@
-echo "$(tail -n 5000 server.log)" > server.log

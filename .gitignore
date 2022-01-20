@@ -1,8 +1,12 @@
 *.conf
 *.jar
 *.log
+*.toml
 .ergo
 *.properties
 *.log.gz
 *.out
 /ergo_node*
+sh/ergo_node.zip
+sh/.DS_Store
+.DS_Store
