@@ -117,7 +117,7 @@ ergo {
         # Number of last blocks to keep with transactions and ADproofs, for all other blocks only header will be stored.
         # Keep all blocks from genesis if negative
         # download and keep only ~4 days of full-blocks
-        $blocksToKeep
+        #$blocksToKeep
         
         # A node is considering that the chain is synced if sees a block header with timestamp no more
         # than headerChainDiff blocks on average from future
@@ -180,7 +180,7 @@ start_node(){
     while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.';  done;  # wait for node be ready with progress bar
     #error_log
 }
-     > server.log 2>&1 & 
+    # > server.log 2>&1 & 
 
 
 first_run() {
@@ -235,46 +235,47 @@ Generally using the same API key through the entire sync process can prevent 'Ba
 }
 
 case_kill(){
-# Kill process across platform
-# TODO: safe kill # curl -X POST "http://127.0.0.1:9053/node/shutdown" -H "api_key: Dj821642148!"
     case "$(uname -s)" in
 
     CYGWIN*|MINGW32*|MSYS*|MINGW*)
         echo 'MS Windows'
+        curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
         netstat -ano | findstr :9053
         taskkill /PID 9053 /F
         ;;
 
     armv7l*|aarch64)
         echo "on Pi!"
+        curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
         kill -9 $(lsof -t -i:9053)
+        kill -9 $(lsof -t -i:9030)
+        killall -9 java
+        sleep 10
         ;;
     *) #Other
+        curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
         kill -9 $(lsof -t -i:9053)
+        kill -9 $(lsof -t -i:9030)
+        killall -9 java
+        sleep 10
         ;;
     esac
 
 }
 
 error_log(){
-# Export ERROR/WARN only to error.log  
-# TODO: ValueError: No JSON object could be decoded -> start_node
-    ERROR=$(tail -n 5 server.log | grep 'ERROR\|WARN') 
-    t_NONE=$(tail -n 5 server.log | grep 'Got GetReaders request in state (None,None,None,None)\|port')
-    if [ -z "$ERROR" ]; then
-        echo "INFO:" $ERROR
-    else
-        echo "WARN/ERROR:" $ERROR
-        echo "$ERROR" >> error.log
-    fi
-
-
-    ## Count the occurance of t_NONE and kill/restart if > 10
-    if [ -n "$t_NONE" ]; then
+    inputFile=ergo.log
+    
+    if egrep 'ERROR\|WARN' "$inputFile" ; then
+        echo "WARN/ERROR:" $egrep
+        echo "$egrep" >> error.log
+    elif egrep 'Got GetReaders request in state (None,None,None,None)\|port' "$inputFile" ; then
         echo "Readers not ready. If this keeps happening we'll attempt to restart: $i"
         ((i=i+1)) 
-    else
-        echo #i: $i
+    elif egrep 'Invalid z bytes' "$inputFile" ; then
+        echo "zBYTES error:" $egrep
+        echo "$egrep" >> error.log
+    
     fi
 
     if [ $i -gt 10 ]; then
@@ -288,39 +289,29 @@ error_log(){
 
 }
 
-FAIL_CODE=6
+
 
 check_status(){
     LRED="\033[1;31m" # Light Red
     LGREEN="\033[1;32m" # Light Green
     NC='\033[0m' # No Color
 
-
     string=$(curl -sf --max-time 20 "${1}")
     
     if [ -z "$string" ]; then
         echo -e "${LRED}${1} is down${NC}"
-        kill -9 $(lsof -t -i:9053)
-        kill -9 $(lsof -t -i:9030)
-        killall -9 java
-        sleep 10
+        case_kill
+        
         start_node
         print_con
     else
-       #echo "string:" $string
        echo -e "${LGREEN}${1} is online${NC}"
-
     fi
 }
 
 
-
-
-
-
 get_heights(){
-# This method pulls the latest height and header height from /info
-#
+
     check_status "localhost:9053/info"
 
     API_HEIGHT2==$(\
@@ -353,20 +344,29 @@ get_heights(){
             let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
         fi
         
+        if [ -n "$FULL_HEIGHT" ] && [ "$FULL_HEIGHT" -eq "$HEADERS_HEIGHT" ] && [ "$API_HEIGHT" -ne "$HEADERS_HEIGHT" ] 2>/dev/null; then
+            
+            echo "ERROR: Height Mismatch. Failed at height $HEADERS_HEIGHT " >> error.log
+            
+            case_kill
+            rm -rf .ergo/history
+            rm -rf .ergo/state
+            start_node
+        fi
 
+
+        
+
+
+    else
+        echo "sync?"
 
     fi
     
 } 
     
 
-
-
 print_con() {
-#TODO: Exit when height is met? 
-#TODO: Setup System services?
-    
-    
     while sleep 1
         do
         clear
@@ -379,16 +379,12 @@ print_con() {
         "### Blocks:  ~$(( 100 - $PERCENT_BLOCKS ))% Complete ($HEIGHT/$API_HEIGHT) ### "
         
         echo ""
-        echo "The most recent lines from server.log will be shown here:"
         error_log
-        error=$(tail error.log | grep 'ERROR\|WARN')
-        echo $error
-        
         dt=$(date '+%d/%m/%Y %H:%M:%S');
         echo "$dt: HEADERS: $HEADERS_HEIGHT, HEIGHT:$HEIGHT" >> height.log
 
         get_heights  
-        sleep 5
+        
 
     done
 }
@@ -401,7 +397,7 @@ print_con() {
 # Set some environment variables
 set_env     
 
-# Cross-platform port killer
+# Cross-platform killer
 case_kill   
 
 count=`ls -1 *.log 2>/dev/null | wc -l`
