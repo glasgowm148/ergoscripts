@@ -1,16 +1,13 @@
 #!/bin/bash
 
 # Shell script for installing Ergo Node on any platform.
-# markglasgow@gmail.com - 29 November
+# markglasgow@gmail.com 
 # -------------------------------------------------------------------------
 # Run this with
 # bash -c "$(curl -s https://node.phenotype.dev)"
 
 
-set_env(){
-# Set some variables and check for python/java
-# TODO: Win support for java/python
-    # Initial variables
+set_environment(){
     export API_KEY="dummy"
     export BLAKE_HASH="unset"
 
@@ -96,10 +93,7 @@ set_env(){
     
 }
 
-set_conf (){
-# Write the config file with the generated hash
-# CALLEDBY: first_run
-# TODO: Add custom Pi conf ('blockToKeep' / )
+set_configuration (){
     echo "
 ergo {
     node {
@@ -170,17 +164,13 @@ scorex {
 
 
 start_node(){
-# Starting the node      
-#
-    #-Djava.util.logging.config.file=logging.properties
-    #java -jar -Xmx14G ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
     java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
     echo "JVM Heap is set to:" $JVM_HEAP_SIZE
     echo "#### Waiting for a response from the server. ####"
     while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.';  done;  # wait for node be ready with progress bar
     #error_log
 }
-    # > server.log 2>&1 & 
+
 
 
 first_run() {
@@ -214,7 +204,7 @@ Generally using the same API key through the entire sync process can prevent 'Ba
     echo "$API_KEY" > api.conf
     
     # Write basic conf
-    set_conf
+    set_configuration
     
     start_node
     
@@ -225,12 +215,12 @@ Generally using the same API key through the entire sync process can prevent 'Ba
     case_kill
 
     # Add blake hash
-    set_conf
+    set_configuration
     
     start_node
     
     # Add blake hash
-    #set_conf
+    #set_configuration
 
 }
 
@@ -303,7 +293,7 @@ check_status(){
         case_kill
         
         start_node
-        print_con
+        print_console
     else
        echo -e "${LGREEN}${1} is online${NC}"
     fi
@@ -343,15 +333,15 @@ get_heights(){
         if [ -n "$HEIGHT" ] && [ "$HEIGHT" -eq "$HEIGHT" ] 2>/dev/null; then
             let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
         fi
-        
+        # None: integer expression expected 
         if [ -n "$FULL_HEIGHT" ] && [ "$FULL_HEIGHT" -eq "$HEADERS_HEIGHT" ] && [ "$API_HEIGHT" -ne "$HEADERS_HEIGHT" ] 2>/dev/null; then
             
             echo "ERROR: Height Mismatch. Failed at height $HEADERS_HEIGHT " >> error.log
-            
-            case_kill
-            rm -rf .ergo/history
-            rm -rf .ergo/state
-            start_node
+            exit 1
+            #case_kill
+            #rm -rf .ergo/history
+            #rm -rf .ergo/state
+            #start_node
         fi
 
 
@@ -366,7 +356,7 @@ get_heights(){
 } 
     
 
-print_con() {
+print_console() {
     while sleep 1
         do
         clear
@@ -395,7 +385,7 @@ print_con() {
 ######################
 
 # Set some environment variables
-set_env     
+set_environment     
 
 # Cross-platform killer
 case_kill   
@@ -416,10 +406,10 @@ else
 fi
 
 # Set the configuration file
-set_conf   
+set_configuration   
 
 # Launch in browser
 python${ver:0:1} -mwebbrowser http://127.0.0.1:9053/info 
 
 # 5. Print to console
-print_con   
+print_console   

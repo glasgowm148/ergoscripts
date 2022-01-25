@@ -1,13 +1,22 @@
-# Readme
-
 > Note : Work-in-progress.
 
-Tested primarily on OSX/Pi
+![CLI](/run.png)
 
+# Getting Started
+
+Tested primarily on OSX/Pi
 
 ```
 bash -c "$(curl -s https://node.phenotype.dev)"
 ```
+
+# Features
+
+- Downloads latest .jar file
+- Prompts and sets API key
+- Track progress by percentage in CLI
+- Logs & attempts to solve common problems.
+
 
 # References
 
