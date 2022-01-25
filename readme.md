@@ -1,6 +1,6 @@
 > Note : Work-in-progress.
 
-![CLI](/run.png)
+
 
 # Getting Started
 
@@ -17,6 +17,7 @@ bash -c "$(curl -s https://node.phenotype.dev)"
 - Track progress by percentage in CLI
 - Logs & attempts to solve common problems.
 
+![CLI](/run.png)
 
 # References
 
