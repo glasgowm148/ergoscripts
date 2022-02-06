@@ -101,7 +101,10 @@ ergo {
         # https://github.com/ergoplatform/ergo/blob/master/src/main/resources/application.conf
         
         mining = false
-        
+
+        # Number of state snapshot diffs to keep. Defines maximum rollback depth
+        keepVersions = 32
+
         ### there's light regime where the node is not storing UTXO set, and can validate only limited in length suffix of full blocks . Such nodes are running on Raspberry Pi with 0.5 GB given even.
         # Skip validation of transactions in the mainnet before block 417,792 (in v1 blocks).
         # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
@@ -122,8 +125,7 @@ ergo {
         # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
         # "digest" - keep state root hash only and validate transactions via ADProofs
         $stateType
-        # Download block transactions and verify them (requires BlocksToKeep == 0 if disabled)
-        #verifyTransactions = false
+
 
         # Download PoPoW proof on node bootstrap
         #PoPoWBootstrap = true
@@ -139,6 +141,7 @@ scorex {
         # below is the hash of the string 'hello'
         # replace with your actual hash 
         apiKeyHash = "$BLAKE_HASH"
+        
     }
     network {
             
@@ -154,7 +157,7 @@ scorex {
             #maxDeliveryChecks = 2
 
                
-            maxConnections = 100
+            maxConnections = 10
 
         }
 }

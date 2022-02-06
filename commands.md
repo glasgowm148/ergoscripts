@@ -10,7 +10,7 @@
 java -jar -Xmx4G ergo.jar --mainnet -c ergo.conf
 
 ## Run with INFO logs suppressed
-java -jar -Xmx8G -Dlogback.stdout.level=WARN -Dlogback.file.level=ERR ergo.jar --mainnet -c mainnet.conf
+java -jar -Xmx8G -Dlogback.stdout.level=WARN -Dlogback.file.level=ERR ergo.jar --mainnet -c ergo.conf
 
 ## Pipe output to a log file instead of the terminal
 java -jar -Xmx4G ergo.jar --mainnet -c ergo.conf > new.log 2>&1 & 
@@ -36,6 +36,13 @@ tail -Fn+0 ergo.log | grep 'height'
 
 ```
 tail -Fn+0 ergo.log | grep 'ERROR\|WARN'
+tail -Fn+0 ergo.log | grep 'ERROR'
+tail -Fn+0 ergo.log | grep "not modified"
+tail -Fn+0 ergo.log | grep ERR
+tail -Fn+0 ergo.log | grep xception
+tail -Fn+0 ergo.log | grep "akka.log-dead-letters"
+tail -Fn+0 ergo.log | grep "stuck"
+
 ```
 
 ```
@@ -62,6 +69,7 @@ curl -X POST "http://127.0.0.1:9053/node/shutdown" -H "api_key: hello"
 ```
 kill -9 $(lsof -t -i:9053)
 kill -9 $(lsof -t -i:9030)
+killall -9 java
 ```
 
 

@@ -15,7 +15,7 @@ bash -c "$(curl -s https://node.phenotype.dev)"
 - Downloads latest .jar file
 - Prompts and sets API key
 - Track progress by percentage in CLI
-- Set config specific to platform
+- Set config specific to platform (Unix/Win/Pi)
 - Logs & attempts to solve common problems.
 
 ![CLI](/run.png)
