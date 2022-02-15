@@ -102,14 +102,7 @@ ergo {
         
         mining = false
 
-        # Number of state snapshot diffs to keep. Defines maximum rollback depth
-        #keepVersions = 32
-
-        ### there's light regime where the node is not storing UTXO set, and can validate only limited in length suffix of full blocks . Such nodes are running on Raspberry Pi with 0.5 GB given even.
-        # Skip validation of transactions in the mainnet before block 417,792 (in v1 blocks).
-        # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
-        # The node still applying transactions to UTXO set and so checks UTXO set digests for each block.
-        skipV1TransactionsValidation = true
+       
         
         # Number of last blocks to keep with transactions and ADproofs, for all other blocks only header will be stored.
         # Keep all blocks from genesis if negative
@@ -126,9 +119,6 @@ ergo {
         # "digest" - keep state root hash only and validate transactions via ADProofs
         $stateType
 
-
-        # Download PoPoW proof on node bootstrap
-        #PoPoWBootstrap = true
 
     }
 
@@ -171,17 +161,12 @@ start_node(){
     echo "JVM Heap is set to:" $JVM_HEAP_SIZE
     echo "#### Waiting for a response from the server. ####"
     while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.';  done;  # wait for node be ready with progress bar
-    #error_log
 }
 
 
 
 first_run() {
-# Check for .log files to see if this is the first run
-# If(.log) -> extract env -> start_node
-# Set basic config for boot, boot & get the hash and then re-set config              
-         
-    ### Download the latest .jar file                                                                    
+                                                               
     if [ ! -e *.jar ]; then 
         echo "- Retrieving latest node release.."
         LATEST_ERGO_RELEASE=$(curl -s "https://api.github.com/repos/ergoplatform/ergo/releases/latest" | awk -F '"' '/tag_name/{print $4}')
@@ -220,7 +205,7 @@ Generally using the same API key through the entire sync process can prevent 'Ba
     # Add blake hash
     set_configuration
     
-    start_node
+    #start_node
     
     # Add blake hash
     #set_configuration
@@ -232,161 +217,35 @@ case_kill(){
 
     CYGWIN*|MINGW32*|MSYS*|MINGW*)
         echo 'MS Windows'
-        curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
+        #curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
         netstat -ano | findstr :9053
         taskkill /PID 9053 /F
         ;;
 
     armv7l*|aarch64)
         echo "on Pi!"
-        curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
-        kill -9 $(lsof -t -i:9053)
-        kill -9 $(lsof -t -i:9030)
-        killall -9 java
+        #curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
+        kill -9 $(lsof -t -i:9053) 2>/dev/null
+        kill -9 $(lsof -t -i:9030) 2>/dev/null
+        killall -9 java 2>/dev/null
         sleep 10
         ;;
     *) #Other
-        curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
-        kill -9 $(lsof -t -i:9053)
-        kill -9 $(lsof -t -i:9030)
-        killall -9 java
+        #curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
+        kill -9 $(lsof -t -i:9053) 2>/dev/null
+        kill -9 $(lsof -t -i:9030) 2>/dev/null
+        killall -9 java 2>/dev/null
         sleep 10
         ;;
     esac
 
 }
 
-error_log(){
-    inputFile=ergo.log
-    
-    if egrep 'ERROR\|WARN' "$inputFile" ; then
-        echo "WARN/ERROR:" $egrep
-        echo "$egrep" >> error.log
-    elif egrep 'Got GetReaders request in state (None,None,None,None)\|port' "$inputFile" ; then
-        echo "Readers not ready. If this keeps happening we'll attempt to restart: $i"
-        ((i=i+1)) 
-    elif egrep 'Invalid z bytes' "$inputFile" ; then
-        echo "zBYTES error:" $egrep
-        echo "$egrep" >> error.log
-    
-    fi
-
-    if [ $i -gt 10 ]; then
-        i=0
-        echo i: $i
-        #case_kill
-        curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
-        start_node
-        
-    fi
-
-}
 
 
 
-check_status(){
-    LRED="\033[1;31m" # Light Red
-    LGREEN="\033[1;32m" # Light Green
-    NC='\033[0m' # No Color
-
-    string=$(curl -sf --max-time 20 "${1}")
-    
-    if [ -z "$string" ]; then
-        echo -e "${LRED}${1} is down${NC}"
-        case_kill
-        
-        start_node
-        print_console
-    else
-       echo -e "${LGREEN}${1} is online${NC}"
-    fi
-}
 
 
-get_heights(){
-
-    check_status "localhost:9053/info"
-
-    API_HEIGHT2==$(\
-                curl --silent --max-time 10 --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
-
-    HEADERS_HEIGHT=$(\
-        curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
-        | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
-    )
-
-    HEIGHT=$(\
-    curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-    | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
-    )
-    
-    FULL_HEIGHT=$(\
-    curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-    | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
-    )
-    API_HEIGHT=${API_HEIGHT2:92:6}
-    # Calculate %
-    if [ -n "$API_HEIGHT" ] && [ "$API_HEIGHT" -eq "$API_HEIGHT" ] 2>/dev/null; then
-        
-        
-        if [ -n "$HEADERS_HEIGHT" ] && [ "$HEADERS_HEIGHT" -eq "$HEADERS_HEIGHT" ] 2>/dev/null; then
-            let expr PERCENT_HEADERS=$(( ( ($API_HEIGHT - $HEADERS_HEIGHT) * 100) / $API_HEIGHT   )) 
-        fi
-
-        if [ -n "$HEIGHT" ] && [ "$HEIGHT" -eq "$HEIGHT" ] 2>/dev/null; then
-            let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
-        fi
-        # None: integer expression expected when headers = None
-        if [ -n "$FULL_HEIGHT" ] && [ "$FULL_HEIGHT" -eq "$HEIGHT" ] && [ "$HEADERS_HEIGHT" -eq "$API_HEIGHT" ] 2>/dev/null; then
-            echo "triggered"
-            #echo "ERROR: Height Mismatch. Failed at height $HEADERS_HEIGHT " >> error.log
-            sleep 10
-            #exit 1
-            #case_kill
-            #rm -rf .ergo/history
-            #rm -rf .ergo/state
-            #start_node
-        fi
-
-
-        
-
-
-    else
-        echo "sync?"
-
-    fi
-    
-} 
-    
-
-print_console() {
-    while sleep 1
-        do
-        clear
-        
-        printf "%s    \n\n" \
-        "To use the API, enter your password ('$API_KEY') on 127.0.0.1:9053/panel under 'Set API key'."\
-        "Please follow the next steps on docs.ergoplatform.org to initialise your wallet."  \
-        "For best results please disable any sleep mode while syncing"  \
-        "Sync Progress;"\
-        "### Headers: ~$(( 100 - $PERCENT_HEADERS ))% Complete ($HEADERS_HEIGHT/$API_HEIGHT) ### "\
-        "### Blocks:  ~$(( 100 - $PERCENT_BLOCKS ))% Complete ($HEIGHT/$API_HEIGHT) ### "
-        
-        echo ""
-        error_log
-        dt=$(date '+%d/%m/%Y %H:%M:%S');
-        echo "$dt: HEADERS: $HEADERS_HEIGHT, HEIGHT:$HEIGHT" >> height.log
-
-        get_heights  
-
-     
-
-        
-        
-
-    done
-}
 
 
 ######################
@@ -417,8 +276,17 @@ fi
 # Set the configuration file
 set_configuration   
 
+echo ""
+echo ""
+echo "DONE:"
+echo "Configuration set. Please login with {api_key: $API_KEY}"
+echo "Please run the following command within the /ergo directory"
+echo "java -jar -Xmx8G -Dlogback.stdout.level=WARN -Dlogback.file.level=ERR ergo.jar --mainnet -c ergo.conf"
+
+
 # Launch in browser
 python${ver:0:1} -mwebbrowser http://127.0.0.1:9053/info 
 
-# Print to console
-print_console   
+
+
+exit 1

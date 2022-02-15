@@ -42,6 +42,9 @@ tail -Fn+0 ergo.log | grep ERR
 tail -Fn+0 ergo.log | grep xception
 tail -Fn+0 ergo.log | grep "akka.log-dead-letters"
 tail -Fn+0 ergo.log | grep "stuck"
+cat ergo.log | grep -A 30 -B 30 "Invalid z bytes"
+
+cat ergo.log | grep -A 30 -B 30 "Could not open table"
 
 ```
 
