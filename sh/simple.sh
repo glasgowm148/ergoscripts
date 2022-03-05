@@ -103,21 +103,7 @@ ergo {
         mining = false
 
        
-        
-        # Number of last blocks to keep with transactions and ADproofs, for all other blocks only header will be stored.
-        # Keep all blocks from genesis if negative
-        # download and keep only ~4 days of full-blocks
-        #$blocksToKeep
-        
-        # A node is considering that the chain is synced if sees a block header with timestamp no more
-        # than headerChainDiff blocks on average from future
-        # testnet value is 800 blocks ~= 1600 minutes (~1.1 days)
-        #headerChainDiff = 800
-
-        # State type.  Possible options are:
-        # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
-        # "digest" - keep state root hash only and validate transactions via ADProofs
-        $stateType
+       
 
 
     }
