@@ -205,12 +205,14 @@ scorex {
 
 }
 start_node(){
-    java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
+    java -jar $JVM_HEAP_SIZE ergo.jar --$NETWORK -c ergo.conf > server.log 2>&1 & 
     echo "JVM Heap is set to:" $JVM_HEAP_SIZE
     echo "#### Waiting for a response from the server. ####"
     while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.';  done;  # wait for node be ready with progress bar
     #error_log
 }
+
+
 
 
 
@@ -248,16 +250,16 @@ Generally using the same API key through the entire sync process can prevent 'Ba
     read -p "
 #### NETWORK #### 
 
-Please select an option
+Please type your option
 
-0: Main-net
-1: Test-net
+mainnet
+testnet
 
 " input
 
     export NETWORK=$input
     
-    if [[ ${NETWORK} == "0" ]]; then      
+    if [[ ${NETWORK} == "mainnet" ]]; then      
     # Write basic conf
         set_configuration
     else
