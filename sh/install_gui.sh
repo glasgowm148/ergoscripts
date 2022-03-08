@@ -31,15 +31,15 @@ set_environment(){
     fi
     #pyv="$(python -V 2>&1)"
     #echo "$pyv"
-    ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
-    echo $ver
+    pyv=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
+    echo $pyv
 
-    if [[ ${ver} == "38" ]]; then                
+    if [[ ${pyv} == "38" ]]; then                
         ver = 2
-        echo $ver
+        echo $pyv
         sleep 10
     else
-        echo $ver
+        echo $pyv
         sleep 10
     fi
     
