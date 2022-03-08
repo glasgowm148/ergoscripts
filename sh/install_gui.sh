@@ -34,7 +34,7 @@ set_environment(){
     pyv=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
     #echo $pyv
 
-    if [[ ${pyv} == "38" ]]; then                
+    if [[ ${pyv} > "2" ]]; then                
         pyv="2"
         # shh its easier this way
     fi
@@ -249,19 +249,21 @@ Generally using the same API key through the entire sync process can prevent 'Ba
     read -p "
 #### NETWORK #### 
 
-Please type your option
+Please select your preferred option
 
-mainnet
-testnet
+0: mainnet
+1: testnet
 
 " input
 
     export NETWORK=$input
     
-    if [[ ${NETWORK} == "mainnet" ]]; then      
+    if [[ ${NETWORK} == "0" ]]; then      
     # Write basic conf
         set_configuration
+        NETWORK="mainnet"
     else
+        NETWORK="testnet"
         set_testnet
     fi
     
