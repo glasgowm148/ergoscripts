@@ -313,17 +313,17 @@ get_heights(){
 
     HEADERS_HEIGHT=$(\
         curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
-        | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
+        | python${pyv:0:1} -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
     )
 
     HEIGHT=$(\
     curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-    | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
+    | python${pyv:0:1} -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
     )
     
     FULL_HEIGHT=$(\
     curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-    | python${ver:0:1} -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
+    | python${pyv:0:1} -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
     )
     API_HEIGHT=${API_HEIGHT2:92:6}
     # Calculate %
