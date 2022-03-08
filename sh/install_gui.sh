@@ -34,8 +34,7 @@ set_environment(){
     pyv=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
     #echo $pyv
 
-    if [[ ${pyv} > "2" ]]; then
-        echo $pyv                
+    if [[ ${pyv} == "38" ]]; then                
         pyv="2"
         # shh its easier this way
     fi
