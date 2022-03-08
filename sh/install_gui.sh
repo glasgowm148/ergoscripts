@@ -239,21 +239,18 @@ case_kill(){
 
     CYGWIN*|MINGW32*|MSYS*|MINGW*)
         echo 'MS Windows'
-        curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
         netstat -ano | findstr :9053
         taskkill /PID 9053 /F
         ;;
 
     armv7l*|aarch64)
         echo "on Pi!"
-        curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
         #kill -9 $(lsof -t -i:9053)
         #kill -9 $(lsof -t -i:9030)
         killall -9 java
         sleep 10
         ;;
     *) #Other
-        curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
         kill -9 $(lsof -t -i:9053)
         kill -9 $(lsof -t -i:9030)
         killall -9 java
