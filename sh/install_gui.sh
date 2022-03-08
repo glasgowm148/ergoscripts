@@ -347,7 +347,7 @@ get_heights(){
             #rm -rf .ergo/history
             #rm -rf .ergo/state
             #start_node
-        fi
+        #fi
 
 
         
