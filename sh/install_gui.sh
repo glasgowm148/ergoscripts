@@ -33,6 +33,11 @@ set_environment(){
     #echo "$pyv"
     ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
     #echo $ver
+    if [[ $ver > "2" ]]; then                
+        ver = 2
+    else
+        echo $ver 
+    fi
     #echo `java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
     jver=`java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
 
