@@ -34,7 +34,7 @@ set_environment(){
     ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
     echo $ver
 
-     if [[ $ver == "38" ]]; then                
+    if [[ ${ver} == "38" ]]; then                
         ver = 2
         echo $ver
         sleep 10
