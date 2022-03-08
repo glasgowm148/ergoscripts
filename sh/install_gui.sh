@@ -29,26 +29,25 @@ set_environment(){
         #https://github.com/pyenv-win/pyenv-win
         exit 1
     fi
-    #pyv="$(python -V 2>&1)"
-    #echo "$pyv"
+   
+    # check python version
     pyv=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
-    echo $pyv
+    #echo $pyv
 
     if [[ ${pyv} == "38" ]]; then                
         pyv="2"
-        #echo $pyv
+        # shh its easier this way
     fi
     
-    #echo `java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
     jver=`java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
 
-    if [[ $jver > "1.8" ]]; then                
+    if [[ $jver < "1.8" ]]; then                
         echo $jver is less than java 8
         echo "Please update to the latest version"
         echo "curl -s "https://beta.sdkman.io" | bash"
-        exit 1
+        #exit 1
     else
-        echo $jver
+        echo "Java="$jver
     fi
    
   
@@ -89,12 +88,15 @@ set_environment(){
             #echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
             
             echo "Raspberry Pi detected, running node in light-mode" 
+
             #echo "blocksToKeep = 1440 # keep ~2 days of blocks"
-            echo "stateType = digest # Note: You cannot validate arbitrary block and generate ADProofs due to this"
-            echo "To be able to do this on a Pi please "
-            sleep 10
             #export blocksToKeep="#blocksToKeep = 1440 # 1440 = ~2days"
+
+            echo "stateType = digest # Note: You cannot validate arbitrary block and generate ADProofs due to this"
             export stateType="stateType = digest"
+
+            sleep 10
+
             ;;
     esac
     
@@ -134,9 +136,6 @@ ergo {
         $stateType
 
 
-        # Download PoPoW proof on node bootstrap
-        #PoPoWBootstrap = true
-
     }
 
 }      
@@ -173,6 +172,38 @@ scorex {
 }
 
 
+set_testnet (){
+    echo "
+
+ergo
+ {
+  networkType = "testnet"
+
+  node {
+    mining = false
+    offlineGeneration = true
+    useExternalMiner = false
+  }
+}
+
+scorex {
+
+ network {
+    nodeName = "ergo-testnet-4.0.23"
+    magicBytes = [2, 0, 0, 2]
+    knownPeers = [
+      "213.239.193.208:9020"
+    ]
+  }
+
+ restApi {
+    # Hex-encoded Blake2b256 hash of an API key. Should be 64-chars long Base16 string.
+    # Below is hash corresponding to API_KEY = "hello" (with no quotes)
+    apiKeyHash = "324dcf027dd4a30a932c441f365a25e86b173defa4b8e58948253471b81b72cf"
+  }
+}" > ergo.conf
+
+}
 start_node(){
     java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
     echo "JVM Heap is set to:" $JVM_HEAP_SIZE
@@ -212,9 +243,26 @@ Generally using the same API key through the entire sync process can prevent 'Ba
 
     export API_KEY=$input
     echo "$API_KEY" > api.conf
+
+    # API 
+    read -p "
+#### NETWORK #### 
+
+Please select an option
+
+0: Main-net
+1: Test-net
+
+" input
+
+    export NETWORK=$input
     
+    if [[ ${NETWORK} == "0" ]]; then      
     # Write basic conf
-    set_configuration
+        set_configuration
+    else
+        set_testnet
+    fi
     
     start_node
     
