@@ -36,8 +36,11 @@ set_environment(){
 
      if [[ $ver == "38" ]]; then                
         ver = 2
+        echo $ver
+        sleep 10
     else
         echo $ver
+        sleep 10
     fi
     
     #echo `java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
