@@ -42,12 +42,13 @@ set_environment(){
     #echo `java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
     jver=`java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
 
-    if [[ $jver == "1.8" ]]; then                
+    if [[ $jver < "1.8" ]]; then                
         echo $jver is less than java 8
         echo "Please update to the latest version"
         echo "curl -s "https://beta.sdkman.io" | bash"
+        exit 1
     else
-        echo $jver is > java 17
+        echo $jver
     fi
    
   
@@ -85,14 +86,14 @@ set_environment(){
             memory=`awk '/MemTotal/ {printf( "%d\n", $2 / 1024 )}' /proc/meminfo` 
             half_mem=$((${memory%.*} / 3))
             JVM_HEAP_SIZE="-Xmx${half_mem}m"
-            echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
+            #echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
             
             echo "Raspberry Pi detected, running node in light-mode" 
-            echo "blocksToKeep = 1440 # keep ~2 days of blocks"
+            #echo "blocksToKeep = 1440 # keep ~2 days of blocks"
             echo "stateType = digest # Note: You cannot validate arbitrary block and generate ADProofs due to this"
             echo "To be able to do this on a Pi please "
             sleep 10
-            export blocksToKeep="#blocksToKeep = 1440 # 1440 = ~2days"
+            #export blocksToKeep="#blocksToKeep = 1440 # 1440 = ~2days"
             export stateType="stateType = digest"
             ;;
     esac
