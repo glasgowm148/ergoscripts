@@ -6,7 +6,7 @@
 # Run this with
 # bash -c "$(curl -s https://node.phenotype.dev)"
 
-
+# 1. Set some environment variables
 set_environment(){
     export API_KEY="dummy"
     export BLAKE_HASH="unset"
@@ -290,8 +290,6 @@ error_log(){
 
 }
 
-
-
 check_status(){
     LRED="\033[1;31m" # Light Red
     LGREEN="\033[1;32m" # Light Green
@@ -309,7 +307,6 @@ check_status(){
        echo -e "${LGREEN}${1} is online${NC}"
     fi
 }
-
 
 get_heights(){
 
@@ -367,7 +364,6 @@ get_heights(){
     
 } 
     
-
 print_console() {
     while sleep 1
         do
@@ -401,14 +397,11 @@ print_console() {
 # main()
 ######################
 
-
-
-
-# Set some environment variables
+# 1. Set some environment variables
 set_environment     
 
 # Cross-platform killer
-case_kill   
+#case_kill   
 
 count=`ls -1 *.log 2>/dev/null | wc -l`
 if [ $count != 0 ]; then   
