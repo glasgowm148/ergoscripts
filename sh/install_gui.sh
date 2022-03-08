@@ -35,7 +35,7 @@ set_environment(){
     echo $pyv
 
     if [[ ${pyv} == "38" ]]; then                
-        ver = 2
+        pyv="2"
         echo $pyv
         sleep 10
     else
