@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Git test
 # Shell script for installing Ergo Node on any platform.
 # markglasgow@gmail.com 
 # -------------------------------------------------------------------------
@@ -240,8 +240,8 @@ case_kill(){
     armv7l*|aarch64)
         echo "on Pi!"
         curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
-        kill -9 $(lsof -t -i:9053)
-        kill -9 $(lsof -t -i:9030)
+        #kill -9 $(lsof -t -i:9053)
+        #kill -9 $(lsof -t -i:9030)
         killall -9 java
         sleep 10
         ;;
