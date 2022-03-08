@@ -1,12 +1,12 @@
 #!/bin/bash
-
+# Git test
 # Shell script for installing Ergo Node on any platform.
 # markglasgow@gmail.com 
 # -------------------------------------------------------------------------
 # Run this with
 # bash -c "$(curl -s https://node.phenotype.dev)"
 
-
+# 1. Set some environment variables
 set_environment(){
     export API_KEY="dummy"
     export BLAKE_HASH="unset"
@@ -31,8 +31,16 @@ set_environment(){
     fi
     #pyv="$(python -V 2>&1)"
     #echo "$pyv"
-    ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
-    #echo $ver
+    pyv=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
+    echo $pyv
+
+    if [[ ${pyv} == "38" ]]; then                
+        pyv="2"
+        echo $pyv
+    else
+        echo $pyv
+    fi
+    
     #echo `java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
     jver=`java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
 
@@ -240,8 +248,8 @@ case_kill(){
     armv7l*|aarch64)
         echo "on Pi!"
         curl -X POST --max-time 10 "http://127.0.0.1:9053/node/shutdown" -H "api_key: $API_KEY"
-        kill -9 $(lsof -t -i:9053)
-        kill -9 $(lsof -t -i:9030)
+        #kill -9 $(lsof -t -i:9053)
+        #kill -9 $(lsof -t -i:9030)
         killall -9 java
         sleep 10
         ;;
@@ -282,8 +290,6 @@ error_log(){
 
 }
 
-
-
 check_status(){
     LRED="\033[1;31m" # Light Red
     LGREEN="\033[1;32m" # Light Green
@@ -301,7 +307,6 @@ check_status(){
        echo -e "${LGREEN}${1} is online${NC}"
     fi
 }
-
 
 get_heights(){
 
@@ -359,7 +364,6 @@ get_heights(){
     
 } 
     
-
 print_console() {
     while sleep 1
         do
@@ -393,10 +397,7 @@ print_console() {
 # main()
 ######################
 
-
-
-
-# Set some environment variables
+# 1. Set some environment variables
 set_environment     
 
 # Cross-platform killer
