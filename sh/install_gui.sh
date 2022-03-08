@@ -37,10 +37,8 @@ set_environment(){
     if [[ ${pyv} == "38" ]]; then                
         pyv="2"
         echo $pyv
-        sleep 10
     else
         echo $pyv
-        sleep 10
     fi
     
     #echo `java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
