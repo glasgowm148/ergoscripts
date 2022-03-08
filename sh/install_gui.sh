@@ -338,10 +338,10 @@ get_heights(){
             let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
         fi
         # None: integer expression expected when headers = None
-        if [ -n "$FULL_HEIGHT" ] && [ "$FULL_HEIGHT" -eq "$HEIGHT" ] && [ "$HEADERS_HEIGHT" -eq "$API_HEIGHT" ] 2>/dev/null; then
-            echo "triggered"
+        #if [ -n "$FULL_HEIGHT" ] && [ "$FULL_HEIGHT" -eq "$HEIGHT" ] && [ "$HEADERS_HEIGHT" -eq "$API_HEIGHT" ] 2>/dev/null; then
+        #    echo "triggered"
             #echo "ERROR: Height Mismatch. Failed at height $HEADERS_HEIGHT " >> error.log
-            sleep 10
+        #    sleep 10
             #exit 1
             #case_kill
             #rm -rf .ergo/history
