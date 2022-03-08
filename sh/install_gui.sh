@@ -36,9 +36,7 @@ set_environment(){
 
     if [[ ${pyv} == "38" ]]; then                
         pyv="2"
-        echo $pyv
-    else
-        echo $pyv
+        #echo $pyv
     fi
     
     #echo `java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
@@ -95,7 +93,7 @@ set_environment(){
             echo "To be able to do this on a Pi please "
             sleep 10
             export blocksToKeep="#blocksToKeep = 1440 # 1440 = ~2days"
-            export stateType = "stateType = digest"
+            export stateType="stateType = digest"
             ;;
     esac
     
