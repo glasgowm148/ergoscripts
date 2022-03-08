@@ -399,7 +399,8 @@ set_environment
 # Cross-platform killer
 #case_kill   
 
-count=`ls -1 *.log 2>/dev/null | wc -l`
+# Check for the prescence of log files
+count=`ls -1 blake.conf 2>/dev/null | wc -l`
 if [ $count != 0 ]; then   
     API_KEY=$(cat "api.conf")
     echo "api.conf: API Key is set to: $API_KEY"
