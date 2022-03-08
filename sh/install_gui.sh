@@ -41,8 +41,7 @@ set_environment(){
     
     jver=`java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
 
-    if [[ $jver < "1.8" ]]; then                
-        echo $jver is less than java 8
+    if [[ $jver > "1.8" ]]; then                
         echo "Please update to the latest version"
         echo "curl -s "https://beta.sdkman.io" | bash"
         #exit 1
@@ -447,7 +446,7 @@ print_console() {
 set_environment     
 
 # Cross-platform killer
-#case_kill   
+case_kill   
 
 # Check for the prescence of log files
 count=`ls -1 blake.conf 2>/dev/null | wc -l`
