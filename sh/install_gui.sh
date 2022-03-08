@@ -401,7 +401,7 @@ print_console() {
 set_environment     
 
 # Cross-platform killer
-#case_kill   
+case_kill   
 
 count=`ls -1 *.log 2>/dev/null | wc -l`
 if [ $count != 0 ]; then   
