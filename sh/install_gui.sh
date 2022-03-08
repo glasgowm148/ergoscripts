@@ -42,7 +42,7 @@ set_environment(){
     #echo `java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
     jver=`java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
 
-    if [[ $jver < "1.8" ]]; then                
+    if [[ $jver > "1.8" ]]; then                
         echo $jver is less than java 8
         echo "Please update to the latest version"
         echo "curl -s "https://beta.sdkman.io" | bash"
