@@ -34,15 +34,7 @@ set_environment(){
     pyv=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
     #echo $pyv
 
-    if [[ ${pyv} == "38" ]]; then                
-        pyv="2"
-        # shh its easier this way
-    fi
-
-    if [[ ${pyv} == "39" ]]; then                
-        pyv="2"
-        # shh its easier this way
-    fi
+    
     
     jver=`java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
 
@@ -175,49 +167,13 @@ scorex {
 
 }
 
-
-set_testnet (){
-    echo "
-
-ergo
- {
-  networkType = "testnet"
-
-  node {
-    mining = false
-    offlineGeneration = true
-    useExternalMiner = false
-  }
-}
-
-scorex {
-
- network {
-    nodeName = "ergo-testnet-4.0.23"
-    magicBytes = [2, 0, 0, 2]
-    knownPeers = [
-      "213.239.193.208:9020"
-    ]
-  }
-
- restApi {
-    # Hex-encoded Blake2b256 hash of an API key. Should be 64-chars long Base16 string.
-    # Below is hash corresponding to API_KEY = "hello" (with no quotes)
-    apiKeyHash = "324dcf027dd4a30a932c441f365a25e86b173defa4b8e58948253471b81b72cf"
-  }
-}" > ergo.conf
-
-}
 start_node(){
-    java -jar $JVM_HEAP_SIZE ergo.jar --$NETWORK -c ergo.conf > server.log 2>&1 & 
+    java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
     echo "JVM Heap is set to:" $JVM_HEAP_SIZE
     echo "#### Waiting for a response from the server. ####"
     while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.';  done;  # wait for node be ready with progress bar
     #error_log
 }
-
-
-
 
 
 first_run() {
@@ -250,27 +206,7 @@ Generally using the same API key through the entire sync process can prevent 'Ba
     export API_KEY=$input
     echo "$API_KEY" > api.conf
 
-    # API 
-    read -p "
-#### NETWORK #### 
-
-Please select your preferred option
-
-0: mainnet
-1: testnet
-
-" input
-
-    export NETWORK=$input
     
-    if [[ ${NETWORK} == "0" ]]; then      
-    # Write basic conf
-        set_configuration
-        NETWORK="mainnet"
-    else
-        NETWORK="testnet"
-        set_testnet
-    fi
     
     start_node
     
@@ -364,23 +300,48 @@ get_heights(){
 
     check_status "localhost:9053/info"
 
-    API_HEIGHT2==$(\
+    if [[ ${pyv:0:1} == "3" ]]; then 
+        API_HEIGHT2==$(\
                 curl --silent --max-time 10 --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
 
-    HEADERS_HEIGHT=$(\
-        curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
-        | python${pyv:0:1} -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
-    )
+        HEADERS_HEIGHT=$(\
+            curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
+            | python -c "import sys, json; print(json.load(sys.stdin)['headersHeight']);"\
+        )
 
-    HEIGHT=$(\
-    curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-    | python${pyv:0:1} -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
-    )
+        HEIGHT=$(\
+        curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+        | python -c "import sys, json; print(json.load(sys.stdin)['parameters']['height']);"\
+        )
+        
+        FULL_HEIGHT=$(\
+        curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+        | python -c "import sys, json; print(json.load(sys.stdin)['fullHeight']);"\
+        )               
+        
+    fi
+
+    if [[ ${pyv:0:1} == "2" ]]; then                
+       API_HEIGHT2==$(\
+                curl --silent --max-time 10 --output -X GET "https://api.ergoplatform.com/api/v1/networkState" -H "accept: application/json" )
+
+        HEADERS_HEIGHT=$(\
+            curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json" \
+            | python -c "import sys, json; print json.load(sys.stdin)['headersHeight'];"\
+        )
+
+        HEIGHT=$(\
+        curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+        | python -c "import sys, json; print json.load(sys.stdin)['parameters']['height'];"\
+        )
+        
+        FULL_HEIGHT=$(\
+        curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
+        | python -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
+        )
+    fi
+
     
-    FULL_HEIGHT=$(\
-    curl --silent --max-time 10 --output -X GET "http://localhost:9053/info" -H "accept: application/json"   \
-    | python${pyv:0:1} -c "import sys, json; print json.load(sys.stdin)['fullHeight'];"\
-    )
     API_HEIGHT=${API_HEIGHT2:92:6}
     # Calculate %
     if [ -n "$API_HEIGHT" ] && [ "$API_HEIGHT" -eq "$API_HEIGHT" ] 2>/dev/null; then
