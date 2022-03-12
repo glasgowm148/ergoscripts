@@ -93,15 +93,15 @@ set_environment(){
             JVM_HEAP_SIZE="-Xmx${half_mem}m"
             #echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
             
-            echo "Raspberry Pi detected, running node in light-mode" 
+            #echo "Raspberry Pi detected, running node in light-mode" 
 
             #echo "blocksToKeep = 1440 # keep ~2 days of blocks"
             #export blocksToKeep="#blocksToKeep = 1440 # 1440 = ~2days"
 
-            echo "stateType = digest # Note: You cannot validate arbitrary block and generate ADProofs due to this"
-            export stateType="stateType = digest"
+            #echo "stateType = digest # Note: You cannot validate arbitrary block and generate ADProofs due to this"
+            #export stateType="stateType = digest"
 
-            sleep 10
+            #sleep 10
 
             ;;
     esac
@@ -363,7 +363,7 @@ get_heights(){
             let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
         fi        
         
-        if [ -n "$h_tmp" ] && [ "$HEIGHT" -eq "$h_tmp" ]; then
+        if [ -n "$h_tmp" ] && [ "$HEIGHT" -eq "$h_tmp" ] 2>/dev/null; then
             echo "height changed"
             echo "height:$HEIGHT, h_temp:$h_temp"
             j=0
