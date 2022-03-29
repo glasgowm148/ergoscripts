@@ -182,7 +182,7 @@ start_node(){
     echo "JVM Heap is set to:" $JVM_HEAP_SIZE
     echo "#### Waiting for a response from the server. ####"
     while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.';  done;  # wait for node be ready with progress bar
-    #error_log
+    error_log
 }
 
 # Set basic config for boot, boot & get the hash and then re-set config 
