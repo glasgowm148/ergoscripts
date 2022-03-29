@@ -14,12 +14,12 @@
 # 2. Test-net options
 # 3. Check for node mistakenly thinking it's sync'ed (headerChainDiff?)
 # 4. Light-mode Yes/No
+export BLAKE_HASH="324dcf027dd4a30a932c441f365a25e86b173defa4b8e58948253471b81b72cf"
 
 # Set some environment variables
 set_environment(){
     export API_KEY="dummy"
-    export BLAKE_HASH="unset"
-
+    
     let j=0
     #OS=$(uname -m)
 
