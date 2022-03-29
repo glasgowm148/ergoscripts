@@ -169,7 +169,7 @@ set_configuration (){
                 #maxDeliveryChecks = 2
 
                 
-                maxConnections = 100
+                maxConnections = 10
 
             }
     }
