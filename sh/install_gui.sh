@@ -134,7 +134,7 @@ set_configuration (){
             # A node is considering that the chain is synced if sees a block header with timestamp no more
             # than headerChainDiff blocks on average from future
             # 800 blocks ~= 1600 minutes (~1.1 days)
-            headerChainDiff = 80
+            # headerChainDiff = 80
 
             # State type.  Possible options are:
             # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
