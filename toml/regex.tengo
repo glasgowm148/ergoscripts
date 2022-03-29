@@ -1,0 +1,10 @@
+text := import("text")
+
+if text.re_match("/p",msgText) {
+    msgText=""
+}
+
+if text.re_match("/index",msgText) {
+    msgText=""
+}
+

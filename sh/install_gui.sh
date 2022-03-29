@@ -430,7 +430,7 @@ print_console() {
 # /
 # main()
 # / 
-
+set_configuration
 # Set some environment variables
 set_environment     
 
