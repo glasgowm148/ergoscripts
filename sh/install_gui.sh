@@ -173,7 +173,7 @@ set_configuration (){
 
             }
     }
-        " > ergo.conf
+        " > ergo/ergo.conf
 
 }
 
@@ -181,8 +181,8 @@ start_node(){
     java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
     echo "JVM Heap is set to:" $JVM_HEAP_SIZE
     echo "#### Waiting for a response from the server. ####"
-    while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.';  done;  # wait for node be ready with progress bar
-    error_log
+    while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n error_log;  done;  # wait for node be ready with progress bar
+    
 }
 
 # Set basic config for boot, boot & get the hash and then re-set config 
