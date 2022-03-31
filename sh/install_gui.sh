@@ -64,36 +64,25 @@ set_environment(){
     case "$(uname -s)" in
 
         CYGWIN*|MINGW32*|MSYS*|MINGW*)
-            echo 'MS Windows'
-            #WIN_MEM=$(systeminfo)
-            WIN_MEM=$(wmic OS get FreePhysicalMemory)
-            kb_to_mb=$((memory*1024))
-            echo "WIN memory !!-- " $kb_to_mb
-            JVM_HEAP_SIZE="-Xmx${kb_to_mb}m"
+            JVM_HEAP_SIZE="-Xmx4g"
             ;;
 
         Linux)
-            memory=`awk '/MemTotal/ {printf( "%d\n", $2 / 1024 )}' /proc/meminfo` 
-            half_mem=$((${memory%.*} / 2))
-            JVM_HEAP_SIZE="-Xmx${half_mem}m"
+            JVM_HEAP_SIZE="-Xmx4g"
             ;;
 
         Darwin) #Other
-            memory=$(top -l1 | awk '/PhysMem/ {print $2}')
-            half_mem=$((${memory%?} / 2))
-            JVM_HEAP_SIZE="-Xmx${half_mem}g"            
+            JVM_HEAP_SIZE="-Xmx4g"       
             ;;
 
         Other*)
-            JVM_HEAP_SIZE="-Xmx2g"
+            JVM_HEAP_SIZE="-Xmx4g"
             ;;
     esac
 
     case "$(uname -m)" in
         armv7l|aarch64)
-            memory=`awk '/MemTotal/ {printf( "%d\n", $2 / 1024 )}' /proc/meminfo` 
-            half_mem=$((${memory%.*} / 3))
-            JVM_HEAP_SIZE="-Xmx${half_mem}m"
+            JVM_HEAP_SIZE="-Xmx3584M"
             #echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
             
             #echo "Raspberry Pi detected, running node in light-mode" 
@@ -160,18 +149,6 @@ set_configuration (){
         }
         network {
                 
-                # Misbehaving peer penalty score will not be increased withing this time interval,
-                # unless permanent penalty is applied
-                #penaltySafeInterval = 1m
-                
-                # Max penalty score peer can accumulate before being banned
-                #penaltyScoreThreshold = 100
-
-                # Max number of delivery checks. Stop expecting modifier (and penalize peer) if it was not delivered after that
-                # number of delivery attempts
-                #maxDeliveryChecks = 2
-
-                
                 maxConnections = 10
 
             }
@@ -182,7 +159,6 @@ set_configuration (){
 
 start_node(){
     java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
-    echo "JVM Heap is set to:" $JVM_HEAP_SIZE
     echo "#### Waiting for a response from the server. ####"
     while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && echo -n '.';  done;  # wait for node be ready with progress bar
     
@@ -233,7 +209,7 @@ first_run() {
         start_node
         
         # Add blake hash
-        #set_configuration
+        set_configuration
 
 }
 
