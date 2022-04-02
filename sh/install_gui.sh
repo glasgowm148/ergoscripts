@@ -65,18 +65,33 @@ set_environment(){
 
         CYGWIN*|MINGW32*|MSYS*|MINGW*)
             JVM_HEAP_SIZE="-Xmx4g"
+            #echo 'MS Windows'
+            #WIN_MEM=$(systeminfo)
+            #WIN_MEM=$(wmic OS get FreePhysicalMemory)
+            #kb_to_mb=$((memory*1024))
+            #echo "WIN memory !!-- " $kb_to_mb
+            #JVM_HEAP_SIZE="-Xmx${kb_to_mb}m"
             ;;
 
         Linux)
             JVM_HEAP_SIZE="-Xmx4g"
+            #memory=`awk '/MemTotal/ {printf( "%d\n", $2 / 1024 )}' /proc/meminfo` 
+            #half_mem=$((${memory%.*} / 2))
+            #JVM_HEAP_SIZE="-Xmx${half_mem}m"
             ;;
 
         Darwin) #Other
-            JVM_HEAP_SIZE="-Xmx4g"       
+            JVM_HEAP_SIZE="-Xmx4g"
+            #memory=$(top -l1 | awk '/PhysMem/ {print $2}')
+            #half_mem=$((${memory%?} / 2))
+            #JVM_HEAP_SIZE="-Xmx${half_mem}g"             
             ;;
 
         Other*)
             JVM_HEAP_SIZE="-Xmx4g"
+            #memory=`awk '/MemTotal/ {printf( "%d\n", $2 / 1024 )}' /proc/meminfo` 
+            #half_mem=$((${memory%.*} / 3))
+            #JVM_HEAP_SIZE="-Xmx${half_mem}m"
             ;;
     esac
 
