@@ -146,7 +146,7 @@ set_configuration (){
 start_node(){
     java -jar $JVM_HEAP_SIZE ergo.jar --mainnet -c ergo.conf > server.log 2>&1 & 
     echo "#### Waiting for a response from the server. ####"
-    while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && error_log() done;  # wait for node be ready with progress bar
+    while ! curl --output /dev/null --silent --head --fail http://localhost:9053; do sleep 1 && print(error_log()) done;  # wait for node be ready with progress bar
     
 }
 
