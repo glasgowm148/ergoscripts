@@ -15,6 +15,11 @@
 # 3. Check for node mistakenly thinking it's sync'ed (headerChainDiff?)
 # 4. Light-mode Yes/No
 
+
+## Prep
+
+
+
 [ -d ergo ] || mkdir ergo && cd ergo
 
 export BLAKE_HASH="324dcf027dd4a30a932c441f365a25e86b173defa4b8e58948253471b81b72cf"
@@ -124,6 +129,31 @@ set_configuration (){
             
             mining = false
 
+            # Number of state snapshot diffs to keep. Defines maximum rollback depth
+            #keepVersions = 32
+
+            ### there's light regime where the node is not storing UTXO set, and can validate only limited in length suffix of full blocks . Such nodes are running on Raspberry Pi with 0.5 GB given even.
+            # Skip validation of transactions in the mainnet before block 417,792 (in v1 blocks).
+            # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
+            # The node still applying transactions to UTXO set and so checks UTXO set digests for each block.
+            skipV1TransactionsValidation = true
+            
+            # Number of last blocks to keep with transactions and ADproofs, for all other blocks only header will be stored.
+            # Keep all blocks from genesis if negative
+            # download and keep only ~4 days of full-blocks
+            #$blocksToKeep
+            
+            # A node is considering that the chain is synced if sees a block header with timestamp no more
+            # than headerChainDiff blocks on average from future
+            # 800 blocks ~= 1600 minutes (~1.1 days)
+            # headerChainDiff = 80
+
+            # State type.  Possible options are:
+            # "utxo" - keep full utxo set, that allows to validate arbitrary block and generate ADProofs
+            # "digest" - keep state root hash only and validate transactions via ADProofs
+            $stateType
+
+
         }
 
     }      
@@ -137,7 +167,11 @@ set_configuration (){
             apiKeyHash = "$BLAKE_HASH"
             
         }
-       
+        network {
+                
+                maxConnections = 10
+
+            }
     }
         " > ergo.conf
 
