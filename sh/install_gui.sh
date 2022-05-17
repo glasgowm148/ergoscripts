@@ -74,33 +74,31 @@ set_environment(){
             ;;
 
         Linux)
-            JVM_HEAP_SIZE="-Xmx4g"
-            #memory=`awk '/MemTotal/ {printf( "%d\n", $2 / 1024 )}' /proc/meminfo` 
-            #half_mem=$((${memory%.*} / 2))
-            #JVM_HEAP_SIZE="-Xmx${half_mem}m"
+            memory=`awk '/MemTotal/ {printf( "%d\n", $2 / 1024 )}' /proc/meminfo` 
+            half_mem=$((${memory%.*} / 2))
+            JVM_HEAP_SIZE="-Xmx${half_mem}m"
             ;;
 
         Darwin) #Other
-            JVM_HEAP_SIZE="-Xmx4g"
-            #memory=$(top -l1 | awk '/PhysMem/ {print $2}')
-            #half_mem=$((${memory%?} / 2))
-            #JVM_HEAP_SIZE="-Xmx${half_mem}g"             
+            memory=$(top -l1 | awk '/PhysMem/ {print $2}')
+            half_mem=$((${memory%?} / 2))
+            JVM_HEAP_SIZE="-Xmx${half_mem}g"             
             ;;
 
         Other*)
-            JVM_HEAP_SIZE="-Xmx4g"
-            #memory=`awk '/MemTotal/ {printf( "%d\n", $2 / 1024 )}' /proc/meminfo` 
-            #half_mem=$((${memory%.*} / 3))
-            #JVM_HEAP_SIZE="-Xmx${half_mem}m"
+            
+            memory=`awk '/MemTotal/ {printf( "%d\n", $2 / 1024 )}' /proc/meminfo` 
+            half_mem=$((${memory%.*} / 3))
+            JVM_HEAP_SIZE="-Xmx${half_mem}m"
             ;;
     esac
 
     case "$(uname -m)" in
         armv7l|aarch64)
-            JVM_HEAP_SIZE="-Xmx3584M"
-            #echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
+            JVM_HEAP_SIZE="-Xmx2G"
+            echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
             
-            #echo "Raspberry Pi detected, running node in light-mode" 
+            echo "Raspberry Pi detected, running node in light-mode" 
 
             #echo "blocksToKeep = 1440 # keep ~2 days of blocks"
             #export blocksToKeep="#blocksToKeep = 1440 # 1440 = ~2days"
