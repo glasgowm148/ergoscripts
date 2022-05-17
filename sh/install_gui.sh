@@ -326,19 +326,6 @@ get_heights(){
             let expr PERCENT_BLOCKS=$(( ( ($API_HEIGHT - $HEIGHT) * 100) / $API_HEIGHT   ))
         fi        
         
-        if [ -n "$h_tmp" ] && [ "$HEIGHT" -eq "$h_tmp" ] 2>/dev/null; then
-            echo "height changed"
-            echo "height:$HEIGHT, h_temp:$h_temp"
-            j=0
-            sleep 5
-        else 
-            echo "height same"
-            j=$((j+1))
-            echo "height:$HEIGHT==h_temp:$h_temp, j:$j"
-            sleep 5
-        fi
-        h_temp=$HEIGHT
-
         # if height==headersHeight then we are syncronised. 
         if [ -n "$HEADERS_HEIGHT" ] && [ "$HEADERS_HEIGHT" -eq "$HEIGHT" ] 2>/dev/null; then
             echo "HeadersHeight == Height"
