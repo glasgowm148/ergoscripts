@@ -27,8 +27,6 @@ set_environment(){
     #OS=$(uname -m)
 
     
-    
-    
     dt=$(date '+%d/%m/%Y %H:%M:%S');
     let i=0
     let PERCENT_BLOCKS=100
@@ -47,10 +45,8 @@ set_environment(){
     pyv=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
     #echo $pyv
 
-    
-    
+    # Check Java
     jver=`java -version 2>&1 | grep 'version' 2>&1 | awk -F\" '{ split($2,a,"."); print a[1]"."a[2]}'`
-
     if [[ $jver > "1.8" ]]; then                
         echo "Please update to the latest version"
         echo "curl -s "https://beta.sdkman.io" | bash"
@@ -60,17 +56,16 @@ set_environment(){
     fi
    
   
-    # Set memory
+    # Set heap
     case "$(uname -s)" in
 
         CYGWIN*|MINGW32*|MSYS*|MINGW*)
-            JVM_HEAP_SIZE="-Xmx4g"
-            #echo 'MS Windows'
-            #WIN_MEM=$(systeminfo)
-            #WIN_MEM=$(wmic OS get FreePhysicalMemory)
-            #kb_to_mb=$((memory*1024))
-            #echo "WIN memory !!-- " $kb_to_mb
-            #JVM_HEAP_SIZE="-Xmx${kb_to_mb}m"
+            echo 'MS Windows'
+            WIN_MEM=$(systeminfo)
+            WIN_MEM=$(wmic OS get FreePhysicalMemory)
+            kb_to_mb=$((memory*1024))
+            echo "WIN memory !!-- " $kb_to_mb
+            JVM_HEAP_SIZE="-Xmx${kb_to_mb}m"
             ;;
 
         Linux)
@@ -86,7 +81,6 @@ set_environment(){
             ;;
 
         Other*)
-            
             memory=`awk '/MemTotal/ {printf( "%d\n", $2 / 1024 )}' /proc/meminfo` 
             half_mem=$((${memory%.*} / 3))
             JVM_HEAP_SIZE="-Xmx${half_mem}m"
@@ -98,7 +92,7 @@ set_environment(){
             JVM_HEAP_SIZE="-Xmx2G"
             echo "JVM_HEAP_SIZE Set to:" $JVM_HEAP_SIZE
             
-            echo "Raspberry Pi detected, running node in light-mode" 
+            #echo "Raspberry Pi detected, running node in light-mode" 
 
             #echo "blocksToKeep = 1440 # keep ~2 days of blocks"
             #export blocksToKeep="#blocksToKeep = 1440 # 1440 = ~2days"
@@ -115,28 +109,31 @@ set_environment(){
 
 set_configuration (){
         echo "
-    ergo {
-        node {
-            # Full options available at 
-            # https://github.com/ergoplatform/ergo/blob/master/src/main/resources/application.conf
-            
-            mining = false
+                ergo {
+                    node {
+                        # Full options available at 
+                        # https://github.com/ergoplatform/ergo/blob/master/src/main/resources/application.conf
+                        
+                        mining = false
+                        # Skip validation of transactions in the mainnet before block 417,792 (in v1 blocks).
+                        # Block 417,792 is checkpointed by the protocol (so its UTXO set as well).
+                        # The node still applying transactions to UTXO set and so checks UTXO set digests for each block.
+                        skipV1TransactionsValidation = true
+                    }
 
-        }
-
-    }      
-            
-    scorex {
-        restApi {
-            # Hex-encoded Blake2b256 hash of an API key. 
-            # Should be 64-chars long Base16 string.
-            # below is the hash of the string 'hello'
-            # replace with your actual hash 
-            apiKeyHash = "$BLAKE_HASH"
-            
-        }
-       
-    }
+                }      
+                        
+                scorex {
+                    restApi {
+                        # Hex-encoded Blake2b256 hash of an API key. 
+                        # Should be 64-chars long Base16 string.
+                        # below is the hash of the string 'hello'
+                        # replace with your actual hash 
+                        apiKeyHash = "$BLAKE_HASH"
+                        
+                    }
+                
+                }
         " > ergo.conf
 
 }
@@ -380,7 +377,10 @@ print_console() {
 # /
 # main()
 # / 
+
+# pipes initial config > ergo.conf
 set_configuration
+
 # Set some environment variables
 set_environment     
 
@@ -404,6 +404,7 @@ fi
 set_configuration   
 
 # Launch in browser
+python${ver:0:1} -mwebbrowser http://127.0.0.1:9053/panel 
 python${ver:0:1} -mwebbrowser http://127.0.0.1:9053/info 
 
 # Print to console
