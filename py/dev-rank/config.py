@@ -45,6 +45,7 @@ orgs = [
     'SentientFoundation',
     'spectrum-finance',
     'ergolabs',
+    'hypo10use',
 ]
 
 users = [
@@ -60,6 +61,9 @@ users = [
     'inergitance',
     'ObolFlip',
     'CometCommunity',
+    'glasgowm148',
+    'zackbalbin',
+    'ThierryM1212',
 
 ]
 

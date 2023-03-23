@@ -26,36 +26,26 @@ def get_all_pages(url):
     return all_items
 
 
-def style_dataframe(df, overview):
-    styles = '''
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        table {
-            border-collapse: collapse;
-            width: 80%;
-            margin: auto;
-        }
-        th, td {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        th {
-            background-color: #333;
-            color: white;
-        }
-    </style>
-    '''
-    return HTML(styles + f'<div class="overview">{overview_text}</div>' + df.to_html(index=False))
+def style_dataframe(df, overview_text):
+    # Define the styles to be applied to the table
+    styles = [
+        {'selector': 'th', 'props': [('font-size', '120%'), ('text-align', 'left')]},
+        {'selector': 'td', 'props': [('font-size', '110%')]},
+        {'selector': 'thead th', 'props': [('background-color', '#f2f2f2')]}
+    ]
+
+    # Create the styled table
+    styled_table = df.style.set_table_styles(styles).render()
+
+    # Initialize the HTML string
+    html_string = ''
+
+    # Add a centered div element with the overview text
+    html_string += f"<div style='text-align: center;'><p>{overview_text}</p></div><br>"
+
+    # Add the styled table to the HTML string
+    html_string += styled_table
+
+    return html_string
 
 

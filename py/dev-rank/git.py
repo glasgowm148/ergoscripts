@@ -6,13 +6,13 @@ import requests
 
 from collections import defaultdict
 import csv
+
 one_week_ago = datetime.datetime.now() - datetime.timedelta(weeks=1)
+
 active_repos = []
 inactive_repos = []
 commit_count = 0
 active_devs = set()
-
-
 
 
 def get_all_repos():
@@ -61,7 +61,25 @@ def get_stats():
         else:
             print(f"Error fetching commit data for {repo_name}. Status code: {response.status_code}")
 
-    df = df.groupby("Organization").agg({"Repository": lambda x: ', '.join(x), "Developers": lambda x: ', '.join(set(x))})
+def create_df():
+    ## DATAFRAME
+    repo_data = []
+    for repo in active_repos:
+        repo_name, devs = repo.split(" (")
+        devs = devs.strip(")").split(", ")
+        org, repo_name = repo_name.split('/')
+        repo_data.append({"Organization": org, "Repository": repo_name, "Active Developers": devs})
+
+    for repo in inactive_repos:
+        org, repo_name = repo.split('/')
+        repo_data.append({"Organization": org, "Repository": repo_name, "Active Developers": "0"})
+
+    # Create a pandas DataFrame
+    df = pd.DataFrame(repo_data)
+
+    # Export the DataFrame to a CSV file
+    df.to_csv("active_repos.csv", index=False)
+
     return df
 
 
@@ -97,4 +115,4 @@ if __name__ == "__main__":
 
     # Save the styled dataframe to an HTML file
     with open('repo_activity.html', 'w') as f:
-        f.write(style_dataframe(df, overview_text).data)
+        f.write(style_dataframe(df, overview_text))
