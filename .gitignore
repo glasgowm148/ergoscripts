@@ -1,6 +1,7 @@
 *.conf
 *.jar
 *.log
+*.env
 *.toml
 .ergo
 *.properties
@@ -22,3 +23,4 @@ py/aaa
 py/log.txt
 py/scrape.ipynb
 py/SPF.ipynb
+py/dev-rank/.env
