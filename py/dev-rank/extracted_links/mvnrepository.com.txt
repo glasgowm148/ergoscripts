@@ -1,6 +1,6 @@
-https://mvnrepository.com/artifact/org.scorexfoundation/sigma-state
-https://mvnrepository.com/artifact/org.ergoplatform/ergo-wallet_2.12/3.1.4-RC5,
+https://mvnrepository.com/artifact/org.ergoplatform/ergo-wallet_2.12/4.0.24
 https://mvnrepository.com/artifact/io.github.ergoplatform
 https://mvnrepository.com/artifact/org.ergoplatform/ergo-wallet_2.12,
+https://mvnrepository.com/artifact/org.ergoplatform/ergo-wallet_2.12/3.1.4-RC5,
+https://mvnrepository.com/artifact/org.scorexfoundation/sigma-state
 https://mvnrepository.com/artifact/org.ergoplatform/ergo-wallet
-https://mvnrepository.com/artifact/org.ergoplatform/ergo-wallet_2.12/4.0.24

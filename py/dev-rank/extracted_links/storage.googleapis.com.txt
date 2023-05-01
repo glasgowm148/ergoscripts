@@ -1,5 +1,5 @@
-https://storage.googleapis.com/ergo-cms-media/whitepaper_668cb39ee5/whitepaper_668cb39ee5.pdf>
-https://storage.googleapis.com/ergo-cms-media/docs/ErgoScript.pdf
+https://storage.googleapis.com/ergo-cms-media/whitepaper_668cb39ee5/whitepaper_668cb39ee5.pdf
 https://storage.googleapis.com/ergo-cms-media/docs/ErgoTree.pdf
 https://storage.googleapis.com/ergo-cms-media/docs/CBT_2020_ZeroJoin_Combining_Zerocoin_and_CoinJoin_v3.pdf
-https://storage.googleapis.com/ergo-cms-media/whitepaper_668cb39ee5/whitepaper_668cb39ee5.pdf
+https://storage.googleapis.com/ergo-cms-media/whitepaper_668cb39ee5/whitepaper_668cb39ee5.pdf>
+https://storage.googleapis.com/ergo-cms-media/docs/ErgoScript.pdf

@@ -1,8 +1,8 @@
-https://emurgo.io/blog/yoroi-wallet-security
-https://emurgo.io/who-we-are
-https://emurgo.io/blog/emurgo-is-thrilled-to-announce-the-yoroi-dapp-connector
-https://emurgo.io/emurgo-and-ergo-foundation-joint-statement-on-yoroi-wallet/
-https://emurgo.io/blog/emurgo-to-partner-with-ergo-and-build-blockchain-based-decentralized-financial-solutions
-https://emurgo.io/
 https://emurgo.io/en/blog/emurgo-to-partner-with-ergo-and-build-blockchain-based-decentralized-financial-solutions
 https://emurgo.io/blog/emurgo-head-of-rd-robert-kornacki-appointed-to-ergo-foundation-board
+https://emurgo.io/who-we-are
+https://emurgo.io/blog/emurgo-to-partner-with-ergo-and-build-blockchain-based-decentralized-financial-solutions
+https://emurgo.io/blog/emurgo-is-thrilled-to-announce-the-yoroi-dapp-connector
+https://emurgo.io/emurgo-and-ergo-foundation-joint-statement-on-yoroi-wallet/
+https://emurgo.io/blog/yoroi-wallet-security
+https://emurgo.io/

@@ -1,12 +1,12 @@
 https://ergo.getblok.io/
+https://ergo.getblok.io/vote/
+https://ergo.getblok.io/smartpool*)
 https://ergo.getblok.io/smartpool
-https://ergo.getblok.io/>
 https://ergo.getblok.io/SubPoolSet
+https://ergo.getblok.io/blocks
 http://ergo.getblok.io/
 https://ergo.getblok.io
-https://ergo.getblok.io/vote/
-https://ergo.getblok.io/.
-https://ergo.getblok.io/blocks
 https://ergo.getblok.io/addresses/9f82vWVqP4XEqKK3hE6NnXrgmDMTz3ZGxft1hteASoV9KMbNtHK
-https://ergo.getblok.io/smartpool*)
+https://ergo.getblok.io/>
 https://ergo.getblok.io/addresses/
+https://ergo.getblok.io/.

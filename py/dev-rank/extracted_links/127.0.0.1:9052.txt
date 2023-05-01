@@ -1,8 +1,8 @@
-http://127.0.0.1:9052/mining/rewardAddress
+http://127.0.0.1:9052/mining/candidate
 http://127.0.0.1:9052/wallet/transaction/generate
 http://127.0.0.1:9052/blocks/78bc468ff36d5d6fa9707d382fe5b8947d6dd0ed2bc5c44707426ee12557c7fb
-http://127.0.0.1:9052/mining/candidate
-http://127.0.0.1:9052/blocks?limit=50&offset=0
-http://127.0.0.1:9052/panel/
+http://127.0.0.1:9052/mining/rewardAddress
 https://127.0.0.1:9052
+http://127.0.0.1:9052/panel/
+http://127.0.0.1:9052/blocks?limit=50&offset=0
 http://127.0.0.1:9052/swagger

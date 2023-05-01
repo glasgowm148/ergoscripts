@@ -25,3 +25,5 @@ py/scrape.ipynb
 py/SPF.ipynb
 py/dev-rank/.env
 py/dev-rank/chats
+py/dev-rank/chat-exporter
+py/dev-rank/extracted_links/*

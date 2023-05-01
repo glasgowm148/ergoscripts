@@ -1,9 +1,9 @@
-https://miningpoolstats.stream/radiant
-https://miningpoolstats.stream/
-https://miningpoolstats.stream/ergo
+https://miningpoolstats.stream/ergo*)
+https://miningpoolstats.stream/yunpools.com_pools
 https://miningpoolstats.stream/kadena
+https://miningpoolstats.stream/ergo
+https://miningpoolstats.stream/radiant
+https://miningpoolstats.stream/raptoreum
+https://miningpoolstats.stream/
 https://miningpoolstats.stream/zilliqa
 https://miningpoolstats.stream/ethereum
-https://miningpoolstats.stream/raptoreum
-https://miningpoolstats.stream/yunpools.com_pools
-https://miningpoolstats.stream/ergo*)

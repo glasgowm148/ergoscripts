@@ -1,8 +1,8 @@
-https://oss.sonatype.org/content/repositories/snapshots/org/ergoplatform/ergo-appkit_2.12/4f97db0a-SNAPSHOT/
-https://oss.sonatype.org/content/repositories/releases/
-https://oss.sonatype.org/content/repositories/snapshots
-https://oss.sonatype.org/content/repositories/snapshots/org/ergoplatform/
-https://oss.sonatype.org/content/groups/public
-https://oss.sonatype.org/content/groups/public/
 https://oss.sonatype.org/content/repositories/snapshots/
+https://oss.sonatype.org/content/repositories/snapshots/org/ergoplatform/ergo-appkit_2.12/4f97db0a-SNAPSHOT/
 https://oss.sonatype.org/content/repositories/snapshots/org/ergoplatform/ergo-appkit_2.12/develop-0091f0c3-SNAPSHOT/
+https://oss.sonatype.org/content/repositories/releases/
+https://oss.sonatype.org/content/groups/public/
+https://oss.sonatype.org/content/repositories/snapshots
+https://oss.sonatype.org/content/groups/public
+https://oss.sonatype.org/content/repositories/snapshots/org/ergoplatform/

@@ -1,5 +1,5 @@
-https://wccftech.com/evga-quits-nvidia-no-more-geforce-gpus-from-green-teams-top-aib-partner/
+https://wccftech.com/amd-instinct-mi200-cdna-2-aldebaran-gpu-die-visualized-128-compute-units-128-gb-hbm2e-capacity/
 https://wccftech.com/amd-vega-architecture-detailed-variable-width-simds-confirmed/
+https://wccftech.com/evga-quits-nvidia-no-more-geforce-gpus-from-green-teams-top-aib-partner/
 https://wccftech.com/nvidia-geforce-rtx-30-lhr-series-mining-hashrate-partially-unlocked-nbminer-update/
 https://wccftech.com/nvidia-geforce-rtx-3080-ti-flashed-with-dell-rtx-3090-bios-to-achieve-a-staggering-110-mh-s-mining-ethereum/
-https://wccftech.com/amd-instinct-mi200-cdna-2-aldebaran-gpu-die-visualized-128-compute-units-128-gb-hbm2e-capacity/

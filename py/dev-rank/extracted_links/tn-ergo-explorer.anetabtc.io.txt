@@ -1,5 +1,5 @@
+https://tn-ergo-explorer.anetabtc.io/en/transactions/74f5bd5ca325c6765f914d77f2b0753bef4cb817482b84a4765ef848d6047999
+https://tn-ergo-explorer.anetabtc.io/en/transactions/e4b2b6343b425ee1e6bc3de540ebcdae312ff722c03156a2509c74a2f7743604
+https://tn-ergo-explorer.anetabtc.io/api/v1/boxes/4db609186f17c23914c2c70c94671a8a25ca7d532b4dafebf334f5cc743f4989
 https://tn-ergo-explorer.anetabtc.io/graphql
 https://tn-ergo-explorer.anetabtc.io/
-https://tn-ergo-explorer.anetabtc.io/en/transactions/74f5bd5ca325c6765f914d77f2b0753bef4cb817482b84a4765ef848d6047999
-https://tn-ergo-explorer.anetabtc.io/api/v1/boxes/4db609186f17c23914c2c70c94671a8a25ca7d532b4dafebf334f5cc743f4989
-https://tn-ergo-explorer.anetabtc.io/en/transactions/e4b2b6343b425ee1e6bc3de540ebcdae312ff722c03156a2509c74a2f7743604
