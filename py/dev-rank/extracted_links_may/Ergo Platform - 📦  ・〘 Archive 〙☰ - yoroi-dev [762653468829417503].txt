@@ -1,0 +1,1264 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / yoroi-dev
+==============================================================
+
+[10/05/2020 1:41 PM] mx#5165
+@mmahut you should see now new channels
+
+
+[10/05/2020 1:45 PM] mx#5165
+similar with @Sebastien
+
+
+[10/05/2020 1:49 PM] kushti#0978
+Let's coordinate on explorer backend and Yoroi related issues here @mmahut @Sebastien @Ilya | Spectrum
+
+
+[10/05/2020 2:26 PM] mmahut#8044
+hey! so, after applying the new schema, our explorer backends are working better
+
+
+[10/05/2020 2:26 PM] mmahut#8044
+just did a round of testing and the performance was okay, hard to say what will happen when we will have more people using it
+
+
+[10/05/2020 3:07 PM] mmahut#8044
+one question, `curl -s http://localhost:9053/info | jq -r '.["parameters"]["height"]'` is does not represent the node's height, does it?
+
+
+[10/05/2020 3:26 PM] mx#5165
+on confirm transaction screen it shows ADA symbol instead of ERG, otherwise don`t see anything strange so far in nightly release
+
+
+[10/05/2020 3:29 PM] mx#5165
+on my wallets page it also shows ADA
+
+
+[10/05/2020 3:33 PM] kushti#0978
+> one question, `curl -s http://localhost:9053/info | jq -r '.["parameters"]["height"]'` is does not represent the node's height, does it?
+@mmahut yes, this is the height of last parameters update
+
+
+[10/05/2020 3:34 PM] kushti#0978
+please use "fullHeight" (and the node is synced if fullHeight == headersHeight)
+
+
+[10/05/2020 3:35 PM] kushti#0978
+> just did a round of testing and the performance was okay, hard to say what will happen when we will have more people using it
+@mmahut Some load testing is needed it seems ?
+
+
+[10/05/2020 3:53 PM] mmahut#8044
+> @mmahut Some load testing is needed it seems ?
+@kushti I did some very basic stress testing and it appears to be working fine https://jsfiddle.net/p6qonr41/, it would be for sure nice to have some e2e stress testing balanced from different locations
+
+{Reactions}
+👍🏻 
+
+[10/05/2020 3:54 PM] mmahut#8044
+> @mmahut yes, this is the height of last parameters update
+@kushti thank you, I will use that one
+
+
+[10/05/2020 3:55 PM] kushti#0978
+@mmahut good! How nodes are doing? Upcoming 3.3.4 release should be better about memory footprint.
+
+
+[10/05/2020 4:02 PM] mmahut#8044
+@kushti no problems so far!
+
+{Reactions}
+🤘🏻 
+
+[10/05/2020 5:50 PM] kushti#0978
+@Ilya | Spectrum any ETA on https://github.com/ergoplatform/explorer-backend/issues/78 ?
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/issues/78
+Missing fields in pending tx endpoint · Issue #78 · ergoplatform/ex...
+To get pending transactions in Yoroi, we want to use the endpoint /api/v0/transactions/unconfirmed/byAddress/{p1} (getApiV0TransactionsUnconfirmedByaddressP1) However, I noticed the following field...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[10/05/2020 8:32 PM] kushti#0978
+@Sebastien send is not working for me, dont' see tx in the mempool , can I get tx id somehow or debug ?
+
+
+[10/05/2020 9:13 PM] kushti#0978
+logs are empty
+
+
+[10/05/2020 9:15 PM] mx#5165
+looks like sending stopped working, either way when it does the refresh of balance is pretty long like 10 minutes sometimes, is it caused by fee or full mempool? i guess amount should be reserved with sending
+
+
+[10/05/2020 9:16 PM] kushti#0978
+Tx is not going into the mempool
+
+
+[10/05/2020 9:17 PM] mx#5165
+yes at the moment, i describe the situation when it does
+
+
+[10/05/2020 9:18 PM] kushti#0978
+ah , sometimes it could be 10 minutes between blocks
+
+
+[10/05/2020 9:19 PM] mx#5165
+possible, but shouldn`t be amount deducted already when hitting send?
+
+
+[10/05/2020 9:20 PM] mx#5165
+otherwise you can do dozens of operations and wait long time to see any of them happen
+
+
+[10/05/2020 9:23 PM] Sebastien#0653
+for me I always see the tx make it into the mempool and it shows up on the explorer as a pending transaction, but takes many minutes to actually make it into a block
+
+
+[10/05/2020 9:24 PM] mx#5165
+maybe we need to reload the wallet, a sec
+
+
+[10/05/2020 9:25 PM] Sebastien#0653
+Yoroi doesn't handle pending transactions until the above-linked issue is fixed
+
+it could be that somehow tx sending broke in one of our backend deployments since we've deployed a new version of our backend since I last tried
+
+
+[10/05/2020 9:26 PM] Sebastien#0653
+in the Chrome network tab you should be able to see an error if the backend returned an error. If the backend doesn't return an error, it means our explorer instance accepted the tx
+
+
+[10/05/2020 9:26 PM] Sebastien#0653
+(keep in mind the Chrome network tab doesn't automatically populate until you open it at least once during your browser session)
+
+
+[10/05/2020 9:27 PM] Sebastien#0653
+Yoroi doesn't use websockets and instead polls every 20 seconds, so usually anything detected by our node should be reflected <20 seconds (sending a transaction causes it to poll the backend right away though)
+
+
+[10/05/2020 9:29 PM] Sebastien#0653
+also Yoroi doesn't sync the wallet balance unless you have the specific wallet selected and it's the active tab in your browser (otherwise it'd be super expensive to handle all the requests we get for Cardano)
+
+
+[10/05/2020 9:37 PM] mx#5165
+yoroi_01e7b97c.chunk.js:1 WalletReceivePage unexpected address tab
+
+
+[10/05/2020 9:37 PM] Sebastien#0653
+that error is expected
+
+
+[10/05/2020 9:37 PM] mx#5165
+ok nothing changed after reloading and browser restart, will try to reinstall
+
+
+[10/05/2020 9:38 PM] Sebastien#0653
+as long as the transaction isn't part of the chain, you won't see anything
+
+
+[10/05/2020 9:39 PM] Sebastien#0653
+if you go to the receive page and click on your address, it will open the explorer page for it so it's an easy way to see if the explorer has found the tx (and if it did, then Yoroi will properly show it as a pending transaction once the missing pending tx fields are added as per my ticket above)
+
+
+[10/05/2020 9:41 PM] mx#5165
+yes, exactly, it looks like it isn`t going to mempool at all, maybe updates as you said, will reinstall and try again
+
+
+[10/05/2020 9:46 PM] mx#5165
+it was working well about 6 hours ago
+
+
+[10/05/2020 9:46 PM] Sebastien#0653
+hmm I just tried sending a tx myself, and by looking at the Chrome "network" tab, I can see that our backend accepted the TX, but it doesn't show up on the Ergo explorer
+
+
+[10/05/2020 9:46 PM] Sebastien#0653
+I think about 6hrs ago we switched back to our own explorer instance from the public one
+
+
+[10/05/2020 9:47 PM] Sebastien#0653
+@mmahut maybe you see anything in the logs for our node?
+
+
+[10/05/2020 9:50 PM] mmahut#8044
+@Sebastien do you have a tx id?
+
+
+[10/05/2020 9:50 PM] mmahut#8044
+or timestemp
+
+
+[10/05/2020 9:51 PM] Sebastien#0653
+I just retired with a tx `57a33373a7d0b4e5d7801adbbd2946221ab658f47a9d4e06730af3c1d7af137d`
+
+
+[10/05/2020 9:51 PM] mmahut#8044
+I did test sending tx with our backend and it did work
+
+
+[10/05/2020 9:52 PM] mmahut#8044
+looking
+
+
+[10/05/2020 9:54 PM] mmahut#8044
+@Sebastien this is what I see, the node sees it but not sure why it isn't broadcasting
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762653468829417503/762779870886363176/message.txt
+
+
+[10/05/2020 9:56 PM] Sebastien#0653
+hmm so it looks like our explorer backend passes it to our node
+is there a problem with the node itself?
+
+
+[10/05/2020 9:58 PM] mx#5165
+at least i tested recovery of wallets 🙂 will try again to send
+
+
+[10/05/2020 10:01 PM] mx#5165
+yes, looks like something with the node
+
+
+[10/05/2020 10:02 PM] mx#5165
+> on confirm transaction screen it shows ADA symbol instead of ERG, otherwise don`t see anything strange so far in nightly release
+@mx this needs cosmetics
+
+
+[10/05/2020 10:02 PM] kushti#0978
+what's in the node logs ? @mmahut
+
+
+[10/05/2020 10:03 PM] kushti#0978
+cant' find the tx in the logs of few controlled nodes around the network
+
+
+[10/05/2020 10:24 PM] mx#5165
+i am getting now
+
+
+[10/05/2020 10:24 PM] mx#5165
+yoroi_01e7b97c.chunk.js:1 ErgoApi::createUnsignedTxForUtxos error: {
+  "message": "api.errors.NotEnoughMoneyToSendError: undefined",
+  "name": "h",
+  "stack": "h: api.errors.NotEnoughMoneyToSendError: undefined
+    at n.outputs (chrome-extension://poonlenmfdfbjfeeballhiibknlknepo/js/yoroi_d2c39deb.chunk.js:1:417225)
+    at k (chrome-extension://poonlenmfdfbjfeeballhiibknlknepo/js/yoroi_d2c39deb.chunk.js:1:418005)
+    at L.createUnsignedTxForUtxos (chrome-extension://poonlenmfdfbjfeeballhiibknlknepo/js/yoroi_d2c39deb.chunk.js:1:24370)
+    at L.createUnsignedTx (chrome-extension://poonlenmfdfbjfeeballhiibknlknepo/js/yoroi_d2c39deb.chunk.js:1:23292)
+    at async o._method (chrome-extension://poonlenmfdfbjfeeballhiibknlknepo/js/yoroi_01e7b97c.chunk.js:1:1659116)",
+  "id": "api.errors.NotEnoughMoneyToSendError",
+  "defaultMessage": "!!!Not enough money to make this transaction.",
+  "values": {}
+
+
+[10/05/2020 10:25 PM] mmahut#8044
+> what's in the node logs ? @mmahut
+@kushti that is the node log as well
+
+
+[10/05/2020 10:25 PM] mx#5165
+more likely a node, on public explorer balance fits
+
+
+[10/05/2020 10:29 PM] mx#5165
+> @Sebastien this is what I see, the node sees it but not sure why it isn't broadcasting
+@mmahut looks like explorer`s only log
+
+
+[10/05/2020 10:31 PM] kushti#0978
+@mmahut yeah, dont' see node messages at all
+
+
+[10/05/2020 10:34 PM] mx#5165
+there should be ergo.log file autocreated
+
+
+[10/05/2020 11:09 PM] mmahut#8044
+@kushti the ones with `ergo[8041]` should be from the node, we log into systemd directly on the console
+
+
+[10/05/2020 11:10 PM] mmahut#8044
+@Sebastien can you try now please?
+
+
+[10/05/2020 11:15 PM] mmahut#8044
+ok, I found the problem, but not the root cause
+
+
+[10/05/2020 11:15 PM] mmahut#8044
+it is in the mempool now https://explorer.ergoplatform.com/en/transactions/57a33373a7d0b4e5d7801adbbd2946221ab658f47a9d4e06730af3c1d7af137d
+
+
+[10/05/2020 11:15 PM] kushti#0978
+@mmahut I see, but nothing in the message.txt, can you do something like "cat global.log | grep 57a33373a7d0b4e5d7801adbbd2946221ab658f47a9d4e06730af3c1d7af137d" ?
+
+
+[10/05/2020 11:15 PM] mmahut#8044
+it was about `utx-broadcaster`, for some reason it wasn't picking up new txs from the explorer-api
+
+
+[10/05/2020 11:16 PM] mmahut#8044
+but it looks like all the txs were in the explorer-api mempool? if such a place exists, as all were processed
+
+
+[10/05/2020 11:16 PM] kushti#0978
+oh, and mempool got a lot transactions )
+
+
+[10/05/2020 11:17 PM] kushti#0978
+utx-broadcaster - part of the explorer ?
+
+
+[10/05/2020 11:17 PM] kushti#0978
+do you have its logs? then send to @Ilya | Spectrum please
+
+
+[10/05/2020 11:17 PM] mmahut#8044
+the `utx-broadcaster` is another component, if I understand it correctly it goes `explorer-api` -> `utx-broadcaster` -> `node`
+
+
+[10/05/2020 11:17 PM] kushti#0978
+and how it was resolved ? By relaunching the broadcaster ?
+
+
+[10/05/2020 11:18 PM] mx#5165
+txs outgoing
+
+
+[10/05/2020 11:18 PM] kushti#0978
+yeah , public explorer had an issue with it in the early days but only ones if my memory serves me well
+
+
+[10/05/2020 11:19 PM] mmahut#8044
+> and how it was resolved ? By relaunching the broadcaster ?
+@kushti looks like by restarting it few times, I think it might got stuck and then the mempool queue was little bit too much for it, hard to say, going to look at it
+
+
+[10/05/2020 11:20 PM] mmahut#8044
+can someone try to flood it again with txs? like 10 in a row?
+
+
+[10/05/2020 11:20 PM] mx#5165
+yes, a sec
+
+
+[10/05/2020 11:20 PM] mmahut#8044
+after it got unstack, it did 17 txs at once ```Oct 05 22:10:40 ergo-backend1 yoroi-ergo-backend-utx-broadcaster-start[18587]: 22:10:40.533 INFO  o.ergoplatform.explorer.broadcaster.UtxBroadcaster - 17 transactions processed
+```
+
+
+[10/05/2020 11:21 PM] mmahut#8044
+but it did have these txs in cache as per: ```Oct 05 22:10:40 ergo-backend1 yoroi-ergo-backend-utx-broadcaster-start[18587]: 22:10:40.532 DEBUG o.e.e.cache.repositories.ErgoLikeTransactionRepo - Transaction '42226af7e36770ab1b5e8a51e4232fad5ff09dc0cfab999fe8b5636ac7387f99' removed from cache
+``` I wonder which cache is that
+
+
+[10/05/2020 11:23 PM] mmahut#8044
+I see txs flowing now
+
+
+[10/05/2020 11:23 PM] kushti#0978
+@mmahut it uses Redis , right, @Ilya | Spectrum ?
+
+
+[10/05/2020 11:23 PM] kushti#0978
+and I guess problem could be about Redis configuration
+
+
+[10/05/2020 11:24 PM] mx#5165
+did about ~10 now
+
+
+[10/05/2020 11:25 PM] mmahut#8044
+@kushti it does, but looks like redis was fine
+
+
+[10/05/2020 11:26 PM] mmahut#8044
+@Ilya | Spectrum if you can confirm that the "cache" is in redis, I can setup a monitoring for this specific use case
+
+
+[10/05/2020 11:30 PM] mx#5165
+looks like 1 went through, others in mempool? will check
+
+
+[10/05/2020 11:31 PM] mmahut#8044
+I think this might be it ```# redis-cli GET "txs:count"
+"0"
+```
+
+
+[10/05/2020 11:31 PM] mx#5165
+ok looks like they hit mempool
+
+
+[10/05/2020 11:33 PM] mx#5165
+@Sebastien is it possible to deduct transacations that hit mempool from balance?
+
+
+[10/05/2020 11:34 PM] mmahut#8044
+@mx I think to get support for pending txs we need to implement this https://github.com/ergoplatform/explorer-backend/issues/78
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/issues/78
+Missing fields in pending tx endpoint · Issue #78 · ergoplatform/ex...
+To get pending transactions in Yoroi, we want to use the endpoint /api/v0/transactions/unconfirmed/byAddress/{p1} (getApiV0TransactionsUnconfirmedByaddressP1) However, I noticed the following field...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[10/05/2020 11:34 PM] mx#5165
+ah ok, cool
+
+
+[10/05/2020 11:35 PM] mx#5165
+we need this, otherwise it will be pretty confusing and annoying for users
+
+
+[10/05/2020 11:39 PM] mx#5165
+looks like some txs are gone from mempool or stuck again
+
+
+[10/05/2020 11:42 PM] mx#5165
+they were unconfirmed on public explorer, most just now disappeard
+
+
+[10/05/2020 11:42 PM] mmahut#8044
+disappeard? or in rejected from the mempool?
+
+
+[10/05/2020 11:43 PM] mx#5165
+could be rejected, i am looking only at explorer not node at the moment
+
+
+[10/05/2020 11:44 PM] mx#5165
+but blocks are pretty empty
+
+
+[10/05/2020 11:47 PM] mx#5165
+looks like from my many sent in bulk only one went through but now like few minutes ago new one went through from other wallet
+
+
+[10/05/2020 11:48 PM] mx#5165
+maybe it doesn`t allow to send more till one is in block?
+
+
+[10/05/2020 11:50 PM] mmahut#8044
+you need to send one from a different utxo, because as soon as the first one is accepted, it is spent
+
+
+[10/05/2020 11:51 PM] mmahut#8044
+ok going to get some sleep, will check on this tomorrow, the monitoring for the txs count in redis is setup, so we will see when/what happens if it happens again
+
+
+[10/05/2020 11:51 PM] mx#5165
+heading to bed also, gn
+
+
+[10/05/2020 11:52 PM] kushti#0978
+@mx yes, not all the transactions finished up in the blocks, but they were double spends likely
+
+
+[10/05/2020 11:55 PM] kushti#0978
+btw we should clear mempool out of double-spends immediately
+
+
+[10/05/2020 11:55 PM] kushti#0978
+there's an issue on that
+
+
+[10/05/2020 11:55 PM] kushti#0978
+but Jason had some objections
+
+
+[10/05/2020 11:56 PM] mx#5165
+why, because of miners ? 🙂
+
+
+[10/05/2020 11:57 PM] mx#5165
+we should definitely clrear it if possible
+
+
+[10/06/2020 6:11 AM] Ilya | Spectrum#0494
+> @Ilya | Spectrum any ETA on https://github.com/ergoplatform/explorer-backend/issues/78 ?
+@kushti , end of this week in the worst case
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/issues/78
+Missing fields in pending tx endpoint · Issue #78 · ergoplatform/ex...
+To get pending transactions in Yoroi, we want to use the endpoint /api/v0/transactions/unconfirmed/byAddress/{p1} (getApiV0TransactionsUnconfirmedByaddressP1) However, I noticed the following field...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[10/06/2020 6:15 AM] Ilya | Spectrum#0494
+> @mmahut it uses Redis , right, @Ilya | Spectrum ?
+@kushti  , right
+
+
+[10/06/2020 9:17 AM] kushti#0978
+ok so then we wait for https://github.com/ergoplatform/explorer-backend/issues/78, and then release, @Sebastien ?
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/issues/78,
+ergoplatform/explorer-backend
+Ergo Blockchain Explorer. Contribute to ergoplatform/explorer-backend development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[10/06/2020 9:21 AM] Sebastien#0653
+yeah, that's the plan
+
+
+[10/06/2020 9:22 AM] Sebastien#0653
+Yoroi already has the code for supporting pending transactions in it. Once the explorer-backend PR is merged, I just need to add it to our backend so it shouldn't take long
+
+
+[10/06/2020 9:33 AM] kushti#0978
+@Sebastien good, we can do a release on Mon maybe ?
+
+
+[10/06/2020 10:41 AM] Sebastien#0653
+I'm fine with Monday if people prefer not to ship over the weekend 🙂
+
+
+[10/06/2020 4:38 PM] kushti#0978
+Yes, shipping on Friday can leave us without the weekend )
+
+
+[10/06/2020 4:51 PM] Ilya | Spectrum#0494
+https://github.com/ergoplatform/explorer-backend/releases/tag/3.3.0
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/releases/tag/3.3.0
+Release Explorer v3.3.0 · ergoplatform/explorer-backend
+Features:
+
+New fields added to an unconfirmed transaction API endpoint (#78)
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+{Reactions}
+💯 👍 
+
+[10/06/2020 4:51 PM] Ilya | Spectrum#0494
+New version is also deployed to Ergo instances
+
+
+[10/06/2020 5:07 PM] kushti#0978
+So then Yoroi Nightly with pending transactions for testing and the release? @Sebastien
+
+
+[10/06/2020 5:23 PM] kushti#0978
+Do we have utx-broadcaster issues again? @mmahut
+
+
+[10/06/2020 5:25 PM] mx#5165
+looks like txs hitting mempool, but you won`t see anything on wallet till it is confirmed
+
+
+[10/06/2020 5:28 PM] mmahut#8044
+> Do we have utx-broadcaster issues again? @mmahut
+@kushti not that I know of, what are you seing?
+
+
+[10/06/2020 5:31 PM] mmahut#8044
+(btw, upgrading our backends too)
+
+
+[10/06/2020 5:38 PM] kushti#0978
+@mmahut sorry, tx reached the pool and a block finally )
+
+{Reactions}
+👍 
+
+[10/06/2020 5:41 PM] mmahut#8044
+@Sebastien our backends are now upgraded to 3.3.0
+
+{Reactions}
+👍 
+
+[10/06/2020 6:32 PM] kushti#0978
+@mmahut Please update nodes to 3.3.4 (no rush, but the new version should have better memory footprint)
+
+{Reactions}
+👍 
+
+[10/06/2020 7:48 PM] mmahut#8044
+are you able to see incoming txs in yoroi after the upgrade?
+
+
+[10/06/2020 7:50 PM] mmahut#8044
+oh, actually not, looks like it did break the integration w/ our yoroi-ergo- backend (cc @Sebastien )
+
+
+[10/06/2020 7:53 PM] mmahut#8044
+I did roll back the change for the time being
+
+
+[10/06/2020 8:00 PM] mx#5165
+roll back worked
+
+
+[10/07/2020 8:41 AM] Sebastien#0653
+🎉
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762653468829417503/763305101825540116/unknown.png
+
+{Reactions}
+💯 
+
+[10/07/2020 8:42 AM] Sebastien#0653
+@mmahut just needs new change to our production server https://github.com/Emurgo/yoroi-ergo-backend/pull/16
+
+{Embed}
+https://github.com/Emurgo/yoroi-ergo-backend/pull/16
+Add pending tx support by SebastienGllmt · Pull Request #16 · Emurg...
+This PR adds support for pending transactions now that ergoplatform/explorer-backend#78 is resolved.
+The PR also contains a setup to create a mock backend explorer (which I use to test the pending ...
+https://images-ext-1.discordapp.net/external/Wg0j9L8NNKGNDKW0M1atW7IGSPDmoc7C0Qda8-8lmnY/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/36142236
+
+
+[10/07/2020 8:46 AM] mmahut#8044
+@Sebastien I'm on it
+
+
+[10/07/2020 8:53 AM] mmahut#8044
+@Ilya | Spectrum I'm seeing this on the latest version of grabber, any idea?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762653468829417503/763308044159025152/message.txt
+
+
+[10/07/2020 8:56 AM] Ilya | Spectrum#0494
+Which JRE version do you run the grabber under?
+
+
+[10/07/2020 8:57 AM] mmahut#8044
+`openjdk version "1.8.0_242"`
+
+
+[10/07/2020 9:01 AM] Ilya | Spectrum#0494
+Looks like a problem with classpath, let me re-assemble jars
+
+
+[10/07/2020 9:04 AM] Ilya | Spectrum#0494
+@mmahut, did you set log level = TRACE for grabber?
+
+
+[10/07/2020 9:05 AM] mmahut#8044
+@Ilya | Spectrum no
+
+
+[10/07/2020 9:54 AM] Ilya | Spectrum#0494
+@mmahut, try this https://github.com/ergoplatform/explorer-backend/releases/tag/3.3.1
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/releases/tag/3.3.1
+Release Explorer v3.3.1 · ergoplatform/explorer-backend
+Fixes:
+
+Conflicting under Java 11 methods removed
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[10/07/2020 10:22 AM] mmahut#8044
+> @mmahut, try this https://github.com/ergoplatform/explorer-backend/releases/tag/3.3.1
+@Ilya | Spectrum it's working, thank you!
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/releases/tag/3.3.1
+Release Explorer v3.3.1 · ergoplatform/explorer-backend
+Fixes:
+
+Conflicting under Java 11 methods removed
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[10/07/2020 10:26 AM] mmahut#8044
+pending transactions appears to be working as well! @Sebastien
+
+
+[10/07/2020 10:42 AM] mx#5165
+just before tx hits the blocks, the status changes from pending to failed for few second, then it changes from failed to low
+
+
+[10/07/2020 6:47 PM] Sebastien#0653
+@mx hmm, strange.  It works fine for me. Pending transactions that are no longer marked as pending by the backend and yet aren't in any blocks either get marked as failed. Maybe the explorer sometimes has a time delay between removing the tx from the pending set and adding it to a block 🤔
+
+
+[10/07/2020 6:59 PM] mx#5165
+maybe yes, caught it twice today but shouldn`t be rather noticeable be regular users
+
+
+[10/07/2020 7:03 PM] mmahut#8044
+> @mx hmm, strange.  It works fine for me. Pending transactions that are no longer marked as pending by the backend and yet aren't in any blocks either get marked as failed. Maybe the explorer sometimes has a time delay between removing the tx from the pending set and adding it to a block 🤔
+@Sebastien indeed, as soon as it hits the block, it has to propagate to the node on our backends, from there the chain grabber parses it and enters into postgres, from where the explorer fetches it, so I would say it might take couple of seconds
+
+
+[10/07/2020 7:05 PM] Sebastien#0653
+okay, slightly unfortunate but not really a big deal either
+
+{Reactions}
+👍 (2) 
+
+[10/07/2020 7:10 PM] mmahut#8044
+@Ilya | Spectrum might know if we can work around this somehow
+
+
+[10/08/2020 10:10 AM] Robert K#0722
+@Sebastien So we should be all good for an official Friday release?
+
+{Reactions}
+👍🏻 
+
+[10/08/2020 5:42 PM] Sebastien#0653
+https://twitter.com/YoroiWallet/status/1314244618435739648
+
+{Embed}
+Yoroi Wallet (@YoroiWallet)
+https://twitter.com/YoroiWallet/status/1314244618435739648
+📢📢Yoroi Extension Release 📢📢
+
+Yoroi Wallet now supports Ergo!
+
+Store, Send and Receive $ERG in Yoroi Wallet
+
+Download Yoroi and start stacking some $ERG 😎
+https://t.co/81RQYy8ghV
+https://images-ext-1.discordapp.net/external/nQJHE3zjcknQSBV6QH0LqiA1V1CRid7Hb_dwe0FJm2U/https/pbs.twimg.com/media/Ej0gomrUwAAvw1j.png%3Alarge
+Twitter
+
+
+[10/08/2020 5:42 PM] Sebastien#0653
+(would appreciate if somebody can post it in the announcement channel)
+
+{Reactions}
+👍 (4) 
+
+[10/09/2020 12:41 PM] Sebastien#0653
+We're getting soooo many people reporting issues with transactions sent from exchanges failing. Has this been a known issue for a while?
+I can easily imagine that exchanges have just really garbage code for picking which UTXO entries for withdrawals causing failures, but I don't want to blame exchanges if the issue is elsewhere
+
+
+[10/09/2020 1:35 PM] kushti#0978
+Coinex exchange seems to be affected, I'm in touch with them
+
+
+[10/11/2020 11:05 PM] kushti#0978
+@Sebastien are tokens supported ?
+
+
+[10/11/2020 11:05 PM] Sebastien#0653
+@kushti they're tracked, but not displayed in the UI
+
+
+[10/11/2020 11:07 PM] kushti#0978
+I see, good
+
+
+[10/15/2020 9:43 AM] kushti#0978
+@mmahut transactions are not going out, that grabber component again ?
+
+
+[10/15/2020 9:56 AM] kushti#0978
+@Sebastien people are asking about mobile client release
+
+
+[10/15/2020 10:04 AM] Sebastien#0653
+we're still finishing up some Cardano Shelley work for Yoroi Mobile at the moment, but Ergo is after that
+
+
+[10/15/2020 11:07 AM] kushti#0978
+@Sebastien good, thanks! Can you ping Marek please? ^
+
+
+[10/29/2020 8:17 AM] mmahut#8044
+FYI, we have seen the explorer out of sync for few times this night
+
+
+[10/29/2020 8:19 AM] mmahut#8044
+I mean api.ergoplatform.com's explorer endpoint
+
+
+[10/29/2020 9:15 AM] kushti#0978
+@mmahut yes, it relied on nodes with open API and they got DDoSed in the night
+
+
+[10/29/2020 9:52 AM] mmahut#8044
+ah, I see, thank you @kushti
+
+
+[10/30/2020 9:44 AM] scalahub#2618
+@kushti open api can be scanned from node ips. Can we keep api ip and node ip different?
+
+
+[10/30/2020 10:02 AM] kushti#0978
+@scalahub if your machine has two ips then yes, you can set scorex.network.bindAddress and scorex.restApi.bindAddress to different values
+
+
+[10/30/2020 10:03 AM] kushti#0978
+you need to set concrete ips, not 0.0.0.0 then
+
+
+[11/01/2020 4:16 PM] mmahut#8044
+FYI, we are again seeing the api.ergoplatform.com endpoint unresponsive
+
+
+[11/01/2020 7:34 PM] kushti#0978
+@mmahut we had excessive number of requests for few hours (DoS maybe )
+
+
+[11/01/2020 7:35 PM] kushti#0978
+and 1 server out of 2 was on maintenance (resyncing)
+
+
+[11/01/2020 7:36 PM] kushti#0978
+@mmahut are you guys on your own private explorer ?
+
+
+[11/04/2020 10:57 PM] kushti#0978
+@mmahut please update your nodes to 3.3.6
+
+
+[11/06/2020 3:13 PM] mmahut#8044
+@kushti yes we are, but we also monitoring you (upstream) to double check our height
+
+{Reactions}
+❤️ 
+
+[11/06/2020 4:11 PM] kushti#0978
+@Sebastien any ETA on Ergo support in Yoroi Mobile ?
+
+
+[11/06/2020 5:19 PM] mmahut#8044
+> @mmahut please update your nodes to 3.3.6
+@kushti we are upgraded now
+
+{Reactions}
+❤️ 
+
+[11/07/2020 12:26 AM] Sebastien#0653
+@kushti no estimate yet
+Currently the steps are
+1. Migrate the Yoroi Extension from ergo-ts to sigma-rust (while adding the missing functionality we need)
+2. Add any missing mobile bindings we need to sigma-rust
+3. Integrate that into Yoroi Mobile
+
+We're working on (1) currently
+
+
+[11/07/2020 3:53 PM] kushti#0978
+@Sebastien I see, thanks!
+
+
+[11/10/2020 12:19 PM] kushti#0978
+@mmahut maybe would be useful for you , a small tool for monitoring your nodes
+
+{Reactions}
+👀 
+
+[11/10/2020 12:19 PM] kushti#0978
+https://github.com/SabaunT/ergo-monitoring
+
+{Embed}
+https://github.com/SabaunT/ergo-monitoring
+SabaunT/ergo-monitoring
+Debug service printing out useful for developers and managers information about ergo blockchain state. - SabaunT/ergo-monitoring
+https://images-ext-1.discordapp.net/external/eLWLOmIx6GKQNZISjrdoHUUCJt_aNwffxs4wqeieo4s/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/37265857
+
+
+[12/22/2020 8:20 AM] kushti#0978
+@Sebastien user won an auction https://explorer.ergoplatform.com/en/addresses/9gKpFbKYoJqJgshKK1fsKdwSsn84EnBepPzjw1pX2aURUxv8dGD , now basically asking when tokens in Yoroi
+
+
+[12/22/2020 10:13 AM] Sebastien#0653
+@kushti I'm basically done everything we need to support tokens in Yoroi, but we don't have a UI for it yet. Once our designer finished a UI for it, we can release token support
+
+{Reactions}
+❤️ (2) 
+
+[12/31/2020 11:42 AM] Ilya | Spectrum#0494
+https://github.com/ergoplatform/explorer-backend/releases/tag/5.1.0
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/releases/tag/5.1.0
+Release Explorer 5.1.0 · ergoplatform/explorer-backend
+Features:
+
+APIv1 (Currently available only for boxes and assets)
+
+Assets search
+UTXO streaming methods
+Get-boxes-by-asset-id method
+
+
+Box registers indexing
+Assets ordering preservation
+
+Note: Migr...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+{Reactions}
+❤️ (2) 
+
+[01/22/2021 11:31 AM] kushti#0978
+@mmahut @Sebastien is everything alright with Yoroi  infrastructure now ?
+
+
+[01/22/2021 11:34 AM] kushti#0978
+Don't see a transaction issued in the mempool
+
+
+[01/22/2021 12:18 PM] mmahut#8044
+looks like 88.198.13.202 is down?
+
+
+[01/22/2021 12:18 PM] mmahut#8044
+we had that as a backup node, but it seems the chain broadcast just crashes without proceeding if one of the master-nodes in the config is not reachable
+
+
+[01/22/2021 12:20 PM] mmahut#8044
+@kushti it should be processing txs again, I will also decreate the number of txs in the mempool for alerting (we have 10 right now, but only about 5 were stuck in there)
+
+
+[01/22/2021 12:35 PM] kushti#0978
+@mmahut the whole 88.198.13.202 server is dead (
+
+
+[01/22/2021 12:36 PM] kushti#0978
+thanks! Also reported to explorer dev to take a look to round-robin in broadcasting service
+
+
+[01/22/2021 12:45 PM] mmahut#8044
+oh thanks! I was about to open an issue on github:)
+
+
+[01/23/2021 1:07 AM] kushti#0978
+@Sebastien yoroi is showing incorrect balances, resync is not helping
+
+
+[01/23/2021 5:47 AM] Sebastien#0653
+@kushti hmmm is this for a wallet where you can share the public key to debug?
+Keep in mind Yoroi only scans for addresses part of `m/44'/429'/0'/0/` so if the address is from a different derivation path it won't be recognized by Yoroi
+
+
+[01/23/2021 6:03 AM] kushti#0978
+@Sebastien 9hK1EHKmPPQu4YJrZDjQ2E5sYZxkHFGvU5kVTcxTxojgP28tWzC is one the addresses, shows 2,079 erg while actual balance is 0.7178 ERG
+
+
+[01/23/2021 1:00 PM] kushti#0978
+@Sebastien few other wallets affected as well
+
+
+[01/23/2021 1:59 PM] kushti#0978
+@Sebastien some community members have the same complaints
+
+
+[01/23/2021 2:10 PM] Sebastien#0653
+@kushti did the latest version of the explorer limit the amount of results to 20 rows?
+
+
+[01/23/2021 2:10 PM] Sebastien#0653
+I noticed the address you sent specifically has 34 transactions for it, but our backend only responds with 20
+
+
+[01/23/2021 2:11 PM] Sebastien#0653
+however, our backend is meant to paginate with 50 so I don't know why some are getting dropped
+
+
+[01/23/2021 2:14 PM] Sebastien#0653
+will keep investigating the cause
+
+
+[01/23/2021 2:15 PM] Sebastien#0653
+Definitely looks like the explorer pagination logic changed which caused the issue (or maybe this was always an issue and never detected)
+
+
+[01/23/2021 2:15 PM] Sebastien#0653
+```
+curl https://api.ergoplatform.com/api/v0/addresses/9hK1EHKmPPQu4YJrZDjQ2E5sYZxkHFGvU5kVTcxTxojgP28tWzC/transactions
+```
+this returns
+```
+{
+    "items": [
+        // here there are actually only 20 elements
+    ],
+    "total": 34
+}
+```
+
+
+[01/23/2021 2:15 PM] Sebastien#0653
+so the explorer knows there are 34 items, but it only actually returns 20 of them
+
+
+[01/23/2021 2:21 PM] Sebastien#0653
+seems
+```
+curl https://api.ergoplatform.com/api/v0/addresses/9hK1EHKmPPQu4YJrZDjQ2E5sYZxkHFGvU5kVTcxTxojgP28tWzC/transactions?limit=50
+```
+fixes the issue, so probably we have to just update this in our backend and redeploy
+
+
+[01/23/2021 3:07 PM] Sebastien#0653
+https://github.com/Emurgo/yoroi-ergo-backend/pull/21
+@mmahut @kushti @Robert K
+
+{Embed}
+https://github.com/Emurgo/yoroi-ergo-backend/pull/21
+Fix pagination by SebastienGllmt · Pull Request #21 · Emurgo/yoroi-...
+Pagination was failing for addresses that contained more than 20 transactions
+https://images-ext-2.discordapp.net/external/xHAk_ziRPnkEG9RreCwow25rgpXAukdgRa4kd6p1WIY/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/36142236
+
+{Reactions}
+👍 
+
+[01/23/2021 3:25 PM] kushti#0978
+@Ilya | Spectrum ^
+
+
+[01/23/2021 3:51 PM] Ilya | Spectrum#0494
+There always been a limit of 20 items by default for methods with pagination
+
+{Reactions}
+👍 
+
+[01/24/2021 4:20 AM] Sebastien#0653
+@mmahut can you ping me when this fix is pushed to production?
+
+
+[01/24/2021 12:20 PM] mmahut#8044
+@Sebastien it is now
+
+
+[01/25/2021 10:04 AM] kushti#0978
+@Sebastien now getting this for all the wallets including that one
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762653468829417503/803203552168116264/yoroi.png
+
+
+[01/25/2021 10:07 AM] Sebastien#0653
+@kushti settings → export logs
+
+
+[01/25/2021 10:55 AM] kushti#0978
+@Sebastien [2021-01-25T13:54:39+03:00] ErgoApi::createUnsignedTxForUtxos error: "Failed to parse ErgoBox from JSON string: JsValue(Object({\"boxId\":\"54893dd90256c76a156cef3b4a6b67495e8ccf243eac7a9e76070b5aa6b9a24c\",\"value\":717800000,\"ergoTree\":\"0008cd036fb65322f4856c665ed39c84543a7965f68ea3f0752fc5a91e9e09260944efe6\",\"assets\":[{\"amount\":1,\"tokenId\":\"79be675cb600167c2daa286aaff31fe899e1b8e406fa6f70caaafabe77b30a72\"},{\"amount\":1,\"tokenId\":\"649ab795fa7c94c06ade81791241f3dfe8df8f046ff7c71dd0ea1f887e8eab34\"},{\"amount\":1,\"tokenId\":\"2acb276a70704db8a3e9c07c023a8fa02f94e4d2fcad6c654321c1784b1e5c9b\"},{\"amount\":1,\"tokenId\":\"1bc96bed367e5552c5edad16cdfb860d4630db470971d56bee89b8f66fd26e56\"},{\"amount\":1,\"tokenId\":\"07ae09520da44301eeb147abc78b8e1e3547f8c3e35090317ad9029af3b20782\"},{\"amount\":1,\"tokenId\":\"d7caf08e14feabe3f0991be7c0449e261a4a4a9a33d728c26a4aa345b36fc0d8\"},{\"amount\":1,\"tokenId\":\"a9a030707e2a40f3e26f6d6b8d44e772a7277c89125a9029a94dfede81ba63e4\"},{\"amount\":1,\"tokenId\":\"adf7ad11ce64389034504933f7fd35b327df7643e8feba6a3e81263c7124146f\"}],\"creationHeight\":410120,\"additionalRegisters\":{},\"transactionId\":\"2ca321222149060f6ee6f558356826f08be25cb1f33fb7e1b172da097956548d\",\"index\":2})) 
+ with error: Box id parsed from JSON differs from calculated from box serialized bytes"
+
+
+[01/25/2021 11:02 AM] Robert K#0722
+It looks like the registers may have not been passed through all the way?
+
+
+[01/25/2021 11:40 AM] greenhat#6562
+@Robert K I don't see any register in this box. Here is the response from node's REST API: 
+```
+{
+  "boxId": "54893dd90256c76a156cef3b4a6b67495e8ccf243eac7a9e76070b5aa6b9a24c",
+  "value": 717800000,
+  "ergoTree": "0008cd036fb65322f4856c665ed39c84543a7965f68ea3f0752fc5a91e9e09260944efe6",
+  "assets": [
+    {
+      "tokenId": "a9a030707e2a40f3e26f6d6b8d44e772a7277c89125a9029a94dfede81ba63e4",
+      "amount": 1
+    },
+    {
+      "tokenId": "adf7ad11ce64389034504933f7fd35b327df7643e8feba6a3e81263c7124146f",
+      "amount": 1
+    },
+    {
+      "tokenId": "79be675cb600167c2daa286aaff31fe899e1b8e406fa6f70caaafabe77b30a72",
+      "amount": 1
+    },
+    {
+      "tokenId": "649ab795fa7c94c06ade81791241f3dfe8df8f046ff7c71dd0ea1f887e8eab34",
+      "amount": 1
+    },
+    {
+      "tokenId": "2acb276a70704db8a3e9c07c023a8fa02f94e4d2fcad6c654321c1784b1e5c9b",
+      "amount": 1
+    },
+    {
+      "tokenId": "1bc96bed367e5552c5edad16cdfb860d4630db470971d56bee89b8f66fd26e56",
+      "amount": 1
+    },
+    {
+      "tokenId": "07ae09520da44301eeb147abc78b8e1e3547f8c3e35090317ad9029af3b20782",
+      "amount": 1
+    },
+    {
+      "tokenId": "d7caf08e14feabe3f0991be7c0449e261a4a4a9a33d728c26a4aa345b36fc0d8",
+      "amount": 1
+    }
+  ],
+  "creationHeight": 410120,
+  "additionalRegisters": {},
+  "transactionId": "2ca321222149060f6ee6f558356826f08be25cb1f33fb7e1b172da097956548d",
+  "index": 2
+}
+```
+
+{Reactions}
+🤔 (2) 
+
+[01/25/2021 11:44 AM] greenhat#6562
+I suspect the order of the tokens is the issue here. Tokens are stored in an array, so if the order in json is different (which I see here) it'd lead to different box id. /cc @kushti @Sebastien
+
+
+[01/25/2021 11:59 AM] Robert K#0722
+Ah that might indeed be it, good catch
+
+{Reactions}
+🙏 (2) 
+
+[01/25/2021 10:07 PM] Sebastien#0653
+@kushti should be fixed on Yoroi Nightly
+https://chrome.google.com/webstore/detail/yoroi-nightly/poonlenmfdfbjfeeballhiibknlknepo
+
+I tested and it does seem the  bug was related to ordering of assets sometimes being wrong
+https://github.com/Emurgo/yoroi-frontend/pull/1891
+
+Let me know if nightly fixes the issue for you and I can push it to production
+
+{Embed}
+https://chrome.google.com/webstore/detail/yoroi-nightly/poonlenmfdfbjfeeballhiibknlknepo
+Yoroi Nightly
+A simple, secure and fast Cardano ADA wallet.
+https://images-ext-2.discordapp.net/external/aDxZZGJq4kKlywIUx_UUF5jogzwY57z2uku5TfHl5Z4/https/lh3.googleusercontent.com/gLpGL4hCBgoqWpxLJGY2xn0KpwlDK3eg9OjAhWCfdamVPQXgFbb98wtZROXZwI0dgSztIUd3S2c5yF_zPkTRnOGEhQ%3Dw128-h128-e365-rj-sc0x00ffffff
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/pull/1891
+fix occasional incorrect asset order in box by SebastienGllmt · Pul...
+This bug was caused by some missing sort calls to make sure the assets in a box created by Yoroi matches the order they appear originally on-chain (since the asset list is order sensitive)
+Without ...
+https://images-ext-2.discordapp.net/external/1e-t5s_ozw_GZmUTfYYzwoz8bRKHKNjtEbS_wtELy0o/https/repository-images.githubusercontent.com/144911693/91963f00-7e7f-11e9-9385-4f7404177cf6
+
+{Reactions}
+💯 
+
+[01/25/2021 11:25 PM] kushti#0978
+@Sebastien yes, fixed! Thanks a lot for the quick fix!
+
+{Reactions}
+👍 
+
+[02/14/2021 8:55 AM] kushti#0978
+@Sebastien @mmahut @Robert K please check Yoroi and Emurgo nodes and explorer backend, are they in sync
+
+
+[02/14/2021 5:47 PM] mmahut#8044
+```Feb 14 17:43:03 ergo-backend1 yoroi-ergo-backend-chain-grabber-start[13104]: 17:43:03.690 WARN  org.ergoplatform.explorer.grabber.ChainGrabber - An error occurred while syncing with the network. Restarting ...
+Feb 14 17:43:03 ergo-backend1 yoroi-ergo-backend-chain-grabber-start[13104]: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "node_headers_pkey"``` @kushti backends were stuck at this FYI
+
+
+[02/14/2021 5:47 PM] mmahut#8044
+so looks like the node did pick it up, but not the chain grabber
+
+
+[02/14/2021 6:20 PM] mmahut#8044
+ok, it is unstuck now!
+
+
+[02/14/2021 7:02 PM] mmahut#8044
+FYI, we're not synced and working again
+
+
+[02/14/2021 8:20 PM] kushti#0978
+@Ilya | Spectrum ^
+
+
+[02/14/2021 8:34 PM] Ilya | Spectrum#0494
+They should already be synced now
+
+
+[02/14/2021 8:54 PM] kushti#0978
+@Ilya | Spectrum I meant error message )
+
+
+[02/14/2021 9:33 PM] Ilya | Spectrum#0494
+Yep, the same as in our case
+
+
+[02/14/2021 9:38 PM] mx#5165
+full nodes even the ones on private network synced fine, two small pools were kicked, maybe some pool warz
+
+
+[02/14/2021 10:00 PM] kushti#0978
+@mx I am recommending these pools now to increase number of connections to announce new blocks to most of the network fast. I also had a node with much improved rebroadcasting, but the node was lost on the way  during the blocks machine-gun ) seems due to slow hdd, block application time was high. With most of seed nodes on improved rebroadcasting things would be better, but I was cautious to update seed nodes to code not properly tested.
+
+
+[02/14/2021 10:02 PM] mx#5165
+the top war was between solo, nano and 666, they were ddosing each other 🙂
+
+
+[02/14/2021 10:02 PM] mx#5165
+and all did pretty fine
+
+
+[02/14/2021 10:04 PM] kushti#0978
+ddos was pretty natural
+
+
+[02/14/2021 10:04 PM] kushti#0978
+I thought 666 will be out
+
+
+[02/14/2021 10:04 PM] kushti#0978
+due to Chinese firewall etc
+
+
+[02/14/2021 10:05 PM] kushti#0978
+but they ruled
+
+
+[02/14/2021 10:05 PM] mx#5165
+syncing worked really well overall
+
+
+[03/03/2021 2:25 PM] Dmitry Usov#0134
+@mmahut https://erg-usd-ergo-oracle.emurgo.io/frontendData 502
+
+
+[03/03/2021 2:50 PM] Robert K#0722
+It's working now
+
+
+[03/03/2021 3:00 PM] Dmitry Usov#0134
+great!
+
+
+[04/05/2021 10:26 PM] kushti#0978
+A lot of complaints on Yoroi not showing transactions, everything is good on my side though, any idea ?
+
+
+[04/10/2021 7:53 PM] Dmitry Usov#0134
+@mmahut marek, what is happening with Ada oracle pool?
+
+
+[04/10/2021 7:53 PM] Dmitry Usov#0134
+https://explorer.ergoplatform.com/en/oracle-pool-state/adausd
+
+
+[05/19/2021 10:14 AM] glasgowm#9381
+Let me know if this is accurate @Yoroi - I copied from the old roadmap but aware things have shifted about since then.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762653468829417503/844503383247290368/unknown.png
+
+
+[05/25/2021 5:29 PM] Ilya | Spectrum#0494
+@Yoroi https://github.com/Emurgo/yoroi-frontend/pull/2103
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/pull/2103
+Migration to SigmaRust 0.13.x by oskin1 · Pull Request #2103 · Emur...
+Recently several mistakes in Ergo data model were fixed in ergo-lib-wasm-*. Namely UnsignedTransaction now requires ErgoBoxCandidate[] rather than ErgoBox[]. Also UnsignedTransaction no longer requ...
+https://images-ext-1.discordapp.net/external/3WCwQ6uLBWaTTT3wcYRN6g7lsSl0oslWqvE3XTanN5M/https/opengraph.githubassets.com/ac39776dab8f25efcbddad3640c3aedf65b91bc59c72ade45adfd737dad0dfe0/Emurgo/yoroi-frontend/pull/2103
+
+
+==============================================================
+Exported 243 message(s)
+==============================================================

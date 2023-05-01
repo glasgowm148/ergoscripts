@@ -1,0 +1,5 @@
+https://api.ergodex.io/v1/amm/pool/9916d75132593c8b07fe18bd8d583bda1652eed7565cf41a4738ddd90fc992ec/chart?from=1658000000000
+https://api.ergodex.io/v1/amm/markets?from=1653075262280
+https://api.ergodex.io
+https://api.ergodex.io/v1/amm/pool/9916d75132593c8b07fe18bd8d583bda1652eed7565cf41a4738ddd90fc992ec/chart?from=1658000000000*)
+https://api.ergodex.io/v1/docs/

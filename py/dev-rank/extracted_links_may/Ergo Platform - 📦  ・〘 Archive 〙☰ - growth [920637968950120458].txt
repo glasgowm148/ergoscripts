@@ -1,0 +1,4483 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / growth
+Topic: Discussing high-level growth strategies. Other discussions should be in the community-marketing chat. 
+Bridged with https://t.me/+kGG7zRS3ljI2MDc0
+==============================================================
+
+[12/23/2021 10:13 AM] curbsideprophet#5083
+My goal is to get more guides and tooling published for blockchain intelligence analysts. The stuff I’m doing over at #ergo-watch would probably fall under DevOps here?
+
+{Reactions}
+👍 
+
+[12/23/2021 2:34 PM] glasgowm#9381
+Yep! This channel is probably best for now - can add more channels as we grow in size.
+
+{Reactions}
+🥰 
+
+[12/23/2021 7:28 PM] curbsideprophet#5083
+perfect and sounds good. i will start open sourcing my code here: https://github.com/Eeysirhc/ergo_intelligence (also requested by @quokka )
+
+{Reactions}
+ergo_black (2) 
+
+[12/24/2021 1:43 AM] hedges#1221
+i just scanned the ergo intelligence repo. I might be working on a similar project that performs sentiment analysis in a general blockchain sense. I'm building a front-end that utilizes component-driven UI programming models. Basically building components in JavaScript React currently looking to use next.js
+
+
+[12/24/2021 1:48 AM] hedges#1221
+@curbsideprophet your blog post on ERGO analytics on raspberry pi looks interesting. gonna make it my weekend project
+
+
+[12/24/2021 1:50 AM] curbsideprophet#5083
+Nice! Use this for latest instructions: https://discord.com/channels/668903786361651200/896711052736233482/921181296041001040
+
+
+[12/24/2021 1:50 AM] curbsideprophet#5083
+I haven’t updated docs yet to reflect that but thanks for reminder haha
+
+
+[12/24/2021 1:53 AM] hedges#1221
+cheers, thanks for the latest instructions
+
+{Reactions}
+🙌 
+
+[01/03/2022 4:13 PM] curbsideprophet#5083
+Added python script to visualize ergodex performance analytics: https://github.com/Eeysirhc/ergo_intelligence/blob/main/python/ergodex_analytics.py (requires CSV data load)
+
+image below is an example of my ERG/sigUSD liquidity pair
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/927595572230254642/Screen_Shot_2022-01-03_at_7.07.21_AM.png
+
+
+[01/03/2022 6:38 PM] glasgowm#9381
+nice one!
+
+{Reactions}
+ergo_white 
+
+[01/03/2022 6:39 PM] glasgowm#9381
+Making a new public sale image
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/927632226559066142/unknown.png
+
+{Reactions}
+🤓 
+
+[01/03/2022 6:39 PM] glasgowm#9381
+not sure why the original image has 80% public sale - this seems to indicate 63.4% was premined. https://cryptonews.com/exclusives/the-ethereum-premine-debate-on-fairness-regulation-and-centralization.htm
+
+{Embed}
+https://cryptonews.com/exclusives/the-ethereum-premine-debate-on-fairness-regulation-and-centralization.htm
+The Ethereum Premine Debate On Fairness, Regulation, and Centraliza...
+In July 2014, Ethereum (ETH) had a premine in which around ETH 60m (worth around USD 272bn now) tokens were sold for a total of USD 18.3m.
+https://images-ext-2.discordapp.net/external/jx8sM537RNJiEeaixWFEbcrInMp276aYrY3pHjpjyX4/https/v2.cimg.co/news/64026/37701/adobestock-208054612.jpg
+
+
+[01/03/2022 6:47 PM] curbsideprophet#5083
+lol $sol at 2% public
+
+
+[01/03/2022 7:26 PM] glasgowm#9381
+Think this is more accurate, hard to measure with staking rewards, etc. Eth doesn't have a supply cap also so their private sales become smaller over time...
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/927644230816530432/unknown.png
+
+
+[01/03/2022 8:58 PM] curbsideprophet#5083
+are you open to suggestions? ex: asset icons instead of names so they stand out more (took me a minute to see what's laid out in front of me)
+
+
+[01/03/2022 8:59 PM] curbsideprophet#5083
+side note: can you share the data for this?
+
+
+[01/03/2022 9:08 PM] curbsideprophet#5083
+and my 0.0011 $erg: pie charts are not a good visualization because it's hard to make comparisons between different facets of data. here's a quick and dirty mock up of what you have that i think really drives home the point of public allocation distribution between the different cryptocurrencies
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/927669740212736040/Screen_Shot_2022-01-03_at_1.06.23_PM.png
+
+
+[01/04/2022 8:28 AM] mijbil#7005
+Why is Solana 2% in one and 39% in the other? Are they from different data sources?
+
+
+[01/04/2022 10:18 AM] glasgowm#9381
+Yeh that'd work
+
+
+[01/04/2022 10:18 AM] glasgowm#9381
+Just been adding them onto the figma next to the graphic
+
+
+[01/04/2022 10:18 AM] glasgowm#9381
+nice! Is this a notebook?
+
+
+[01/04/2022 3:11 PM] curbsideprophet#5083
+it is now 🙂 : https://github.com/Eeysirhc/ergo_intelligence/blob/main/python/crypto_public_allocation.py
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/927942252809035777/Screen_Shot_2022-01-04_at_7.09.28_AM.png
+
+
+[01/05/2022 6:08 PM] curbsideprophet#5083
+@glasgowm just saw the note here regarding notebook: https://www.reddit.com/r/ergonauts/comments/rwluas/wip_public_allocation_of_various_cryptocurrencies/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+Want me to formalize it instead of a script and clean it up ?
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/rwluas/wip_public_allocation_of_various_cryptocurrencies/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+r/ergonauts - [WIP] Public Allocation of various cryptocurrencies -...
+60 votes and 22 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/DsEaj1CI5ZP0ECpTzr1SHftnjyYx6eA3mur17cTO2xk/%3Fauto%3Dwebp%26s%3Dc23c98306f0189a0a7e16cf601ba05d5b64391cd/https/preview.redd.it/aow5xe945v981.png
+
+
+[01/05/2022 6:09 PM] glasgowm#9381
+Sure !
+
+{Reactions}
+ergo_orange 
+
+[01/05/2022 9:47 PM] curbsideprophet#5083
+version 2...not enough data points to warrant another cut of data to show SC (or no SC)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/928404345526038598/Screen_Shot_2022-01-05_at_1.46.54_PM.png
+
+
+[01/05/2022 9:51 PM] curbsideprophet#5083
+https://nbviewer.org/github/Eeysirhc/ergo_intelligence/blob/main/python/jupyter/crypto_public_allocation.ipynb
+
+
+[01/06/2022 12:10 AM] Ergo Tipper Bot[BETA]#0902
+@glasgowm sent a tip of 5 erg to @curbsideprophet!
+
+{Reactions}
+🎅 🥰 🙏 
+
+[01/06/2022 3:14 AM] NoahErgo#4349
+What is the expansion channel generally intended for ?
+
+
+[01/06/2022 3:22 AM] curbsideprophet#5083
+i went off of this page: https://sideways-stove-8c5.notion.site/Projects-Key-Areas-of-Work-43f3e584d6d24ec5a6ef3aa444008a6c so my understanding is `marketing`, `devops`, and `social`
+
+{Embed}
+https://sideways-stove-8c5.notion.site/Projects-Key-Areas-of-Work-43f3e584d6d24ec5a6ef3aa444008a6c
+Projects & Key Areas of Work
+Cells
+
+
+[01/06/2022 8:25 AM] NoahErgo#4349
+It just says WIP
+
+Edit: nvm i get what you mean
+
+
+[01/10/2022 12:14 PM] Daniumy:#0000
+If I remember right these days some videos were being uploaded kinda around that time
+
+
+[01/10/2022 12:14 PM] Daniumy:#0000
+Or a bit before, which usually is when the chats are the quieter
+
+
+[01/11/2022 3:27 AM] TheRealErgoGod#0000
+https://www.reddit.com/r/ergonauts/comments/s0kbj7/reality_check/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/s0kbj7/reality_check/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+r/ergonauts - Reality check
+35 votes and 103 comments so far on Reddit
+
+
+[01/11/2022 3:33 AM] Arohbe#0000
+and the fud continues. (re @TheRealErgoGod: https://www.reddit.com/r/ergonauts/comments/s0kbj7/reality_check/?utm_source=share&utm_medium=ios_app&utm_name=iossmf)
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/s0kbj7/reality_check/?utm_source=share&utm_medium=ios_app&utm_name=iossmf)
+r/ergonauts - Reality check
+38 votes and 103 comments so far on Reddit
+
+
+[01/11/2022 4:10 AM] TIMRΣG7#0000
+Honestly tho 100+ comments of people defending. He doesn't really make good points
+
+
+[01/11/2022 2:00 PM] ergomergoadargo#0000
+I love how @cafebedouin's comment has become a reference.
+
+
+[01/11/2022 2:42 PM] glasgowm#9381
+looks like we're live @NoahErgo 
+
+https://sigmaverse.io/
+
+{Embed}
+https://sigmaverse.io/
+Sigmaverse - explore dapps in the ergo ecosystem.
+Sigmaverse is a one-stop portal to the Ergo dApp ecosystem: a place where users can find all the cool functionality that community developers are building on Ergo, all in one place.
+
+
+[01/11/2022 4:02 PM] NoahErgo#4349
+Oooooooh baby
+
+
+[01/11/2022 4:02 PM] NoahErgo#4349
+thanks for the headsup
+
+
+[01/11/2022 4:13 PM] NoahErgo#4349
+Thanks for adding the readme, was planning on doing that. Over the next week i will add a bunch more entries and also I want to recategorize some of the entries that guy added. What is the difference between utility and tooling?
+
+
+[01/11/2022 4:18 PM] TIMRΣG7#0000
+was going to suggest recategorizing. Some of them seem to fit in multiple groups (re @ErgoBridgeBot: <Noah> Thanks for adding the readme, was planning on doing that. Over the next week i will add a bunch more entries and also I want to recategorize some of the entries that guy added. What is the difference between utility and tooling?)
+
+
+[01/11/2022 4:22 PM] glasgowm#9381
+no support for multiple groups yet :/ 
+
+I just made up a couple but feel free to change. Utilities are low-level Tools
+
+
+[01/11/2022 4:25 PM] NoahErgo#4349
+And what is tooling?
+
+
+[01/11/2022 4:37 PM] glasgowm#9381
+High-level Utilities ^^, but I've rejigged it a bit now
+
+
+[01/11/2022 5:20 PM] curbsideprophet#5083
+self bookmark in case we add a reference list in the future: https://www.reddit.com/r/ergonauts/comments/s1hqr6/ergsigusd_hodl_or_provide_liquidity_on_ergodex/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/s1hqr6/ergsigusd_hodl_or_provide_liquidity_on_ergodex/
+r/ergonauts - ERG/SigUSD: HODL or provide liquidity on ErgoDEX?
+0 votes and 0 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/BsmFQnek8q6CFgaBWEz8uN25u0rYj_JtNPI74rW-dxI/%3Fauto%3Dwebp%26s%3D1ddec1cb0da8430b35d71db0daf1e938d7aee9cf/https/external-preview.redd.it/onG6yCtlCEpcQgPc0OyaWy-D1q29O4mtwD-QdeXBLSU.jpg
+
+
+[01/11/2022 6:00 PM] fruittree#0000
+I think we stirred up the Raven's FUD nest with that poll on coinbase reddit
+
+
+[01/11/2022 6:01 PM] C4lculista#0000
+🤣 (re @fruittree: I think we stirred up the Raven's FUD nest with that poll on coinbase reddit)
+
+
+[01/12/2022 9:37 PM] NoahErgo#0000
+do you guys know whot this guy is? https://twitter.com/rahung
+
+{Embed}
+https://twitter.com/rahung
+Pablo Σrgobar (@rahung)
+Pop-up art, black magic & Σrgo
+《@dooodeem》
+Tweets
+196463
+Followers
+203025
+https://images-ext-1.discordapp.net/external/neOV_Nlgunwjpwr3AFtxWjodvLVylz4G7RZuzzoBVGo/https/pbs.twimg.com/profile_images/1479155971427504133/2oeVg8D1_normal.jpg
+Twitter
+
+
+[01/12/2022 9:37 PM] NoahErgo#0000
+has a huge following on twitter and has been shilling erg quite a lot
+
+
+[01/12/2022 9:39 PM] Seedubya#0000
+i just got a follow from them, and saw their 200kish followers. no idea who it is
+
+
+[01/12/2022 9:53 PM] Daniumy#0000
+He s been around following my account and tweeting etc, I think he somehow got 200k followers but his acc has the engagement of a common one
+
+
+[01/12/2022 10:01 PM] NoahErgo#0000
+Yeah, maybe theyre bought
+
+
+[01/12/2022 10:13 PM] glasgowm#9381
+Sounds likely
+
+
+[01/12/2022 10:13 PM] glasgowm#9381
+Just caught up on all the community discords. So much going on now compared to a year ago 😅
+
+
+[01/12/2022 10:15 PM] Seedubya#0000
+its getting a bit difficult to follow now. things popping up from all over the place
+
+
+[01/12/2022 10:16 PM] glasgowm#9381
+Yet everyday bad price. No idea how we pumped to $20 with sigUSD alone
+
+
+[01/12/2022 10:17 PM] Daniumy#0000
+probably 80% of it was due to ada relation rumours
+
+
+[01/12/2022 10:17 PM] Seedubya#0000
+over the last 2 days alone ive noticed a lot more activity on twitter/reddit, just need to keep pumping the info out. price will catch up in time (re @ErgoBridgeBot: <Glasgow> Yet everyday bad price. No idea how we pumped to $20 with sigUSD alone)
+
+
+[01/12/2022 10:19 PM] Gazza_ERG#0000
+I replied to a tweet about eUTXO yesterday and it got some great engagement!
+https://twitter.com/Gazzaaaaaaaaa/status/1480948398564024326?t=pl7ubMwlu_qZ4ORqbchnqw&s=19
+
+{Embed}
+Gazza (@Gazzaaaaaaaaa)
+https://twitter.com/Gazzaaaaaaaaa/status/1480948398564024326?t=pl7ubMwlu_qZ4ORqbchnqw&s=19
+@RichardMcCrackn On ergo this week, we were able to create a single transaction that had 1000 outputs as an airdrop with a fee of only $4. eUTXO is extremely effecient.
+Likes
+263
+Twitter
+
+{Reactions}
+ergo_orange 
+
+[01/12/2022 10:21 PM] Daniumy#0000
+Yep I ve seen that the 1000 wallets airdrop did really get some interactions going on twitter (re @Gazza_ERG: I replied to a tweet about eUTXO yesterday and it got some great engagement!
+https://twitter.com/Gazzaaaaaaaaa/status/1480948398564024326?t=pl7ubMwlu_qZ4ORqbchnqw&s=19)
+
+{Embed}
+Gazza (@Gazzaaaaaaaaa)
+https://twitter.com/Gazzaaaaaaaaa/status/1480948398564024326?t=pl7ubMwlu_qZ4ORqbchnqw&s=19)
+@RichardMcCrackn On ergo this week, we were able to create a single transaction that had 1000 outputs as an airdrop with a fee of only $4. eUTXO is extremely effecient.
+Likes
+263
+Twitter
+
+
+[01/12/2022 10:22 PM] Gazza_ERG#0000
+Yeah I was surprised, I thought nothing of it responding with it
+
+
+[01/12/2022 10:24 PM] C4lculista#0000
+time to get another clone sir (re @ErgoBridgeBot: <Glasgow> Just caught up on all the community discords. So much going on now compared to a year ago 😅)
+
+
+[01/12/2022 11:29 PM] fruittree#0000
+I think everyone around now has bought low and or held through the ath. so we have a good crowd around ready to see ergo  pump in price.. Good time to organize efforts.
+
+
+[01/12/2022 11:29 PM] fruittree#0000
+maybe rallying people to post on ada wallets to get erg into them.. some stuff like this?
+
+
+[01/13/2022 1:05 AM] glasgowm#0000
+Yeh was thinking the same (re @fruittree: I think everyone around now has bought low and or held through the ath. so we have a good crowd around ready to see ergo  pump in price.. Good time to organize efforts.)
+
+
+[01/13/2022 1:06 AM] glasgowm#0000
+Not a simple task until there's crosschain. (re @fruittree: maybe rallying people to post on ada wallets to get erg into them.. some stuff like this?)
+
+
+[01/13/2022 5:56 AM] Gazza_ERG#0000
+Crosschain sounds like it could be next week, we have to market that like nothing else, that's the biggest new ERG feature
+
+
+[01/13/2022 6:06 AM] Seedubya#0000
++1 (re @Gazza_ERG: Crosschain sounds like it could be next week, we have to market that like nothing else, that's the biggest new ERG feature)
+
+
+[01/13/2022 12:00 PM] fruittree#0000
+how and where? (getting technical details explained for laymen users to then spread across twitter, reddit, youtube, and?) I think we could get more youtube attention. 
+Also the new website would be a good aspect to hold interest.. and ledger wallet lol..
+
+
+[01/13/2022 12:04 PM] Gazza_ERG#0000
+Apparently according to the dev update ledger could be next week at long last! Yoroi bug has been fixed!
+
+
+[01/13/2022 12:04 PM] Gazza_ERG#0000
+And a stable yoroi with dapp connector is in the next update, everything is coming together nicely!
+
+
+[01/13/2022 12:40 PM] glasgowm#0000
+heh not sure about next week, maybe @anon_br could give an estimate ^^
+Also for 4.10.0 I’d guess about a month judging by previous releases.
+
+
+[01/13/2022 12:41 PM] Gazza_ERG#0000
+Shit I must have misread about the ledger 😂
+
+
+[01/13/2022 12:41 PM] Gazza_ERG#0000
+A month is good!
+
+
+[01/13/2022 12:44 PM] glasgowm#9381
+a month for dApp connector in yoroi (I’d guess). Not sure about ledger. Any estimates @anon_br ? seems my bridge tag above didnt work 😦
+
+
+[01/14/2022 3:39 PM] Daniumy#0000
+We should post something on r/CC about the aneta airdrops
+
+
+[01/14/2022 3:39 PM] Daniumy#0000
+With a title regarding eUTXO not directly ergo
+
+
+[01/14/2022 4:28 PM] NoahErgo#0000
+There have been a few (re @Daniumy: We should post something on r/CC about the aneta airdrops)
+
+
+[01/14/2022 4:28 PM] NoahErgo#0000
+Do you mean the large wallet transactions?
+
+
+[01/14/2022 4:29 PM] NoahErgo#0000
+If you post something there with airdrop in the title it gets autoremoved btw
+
+
+[01/14/2022 4:29 PM] Daniumy#0000
+Yeah, something either about the 1k/3k outputs (re @NoahErgo: Do you mean the large wallet transactions?)
+
+
+[01/14/2022 4:29 PM] Daniumy#0000
+But being sneaky, focusing on eUtxo, not on Ergo.
+
+
+[01/14/2022 4:30 PM] NoahErgo#0000
+Yeah good idea. Similarly i think a post like “why im bullish on eutxo” and the can talk about the good things about cardano, ergo, alephium
+
+
+[01/14/2022 4:31 PM] NoahErgo#0000
+Posts with the word bullish in them do well lol
+
+
+[01/14/2022 4:32 PM] Daniumy#0000
+Yes exactly
+
+
+[01/14/2022 4:33 PM] Daniumy#0000
+Well I would do It myself, but my writing skills(in english) arent the most appropiate one for a "shill" post about ergo.
+Noah, you are good at it😉
+
+
+[01/14/2022 4:48 PM] NoahErgo#0000
+I am away until tuesday on a camping trip haha
+
+
+[01/14/2022 5:13 PM] sc_rice#0000
+https://twitter.com/ergoplatformorg/status/1482036439340756992?s=21
+
+{Embed}
+Ergo (@ergoplatformorg)
+https://twitter.com/ergoplatformorg/status/1482036439340756992?s=21
+👀 News reports indicate that 70% of US #crypto holders entered the market in 2021. We are clearly still in the early stages of the #blockchain industry.
+ 
+🗓 What year did you become an #Ergonaut? How many OG's do we have here?
+ 
+🗳 Vote and let us know!
+
+#DeFi #Ergonauts $ERG
+Twitter
+
+
+[01/15/2022 8:25 PM] TIMRΣG7#0000
+Question about side chains: How are these mined & how are txns processed? Are the same miners securing everything as on the ergo network? or is there a separate consensus mechanism?
+
+
+[01/15/2022 8:35 PM] root7Z#0000
+In bitcoin there are separate lightning network nodes that validates transactions off chain (re @TIMRΣG7: Question about side chains: How are these mined & how are txns processed? Are the same miners securing everything as on the ergo network? or is there a separate consensus mechanism?)
+
+
+[01/15/2022 8:36 PM] TIMRΣG7#0000
+So the side chain would need people running it, similar to the validators on ergodex? (re @root7Z: In bitcoin there are separate lightning network nodes that validates transactions off chain)
+
+
+[01/15/2022 8:40 PM] TIMRΣG7#0000
+Another question about the soft fork: is there a default vote for miners? In the AMA, Joe said most miners aren't engaging. If someone doesn't do anything, do they just abstain from voting? or is there a default for or against?
+
+
+[01/15/2022 8:42 PM] root7Z#0000
+I think yes I don't know any other design, Matic is using pos validation and arbitrum also uses nodes but maybe there are some other options (re @TIMRΣG7: So the side chain would need people running it, similar to the validators on ergodex?)
+
+
+[01/15/2022 8:42 PM] Armeanio#0000
+They vote with hashrate, so if they are mining they are voting. (re @TIMRΣG7: Another question about the soft fork: is there a default vote for miners? In the AMA, Joe said most miners aren't engaging. If someone doesn't do anything, do they just abstain from voting? or is there a default for or against?)
+
+
+[01/15/2022 8:42 PM] Armeanio#0000
+Just depends which pool they mine and what that pool is voting for.
+
+
+[01/15/2022 8:43 PM] Armeanio#0000
+Waiting for a few pools to say what they will vote for. So far most are in favor of the fork.
+
+
+[01/15/2022 8:44 PM] TIMRΣG7#0000
+I see. Your comment on the video reminded me of a psych article I read recently that showed people generally just do what is easiest. For example: Organ Donation. In states/countries that have organ donation as the default, participation is like 90%. In places that have you opt in, participation is like 20%. (re @Armeanio: They vote with hashrate, so if they are mining they are voting.)
+
+
+[01/15/2022 8:45 PM] C4lculista#0000
+an argument against web 3.0 (re @TIMRΣG7: I see. Your comment on the video reminded me of a psych article I read recently that showed people generally just do what is easiest. For example: Organ Donation. In states/countries that have organ donation as the default, participation is like 90%. In places that have you opt in, participation is like 20%.)
+
+
+[01/15/2022 8:46 PM] C4lculista#0000
+did you see Kushti's post about it a few days ago?
+
+
+[01/15/2022 8:46 PM] TIMRΣG7#0000
+Yeah I did
+
+
+[01/15/2022 8:47 PM] TIMRΣG7#0000
+and I agree, web3 is not all it's cracked up to be. Projects aren't really decentralized and most people are too lazy or uninformed to notice
+
+
+[01/15/2022 8:49 PM] fruittree#0000
+beaker browser is basically web 3 and been active for like 5 years. not very popular if you didnt guess.
+
+
+[01/15/2022 8:51 PM] fruittree#0000
+if the usability gets better and more censorship continues, it could gain more use but it's basically polkadot marketing tactics.
+
+
+[01/15/2022 8:52 PM] TIMRΣG7#0000
+I hope there becomes some sort of standard that people can measure projects against. Like a BPSAA certification or something.
+
+
+[01/15/2022 8:52 PM] TIMRΣG7#0000
+That way people know what decentralization looks like
+
+
+[01/15/2022 8:53 PM] fruittree#0000
+then there also needs to be a reliable anti corruption certification for such decentralization certs.
+
+
+[01/15/2022 8:54 PM] TIMRΣG7#0000
+Like a dao who's purpose is to weed out centralized chains
+
+
+[01/15/2022 8:55 PM] TIMRΣG7#0000
+Or at least expose them as such
+
+
+[01/15/2022 9:00 PM] fruittree#0000
+some kind of ranking and review because most will be labeled as aspiring to be etc.
+
+
+[01/15/2022 9:00 PM] fruittree#0000
+maybe if ergopad finishes the DAO toolset soon we can make it happen
+
+
+[01/15/2022 9:02 PM] TIMRΣG7#0000
+I think that's a good idea. We would need appropriate representation to have our votes mean anything, and a sufficient approval threshold
+
+
+[01/16/2022 2:51 AM] cafebedouin#9837
+Organ harvesting happens while the person's body functions are still working and without anesthesia. Whether the person and/or body experiences pain is an open question. How many people consider that question before ticking a box indicating they'd like to donate organs?
+
+
+[01/16/2022 2:53 AM] cafebedouin#9837
+All of which is irrelevant to your point. But, a point perhaps worth considering anyway. 🙂
+
+
+[01/16/2022 2:53 AM] TIMRΣG7#0000
+hahaha yes thank you for that
+
+
+[01/16/2022 4:02 AM] sc_rice#0000
+Please vote
+https://twitter.com/vitalikbuterin/status/1481737970562789376?s=21
+
+{Embed}
+vitalik.eth (@VitalikButerin)
+https://twitter.com/vitalikbuterin/status/1481737970562789376?s=21
+Poll for Ethereum community. You wake up in 2035, and 80% of all transactions + savings in the world are in one currency that is not ETH. Which would you prefer it to be?
+Retweets
+4599
+Likes
+14645
+Twitter
+
+
+[01/16/2022 4:03 AM] sc_rice#0000
+Please vote:
+https://twitter.com/hiveonofficial/status/1482461906891853826?s=21
+
+{Embed}
+Hiveon (@hiveonofficial)
+https://twitter.com/hiveonofficial/status/1482461906891853826?s=21
+What #crypto do you plan to mine after #ETH 2.0?
+Twitter
+
+
+[01/17/2022 4:43 PM] glasgowm#9381
+https://www.cryptosalerting.com/crypto/b6a41cd1-6cfb-5633-8dbe-a8e9f87f2f65
+
+{Embed}
+https://www.cryptosalerting.com/crypto/b6a41cd1-6cfb-5633-8dbe-a8e9f87f2f65
+Cryptos Alerting | Bitcoin, Ethereum & cryptos Alerts
+Crypto Alerting. Crypto alerts made easy, subscribe to our public tracker or create your own!
+
+
+[01/18/2022 4:47 PM] glasgowm#9381
+Thinking we can get some high-level posts on r/crypto and r/cryptography. Maybe an ErgoMixer overview
+
+
+[01/18/2022 5:01 PM] curbsideprophet#5083
+I have a couple friends who are BTC maxi and they think having multiple addresses > send to KYC CEX > send to unused address == privacy. Told them about ergomixer and they didn’t quite get it until after i literally had to  draw out that flow for them
+
+
+[01/18/2022 10:23 PM] NoahErgo#4349
+@glasgowm 
+
+Bunch of new projects added
+
+https://github.com/ergoplatform/sigmaverse/pull/23/commits/cabf14974eb66a742e8e690bc7bc551ac29ba45e
+
+{Embed}
+https://github.com/ergoplatform/sigmaverse/pull/23/commits/cabf14974eb66a742e8e690bc7bc551ac29ba45e
+Category fixes + Many new projects by NoahErgo · Pull Request #23 ·...
+https://images-ext-1.discordapp.net/external/muRMIlCgNZCnOZBnP1zJxqOHGEn1tgCJdWcuJigiy6A/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/94392306
+
+
+[01/19/2022 9:19 AM] Ergo Tipper Bot[BETA]#0902
+@glasgowm sent a tip of 10 erg to @NoahErgo: awesome!!
+
+
+[01/19/2022 12:21 PM] Σotiris#3516
+Gathered some data from twitter and created chart/plots/wordcloud in python. What do you think?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/933335312296464385/ergo_Sentiment_Bar_Chart.png
+https://cdn.discordapp.com/attachments/920637968950120458/933335312543911946/ergo-wordcloud.png
+https://cdn.discordapp.com/attachments/920637968950120458/933335312803962970/ergo_Sentiment_Compound.png
+
+
+[01/19/2022 6:03 PM] NoahErgo#4349
+@glasgowm the ergo index fund dev confirmed its a dead project and he isnt going to finish it
+
+{Reactions}
+😢 
+
+[01/19/2022 7:00 PM] glasgowm#9381
+this is great 😄 Wonder what it'd look like with the price overlaid
+
+
+[01/19/2022 7:35 PM] Σotiris#3516
+check here  🤣
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/933444633315385414/ergo_Sentiment__Price.png
+
+
+[01/19/2022 7:36 PM] Σotiris#3516
+used coingecko's api to get prices
+
+
+[01/19/2022 8:51 PM] curbsideprophet#5083
+thanks for the update I can remove it from here: https://ergonaut.space/en/Guides/yield
+
+
+[01/19/2022 8:52 PM] curbsideprophet#5083
+looks good! maybe for the first stacked bar chart change x-axis to time series and swap to line chart for each category instead 🙂
+
+
+[01/19/2022 8:53 PM] curbsideprophet#5083
+if you have a repo i can link to it from here or start a PR: https://github.com/Eeysirhc/ergo_intelligence
+
+
+[01/19/2022 9:11 PM] Σotiris#3516
+I don't, I've worked it locally but gonna clean it up and post it
+
+
+[01/19/2022 9:21 PM] Σotiris#3516
+here 😉
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/933471378181591170/ergo_Sentiment_Bar_Chart1.png
+
+
+[01/19/2022 9:24 PM] curbsideprophet#5083
+There we go! Haha ❤️
+
+{Reactions}
+ergo_orange 
+
+[01/19/2022 9:34 PM] Σotiris#3516
+and with lines also 😉
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/933474411955253308/ergo_Sentiment_Bar_Chart2.png
+
+{Reactions}
+ergo_orange 
+
+[01/19/2022 9:39 PM] curbsideprophet#5083
+We have a winner
+
+
+[01/19/2022 9:41 PM] glasgowm#9381
+Nice. Whats behind the jump? Anetabtc?
+
+
+[01/19/2022 9:43 PM] Σotiris#3516
+could analyze these days and find the most common topic to get info. nice idea, gonna check it 😉
+
+
+[01/19/2022 9:44 PM] curbsideprophet#5083
+another option if it's easy: classify each tweet (max 9 topics) then plot over time with a facet grid
+
+{Reactions}
+👍 
+
+[01/19/2022 9:45 PM] Σotiris#3516
+this is another good idea, gonna play with these
+
+
+[01/19/2022 10:17 PM] curbsideprophet#5083
+Yeah for something simple I would just pop the text strings into TF-IDF or LDA clusters…but feel free to make it even more advanced 🙂
+
+
+[01/19/2022 10:30 PM] Σotiris#3516
+From a quick look, I think it is Cardano related, but gonna dig deeper.
+
+
+[01/19/2022 10:30 PM] Σotiris#3516
+Thanks for the tips  😃
+
+
+[01/20/2022 2:30 PM] HazeyOneKenobi#2091
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/933730295784562698/SmartSelect_20220120-142757_Chrome.jpg
+
+
+[01/20/2022 2:30 PM] HazeyOneKenobi#2091
+Interesting metric on ergo.watch showing that the NETA airdrops caused about roughly 3k new addresses to be made which had never previously been funded, which is roughly about 3.3% more addresses on chain
+
+{Reactions}
+😍 
+
+[01/20/2022 6:02 PM] glasgowm#9381
+https://twitter.com/HiCommunities/status/1483891895541673993
+
+{Embed}
+Twitter Communities (@HiCommunities)
+https://twitter.com/HiCommunities/status/1483891895541673993
+Android is HERE!
+
+if you’re on Android, you can now engage in Communities via the Twitter app (make sure to update to the latest version!)
+Retweets
+187
+Likes
+613
+https://images-ext-1.discordapp.net/external/BUpwZTMC7GN8Nb9LvWimoR8sT6Ak2Ua0n9Elmq1FHE4/https/pbs.twimg.com/media/FJfVvtHWUAEfAWe.jpg%3Alarge
+https://images-ext-2.discordapp.net/external/pPuUjN-aDMtfj0fBG_HjHpLKztB0lg6_BG4B_5G2dxY/https/pbs.twimg.com/media/FJfXc0fXsAApCOg.jpg%3Alarge
+Twitter
+
+
+[01/21/2022 8:42 AM] glasgowm#9381
+links to r/cc in public chats will get nuked @timreg7 
+
+https://www.reddit.com/r/ergonauts/duplicates/s8xu2p/ergo_the_lessons_of_bitcoin_maximalism/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/duplicates/s8xu2p/ergo_the_lessons_of_bitcoin_maximalism/
+r/ergonauts - Ergo & The Lessons Of Bitcoin Maximalism
+68 votes and 16 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/TqcPZZAl3akTBrl5iorhDKBR8YgTMuNzpZJWOgQBIu0/%3Fauto%3Dwebp%26s%3Db168e903a826bc5371be1a4ddef1db6b047b0b29/https/external-preview.redd.it/G3xKqwy6zQkLQROYeEzuu1ENnQ07YyWOR0xO8qHe52s.jpg
+
+
+[01/22/2022 1:37 AM] NoahErgo#4349
+@glasgowm do you know if EF has looking into platforms like this for promoting ergohack:
+
+https://sponsor.mlh.io/
+
+{Embed}
+https://sponsor.mlh.io/
+Work with us | Major League Hacking
+Major League Hacking (MLH) partners with the world's top brands to help meet their needs in three major focus areas - Recruiting, Brand Marketing, and Developer Relations. We'll work with you to reach our audience in an authentic and impactful way.
+https://images-ext-1.discordapp.net/external/vAqLisDKx9EuQosdg0qyzT9my729Lqr-aAv05ZPQWCc/https/sponsor.mlh.io/img/social/facebook.png
+
+
+[01/22/2022 1:38 AM] NoahErgo#4349
+https://devpost.com/
+
+{Embed}
+https://devpost.com/
+Devpost - The home for hackathons
+Participate in online virtual and in-person hackathons to build products, practice skills, learn technologies, win prizes, and grow your network.
+https://images-ext-1.discordapp.net/external/dWs2_VLuuuBH6bm-NuzJu_zfinD-uWnBtw_7umiKnrI/https/devpost-challengepost.netdna-ssl.com/assets/shared/devpost_social_icon_large-28837f669f737318284e216fba9ad696.jpg
+
+
+[01/22/2022 1:40 AM] NoahErgo#4349
+Might help to increase participation
+
+
+[01/26/2022 1:29 PM] glasgowm#9381
+I'd looked into them before but kushti wanted to do a few small ones first. Those hackathons will be better suited once we have pathways complete noobs can get involved easily with. Need lots of mentors, simple tasks to complete, etc. 
+
+I assume anyway, I was always too busy to participate in hackathons so please correct me here if I'm wrong.
+
+
+[01/26/2022 1:49 PM] glasgowm#9381
+There's also (bounty-based)
+
+https://immunefi.com/ and another big one escaping me atm which I've been looking into
+
+{Embed}
+https://immunefi.com/
+Immunefi
+Review code. Prevent hacks. Build rep. Get paid.
+https://images-ext-2.discordapp.net/external/MWPsce99d6I3ho6RJCrSLWEvRIIp0JSZhghr1dkL9Sc/https/immunefi.com/images/facebook_share.png
+
+
+[01/26/2022 3:54 PM] Σotiris#3516
+just made this 😉
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/935925595785797723/ergo.mp4
+
+
+[01/26/2022 4:16 PM] glasgowm#9381
+Looks great!
+
+Seems to be using the old logo and the text goes pixelated when playing at a small resolution (without expanding). Not sure if that is fixable.
+
+
+[01/26/2022 4:17 PM] glasgowm#9381
+https://github.com/ergoplatform/awesome-ergo/tree/master/graphics/Logo
+
+{Embed}
+https://github.com/ergoplatform/awesome-ergo/tree/master/graphics/Logo
+awesome-ergo/graphics/Logo at master · ergoplatform/awesome-ergo
+A curated list of awesome and useful Ergo resources - awesome-ergo/graphics/Logo at master · ergoplatform/awesome-ergo
+https://images-ext-2.discordapp.net/external/yNnBQk2fi3iv-w8-Qp2aTn3X-CoGiy6KI94qydTBwFg/https/opengraph.githubassets.com/696c2f31ab08aee0803cc28e3eeba730bcaac543d12271726e1c4d1e04e369b5/ergoplatform/awesome-ergo
+
+
+[01/26/2022 4:17 PM] glasgowm#9381
+so does the git tbf ^^ just got access to change that
+
+
+[01/26/2022 4:21 PM] Σotiris#3516
+yeah got it as svg from the website. git has it all. nice 👍
+
+
+[01/26/2022 5:04 PM] Σotiris#3516
+there 😉
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/935943360512929832/ergo_updated.mp4
+
+
+[01/27/2022 11:39 AM] glasgowm#9381
+This is great thanks! 😄 
+
+Any ideas on where we can keep track of things like this to share? dropbox maybe best? These tend of short videos tend to get a ton of interaction
+
+
+[01/27/2022 3:43 PM] Σotiris#3516
+A Dropbox space would be great. We could also organize it in folders by date/topic etc.
+
+
+[01/27/2022 4:04 PM] glasgowm#9381
+cool will set that up. I'm used to Google Drive but I've accepted it is inferior as they keep making it harder to navigate what seems like on purpose.
+
+
+[01/27/2022 4:04 PM] glasgowm#9381 (pinned)
+https://www.dropbox.com/sh/jionpgnj89eod2f/AAC5S1vnOwO3gm2vRYOmDBQ-a?dl=0
+
+lmk if this works okay or if I need to invite you manually. I can transfer over the old pics/logos/etc
+
+{Embed}
+https://www.dropbox.com/sh/jionpgnj89eod2f/AAC5S1vnOwO3gm2vRYOmDBQ-a?dl=0
+Ergo
+Shared with Dropbox
+https://images-ext-2.discordapp.net/external/G1vLFSDoGWIHzvNsILzUCb5QAZZsjSpXVi_FN7vzclw/https/www.dropbox.com/static/images/spectrum-icons/generated/content/content-folder_dropbox-large.png
+
+
+[01/27/2022 4:30 PM] Σotiris#3516
+You should invite me to be able to upload. sent you a pm.
+
+
+[01/27/2022 4:32 PM] glasgowm#9381
+sent!
+
+
+[01/27/2022 4:34 PM] Σotiris#3516
+great thank you.
+
+
+[01/27/2022 4:43 PM] Σotiris#3516
+@glasgowm I added the video and some banners 😉
+
+
+[01/27/2022 4:57 PM] NoahErgo#4349
+New batch of projects up on sigmaverse.io
+
+
+[01/27/2022 4:59 PM] Σotiris#3516
+Nice!! you will probably know this but just in case, in some resolutions the images get distorted.
+
+
+[01/27/2022 5:00 PM] Σotiris#3516
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/936304723320004628/unknown.png
+
+
+[01/27/2022 6:18 PM] NoahErgo#4349
+This is an issue of the window size :/ new behavior after the UI update. On desktop if you resize the window you will see the boxes snap to edges and stretch the images
+
+
+[01/27/2022 6:20 PM] NoahErgo#4349
+I dont know how to eliminate this stretching behavior, i would prefer static boxes that multiply as there is more space on the window
+
+
+[01/27/2022 6:38 PM] Σotiris#3516
+what if you set the max-height to fit-content  in the element style? also the images should probably be uploaded in the same resolution/aspect ratio
+
+
+[01/27/2022 7:02 PM] NoahErgo#4349
+Unfortunately I am not the front end dev, but maybe that could work. If you think you can fix take a crack at it:
+
+https://github.com/ergoplatform/sigmaverse
+
+{Embed}
+https://github.com/ergoplatform/sigmaverse
+GitHub - ergoplatform/sigmaverse: Website for ergo dApps
+Website for ergo dApps. Contribute to ergoplatform/sigmaverse development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/utKOD7y-cHVJ7m8xnFcRyOMY_3SliyJeF23btK-gS0U/https/opengraph.githubassets.com/87c8ee4b36db134204ef70d4d3b6b4b8314fb92e696bbad9db5cc389545d8c45/ergoplatform/sigmaverse
+
+
+[01/27/2022 7:32 PM] Σotiris#3516
+ok created a pull request to test this 😉
+
+
+[01/28/2022 4:52 PM] Σotiris#3516
+Also check this out https://twitter.com/sotiris_oiko/status/1487103600224522240?s=19. I think creating short clips with AMA highlights for Twitter would be interesting.
+
+{Embed}
+Σotiris (@sotiris_oiko)
+https://twitter.com/sotiris_oiko/status/1487103600224522240?s=19.
+#ERGO plans on creating a suite that will attract over 1 million commercial users in the next 2 years!
+Learn about @DanielTetsuyama 's vision on this from today's AMA.
+
+@ErgoFoundation @ergoplatformorg $ERG #crypto #AMA https://t.co/DvssmamzUT
+https://images-ext-1.discordapp.net/external/4lLVDOcpD_eYJglp5zY-44rGGFIWF1bQnQjdGNGsWP0/https/pbs.twimg.com/ext_tw_video_thumb/1487097163293331469/pu/img/fo3NCvhXWc7CFwjX.jpg
+Twitter
+
+{Reactions}
+ergo_orange (2) 
+
+[02/01/2022 11:54 AM] glasgowm#9381
+works great thanks!
+
+
+[02/01/2022 11:55 AM] Σotiris#3516
+Nice !! xD
+
+
+[02/02/2022 2:30 PM] Σotiris#3516
+just submitted another pull request with updated previews from all the projects on sigmaverse
+
+{Reactions}
+❗ ⭐ 
+
+[02/02/2022 4:15 PM] NoahErgo#4349
+Dude nice! Thank you so much!
+
+
+[02/02/2022 4:17 PM] Σotiris#3516
+Glad to contribute 😊
+
+
+[02/07/2022 12:20 PM] Σotiris#3516
+added some more fixes on sigmaverse
+
+
+[02/07/2022 12:36 PM] glasgowm#9381
+nice one - merged thanks!
+
+{Reactions}
+🤩 
+
+[02/07/2022 12:38 PM] glasgowm#9381
+hackathon should bring some interesting stuff. Not sure how best to promote these events to outsiders though - or recruiting devs as most dev spaces seem hostile to blockchain. 
+
+https://twitter.com/AGlasgow12/status/1490648426958266368
+
+{Embed}
+Glasgow (@AGlasgow12)
+https://twitter.com/AGlasgow12/status/1490648426958266368
+@ergoplatformorg's biggest hackathon yet!
+
+Full team details @ https://t.co/X1zPpAEeOX
+https://images-ext-1.discordapp.net/external/MJ1t5kWBuP22M5qqjBu9gyQPb2-IbCOVQgMOvwfqbGQ/https/pbs.twimg.com/media/FK_YwiTX0AElON6.jpg%3Alarge
+Twitter
+
+
+[02/07/2022 12:40 PM] glasgowm#9381
+https://www.reddit.com/r/cryptodevs/comments/smpb2h/ergohack_iii_privacy_security_join_to_see_the/?
+
+{Embed}
+https://www.reddit.com/r/cryptodevs/comments/smpb2h/ergohack_iii_privacy_security_join_to_see_the/?
+r/cryptodevs - ERGOHACK III - Privacy & Security. Join to see the e...
+0 votes and 0 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/2hM0RU7fPyRhDEmqTnAe1_dUnsEyusu5gHZLOCEPvfM/%3Fauto%3Dwebp%26s%3D06cbd3832b6fd45ba86b070dba18cdedc4f06ce1/https/preview.redd.it/ozqxxtw3aeg81.png
+
+
+[02/07/2022 1:17 PM] Σotiris#3516
+These Events could be promoted by focusing on the benefits for those who participate/view them. This could be split into two main strategies. The one being to talk about what would one learn during the Event and the other incentives ( like nfts, rewards, public relations, etc.) Most people use Twitter/Reddit/YouTube/Medium to get to learn about crypto, so small videos/banners/articles should be spread amongst platforms to increase awareness. The best part about Ergo is the more you dive in, the more you like it. And this is mostly due to its principles and community.
+
+
+[02/07/2022 1:43 PM] glasgowm#9381
+You mean posting them on our socials or advertising?
+
+
+[02/07/2022 1:43 PM] glasgowm#9381
+but thanks, good tips in general. Will make up some more graphics
+
+
+[02/07/2022 1:50 PM] Σotiris#3516
+Both are needed to reach a broader audience. Organic growth comes first though.
+
+
+[02/07/2022 3:12 PM] Σotiris#3516
+@glasgowm made something :p
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/940263864564605020/ergohackIII.mp4
+
+
+[02/07/2022 3:27 PM] glasgowm#9381
+funky 😎
+
+{Reactions}
+🤩 
+
+[02/07/2022 3:31 PM] Σotiris#3516
+look at the typography on ergoplatform.org. took pieces from the manifesto haha
+
+
+[02/07/2022 3:33 PM] Σotiris#3516
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/940268935243239504/Untitled1.png
+
+{Reactions}
+🤯 ergo_orange (2) 😎 sigmanaut 
+
+[02/07/2022 11:30 PM] Σotiris#3516
+The changes aren't live yet. Probably cloudflare has it cached?
+
+
+[02/08/2022 12:05 AM] glasgowm#9381
+Likely yeh will check in the am if not
+
+{Reactions}
+👍 
+
+[02/08/2022 4:28 PM] glasgowm#9381
+still doesnt seemed to have built, think dmitry is off sick atm.
+
+
+[02/08/2022 4:28 PM] glasgowm#9381
+https://www.reddit.com/r/ergonauts/comments/snhrtd/ergohack_iii_this_weekend/hw2q4n6/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/snhrtd/ergohack_iii_this_weekend/hw2q4n6/
+r/ergonauts - Comment by u/SpeedCola on ”ERGOHACK III - This Weeken...
+34 votes and 1 comment so far on Reddit
+https://images-ext-2.discordapp.net/external/7tsnQklYpiJN87vn6azntDzV7_7jOs62C01dzE6sfDg/%3Fformat%3Dpjpg%26auto%3Dwebp%26s%3D0c759eb2bbe83799d764a7e6618e01dc581b19a1/https/external-preview.redd.it/xXwtPdLrrCw1D8ZzxfSHcvz33niaiBlNEf41MtnuhGs.png
+
+{Reactions}
+😍 
+
+[02/10/2022 10:59 AM] glasgowm#9381
+https://www.reddit.com/r/CryptoCurrency/comments/sp1hdz/whats_a_token_outside_of_the_top_100_you_believe/
+
+{Embed}
+https://www.reddit.com/r/CryptoCurrency/comments/sp1hdz/whats_a_token_outside_of_the_top_100_you_believe/
+r/CryptoCurrency - What's a token outside of the Top 100 you believ...
+46 votes and 264 comments so far on Reddit
+
+
+[02/10/2022 10:59 AM] glasgowm#9381
+sentiments back
+
+
+[02/10/2022 10:59 AM] glasgowm#9381
+https://tenor.com/view/nic-cage-nicolas-cage-con-air-freedom-sunshine-gif-19947680
+
+{Embed}
+https://tenor.com/view/nic-cage-nicolas-cage-con-air-freedom-sunshine-gif-19947680
+https://images-ext-1.discordapp.net/external/CgHrcn4N0kWnIvDHuz9ElCLIu6eQOoudLlTVt9ouqqI/https/media.tenor.co/images/b939aef67271816b9bea48b37a6d2822/tenor.png
+
+
+[02/10/2022 11:23 AM] Σotiris#3516
+https://tenor.com/view/you-deserve-i-it-worth-win-thanks-welcome-gif-10692456
+
+{Embed}
+https://tenor.com/view/you-deserve-i-it-worth-win-thanks-welcome-gif-10692456
+https://images-ext-2.discordapp.net/external/LR0_zQvJEeao4cgKOhGX2iEv3B_QlVcqtYQUB2HjpKM/https/media.tenor.co/images/937ee7adebc2ea987fb683060aa79b1d/tenor.png
+
+
+[02/10/2022 4:06 PM] NoahErgo#4349
+I got banned on CC fyi so no more of my posts 😦
+
+{Reactions}
+ergo_white 
+
+[02/10/2022 4:06 PM] glasgowm#9381
+we will avenge you
+
+
+[02/10/2022 6:56 PM] Σotiris#3516
+https://tenor.com/view/lord-of-the-rings-ian-mc-kellen-gandalf-prepare-for-battle-prepare-gif-4879285
+
+{Embed}
+https://tenor.com/view/lord-of-the-rings-ian-mc-kellen-gandalf-prepare-for-battle-prepare-gif-4879285
+on your marks
+https://images-ext-1.discordapp.net/external/tEMyWW-oMHEpgyhbJwOCjsjcrjBaRbvUO0rSQuTzgtU/https/media.tenor.co/images/5456c030e6c807c40e15df489e3eeb90/raw
+
+{Reactions}
+🔥 (2) ergo_orange 
+
+[02/14/2022 7:15 PM] CW#8500
+I still (somehow) have a Reddit account that can post in CC. Hit me up if needed
+
+{Reactions}
+👍 (2) 
+
+[02/16/2022 11:03 AM] Σotiris#3516
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/943462653869830154/ERGO_SUMMIT.mp4
+
+
+[02/16/2022 1:05 PM] glasgowm#9381
+Nice one!
+
+
+[02/16/2022 1:06 PM] glasgowm#9381
+re: r/ergo 
+
+> Hey! The mods of that subreddit are currently actively moderating, so it isn’t eligible for Redditrequest at this time. Not all moderator activity will be publicly visible. If you haven't already, try sending them a message them if you'd like to help out!
+
+
+[02/16/2022 1:06 PM] glasgowm#9381
+So I'm just gonna spam it, feel free to assist 
+
+https://www.reddit.com/r/Ergo/
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/943493606805737542/unknown.png
+
+{Embed}
+https://www.reddit.com/r/Ergo/
+r/Ergo
+https://images-ext-1.discordapp.net/external/9TW0D4AoHsT8HJ8Zf01VfSGrUGqpOL-OSeruqzER6zY/%3Fwidth%3D256%26format%3Dpjpg%26s%3De0b5992fdb1112a0bf133054e7ce4ec0886b03cb/https/styles.redditmedia.com/t5_4tptfh/styles/communityIcon_2annz1gef4e71.jpg
+
+{Reactions}
+👍 
+
+[02/16/2022 1:29 PM] glasgowm#9381
+make sure to post these about too feel like I'm stealing all your karma
+
+
+[02/16/2022 1:30 PM] Ergo Tipper Bot[BETA]#0902
+@glasgowm sent a tip of 10.0 erg to @Σotiris: ty for the vids!!
+
+{Reactions}
+❤️ 
+
+[02/16/2022 1:32 PM] Σotiris#3516
+hahaha ok I'm gonna start posting them too, but doesn't matter to me. I just wanna help because I believe in all the work being done on this project
+
+{Reactions}
+🥰 
+
+[02/16/2022 8:25 PM] CW#8500
+Nothing posted in reddit from the Mod in 6 months, daily spam it is
+
+
+[02/16/2022 8:32 PM] glasgowm#9381
+Aye they're brutal
+
+
+[02/16/2022 9:55 PM] glasgowm#9381
+https://www.reddit.com/r/CryptoCurrency/comments/su5vho/wheres_the_love_for_ergo_gone/
+
+{Embed}
+https://www.reddit.com/r/CryptoCurrency/comments/su5vho/wheres_the_love_for_ergo_gone/
+r/CryptoCurrency - Where's the love for ERGO gone?
+0 votes and 28 comments so far on Reddit
+
+
+[02/17/2022 1:19 AM] CW#8500
+some fair comments on price, some fair comments on fundamentals. then the usual CC bs comments. have to take the good with the bad. looking at the charts its not flash at all, this is all while we have seen incredible ecosystem and development growth. surely this value will be reflected in price at some point
+
+
+[02/17/2022 7:54 AM] Σotiris#3516
+Posted a huge comment there, hope they won't throw me on fire haha (nvm the whole post was removed)
+
+
+[02/17/2022 7:57 AM] NoahErgo#4349
+@Σotiris
+
+Bout to dump a mega wall of text about sigmaverse cause i have been way too busy with work recently to really do much with it and I have been super appreciative of your updates.
+
+I keep a running list of future projects to add to Sigmaverse when they are ready enough. Generally my rule of thumb is that they should have a useable webpage that has at least a minimum amount of functionality or even if it doesn't there is enough info there so as to not confuse people into bugs or something. And then I also will keep tabs on projects that might be queued to get a website in the future but maybe they dont have one yet or are inactive but maybe will return in future. A lot of times I will dm devs on github or twitter, etc. to see what their future plans are to get a sense of this. Exceptions can be made for projects on github such as ErgoVision or ZK treasury that dont have a frontend built out. I feel like adding something like a twitter page is a bad precedent because there are so many twitter NFT projects out there and it makes the barrier to entry a bit too low IMO.
+
+Also in the future I think it might be good to add a tab for wallets as more become available (satergo, nautilus, safew, minotaur, anetabtc wallet, ergo mobile wallet, etc.)
+
+
+[02/17/2022 7:58 AM] NoahErgo#4349
+-------------
+
+Here is a running list of projects not ready for upload:
+
+https://enft.so/ - currently in closed beta and not really useable. I told devs i would add them in the future
+https://paideia.im/ - not yet developed
+https://www.ergolend.org/ - frontend mockup is just placeholder, dev is still ongoing and i told devs ill add in future
+https://www.sigmastamp.ml/ - really slow progress on this one but slowly getting there ( was part of first ergohack), I have tried to use it but so far i still dont think its functional
+https://satergo.com/ - dev still in progress, current available build has some issues so not ready for sigmaverse yet
+https://www.deepchainada.com/ - deep learning cross chain ada and ergo, nothing built yet and still too early
+https://twitter.com/shmpcoin - shrimpcoin, projects is apparently not dead but havent seen anything new in many months
+https://twitter.com/ErgoPay - Just dmed this guy, says he is building some kind of payment gateway in the future
+https://twitter.com/fruity_saguaros - Very active NFT project, in dms says he is building a website soon.
+https://github.com/minotaur-ergo/minotaur-wallet - minotaur wallet, nothing to see aside from github but their checklist is near completion
+
+New ergohack projects:
+https://www.skyharbor.io/ - nft marketplace
+https://github.com/GuapSwap/guapswap - miner asset swap tool
+https://delphiproject.org/ - oracle platform
+https://github.com/nightowlcasino - casino
+https://github.com/hypo10use/quid-games - hype10use quid games
+https://github.com/ergonames - ergonames
+
+{Reactions}
+ergo_orange 
+
+[02/17/2022 7:58 AM] NoahErgo#4349
+-------------
+
+Here is a list of projects that I think we could add in next round of additions:
+
+Wallets:
+https://github.com/ThierryM1212/SAFEW - many users already using this, maybe we get a screenshot of the wallet UI
+https://chrome.google.com/webstore/detail/nautilus-wallet/gjlmehlldlphhljhpnlddaodbjjcchai - Nautilus wallet, needs no explanation
+https://github.com/ergoplatform/ergo-wallet-app - ergo mobile wallets
+https://yoroi-wallet.com/#/ - Yoroi, blech but probably best to include if we do in fact add a wallet tab
+https://github.com/ergoplatform/ergo/wiki/Set-up-a-full-node - ergo node wallet
+
+https://www.blitz-tcg.com/ - Dapp game not developed yet but good art assets, whitepaper is there, etc.
+https://www.eternaeon.io/ - Darkpool game confirmed to be an ergopad IDO
+https://golfgl.de/ergopayshowcase/#mint-token - Ergopay showcase, use to mint and burn tokens using mobile wallet (mostly a dev showcase but still functional - can mint tokens with emojis in the name lol)
+https://8bits.at/ - minigame showcasing ergo ecosystem
+https://ergkleure.com/ - NFT project with great abstract artwork
+https://ergoitaly.it/ - Italian community site for Ergo
+https://share.streamlit.io/eeysirhc/ergodex-price-app/main - ergodex price index viewer
+
+I have also considered adding mining tools to the tooling section as well referencing this list, but it is probably out of date and maybe it isn't the place for it: https://www.reddit.com/r/erg_miners/comments/njmlfq/list_of_currently_used_miners_for_ergo_with/
+
+
+[02/17/2022 9:04 AM] Σotiris#3516
+Thank you too, really appreciate it. My vie on these are the same as yours. I see sigmaverse as the point of reference when someone wants to find out about dapps and projects that are developed. Having said that, Twitter pages would set a really low standard just like you said, as anyone can create one with actually nothing. The wallets are a vital part of the ecosystem and I would personally like if they were added using a new tab. As for the ZK Treasury and Projects that don't have a front end it would be useful if we created a page with a summary ( copy/paste probably) from the readme. On first click someone would get an extended summary with info and then there would be external links. This would also create a space where anyone with a project like that, could have a landing page of his project. That could also be used for all projects . Also with the development of more and more dapps there might be needed to alter the ui to make it more clean, have a featured/popular or newest tab or section shocasing some projects and then having tabs. Just some ideas that imo could help.
+
+
+[02/17/2022 9:17 AM] NoahErgo#4349
+Interesting idea, where would this landing page be hosted?
+
+
+[02/17/2022 9:20 AM] NoahErgo#4349
+Btw this will be future style of sigmaverse to match future website
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/943799003085152297/IMG_0505.jpg
+
+
+[02/17/2022 9:20 AM] NoahErgo#4349
+That addresses your UI concerns!
+
+
+[02/17/2022 9:23 AM] Σotiris#3516
+omg I love this !!  😍  These could be hosted in the same domain. It wouldn't take up much space I think.
+
+
+[02/17/2022 9:25 AM] NoahErgo#4349
+I have been waiting for coming UI updates before suggesting big changes to dmitry, i think better to wait
+
+
+[02/17/2022 9:25 AM] NoahErgo#4349
+Soon i will have admin permissions to accept PRs as well to free him up if we want to add tweaks
+
+
+[02/17/2022 9:27 AM] Σotiris#3516
+Great! Yeah these are ideas for future development.
+
+
+[02/17/2022 9:28 AM] NoahErgo#4349
+We will be busy in coming months as more projects come to maturity
+
+
+[02/17/2022 9:30 AM] Σotiris#3516
+I love how projects pop up and the ecosystem develops. The more the merrier xD
+
+
+[02/18/2022 8:03 AM] Σotiris#3516
+https://www.reddit.com/r/ergonauts/comments/suxdfj/ergo_has_a_bright_future/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/suxdfj/ergo_has_a_bright_future/
+r/ergonauts - Ergo has a bright future!
+63 votes and 17 comments so far on Reddit
+
+{Reactions}
+sigmanaut 
+
+[02/18/2022 2:57 PM] glasgowm#9381
+getting busy round these parts
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/944246161919836210/unknown.png
+
+{Reactions}
+🔥 (3) 👏 
+
+[02/18/2022 4:20 PM] NoahErgo#4349
+Love this
+
+
+[02/18/2022 4:23 PM] NoahErgo#4349
+@glasgowm could you link me to that page?
+
+
+[02/18/2022 4:40 PM] glasgowm#9381
+https://docs.ergoplatform.com/uses/
+
+
+[02/18/2022 6:10 PM] NoahErgo#4349
+Maybe should add mixer and auction house
+
+
+[02/18/2022 6:47 PM] glasgowm#9381
+Hmm not sure how they got cut
+
+
+[02/19/2022 1:41 PM] Σotiris#3516
+@NoahErgo how about creating a new sigmaverse Twitter account? Is there one now?
+
+
+[02/19/2022 5:10 PM] NoahErgo#4349
+Could be fun! Not a bad idea
+
+
+[02/19/2022 5:10 PM] NoahErgo#4349
+Are you interested in running it?
+
+
+[02/19/2022 5:20 PM] Σotiris#3516
+yeah sure
+
+
+[02/19/2022 5:20 PM] Σotiris#3516
+we could post new projects there and updates
+
+
+[02/19/2022 5:37 PM] NoahErgo#4349
+Dm me maybe we can have shared access
+
+{Reactions}
+👍 
+
+[02/19/2022 7:56 PM] Σotiris#3516
+open for business xD https://twitter.com/sigmaverse_ergo
+
+{Embed}
+https://twitter.com/sigmaverse_ergo
+Sigmaverse on Ergo (@sigmaverse_ergo)
+Your portal to the #Ergo universe.
+Followers
+21
+Tweets
+2
+https://images-ext-1.discordapp.net/external/ASwQOP-nStFctoy2vWBdjCRAq7Q2LbkI1-8YthWYczk/https/pbs.twimg.com/profile_images/1495104721786490886/NFF0CrVk_400x400.jpg
+Twitter
+
+{Reactions}
+ergo_orange 
+
+[02/20/2022 9:44 PM] NoahErgo#4349
+@Σotiris and I are doing a series on the sigmaverse twitter to draw attention to each project
+
+
+[02/20/2022 9:44 PM] NoahErgo#4349
+Any suggestions on format are welcome, here is what he came up with so far
+
+
+[02/20/2022 9:44 PM] NoahErgo#4349
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/945073516821229669/sigmaverse-1.png
+
+{Reactions}
+❤️ (2) ergo_orange 
+
+[02/20/2022 9:45 PM] NoahErgo#4349
+Along with links to the project and socials etc
+
+
+[02/20/2022 10:59 PM] NoahErgo#4349
+@Σotiris somebody suggested we add this to make submission easier:
+
+https://app.integrately.com/signup?from=web&ct=2&code=0&triggerAppId=146&triggerId=917&actionAppId=569&actionId=6993
+
+
+[02/20/2022 11:00 PM] NoahErgo#4349
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/945092503328141342/6F909FED-C7C0-4BB8-90C4-A0AB3BA40AF9.jpg
+
+
+[02/20/2022 11:21 PM] Σotiris#3516
+This looks promising. Will check it out.
+
+
+[02/21/2022 6:26 PM] NoahErgo#4349
+@Σotiris started the sigmaverse profile series
+
+
+[02/21/2022 6:26 PM] NoahErgo#4349
+Think you can have another ready for tomorrow?
+
+
+[02/21/2022 7:16 PM] Σotiris#3516
+Yeah sure, I was away for the day. Gonna create something  new now
+
+{Reactions}
+ergo_orange 
+
+[02/21/2022 8:52 PM] Σotiris#3516
+@NoahErgo check this out
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/945422745808810064/ergomixer.png
+
+{Reactions}
+ergo_orange (2) 
+
+[02/21/2022 9:06 PM] NoahErgo#4349
+Love it
+
+{Reactions}
+🙏 
+
+[02/22/2022 8:52 AM] CW#8500
+Can i suggest capitalising "ERG"
+
+
+[02/22/2022 9:48 AM] Σotiris#3516
+here, thanks
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/945617965150240788/ergomixer_1.png
+
+{Reactions}
+sigmanaut 
+
+[02/22/2022 10:15 AM] Σotiris#3516
+also @Noah
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/945624906597535854/ergodex.png
+
+
+[02/22/2022 10:16 AM] Σotiris#3516
+Of course if anyone has any ideas or recommendations , they are welcome 🙂
+
+
+[02/22/2022 10:40 AM] glasgowm#9381
+looking good
+
+
+[02/22/2022 10:40 AM] glasgowm#9381
+altho I'd move down the sigmaverse logo a couple mm
+
+
+[02/22/2022 10:45 AM] Σotiris#3516
+better?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/945632430365233162/ergodex_1.png
+
+
+[02/22/2022 10:47 AM] glasgowm#9381
+perfect
+
+{Reactions}
+👍 
+
+[02/22/2022 10:49 AM] Σotiris#3516
+great also redid the ergomixer's
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/945633507085004810/ergomixer_2.png
+
+
+[02/22/2022 10:52 AM] Σotiris#3516
+@glasgowm may I use the Dropbox space to keep these too ?
+
+
+[02/22/2022 10:56 AM] glasgowm#9381
+ofc
+
+{Reactions}
+👍 
+
+[02/22/2022 3:15 PM] glasgowm#9381
+Interesting metrics. Only 5% have been here 1yr+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/945700242060369980/unknown.png
+
+
+[02/22/2022 3:30 PM] curbsideprophet#5083
+the 43% for "other countries" is a notable callout as well
+
+
+[02/22/2022 3:34 PM] NoahErgo#4349
+Can you drop a link here
+
+
+[02/22/2022 3:35 PM] glasgowm#9381
+Pinned a message.
+
+{Reactions}
+ergo_orange (2) 
+
+[02/22/2022 3:49 PM] NoahErgo#4349
+https://twitter.com/sigmaverse_ergo/status/1496149156049690625?s=20&t=IwssdREv_uSj2tn1w9jRAg
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1496149156049690625?s=20&t=IwssdREv_uSj2tn1w9jRAg
+“Sigmaverse Project Profile #2
+
+@ErgoDex is positioning itself to be a main player for #DeFi  on #Ergo. Worth noting that cross-chain bridge to #Cardano isn’t live yet.
+
+https://t.co/ibtWikCCSa
+https://t.co/VUV89CXmNu
+
+#ergosigmaverse #ergonauts https://t.co/T5MlffeWYb“
+https://images-ext-2.discordapp.net/external/ZRXTExfs-mdrNf6O2uHKMLbrS0lkBXtyvy_shpug2ug/https/pbs.twimg.com/media/FMNiKpJX0AgWQcV.jpg
+Twitter
+
+
+[02/22/2022 4:34 PM] curbsideprophet#5083
+does discord also provide engagement metrics? ex: user 1-6 months but engages higher than average (when compared to someone 1+ years)
+
+
+[02/22/2022 4:49 PM] NoahErgo#4349
+@Σotiris could you do anetaBTC next and then Ergopad?
+
+Aneta assets:
+https://drive.google.com/drive/folders/13IGRgf9wNCPfckTQ6DSMaIo9gE-wx0zm
+
+
+[02/22/2022 4:49 PM] NoahErgo#4349
+Maybe ergnomes as well. I just wanna hit the larger projects first to bring in more audience for the smaller ones
+
+
+[02/22/2022 4:53 PM] Σotiris#3516
+OK sounds good
+
+
+[02/22/2022 5:07 PM] Σotiris#3516
+@NoahErgo check this
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/945728486167937044/anetabtc.png
+
+{Reactions}
+ergo_orange (2) 
+
+[02/23/2022 9:20 AM] Σotiris#3516
+@NoahErgo
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/945973320925462538/ergopad.png
+
+
+[02/23/2022 9:58 AM] Σotiris#3516
+also @Foeniculum xD
+
+
+[02/23/2022 10:01 AM] Σotiris#3516
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/945983770358607902/ergnomes.png
+
+
+[02/23/2022 10:33 AM] glasgowm#9381 (pinned)
+https://fomographs.com/coin-details.html?coin=ergo
+
+{Embed}
+https://fomographs.com/coin-details.html?coin=ergo
+Coin Details | Reddit CryptoCurrency Charts | Fomographs.com
+Your favorite cryptocurrencies' analysis with details, charts, stats and predictions based on Reddit data. Find out who are the most involved users and follow your stats.
+
+
+[02/23/2022 10:33 AM] glasgowm#9381
+Pinned a message.
+
+
+[02/23/2022 10:47 AM] Σotiris#3516
+Nice one.
+
+
+[02/23/2022 10:49 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/945995863040331776/unknown.png
+
+{Reactions}
+ergo_orange 
+
+[02/23/2022 2:24 PM] glasgowm#9381
+Missed this, will paste in what I have
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/946049821041651762/unknown.png
+https://cdn.discordapp.com/attachments/920637968950120458/946049821293285467/unknown.png
+https://cdn.discordapp.com/attachments/920637968950120458/946049821498802247/unknown.png
+https://cdn.discordapp.com/attachments/920637968950120458/946049821758865468/unknown.png
+https://cdn.discordapp.com/attachments/920637968950120458/946049822060843028/unknown.png
+https://cdn.discordapp.com/attachments/920637968950120458/946049822274748436/unknown.png
+https://cdn.discordapp.com/attachments/920637968950120458/946049822597726208/unknown.png
+https://cdn.discordapp.com/attachments/920637968950120458/946049823046512730/unknown.png
+https://cdn.discordapp.com/attachments/920637968950120458/946049823440785419/unknown.png
+
+{Reactions}
+❤️ (2) ergo_orange (2) ergo_black ergo_white ergonaut 
+
+[02/23/2022 3:31 PM] glasgowm#9381
+Anyone registered on one of these exchanges and can send me some Lunr?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/946066697360666664/unknown.png
+
+
+[02/23/2022 3:31 PM] glasgowm#9381
+need it to see 3M+ data on lunarcrush :/
+
+
+[02/23/2022 4:16 PM] NoahErgo#4349
+I think they updated their logo
+
+
+[02/23/2022 4:28 PM] NoahErgo#4349
+https://twitter.com/sigmaverse_ergo/status/1496521632105791488?s=20&t=Cn-dIDN4ELGXEREJEhbuXw
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1496521632105791488?s=20&t=Cn-dIDN4ELGXEREJEhbuXw
+“Sigmaverse Project Profile #3
+
+@anetaBTC is known for $NETA and $cNETA they have distributed via #airdrop. More important though will be the ability to bring wrapped #bitcoin into the eutxo ecosystem.
+
+https://t.co/d6LccHYfOD
+https://t.co/N0MDs0233B
+
+#ergosigmaverse #ergonauts https://t.co/K13oSAKZ8X“
+https://images-ext-2.discordapp.net/external/1wpllXP8jzVQjzGK1T8n3ckghIZSCbu6ozP-WgwNoo8/https/pbs.twimg.com/media/FMS0_AdUcAQCOur.jpg
+Twitter
+
+
+[02/23/2022 5:25 PM] NoahErgo#4349
+Great engagement, plan is working as intended
+
+{Reactions}
+ergo_orange 
+
+[02/23/2022 5:59 PM] Σotiris#3516
+great! also updated the logo, you were right
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/946103957489606676/ergopad_updated.png
+
+{Reactions}
+ergo_orange 
+
+[02/23/2022 10:31 PM] NoahErgo#4349
+I looked into that typeform integration for github PRs and to get it working i would have to pay for an upgraded typeform license
+
+
+[02/24/2022 7:40 AM] Σotiris#3516
+I think there are 2 solutions to this that may be better than being dependent on a 3rd party.
+One would be to create a video showcasing the steps of submitting a new project in a simple way that one with no prior knowledge would be able to understand.
+The second one would be to create a form on the website that would get the info/images needed and then after reviewing it we could submit them.
+I think there are plans to implement a cms so this would become even easier.
+Just thinking out loud.
+
+
+[02/24/2022 8:03 AM] NoahErgo#4349
+Yeah these options seem better I think
+
+
+[02/24/2022 9:21 AM] glasgowm#9381
+We're already paying for one
+
+
+[02/24/2022 9:23 AM] NoahErgo#4349
+Good to know! Although sounds like dmitry may have other plans already but good backup option
+
+
+[02/24/2022 9:28 AM] NoahErgo#4349
+In the meantime if you wanna play with it just need to make an integrately account and connect the token from typeform
+
+https://integrately.com/integrations/github/typeform
+
+{Embed}
+https://integrately.com/integrations/github/typeform
+How to connect Typeform & GitHub | 1 click ▶️ integration
+Activate Typeform and GitHub Integration in just 1 Click. 8 Million+ Ready Automations. Live Chat Support. Try Now For Free!
+https://images-ext-1.discordapp.net/external/QIl9vTyAzEyHZPDPVN_YU3ix-t1uIFnMIeEGTDDtMxA/%3Fapp%5B0%5D%3DTypeform%26app%5B1%5D%3DGitHub/https/app.integrately.com/image
+
+
+[02/24/2022 2:19 PM] glasgowm#9381
+Spent a bit of time on Twitter yesterday, started filling in a Twitter Strategy page on Notion. Plan to do one for each social. Twitter is a bit out my comfort zone so additions from the pro's would be appreciated @Jεnniε D @CW @Vierolean @Chris Ray + anyone else I've forgot 🙂 @SigCan 
+
+https://www.notion.so/Twitter-Strategy-437583995e5841edb493bac879a3e12d
+
+My current thinking (following on from the DAO discussions) is this could be shaped into a service. So a `GrowthDAO` or `MarketingDAO` that the EF/ecosystem projects could hire to help grow erg/their projects. The incentives structure itself is a bit hazy to me and will probably grow with our activity but I have a few ideas I'll load onto Notion. 
+
+Seems ergo-teams will have a CLI version next week? or we could get stuck right in if we have 3 @Sigmanauts who want to run a node / host a ZKT. 
+
+Also note that we have a handful of professional marketers in our ranks so if anyone has availability to work hours or has any sort of proposal let me or @AngieHar know as the people who apply for these roles usually end up being mince.
+
+{Embed}
+https://www.notion.so/Twitter-Strategy-437583995e5841edb493bac879a3e12d
+Twitter Strategy
+Outreach
+
+{Reactions}
+ergo_orange (2) 
+
+[02/24/2022 4:13 PM] Ergonaut_Alpha#1583
+I just added okcoin but have a 10 day hold on withdraws
+
+{Reactions}
+😢 
+
+[02/24/2022 4:20 PM] glasgowm#9381
+cool cheers anyway, not that important but will try to get around to setting one up at some point. Unless I can find a better tool ^^
+
+
+[02/24/2022 8:35 PM] NoahErgo#4349
+Any way to view this without making an account?
+
+
+[02/24/2022 8:37 PM] glasgowm#9381
+Shouldn't need an account to view. Free account is fine to edit or just send me it
+
+
+[02/24/2022 8:37 PM] NoahErgo#4349
+Ill try on desktop
+
+
+[02/24/2022 8:41 PM] NoahErgo#4349
+There was a space that armeanio did with bullish dumpling, i remember feeling like that was really really good outreach opportunity
+
+
+[02/24/2022 8:51 PM] Chris Ray#2713
+I would not consider myself a pro, that is actually a true label for some people, twitter is a great marketing tool, I will check it out!
+
+
+[02/24/2022 9:06 PM] Chris Ray#2713
+Ill have to send my probit some funds
+
+
+[02/24/2022 9:52 PM] Chris Ray#2713
+Probit Erg deposits are still 100 confirmations before you get them, haha 😆
+
+
+[02/25/2022 6:25 AM] curbsideprophet#5083
+question: where do we get the most exposure? discord, reddit or twitter?
+
+
+[02/25/2022 6:33 AM] curbsideprophet#5083
+perhaps a question for @glasgowm ?
+
+
+[02/25/2022 6:35 AM] glasgowm#9381
+Prob 50/50 Reddit/twitter.
+
+
+[02/25/2022 6:36 AM] glasgowm#9381
+More so Reddit tho prob, not sure how much twitter gets outside people already exposed.
+
+
+[02/25/2022 6:46 AM] curbsideprophet#5083
+Thank you 🙏
+
+
+[02/25/2022 10:36 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/946717315490254848/unknown.png
+
+
+[02/25/2022 10:36 AM] CW#8500
+Added some info to notion
+
+
+[02/25/2022 10:37 AM] glasgowm#9381
+we're also usually rank #20-50 (and as high as #2 at our peak) on r/cc
+
+
+[02/25/2022 10:37 AM] glasgowm#9381
+class will have a look thanks
+
+
+[02/25/2022 10:38 AM] CW#8500
+reddit is something i need to spend a little time on when it allows
+
+
+[02/25/2022 10:43 AM] glasgowm#9381
+Reddit is a lot harder to penetrate, but better when you do. I might just need to learn how to use Twitter better though. Finding good content to latch onto is hard as the Latest tab is just completely flooded with spam, no filtering by follower count or anything. Most of their data is a black-box, can get like 1% publicly, 10% with permission and anything above only if you're in govt lol
+
+
+[02/25/2022 10:43 AM] glasgowm#9381
+https://old.reddit.com/r/CryptoCurrency/comments/szzwpw/id_like_to_talk_about_my_favourite_project_in/
+
+{Embed}
+https://old.reddit.com/r/CryptoCurrency/comments/szzwpw/id_like_to_talk_about_my_favourite_project_in/
+r/CryptoCurrency - I’d like to talk about my favourite project in c...
+4 votes and 32 comments so far on Reddit
+
+
+[02/25/2022 11:12 AM] CW#8500
+lol yeah, bit of a nightmare to navigate
+
+
+[02/25/2022 11:51 AM] CW#8500
+https://www.notion.so/Twitter-Strategy-437583995e5841edb493bac879a3e12d
+
+Added more content, please update twitter handles for people I've missed, cheers
+
+{Embed}
+https://www.notion.so/Twitter-Strategy-437583995e5841edb493bac879a3e12d
+Twitter Strategy
+Aim
+
+{Reactions}
+⭐ 
+
+[02/25/2022 3:19 PM] Σotiris#3516
+@NoahErgo when you have the next batch of projects we'll post on sigmaverse Twitter, let me know to make the banners.
+
+
+[02/25/2022 4:02 PM] curbsideprophet#5083
+i am setting up my own ergo event so this is very helpful. thanks 🙂
+
+
+[02/25/2022 4:36 PM] glasgowm#9381
+hmm, how?
+
+
+[02/25/2022 4:36 PM] glasgowm#9381
+linktree stats
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/946807943918137425/unknown.png
+https://cdn.discordapp.com/attachments/920637968950120458/946807944140455996/unknown.png
+
+
+[02/25/2022 4:38 PM] NoahErgo#4349
+Wrong noah hehheh
+
+
+[02/25/2022 4:40 PM] curbsideprophet#5083
+Not official ergo name of course but I am dumping 100 ergo into a wallet and giving away the seed phrases over 12 days across all my different social media profiles
+
+
+[02/25/2022 4:41 PM] curbsideprophet#5083
+Kind of like a scavenger hunt riddle cookie crumb trail
+
+
+[02/25/2022 5:15 PM] Σotiris#3516
+oops
+
+
+[02/26/2022 1:53 AM] Chris Ray#2713
+ok drop me an address somewhere when you are ready
+
+
+[02/26/2022 4:49 PM] NoahErgo#4349
+@Σotiris ready for the next batch of banners for the sigmaverse twitter
+
+
+[02/26/2022 5:02 PM] Σotiris#3516
+Which ones do you think would be best to focus on?
+
+
+[02/26/2022 5:08 PM] NoahErgo#4349
+Getblok, sigmausd, raffle, spacefarmers
+
+
+[02/26/2022 6:54 PM] CW#8500
+Great work guys
+
+
+[02/26/2022 7:31 PM] Σotiris#3516
+@NoahErgo
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/947214229721710632/getblok.png
+
+{Reactions}
+ergo_orange (2) 
+
+[02/28/2022 12:13 AM] NoahErgo#4349
+@Σotiris wallets added 🙂
+
+
+[02/28/2022 7:01 AM] Σotiris#3516
+Nice!!
+
+
+[02/28/2022 9:57 AM] Σotiris#3516
+@NoahErgo
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/947794609860390922/sigmausd.png
+https://cdn.discordapp.com/attachments/920637968950120458/947794610141421568/ergoraffle.png
+https://cdn.discordapp.com/attachments/920637968950120458/947794610426617878/spacefarmers.png
+
+
+[02/28/2022 5:34 PM] NoahErgo#4349
+Love these thank you 🙂
+
+{Reactions}
+ergo_orange 
+
+[02/28/2022 7:59 PM] glasgowm#9381
+why is everyone bastards
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/947946211950858302/unknown.png
+
+
+[02/28/2022 8:00 PM] glasgowm#9381
+for posting this : https://www.youtube.com/watch?v=h6g5WahEUSk&t=2s
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=h6g5WahEUSk&start=2
+Ergo: A Platform for Cryptographic Applications | Kushti | Ergo Sum...
+Ergo core developer and co-founder Alex Chepurnoy, aka Kushti, explains why Ergo is unique in regard to providing support for cryptographic protocols. Kushti explains how Ergo's design facilitates various use-cases that are possible only on Ergo.
+
+00:00 Intro
+01:09 Before Ergo
+04:13 Ergo
+05:36 Use Case: Schnorr Signature
+08:10 Use Case: Mixer
+13...
+https://images-ext-2.discordapp.net/external/PjuLcTIXGPsmy3sLXadyUcCYodVBGC-UDC-H7odY2PM/https/i.ytimg.com/vi/h6g5WahEUSk/maxresdefault.jpg
+
+
+[02/28/2022 8:41 PM] glasgowm#9381
+nvm 'It was a fat-finger on my part. I was working on the spam queue and accidentally banned you and a couple others. I've reverted it. My apologies!'
+
+
+[02/28/2022 10:45 PM] NoahErgo#4349
+Good idea posting on cryptography
+
+
+[02/28/2022 10:45 PM] NoahErgo#4349
+i tried a few times on cryptotechnology with no luck
+
+
+[02/28/2022 11:39 PM] glasgowm#9381
+https://www.reddit.com/r/CryptoCurrency/comments/t3kg1p/give_me_a_project_and_i_will_do_a_20_pages_dyor/
+
+{Embed}
+https://www.reddit.com/r/CryptoCurrency/comments/t3kg1p/give_me_a_project_and_i_will_do_a_20_pages_dyor/
+r/CryptoCurrency - Give me a project ... and I will do a 20 pages D...
+61 votes and 260 comments so far on Reddit
+
+
+[03/03/2022 6:54 PM] NoahErgo#4349
+@Σotiris ready for another batch whenever
+
+{Reactions}
+👍 
+
+[03/03/2022 7:01 PM] Σotiris#3516
+Send me the projects. We should probably include wallets?
+
+
+[03/03/2022 7:12 PM] NoahErgo#4349
+Yeah maybe Nautilus next, then ergo watch, enft, bitmasks, ergo faucet, comet, ergo mobile wallet
+
+{Reactions}
+👍 
+
+[03/03/2022 7:13 PM] NoahErgo#4349
+If you think others would be good feel free to do whichever you want
+
+
+[03/04/2022 8:46 AM] Σotiris#3516
+@NoahErgo
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/949226290777571338/nautilus.png
+https://cdn.discordapp.com/attachments/920637968950120458/949226291314458624/enft.png
+
+{Reactions}
+🔥 (2) 👏 
+
+[03/04/2022 8:48 AM] Σotiris#3516
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/949226924813729832/ergowatch.png
+
+{Reactions}
+👏 🔥 
+
+[03/08/2022 8:48 PM] NoahErgo#4349
+@Σotiris when you have time could you make the rest of these?
+
+
+[03/09/2022 11:34 AM] Σotiris#3516
+@NoahErgo  here 😉
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/951080410782269450/ergofaucet.png
+https://cdn.discordapp.com/attachments/920637968950120458/951080411038105600/bitmasks.png
+https://cdn.discordapp.com/attachments/920637968950120458/951080411382030336/ergomobilewallet.png
+https://cdn.discordapp.com/attachments/920637968950120458/951080411914702888/comet.png
+
+
+[03/09/2022 12:58 PM] glasgowm#9381
+sorry just popped back into my head 🙂 
+
+zil1thw2xxlykgg7jmftm8u5fcj7wc07nlgq5kvwh4
+
+
+[03/09/2022 8:52 PM] Σotiris#3516
+@NoahErgo Love the new design!!
+
+
+[03/09/2022 9:19 PM] NoahErgo#4349
+It was all dmitry!
+
+
+[03/09/2022 9:19 PM] NoahErgo#4349
+But yea i love it too
+
+
+[03/09/2022 9:20 PM] NoahErgo#4349
+Should clarify that the sigmaverse isnt “my site”
+
+
+[03/09/2022 9:20 PM] NoahErgo#4349
+Just started adding a lot of projects a few months back and got some momentum on it
+
+{Reactions}
+👍 
+
+[03/09/2022 9:29 PM] Σotiris#3516
+We're all contributing in whichever way we can 😊
+
+
+[03/09/2022 10:11 PM] NoahErgo#4349
+What should we change new twitter theme to?
+
+
+[03/09/2022 10:13 PM] seedubya#0000
+Consistent with the new site? looks shit hot! (re @ErgoBridgeBot: <Noah> What should we change new twitter theme to?)
+
+
+[03/09/2022 10:21 PM] Σotiris#3516
+dark mode on  xD
+
+
+[03/10/2022 9:07 AM] Σotiris#3516
+@NoahErgo how about something like this ? Of course if anyone has any alternative ideas, would be glad to see/hear them 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/951405915079340032/ergofaucet.png
+
+
+[03/10/2022 1:11 PM] fruittree#0000
+Is it worth trying to get ergo on unstoppable wallet app? Maybe after nipopows are live. But a few friends use it and could be nice to get cross chain in their wallet etc.
+
+
+[03/10/2022 2:49 PM] NoahErgo#4349
+This looks so good 🔥
+
+
+[03/10/2022 2:49 PM] NoahErgo#4349
+Text is wrong tho 😄
+
+
+[03/10/2022 2:57 PM] Σotiris#3516
+Yeah wanted to make a template
+
+
+[03/10/2022 2:58 PM] Σotiris#3516
+I have already sent ergo faucet, gonna use this on new ones 😉
+
+
+[03/10/2022 3:00 PM] NoahErgo#4349
+Perfect thank you!
+
+{Reactions}
+❤️ 
+
+[03/11/2022 9:55 PM] Chris Ray#2713
+I tried man, probit keeps giving me an insuffiecent balnce error, try again later
+
+
+[03/13/2022 8:18 PM] NoahErgo#4349
+@Σotiris when you have time next lets do some more with the new template!!
+
+Ergosaurs
+Cybercitizens
+Space farmers
+Coin characters
+
+
+[03/14/2022 9:43 AM] Σotiris#3516
+Hey! I think we already did space farmers
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/952864527219851284/coincharacters.png
+https://cdn.discordapp.com/attachments/920637968950120458/952864527421153310/ergosaurs.png
+https://cdn.discordapp.com/attachments/920637968950120458/952864527626694686/cibercitizens.png
+
+
+[03/14/2022 2:36 PM] glasgowm#9381
+https://twitter.com/Dr_shwetaPHD/status/1503364165343326213/photo/1
+
+could be a cool idea for erg
+
+{Embed}
+Dr. Shweta 🦅 (@Dr_shwetaPHD)
+https://twitter.com/Dr_shwetaPHD/status/1503364165343326213/photo/1
+🔥517+ projects are now building on #Cardano as the #ADA ecosystem continues to grow
+
+#BuildingOnCardano
+#NFT 34.7%
+#DeFi 2.9%
+#NFTMarketplace 4.7%
+#Metaverse 
+#DEX 6.2%
+#Gaming 4.7%
+#Wallets 4.7%
+#GoingForNumber1 https://t.co/aflU3V5lSn
+https://images-ext-1.discordapp.net/external/xrjI9HuKwWnAXFsXDkR4DMZUtOAQ6rt6PStJ3-s-sOw/https/pbs.twimg.com/media/FN0FQbKXIAEZxbL.jpg
+Twitter
+
+
+[03/14/2022 2:55 PM] curbsideprophet#5083
+side note: crypto people really need to move away from pie charts 🤣  (as someone who gets paid to do data viz for a living lol)
+
+
+[03/14/2022 3:04 PM] NoahErgo#4349
+Whats a better alternative?
+
+
+[03/14/2022 3:04 PM] NoahErgo#4349
+You are right haha, my mistake 🙂
+
+
+[03/14/2022 3:07 PM] glasgowm#9381
+bar charts, pie don't make it easy to tell the % but when it has little arrows like above its aight
+
+
+[03/14/2022 3:07 PM] glasgowm#9381
+I love Chord diagrams but don't work with much data that would justify using one lol
+
+
+[03/14/2022 3:08 PM] glasgowm#9381
+https://www.r-graph-gallery.com/chord-diagram-interactive.html
+
+{Embed}
+https://www.r-graph-gallery.com/chord-diagram-interactive.html
+Interactive chord diagram with R
+This post describes how to build an interactive chord diagram on which you can hover groups to highlight flows.
+
+
+[03/14/2022 3:09 PM] curbsideprophet#5083
+off the top of my head: bar/column charts, tree maps, dot polots, radar charts, radial bars
+
+
+[03/14/2022 3:09 PM] curbsideprophet#5083
+this is 🤌
+
+
+[03/14/2022 6:45 PM] NoahErgo#4349
+Did a little recolor of the ergo platform twitter banner for sigmaverse. If anybody has better suggestions lmk
+
+
+[03/14/2022 7:09 PM] Σotiris#3516
+Looks awesome
+
+
+[03/14/2022 9:07 PM] curbsideprophet#5083
+sure! would love more R code 🙂 (DMs open)
+
+
+[03/14/2022 9:17 PM] curbsideprophet#5083
+also: LMK if you are interested in working on a {eRgo} package together
+
+
+[03/15/2022 6:38 PM] Chris Ray#2713
+Those LUNR are not worth 0.0182 ETH in fees man, feel like you just wanted me to have a good laugh! Lol send 9.97 LUNR for $47.28, lol
+I aint doing it man, the LUNR is like less than $6 worth.
+Probit exchange.
+
+
+[03/15/2022 6:46 PM] C4lculista#0000
+🤔 (re @ErgoBridgeBot: <Chris Ray> Those LUNR are not worth 0.0182 ET...)
+
+
+[03/21/2022 11:47 AM] Σotiris#3516
+@NoahErgo do we need more banners ?
+
+
+[03/21/2022 12:00 PM] glasgowm#9381
+oh hm, lol thanks anyway i'll have a swatch and see if there's a better option
+
+
+[03/21/2022 2:05 PM] NoahErgo#4349
+Yeah sure! Has been a busy week for me so havent been very active
+
+
+[03/21/2022 2:32 PM] glasgowm#9381
+❤️ nice
+
+
+[03/21/2022 5:01 PM] Σotiris#3516
+yeah for me too, that's why I sent you 😉
+
+
+[03/25/2022 12:35 AM] curbsideprophet#5083
+Assuming market conditions remain the same and my math is correct then the soft fork emission schedule would hit the static $71 approx 270 days earlier which is about 9 months (re: https://twitter.com/Haskell_plus/status/1503116738405154817?s=20&t=FURHb2IzWfccY4ClHXcIwQ )
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/956712946023665704/unknown.png
+
+{Embed}
+Chris Ray (@Haskell_plus)
+https://twitter.com/Haskell_plus/status/1503116738405154817?s=20&t=FURHb2IzWfccY4ClHXcIwQ
+I don't know who needs to hear this:
+
+Currently block reward for #Ergo miners is 66 $ERG per block mined, that is approx. $154,440 a day
+In about 5 years block reward will be 3 $ERG per block mined, to maintain $154,440 a day in rewards that brings the price of $ERG to $71.5 🐂
+Likes
+182
+Twitter
+
+
+[03/25/2022 1:05 AM] seedubya#0000
+> *(re @ErgoBridgeBot)*: <curbsideprophet> Assuming market conditions r...
+
+
+[03/25/2022 1:05 AM] seedubya#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/956720398706290698/shock-disbelief.mp4
+
+
+[03/25/2022 1:17 AM] curbsideprophet#5083
+Haha
+
+
+[03/27/2022 7:53 AM] Jεnniε D#0000
+What what
+https://twitter.com/DanielTetsuyama/status/1507971938664480779
+
+{Embed}
+Daniel Friedman ₳Σ 🇺🇸🇯🇵 (@DanielTetsuyama)
+https://twitter.com/DanielTetsuyama/status/1507971938664480779
+Having some very exciting #Ergo meetings. Some coolness comin' atcha in a few days. Stay tuned, #Ergonauts
+
+$ERG
+Twitter
+
+
+[03/30/2022 3:17 PM] curbsideprophet#5083
+my short/long term goal is to attract more blockchain analysts/data scientists/machine learning experts to the world of Ergo to set the foundation/infrastructure for the future. retweet/like if you can spare a nanoErgo! https://twitter.com/Eeysirhc/status/1509162874433937408?s=20&t=1GmpPW_gH2_rw9cPAPaZ5A
+
+{Embed}
+Christopher Yee (@Eeysirhc)
+https://twitter.com/Eeysirhc/status/1509162874433937408?s=20&t=1GmpPW_gH2_rw9cPAPaZ5A
+Any #rstats users in the #ergonauts crowd? 
+
+Unrefined super duper early release of {tidyergo}, a #datascience package for the #ergo blockchain: https://t.co/4vzYyl6O8k
+
+Feedback welcomed! 
+
+cc: $erg @cafebedouin
+https://images-ext-1.discordapp.net/external/h5gFPMPsyPbhjCU7XdYgFkmBJ68vFzTnnPC7UaXZUQs/https/pbs.twimg.com/media/FPGezUDVgAIbXD5.jpg
+Twitter
+
+{Reactions}
+👏 (3) 
+
+[04/08/2022 10:50 PM] CW#8500
+Hey guys, I have an idea for the graphic designers. @NoahErgo  is doing an amazing job keeping sigmaverse up to date. 
+
+Can we expand on that and create an ecosystem map of all the projects icons?
+
+Another idea could be to see the ecosystem growth over time, using GitHub timestamps for when projects were added to sigmaverse. Say, starting when noah took the initiative we start there. Then group the projects added over say 2 months, then again and so on. 
+
+Could be a good visualisation/infographic for the growth if the ecosystem over the passed 12 months or so
+
+
+[04/08/2022 11:02 PM] seedubya#0000
+Now I know it's bridged here 🙂
+
+
+[04/09/2022 12:28 AM] seedubya#0000
+Forwarded from seedubya:
+
+
+[04/09/2022 12:28 AM] seedubya#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/962131738807640064/file_8784.jpg
+
+
+[04/09/2022 12:28 AM] seedubya#0000
+Forwarded from seedubya:
+
+
+[04/09/2022 12:28 AM] seedubya#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/962131741299056650/file_8785.jpg
+
+
+[04/09/2022 12:44 AM] TIMRΣG7#0000
+I am starting an article on Ergo and privacy. More like the philosophy of privacy and why sigma protocols are a valuable tool to protect a basic human right. If anyone has videos or articles on the why privacy matters, send my way 👍
+
+
+[04/09/2022 12:49 AM] TIMRΣG7#0000
+Also, in my preliminary research I discovered that '1984' was still amazon's 24th highest selling book in 2021. An encouraging statistic.
+
+
+[04/09/2022 2:28 AM] cafebedouin#9837
+I like to reference that BlakeClass lottery post anytime people do not understand the need for privacy. People like to ask about lambos. I've never seen anyone talk about what tends to happen to people driving around in one. I'd guess finding yourself with a lot of money because of crypto will end in much the same as lottery winners. https://www.reddit.com/r/ergonauts/comments/tu1eh3/comment/i34eu0t/?utm_source=share&utm_medium=web2x&context=3
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/tu1eh3/comment/i34eu0t/?utm_source=share&utm_medium=web2x&context=3
+r/ergonauts - EU just agreed to "ban" private wallets. Is Ergo mixe...
+32 votes and 11 comments so far on Reddit
+
+
+[04/09/2022 2:37 AM] TIMRΣG7#0000
+> *(re @ErgoBridgeBot)*: <cafebedouin> I like to reference that BlakeCl... 
+Thank you sir!
+
+
+[04/09/2022 8:48 AM] Jεnniε D#0000
+Random Ergo love post
+https://twitter.com/ergomergoadargo/status/1512697988602286083
+
+{Embed}
+Jεnniε D (@ergomergoadargo)
+https://twitter.com/ergomergoadargo/status/1512697988602286083
+When I say I am an #Ergonaut first & foremost it isn't just words; the reasons are an ever lengthening list.
+If you want to find out more I suggest:
+The soul of #Ergo
+👉https://t.co/Ax4qmuBTcf
+The ecosystem as is today: @sigmaverse_ergo 
+👉https://t.co/CppvsZooiL
+$ERG #Ergonauts
+https://images-ext-1.discordapp.net/external/eZs06EwwGMHmKXn8VCLryD2ZRAN76Br2wOSvk069ru0/https/pbs.twimg.com/media/FP4ua9_WYAAzBuM.jpg
+Twitter
+
+
+[04/21/2022 3:35 PM] NoahErgo#4349
+The utxo alliance chat is untapped potential guys, how can we make the most of it? There are top level devs from nervos and alephium in there. This morning the founder of alephium joined and he is big on ergo too
+
+
+[04/21/2022 3:38 PM] glasgowm#9381
+dev-resources are the main stretch for most places, but hopefully we can link up via Rosen (and other ways) soon. Stuff like podcasts/youtube/etc would be good
+
+
+[04/21/2022 3:41 PM] NoahErgo#4349
+Yeah at the moment everyone is so focused on building their own stuff
+
+
+[04/21/2022 3:42 PM] glasgowm#9381
+as soon we get a decent bridge we can do a lot more stuff just with wrapped tokens even
+
+
+[04/21/2022 3:42 PM] glasgowm#9381
+but talks about privacy/security/crypto fundamentals would go down well I think
+
+
+[04/21/2022 3:43 PM] glasgowm#9381
+should maybe categorise each ones strengths and where we can lean on each other - I only have a surface level knowledge of most
+
+
+[04/21/2022 3:44 PM] NoahErgo#4349
+yeah thats a good idea
+
+
+[04/21/2022 3:44 PM] NoahErgo#4349
+we should also try to reach out to komodo devs
+
+
+[04/21/2022 3:44 PM] NoahErgo#4349
+digibyte and cardano too i guess
+
+
+[04/21/2022 3:45 PM] glasgowm#9381
+yeah I just seen this tweet from them
+
+https://twitter.com/KomodoPlatform/status/1517040896721793024
+
+{Embed}
+🦎 Komodo (@KomodoPlatform)
+https://twitter.com/KomodoPlatform/status/1517040896721793024
+Your homework today 
+
+👉 tag x2 🔥 projects 
+who should join #UTXO Alliance
+
+🤝 a cross-chain collaboration to make the UTXO model more scalable and secure @cardano @NervosNetwork @ergoplatformorg @DigiByteCoin @alephium @topl_protocol
+
+Apply: https://t.co/VQ3nZKfCEP  #opensource
+Likes
+119
+Twitter
+
+
+[04/21/2022 3:49 PM] NoahErgo#4349
+Nice tweeted at them good timing
+
+
+[04/21/2022 4:04 PM] curbsideprophet#5083
+where to find link for utxo alliance TG channeL?
+
+
+[04/21/2022 4:06 PM] glasgowm#9381
+#deleted-channel
+
+
+[04/21/2022 4:07 PM] glasgowm#9381
+or https://t.me/utxoalliance
+
+{Embed}
+https://t.me/utxoalliance
+UTXO Alliance
+We believe that making it easier to transact across different blockchains will encourage greater use of the technology. To do this, we need to advocate interoperability across systems with similar outlooks – in this case, the UTXO model.
+https://images-ext-1.discordapp.net/external/cYbDkRxgd-_OXxpb6oA0Y0P0baB400qKxdmJUOJCZeI/https/cdn4.telegram-cdn.org/file/bQWpPnOvIXJhGRiZOLQtOQa4g_jKf9OyxvnAKzWUgd4t7dvEM9fWCk6O51pPohOE0CYRgIuw69GfihRIXxvNg6rebKcx7yMo_fvcXB-j0yFmaEdXy80RS3XEDYvwAKkB-98bfPBHzh1Z3dkdM7Z3qoeCPZt16KCdZ66bn8-HB5Krg-GKKS4F868gqlKFGPR4EM5fcfSLF0Zqr7u9Vsjz0eRQt3qq603VVsf1TOIiorq2xaoSpjYSKbjtmbyJDYH828PjKXn6itZO9hhm0hEIExVt_dIkpkhTSiZkErZ5HRzCv761i72BhFElzlySo9GapEyXvPLOkEcM_mqKN4zg7w.jpg
+
+
+[04/21/2022 4:43 PM] NoahErgo#4349
+Komodo is in 😄
+
+
+[05/21/2022 4:55 PM] glasgowm#9381
+guess when I installed Wick lol
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/977600433499566130/unknown.png
+
+
+[05/21/2022 4:55 PM] glasgowm#9381
+nice boost to activation too
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/977600613204516944/unknown.png
+
+
+[05/21/2022 4:56 PM] NoahErgo#0000
+what happened april 20?
+
+
+[05/21/2022 4:56 PM] glasgowm#9381
+I installed https://wickbot.com/
+
+
+[05/21/2022 4:58 PM] NoahErgo#0000
+oh i see, you think a lot of those joins were bots then?
+
+
+[05/21/2022 4:58 PM] glasgowm#0000
+yeah wick tracks the invitations and nukes them if spambots start joining
+
+
+[05/26/2022 5:45 PM] Bryce#8378
+Have Armeanio/Dan ever expressed interest in speaking to content creators to help market Ergo? I'm curious where they stand on this. I.e. Charles Hoskinson turns down interviews with channels that speculate on price, but will speak with people who have genuine curiosity about the tech.
+
+
+[05/26/2022 5:46 PM] dann#0000
+I doubt anybody from the Ergo team would reject having a chat with any content creator interested in a talk about tech
+
+
+[05/26/2022 5:49 PM] glasgowm#9381
+No issues with content creators; Armeanios been on a few already (Ryan Matta, Son of Tech recently). Issue is most of the popular ones are way overpriced,  but any high-quality channels that want to do them for free have always been pursued.
+
+
+[05/26/2022 5:52 PM] Bryce#8378
+I didn't even consider channels trying to charge fees. But it's good to know, thanks!
+
+
+[05/26/2022 6:20 PM] curbsideprophet#5083
+there was one YT who did it for ergopad i think he charged a fee and all he did was read from their website lmao
+
+
+[05/26/2022 6:55 PM] Bryce#8378
+Quality content, lol. /s
+
+
+[06/08/2022 12:05 AM] glasgowm#9381
+https://www.reddit.com/r/CryptoCurrency/comments/v7a0qp/list_of_crypto_subs_sorted_by_number_of_members/
+
+{Embed}
+https://www.reddit.com/r/CryptoCurrency/comments/v7a0qp/list_of_crypto_subs_sorted_by_number_of_members/
+r/CryptoCurrency - List of Crypto subs sorted by number of members ...
+0 votes and 3 comments so far on Reddit
+
+
+[06/08/2022 1:13 AM] NoahErgo#0000
+wow we have more subscribers than polygon??
+
+
+[06/08/2022 1:14 AM] NoahErgo#0000
+lots of big coins damn
+
+
+[06/08/2022 12:59 PM] glasgowm#9381
+Yep, #58 in terms of community-size.
+
+
+[06/08/2022 12:59 PM] glasgowm#9381
+https://docs.google.com/spreadsheets/d/1iP9VhGzAghFTsSGtdcktBWXwApXZ2Btme4tCgNK7MHk/edit
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1iP9VhGzAghFTsSGtdcktBWXwApXZ2Btme4tCgNK7MHk/edit
+Cryptocurrency subreddits with number of members
+Sheet1
+
+Specific CryptoCurrency subreddits sorted by number of members
+Compiled by u/Stompya - submissions & suggestions welcome
+Updated: 2022-06-07
+• Stablecoin and Exchange tokens are included although they only fit loosely here
+• Tokens with multiple subreddits have only the highest-population...
+https://images-ext-1.discordapp.net/external/hU31Ut7i4yJeZs-1dJt65x-ini-9VcqMkTsPZ55208o/https/lh3.googleusercontent.com/PtpY9pWtzBAh_Ydr2NhNFxvv4q-qgyIVApU0HrDkSp6G1ZeHhZ3qI4i8uktEPJfzniH-1j2geuqtlA%3Dw1200-h630-p
+
+
+[06/13/2022 1:52 PM] glasgowm#9381
+https://www.redective.com/
+
+{Embed}
+https://www.redective.com/
+Redective - The Reddit Search Detective
+Find information about Reddit users using Redective, the Reddit Search Detective
+
+
+[06/13/2022 6:25 PM] Sisyphuspush#7967
+Does anyone know another way of contacting admin of Ergo Nfts reddit besides directly through DM there? They don't seem to be active there at all and I would  like to do some stuff there along with the Ergo NFT Discord server I'm working on.
+
+
+[06/13/2022 6:27 PM] Sisyphuspush#7967
+Can't even get approval to post there as a new poster. I would think creating another Reddit isn't ideal, but its hard to grow that space if no one is tending to it
+
+
+[06/13/2022 11:32 PM] JOFLITO#0000
+(re  : *<Sisyphuspush> Does anyone know another way of contacting admin of Ergo Nfts reddit besides directly through DM there? They don't seem to be active there at all and I would  like to do some stuff there along with the Ergo NFT Discord server I'm working on.*) 
+ 
+ lets rug him
+
+
+[06/13/2022 11:32 PM] JOFLITO#0000
+create a new ergo nft subreddit
+
+
+[06/13/2022 11:32 PM] JOFLITO#0000
+then we shill it
+
+{Reactions}
+😆 
+
+[06/14/2022 7:03 PM] Armeanio#0321
+I don't want to pay people that encourage speculation. If someone wants to have an intelligent conversation I am always happy to join.
+
+
+[06/14/2022 7:04 PM] JOFLITO#0000
+(re  : *<Armeanio> [reply]: I don't want to pay people that encourage speculation. If someone wants to have an intelligent conversation I am always happy to join.*) 
+ 
+ this is a reply to what?
+
+
+[06/14/2022 7:04 PM] Armeanio#0321
+Unfortunately this tends to be the case
+
+
+[06/14/2022 7:05 PM] Armeanio#0321
+I didn't even consider channels trying to charge fees. But it's good to know, thanks!
+
+
+[06/14/2022 7:05 PM] JOFLITO#0000
+(re  : *<Armeanio> I didn't even consider channels trying to charge fees. But it's good to know, thanks!*) 
+ 
+ what?
+
+
+[06/14/2022 7:05 PM] JOFLITO#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/986330672320901130/file_26462.jpg
+
+
+[06/14/2022 7:06 PM] Armeanio#0000
+(re @C4lculista : *what?*) 
+ 
+ Reply to Bryce
+
+
+[06/14/2022 7:06 PM] JOFLITO#0000
+oh, thanks sir
+
+
+[06/14/2022 7:06 PM] Armeanio#0000
+Oh bridge bot looks messy
+
+
+[06/14/2022 7:18 PM] glasgowm#0000
+It can only reply to messages in its cache so resets whenever I restart it
+
+
+[06/20/2022 2:45 PM] glasgowm#9381
+Most active channels on Discord (the bridges are included so gives us insight into the whole ecosystem)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/988439361722925128/unknown.png
+
+
+[06/20/2022 2:45 PM] glasgowm#9381
+French community very active considering only ~130 people lol
+
+
+[06/20/2022 2:46 PM] Gazza_ERG#0000
+(re  : *<Glasgow> Most active channels on Discord (the bridges are included so gives us insight into the whole ecosystem)
+https://cdn.discordapp.com/attachments/920637968950120458/988439361722925128/unknown.png*) 
+ 
+ What's the time frame?
+
+
+[06/20/2022 2:46 PM] Gazza_ERG#0000
+Jesus off topic really taking the lead 😂
+
+{Reactions}
+😂 
+
+[06/20/2022 2:47 PM] JOFLITO#0000
+(re  : *<Glasgow> Most active channels on Discord (the bridges are included so gives us insight into the whole ecosystem)
+https://cdn.discordapp.com/attachments/920637968950120458/988439361722925128/unknown.png*) 
+ 
+ ergo mining in spanish is a sight to behold
+
+
+[06/20/2022 2:48 PM] JOFLITO#0000
+everything from "renting" gpus
+
+
+[06/20/2022 2:48 PM] JOFLITO#0000
+to getting the indian spotify
+
+
+[06/20/2022 2:48 PM] JOFLITO#0000
+I feel like at silkroad there
+
+
+[06/20/2022 2:48 PM] JOFLITO#0000
+🤣
+
+
+[06/20/2022 2:48 PM] dann#0000
+It s like the spanish off topic honestly but with actual mining talks
+
+
+[06/20/2022 2:48 PM] glasgowm#0000
+(re @C4lculista : *to getting the indian spotify*) 
+ 
+ lmao
+
+
+[06/20/2022 2:48 PM] dann#0000
+There are always the same 10 guys talking 24/7
+
+
+[06/20/2022 2:48 PM] JOFLITO#0000
+(re @glasgowm : *lmao*) 
+ 
+ 2 euros and 10 accounts
+
+
+[06/20/2022 2:49 PM] JOFLITO#0000
+best deals
+
+
+[06/20/2022 2:49 PM] glasgowm#0000
+(re @Gazza_SP : *What's the time frame?*) 
+ 
+ Past ~120 days
+
+
+[06/20/2022 2:53 PM] JOFLITO#0000
+1 and 2 are the real ergo groups 🤣
+
+
+[06/20/2022 2:53 PM] dann#0000
+(re  : *<Glasgow> Most active channels on Discord (the bridges are included so gives us insight into the whole ecosystem)
+https://cdn.discordapp.com/attachments/920637968950120458/988439361722925128/unknown.png*) 
+ 
+ French up there too wow
+
+
+[06/20/2022 4:47 PM] T U L O (ErgoMinnow)#6385
+Howdy! Happy to be here. Ive been going pretty hard on reddit trying to keep it active and engaging, thats definitely something I will continue to do for the community 🙂
+
+
+[06/20/2022 4:53 PM] T U L O (ErgoMinnow)#6385
+@CW being here reminds me of what you told me earlier, uploading the documents I wrote to Medium
+
+
+[06/20/2022 4:54 PM] T U L O (ErgoMinnow)#6385
+Im going to look into that as I totally forgot
+
+
+[06/20/2022 5:05 PM] T U L O (ErgoMinnow)#6385
+I will continue my community engagement on reddit right now 🙂 Let's bring the community together!
+
+
+[06/20/2022 5:05 PM] T U L O (ErgoMinnow)#6385
+If anyone isnt sure as well, im ErgoMinnow on Twitter and SkepicalCryptoDude on reddit
+
+
+[06/20/2022 5:12 PM] T U L O (ErgoMinnow)#6385
+Welp, medium account created, time to figure out how to seamlessly move my google doc info to medium haha
+
+
+[06/20/2022 5:13 PM] T U L O (ErgoMinnow)#6385
+https://www.reddit.com/r/ergonauts/comments/vgozax/when_someone_asks_you_why_ergo_what_do_you_say/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/vgozax/when_someone_asks_you_why_ergo_what_do_you_say/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+r/ergonauts - When someone asks you “Why Ergo?” What do you say?
+0 votes and 0 comments so far on Reddit
+
+
+[06/20/2022 5:35 PM] T U L O (ErgoMinnow)#6385
+https://medium.com/@tuloergo/ergo-the-ecosystem-55e35915f6b
+
+{Embed}
+https://medium.com/@tuloergo/ergo-the-ecosystem-55e35915f6b
+Ergo: The Ecosystem
+Clear and Concise: Why Ergo?
+https://images-ext-1.discordapp.net/external/iHXuONibVOhBvKUTSzliYOdVrK696HtyGpNoDWkN8fc/https/miro.medium.com/max/735/0%2Av-Ac4HXfoB8V3nze
+
+{Reactions}
+ergo_orange (2) 
+
+[06/20/2022 5:35 PM] T U L O (ErgoMinnow)#6385
+Ergo Ecosystem Newcomer Document now published to Medium. If you guys could share this Id be thankful:)
+
+
+[06/20/2022 5:36 PM] T U L O (ErgoMinnow)#6385
+I'll upload this to reddit a little while later as well.
+
+
+[06/20/2022 8:04 PM] Sisyphuspush#7967
+Any possibility of getting a bridge for the NFT Discord? Not sure if someone already reached out about it or not.
+
+
+[06/20/2022 8:07 PM] JOFLITO#0000
+(re  : *<Sisyphuspush> Any possibility of getting a bridge for the NFT Discord? Not sure if someone already reached out about it or not.*) 
+ 
+ there is
+
+
+[06/20/2022 8:07 PM] JOFLITO#0000
+from auctionhouse channel to nft tg group
+
+
+[06/20/2022 9:12 PM] glasgowm#9381
+On the list
+
+{Reactions}
+❤️ (3) 
+
+[06/21/2022 5:13 PM] T U L O (ErgoMinnow)#6385
+https://medium.com/@tuloergo/ergos-dapps-and-projects-utility-23cd1b888da9
+
+{Embed}
+https://medium.com/@tuloergo/ergos-dapps-and-projects-utility-23cd1b888da9
+Ergo’s Dapps and Projects: Utility
+Ergo’s Foundation: The Building Process
+https://images-ext-2.discordapp.net/external/62z5E9s0kR7ZY4T-Ng-BMI7LiavLlurKWK3alGJairU/https/miro.medium.com/max/836/0%2Ag1Un1NhD1Us8EWSc
+
+{Reactions}
+🔥 
+
+[06/21/2022 5:13 PM] T U L O (ErgoMinnow)#6385
+Second document is now published to medium
+
+
+[06/23/2022 6:51 AM] T U L O (ErgoMinnow)#6385
+total views on Medium.. I mean... its better than 0 yeah? hah
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/989407370742476920/unknown.png
+
+
+[06/23/2022 6:51 AM] T U L O (ErgoMinnow)#6385
+only been a couple days i suppose.
+
+
+[06/23/2022 6:52 AM] CW#0000
+resources like this are invaluable. people will refer to them for months/years
+
+{Reactions}
+❤️ (2) 
+
+[06/23/2022 6:53 AM] Gazza_ERG#0000
+Yeah short term this is pretty standard amount of views for anything on Ergo honestly, don't get disheartened
+
+
+[06/23/2022 1:50 PM] T U L O (ErgoMinnow)#6385
+Thanks guys:)
+
+
+[06/23/2022 3:52 PM] glasgowm#0000
+especially during downturns. During a bull you’d get 10x
+
+
+[06/23/2022 4:52 PM] T U L O (ErgoMinnow)#6385
+Ill keep grinding away:)
+
+
+[06/23/2022 7:03 PM] T U L O (ErgoMinnow)#6385
+I am indeed grinding away, Ill post my next article for medium here for proofreading/editing before I send it out:)
+
+
+[06/23/2022 7:04 PM] T U L O (ErgoMinnow)#6385
+Might be finished today, we will see.
+
+
+[06/23/2022 11:28 PM] T U L O (ErgoMinnow)#6385
+Finalizing the article now.
+
+
+[06/23/2022 11:34 PM] CW#0000
+just the nature of the market at the moment, numbers are down across the board (literally 😅) once things turn around, having things like this ready is great. good work mate
+
+
+[06/23/2022 11:35 PM] T U L O (ErgoMinnow)#6385
+Very true, things are quiet nowadays. Its kinda nice... but wont always be like this no doubt
+
+
+[06/23/2022 11:39 PM] CW#0000
+yep! time to buidl, writel and wait for the inevitablelll lol
+
+{Reactions}
+😂 
+
+[06/23/2022 11:48 PM] T U L O (ErgoMinnow)#6385
+You bet!
+
+
+[06/23/2022 11:48 PM] T U L O (ErgoMinnow)#6385
+Okay I am finished ( I think)
+
+
+[06/23/2022 11:48 PM] T U L O (ErgoMinnow)#6385
+https://medium.com/@tuloergo/ergo-the-climb-into-the-top-10-c5310ee8f4c3
+
+{Embed}
+https://medium.com/@tuloergo/ergo-the-climb-into-the-top-10-c5310ee8f4c3
+
+
+[06/23/2022 11:48 PM] T U L O (ErgoMinnow)#6385
+This is still in drafts before I send it out
+
+
+[06/23/2022 11:48 PM] T U L O (ErgoMinnow)#6385
+If any of you want to quickly edit/proofread that would be fantastic.
+
+
+[06/23/2022 11:48 PM] T U L O (ErgoMinnow)#6385
+Let me know what you think 🙂
+
+
+[06/23/2022 11:49 PM] T U L O (ErgoMinnow)#6385
+Maybe in the future I could implement APA format to make it a little more professional.
+
+
+[06/23/2022 11:49 PM] T U L O (ErgoMinnow)#6385
+Been awhile since ive had to do that (university days) haha!
+
+
+[06/24/2022 1:21 AM] Sisyphuspush#7967
+@T U L O (ErgoMinnow) I really enjoyed the read!
+
+
+[06/24/2022 1:30 AM] Sisyphuspush#7967
+My 2 cents, if you find it worth adding...One of the strongest arguments for Ergo is the community and the ethos which unite them...those 1st principles...and how that drives innovation within the community. I think there is room to show that in some of the areas you mentioned.
+
+{Reactions}
+ergo_orange 
+
+[06/24/2022 1:33 AM] Sisyphuspush#7967
+Maybe I'm just being selfish and want to get more words out of you. I really enjoy all of these writeups from you and am glad you found the inspiration to share your talent at the perfect time!
+
+
+[06/24/2022 1:38 AM] T U L O (ErgoMinnow)#6385
+Thanks so much man 🙂 I am happy to  include that. I agree wholeheartedly.
+
+{Reactions}
+❤️ 
+
+[06/24/2022 1:40 AM] Sisyphuspush#7967
+I was thinking of that when reading over the mining part...How EIP-27 came about...Getblock.io doing voting within the pool and the sub-pooling t make it more lucrative for miners long term..
+
+
+[06/24/2022 1:40 AM] T U L O (ErgoMinnow)#6385
+subpooling is such a game changer my god.
+
+
+[06/24/2022 1:40 AM] T U L O (ErgoMinnow)#6385
+is that happening on any other chain atm?
+
+
+[06/24/2022 1:41 AM] Sisyphuspush#7967
+I dont know
+
+
+[06/24/2022 1:41 AM] Sisyphuspush#7967
+All of this is above my pay-grade lol
+
+
+[06/24/2022 1:41 AM] Sisyphuspush#7967
+I'm just happy to understand the bits that I think I do
+
+
+[06/24/2022 1:42 AM] T U L O (ErgoMinnow)#6385
+right...
+
+
+[06/24/2022 1:42 AM] T U L O (ErgoMinnow)#6385
+If only I had paid attention in comp sci class in highschool :3
+
+{Reactions}
+😂 
+
+[06/24/2022 1:45 AM] T U L O (ErgoMinnow)#6385
+Okay well, I know you guys are very busy so I think I'll go ahead and post it.
+
+
+[06/24/2022 1:52 AM] T U L O (ErgoMinnow)#6385
+https://medium.com/@tuloergo/ergo-the-climb-into-the-top-10-c5310ee8f4c3
+
+{Embed}
+https://medium.com/@tuloergo/ergo-the-climb-into-the-top-10-c5310ee8f4c3
+Ergo: The Climb Into the Top 10
+The Case for Ergo to be a Top 10 Project
+https://images-ext-2.discordapp.net/external/JIN39sQyGZktX3z-zsCEsJaTtJEd8bGhqxKQgTFLBJY/https/miro.medium.com/max/444/0%2Ak-TC2sn7FUA16WDx
+
+{Reactions}
+ergo_orange (2) kushtinaut 
+
+[06/24/2022 1:52 AM] T U L O (ErgoMinnow)#6385
+Hope you all enjoy.
+
+{Reactions}
+👍 
+
+[06/25/2022 10:49 PM] T U L O (ErgoMinnow)#6385
+we growing 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/990373169103781918/unknown.png
+
+{Reactions}
+ergo_orange (3) 
+
+[06/25/2022 10:49 PM] T U L O (ErgoMinnow)#6385
+Working on another article as we speak, so excited for this one!
+
+{Reactions}
+❤️ (3) 
+
+[06/28/2022 1:01 AM] T U L O (ErgoMinnow)#6385
+Just finished my article on the reason why Ergo has set itself up for longevity in the cryptocurrency space. "A Blockchain to Stand the Test of Time." 🙂
+
+
+[06/28/2022 1:02 AM] T U L O (ErgoMinnow)#6385
+Collaborating with Sean about a potential release date. Trying not to bombard him with 100 articles at once.
+
+{Reactions}
+sigmanaut 
+
+[06/29/2022 7:27 PM] T U L O (ErgoMinnow)#6385
+Made a poll on twiiter but about me organizing a social media event takeover. So far 100% in favour 🙂 Poll ends in 1 day will update you all
+
+
+[06/29/2022 7:38 PM] glasgowm#0000
+What is a social media event takeover
+
+
+[06/29/2022 7:53 PM] T U L O (ErgoMinnow)#6385
+Just an Ergo awareness spreading event
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/991778435556982824/IMG_2598.png
+
+
+[06/29/2022 11:02 PM] AndyLowe#0000
+(re  : *<T U L O (ErgoMinnow)> Just an Ergo awareness spreading event
+https://cdn.discordapp.com/attachments/920637968950120458/991778435556982824/IMG_2598.png*) 
+ 
+ Sounds good
+
+
+[06/29/2022 11:25 PM] JOFLITO#0000
+(re  : *<T U L O (ErgoMinnow)> Just an Ergo awareness spreading event
+https://cdn.discordapp.com/attachments/920637968950120458/991778435556982824/IMG_2598.png*) 
+ 
+ so the original sentence goes where?
+
+
+[06/29/2022 11:25 PM] JOFLITO#0000
+we raid those videos?
+
+
+[06/30/2022 12:25 AM] T U L O (ErgoMinnow)#6385
+Yeah kinda like a raid.
+
+
+[06/30/2022 12:29 AM] glasgowm#0000
+Reddit will ban you and maybe blacklist Ergo 😬
+
+
+[06/30/2022 12:29 AM] glasgowm#0000
+Think on Twitter that kinda stuff is welcomed though
+
+
+[06/30/2022 12:53 AM] T U L O (ErgoMinnow)#6385
+Ah thats fair good call.
+
+
+[06/30/2022 12:53 AM] T U L O (ErgoMinnow)#6385
+It sounded like a better idea in my head tbh LOL
+
+
+[06/30/2022 12:54 AM] T U L O (ErgoMinnow)#6385
+I wonder if Youtube would be a decent avenue for it.
+
+
+[06/30/2022 12:54 AM] CW#0000
+yeah reddit doesnt take to kindly to brigading. With this sort of thing its important not to be shilly.  genuine, engaged content in their conversation more beneficial
+
+
+[06/30/2022 12:54 AM] T U L O (ErgoMinnow)#6385
+Yeah thats fair tbh, ill scrap this idea LOL.
+
+
+[06/30/2022 12:56 AM] CW#0000
+on the flip side, organised messaging, tweets, infographics on a single topic on the pros/cons of ergo is great. pick a subject, spin up some hype
+
+
+[06/30/2022 1:07 AM] T U L O (ErgoMinnow)#6385
+Yeah no doubt, I’ll think something up 👍
+
+
+[06/30/2022 11:42 AM] glasgowm#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/992017394383999127/file_31356.jpg
+
+
+[06/30/2022 11:43 AM] glasgowm#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/992017433214853210/randy-savage-crown.mp4
+
+
+[06/30/2022 11:43 AM] glasgowm#0000
+https://old.reddit.com/r/CryptoCurrency/comments/vnok71/does_ethereum_20_mean_the_end_for_alternate_layer/
+
+{Embed}
+https://old.reddit.com/r/CryptoCurrency/comments/vnok71/does_ethereum_20_mean_the_end_for_alternate_layer/
+r/CryptoCurrency - Does "Ethereum 2.0" mean the end for alternate L...
+363 votes and 358 comments so far on Reddit
+
+
+[06/30/2022 11:47 AM] glasgowm#0000
+eth fanbois are out in force, will be lots of threads over the next few months where we can pull people in.
+
+Remember to include the r/ergonauts tag in your comment to pull people in (or edit it in once you have a few upvotes)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/992018416141611048/file_31358.jpg
+
+
+[06/30/2022 11:51 AM] glasgowm#0000
+(re  : *<T U L O (ErgoMinnow)> Yeah no doubt, I’ll think something up 👍*) 
+ 
+ Those google docs you’ve been doing would do well on r/cryptocurrency as OC posts
+
+
+[06/30/2022 3:07 PM] NoahErgo#0000
+Before i was banned there i had success with try hard posts that made use of images + links
+
+https://www.reddit.com/r/CryptoCurrency/comments/q2fw51/tired_of_waiting_on_cardano_dapps_to_launch_have/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+{Embed}
+https://www.reddit.com/r/CryptoCurrency/comments/q2fw51/tired_of_waiting_on_cardano_dapps_to_launch_have/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+r/CryptoCurrency - Tired of waiting on Cardano dapps to launch? Hav...
+125 votes and 40 comments so far on Reddit
+
+
+[06/30/2022 3:13 PM] T U L O (ErgoMinnow)#6385
+Sorry what are OC posts? Also r/cryptocurrency banned me for “shilling” lmao
+
+
+[06/30/2022 3:14 PM] glasgowm#0000
+rip
+
+
+[06/30/2022 3:14 PM] glasgowm#0000
+original content
+
+
+[06/30/2022 3:14 PM] T U L O (ErgoMinnow)#6385
+They switched my ban to 28 days though
+
+
+[06/30/2022 3:14 PM] T U L O (ErgoMinnow)#6385
+Oh okay
+
+
+[06/30/2022 3:14 PM] T U L O (ErgoMinnow)#6385
+Yeah the mods there are wild
+
+
+[06/30/2022 3:17 PM] NoahErgo#0000
+I got banned for vote manipulation on a post about night owl when it was other team members that found my post and did the manipulation lmao. CC mods scouted the telegram and read through it
+
+
+[06/30/2022 3:18 PM] NoahErgo#0000
+They must have a team of rats that just sift through telegrams all day
+
+
+[06/30/2022 3:18 PM] Gazza_ERG#0000
+(re @NoahErgo : *They must have a team of rats that just sift through telegrams all day*) 
+ 
+ Are they somehow paid for that shit job?
+
+
+[06/30/2022 3:18 PM] Gazza_ERG#0000
+Or just love the power
+
+
+[06/30/2022 3:18 PM] NoahErgo#0000
+Power hungry is my guess
+
+
+[06/30/2022 3:19 PM] Gazza_ERG#0000
+How sad
+
+
+[06/30/2022 3:20 PM] CW#0000
+I still have an account with enough karma I can burn on CC if needed
+
+
+[06/30/2022 3:21 PM] Maarten_V#0000
+got a account with some karma on it.... still don't know how to use it however
+
+
+[06/30/2022 3:21 PM] JOFLITO#0000
+(re @Gazza_SP : *Are they somehow paid for that shit job?*) 
+ 
+ yes
+
+
+[06/30/2022 3:21 PM] JOFLITO#0000
+they get moons
+
+
+[06/30/2022 3:21 PM] NoahErgo#0000
+Lmao
+
+
+[06/30/2022 3:22 PM] JOFLITO#0000
+I used to have karma/etc maybe I lost it due to inactivity
+
+
+[06/30/2022 3:22 PM] NoahErgo#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/992072700799483924/file_31434.jpg
+
+
+[06/30/2022 3:22 PM] NoahErgo#0000
+Mods on suicide watch
+
+
+[06/30/2022 3:23 PM] T U L O (ErgoMinnow)#6385
+i have like 6000 moons
+
+
+[06/30/2022 3:23 PM] T U L O (ErgoMinnow)#6385
+i shud just sell those and buy some erg lmao
+
+
+[06/30/2022 3:23 PM] NoahErgo#0000
+(re @NoahErgo : **) 
+ 
+ This looks like erg chart ahahahha
+
+
+[06/30/2022 3:23 PM] NoahErgo#0000
+(re  : *<T U L O (ErgoMinnow)> i shud just sell those and buy some erg lmao*) 
+ 
+ Yes
+
+
+[06/30/2022 3:24 PM] J - The Ergod#0000
+i got banned for posting about erg a while back
+
+
+[06/30/2022 3:24 PM] NoahErgo#0000
+(re @TheRealErgoGod : *i got banned for posting about erg a while back*) 
+ 
+ I sacrificed my account for your project sir
+
+
+[06/30/2022 3:25 PM] T U L O (ErgoMinnow)#6385
+LOL
+
+
+[06/30/2022 3:25 PM] Gazza_ERG#0000
+(re @C4lculista : *they get moons*) 
+ 
+ Who would actually buy a moon off them to sell though? 😂
+
+
+[06/30/2022 3:25 PM] T U L O (ErgoMinnow)#6385
+I think there is a way to sell them. However, I have no idea how.
+
+
+[06/30/2022 3:25 PM] T U L O (ErgoMinnow)#6385
+i have like 16.5k karma on my acc lmfao..
+
+
+[06/30/2022 3:25 PM] T U L O (ErgoMinnow)#6385
+sacrificed for Ergo, always 🙂
+
+
+[06/30/2022 3:29 PM] JOFLITO#0000
+(re @Gazza_SP : *Who would actually buy a moon off them to sell though? 😂*) 
+ 
+ moonboys, duh
+
+{Reactions}
+😂 
+
+[06/30/2022 3:29 PM] JOFLITO#0000
+I sold moons for XLM
+
+
+[06/30/2022 3:30 PM] JOFLITO#0000
+got pizzas for me, my mom and the wife
+
+
+[06/30/2022 3:30 PM] JOFLITO#0000
+best crypto deal of my life
+
+
+[06/30/2022 3:34 PM] dann#0000
+(re @C4lculista : *best crypto deal of my life*) 
+ 
+ That is exactly what the guy that purchased 2 pizzas with some bitcoins in the past thought
+
+
+[06/30/2022 3:40 PM] T U L O (ErgoMinnow)#6385
+Joflito you’ll have to teach me how to yeet these moons
+
+
+[06/30/2022 3:40 PM] T U L O (ErgoMinnow)#6385
+I’ll just grab more Erg lol
+
+
+[06/30/2022 3:44 PM] J - The Ergod#0000
+(re @NoahErgo : *I sacrificed my account for your project sir*) 
+ 
+ thank you sir
+
+
+[06/30/2022 3:44 PM] J - The Ergod#0000
+F
+
+
+[06/30/2022 4:00 PM] JOFLITO#0000
+Celesti - Buy & Sell Moons
+https://celesti.trade/maintenance.php
+
+
+[06/30/2022 4:00 PM] JOFLITO#0000
+looks lile you cant lol
+
+
+[06/30/2022 4:04 PM] T U L O (ErgoMinnow)#6385
+Interesting
+
+
+[06/30/2022 4:04 PM] T U L O (ErgoMinnow)#6385
+lmaooo
+
+
+[06/30/2022 4:05 PM] T U L O (ErgoMinnow)#6385
+maybe im stuck with em for a bit.
+
+
+[06/30/2022 4:30 PM] koutelier#0000
+(re @NoahErgo : *I got banned for vote manipulation on a post about night owl when it was other team members that found my post and did the manipulation lmao. CC mods scouted the telegram and read through it*) 
+ 
+ Sorry for that
+
+
+[06/30/2022 4:31 PM] NoahErgo#0000
+(re @koutelier : *Sorry for that*) 
+ 
+ Haha its ok sir
+
+
+[06/30/2022 4:31 PM] NoahErgo#0000
+CC is terrible anyway
+
+
+[06/30/2022 4:31 PM] NoahErgo#0000
+Good riddance
+
+
+[06/30/2022 5:28 PM] J - The Ergod#0000
+yea they suck. banned me and muted me from speaking to admins lol
+
+
+[06/30/2022 5:33 PM] T U L O (ErgoMinnow)#6385
+Reminds me of leaders of runescape clans
+
+
+[06/30/2022 5:33 PM] T U L O (ErgoMinnow)#6385
+mega power hungry lol
+
+
+[06/30/2022 8:26 PM] JOFLITO#0000
+Sirs
+
+
+[06/30/2022 8:26 PM] JOFLITO#0000
+proof of stake sirs destroyed the meaning of staking
+
+
+[06/30/2022 8:26 PM] JOFLITO#0000
+and now it means locking and getting rewards for it
+
+
+[06/30/2022 8:27 PM] JOFLITO#0000
+how about we degenerate the meaning of mining?
+
+
+[06/30/2022 8:27 PM] JOFLITO#0000
+what if we say "mine ergo without a GPU (as a millionaire)"
+
+
+[06/30/2022 8:27 PM] JOFLITO#0000
+and instead of mining is an offchain bot tutorial
+
+
+[06/30/2022 8:29 PM] JOFLITO#0000
+and then people make comments saying how we are dumb, and vote it down, and some others saying we are geniuses and asking about raspberry pis. youtube algorithm would love it
+
+
+[06/30/2022 8:57 PM] NoahErgo#0000
+Call it lite mining
+
+
+[06/30/2022 9:09 PM] JOFLITO#0000
+😅
+
+
+[07/08/2022 8:05 AM] T U L O (ErgoMinnow)#6385
+https://www.reddit.com/r/ergonauts/comments/vu3bd8/whats_your_story/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/vu3bd8/whats_your_story/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+r/ergonauts - What’s your story?
+0 votes and 3 comments so far on Reddit
+
+
+[07/10/2022 6:47 AM] T U L O (ErgoMinnow)#6385
+Hi everyone, if you havent seen it yet, i highly suggest you watch this video by Max Maher.
+
+
+[07/10/2022 6:47 AM] T U L O (ErgoMinnow)#6385
+https://www.youtube.com/watch?v=VWpkio6lfO0
+
+{Embed}
+Max Maher
+https://www.youtube.com/watch?v=VWpkio6lfO0
+We're About to Lose A Huge Part of Crypto...
+Ethereum. Crypto Mining. Crypto Staking.
+📱FTX App (code Max1): https://link.blockfolio.com/9dzp/1n8yfjui
+FTX Exchange (Get $25 when you trade over $250!): https://ftx.us/home/#a=maxmaher
+
+💵Finova Membership Link: https://finova.finance/plans/
+
+👴iTrust Capital Crypto Roth ($100 free) https://itrust.capital/maher
+🤖Pionex trading bots: https://www....
+https://images-ext-1.discordapp.net/external/Jf3GwzujOos1OBDosZ2e1jiHjYP8EuFKpKVRTLrHKVs/https/i.ytimg.com/vi/VWpkio6lfO0/maxresdefault.jpg
+
+{Reactions}
+👀 
+
+[07/10/2022 6:48 AM] T U L O (ErgoMinnow)#6385
+Ergo is mentioned quite a lot here
+
+
+[07/10/2022 7:34 AM] koutelier#0000
+22.5% will go to ergo more than any other network
+
+
+[07/10/2022 5:26 PM] T U L O (ErgoMinnow)#6385
+Yessir:)
+
+
+[07/11/2022 2:50 PM] glasgowm#0000
+Tokens allocated to insiders a good thing? 🤔
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/996050929180754000/file_34774.jpg
+
+
+[07/11/2022 2:52 PM] T U L O (ErgoMinnow)#6385
+Lmaooo
+
+
+[07/11/2022 2:52 PM] T U L O (ErgoMinnow)#6385
+I also wasn’t impressed that he didn’t have GitHub commits for ergo
+
+
+[07/11/2022 2:52 PM] T U L O (ErgoMinnow)#6385
+Isn’t that info public ?
+
+
+[07/11/2022 2:55 PM] glasgowm#0000
+maybe he used https://www.cryptomiso.com/ which hasn’t been updated since 2019
+
+{Embed}
+https://www.cryptomiso.com/
+CryptoMiso - Ranking cryptocurrencies based on Github commits
+CryptoMiso is a web service ranking cryptocurrencies based on the commit history of their most popular Github repository.
+https://images-ext-1.discordapp.net/external/9uleVUKmzfFbEnM5G2OECGs16QL6N1JXVmrSuCGY9iI/https/www.cryptomiso.com/assets/miso_fbshare.png
+
+
+[07/11/2022 2:59 PM] T U L O (ErgoMinnow)#6385
+Yikes
+
+
+[07/21/2022 3:52 PM] T U L O (ErgoMinnow)#6385
+Just throwing a suggestion out there
+
+
+[07/21/2022 3:53 PM] T U L O (ErgoMinnow)#6385
+What if you guys took small important clips from the AMAs and uploaded to an official ergoplatform tiktok?
+
+
+[07/21/2022 3:53 PM] T U L O (ErgoMinnow)#6385
+I think that would be quite helpful in reaching new people.
+
+
+[07/22/2022 5:37 PM] NoahErgo#4349
+@T U L O (ErgoMinnow) would you like to run it?
+
+
+[07/22/2022 5:37 PM] NoahErgo#4349
+i think you are by far the most versed in tiktok of everyone in the community
+
+
+[07/22/2022 5:37 PM] T U L O (ErgoMinnow)#6385
+I dont think I have the time right now due to writing/editing articles and launching Ergo Champions NFT project soon. I could after the NFT launch?
+
+
+[07/22/2022 5:38 PM] T U L O (ErgoMinnow)#6385
+I could probably take it on in the future.
+
+
+[07/22/2022 5:38 PM] NoahErgo#4349
+makes sense
+
+
+[07/22/2022 5:38 PM] NoahErgo#4349
+dont stretch yourself thin haha
+
+
+[07/22/2022 5:38 PM] T U L O (ErgoMinnow)#6385
+yeah for sure
+
+
+[07/22/2022 5:38 PM] T U L O (ErgoMinnow)#6385
+I think the tiktok thing would be really easy to be fair though.
+
+
+[07/22/2022 5:38 PM] T U L O (ErgoMinnow)#6385
+If somone is willing to find and cut the clips from AMAs etc
+
+
+[07/22/2022 5:38 PM] T U L O (ErgoMinnow)#6385
+u just literally upload it from there
+
+
+[07/22/2022 5:38 PM] NoahErgo#4349
+seems like something that might be more effective during bull market anyway since tiktok is such a shortlived media form
+
+
+[07/22/2022 5:39 PM] T U L O (ErgoMinnow)#6385
+It would definitely be more effective during a bull market but I think has value even right now.
+
+
+[07/22/2022 5:39 PM] T U L O (ErgoMinnow)#6385
+Its a low effort thing for more exposure imo.
+
+
+[07/22/2022 5:39 PM] T U L O (ErgoMinnow)#6385
+but it would take someone finding and cutting the ama clips which would take some work.
+
+
+[07/22/2022 5:40 PM] NoahErgo#4349
+when you have some free time lets regroup on it and make a plan
+
+
+[07/22/2022 5:40 PM] Luivatra#9076
+the minor/miner joke fits right on tiktok 😛
+
+
+[07/22/2022 5:40 PM] T U L O (ErgoMinnow)#6385
+Sounds good 👍
+
+
+[07/22/2022 5:40 PM] T U L O (ErgoMinnow)#6385
+LOL fr.
+
+
+[07/22/2022 5:40 PM] NoahErgo#4349
+could be good for sigcans/sigmanauts
+
+
+[07/22/2022 5:41 PM] Luivatra#9076
+the day I hear Dan's voice from my kids phone will mean that we made it
+
+
+[07/22/2022 5:41 PM] T U L O (ErgoMinnow)#6385
+lmaoo there you go
+
+
+[07/31/2022 1:10 PM] T U L O (ErgoMinnow)#6385
+@NoahErgo I’m a bit more free now, I’m thinking I could probably help with the tiktok idea. What I’m thinking as well is we could rely on the community to send cool clips from AMAs/YouTube videos etc and I can just easily upload from there.
+
+
+[07/31/2022 1:35 PM] T U L O (ErgoMinnow)#6385
+I genuinely think this is an extremely underrated way to gain more exposure for Ergo and its free which is great.
+
+
+[07/31/2022 1:35 PM] T U L O (ErgoMinnow)#6385
+Crypto is pretty big on tiktok as well
+
+
+[07/31/2022 3:13 PM] NoahErgo#0000
+Yeah are there youtube clipper services where you can download a specifictime range?
+
+
+[07/31/2022 8:18 PM] T U L O (ErgoMinnow)#6385
+I would assume so but I have never used that before.
+
+
+[07/31/2022 8:19 PM] T U L O (ErgoMinnow)#6385
+@Armeanio @glasgowm @CW Are you guys okay with me making a Tiktok with the account name Ergo Platform? And then uploading cool clips ?
+
+
+[07/31/2022 8:19 PM] T U L O (ErgoMinnow)#6385
+I just dont wanna do it on my personal account tbh.
+
+
+[07/31/2022 10:00 PM] koutelier#0000
+https://youtu.be/4D9s0KNfq_Y
+
+{Embed}
+Solana
+https://www.youtube.com/watch?v=4D9s0KNfq_Y
+Google Ads - Summer Camp Hackathon FINAL without Bane intro
+https://images-ext-2.discordapp.net/external/7m5lQZ5PavVpy398OBZ4T2PRL0Yjw0t4hNIpD7JPQ7o/https/i.ytimg.com/vi/4D9s0KNfq_Y/maxresdefault.jpg
+
+
+[07/31/2022 10:00 PM] koutelier#0000
+We need something like that
+
+
+[07/31/2022 10:00 PM] koutelier#0000
+Ergo has so many projects and open source libraries atm for devs to build
+
+
+[07/31/2022 10:01 PM] Armeanio#0000
+(re  : *<T U L O (ErgoMinnow)> @Armeanio @glasgowm @CW Are you guys okay with me making a Tiktok with the account name Ergo Platform? And then uploading cool clips ?*) 
+ 
+ It's needed. Feel free. 
+
+I have been asking for the twerg dance on tiktoc for over a year.
+
+{Reactions}
+😂 (3) 👍 (2) 
+
+[07/31/2022 10:01 PM] koutelier#0000
+(re @Armeanio : *It's needed. Feel free. 
+
+I have been asking for the twerg dance on tiktoc for over a year.*) 
+ 
+ Nah you are good . We have the gif from the ama you did with Dan few weeks ago
+
+
+[07/31/2022 10:03 PM] koutelier#0000
+(re @koutelier : *https://youtu.be/4D9s0KNfq_Y*) 
+ 
+ A nice looking video with casino inviting people to build games there , ka Ching , dappstep , nft marketplaces and basically all the dapps that are in ergo could worth the effort
+
+{Embed}
+Solana
+https://www.youtube.com/watch?v=4D9s0KNfq_Y
+Google Ads - Summer Camp Hackathon FINAL without Bane intro
+https://images-ext-2.discordapp.net/external/7m5lQZ5PavVpy398OBZ4T2PRL0Yjw0t4hNIpD7JPQ7o/https/i.ytimg.com/vi/4D9s0KNfq_Y/maxresdefault.jpg
+
+
+[07/31/2022 10:06 PM] koutelier#0000
+Just so new people see what ergo currently has . Man I am almost a year in ergo and the amount of projects that have been developed is crazy
+
+
+[07/31/2022 10:17 PM] T U L O (ErgoMinnow)#6385
+Sounds good, I'll create an account then. I'll need to rely on the community to help me find clips because that could be very time consuming with everything else I have going on. I'm sure the community will be all over this tbh.
+
+{Reactions}
+👍 
+
+[07/31/2022 10:45 PM] NoahErgo#4349
+Nice man yeah send a link through when its up and we can put the word out to the community
+
+{Reactions}
+🔥 👍 
+
+[07/31/2022 10:47 PM] NoahErgo#4349
+Today I connected a guy who is good with ergoscript with a project manager who has been seeking a dev for a while (he backed out of ergohack fest due to the original dev backing out). Should be interesting they have some big plans for a protocol owned liquidity platform that will be tokenless
+
+
+[07/31/2022 10:48 PM] NoahErgo#4349
+Always happy to help get new devs involved and have a feeling this will be a good one
+
+
+[08/01/2022 12:52 AM] T U L O (ErgoMinnow)#6385
+Ill announce the tiktok thing to the community on twitter on Aug 3 or 4th
+
+
+[08/01/2022 12:52 AM] T U L O (ErgoMinnow)#6385
+And then try to monitor it from there best i can
+
+
+[08/01/2022 1:22 AM] glasgowm#9381
+Just put community-run in the description otherwise we'll get people moaning. Might be good adding a bit to the manifesto to help clarify things
+
+
+[08/01/2022 1:38 AM] T U L O (ErgoMinnow)#6385
+Yeah good call. Also, what do you mean it might be good adding a bit to the manifesto?
+
+
+[08/01/2022 1:48 AM] glasgowm#9381
+The distinction between the EF / Ergo / Community - not sure it's described anywhere currently.
+
+
+[08/01/2022 1:51 AM] T U L O (ErgoMinnow)#6385
+So a disclaimer like “This account is run by the Ergo community members and not the Ergo team”?
+
+
+[08/01/2022 1:53 AM] glasgowm#9381
+'Community-run' like the insta should be fine. There is no real official 'ergo' team (which is the bit we should probably clarify in the manifesto)
+
+
+[08/01/2022 2:22 AM] T U L O (ErgoMinnow)#6385
+Ah okay
+
+
+[08/01/2022 2:22 AM] T U L O (ErgoMinnow)#6385
+Tbh even I’m confused with that
+
+
+[08/01/2022 2:22 AM] T U L O (ErgoMinnow)#6385
+I always thought the Ergo Foundation was synonymous with the Ergo Team
+
+
+[08/01/2022 2:37 AM] glasgowm#9381
+Nop the foundation is just a way to manage the treasury to push forward ergo. It pays devs, offers bounties, grants, etc. But if EF funding was the criterion for 'Ergo team' then loads of ecosystem projects / community devs would qualify. Similarly people working on the core could be salaried, rewarded, redeeming bounties, or just contributing for fun. The EF is community-ran too which makes things extra confusing; will write something up when I'm back.
+
+
+[08/01/2022 2:50 AM] T U L O (ErgoMinnow)#6385
+Interesting 👀 thanks for the clarification. Yeah this is definitely a misconception that a lot of the ergo community has I think haha
+
+
+[08/01/2022 7:46 AM] NoahErgo#4349
+confirmed that petur from koinly has been hanging in the dev channel asking questions, have established some communication with him directly so hopefully i can help smooth that integration process
+
+
+[08/01/2022 7:47 AM] NoahErgo#4349
+i shared him ergodex price apis but if you guys have any other ideas for what would make that integration easier please suggest ideas
+
+{Reactions}
+🔥 (3) 
+
+[08/01/2022 7:56 AM] koutelier#0000
+(re  : *<NoahErgo> i shared him ergodex price apis but if you guys have any other ideas for what would make that integration easier please suggest ideas*) 
+ 
+ What integration ?
+
+
+[08/01/2022 7:56 AM] NoahErgo#4349
+Koinly
+
+
+[08/01/2022 7:59 AM] koutelier#0000
+I missed that one . Koinly will track ergo tokens ?
+
+
+[08/01/2022 7:59 AM] NoahErgo#4349
+That has been my goal
+
+
+[08/01/2022 7:59 AM] NoahErgo#4349
+Made enough noise for us to get noticed and Petur is their product manager and have been talking to him
+
+
+[08/01/2022 8:00 AM] NoahErgo#4349
+So far nothing official
+
+
+[08/01/2022 8:05 AM] koutelier#0000
+Nice one man
+
+
+[08/01/2022 8:06 AM] koutelier#0000
+I though ergodex needed to do few things in order to achieve that
+
+
+[08/01/2022 8:07 AM] NoahErgo#4349
+Maybe it is true haha idk
+
+
+[08/01/2022 8:08 AM] NoahErgo#4349
+I gave him the price api and he seemed interested
+
+
+[08/01/2022 8:08 AM] T U L O (ErgoMinnow)#6385
+Nice Noah thats awesome.
+
+{Reactions}
+👍 
+
+[08/03/2022 11:36 AM] T U L O (ErgoMinnow)#6385
+Gonna start the Ergoplatform tiktok I think Aug5th.
+
+
+[08/03/2022 11:37 AM] T U L O (ErgoMinnow)#6385
+I honestly think this will be very valuable marketing and its free.
+
+
+[08/03/2022 11:37 AM] T U L O (ErgoMinnow)#6385
+Those Charles Hoskinson bits about Ergo I think are gonna be pretty popular.
+
+
+[08/03/2022 11:37 AM] T U L O (ErgoMinnow)#6385
+I know Ergo is separate from that and is an amazing protocol, but sometimes you need a little sex appeal to bring in some more eyeballs. I hope it helps lol.
+
+{Reactions}
+👍 (2) 
+
+[08/20/2022 12:56 PM] glasgowm#9381
+Absolutely, we want everybody 🙂
+
+Ergo also has much more sex-appeal than most if you hit them with the cyberpunk/manifesto angle
+
+
+[08/20/2022 12:57 PM] glasgowm#9381
+This sentiment is a bit worrying
+
+https://www.reddit.com/r/ergonauts/comments/wsxqqm/ergos_potential/il15n1e/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/wsxqqm/ergos_potential/il15n1e/
+r/ergonauts - Comment by u/aaaanoon on ”Ergos potential”
+45 votes and 18 comments so far on Reddit
+
+
+[08/20/2022 5:31 PM] NoahErgo#0000
+People have a hard time understanding ergo isnt a company
+
+
+[08/22/2022 4:04 AM] J - The Ergod#0000
+https://twitter.com/cryptorecruitr/status/1561513279016632324?s=21&t=GxuCUggyqHFzaz7Een88Ow
+
+{Embed}
+Dan Gambardello (@cryptorecruitr)
+https://twitter.com/cryptorecruitr/status/1561513279016632324?s=21&t=GxuCUggyqHFzaz7Een88Ow
+It’s impossible to not pay attention to $ERG right now. I’m getting so many comments about it.
+Likes
+189
+Twitter
+
+{Reactions}
+🔥 (2) 
+
+[08/23/2022 12:14 PM] glasgowm#0000
+Should be lots of posts on r/cc the next few weeks to keep an eye on  👀
+
+https://old.reddit.com/r/CryptoCurrency/comments/wvl7gl/most_pow_miners_intend_to_mine_ergo_not_ravencoin/
+
+{Embed}
+https://old.reddit.com/r/CryptoCurrency/comments/wvl7gl/most_pow_miners_intend_to_mine_ergo_not_ravencoin/
+r/CryptoCurrency - Most PoW miners intend to mine Ergo, not Ravenco...
+0 votes and 11 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/KfFDhj3EjtKKOILSglVAsJDN3EVM5QUZ72myCG9iX3Q/%3Fauto%3Dwebp%26s%3Dc1050a5912110ae2f9522e694f2331ab96f26e90/https/external-preview.redd.it/a2LcY7SDOrVPezc78xHVMiWPEFnVd6tD75CvLDCee44.jpg
+
+
+[08/23/2022 12:47 PM] koutelier#0000
+Really nice
+
+
+[08/30/2022 3:39 PM] glasgowm#9381
+idea from kushti: posting about erg on mining forums
+
+{Reactions}
+👍 
+
+[08/30/2022 3:46 PM] koutelier#0000
+(re  : *<Glasgow> idea from kushti: posting about erg on mining forums*) 
+ 
+ forums and subreddits ?
+
+
+[08/30/2022 4:03 PM] glasgowm#9381
+Subreddits are usually pretty hostile, like bitcointalk and other forums specifically for miners - not sure what they are tho
+
+
+[08/30/2022 4:04 PM] J - The Ergod#0000
+(re  : *<Glasgow> Subreddits are usually pretty hostile, like bitcointalk and other forums specifically for miners - not sure what they are tho*) 
+ 
+ wolf prob knows all of them
+
+
+[08/30/2022 4:25 PM] JOFLITO#0000
+(re  : *<Glasgow> Subreddits are usually pretty hostile, like bitcointalk and other forums specifically for miners - not sure what they are tho*) 
+ 
+ ooohhh
+
+
+[08/30/2022 8:04 PM] Arohbe#0000
+This is a good mining related discord server I recently found that Seb Fintech is behind with a bunch of other YouTubers.  They seem big on flux but they have a share your stuff channel.  https://discord.gg/misfitmining
+
+
+[08/30/2022 9:24 PM] Darkkknight111#0000
+At what level of confidence we can use the word "ASIC resistent" for autolykos ? Do u have something written down about the matter?
+
+
+[08/30/2022 9:25 PM] NoahErgo#0000
+(re @Darkkknight111 : *At what level of confidence we can use the word "ASIC resistent" for autolykos ? Do u have something written down about the matter?*) 
+ 
+ https://ergoplatform.org/en/blog/Ergo-and-The-Autolykos-Consensus-Mechanism-Part-II/
+
+
+[08/30/2022 9:55 PM] Darkkknight111#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/1014277296103903292/Group_177.png
+
+{Reactions}
+🔥 (5) 
+
+[08/30/2022 11:07 PM] J - The Ergod#0000
+looks good!! it would be good to add the hashtag so people know #DiscoverErgo
+
+
+[08/30/2022 11:08 PM] Darkkknight111#0000
+Will do sir
+
+
+[08/31/2022 10:09 AM] Darkkknight111#0000
+Under #exhanges on platform web, ergodex needs to be replaced with spectrum
+
+
+[08/31/2022 11:06 AM] hq3r#5569
+better sir?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/1014476186518298654/Group_178.png
+
+{Reactions}
+🔥 (4) 
+
+[08/31/2022 11:10 AM] Rishabh#7490
+Crazy bro 🔥🔥
+
+
+[08/31/2022 11:12 AM] Σϱγonario#6966
+Hi guys! I love both of them!
+
+
+[08/31/2022 11:13 AM] hq3r#5569
+provide me some 2 liners so i can design some stuff
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/1014478024219054191/aa.jpg
+
+
+[08/31/2022 11:45 AM] Σϱγonario#6966
+Ergo is implementing babel fees, it means that you can pay fees with native tokens as well. You're not gonna be without gas again!  How does it sound?
+
+
+[08/31/2022 11:45 AM] hq3r#5569
+stuff like that, yes .. for easy understanding
+
+
+[08/31/2022 11:46 AM] Σϱγonario#6966
+gonna think about some more!
+
+
+[08/31/2022 11:57 AM] glasgowm#9381
+They've actually been used in ergomixer since 2019 I believe too
+
+
+[08/31/2022 12:33 PM] Σϱγonario#6966
+really? didn't know that! that's  that kind of historical data that I think it must be highlighted.
+
+
+[08/31/2022 7:03 PM] hq3r#5569
+i am enjoying figma.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/1014596193717862450/Group_313.png
+
+{Reactions}
+🔥 
+
+[08/31/2022 7:16 PM] glasgowm#9381
+I'd maybe focus on things like on chain governance over ASIC resistance.
+
+
+[08/31/2022 7:16 PM] glasgowm#9381
+But also we should probably move these discussions to community marketing chat, wider audience the better.
+
+
+[08/31/2022 7:19 PM] Darkkknight111#0000
+I just had few things in my mind which are "attractive" for miners, just trying to design stuff for visuals because people don't like to read much... The next important event for ergo is the merge right? Just trying to be usefull 🙏
+
+
+[08/31/2022 7:22 PM] glasgowm#9381
+Just as a suggestion sir as ASIC resistance only goes so far. Think we're less asic resistant than eth for instance
+
+{Reactions}
+❤️ 
+
+[09/01/2022 8:37 AM] ErGonario#0000
+Hey everyone! Good morning!  I was thinking about building a ErgoplatfomIta page on tweeter. Maybe this can be a good strategy to gather more italian people. Because the Ergoitaly account it's not getting much attention. Maybe an official looking account can make the extra half mile we need! What you guys think?
+
+
+[09/01/2022 1:22 PM] hq3r#5569
+you were looking for some way to collect all ergo related videos few months back , i can make a video portal for it and have things more organized if you want
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/1014872948760379452/ergcube.gif
+
+{Reactions}
+🔥 
+
+[09/01/2022 1:25 PM] Darkkknight111#0000
+(re  : *<hq3r> you were looking for some way to collect all ergo related videos few months back , i can make a video portal for it and have things more organized if you want
+https://cdn.discordapp.com/attachments/920637968950120458/1014872948760379452/ergcube.gif*) 
+ 
+ All videos will be hiperlinked to YouTube , just a main page to have all content in one screen,not uploading
+
+
+[09/01/2022 2:16 PM] glasgowm#9381
+Amazing mate. Is this a framework you've found or what?
+
+
+[09/01/2022 2:17 PM] glasgowm#9381
+Yeah this is a good idea if you're willing to tweet. Think the spanish community have one too
+
+
+[09/01/2022 2:18 PM] Darkkknight111#0000
+(re  : *<Glasgow> Amazing mate. Is this a framework you've found or what?*) 
+ 
+ I used to run movies website in past and use a CMS which has easy backend and easy frontend to modify and adapt, "datalife engine " is the name of it, I can setup and run a website in minutes with it
+
+
+[09/01/2022 2:19 PM] glasgowm#9381
+nice one, never heard of it. More of a plex guy 😛
+
+
+[09/01/2022 2:23 PM] glasgowm#9381
+Can you link YT to this though? or have to rehost?
+
+
+[09/01/2022 2:24 PM] hq3r#5569
+we can do it like sigmaverse, hyperlink it , user click on it and goes to youtube or we can generate external page with iframe of video and let people comment and stuff on it
+
+
+[09/01/2022 2:24 PM] hq3r#5569
+polls can be added, mp3 players for podcast and stuff like that
+
+
+[09/01/2022 2:25 PM] glasgowm#9381
+sounds good
+
+
+[09/01/2022 2:27 PM] hq3r#5569
+should i waste my time on it then ? 😄
+
+
+[09/01/2022 2:27 PM] glasgowm#9381
+Maybe @AngieHar has some spreadsheets saved with youtube links about ergo she could share to save time.
+
+
+[09/01/2022 2:28 PM] glasgowm#9381
+Yeah think it'd be a good resource, would make a good raffle too
+
+
+[09/01/2022 2:38 PM] hq3r#5569
+will write down and showcase all the features i want to add and present it in better conditions
+
+
+[09/01/2022 2:39 PM] hq3r#5569
+raffle stuff isnt my thing , if you can make it happen and it pays for the anual cost of hosting and stuff, less stress on me
+
+{Reactions}
+👍 
+
+[09/01/2022 7:58 PM] Ergonautt#0000
+(re @Darkkknight111 : *I used to run movies website in past and use a CMS which has easy backend and easy frontend to modify and adapt, "datalife engine " is the name of it, I can setup and run a website in minutes with it*) 
+ 
+ Hey, Can you help us in making ergo nft website ( which has all the information of nft projects and artists like sigmaverse ). Me and @sisyphuspush was thinking of this from quite few weeks.
+
+
+[09/01/2022 8:08 PM] Darkkknight111#0000
+(re @Ergonautt : *Hey, Can you help us in making ergo nft website ( which has all the information of nft projects and artists like sigmaverse ). Me and @sisyphuspush was thinking of this from quite few weeks.*) 
+ 
+ Don't We have already have skyharbour for that ?
+
+
+[09/01/2022 8:08 PM] Darkkknight111#0000
+O you want a web without smart contracts, just a web 2.0 portal where you showcase the artists?
+
+
+[09/01/2022 8:16 PM] Ergonautt#0000
+(re @Darkkknight111 : *Don't We have already have skyharbour for that ?*) 
+ 
+ Not marketplace !
+
+
+[09/01/2022 8:17 PM] Ergonautt#0000
+(re @Darkkknight111 : *O you want a web without smart contracts, just a web 2.0 portal where you showcase the artists?*) 
+ 
+ Yup ! And we will think to add more features to this website in future.
+
+
+[09/01/2022 8:22 PM] Ergonautt#0000
+We have ergo nft group in discord which is made to promote new artists and nft projects in ergo ecosystem. So we are thinking of making a website too
+
+
+[09/01/2022 8:23 PM] Ergonautt#0000
+https://discord.gg/rstg5qqaDU
+
+
+[09/01/2022 10:31 PM] hq3r#5569
+enough for today i think
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/1015011026313433238/ergcube3.gif
+
+{Reactions}
+🔥 (6) 👍 ergo_black 
+
+[09/01/2022 10:37 PM] rustinmyeye#3722
+Wow that’s awesome
+
+
+[09/02/2022 1:12 AM] T U L O (ErgoMinnow)#6385
+Thats sick
+
+
+[09/03/2022 8:42 AM] NoahErgo#0000
+(re @Ergonautt : *Hey, Can you help us in making ergo nft website ( which has all the information of nft projects and artists like sigmaverse ). Me and @sisyphuspush was thinking of this from quite few weeks.*) 
+ 
+ this is a cool idea
+
+
+[09/03/2022 8:43 AM] NoahErgo#0000
+too big of scope for sigmaverse but a website just for nfts would be cool
+
+
+[09/03/2022 8:43 AM] NoahErgo#0000
+could make it for the hackathon :^)
+
+
+[09/03/2022 11:04 AM] Ergonautt#0000
+(re @NoahErgo : *could make it for the hackathon :^)*)
+
+
+[09/03/2022 11:04 AM] Ergonautt#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/1015562809217650688/woohoo-yeah.mp4
+
+
+[09/03/2022 1:26 PM] Darkkknight111#0000
+@Ergonautt I made that for my ergoprint project, see if u like the idea for the nft place
+
+
+[09/03/2022 3:58 PM] Sisyphuspush#7967
+I had started a basic website several weeks ago before I got sick. Its a basic one using MyWebsiteNow, but I plan on picking it back up again shortly since Ive been getting better.
+
+
+[09/03/2022 4:01 PM] Sisyphuspush#7967
+I had chatted w/ @Rishabh about helping out with it when I get started again. Maybe we can all get together and see if we can come up with something interesting.
+
+
+[09/03/2022 10:48 PM] hq3r#5569
+https://ergoraffle.com/raffle/show/c59adc57360dfdb51861ffccd75cbdfb7cdb7a144eaea9ed52bb933b0acf4fe4 if you guys see anything wrong with raffle, please let me know ❤️
+
+{Embed}
+https://ergoraffle.com/raffle/show/c59adc57360dfdb51861ffccd75cbdfb7cdb7a144eaea9ed52bb933b0acf4fe4
+Ergo Raffle
+Ergo raffle is a crowdfunding system based on ergo contracts
+
+{Reactions}
+🔥 
+
+[09/03/2022 11:46 PM] Ergonautt#0000
+(re @NoahErgo : *could make it for the hackathon :^)*) 
+ 
+ for hackathon?
+
+
+[09/03/2022 11:47 PM] Ergonautt#0000
+(re @Darkkknight111 : **) 
+ 
+ That's cool 👍🏻
+
+
+[09/04/2022 10:52 PM] hq3r#5569
+Have added the podcasts and more features to it , what do u guys think?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/1016103542966210701/ezgif-1-b5f0ec0e40.mp4
+
+{Reactions}
+🔥 (4) ergo_orange 
+
+[09/04/2022 10:54 PM] CW#0000
+Nice work mate
+
+
+[09/04/2022 10:55 PM] NoahErgo#0000
+So cool man
+
+
+[09/04/2022 11:08 PM] ErGonario#0000
+Very nice man
+
+
+[09/05/2022 1:36 AM] rustinmyeye#3722
+Very cool.
+
+
+[09/09/2022 7:55 AM] NoahErgo#4349
+Hi guys with recent attention on erg id like to try to think of ideas for community initiatives similar to getting onto koinly, exodus wallet, etc. any ideas?
+
+{Reactions}
+👍 
+
+[09/09/2022 7:55 AM] NoahErgo#4349
+Are there other wallets, services, etc. that could be feasible?
+
+
+[09/09/2022 7:58 AM] NoahErgo#4349
+Nft sales tracking websites that skyharbor api could plug into similar to defillama ?
+
+
+[09/09/2022 8:02 AM] NoahErgo#4349
+Maybe dappradar we could submit someprojects
+
+https://dappradar.com/
+
+{Embed}
+https://dappradar.com/
+DappRadar - The World’s Dapp Store | Blockchain Dapps Ranked
+Explore NFTs, NFT Marketplaces, Blockchain Games, De-Fi, Dapps On The Blockchain And More On The World’s Dapp Store.
+https://images-ext-2.discordapp.net/external/SCFpLfHWFusQt3afmpjZq60Y-ephWVg1ePwXfjKK6Ls/https/dappradar.com/public-assets/share-images/og-dappradar-home.png
+
+
+[09/09/2022 8:05 AM] NoahErgo#4349
+@rustinmyeye maybe you could help with this?
+
+
+[09/09/2022 12:00 PM] glasgowm#9381
+> Hi @glasgowm  who would be best to contact from your team for collaboration discussion?
+> I work for BwareLabs and we are infrastructure company focusing on API services, running validators and complex bridge solutions
+> https://bwarelabs.com/
+> Blast is our main product, and it's an API platform with support for 14 networks currently : Ethereum, BSC, Avalanche, Elrond, Polygon, Moonriver, Moonbeam, Fantom, ShidenNetwork and we recently released Optimism, Palm and Gnosis chain with plans to support more chains in the near future.
+> https://blastapi.io/
+> And we would love to schedule an introduction call with you to discuss if we could be of help.
+
+Any need for this?
+
+{Embed}
+https://bwarelabs.com/
+BwareLabs - Decentralized Infrastructure for Everyone
+Bware Labs provides an interface between Blockchain APIs consumers and node providers with integrated payment options and verified reliability, all embedded within our platform and protocol service.
+https://images-ext-2.discordapp.net/external/HKU9ewMehyachkyBuTrlU4Ulhtp6JsndzBcEHWiVKhg/https/bwarelabs.com/images/bwarelabs-logo.png
+
+{Embed}
+https://blastapi.io/
+Decentralized Infrastructure - Blast API
+
+
+[09/09/2022 1:18 PM] hq3r#5569
+can you forward me all dapp small logo you have on sigmaverse please , no rush
+
+
+[09/09/2022 4:24 PM] NoahErgo#4349
+oh this is not so easy to do haha
+
+
+[09/09/2022 4:25 PM] NoahErgo#4349
+I would recommend downloading the sigmaverse github repo instead
+
+
+[09/09/2022 4:25 PM] NoahErgo#4349
+i will take a look at this
+
+
+[09/09/2022 4:26 PM] NoahErgo#4349
+to be honest I don't quite understand what the use case for this is
+
+
+[09/09/2022 4:43 PM] NoahErgo#4349
+but might be worth discussing with them as some may find this useful
+
+
+[09/09/2022 4:49 PM] koutelier#0000
+(re  : *<Noah> to be honest I don't quite understand what the use case for this is*) 
+ 
+ well i take a quick look. it appears that it's something like (our) ilya wanted to do few months ago. host your node platform .
+
+
+[09/09/2022 4:50 PM] koutelier#0000
+i can see one big perk of collab with them . more nodes = more secure network. because they give % of the fees to the users that host their node there .
+
+
+[09/09/2022 4:50 PM] koutelier#0000
+the real question is are we benefit from this or they are ?
+
+
+[09/09/2022 4:50 PM] koutelier#0000
+also the fees would be in erg or erg tokens or in their token/coin ?
+
+
+[09/09/2022 5:40 PM] Darkkknight111#0000
+what options would you guys recommend to add on the secondry page for the dapp, already did add some options
+
+
+[09/09/2022 5:40 PM] Darkkknight111#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/1017836812674273370/image_2022-09-09_18-38-05.png
+
+
+[09/09/2022 5:40 PM] Darkkknight111#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/1017836814750466078/image_2022-09-09_18-38-30.png
+
+
+[09/09/2022 5:40 PM] Darkkknight111#0000
+data needs to be modified , just testing around
+
+
+[09/09/2022 6:23 PM] NoahErgo#0000
+I am biased but dont we have sigmaverse for this?
+
+
+[09/09/2022 6:31 PM] Darkkknight111#0000
+(re @NoahErgo : *I am biased but dont we have sigmaverse for this?*) 
+ 
+ Not trying to take sigmaverse place si .... Just placing the "most used" stuff, knowing  that it's going to be a portal for information... 
+In that case I should not add blogs,podcasts and nfts either 
+Just a specific part of ecosystem and there will be a link on top " check all dapps @ sigmaverse
+
+
+[09/09/2022 6:31 PM] Darkkknight111#0000
+Not trying to replace anyone , just trying to gather all of the ecosystem in one place
+
+
+[09/09/2022 6:38 PM] NoahErgo#0000
+Okay that makes sense :)
+
+
+[09/09/2022 6:39 PM] NoahErgo#0000
+Sorry i hope i didnt come off aggressive 😅
+
+
+[09/09/2022 7:35 PM] rustinmyeye#3722
+Maybe, I’ll check it out
+
+
+[09/10/2022 1:51 AM] J - The Ergod#0000
+Forwarded from TheRealErgoGod:
+
+
+[09/10/2022 6:59 AM] J - The Ergod#0000
+https://twitter.com/foxprotocolmng/status/1568278423931437057?s=46&t=RxptSCp_ay-s6T11BAspYg
+
+{Embed}
+Fox Protocol Mining (@FoxProtocolMNG)
+https://twitter.com/foxprotocolmng/status/1568278423931437057?s=46&t=RxptSCp_ay-s6T11BAspYg
+I will not be jumping on the $Ergo wagon post-Eth. 
+
+Why?
+
+Read On.
+
+Ergo is toted as an energy saving algo that will "hopefully" give similar profitability to former $eth miners while using less power. 
+
+However I've noted some issues with this algo that >>
+Twitter
+
+
+[09/10/2022 6:59 AM] J - The Ergod#0000
+(re @TheRealErgoGod : *https://twitter.com/foxprotocolmng/status/1568278423931437057?s=46&t=RxptSCp_ay-s6T11BAspYg*)
+
+{Embed}
+Fox Protocol Mining (@FoxProtocolMNG)
+https://twitter.com/foxprotocolmng/status/1568278423931437057?s=46&t=RxptSCp_ay-s6T11BAspYg*)
+I will not be jumping on the $Ergo wagon post-Eth. 
+
+Why?
+
+Read On.
+
+Ergo is toted as an energy saving algo that will "hopefully" give similar profitability to former $eth miners while using less power. 
+
+However I've noted some issues with this algo that >>
+Twitter
+
+
+[09/10/2022 6:59 AM] J - The Ergod#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/920637968950120458/1018038000103460894/file_58252.jpg
+
+
+[09/11/2022 5:18 PM] koutelier#0000
+https://www.youtube.com/watch?v=oAx9lOlm4Z8
+
+{Embed}
+Rabid Mining
+https://www.youtube.com/watch?v=oAx9lOlm4Z8
+Why ERGO Is BEST For Mining After The Ethereum Merge
+ERGO Best Coin Mining After The Ethereum Merge
+Today I am going to explain to you why I think ERGO Is the best coin to mine right when the merge happens.
+
+SUBSCRIBE: https://www.youtube.com/rabidmining?sub_confirmation=1
+
+ERGO Herominers: https://ergo.herominers.com/ $1500 Giveaway!! 
+
+🔥Crypto.com🔥
+✅  https://crypto.com/app/rabid
+
+✅MEXC Global T...
+https://images-ext-2.discordapp.net/external/Fq8gunaxWmEg59x4gRB0Dwynuta0_syPvPfPoS45DCo/https/i.ytimg.com/vi/oAx9lOlm4Z8/maxresdefault.jpg
+
+
+[09/11/2022 5:31 PM] Darkkknight111#0000
+sir , you can share those from ergcube also
+
+
+[09/11/2022 5:31 PM] Darkkknight111#0000
+https://ergcube.com/index.php?newsid=53
+
+{Embed}
+https://ergcube.com/index.php?newsid=53
+Why ERGO Is BEST For Mining After The Ethereum Merge
+oAx9lOlm4Z8
+
+
+[09/11/2022 5:31 PM] Darkkknight111#0000
+working on descriptions etc now
+
+
+[09/21/2022 11:52 AM] glasgowm#9381
+Consolidating marketing channels and closing this one. Please use #🗣│sig-chat instead (but ideally as much as possible in #🗣│marketing )
+
+
+[09/21/2022 11:53 AM] glasgowm#0000
+Anyone on the Telegram side who hasn’t already - sign up to the Sigmanauts programme (https://ergoplatform.org/en/community/#Sigmanauts)
+
+
+==============================================================
+Exported 804 message(s)
+==============================================================

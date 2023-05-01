@@ -1,0 +1,5 @@
+https://developers.ledger.com/docs/nano-app/load/*)
+https://developers.ledger.com/docs/nano-app/design-requirements/
+https://developers.ledger.com/docs/nano-app/load/
+https://developers.ledger.com/docs/nano-app/design-requirements/*)
+https://developers.ledger.com/docs/live-app/developer-mode/

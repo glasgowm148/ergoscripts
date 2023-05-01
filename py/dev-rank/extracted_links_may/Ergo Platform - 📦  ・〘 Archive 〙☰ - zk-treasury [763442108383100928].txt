@@ -1,0 +1,829 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / zk-treasury
+==============================================================
+
+[10/08/2020 10:43 AM] kushti#0978
+@mx @filippounits @DarkSideOfBrrrrr @anon_real please send me a public key from your node, which will be used for threshold-signing. Here or in PM
+
+
+[10/08/2020 11:33 AM] kushti#0978
+let's try with testing fund and then put money into a real one
+
+
+[10/08/2020 11:36 AM] anon_real#2768
+@kushti mine:
+02d84d2e1ca735ce23f224bd43cd43ed67053356713a8a6920965b3bde933648dc
+
+
+[10/08/2020 11:38 AM] anon_real#2768
+@kushti I'm running distributed-sig branch which I updated a few weeks ago. Should I update?
+
+
+[10/08/2020 12:01 PM] kushti#0978
+@anon_real yes, and please test
+
+
+[10/08/2020 12:01 PM] kushti#0978
+ordinary pubkey starting with 9... is enough
+
+
+[10/08/2020 12:30 PM] anon_real#2768
+@kushti Updated to the latest commit on distributed-sig but now I can't set api key in node's panel. It says bad api key.
+
+
+[10/08/2020 12:38 PM] kushti#0978
+@anon_real "distributed-signatures" now btw
+
+
+[10/08/2020 12:38 PM] kushti#0978
+and please check whether config is set
+
+
+[10/08/2020 1:14 PM] anon_real#2768
+@kushti just checked the latest commit. Works fine:
+https://explorer.ergoplatform.com/en/transactions/3afa60979d922d6d73fff1de2b552918121654a1e1275009ae57929d3652beb8
+
+{Reactions}
+❤️ 
+
+[10/08/2020 1:14 PM] anon_real#2768
+I'm going to update both client and server in an hour. Please update afterwards.
+
+{Reactions}
+🦾 
+
+[10/08/2020 1:34 PM] anon_real#2768
+https://github.com/anon-real/DistributedSigsClient/releases/tag/v0.2
+https://github.com/anon-real/DistributedSigsServer/releases/tag/v0.2
+
+{Embed}
+https://github.com/anon-real/DistributedSigsClient/releases/tag/v0.2
+Release Zero Knowledge Treasury on Top of ERGO - client app · anon-...
+This release includes basic features to work with distributed signatures on top of ERGO.
+In this release, you can do any complex joint spendings easily.
+https://images-ext-2.discordapp.net/external/WmeIcXdyt33ztJom1TMgPuWXWsEtzkp7FEBrGmkj3_k/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/68861503
+
+{Embed}
+https://github.com/anon-real/DistributedSigsServer/releases/tag/v0.2
+Release Zero Knowledge Treasury on Top of ERGO - server · anon-real...
+This release includes basic features to work with distributed signatures on top of ERGO.
+In this release, you can do any complex joint spendings easily.
+This version lacks authentication between th...
+https://images-ext-2.discordapp.net/external/WmeIcXdyt33ztJom1TMgPuWXWsEtzkp7FEBrGmkj3_k/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/68861503
+
+
+[10/08/2020 5:09 PM] kushti#0978
+@anon_real your point against putting keys into registers (at least for now) is reasonable. Then we can do this:
+
+
+[10/08/2020 5:09 PM] kushti#0978
+atLeast(2, Coll(PK("9i3Qzr12oGobnKUs6GgyVPLqWSgNsmccXevKXFoCpPTMcHxArS8"),PK("9i3Qzr12oGobnKUs6GgyVPLqWSgNsmccXevKXFoCpPTMcHxArS8"), PK("9i3Qzr12oGobnKUs6GgyVPLqWSgNsmccXevKXFoCpPTMcHxArS8")))
+
+
+[10/08/2020 5:09 PM] kushti#0978
+https://wallet.plutomonkey.com/p2s/?source=YXRMZWFzdCgyLCBDb2xsKFBLKCI5aTNRenIxMm9Hb2JuS1VzNkdneVZQTHFXU2dOc21jY1hldktYRm9DcFBUTWNIeEFyUzgiKSxQSygiOWkzUXpyMTJvR29ibktVczZHZ3lWUExxV1NnTnNtY2NYZXZLWEZvQ3BQVE1jSHhBclM4IiksIFBLKCI5aTNRenIxMm9Hb2JuS1VzNkdneVZQTHFXU2dOc21jY1hldktYRm9DcFBUTWNIeEFyUzgiKSkp
+
+
+[10/08/2020 5:10 PM] kushti#0978
+what's good, raw points not needed then, we can ask users for ordinary P2PK addresses )
+
+
+[10/09/2020 2:38 PM] filippounits#3593
+I'm tryig to figure out how to set up the app but it look like I'm missing something
+
+
+[10/09/2020 2:41 PM] filippounits#3593
+https://github.com/anon-real/DistributedSigsClient should be a bit more detailed. But is my fault, I'm not that techy guy and there's high probability that I'm not understand well what I need to do for it
+
+{Embed}
+https://github.com/anon-real/DistributedSigsClient
+anon-real/DistributedSigsClient
+Distributed Signatures on top of ERGO. Contribute to anon-real/DistributedSigsClient development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/WmeIcXdyt33ztJom1TMgPuWXWsEtzkp7FEBrGmkj3_k/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/68861503
+
+
+[10/09/2020 2:42 PM] anon_real#2768
+@filippounits What error are you getting?
+
+
+[10/09/2020 2:43 PM] filippounits#3593
+will reach you out via DM, I'm ashamed to ask questions that are probably bullshit 🙂
+
+{Reactions}
+👍 
+
+[10/12/2020 7:41 PM] kushti#0978
+@mx @filippounits 3.3.5 early preview for ZK Treasury https://anonymousfiles.io/lHZIG6jD/
+
+{Embed}
+https://anonymousfiles.io/lHZIG6jD/
+ergo-3.3.5.jar
+Anonymous file sharing with zero logs, zero speed or bandwidth restrictions, large upload size - Anonymous Files.
+https://images-ext-2.discordapp.net/external/wtqZ3vV3piyaTa-HUBQ7DO5gKJC-t1GNx1rTZoBpTes/https/anonymousfiles.io/android-icon-192x192.png
+
+{Reactions}
+👍 
+
+[10/12/2020 7:43 PM] kushti#0978
+@filippounits please send me your address
+
+
+[10/12/2020 7:46 PM] mx#5165
+3.3.5 running fine
+
+
+[10/12/2020 10:23 PM] filippounits#3593
+> 
+> @filippounits please send me your address
+> @kushti will be the first thing I'll do tomorrow morning
+
+{Reactions}
+😍 
+
+[10/13/2020 6:53 PM] kushti#0978
+@filippounits any help needed ? )
+
+
+[10/13/2020 9:35 PM] filippounits#3593
+yes, I need days with 30h per day.
+
+{Reactions}
+😂 
+
+[10/13/2020 9:41 PM] filippounits#3593
+🙂
+
+
+[10/14/2020 10:54 PM] kushti#0978
+@scalahub actually, this 3.3.5 early preview is fixing problems with inactive connections https://anonymousfiles.io/lHZIG6jD/
+
+{Embed}
+https://anonymousfiles.io/lHZIG6jD/
+ergo-3.3.5.jar
+Anonymous file sharing with zero logs, zero speed or bandwidth restrictions, large upload size - Anonymous Files.
+https://images-ext-2.discordapp.net/external/wtqZ3vV3piyaTa-HUBQ7DO5gKJC-t1GNx1rTZoBpTes/https/anonymousfiles.io/android-icon-192x192.png
+
+
+[10/15/2020 10:12 AM] mx#5165
+looks like fixed on my side with 3.3.5
+
+
+[10/15/2020 10:19 AM] filippounits#3593
+Active sync on my 3.3.5 but it look very slow synching. Should be my bad internet connection, there's also very bad weather here today.
+
+
+[10/15/2020 10:44 AM] kushti#0978
+@filippounits you can generate keys with no syncing . On bad connections, it would be good to check it ) Supposedly, 3.3.5 should recover after connectivity being lost
+
+
+[10/15/2020 10:50 AM] filippounits#3593
+let me try to restart the router with the node active
+
+
+[10/15/2020 10:58 AM] filippounits#3593
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763442108383100928/766238601901506590/Screenshot_from_2020-10-15_11-57-55.png
+
+
+[10/15/2020 10:58 AM] filippounits#3593
+WTF
+
+
+[10/15/2020 10:59 AM] filippounits#3593
+btw sync is stucked
+
+
+[10/15/2020 10:59 AM] filippounits#3593
+no recover after connection lost
+
+
+[10/15/2020 11:00 AM] filippounits#3593
+but could be also that f****** internet connection. I'm really pissed off
+
+
+[10/15/2020 11:03 AM] kushti#0978
+How long did you wait for a recovery? Few mins needed
+
+
+[10/15/2020 11:03 AM] filippounits#3593
+about 5 min
+
+
+[10/15/2020 11:04 AM] filippounits#3593
+I've just restated the node
+
+
+[10/15/2020 11:05 AM] filippounits#3593
+will try later again to check the recovery after a lost connection.
+
+
+[10/15/2020 11:06 AM] kushti#0978
+good, thanks!
+
+
+[10/15/2020 12:40 PM] filippounits#3593
+I've some errors
+
+
+[10/15/2020 12:41 PM] filippounits#3593
+@kushti I will send it to you via DM
+
+
+[10/15/2020 12:44 PM] kushti#0978
+@filippounits good! thanks  a lot!
+
+
+[10/15/2020 12:48 PM] kushti#0978
+@anon_real actually, Filippo's error is about absence of H2 on Raspberry Pi it seems or something like that
+
+
+[10/15/2020 12:49 PM] filippounits#3593
+@kushti is the app.conf right?
+
+
+[10/15/2020 12:49 PM] filippounits#3593
+I mean, the app.conf for the zk-t
+
+
+[10/15/2020 12:50 PM] filippounits#3593
+you have it on DM @ telegram
+
+
+[10/15/2020 12:50 PM] filippounits#3593
+I'm not sure that is 100% correct
+
+
+[10/15/2020 12:50 PM] kushti#0978
+play.http.secret.key = "vZmDc1QHCsnjmgf6By48s4OmyI/tctWljxqmNqdR8u4="
+
+server.url = "http://localhost:9000"
+node = {
+  url = "http://localhost:9053"
+  api_key = "..."
+}
+explorer.url = "https://api.ergoplatform.com"
+
+// your public key that participates in your teams' signatures
+pk = "..."
+// set this if your secret associated with your pk is not in node's wallet
+externalDLog = ""
+
+slick.dbs.default.profile = "slick.jdbc.H2Profile$"
+slick.dbs.default.driver = "slick.driver.H2Driver$"
+slick.dbs.default.db.driver = "org.h2.Driver"
+slick.dbs.default.db.url = "jdbc:h2:./db/"${?pk}
+slick.dbs.default.db.user = test // change this
+slick.dbs.default.db.password = test // change this
+play.evolutions.autoApply = true
+
+
+[10/15/2020 12:51 PM] kushti#0978
+lemme put it here
+
+
+[10/15/2020 12:51 PM] kushti#0978
+with pk stripped
+
+
+[10/15/2020 12:51 PM] filippounits#3593
+basically I've changed only pk = "..."
+
+
+[10/15/2020 12:52 PM] kushti#0978
+error_msg
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763442108383100928/766267247772827688/message.txt
+
+
+[10/15/2020 12:52 PM] anon_real#2768
+@filippounits Please send me your config file you're using with secrets stripped
+
+
+[10/15/2020 12:53 PM] filippounits#3593
+you have it @ telegram
+
+
+[10/15/2020 12:55 PM] filippounits#3593
+you have the secret too 🤪
+
+
+[10/15/2020 12:55 PM] kushti#0978
+anon_real has TG ? )
+
+
+[10/15/2020 12:55 PM] mx#5165
+@filippounits are you running server also or only client?
+
+
+[10/15/2020 12:55 PM] anon_real#2768
+> you have it @ telegram
+@filippounits Do I?
+
+
+[10/15/2020 12:56 PM] anon_real#2768
+I don't use telegram, at least with this name )
+
+
+[10/15/2020 12:56 PM] filippounits#3593
+> @filippounits are you running server also or only client?
+@mx client
+
+
+[10/15/2020 12:56 PM] mx#5165
+then you will need to change server.url for sure
+
+
+[10/15/2020 12:56 PM] kushti#0978
+@anon_real application.conf above ^
+
+
+[10/15/2020 12:56 PM] filippounits#3593
+> @filippounits Do I?
+@anon_real nop, not you, I mean @kushti
+
+
+[10/15/2020 12:56 PM] kushti#0978
+ahaha I'm not anon unfortunately
+
+{Reactions}
+😆 
+
+[10/15/2020 12:57 PM] filippounits#3593
+> then you will need to change server.url for sure
+@mx yes, @anon_real said to me that @kushti need to send me server.url
+
+
+[10/15/2020 12:57 PM] mx#5165
+yes, i think it will be better next to analyze any errors
+
+
+[10/15/2020 12:58 PM] anon_real#2768
+@filippounits have you changed config file's name to ZK-Treasury?
+
+
+[10/15/2020 12:58 PM] kushti#0978
+oh my bad about server
+
+
+[10/15/2020 12:58 PM] filippounits#3593
+nope. application.conf is the name
+
+
+[10/15/2020 12:59 PM] anon_real#2768
+> nope. application.conf is the name
+@filippounits Ok so your are passing the wrong name to the jar file.
+
+
+[10/15/2020 12:59 PM] anon_real#2768
+java -jar -Dconfig.file="/ERGO/ERGOFOLDER/Digest/ZK-Treasury" ZKTreasury-client-0.2.jar
+
+
+[10/15/2020 12:59 PM] anon_real#2768
+this is what you are running. right?
+
+
+[10/15/2020 12:59 PM] filippounits#3593
+right
+
+
+[10/15/2020 1:00 PM] anon_real#2768
+"/ERGO/ERGOFOLDER/Digest/ZK-Treasury" this is wrong then, pass the config file path instead
+
+
+[10/15/2020 1:00 PM] filippounits#3593
+"/ERGO/ERGOFOLDER/Digest/ZK-Treasury/application.conf"
+
+
+[10/15/2020 1:00 PM] filippounits#3593
+??
+
+
+[10/15/2020 1:01 PM] anon_real#2768
+If this is where "application.conf" file is located, yes
+
+
+[10/15/2020 1:03 PM] filippounits#3593
+app started!
+
+{Reactions}
+👍 
+
+[10/15/2020 1:03 PM] kushti#0978
+whew
+
+
+[10/15/2020 1:03 PM] kushti#0978
+so even Raspy is okay then
+
+
+[10/15/2020 1:03 PM] filippounits#3593
+🥳
+
+
+[10/15/2020 1:03 PM] kushti#0978
+I thought some problems with DB maybe
+
+
+[10/15/2020 1:04 PM] mx#5165
+[info] a.e.s.Slf4jLogger - Slf4jLogger started
+[info] c.z.h.HikariDataSource - db - Starting...
+[info] c.z.h.HikariDataSource - db - Start completed.
+[info] s.StartupService - App started!
+[info] play.api.Play - Application started (Prod) (no global state)
+[info] p.c.s.AkkaHttpServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+[info] services.Jobs - Handling approved proposals...
+[info] s.ProofHandler - handling proof generation...
+[info] s.ProofHandler - handling proof generation done
+
+{Reactions}
+💯 
+
+[10/15/2020 1:04 PM] mx#5165
+👍
+
+
+[10/15/2020 1:06 PM] kushti#0978
+ok so I need for a public key (starting with 9...) from your node @filippounits
+
+
+[10/15/2020 1:06 PM] anon_real#2768
+Also, no need to keep the app running. Just when there is something going on with approving proposals and stuff.
+
+
+[10/15/2020 1:07 PM] filippounits#3593
+wait wait, I've some more problems
+
+
+[10/15/2020 1:07 PM] filippounits#3593
+eheh
+
+
+[10/15/2020 1:08 PM] kushti#0978
+ok I'm out for a lunch for like 40 mins
+
+
+[10/15/2020 1:08 PM] filippounits#3593
+NP
+
+
+[10/15/2020 1:08 PM] filippounits#3593
+will send it to you guyz via DM
+
+
+[10/19/2020 11:35 PM] kushti#0978
+@DarkSideOfBrrrrr @filippounits @anon_real @mx ok so I created this long, but wallet-friendly address for testing DarkFund0 https://explorer.ergoplatform.com/en/addresses/2BggBDgr9nAP7qn7pTHhnuf3GvSKcdFk6Xd9o2jopeeG94dNcbqKNFoXLNVENytqtjkNScC7dSD86YbrQiN45ChwAj4xBeUP9sn96r2m79zJ3YudrMZEJ5iTqMe2xMgMwHDi3HjrJkiNNnQiWiCVrZ1db9MzfgNqxzc1jbMZMtfKftPyNUZwkRFjTzYq3zDYFWmWi7KAS5ECBjRBkpwae2AJ1sZf9p9CEdDMa9AQLSpkfxbKYTcFVvB7jWdFC1sgBrxiaYrofJharuCw3
+
+Testing amount sent, let's try co-signing for it first before sending any significant amount.
+
+Script which is compiled into that P2S address is send via PMs
+
+
+[10/20/2020 11:29 AM] DarkSideOfBrrrrr#6114
+@kushti Check PM bro!
+
+
+[10/20/2020 11:30 AM] DarkSideOfBrrrrr#6114
+I guess we need for some text on grant topics and amounts?
+
+
+[10/20/2020 4:08 PM] kushti#0978
+@kushti yes, do you have anything in mind? We can polish then
+
+
+[10/22/2020 10:15 PM] kushti#0978
+@mx @anon_real @filippounits @DarkSideOfBrrrrr made testing fund and also testing proposal. @anon_real what is the best way to approve it ?
+
+
+[10/23/2020 8:23 AM] anon_real#2768
+@kushti I just approved. Needs at least two more approvals, after that one of us can mark it as complete and the signing process will begin.
+
+
+[10/23/2020 11:08 AM] kushti#0978
+@mx @filippounits @DarkSideOfBrrrrr please approve, for educational purposes )
+
+
+[10/30/2020 9:04 AM] filippounits#3593
+starting to mix my ERGs, than I will be ready!
+
+{Reactions}
+😍 (3) 
+
+[11/03/2020 10:58 PM] DarkSideOfBrrrrr#6114
+My ERG mixed enough it seems. Will send them to the multisig address soon(TM)
+
+{Reactions}
+❤️ 👍 
+
+[11/04/2020 2:33 PM] DarkSideOfBrrrrr#6114
+First 500 ERG there! https://explorer.ergoplatform.com/en/addresses/2BggBDgr9nAP7qn7pTHhnuf3GvSKcdFk6Xd9o2jopeeG94dNcbqKNFoXLNVENytqtjkNScC7dSD86YbrQiN45ChwAj4xBeUP9sn96r2m79zJ3YudrMZEJ5iTqMe2xMgMwHDi3HjrJkiNNnQiWiCVrZ1db9MzfgNqxzc1jbMZMtfKftPyNUZwkRFjTzYq3zDYFWmWi7KAS5ECBjRBkpwae2AJ1sZf9p9CEdDMa9AQLSpkfxbKYTcFVvB7jWdFC1sgBrxiaYrofJharuCw3
+
+{Reactions}
+😍 (2) 
+
+[11/04/2020 3:14 PM] anon_real#2768
+If possible please merge your funds before sending them to the address because there may be some problems in case of many UTXOs.
+
+{Reactions}
+👍 
+
+[11/08/2020 1:08 AM] filippounits#3593
+https://explorer.ergoplatform.com/en/transactions/8c9472aa3192daee42de805c7f4cb8a5e3133a106a47147e1e2a1a9d97234dfd
+
+
+[11/08/2020 1:09 AM] filippounits#3593
+have so many inputs 😢
+
+
+[11/08/2020 9:49 AM] kushti#0978
+@filippounits but 1 output, fine!
+
+{Reactions}
+👍 (2) 
+
+[11/08/2020 7:11 PM] mx#5165
+added 1000
+
+{Reactions}
+❤️ (4) 
+
+[11/09/2020 11:04 AM] kushti#0978
+Put 1001 erg
+
+{Reactions}
+❤️ 👍 
+
+[11/11/2020 10:48 AM] DarkSideOfBrrrrr#6114
+I have added 2,500 more https://explorer.ergoplatform.com/en/addresses/2BggBDgr9nAP7qn7pTHhnuf3GvSKcdFk6Xd9o2jopeeG94dNcbqKNFoXLNVENytqtjkNScC7dSD86YbrQiN45ChwAj4xBeUP9sn96r2m79zJ3YudrMZEJ5iTqMe2xMgMwHDi3HjrJkiNNnQiWiCVrZ1db9MzfgNqxzc1jbMZMtfKftPyNUZwkRFjTzYq3zDYFWmWi7KAS5ECBjRBkpwae2AJ1sZf9p9CEdDMa9AQLSpkfxbKYTcFVvB7jWdFC1sgBrxiaYrofJharuCw3
+
+{Reactions}
+🥳 (3) 👍 (2) 
+
+[11/11/2020 10:49 AM] DarkSideOfBrrrrr#6114
+@kushti Can you do call for grants as forum topic? Or I can do it
+
+
+[11/11/2020 12:14 PM] filippounits#3593
+6k+ ERG now!
+
+
+[11/11/2020 1:20 PM] kushti#0978
+@kushti I can help, but would be happy if the announcement will be from you ) you're the biggest sponsor after all
+
+
+[11/13/2020 6:45 PM] DarkSideOfBrrrrr#6114
+@kushti please check a draft, PMed
+
+{Reactions}
+❤️ 
+
+[11/19/2020 8:30 PM] DarkSideOfBrrrrr#6114
+https://www.ergoforum.org/t/darkfund0-zk-fund-for-privacy-applications/398/2 @kushti @anon_real @mx @filippounits
+
+{Embed}
+https://www.ergoforum.org/t/darkfund0-zk-fund-for-privacy-applications/398/2
+DarkFund0 - ZK Fund for privacy applications
+We have 6,000 Ergs collected! Thanks @Martin-mx , @filippounits ! New donations much appreciated, just send to this address from any wallet:  2BggBDgr9nAP7qn7pTHhnuf3GvSKcdFk6Xd9o2jopeeG94dNcbqKNFoXLNVENytqtjkNScC7dSD86YbrQiN45ChwAj4xBeUP9sn96r2m79zJ3YudrMZEJ5iTqMe2xMgMwHDi3Hj...
+
+{Reactions}
+👍 (3) 
+
+[12/03/2020 5:43 PM] filippounits#3593
+@deleted-role donations to the Zero-Knowledge🔐  Treasury Fund💰  are very much welcomed! 
+All fund will support the develop of new privacy-preserving applications and if you want to apply just leave a message here! 👇
+
+
+[12/04/2020 7:11 PM] BillyDRI1#7237
+@filippounits I would like to donate!! Im in the middle of learning how to code so it’s the least I can do!! Let me know what I need to do and I will jump right on it!! Thanks
+
+
+[12/06/2020 11:45 PM] filippounits#3593
+Magic! Here the address created for the ZK-T fund, just send ERG there! 😍 
+
+https://explorer.ergoplatform.com/en/addresses/2BggBDgr9nAP7qn7pTHhnuf3GvSKcdFk6Xd9o2jopeeG94dNcbqKNFoXLNVENytqtjkNScC7dSD86YbrQiN45ChwAj4xBeUP9sn96r2m79zJ3YudrMZEJ5iTqMe2xMgMwHDi3HjrJkiNNnQiWiCVrZ1db9MzfgNqxzc1jbMZMtfKftPyNUZwkRFjTzYq3zDYFWmWi7KAS5ECBjRBkpwae2AJ1sZf9p9CEdDMa9AQLSpkfxbKYTcFVvB7jWdFC1sgBrxiaYrofJharuCw3
+
+
+[12/07/2020 9:05 PM] filippounits#3593
+@kushti should he signing it before?
+
+
+[12/08/2020 11:08 AM] kushti#0978
+@filippounits sorry, who ?
+
+
+[12/08/2020 2:59 PM] filippounits#3593
+@BillyDRI1 want to donate some ERG to ZK-T fund
+
+
+[12/08/2020 6:00 PM] BillyDRI1#7237
+do i need to sign it or just send it? Thanks
+
+
+[12/08/2020 6:01 PM] anon_real#2768
+@BillyDRI1 Send any amount with your wallet to the above address. No additional step is needed.
+
+
+[12/08/2020 6:11 PM] BillyDRI1#7237
+Ok Thanks
+
+
+[12/08/2020 6:15 PM] filippounits#3593
+Super, thanks for clarify
+
+{Reactions}
+👍 (2) 
+
+[12/08/2020 7:19 PM] kushti#0978
+Yeah, just transfer any amount from any wallet )
+
+
+[12/08/2020 7:19 PM] kushti#0978
+P2S magic )
+
+
+[12/12/2020 7:24 PM] BillyDRI1#7237
+Hey guys I sent 50 ergo over I wanted to check in with you to make sure I done it correctly?
+
+{Reactions}
+❤️ (2) 
+
+[12/12/2020 7:26 PM] anon_real#2768
+Yes, it's there. Thanks a lot for the donation.
+
+
+[12/12/2020 8:04 PM] kushti#0978
+@BillyDRI1 thanks a lot!
+
+
+[12/14/2020 3:17 AM] BillyDRI1#7237
+Your welcome I have a couple hundred more I will send over I wanted to make sure I sent them over correctly.
+
+{Reactions}
+❤️ 
+
+[01/07/2021 7:15 PM] filippounits#3593
+https://twitter.com/FilippoUnits/status/1347259962972655618
+
+{Embed}
+Filippo Florián 🇮🇹 (@FilippoUnits)
+https://twitter.com/FilippoUnits/status/1347259962972655618
+Donations for the DarkFund0 - Zero-Knowledge Treasury Fund are always welcome!
+DM me for more info, or if you want to apply for grants! 
+Works must be focused on building privacy-preserving dapps.
+$ERG
+🚀⭐ https://t.co/zjpQLKoE67
+Twitter
+
+{Reactions}
+❤️ 
+
+[01/21/2021 9:03 PM] kushti#0978
+@filippounits @DarkSideOfBrrrrr @mx @anon_real got first funding proposal, will post on the server soon!
+
+
+[02/17/2021 10:30 AM] glasgowm#9381
+Any reason we're not hosting a demo of this?
+
+
+[02/17/2021 5:05 PM] kushti#0978
+good question @anon_real I guess it is proper time to show it to public ?
+
+
+[02/17/2021 5:05 PM] kushti#0978
+I mean to run some public instance
+
+{Reactions}
+👍 
+
+[02/17/2021 5:12 PM] anon_real#2768
+@kushti @glasgowm I had some plans to rework it and make it easier to use since I have more experience now.
+
+{Reactions}
+💯 (2) 
+
+[02/17/2021 5:13 PM] anon_real#2768
+Let's see what happens after the stablecoin finishes.
+
+
+[02/25/2021 9:29 AM] FarhanAli1984#2905
+Hi
+
+
+[02/26/2021 12:30 AM] filippounits#3593
+Hi!
+
+
+[03/01/2021 11:20 PM] filippounits#3593
+any news?
+
+
+[03/02/2021 7:29 PM] kushti#0978
+@filippounits check PMs )
+
+{Reactions}
+👍 
+
+[04/01/2021 11:23 AM] glasgowm#9381
+Copy here for people to play with btw: https://zkt.ergonaut.space/
+
+
+[04/01/2021 11:24 AM] glasgowm#9381
+How does it work ? I made a test foundation but it's not clear how one would verify as that foundation, or approve proposals or anything
+
+
+[04/01/2021 10:57 PM] Dergler#0451
+yea I ran into those issues, then i found out that there's a need for front end dev work on ergo.
+
+
+[04/01/2021 10:58 PM] Dergler#0451
+I've picked up the torch but I'm still learning to light it.
+
+{Reactions}
+📚 (2) 
+
+[04/14/2021 10:57 PM] kushti#0978
+you also need to run a client and a node
+
+
+[04/15/2021 2:18 AM] Dergler#0451
+so the UI at zkt.ergonaut.space is more a portal just for that treasury's set of teams and proposals?
+
+
+[04/15/2021 2:07 PM] anon_real#2768
+The server is where users go and request for funds.
+
+
+[04/15/2021 2:07 PM] anon_real#2768
+The client is what team members run and participate in distributed signature.
+
+
+[04/15/2021 4:47 PM] glasgowm#9381
+oh I must've missed the client git. Will have a look
+
+
+[01/18/2022 1:38 AM] JOFLITO#9983
+Hi, is it working?
+
+
+[01/18/2022 1:38 AM] JOFLITO#9983
+I get his error
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763442108383100928/932811116827004978/unknown.png
+
+
+[01/18/2022 11:23 AM] glasgowm#9381
+nope that was just a preview one I was hosting a while ago. Each person needs to run it locally
+
+
+[03/09/2022 2:08 AM] Adoo#5093
+@anon_real I was testing the ZK Treasury solution.
+
+1. ZK Server is running on 1 node.
+2. ZK Client is running on 2 nodes.
+3. Created a 2/2 multi sig box with the following script
+```{
+val pkA  = SELF.R4[GroupElement].get
+val pkB  = SELF.R5[GroupElement].get
+
+atLeast(2, Coll(proveDlog(pkA), proveDlog(pkB)))
+}```
+4. The transaction was built and posted on mainnet using appkit - https://explorer.ergoplatform.com/en/transactions/77b0010784bed74c468d435ae6b29b15211d03772b95b45f7cbae8a5576b4361
+5. I entered the address of output box in the 'Address' column while creating a team on ZK-Server.
+6. I created a proposal to withdraw some funds on ZK-Server.
+7. The proposal is visible on both ZK-Clients.
+8. While trying to accept the proposal, I get the following error.
+
+Please guide on what I am doing wrong.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763442108383100928/950938179303772200/Screenshot_2022-03-09_at_7.30.05_AM.png
+https://cdn.discordapp.com/attachments/763442108383100928/950938179588993085/Screenshot_2022-03-09_at_7.30.26_AM.png
+
+
+[04/02/2022 5:37 PM] glasgowm#9381
+@anon_real @morphic
+
+
+[04/25/2022 8:08 PM] 6directions#1089
+kindly following it up on this 🙂
+
+
+[04/25/2022 8:09 PM] 6directions#1089
+I think neither of them are subscribed to this channel so they may not have gotten the message
+
+
+[07/17/2022 10:48 AM] sakata#4279
+Hey, does anybody know how to change the slick jdbc username & password in a client's & server's config?
+
+
+[07/17/2022 10:58 AM] sakata#4279
+I get an unexpected exception whenever they are changed
+
+
+==============================================================
+Exported 161 message(s)
+==============================================================

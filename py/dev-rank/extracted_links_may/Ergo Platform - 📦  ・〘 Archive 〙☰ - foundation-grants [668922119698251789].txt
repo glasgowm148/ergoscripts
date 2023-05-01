@@ -1,0 +1,210 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / foundation-grants
+Topic: https://ergoplatform.org/en/foundation/
+==============================================================
+
+[08/20/2020 2:26 PM] anon_real#2768
+Hi Community,
+
+I would like to apply for grants about a project/idea on Distributed Signatures which I have explained here https://www.ergoforum.org/t/app-on-distributed-signatures/342. The project has arisen from a discussion with Kushti over email.
+I tried to provide needed information in the forum post but please let me know if anything else is needed.
+
+I also have an idea about a tutorial on developing app on top of Ergo's blockchain which has also arisen from a discussion on discord about lack of materials regarding this subject. I will propose this idea after the decision about the first one is made.
+
+{Reactions}
+❤️ (6) 👍 (4) 🔥 (4) 
+
+[08/20/2020 3:27 PM] kushti#0978
+Thanks! We'll check it, discuss it and get back to you soon! @mx  @Robert K @Noah ~ 贺能 @morphic @Justin1000
+
+
+[08/20/2020 4:21 PM] anon_real#2768
+> Thanks! We'll check it, discuss it and get back to you soon! @mx  @Robert K @Noah ~ 贺能 @morphic @Justin1000
+@kushti Ok, thanks.
+
+
+[10/30/2020 6:55 PM] Mark Stopka (The Storage Guy)#1826
+Hi!
+
+
+[10/30/2020 8:53 PM] kushti#0978
+Hi! @Mark Stopka (The Storage Guy) how's it going ?
+
+
+[10/30/2020 9:54 PM] Mark Stopka (The Storage Guy)#1826
+@kushti hi, how is it going?
+
+
+[10/30/2020 9:54 PM] Mark Stopka (The Storage Guy)#1826
+I have a AMA tomorrow at DIGI channel (Rick McCracken if you know him), I was wondering if it's ok, to mention that we spoke about partnering with you guys regarding the GPU compute part of dCloud
+
+
+[11/13/2020 12:23 PM] JohnThelen#4283
+Hi team,
+Your 2021 roadmap caught my eyes actually. I was wondering if there is some mechanism and incentive for outsiders to contribute to the project and be supported somehow?
+
+
+[11/13/2020 12:25 PM] JohnThelen#4283
+> Hi Community,
+> 
+> I would like to apply for grants about a project/idea on Distributed Signatures which I have explained here https://www.ergoforum.org/t/app-on-distributed-signatures/342. The project has arisen from a discussion with Kushti over email.
+> I tried to provide needed information in the forum post but please let me know if anything else is needed.
+> 
+> I also have an idea about a tutorial on developing app on top of Ergo's blockchain which has also arisen from a discussion on discord about lack of materials regarding this subject. I will propose this idea after the decision about the first one is made.
+I see this already in work in other channels, right? Is it transparent how the teams is supporting such contributions or is it not really needed currently?
+
+
+[11/13/2020 12:29 PM] Robert K#0722
+@JohnThelen The Ergo Foundation is always open to taking in grant applications for anything you think would be valuable to add to the ecosystem: https://ergoplatform.org/en/foundation/
+
+{Embed}
+https://ergoplatform.org/en/foundation/
+Foundation | Ergo
+
+
+[11/13/2020 12:29 PM] Robert K#0722
+The vast majority of work is transparent, with some projects here and there being private until they reach a point where they can be showed off publicly.
+
+
+[11/13/2020 12:30 PM] Robert K#0722
+It'd be great to have you contribute if you have a great idea/the ability to execute. What were you thinking of implementing?
+
+
+[11/13/2020 12:43 PM] JohnThelen#4283
+@Robert K Thanks a lot. I just was going through your video about introduction to ergo script and here https://github.com/ergoplatform/ergoscript-by-example. Very good stuff, thanks.
+
+
+[11/13/2020 12:45 PM] JohnThelen#4283
+I don't have any particular idea right now, I just was wondering about the overall mechanisms. So I was going through the projects and it seems like the core team is currently focusing on the big picture stuff like dex and stable coins, right?
+
+
+[11/13/2020 12:47 PM] JohnThelen#4283
+So I suppose there is a lot of possibilities for outsiders to develop other apps like the above but didn't see any clear explanation about the mechanism. Has this "The Ergo Foundation supports a grant program (guide will be announced soon)" been announced somewhere?
+
+
+[11/13/2020 12:47 PM] Robert K#0722
+Yep, we're checking off all the core foundational stuff in every direction pretty much.
+
+
+[11/13/2020 12:48 PM] Robert K#0722
+From dApps, to developer tools, to making things more user friendly, it's all in the works.
+
+
+[11/13/2020 12:49 PM] Robert K#0722
+Unfortunately that has not been released, but if you wish to submit a grant feel free to give an overall summary, intended goals, how much you are asking for, and timeline for a grant proposal.
+
+
+[11/13/2020 12:51 PM] JohnThelen#4283
+That makes sense, thanks. Will be in touch 😀
+
+
+[11/13/2020 8:51 PM] kushti#0978
+@JohnThelen there're also alternative funds even, e.g. DarkFund0 just established, no announcement yet even, it will support privacy-oriented efforts mostly. The fund #0 is for testing the things, thus small, but nevertheless )
+
+
+[11/19/2020 8:31 PM] DarkSideOfBrrrrr#6114
+@JohnThelen @kushti https://www.ergoforum.org/t/darkfund0-zk-fund-for-privacy-applications/398/2
+
+{Embed}
+https://www.ergoforum.org/t/darkfund0-zk-fund-for-privacy-applications/398/2
+DarkFund0 - ZK Fund for privacy applications
+We have 6,000 Ergs collected! Thanks @Martin-mx , @filippounits ! New donations much appreciated, just send to this address from any wallet:  2BggBDgr9nAP7qn7pTHhnuf3GvSKcdFk6Xd9o2jopeeG94dNcbqKNFoXLNVENytqtjkNScC7dSD86YbrQiN45ChwAj4xBeUP9sn96r2m79zJ3YudrMZEJ5iTqMe2xMgMwHDi3Hj...
+
+
+[12/31/2020 11:10 PM] QU₳Z₳R#0436
+Is there any interest in a grant for a blockchain based grant management system
+
+{Reactions}
+❤️ (2) 
+
+[01/02/2021 7:58 PM] Robert K#0722
+We already have the ZK Treasury which effectively can be used for an on-chain grant program: https://github.com/anon-real/DistributedSigsServer
+
+{Embed}
+https://github.com/anon-real/DistributedSigsServer
+anon-real/DistributedSigsServer
+Distributed signatures implemented on top of ERGO. - anon-real/DistributedSigsServer
+https://images-ext-2.discordapp.net/external/WmeIcXdyt33ztJom1TMgPuWXWsEtzkp7FEBrGmkj3_k/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/68861503
+
+
+[01/02/2021 8:01 PM] QU₳Z₳R#0436
+Okay awesome, I'll check it out, thanks
+
+
+[01/02/2021 8:05 PM] QU₳Z₳R#0436
+would this manage state/federal grants?
+
+
+[01/02/2021 8:06 PM] QU₳Z₳R#0436
+i'm not a developer so while I can go to github and poke around, I'm not experienced enough to appreciate everything that is there.
+
+
+[01/02/2021 11:40 PM] kushti#0978
+@QU₳Z₳R ZKT is intended for small funds controlled by few folks who do trust each other but willing to preserve privacy of on-chain voting
+
+
+[01/02/2021 11:42 PM] QU₳Z₳R#0436
+Understood, thank you. So a miniature risk pool, to a degree
+
+
+[01/02/2021 11:44 PM] kushti#0978
+@QU₳Z₳R yes, like that
+
+
+[01/02/2021 11:45 PM] QU₳Z₳R#0436
+Im in the insurance space, been creating risk pools IRL, so much more fun doing it with crypto/blockcbain
+
+{Reactions}
+❤️ 
+
+[01/02/2021 11:46 PM] QU₳Z₳R#0436
+Rewind, the grant management system we've designed is for state/federal grant mgmt
+
+
+[01/02/2021 11:49 PM] QU₳Z₳R#0436
+ZKT and oracle pools is a match made in heaven
+
+
+[01/02/2021 11:50 PM] QU₳Z₳R#0436
+Should there be a desire to eliminate the voting or perhaps assist in the voting
+
+
+[01/04/2021 10:45 PM] kushti#0978
+how so ?
+
+
+[01/04/2021 10:46 PM] QU₳Z₳R#0436
+Using oraclew pools to manage treasuries
+
+
+[01/04/2021 10:47 PM] QU₳Z₳R#0436
+or assist in managing them
+
+
+[01/04/2021 10:49 PM] QU₳Z₳R#0436
+I'm not a dev and also not completely caught up on ergo, so if I am wrong, please correct me.
+
+
+[01/04/2021 10:51 PM] QU₳Z₳R#0436
+My specialty is in insurance/risk management, product/program development.  Check out parametric insurance if you have a chance @kushti
+
+
+[01/10/2021 12:17 AM] vinay_93#8838
+Hi guys..
+Very excited to come across this project at such an early stage. I would like to help with Business Development, Strategy, Public Relations & Marketing. I have a diverse background and would also like to build a Spanish community for the project. Hope to get involved ✌️
+
+
+[01/21/2021 6:43 PM] alex_gl | Aspen#6048
+Hello guys! I am a Machine Learning Engineer. I am really excited with this project and I would like to contribute in any way. I have been working several years in Python & Javascript. Worked w/ computer vision problems and also as a backend developer. So feel free to reach out if I can help with anything.
+
+{Reactions}
+👍 (2) 
+
+[02/06/2021 1:10 PM] mello#8594
+@alex_gl | Aspen 👍 👍
+
+
+==============================================================
+Exported 41 message(s)
+==============================================================

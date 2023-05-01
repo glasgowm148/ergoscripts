@@ -1,0 +1,3047 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / explorer
+==============================================================
+
+[01/27/2020 6:33 PM] morphic#4133
+@Ilya | Spectrum looking at the code in your explorer-backend. I still stumble upon the same problem, there is no ScalaDoc comments for even foundational types. See for example `package object explorer`. Well, TxId is clear, but what Id type mean? The same for Address. Or for example `stream` in `package object syntax`.  If this is a part of some well known code organization, please make a reference explicitly, then everyone experienced will quickly understand the meaning, and those who are not, will not feel so desparate to understand the intentions.
+
+
+[01/27/2020 6:35 PM] morphic#4133
+Will it be convenient for you, if I leave TODO items in such places of the code?
+
+
+[01/27/2020 6:57 PM] Ilya | Spectrum#0494
+@morphic, no problem
+
+
+[01/27/2020 7:31 PM] morphic#4133
+Tofu library has minimalistic documentations, and seems don't have ScalaDoc at all. @Ilya | Spectrum why you use it? What is unique about them so that there is no other solution? https://tinkoffcreditsystems.github.io/tofu/docs/typeclasses
+
+
+[01/27/2020 8:29 PM] Ilya | Spectrum#0494
+@morphic, I've replaced a lot of custom type classes with similar ones from it.
+It has stricter type class system while still remaining compatible with typelevel ecosystem.
+Moreover, its developers are reachable and needed improvements could be released like in a week. I'm currently contributing to it in order to avoid copy-pasting custom type-class system between different projects
+
+
+[01/27/2020 8:32 PM] morphic#4133
+Heh, could you please also contribute some scaladocs to them? 🙂 At least for those type classes that you use in our explorer
+
+
+[01/27/2020 8:39 PM] morphic#4133
+When I ask ScalaDocs I definitely don't ask something like this.
+/** A service providing an access to the transactions data.
+  */
+trait TransactionsService[F[_], S[_[_], _]] {
+It doesn't add anything new to the trait declaration itself. So I'm still curious whether it uses a specific source of the transaction data, and which kind of transactions it deal with? So when I'm taking about ScalaDoc, I'm talking about details which you cannot infer from the signature, but which are assumed by the author. There are always some assumptions.
+
+
+[01/27/2020 8:50 PM] Ilya | Spectrum#0494
+@morphic, I see, now when the service in the active development phase many of such comments contains only generic description of component
+
+
+[01/27/2020 8:55 PM] morphic#4133
+Yes, but when you create a new class you already keeping it's role in your head. Don't keep, write it in the doc. Later you can review your own assumptions and update if necessary, or even realise that some of the prior assumption (which you probably forgot) you didn't realise. This may lead you to the round of thinking and refactoring.
+
+{Reactions}
+👍 👍🏻 
+
+[01/27/2020 8:57 PM] morphic#4133
+Those ScalaDocs that I ask will actually help you in design, not distract from it.
+
+{Reactions}
+💯 
+
+[01/27/2020 9:01 PM] morphic#4133
+Most of the code is readable I should say, but what is missing is a README.md file for each package with many similar looking files. It would we quite helpful to read the role of all those files (some kind of orientation in the code of the package)
+
+
+[01/28/2020 12:16 PM] kushti#0978
+@Ilya | Spectrum do we have rich list in the explorer ?
+
+
+[01/28/2020 12:32 PM] Ilya | Spectrum#0494
+@kushti, what do you mean by "rich list"?
+
+
+[01/28/2020 12:34 PM] kushti#0978
+@Ilya | Spectrum top holders
+
+
+[01/28/2020 1:08 PM] Ilya | Spectrum#0494
+No, we dont
+
+
+[01/28/2020 1:08 PM] Ilya | Spectrum#0494
+Can be easily added to new explorer
+
+
+[01/28/2020 4:44 PM] greenhat#6562
+@Ilya | Spectrum I've started working on issued tokens info - https://github.com/ergoplatform/explorer-backend/pull/11 . It's WIP, but I'd appreciate if you keep an eye if I'm going in the right direction. Thanks.
+/cc @morphic
+
+
+[01/29/2020 4:59 PM] greenhat#6562
+@Ilya | Spectrum I've crawled up to the http layer and drafted `AssetsService` - https://github.com/ergoplatform/explorer-backend/pull/11/commits/5c67bbef695a8b615fea2186cd3f53597e9d015f
+Do we have any plan for tests on this level? Cause I did not find any in the `ExplorerApi` module. I got a feeling that type system and the overall simplicity of the code (building models) allow to fly without tests here for awhile.
+
+
+[01/29/2020 5:01 PM] greenhat#6562
+omg, how discord is doing preview for github commit links. Profile pic gets so much attention. 😆
+
+
+[01/29/2020 8:13 PM] Ilya | Spectrum#0494
+Services can be easily tested using test instances of repos and plain IO as F[_] and D[_]
+It not critical though to have tests for such a minimalistic services I think
+
+
+[01/30/2020 6:02 AM] morphic#4133
+@Ilya | Spectrum what do you mean "minimalistic", and why it makes tests less important?
+
+
+[01/30/2020 7:32 AM] Ilya | Spectrum#0494
+I mean there is almost no additional business logic in comparison with repository layer, which is covered with tests
+
+
+[01/30/2020 7:43 AM] Ilya | Spectrum#0494
+I’m talking about concrete service Denis implemented
+
+
+[01/30/2020 8:01 AM] greenhat#6562
+I concur, tests for services that just assemble json models from repo models can be written last.
+EDIT: “last”, but not “never” 🙂
+
+
+[01/30/2020 4:43 PM] greenhat#6562
+@Ilya | Spectrum I've finished (with a remark) https://github.com/ergoplatform/explorer-backend/pull/11#issuecomment-580280822 and started DEX sell/buy orders API - https://github.com/ergoplatform/explorer-backend/pull/12
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/pull/12
+get DEX sell/buy order boxes by greenhat · Pull Request #12 · er...
+Close #9
+Todo:
+
+ rebase after #11 is merged;
+ DexService methods;
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/pull/11
+Get issued tokens info by greenhat · Pull Request #11 · ergoplat...
+Close #3
+Repo:
+
+ implement AssetRepo.getIssuingBoxes(tokenIds);
+
+Add REST API calls:
+
+ implement AssetsService.getAllIssuingBoxes;
+ implement AssetsService.getIssuingBoxes();
+ add routes;
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+{Reactions}
+💯 
+
+[01/30/2020 4:51 PM] Ilya | Spectrum#0494
+@greenhat, https://github.com/ergoplatform/explorer-backend/pull/11#discussion_r373066741
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/pull/11
+Get issued tokens info by greenhat · Pull Request #11 · ergoplat...
+Close #3
+Repo:
+
+ implement AssetRepo.getIssuingBoxes(tokenIds);
+
+Add REST API calls:
+
+ implement AssetsService.getAllIssuingBoxes;
+ implement AssetsService.getIssuingBoxes();
+ add routes;
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[01/30/2020 4:53 PM] Ilya | Spectrum#0494
+Though I'm not insisting if you don't want to dig http4s + tapir documentation.
+I can implement streaming later
+
+
+[01/30/2020 4:54 PM] greenhat#6562
+@Ilya | Spectrum No worries, I'd like to give it another try. 🙂
+
+
+[02/02/2020 6:20 AM] Ilya | Spectrum#0494
+@greenhat, I'm merging https://github.com/ergoplatform/explorer-backend/pull/11 
+Going to make several architectural improvements in the base branch.
+Lets implement streaming separately.
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/pull/11
+Get issued tokens info by greenhat · Pull Request #11 · ergoplat...
+Close #3
+Repo:
+
+ implement AssetRepo.getIssuingBoxes(tokenIds);
+
+Add REST API calls:
+
+ implement AssetsService.getAllIssuingBoxes;
+ implement AssetsService.getIssuingBoxes();
+ add routes;
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/02/2020 6:20 AM] greenhat#6562
+@Ilya | Spectrum 👍
+
+
+[02/02/2020 9:56 AM] greenhat#6562
+@Ilya | Spectrum  Hey, I've tried Quill and it was very easy going. I already migrated a few requests - https://github.com/ergoplatform/explorer-backend/pull/13 . I suggest we merge it, write new requests in Quill and gradually migrate existing requests.
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/pull/13
+Use Quill for SQL queries by greenhat · Pull Request #13 · ergop...
+Motivation
+Writing SQL queries with doobie&#39;s SQL string interpolator has drawbacks:
+
+no type-safety;
+non-reusable, copy-pasted SQL queries (think joins on a few tables);
+
+Implementation
+Doo...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/02/2020 11:09 AM] Ilya | Spectrum#0494
+Does it support streaming?
+
+
+[02/02/2020 11:09 AM] Ilya | Spectrum#0494
+I’m not sure the lack of typesafety at this level is a problem
+
+
+[02/02/2020 11:12 AM] greenhat#6562
+> Does it support streaming?
+@Ilya | Spectrum yes, check the first example - https://tpolecat.github.io/doobie/docs/17-Quill.html#examples
+
+{Embed}
+https://tpolecat.github.io/doobie/docs/17-Quill.html
+doobie: Quill Integration
+A functional JDBC layer for Scala.
+
+
+[02/02/2020 11:19 AM] greenhat#6562
+> I’m not sure the lack of typesafety at this level is a problem
+@Ilya | Spectrum 
+It's hard to spot a tiny typo in the following query that will blow it up in the runtime.
+```
+ select
+  o.box_id,
+  o.tx_id,
+  o.value,
+  o.creation_height,
+  o.index,
+  o.ergo_tree,
+  o.address,
+  o.additional_registers,
+  o.timestamp,
+  o.main_chain,
+  i_spent.tx_id
+from node_outputs o
+left join node_assets a on o.box_id = a.box_id
+left join node_inputs i_spent on o.box_id = i_spent.box_id
+left join node_inputs i_issued on a.token_id = i_issued.box_id
+where o.main_chain = true
+  and i_issued.tx_id = o.tx_id
+  and o.box_id = a.tx_id
+  and a.token_id = i_issued.box_id
+```
+
+
+[02/02/2020 11:33 AM] Ilya | Spectrum#0494
+I use Doobie for almost two years already in various projects and from my experience can say that it’s not a big issue, it also more handy to have queries written in SQL rather than in some dsl
+
+
+[02/02/2020 12:05 PM] greenhat#6562
+I also like writing SQL queries myself. But, you cannot dismiss the following example:
+Before:
+```
+select
+  o.box_id,
+  o.tx_id,
+  o.value,
+  o.creation_height,
+  o.index,
+  o.ergo_tree,
+  o.address,
+  o.additional_registers,
+  o.timestamp,
+  o.main_chain,
+  i.tx_id
+from node_outputs o
+left join node_inputs i on o.box_id = i.box_id
+where o.main_chain = true
+  and o.ergo_tree = $ergoTree
+```
+After:
+```
+    quote {
+      for {
+        out <- schema.Outputs
+                .filter(_.mainChain == true)
+                .filter(_.ergoTree == lift(ergoTreeTemplate))
+        in <- schema.Inputs.leftJoin(in => in.boxId == out.boxId)
+      } yield (ExtendedOutput(out, in.map(_.txId)))
+    }
+```
+We can use Quill for "simple/generic" requests and use raw SQL when we need it. It's not that we have to choose one and ditch the other.
+
+
+[02/02/2020 12:06 PM] greenhat#6562
+@Ilya | Spectrum Plus, they're composable. I hate copy-pasting SQL just to change one line.
+
+
+[02/02/2020 12:08 PM] greenhat#6562
+Most of the quill quotes will be resolved during compile time, so you actually see the generated SQL. For the above quote you get:
+```
+Information:(130, 10) SELECT x1.box_id, x1.tx_id, x1.value, x1.creation_height, x1.index, x1.ergo_tree, x1.address, x1.additional_registers, x1.timestamp, x1.main_chain, in.tx_id FROM node_outputs x1 LEFT JOIN node_inputs in ON in.box_id = x1.box_id WHERE x1.main_chain = true AND x1.ergo_tree = ?
+      run(
+``` in the build console.
+
+
+[02/02/2020 1:38 PM] Ilya | Spectrum#0494
+I'm not familiar with Quill and cannot currently say whether it's better than doobie or not and how it would integrate into current codebase.
+I just think the benefits you described do not worth changes Quill integration would imply
+
+
+[02/02/2020 1:47 PM] greenhat#6562
+@Ilya | Spectrum I've already "integrated" Quill in my PR - https://github.com/ergoplatform/explorer-backend/pull/13 and I used it for a few queries. Tests are green. 
+We can write a query with either Doobie or Quill. No changes needed for Quill integration. I mean we get an option to use Quill without "paying" anything. Why not give it a try?
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/pull/13
+Use Quill for SQL queries by greenhat · Pull Request #13 · ergop...
+Motivation
+Writing SQL queries with doobie&#39;s SQL string interpolator has drawbacks:
+
+no type-safety;
+non-reusable, copy-pasted SQL queries (think joins on a few tables);
+
+Implementation
+Doo...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/02/2020 1:57 PM] greenhat#6562
+@Ilya | Spectrum Actually Doobie knows how to use Quill to construct `ConnectionIO` programs.
+`Quill provides statement construction and type mapping, and doobie takes care of statement execution.`
+https://tpolecat.github.io/doobie/docs/17-Quill.html
+
+{Embed}
+https://tpolecat.github.io/doobie/docs/17-Quill.html
+doobie: Quill Integration
+A functional JDBC layer for Scala.
+
+
+[02/02/2020 2:00 PM] greenhat#6562
+So when you write a query you have a choice to either use Doobie's `sql""` string interpolator or Quill's `quote`. They both will "come out" of Doobie layer.
+
+
+[02/02/2020 2:34 PM] greenhat#6562
+> I'm not familiar with Quill and cannot currently say whether it's better than doobie or not and how it would integrate into current codebase.
+> I just think the benefits you described do not worth changes Quill integration would imply
+@Ilya | Spectrum I'm sorry for bothering you on Sunday. 🙂 To sum up, we can use them both simultaneously and no changes needed to start using Quill.
+
+
+[02/04/2020 8:28 AM] greenhat#6562
+@Ilya | Spectrum Hi! Did you have a chance to look into my Quill PR https://github.com/ergoplatform/explorer-backend/pull/13 ? What do you think?
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/pull/13
+Allow to use Quill for SQL queries by greenhat · Pull Request #13...
+Motivation
+Writing SQL queries with doobie&#39;s SQL string interpolator has drawbacks:
+
+no type-safety;
+non-reusable, copy-pasted SQL queries (think joins on a few tables);
+
+Implementation
+Doo...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/04/2020 8:50 AM] Ilya | Spectrum#0494
+@greenhat, Yes, it seems that everything is done correctly. But I can’t accept it now as it gives the possibility to write queries in a different way, I believe unification is our friend here and all the queries in the project should be written in the same form. Nevertheless I will think about full migration to Quill later
+
+
+[02/04/2020 9:07 AM] greenhat#6562
+@Ilya | Spectrum I appreciate consistency as well. Although it makes this kind of adoptions harder since we have to convert all our queries at once. If I convert all queries in this PR would you consider to adopt Quill? 🙂 
+I really think it fits perfectly into Doobie layer (replacing SQL fragments) and make our DB query level more safe and robust.
+
+
+[02/04/2020 9:13 AM] greenhat#6562
+I just cannot ignore that we can have this:
+```
+    quote {
+      query[Output]
+        .join(query[Asset])
+        .on {
+          case (out, asset) => out.boxId == asset.boxId && asset.tokenId == lift(tokenId)
+        }
+        .leftJoin(query[Input])
+        .on { case ((out, _), i) => i.boxId == out.boxId }
+        .filter { case ((out, _), _) => out.mainChain }
+        .filter {
+          case ((out, _), _) =>
+            infix"${out.ergoTree} like ${lift("%" + ergoTreeTemplate.unwrapped)}"
+              .as[Boolean]
+        }
+        .filter {
+          case (_, i) => i.map(_.boxId).isEmpty || !i.getOrNull.mainChain
+        }
+        .drop(lift(offset))
+        .take(lift(limit))
+        .map {
+          case ((out, _), i) =>
+            ExtendedOutput(out, i.map(_.txId))
+        }
+    }
+```
+compiled into this:
+```
+SELECT x01.box_id, x01.tx_id, x01.value, x01.creation_height, x01.index, x01.ergo_tree, x01.address, x01.additional_registers, x01.timestamp, x01.main_chain, x12.tx_id FROM node_outputs x01 INNER JOIN node_assets x11 ON x01.box_id = x11.box_id AND x11.token_id = ? LEFT JOIN node_inputs x12 ON x12.box_id = x01.box_id WHERE x01.main_chain AND x01.ergo_tree like ? AND (x12.box_id IS NULL OR NOT (x12.main_chain)) LIMIT ? OFFSET ?
+```
+during the project compilation.
+
+
+[02/04/2020 9:46 AM] Ilya | Spectrum#0494
+Let's now focus on implementing APIs we need to launch explorer)
+Complex queries written in Quill dsl looks too complicated (to me) and far less readable than plain sql
+
+
+[02/04/2020 9:47 AM] Ilya | Spectrum#0494
+So I'm definitely not ready to migrate to quill now
+
+
+[02/04/2020 9:54 AM] greenhat#6562
+@Ilya | Spectrum Ok. It was worth a shot. 🙂
+
+
+[02/04/2020 10:04 AM] morphic#4133
+@greenhat one of the reasons to keep plain SQL in doobie layer is to be able to easily resolve performance issues in SQL, by 1) easily understanding actual SQL queries 2) copy-paste them into postgress profiler and understand query plan.
+So I suggest to keep SQL as it is and not spend time on this now.
+
+
+[02/04/2020 10:06 AM] morphic#4133
+Since the schema will be stable enough, performance of Postgres will be the key aspect of future improvement. So we need to optimize for this.
+
+
+[02/04/2020 10:10 AM] greenhat#6562
+@morphic You're late. I already gave up on Quill. 🙂
+
+
+[02/04/2020 10:13 AM] morphic#4133
+Actually I tried Quill couple of years ago, and this approach should be really good for schema that changes often (like in enterprise projects)
+
+
+[02/04/2020 10:15 AM] morphic#4133
+Another motivation is if Quill support DB abstraction layer (I'm not aware of such capability). This may be a motivation to use it in  future.
+
+
+[02/04/2020 10:32 AM] greenhat#6562
+@morphic I'm not sure what level of abstraction do you mean. Like switching to another DB? I think changing `val ctx = new DoobieContext.Postgres(Literal)` and some PG-specific code (type encoder/decoder) in a few places should suffice. Of course there is also a DB creation script.
+
+
+[02/04/2020 10:33 AM] morphic#4133
+Yes, I mean changing PG to MySQL or another RDBMS
+
+
+[02/04/2020 3:48 PM] greenhat#6562
+@morphic fetching DEX sell/buy orders PR is ready - https://github.com/ergoplatform/explorer-backend/pull/14 
+Should I wait for new contracts and update the PR or merge and change later?
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/pull/14
+API for fetching DEX sell/buy orders by greenhat · Pull Request #...
+Close #9
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/04/2020 4:26 PM] greenhat#6562
+@Ilya | Spectrum thanks for the review! I’m on it.  I wanted first to make sure I don’t have to rewrite everything cause of new contracts from @morphic
+
+
+[02/04/2020 4:28 PM] Ilya | Spectrum#0494
+Why the PR is marked as `ready-for-review` then?
+
+
+[02/04/2020 4:34 PM] greenhat#6562
+@Ilya | Spectrum My bad. I got used to @morphic doing reviews only after I ping him in chat. 🙂 It's nice that someone is tracking the labels. I appreciate it. You review notes are valid even if the contracts will change.
+
+{Reactions}
+👍 
+
+[02/04/2020 4:38 PM] greenhat#6562
+BTW, I tried to handle error in stream properly(not by throwing .get), but got stuck in type mismatches, and eventually gave up. I’m going to nail it this time. 😳
+
+
+[02/04/2020 5:28 PM] Ilya | Spectrum#0494
+You should raise business errors only inside `ContravariantRaise` channel, `Stream.raiseError` uses `MonadError` channel which is not suitable in this case
+
+{Reactions}
+🙏 
+
+[02/06/2020 10:40 AM] Ilya | Spectrum#0494
+@greenhat, https://github.com/ergoplatform/explorer-backend/pull/14#pullrequestreview-354337035
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/pull/14
+API for fetching DEX sell/buy orders by greenhat · Pull Request #...
+Close #9
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+{Reactions}
+🙏 
+
+[02/08/2020 2:37 PM] kushti#0978
+@Ilya | Spectrum explorer hangs @ 159658
+
+
+[02/08/2020 8:01 PM] scalahub#2618
+are there any backup explorers?
+
+
+[02/09/2020 9:55 AM] scalahub#2618
+explorer does not show registers for input boxes..
+example https://explorer.ergoplatform.com/en/transactions/c9ef5ddcea3503e26831c492b89e1a30508887cd4f5733715bd050cb1c02f711
+second input box has R4 filled as can be seen here https://explorer.ergoplatform.com/en/transactions/572224a01b946691466a04d4202685a5b46a4b4936ef4b87e45df036df23c1b7 (last output)
+
+
+[02/09/2020 12:45 PM] Ilya | Spectrum#0494
+@greenhat, I'm merging https://github.com/ergoplatform/explorer-backend/pull/14#pullrequestreview-355604527
+
+Btw, don't you mind me making several improvements on your code lately? -- I'd like to add paging to all methods returning potentially huge stream
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/pull/14
+API for fetching DEX sell/buy orders by greenhat · Pull Request #14 · ...
+Close #9
+Todo:
+
+ test DexCoreService;
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+{Reactions}
+👍 
+
+[02/09/2020 12:47 PM] greenhat#6562
+@Ilya | Spectrum Sure. I should've added paging myself.
+
+
+[02/11/2020 9:02 PM] Ilya | Spectrum#0494
+Seems there is an inconsistency in the explorer's blockchain representation.
+In the upcoming explorer update I've made atomic forks switching, so I believe such a bug would not be possible. Nevertheless if we expect other systems to rely on explorer we need to be 100% sure it's blockchain representation is consistent. As an additional measure a new consistency check operation can be introduced -- chain of the explorer will be compared to the chain of a node by comparing their hashes, where `hash(chain) = Seq(secondBlockId .. latestBlockId).foldLeft(hash(genesisBlockId))((acc, b) => hash(acc ++ b))`.
+Such a chain digest can be easily maintained by both explorer and node.
+
+{Reactions}
+👍 
+
+[02/12/2020 7:31 AM] kushti#0978
+@Ilya | Spectrum such hashchain already exists. It's called blockchain. So your check is basically the same as comparing last header ids
+
+
+[02/12/2020 7:32 AM] kushti#0978
+@Ilya | Spectrum is explorer getting data inconsistencies because of forks? Do you have evidence for that ?
+
+
+[02/12/2020 7:50 AM] Ilya | Spectrum#0494
+> @Ilya | Spectrum such hashchain already exists. It's called blockchain. So your check is basically the same as comparing last header ids
+@kushti, you're right 😅, but it's a little bit more problematic to mirror protocol checks on the explorer site
+
+
+[02/12/2020 8:07 AM] mx#5165
+@kushti 3.3.0 will enable different wallets to not rely on explorer correct?
+
+
+[02/12/2020 2:28 PM] kushti#0978
+@mx probably will be not enough, these are the features to be implemented for that https://github.com/ergoplatform/ergo/issues/1050 , https://github.com/ergoplatform/ergo/issues/983
+
+{Embed}
+https://github.com/ergoplatform/ergo/issues/1050
+Implement get transaction by id and get unspent boxes by address · ...
+This will require two types of indexing: transaction by id and UTXOs (boxes) by address. Suggested approach to use two flags, one for each type index.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+{Embed}
+https://github.com/ergoplatform/ergo/issues/983
+Support backward scanning of transactions by the wallet · Issue #98...
+Currently you should initialize or restore wallet before the retrieval since the node is only scanning forward. The only way for backward scanning is deleting .ergo folder. Deleting the /wallet and...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+{Reactions}
+👍 
+
+[02/13/2020 9:51 AM] Ilya | Spectrum#0494
+@greenhat, https://github.com/ergoplatform/explorer-backend/pull/17#discussion_r378753380
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/pull/17
+use compiled DEX sell/buy order contracts by greenhat · Pull Reques...
+close #16
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/13/2020 9:59 AM] greenhat#6562
+@Ilya | Spectrum Thanks! I'll wrap it in effect then, and handle it in `DexService`.  BTW, you don't have to ping me here, I read github notifications. 🙂
+
+{Reactions}
+👌 
+
+[02/21/2020 8:41 AM] Ilya | Spectrum#0494
+@greenhat, please review
+https://github.com/ergoplatform/explorer-backend/pull/18
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/pull/18
+Minor improvements by oskin1 · Pull Request #18 · ergoplatform/expl...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+{Reactions}
+👌 
+
+[02/21/2020 3:53 PM] Ilya | Spectrum#0494
+@greenhat, I'm merging https://github.com/ergoplatform/explorer-backend/pull/17 ?
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/pull/17
+use compiled DEX sell/buy order contracts by greenhat · Pull Reques...
+close #16
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/21/2020 3:55 PM] greenhat#6562
+@Ilya | Spectrum yes, please. It’s ready.  I did not touch the label, just wrote you a comment.
+
+{Reactions}
+👍 
+
+[02/25/2020 9:50 AM] greenhat#6562
+@Ilya | Spectrum Is there any overview of deployment process? Docked builds and stuff. And what is tag publishing?
+
+
+[02/25/2020 9:55 AM] Ilya | Spectrum#0494
+We have an overview for currently used pipeline, but I think it's too complicated (it is based on docker swarm)
+https://github.com/ergoplatform/ansible/blob/master/docs/Infrastructure-Overview.md
+
+We can use plain docker containers, and manually update them when needed.
+
+{Embed}
+https://github.com/ergoplatform/ansible/blob/master/docs/Infrastructure-Overview.md
+ergoplatform/ansible
+One repo to rule them all. Contribute to ergoplatform/ansible development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/25/2020 9:56 AM] morphic#4133
+I'm in favor of not using ansible for our simple deployment
+
+
+[02/25/2020 9:57 AM] Ilya | Spectrum#0494
+On tag publishing -- when image is built locally it needs to be published under some tag (version) to our dockerhub repo to be pulled on the remote machine
+
+
+[02/25/2020 9:59 AM] Ilya | Spectrum#0494
+Though, it can also be done manually for the first time
+
+
+[02/25/2020 10:03 AM] greenhat#6562
+I can look into dockerhub tag publishing. Also I would not dismiss ansible. I have some experience with it.
+
+
+[02/25/2020 10:07 AM] morphic#4133
+How ansible can be useful?
+
+
+[02/25/2020 10:08 AM] morphic#4133
+On our low scale environment seems like it makes support harder to do.
+
+
+[02/25/2020 10:09 AM] Ilya | Spectrum#0494
+> I can look into dockerhub tag publishing. Also I would not dismiss ansible. I have some experience with it.
+@greenhat, image builds have to be configured first
+
+
+[02/25/2020 10:13 AM] greenhat#6562
+> How ansible can be useful?
+@morphic  Deployment. Similar to our release publishing. Set a tag and have build published. Or build it manually, upload and go through stages in sonatype. 🙂
+
+{Reactions}
+👍 
+
+[02/25/2020 10:15 AM] morphic#4133
+does it work as transparently as travis does?
+
+
+[02/25/2020 10:15 AM] morphic#4133
+I.e. can I see a log of what happened in web console?
+
+
+[02/25/2020 10:15 AM] morphic#4133
+restart if necessary?
+
+
+[02/25/2020 10:22 AM] greenhat#6562
+@morphic Well, ansible is not travis, it's a deployment script, your `build.sbt` to continue with analogy. The deployment script (ansible) can be run from travis job I believe.
+
+
+[02/25/2020 10:27 AM] morphic#4133
+How to trouble shoot it?
+
+
+[02/25/2020 10:29 AM] greenhat#6562
+@morphic Same as `built.sbt` problems. Either run locally or check log remotely. Fix, run again, check if it helped.
+
+
+[02/25/2020 10:32 AM] greenhat#6562
+To be clear, I'm not advocating for ansible as a tool here, any alternative is fine. I'm advocating for deployment automation and against manual deployment.
+
+
+[02/25/2020 10:41 AM] morphic#4133
+I'm also prefer automation. So you recommend ansible? Could you please check existing ansible scripts and estimate, should you be able to make them working? What needs to be changed, simplified, etc?
+
+
+[02/25/2020 10:47 AM] greenhat#6562
+@morphic I recommend to stick with ansible if we already use it. I'm already looking into the scripts, but first I need to understand the big picture of how our ifra is organized.
+
+
+[02/25/2020 11:03 AM] greenhat#6562
+@Ilya | Spectrum Do we plan to deploy new backend in the same way the old one was deployed?  I'm reading https://github.com/ergoplatform/ansible/blob/master/docs/Explorer-Team-Manual.md
+
+{Embed}
+https://github.com/ergoplatform/ansible/blob/master/docs/Explorer-Team-Manual.md
+ergoplatform/ansible
+One repo to rule them all. Contribute to ergoplatform/ansible development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/25/2020 11:06 AM] greenhat#6562
+@Ilya | Spectrum Do we have a shared dockerhub account or I can sign up my own?
+
+
+[02/25/2020 11:17 AM] Ilya | Spectrum#0494
+I’d prefer not to use swarm as it seems to be overkill here. Also it’s  not quite clear how to configure new services deployment
+
+
+[02/25/2020 11:19 AM] Ilya | Spectrum#0494
+> @Ilya | Spectrum Do we plan to deploy new backend in the same way the old one was deployed?  I'm reading https://github.com/ergoplatform/ansible/blob/master/docs/Explorer-Team-Manual.md
+This manual describes how to deal with current deployment schemes, but says nothing about configuring new projects
+
+{Embed}
+https://github.com/ergoplatform/ansible/blob/master/docs/Explorer-Team-Manual.md
+ergoplatform/ansible
+One repo to rule them all. Contribute to ergoplatform/ansible development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/25/2020 11:29 AM] greenhat#6562
+@Ilya | Spectrum I don’t have any experience with swarm so I’d stay away from it as well. I want to see how current testnet and mainnet deployments are done. I see that hub is triggered via web hook.
+
+
+[02/25/2020 11:33 AM] Ilya | Spectrum#0494
+Currently both explorers and their DBs are deployed as a swarm services which are defined like this
+https://github.com/ergoplatform/ansible/blob/master/files/stacks/explorer-mainnet.yml
+
+{Embed}
+https://github.com/ergoplatform/ansible/blob/master/files/stacks/explorer-mainnet.yml
+ergoplatform/ansible
+One repo to rule them all. Contribute to ergoplatform/ansible development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/25/2020 11:36 AM] Ilya | Spectrum#0494
+All the nodes in the swarm are being orchestrated by swarm01 node
+
+
+[02/25/2020 11:37 AM] Ilya | Spectrum#0494
+So I think some scripts handling webhooks are there
+
+
+[02/25/2020 11:38 AM] Ilya | Spectrum#0494
+Current swarm nodes are listed here
+https://github.com/ergoplatform/ansible/blob/master/inventory/hosts
+
+{Embed}
+https://github.com/ergoplatform/ansible/blob/master/inventory/hosts
+ergoplatform/ansible
+One repo to rule them all. Contribute to ergoplatform/ansible development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/25/2020 4:56 PM] greenhat#6562
+@Ilya | Spectrum I'm seeing dockercloud web hooks. But "Details" link ends up with 404. Do I need to be logged in to docker hub to see it? Do we have any account on docker hub?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/681907395521151019/unknown.png
+
+
+[02/25/2020 4:57 PM] greenhat#6562
+@Ilya | Spectrum Could you give me more rights in https://github.com/ergoplatform/explorer-back repo? I want to see webhooks configured on github.
+
+{Embed}
+https://github.com/ergoplatform/explorer-back
+ergoplatform/explorer-back
+Ergo blockchain explorer backend. Contribute to ergoplatform/explorer-back development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/25/2020 5:00 PM] greenhat#6562
+I'd like to explore an idea of adding one more DO VPS to the swarm and duplicating `explorer` stack to deploy new backend. It might be the fastest solution.
+
+
+[02/25/2020 5:45 PM] Ilya | Spectrum#0494
+@greenhat, done
+If Mainetainer role doesn't give enough permissions let me know -- I'll assign admin role
+
+{Reactions}
+🙏 
+
+[02/25/2020 5:47 PM] Ilya | Spectrum#0494
+> @Ilya | Spectrum I'm seeing dockercloud web hooks. But "Details" link ends up with 404. Do I need to be logged in to docker hub to see it? Do we have any account on docker hub?
+@greenhat, responds with 404 to me either (I'm a member of ergoplatform dockerhub repo and logged in)
+
+
+[02/25/2020 5:48 PM] Ilya | Spectrum#0494
+Github interface displays this webhook as problematic
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/681920560904536069/unknown.png
+
+
+[02/25/2020 5:53 PM] greenhat#6562
+Third one is green. I want to find how/who exactly runs the stack script.
+
+
+[02/26/2020 6:19 AM] greenhat#6562
+> @greenhat, done
+> If Mainetainer role doesn't give enough permissions let me know -- I'll assign admin role
+@Ilya | Spectrum I don't see repo settings, seems like admin role is needed.
+
+{Reactions}
+👌 
+
+[02/26/2020 6:38 AM] Ilya | Spectrum#0494
+@greenhat You're admin now
+
+{Reactions}
+🙏 
+
+[02/26/2020 9:12 AM] greenhat#6562
+Here is what I found out about current backend deployment.
+1. Github push triggers webhook to Docker Hub;
+2. Docker Hub builds docker images with Dockerfile 
+https://hub.docker.com/r/ergoplatform/explorer-back/dockerfile 
+with two tags (latest, mainnet) 
+https://hub.docker.com/r/ergoplatform/explorer-back/tags and publishes them.
+3. Docker Hub sends webhook to "our autodeploy facility". I suspect `swarm01` runs this "facility" https://github.com/andyceo/dockerhub-webhooks/tree/master 
+4. "our autodeploy facility" executes stacks from https://github.com/ergoplatform/ansible/blob/3efad373f3fef1da48113fde7661182909f57f9f/files/configs/dockerhub-webhooks/config.json 
+which deploy images (from step 2) to `[docker-swarm]` hosts from https://github.com/ergoplatform/ansible/blob/870151ebf4e021f2e018bd74697ef97ff6c0c72d/inventory/hosts
+
+To "extend" this workflow to include new backend we need to add new repository on Docker Hub and configure it the same way as existing https://hub.docker.com/r/ergoplatform/explorer-back . In order to do that I need to see existing repo configuration. It has `ergoplatform` user/org as an owner. 
+@Ilya | Spectrum  Do we have credentials for this account?
+
+
+[02/26/2020 9:15 AM] greenhat#6562
+I must admit it all looks quite over-engineered and it might be a better idea to build a new deployment workflow. A bit **SIMPLIER** this time. 😑
+
+
+[02/26/2020 9:40 AM] Ilya | Spectrum#0494
+@greenhat, You mean credentials for account on dockerhub?
+
+
+[02/26/2020 9:41 AM] greenhat#6562
+@Ilya | Spectrum yes, “ergoplatform” on docker hub.
+
+
+[02/26/2020 9:42 AM] Ilya | Spectrum#0494
+I'm a member of this repo but don't have enough permissions to create new repos.
+Maybe @kushti has creds from org itself?
+
+
+[02/26/2020 9:47 AM] greenhat#6562
+@Ilya | Spectrum Can you add me to this org ? I'm https://hub.docker.com/u/greenden
+
+
+[02/26/2020 9:48 AM] Ilya | Spectrum#0494
+@greenhat, I'm not eligible for managing members either
+
+
+[02/26/2020 10:14 AM] greenhat#6562
+@Ilya | Spectrum Can you tell me what webhooks are defined there?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/682168527548973071/unknown.png
+
+
+[02/26/2020 10:14 AM] greenhat#6562
+in https://hub.docker.com/r/ergoplatform/explorer-back
+
+
+[02/26/2020 10:16 AM] Ilya | Spectrum#0494
+@greenhat, I don't have such a tab in my interface
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/682169229210026056/unknown.png
+
+
+[02/26/2020 10:17 AM] Ilya | Spectrum#0494
+@kushti, what about credentials for dockerhub?
+
+
+[02/26/2020 11:47 AM] greenhat#6562
+Here is the plan I came up for extending existing infra (**Plan A**):
+How to add deploy new backend:
+1. Create repo on docker hub;
+2. Add webhooks in github repo so pushes trigger docker hub repo to build docker images;
+3. Create a new DO VPS instance 
+4. Join created DO VPS instance to our docker swarm;
+5. Add created DO VPS instance to ansible inventory;
+6. Add new docker stack in `/data/stacks (duplicate https://github.com/ergoplatform/ansible/blob/3efad373f3fef1da48113fde7661182909f57f9f/files/stacks/explorer.yml)
+7. Add created docker stack to "autodeploy" conf https://github.com/ergoplatform/ansible/blob/3efad373f3fef1da48113fde7661182909f57f9f/files/configs/dockerhub-webhooks/config.json
+8. Create sub-domain `new.testnet.ergoplatform.com`;
+9. Issue new SSL cert for `new.testnet.ergoplatform.com`;
+10. Install issued SSL cert (where is nginx?);
+ ...
+I stuck at 10, looking for nginx. 🙂
+I assume we want to deploy new backend on a separate host and eventually switch DNS when it's ready.
+
+
+[02/26/2020 11:51 AM] Ilya | Spectrum#0494
+Looks good👍 
+There is already a separate machine for new explorer and it's test instance is deployed on it
+
+
+[02/26/2020 11:59 AM] greenhat#6562
+I don’t know yet how to do half of the steps.
+
+
+[02/26/2020 12:34 PM] Ilya | Spectrum#0494
+9th step may be unnecessary if current ssl cert covers 4th level domain
+
+
+[02/26/2020 2:01 PM] greenhat#6562
+I'm still puzzled and don't get how our nginx(s) are configured. 😦
+
+
+[02/26/2020 2:01 PM] greenhat#6562
+How do we manage our DNS? /cc @kushti
+
+
+[02/26/2020 2:12 PM] kushti#0978
+@greenhat I have some master password from andyceo lemme PM it to you
+
+
+[02/27/2020 11:45 AM] greenhat#6562
+Can we merge https://github.com/ergoplatform/explorer-back/pull/230 ? We need it for ergotool DEX commands.
+
+{Embed}
+https://github.com/ergoplatform/explorer-back/pull/230
+add queries to find boxes by contract template by greenhat · Pull R...
+Close #229
+Corresponding PR in frontend(add docs) - ergoplatform/ergo-explorer#65
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/27/2020 12:05 PM] Ilya | Spectrum#0494
+@greenhat, please approve
+https://github.com/ergoplatform/explorer-back/pull/235
+
+{Embed}
+https://github.com/ergoplatform/explorer-back/pull/235
+Update from master by oskin1 · Pull Request #235 · ergoplatform/exp...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/27/2020 12:09 PM] greenhat#6562
+@Ilya | Spectrum Thanks for the mainnet PR. I'd like to test new endpoints with ergotool in testnet first, before deploying to mainnet. I'll approve and ping you afterwards.
+
+
+[02/27/2020 12:10 PM] Ilya | Spectrum#0494
+Ok, you can merge it yourself when needed
+
+{Reactions}
+👌 
+
+[02/29/2020 1:08 PM] Dmitry Usov#0134
+hi
+
+
+[02/29/2020 1:08 PM] Dmitry Usov#0134
+where new explorer hosts?
+
+
+[02/29/2020 1:08 PM] Dmitry Usov#0134
+can some one provide me ip?
+
+
+[02/29/2020 1:45 PM] Ilya | Spectrum#0494
+@Dmitry Usov, it doesn't have stable ip yet
+
+
+[03/01/2020 2:51 PM] Ilya | Spectrum#0494
+@Dmitry Usov, btw, test instance can be found at http://88.198.50.217:8081/api/v0/info
+
+
+[03/01/2020 10:08 PM] kushti#0978
+@Ilya | Spectrum https://github.com/ergoplatform/ergo/issues/1058
+
+{Embed}
+https://github.com/ergoplatform/ergo/issues/1058
+Ergo Explorer can't find my wallet address · Issue #1058 · ergoplat...
+Hello! I setup an ergo node v 3.2.1. It&#39;s current status as shown on http://127.0.0.1:9052/panel/ is Active synchronization. On the tap Wallet of the Panel I got my wallet address. I copied...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[03/02/2020 7:08 AM] Ilya | Spectrum#0494
+> @Ilya | Spectrum https://github.com/ergoplatform/ergo/issues/1058
+> Search by address works fine as I can see
+
+{Embed}
+https://github.com/ergoplatform/ergo/issues/1058
+Ergo Explorer can't find my wallet address · Issue #1058 · ergoplat...
+Hello! I setup an ergo node v 3.2.1. It&#39;s current status as shown on http://127.0.0.1:9052/panel/ is Active synchronization. On the tap Wallet of the Panel I got my wallet address. I copied...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[03/03/2020 7:43 AM] greenhat#6562
+I've tested explorer backend updates on testnet and ready to merge https://github.com/ergoplatform/explorer-back/pull/235
+
+{Embed}
+https://github.com/ergoplatform/explorer-back/pull/235
+Update from master by oskin1 · Pull Request #235 · ergoplatform/exp...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[03/03/2020 7:43 AM] greenhat#6562
+@Ilya | Spectrum please approve ☝️
+
+
+[03/03/2020 8:57 AM] greenhat#6562
+@Ilya | Spectrum never mind, I approved it myself.
+
+{Reactions}
+👍 
+
+[03/04/2020 3:28 AM] filippounits#3593
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/684603187759546383/Screenshot_20200303-212728.jpg
+
+
+[03/04/2020 7:49 AM] greenhat#6562
+It's up now. What was the cause?
+
+
+[03/09/2020 2:54 PM] Dmitry Usov#0134
+@greenhat @Ilya | Spectrum not found http://88.198.50.217:8081/api/v0/transactions/boxes/byErgoTreeTemplate/unspent/eb027300d1eded91b1a57301e6c6b2a5730200040ed801d60193e4c6b2a5730300040ec5a7eded92c1b2a57304007305720193c2b2a5730600d07307
+
+
+[03/09/2020 2:54 PM] Dmitry Usov#0134
+see https://github.com/ergoplatform/ergo-explorer/issues/66 (1)
+
+{Embed}
+https://github.com/ergoplatform/ergo-explorer/issues/66
+DEX Order Book page · Issue #66 · ergoplatform/ergo-explorer
+Originally described in aslesarenko/ergo-tool#26 Motivation Command to show current order book for a given token, i.e. a table with Sell and Buy orders by price. So that all sell orders are above a...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[03/09/2020 2:55 PM] Dmitry Usov#0134
+how i can get all unspent sell and buy order contracts by api?
+
+
+[03/09/2020 3:41 PM] greenhat#6562
+@Dmitry Usov it's the old API, which only exists in old backend. I highlighted that in #66 but not enough. Sorry for confusion. API in new backed is defined in https://github.com/ergoplatform/explorer-backend/blob/rest-api/modules/explorer-api/src/main/scala/org/ergoplatform/explorer/http/api/v0/defs/DexEndpointsDefs.scala
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/blob/rest-api/modules/explorer-api/src/main/scala/org/ergoplatform/explorer/http/api/v0/defs/DexEndpointsDefs.scala
+ergoplatform/explorer-backend
+Ergo Blockchain Explorer. Contribute to ergoplatform/explorer-backend development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[03/09/2020 3:42 PM] greenhat#6562
+`/dex/tokens/[token id]/unspentSellOrders`  and `/dex/tokens/[token id]/unspentBuyOrders`
+
+
+[03/09/2020 5:00 PM] Dmitry Usov#0134
+thanks
+
+
+[03/11/2020 5:41 PM] Dmitry Usov#0134
+@greenhat hello! Can you please help me. Have we 'search token by tokenid' method api?
+
+
+[03/11/2020 5:45 PM] greenhat#6562
+@Dmitry Usov check out https://github.com/ergoplatform/explorer-backend/blob/rest-api/modules/explorer-api/src/main/scala/org/ergoplatform/explorer/http/api/v0/defs/AssetsEndpointDefs.scala
+It should be assets/issuingBoxes for all issued tokens and assets/[tokenid]/issuingBox if you already know token id
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/blob/rest-api/modules/explorer-api/src/main/scala/org/ergoplatform/explorer/http/api/v0/defs/AssetsEndpointDefs.scala
+ergoplatform/explorer-backend
+Ergo Blockchain Explorer. Contribute to ergoplatform/explorer-backend development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[03/11/2020 5:46 PM] Dmitry Usov#0134
+thanks
+
+
+[03/25/2020 11:03 AM] greenhat#6562
+@morphic I'm curious, why MIT ?https://github.com/ergoplatform/explorer-backend/issues/23
+ergo is CC0, so are the other repos I created lately.
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/issues/23
+Add MIT license file · Issue #23 · ergoplatform/explorer-backend
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[03/25/2020 11:10 AM] morphic#4133
+Sigma is MIT
+
+
+[03/25/2020 11:11 AM] morphic#4133
+CC0 is for docs, MIT is most permissive for code
+
+
+[03/25/2020 11:12 AM] kushti#0978
+@morphic why CC0 is for docs ?
+
+
+[03/25/2020 11:14 AM] morphic#4133
+I studied this in IPFS. They described this in their licensing policy.
+
+
+[03/25/2020 11:15 AM] morphic#4133
+But, I'm not insisting here, I'm not an expert in licensing
+
+
+[03/25/2020 11:27 AM] greenhat#6562
+Neither am I. I just copied ergo's license. 🙂
+
+
+[03/25/2020 2:46 PM] kushti#0978
+@Ilya | Spectrum how can I run new explorer locally , better without docker ? )
+
+
+[03/25/2020 2:48 PM] Ilya | Spectrum#0494
+@kushti, you can simply run each app in idea
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/692384421524799528/unknown.png
+
+
+[03/25/2020 2:49 PM] Ilya | Spectrum#0494
+But make sure to configure local instances of postgres and redis
+
+
+[03/25/2020 3:36 PM] kushti#0978
+@Ilya | Spectrum why two databases ?
+
+
+[03/25/2020 3:37 PM] Ilya | Spectrum#0494
+Redis is a cache, while Postgres is a relational db -- they serve different purposes
+
+
+[03/26/2020 9:04 AM] kushti#0978
+@Ilya | Spectrum how deployment is going ?
+
+
+[03/26/2020 6:28 PM] Ilya | Spectrum#0494
+@kushti, I'm going to deploy on the weekend
+@morphic, I've filled TODOs Scala Doc you'd left in the code (partially, some were left for future PRs (I mean DEX-related code))
+I'm merging all pending PRs now, number of improvements are to be made in separate PRs
+
+{Reactions}
+👍 💯 
+
+[03/30/2020 4:58 PM] Ilya | Spectrum#0494
+Explorer is deployed
+https://new-explorer.ergoplatform.com/blocks
+
+{Reactions}
+💯 
+
+[03/30/2020 4:58 PM] Ilya | Spectrum#0494
+Both old and new (/api/v0) url schemes are available
+
+{Reactions}
+💪 (3) 💯 
+
+[03/31/2020 9:49 AM] kushti#0978
+No changes in UI aside of orders page ?
+
+
+[03/31/2020 8:22 PM] Dmitry Usov#0134
+@kushti what do you mean?
+
+
+[03/31/2020 8:22 PM] Dmitry Usov#0134
+> Explorer is deployed
+> https://new-explorer.ergoplatform.com/blocks
+@Ilya | Spectrum thanks, i will update explorers config
+
+
+[03/31/2020 8:29 PM] Dmitry Usov#0134
+@Ilya | Spectrum what about testnet?
+
+
+[03/31/2020 8:37 PM] Dmitry Usov#0134
+@kushti Ilya deployed only new backend. Frontend didn't changed.
+
+
+[03/31/2020 8:39 PM] kushti#0978
+@Dmitry Usov for the frontend, only DEX orders page will be deployed? What about assets list ?
+
+
+[03/31/2020 8:41 PM] Dmitry Usov#0134
+Assets list in progress
+
+
+[03/31/2020 8:42 PM] Dmitry Usov#0134
+Now I am working at DEX orders page. Need to complete it.
+
+
+[03/31/2020 8:44 PM] Dmitry Usov#0134
+Current problem is: we have new backend mainnet, but no new backend testnet. I can't deploy order book page only for mainnet.
+
+
+[03/31/2020 8:46 PM] kushti#0978
+@Ilya | Spectrum what can we do ^ ?
+
+
+[03/31/2020 10:00 PM] Ilya | Spectrum#0494
+I can deploy another instance of explorer for testnet, but it's probably worth doing on another machine
+
+
+[04/01/2020 9:58 AM] jasondavies#8712
+Found a bug in the explorer: https://github.com/ergoplatform/ergo-explorer/issues/73
+
+{Embed}
+https://github.com/ergoplatform/ergo-explorer/issues/73
+Incorrect transaction display in UI · Issue #73 · ergoplatform/ergo...
+https://explorer.ergoplatform.com/en/blocks/3a6b6ec23aa177d4b0d9973f270e00901b50e903891d0281cb8b405da64516a9/transactions Transaction ID f682d38638011475accf6e98ec2734a5cda8b159e0d00d994adc2404de6b...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[04/01/2020 12:33 PM] Ilya | Spectrum#0494
+> Found a bug in the explorer: https://github.com/ergoplatform/ergo-explorer/issues/73
+@Dmitry Usov, lets deploy frontend for new explorer in order to migrate from old one completely?
+
+{Embed}
+https://github.com/ergoplatform/ergo-explorer/issues/73
+Incorrect transaction display in UI · Issue #73 · ergoplatform/ergo...
+https://explorer.ergoplatform.com/en/blocks/3a6b6ec23aa177d4b0d9973f270e00901b50e903891d0281cb8b405da64516a9/transactions Transaction ID f682d38638011475accf6e98ec2734a5cda8b159e0d00d994adc2404de6b...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[04/01/2020 2:59 PM] Dmitry Usov#0134
+ye, go
+
+
+[04/02/2020 7:56 AM] kushti#0978
+@Ilya | Spectrum
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/695164831678070784/unknown.png
+
+
+[04/02/2020 7:57 AM] kushti#0978
+Magnum is using explorer to get the inputs I guess ?
+
+
+[04/02/2020 7:57 AM] kushti#0978
+they're on ergo-js
+
+
+[04/02/2020 8:28 AM] Ilya | Spectrum#0494
+Right, there is a related bug in the old explorer repo I guess
+Seems we have duplicated inputs in the database — we can try to fix it or ask them to migrate to the new one
+
+
+[04/02/2020 8:30 AM] kushti#0978
+please fix now, and I'm going to inform magnum, but we can't expect very quick reply there
+
+
+[04/02/2020 8:38 AM] kushti#0978
+@Ilya | Spectrum pinged you in Magnum group
+
+
+[04/02/2020 8:39 AM] kushti#0978
+@Ilya | Spectrum please ping me when fixed
+
+
+[04/02/2020 8:53 AM] kushti#0978
+@Ilya | Spectrum I mean fixed in old explorer
+
+
+[04/02/2020 9:15 AM] Ilya | Spectrum#0494
+I see, will look at it
+
+
+[04/02/2020 11:57 AM] kushti#0978
+@Ilya | Spectrum fixed ?
+
+
+[04/03/2020 11:08 AM] kushti#0978
+@Ilya | Spectrum please check TG chat with Magnum
+
+
+[04/03/2020 11:37 AM] kushti#0978
+@Ilya | Spectrum do you have tests for APIs compatibility ?
+
+
+[04/03/2020 11:37 AM] Ilya | Spectrum#0494
+No
+
+
+[04/03/2020 11:38 AM] kushti#0978
+what could be other differences than timestamp semantics?
+
+
+[04/03/2020 11:38 AM] kushti#0978
+please double-check everything
+
+
+[04/03/2020 11:40 AM] Ilya | Spectrum#0494
+Ok
+
+
+[04/03/2020 11:41 AM] kushti#0978
+or some tests )
+
+
+[04/03/2020 11:55 AM] Ilya | Spectrum#0494
+I cant imagine a test which compares the semantics of some field against one in another separate program
+
+
+[04/03/2020 11:57 AM] Ilya | Spectrum#0494
+While the format is easily compared to the old one by api spec
+
+
+[04/03/2020 11:57 AM] Ilya | Spectrum#0494
+Which is in case of new explorer isn't generated by hand
+
+
+[04/03/2020 11:57 AM] morphic#4133
+@Ilya | Spectrum wait, the new explorer should support all old APIs right?
+
+
+[04/03/2020 11:58 AM] Ilya | Spectrum#0494
+Right
+
+
+[04/03/2020 12:22 PM] kushti#0978
+@Ilya | Spectrum for only one field semantics changed ?
+
+
+[04/03/2020 12:26 PM] Ilya | Spectrum#0494
+@kushti, it seems, I dont see any other fields vulnerable to such mistakes
+
+
+[04/03/2020 12:29 PM] Ilya | Spectrum#0494
+BTW, in the old explorer the meaning of this field is not specified unambiguously, so the real semantics can only be deduced from source code
+https://github.com/ergoplatform/explorer-back/blob/535fe250b2f71ba72b06b7603c1e2159e620890f/src/main/resources/api/openapi.yaml#L1512
+
+{Embed}
+https://github.com/ergoplatform/explorer-back/blob/535fe250b2f71ba72b06b7603c1e2159e620890f/src/main/resources/api/openapi.yaml
+ergoplatform/explorer-back
+Ergo blockchain explorer backend. Contribute to ergoplatform/explorer-back development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[04/03/2020 12:44 PM] morphic#4133
+@Ilya | Spectrum I remember we discussed this before. I think it will be very valuable to have a suit of tests exercising two explorer endpoints and compare the differencies. Kind of API Compatibility Test Suite.
+It can later be used to test new updated versions agains currently running
+
+
+[04/03/2020 12:46 PM] morphic#4133
+You can start from single test (which would catch the above bug), and gradually add tests over time.
+
+
+[04/03/2020 12:49 PM] Ilya | Spectrum#0494
+> You can start from single test (which would catch the above bug), and gradually add tests over time.
+@morphic  the bug discussed above isn’t in value format but in its semantics — the timestamp field in transaction contained ts it was written to db, while in old explorer it was ts is the corresponding block. 
+How to check such things in a test?
+
+
+[04/03/2020 12:50 PM] Ilya | Spectrum#0494
+I can imagine separate program fetching data from both explorers and comparing it
+
+
+[04/03/2020 12:51 PM] morphic#4133
+Yes, that is what I mean, separate program
+
+
+[04/03/2020 12:55 PM] morphic#4133
+We have similar test in sigma-spam, which runs as part of CI for every sigma push commit.
+
+
+[04/04/2020 9:24 PM] scalahub#2618
+@Ilya | Spectrum /info in explorer does not seem to return height.. can you add that?
+
+
+[04/04/2020 9:24 PM] scalahub#2618
+returns only `{"version":"1","supply":15019350000000000,"transactionAverage":778,"hashRate":1872673148182}`
+
+
+[04/06/2020 10:15 AM] morphic#4133
+@Ilya | Spectrum it seems we really need the compatibility test suite for explorer API
+
+
+[04/06/2020 10:16 AM] Ilya | Spectrum#0494
+@morphic, It would be far cheaper to fix all diverging methods by hand
+
+
+[04/06/2020 10:17 AM] Ilya | Spectrum#0494
+Such tests are valuable when APIs are being updated from time to time, in our case APIv0 will be frozen
+
+
+[04/06/2020 10:23 AM] Ilya | Spectrum#0494
+> @Ilya | Spectrum /info in explorer does not seem to return height.. can you add that?
+@scalahub, I can add this field in the next API revision
+In the current API structure such field isn't supported
+
+
+[04/06/2020 10:39 AM] morphic#4133
+@Ilya | Spectrum I think you need to rethink the concept of automated testing, its value, and use cases 🙂
+
+
+[04/06/2020 10:40 AM] morphic#4133
+Look at the long-term, not short-term value
+
+
+[04/06/2020 10:40 AM] scalahub#2618
+> @scalahub, I can add this field in the next API revision
+> In the current API structure such field isn't supported
+@Ilya | Spectrum Its not urgent, since I can get the same by calling /blocks, just that its not efficient
+
+
+[04/06/2020 10:42 AM] Ilya | Spectrum#0494
+> Look at the long-term, not short-term value
+@morphic It would be frozen both in short and long term, we planned to migrate to new version of API, didn't we?
+
+
+[04/06/2020 10:43 AM] morphic#4133
+what about evolution of the new version? don't we still have to support backward compatibility?
+
+
+[04/06/2020 10:44 AM] Ilya | Spectrum#0494
+Compatibility between old explorer API (lets call it V0) and new one (V1)?
+
+
+[04/06/2020 10:44 AM] morphic#4133
+compatibility between version what is released and any new release candidate
+
+
+[04/06/2020 10:45 AM] Ilya | Spectrum#0494
+We reproduced API V0 in new explorer for that purpose
+
+
+[04/06/2020 10:45 AM] Ilya | Spectrum#0494
+To be able to make all required changes in V1 API version
+
+
+[04/06/2020 10:50 AM] morphic#4133
+Where can I see tests of this "reproduction"?
+
+
+[04/06/2020 10:50 AM] Ilya | Spectrum#0494
+There are no such tests
+
+
+[04/06/2020 10:52 AM] Ilya | Spectrum#0494
+Old explorer is out of support, current API in new explorer won't be modified anymore -- are these tests really so vital?
+
+
+[04/06/2020 10:54 AM] morphic#4133
+Well, this boils down to the question of "Are the backward compatibilty really so vital?"
+
+
+[04/06/2020 10:55 AM] morphic#4133
+It depends of the users. If we have automated integrations, then I think it is very vital to not break the all
+
+
+[04/06/2020 10:55 AM] morphic#4133
+And it also about you being able to sleep well at night.
+
+
+[04/06/2020 1:00 PM] kushti#0978
+> @morphic It would be frozen both in short and long term, we planned to migrate to new version of API, didn't we?
+@Ilya | Spectrum old version should be supported it seems, as unlikely clients will be happy to migrate or will migrate at all
+
+
+[04/06/2020 1:02 PM] kushti#0978
+we do not in touch with all of them even )
+
+
+[04/06/2020 1:02 PM] kushti#0978
+which is good but adding headache
+
+
+[04/06/2020 1:11 PM] Ilya | Spectrum#0494
+> @Ilya | Spectrum old version should be supported it seems, as unlikely clients will be happy to migrate or will migrate at all
+@kushti, I mean old API won't be modified anymore, but it will be maintained
+
+{Reactions}
+💯 
+
+[04/08/2020 7:18 AM] gagarin55#2131
+`"ERROR: could not resize shared memory segment \"/PostgreSQL.1135138751\" to 8388608 bytes: No space left on device"`
+
+
+[04/08/2020 9:14 AM] kushti#0978
+@gagarin55 thanks! investigating
+
+
+[04/08/2020 9:22 AM] Ilya | Spectrum#0494
+@gagarin55, seems old backend can't process such a heavy query.
+Please switch to the new one
+https://new-explorer.ergoplatform.com/addresses/2Z4YBkDsDvQj8BX7xiySFewjitqp2ge9c99jfes2whbtKitZTxdBYqbrVZUvZvKv6aqn9by4kp3LE1c26LCyosFnVnm6b6U1JYvWpYmL2ZnixJbXLjWAWuBThV1D6dLpqZJYQHYDznJCk49g5TUiS4q8khpag2aNmHwREV7JSsypHdHLgJT7MGaw51aJfNubyzSKxZ4AJXFS27EfXwyCLzW1K6GVqwkJtCoPvrcLqmqwacAWJPkmh78nke9H4oT88XmSbRt2n9aWZjosiZCafZ4osUDxmZcc5QVEeTWn8drSraY3eFKe8Mu9MSCcVU
+
+
+[04/09/2020 12:49 AM] scalahub#2618
+unable to get unspent box for below address in explorer.. though there is one box
+
+CVKFuGa5Q3AoVspLjBDu456rDH47uuDHS2e6kZSdPAeR8xtnReAXWFgq22bFXWEYpXgchBvmav9u4wbLZjrUH5iiosrSNE7fm1QxafY8u8eUnzYTDqBhMCSYAcZjAtF185hPxQ5zmCmjarMKUWKyF8ufAcufAGofxW1DaqZjpgeb6s8bbHg9mJRD5NC3eetqSywmfqs321QUZoKbH1mLky1Aqz3qbLjW6FLL6xHNidwptcZWSZ98LAX1Qx2xdTWREHQCLTLEPYoYoMw59SChJ4KmdS
+
+
+[04/09/2020 1:07 AM] scalahub#2618
+that box has boxId 2912d7753e6d4c8b30c56fe6c5da9359959af2d8e1e0f808e3ddf261fe84a684
+
+
+[04/09/2020 9:56 AM] kushti#0978
+works in the new API
+
+
+[04/09/2020 9:56 AM] kushti#0978
+https://new-explorer.ergoplatform.com/addresses/CVKFuGa5Q3AoVspLjBDu456rDH47uuDHS2e6kZSdPAeR8xtnReAXWFgq22bFXWEYpXgchBvmav9u4wbLZjrUH5iiosrSNE7fm1QxafY8u8eUnzYTDqBhMCSYAcZjAtF185hPxQ5zmCmjarMKUWKyF8ufAcufAGofxW1DaqZjpgeb6s8bbHg9mJRD5NC3eetqSywmfqs321QUZoKbH1mLky1Aqz3qbLjW6FLL6xHNidwptcZWSZ98LAX1Qx2xdTWREHQCLTLEPYoYoMw59SChJ4KmdS
+
+
+[04/09/2020 6:55 PM] scalahub#2618
+yes new explorer seems to solve the problem thanks @kushti @Ilya | Spectrum
+
+{Reactions}
+💯 
+
+[04/09/2020 8:22 PM] Dmitry Usov#0134
+what status of new testnet explorer? @Ilya | Spectrum
+
+
+[04/09/2020 8:28 PM] Ilya | Spectrum#0494
+@kushti , which server can be used for testnet explorer?
+
+
+[04/09/2020 9:48 PM] kushti#0978
+@Ilya | Spectrum should we leave current one ?
+
+
+[04/09/2020 9:50 PM] Ilya | Spectrum#0494
+I think we shouldn’t run testnet explorer on the same machine
+
+
+[04/10/2020 1:25 PM] kushti#0978
+@Ilya | Spectrum I mean the machine where testnet explorer is already running
+
+
+[04/14/2020 11:01 AM] Ilya | Spectrum#0494
+Mainnet explorer UI is now available
+https://new-explorer-ui.ergoplatform.com
+
+
+[04/14/2020 11:14 AM] Dmitry Usov#0134
+Nice
+
+
+[04/14/2020 11:46 AM] scalahub#2618
+@Ilya | Spectrum https://new-explorer.ergoplatform.com/transactions/boxes/byAddress/unspent/AXC89uRUZwKFGESrcHyAWMc5tTFtpRj4iixADqenWWKxeFuKv3shafjnvWq5HuxWbJrXSr4kHZ88Qs48edNm8pyiWUUjQgArWr9K6mJsm3RRo85bDh2GEjZQ6h47ooUfSYbeEPi9LQsW1Q6XtNJwzkJfQpPCPZGbSK6pZnHiBvtYmZbWJoVKF3uSYva1nG6keB6sXi47dRDn9sQ1L7Fs4Gik2WS3rKxB2QVGNpiJvfZV3nvVV742iDMfnXJLBYWDaQqufThspYMaqyiPpTvkQGWZUhTjn4EeEExwAy4FrG6vNoxtJXrbRsNbCwQdJVpP5Tsm2LFwypJp8CJfR7F6VEfGGCWfFBxZbNHsgJJNeKsue2KjW1VJG9Yjy9ZjY9NGidFXfYZXwt9cQjMqoQ1hckK7nL4sVAssJHZGp7pPsaXg21wnQeT
+
+
+[04/14/2020 11:46 AM] scalahub#2618
+This is showing also spent
+
+
+[04/14/2020 11:47 AM] scalahub#2618
+search for `spentTransactionId":"`
+
+
+[04/14/2020 11:49 AM] Ilya | Spectrum#0494
+@scalahub, will fix it in a few minutes
+
+
+[04/14/2020 11:56 AM] Ilya | Spectrum#0494
+@scalahub, these boxes are not spent on main chain, spentTransactionId's you see are from forks
+This is probably a bug
+
+
+[04/14/2020 11:58 AM] scalahub#2618
+interesting
+
+
+[04/14/2020 11:59 AM] scalahub#2618
+anyway so for now we can fllter those boxes where this field is null
+
+
+[04/14/2020 11:59 AM] scalahub#2618
+if its a fork, it will eventually become null
+
+
+[04/14/2020 11:59 AM] scalahub#2618
+(I mean in my code)
+
+
+[04/14/2020 11:59 AM] Ilya | Spectrum#0494
+All these boxes are unspent on the current chain
+
+
+[04/14/2020 12:00 PM] Ilya | Spectrum#0494
+So you dont have to filter anything
+
+
+[04/14/2020 12:00 PM] scalahub#2618
+ok but when I use appkit to get box by id it fails with some error
+
+
+[04/14/2020 12:00 PM] scalahub#2618
+unable to load utxo box orsomething like that
+
+
+[04/14/2020 12:00 PM] Ilya | Spectrum#0494
+I'm thinking on how to fix this, this is quite a tricky bug
+
+
+[04/14/2020 12:01 PM] scalahub#2618
+`ctx.getBoxesById(boxId)` gives exception
+
+
+[04/14/2020 12:02 PM] Ilya | Spectrum#0494
+@morphic, does this piece of code relies on `spentTransactionId` field?
+
+
+[04/14/2020 12:04 PM] scalahub#2618
+Also, I'm using a very old version of appkit, so it may already be fixed in newer one
+
+
+[04/14/2020 12:13 PM] Ilya | Spectrum#0494
+I've found out how it can be fixed
+
+{Reactions}
+💯 
+
+[04/14/2020 12:35 PM] Ilya | Spectrum#0494
+Done
+
+
+[04/14/2020 12:36 PM] Ilya | Spectrum#0494
+BTW, this is a bug imported from old explorer, so now new APIs is not compatible with old ones in this way
+
+
+[04/14/2020 12:37 PM] scalahub#2618
+ok what else will change?
+
+
+[04/14/2020 1:37 PM] morphic#4133
+> @morphic, does this piece of code relies on `spentTransactionId` field?
+@Ilya | Spectrum I'm not sure which field it relies upon, the method uses `utxo/byId/{boxId}` API
+
+
+[04/14/2020 1:46 PM] Ilya | Spectrum#0494
+> ok what else will change?
+@scalahub  nothing is changed in the sense of format, only business logic of some methods is fixed making new APIs differ from old ones
+
+
+[04/14/2020 1:51 PM] scalahub#2618
+as long as schema is same it should be fine
+
+
+[04/14/2020 4:17 PM] scalahub#2618
+@Ilya | Spectrum seems found another bug in explorer
+
+
+[04/14/2020 4:18 PM] scalahub#2618
+https://new-explorer.ergoplatform.com/transactions/boxes/b4f7ee06da1b8f6e89ec6bf97fdbd4cc690e9638d0eb57f63d183aa48245380d
+
+
+[04/14/2020 4:18 PM] scalahub#2618
+says box does not exist
+
+
+[04/14/2020 4:18 PM] scalahub#2618
+but below shows that unspent box exists (see first box id)
+https://new-explorer.ergoplatform.com/transactions/boxes/byAddress/unspent/CVKFuGa5Q3AoVspLjBDu456rDH47uuDHS2e6kZSdPAeR8xtnReAXWFgq22bFXWEYpXgchBvmav9u4wbLZjrUH5iiosrSNE7fm1QxafY8u8eUnzYTDqBhMCSYAcZjAtF185hPxQ5zmCmjarMKUWKyF8ufAcufAGofxW1DaqZjpgeb6s8bbHg9mJRD5NC3eetqSywmfqs321QUZoKbH1mLky1Aqz3qbLjW6FLL6xHNidwptcZWSZ98LAX1Qx2xdTWREHQCLTLEPYoYoMw59SChJ4KmdS
+
+
+[04/14/2020 4:19 PM] scalahub#2618
+possibly due to fork
+
+
+[04/14/2020 4:59 PM] Ilya | Spectrum#0494
+> says box does not exist
+@scalahub it doesnt say the box doen not exist
+
+
+[04/14/2020 5:00 PM] Ilya | Spectrum#0494
+It says that there is internal server error while processing the request -- it seems solution to the previous issue fails in some cornercase
+
+
+[04/14/2020 5:01 PM] scalahub#2618
+But even old explorer give some error for first endpoint
+
+
+[04/14/2020 5:17 PM] Ilya | Spectrum#0494
+This was another imported bug, it arose in quite a rare case -- the box you were trying to request was spent twice on two different forks, but remain unspent on mainchain
+
+
+[04/14/2020 5:22 PM] Ilya | Spectrum#0494
+https://new-explorer.ergoplatform.com/transactions/boxes/b4f7ee06da1b8f6e89ec6bf97fdbd4cc690e9638d0eb57f63d183aa48245380d
+
+{Reactions}
+☑️ 
+
+[04/14/2020 5:25 PM] scalahub#2618
+cool so both issues were fork related
+
+
+[04/14/2020 5:37 PM] scalahub#2618
+What is a safe number of confirmations to ensure no fork for some tx?
+
+
+[04/14/2020 5:40 PM] Ilya | Spectrum#0494
+200 blocks to be 100% sure, but i think 30 is enough to be like 98% sure)
+
+
+[04/14/2020 6:14 PM] scalahub#2618
+@morphic where is the explorer url hardwired in appkit? I am not able to change it to new explorer
+
+
+[04/14/2020 6:16 PM] scalahub#2618
+I changed in `org/ergoplatform/appkit/RestApiErgoClient.java` is that enough?
+
+
+[04/14/2020 6:18 PM] scalahub#2618
+But somehow ctx.getBoxById("b4f7ee06da1b8f6e89ec6bf97fdbd4cc690e9638d0eb57f63d183aa48245380d") seems to not work
+
+
+[04/14/2020 6:46 PM] scalahub#2618
+> @Ilya | Spectrum I'm not sure which field it relies upon, the method uses `utxo/byId/{boxId}` API
+@morphic Can you please point me to the appkit code that makes this call... I want to debug the above `getBoxById`
+
+
+[04/15/2020 6:02 AM] scalahub#2618
+@Ilya | Spectrum have the number of forks increased recently?
+
+
+[04/15/2020 7:53 AM] morphic#4133
+> @morphic Can you please point me to the appkit code that makes this call... I want to debug the above `getBoxById`
+@scalahub See usages of ErgoNodeFacade.getBoxById in the code of Appkit. For example in getInputBoxes method of BlockchainContextImpl
+
+
+[04/15/2020 4:03 PM] kushti#0978
+> What is a safe number of confirmations to ensure no fork for some tx?
+@scalahub I guess there were no forks deeper than 1-2 blocks yet, but safe number would be 5-10 I guess
+
+
+[04/17/2020 10:08 PM] Ilya | Spectrum#0494
+Testnet explorer is updated (now it uses new backend)
+https://testnet.ergoplatform.com/en/
+https://api-testnet.ergoplatform.com/info
+
+
+[04/21/2020 4:08 PM] gagarin55#2131
+https://api.ergoplatform.com/transactions/unconfirmed Is it actual mem pool ? why so many unconf txs ?
+
+
+[04/21/2020 4:58 PM] kushti#0978
+@Ilya | Spectrum ^ what's node version explorer is talking with ?
+
+
+[04/21/2020 4:59 PM] Ilya | Spectrum#0494
+@kushti, ergo-mainnet-3.2.0
+
+
+[04/21/2020 4:59 PM] Ilya | Spectrum#0494
+3.2.1
+
+
+[04/23/2020 5:13 AM] Dmitry Usov#0134
+I've renamed ergo-explorer repository to explorer-frontend, because many peoples create issues in it think it is backend but it only front
+
+{Reactions}
+👍 (2) 👍🏻 
+
+[04/23/2020 5:13 AM] Dmitry Usov#0134
+@Ilya | Spectrum @kushti @morphic @greenhat JFYI
+
+
+[04/26/2020 12:20 PM] Dmitry Meshkov#1652
+@Ilya | Spectrum our token representation is broken now, can you please provide recent changes were made with the API?
+
+
+[04/26/2020 12:26 PM] Ilya | Spectrum#0494
+@Dmitry Meshkov, which method?
+
+
+[04/26/2020 12:27 PM] Ilya | Spectrum#0494
+Asset representation remains unchanged
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/703930249653780490/unknown.png
+
+
+[04/26/2020 12:41 PM] Dmitry Meshkov#1652
+@Ilya | Spectrum we use 2 methods to get token info - https://github.com/coinbarn/ergo-ts/blob/master/src/explorer.ts#L64
+
+{Embed}
+https://github.com/coinbarn/ergo-ts/blob/master/src/explorer.ts
+coinbarn/ergo-ts
+Contribute to coinbarn/ergo-ts development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/y45ha0JNp5zOrJ2Mql89xoABvQh1uHKusdsIlGiW-7U/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/57797929
+
+
+[04/26/2020 12:46 PM] Dmitry Meshkov#1652
+@Ilya | Spectrum got it - spentTransactionId is now null https://api.ergoplatform.com/transactions/boxes/b5d971fa03de96b5bfbdff9dba76c519ed0f1f8196a01c139c6be74a9c47040a while it could not be null as soon as token with this id is created
+
+
+[04/26/2020 12:48 PM] Ilya | Spectrum#0494
+It shows 404
+
+
+[04/26/2020 12:48 PM] Dmitry Meshkov#1652
+it just showed me correct answer) anyway, try new explorer https://new-explorer.ergoplatform.com/transactions/boxes/b5d971fa03de96b5bfbdff9dba76c519ed0f1f8196a01c139c6be74a9c47040a
+
+
+[04/26/2020 12:49 PM] Dmitry Meshkov#1652
+Oh, I sent wrong url, sorry. It's correct now
+
+
+[04/26/2020 12:49 PM] Dmitry Meshkov#1652
+Please take a look to this address with tokens - https://explorer.ergoplatform.com/en/addresses/9ggm43XYvHgqp2DfAuqdPoFJ9UgG33Y3fDrk9ydkH9h9k15eGwK
+
+
+[04/26/2020 12:50 PM] Dmitry Meshkov#1652
+Click to the first transaction https://explorer.ergoplatform.com/en/transactions/8ff11cc508f2fb885a8d073d663a5b0766e43c8867d4258c6f121d09cc618a1c and you'll see `Unhandled Error occurred
+`
+
+
+[04/26/2020 12:51 PM] Dmitry Meshkov#1652
+https://new-explorer.ergoplatform.com/transactions/8ff11cc508f2fb885a8d073d663a5b0766e43c8867d4258c6f121d09cc618a1c : `{"status":404,"reason":"Not found Transaction with id: 8ff11cc508f2fb885a8d073d663a5b0766e43c8867d4258c6f121d09cc618a1c"}`
+
+
+[04/26/2020 12:54 PM] Dmitry Meshkov#1652
+is new-explorer.ergoplatform.com now the same as  api.ergotplatform.com? Or it's still need to change the api url?
+
+
+[04/26/2020 1:02 PM] Ilya | Spectrum#0494
+No, it’s the same explorer
+
+
+[04/26/2020 1:10 PM] Dmitry Meshkov#1652
+Ok, I'm waiting to the fix with transactions API, now Coinbarn shows "unknown" to all the tokens due to this issue
+
+
+[04/26/2020 9:26 PM] Ilya | Spectrum#0494
+@Dmitry Meshkov, fixed
+
+
+[04/29/2020 10:06 AM] kushti#0978
+@Dmitry Usov [25/04/2020 08:30:45.849] [ERROR]  Preloader tsx: SERVICE UNAVAILABLE
+
+
+[04/29/2020 10:06 AM] kushti#0978
+explorer's frontend fails with this periodically
+
+
+[05/01/2020 3:12 PM] Dmitry Usov#0134
+Yeeeah
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/705783615962873936/unknown.png
+
+{Reactions}
+👍🏻 
+
+[05/01/2020 3:12 PM] Dmitry Usov#0134
+I've rewrited dockerfile and delete node js server from explorer
+
+
+[05/01/2020 3:13 PM] Dmitry Usov#0134
+and it works 🙂
+
+
+[05/01/2020 3:14 PM] Dmitry Usov#0134
+soon explorer-frontend be only frontend without nodejs server who fails periodically
+
+{Reactions}
+👍 (2) 💪🏻 
+
+[05/01/2020 3:21 PM] Ilya | Spectrum#0494
+Looking forward to remove old node js backend from explorer stack
+
+
+[05/02/2020 5:53 PM] kushti#0978
+@Dmitry Usov good news indeed !
+
+
+[05/03/2020 5:04 PM] Dmitry Usov#0134
+https://testnet.ergoplatform.com/en/ 
+
+https://explorer.ergoplatform.com/en/
+
+
+[05/03/2020 5:05 PM] Dmitry Usov#0134
+Deployed new frontend, without backend 🙂 Thanks @Ilya | Spectrum for help 🔥
+
+{Reactions}
+👍 (2) 👍🏻 
+
+[05/04/2020 9:20 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/706963586567897098/unknown.png
+
+
+[05/04/2020 9:21 PM] Dmitry Usov#0134
+another update increase speed by 30%+ and update audit metrics 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/706963620864458793/2020-05-04_23.19.34.png
+
+{Reactions}
+👍 
+
+[05/04/2020 9:22 PM] Dmitry Usov#0134
+old
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/706964016798367794/2020-05-04_23.11.46.png
+
+
+[05/04/2020 9:22 PM] Dmitry Usov#0134
+new
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/706964034120843355/2020-05-04_23.22.07.png
+
+
+[05/04/2020 9:23 PM] Dmitry Usov#0134
+tomorrow we deploy it on mainnet
+
+
+[05/04/2020 9:28 PM] Dmitry Usov#0134
+I think this is my last optimization, now I will work to improve user experience
+
+
+[05/05/2020 12:26 PM] Dmitry Usov#0134
+https://explorer.ergoplatform.com/en/ deployed
+
+
+[05/05/2020 12:28 PM] Dmitry Usov#0134
+@mx I think you can post on twitter "Another update in the explorer frontend increased render speed by 2 times. " 🙂
+
+{Reactions}
+👍 
+
+[05/05/2020 4:53 PM] kushti#0978
+@Dmitry Usov getting empty screen sometimes on urls like https://explorer.ergoplatform.com/en/search?query=9ft3CTtLfyscKo96AdQiAyLcQR4tTNYjE63mLnhc2nKTz56JYeB
+
+
+[05/05/2020 4:57 PM] Dmitry Usov#0134
+thank you
+
+
+[05/05/2020 5:53 PM] Dmitry Usov#0134
+@kushti  fixed
+
+
+[05/07/2020 4:31 PM] Dmitry Usov#0134
+new api explorer page coming soon
+
+{Reactions}
+👍🏻 
+
+[05/08/2020 7:52 AM] Dmitry Usov#0134
+New api page deployed 
+https://explorer.ergoplatform.com/en/api
+
+{Reactions}
+👍 
+
+[05/08/2020 7:53 AM] Dmitry Usov#0134
+@kushti @mx
+
+
+[05/18/2020 3:45 PM] Robert K#0722
+For the Explorer backend, do we need to manually setup/run a node in tandem or does it set one up and run it in the background automatically upon setup?
+
+
+[05/18/2020 4:57 PM] Ilya | Spectrum#0494
+> For the Explorer backend, do we need to manually setup/run a node in tandem or does it set one up and run it in the background automatically upon setup?
+@Robert K, Yes, manual node setup is required unless you're ok with trusting to some public one
+
+{Reactions}
+👍 
+
+[05/18/2020 8:23 PM] Robert K#0722
+The backend it seems to keep giving this error while running:
+```
+postgres_1  | 2020-05-18 19:19:22.784 UTC [698] ERROR:  relation "blocks_info" does not exist at character 49
+```
+
+
+[05/18/2020 8:52 PM] Ilya | Spectrum#0494
+Have you applied sql schema to your database?
+
+
+[05/18/2020 8:53 PM] Ilya | Spectrum#0494
+https://github.com/ergoplatform/explorer-backend/blob/master/modules/explorer-core/src/main/resources/db/V1__Node_data.sql
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/blob/master/modules/explorer-core/src/main/resources/db/V1__Node_data.sql
+ergoplatform/explorer-backend
+Ergo Blockchain Explorer. Contribute to ergoplatform/explorer-backend development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[05/18/2020 9:05 PM] kushti#0978
+@Ilya | Spectrum do you have instructions how to do all the stuff ?
+
+
+[05/18/2020 9:22 PM] Robert K#0722
+Ah I did not apply the sql schema @Ilya | Spectrum .
+
+
+[05/18/2020 9:23 PM] Robert K#0722
+Also are the two explorer backend repos meant to represnt v0 and v1?
+
+
+[05/18/2020 9:23 PM] Robert K#0722
+https://github.com/ergoplatform/explorer-back && https://github.com/ergoplatform/explorer-backend
+
+{Embed}
+https://github.com/ergoplatform/explorer-back
+ergoplatform/explorer-back
+Ergo blockchain explorer backend. Contribute to ergoplatform/explorer-back development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend
+ergoplatform/explorer-backend
+Ergo Blockchain Explorer. Contribute to ergoplatform/explorer-backend development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[05/18/2020 9:23 PM] Robert K#0722
+But yes if we could be provided with a bit more clear step-by-step instructions for setting up an explorer backend instance that'd be great.
+
+
+[05/18/2020 9:42 PM] Ilya | Spectrum#0494
+> Also are the two explorer backend repos meant to represnt v0 and v1?
+@Robert K , nope, new explorer also implements API v0
+
+
+[05/19/2020 12:22 PM] Ilya | Spectrum#0494
+@Robert K, here is a small guide on explorer deployment
+https://discordapp.com/channels/668903786361651200/671003431456210975/702154733531430993
+
+
+[05/19/2020 3:06 PM] Robert K#0722
+Thanks. I see that this is all a bit ad-hocly documented/not the most streamlined at the moment.
+
+
+[05/19/2020 3:07 PM] Robert K#0722
+I guess no one else has bothered setting up an Explorer before so fair enough, but it might be good to get a good README in the repo that lays everything out for the future for others.
+
+
+[05/19/2020 3:09 PM] kushti#0978
+@Robert K yea, only one private explorer was set up before, and instructions are very much needed! @Ilya | Spectrum
+
+
+[05/19/2020 4:01 PM] morphic#4133
+> I guess no one else has bothered setting up an Explorer before so fair enough, but it might be good to get a good README in the repo that lays everything out for the future for others.
+@Ilya | Spectrum  I plan to try running explorer on weekend, so +1 for instructions
+
+
+[05/19/2020 4:03 PM] Ilya | Spectrum#0494
+Ok, I'm about to write instructions on explorer deployment within docker
+
+{Reactions}
+👍 
+
+[05/20/2020 4:05 PM] Robert K#0722
+Hey@Ilya | Spectrum, any ETA for when you think you'll finish writing the instructions? And thanks btw.
+
+
+[05/20/2020 4:07 PM] Ilya | Spectrum#0494
+@Robert K, this is not the task with the highest priority for me now, so I think by the weekend.
+But I can help you here right now in case you have difficulties
+
+
+[05/20/2020 4:10 PM] Robert K#0722
+Alright cool.  I have other tasks to do as well and so it's probably more efficient for us both if I just wait for the instructions.
+
+
+[05/20/2020 7:39 PM] Dmitry Usov#0134
+https://explorer.ergoplatform.com/en/mempool
+
+{Reactions}
+👍 (2) 
+
+[05/20/2020 8:55 PM] kushti#0978
+@Dmitry Usov I think just "Inputs" and "Outputs" are enough, no need for qty
+
+{Reactions}
+👍🏻 
+
+[05/27/2020 11:53 AM] Ilya | Spectrum#0494
+@Robert K, Hi Robert!
+Here is explorer deployment guide
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/715155781208637521/ExplorerDeploymentGuide.md
+
+
+[05/27/2020 1:13 PM] morphic#4133
+@Ilya | Spectrum  please put it in the repo
+
+
+[05/27/2020 1:42 PM] Ilya | Spectrum#0494
+@morphic, it's not ready for public
+
+
+[05/27/2020 1:42 PM] morphic#4133
+🙂 is it ready for PR?
+
+
+[05/27/2020 2:46 PM] Robert K#0722
+Great thanks @Ilya | Spectrum
+
+
+[05/27/2020 2:47 PM] Ilya | Spectrum#0494
+@morphic , I mean we should first publish service images under ergoplatform dockerhub account
+
+
+[06/13/2020 11:19 AM] Dmitry Usov#0134
+@Ilya | Spectrum when testnet will rise?
+
+
+[06/13/2020 11:26 AM] Ilya | Spectrum#0494
+@kushti ^
+
+
+[06/26/2020 5:19 PM] Robert K#0722
+There seems to be a bug with the explorer currently showing a tx as both confirmed and unconfirmed.
+
+
+[06/26/2020 5:20 PM] Robert K#0722
+If you go to: https://explorer.ergoplatform.com/en/addresses/3sSMhchmak6PHo5BXXavCiw1XkwZfsjox5N3sjVqbWVNyHojHJWBUL1JPswsEHttCiFfmVfwpFqaqjFF68D35vC9rkjCwwCFdKNR1GYdpTVbBdumH
+
+You can see `109d502c84cd490346db2025cce10ef8b0829b1743f116889b911def7c650fb3` is both a confirmed tx and an unconfirmed tx.
+
+
+[06/26/2020 5:20 PM] Robert K#0722
+And if you click through on the tx id, it takes you to the unconfirmed one.
+
+
+[06/26/2020 5:20 PM] Robert K#0722
+And the tx still shows up in the mempool page as well https://explorer.ergoplatform.com/en/mempool
+
+
+[06/26/2020 5:45 PM] Ilya | Spectrum#0494
+@Robert K, it’s not a bug, some time is needed for explorer in order to update mempool view
+
+
+[06/26/2020 5:51 PM] Robert K#0722
+Hmm? How is this not a bug?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/726117555512803461/unknown.png
+
+
+[06/26/2020 5:52 PM] Robert K#0722
+The same tx is shown as both confirmed and unconfirmed.
+
+
+[06/26/2020 6:06 PM] Robert K#0722
+It seems to have fixed itself now (maybe that was a fork?), but the UX is definitely confusing when the explorer can show the same tx as both confirmed and unconfirmed
+
+
+[06/26/2020 6:58 PM] Ilya | Spectrum#0494
+@Robert K Definitely not a fork, otherwise tx wouldn’t be presented in this list. 
+But you’re right, this is confusing, we’d better filter out such double-state transactions
+
+
+[06/26/2020 6:59 PM] Robert K#0722
+@Ilya | Spectrum How does such a double-state occur?
+
+
+[06/26/2020 7:07 PM] Ilya | Spectrum#0494
+@Robert K, explorer scans mempool with some fixed interval, new block containing confirmed transaction may appear earlier
+
+
+[06/26/2020 7:09 PM] Robert K#0722
+Ah I see.
+
+
+[06/26/2020 7:23 PM] Robert K#0722
+If I could make a small feature request for the explorer front-end, I think having a "copy address to clipboard" feature would be helpful either by clicking on the address in "Summary" or having a distinct button for it.
+
+{Reactions}
+👍 
+
+[06/26/2020 11:29 PM] kushti#0978
+@Ilya | Spectrum @Robert K from observing mempool for some time, I've got an impression that when mempool becomes empty, last transactions stuck there before a new transaction appears. And when a transaction is stuck , it it both unconfirmed (in the pool) and confirmed (in a block). Transaction can be in such a status for quite a long time (10-20 mins easily until a new mempool transaction comes).
+
+
+[06/27/2020 12:07 AM] Robert K#0722
+Ah, good catch on figuring out how that bug occurs @kushti
+
+
+[06/27/2020 11:33 AM] Ilya | Spectrum#0494
+> @Ilya | Spectrum @Robert K from observing mempool for some time, I've got an impression that when mempool becomes empty, last transactions stuck there before a new transaction appears. And when a transaction is stuck , it it both unconfirmed (in the pool) and confirmed (in a block). Transaction can be in such a status for quite a long time (10-20 mins easily until a new mempool transaction comes).
+@kushti , thanks, seems I know where the problem is
+
+
+[07/07/2020 7:49 PM] Ilya | Spectrum#0494
+@kushti, I'm going to archive old explorer repo
+https://github.com/ergoplatform/explorer-back
+
+{Embed}
+https://github.com/ergoplatform/explorer-back
+ergoplatform/explorer-back
+Ergo blockchain explorer backend. Contribute to ergoplatform/explorer-back development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[07/07/2020 8:41 PM] kushti#0978
+@Ilya | Spectrum actually, I planned to ask about that! Let's archive it! Thanks!
+
+
+[07/16/2020 5:39 PM] gagarin55#2131
+@Ilya | Spectrum Could you please check this request - 
+```
+https://api.ergoplatform.com/search?query=335p5LAhvgYiQJRRYgWxkpmhRxfDn6axj9jSzALE2HN8oWgaChxu9iBabSp5wtrTkMVok7nETtmnrN4fGPbxbYKU4ypAJjqBe5HPfUqRBSKCKz9byMJ4BgmpKSCBGYAZ8FdewPVJXtV1FHqqKhvmB9NMrZx5VgzBNYeuAm831dWnQ2gGRyAJWSypzMGviLPi5emFFB4K2u8zeGkoox1TAxWLUEsvmCzd3BwAa9EM5fR882Vw6W2Uojtpw1RQoPK5yoUNJwWjMsryL1nDtDUdvsDZxhA9t3B4UsgZq4ok7mdXyMB1ZiaDSbYGfVw1D4UwzB3MrEsBMtzGBAbxxtNoK6voHhkDGFmfp72tbJtzuXV
+
+```
+
+
+[07/16/2020 8:28 PM] Ilya | Spectrum#0494
+> @Ilya | Spectrum Could you please check this request - 
+> ```
+> https://api.ergoplatform.com/search?query=335p5LAhvgYiQJRRYgWxkpmhRxfDn6axj9jSzALE2HN8oWgaChxu9iBabSp5wtrTkMVok7nETtmnrN4fGPbxbYKU4ypAJjqBe5HPfUqRBSKCKz9byMJ4BgmpKSCBGYAZ8FdewPVJXtV1FHqqKhvmB9NMrZx5VgzBNYeuAm831dWnQ2gGRyAJWSypzMGviLPi5emFFB4K2u8zeGkoox1TAxWLUEsvmCzd3BwAa9EM5fR882Vw6W2Uojtpw1RQoPK5yoUNJwWjMsryL1nDtDUdvsDZxhA9t3B4UsgZq4ok7mdXyMB1ZiaDSbYGfVw1D4UwzB3MrEsBMtzGBAbxxtNoK6voHhkDGFmfp72tbJtzuXV
+> 
+> ```
+@gagarin55 , whats wrong with it?
+
+
+[07/16/2020 8:37 PM] gagarin55#2131
+I'm receiving endless response
+
+
+[07/16/2020 8:38 PM] gagarin55#2131
+40K addresses found, is it ok ?
+
+
+[07/16/2020 11:39 PM] Ilya | Spectrum#0494
+@gagarin55, I see, it seems result set deduplication is missed for this method.
+Thanks!
+
+
+[07/19/2020 1:15 PM] gagarin55#2131
+@Ilya | Spectrum about tx confirmations count,  we should consider txs in the last mined block have confirmationsCount = 1, not 0. That how bitcoin works
+
+
+[07/19/2020 1:15 PM] gagarin55#2131
+confirmationsCount = 0 when tx still in mempool
+
+
+[07/19/2020 1:16 PM] Ilya | Spectrum#0494
+@gagarin55, good point, thanks!
+
+
+[07/24/2020 3:03 PM] scalahub#2618
+Is it possible to get box by token id?
+
+
+[07/24/2020 3:04 PM] scalahub#2618
+(boxes)
+
+
+[07/24/2020 3:26 PM] Robert K#0722
+I remember asking this @scalahub 3-4 months ago and I think back then the answer was no.
+
+
+[07/24/2020 3:33 PM] scalahub#2618
+is this possible in EIP 0001?
+
+
+[07/24/2020 3:51 PM] Robert K#0722
+Yeah, but the scan is only forward scanning so if you haven't tracked it already then you need to register the scan and then delete your history in your node.
+
+
+[07/24/2020 3:52 PM] Robert K#0722
+You can check the `scans.rs` of the oracle-core to see how it uses scanning to do that: https://github.com/ergoplatform/oracle-core/blob/master/src/scans.rs
+
+
+[08/06/2020 8:22 PM] Robert K#0722
+`https://researchinstitute.io/` is down and linked in the explorer
+
+
+[08/07/2020 8:51 AM] Dmitry Usov#0134
+Thanks
+
+
+[08/07/2020 8:51 AM] Dmitry Usov#0134
+I will remove it
+
+
+[08/07/2020 11:16 AM] kushti#0978
+@Dmitry Usov @Ilya | Spectrum sometimes inputs for unconfirmed transactions not shown properly
+
+
+[08/07/2020 11:16 AM] kushti#0978
+example:
+
+
+[08/07/2020 11:16 AM] kushti#0978
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/741238378179330068/wrong-tx-unconfirmed.png
+
+
+[08/07/2020 11:16 AM] kushti#0978
+then after some time:
+
+
+[08/07/2020 11:17 AM] kushti#0978
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/741238488879595520/tx-wrong-unconfirmed-2.png
+
+
+[08/07/2020 11:17 AM] kushti#0978
+when confirmed:
+
+
+[08/07/2020 11:17 AM] kushti#0978
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/741238587353202768/tx-proper.png
+
+
+[08/07/2020 11:17 AM] kushti#0978
+so even number of inputs is wrong
+
+
+[08/07/2020 11:17 AM] kushti#0978
+any ideas?
+
+
+[08/07/2020 1:04 PM] Dmitry Usov#0134
+it's on backend side problem
+
+
+[08/08/2020 8:18 PM] kushti#0978
+@Ilya | Spectrum there are reports that explorer shows empty page when there're chained transactions in the mempool, please check
+
+
+[08/08/2020 8:23 PM] Ilya | Spectrum#0494
+@kushti, I don't think the fact that transactions are chained can somehow affect explorer. It just pulls them from node mempool and saves to a database
+
+
+[08/08/2020 8:25 PM] kushti#0978
+@Ilya | Spectrum API shows sth like this: {"items": [],"total":11}
+
+
+[08/08/2020 8:38 PM] Ilya | Spectrum#0494
+> @Ilya | Spectrum API shows sth like this: {"items": [],"total":11}
+Have you witnessed this yourself?
+
+
+[08/08/2020 8:39 PM] Ilya | Spectrum#0494
+@kushti
+
+
+[08/08/2020 8:42 PM] Ilya | Spectrum#0494
+I can only imagine some wierd bug with Ergo JSON codecs for transaction, otherwise such an inconsistencies should not be possible as the whole operation done within a single transaction.
+
+
+[08/08/2020 9:54 PM] Ilya | Spectrum#0494
+> @Dmitry Usov @Ilya | Spectrum sometimes inputs for unconfirmed transactions not shown properly
+@kushti , can’t reproduce it as well
+
+
+[08/18/2020 3:07 PM] Robert K#0722
+I've asked about this before, but has there been work started/plans to make the register values in the explorer human-readable? Now with oracle pools moving forward, and showing off txs to people, it'd be great if they could actually read what values are inside of the registers on the webpage itself (rather than having to use rust or scala and write 10 lines of code which is a big hassle).
+
+
+[08/18/2020 3:07 PM] Robert K#0722
+Will be useful for all dApps tbh.
+
+
+[08/18/2020 4:35 PM] Dmitry Usov#0134
+@Ilya | Spectrum ^
+
+
+[08/18/2020 10:16 PM] Ilya | Spectrum#0494
+@Robert K, will think about this feature after explorer 2.0.0 release
+Maybe registers deserialization should be done on the client side by demand in order to avoid server loading.
+
+
+[08/18/2020 10:19 PM] Robert K#0722
+Sounds good thanks.
+
+
+[08/18/2020 10:20 PM] Robert K#0722
+I think that should be doable on the frontend as well if server load is an issue.
+
+
+[08/28/2020 12:30 PM] Robert K#0722
+@here does anyone have access to updating the explorer?
+
+
+[08/28/2020 12:30 PM] Robert K#0722
+This is really important
+
+
+[08/28/2020 12:30 PM] Robert K#0722
+We have 2 hours before the release of oracle pools
+
+
+[08/28/2020 12:30 PM] Robert K#0722
+and no one is online to update the explorer with the actual frontend
+
+
+[08/28/2020 12:34 PM] Robert K#0722
+😑
+
+
+[08/28/2020 12:56 PM] Robert K#0722
+Seriously, if we are going to work on any serious projects with deadlines, you guys need to figure out how to co-ordinate better because this is genuinely a stupid situation.
+
+
+[08/28/2020 12:57 PM] Robert K#0722
+After months of work, we can't even co-ordinate uploading a frontend/website (which was finished late) in time for an announcement.
+
+
+[08/28/2020 1:11 PM] greenhat#6562
+@Robert K unfortunately I have no idea how to upload the site(what site?). I know that explorer is deployed by merging a branch. I pinged @Dmitry Usov and @kushti in direct messages.
+
+
+[08/28/2020 1:12 PM] Robert K#0722
+Thanks @greenhat. @Dmitry Usov has been working on the oracle pools frontend and finished it approx. 9 hours ago, and it was supposed to be uploaded to the explorer by now so we can announce the release of oracle pools in 1.5 hours
+
+
+[08/28/2020 1:54 PM] scalahub#2618
+For next time, I think is be better to have a scheduling channel (like BPSAA has) or a pre-announcement channel where we can plan and coordinate
+such things.
+
+
+[08/28/2020 6:00 PM] kushti#0978
+@Robert K it is up to @Dmitry Usov , usually frontend being deploying automatically  on merging into master afaik
+
+
+[08/28/2020 7:08 PM] Dmitry Usov#0134
+No we don’t have ci/cd(
+
+
+[08/28/2020 7:09 PM] Dmitry Usov#0134
+Need pull master at machine
+
+
+[08/28/2020 8:50 PM] kushti#0978
+@Dmitry Usov I see, I thought we have it
+
+
+[08/28/2020 8:50 PM] kushti#0978
+So good time to get it done )
+
+
+[08/28/2020 8:55 PM] Dmitry Usov#0134
+Yeah, I will make it at next week
+
+
+[09/03/2020 9:32 AM] hir0#9158
+@Dmitry Usov or @mx please can we publish this post, by Kushti (not under my name this time, I'm just the ghostwriter): https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.9tqc61ci4p6o
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Home page – this is all we are changing for now] [I think a white background with lots of white space would be good. Otherwise we don’t have to change any design stuff for now – colour schemes etc can be altered later]  Welcome to Smart Money  Smart Money is:...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[09/03/2020 9:32 AM] hir0#9158
+Thanks
+
+
+[09/03/2020 9:55 AM] Dmitry Usov#0134
+@mx can you help us? ^
+
+
+[09/03/2020 9:56 AM] mx#5165
+https://ergoplatform.org/en/blog/2020-09-03-some-thoughts-about-defi-yield-farming-and-how-open-systems-should-be-used/
+
+{Embed}
+https://ergoplatform.org/en/blog/2020-09-03-some-thoughts-about-defi-yield-farming-and-how-open-systems-should-be-used/
+Some thoughts about DeFi, Yield Farming and how open systems ‘shoul...
+At the risk of stating the …
+https://images-ext-1.discordapp.net/external/WTJTqjQE2LelgQMazxuyudCK8Abtmi6-ISV8PGe7AXU/https/ergoplatform.org/img/uploads/jeremy-bishop-rbx6r5out7s-unsplash.jpg
+
+{Reactions}
+🔥 (2) 
+
+[09/09/2020 8:01 PM] Ilya | Spectrum#0494
+Richlist is available at https://api.ergoplatform.com/addresses/balances
+
+{Reactions}
+💯 (4) 
+
+[09/14/2020 7:27 PM] Dmitry Usov#0134
+@Ilya | Spectrum can you do some sql optimizations at `addresses/balances` api? Request takes 4-6s with good internet connection
+
+
+[09/14/2020 7:50 PM] Ilya | Spectrum#0494
+> @Ilya | Spectrum can you do some sql optimizations at `addresses/balances` api? Request takes 4-6s with good internet connection
+@Dmitry Usov , I’m afraid it’s already as optimal as possible for current schema. 
+We can disable paging and show only 50 first rows in order to win 2-3 seconds
+
+
+[09/14/2020 7:51 PM] Dmitry Usov#0134
+if 100 rows? also win 2-3 seconds?
+
+
+[09/14/2020 7:51 PM] Ilya | Spectrum#0494
+Doesn’t matter
+
+
+[09/14/2020 7:51 PM] Dmitry Usov#0134
+good, give me only 100
+
+
+[09/14/2020 7:51 PM] Ilya | Spectrum#0494
+Ok
+
+
+[09/15/2020 9:00 AM] Robert K#0722
+Hey @Ilya | Spectrum, could you add the explorer deployment instructions to the backend repo?
+
+
+[09/15/2020 9:01 AM] Robert K#0722
+The existing documentation is incredibly sparse, and I had to search back a couple months to find the deploy instructions you provided a while back for our use internally in Emurgo.
+
+
+[09/15/2020 9:11 AM] Robert K#0722
+Also @Ilya | Spectrum
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/755340091441938462/unknown.png
+
+
+[09/15/2020 9:17 AM] Ilya | Spectrum#0494
+Hi @Robert K 
+Ok, I will add the instruction to the project wiki as one of deployment options.
+As for pagination, `/addresses/<addr>/transactions` route already supports pagination. It returns total number of items along with transactions and paging is implemented via `offset` and `limit` GET parameters.
+
+
+[09/15/2020 9:18 AM] kushti#0978
+@Ilya | Spectrum "Would it be possible to add miniBlockInfo to api/v0/addresses/${address}/transactions just like in api/v0/transactions/${txHash} ?we need it for the pagination logic in the Yoroi backend"
+
+
+[09/15/2020 9:18 AM] kushti#0978
+in text form
+
+
+[09/15/2020 9:20 AM] kushti#0978
+@Ilya | Spectrum thanks!
+
+
+[09/15/2020 9:20 AM] Robert K#0722
+Thanks @Ilya | Spectrum
+
+
+[09/15/2020 9:40 AM] Dmitry Usov#0134
+@Robert K is yoroi open-source project? and what is language at frontend in yoroi ? is it React Native? Or native swift/kotlin/android? or maybe flutter?
+
+
+[09/15/2020 9:59 AM] Robert K#0722
+@Dmitry Usov Yeah it's open source. Frontend is react/react native for web + mobile
+
+
+[09/15/2020 9:59 AM] Robert K#0722
+https://github.com/Emurgo/yoroi-frontend
+
+https://github.com/Emurgo/yoroi-mobile
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend
+Emurgo/yoroi-frontend
+Yoroi Wallet - Cardano ADA Wallet - Your gateway to the financial world (extension frontend) - Emurgo/yoroi-frontend
+https://images-ext-2.discordapp.net/external/1e-t5s_ozw_GZmUTfYYzwoz8bRKHKNjtEbS_wtELy0o/https/repository-images.githubusercontent.com/144911693/91963f00-7e7f-11e9-9385-4f7404177cf6
+
+{Embed}
+https://github.com/Emurgo/yoroi-mobile
+Emurgo/yoroi-mobile
+Yoroi Wallet - iOS and Android. Contribute to Emurgo/yoroi-mobile development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/Wg0j9L8NNKGNDKW0M1atW7IGSPDmoc7C0Qda8-8lmnY/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/36142236
+
+
+[09/15/2020 10:00 AM] Robert K#0722
+And we often use rust -> webassembly for a lot of the cryptography/blockchain specific functions
+
+
+[09/15/2020 2:32 PM] Dmitry Usov#0134
+do you have some newbie tasks @Robert K at yoroi mobile ?)
+
+
+[09/15/2020 2:45 PM] Robert K#0722
+For Ergo support specifically @Dmitry Usov ?
+
+
+[09/15/2020 2:46 PM] Dmitry Usov#0134
+doesn't matter, but it would be better for ergo, yeah
+
+
+[09/15/2020 5:12 PM] Robert K#0722
+@Ilya | Spectrum
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/755460991797559347/unknown.png
+
+
+[09/16/2020 8:55 AM] Robert K#0722
+If we could have either of the above two stated features implemented that would be very helpful, as this is how we detect rollbacks in Yoroi.
+
+
+[09/16/2020 8:56 AM] kushti#0978
+Issues created , @Ilya | Spectrum please prioritize them
+
+
+[09/16/2020 8:56 AM] Robert K#0722
+https://github.com/ergoplatform/explorer-backend/issues/66
+https://github.com/ergoplatform/explorer-backend/issues/67
+(For reference)
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/issues/66
+Add outputIndex to tranasction inputs · Issue #66 · ergoplatform/ex...
+Currently the input type contains outputTransactionId. However, it would be helpful if we also added a outputIndex field. For example, given this transaction https://explorer.ergoplatform.com/en/tr...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/issues/67
+Add `miniBlockInfo` to api/v0/addresses/${address}/transactions · I...
+In order to detect rollbacks, we need to know what block a transaction appears in. The endpoint api/v0/transactions/${txHash} allows for this because it includes a miniBlockInfo in the response. Ho...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[09/16/2020 5:15 PM] Robert K#0722
+@Ilya | Spectrum could we get an estimate for how long it'd take to add the above two features? They're important for launching Yoroi support, so if possible the sooner the better. Thanks
+
+
+[09/16/2020 5:17 PM] Ilya | Spectrum#0494
+@Robert K, I think we can have these features deployed to mainnet instance this week
+
+{Reactions}
+👍 
+
+[09/16/2020 5:19 PM] Robert K#0722
+Awesome, that'd be great. We're also going to be running our own explorer backend soon and will be testing hosting it ourselves (may ping you with some more questions)
+
+{Reactions}
+👍 (2) 
+
+[09/16/2020 5:29 PM] Ilya | Spectrum#0494
+I'm also thinking of implementing explorer API with something like GraphQL support. Though, not sure about how secure it is to expose such an interface to the public.
+
+
+[09/16/2020 5:32 PM] Ilya | Spectrum#0494
+New feature requests are constantly coming from various projects, so classic REST API seems too rigid in our case.
+
+
+[09/16/2020 7:15 PM] Ilya | Spectrum#0494
+@Robert K, on https://github.com/ergoplatform/explorer-backend/issues/67
+Transaction representation returned by `/addresses/<addr>/transactions` actually contains block id (`headerId`).
+If you need only reference to the block containing the transaction you can get it from current API. Or is block height also necessary?
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/issues/67
+Add `miniBlockInfo` to api/v0/addresses/${address}/transactions · I...
+In order to detect rollbacks, we need to know what block a transaction appears in. The endpoint api/v0/transactions/${txHash} allows for this because it includes a miniBlockInfo in the response. Ho...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[09/16/2020 7:16 PM] Ilya | Spectrum#0494
+For instance: https://api.ergoplatform.com/addresses/88dhgzEuTXaVyvFUrdaTScxtneLUXScUGUKNkWaGkvTFLZSDw8KMhtemGdgrGcJxwQgebUU6v6mKzkhs/transactions
+
+
+[09/16/2020 8:40 PM] scalahub#2618
+Is it possible to view the disassembled ErgoTree in explorer?
+
+
+[09/17/2020 7:27 AM] Ilya | Spectrum#0494
+@scalahub , not possible yet
+
+
+[09/17/2020 8:10 AM] Robert K#0722
+> I'm also thinking of implementing explorer API with something like GraphQL support. Though, not sure about how secure it is to expose such an interface to the public.
+@Ilya | Spectrum GraphQL support could be quite interesting for us at Emurgo, as Cardano has been moving towards using GraphQL for latest releases, so at least for us it'd probably make things quite nice from the development standpoint of having  that be similar across both projects.
+
+
+[09/17/2020 8:12 AM] Robert K#0722
+> @Robert K, on
+> Transaction representation returned by `/addresses/<addr>/transactions` actually contains block id (`headerId`).
+> If you need only reference to the block containing the transaction you can get it from current API. Or is block height also necessary?
+@Ilya | Spectrum Ah interesting. We do also need the block height as well, but I suppose it's possible to use the block info endpoint.
+
+
+[09/17/2020 8:14 AM] Robert K#0722
+Would it be possible to add block height to this tx representation as well?
+
+
+[09/17/2020 8:55 AM] Ilya | Spectrum#0494
+> Would it be possible to add block height to this tx representation as well?
+@Robert K , no problem
+
+
+[09/17/2020 9:04 AM] Robert K#0722
+Thanks 👍
+
+
+[09/17/2020 9:53 AM] Ilya | Spectrum#0494
+@Robert K, done
+
+
+[09/17/2020 10:08 AM] Robert K#0722
+Awesome, that was super quick, thanks a lot.
+
+
+[09/17/2020 4:22 PM] Robert K#0722
+And in regards to GraphQL, I heard back from some others internally in Emurgo that from experience it ends up being very slow for queries so potentially not worth it for the amount of effort.
+
+
+[09/18/2020 2:34 PM] kushti#0978
+Also , it would be dangerous to provide public access to it ?
+
+
+[09/21/2020 6:03 PM] Robert K#0722
+I guess if it's very slow/expensive it's easier to DoS?
+
+
+[09/21/2020 6:04 PM] Robert K#0722
+@Ilya | Spectrum Do you think it will be possible to have very specific queries searching for UTXOs (like I mentioned a week or so ago) implemented within the explorer backend by end of November?
+
+
+[09/21/2020 6:04 PM] Robert K#0722
+We'll likely need it for the stablecoin to have great UX for end users within Yoroi.
+
+
+[09/21/2020 7:36 PM] Ilya | Spectrum#0494
+@Robert K , I think it’s possible unless these queries involve joins
+
+
+[09/21/2020 8:45 PM] Ilya | Spectrum#0494
+@Robert K, I mean it depends on how expressive you want this interface to be. If its just some simple predicates on UTXO fields it would be relatively easy to implement.
+
+
+[09/22/2020 9:05 AM] Robert K#0722
+Yeah, primarily just predicates on UTXO fields. Though the explorer-backend would likely also need to deserialize data in registers to make them queryable
+
+
+[09/22/2020 9:06 AM] Robert K#0722
+So we'd need queries like:
+- At address X
+- Holds token with ID Y
+- In R4 has address Z
+- In R5 has i32 `26472`
+
+
+[09/22/2020 9:42 AM] Ilya | Spectrum#0494
+@Robert K, registers indexing complicates this task, we will need to change db schema. Nevertheless, end of November still sounds pretty realistic.
+
+
+[09/22/2020 9:44 AM] Ilya | Spectrum#0494
+> So we'd need queries like:
+> - At address X
+> - Holds token with ID Y
+> - In R4 has address Z
+> - In R5 has i32 `26472`
+@Robert K , could you please create ticket on github and copy this into it?
+
+{Reactions}
+👍 
+
+[09/22/2020 9:51 AM] Robert K#0722
+https://github.com/ergoplatform/explorer-backend/issues/74
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/issues/74
+Detailed UTXO-Set Search Queries · Issue #74 · ergoplatform/explore...
+In the near future we will need the explorer-backend to support detailed search queries for finding UTXOs in the existing UTXO-set. This is to provide a very streamlined experience for end users of...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[11/06/2020 5:50 PM] Ilya | Spectrum#0494
+https://github.com/ergoplatform/explorer-backend/releases/tag/4.0.1
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/releases/tag/4.0.1
+Release Explorer v4.0.1 · ergoplatform/explorer-backend
+Features:
+
+Assets order preservation
+Synchronization nodes ranking
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[11/27/2020 3:55 PM] Robert K#0722
+@Ilya | Spectrum Does https://api.ergoplatform.com/api/v1/boxes/unspent/byAddress/ not return all boxes?
+
+
+[11/27/2020 3:55 PM] Robert K#0722
+Ex: https://api.ergoplatform.com/api/v1/boxes/unspent/byAddress/9iHyKxXs2ZNLMp9N9gbUT9V8gTbsV7HED1C1VhttMfBUMPDyF7r
+
+
+[11/27/2020 3:55 PM] Robert K#0722
+But this box isn't returned: https://api.ergoplatform.com/api/v0/transactions/boxes/4e543b99ae5c3c493332a9f2d1cd952d4c5c5e26de7da2566fa9bb0ec143e791
+
+
+[11/27/2020 4:04 PM] Ilya | Spectrum#0494
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/781913456181248000/unknown.png
+
+
+[11/27/2020 4:05 PM] Ilya | Spectrum#0494
+Note, this method also returns only first 20 entries by default
+
+
+[11/27/2020 4:06 PM] Ilya | Spectrum#0494
+While the old one used to return all of them, as paging was not supported
+
+
+[11/27/2020 4:29 PM] Robert K#0722
+How is paging done? (Or is there an endoint for getting them all too now)
+
+
+[11/27/2020 4:52 PM] Robert K#0722
+It's kind of just chance whether you find it by the endpoint, sometimes it does, somtimes it doesn't based on # of boxes
+
+
+[11/27/2020 4:53 PM] Robert K#0722
+And with the HDF it's important to fetch all boxes, even if there's some sort of rate limiting or something
+
+
+[11/27/2020 4:55 PM] Ilya | Spectrum#0494
+https://api.ergoplatform.com/api/v1/boxes/unspent/byAddress/9iHyKxXs2ZNLMp9N9gbUT9V8gTbsV7HED1C1VhttMfBUMPDyF7r?limit=500
+
+
+[11/27/2020 4:55 PM] Ilya | Spectrum#0494
+Just raise the limit
+
+
+[11/27/2020 4:56 PM] Robert K#0722
+Ah great, thanks.
+
+
+[11/27/2020 4:57 PM] Ilya | Spectrum#0494
+Note, Ergo instance of explorer limits maximum number of entities method can return to 500
+
+
+[11/27/2020 4:57 PM] Ilya | Spectrum#0494
+But you can configure this on your instance
+
+
+[11/27/2020 4:58 PM] Robert K#0722
+Ah perfect, good to know.
+
+
+[12/08/2020 3:52 AM] Sebastien#0653
+why does the endpoint `/api/v0/assets/{p1}/issuingBox` to get the box that created an asset return an array? Since the asset ID is tied to the box ID that  created it, I can't think of any case where it would return more than one value in the array
+
+
+[12/08/2020 11:07 AM] kushti#0978
+@Sebastien@Ilya | Spectrum assetId == id of the first input of the issuing transaction, while issuingBox returns an output of the transaction. Per EIP-3 there can be only one issuing box (protocol allows for many outputs containing  minted tokens)
+
+
+[12/08/2020 11:12 AM] Sebastien#0653
+so if I want to get the token name, etc. should I look at all the outputs that in the array contains the asset and see if any of them set R4, R5 and R6?
+
+
+[12/08/2020 11:30 AM] kushti#0978
+@Sebastien no, by EIP-3 there's only one output, and explorer supports EIP-3 only I guess
+
+
+[12/08/2020 11:31 AM] Sebastien#0653
+So if issuingBox returns more than one item, what should I do? Ignore?
+
+
+[12/08/2020 11:50 AM] kushti#0978
+@Ilya | Spectrum how can it return more than one at all?
+
+
+[12/08/2020 11:51 AM] Ilya | Spectrum#0494
+@kushti I'd like to re-address this question to @greenhat
+
+
+[12/08/2020 12:02 PM] kushti#0978
+@Ilya | Spectrum but why ?
+
+
+[12/08/2020 12:04 PM] greenhat#6562
+Yeah, good question. I cannot find a good reason why I decided to return an array.
+
+
+[12/08/2020 12:05 PM] greenhat#6562
+@kushti I wrote it.
+
+
+[12/08/2020 12:18 PM] greenhat#6562
+BTW, I believe it EIP-4 that describes assets issuance and not EIP-3.
+
+
+[12/08/2020 12:19 PM] kushti#0978
+oh my bad EIP-4 indeed
+
+
+[12/08/2020 12:19 PM] kushti#0978
+@Sebastien so I guess you can consider the only one element in the array
+
+
+[12/08/2020 12:19 PM] kushti#0978
+ignoring others
+
+
+[12/08/2020 12:20 PM] greenhat#6562
+Yes, you can ignore anything besides first box.
+
+
+[12/15/2020 10:21 PM] mmahut#8044
+`adausd` oracle is down in explorer until we bootstrap a new one, stay tuned 🙂
+
+{Reactions}
+👌🏻 
+
+[12/16/2020 9:14 AM] Sebastien#0653
+https://github.com/ergoplatform/explorer-backend/issues/92 this would help with the Yoroi
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/issues/92
+Assets missing in input · Issue #92 · ergoplatform/explorer-backend
+In the getApiV0AddressesP1Transactions endpoint, the outputs contain assets, but the inputs don&#39;t. Additionally, inputs don&#39;t contain the additionalRegisters field, but I don&#3...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[12/16/2020 9:59 AM] Robert K#0722
+@Ilya | Spectrum ^
+
+
+[12/16/2020 10:04 AM] Ilya | Spectrum#0494
+How critical is this feature?
+
+
+[12/16/2020 8:26 PM] Sebastien#0653
+@Ilya | Spectrum it won't break anything if we won't have it -- it just means we won't be able to show which tokens are consumed by a transaction inside the UI
+
+
+[03/30/2021 10:26 AM] Sebastien#0653
+https://github.com/ergoplatform/explorer-backend/issues/92
+is the V1 API something we should be updating to? I noticed the explorer API page still points to v0 (https://explorer.ergoplatform.com/en/api)
+@Ilya | Spectrum
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/issues/92
+Assets missing in input · Issue #92 · ergoplatform/explorer-backend
+In the getApiV0AddressesP1Transactions endpoint, the outputs contain assets, but the inputs don&#39;t. Additionally, inputs don&#39;t contain the additionalRegisters field, but I don&#3...
+https://images-ext-1.discordapp.net/external/-KRVlD4_nyV4m1pVCd9KQWWbk8Kzhe9Rdnel6es6kxo/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/27490654
+
+
+[03/30/2021 10:30 AM] Ilya | Spectrum#0494
+Yes, I'd recommend to start migration to the APIv1. Not all methods from v0 are implemented though, but we are working on it, so v1 will soon completely replace v0.
+We are slowly migrating UI as well.
+
+
+[07/29/2021 11:36 AM] glasgowm#9381
+small typo
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/870253560376475658/unknown.png
+
+
+[09/23/2021 12:42 PM] glasgowm#9381
+```
+btw, testnet explorer has some quirks on the ui. seems to be outdated. it does not show tokens correct, and you can't copy wallet addresses as you can on mainnet explorer
+```
+
+Could we get this fixed for ERGOHACKII? Is anyone maintaining the explorer(s) at the moment? @Dmitry Usov  ?
+
+
+[09/23/2021 1:43 PM] Dmitry Usov#0134
+yep
+
+
+[09/23/2021 1:43 PM] Dmitry Usov#0134
+will do
+
+{Reactions}
+👏 👍 
+
+[08/24/2022 8:18 AM] pragmaxim#0778
+guys just out of curiosity, the Fee Contract Address is related to millions of boxes ... if you make a DB index for `address` then this address row will be extremely huge and it definitely hurts performance `2iHkR7CWvD1R4j1yZg5bkeDRQavjAaVPeTDFGGLZduHyfWMuYpmhHocX8GJoaieTx78FntzJbCBVL6rf96ocJoZdmWBL2fci7NqWgAirppPQmZ7fN9V6z13Ay6brPriBKYqLp1bT2Fk4FkFLCfdPpe`
+
+
+[08/24/2022 8:20 AM] pragmaxim#0778
+it's a known DB phenomenon ... both indexing & querying an entity with such a "super-star" instance is causing memory issues
+
+
+[08/24/2022 8:21 AM] pragmaxim#0778
+we could consider deleting it from Explorer's DB and skip it while grabbing blockchain
+
+
+[09/06/2022 5:16 PM] Ilya | Spectrum#0494
+May a conditional index help here?
+
+
+[09/06/2022 5:54 PM] pragmaxim#0778
+no, conditional index is good for low-cardinality field like gender, types of something, etc. ... this has very high cardinality ... all types of DBs suffer from this super-star instance problem, some graph DBs expect it ...
+
+
+[09/06/2022 5:57 PM] pragmaxim#0778
+think about it in terms of Twitter, there are regular users and then presidents or sport/music stars and such ... once I've been forced to store these super-star entity instances to dedicated tables as they were bigger than million others
+
+
+[09/06/2022 6:34 PM] Ilya | Spectrum#0494
+I thought we can avoid indexing this address specifically. Like in the example from the docs
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668912953352912906/1016763353600901171/unknown.png
+
+
+[09/06/2022 6:34 PM] Ilya | Spectrum#0494
+Why won't this work in our case?
+
+
+[09/07/2022 8:43 AM] pragmaxim#0778
+I guess this is it, I would personally do this for the Fee Contract Address
+
+
+==============================================================
+Exported 565 message(s)
+==============================================================

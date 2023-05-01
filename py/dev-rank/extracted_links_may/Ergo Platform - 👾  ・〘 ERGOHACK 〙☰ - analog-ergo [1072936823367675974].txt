@@ -1,0 +1,293 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 👾  ・〘 ERGOHACK 〙☰ / analog-ergo
+==============================================================
+
+[02/08/2023 5:48 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072936823367675974/1072936923473133680/AnalogErgoProposalSimplified.pdf
+
+
+[02/08/2023 5:48 PM] glasgowm#9381
+> The basic idea is to use the cryptographic primitives
+> available in atomic swaps as a basis for creating a cross-
+> chain peer to peer marketplace, where Ergo users can list
+> their own price for their own coins. Not only will this enable
+> users to potentially earn arbitrage as a reward for liquidity
+> on different blockchains, but they will also be able to set
+> and agree to the value parameters for this at their own
+> discretion in a highly private and fungible way. That means no
+> intermediaries are involved in the transfer which also reduces
+> any potential fees on both sides.
+
+{Reactions}
+spicy (6) 
+
+[02/08/2023 6:06 PM] deathgripson#2395
+:k_thumbs_up:
+
+
+[02/08/2023 6:08 PM] deathgripson#2395
+Team is mostly me at this point, I will be updating the channel periodically. If anyone visiting this channel is interested in helping feel free to send a DM to me.
+
+
+[02/13/2023 5:10 AM] Chris Ray#2713
+This is kind of like delivering an order book right? Correct me if I am wrong, however I think this is something that is missing from Spectrum Finance and I would really like to see this happen when Rosen goes live, algorithmic swaps are cool, but they do not provide users the ability to make an offer to sell such and such at a price they need to maintain for profit or an accepted loss.
+
+
+[02/13/2023 5:11 AM] Chris Ray#2713
+I hope you find a solution to provide an option for users to set a price they are willing to buy or sell at.
+Ergo needs this in a decentralized fashion.
+
+
+[02/13/2023 6:47 AM] deathgripson#2395
+Yes part of the goal is to achieve a decentralized atomic order book, however initially we will be working with simple p2p trades. Once we get the basic functionality established we will extend it to allow for multiple users to interact on the same order rather than limiting it to two at a time. However this requires lots of safety precautions to prevent cheating, so we will iterate on the extended part of it carefully as to not allow / prevent users to engage in set-ups that are exploitable by one of the parties. Once we get to the point of extending the atomic swap protocol I will be documenting those extensions (so others can research, test, and re-implement them), as well as the basic protocol so people can experiment on that too.  Thanks for the comment!
+
+{Reactions}
+🔥 (3) 
+
+[02/17/2023 3:54 AM] deathgripson#2395
+https://github.com/dzyphr/SigmaParticle/blob/main/timedFund/py/main.py
+Working example of timedFund contract written in ergpy/appkit is published here. 
+This demonstrates a contract with multiple spending paths (and a timelock) which is essential to atomic swaps!
+The main repo is SigmaParticle a framework I am working on as I go (open to contributions of-course) , for interacting and transacting with ergoscript meant to modularize a lot of the personal variables used with interaction. It will also be used to demonstrate cross chain interactions down the line.
+We will be working on secure hash pre-images next.
+
+{Embed}
+https://github.com/dzyphr/SigmaParticle/blob/main/timedFund/py/main.py
+SigmaParticle/main.py at main · dzyphr/SigmaParticle
+framework for interacting with ergo blockchain based on ergpy to be used in cross chain pipeline extensions - SigmaParticle/main.py at main · dzyphr/SigmaParticle
+https://images-ext-1.discordapp.net/external/tz6YeG_hGu_Sn1JrpR48LiAQamBJjLfAl3OeJNZ7QfY/https/opengraph.githubassets.com/13403c013f97e6a320fe1945be5caa7d13239192019c5e5db1a2b43766a84ed9/dzyphr/SigmaParticle
+
+{Reactions}
+k_thumbs_up (5) ergo_orange (5) 🕰️ (4) 
+
+[02/17/2023 10:58 PM] deathgripson#2395
+https://github.com/dzyphr/SigmaParticle/blob/main/pinLock/py/main.py
+Here is a working example of the pinLock contract written in python/ergpy/appkit (and a little bit of scala now). In order to overcome python scala compatibility (with how bytes are specified) I have implemented a scalaPipe.py file and scala directory to handle running a function on a data type in scala and getting the proper output back into python. 
+
+This example demonstrates a very basic hash pre-image technique, however it is quite clearly insecure as anyone with the pre-image (which will be published on the mempool) could spend the hash which leaves it open to front-running attacks on the mempool. 
+
+One technique to secure the pin / pre-image of the hash is to assert in the sigmaProp / spending rules that only a specific key can use this pre-image to claim funds. That will be the next example
+
+{Embed}
+https://github.com/dzyphr/SigmaParticle/blob/main/pinLock/py/main.py
+SigmaParticle/main.py at main · dzyphr/SigmaParticle
+framework for interacting with ergo blockchain based on ergpy to be used in cross chain pipeline extensions - SigmaParticle/main.py at main · dzyphr/SigmaParticle
+https://images-ext-1.discordapp.net/external/tz6YeG_hGu_Sn1JrpR48LiAQamBJjLfAl3OeJNZ7QfY/https/opengraph.githubassets.com/13403c013f97e6a320fe1945be5caa7d13239192019c5e5db1a2b43766a84ed9/dzyphr/SigmaParticle
+
+{Reactions}
+ergo_orange (3) 🔥 (3) 
+
+[02/18/2023 10:35 PM] deathgripson#2395
+https://github.com/dzyphr/SigmaParticle/blob/main/senderPreImageLock/py/main.py
+Here is a contract combining the pinLock functionality and the publicKey sigmaProp functionality to create a more secure contract. This contract only allows the sender to spend with their pin/pre-image. 
+Also a note on how a 'cryptographic hash pre-image' is different from a 'pin'. You can think of a pre-image as a secret (similar to a private key) which needs to be generated securely so it is not vulnerable to being easily guessed and there is no easily guessable input that equals the same hash output also known as pre-image resistance (https://en.wikipedia.org/wiki/Preimage_attack).  For our main private keys we do this with a mnemonic string that the user can easily store or memorize (plus an optional password) and it is done in a way that the user can easily use it to generate more hierarchical keys deterministically (HD Wallets: https://en.bitcoin.it/wiki/BIP_0032) .
+For atomic swaps you need to have very similar levels of security guarantees when generating a 'hash pre-image' because it involves spending to a contract that depends on the pre-image.
+A starting point for choosing this is a secure hash function which is resistant to hash collisions aka pre-image collision resistant as well.(https://en.wikipedia.org/wiki/Preimage_attack),
+In ergo blake2b256 is commonly used. It is a 256bit hash function similar to sha256. This property gives it the 'intergalactic lottery' property of collision resistance described here: (https://stackoverflow.com/questions/800685/which-cryptographic-hash-function-should-i-choose) [2nd answer]
+Therefore simply using this hash function is a great start but it also is not enough. If the pre-image was just a pin like 4444 or something it could be brute forced by anyone with access to blake2b256, therefore the pre-image needs to be constructed in a much more entropy heavy way.
+
+
+[02/18/2023 10:42 PM] deathgripson#2395
+The size of pre-images for different hash functions also has effects on scaling verification as described here: ```Specifically, a SHA256 circuit generated by jsnark6 and a Pedersen hash function over an embedded elliptic curve similar to Jubjub7 are benchmarked. A Bulletproof for knowing a 384-bit
+Pedersen hash preimage is about 1 KB and takes 61 ms to verify. The marginal cost of verifying
+an additional proof is 2.1 ms. The SHA256 preimage proof is 1.4 KB and takes 750 ms to verify.
+The marginal cost of verifying additional proofs is 41.5 ms. Figure 3 shows that the proving and
+verification time grow linearly. The batch verification first grows logarithmically and then linearly.
+For small circuits the logarithmic number of exponentiations dominate the cost while for larger
+circuits the linear scalar operations do```
+https://eprint.iacr.org/2017/1066.pdf (31)
+There is a table showing the comparisons in pre-image size and proving, verifying and batching times on page 33.
+There are possible benefits to implementing bulletproofs to make use of batch verification down the line.
+
+
+[02/18/2023 10:55 PM] deathgripson#2395
+The type of commitments being used in atomic swaps are known as Pedersen commitments. Here is a great description of them  here: https://findora.org/faq/crypto/pedersen-commitment-with-elliptic-curves/
+The blinding factor will be the pre-image that is used in the atomic swap and revealed upon a successful swap to the other party so they can claim their part of the swap.
+Generically they are random 256bit integers but we can actually scale this upwards for more pre-image collision resistance  and also to do things like threshold secret sharing, this comes at a cost at both proving and verifying but bulletproofs(as described in above 1066.pdf) and range-proofs can alleviate some of this scalability bottleneck.
+
+{Reactions}
+ergo_orange (4) 👍 (3) 🤯 
+
+[02/19/2023 2:23 AM] deathgripson#2395
+https://github.com/ElementsProject/scriptless-scripts/blob/master/md/pedersen-swap.md Very detailed write-up of pedersen atomic swaps from the pros
+
+{Embed}
+https://github.com/ElementsProject/scriptless-scripts/blob/master/md/pedersen-swap.md
+scriptless-scripts/pedersen-swap.md at master · ElementsProject/scr...
+Documentation about scriptless scripts. Contribute to ElementsProject/scriptless-scripts development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/wfAOk72W3G16SzYEdlt2vkxkQFnaiL_qbtEVzIqexk0/https/opengraph.githubassets.com/6966e291072e7b75285d493d5e437703a24a36188dff3e62abad656262a54ce4/ElementsProject/scriptless-scripts
+
+
+[02/19/2023 8:30 AM] deathgripson#2395
+A working version of an atomicMultiSig in ergo script that can be used for Pedersen atomic swaps is here https://github.com/dzyphr/SigmaParticle/blob/main/atomicMultiSig/py/main.py.
+The basic contract is `(sigmaProp(receiver && INPUTS(0).R4[Coll[Byte]].get == blake2b256(OUTPUTS(0).R4[Coll[Byte]].get))) || (sigmaProp(INPUTS(0).R4[Coll[Byte]].get == OUTPUTS(0).R4[Coll[Byte]].get && HEIGHT > lockHeight && sender))`
+This prevents receiver from spending without knowing the blinding factor and allows sender to re-claim their funds after lockHeight if the receiver is not cooperating with the Pedersen commitment. 
+An  explorer example of sender claiming after lockHeight: https://tn-ergo-explorer.anetabtc.io/en/transactions/932889a9b81c91af6882a6f579a5b225855b8b4ada616b8cae0b989e3a24002a
+Explorer Example of receiver claiming with blinding factor /  hash pre-image: 
+https://tn-ergo-explorer.anetabtc.io/en/transactions/a9d32f4b38350301b09a64f0847370a9fe871395c49874c64caa59fb7f56c4f1
+You may notice one tx's register is remarkably larger than the other :k_thumbs_up: This is because we switch the sigmaProp on the R4 in the senders spending condition to allow only them to spend with the hash and not the pre image as they implicitly know the pre-image value.
+That saves a lot of bits when verifying the senders re-claim, otherwise the script expects the sender to provide the large preimage by default. 
+The preimage is large arbitrarily because we are adding deterministic metadata into it to prevent reuse of preimages(or more specifically reuse of blinding values which are random scalars, they are highly unlikely yet possible to be randomly reused). It can be shortened but for now more is better.
+
+{Reactions}
+ergo_orange (4) 👍 (4) k_thumbs_up 
+
+[02/20/2023 4:09 AM] NoahErgo#4349
+@deathgripson check dms 🙂 thanks
+
+{Reactions}
+k_thumbs_up 
+
+[02/20/2023 9:03 AM] deathgripson#2395
+https://github.com/dzyphr/Atomicity/blob/main/AtomicMultiSig/contracts/AtomicMultiSig.sol
+This is a tested version of an atomic multi signature contract on the Eth Goerli test net. This will be the chain where the first atomic swap testing will take place. Just like the previous (much smaller) ergoscript contract this one allows for the receiver to spend with the hash pre image and the sender to spend after the lock height. I am also experimenting with decreasing the size of the preimage commitment.
+
+{Embed}
+https://github.com/dzyphr/Atomicity/blob/main/AtomicMultiSig/contracts/AtomicMultiSig.sol
+Atomicity/AtomicMultiSig.sol at main · dzyphr/Atomicity
+WIP: Solidity Contract Uploading and Interacting Framework that gives developers access to the lowest levels of the framework, uses minimal dependencies, and aims to enable cross chain operations w...
+https://images-ext-2.discordapp.net/external/V-dyLFIebchrMh586Z5KFE57KMGDEhrHTpGL5aLBY5A/https/opengraph.githubassets.com/81a61096639ddfc857c5f97f2de51e210410d42467f84188c0281c920227fbf6/dzyphr/Atomicity
+
+
+[02/20/2023 9:06 AM] deathgripson#2395
+Atomicity is a framework for solidity i am building to be synergistic with SigmaParticle to assist people in setting up atomic swaps, the goal is to build cross-project pipelines which will ensure that setups for data on both chains are parallel.
+
+{Reactions}
+ergo_orange (2) 👍 (2) 
+
+[02/20/2023 9:13 AM] deathgripson#2395
+Here is the deployed contract which will show you the deployment funding and withdrawing transactions
+
+{Reactions}
+🔥 (2) 
+
+[02/20/2023 9:13 AM] deathgripson#2395
+https://goerli.etherscan.io/address/0xfb9a91b35fd5682e0690b0ff2cf45b2b8d3a6e4c
+
+{Embed}
+https://goerli.etherscan.io/address/0xfb9a91b35fd5682e0690b0ff2cf45b2b8d3a6e4c
+AtomicMultiSig | Address 0xfb9a91b35fd5682e0690b0ff2cf45b2b8d3a6e4c...
+The Contract Address 0xfb9a91b35fd5682e0690b0ff2cf45b2b8d3a6e4c page allows users to view the source code, transactions, balances, and analytics for the contract address. Users can also interact and make transactions to the contract directly on Etherscan.
+https://images-ext-1.discordapp.net/external/yb0yJz7aqReY--I7sy9Zq6aONpdRRTzCDLDKetTIQhw/https/etherscan.io/images/brandassets/etherscan-logo-circle.jpg
+
+{Reactions}
+ergo_orange (3) 👍 (3) 
+
+[02/21/2023 2:24 PM] glasgowm#9381
+Some great updates here, nice work 🔥
+
+{Reactions}
+k_thumbs_up (2) 
+
+[02/21/2023 6:58 PM] deathgripson#2395
+ty working on final tweaks to the contracts
+
+
+[02/23/2023 12:01 AM] deathgripson#2395
+I put my final submissions here https://drive.google.com/drive/folders/1NWvKsauGL0tA_7DRo9p76aOpjopcjKhp
+The video just explains the status I am at as unfortunately I was unable to create a testable product in time. That being said I have made tremendous progress towards the goal and hope to finish up the spare details soon.
+
+
+[02/23/2023 12:04 AM] deathgripson#2395
+The current status is that I need to implement the protocol to flip between the proper implementations of the elliptic curve as the one used on ergo is different from the one I have found implemented on solidity as it seems. Also we need to upload a contract that properly checks the registers for our atomic swap signature values, this will be a sigmaProp that replaces the hashing function in the contract that the ergoscript example in the above document uses. Once that is done I will have a testable product.
+For now if anyone is interested in playing with the specific atomic swap formula it is on this github: https://github.com/dzyphr/atomicswapexample/blob/main/AtomicPedersen.py
+
+{Embed}
+https://github.com/dzyphr/atomicswapexample/blob/main/AtomicPedersen.py
+atomicswapexample/AtomicPedersen.py at main · dzyphr/atomicswapexam...
+Contribute to dzyphr/atomicswapexample development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/koewxOCZN5Xqj04Nfkj98h5vId_Y4jtsos0TpwQwCkk/https/opengraph.githubassets.com/6745dba8d738bc1dcd31eb18f8239fd40fa62e0d0011d64ac7a542ce0a044fa0/dzyphr/atomicswapexample
+
+{Reactions}
+ergo_orange (4) 👍 (4) 🔥 (3) 
+
+[02/26/2023 12:42 AM] deathgripson#2395
+Hello, I have published a working python example of a 2 party atomic swap that you can simulate from 2 shell/terminal windows. This might help people reason about the way in which secrets are shared through this protocol and at what steps what data transfer or blockchain interaction is supposed to occur.
+https://github.com/dzyphr/2pAtomicSwapExample
+
+{Embed}
+https://github.com/dzyphr/2pAtomicSwapExample
+GitHub - dzyphr/2pAtomicSwapExample: Example of an atomic swap with...
+Example of an atomic swap with 2 &quot;parties&quot; who can be simulated in a terminal trading each-others secrets - GitHub - dzyphr/2pAtomicSwapExample: Example of an atomic swap with 2 &...
+https://images-ext-1.discordapp.net/external/iBjVMkA_qVBOCtblSvw_iEsOxHPy8S5ef8FuggRx-2g/https/opengraph.githubassets.com/d65a94f0919e6cdc64b14d9dbd2bed503680e716f23191b9bae7b907f3e65426/dzyphr/2pAtomicSwapExample
+
+{Reactions}
+ergo_orange (3) 👍 (2) 
+
+[03/01/2023 1:13 AM] deathgripson#2395
+Successfully tested a Scalar Lock contract, this allows you to lock funds to a scalar value like a random 256bit number that you can test by comparing it with an Elliptic curve multiplication operation against the Secp256k1 Generator. A key component of how values are checked when verifying cryptographic signatures and will enable the final step to Atomic Swaps!. 
+ErgoScript makes this quite easy (Once the constants and registers are figured out):
+```
+ val scalarLockScript: String = {
+        s"""
+            {
+            val xBYTES = OUTPUTS(0).R4[Coll[Byte]].get
+            val x = byteArrayToBigInt(xBYTES)
+            val G = decodePoint(generator)
+              sigmaProp(
+                receiver &&
+                G.exp(x) == xG
+              )
+            }
+        """.stripMargin
+```
+Deploying:
+https://tn-ergo-explorer.anetabtc.io/en/transactions/b9d6a5796e0fa7b8fdf374426219d8fe2d64e7d9976e04845a0a6886414343b9
+Spending:
+https://tn-ergo-explorer.anetabtc.io/en/transactions/8c2440eff436a0c2f2af4b8b2d2ac53fbcfd43762b411217a26899f0ce749ba0
+Scala:
+https://github.com/dzyphr/ScalaSigmaParticle/blob/main/ScalarLock/src/main/scala/ScalarLock.scala
+
+{Embed}
+https://github.com/dzyphr/ScalaSigmaParticle/blob/main/ScalarLock/src/main/scala/ScalarLock.scala
+ScalaSigmaParticle/ScalarLock.scala at main · dzyphr/ScalaSigmaPart...
+Scala version of SigmaParticle aimed at full utilization of Ergo Appkit and future scala-python pipeline - ScalaSigmaParticle/ScalarLock.scala at main · dzyphr/ScalaSigmaParticle
+https://images-ext-1.discordapp.net/external/pLPqdoUFLkjzIwerjkaoJWHgPocMO4gsGNIbimjTqco/https/opengraph.githubassets.com/ea334961ef1dbb5834d4163934f01afb92c0a177f22a78f20354c9fb76df270c/dzyphr/ScalaSigmaParticle
+
+{Reactions}
+ergo_orange (2) 👍 (2) 
+
+[03/02/2023 12:52 AM] deathgripson#2395
+heres a spend from a contract requiring a check of the same custom group element when locking and claiming https://tn-ergo-explorer.anetabtc.io/en/transactions/f2a92c20ee6d24905789d520f966a59be9eacde8767e4f0255017b9dd1e1fb04
+
+
+[03/02/2023 4:12 AM] deathgripson#2395
+Working Atomic Swap Contract!
+This one checks 2 secret scalars (one from each party) against against the scalars multiplied by the curve generator which are effectively a Schnorr signature between the swapping parties. 
+It also requires knowledge of both parties Pedersen nonce multiplied by the curve generator which is a public value that is an identifier of the atomic swap Schnorr signature for both parties( effectively a Schnorr public key) produced with a Pedersen commitment that finalizes the atomic swap. 
+
+Sender Funding Transaction: https://tn-ergo-explorer.anetabtc.io/en/transactions/0dfbf51571748c6b27d22a33f10cbb404532f3c761000943cf50258b416718a3
+Receiver Spending Transaction: https://tn-ergo-explorer.anetabtc.io/en/transactions/7d7eeafe6cff53bdc9581f41be35a6ad8b7c32bb4182a3771739c45126e378de
+Sender ReClaiming Transaction( from unclaimed swap after lockHeight): https://tn-ergo-explorer.anetabtc.io/en/transactions/477bc1f42d7aabb92faa09f876b58b4b78b129b226ded5588fc6f57fd806ec9f
+
+The first two registers in the spending transaction is all the other party needs to claim their coins on the atomic swap!
+
+Code:
+https://github.com/dzyphr/ScalaSigmaParticle/blob/main/AtomicMultiSig/src/main/scala/AtomicMultiSig.scala
+
+{Embed}
+https://github.com/dzyphr/ScalaSigmaParticle/blob/main/AtomicMultiSig/src/main/scala/AtomicMultiSig.scala
+ScalaSigmaParticle/AtomicMultiSig.scala at main · dzyphr/ScalaSigma...
+Scala version of SigmaParticle aimed at full utilization of Ergo Appkit and future scala-python pipeline - ScalaSigmaParticle/AtomicMultiSig.scala at main · dzyphr/ScalaSigmaParticle
+
+
+[03/02/2023 4:55 AM] MGpai#4313
+"This one checks 2 secret scalars (one from each party) " what does this mean?
+
+
+[03/02/2023 5:04 AM] deathgripson#2395
+Each party generates a scalar https://en.wikipedia.org/wiki/Scalar_(mathematics) [Effectively a real whole number like a BigInteger]
+which (in this protocol) is a random number generated within the range 0->Secp256k1.N AKA the Elliptic curve order at the beginning of the atomic swap, they then combine these through a schnorr signature protocol which is checked by this contract.
+
+
+[03/02/2023 5:09 AM] deathgripson#2395
+Heres a demonstration of just one scalar check https://discordapp.com/channels/668903786361651200/1072936823367675974/1080296684573184090 It multiplies the scalar by the curve generator and checks that value against a precomputed value stored in the contract, if its the same scalar it will generate the same curve point.
+
+
+==============================================================
+Exported 30 message(s)
+==============================================================

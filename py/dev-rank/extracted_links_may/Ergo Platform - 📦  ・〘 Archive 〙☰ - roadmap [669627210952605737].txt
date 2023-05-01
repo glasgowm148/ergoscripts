@@ -1,0 +1,341 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / roadmap
+==============================================================
+
+[01/23/2020 7:46 PM] kushti#0978
+This channel is to discuss and consider technical and community building roadmap for 2020 and beyond )
+
+
+[01/23/2020 8:12 PM] mx#5165
+😄 putting into use real ring signatures that preserve zero-knowlegde, threshold signatures, real DEX of DEXes with no bloat and off-chain matching, different protocols on top of the atomic exchange which is built in the core for assets, so also trustless payment network, putting NiPoPoW and light nodes into use, putting into use multisig with no signers disclosure etc, GUIs, trustless LETS system 😄 🚀 go go go 🚀
+
+
+[01/23/2020 10:10 PM] kushti#0978
+alright, but as Ergo is community-driven, let's first invite project builders to talk about what they are going to deliver. Then community discussions and maybe Ergo Foundation covering holes with grants.
+Meanwhile I'm going to make 2020 roadmap for the core development, which will include support for complex signatures (we're already using threshold signatures for Dev Fund spendings, but the code is not public), EIP-1 (external applications support), improvements for better light nodes support, NiPoPoW proof generation (under review actually)
+
+{Reactions}
+👍 
+
+[01/23/2020 10:12 PM] kushti#0978
+realistically I think we may target for DEX , mixer, crowdfunding UIs for desktop at least, mobile wallet w. NiPoPoWs (and mixing?), support for complex sigs in the core and inbuilt wallet at least , better UI panel (w. tokens and complex sigs support)
+
+
+[01/23/2020 10:13 PM] kushti#0978
+pretty good for a digital gold PoW chain w. UTXOs  already \)
+
+
+[01/23/2020 10:13 PM] kushti#0978
+then https://www.ergoforum.org/t/universal-dapp-interface-package-standard/153 , LETS and so on for 2021 ?
+
+{Embed}
+https://www.ergoforum.org/t/universal-dapp-interface-package-standard/153
+Universal dApp Interface & Package Standard
+Before I head off for vacation I thought it would be worth posting this publicly on the forum for anyone who’s interested. This is a potential standard that could make sense to work towards for dApps for Ergo, so I’m open to all feedback. You can find the original doc her...
+
+
+[01/23/2020 10:15 PM] mx#5165
+👍 i am usually in the future 🙂
+
+
+[01/24/2020 8:45 AM] kushti#0978
+we can setup expected plan , and then in the best case we'll perform better!
+
+
+[01/24/2020 2:53 PM] kushti#0978
+Guys, if you  are building, planning to build or dreaming to build anything on top of Ergo, please update us here! The roadmap is for the whole ecosystem!
+
+
+[01/31/2020 11:33 AM] kushti#0978
+Dear community! Here's my proposal for 2020 roadmap your comments and edits are welcomed!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669627210952605737/672766445607845888/message.txt
+
+
+[01/31/2020 11:34 AM] kushti#0978
+Ergo Platform Roadmap for 2020
+-------------------------------
+
+Ergo community made a lot in 2019:
+* Very stressful but successful mainnet launch
+* A lot of updates for Ergo protocol reference client to improve its stability and enhance functionality.
+* Wallets: Magnum, CoinBarn (coming to ChromeStore, binaries available), UI panel in the node 
+* First applications, in form of command-line scripts, so not for regular users yet: a tool for crowdfunding campaigns, Ergo Notary, Ergo Oracle.
+* Few Ergo improvement proposals, already implemented!
+* Few tools to build applications, such as ErgoAppKit, ErgoTool, Kiosk.
+* A lot of contracts proposed on the forum, such as interest-free loan contract, zero-coupon bond scheme (the Yield protocol), auction and so on. It seems Ergo is very suitable for decentralized finance, even more, for simple and self-sovereign interacting peer-to-peer financial contracts!
+* First crowdfunding campaign (https://www.ergoforum.org/t/simple-crowdfunding/70) and mixing (https://www.ergoforum.org/t/lets-play-with-ergomix/108) done!
+* Few new research papers published or presented, namely "Multi-stage UTXO contracts", "On Contractual Money", "Bypassing Non-Outsourceable Proof-of-Work Schemes Using Collateralized Smart Contracts", (see https://ergoplatform.org/en/documents/).
+
+, not to say about progress in social aspects of ecosystem development (establishing Dev Fund Board, Ergo Foundation, first grants given, and so on).
+
+So we are showing possibilities of Ergo, not just talking about them. However, most of demonstrations are not for a regular user yet.
+
+
+[01/31/2020 11:34 AM] kushti#0978
+With that in mind, Ergo Foundation would like to propose the following development plan for 2020:
+  1. UI for crowdfunding
+  2. Implementation of ErgoMix, the first non-interactive mixing scheme utilizing Ergo's support for complex cryptographic protocols, and UI for it (for desktop and mobiles, at least Android). More mixing schemes to be developed in 2021.
+  3. Implementation of decentralized exchange (DEX) based on atomic swaps, contracts are described in the smart contract language whitepaper.
+  4. Ring, threshold and composite signatures support in the node. Ergo Development Fund members are already co-singing spendings using threshold signatures preserving zero-knowledge, now the time to bring such exciting possibilities to the mass adoption.
+  5. New smart contract development stack with possibility of writing contracts in a subset of Scala language along and support for formal verification.
+  6. Ledger or Trezor support.
+
+
+Please note that this plan is minimum and very realistic. For example, the new smart contract development stack with formal verification is mostly done already.
+
+Ergo Foundation is trying to maximize broader participation in ecosystem growth. Howeever, the ecosystem is still in the process of bootstrapping. So core developers will start or lead development where needed. Foundation is willing to provide grants to achieve the goals to increase external participation. The Foundation also accepts donations to increase its possibilities towards implementing the roadmap.
+
+With this minimum set of tools we will be ready to have more in 2021: mutual credit systems, p2p loan contracts, bonds, algorithmic stablecoins etc. However, this things could be implemented right now, so please join the ecosystem and build for it! Also, in 2021 we can get the "Universal dApp Interface & Package Standard" (https://www.ergoforum.org/t/universal-dapp-interface-package-standard/153) implemented, which could be a real game-changer in the dApp industry!
+
+{Reactions}
+👍 
+
+[01/31/2020 11:36 AM] kushti#0978
+@hir0 @Deleted User @benjyz @morphic @Dmitry Meshkov @Justin1000 @Noah ~ 贺能 @mx @Richard Wild ^ and others!
+
+
+[01/31/2020 12:18 PM] hir0#9158
+@kushti That looks good. I particularly like the approach of under-promising and (if possible) over-delivering. Part of the 'show, don't tell' strategy - there's too much vapourware and missed deadlines in the crypto world
+
+{Reactions}
+💯 (5) 👍 (5) 
+
+[03/20/2020 2:31 PM] kushti#0978
+https://twitter.com/ergoplatformorg/status/1240959163716509696
+
+{Embed}
+Ergo (@ergoplatformorg)
+https://twitter.com/ergoplatformorg/status/1240959163716509696
+Anon92048 just open-sourced command-line mixing tool with instructions https://t.co/fvVu3ovteT #ZeroJoin
+
+#Scorex #ZKProof #Cryptocurrency #ErgoScript #News #Privacy #DeFi #Blockchain #ProofOfWork $ERG
+https://images-ext-1.discordapp.net/external/NmiNd3RjNtWqwr56r60JrL79BbyJzIJqx8SZC2wFWcc/https/pbs.twimg.com/media/ETjFUJ-WkAM2Yov.png%3Alarge
+Twitter
+
+
+[03/20/2020 2:31 PM] kushti#0978
+another step towards fulfilling the 2020 goals
+
+{Reactions}
+💯 (5) 
+
+[04/03/2020 2:36 PM] kushti#0978
+and another step https://github.com/ergoplatform/ergo-dex/
+
+{Embed}
+https://github.com/ergoplatform/ergo-dex/
+ergoplatform/ergo-dex
+ErgoDex: A Decentralized Exchange on Ergo Blockchain - ergoplatform/ergo-dex
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[06/27/2020 9:49 AM] kushti#0978
+https://www.ergoforum.org/t/a-modified-version-of-ergomix-and-transaction-with-threshold-signature/239/8?u=kushti
+
+{Embed}
+https://www.ergoforum.org/t/a-modified-version-of-ergomix-and-transaction-with-threshold-signature/239/8?u=kushti
+A modified version of ergomix and transaction with threshold signature
+ErgoMixer is updated and ready to use.  please update your ergoMixer to the latest version (v1.0.1):  https://github.com/ergoMixer/ergoMixBack/releases/download/1.0.1/ergoMixer-1.0.1.jar  https://hub.docker.com/r/ergomixer/mixer
+
+
+[06/27/2020 9:49 AM] kushti#0978
+Please use ErgoMixer!
+
+
+[11/16/2020 9:50 PM] kushti#0978
+https://twitter.com/ergoplatformorg/status/1326924077563604992
+
+{Embed}
+Ergo (@ergoplatformorg)
+https://twitter.com/ergoplatformorg/status/1326924077563604992
+Updated #Roadmap! We're talking:
+
+🔸Blockchain Auctions
+🔸Stablecoin Integration
+🔸Ledger Integration
+🔸Atomic Swaps
+🔸ErgoDEX
+
+$ERG 🚀
+Likes
+105
+https://images-ext-2.discordapp.net/external/VH7q7cvKNqFFP_ZEiSq7jB-LgOx6ilCdaZ8PqjMabKk/https/pbs.twimg.com/media/EmouLrzXEAAi3ps.jpg%3Alarge
+Twitter
+
+{Reactions}
+👍 (20) 
+
+[02/26/2021 9:20 PM] KannaK#8949
+Will there be another updated roadmap soon?
+
+{Reactions}
+👍 (14) 🔜 (3) 
+
+[03/15/2021 7:16 PM] Gazza_SP#5835
+Hopefully 😂
+
+{Reactions}
+💩 
+
+[04/13/2021 12:25 AM] royal_screwup21#1120
+when moon?
+
+
+[04/13/2021 12:59 AM] Foeniculum#3278
+https://tenor.com/view/john-wayne-cantswim-kid-cant-swim-gif-5320611
+
+{Embed}
+https://tenor.com/view/john-wayne-cantswim-kid-cant-swim-gif-5320611
+https://images-ext-2.discordapp.net/external/13ZCjwDHsw_hbZ2tMe9d4bIRAiwdxdCujTRAZqslNDM/https/media.tenor.co/images/b0cd41bc43da4cd8bcfe6f482da43717/raw
+
+{Reactions}
+💯 (2) 👍 (2) 
+
+[04/13/2021 9:47 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669627210952605737/831450557297852416/unknown.png
+
+{Reactions}
+🤩 
+
+[04/13/2021 10:59 AM] NucaCola👨🚀#3711
+Is gravity similar to polkadot ?
+
+
+[04/14/2021 6:33 PM] Deleted User#0000
+Hey all, I'm quite new to Ergo and was wondering if anyone knew if a Binance or another T1 exchange listing is on the way?
+
+
+[04/14/2021 9:41 PM] Gazza_SP#5835
+There's been talks of some exchange coming up but not what tier level it's on sorry!
+
+
+[04/14/2021 9:41 PM] Foeniculum#3278
+KuCoin or (possibly) Huobi (speculations based on the recent interest by Chinese media in Ergo + KuCoin application submitted over a month ago)
+
+
+[04/14/2021 9:42 PM] Foeniculum#3278
+They're both top notch exchanges 🙂
+
+
+[04/14/2021 9:42 PM] Foeniculum#3278
+But again, nothing official yet
+
+
+[04/14/2021 11:05 PM] Jumei#5536
+I hope so 🙂 would really like to see some movement... not occasional chunks getting eaten or sold by whales
+
+
+[04/14/2021 11:06 PM] Jumei#5536
+although free coin from miner dumbs are ok with me 🙂
+
+
+[04/14/2021 11:06 PM] Jumei#5536
+dumps*
+
+
+[04/15/2021 12:45 AM] wkholi#5094
+I signed to coinEX. it has ergo listed
+
+{Reactions}
+👍 
+
+[04/15/2021 9:25 AM] Busata#9432
+4 days later I'm still trying to get mine out of hotbit -_- and telegram support is swarming with scammers pm'ing you to "help out"
+
+
+[04/15/2021 3:02 PM] TakeHeart#4224
+Same. Buying BTC on coinbase to send to CoinEx to exchange into Ergo and then withdraw to Yoroi.  
+
+Don't know if it's "the right thing to do", but it's working and I'm pleased and thankful to support the cause. If there's a smarter way of doing this I'm all ears (sharing only share from the information/rookies perspective) and am learning more with each new day.
+
+
+[04/15/2021 4:34 PM] glasgowm#9381
+BTC has high fees. Use ADA or USDT over TRC-20
+
+{Reactions}
+🙏 
+
+[04/15/2021 4:54 PM] TakeHeart#4224
+Thank you.. Really appreciate the input.
+
+
+[04/16/2021 9:51 AM] GeorgeR1707#5241
+plus you probably shouldnt buy from coinbase
+
+
+[04/16/2021 9:51 AM] GeorgeR1707#5241
+the fees are ridiculous
+
+
+[04/16/2021 9:52 AM] GeorgeR1707#5241
+most exchanges have fiat onramps(meaning you can buy with $ or you local currency) nowadays coinbase is a bit of a scam
+
+
+[04/16/2021 9:52 AM] GeorgeR1707#5241
+binance probably the best but coinex has its own one too, but is a bit more of a fa
+
+
+[04/16/2021 9:52 AM] GeorgeR1707#5241
+f
+
+
+[04/16/2021 9:53 AM] GeorgeR1707#5241
+faf
+
+
+[04/16/2021 9:46 PM] Deleted User#0000
+binance is the best? lol
+
+
+[04/16/2021 9:46 PM] Deleted User#0000
+what have we become
+
+
+[04/16/2021 11:52 PM] MikeyMike87#9350
+Lmao couldn't have said it better myself.
+
+
+[04/16/2021 11:53 PM] MikeyMike87#9350
+Just hold your bag of ERG like you hold your meat. Nice and tight until it explodes.
+
+{Reactions}
+😂 (6) PepeWink 
+
+[04/17/2021 12:12 AM] $aX#5658
+And don't forget to shake it in the mixer every once and a while
+
+
+[05/15/2021 4:41 PM] Deleted User#0000
+got to keep the juces flowing
+
+
+[05/15/2021 10:20 PM] Sid#0001
+If this coin gets listed on binance, I will be rolling in the dough baby lmao
+
+
+[05/16/2021 6:04 PM] andee#4722
+@GeorgeR1707  coinbase pro doesn't have much fees, but having to use any kind of CEX sucks
+
+
+[05/16/2021 6:04 PM] GeorgeR1707#5241
+doesnt have too many coins tho
+
+
+[05/16/2021 6:36 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669627210952605737/843542335366627338/unknown.png
+
+{Reactions}
+👍 (4) 
+
+==============================================================
+Exported 55 message(s)
+==============================================================

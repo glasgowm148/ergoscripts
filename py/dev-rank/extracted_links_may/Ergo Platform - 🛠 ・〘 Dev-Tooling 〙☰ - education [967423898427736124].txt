@@ -1,0 +1,2103 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🛠 ・〘 Dev-Tooling 〙☰ / education
+Topic: Bridged with https://t.me/Ergo_Education
+
+A channel to discuss education solutions for Ergo
+==============================================================
+
+[09/20/2022 3:35 PM] MGpai#4313
+Good server to learn through classes
+
+
+[09/20/2022 5:11 PM] glasgowm#9381 (pinned)
+https://discord.gg/PQPyFbKZ9z
+
+
+[10/27/2022 1:36 PM] glasgowm#9381
+Pinned a message.
+
+
+[10/27/2022 1:43 PM] glasgowm#9381
+Can now embed jupyter notebooks into the docs. 
+
+Who can spot the mistake here?
+https://docs.ergoplatform.com/assets/py/Ergo_Address_Encoding/
+
+
+[10/28/2022 11:33 AM] glasgowm#9381
+main dev introduction page refreshed
+
+https://docs.ergoplatform.com/dev/
+
+Does this make sense to everyone? Is there any resources that were helpful when you started learning not listed here @Contributors ?
+
+Or maybe too much information and could be simplified with a grid like the homepage?
+
+
+[10/28/2022 11:59 AM] morphic#4133
+I think the amount of information is overwhelming for newcomers. I suggest to structure the information around platforms/tech stacks the people are going to use: 
+1) JVM - people can use Java or Scala or Kotlin, doesn't matter but they finally want to run on JVM
+2) JS - people may use JavaScript or TypeScript or Scala.js, but they want to run on Node.js or in Browser
+3) Android - people may use Java/Kotlin/Scala and want to run on Android
+4) iOS - people may use Swift/Java+RoboVM/Objective-C and run on iPhone, iPad
+5) Desktop - people may use Java+JVM/JavaFX/JS+Electron/Rust/Python
+And then for each platform provide `recommended` starting points (1 or 2) and also list all related references, which are optional and not on the _getting started fast track_
+For example: 
+1) for JVM the starting point is Appkit and tutorial of createing dApp with Appkit
+2) for JS - IDK, can be some SDK which is the most usable and have end-to-end example 
+3) Android/iOS - is also Appkit and MrStahlfelge's tutorial
+4) Desktop - I don't know, what is the top SDK here, but Appkit is also suitable and have working example (Desktop wallet)
+
+
+[10/28/2022 12:00 PM] morphic#4133
+So, the development tools depend on the platform, and this is the first thing anyone willing to develop need to ask themselves.
+
+
+[10/28/2022 12:05 PM] morphic#4133
+This reference can be added somewhere on top of ErgoScript page, before mentioning ErgoTree. https://github.com/ScorexFoundation/sigmastate-interpreter/blob/develop/docs/LangSpec.md
+ErgoTree is low level information, and it can be introduced after ErgoScript language.
+
+{Reactions}
+👍 (2) 
+
+[10/28/2022 12:05 PM] glasgowm#9381
+Awesome, thanks for the feedback. What about 6) ErgoScript? Or is that better categorised within the language pages
+
+
+[10/28/2022 12:06 PM] morphic#4133
+ErgoScript definitely deserves its own page, but it is not the starting point of dApp development.
+
+
+[10/28/2022 12:09 PM] morphic#4133
+In fact it is not even part of Getting Started guide. For example, writing simple payments dApp don't require any knowledge of ErgoScript.
+
+
+[10/28/2022 12:10 PM] glasgowm#9381
+I was thinking more it's one of the first places people want to look/play with, before they start developing properly. But probably need some even simpler examples for that.
+
+
+[10/28/2022 12:11 PM] morphic#4133
+So the general structural levels like this: 1) platforms 2) tools available on the platform 3) getting starting with the tool 4) Advanced use cases (ErgoScript is here)
+
+{Reactions}
+👍 
+
+[10/28/2022 12:14 PM] morphic#4133
+Yes, ErgoScript is central on the conceptual high-level. For those who want to understand the Ergo platform and its main features. 
+We need to have Concepts page and one page for each concept. Block, Transaction, Box, Context, ErgoScript, ErgoTree etc are all such concepts.
+
+
+[10/28/2022 12:16 PM] morphic#4133
+This is more like overview style descriptions.
+Then, ones I decided to try the platform, I need to have more like step-be-step style instructions. Like go here, read there, install this and then run it using this command.
+
+
+[10/28/2022 12:18 PM] morphic#4133
+On this level ErgoScript is not central and often optional.
+
+
+[10/28/2022 1:26 PM] glasgowm#9381
+What about this? Or did you mean to exclude rust/mosaik?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967423898427736124/1035529879837491210/unknown.png
+
+
+[10/28/2022 1:29 PM] morphic#4133
+Yes, Mosaik and Rust are tools, they are available on many platforms and belong to the next layer.
+
+
+[10/28/2022 1:32 PM] glasgowm#9381
+Isn't the HDF all inclusive? or what category would it go in of those you listed
+
+
+[10/28/2022 1:33 PM] morphic#4133
+HDF is kind of SDK for Rust developers. belong to the level 2 of tools, same as Appkit
+
+
+[10/28/2022 1:36 PM] morphic#4133
+the level of tools can have grouping around languages where many alternatives available. For example Desktop: JVM, Rust, JS, Python
+
+
+[10/28/2022 1:37 PM] morphic#4133
+So, I click on Desktop and then see what languages (or better say _execution environments_ I can use) and which tools available on each of them
+
+
+[10/28/2022 1:38 PM] morphic#4133
+For example JVM execution environment let me use Appkit with Java/Scala/Kotlin
+
+
+[10/28/2022 1:39 PM] morphic#4133
+Rust allows use HDF, Pools, NiPoPoW
+
+
+[10/28/2022 1:39 PM] morphic#4133
+JS: Fleet, ergo-js, Sigma.js etc.
+
+
+[10/28/2022 1:40 PM] glasgowm#9381
+I guess I'm just missing why JVM or JS goes on level 1 but not rust
+
+
+[10/28/2022 1:40 PM] morphic#4133
+no, they are on level 2 together with Rust
+
+
+[10/28/2022 1:41 PM] morphic#4133
+Ah, sorry
+
+
+[10/28/2022 1:42 PM] morphic#4133
+JVM should be renamed to Server, JS should be renamed to Browser
+
+
+[10/28/2022 1:42 PM] glasgowm#9381
+makes sense
+
+
+[10/28/2022 1:43 PM] morphic#4133
+On server we can have JVM, Node.js, Rust, Mosaik
+
+
+[10/28/2022 1:43 PM] morphic#4133
+In Browser: JavaScript, TypeScript, Rust, Mosaik
+
+
+[10/28/2022 1:45 PM] morphic#4133
+Mobile / Android / Java|Scala|Kotlin
+                                 / Rust with Java bindings
+                                 / Mosaik
+             / iOS / Java/Scala/Kotlin with RoboVM
+                        / Rust with iOS bindings
+                        / Mosaik
+
+{Reactions}
+👍 
+
+[10/28/2022 1:50 PM] morphic#4133
+Some tools are cross platform like Appkit, Mosaik, sigma-rust, but anyway, using them on each platform may have very different Getting Started page. 
+And each tool should have it's own main page.
+
+
+[10/28/2022 1:53 PM] glasgowm#9381
+Sounds good
+
+
+[10/28/2022 1:53 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967423898427736124/1035536754171711538/unknown.png
+
+{Reactions}
+👍 
+
+[10/28/2022 1:55 PM] morphic#4133
+So, when the developer want to dig into specific platform they go to say Server page and then go deep into the structure.
+But, when they want to learn a tool, they go to the tool main page and read `howtos` there
+
+{Reactions}
+👍 
+
+[10/28/2022 1:56 PM] morphic#4133
+And it is good to have cross references to different tools from a platform page, and to different platforms from a tool page.
+
+
+[10/28/2022 2:00 PM] morphic#4133
+And we can have empty sections in the docs with TODO explaining what needs to be added.
+For example, on Mosaik page, we can provide info on how to use it from JVM languages and from JS, but leave TODO for how to use it from Rust (because it is not yet implemented)
+
+
+[10/28/2022 2:01 PM] morphic#4133
+I think, once the structure is established, we can invite developers to fill the necessary TODOs with concrete information.
+
+
+[10/31/2022 8:42 AM] glasgowm#9381
+Still to add some pages/icons/tidy/etc but base structure up. Not sure I quite get the distinction between Desktop/Server or does the grouping I've used make sense? @morphic 
+
+https://docs.ergoplatform.com/dev/start/
+
+
+[10/31/2022 8:43 AM] glasgowm#9381
+cc: @anon_br @MrStahlfelge @greenhat to make sure your sections are represented in the right bits
+
+
+[10/31/2022 8:46 AM] MrStahlfelge#0042
+mosaik is not zero-coding, better to let the subtitle be UI system for dApps
+
+{Reactions}
+👍 
+
+[10/31/2022 8:47 AM] MrStahlfelge#0042
+if you click on the desktop link it is not listed on the next page
+
+
+[10/31/2022 8:48 AM] MrStahlfelge#0042
+ios gives a 404
+
+
+[10/31/2022 8:48 AM] MrStahlfelge#0042
+would do an extra entry for mosaik next to android and ios
+
+
+[10/31/2022 8:48 AM] glasgowm#9381
+like this?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967423898427736124/1036562324691099648/unknown.png
+
+
+[10/31/2022 8:48 AM] glasgowm#9381
+ios working here, weird
+
+
+[10/31/2022 8:48 AM] morphic#4133
+Is it also possible to add `breadcrumbs` path on top of each page?
+
+
+[10/31/2022 8:50 AM] glasgowm#9381
+should be, will add
+
+
+[10/31/2022 8:53 AM] glasgowm#9381
+Difference in how caps are handled locally, fixed
+
+
+[10/31/2022 8:54 AM] morphic#4133
+Mosaik is not OS
+
+
+[10/31/2022 8:54 AM] MrStahlfelge#0042
+meant on the mobile page here https://docs.ergoplatform.com/dev/stack/mobile/
+for desktop I think it is okay to have it under browser
+
+
+[10/31/2022 8:55 AM] MrStahlfelge#0042
+yes but it is a third way to get a dapp ui running on ios and android, besides developing for the systems directly
+
+
+[10/31/2022 8:56 AM] morphic#4133
+The idea is to have some classification of tools we have. Mosaik is a tool and should be placed in a list of tools, not list of OS.
+
+
+[10/31/2022 8:57 AM] morphic#4133
+So we have a classification of execution environments and then list all the available tools for each environment
+
+
+[10/31/2022 8:58 AM] morphic#4133
+Each environment should have its own page with breadcrumbs path on top and all the tools necessary for development on one page.
+
+
+[10/31/2022 9:00 AM] morphic#4133
+The classification work as decision tree, you do choice on each level and come to the relevant tool set.
+
+
+[10/31/2022 9:01 AM] morphic#4133
+Mosaik can be mentioned on pages for all relevant execution environments
+
+
+[10/31/2022 9:02 AM] morphic#4133
+And it should also have its own page of course.
+
+
+[10/31/2022 9:16 AM] morphic#4133
+Server and Desktop belong to the same classification level, thus Desktop, Server, Browser, Mobile is a typical list of platforms
+Desktop is different from Server in a set of available tools, JavaFX, other UI frameworks are not relevant for Server.
+
+
+[10/31/2022 9:17 AM] morphic#4133
+There is some intersection in tools between Server and Desktop, but that is not a problem.
+
+
+[10/31/2022 9:18 AM] morphic#4133
+Over time the difference between Server and Desktop pages will increase.
+
+
+[10/31/2022 9:19 AM] glasgowm#9381
+so for bundled desktop apps you mean - I'm not sure we have many resources for that? Seems not so popular either so I'd be inclined to break it down like
+
+- Server
+   - Backend
+   - Frontend
+- Bundled Apps
+   - Desktop
+   - iOS
+   - Android
+
+
+[10/31/2022 9:20 AM] morphic#4133
+Frontend is not part of server
+
+
+[10/31/2022 9:22 AM] morphic#4133
+I think we shouldn't try to structure tools around some particular design architecture (which is what Frontend-Backend separation is coming from)
+
+
+[10/31/2022 9:23 AM] morphic#4133
+Let the developer decide what architecture he is building
+
+
+[10/31/2022 9:23 AM] morphic#4133
+Bundled Apps is the same category, I don't even know what this means exactly
+
+
+[10/31/2022 9:26 AM] morphic#4133
+I want to create Node.js service, which interacts with blockchain and then I want to create Android App and web page which interact with that service. It it a Bundled App?
+
+
+[10/31/2022 9:27 AM] glasgowm#9381
+the app bit is, first bit is server
+
+
+[10/31/2022 9:27 AM] glasgowm#9381
+bundled would be .apk, .exe, .dmg, .ipa (ios)
+
+
+[10/31/2022 9:28 AM] glasgowm#9381
+But the android page would link to tutorials describing how to do that ideally
+
+
+[10/31/2022 9:32 AM] morphic#4133
+Yes, we can have one page with the list of all possible bundles which can be created, but I don't think it is a good way to structure tools. They are just packaging formats. What about .jar, .war, .aar, etc.?
+
+
+[10/31/2022 9:34 AM] morphic#4133
+there is .msi on windows, .deb on Debian, .pkg on linux, endless list actually.
+
+
+[10/31/2022 9:54 AM] glasgowm#9381
+I was thinking just to break them down by platform not by package types. Examples given are just the most common executable people would be making. As ideally in most cases if you develop for mobile - it'd be via a responsive cross-platform website with epay+dApp support so you'd go in via the server route.
+
+
+[10/31/2022 10:05 AM] morphic#4133
+This is not how I look at it. How my pass to mobile "go in via the server route"? 
+Say, I'm an Android developer. I want to see what I can do in Ergo and I want to find my starting page. I go the Getting Started. I see Mobile section, I click it. I see Android, I click it and voila, I'm on Android development tools page, where I can also see Mosaik, Rust etc as options.
+
+
+[10/31/2022 10:06 AM] morphic#4133
+But, I need to quicky find tools which are relevant to my experience/skills
+
+
+[10/31/2022 10:07 AM] morphic#4133
+I think this is the main pain point for new comers ATM
+
+
+[10/31/2022 10:09 AM] morphic#4133
+We can actually put iOS and Android in a list with Desktop, Browser, Server
+
+
+[10/31/2022 10:10 AM] morphic#4133
+All these platforms are very specific and deserve its own page of tools
+
+
+[10/31/2022 10:10 AM] greenhat#6562
+Looks neat! Although, I'm not a fan of tiles. As a developer, I'd like to get to my stack (JVM/ JS/Rust/Python) without guessing if it's under the desktop, browser, server or another tile. Also, it requires us "duplicate" some stacks like JS under multiple tiles.
+
+
+[10/31/2022 10:11 AM] morphic#4133
+No, duplication of content, but duplication of references.
+
+
+[10/31/2022 10:12 AM] greenhat#6562
+Yes, that's what meant by quotes.
+
+
+[10/31/2022 10:12 AM] glasgowm#9381
+Well android devs are few in far between, doesn't really make sense to develop for one platform (other than some exceptions like wallets) hence the lack of apps.  
+
+Android dev would come in and see `Mobile Applications` and follow the same path, but means someone wouldn't come in and go 'i want my dApp to work on mobile' - and follow the wrong path as it's not the only way to develop for mobile
+
+
+[10/31/2022 10:13 AM] morphic#4133
+There should be content pages and navigation pages, they serve different purpose.
+
+
+[10/31/2022 10:15 AM] morphic#4133
+Ok, I think I described my opinion clearly, it's just my opinion.
+
+
+[10/31/2022 10:15 AM] greenhat#6562
+I'll make PRs to Rust, JS and iOS pages to include sigma-rust.
+
+
+[10/31/2022 10:19 AM] morphic#4133
+Sigma-rust deserves it's own `content` page. And this page can be referenced from many `navigation pages` and other `content` pages. 
+Content pages should not be duplicated. Navigation pages should accumulate relevant links (which, the links, can be duplicated)
+
+
+[10/31/2022 10:20 AM] morphic#4133
+Pages with tiles are the `navigation` pages
+
+
+[10/31/2022 10:27 AM] greenhat#6562
+@morphic I see. So should I create `sigma-rust.md` in `dev/stack`?
+
+
+[10/31/2022 10:29 AM] glasgowm#9381
+Yeah, currently it's just all on the rust page. 
+
+https://docs.ergoplatform.com/dev/lang/rust/
+
+
+[10/31/2022 10:31 AM] greenhat#6562
+And then we link to this rust page from JS and iOS? Since we have fully implemented bindings for them in sigma-rust. I'm a bit confused.
+
+
+[10/31/2022 10:32 AM] glasgowm#9381
+Yep
+
+
+[10/31/2022 10:32 AM] morphic#4133
+Yes, on Android page you describe android bindings for sigma-rust and link to sigma-rust page.
+
+
+[10/31/2022 10:33 AM] morphic#4133
+Android binding belongs to Android toolbox, but sigma-rust itself does not.
+
+
+[10/31/2022 10:36 AM] greenhat#6562
+So it's not really a sigma-rust content page, then. It's a paragraph about sigma-rust on every platform page, right?
+
+
+[10/31/2022 10:38 AM] morphic#4133
+No, on each platform page we describe tools which exists on that platform (or can be executed on the platform). In the description we can link to the relevant tool pages.
+
+
+[10/31/2022 10:39 AM] morphic#4133
+Binding component is the tool. You need to describe it. In the description can link to sigma-rust for detailed info.
+
+
+[10/31/2022 10:41 AM] morphic#4133
+Or you can describe binding components on the sigma-rust page. In this case on Android page you just mention binding and briefly describe it and provide link to sigma-rust.
+
+
+[10/31/2022 10:42 AM] morphic#4133
+I suggest the second option.
+
+
+[10/31/2022 10:42 AM] greenhat#6562
+Got it. Thanks.
+
+
+[10/31/2022 10:42 AM] morphic#4133
+So each platform page serves as navigation page for all the tools available of the platform.
+
+
+[11/01/2022 12:02 PM] glasgowm#9381
+updated; how's this structure?
+
+https://docs.ergoplatform.com/dev/start/
+
+
+[11/01/2022 12:27 PM] anon_br#0000
+(re  : *<Glasgow> updated; how's this structure?
+
+https://docs.ergoplatform.com/dev/start/*) 
+ 
+ Looks great!
+
+
+[11/01/2022 12:29 PM] anon_br#0000
+Just one remark: not sure about mosaik on “Server” page, maybe desktop or mobile fits better
+
+
+[11/23/2022 11:55 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/08684c00a2d9...5aab6cbb4c55
+[ergodocs:main] 2 new commits
+[`3c8ffaf`](https://github.com/ergoplatform/ergodocs/commit/3c8ffaf619f8cec9659770452d79e3f5c26d20c8) Typos and adding tags - glasgowm148
+[`5aab6cb`](https://github.com/ergoplatform/ergodocs/commit/5aab6cbb4c55fd8b7a4fde333fc50d3e938b9ae7) adding superfences plugin, draft AVL tree and s... - glasgowm148
+
+
+[11/23/2022 11:56 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3531812974/jobs/5925403619
+[ergodocs] deploy success on main
+
+
+[11/23/2022 11:56 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/5aab6cbb4c55fd8b7a4fde333fc50d3e938b9ae7
+[ergodocs] GitHub Actions checks success on main
+
+
+[11/23/2022 11:57 AM] glasgowm#9381
+enabled code content tabs on the docs
+
+Usage desc: https://squidfunk.github.io/mkdocs-material/reference/content-tabs/#usage
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967423898427736124/1044944789172408370/image.png
+
+{Embed}
+https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
+Content tabs - Material for MkDocs
+Write your documentation in Markdown and create a professional static site in minutes – searchable, customizable, for all devices
+https://images-ext-1.discordapp.net/external/wInyCPnJh0KJMShwnfV_PCXyOS3fVZSRTfnIwv9N-ss/https/squidfunk.github.io/mkdocs-material/assets/images/social/reference/content-tabs.png
+
+
+[11/23/2022 2:17 PM] MGpai#4313
+This is pretty cool, we can add ergpy scripts to this!
+
+
+[11/24/2022 11:09 AM] GitHub#0000
+
+
+{Embed}
+MrStahlfelge
+https://github.com/ergoplatform/ergodocs/commit/47a56f23d389c76c73b5e336b2f2a1709946344c
+[ergodocs:devbasics] 1 new commit
+[`47a56f2`](https://github.com/ergoplatform/ergodocs/commit/47a56f23d389c76c73b5e336b2f2a1709946344c) Add a very basic multi-language tutorial - MrStahlfelge
+
+
+[11/24/2022 11:09 AM] GitHub#0000
+
+
+{Embed}
+MrStahlfelge
+[ergoplatform/ergodocs] New branch created: devbasics
+
+
+[11/24/2022 11:09 AM] GitHub#0000
+
+
+{Embed}
+MrStahlfelge
+https://github.com/ergoplatform/ergodocs/pull/24
+[ergoplatform/ergodocs] Pull request opened: #24 Add a very basic multi\-language tutorial
+
+
+[11/24/2022 11:10 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/5aab6cbb4c55...9949c59c039f
+[ergodocs:main] 2 new commits
+[`47a56f2`](https://github.com/ergoplatform/ergodocs/commit/47a56f23d389c76c73b5e336b2f2a1709946344c) Add a very basic multi-language tutorial - MrStahlfelge
+[`9949c59`](https://github.com/ergoplatform/ergodocs/commit/9949c59c039f29a722bbb286a927df558dcce0bc) Merge pull request #24 from ergoplatform/devbasics - glasgowm148
+
+
+[11/24/2022 11:10 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/24
+[ergoplatform/ergodocs] Pull request closed: #24 Add a very basic multi\-language tutorial
+
+
+[11/24/2022 11:11 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3540057368/jobs/5942669364
+[ergodocs] deploy success on main
+
+
+[11/24/2022 11:11 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/9949c59c039f29a722bbb286a927df558dcce0bc
+[ergodocs] GitHub Actions checks success on main
+
+
+[11/24/2022 11:32 AM] GitHub#0000
+
+
+{Embed}
+MrStahlfelge
+https://github.com/ergoplatform/ergodocs/commit/f818e3a8c24b91935b75645b0c466dec872e6aa0
+[ergodocs:main] 1 new commit
+[`f818e3a`](https://github.com/ergoplatform/ergodocs/commit/f818e3a8c24b91935b75645b0c466dec872e6aa0) Add a very basic multi-language tutorial small fix - MrStahlfelge
+
+
+[11/24/2022 11:33 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3540210343/jobs/5942992069
+[ergodocs] deploy success on main
+
+
+[11/24/2022 11:33 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/f818e3a8c24b91935b75645b0c466dec872e6aa0
+[ergodocs] GitHub Actions checks success on main
+
+
+[11/25/2022 8:14 AM] Porridge#8651
+the documentation link on installing and running a node seems to be down https://docs.ergoplatform.com/node/install/install/
+
+
+[11/25/2022 9:21 AM] glasgowm#9381
+https://docs.ergoplatform.com/node/install/
+
+
+[11/25/2022 2:44 PM] Porridge#8651
+The link on github and on https://docs.ergoplatform.com/dev/wallets/ is linking to the bad one I sent
+
+
+[11/25/2022 2:47 PM] glasgowm#9381
+Which Git?
+
+
+[11/25/2022 2:47 PM] glasgowm#9381
+ah found it
+
+{Reactions}
+👍 
+
+[11/25/2022 2:47 PM] glasgowm#9381
+ta
+
+
+[11/26/2022 1:24 AM] GitHub#0000
+
+
+{Embed}
+rustinmyeye
+https://github.com/rustinmyeye/ergodocs
+[ergoplatform/ergodocs] Fork created: rustinmyeye/ergodocs
+
+
+[11/28/2022 12:54 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/f818e3a8c24b...b9a8cc32a072
+[ergodocs:main] 6 new commits
+[`03fe429`](https://github.com/ergoplatform/ergodocs/commit/03fe42947917ec815b2676f9a4e9b5da1c877a89) Tidying utxo, rewrote sigma protocols page, app... - glasgowm148
+[`3e95d63`](https://github.com/ergoplatform/ergodocs/commit/3e95d63ca2d8ab8d25214204df1ae4c364ae2311) Merge branch 'main' of https://github.com/ergop... - glasgowm148
+[`f7e181d`](https://github.com/ergoplatform/ergodocs/commit/f7e181df2547e85c3e1adddd638e2ac4580e245f) adding kya - glasgowm148
+[`0578fc6`](https://github.com/ergoplatform/ergodocs/commit/0578fc655550fd4cdf04ccbac1f388f8878cbcfd) fixes to deco, sigmajoin and faq - glasgowm148
+[`54f2569`](https://github.com/ergoplatform/ergodocs/commit/54f2569e89abb93e526b9b26aee24abd55c931ce) tidying application pages and scaling - glasgowm148
+
+
+[11/28/2022 12:55 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/b9a8cc32a072f377a41a1d8f432a390ae332877b
+[ergodocs] GitHub Actions checks success on main
+
+
+[11/28/2022 12:55 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3564947825/jobs/5989516392
+[ergodocs] deploy success on main
+
+
+[11/29/2022 10:56 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/b9a8cc32a072...9592ebf62d18
+[ergodocs:main] 5 new commits
+[`9f0f9dd`](https://github.com/ergoplatform/ergodocs/commit/9f0f9dd11884facf5b182331be1158fd46ac0c3a) adding cryptographic application page and tidyi... - glasgowm148
+[`922d3c6`](https://github.com/ergoplatform/ergodocs/commit/922d3c60268502f3fb3617ad21229c736d2ca34b) app nav tidy, changes to mixer and nft - glasgowm148
+[`da3ea94`](https://github.com/ergoplatform/ergodocs/commit/da3ea9482aa0369bea070efc43c04763e6031e40) why ergo - glasgowm148
+[`f5b5071`](https://github.com/ergoplatform/ergodocs/commit/f5b5071b5beeb3dfdb100f83d103dccb5013856d) utxo pages, token burning - glasgowm148
+[`9592ebf`](https://github.com/ergoplatform/ergodocs/commit/9592ebf62d188b3488617d0773ab905c03064fad) token burning and updating governance page - glasgowm148
+
+
+[11/29/2022 10:56 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3573398204/jobs/6007415997
+[ergodocs] deploy success on main
+
+
+[11/29/2022 10:56 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/9592ebf62d188b3488617d0773ab905c03064fad
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/01/2022 10:02 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/9592ebf62d18...a95a7b34223f
+[ergodocs:main] 3 new commits
+[`9aa20e6`](https://github.com/ergoplatform/ergodocs/commit/9aa20e6e82d09a9df0875f9e36a8e358ff0f0728) tidying cryptographic sections and avl - glasgowm148
+[`847fe9d`](https://github.com/ergoplatform/ergodocs/commit/847fe9d95294c7ff7a9133339bea7527acf63795) tx chains/tree/graph and zkp tidies - glasgowm148
+[`a95a7b3`](https://github.com/ergoplatform/ergodocs/commit/a95a7b34223f1bf4ed81369907ca65cba5e6a6a4) tidying tokens - glasgowm148
+
+
+[12/01/2022 10:02 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3591498314/jobs/6046092155
+[ergodocs] deploy success on main
+
+
+[12/01/2022 10:02 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/a95a7b34223f1bf4ed81369907ca65cba5e6a6a4
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/01/2022 6:13 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/a95a7b34223f...2df24c872517
+[ergodocs:main] 3 new commits
+[`bd2cc2e`](https://github.com/ergoplatform/ergodocs/commit/bd2cc2e1f1e37ae66acbe5f204c5ff46c06994f7) Diffie and schnorr - glasgowm148
+[`23aea65`](https://github.com/ergoplatform/ergodocs/commit/23aea6529a60b6b74457affa215c45a8162021bf) New research papers - glasgowm148
+[`2df24c8`](https://github.com/ergoplatform/ergodocs/commit/2df24c872517041d4e07d6736c8b6ea3ee7b3e44) Diffie Hellman updates - glasgowm148
+
+
+[12/01/2022 6:14 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3595345649/jobs/6054719913
+[ergodocs] deploy success on main
+
+
+[12/01/2022 6:14 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/2df24c872517041d4e07d6736c8b6ea3ee7b3e44
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/02/2022 12:25 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/2df24c872517...bbbc9d171acb
+[ergodocs:main] 3 new commits
+[`d75ae74`](https://github.com/ergoplatform/ergodocs/commit/d75ae74b0e5237c7ff228b35760df30376394211) verifying schnorr sig - glasgowm148
+[`49c04a6`](https://github.com/ergoplatform/ergodocs/commit/49c04a6416a62f320de530516a1f081ea005ea4c) Tidying Autolykos - glasgowm148
+[`bbbc9d1`](https://github.com/ergoplatform/ergodocs/commit/bbbc9d171acb00a9f3a243ee14ca6a2720c9b5c8) difficulty and eip37 - glasgowm148
+
+
+[12/02/2022 12:25 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/bbbc9d171acb00a9f3a243ee14ca6a2720c9b5c8
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/02/2022 12:25 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3601660390/jobs/6067717469
+[ergodocs] deploy success on main
+
+
+[12/06/2022 10:47 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/bbbc9d171acb...42b2191f34ba
+[ergodocs:main] 5 new commits
+[`0aaf8c2`](https://github.com/ergoplatform/ergodocs/commit/0aaf8c247b2ca6093b9970037a42f3ce24a382dc) Ledger side-load instructions and algorithm for... - glasgowm148
+[`29ad445`](https://github.com/ergoplatform/ergodocs/commit/29ad4453953a95633524c8ccee5589d97cf48c5c) fixing broken urls - glasgowm148
+[`c869ec5`](https://github.com/ergoplatform/ergodocs/commit/c869ec5b041de2150b1272632df23732480a0407) Dexy - glasgowm148
+[`82fc73a`](https://github.com/ergoplatform/ergodocs/commit/82fc73ad95481723a25daa2ace804cf0eae123a7) Serialization init and some tidies around uses - glasgowm148
+[`42b2191`](https://github.com/ergoplatform/ergodocs/commit/42b2191f34bac7d5cfa4943a0c8a3760fd85eb9e) ergotree subheader pages - glasgowm148
+
+
+[12/06/2022 10:48 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/42b2191f34bac7d5cfa4943a0c8a3760fd85eb9e
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/06/2022 10:48 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3634126226/jobs/6131898061
+[ergodocs] deploy success on main
+
+
+[12/08/2022 11:18 AM] glasgowm#9381
+Are the .tex files for this version of the ErgoTree specification available @morphic ?
+
+https://storage.googleapis.com/ergo-cms-media/docs/ErgoTree.pdf
+
+I was using the ones on the sigmastate repo but seems to be an older version. 
+
+https://github.com/ScorexFoundation/sigmastate-interpreter/tree/develop/docs/spec
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/tree/develop/docs/spec
+sigmastate-interpreter/docs/spec at develop · ScorexFoundation/sigm...
+ErgoScript compiler and ErgoTree Interpreter implementation for Ergo blockchain - sigmastate-interpreter/docs/spec at develop · ScorexFoundation/sigmastate-interpreter
+https://images-ext-1.discordapp.net/external/S5r_utrvZmS04eM6Z6Ho9EgS2Cl2pYJnlCDnlogf5mE/https/opengraph.githubassets.com/cb29279153a27673b9a45858bf2374e0b2474d4e1356c848954b8720cd0da618/ScorexFoundation/sigmastate-interpreter
+
+
+[12/08/2022 11:36 AM] glasgowm#9381
+Also are the 'Codes' for the types given correct?
+
+Byte, Short, Int, and Long are all (Code 106.x) which should correspond to the Global type unless I'm missing something?
+
+
+[12/08/2022 11:38 AM] morphic#4133
+I generated this pdf from this branch https://github.com/ScorexFoundation/sigmastate-interpreter/pull/643
+However, note, that most of the tables in the spec are not written manually, they are generated by generators.
+The PR decayed over time and needs to be merged.
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/pull/643
+ErgoTree specification by aslesarenko · Pull Request #643 · ScorexF...
+This PR can be merged after #699. Once #699 is merged, the base branch should be changed to develop.
+https://images-ext-2.discordapp.net/external/26ts1u9FJBzk5N6vVUnOIh-wcRhATutpwCmptBlOSFs/https/opengraph.githubassets.com/fd4e714d1f849d476f34da343129bbcd7dc118d6d112da1c8735a723e01b1318/ScorexFoundation/sigmastate-interpreter/pull/643
+
+
+[12/08/2022 11:39 AM] glasgowm#9381
+ah, ty
+
+
+[12/08/2022 11:41 AM] morphic#4133
+Thanks for reminding, the PR was waiting for 5.0 release, which means it is time to refresh it.
+
+
+[12/08/2022 4:30 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/42b2191f34ba...ca2da05a04b3
+[ergodocs:main] 5 new commits
+[`a90e610`](https://github.com/ergoplatform/ergodocs/commit/a90e6101ade42fce468369fb606c445ddcf1a38f) bulk of ergotree latex moved over and formatted - glasgowm148
+[`cda9c99`](https://github.com/ergoplatform/ergodocs/commit/cda9c99b875b4f5190c1b54d44380268ff483009) All but types and functions from ergotree - glasgowm148
+[`0d58978`](https://github.com/ergoplatform/ergodocs/commit/0d58978c42bacc22c337922d01d3313877de6e46) ErgoTree types - glasgowm148
+[`0de50d6`](https://github.com/ergoplatform/ergodocs/commit/0de50d69a6ef86b18ca7a4e93d05e58eda97dc22) tidying evaluation, serialization, typing - glasgowm148
+[`ca2da05`](https://github.com/ergoplatform/ergodocs/commit/ca2da05a04b320d66fd30ce84eabc1e6e1c211fb) functions - glasgowm148
+
+
+[12/08/2022 4:31 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/ca2da05a04b320d66fd30ce84eabc1e6e1c211fb
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/08/2022 4:39 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/5689d9c9cf0265d92c5694d19aa8a23535d06657
+[ergodocs:main] 1 new commit
+[`5689d9c`](https://github.com/ergoplatform/ergodocs/commit/5689d9c9cf0265d92c5694d19aa8a23535d06657) removing mdx_math to fix remote build issue - glasgowm148
+
+
+[12/08/2022 4:40 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/5689d9c9cf0265d92c5694d19aa8a23535d06657
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/09/2022 2:12 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/5689d9c9cf02...6f2ccd8b8da0
+[ergodocs:main] 7 new commits
+[`747a7df`](https://github.com/ergoplatform/ergodocs/commit/747a7dff5ef77c9054f1904a32c5b6a52f7b0686) switching nav and tidying ergotree - glasgowm148
+[`8f6cd5e`](https://github.com/ergoplatform/ergodocs/commit/8f6cd5e4c442d51c9ba8a784e1535d580a5edebf) grammarly fixes - glasgowm148
+[`a4ea719`](https://github.com/ergoplatform/ergodocs/commit/a4ea7199c2f1a25696f356c38033ad944ec0b778) MultiSig and P2P - glasgowm148
+[`29f4f56`](https://github.com/ergoplatform/ergodocs/commit/29f4f56d79c8c49d6672e53f639a74fa81916a0d) fixing broken links - glasgowm148
+[`bd1289d`](https://github.com/ergoplatform/ergodocs/commit/bd1289dd72b1a139f471ec6094b1d695c4241446) scala lang spec update and various tidies - glasgowm148
+
+
+[12/09/2022 2:13 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/6f2ccd8b8da05eb99d05fa1d25b7e34766fd8b85
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/09/2022 4:07 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/23#issuecomment-1344486844
+[ergoplatform/ergodocs] New comment on pull request #23: Change ErgoWatch api docs url
+Sorry missed this - changed on main.
+
+
+[12/09/2022 4:07 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/23
+[ergoplatform/ergodocs] Pull request closed: #23 Change ErgoWatch api docs url
+
+
+[12/14/2022 12:42 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/6f2ccd8b8da0...4775ce732850
+[ergodocs:main] 5 new commits
+[`86f30e1`](https://github.com/ergoplatform/ergodocs/commit/86f30e102de11de650e2e76ab49d80d07c31f904) oracles and grammar fixes - glasgowm148
+[`39f8871`](https://github.com/ergoplatform/ergodocs/commit/39f887114dfa6af478eb2230989c8223bc844c5d) crowdfunding and oracles - glasgowm148
+[`043b08d`](https://github.com/ergoplatform/ergodocs/commit/043b08d6dcb45b1bf67e4f88cb7c4647c666324b) fpgas - glasgowm148
+[`9d7e108`](https://github.com/ergoplatform/ergodocs/commit/9d7e108b3170118c2384ab2584530f269c9d7d6a) rent - glasgowm148
+[`4775ce7`](https://github.com/ergoplatform/ergodocs/commit/4775ce732850694297b521575ba1aaac3970c816) storage rent tidy - glasgowm148
+
+
+[12/14/2022 12:42 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/4775ce732850694297b521575ba1aaac3970c816
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/14/2022 12:42 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3694891143/jobs/6256618042
+[ergodocs] None on main
+
+
+[12/16/2022 5:53 PM] GitHub#0000
+
+
+{Embed}
+cafebedouin
+https://github.com/ergoplatform/ergodocs/pull/25
+[ergoplatform/ergodocs] Pull request opened: #25 Update transactions\.md
+Removing Yoroi.
+
+
+[12/18/2022 5:21 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/4775ce732850...a283505f4198
+[ergodocs:main] 4 new commits
+[`29d0c1a`](https://github.com/ergoplatform/ergodocs/commit/29d0c1afed38b494cdbbba24e01721ce55b7d1db) updating mining section - glasgowm148
+[`c6a8ff5`](https://github.com/ergoplatform/ergodocs/commit/c6a8ff56db6a17b956b28da35b8718f49febaf21) algo page and some broken urls - glasgowm148
+[`3c1a303`](https://github.com/ergoplatform/ergodocs/commit/3c1a3038d42b4284c113291806433ecd2664a1a6) moving contribute to main-nav - glasgowm148
+[`a283505`](https://github.com/ergoplatform/ergodocs/commit/a283505f41989fa0f6078b1571b47e953e697cdf) contribute page jitc and rosen - glasgowm148
+
+
+[12/18/2022 5:22 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3725846065/jobs/6318905946
+[ergodocs] None on main
+
+
+[12/18/2022 5:22 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/a283505f41989fa0f6078b1571b47e953e697cdf
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/18/2022 5:35 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/564a796eb8624d803308853ffb786ca8744ba9df
+[ergodocs:main] 1 new commit
+[`564a796`](https://github.com/ergoplatform/ergodocs/commit/564a796eb8624d803308853ffb786ca8744ba9df) fixing gitignore - glasgowm148
+
+
+[12/18/2022 5:35 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3725892160/jobs/6318976464
+[ergodocs] None on main
+
+
+[12/18/2022 5:35 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/564a796eb8624d803308853ffb786ca8744ba9df
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/20/2022 5:29 PM] glasgowm#9381
+nice layout to steal some tips from
+
+https://docs.near.org/
+
+{Embed}
+https://docs.near.org/
+Welcome to NEAR | NEAR Documentation
+Welcome! This is the starting point for all the documentation in NEAR.
+
+{Reactions}
+👍 
+
+[12/22/2022 2:38 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/564a796eb862...0c3246edcf50
+[ergodocs:main] 4 new commits
+[`4b15918`](https://github.com/ergoplatform/ergodocs/commit/4b15918de616971555e3f5bffe46fe58fd7d1f5a) fleet docs - glasgowm148
+[`315a230`](https://github.com/ergoplatform/ergodocs/commit/315a230db669ba5431af393f23e6db08b04b6728) Adding sigma finance - glasgowm148
+[`1911980`](https://github.com/ergoplatform/ergodocs/commit/19119808be06457c24294e89a2b67136cec185ee) oracle pools bootstrap and stealth addr clarifi... - glasgowm148
+[`0c3246e`](https://github.com/ergoplatform/ergodocs/commit/0c3246edcf50dbd25b925b0c518cf0da99b35fff) reorganising ecosystem section - glasgowm148
+
+
+[12/22/2022 2:39 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3758678926/jobs/6387304592
+[ergodocs] deploy success on main
+
+
+[12/22/2022 2:39 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/0c3246edcf50dbd25b925b0c518cf0da99b35fff
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/22/2022 3:40 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/0c3246edcf50...4994cc8b325a
+[ergodocs:main] 2 new commits
+[`efef3f2`](https://github.com/ergoplatform/ergodocs/commit/efef3f23cada3541cd5414202a36c1a056d6c7b8) privacy ecosystem section - glasgowm148
+[`4994cc8`](https://github.com/ergoplatform/ergodocs/commit/4994cc8b325afe407e907e0d234fb88d99368248) docker update - glasgowm148
+
+
+[12/22/2022 3:41 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3759127431/jobs/6388301761
+[ergodocs] deploy success on main
+
+
+[12/22/2022 3:41 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/4994cc8b325afe407e907e0d234fb88d99368248
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/23/2022 5:43 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/72e16b388260390d46b505f2597b7519a0788e78
+[ergodocs:main] 1 new commit
+[`72e16b3`](https://github.com/ergoplatform/ergodocs/commit/72e16b388260390d46b505f2597b7519a0788e78) updates to solo mining seciton - glasgowm148
+
+
+[12/23/2022 5:43 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/72e16b388260390d46b505f2597b7519a0788e78
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/23/2022 5:43 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3767338975/jobs/6404769902
+[ergodocs] deploy success on main
+
+
+[12/24/2022 4:01 AM] GitHub#0000
+
+
+{Embed}
+cafebedouin
+https://github.com/ergoplatform/ergodocs/pull/26
+[ergoplatform/ergodocs] Pull request opened: #26 Added dApps to Sigmaverse, Introductory, and "on Android or iOS\."
+A few minor edits.
+
+
+[12/26/2022 1:10 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/26#issuecomment-1365156903
+[ergoplatform/ergodocs] New comment on pull request #26: Added dApps to Sigmaverse, Introductory, and "on Android or iOS\."
+Thanks!
+
+
+[12/26/2022 1:10 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/26
+[ergoplatform/ergodocs] Pull request closed: #26 Added dApps to Sigmaverse, Introductory, and "on Android or iOS\."
+
+
+[12/26/2022 1:10 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/72e16b388260...38a6411f0c12
+[ergodocs:main] 2 new commits
+[`44cf0eb`](https://github.com/ergoplatform/ergodocs/commit/44cf0eb6d5f4928e663d767e53377a757cdb2ce5) Added dApps to Sigmaverse, Introductory, and "o... - cafebedouin
+[`38a6411`](https://github.com/ergoplatform/ergodocs/commit/38a6411f0c12acbd982bb435828630b199e1920a) Merge pull request #26 from cafebedouin/main - glasgowm148
+
+
+[12/26/2022 1:11 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/25
+[ergoplatform/ergodocs] Pull request closed: #25 Update transactions\.md
+
+
+[12/26/2022 1:11 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/38a6411f0c12...f21838b4bc53
+[ergodocs:main] 2 new commits
+[`6867e65`](https://github.com/ergoplatform/ergodocs/commit/6867e65121359fb87ff1b077bbccb638692bfd32) Update transactions.md - cafebedouin
+[`f21838b`](https://github.com/ergoplatform/ergodocs/commit/f21838b4bc5345a61dcb3bf9b0a2574b7e19179c) Merge pull request #25 from cafebedouin/patch-2 - glasgowm148
+
+
+[12/26/2022 1:11 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3781457637/jobs/6428357523
+[ergodocs] deploy success on main
+
+
+[12/26/2022 1:11 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/38a6411f0c12acbd982bb435828630b199e1920a
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/26/2022 1:11 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3781458845/jobs/6428359753
+[ergodocs] deploy success on main
+
+
+[12/26/2022 1:11 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/f21838b4bc5345a61dcb3bf9b0a2574b7e19179c
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/27/2022 11:07 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/f21838b4bc53...d0a5c62489f5
+[ergodocs:main] 4 new commits
+[`cfc198c`](https://github.com/ergoplatform/ergodocs/commit/cfc198cecaa2b42fc06fe90a5cf1b501d295b32b) nipopows - glasgowm148
+[`cea3278`](https://github.com/ergoplatform/ergodocs/commit/cea327893630d0c5519ccce36f08460632d18fd6) Merge branch 'main' of https://github.com/ergop... - glasgowm148
+[`e333cfe`](https://github.com/ergoplatform/ergodocs/commit/e333cfe845f60dcb0e5e3c30b3b02c5a2bc0336f) tidying nipopows - glasgowm148
+[`d0a5c62`](https://github.com/ergoplatform/ergodocs/commit/d0a5c62489f54f1b2497701881d11e7392723452) disable instant loading to fix latex - glasgowm148
+
+
+[12/27/2022 11:08 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3790455406/jobs/6445093809
+[ergodocs] deploy success on main
+
+
+[12/27/2022 11:08 PM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/d0a5c62489f54f1b2497701881d11e7392723452
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/28/2022 12:50 AM] GitHub#0000
+
+
+{Embed}
+rustinmyeye
+https://github.com/ergoplatform/ergodocs/pull/27
+[ergoplatform/ergodocs] Pull request opened: #27 Create Android\.md
+A quick guide to setting up the ergo node on an android device.
+
+
+[12/28/2022 10:40 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/27#issuecomment-1366553042
+[ergoplatform/ergodocs] New comment on pull request #27: Create Android\.md and ErgoMixer\-Android\.md
+Thanks for the contributions! Will add it to mkdocs.yml so it appears on the nav too.
+
+
+[12/28/2022 10:40 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/27
+[ergoplatform/ergodocs] Pull request closed: #27 Create Android\.md and ErgoMixer\-Android\.md
+
+
+[12/28/2022 10:40 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/d0a5c62489f5...3a8fc442c404
+[ergodocs:main] 11 new commits
+[`e939f08`](https://github.com/ergoplatform/ergodocs/commit/e939f08b4f40c8d66e35b1375db00d40cf364703) Create Android.md - rustinmyeye
+[`fa9f5ce`](https://github.com/ergoplatform/ergodocs/commit/fa9f5ce5ede2fdd5969ea14c01a68ee74356ab4e) Create ErgoMixer on Android.md - rustinmyeye
+[`9100005`](https://github.com/ergoplatform/ergodocs/commit/9100005bbd0439652722e71f32a9f9fbdfd1dd85) Update Android.md - rustinmyeye
+[`f0cc641`](https://github.com/ergoplatform/ergodocs/commit/f0cc64169ccc80332d0e97f48d9a692e8ffd638d) Rename ErgoMixer on Android.md to ErgoMixer-And... - rustinmyeye
+[`0e81823`](https://github.com/ergoplatform/ergodocs/commit/0e81823438ba17c62a9d73a0a8f4b68a0d19f32b) Update ErgoMixer-Android.md - rustinmyeye
+
+
+[12/28/2022 10:41 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/3a8fc442c4045a350f5e9f01e31cac38f703a3fa
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/28/2022 10:41 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3793419934/jobs/6450510175
+[ergodocs] deploy success on main
+
+
+[12/28/2022 11:17 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/3a8fc442c404...5cddbacefc31
+[ergodocs:main] 3 new commits
+[`542e2c7`](https://github.com/ergoplatform/ergodocs/commit/542e2c7147fe297a00cf6723c7b1e04a28dbf17c) adding android guides - glasgowm148
+[`5fae199`](https://github.com/ergoplatform/ergodocs/commit/5fae1999830687e930d70a9029ddf23703e21822) pip freeze - glasgowm148
+[`5cddbac`](https://github.com/ergoplatform/ergodocs/commit/5cddbacefc31c1606f52465f710b2e9952d7c360) fixing broken links - glasgowm148
+
+
+[12/28/2022 11:18 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/5cddbacefc31c1606f52465f710b2e9952d7c360
+[ergodocs] GitHub Actions checks success on main
+
+
+[12/28/2022 11:18 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/3793609674/jobs/6450884466
+[ergodocs] deploy success on main
+
+
+[12/28/2022 6:15 PM] GitHub#0000
+
+
+{Embed}
+rustinmyeye
+https://github.com/ergoplatform/ergodocs/pull/28
+[ergoplatform/ergodocs] Pull request opened: #28 Update node\-android\.md
+small typo fix...
+
+
+[01/02/2023 5:06 PM] GitHub#0000
+
+
+{Embed}
+NoahErgo
+https://github.com/ergoplatform/ergodocs/issues/29
+[ergoplatform/ergodocs] Issue opened: #29 Adding Ergo Puppet
+https://github.com/dav009/ergo-puppet
+
+Found this, not sure where it should fit into the docs
+
+
+[01/04/2023 9:05 PM] GitHub#0000
+
+
+{Embed}
+rustinmyeye
+https://github.com/ergoplatform/ergodocs/pull/30
+[ergoplatform/ergodocs] Pull request opened: #30 Update node config file
+I think it should say mining = true if the node is to be used for solo mining.
+
+
+[01/04/2023 9:06 PM] GitHub#0000
+
+
+{Embed}
+rustinmyeye
+https://github.com/ergoplatform/ergodocs/pull/30#issuecomment-1371418664
+[ergoplatform/ergodocs] New comment on pull request #30: Update node config file
+Not sure why it's saying that I've changed line 39... I didn't. I'm on my phone hopefully didn't mess this up haha
+
+
+[01/05/2023 3:56 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/5cddbacefc31...40e52a1a3d58
+[ergodocs:main] 2 new commits
+[`022a6b9`](https://github.com/ergoplatform/ergodocs/commit/022a6b959d2654e7d4d39681b8bfded915861244) Update node-android.md - rustinmyeye
+[`40e52a1`](https://github.com/ergoplatform/ergodocs/commit/40e52a1a3d58608bee75ecfb39efdbe93b6e9662) Merge pull request #28 from rustinmyeye/main - glasgowm148
+
+
+[01/05/2023 3:56 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/40e52a1a3d58...ecb510f3d55a
+[ergodocs:main] 2 new commits
+[`4d405bf`](https://github.com/ergoplatform/ergodocs/commit/4d405bfe989ba884133acc6bca2d320c45bf9bd6) Update node config file  - rustinmyeye
+[`ecb510f`](https://github.com/ergoplatform/ergodocs/commit/ecb510f3d55a3488c573d6c066218c7ee6a07e52) Merge pull request #30 from rustinmyeye/patch-2 - glasgowm148
+
+
+[01/13/2023 10:49 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/fb06a2dfd700dd73fdd57fdd0e8f41b0c2e603e5
+[ergodocs:main] 1 new commit
+[`fb06a2d`](https://github.com/ergoplatform/ergodocs/commit/fb06a2dfd700dd73fdd57fdd0e8f41b0c2e603e5) ef amends - glasgowm148
+
+
+[01/13/2023 6:03 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/fb06a2dfd700...6a5be8007cea
+[ergodocs:main] 2 new commits
+[`2e9a0c5`](https://github.com/ergoplatform/ergodocs/commit/2e9a0c532036caa8a3be6a41b4799767ac1dceae) solo mining section - glasgowm148
+[`6a5be80`](https://github.com/ergoplatform/ergodocs/commit/6a5be8007cea1b8074a602747b45c1fed78bdf0f) swagger url - glasgowm148
+
+
+[01/17/2023 2:51 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/2bd705401e679a281b205ebf34ddfe8e4eff33df
+[ergodocs:main] 1 new commit
+[`2bd7054`](https://github.com/ergoplatform/ergodocs/commit/2bd705401e679a281b205ebf34ddfe8e4eff33df) removing notes from transparency report - glasgowm148
+
+
+[01/19/2023 4:50 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/2bd705401e67...f33b74ca3703
+[ergodocs:main] 3 new commits
+[`f20fbaf`](https://github.com/ergoplatform/ergodocs/commit/f20fbaf42f679535c3ecbd98eda5f7b0978ed86f) modes of operation - glasgowm148
+[`c9ab0b6`](https://github.com/ergoplatform/ergodocs/commit/c9ab0b6d0711ba49697adcec3247388c4f464794) updating various bits around lib nipopow etc - glasgowm148
+[`f33b74c`](https://github.com/ergoplatform/ergodocs/commit/f33b74ca370338f7e51d290e3408e5007395b375) sigmafi and stealth addresses - glasgowm148
+
+
+[01/21/2023 12:27 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/f33b74ca3703...ac57de15c59b
+[ergodocs:main] 2 new commits
+[`5ca738e`](https://github.com/ergoplatform/ergodocs/commit/5ca738e84b7aabd135d6ac64c4966d2e4b05059b) scala info to faq - glasgowm148
+[`ac57de1`](https://github.com/ergoplatform/ergodocs/commit/ac57de15c59bc1484c824737b7ffb6e6e43f8706) updating standards - glasgowm148
+
+
+[01/21/2023 12:29 PM] glasgowm#9381
+Migrated the standards we had from the grow-ergo repo and fleshed them out a bit.
+
+https://docs.ergoplatform.com/contribute/standards/
+
+
+[01/31/2023 9:22 AM] GitHub#0000
+
+
+{Embed}
+omahs
+https://github.com/omahs/ergodocs
+[ergoplatform/ergodocs] Fork created: omahs/ergodocs
+
+
+[01/31/2023 9:31 AM] GitHub#0000
+
+
+{Embed}
+omahs
+https://github.com/ergoplatform/ergodocs/pull/31
+[ergoplatform/ergodocs] Pull request opened: #31 Fix: typos
+Fix: typos
+
+
+[02/01/2023 9:08 PM] GitHub#0000
+
+
+{Embed}
+satsen
+https://github.com/ergoplatform/ergodocs/issues/32
+[ergoplatform/ergodocs] Issue opened: #32 Incorrect links
+The page at https://docs.ergoplatform.com/node/install/, which is linked to from the main ergoplatform/ergo repository's README has two links that are broken:
+
+- wallets
+- Satergo
+
+
+[02/07/2023 7:19 PM] GitHub#0000
+
+
+{Embed}
+dzyphr
+https://github.com/dzyphr/ergodocs
+[ergoplatform/ergodocs] Fork created: dzyphr/ergodocs
+
+
+[02/07/2023 7:23 PM] GitHub#0000
+
+
+{Embed}
+dzyphr
+https://github.com/ergoplatform/ergodocs/pull/33
+[ergoplatform/ergodocs] Pull request opened: #33 Update solo\-faq\.md
+Removed note claiming that test-net block rewards require 72 confirmations. Takes 720 confirmations.
+
+
+[02/07/2023 7:25 PM] GitHub#0000
+
+
+{Embed}
+dzyphr
+https://github.com/ergoplatform/ergodocs/issues/34
+[ergoplatform/ergodocs] Issue opened: #34 Outdated info about testnet block confirmations
+https://docs.ergoplatform.com/mining/setup/solo-faq/#why-are-mining-rewards-going-to-some-strange-address
+This page has outdated info about testnet block confirmations I made the edit here:
+
+https://github.com/ergoplatform/ergodocs/pull/33
+
+
+[02/08/2023 5:19 PM] GitHub#0000
+
+
+{Embed}
+NoahErgo
+https://github.com/ergoplatform/ergodocs/pull/35
+[ergoplatform/ergodocs] Pull request opened: #35 Added PR parts 2 and 3
+
+
+[02/11/2023 10:37 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/35
+[ergoplatform/ergodocs] Pull request closed: #35 Added UTXO Set Snapshots PR parts 2 and 3
+
+
+[02/11/2023 10:37 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/ac57de15c59b...bbb80594d329
+[ergodocs:main] 2 new commits
+[`967e117`](https://github.com/ergoplatform/ergodocs/commit/967e117931acb8e6339e28e1ce85a5486bc20e4a) Added PR parts 2 and 3 - NoahErgo
+[`bbb8059`](https://github.com/ergoplatform/ergodocs/commit/bbb80594d3295a476b135d3dc0b67837e226cd04) Merge pull request #35 from NoahErgo/patch-1 - glasgowm148
+
+
+[02/11/2023 10:37 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/33
+[ergoplatform/ergodocs] Pull request closed: #33 Update solo\-faq\.md
+
+
+[02/11/2023 10:37 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/bbb80594d329...61b366f30e5b
+[ergodocs:main] 2 new commits
+[`1c31f31`](https://github.com/ergoplatform/ergodocs/commit/1c31f31cf95282e8b345ae9cc3afbffe852633bf) Update solo-faq.md - dzyphr
+[`61b366f`](https://github.com/ergoplatform/ergodocs/commit/61b366f30e5baa338816351c32e4564f420e9695) Merge pull request #33 from dzyphr/patch-1 - glasgowm148
+
+
+[02/11/2023 10:38 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/61b366f30e5b...029dee59d25f
+[ergodocs:main] 6 new commits
+[`88fe1eb`](https://github.com/ergoplatform/ergodocs/commit/88fe1eb55a5ab9e557afc180357ecc845015d8c5) Fix: typo - omahs
+[`bb44475`](https://github.com/ergoplatform/ergodocs/commit/bb444759dac4eee8f7be2c29a2aa921983024c63) Fix: typo - omahs
+[`bbc08b6`](https://github.com/ergoplatform/ergodocs/commit/bbc08b63d0b512b8974ac20c6436412ec3771905) Fix: typo - omahs
+[`040032d`](https://github.com/ergoplatform/ergodocs/commit/040032da1a5397d870fa390ca17d2f320460291d) Fix: typo - omahs
+[`ad173bc`](https://github.com/ergoplatform/ergodocs/commit/ad173bca82285ddbb67cbb0b74bf3bc07bfe810b) Fix: typos - omahs
+
+
+[02/11/2023 10:38 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/31
+[ergoplatform/ergodocs] Pull request closed: #31 Fix: typos
+
+
+[02/16/2023 11:45 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/029dee59d25f...5a8f04d3c42b
+[ergodocs:main] 5 new commits
+[`cb1e084`](https://github.com/ergoplatform/ergodocs/commit/cb1e084bd4790edf7f1752f4f77bb9ebd6086307) updates to ecosystem pages and reorganising menu - glasgowm148
+[`ab9d208`](https://github.com/ergoplatform/ergodocs/commit/ab9d208b5196a8b8dbc521bca5e3094f48110696) updating ecosystem projects - glasgowm148
+[`e365e9e`](https://github.com/ergoplatform/ergodocs/commit/e365e9e1ceeac0259bf95c2ce37a76a4e1e3d4f5) Merge branch 'main' of https://github.com/ergop... - glasgowm148
+[`bf28f0a`](https://github.com/ergoplatform/ergodocs/commit/bf28f0ae95cee57677205f5add6d7f72474d71f7) swamp - glasgowm148
+[`5a8f04d`](https://github.com/ergoplatform/ergodocs/commit/5a8f04d3c42b5aeaac060d4aa0d970d8ca8e4153) ERGOHACKVI - glasgowm148
+
+
+[02/17/2023 12:32 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/48afee6da6f0412df5b757fd1e0dfd588b638ab9
+[ergodocs:main] 1 new commit
+[`48afee6`](https://github.com/ergoplatform/ergodocs/commit/48afee6da6f0412df5b757fd1e0dfd588b638ab9) broken urls - glasgowm148
+
+
+[02/17/2023 12:43 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/4612d37a8595fc05dc8f18787bd3f40d90405b5a
+[ergodocs:main] 1 new commit
+[`4612d37`](https://github.com/ergoplatform/ergodocs/commit/4612d37a8595fc05dc8f18787bd3f40d90405b5a) analytics & more broken URLs - glasgowm148
+
+
+[02/22/2023 12:34 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/issues/34
+[ergoplatform/ergodocs] Issue closed: #34 Outdated info about testnet block confirmations
+
+
+[02/22/2023 12:36 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/2e01133a2391c1969ad8d898656c0f010f8c828e
+[ergodocs:main] 1 new commit
+[`2e01133`](https://github.com/ergoplatform/ergodocs/commit/2e01133a2391c1969ad8d898656c0f010f8c828e) broken urls fix - glasgowm148
+
+
+[02/22/2023 12:36 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/issues/32
+[ergoplatform/ergodocs] Issue closed: #32 Incorrect links
+
+
+[02/22/2023 12:36 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/actions/runs/4238183251/jobs/7364972988
+[ergodocs] deploy success on main
+
+
+[02/22/2023 12:36 AM] GitHub#0000
+
+
+{Embed}
+https://github.com/ergoplatform/ergodocs/commit/2e01133a2391c1969ad8d898656c0f010f8c828e
+[ergodocs] GitHub Actions checks success on main
+
+
+[02/22/2023 2:57 AM] GitHub#0000
+
+
+{Embed}
+TanBeige
+https://github.com/TanBeige/ergodocs
+[ergoplatform/ergodocs] Fork created: TanBeige/ergodocs
+
+
+[02/22/2023 3:16 AM] GitHub#0000
+
+
+{Embed}
+TanBeige
+https://github.com/ergoplatform/ergodocs/pull/36
+[ergoplatform/ergodocs] Pull request opened: #36 Add SkyHarbor API Docs
+
+
+[02/22/2023 9:22 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/2e01133a2391...da042e922d17
+[ergodocs:main] 2 new commits
+[`ae6d941`](https://github.com/ergoplatform/ergodocs/commit/ae6d94139fc9478a35366899d345883c83d286ab) Add SkyHarbor API Docs - TanBeige
+[`da042e9`](https://github.com/ergoplatform/ergodocs/commit/da042e922d17f5461770b267dead4084454fcc70) Merge pull request #36 from TanBeige/patch-1 - glasgowm148
+
+
+[02/22/2023 9:22 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/36
+[ergoplatform/ergodocs] Pull request closed: #36 Add SkyHarbor API Docs
+
+
+[02/24/2023 5:37 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/da042e922d17...1205da458c7e
+[ergodocs:main] 5 new commits
+[`b777461`](https://github.com/ergoplatform/ergodocs/commit/b7774610826fa00e021806affe80d0a7fcf66d4d) adding tutorials section, tidy sitewide - glasgowm148
+[`bb5e265`](https://github.com/ergoplatform/ergodocs/commit/bb5e265670dc0a15538c06032e7afa15839eaa6b) scaling updates and ergohack projects - glasgowm148
+[`3ac0929`](https://github.com/ergoplatform/ergodocs/commit/3ac0929ac116a10694965fd9cfc56825234b52b8) scaling - glasgowm148
+[`34669d1`](https://github.com/ergoplatform/ergodocs/commit/34669d16436c9a4fe10e8660e0ee2d19c24b5947) fixing basic tut - glasgowm148
+[`1205da4`](https://github.com/ergoplatform/ergodocs/commit/1205da458c7eb7238887ebe18bc3b171750412d3) tidy - glasgowm148
+
+
+[02/27/2023 3:28 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/1205da458c7e...bcaeb4557e30
+[ergodocs:main] 4 new commits
+[`d3bedb5`](https://github.com/ergoplatform/ergodocs/commit/d3bedb5170bf13f046aedcf22b8006825a4a0e3d) adding pdfs - glasgowm148
+[`d0139fd`](https://github.com/ergoplatform/ergodocs/commit/d0139fdeacc2a1c74467e14a94f0689fbdc782d9) tidying p2p, tutorials - glasgowm148
+[`8efaf00`](https://github.com/ergoplatform/ergodocs/commit/8efaf0043cdf35d00e35d5474e444b8f68109425) scaling - glasgowm148
+[`bcaeb45`](https://github.com/ergoplatform/ergodocs/commit/bcaeb4557e30fdcea03ddec12ff9acfce59ccadb) mining scala files - glasgowm148
+
+
+[02/28/2023 7:32 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/89d93eadb434...71a2605ce6e7
+[ergodocs:main] 6 new commits
+[`05f9c37`](https://github.com/ergoplatform/ergodocs/commit/05f9c37758d3f75e1c18566dcde66fc61f2c335d) broken urls - glasgowm148
+[`5d8df40`](https://github.com/ergoplatform/ergodocs/commit/5d8df40b0717ed20095f052f49b819c8591688b5) more broken urls - glasgowm148
+[`3ea86ed`](https://github.com/ergoplatform/ergodocs/commit/3ea86ed03203ca7592c38d3b842b56ca4ae317b4) sitewide tidy and broken urls - glasgowm148
+[`0e55eed`](https://github.com/ergoplatform/ergodocs/commit/0e55eed87bcfa4920f55fc9723e969367f16276a) Merge branch 'main' of https://github.com/ergop... - glasgowm148
+[`5bbb7d3`](https://github.com/ergoplatform/ergodocs/commit/5bbb7d38786c98f1ec9ec9b61a69a08f85437fd9) broken urls - glasgowm148
+
+
+[03/01/2023 10:30 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/71a2605ce6e7...4fa5ba033b3d
+[ergodocs:main] 4 new commits
+[`fd00751`](https://github.com/ergoplatform/ergodocs/commit/fd0075135fb62e08c98685785517d56e1641efd3) grammar fixes - glasgowm148
+[`b42af6a`](https://github.com/ergoplatform/ergodocs/commit/b42af6ae39a6b5a0ff25e3c3c8400779fb8a91f2) Howey and some tidies - glasgowm148
+[`2e8179a`](https://github.com/ergoplatform/ergodocs/commit/2e8179a631e1a37f7b2dbb2ed6d08b1345ce3d78) tidying - glasgowm148
+[`4fa5ba0`](https://github.com/ergoplatform/ergodocs/commit/4fa5ba033b3deb9d7d3e0939c4efae46e381fc75) adding tuts - glasgowm148
+
+
+[03/01/2023 1:03 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/4fa5ba033b3d...714e550df7a9
+[ergodocs:main] 4 new commits
+[`740bea0`](https://github.com/ergoplatform/ergodocs/commit/740bea03c35c1b6899955c74aeb53d0e062c2695) adding stuff - glasgowm148
+[`efd5a47`](https://github.com/ergoplatform/ergodocs/commit/efd5a470c9a9d6c4b47eb870c503607ea5450323) update to community standards and adding ergoha... - glasgowm148
+[`fff46a6`](https://github.com/ergoplatform/ergodocs/commit/fff46a67879f029ea12a7ff87e84e7a583b0a64b) privacy guide and some missing ergohack projects - glasgowm148
+[`714e550`](https://github.com/ergoplatform/ergodocs/commit/714e550df7a9b0f817660dc0602691335a7b54aa) small fixes - glasgowm148
+
+
+[03/01/2023 7:11 PM] GitHub#0000
+
+
+{Embed}
+satsen
+https://github.com/satsen/ergodocs
+[ergoplatform/ergodocs] Fork created: satsen/ergodocs
+
+
+[03/01/2023 7:13 PM] GitHub#0000
+
+
+{Embed}
+satsen
+https://github.com/ergoplatform/ergodocs/pull/41
+[ergoplatform/ergodocs] Pull request opened: #41 One correction and some improvements
+
+
+[03/01/2023 7:14 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/41
+[ergoplatform/ergodocs] Pull request closed: #41 One correction and some improvements
+
+
+[03/01/2023 7:14 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/714e550df7a9...f63b74fa9738
+[ergodocs:main] 4 new commits
+[`79cfad0`](https://github.com/ergoplatform/ergodocs/commit/79cfad029e6b4b3e73e3956abb56f291c7a1b477) Added missing ID field of Modifier (Record) & s... - satsen
+[`7a003f8`](https://github.com/ergoplatform/ergodocs/commit/7a003f8c439551bd2ea3840b13b79e1b05ffb849) Added links to Ergonnection - satsen
+[`381fe9e`](https://github.com/ergoplatform/ergodocs/commit/381fe9eeec935f3aef4579244a7883af553384b9) Removed very old link that is irrelevant by now - satsen
+[`f63b74f`](https://github.com/ergoplatform/ergodocs/commit/f63b74fa9738da1fac9f406e294bc5119a575e03) Merge pull request #41 from satsen/main - glasgowm148
+
+
+[03/01/2023 7:15 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/issues/29#issuecomment-1450718585
+[ergoplatform/ergodocs] New comment on issue #29: Adding Ergo Puppet
+Thanks! Added to https://docs.ergoplatform.com/dev/scs/puppet/
+
+
+[03/01/2023 7:15 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/issues/29
+[ergoplatform/ergodocs] Issue closed: #29 Adding Ergo Puppet
+
+
+[03/01/2023 7:22 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/d60cbe6971f550f9cb2fcd493faf38b383ec4ccf
+[ergodocs:main] 1 new commit
+[`d60cbe6`](https://github.com/ergoplatform/ergodocs/commit/d60cbe6971f550f9cb2fcd493faf38b383ec4ccf) some fixes and text added to tx chains section - glasgowm148
+
+
+[03/02/2023 10:50 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/8c9a1ec4193af17db5404cec2f1b4f90ec6b2c0d
+[ergodocs:main] 1 new commit
+[`8c9a1ec`](https://github.com/ergoplatform/ergodocs/commit/8c9a1ec4193af17db5404cec2f1b4f90ec6b2c0d) splitting ergoscript section and readding solo faq - glasgowm148
+
+
+[03/02/2023 5:17 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/8c9a1ec4193a...e1e4f907384a
+[ergodocs:main] 2 new commits
+[`daf68d7`](https://github.com/ergoplatform/ergodocs/commit/daf68d7c42712fe69bd6cf9a01c3c8d8ca5f0910) why ergo, p2p and faqs - glasgowm148
+[`e1e4f90`](https://github.com/ergoplatform/ergodocs/commit/e1e4f907384aafd29c52eb0d6124433a497034c8) why ergo and some missing ecosystem projects - glasgowm148
+
+
+[03/06/2023 1:47 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/5d9f37209fdb332f4f9602dfadba07be8cbd9e75
+[ergodocs:main] 1 new commit
+[`5d9f372`](https://github.com/ergoplatform/ergodocs/commit/5d9f37209fdb332f4f9602dfadba07be8cbd9e75) adding mod/validate + peer management from yellowp - glasgowm148
+
+
+[03/07/2023 11:21 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/034fee6875461d17599aaedc72f50e2146edfe35
+[ergodocs:main] 1 new commit
+[`034fee6`](https://github.com/ergoplatform/ergodocs/commit/034fee6875461d17599aaedc72f50e2146edfe35) robots.txt and misc fixes - glasgowm148
+
+
+[03/09/2023 2:20 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/41e31723705b5d35cbc87ec908d12d4d443f2baf
+[ergodocs:main] 1 new commit
+[`41e3172`](https://github.com/ergoplatform/ergodocs/commit/41e31723705b5d35cbc87ec908d12d4d443f2baf) fixing up text (multi/eutxo) and fixing syntax h - glasgowm148
+
+
+[03/20/2023 1:45 AM] GitHub#0000
+
+
+{Embed}
+NetWalker108
+https://github.com/NetWalker108/ergodocs
+[ergoplatform/ergodocs] Fork created: NetWalker108/ergodocs
+
+
+[03/20/2023 1:46 AM] GitHub#0000
+
+
+{Embed}
+NetWalker108
+https://github.com/ergoplatform/ergodocs/pull/42
+[ergoplatform/ergodocs] Pull request opened: #42 Update royalties\.md
+Fix: Typos
+
+
+[03/20/2023 1:50 AM] GitHub#0000
+
+
+{Embed}
+NetWalker108
+https://github.com/ergoplatform/ergodocs/pull/43
+[ergoplatform/ergodocs] Pull request opened: #43 Update tokens\.md
+FIX: Typos
+
+
+[03/23/2023 11:10 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/41e31723705b...9d22e43d9375
+[ergodocs:main] 4 new commits
+[`e2a099a`](https://github.com/ergoplatform/ergodocs/commit/e2a099a6cb57ab2ef218ed72c4d6caaf7705c984) specifying code for missing blocks - glasgowm148
+[`9893cca`](https://github.com/ergoplatform/ergodocs/commit/9893cca8cef5d4215b8e01cd0e9645b20ea25a39) code comments - glasgowm148
+[`33bc8d7`](https://github.com/ergoplatform/ergodocs/commit/33bc8d73b2b131ee7c462796ee4b872c67ad1af2) fixing code block tags - glasgowm148
+[`9d22e43`](https://github.com/ergoplatform/ergodocs/commit/9d22e43d9375f54174269af71dc822c18c20f2cb) ergopos and palmyra - glasgowm148
+
+
+[03/23/2023 3:24 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/43
+[ergoplatform/ergodocs] Pull request closed: #43 Update tokens\.md
+
+
+[03/23/2023 3:24 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/9d22e43d9375...e0af51c5ce38
+[ergodocs:main] 2 new commits
+[`df5b13e`](https://github.com/ergoplatform/ergodocs/commit/df5b13e1f302675e7822a29d665c3f21b7d074c2) Update tokens.md - NetWalker108
+[`e0af51c`](https://github.com/ergoplatform/ergodocs/commit/e0af51c5ce38f4aa2874413fc3e77e7487840765) Merge pull request #43 from NetWalker108/patch-2 - glasgowm148
+
+
+[03/23/2023 3:25 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/pull/42
+[ergoplatform/ergodocs] Pull request closed: #42 Update royalties\.md
+
+
+[03/23/2023 3:25 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/e0af51c5ce38...285f73a796a3
+[ergodocs:main] 2 new commits
+[`e246e7f`](https://github.com/ergoplatform/ergodocs/commit/e246e7f34002f6836fb8c996cdbdf9592afa13d8) Update royalties.md - NetWalker108
+[`285f73a`](https://github.com/ergoplatform/ergodocs/commit/285f73a796a3a3eee2501568247005eeabec16db) Merge pull request #42 from NetWalker108/patch-1 - glasgowm148
+
+
+[03/30/2023 11:45 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/285f73a796a3...735cd38f772c
+[ergodocs:main] 3 new commits
+[`fa686e4`](https://github.com/ergoplatform/ergodocs/commit/fa686e43a89941e55a279da1c276fc5713941f8f) adding links to ergoscript tutorials - glasgowm148
+[`fbb7ab1`](https://github.com/ergoplatform/ergodocs/commit/fbb7ab19089550040471ac3a6b6407ce9c527357) quantum to faq - glasgowm148
+[`735cd38`](https://github.com/ergoplatform/ergodocs/commit/735cd38f772c9cf4ff8c3662dbde39d09b27e3af) nft - glasgowm148
+
+
+[04/12/2023 12:22 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/735cd38f772c...f003577f2d37
+[ergodocs:main] 3 new commits
+[`87e2179`](https://github.com/ergoplatform/ergodocs/commit/87e2179ef40ec314f8102157a7f572a815cb2eab) adding off-chain schnorr, tutorial fix, eco text - glasgowm148
+[`30b31f9`](https://github.com/ergoplatform/ergodocs/commit/30b31f90e5c4a2960bb0100362b88b76d7506b77) faq + bounties - glasgowm148
+[`f003577`](https://github.com/ergoplatform/ergodocs/commit/f003577f2d37b806de2d302dd602207e6c265c32) perpetual - glasgowm148
+
+
+[04/12/2023 2:13 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/e820b0fd65a663a009fa89550c807b406fc522de
+[ergodocs:main] 1 new commit
+[`e820b0f`](https://github.com/ergoplatform/ergodocs/commit/e820b0fd65a663a009fa89550c807b406fc522de) updating NFT section - glasgowm148
+
+
+[04/12/2023 3:35 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/d27c50b3a63dee7a7e1d5ca1f7a3cc1b580d1df2
+[ergodocs:main] 1 new commit
+[`d27c50b`](https://github.com/ergoplatform/ergodocs/commit/d27c50b3a63dee7a7e1d5ca1f7a3cc1b580d1df2) passthrough - glasgowm148
+
+
+[04/12/2023 3:46 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/fc0c4bfb3f7f3d7b984b3e4f72fffc5720846033
+[ergodocs:main] 1 new commit
+[`fc0c4bf`](https://github.com/ergoplatform/ergodocs/commit/fc0c4bfb3f7f3d7b984b3e4f72fffc5720846033) remove example until checked - glasgowm148
+
+
+[04/13/2023 10:12 AM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/d966cbf737712683033f08bedccc241e298e97f1
+[ergodocs:main] 1 new commit
+[`d966cbf`](https://github.com/ergoplatform/ergodocs/commit/d966cbf737712683033f08bedccc241e298e97f1) scala nft - glasgowm148
+
+
+[04/21/2023 12:48 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/compare/d966cbf73771...90d49e42a6e5
+[ergodocs:main] 3 new commits
+[`25845eb`](https://github.com/ergoplatform/ergodocs/commit/25845eba6c2cbd10141c75b3325bff4b13c7f3c9) miner faq - glasgowm148
+[`4787a22`](https://github.com/ergoplatform/ergodocs/commit/4787a2250ec1df15ade930d1a243b1a9db938f22) fixing broken urls - glasgowm148
+[`90d49e4`](https://github.com/ergoplatform/ergodocs/commit/90d49e42a6e5a8802b91260d28f0bed3086819e2) machina-finance - glasgowm148
+
+
+[04/24/2023 2:01 PM] GitHub#0000
+
+
+{Embed}
+glasgowm148
+https://github.com/ergoplatform/ergodocs/commit/b2827240f2d007fc9303d5eace71e500dbecb5e6
+[ergodocs:main] 1 new commit
+[`b282724`](https://github.com/ergoplatform/ergodocs/commit/b2827240f2d007fc9303d5eace71e500dbecb5e6) ergo_vs_cardano_eutxo_Draft - glasgowm148
+
+
+==============================================================
+Exported 270 message(s)
+==============================================================

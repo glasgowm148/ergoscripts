@@ -1,0 +1,338 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / hypo10use
+==============================================================
+
+[10/04/2021 1:53 PM] glasgowm#9381
+Made yous a private one anyway if needed for submission, lmk if you want name changed / it to be public.
+
+{Reactions}
+👍 (2) 
+
+[10/04/2021 2:09 PM] glasgowm#9381
+added @hypo10use 🙂
+
+{Reactions}
+👍 
+
+[10/05/2021 12:24 PM] HazeyOneKenobi#2091
+Hi all! Let me know when you need any guidance. Happy to have a call and go through your ideas and proposal etc.
+
+{Reactions}
+⭐ 👍 
+
+[10/06/2021 1:48 PM] Thales#6915
+Wow that would be awesome! I will get back to your offer once I have pinged all team members, we work across  EMEA, not always easy. But what would be your preferred time/timezone?
+
+
+[10/06/2021 10:39 PM] HazeyOneKenobi#2091
+I'm also in EMEA, so just let me know!
+
+
+[10/07/2021 10:42 AM] glasgowm#9381
+what's your idea @hypo10use  ?
+
+
+[10/08/2021 3:45 PM] root7Z#8699
+how is it going?
+
+
+[10/08/2021 3:47 PM] Thales#6915
+Hi, our team will gather soon, we are all currently in our daily jobs, but will start the hackathon once we gathered
+
+
+[10/08/2021 3:52 PM] root7Z#8699
+nice
+
+
+[10/08/2021 5:41 PM] Thales#6915
+@glasgowm  @HazeyOneKenobi  @root7Z can we invite one of you to talk through our ideas? We have some and might need some advice on them ? 🙂
+
+
+[10/08/2021 5:44 PM] glasgowm#9381
+Yep happy to but not sure if we'd be best? Depends on what you're after.
+
+
+[10/08/2021 5:45 PM] glasgowm#9381
+made yous a private voice channel - pop on that and ping me and i can guide you or stick your ideas here and I can tag ppl
+
+
+[10/08/2021 5:54 PM] Thales#6915
+Can you join the voice channel now please?
+
+
+[10/08/2021 5:54 PM] Thales#6915
+we are there and want to show you our project
+
+
+[10/08/2021 6:21 PM] Thales#6915
+https://github.com/ergolabs/ergo-dex
+
+{Embed}
+https://github.com/ergolabs/ergo-dex
+GitHub - ergolabs/ergo-dex: An Automated Decentralized Exchange
+An Automated Decentralized Exchange. Contribute to ergolabs/ergo-dex development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/KMU6-0CBFEGwfrlruZ1zM72PjsbfCWPZZhfZnSO95cA/https/opengraph.githubassets.com/38c019ee82f50568c82de4c579fb9acb47c81593be277e784ec41e876ec5ad2a/ergolabs/ergo-dex
+
+
+[10/08/2021 6:21 PM] Thales#6915
+https://beta.ergodex.io/
+
+{Embed}
+https://beta.ergodex.io/
+ErgoDEX
+Web site created using create-react-app
+
+
+[10/08/2021 6:21 PM] Manu27#5340
+https://app.diagrams.net/#Hhypo10use%2Fplanning%2Fmain%2Fdiagrams%2Froulette-1.drawio
+
+
+[10/08/2021 6:23 PM] abdi#0075
+found it!
+
+
+[10/08/2021 6:58 PM] Ghazi#3339
+https://github.com/MohdGhazanfar
+
+{Embed}
+https://github.com/MohdGhazanfar
+MohdGhazanfar - Overview
+MohdGhazanfar has 19 repositories available. Follow their code on GitHub.
+https://images-ext-1.discordapp.net/external/fie_3N5ShCElY20gMQ4ojFOeWTUHjD0qDBMoqiquaug/%3Fv%3D4%3Fs%3D400/https/avatars.githubusercontent.com/u/20329526
+
+{Reactions}
+✅ 
+
+[10/08/2021 8:12 PM] root7Z#8699
+arrived now, so it's a casino project is it?
+
+
+[10/08/2021 8:12 PM] root7Z#8699
+what help do you need
+
+
+[10/08/2021 8:13 PM] root7Z#8699
+@catalyst244 was also planning a casino game, may be collaborate?
+
+
+[10/08/2021 8:36 PM] Thales#6915
+Yes!
+
+
+[10/08/2021 8:36 PM] Thales#6915
+right now we are sorting out our contracts, we might need help on that, but will hit you up, once we are ready with our questions!
+
+
+[10/08/2021 8:45 PM] root7Z#8699
+good to hear
+
+
+[10/09/2021 10:48 AM] root7Z#8699
+how is it going?
+
+
+[10/09/2021 12:04 PM] Thales#6915
+we are implementing currently frontend, backend and contracts, we will have a PoC ready in a few hours ...
+
+{Reactions}
+ergo_white (3) 
+
+[10/10/2021 9:47 AM] HazeyOneKenobi#2091
+@Thales any news? 😁
+
+
+[10/10/2021 10:15 AM] Thales#6915
+@HazeyOneKenobi, we stumbled upon some blockers when implementing the contract, we have implemented a game, where everyone can buy a ticket and give a guess for a number. We just need to implement the winner contract, s.t. if the number is correct the pot is given to the winner ticket
+
+
+[10/10/2021 10:16 AM] Thales#6915
+Frontend is fine too, however we had some issues with the yoroi nightly connector and couldnt find a way to let it work against ergo testnet... how did ergodex run this on testnet? or did they go live in mainnet directly 😄
+
+
+[10/10/2021 10:39 AM] zargarzadehmoein#2928
+@Ilya | Spectrum maybe you can help guys about this
+
+{Reactions}
+👍 (3) 
+
+[10/10/2021 11:43 AM] Ilya | Spectrum#0494
+We don't run on testnet. Actually Yoroi Nightly needs Yoroi's backend which look only at mainnet (afaik)
+
+
+[10/10/2021 11:44 AM] Thales#6915
+@D3473R
+
+
+[10/10/2021 11:44 AM] Ilya | Spectrum#0494
+Usually it's not an issue to test in mainnet with small amounts of ERG
+
+
+[11/09/2021 12:17 AM] JoeS71#3575
+is it possible to display private keys through swagger on a full node wallet.  I can send and receive from it, but misplaced my private keys.
+
+
+[11/10/2021 3:48 AM] wileyyy#7785
+no, I would make a new wallet and send your assets there.  Keep the seed safe.  Don't believe anyone who tries to tell you otherwise, tries to get you to join another chat or anything.
+
+
+[02/11/2022 12:45 PM] root7Z#8699
+Hello @hypo10use project team! How is it going with your development, would you provide updates?
+
+{Reactions}
+🤘 
+
+[02/11/2022 4:18 PM] Thales#6915
+Hi @root7Z, I am getting the team together now, we plan to deploy the PoC today and give you an update once done
+
+{Reactions}
+👍 
+
+[02/11/2022 8:33 PM] NoahErgo#4349
+What are you guys building this time?
+
+
+[02/11/2022 8:54 PM] root7Z#8699
+Thank you, I hope the first day is going well. Please share a few notes as we are coming closer to the end of the day. Best regards,
+
+
+[02/11/2022 8:58 PM] Thales#6915
+Hi, we have now gathered all refactored code we have been doing since the last hackathon, our goal is to get the dapp hosted tonight and work on it directly, so we have it easier to show you the dapp at the end of the hackathon. Our team will start working fully from tomorrow morning as today was mainly about organizing ourselves, revisiting our problems and sorting out a plan how to go forward.
+
+{Reactions}
+👍🏻 (3) ergo_orange (3) 
+
+[02/11/2022 9:08 PM] Thales#6915
+Hi Noah, we'd like to work on our game platform and we are brainstorming how we can highlight safety and security aspects when programming game dapps
+
+{Reactions}
+ergo_orange 
+
+[02/12/2022 6:05 AM] root7Z#8699
+Good morning @hypo10use team, it seem that you are getting closer deploying the dApp. Good luck on the second day, devs will be here soon if you have any questions 👍
+
+{Reactions}
+ergo_orange (2) 
+
+[02/12/2022 11:57 AM] Thales#6915
+Hi, we had a huge blocker with the wallet integration yesterday but we didnt go to bed until we fixed it :D, Now that has worked and our tx get processed by the blockchain, today is about getting the contracts finalized and two frontenders will work on the making the frontend look sweet 😄
+
+{Reactions}
+👏 (3) 
+
+[02/12/2022 12:11 PM] Thales#6915
+@root7Z we have another frontender joing our team, can you add k.tapankumar#3506 to this group, he is already in the main channel
+
+
+[02/12/2022 12:17 PM] root7Z#8699
+@k.tapankumar added can you confirm
+
+
+[02/12/2022 12:18 PM] root7Z#8699
+okay it should be accessible now
+
+{Reactions}
+ergo_orange 
+
+[02/12/2022 10:37 PM] root7Z#8699
+Hello @hypo10use team, I hope the second day is going well for you.  As we are getting closer to the end of today, please provide updates regarding today's development. With best wishes
+
+
+[02/12/2022 11:17 PM] Thales#6915
+Hi, today was mainly about updating the UI and contract mechanics, contract compilation in the backend and transaction composition and signing in the frontend. We planned to have an end-to-end runnign example by today but we are struggling still with some technicalities between front and backend
+
+{Reactions}
+ergonaut 
+
+[02/12/2022 11:30 PM] root7Z#8699
+Thank you for the update, good luck on your side. Feel free to ping the devs if you need any help or post your questions on general hackathan-chat
+
+{Reactions}
+ergo_orange 
+
+[02/13/2022 7:17 AM] root7Z#8699
+Good morning @hypo10use team, good luck on the last day!
+
+{Reactions}
+ergo_orange 
+
+[02/13/2022 7:15 PM] root7Z#8699
+Hello @hypo10use team, a quick update regarding the submissions: You are expected to send your final reports by Monday 12.00 UTC noon, not tonight. So please make the best out of your time, good luck!
+
+{Reactions}
+ergo_orange 
+
+[02/13/2022 7:17 PM] Thales#6915
+Hi thank you, we will definitely need this time!
+
+
+[02/13/2022 7:18 PM] Thales#6915
+Is there a specific format the report must be in? Can we also submit a demo video?
+
+
+[02/13/2022 7:21 PM] root7Z#8699
+Yes you can submit a demo video, there are no specific formats. You can make the best way you feel right 👍
+
+{Reactions}
+ergo_orange 
+
+[02/14/2022 9:30 AM] Thales#6915
+[1/n]
+ErgoHack III Report:
+
+Thank you Ergo team for organising this Hackathon! We have learnt a lot and have made good progress in developing our dapp. Furthermore, we stumbled upon a few things, which we like to share with the team too. This hackathon we were three devs short, two got COVID just this week and one got a newborn. 
+
+Current State of our Dapp
+Our Dapp, a game platform to feature various multiplayer games is still early work in progress. In the last hackathon we were focusing on how to break down game mechanics into the eUTXO model and found good examples of elaborate use cases such as the ErgoRaffle example and worked on them. This time we were focusing mainly on compiling the contracts and building the transactions and submitting them to the blockchain, which we managed to do after long debugging and troubleshooting sessions. Firstly, we have managed to create a site to trigger a new round of a game, which will be automated in the backend to generate a new round every n blocks for each game. User then can participate in this round until n-x blocks, as x will be used to evaluate the round and the winners. We start with one example but quickly will add on top of each other. We have some great ideas but we will start testing them once our framework stands and allows to quickly explore the possibilites of the Ergo infrastructure. We cannot wait to get into this phase, but first the "hard" job needs to be done. Secondly, we managed to create a transaction to participate in a games round. The last step missing here is the collection of any winnings, once this is also setup, conceptually any game could be concluded, there will be variations to this model, but this is our concept for now. We were trying to do as much as we can in the frontend using angular but we saw that there are still unimplemented stuff not featuring all functions of ergo appkit, hence we still have a backend doing the composition and compilation of all the contracts.
+
+
+[02/14/2022 9:46 AM] Thales#6915
+[2/n]
+We will move away from the quid games branding to another branding, which we haven't decided yet, but as you all know the scam project around squid games left a bitter taste for everyone. As you see we have been working predominantly on the Frontend and the Backend to cover as much ground as possible to setup our gaming platform.  We have pushed all the code in their respective repositories on https://github.com/hypo10use/quid-games and added progress bars to illustrate the overall progress of the project, we keep building between hackathons too and will update these bars from time to time. Our near-time goal is to finish up the generic game mechanics and then move on to the UI redesign and launch of our first game.
+
+{Embed}
+https://github.com/hypo10use/quid-games
+GitHub - hypo10use/quid-games: The Quid Games
+The Quid Games. Contribute to hypo10use/quid-games development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/-AnnY3j2hkAwElB_R0Lywq6iz3DPaKn5jXyhhTSlwwM/https/opengraph.githubassets.com/93545146f6353c98c3eff90a1479990a84cc62ddbd1cf60ec614a78077e06b15/hypo10use/quid-games
+
+
+[02/14/2022 9:53 AM] Thales#6915
+[3/n]
+Our contribution to Security of the platform
+We mostly work for large enterprise software companies and we have been trained mostly to follow best practices. We were inspecting other dapps on Ergo and we saw that every solution has some kind of solving the problems in their own way, we try to adapt the best from our point of view, which should maximize security and minimize dependence on multiple systems and further reduce the risk of common attacks. We saw over the months that especially newcomers to the community are looking not just for examples, but also for best practices, like ''do this on ergo'', ''don't do this on ergo''. We'd like to contribute to the Ergo community by not just showing examples on ergo or tutorials, but also documenting best practices, how a dapp should be built from scratch. For this we'd like to go through the state-of-the-art ergo dapps and highlight their best practices and show them in a document to the community. Skilled programmers are not necessarily the best in communicating nor documenting their code 😉 Its true things are changing quickly in the Ergo sphere, it would be kind of a moving target, but for newcomers to the community such a document would be gold and would encourage and lower the barrier significantly. For this we will prepare said document, which format is not determined yet and will present this to the core team of Ergo to approve the best practices and either publish them by ourselves or hand them to Ergo for publication. The document is going to cover all aspects from architecture down to the contract. This will allow new teams to base their project on a template, which is approved and secure.
+
+
+[02/14/2022 10:07 AM] Thales#6915
+[4/n]
+At last we want to thank the whole Ergo team for organizing such an awesome event, we had fun and and learnt a lot, but also saw some areas where Ergo has still some potential to grow. We will keep on buidling our dapp and hope we can present an early version of our best practices document to the Ergo team and our game platform to the community soon.
+
+END
+
+{Reactions}
+ergo_orange (3) 
+
+[02/28/2022 9:08 PM] AngieHar#0865
+Congratulations Hypo10use! Great work, thank you for participating in ErgoHack 3 and your impact to Ergo Platform and ecosystem.  💪  
+Your participation was a vital component in making the next hackathons even better. 
+
+Please provide your wallet address so you can receive your prize.
+
+
+[03/01/2022 12:06 PM] AngieHar#0865
+@Thales
+
+
+[03/01/2022 12:10 PM] Thales#6915
+Hi @AngieHar, Thank you! We will present the whole dapp functioning pretty soon and the hackathon gave us a good push! Please send it to our team wallet 9fm2q6fv6nyQxPpkd6n111xjt9hGdeMCmTM74W5VfyDZ81EuKmf We will  distribute these funds to team members on a merit basis towards our go-live.
+
+
+[03/02/2022 5:29 PM] AngieHar#0865
+@Thales Thank you Thales, well received!
+
+{Reactions}
+ergo_black 
+
+==============================================================
+Exported 63 message(s)
+==============================================================

@@ -1,0 +1,9 @@
+https://raw.githubusercontent.com/scritcash/scrit-whitepaper/master/scrit-whitepaper.pdf
+https://raw.githubusercontent.com/mhssamadani/ErgoStratumProxy/main/img/start.png
+https://raw.githubusercontent.com/ergolabs/ergo-dex/master/img/OffChainExec.jpg
+https://raw.githubusercontent.com/ergoplatform/ergoweb/master/content/locales/en.json
+https://raw.githubusercontent.com/ergoMixer/ergoMixBack/master/sh/install.sh
+https://raw.githubusercontent.com/Homebrew/install/master/install)
+https://raw.githubusercontent.com/coinfoundry/miningcore/master/src/Miningcore/Persistence/Postgres/Scripts/createdb_postgresql_11_appendix.sql
+https://raw.githubusercontent.com/ergoplatform/ergo/master/ergo-installer.sh
+https://raw.githubusercontent.com/cryptopoo/hiveos_gddr6x_temps/main/quick-install.sh

@@ -1,0 +1,1273 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / ergofund
+==============================================================
+
+[05/12/2021 10:31 AM] TwinkleToesX#9000
+Hi there. I have some questions about funding. How does it work? Where can I pitch, etc? Thank you for taking the time to respond. All the best!
+
+
+[05/12/2021 11:43 AM] glasgowm#9381
+I take it you mean for funding from the Ergo Foundation? 
+
+Please reference this article for scoping your own grant
+https://www.dropbox.com/s/jnive23amb0f7od/Screenshot%202021-05-12%20at%2011.40.42.png?dl=0
+
+and send it to ergoplatform@protonmail.com if you have a project that you believe is worth being funded Proposals, at the moment, need to be approved by four of six votes of Ergo Development Fund Board Members.
+
+{Embed}
+https://www.dropbox.com/s/jnive23amb0f7od/Screenshot%202021-05-12%20at%2011.40.42.png?dl=0
+Screenshot 2021-05-12 at 11.40.42.png
+Shared with Dropbox
+https://images-ext-1.discordapp.net/external/NET2JaDC2VYEWt6t2c7Bdj5wGc1aEYJHT6qTrV9El6s/%3Fpreserve_transparency%3DFalse%26size%3D1200x1200%26size_mode%3D4/https/www.dropbox.com/temp_thumb_from_token/s/jnive23amb0f7od
+
+
+[05/12/2021 11:49 AM] glasgowm#9381
+Ah, seen your other message. ErgoFund itself is just starting development.
+
+
+[05/12/2021 12:44 PM] TwinkleToesX#9000
+Thank you for your reply.
+
+
+[05/12/2021 12:44 PM] TwinkleToesX#9000
+STONE|network and SAPPHIRE|app
+
+http://www.stonenetwork.online/ proposal is live on the the Zero Knowledge Treasury.
+
+Please take the time to read our WHITEPAPER and APPEAL TO INVESTORS on the About page. Any support is truly welcomed, small or large, and one can view our donation addresses on the Donate page.
+
+https://zkt.ergonaut.space/proposal/1
+STONE|network
+
+
+[05/31/2021 10:45 PM] kushti#0978
+Changed pledge contract a bit to support ANY recipient contract https://wallet.plutomonkey.com/p2s/?source=ewogICB2YWwgY2FtcGFpZ25JZCA9IFNFTEYuUjRbSW50XS5nZXQKICAgdmFsIGJhY2tlclB1YktleSA9IHByb3ZlRGxvZyhTRUxGLlI1W0dyb3VwRWxlbWVudF0uZ2V0KQogICB2YWwgcHJvamVjdFB1YktleSA9IFNFTEYuUjZbU2lnbWFQcm9wXS5nZXQKICAgdmFsIGRlYWRsaW5lID0gU0VMRi5SN1tJbnRdLmdldCAvLyBoZWlnaHQKICAgdmFsIG1pblRvUmFpc2UgPSBTRUxGLlI4W0xvbmddLmdldAoKICAgdmFsIGZ1bmRyYWlzaW5nRmFpbHVyZSA9IEhFSUdIVCA+PSBkZWFkbGluZSAmJiBiYWNrZXJQdWJLZXkKICAgdmFsIGVub3VnaFJhaXNlZCA9IHsob3V0Qm94OiBCb3gpID0+IG91dEJveC52YWx1ZSA+PSBtaW5Ub1JhaXNlICYmIG91dEJveC5wcm9wb3NpdGlvbkJ5dGVzID09IHByb2plY3RQdWJLZXkucHJvcEJ5dGVzICYmIG91dEJveC5SNFtJbnRdLmdldCA9PSBjYW1wYWlnbklkfQoKICAgdmFsIGZ1bmRyYWlzaW5nU3VjY2VzcyA9IEhFSUdIVCA8IGRlYWRsaW5lICYmIGVub3VnaFJhaXNlZChPVVRQVVRTKDApKQogICBmdW5kcmFpc2luZ0ZhaWx1cmUgfHwgZnVuZHJhaXNpbmdTdWNjZXNzCiB9
+
+
+[05/31/2021 10:46 PM] kushti#0978
+so it would be possible to crowdfund to threshold sig address (controlled via Zero-Knowledge treasury), or emission script (so project will get money slowly), etc
+
+
+[06/01/2021 9:15 AM] glasgowm#9381 (pinned)
+kushti — 21/04/2021
+* Made a simpest ErgoFund contract and playground for it: https://scastie.scala-lang.org/FzcCv7pzTb2lQAamWsv1MQ
+
+{Embed}
+https://scastie.scala-lang.org/FzcCv7pzTb2lQAamWsv1MQ
+Scastie - An interactive playground for Scala.
+Scastie can run any Scala program with any library in your browser. You don’t need to download or install anything.
+https://images-ext-2.discordapp.net/external/KrYReWZj2NuY8SonLKj1Vz1h-7mqORfiqtVgiCaZ0XQ/https/scastie.scala-lang.org/public/sharing-image.png
+
+{Reactions}
+👍 
+
+[06/07/2021 6:55 PM] glasgowm#9381
+https://discord.com/channels/668903786361651200/669989266478202917/851457840241836042
+
+
+[06/17/2021 9:32 AM] glasgowm#9381
+some inspiration: https://github.com/Giveth/giveth-dapp
+
+{Embed}
+https://github.com/Giveth/giveth-dapp
+Giveth/giveth-dapp
+Giveth Dapp for crowdfunding and managing donations on the ethereum blockchain. - Giveth/giveth-dapp
+https://images-ext-1.discordapp.net/external/ifqoKYIm8kK828q-1HQxD-SbyWkbe2os-U2npTrsHp4/https/opengraph.githubassets.com/f2b4206bfcee8d77a1d7e28ffcd3d49c02831230c7571cbb7b61aafd7c3abbb8/Giveth/giveth-dapp
+
+{Reactions}
+👍 
+
+[06/17/2021 9:35 AM] glasgowm#9381
+https://giveth.io/
+
+{Embed}
+https://giveth.io/
+Home
+https://images-ext-1.discordapp.net/external/PxN9qNqZn4N-jd6cVALjqsHPlU2gVnIGFA16N0p2D6Q/https/i.imgur.com/uPFEgJu.png
+
+{Reactions}
+👍 
+
+[06/18/2021 6:56 PM] gnuion#3794
+giveth looks like it uses virtual DOM. Guys, what framework to use, I have started flutter for mobile, but it isn't really mature for web. Currently I am learning React. What does the team think, what framework to use? As many people are now mobile, I think it's important to target those devices as well. So we need UI/UX design for mobile also.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/840311916768657408/855506271955189760/E3v_NIkWQAYZfLZ.png
+
+
+[06/18/2021 7:10 PM] glasgowm#9381
+Yeah I think React is a probably a solid choice. That's what a few already use as a base.
+
+{Reactions}
+👍 
+
+[07/01/2021 6:41 PM] gnuion#3794
+Hello guys! How have you been? I am making a bit of progress with react each day. I find material design interesting! Maybe we can utilize that too for our design!
+
+{Reactions}
+😍 (4) 👍 (3) 
+
+[07/20/2021 10:50 AM] gnuion#3794
+Hello guys! Do we have a git repository to share our work and open threads? I don't think Discord is ideal for version control  😁. Do we want to use a react framework like NEXT for the backend? Would be nice if we would have some more conversation.
+
+{Reactions}
+👍 
+
+[07/20/2021 2:31 PM] glasgowm#9381
+No public repo yet afaik. Feel free to make one up and share.
+
+{Reactions}
+👍 
+
+[07/20/2021 2:32 PM] glasgowm#9381
+https://www.ergoforum.org/t/simple-crowdfunding/70
+
+{Embed}
+https://www.ergoforum.org/t/simple-crowdfunding/70
+Simple Crowdfunding
+I’ve played a little bit with a crowdfunding campaign corresponding to the example provided in the  ErgoScript White Paper (page 6) and found that it could be  done even with current wallet API. This post is about how to do crowdfunding on top of Ergo. The post is also proposing a concrete campaign to fund post-EIP1 crowdfunding script developme...
+
+
+[07/20/2021 2:32 PM] glasgowm#9381
+https://github.com/robkorn/ergo-crowdfunding-cli
+
+{Embed}
+https://github.com/robkorn/ergo-crowdfunding-cli
+robkorn/ergo-crowdfunding-cli
+CLI tool which enables participating and interacting with Crowdfunding Campaigns on Ergo - robkorn/ergo-crowdfunding-cli
+https://images-ext-1.discordapp.net/external/ctFJIpsYMqA6lE-sDaoHS0keQW6OAYHfZoxgFsTRO6Y/https/opengraph.githubassets.com/489c75db4f0efe9b462ead7544adda45f42f02642e9166e3238e508fa7482895/robkorn/ergo-crowdfunding-cli
+
+{Reactions}
+👍 
+
+[07/20/2021 2:32 PM] glasgowm#9381
+https://www.ergoforum.org/t/self-sovereign-defi/260
+
+{Embed}
+https://www.ergoforum.org/t/self-sovereign-defi/260
+Self-Sovereign DeFi
+Some time ago I expressed an idea that Ergo can be good for “self-sovereign” DeFi without a clear explanation what could be that about. I still do not have a concrete definition, but let me show an example which I have in my mind.  So let’s take the crowdfunding pledge contract from the ErgoScript whitepaper:  {   val fundraisingFailure = HEIGHT...
+
+
+[07/21/2021 1:32 PM] kushti#0978
+I am going to opensource ErgoFund scanner ASAP
+
+
+[07/21/2021 1:33 PM] kushti#0978
+It is more or less ready and under testing
+
+{Reactions}
+👍 (2) 
+
+[07/21/2021 1:33 PM] kushti#0978
+On top of the scanner we need to build backend & API
+
+
+[07/21/2021 1:33 PM] kushti#0978
+then frontend
+
+
+[07/31/2021 12:51 PM] gnuion#3794 (pinned)
+Hello guys! Work did keep me busy, but now I want to dedicate more time towards ERGO.  I created a repo for the frontend, soon will upload some wireframes and maybe start implementing some react components. Software I will use are Inkscape, Gimp and the React library. I'll make sure to only use open source assets such as google fonts. https://github.com/gnuion/ergofund-frontend
+
+{Embed}
+https://github.com/gnuion/ergofund-frontend
+GitHub - gnuion/ergofund-frontend: ergofund - Fundraiser Dapp lever...
+ergofund - Fundraiser Dapp leveraging the powerful ergo ecosystem - GitHub - gnuion/ergofund-frontend: ergofund - Fundraiser Dapp leveraging the powerful ergo ecosystem
+https://images-ext-1.discordapp.net/external/ihoILVkuiLR9rQSNWo2a9GLqiiWP92zEInEsKJNeM3k/https/opengraph.githubassets.com/8d42bb19114fa930b43363edeee9a13d3f96f882266d0245b72043b033516939/gnuion/ergofund-frontend
+
+{Reactions}
+👍 (3) 
+
+[08/09/2021 4:46 PM] gnuion#3794
+Hello guys! I uploaded ergofund_frontend_inkscape.svg, feel free to contribute!  I will try to come up with some new logo ideas and artwork. Hopefully this week I can finish all the pages.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/840311916768657408/874317604628598784/unknown.png
+
+{Reactions}
+👍 (7) 
+
+[08/12/2021 5:37 PM] gnuion#3794
+Made some changes, hope you like those. Made hero smaller to see popular projects at a glance. I will continue posting and creating threads over on github, in order to not populate this channel too much.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/840311916768657408/875417621112193084/ergofund_frontend.png
+
+{Reactions}
+👍 (6) 
+
+[08/13/2021 12:09 AM] pbr713#9954
+Looks good. Excited to see some projects on it
+
+{Reactions}
+😍 (2) 😁 (2) 
+
+[08/13/2021 7:49 AM] glasgowm#9381 (pinned)
+https://curiaregiscrypto.medium.com/ergofund-code-released-for-review-feedback-2d7a05ed93d5
+
+{Embed}
+https://curiaregiscrypto.medium.com/ergofund-code-released-for-review-feedback-2d7a05ed93d5
+ErgoFund Code Released for Review & Feedback
+Kushti released the initial ErgoFund on chain and off chain contracts today. This is something that he has been working on for a few…
+
+{Reactions}
+👍 (4) 
+
+[08/25/2021 1:14 PM] ezi0.audit0re#1533 (pinned)
+Is this the backend repo? https://github.com/ergoplatform/ergofund
+
+{Embed}
+https://github.com/ergoplatform/ergofund
+GitHub - ergoplatform/ergofund: ErgoFund Backend
+ErgoFund Backend . Contribute to ergoplatform/ergofund development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/mpz43LN2oidzcFmEFp08fxlcbgTWF1A0K4PpXHQPmcI/https/opengraph.githubassets.com/81314c8f3359f63b08469917f319ade566f8c1957a4bd77a0c382aabd28e7c24/ergoplatform/ergofund
+
+
+[08/25/2021 1:15 PM] ezi0.audit0re#1533
+Anyone working on it right now?
+
+
+[08/25/2021 2:02 PM] glasgowm#9381 (pinned)
+I believe @code_For_Uss has been working on the scanner part which is used by the backend
+
+
+[08/25/2021 2:03 PM] glasgowm#9381 (pinned)
+https://github.com/ergoplatform/scanner
+
+{Embed}
+https://github.com/ergoplatform/scanner
+GitHub - ergoplatform/scanner: Ergo Blockchain Scanner
+Ergo Blockchain Scanner . Contribute to ergoplatform/scanner development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/n2FrdJZcVjrtrIbC7TQOCoSXh5LckxN8WPJfGID3gH8/https/opengraph.githubassets.com/df68eaca2a2063aad622b3f5858c91427a71863561cbbb21371342aff4c7f0c0/ergoplatform/scanner
+
+{Reactions}
+👍 
+
+[08/26/2021 7:42 AM] ezi0.audit0re#1533
+Cool! but we need database and API afaik. I want to start working on it. Any preference on the programming language? Python is fine? @glasgowm
+
+
+[08/26/2021 8:03 AM] gnuion#3794
+I think we need SEO with ergofund. So I think next.js is a good pick as a framework?
+
+
+[08/26/2021 8:03 AM] glasgowm#9381
+Nice one! Scala/rust/react is normally used.
+
+
+[08/26/2021 8:04 AM] glasgowm#9381
+Search engine op?
+
+
+[08/26/2021 8:04 AM] gnuion#3794
+yes, because people might use a search engine to find projects...
+
+
+[08/26/2021 8:04 AM] glasgowm#9381
+What's that got to do with next.js?
+
+
+[08/26/2021 8:05 AM] gnuion#3794
+next.js offers SSR (Server Side Rendering) which is needed for SEO.
+
+
+[08/26/2021 8:06 AM] glasgowm#9381
+Sure, think you could do that with most implementations tho
+
+
+[08/26/2021 10:28 PM] jahnreektor#4775
+Next is definitely the best option out there today
+
+
+[08/26/2021 10:29 PM] jahnreektor#4775
+Yeah, ability to switch between static site generation and ssr and client side rendering on a per page basis is pretty powerful
+
+{Reactions}
+😍 
+
+[08/27/2021 11:38 AM] Shepolad#5729
+does anyone know a developer who might be interested in developing an ERG smart contract and potential commercial agreement?
+
+
+[08/27/2021 12:01 PM] Dmitry Usov#0134
+yes, next js is great!
+
+
+[08/27/2021 12:02 PM] Dmitry Usov#0134
+you can try to text into #🛠│development channel
+
+
+[08/30/2021 3:01 PM] kushti#0978
+that would be nice! Please coordinate with @code_For_Uss
+
+
+[09/14/2021 1:15 PM] Apextheory#6577
+@code_For_Uss, any help needed on ergofund or scanner?  I have some time this week.
+
+
+[09/15/2021 2:07 PM] code_For_Uss#1058
+I do not think there is anything special on the scanner! For ergoFund, @ezi0.audit0re  is working on it I do not know the final status, once the ergoFund structure is ready, we can proceed to the front in two parts (chain functionality / UI).
+
+
+[10/02/2021 9:20 AM] gnuion#3794
+Cool tutorial on making an Image Carousel from scratch on React.
+https://medium.com/tinyso/how-to-create-the-responsive-and-swipeable-carousel-slider-component-in-react-99f433364aa0
+
+{Embed}
+https://medium.com/tinyso/how-to-create-the-responsive-and-swipeable-carousel-slider-component-in-react-99f433364aa0
+How to create the responsive and swipeable Carousel — Slider compon...
+Welcome back to my React series. Today I will show you how to build the Carousel, Slider, or Image Gallery component from scratch.
+https://images-ext-2.discordapp.net/external/dDNtKazw67JoTuZrepycooJpW_b4kNlgcWNJZfPvxN8/https/miro.medium.com/max/1200/1%2AnsdapYI0cZGGEbYqs3TSSw.jpeg
+
+
+[10/03/2021 8:49 PM] gnuion#3794
+Hello! Who is willing to learn nextjs with me and work together on the frontend? Also, for the backend I tend to use nodejs just because I got into JavaScript and there is a greater community around it. But if the API endpoint work fine, we can build microservices on different containers and languages...
+
+
+[10/03/2021 8:52 PM] ezi0.audit0re#1533
+Hi. I am just working on the backend using Rust. Since @code_For_Uss and kushti had a discussion before about separating frontend and backend, I think we can go on with microservices.
+
+
+[10/03/2021 8:53 PM] gnuion#3794
+Awesome! Rust is a pretty solid and fast programming language!
+
+
+[10/03/2021 8:54 PM] ezi0.audit0re#1533
+However, It would be nice if you mention the usecases in the frontend so I can provide API endpoints for each.
+
+
+[10/07/2021 1:10 AM] gnuion#3794
+Hello Ezio, I might need to fetch data related to:
+- Login (maybe it can also be a zero-knowledge proof, same as mina protocol wants to use for login. I find that idea interesting)
+- For storing client data, we may want IPFS to keep the app decentral. So we need Endpoints for that to POST and GET data. But for the prototype, we might use a central server...
+- Endpoints to fetch current projects (Project Name, Description, Percentage Completed, Goal) and be able to create new projects.
+
+We might introduce later  a governance token to vote on platform changes like for example Uniswap did. I think this project has huge potential, but we need more developers. I am a newbie myself, but I think I can handle the UI, i.e. create the react components.
+
+
+[10/07/2021 1:13 AM] gnuion#3794
+Those tokens could also be used to monitor the content of the projects posted. So the community would be in charge and regulate harmful content.
+
+
+[10/07/2021 1:36 PM] LADOPIXΣL#6072
+I'm waiting for the API development to start working. I also don't have much experience in this kind of development but I think it can be very useful to review the code of ErgoRaffle, ErgoUtils, etc.
+
+I think with endpoints similar to ErgoRaffle it is already possible to realize this website.
+https://github.com/ErgoRaffle/raffle-frontend
+
+{Embed}
+https://github.com/ErgoRaffle/raffle-frontend
+GitHub - ErgoRaffle/raffle-frontend: A raffle is a crowdfunding ser...
+A raffle is a crowdfunding service that aims to enable anyone to raise enough money needed for a project. The project can be a direct donation to a charity, an academic or business plan, or anythin...
+https://images-ext-1.discordapp.net/external/8zUnGxYOD5M99adigZm38kBpB-hGCr-1fdT2cCzN2gQ/https/opengraph.githubassets.com/d4587a30835e15a74d5b3239b649aff6d47a1cc81fcb59c0ae3349bbd47942de/ErgoRaffle/raffle-frontend
+
+
+[10/07/2021 5:49 PM] ezi0.audit0re#1533
+Cool! Thanks for your comments.
+So I guess I will go with the endpoints for data fetching first, then others.
+
+
+[10/07/2021 5:51 PM] ezi0.audit0re#1533
+Also I believe there is no need to wait for the API to start working on the frontend. Using dummy data is one solution. However, the API will be ready soon. 🤘
+
+
+[10/08/2021 6:49 AM] gnuion#3794
+Yes, you are correct. I want to use liteSQL or fake JSON server as a demo. I'll set the nextjs app online soon! 😁
+
+
+[10/24/2021 8:33 AM] gnuion#3794
+Hello guys! I will be creating the Next.js app following these practices. I am not currently using typescript. If you can, please share some resources on Next.js, what you think what guidelines should we stick to. I am also looking for ways to host the Next.js app. I tried Namecheap, but it turned out to be unstable. There is always the possibility to export the app to static HTML and hosted anywhere really without the need of a Node.js server.  Maybe I should try Heroku just for prototyping and testing the application. I am wondering though, is there a way of decentralized hosting?
+
+
+[10/24/2021 8:33 AM] gnuion#3794
+https://www.youtube.com/watch?v=mTz0GXj8NN0
+
+{Embed}
+Traversy Media
+https://www.youtube.com/watch?v=mTz0GXj8NN0
+Next.js Crash Course 2021
+In this video we will look at the fundamentals of Next.js such as SSR & SSG, routing, data fetching, apis and more
+
+Code:
+https://github.com/bradtraversy/next-crash-course
+
+Next.js Udemy Course:
+https://www.udemy.com/course/nextjs-dev-to-deployment/?referralCode=7CD3920A9760E6ABEC11
+
+💖  Support The Channel!
+http://www.patreon.com/traversymedia
+
+...
+https://images-ext-2.discordapp.net/external/E5s2bjofgLrtTXOGRU8betLgbcbz3kKmrcnzHy6PBis/https/i.ytimg.com/vi/mTz0GXj8NN0/maxresdefault.jpg
+
+
+[10/24/2021 7:34 PM] gnuion#3794
+Hey, why didn't I know about this project? It looks awesome! https://beta.ergoraffle.com/ Isn't it what we are wanting to do?
+
+{Embed}
+https://beta.ergoraffle.com/
+Ergo Raffle
+The fun way to fundraise
+
+
+[10/25/2021 7:28 PM] torchTheMall#9228
+I am hosting our frontend on vercel using nextjs - however because of the VM requirements for a typescript ENV - running the backend on lambdas is maybe not ideal.
+
+
+[10/25/2021 7:29 PM] torchTheMall#9228
+ergolend.org is next/vercel
+
+
+[10/25/2021 7:29 PM] torchTheMall#9228
+but we have to host our backend elsehwere - we went with scala.  I was looking into seeing if google cloud functions would work
+
+
+[10/25/2021 7:29 PM] torchTheMall#9228
+you can write scala functions
+
+
+[10/25/2021 7:30 PM] torchTheMall#9228
+the idea being that our react front end will just tunnel through vercel to whatever backend functions we create elsewhere
+
+
+[10/25/2021 9:06 PM] gnuion#3794
+That's awesome! Is it a good stategy to use microservices on docker containers to be more resource efficient?
+
+
+[10/25/2021 9:09 PM] torchTheMall#9228
+well im not sure really- I was looking into hosting and I would think if we could run scala and ergoscript on a google cloud function, perhaps we dont need a docker setup.
+
+vercel doesnt really offer a docker setup its just typescript / node lambdas and you dont have many options
+
+
+[10/25/2021 9:10 PM] torchTheMall#9228
+https://cloud.google.com/functions/docs/concepts/jvm-langs
+
+{Embed}
+https://cloud.google.com/functions/docs/concepts/jvm-langs
+JVM Languages  |  Cloud Functions Documentation  |  Google Cloud
+https://images-ext-2.discordapp.net/external/PCKG7k7Az8d-C1rP8eRzROVPDQo7GhXkD52Re34TFg4/https/cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png
+
+
+[10/25/2021 9:10 PM] gnuion#3794
+I see. Sorry for asking so many questions, I am a newbie and am trying to learn all those amazing things!
+
+
+[10/25/2021 9:10 PM] torchTheMall#9228
+no worries - we havent tried this yet - so it would be great to have someone giving it a whirl.
+
+
+[10/25/2021 9:11 PM] torchTheMall#9228
+this way you dont need a docker config at all you can just deploy the GCP as a function
+
+
+[10/25/2021 9:11 PM] torchTheMall#9228
+you can trigger functions quite a few ways, you can of course have an http gateway - or you can use pub/sub or even firebase database triggers
+
+
+[10/25/2021 9:12 PM] torchTheMall#9228
+again - not sure - as im not much of a scala dev - if this works with ergo appkit and everything
+
+
+[10/25/2021 9:12 PM] torchTheMall#9228
+but its something I wanted to explore - as that way if nobody is using it - youre not keeping a docker server running somewhere
+
+
+[10/25/2021 9:12 PM] torchTheMall#9228
+it will just shut down
+
+
+[10/25/2021 9:13 PM] gnuion#3794
+This stuff looks very interesting. I am very keen to learn more!
+
+
+[10/28/2021 12:59 PM] gnuion#3794
+Hello guys! I already started designing React Components from scratch, but I don't know if that's a good idea... Maybe it's more wise to use a library? I also started to think about what state management tool we will be using. Is redux okay?
+
+
+[10/28/2021 1:00 PM] gnuion#3794
+Or are react hooks sufficient?
+
+
+[10/29/2021 2:16 PM] platos_solids#8520
+hey guys im a ui+ux designer who would love to help with the ui for ergo fund, im also new to this part of the discord community so lmk where to start?
+
+
+[10/29/2021 2:17 PM] platos_solids#8520
+or how i can help
+
+
+[10/29/2021 2:52 PM] glasgowm#9381
+Pinned a message.
+
+
+[10/29/2021 2:52 PM] glasgowm#9381
+Pinned a message.
+
+
+[10/29/2021 2:52 PM] glasgowm#9381
+@gnuion has been working on the front-end. I've pinned the associated repo's
+
+
+[10/29/2021 4:35 PM] platos_solids#8520
+sounds awesome
+
+
+[10/30/2021 7:53 AM] gnuion#3794
+Hello @platos_solids! Should we create a telegram group for our project we can chat about?
+
+
+[10/30/2021 8:38 AM] gnuion#3794
+About the UI library. I checked tailwind and material UI. They both require payment to enjoy full features. Correct me if I am wrong. On the other hand Semantic UI looks to be completely free.
+
+
+[10/30/2021 10:03 AM] platos_solids#8520
+Just had a short meeting with @gnuion  i will be working on the UI on invision studio
+
+
+[10/30/2021 10:04 AM] platos_solids#8520
+Phase 1 - discovering the client breif and what we have to get done,
+phase 2 – developing a flow frame work 
+phase 3 – wireframe prototype
+phase 4 – theme options
+phase 5 – theme + high fidelity prototype 
+phase 6 – user review and polls
+phase 7 – correction and launch
+
+
+[10/30/2021 10:04 AM] platos_solids#8520
+im developing the flow and wireframe parallely
+
+
+[10/30/2021 10:04 AM] platos_solids#8520
+just a quick update for you all. this is how i plan to go about it .
+
+
+[10/30/2021 5:19 PM] LADOPIXΣL#6072
+https://discord.com/channels/668903786361651200/840311916768657408/895650831993569280
+
+
+[10/30/2021 5:24 PM] LADOPIXΣL#6072
+It is great that this project exists already done (ergoRaffle), it will be very good for me that I do not have much experience in this development.
+
+
+[10/31/2021 5:52 AM] platos_solids#8520 (pinned)
+https://www.figma.com/file/qmg4vgXnTO8nySLmgAgYvP/ERGO-FUND-FLOW-DIAGRAM?node-id=0%3A1
+
+{Embed}
+https://www.figma.com/file/qmg4vgXnTO8nySLmgAgYvP/ERGO-FUND-FLOW-DIAGRAM?node-id=0%3A1
+ERGO FUND FLOW DIAGRAM
+Created with FigJam
+https://images-ext-2.discordapp.net/external/CaggxmCDKIpfHoTQRmJbB9H_HWwmUX9dB652wUAchfY/%3Fver%3Dthumbnails%2Fqmg4vgXnTO8nySLmgAgYvP%2Fdefault/https/www.figma.com/file/qmg4vgXnTO8nySLmgAgYvP/thumbnail
+
+
+[10/31/2021 5:54 AM] platos_solids#8520
+So i have started a basic flow diagram to move toward the wireframe, please do add comments, changes and information, this flow diagram is just to capture the key information some parts of the flow which is common to any website is understood, on the left hand side on tabs with data on page just keep adding any kind of button or information that you think should be seen on it. i will organize and remove as i see fit so do not worry about that. once we more or less agree on the overall flow i shall move to wireframing the prototype
+
+
+[10/31/2021 5:55 AM] platos_solids#8520
+cheers and have a great day team. ( i am not sure if this information already exists somewhere but as a designer i am just going about my process so do notify me when you see redundant stuff. PS i cannot read code efficiently enough that is why i require stuff like this lol )
+
+
+[10/31/2021 5:56 AM] platos_solids#8520
+this will continue being adapted and edited it is underprocess and collaborative
+
+
+[11/02/2021 12:45 PM] platos_solids#8520
+the fonts have to follow  the same template as shown in the ergo figma right>
+
+
+[11/02/2021 12:45 PM] platos_solids#8520
+?
+
+
+[11/02/2021 2:50 PM] platos_solids#8520
+bros?
+
+
+[11/02/2021 3:11 PM] glasgowm#9381
+Don't imagine there's any requirement to follow templates. Which one on figma do you mean?
+
+
+[11/03/2021 12:34 AM] platos_solids#8520 (pinned)
+https://www.figma.com/file/pd92vgB3xNFThaacIKodYs/Guide-ID?node-id=0%3A1
+
+{Embed}
+https://www.figma.com/file/pd92vgB3xNFThaacIKodYs/Guide-ID?node-id=0%3A1
+Guide ID
+Created with Figma
+https://images-ext-1.discordapp.net/external/yzBq6z4o3M_TATzGde7MiY66lNnKgTDqzLJ7uRvLZDI/%3Fver%3Dthumbnails%2Fpd92vgB3xNFThaacIKodYs%2Fdefault/https/www.figma.com/file/pd92vgB3xNFThaacIKodYs/thumbnail
+
+
+[11/03/2021 12:34 AM] platos_solids#8520
+the font types mainly
+
+
+[11/03/2021 4:07 PM] platos_solids#8520
+browskis?
+
+
+[11/03/2021 4:07 PM] platos_solids#8520
+lol
+
+
+[11/04/2021 1:31 AM] glasgowm#9381
+If you're using the ergo logo you should use those guidelines in general but no restrictions otherwise afaik
+
+
+[11/06/2021 11:00 AM] platos_solids#8520
+One of these can be the ergo fund logo , it would be cool if you guys could maybe vote on one, or if there are other options let me know and i can integrate that to the webpage.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/840311916768657408/906498276470190080/Final.jpg
+
+
+[11/06/2021 11:09 AM] platos_solids#8520
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/840311916768657408/906500451338448896/P1.mp4
+
+
+[11/06/2021 11:09 AM] platos_solids#8520
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/840311916768657408/906500453645320222/P3.mp4
+
+
+[11/06/2021 11:15 AM] glasgowm#9381
+Good idea, What about a red/orange F? Feel like those colours are associated with fundraising.
+
+
+[11/06/2021 11:48 AM] platos_solids#8520
+the first and second have ornage f alternatives
+
+
+[11/06/2021 11:48 AM] platos_solids#8520
+do you mean that ? im not sure if i got that clearly
+
+
+[11/12/2021 3:26 PM] platos_solids#8520
+Just a quick update, the prototype UI will be ready by next tuesday for you all to comment! trying something minimal and easy to redevelop and scale.
+
+{Reactions}
+👍 
+
+[11/12/2021 4:03 PM] glasgowm#9381
+not sure what you mean. It's gold, no? Just thought having the `F` red or orangey-red might work better
+
+
+[11/12/2021 4:04 PM] platos_solids#8520
+haha damn i have a very slight deutronop tendency which comes through ! will fix it sorry
+
+
+[11/12/2021 4:04 PM] platos_solids#8520
+kinks lol
+
+
+[11/12/2021 4:04 PM] platos_solids#8520
+i see it as orange actually
+
+
+[11/12/2021 4:05 PM] platos_solids#8520
+my bad
+
+
+[11/12/2021 4:12 PM] platos_solids#8520
+im working with a soft orange, its on the figma you could check it out
+
+
+[11/12/2021 4:12 PM] platos_solids#8520
+*now
+
+
+[11/12/2021 4:12 PM] platos_solids#8520
+F2AC57
+
+
+[11/12/2021 4:17 PM] glasgowm#9381
+Pinned a message.
+
+
+[11/12/2021 6:20 PM] rafaelsv#9903
+Hey guys, i've read on reddit that you guys might need help with web development stuff, I'll be more than glad to help
+
+
+[11/12/2021 6:44 PM] glasgowm#9381
+Pinned a message.
+
+
+[11/12/2021 6:48 PM] glasgowm#9381
+Welcome 👋 I've pinned some relevant links. You'll see from the scrollback there's a few people been working on different bits. Could those working on @ErgoFund update on what's done, what's needed, etc
+
+
+[11/12/2021 7:05 PM] rafaelsv#9903
+Thank you Glasgow, yeah it would be nice if I can understand what parts need some help and I can get some hours done this weekend. I have looked at the published website on vercel but I noticed theres only a main navbar in there
+
+
+[11/12/2021 8:28 PM] glasgowm#9381
+Not sure much has been done on the front-end yet, you can see some recent updates on issues here for the api/db - https://github.com/ergoplatform/ergofund/issues
+
+{Embed}
+https://github.com/ergoplatform/ergofund/issues
+Issues · ergoplatform/ergofund
+ErgoFund Backend . Contribute to ergoplatform/ergofund development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/lBZgcjaVmFIcqF-9AFdWLEzBx5Ttppom5LdTs4Y0ZNA/https/opengraph.githubassets.com/7f6e25e4463229481f7dc2038a4530a1e331ad58c2fbcb9867ad3b7c4c5864c6/ergoplatform/ergofund
+
+
+[11/12/2021 9:23 PM] rafaelsv#9903
+Is there a figma or sketch file with the design for the frontend?
+
+
+[11/12/2021 11:41 PM] rafaelsv#9903
+Another question, is this project something like a private Ergo Platform project or is it something more community related? Who is guiding the Frontend development, maybe I can get in contact directly with that person?
+
+
+[11/13/2021 2:08 AM] platos_solids#8520
+the figma is underworks , it will be done very soon , im working on the ui design and @gnuion  is working on the front end dev
+
+
+[11/13/2021 6:54 PM] gnuion#3794
+I am trying to make a nextjs app for ergofund. If you want to step in that could be great!
+
+
+[11/13/2021 8:10 PM] gnuion#3794
+https://ergofund.vercel.app/
+As you can see I made little to no progress. I think however I made a solid choice with nextjs. I also decided to use css modules instead of styled components because of separation between application business and styling. However it also got its downsides by having to jump more around files.  Maybe I start learning Semantic UI or Material UI and start working that way instead of writing CSS myself.
+https://semantic-ui.com/elements/button.html
+
+{Embed}
+https://ergofund.vercel.app/
+Ergofund
+Donate to your favorite projects directly
+
+{Embed}
+https://semantic-ui.com/elements/button.html
+Button | Semantic UI
+A button indicates a possible user action
+
+
+[11/13/2021 8:12 PM] gnuion#3794
+Only works on desktops currently. Another good reason to use UI kits as they usually come with responsiveness.
+
+
+[11/13/2021 9:09 PM] glasgowm#9381
+all the dApps are community projects - kushti has been pushing the backend and setting bounties for scanner though.
+
+
+[11/14/2021 12:03 AM] rafaelsv#9903
+@glasgowm Awesome that is what I'm looking for, trying to help the community.
+
+
+[11/14/2021 12:05 AM] rafaelsv#9903
+@gnuion Where are you looking at what needs to be built for the frontend? Do you have like a set of functional requirements or what is the scope/features of what this project is going to support? I'm just lost not understanding what is going to be there. I suppose once @platos_solids has the figma ready we can chat about the modules to build and the screens with the right flow.
+
+
+[11/14/2021 12:08 AM] rafaelsv#9903
+Nextjs is a great solution, and I always prefer to use some sort of UI Library cause otherwise the work is too much and also working as a team it's best to have something that is documented already and we all know how to use/develop with the most basic UI elements. I've been using Chakra-UI https://github.com/chakra-ui/chakra-ui recently and the teams that I've been working with have been able to understand how to use it very quickly and we've been very productive as a whole. Think of it as a Tailwind UI but developed directly with React in mind
+
+
+[11/14/2021 6:25 AM] gnuion#3794
+Awesome! In the meantime I start learning Chakra-UI. I clearly don't have as much experience as you do, so bare with me 😅. It's great to have an experienced frontend developer in the team! 😁 Regarding state management what do you prefer, for example redux, react hooks or both?
+
+
+[11/14/2021 7:23 PM] rafaelsv#9903
+I reach out to redux via the redux toolkit and rtk-query when the app is going to use a lot of data from the backend, and if there are a lot of global state used across multiple parts in the app, otherwise just redux hooks, with something like context api
+
+
+[11/16/2021 1:13 AM] platos_solids#8520
+Hey guys
+
+
+[11/16/2021 1:13 AM] platos_solids#8520
+https://www.figma.com/file/hoGZfsMK3ek2wAuGAmHiad/ERGO-FUND-UI?node-id=126%3A10204
+
+{Embed}
+https://www.figma.com/file/hoGZfsMK3ek2wAuGAmHiad/ERGO-FUND-UI?node-id=126%3A10204
+ERGO FUND UI
+Created with Figma
+https://images-ext-1.discordapp.net/external/jSp3a4Dr1hzrhrcCrWoO43SRjd7y3lrmiEIIzIv7neg/%3Fver%3Dthumbnails%2Facca65ea-c851-403c-83bd-f759586ec719/https/www.figma.com/file/hoGZfsMK3ek2wAuGAmHiad/thumbnail
+
+
+[11/16/2021 1:15 AM] platos_solids#8520
+this is the link to the figma link, please note this is not fully complete and still requires 2-3 pages remaining like dashboard and finer details from all of your comments, after discussing changes @gnuion and @rafaelsv can tell me which parts they will require first and i shall structure the figma clearly in that hierarchy, so that we can work on things simultaneously, right now the figma is NOT ready for hand over
+
+
+[11/16/2021 1:15 AM] platos_solids#8520
+i recommend using the desktop client as we are using a free figma it keeps crashing even for slightly heavy files
+
+
+[11/16/2021 1:24 AM] platos_solids#8520
+@glasgowm Need to rework the color in the logo, will be doing that soon.
+
+
+[11/16/2021 1:24 AM] platos_solids#8520
+and for the others who do not want to use figma i have attached a quick screen grab video to give you the gist
+
+
+[11/16/2021 1:25 AM] platos_solids#8520
+i request you guys to give all possible feedback on additions and subtractions and possible issues, the animation is made by me and can be modified and refined , copyright will not be an issue
+
+
+[11/16/2021 1:39 AM] platos_solids#8520
+1/2
+
+{Attachments}
+https://cdn.discordapp.com/attachments/840311916768657408/909980862098079764/11.wmv
+
+
+[11/16/2021 1:39 AM] platos_solids#8520
+2/2
+
+{Attachments}
+https://cdn.discordapp.com/attachments/840311916768657408/909980974937411614/22.wmv
+
+
+[11/16/2021 1:41 AM] platos_solids#8520
+text is all placeholder , yea so far i have had good fun structuring and restructuring ideas
+
+
+[11/16/2021 1:51 AM] rafaelsv#9903
+It's looking great @platos_solids nice work! Currently I just have one question, are you planning on adding mobile/tablet views? I see that it is mostly desktop now but I'm not sure if the initial release is only going to consider that ?
+
+
+[11/16/2021 2:14 AM] platos_solids#8520
+i can do a mobile version as well
+
+
+[11/16/2021 2:16 AM] platos_solids#8520
+and thanks!
+
+
+[11/16/2021 5:38 AM] gnuion#3794
+Great work! As a user, I would want to go straight into searching a project, but I can't find the search bar on the first page. It would be also nice to have the cards display information about current progress of funding. What percentage of the goal is reached.
+
+
+[11/16/2021 8:02 AM] platos_solids#8520
+aah solid suggestions, will incorporate 👍
+
+
+[11/18/2021 5:18 AM] lgd#5847
+I feel like these options don't really say anything about funding. It's cool that all the ergo logos for the different projects are different, it makes it more fun. Maybe there is a way to indicate that it's related to funding, money, or projects? I think another cool example is the ergo-lend logo, which doesn't even have the sigma, its two hands shaking hands around the octagon. Just as an idea for example, maybe the sigma could be like a piggy bank and have a dollar sign on top of it, as though you are filling it up with money? I like the gold-like color though.
+
+{Reactions}
+👌 (2) 
+
+[11/23/2021 9:34 AM] platos_solids#8520
+the old logo was something like you described right? i have no issues implementing that if that is what is preferred, guess the team just has to take a call
+
+
+[11/23/2021 10:06 AM] lgd#5847
+Oh I'm not sure, I found out about the project recently. I was just saying it as feedback/suggestion.
+
+
+[11/23/2021 10:07 AM] platos_solids#8520
+cool, let the other comment as well 👍
+
+
+[11/23/2021 3:53 PM] gnuion#3794
+I think we should just move fast, we can decide on the logo later. I like the transitions @platos_solids , I am learning how to implement those. Started a new course on react and nextjs.
+
+
+[11/23/2021 3:57 PM] lgd#5847
+any recommendation for that btw?
+
+
+[11/23/2021 5:39 PM] gnuion#3794
+this is the course i am taking, not bad for $10
+https://www.udemy.com/course/nextjs-react-the-complete-guide/
+
+{Embed}
+https://www.udemy.com/course/nextjs-react-the-complete-guide/
+Next.js & React - The Complete Guide (incl. Two Paths!)
+Learn NextJS from the ground up and build production-ready, fullstack ReactJS apps with the NextJS framework!
+https://images-ext-1.discordapp.net/external/7ahkh8CFI3S_gS51mVuQOrba7X5_0g-wwSyYNbX1WmE/%3Fsecure%3DpSvReHlpPDSzx5fzFGp8DQ%253D%253D%252C1637775549/https/img-b.udemycdn.com/course/480x270/3873464_403c.jpg
+
+{Reactions}
+👍 
+
+[11/23/2021 10:26 PM] lgd#5847
+Your UI is really pretty
+
+
+[11/24/2021 6:07 AM] gnuion#3794
+just came with another logo idea, i don't know if it's good.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/840311916768657408/912947427391184906/unknown.png
+
+
+[11/24/2021 9:03 AM] glasgowm#9381
+Like the symbolism
+
+
+[11/24/2021 9:58 AM] glasgowm#9381
+Looking good
+
+
+[11/24/2021 10:00 AM] glasgowm#9381 (pinned)
+Updated this page: http://docs.ergoplatform.org/uses/crowdfunding/
+
+
+[11/24/2021 10:00 AM] glasgowm#9381
+Pinned a message.
+
+
+[11/24/2021 2:56 PM] platos_solids#8520
+cheers! means a lot
+
+
+[11/24/2021 2:57 PM] platos_solids#8520
+thanks man, working on the mobile and the rest of it will be done soon, sorry about the delay, ill be tied up till the 28th and then i will be able to push stuff more
+
+
+[11/24/2021 2:57 PM] rafaelsv#9903
+Is there a github repo for this? In the mean time we can start setting up the project with all the tooling required
+
+
+[11/24/2021 2:58 PM] rafaelsv#9903
+I suppose we are going to use github, we could use the github projects tab to create a couple of cards and start having some more visibility
+
+
+[11/24/2021 6:41 PM] gnuion#3794
+Hello! I have created a temporary github repository for the frontend, but it isn't very active. It uses nextjs and vercel for hosting. You can if you want play around, fork it, open threads, contribute or anything you would like. I am currently taking a nextjs course and after that I want to write some code for ergofund. https://github.com/gnuion/ergofund-frontend
+
+{Embed}
+https://github.com/gnuion/ergofund-frontend
+GitHub - gnuion/ergofund-frontend: ergofund - Fundraiser Dapp lever...
+ergofund - Fundraiser Dapp leveraging the powerful ergo ecosystem - GitHub - gnuion/ergofund-frontend: ergofund - Fundraiser Dapp leveraging the powerful ergo ecosystem
+https://images-ext-2.discordapp.net/external/kTRukvCh4v50lVDwCqVzyUot-KaZ6U5cV4AfR7FUJcc/https/opengraph.githubassets.com/1f74419a2b9b30af1ddec32cfd8aa5b17c893639b5f464cb60edae872e564230/gnuion/ergofund-frontend
+
+
+[11/24/2021 6:42 PM] gnuion#3794
+https://discord.com/channels/668903786361651200/840311916768657408/909233337439227945
+
+
+[11/24/2021 6:42 PM] rafaelsv#9903
+Oh ok, I thought that it was going to be stored inside some sort of community org
+
+
+[11/24/2021 6:43 PM] rafaelsv#9903
+I'll clone the project and add a bunch of nextjs and tooling stuff
+
+
+[11/24/2021 6:43 PM] gnuion#3794
+Yes, later, I might archive the repository when it isn't needed anymore. Although for now it isn't serving a lot, but I keep it for myself, storing code.
+
+
+[11/24/2021 6:44 PM] gnuion#3794
+Awesome!
+
+
+[11/24/2021 8:11 PM] LADOPIXΣL#6072
+It occurs to me to adapt ErgoRaffle for ErgoFund by reducing the winning percentage to 0% and allocating the remaining 100% minus the fees to the charity management.
+
+In theory, the minimum amount, the duration of time and the different participants are already contemplated, it would only be necessary to modify the code to send the money to the creator of the crowdfunding alone (charity), instead of dividing it in 2 to send the different percentages.
+
+I do not know if it is contemplated that each person who contributes to crowdfunding must obtain a reward that they have previously selected.
+
+
+[12/08/2021 6:57 PM] rafaelsv#9903
+@gnuion @platos_solids would you guys say that the design for ergo fund is approved? If that is the case I can start slicing the modules from it. I think there was a plan to make it responsive as well so we start from mobile towards desktop
+
+
+[12/08/2021 7:04 PM] gnuion#3794
+Yes, sounds modern! Will we use chakra-ui? The benefit of using a ui library is that many of the coding is done for you and you don't need to worry too much about responsibility.
+
+
+[12/08/2021 7:19 PM] gnuion#3794
+I think https://ergopad.io/ is similar to ergofund. I think they are doing a great job and are good organized.
+
+
+[12/08/2021 8:36 PM] rafaelsv#9903
+We can build any frontend as long as we have the design for it
+
+
+[12/08/2021 8:37 PM] rafaelsv#9903
+Slicing it is not a problem, it's creating the design and idea that takes time
+
+
+[12/08/2021 8:39 PM] rafaelsv#9903
+I'll get started this week creating the boilerplate and slicing some of the card modules, once we have the modules we can place them in different ways
+
+
+[12/14/2021 2:37 PM] rafaelsv#9903
+hey @gnuion could you invite me to your repo, I'll send tonight the baseline for a nextjs project with Chakra-UI and Storybook so we can start slicing the modules
+
+
+[12/14/2021 4:38 PM] gnuion#3794
+Sure! I have started learning Chakra-UI and I must say it's awesome! Love the built in dark mode feature! Fantastic! Is this your github? https://github.com/Rafael-SV
+
+{Embed}
+https://github.com/Rafael-SV
+Rafael-SV - Overview
+Rafael-SV has 7 repositories available. Follow their code on GitHub.
+https://images-ext-1.discordapp.net/external/t7ZH5tSFw-mXuHRu1-j6YOcQ2tARexw8VOgUbDueADM/%3Fv%3D4%3Fs%3D400/https/avatars.githubusercontent.com/u/41715272
+
+
+[12/14/2021 9:03 PM] rafaelsv#9903
+It's this one https://github.com/rafaelsorto
+
+{Embed}
+https://github.com/rafaelsorto
+rafaelsorto - Overview
+rafaelsorto has 55 repositories available. Follow their code on GitHub.
+https://images-ext-2.discordapp.net/external/QAglC5SiHseeUzw2pzrq_rbuQivE64VrUfX5q5-En58/%3Fv%3D4%3Fs%3D400/https/avatars.githubusercontent.com/u/177517
+
+
+[12/14/2021 9:14 PM] gnuion#3794
+Cool, sent an invitation. It looks like there are three concurrent projects, ergoraffle, egopad and ergofund. I don't have a clear documentation for the ergofund project, just that it should look something like giveth. We might figure out things as we go. For me it is a very interesting journey and I am so happy people here are so  keen to help! @rafaelsv you are now the core frontend developer for ergofund I guess.
+
+
+[12/14/2021 9:24 PM] rafaelsv#9903
+Thank you @gnuion I believe in all of us having the same level of involvement in this and helping each other out to accomplish our goal which I know will have more people involved as soon as we get this moving
+
+
+[12/16/2021 10:58 AM] gnuion#3794
+https://egghead.io/courses/build-a-modern-user-interface-with-chakra-ui-fac68106
+
+Friend, this is just awesome! Typescript from the beginning! I've been keen to learn typescript for a long time, and now I get to do it! 😁
+
+{Embed}
+https://egghead.io/courses/build-a-modern-user-interface-with-chakra-ui-fac68106
+Build a Modern User Interface with Chakra UI
+After completing this course, you will be able to build well-designed user interfaces without spending a lot of time (if even) styling every component and element. You will drastically simplify your front-end work and learn to modify and build on top of existing design systems.
+
+Chakra UI is a React components library with built-in accessibility...
+https://images-ext-2.discordapp.net/external/Fhg4KTpDyVRN3akCgeDKIQMGYjAIzeppuDVI6vG14C0/https/res.cloudinary.com/dg3gyk0gu/image/upload/v1633112016/next.egghead.io/resources/build-a-modern-user-interface-with-chakra-ui-fac68106/main-og-image--modern-interface-chakra-ui.png
+
+{Reactions}
+ergo_orange 
+
+[12/19/2021 10:20 PM] rafaelsv#9903
+@gnuion I finally sat down to setup the tooling and the nextjs configuration to have a nice starter with everything setup, I will be adding a couple of cards to the github project so create some tasks we can tackle and get this moving
+
+{Reactions}
+🤩 
+
+[12/20/2021 8:25 AM] gnuion#3794
+Wow, awesome friend! I didn't know github has built in kamban table! You are very professional! I have been watching some chakra ui tutorials. I am loving it!
+
+
+[02/10/2022 7:26 AM] NoahErgo#4349
+Any updates on this?
+
+
+[02/11/2022 2:52 AM] wombatz#4715
+what exactly is Ergo Fund?
+
+
+[02/19/2022 6:15 PM] gnuion#3794
+Not really, I got stuck on state management. I am just a junior software developer. Having docs around Ergo Fund would help. To the answer what exactly Ergo Fund is, I don't know. Maybe a dapp that aims to be similar to ergoraffle and ergopad.
+
+
+[02/23/2022 12:04 PM] glasgowm#9381
+ErgoRaffle is a crowdfunder too, I suppose it's kinda similar to ergopad too but hadn't thought about it that way. 
+
+But ErgoFund is just the more fleshed out version with more bells & whistles AFAIK but maybe @kushti can add to this. 
+
+Would be cool if you could do stuff like see all the DAOs (once we have DAOs) and contribute to them,  kick-start projects (could even implement refundable ICOs).
+
+
+[04/11/2022 7:35 PM] lgd#5847
+is this project dead?
+
+
+[04/11/2022 7:35 PM] lgd#5847
+i remember seeing a ui mockup that was pretty cool.
+
+
+[04/11/2022 7:36 PM] lgd#5847
+this project could really be useful to smaller projects looking for crowd funding without legal issues selling tokens, something kinda like kickstarter.
+
+
+[04/11/2022 8:21 PM] NoahErgo#4349
+@lgd 
+
+https://github.com/gnuion/ergofund-frontend
+
+https://github.com/ergoplatform/ergofund
+
+{Embed}
+https://github.com/gnuion/ergofund-frontend
+GitHub - gnuion/ergofund-frontend: ergofund - Fundraiser Dapp lever...
+ergofund - Fundraiser Dapp leveraging the powerful ergo ecosystem - GitHub - gnuion/ergofund-frontend: ergofund - Fundraiser Dapp leveraging the powerful ergo ecosystem
+https://images-ext-2.discordapp.net/external/-RXfdnJglEtqZtoYuqW5ftDUVtDFvqEkthxBrlTbTzc/https/opengraph.githubassets.com/32d969ef93497c94bed0c35b72a53d5174f3dfa4b3b83353ff1879a675e576c3/gnuion/ergofund-frontend
+
+{Embed}
+https://github.com/ergoplatform/ergofund
+GitHub - ergoplatform/ergofund: ErgoFund Backend
+ErgoFund Backend . Contribute to ergoplatform/ergofund development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/K7lN_oX-P2hXm0cHrU_MAw2o1qr_kiuGBemSZQEYzqY/https/opengraph.githubassets.com/a135bd1bafd7e9c4feb502eaf242649c077bc1f7a4bcce3a8758c2f32f192e28/ergoplatform/ergofund
+
+
+[04/11/2022 8:22 PM] NoahErgo#4349
+I think Kushti was working on the backend in december but has likely gotten sidetracked
+
+
+[04/11/2022 8:22 PM] NoahErgo#4349
+https://ergofund.vercel.app/
+
+
+[04/17/2022 5:42 PM] gnuion#3794
+Guys, I am taking a nodejs course. Sorry for not being active! It's time to clean up some code!
+
+
+[04/17/2022 8:03 PM] gnuion#3794
+I am trying to understand what the backend does. I ran the docker-compose up command and now this is the output on my terminal. What is it doing?
+
+
+[04/17/2022 8:03 PM] gnuion#3794
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/840311916768657408/965326716782399618/unknown.png
+
+
+[04/20/2022 4:01 PM] glasgowm#9381
+Just looks like it's processing the chain?
+
+```
+Thus this scanner is providing a way to scan and extract boxes and corresponding transactions block-by-block, with forks handling, database storage, configurable database schema and blockchain scanning rules.
+```
+
+{Reactions}
+🥳 
+
+[04/20/2022 8:31 PM] gnuion#3794
+I am keen to learn more 😊.  This is so cool! So the campaigns are stored on the blockchain and the backend is extracting the information from the blockchain? Are there any campaigns active yet? Does ergoraffle use this backend?
+
+
+[04/27/2022 12:33 AM] gnuion#3794
+Guys, added redux-toolkit to the frontend and setup automatic hook generation for the fetch API. This is very cool! Maybe you can give me some input of how the interface for a campaign should look like. Here a sample of how an interface looks like:
+
+```typescript
+interface Campaign {
+  id: string;
+  name: string;
+  image: {
+    url: string;
+  };
+}
+```
+
+
+[04/27/2022 12:37 AM] ezi0.audit0re#1533
+Hey guys.
+
+The backend is using https://github.com/ergoplatform/scanner. Once you setup the backend, the scanner starts and searches the network block by block to find the boxes we need. e.g. campaign boxes, seller box, campaign setting box, etc.
+
+
+[04/27/2022 12:38 AM] ezi0.audit0re#1533
+ErgoRaffle is not using this backend. They have their own backend available here: https://github.com/ErgoRaffle/raffle-backend
+
+{Embed}
+https://github.com/ErgoRaffle/raffle-backend
+GitHub - ErgoRaffle/raffle-backend: A raffle is a crowdfunding serv...
+A raffle is a crowdfunding service that aims to enable anyone to raise enough money needed for a project. The project can be a direct donation to a charity, an academic or business plan, or anythin...
+https://images-ext-1.discordapp.net/external/MjBl4BCgQY2eyJVodPNiVW3K0BKMrRZc5tl_5BpvEzg/https/opengraph.githubassets.com/53b747d83bdd27a5c62247139c1032915cf665efe061e47db6ca33fac1d827ef/ErgoRaffle/raffle-backend
+
+
+[04/27/2022 12:39 AM] gnuion#3794
+So cool! Okay, we need to extract information and put it on the docs.
+
+
+[04/27/2022 12:39 AM] ezi0.audit0re#1533
+Definietly.
+
+
+[04/27/2022 12:45 AM] gnuion#3794
+Can we separate the scanner as a microservice? I like using express.js, just learned it, and would like to use it. I never used Scala before. So I'd only need to know the API for the scanner  and how it works. What data does it send, and what data does it store. Campaign images are for example too heavy, so we might use something like Arweave permaweb to store those and use the information on the blockchain as a pointer.
+
+
+[04/27/2022 12:47 AM] ezi0.audit0re#1533
+The scanner is a separate service. If you look at the docker compose file here: https://github.com/ergoplatform/ergofund/blob/main/docker-compose.yml
+
+You can see that the backend (which is written in nodejs) communicates with the scanner (which is written in scala).
+
+{Embed}
+https://github.com/ergoplatform/ergofund/blob/main/docker-compose.yml
+ergofund/docker-compose.yml at main · ergoplatform/ergofund
+ErgoFund Backend . Contribute to ergoplatform/ergofund development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/K7lN_oX-P2hXm0cHrU_MAw2o1qr_kiuGBemSZQEYzqY/https/opengraph.githubassets.com/a135bd1bafd7e9c4feb502eaf242649c077bc1f7a4bcce3a8758c2f32f192e28/ergoplatform/ergofund
+
+
+[04/27/2022 12:48 AM] ezi0.audit0re#1533
+What the frontend really needs is the API that the backend provides. It would not want to directly contact the scanner.
+
+
+[04/27/2022 12:49 AM] ezi0.audit0re#1533
+For the images, surely we have to store them on a separate file server. IPFS is the best choice to store the original images.
+
+
+[04/27/2022 12:49 AM] ezi0.audit0re#1533
+We can leverage a centralized file server like Amazon S3 to server thumbnails if we want.
+
+
+[04/27/2022 12:50 AM] ezi0.audit0re#1533
+Or maybe IPFS for thumbnails too :))
+
+
+[04/27/2022 12:50 AM] gnuion#3794
+No, web2 as less as possible.
+
+
+[04/27/2022 12:51 AM] gnuion#3794
+As for development, we can surely use web2 at first, but plan to make more and more features web3.
+
+
+[04/27/2022 12:52 AM] ezi0.audit0re#1533
+Not sure what you mean by web3 but I believe using decentralized approaches like IPFS is fair.
+
+
+[04/27/2022 12:53 AM] gnuion#3794
+web3 means trustless, where mathematics and law of physics are the 3rd party. You can come up with your own definition of web3 😂.
+
+
+[04/27/2022 12:54 AM] ezi0.audit0re#1533
+Good.
+
+
+[04/27/2022 12:55 AM] ezi0.audit0re#1533
+By the way, the EIP of ErgoFund has changed and I believe the backend should change too.
+
+
+[04/27/2022 12:58 AM] gnuion#3794
+Well, I'll try to bake something with web2. When the backend is ready, we make it web3. I will try to make a indiegogo clone with a dummy mongodb database. Then we replace some of the database with ergofund backend api.
+
+
+[04/27/2022 1:04 AM] ezi0.audit0re#1533
+I agree.
+
+
+[06/13/2022 8:30 PM] LADOPIXΣL#6072
+I already have the backend working at local, I'm going to start working on a frontend on my own, I'll upload the progress.
+
+
+[06/13/2022 8:32 PM] LADOPIXΣL#6072
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/840311916768657408/985990075533885540/Captura_de_Pantalla_2022-06-13_a_las_21.36.11.png
+
+
+[06/13/2022 8:33 PM] LADOPIXΣL#6072
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/840311916768657408/985990238050611330/Captura_de_Pantalla_2022-06-13_a_las_21.37.59.png
+
+
+[06/26/2022 8:16 AM] LADOPIXΣL#6072
+Do you know if this is still correct?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/840311916768657408/990515939525165076/Captura_de_Pantalla_2022-06-26_a_las_9.21.22.png
+
+
+==============================================================
+Exported 231 message(s)
+==============================================================

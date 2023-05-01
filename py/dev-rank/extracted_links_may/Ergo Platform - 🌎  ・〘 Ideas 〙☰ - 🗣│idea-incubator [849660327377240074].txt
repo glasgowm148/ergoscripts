@@ -1,0 +1,4363 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Ideas 〙☰ / 🗣│idea-incubator
+Topic: https://t.me/Ergopad_Idea_tech
+==============================================================
+
+[06/06/2021 1:14 PM] glasgowm#9381
+https://www.reddit.com/r/ergonauts/comments/nmof7c/hackathon_idea_incubator/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/nmof7c/hackathon_idea_incubator/
+r/ergonauts - Hackathon Idea Incubator
+47 votes and 16 comments so far on Reddit
+
+
+[06/06/2021 1:14 PM] glasgowm#9381
+I wanted to hear some community feedback from ergonauts.
+
+Drop your ideas, thoughts comments.
+
+What would you like to see built on Ergo?
+
+What solutions or topics would you like to see teams teach at ergohack?
+
+Who knows... A dev team might read your idea and do something with it 😎
+
+Topics proposed already for the hackathon below.
+
+* Visual tool for constructing multi-signatures
+(This could be a good first step for visual tools to construct more complex scripts)
+
+* Tokenization schemes
+
+(Decentralized ownership is a good way to distribute wealth, how can it be done in a fair manner?)
+
+* Tools for NFTs
+
+(A smart contract for a lottery selection from a numbered lot.)
+(Have a collectible section to the auction house or a way to group by policy so that the auction house isn't overwhelmed by these 1/10,000 pieces)
+(Group Minting of NFT’s Allow minting more than 1 under the same policy)
+
+* Applications for data notarization and names registration
+
+* Stealth addresses pool implementation
+(stealth pools)
+
+* Applications on top of mixer API
+
+(stealth dApps) 
+
+* More data connectors for the oracle pools
+(expanding oracle date computational ability)
+(expand the number of oracle pools)
+
+* Improvements to ErgoScript 
+
+(not all the ErgoTree features are projected into Ergoscript)
+
+* Improvements to Ergo AppKit
+(basic library for constructing transactions and building off-chain logic on top of for Java and JVM languages)
+
+* Improvements to Ergo Node Interface and - Ergo Headless dApp Framework 3
+(improvements to the basic library for constructing transactions and building off-chain logic with Rust)
+
+* Applications on NiPoPoWs
+
+
+[06/06/2021 1:15 PM] glasgowm#9381
+```
+This is one thing that would require plutus coding as well and may only require Eego as an oracle but I think it is a really good idea.
+
+Staking ADA pays rewards every epoch, and spending ADA has transaction fees. These constant financial incentive to save ADA make it harder to justify spending.
+
+Enter the Layer 2 Nano sidechain, wrapped Nano and the Cardano-Nano Oracle powered by Ergo. Nano is fast, feeless and very eco friendly. It’s feelessness and speed makes it an incredible asset to be used as a cash like reward. It provides excellent liquidity.
+
+The problem that Ergo could solve here is providing an Oracle to check the relative value of NANO-ADA. This (coupled with Nano as a layer 2 blockchain and wrapped asset) would enable Cardano Stake Pool Operators to offer Nano in lieu of ADA as a portion of a staking reward.
+
+Each epoch, a smart contract is generated between the participating stake pool operator and the delagator. The function of that contract is to define what % of the delegators staking reward will be provided in Nano.
+
+At the end of an epoch, the value of Nano is calculated based on the Oracle’s information. And that amount sent to the delagators wallet as liquidity.
+
+This may require a Nano stable coin like smart contract or perhaps even one for each stake pool operator that wants to participate in the program to ensure efficient use of the code.
+
+This idea sees Nano as essentially a public service. It financially incentivized the Cardano network operators to support Nano, as delagators would be willing to forgo some of their ADA for Nano.
+```
+
+
+[06/06/2021 1:15 PM] glasgowm#9381
+```
+Tools for NFTs:
+
+    Creator's account/page linked to their address: this helps with authenticity (you see who you're buying from, avoiding scams), and helps creators build their brand image.
+
+Without these, artists won't feel encouraged to actively participate in the Auction House as it would keep them anonymous.
+
+    Being able to save your favorite creators, browse all the NFTs they have up for auction with one click, and (ideally) get notified when they have something new up for auction,: increases retention, customer engagement and repeat purchases
+    Newly auctioned NFTs could be shown as small icons/previews in the empty space between "Active auctions" and the "New Auction" button.
+
+This gives more exposure to newer auctions, which otherwise would only appear on the main page when they're closer to end (because the default sorting option is "lowest remaining time".
+
+Of course people could sort by "Latest bids", but showing them as previews in that empty space would a) optimize empty space, and b) avoid users from clicking multiple times (i.e. more efficient user experience)
+```
+
+
+[06/06/2021 1:16 PM] glasgowm#9381
+```
+I know it seems cheesy and overdone but I think a simple Ergo lottery could bring in a lot of users.
+Make it provably fair using the blockchain to randomize and select the winners. Most smart contract platforms have at least some sort of lottery/gambling related dapp. Rather than focus on gambling, I think a lottery is 'safe' enough that it wouldn't tarnish the projects reputation. You could even use some of the proceeds to donate to charity or the BPSAA or other decentralization efforts.
+```
+
+https://www.ergoforum.org/t/a-lottery-on-top-of-ergo/137
+
+{Embed}
+https://www.ergoforum.org/t/a-lottery-on-top-of-ergo/137
+A lottery on top of Ergo
+First some background  The idea in this post is motivated from the post about Proof-of-Activity as a Smart Contract.  The goal of “proof of activity” is to reward members for their “activity” (i.e., for running a full node).  Without going into details, the approach essentially is based on “proof-of-stake” such that people who are active receive...
+
+
+[06/06/2021 1:17 PM] glasgowm#9381
+```
+Maybe additional defi projects like lending/borrowing, integration with CEX to get more liquidity for trading. Lastly, projects that comes out of any of our hackathon or other ergo event should be part of our future launchpad project where ergo holders should have an opportunity to invest in these projects early on not venture capitalist or whales.
+```
+
+https://www.ergoforum.org/t/bonds-based-on-ergo-or-the-yield-protocol/128
+
+{Embed}
+https://www.ergoforum.org/t/bonds-based-on-ergo-or-the-yield-protocol/128
+Bonds based on Ergo (or the "Yield protocol")
+EDIT: Full code available here.  The following idea is motivated by the paper “The Yield Protocol: On-Chain Lending With Interest Rate Discovery” which uses the Ethereum model.  I think the same thing can be implemented in Ergo in a possibly easier way.  The following uses the idea of “zero-coupon bonds”, which are essentially tokens issued by a...
+
+
+[06/07/2021 10:10 PM] CryptoTheo#7410
+Hey everyone, my team has an idea for the hackathon that's basically a platform for making mutual funds that invest in various user-specified cryptos using the Ergo DEX, which I see is still in development but has a CLI. It would provide useful functionality for anyone who wants to pool funds into their own diversified portfolio, and I haven't seen anything like this on any other blockchain (the closest I've seen is crypto20.com, which doesn't allow users to make their own indexes). We have a frontend and backend developer and are planning on making a proof of concept or at least presenting the details of how it could work on Ergo. Any thoughts or feedback is welcome!
+
+{Reactions}
+👍 (4) 
+
+[06/08/2021 10:00 AM] glasgowm#9381
+So someone could make their own index, and others could join if they like the spread? What's the benefit of it being a mutual fund?
+
+
+[06/08/2021 10:44 AM] Vesi Hiisi#2550
+I have seen similar ideas, where not having to actively manage own investments, and passive income are used as selling points.
+
+{Reactions}
+😍 
+
+[06/08/2021 11:43 AM] glasgowm#9381
+2 (easysh) ideas
+
+- Extend Telegram tip-bot. Combot has a karma rating system, something similar could be implemented (or utilised from combot directly) to award the most upvoted people in the chat a % of ergs from a prize pool each month. Community Marketing Machine 🙂
+-- More elaborate, but https://www.ergoforum.org/t/a-lottery-on-top-of-ergo/137 could perhaps be combined also.
+- Discord bot for tips, price queries, etc. I've used RedBot before which is good, There is a 'cog' library for add-ons, and people can make their own cogs fairly simply.
+
+{Embed}
+https://www.ergoforum.org/t/a-lottery-on-top-of-ergo/137
+A lottery on top of Ergo
+First some background  The idea in this post is motivated from the post about Proof-of-Activity as a Smart Contract.  The goal of “proof of activity” is to reward members for their “activity” (i.e., for running a full node).  Without going into details, the approach essentially is based on “proof-of-stake” such that people who are active receive...
+
+{Reactions}
+😍 👍 
+
+[06/08/2021 5:31 PM] manakin#0029
+I'm with Lactem 
+
+Outside of the financial benefits of decentralized pooled investing at-scale, we see this project as an opportunity to eventually enable trustless atomic swaps across a variety of networks
+
+
+[06/08/2021 6:24 PM] CryptoTheo#7410
+Yeah exactly! Ideally it would be a platform that allows for both -- mutual funds suit some people better because the (riskier) active management style has a potentially higher upside than a passive index
+
+
+[06/08/2021 11:21 PM] kushti#0978
+Mixicles - simple private contracts on top of oracle data https://research.chain.link/mixicles.pdf . Implementation-wise, onchain part would simple, p2p offchain interaction is needed (and would be the most labor-intensive part likely)
+
+
+[06/10/2021 9:16 AM] scalahub#2618
+Another suggestion for ErgoHack is to have better error messages when script reduced to false.. like what exactly caused it .. more dev oriented but will be useful for general adaption
+
+{Reactions}
+❤️ 
+
+[06/10/2021 10:23 AM] morphic#4133
+Good idea, but it is hard to do in v4.x and not worth the efforts. 
+It is however make perfect sense to do in v5.x.
+
+
+[06/10/2021 6:10 PM] Krypto#8713
+Yes in most "wealth management" apps people are encouraged - rightly - to split their store of value into self managed and pooled funds.
+
+
+[06/10/2021 6:14 PM] Krypto#8713
+The general problem with this is the atomicity of more complex swaps.  For instance, even as simple a transaction as a motherboard maker hedging against copper and chip prices for a simple 3 scenario hedge (5 is more robust, 7 is pro) might require a half dozen trades. Those all have to be kept open to narrow limits for long enough to line up all trades then they have to all execute or not.  This alone is why big brokerages dominate swaps & why banks view them as not core business for even commercial clients that need to hedge much more.
+
+
+[06/10/2021 6:15 PM] Krypto#8713
+Look how screwed up supply chains are now.  If everyone had hedged both by inventory & investing then inflation would not be up for uncertainty or gouging.
+
+
+[06/10/2021 6:17 PM] Krypto#8713
+Both excellent proposals. The Tip bot is a super friendly entry point.  Imagine also a choice of such bots, each with degrees of personality customized say by stake pools that then compete to make the base bot tech better.
+
+{Reactions}
+🤟 
+
+[06/10/2021 6:19 PM] Krypto#8713
+So if I run "Aphrodite stake pool" then I customize the bot (ideally libre software license ) to make it super friendly for people who want crypto for, um, "dating".  And if I run Artemis stake pool, I'm targeting preppers.
+
+
+[06/10/2021 6:20 PM] Krypto#8713
+So when you get your first tip you can choose base or trust a stake pool with this low stakes wallet for a while before trusting then with your big stakes.
+
+
+[06/10/2021 6:21 PM] Krypto#8713
+This encourages improving the bot to suggest things of use to different audiences, help set up accounts of interest to different audiences.  But still gives enough control to pull the code license from scammers
+
+
+[06/10/2021 6:22 PM] Krypto#8713
+Need a wiki for these kinds of things, kick em around for a few weeks before coding
+
+
+[06/10/2021 6:28 PM] Krypto#8713
+Indexes are critical to evolve the platform. One thing I would definitely get involved in, is a simple means to make portfolios of mixed stock, bond, fiat, crypto, commodity assets that are well vs poorly placed in case of specific tech events including patent licensing, standards adoptions by specific vendors  & of course breakthroughs.  So you can make an EV index that will go up with EV prevalence.  And a hedge for a specific fiat that should go up as the fiat goes down. The point of doing this with ERGO is that market makers then can treat it directly as an instrument you can buy and then execute a complex order atomically.
+
+
+[06/10/2021 6:29 PM] Krypto#8713
+A few cases showing how cheap this is to do with Ergo vs setting up a hedging indicator index with a bankster, and you'll get fintech people pouring in.
+
+
+[06/10/2021 6:30 PM] Krypto#8713
+Scott Adams once made a set of indexes for each character in Dilbert.  It was awesome. Huge publicity for doing this right b
+
+
+[06/10/2021 11:15 PM] Krypto#8713
+Group minted NFT seems really strategic.  Artists make limited print runs all the time, it's an established paradigm to have print 2/25, 454/1000 often handwritten on the print by the artist who may hand sign it. It also reduces the NFT price to a tolerable amount.  Just certifying existing prints in a provenance system adds value.
+
+
+[06/11/2021 2:57 PM] sakata#4279
+@here seeing as we have so many pairs of hands on board, i thought why not share some ideas for inspiration? what i've been thinking about:
+- an extension/integration for ergoauctions that allows the drawing onto a canvas (or some web app) & uploading directly as an auction // functionality to pull & initiate an auction for a tweet
+- dice & general randomness games
+- p2p escrow
+- library for taking payments in erg on a website
+- basic social networking using NFTs to represent an account
+- basic database mapper contracts (?) for integrating ergo alongside an existing db solution
+
+{Reactions}
+💯 (7) 
+
+[06/11/2021 4:54 PM] Dergler#0451
+Ergo node on Urbit?
+
+{Reactions}
+ergo_white (2) 
+
+[06/11/2021 4:55 PM] Dergler#0451
+or how about artist validation for your secondary market NFT's? showing the original address which minted the token?
+
+{Reactions}
+ergo_white (3) 😍 (2) 👍 
+
+[06/11/2021 5:21 PM] kushti#0978
+Unstoppable news feed - publish news titles and IPFS links in outputs associated with some token, then scanner is building RSS feed automatically from the blockchain and IPFS
+
+{Reactions}
+ergo_orange (3) 👌 
+
+[06/12/2021 2:10 AM] Krypto#8713
+Group minted NFT seems really strategic.  Artists make limited print runs all the time, it's an established paradigm to have print 2/25, 454/1000 often handwritten on the print by the artist who may hand sign it. It also reduces the NFT price to a tolerable amount.  Just certifying existing prints in a provenance system adds value.
+
+{Reactions}
+👍 (4) 
+
+[06/12/2021 2:25 AM] Krypto#8713
+I like that.  Among other advantages, if a story is retracted or corrected, that change is also forcibly imposed into the chain so you can see the edit.  Just as if it was an edited article in Wikipedia.
+
+{Reactions}
+👍 (3) 
+
+[06/12/2021 5:51 PM] Dergler#0451
+Anyone making a royalties contract example for artists?
+
+{Reactions}
+😍 🕵️ 
+
+[07/03/2021 5:57 PM] Ergonaut_Alpha#1583
+I have two separate ideas for possible consideration.
+
+1) a Rotating savings and credit association (ROSCAS) or Tanda  ( informal loan club) app. Each member puts $ in the pot and receives the pot every ‘X’. I know many people that use this as a method of saving $ , especially when income is low.
+
+1) sports squares app. Based on a ‘super bowl square’ format . 2 teams ‘x’ and ‘y’. 10 columns and rows for 0-9 scores . You can have all sorts of fun with the payouts . Would require use of oracles ( which is far far far beyond my comprehension ) but I think the application and market for this is massive .
+
+{Reactions}
+ergo_orange 👍🏻 
+
+[07/05/2021 6:51 PM] Kaludan#3601
+Decentralized distributed oracle pools that manage reliability and auto-assign contracts so that everyone can participate in them. Open to all with minimum hardware/throughput req and all contracts/dapps are auto assigned.
+
+{Reactions}
+ergo_orange 
+
+[07/05/2021 7:09 PM] glasgowm#9381
+I think the oracle pool design already covers most of that? Apart from the 'auto-assign contracts'
+
+
+[07/05/2021 7:10 PM] Kaludan#3601
+naw, it's still kind of an in-club only thing
+
+
+[07/05/2021 7:10 PM] Kaludan#3601
+go read the Oracle-pools chat
+
+
+[07/05/2021 7:10 PM] glasgowm#9381
+aye it's also a kind of - only 10 of them thing. The design itself I mean
+
+
+[07/05/2021 7:10 PM] Kaludan#3601
+Yeah so kinda 2 steps forward 3 steps back
+
+
+[07/05/2021 7:12 PM] glasgowm#9381
+? only 10 of them so far. They're planning to be used as you described.
+
+
+[07/05/2021 7:14 PM] Kaludan#3601
+Oh nobody said that
+
+
+[07/05/2021 7:14 PM] Kaludan#3601
+Basically made it sound like it's invite only
+
+
+[07/05/2021 7:16 PM] glasgowm#9381
+They're only used internally for sigmausd at this point afaik. Maybe gravity too but that's yet unreleased. No active development on them. I'd guess once they're a bit more tested there and people aren't working on ergodex there'll be work to make them more accessible.
+
+{Reactions}
+👍 
+
+[07/05/2021 7:17 PM] glasgowm#9381
+emurgo also plays a part in them I believe and is just getting back after its reshuffle
+
+
+[07/11/2021 9:16 PM] QU₳Z₳R#0436
+Hey!   I'm working on something similar, it's listed in Catalyst ideascale as ESUSU
+
+
+[07/11/2021 9:17 PM] QU₳Z₳R#0436
+I'd love to know about your research on ROSCAS
+
+
+[07/14/2021 5:40 PM] WilfordGrimley#0124
+Cadano is having a Hackathon https://twitter.com/IOHKMedia/status/1414993309605449735 
+
+Putting a team together 😎 I want to use Ergo Oracles among other tools to build a DOA for unions.
+
+{Embed}
+IOHK Media (@IOHKMedia)
+https://twitter.com/IOHKMedia/status/1414993309605449735
+Today @Cardstarter are announcing Hack Cardano! A hackathon especially got Cardano-related projects where projects can compete for a grand prize of $100,000. The event's first phase starts on 19th July, and our own @LarsBrunjes will be a judge at the event. Watch this space!
+Retweets
+162
+Likes
+597
+https://images-ext-1.discordapp.net/external/4eCO14e7I8YNSW0v3oaoCrro4OBhS_lkkjrKN7PzhNo/https/pbs.twimg.com/media/E6MQa4kXoAkeihE.jpg%3Alarge
+Twitter
+
+
+[07/14/2021 5:41 PM] WilfordGrimley#0124
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/864909371032469524/Screenshot_20210714_123242.png
+
+
+[07/21/2021 1:35 AM] Peppers#1111
+Suggestion: easier way for bidders to bid in the auction house. Maybe even bid with SigUSD? @anon_real
+
+
+[07/21/2021 1:36 AM] Peppers#1111
+It's a bit annoying having to go through extra steps and transfer erg to the auction house to bid on an NFT.
+
+
+[07/21/2021 1:36 AM] Peppers#1111
+Other auction houses (Algorand for example) allow you to use a chrome extension to "sign in" and bid.
+
+
+[07/23/2021 3:20 AM] JOFLITO#9983
+I have an idea that could be good, but it seems impossible to code
+
+
+[07/23/2021 3:20 AM] JOFLITO#9983
+a lottery
+
+
+[07/23/2021 3:20 AM] JOFLITO#9983
+but instead of a ticket you buy a number of shares on the mining process
+
+
+[07/23/2021 3:21 AM] JOFLITO#9983
+if you mine the block you get the reward
+
+
+[07/23/2021 3:21 AM] JOFLITO#9983
+if you don't then it's the same than any real life lottery/raffle
+
+
+[07/23/2021 3:22 AM] JOFLITO#9983
+I think the best is to wait for the charity raffle and smart-pool projects to finish
+
+
+[07/23/2021 3:22 AM] JOFLITO#9983
+and then find a way to merge them
+
+
+[07/23/2021 3:23 AM] JOFLITO#9983
+what do you guys think?
+
+
+[07/24/2021 1:16 AM] Neuch#0684
+sounds a lot like proof of stake
+
+
+[07/24/2021 1:17 AM] Neuch#0684
+when you stack, you buy numbers. If your number is choosen, you are given right to mine
+
+
+[07/24/2021 1:52 AM] JOFLITO#9983
+yeah, but Ergo is not Proof of Stake
+
+
+[07/24/2021 1:52 AM] JOFLITO#9983
+and not every holder mines
+
+
+[07/24/2021 1:52 AM] JOFLITO#9983
+so I could take a lottery ticket from the miners
+
+
+[07/25/2021 2:48 PM] root7Z#8699
+I think this idea also sounds like collateralized mining
+
+
+[08/05/2021 7:19 PM] bk#4411
+https://1729.com/inflation/
+
+{Embed}
+https://1729.com/inflation/
+A $100k Prize for a Decentralized Inflation Dashboard
+Build a censorship-resistant inflation dashboard. If we pick your project, we'll fund it with $100k.
+https://images-ext-2.discordapp.net/external/SxNAeIFiA2_AxQ04hqXtmRqCsSLmazMkmKukf3BibFg/https/content.1729.com/content/images/2021/07/inflation-1.webp
+
+
+[08/12/2021 7:44 PM] weirdhousenoisesat837pmeveryday#4778
+Is there an escrow agent service in the ergo ecosystem? I’ve been thinking it may be a good idea to develop.
+
+
+[08/12/2021 7:46 PM] weirdhousenoisesat837pmeveryday#4778
+For instance if I’d like to swap crypto directly with an individual that I don’t know, but with some pre agreed parameters (amount, exchange rate, etc)
+
+
+[08/12/2021 7:47 PM] weirdhousenoisesat837pmeveryday#4778
+(Maybe the ergodex will address this in some way)
+
+
+[08/12/2021 7:51 PM] weirdhousenoisesat837pmeveryday#4778
+So seller contributes their asset into an escrow account, and buyer contributes their funds to the same escrow account, and the exchange of assets/funds only goes through if both parties satisfy their conditions
+
+
+[08/18/2021 4:12 PM] kushti#0978
+Who's selling the shares ?
+
+
+[08/18/2021 4:21 PM] kushti#0978
+For onchain assets we have atomic swaps (ErgoDEX is built on), would be good to get escrow services for physical goods (and maybe crosschain ? )
+
+
+[08/18/2021 4:39 PM] weirdhousenoisesat837pmeveryday#4778
+Thank you for the response. Yes, trustless purchase of goods was the use case I was thinking. Although not strictly physical, for example it could be a PDF. I’m assuming a file is not an on chain asset, but forgive me if I’m wrong as I’m relatively new.
+
+
+[08/19/2021 6:46 AM] Deleted User#0000
+What if decentralized membership platform? :thonk:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/877790661531824128/vvcap_2021-08-19-02-45-45.png
+
+
+[08/19/2021 4:10 PM] anon_br#2282
+Dude, it can works! A censorship resistant membership platform is such a great idea. Some folks get censored on those platforms dues to political views of those who maintains that, or statal pressure.
+
+{Reactions}
+♥️ 
+
+[08/19/2021 4:12 PM] glasgowm#9381
+Lol nice effort on the ss
+
+{Reactions}
+♥️ 
+
+[08/19/2021 4:13 PM] glasgowm#9381
+Contracts from raffle or ergofund would make a good base
+
+
+[08/19/2021 5:52 PM] anon_br#2282
+Sure!
+
+
+[08/19/2021 10:18 PM] Deleted User#0000
+also the commision they charge of 5 to 12% is a lot,  you can support someone job/lifestyle/art/anything and get access to some exclusive content or unique crypto platform things like NFT's or just a list of names/time supporting
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/878025208873746532/vvcap_2021-08-19-18-16-34.png
+
+
+[08/20/2021 1:52 AM] Deleted User#0000
+Can raffle NFT's?! instead auction, Raffle!
+
+
+[08/21/2021 3:14 AM] JOFLITO#9983
+miners
+
+
+[08/21/2021 3:18 AM] JOFLITO#9983
+it is like renting hashrate, but a very very small amount
+
+
+[08/21/2021 3:18 AM] JOFLITO#9983
+so it's cheap, with a very low chance of winning, but with great returns, like a lottery
+
+
+[08/21/2021 3:20 AM] JOFLITO#9983
+I think that it could be a merge between the raffle and smartpools
+
+
+[08/21/2021 3:23 AM] JOFLITO#9983
+And that opens up the option to mine for a few hours everyday, some of us have notebooks with GPUs that we use for work and gaming
+
+
+[08/21/2021 3:24 AM] JOFLITO#9983
+so we can only mine once in a moontime and with low hashrate
+
+
+[08/21/2021 3:24 AM] JOFLITO#9983
+pools prefer miners that are steady
+
+
+[08/21/2021 3:24 AM] JOFLITO#9983
+if we sell the shares regardless of how consistent we are, we could even increase the amount of hashrate of the platform
+
+
+[08/21/2021 3:25 AM] JOFLITO#9983
+maybe not directly shares, but lets say a 1 in 10^6 chance to mint the block. I don't have a clue of how many shares would that be
+
+
+[08/21/2021 3:30 AM] JOFLITO#9983
+It is renting mining hash, but you are obligated to rent solo mining.
+
+
+[08/22/2021 9:37 PM] jahnreektor#4775
+a membership platform is something I've thought of before
+
+
+[08/22/2021 9:38 PM] jahnreektor#4775
+@Deleted User are you a dev too?
+
+
+[08/23/2021 6:57 PM] Marty#4039
+I wonder if this idea from Chia whitepaper could be added via a smart contract. Still have some details to work out, but something like this:
+
+I use paper wallets as a backup to storing my coins on a computer. But if someone finds my paper wallet they can basically take everything.
+What about smart contract generated paper wallets where you have settings and final say from your device. So like if I have my erg on a password encrypted wallet on my smartphone, and someone grabs my paper wallet, it let's them access those coins but first it has like a 5 day (or optional time length) delay in which time my smartphone is notified via the wallet and I have an opportunity to say "no, that wasn't me, disable that paper wallet." Or, if it WAS me and I lost my phone, I just wait for the time to expire and I get control of that paper wallet back.
+
+{Reactions}
+👀 
+
+[08/23/2021 6:59 PM] Marty#4039
+It also works if you forgot the password on your phone, just time-delays recovery
+
+
+[08/26/2021 12:01 AM] Deleted User#0000
+No, im just a miner and crypto enthusiast, had the idea and thought it was good to drop it here. like in particular because it also gives sigusd an use case 🙂
+
+
+[08/28/2021 4:45 PM] JOFLITO#9983
+I got some Cardano NFT's 10k for grabs, you get 2 random. CardanoTrees is the name of the collection
+
+{Reactions}
+👍 
+
+[08/28/2021 8:15 PM] Leif Erickson#8939
+Any projects need a hand?  I'm switching career path by end of year and bounties and hobby work is good, but hoping to be more involved in existing or upcoming ergo jobs. Any suggestions appreciated?!
+
+
+[08/28/2021 8:23 PM] morphic#4133
+What is your experience and background?
+
+
+[08/28/2021 8:24 PM] morphic#4133
+also #💰│jobs-bounties
+
+
+[08/28/2021 8:56 PM] Leif Erickson#8939
+M.S. Electrical Engineering/Neural Network thesis, DBA, sysadmin, -all sort of admins-, full stack Dev incl. all sorts of languages -old school to recent-, big fan of docker solutions, good with networks and cloud architecture.  Jack of All Trades in a sense; *nix or M$, prefer Ubuntu.  I started at as a kid with assembly on a C64, recently back in to ML and AI and the GPUs led me to crypto.  I'm 40 something old (young?) and dont need 40hrs a week, just something here and there working with good people, solving complex problems!
+
+
+[08/28/2021 9:01 PM] Leif Erickson#8939
+And thanks @morphic, I'll check out bounties after I wrap up a couple other projects (and move on from my 9 to 5).
+
+
+[08/30/2021 8:43 AM] morphic#4133
+Sounds awsome! Then you are in a right place 🙂 
+See my message in #💰│jobs-bounties https://discord.com/channels/668903786361651200/880827367868743730/881806089258143764
+
+
+[09/03/2021 3:54 AM] Deleted User#0000
+Hi! i have a idea -> p2p NFT dex trustless trade plattform. Bob have a NFT, Alice who is a friend of a friend want to buy it from him directly, they reach an agreement on the price, so alice have to send the ergs to bob and trust him will send the NFT. what if the auction house or other make a trustless tool for this and have a little fee over the transaction. i think it would be a lot usefull!
+
+
+[09/03/2021 4:00 AM] Deleted User#0000
+bob put the NFT the PRICE and the only ADDRESS who can buy it, the wallet who can buy it have to send the 100% of the price, if buyer dont send the 100% the trade is canceled, if buyer send the 100% trade is completed, if the buyer send more than 100% trade is also completed and the excedent is sent back to buyer with the NFT in the same tx, if the buyer never send any erg, after X time, the NFT is sent back to owner wallet
+
+
+[09/03/2021 4:02 AM] Deleted User#0000
+i know 0 of dev, but i think it is possible to do and usefull for that purposes, sorry if i am wrong or if this already exists and im doing ridiculous lol
+
+
+[09/08/2021 8:26 PM] glasgowm#9381
+https://hackcardano.cardstarter.io/
+
+{Embed}
+admin.admin
+https://hackcardano.cardstarter.io/
+Hack Cardano - CardStarter Labs Blockchain Hackathon Event
+CardStarter Labs is thrilled to announce Hack Cardano! — a hackathon event which gives our community members a chance to gain exclusive access to the Cardstarter Accelerator Program and showcase their projects.
+https://images-ext-2.discordapp.net/external/M9pKsAPmpvAmuUm5VsTuxlc-uVT5Nkpz9s3-pDqrCEY/https/hackcardano.cardstarter.io/wp-content/uploads/2021/09/hack-cardano-social-share-min.png
+
+
+[09/08/2021 8:26 PM] glasgowm#9381
+15  Hackathon Projects there for inspiration
+
+
+[09/09/2021 10:51 AM] morphic#4133
+It may be an interesting topic for the hackathon to implement this EIP-0020: Ergo Pay ( https://github.com/ergoplatform/eips/pull/37)
+There are two parts: 
+1) proof of concept online service 
+2) proof of concept implementation in Android application.
+A team can either do both from scratch, or alternatively, extend existing projects. For example auctionhouse (as online service) and ergo-wallet-android (as Andorid app).
+
+{Reactions}
+⭐ (2) 
+
+[09/09/2021 5:57 PM] glasgowm#9381
+[–]stilldreamy
+ 
+2 points 2 hours ago 
+
+Some ideas for ErgoHack that someone may want to steal from me (I have no time).
+
+    Create an Ergo tipping bot for use on r/erg_miners or other parts of reddit. They have fresh ERG coming in on a regular basis, so might be willing to tip ERG. They also value ERG so would like be tipped in it.
+    Create a tool to calculate how much ERG one is up or down by in their wallet only factoring in transactions where they bought SigRSV and coverted back to ERG later. It could also show what they would be up or down by for a specific set of conversions if they completed the conversion back to ERG now.
+    Get really creative and come up with an alternative earning model for investing in DEXes. We need an alternative model that offers a way to avoid impermanent loss. I don't want to see any comments saying this is not possible. I'm not saying it is or is not possible, but many things that seemed impossible in the past have been figured out. I'm just suggesting it is worth trying to come up with something. Impermanet loss is terrible, and for the most part, the people who are willing to take on that risk are the ones who don't fully understand it. With impermanent loss, if the coin goes up in value, you lose and if it goes in value you lose. You are almost guaranteed to lose except for with stable assets. That's my point, it's a broken model for the liquidity provider.
+
+
+[09/10/2021 12:28 AM] manansh#7167
+Wanted to run an idea by you guys. I was thinking about cool ways we could get the community more involved and onboard new users. I was thinking we use a similar model to what coinbase earn does (https://www.coinbase.com/earn).
+
+Have users complete & learn about Ergo for a small reward. Similar premise to (1729.com)
+
+The benefit is that we give people an excuse to participate in our ecosystem while educating them. For ex: One task may be to install a Yoroi wallet. After completing the task, they now have the wallet and have funds in it. We have removed the friction people may have without an incentive like this. They are now free to engage with other dApp's etc.
+
+I have created a quick mockup on figma: https://www.figma.com/proto/cVu5S4g4QvtGsvYIdVgNxt/ERGO-Platform-Copy?node-id=668%3A212&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=668%3A212&show-proto-sidebar=1&hide-ui=1
+
+Let me know what your thoughts are and what possible constraints you guys see. I feel like this would be a great marketing / onboarding tool to have.
+
+
+[09/10/2021 3:09 AM] jahnreektor#4775
+@manansh I think that's a fabulous idea.  I'm working on an education/informational site as well (I registered whyergo.com two days ago!), but it will be mainly static and focused on excellent copy/design.
+
+{Reactions}
+ergo_white 
+
+[09/10/2021 3:11 AM] manansh#7167
+Great! Let me know if you need any help! Would be down to learn something new.
+
+
+[09/10/2021 3:11 AM] jahnreektor#4775
+Very cool. will reach out if it sounds like a good opp!
+
+
+[09/10/2021 3:21 AM] manansh#7167
+sounds good! look forward to hearing from you.
+
+
+[09/10/2021 6:50 PM] nosynq#1900
+Hi there! I just want to bring an idea for hackathon. Or maybe for private dev who may be interested in it. Imagine a smart-contract that will reveal a secret string to the first owner of NFT with certain value. For example if I buy NFT for 100usd (above threshold preset in smart contract) I will additionally receive kinda token with a secret string in it. I’m not a dev, sorry. Is it possible?
+
+
+[09/11/2021 1:39 AM] tryv1#3141
+I think it's a great idea. I was able to get a couple of my friends into crypto through the Coinbase earn program which is very newb friendly.
+
+
+[09/15/2021 1:14 PM] gnuion#3794
+Hello guys! I have a problem with my wifi smart plug, it uses 3rd party app and I don't know if it's going to be around in the future. Same for my wifi 360 degree camera bulb. Wouldn't it be nice if I could access those through a dapp?  Maybe it could handle storing data also (camera data and power monitoring data), but encrypted, so only me would be able to access those. 
+
+Are we going to touch the Internet of Things industry? I think huge potential there! Just as an example...
+
+
+[09/15/2021 1:17 PM] glasgowm#9381
+yes that is a problem those apps are terrible but I would I imagine it's generic proprietary software that no one has bothered cracking
+
+
+[09/15/2021 1:19 PM] gnuion#3794
+yes, because I am also worried about my privacy. I know that my camera data go to a unknown server and I have no guarantee that someone is not observing me right now.
+
+
+[09/15/2021 1:24 PM] glasgowm#9381
+This is the technique I go for https://www.youtube.com/watch?v=5rdXvtdSIF8
+
+{Embed}
+memer2221
+https://www.youtube.com/watch?v=5rdXvtdSIF8
+Four Lions - Anti Surveillance
+https://images-ext-2.discordapp.net/external/3-y7jaYxLGb7qSOjHhxK1uD9ScuYClbra1WmQHqhFEM/https/i.ytimg.com/vi/5rdXvtdSIF8/maxresdefault.jpg
+
+{Reactions}
+😂 (2) 
+
+[09/15/2021 3:59 PM] GreenEggsAndSam#7091
+@gnuion what does a dapp solve that a self hosted solution (e.g home assistant) cannot?
+
+
+[09/15/2021 7:20 PM] boomer#0823
+I could see some benefits to having a centralized platform for those 3rd party devices as long as its funded and maintained properly. In the long term, you'd have to choose which devices would fall out of support based on the standards and such you publish.... It'd remove the easy vulnerabilities commonly exploited on the crappy 3rd party apps that those devices ship with but it'd be tough to keep up with all of the models out there, especially when most of those solutions are designed to be as cheap as possible. They wouldn't reach for your platform unless you made it cheaper than what they're already doing. Then you also have the issue of supporting new features to make sure they stay on your platform. I'm also wondering why would you use a dApp?
+
+
+[09/15/2021 8:58 PM] gnuion#3794
+A dApp would be used to provide a universal platform to access the devices that is guaranteed to work for ever. The point of a dApp I think is to make something that can exist on its own. You would not need to maintain the servers and infrastructure needed for a dApp. It's maintained in a decentralized manner by the community. Like the Bitcoin ledger. It does not need a central authority to maintain it.
+
+
+[09/15/2021 9:00 PM] gnuion#3794
+I would like the transition from self hosted to community hosted. I hope I can make sense...
+
+
+[09/16/2021 6:38 PM] GreenEggsAndSam#7091
+Spitballing an idea here: I want to see if building an NFT based login service is an idea that has legs. Anyone heard of something similar on ergo or a different chain?
+
+
+[09/17/2021 1:03 AM] coop#2582
+Not to ruin that, but what application do you seeing this used as? Wouldn't a password manager or 2FA key solve something this is trying to do?
+
+
+[09/17/2021 2:25 AM] GreenEggsAndSam#7091
+Highly transferrable accounts, minimum credentials for accounts, do away with login via Google, fb, LinkedIn, etc. I suppose if someone used the some NFT for a ton of services, it would have the opposite effect by creating a digital identity
+
+
+[09/18/2021 1:48 AM] boomer#0823
+I like that idea. Now delete that message so you can make it before someone else does!
+
+
+[09/18/2021 5:02 AM] kii#8888
+Great idea. should definitely pursue it
+
+
+[09/18/2021 6:01 AM] Marty#4039
+the smart contract itself isnt very complicated
+
+
+[09/18/2021 6:03 AM] Marty#4039
+pretty smart 😆
+
+
+[09/18/2021 5:48 PM] Chris Ray#2713
+Not exactly a login NFT, yet this identity token being worked on somewhat is related to what you are looking for, see the tweet https://twitter.com/adaphio/status/1437010219658137604?s=19
+
+{Embed}
+ADAPH #1 Cardano Stake Pool in the Philippines 🚀 (@adaphio)
+https://twitter.com/adaphio/status/1437010219658137604?s=19
+We are happy to announce #Cardano #IdentityToken, a glimpse of a decentralized future! 
+🚀🚀🚀
+https://t.co/Amn6tt94MQ
+
+Highlighting what #Cardano can do even before smart contracts!
+
+#ADAPH $ADA @haveyouseenhype @IOHK_Charles 
+1/
+Likes
+162
+https://images-ext-2.discordapp.net/external/HX5ONxGpWO6llEWE0kiUb0uWJLw2uk679uPAc8Dhl9M/https/pbs.twimg.com/media/E_FIcMsUcAAQe3O.jpg%3Alarge
+Twitter
+
+
+[09/18/2021 11:06 PM] Chris Ray#2713
+An idea I really like is how to utilize a smart contract to initiate another smart contract on-chain for crypto lending through developing trust or a credit system,  crowd funded lending would be able to utilize such to develop a credit system for participating addresses, this I think would allow for crowd funding to move from legacy solutions to Blockchain solutions.
+
+
+[09/19/2021 7:58 AM] kii#8888
+im down to join
+
+
+[09/19/2021 3:24 PM] Chris Ray#2713
+Sent you a DM
+
+
+[09/19/2021 3:28 PM] glasgowm#9381
+I can make you a channel Chris. If anyone else wants one lmk
+
+
+[09/19/2021 8:44 PM] Walrus#9577
+I previously made what's for me a lot of money from Bitcoin purely because my crypto was spread out in a bunch of wallets. some of which were on damaged hard drives that I had to recover and remember the password for. 
+
+So is there a way to make a smart contract where it's difficult to get access but not a time lock you just have to do something really tedious to get in or solve some kind of math problem
+
+
+[09/19/2021 8:45 PM] Walrus#9577
+Maybe solve a Rubik's cube but I'm thinking tedious is better then hard
+
+
+[09/19/2021 8:46 PM] Walrus#9577
+Maybe it gives you 1000 numbers and you have to put them in sequence
+
+
+[09/21/2021 2:43 PM] glasgowm#9381
+Idea Incubator for ERGOHACK II up on r/ergonauts @ERGOHACK II Participants 
+
+https://www.reddit.com/r/ergonauts/comments/psis2l/idea_incubator_ergohack_ii/
+
+For those newly joined, stick a short blurb on where/how you can help in #🤝│i-need-a-team, find an idea you want to take forward and start forming teams
+
+If anyone's starting to form a team @ me and I can make yous up a private channel here to discuss.
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/psis2l/idea_incubator_ergohack_ii/
+r/ergonauts - Idea Incubator | ERGOHACK II
+0 votes and 0 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/cmYeqLTVm6KxtdhxrQh0-nM4TaEMtLBrg7mUlnOzqpo/%3Fauto%3Dwebp%26s%3D3f798c2c0b7969905b54c1f8d6a51cd1db80dd6b/https/external-preview.redd.it/cvjzFMQydhx7uHhlgTODoKUm-q8sr1ESkahsUNJTny0.jpg
+
+
+[09/21/2021 3:23 PM] creativebon#0805
+@glasgowm thanks I will check it later as got to run to get car done
+
+
+[09/22/2021 3:07 AM] manansh#7167
+Hey guys. Give me your thoughts on the following idea.
+
+Is it possible to create infrastructure for an ad displaying application/service? The vision is this. You mint NFT's from a smart contract. Just like you would on Ergo Auction House. However, that NFT has a use case which is that it can be burned or exchanged (whatever makes sense money wise) in return for ad space.
+
+You partner with 2-3 popular dApp's (integrate with their dApp's somehow) and let people display *ergo relevant* ads on there. One use case here is that if you're dropping a new NFT collection and want to get the word out. It's a way to drive traffic to your collection while also incentivizing dApp creators to keep making cool things by collecting a small fee.  
+
+If this makes you want to *throw up* please let me know and make sure to tell me why?
+
+If any devs are interested in teaming up hmu. I am a UX/UI/Interaction designer and researcher and I'm building some mockups rn for fun so I'd love to see if anyone was interested. Adtech is ripe for crypto.
+
+@quokka thoughts?
+
+
+[09/22/2021 3:16 AM] robot🤖armpits💪#2919
+Why aren't there a crypto fantasy football.  Allocate coins and bid in auction for top players based on salary cap required
+
+
+[09/23/2021 2:32 AM] J - The Ergod#0899
+posted this on reddit but think it would be cool and you guys would like
+
+
+[09/23/2021 2:33 AM] J - The Ergod#0899
+"Decentralized Casino. I've mentioned this before in the telegram, but would love to see it and believe it would drive adoption to crypto in general.
+
+People can provide liquidity and be the 'house' and others can bet on classic casino games like roulette, blackjack, which all slightly favor the house (like normal casinos).
+
+So if someone plays roulette, hits red and wins they get their winnings, if they lose, it goes to the house rewarding those that provided liquidity.
+
+Could then add sports at some point using oracle pools."
+
+
+[09/23/2021 10:26 AM] lgd#5847
+There's a project on Cardano called Ridotto that does this. You should check that out too.
+
+
+[09/23/2021 2:38 PM] glasgowm#9381
+Sounds interesting, you could make it simpler though I think and basically have a clone of the auctionhouse, with a set fee to mint based on duration. Then you could scrape the page / do an api call and pull the NFTs into participating dApps.
+
+
+[09/23/2021 6:52 PM] manansh#7167
+That is even better. So essentially, the NFT itself would act as the ad. Participating dApps would just need to pull that in and display the NFT itself.
+
+You know if anyone else has the bandwidth for a project like this?
+
+{Reactions}
+👍 
+
+[09/28/2021 12:40 PM] vegycslol#1714
+did anyone think how you could solve inheritance problems with blockchain? In a sense that if coin holder X dies, someone can inherit his coins
+
+
+[09/28/2021 12:51 PM] glasgowm#9381
+Storage rent on the blockchain level solves this.
+
+If you mean so a family member can inherit - could do a simple contract that triggers the coins  (or seed phrase)  to be sent if you don't tell it you're not dead every year.
+
+
+[09/28/2021 12:52 PM] glasgowm#9381
+Google allows you to set something similar - https://www.google.com/settings/account/inactive
+
+{Reactions}
+👍 
+
+[09/28/2021 12:53 PM] vegycslol#1714
+yeah i meant family members getting that. However it would need to be more powerful, like you can distribute your coins to multiple people and have different "check if still alive" mechanisms (not sure which). I feel like inheritance is a really annoying problem which is currently not solved, at least not for 99% of people who are not developers
+
+
+[09/28/2021 9:38 PM] Walrus#9577
+I've heard of people Puting thair seed phare in a safe deposit box you could pair that with multsig so your not trusting one bank
+
+
+[09/28/2021 9:41 PM] Walrus#9577
+Satoshi's solution was that it causes deflation Ergos is that it's given to miners
+
+
+[09/28/2021 9:41 PM] vegycslol#1714
+sure, but if they're evil they can take your money while you're alive 😛
+
+
+[09/28/2021 9:41 PM] Walrus#9577
+That's what multsig is for
+
+
+[09/28/2021 9:42 PM] vegycslol#1714
+that's what i mean, it's multisig of people who are not you, so if they collide they take your money
+
+
+[09/28/2021 9:42 PM] Walrus#9577
+You can keep one key in your house
+
+
+[09/28/2021 9:43 PM] vegycslol#1714
+but then if you die, nobody knows where it is
+
+
+[09/28/2021 9:44 PM] Walrus#9577
+You tell the people your going to give it to
+
+
+[09/28/2021 9:44 PM] vegycslol#1714
+but then you're again at the previous problem, you need to trust that X people don't collide
+
+
+[09/28/2021 9:47 PM] Walrus#9577
+If your kids and multiple Banks are collding against you then you got problems money can't solve. But you could add in the reversible address script
+
+
+[09/28/2021 9:48 PM] danandbeard#2312
+would you rather your beneficiaries get a huge unexpected gift when you die or would you rather your beneficiaries know about the gift and be looking forward to your death (potentially)?
+
+
+[09/28/2021 9:49 PM] danandbeard#2312
+the dead-mans trigger is something I've thought about putting together a service for as well - it's a really useful idea
+
+
+[09/29/2021 11:11 AM] glasgowm#9381
+Please rate your favourite potential ideas for ERGOHACK II @deleted-role
+
+https://forms.gle/dW7tNi7Dw7yiaUbG7
+
+{Embed}
+https://forms.gle/dW7tNi7Dw7yiaUbG7
+Ergo Idea Incubator
+Ideas gathered from the various Idea Incubators across Reddit/Twitter/Discord
+
+See this page for more details on each proposed idea
+
+https://checkvist.com/p/XLNxDn5NTFhRrtitXHO9yE
+
+Join the Discord if you have any questions: https://discord.gg/yDREuXuRTj
+https://images-ext-2.discordapp.net/external/jBVzXU-bJGRN7jnFsScSu2OlE7oWbalb2Tjw8h_KYtA/https/lh4.googleusercontent.com/8E7lmp19Ll9zXqYEGPwJYx4RhLU528V3K8Mzk3gWsN4WTJV4_Eqk_dsHwZvE9BKP1PUTI1-OPW0%3Dw1200-h630-p
+
+
+[09/29/2021 12:27 PM] vegycslol#1714
+is there a more detailed explanation of each?
+
+
+[09/29/2021 12:28 PM] vegycslol#1714
+ah i see the link lol sorry
+
+
+[09/29/2021 1:31 PM] vegycslol#1714
+i have a few questions regarding the ideas:
+1.  what's the difference between collectibles and group minting (i don't understand it from the explanations)?
+2.  i don't understand what is meant with `Visual tool for constructing multi-signatures`
+3.  what are stealth pools?
+4.  what are stealth dapps?
+5.  i don't understand `Ergo DB Mapper`
+
+
+[09/29/2021 1:34 PM] glasgowm#9381
+1. Collectibles is like Ergnomes, group minting would be multiple owners (I think) edit: "(Group Minting of NFT’s Allow minting more than 1 under the same policy)" - so might be the same thing actually
+2. A visual tool to help developers build multi-sigs
+3. 'stealth-address based microwallet which sends from the stealth pool to the mixer automatically' (for miners I believe)
+4. Applications built ontop of mixer API
+5. basic database mapper contracts (?) for integrating ergo alongside an existing db solution
+
+
+[09/29/2021 2:04 PM] glasgowm#9381
+stealth pool context: https://www.ergoforum.org/t/provide-incentive-to-create-half-mix-boxes-in-ergomixer/678/3
+
+{Embed}
+https://www.ergoforum.org/t/provide-incentive-to-create-half-mix-boxes-in-ergomixer/678/3
+Provide incentive to create half-mix boxes in ErgoMixer
+I guess incentivization should be done a bit differently here. Assume that there’s some Privacy Reward Token (PRT). Then to get 1 PRT, you need to send to stealth pool, where withdrawal has additional optional contract with following conditions:   box being spent after some time only (timestamping service would be useful here) box being spent to...
+
+
+[09/29/2021 2:05 PM] vegycslol#1714
+thanks for the answers!
+1.  Is it possible that Group Minting is having 10 replicas of the same (n)ft?
+2.  is that meant as part of the wallet?
+
+
+[09/29/2021 2:08 PM] glasgowm#9381
+1. It could be the same picture and look the same but they'd have a different ID / be a different NFT technically.
+2. I think more like ErgoScript Playground. Some visual tool that simplifies making a multi-sig. Kinda like this https://blockly.games/puzzle
+
+{Embed}
+https://blockly.games/puzzle
+Blockly Games : Puzzle
+Puzzle is a quick introduction to Blockly's shapes and how the pieces snap together.
+
+{Reactions}
+👍 
+
+[09/29/2021 2:10 PM] glasgowm#9381
+`Visual tool for constructing multi-signatures (could be a good first step for visual tools to construct more complex scripts)`
+
+https://www.ergoforum.org/t/an-informal-approach-to-specifying-multi-stage-contracts/202
+
+{Embed}
+https://www.ergoforum.org/t/an-informal-approach-to-specifying-multi-stage-contracts/202
+An Informal Approach To Specifying Multi-Stage Contracts
+Hey there everyone. After taking a stab at designing oTokens recently, I ended up thinking about what the best way to informally write a spec for a multi-stage contract would be. As such, this piece is the result. Please do note that the hyperlinking seems not to work in the forum, but if you check it out on github then you can get the full expe...
+
+
+[09/29/2021 2:10 PM] glasgowm#9381
+https://ergoplatform.org/en/blog/2020_04_29_flow_cards/
+
+{Embed}
+https://ergoplatform.org/en/blog/2020_04_29_flow_cards/
+FlowCards: A Declarative Framework for Development of Ergo dApps
+With thanks to Robert Kornacki …
+https://images-ext-1.discordapp.net/external/Pp_wvwqJ9JvfAVV8zNAEHZ1HLmZXnRl60ml0XSF5ITw/https/ergoplatform.org/img/blog/flow_cards.jpg
+
+
+[09/29/2021 2:19 PM] vegycslol#1714
+hm when i was making my picks many "rows" were not displayed, i'm guessing someone added new rows while i was picking, correct?
+
+
+[09/29/2021 2:24 PM] glasgowm#9381
+perhaps yeh - I added one I'd missed
+
+{Reactions}
+👍 
+
+[09/29/2021 6:24 PM] Marty#4039
+Hey everyone. @Leif Erickson, @encode | Eternaeon, @isomorpheric, and myself are going to be building a dashboard that will display your wallet holdings and their value. Any NFTs and tokens you own will be displayed, and if we can pull their value from ergodex or anywhere they're traded, it will be displayed in a graph. You'll have displays for your overall portfolio values and where your tokens are staked, as that functionality begins to come on board.
+
+{Reactions}
+💯 (3) 
+
+[09/29/2021 6:25 PM] Marty#4039
+Any feedback would be appreciated. I think teams are up to 5 people, so if you're looking for something to help with, we're not opposed at all to having one more person join.
+
+
+[09/29/2021 6:27 PM] glasgowm#9381
+estimated profits/losses from sigmausd/ergodex would be handy
+
+
+[09/29/2021 6:37 PM] Marty#4039
+Perfect, that's the kind of things we want to display
+
+
+[09/29/2021 6:37 PM] Marty#4039
+And since that's already working, even better
+
+
+[09/29/2021 9:40 PM] pbr713#9954
+I’d like to see some kind of peer to peer trading. Whether it be erg to ada, erg to nft or nft to nft and so on.
+
+{Reactions}
+💡 
+
+[09/29/2021 10:43 PM] glasgowm#9381
+Jastar13
+ — 
+Today at 21:59
+A fun thing for ergo. May be a platform kind of like twitch streamers... with the base coin being ergo. The content creator can be paid via ergo for streaming. The viewers can earn crypto for the time they are watching on the platform and use it to tip the streamer
+Also would tie into the faucet 🙂 unless a coded like miner can be coded in for the viewer like a toggle on thing. 🙂
+
+{Reactions}
+💡 
+
+[09/30/2021 12:17 AM] IPS-DeFi-State-Of-Mind#1223
+That's a really good idea and could even tie into e sports or sponsoring e sports team or something one day.
+
+
+[09/30/2021 12:19 AM] Thomas#5320
+Cool idea but a double edged sword: if the platform failes ergo will also come in a bad spotlight
+
+
+[09/30/2021 12:19 AM] Thomas#5320
+So it needs to be well-excecuted
+
+
+[09/30/2021 12:21 AM] IPS-DeFi-State-Of-Mind#1223
+This is true. I've seen content streaming on another project. The overmoderation of the platforms chatroom kind of killed the traffic on the site, as well as a few other factors.
+
+
+[09/30/2021 12:22 AM] IPS-DeFi-State-Of-Mind#1223
+So would definitely need to be thought out very well
+
+
+[09/30/2021 1:18 AM] Cheese Enthusiast#0548
+Would anyone be interested in creating a sort of mining subpool based on smart contracts? Currently me and my friends all mine on the same pool and to the same wallet address which I currently control. I recently thought about it and realized that my friends shouldn't have to trust me to distribute our mining rewards according to our hashrates. I am quite sure a smart contract should be able to do this and I've already started working on the backend side of things in scala to start creating this.
+
+{Reactions}
+💡 
+
+[09/30/2021 1:18 AM] Cheese Enthusiast#0548
+I was wondering if this could maybe serve as a first step to the smartpools described in the last ErgoHack. I was also thinking that this could encourage more people with smaller gpus to start mining. I was able to introduce 10 different people to ergo by making this little "subpool" and Im hoping more people would be open to the idea if an algorithm could control the funds instead of a person.
+
+
+[09/30/2021 1:21 AM] Cheese Enthusiast#0548
+I also feel like ergo is specifically poised to do well in this type of pool because of the lower hardware requirements and mining temperatures.
+
+
+[09/30/2021 8:50 AM] Adoo#5093
+I want to propose two ides:
+1) **Multi Sig Wallet** : A multi-sig wallet with good frontend UI. Multi sig wallet capability exists in Ergo ecosystem but it is not easily usable to an average joe. I have been fiddling with ZK-Treasury code but couldn't get it to work after 5 days of effort. A working and easy to use solution is fairly doable and adds real utility to Ergo users.
+
+2) **Real-World Data for Smart Contracts - Oracle Pool / Other Options** : Currently only USD:ERG oracle pool exists. I am not sure how to even get started to use real-world data for Smart Contracts. In Ergohack, I want to explore how to create a new oracle pool or find alternative way to execute smart contract from real-world data. This effort will be documented in open-source manner so that future developers can use the same construct or improvise it further.
+
+{Reactions}
+💡 
+
+[10/01/2021 7:43 AM] _riiii#9940
+Hear me out:
+
+**Multi-chain liquidity pools.** You pair up similar tokens on different blockchains/sidechains. For example, you pair up BSC USDC:ETH USDC tokens, enabling users to *withdraw* their BSC USDC to an ETH address without paying for insufferable bridge fees. This would require some creative *"multi-chain"* smart contract to pool available liquidity from both blockchains and send them out accordingly, mimicking Binance's approach in withdrawing to different blockchains/networks (this could lead to centralization concerns but this could be worked out ithink). This could also work for L2 solutions such as Polygon or sidechains like Ronin.  Taking the idea further, you could pair different tokens together such as Ergo SigmaUSD:Cardano ADA. 
+
+What do you guys think?
+
+{Reactions}
+👍 💡 
+
+[10/01/2021 3:52 PM] Thales#6915
+I really like this idea, but quite hefty for a weekend, dont you think? Or do you plan to use the hackathon just as a starting point?
+
+
+[10/01/2021 3:54 PM] _riiii#9940
+i just thought of it randomly and it seemed like a good idea lmao
+
+
+[10/01/2021 3:57 PM] _riiii#9940
+anyone could use it if they'd like as i'd really want to use something like it in the future, however some credit would be nice 😁 
+im a programmer myself but i havent delved much into coding with blockchains yet so i wont know how to participate with the hackathon anyways
+
+
+[10/01/2021 5:10 PM] f.g#1137
+Ergo delivery:                                                                                                                                                                                     
+agent1 chooses food on app, deposits erg on smart contract and receives a random number. agent2 delivers food to address and has to input the random number that will be provided by agent1 on the act of delivering. (smart contract triggers when agent2 input right number).
+
+{Reactions}
+💡 
+
+[10/01/2021 5:11 PM] f.g#1137
+Is it possible to implement something like this currently?
+
+
+[10/01/2021 5:12 PM] f.g#1137
+i don't know nothing about programming, but i think it would be awesome to see this running on ergo.
+
+
+[10/01/2021 5:13 PM] f.g#1137
+(obviously, really superficial explanation)
+
+
+[10/01/2021 5:32 PM] HelixEvo#2120
+Has anyone created code to act as a proper escrow service yet via ERG?
+
+
+[10/01/2021 6:53 PM] vegycslol#1714
+Is there any particular reason you want to use a smart contract and not a normal tx?
+
+
+[10/02/2021 9:36 AM] Stef#0241
+so, i don't have any technical knowledge but i was wondering: is it possible to implement an automatic taxation system within ergo (or blockchains in general) via "innate" smart contracts? like a new node/wallet is created and it's associated with a person (with his/her data stored possibly in a decentralised way), and that node has a smart contract that lasts forever (or for a set amount of time until taxation changes) with the state's node, that makes it send a percentage of the total erg received from other addresses once every set amount of time + a state storage rent to encourage spending. i'm thinking about a possible future time when most transactions globally are made on blockchains and traditional money almost disappears, but states still have to exist and operate in some way
+
+
+[10/02/2021 9:39 AM] Stef#0241
+how can we build cryptos in such a way that help combat evasion in states that work well but at the same time provide an escape if you live in an oppressive state?
+
+
+[10/02/2021 9:39 AM] Stef#0241
+and also how can we make them as much environment friendly as possible
+
+
+[10/02/2021 9:41 AM] Stef#0241
+that's a neat idea
+
+
+[10/02/2021 1:27 PM] glasgowm#9381
+missed this as it was in the #🗣│hackathon-chat
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/893836539203825674/unknown.png
+
+{Reactions}
+💡 
+
+[10/02/2021 1:29 PM] glasgowm#9381
+It's a good idea - Deliveroo/Just-Eat/etc are pretty terrible companies. 
+
+Also a fairly big project for a weekend though and more suited as multiple. A simple decentralised review system is something in itself that's massively needed and could be a whole other project
+
+
+[10/02/2021 3:07 PM] TimL#0815
+Login to web apps anonymously with ergo wallet:
+There's a protocol called `lnurl-auth` which allows a bitcoin lightning wallet to login to any supporting web service:https://twitter.com/LNMarkets/status/1257309284875923456
+
+{Embed}
+LN Markets (@LNMarkets)
+https://twitter.com/LNMarkets/status/1257309284875923456
+A sneak peek at https://t.co/stDznzM5c0 next release which includes mobile decentralized authentication!
+Thanks to LNURL-AUTH, identification can be done just with your wallet’s Public Key. 
+No other information is needed.
+⚡️
+👇 https://t.co/DPIcM94QRm
+https://images-ext-2.discordapp.net/external/fPEd5ytDovIa6s0O49pUKpKK8KOxLcBtsw0IdrkZ5sU/https/pbs.twimg.com/ext_tw_video_thumb/1257308940292907011/pu/img/ZrsBAoSL5SUpSQhN.jpg
+Twitter
+
+{Reactions}
+💡 👍 
+
+[10/02/2021 3:08 PM] TimL#0815
+Explanation of the protocol: https://xn--57h.bigsun.xyz/lnurl-auth.html
+
+
+[10/02/2021 3:21 PM] TimL#0815
+This feature can make it convenient to get p2p interactions for the #stealth-addresses project
+
+
+[10/02/2021 3:33 PM] TimL#0815
+I don't know too much about how the wallets work right now, but I can definitely code up a backend to implement that service interaction flow
+
+{Reactions}
+👍 
+
+[10/03/2021 2:21 AM] SpaceCityCowboy88#0714
+People love to make beats and sell em. Why not make an ERGO platform for producers to sell beats as NFTs?
+
+
+[10/03/2021 8:15 AM] kii#8888
+100%
+
+
+[10/03/2021 8:16 AM] SpaceCityCowboy88#0714
+If anybody does do this idea. I'm taking tips for my idea. 😂
+
+9fjYtchUtNypbXSuKZNtuxb5ixXHMPPwTLC85Y3ciEqDrbUAMQY
+
+{Reactions}
+thonkang3d 
+
+[10/03/2021 8:17 AM] SpaceCityCowboy88#0714
+Honestly tho would be really neat for producers
+
+
+[10/03/2021 12:08 PM] glasgowm#9381
+You can already do this through the #auction-house
+
+
+[10/03/2021 12:20 PM] callie#3352
+Hi, is there someone can create play to earn dedicated to ergo
+
+
+[10/03/2021 12:20 PM] callie#3352
+I have the idea and I can share the concept of nft game for ergo
+
+
+[10/03/2021 12:20 PM] callie#3352
+I just need someone to implement it.
+
+
+[10/03/2021 12:20 PM] callie#3352
+Hope you can create nft game for ergo
+
+
+[10/03/2021 12:21 PM] callie#3352
+This will be the first nft ergo games that will be created
+
+
+[10/03/2021 12:21 PM] callie#3352
+And I bet this will become popular on reddit
+
+
+[10/03/2021 6:57 PM] WilfordGrimley#0124
+Hello all. Last Hackathon my team submitted SmartPools, an early decentralized mining solution. 
+
+This team my team will be aiming to produce an on chain music streaming/ library platform where artists can share  their audio NFTs, while (ideally) remaining in possession of the NFTs, and listeners can donate to the artists if they so choose, while building their own music library. 
+
+The project is inspired by FunkWhale, an open source federated music streaming platform for Creative Commons licensed music. 
+
+For the Hackathon I aim to produce a whitepaper and ideally function smart contracts (this should be relatively easy, as the auction house contracts can be adapted). 
+
+In the future, light clients can be constructed that allow listeners to download their library from blockchain. 
+
+It would be lovely to merge my team with any others, or have others join my team. 😃
+
+
+[10/03/2021 10:16 PM] SpaceCityCowboy88#0714
+Yea but it's not really geared towards that, just mostly nft images and such. I mean a project specifically designed to help producers sell their music to artists
+
+
+[10/03/2021 10:17 PM] SpaceCityCowboy88#0714
+This is cool. Thought about something like that too but Spotify and YouTube have made it too easy already for the average consumer. Will have to see how web 3.0 plays out I guess
+
+
+[10/03/2021 10:20 PM] SpaceCityCowboy88#0714
+Make a dapp that'll work for insurance companies like lemonade. That'll reward you for safe driving or something. You could incorporate that into geotagging too maybe. Do something like that and that'll put Ergo on the map.
+
+
+[10/03/2021 10:21 PM] SpaceCityCowboy88#0714
+Lemonade is disrupting the insurance Market
+
+
+[10/03/2021 10:22 PM] SpaceCityCowboy88#0714
+https://www.lemonade.com/?utm_source=google-search-brand_rent_us_bau_prospect&utm_medium=ua&utm_campaign=12961625656&utm_term=123509666844_lemonade%20insurance&utm_content=519049517473
+
+{Embed}
+https://www.lemonade.com/?utm_source=google-search-brand_rent_us_bau_prospect&utm_medium=ua&utm_campaign=12961625656&utm_term=123509666844_lemonade%20insurance&utm_content=519049517473
+Insurance Built For the 21st Century | Lemonade
+Lemonade, America’s top-rated insurance company, protects your family and your belongings—at home, and everywhere else. Sign up in seconds, get paid in minutes.
+https://images-ext-2.discordapp.net/external/OAAE1Z_qIj_HlFVbF0BIYoaTFSGv_oOliNDjIIFsRFY/https/www.lemonade.com/_next/static/images/og-2da72e30537ac3586feb60bde554b060.png
+
+
+[10/03/2021 10:22 PM] SpaceCityCowboy88#0714
+Just a thought
+
+
+[10/03/2021 11:06 PM] WilfordGrimley#0124
+Neither of those services are open source, give the artist sovereignty of their art, or listeners sovereignty over their data. 
+
+You should check out the Ergo Manifesto if you haven’t seen it. 🙂
+
+{Reactions}
+👍 
+
+[10/03/2021 11:14 PM] WilfordGrimley#0124
+Also check out FunkWhale, as it already does what I want ErgoAudio to do. It’s a federated open source music streaming platform for copyleft music.
+
+
+[10/05/2021 9:23 PM] mhs_sam#1471
+idk if it has been proposed before, but I think some kind of "address pinning service" or "ergo name service" would be interesting. 
+For example there is https://ens.domains/ for eth. In eth, however, the address is permanent for an account. So the situation with eutxo is a bit different, however one can use the same address for a long time.
+
+Simply, the idea is to build a service in which a user can pin some identity info into an address (or a set of addresses). In action, other services like auction house can query this service (onchain data) to fetch proven identity of an artist, showing identity instead of address.
+
+{Reactions}
+ergo_orange (2) 
+
+[10/05/2021 10:50 PM] magz#3097
+Any devs here know anything about Multi-Access Edge Computing 5G, ML Distribution towards Edge Nodes etc etc, working on a huge project and would love to have a chat with someone who was knowledge or expertise in this area. or could point me towards someone - finders fee available.
+Blockchain connotations too, Thanks
+
+
+[10/07/2021 6:15 PM] weskinner#4666
+I just got chain-grabber running locally which will a postgres database with the ergo blockchain history.  If you need help getting this setup for YOUR project DM me.  It looks like it's going to take about a day to sync.
+
+
+[10/08/2021 5:00 AM] callie#3352
+For developer, implement ergo nft game , smart contract. Play to earn or not, implement game that have ergo.
+
+
+[10/08/2021 6:09 AM] Blitzkrieg#5389
+An idea I've been thinking of for the last few days. To create a process of adding more ergo to the maximum supply called prospecting. 
+
+Goals: general increase in decentralization both with ergo hoarding and net hash.  To incentivise ergo mining well beyond the last block reward.
+
+What it's based off? Just like in mining there is an ammount of gold that is known (both mined and in reserve). And there is undiscovered ammounts that could be discovered through very risky ventures that take alot of effort called prospecting.
+
+ How it could work? I picture a few ways this could be implemented. One is combining staking and ergo mining. stakers can stake their coins on ergo mining pools for a chance to create an extra ergo reward shared between the pool and stakers. Pools will have the chace to recieve an extra reward based on their blocks per min. With a higher chance multier given to the pools with lower blocks per minute that have stakers. For some pos coins there could even be a function to burn the coins after the ergo is found or after each epoch making prospecting very risky and only rewarding in the case the ergo becomes too rare. The chance for extra ergo could be increased as more people stake on the network. Creating a market force to increase the ergo supply if the venture becomes rewarding enough to justify.
+
+Note: The goal isn't to turn ergo into a limitless inflationary asses but to give 
+small chance with enough market force to increase the ergo supply in the case that ergo becomes to scarce.
+
+
+[10/08/2021 10:06 PM] glasgowm#9381
+https://finance.yahoo.com/news/sign-ethereum-coming-154416283.html
+
+{Embed}
+https://finance.yahoo.com/news/sign-ethereum-coming-154416283.html
+Sign-In With Ethereum Is Coming
+It could become the basis for a much more private, user-controlled online identity than the Facebook and Google tools we rely on now.
+https://images-ext-2.discordapp.net/external/tAG8A-lDw8QRn-uOR8RAgUOs_sWI7jD-Zj07gO4VaaM/https/s.yimg.com/uu/api/res/1.2/_0aD45gwfntGM.N4OnAhfw--~B/aD02MDA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https%3A//media.zenfs.com/en/coindesk_75/7a471a5b8f5f1642c16c9d1f7374c2c4
+
+{Reactions}
+ergo_orange 
+
+[10/09/2021 4:21 PM] g_w87#1147
+Not a dev but would love to do what I can to help out the community… I would love to help build some on-chain analytics / metrics for Ergo in the style of glassnode (hodl waves, etc). I don’t really know Java so I’m struggling pulling wallet balances over time, avg holding period for ERG, etc.
+
+That being said, are there any queries using the explorer api the community has built to pull that data that are available for me to leverage?
+
+
+[10/09/2021 5:16 PM] glasgowm#9381
+Check out #ergopad, there's also https://ergo.watch/ and https://explorer.ergoplatform.com/
+
+Not much here atm but would be great to have more
+
+{Embed}
+https://ergo.watch/
+ErgoWatch
+Ergo Blockchain Stats & Monitoring
+
+
+[10/09/2021 6:41 PM] g_w87#1147
+Thanks… Yeah I’ve used both and not really what I’m looking for… essentially can’t figure out how to access the data (lack of Java skills tbh). If I can get the data I’d happily process it and share with community.
+
+
+[10/09/2021 6:43 PM] g_w87#1147
+For example, I’ve played and read through the api documentation on the explorer, but can’t seem to figure out how to pull the data I’m looking for (which I know is possible)
+
+
+[10/09/2021 6:44 PM] g_w87#1147
+There are canned ways to pull current blocks but I’m limited in my knowledge in pulling anything as how
+
+
+[10/09/2021 6:44 PM] g_w87#1147
+Thanks tho 🙂
+
+
+[10/09/2021 6:44 PM] glasgowm#9381
+Not sure you need java for that - here's some example api calls in python
+
+https://mybinder.org/v2/gh/glasgowm148/ergo-notebooks/HEAD?filepath=wallet-query.ipynb 
+
+@abchris do you know of anything more specific relating to the queries they need?
+
+{Embed}
+https://mybinder.org/v2/gh/glasgowm148/ergo-notebooks/HEAD?filepath=wallet-query.ipynb
+GitHub: glasgowm148/ergo-notebooks/HEAD
+Click to run this interactive environment. From the Binder Project: Reproducible, sharable, interactive computing environments.
+https://images-ext-1.discordapp.net/external/KvUCWxb8xXXdSI_awyvE894l6oQ4FcoWDwBBGiGO70A/https/mybinder.org/static/images/logo_square.png
+
+
+[10/09/2021 6:46 PM] g_w87#1147
+Cool ok that looks promising!
+
+
+[10/09/2021 6:46 PM] g_w87#1147
+I’m unfamiliar with extracting data from APIs
+
+
+[10/09/2021 6:47 PM] g_w87#1147
+Which is quite a limitation lol, much more comfortable with sql and databases
+
+
+[10/09/2021 6:50 PM] g_w87#1147
+Ok that’s a good example - I know how to do that because you’re choosing 1 wallet ID. That’s included in the documentation so can follow it. What I can’t figure out is how to ad lib aka pull the same data but for all addresses
+
+
+[10/09/2021 6:52 PM] g_w87#1147
+My problem/limitation and not yours…  but again I think itd be pretty interesting to provide glassnode style on chain metrics on ergo!
+
+
+[10/09/2021 6:52 PM] g_w87#1147
+Either way, appreciate the response @glasgowm
+
+
+[10/09/2021 6:58 PM] g_w87#1147
+Another way to think of it or another example - the explorer currently has the rich list, but what are the balances of those wallets over time? Are they holding / accumulating / selling? How are they behaving more or less? I can pull each wallet individually and look at their transaction, but I can’t figure out how to do that in an automated way
+
+
+[10/09/2021 7:00 PM] abchris#8522
+Since you like SQL, your best bet is to have an instance of the explorer DB running.
+
+
+[10/09/2021 7:01 PM] abchris#8522
+That what ergo.watch is based off. If you work with docker, there's images available from the github.
+
+
+[10/09/2021 7:04 PM] abchris#8522
+Am currently working on adding similar metrics, think % of supply held in top 10/100/1k addresses over time, mean erg age over time, number of addresses with balance > x over time etc.
+
+
+[10/09/2021 7:05 PM] abchris#8522
+Happy to join forces if you want
+
+
+[10/09/2021 7:06 PM] g_w87#1147
+Yup exactly the kind of metrics I’d love  to see / understand / and share with community
+
+
+[10/09/2021 7:06 PM] g_w87#1147
+That’s awesome - would you mind sharing a link to the GitHub example?
+
+
+[10/09/2021 7:07 PM] g_w87#1147
+Also fair warning, I’m a finance professional not a dev so my skills are self taught and limited, but can do manipulate and help visualize the  data once it’s available
+
+
+[10/09/2021 7:08 PM] g_w87#1147
+I’m 100% happy to partner - even if it’s just ideas 🙂
+
+
+[10/09/2021 7:08 PM] abchris#8522
+No worries, It'd be great to have someone else look into this, see if we come up with similar results 🙂
+
+
+[10/09/2021 7:08 PM] abchris#8522
+Here's the github: https://github.com/abchrisxyz/ergowatch
+
+{Embed}
+https://github.com/abchrisxyz/ergowatch
+GitHub - abchrisxyz/ergowatch: Ergo blockchain stats
+Ergo blockchain stats. Contribute to abchrisxyz/ergowatch development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/m9EGMVtxSoIaMkotkFYKP92FleMZ9VPUQfAU0adqZFU/https/opengraph.githubassets.com/0e6f0a5965bfed72e942f531f408fb85de33d0a629fbb40b38ae274659d2682c/abchrisxyz/ergowatch
+
+{Reactions}
+ergo_orange 
+
+[10/09/2021 7:09 PM] g_w87#1147
+😎✅
+
+
+[10/09/2021 7:09 PM] g_w87#1147
+Very cool, thank you so much, I’ll have a look
+
+
+[10/09/2021 7:09 PM] abchris#8522
+Bit poor on instructions, so feel free to dm if you need a walk through
+
+
+[10/09/2021 7:24 PM] g_w87#1147
+Absolutely - thanks again - I’m sure I’ll have questions lol
+
+
+[10/09/2021 7:35 PM] g_w87#1147
+@abchris what application are you running sql in? I’m typically using MSSQL in my current role but have used Postgres (forget what app I used) in my past role. I’ll download it and start playing around tonight / next week
+
+
+[10/09/2021 7:36 PM] abchris#8522
+Postgres, that's what the explorer-backend is using.
+
+
+[10/09/2021 7:36 PM] g_w87#1147
+👍
+
+
+[10/09/2021 7:38 PM] abchris#8522
+So you need to have a synced node and then have the chain-grabber filling the db. Takes about a day or so.
+
+
+[10/09/2021 7:39 PM] abchris#8522
+If you look into the docker-compose file, you only need the `node`, `db` and `grabber` services.
+
+
+[10/09/2021 7:39 PM] g_w87#1147
+Ok - will first have to set up a node - been meaning to do that
+
+
+[10/09/2021 7:39 PM] g_w87#1147
+Maybe will be longer than a week until I set it up but no big deal I’ll still go through your stuff
+
+
+[10/09/2021 7:41 PM] g_w87#1147
+As far as KPIs, one interesting one I use for Bitcoin is the Puell Multiple
+
+
+[10/09/2021 7:41 PM] g_w87#1147
+https://www.lookintobitcoin.com/charts/puell-multiple/
+
+{Embed}
+https://www.lookintobitcoin.com/charts/puell-multiple/
+The Puell Multiple | LookIntoBitcoin
+Puell Multiple is a valuation tool for $BTC looking at Bitcoin miner revenue.  This is a free live data chart of the indicator that updates daily.
+https://images-ext-2.discordapp.net/external/X33vcnua0M9iP2JFiV7d-6zaw5kcGP0-jOVy58cNp-s/https/www.lookintobitcoin.com/static/img/logo/logo-stacked.png
+
+
+[10/09/2021 7:42 PM] g_w87#1147
+Daily coin issuance in usd / 1y MA coin issuance in USD
+
+
+[10/09/2021 7:42 PM] g_w87#1147
+Essentially signals the top of the Bull market for bitcoin - def want to explore if similar mining / price action is relevant to ERG
+
+
+[10/09/2021 7:42 PM] abchris#8522
+Never heard of it, haha, glad you're here now 👍
+
+
+[10/09/2021 7:43 PM] g_w87#1147
+😇
+
+
+[10/09/2021 7:44 PM] g_w87#1147
+Haha well that’s nice of you but honestly just want to contribute in any meaningful way!
+
+
+[10/09/2021 7:45 PM] g_w87#1147
+It kills me that glassnode’s good stuff is behind a paywall, would love to avoid that for this project
+
+
+[10/09/2021 7:46 PM] abchris#8522
+That's the spirit
+
+
+[10/09/2021 7:50 PM] g_w87#1147
+Ok one last link then off to dad duty - Will Clemente’s newsletter (and Willy Woo on twitter) are also great on chain analysts. I think we can borrow / test some of their metrics to see they provide anything interesting
+
+
+[10/09/2021 7:50 PM] g_w87#1147
+https://www.blockwareintelligence.com/p/blockware-intelligence-newsletter-737
+
+{Embed}
+https://www.blockwareintelligence.com/p/blockware-intelligence-newsletter-737
+Blockware Intelligence Newsletter: Week 8
+Is the worst behind us?
+https://images-ext-1.discordapp.net/external/l6GD-OUW5LbYb66Hxt5HM-EJXEYW-QVnKIU8mnKK2TQ/https/cdn.substack.com/image/fetch/w_1200%2Cc_limit%2Cf_jpg%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%253A%252F%252Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%252Fpublic%252Fimages%252F54f35af9-1160-4416-8674-46b55b8544b2_2410x1044.png
+
+
+[10/09/2021 7:54 PM] glasgowm#9381
+There's a mathematician who wanted to help with a glassnode project. I've DM'd him to see if he's here
+
+{Reactions}
+👍 
+
+[10/09/2021 7:57 PM] g_w87#1147
+Beautiful
+
+
+[10/09/2021 7:59 PM] g_w87#1147
+For running a node, I don’t need much of a desktop right? Thinking I may just grab a cheap mini desktop if you think that would work.
+
+
+[10/09/2021 8:00 PM] glasgowm#9381
+Yeah you can even run it on a pi
+
+
+[10/09/2021 8:00 PM] g_w87#1147
+Ok perfect I figured as much
+
+
+[10/09/2021 8:00 PM] g_w87#1147
+Thanks guys - much appreciated as always
+
+
+[10/09/2021 8:01 PM] glasgowm#9381
+There's also some nodes here you can select. https://github.com/ergoplatform/ergo/blob/246ac2918028462a07dff19ea1ca35e4e15bb5e0/src/main/resources/mainnet.conf#L43
+
+{Embed}
+https://github.com/ergoplatform/ergo/blob/246ac2918028462a07dff19ea1ca35e4e15bb5e0/src/main/resources/mainnet.conf
+ergo/mainnet.conf at 246ac2918028462a07dff19ea1ca35e4e15bb5e0 · erg...
+Ergo protocol description & reference client implementation - ergo/mainnet.conf at 246ac2918028462a07dff19ea1ca35e4e15bb5e0 · ergoplatform/ergo
+https://images-ext-2.discordapp.net/external/uAG-iz7EnOyv-87jVtcyx71jJxUV2SxgQRGKrZKveoQ/https/opengraph.githubassets.com/86dfdb24b1502fa4634bef8e14db4cec2671b1b429d481f1f41ab0a79910c11f/ergoplatform/ergo
+
+
+[10/09/2021 8:01 PM] g_w87#1147
+Danke
+
+
+[10/09/2021 10:59 PM] glasgowm#9381
+https://github.com/ergoplatform/ergoscript-by-example/blob/main/grantorBeneficiaryPinLock.md
+
+{Embed}
+https://github.com/ergoplatform/ergoscript-by-example/blob/main/grantorBeneficiaryPinLock.md
+ergoscript-by-example/grantorBeneficiaryPinLock.md at main · ergopl...
+Learn ErgoScript by reading example smart contracts powered by Ergo Playground. - ergoscript-by-example/grantorBeneficiaryPinLock.md at main · ergoplatform/ergoscript-by-example
+https://images-ext-2.discordapp.net/external/8nU4cdKaiYahbPGBQcyuEq9_FkLXk527kvz41ywRWEo/https/opengraph.githubassets.com/b78f5d665b7c1d8d505d0dbad2099998a25335eb06c46cf19e43c89fdc8b925e/ergoplatform/ergoscript-by-example
+
+
+[10/09/2021 11:04 PM] vegycslol#1714
+if i understand that correctly you would need to know when you will die to use such contract 😛
+
+
+[10/10/2021 12:24 AM] vegycslol#1714
+so basically what i would want to have is to have a regular script that locks by address to be `pkA || inherit<pkA>` where `inherit<pka>` would somehow have an additional lock (maybe `inherit<pkA>` could only spend it to create such tx whose unlock is `pkA || inherit<pkA> && height>this_tx_mined+1year` and the wallet could recognize such tx and tell you someone is trying to claim your crypto inheritance and you could just spend it to cancel if it's a bad request 😛
+
+
+[10/10/2021 2:50 AM] g_w87#1147
+Question as I didn’t totally appreciate what this link was at first - instead of setting up my own node I can use one of these nodes ?
+
+
+[10/10/2021 3:36 AM] abchris#8522
+Yes, you could use that one instead of a local node. if you plan on running the chain-grabber to generate the explorer db, you'll be querying that node heavily for a while, which might be faster if it's local. The db will be around 40-50GB, to give you an idea.
+
+
+[10/10/2021 3:41 AM] g_w87#1147
+Ok that makes sense - already ordered my a mini pc for a node, but may need to grab an external hard drive for that beast
+
+
+[10/10/2021 3:49 AM] g_w87#1147
+I went through all your documentation as well as the ergo blockchain explorer read me. Following at a high level that ergo watch backend leverages some of those modules to pull data and build the db. Where I’m stuck is I need the order of operations / how to step guide…. I can DM when I get my node up and running
+
+
+[10/10/2021 3:50 AM] g_w87#1147
+Also went through the db.py file so I’m definitely following the queries and how they relate to the 3 ergowatch sites!
+
+
+[10/10/2021 3:54 AM] g_w87#1147
+Getting up and running will be my challenge / take the most time… once I have the raw on chain data I can let it rip
+
+
+[10/10/2021 4:00 AM] abchris#8522
+Yes, the whole chain-to-db train is handled by the explorer's chain-grabber. That's what you'll need to get running once you're done with the node.
+
+
+[10/10/2021 4:01 AM] abchris#8522
+You can run them natively, or in docker containers, whatever you prefer.
+
+
+[10/10/2021 4:10 AM] g_w87#1147
+My preference would be whatever is easiest for a novice!
+
+
+[10/10/2021 4:12 AM] g_w87#1147
+I’m familiar with databases, but this is more like step or two before I’m  typically involved if you know what I mean.
+
+
+[10/10/2021 4:12 AM] abchris#8522
+If you've never used docker and are on linux, then go native. If on windows and running into issues trying to compile the chain-grabber, docker might be worth picking up.
+
+
+[10/10/2021 4:13 AM] g_w87#1147
+Ok - I’ll cross that bridge when I need to. First step will be node. Planning to use windows.
+
+{Reactions}
+👍 
+
+[10/10/2021 4:14 AM] g_w87#1147
+Thanks for the help - can’t wait to get my hands on the data
+
+
+[10/10/2021 4:16 AM] g_w87#1147
+Btw - big fan of ergowatch - I found it by accident and it’s a lifesaver for following SigRSV/USD.
+
+
+[10/10/2021 4:21 AM] abchris#8522
+Pleasure. You’ll get there!
+
+
+[10/10/2021 7:57 PM] gnuion#3794
+Howdy Mates! I want to give shares of my company as tokes and pay dividend in stablecoin. Is this possible? What about the jurisdiction regarding this?
+
+
+[10/12/2021 8:14 PM] Marty#4039
+That's a good idea. That's how chia introduced their version of paper wallets.
+
+
+[10/12/2021 8:16 PM] Marty#4039
+It would be really interesting if the node software could be setup to allow notifications of some kind. Maybe it could send an email notification based on some smart contract function
+
+
+[10/12/2021 8:16 PM] Marty#4039
+"you have received this email from the ergo protocol. Someone is trying to spend your wallet's inheritance contract and you have until block XYZ to veto this action"
+
+
+[10/15/2021 1:03 PM] jemsing#4247
+Kintil check
+
+
+[10/24/2021 8:50 AM] gnuion#3794
+Hello, just recently I am having some aggravation with eBay. My account got flagged for some reason I don't know, and I am unable to make any purchases. So my idea is, why use eBay at all? Let's have a dApp where payments are settled in crypto and tracking is done also via blockchain. When package gets delivered and the buyer signs its location, this would stratify a smart contract and the seller would get paid.
+
+
+[10/24/2021 12:17 PM] Herk#6019
+just a thought, let's say you buy a gpu and the seller sends an empty box
+
+
+[10/24/2021 3:20 PM] glasgowm#9381
+https://colorblock.art/
+
+{Embed}
+https://colorblock.art/
+Colorblock
+Colorblock
+
+
+[10/24/2021 5:53 PM] gnuion#3794
+don't sign it.
+
+
+[10/24/2021 5:55 PM] Herk#6019
+uhm, it doesn't really work like that, and that was just an example, but generally falls under the "not as described or pictured" on ebay
+
+
+[10/24/2021 5:55 PM] Herk#6019
+which is hard to do even for them and heavily abused
+
+
+[10/24/2021 5:59 PM] gnuion#3794
+It works just like that. If you don't like the item don't accept it. And if you order from  a verified wallet, like from a trusty company you could extend the model to include returns, warranties und refunds. This is the future of money, we like it or not. Future is blockchain.
+
+
+[10/24/2021 6:11 PM] Herk#6019
+not sure where you live but over here if you order from ebay you don't have the chance to not sign it or not accept it.
+
+
+[10/24/2021 6:11 PM] Herk#6019
+I just mentioned the empty box as it happened to me quite recently
+
+
+[10/24/2021 11:33 PM] gnuion#3794
+Then the seller won't get paid without your signature. You don't understand what I am saying.
+
+
+[10/24/2021 11:36 PM] gnuion#3794
+Besides eBay is useless for me now, maybe good just for scraping data. Their stupid algorithm flagged my account and I am unable to buy. Support is very slow and a waste of time really. I got so aggravated I am taking it personal. I urge for an alterative.
+
+
+[10/24/2021 11:36 PM] Herk#6019
+I do, just saying it doesn’t work like that here, might work in your country.
+
+
+[10/24/2021 11:36 PM] gnuion#3794
+Crypto has no country.
+
+
+[10/24/2021 11:37 PM] Herk#6019
+:doublefacepalm:
+
+
+[10/24/2021 11:37 PM] Herk#6019
+thought you meant sign for the package…
+
+
+[10/24/2021 11:37 PM] gnuion#3794
+wallet signature.
+
+
+[10/24/2021 11:38 PM] Herk#6019
+so the seller doesn’t get paid but sends the item first?
+
+
+[10/24/2021 11:38 PM] gnuion#3794
+yes.
+
+
+[10/24/2021 11:40 PM] gnuion#3794
+a smart contract would be used instead of paypal or ebay. and only if the item is accepted by the buyer funds will be released to the seller. otherwise it's a refund to the buyer.
+
+
+[10/24/2021 11:42 PM] gnuion#3794
+If I were smart enough to implement such a dApp myself, I'd be so rich...
+
+
+[10/24/2021 11:46 PM] gnuion#3794
+I'd implement it with ERG and therefor increase the demand for ERG pumping its price.
+
+{Reactions}
+👍 
+
+[10/24/2021 11:46 PM] gnuion#3794
+So my ERG investment would pay off.
+
+
+[10/25/2021 6:37 PM] Kurikun#6941
+For large purchases, you need an escrow service, which is centralized
+
+{Reactions}
+ergo_orange 
+
+[10/26/2021 5:18 PM] Jubag#1342
+hello everybody, I'm volunteer firefighter and a I want create a smart contract that we can use with the assembly ordinary of our associations, so we will preventing corruption on our honorable system among other things. I'm a programmer but i haven't any idea  about programing on blockchain, can any help me for where I need start?
+
+
+[10/26/2021 6:26 PM] glasgowm#9381
+Pulling together better docs now, https://ergohack.io/ is a start. 
+
+Not clear what you're trying to do though. Assembly ordinary?
+
+{Embed}
+ergoplatfrom
+https://ergohack.io/
+ERGOHACK II - ERGOHACK II
+After the incredible success of our first Hackathon, we are excited to announce ERGOHACK II. At the heart of Ergo’s inspiration is the desire to help create a monetary system that empowers the average person, especially those who are at a financial disadvantage in our societies.
+https://images-ext-1.discordapp.net/external/N8yaRBhxoVwwFFDKht4gWBOKvyGzklGMezGylGwaZ3w/https/i2.wp.com/ergohack.io/wp-content/uploads/2021/09/share_image.png
+
+
+[10/26/2021 6:37 PM] Jubag#1342
+ok, sorry for my english, haha, each firefighter institution have a comition who are partners of the institution. Each two years the half of this comitions having renew your people on a Ordinary general meeting. this is the breakpoint, some places don't make the right things and the same comition have the power a long time in the institution.  With the blockchain we can block this institutions and obligate they renew their people. With the block I said  we can block determinate things of the institution, for example, the benefit monetary of goverment.
+
+
+[11/04/2021 11:17 PM] JOFLITO#9983
+Project: Bidder bot
+
+
+[11/04/2021 11:18 PM] JOFLITO#9983
+Problem: Sometimes you are on a trip or don't have access to your pc/wallet
+
+
+[11/04/2021 11:18 PM] JOFLITO#9983
+Solution: Use a bot to do the bidding for you, select an NFT, how much you want to bid max and let it do the hard job of pressing a button for you
+
+{Reactions}
+👆 (2) 
+
+[11/07/2021 1:37 AM] Cris7#9283
+Project idea if anyone interested or would be able to make it work.
+An investment dapp. Like dragons den (shark tank) on the blockchain. Can be a space for people that want to build projects on ergo and a place for ergo holders to be able to invest in projects they believe in. People could propose an idea or already working on something but require funding. They can offer a share of ownership tokens of their project up for funding (maybe similar to how mixer wants to sell tokens for ownership and share profits) and investors interested in the ideas/projects can offer funds if it's something they are interested in for a share of the company.
+
+
+[11/07/2021 1:38 AM] Cris7#9283
+Can even have funds locked up  until certain milestones are met
+
+
+[11/07/2021 8:58 PM] Geinch#1911
+Hello, nothing incredible, but just adding a ' general ' chan could be nice 😉
+
+{Reactions}
+👍 (2) 
+
+[11/10/2021 5:15 AM] somn0z#3708
+great idea
+
+
+[11/10/2021 5:17 AM] somn0z#3708
+Id also be down for a social proof/marketing channel here on dc, i believe that it would be a nice addition to benefit the community and grass roots expansion of ergo.
+
+
+[11/15/2021 6:52 PM] gilgaMesh#8262
+https://raptoreum.io/
+an ergo portfolio tracker would be nice like this
+
+{Embed}
+https://raptoreum.io/
+Raptorio
+A personal Raptoreum portfolio, blockchain explorer and mining monitor
+
+
+[11/15/2021 6:53 PM] gilgaMesh#8262
+Any budding developers out there?, Thanks in advance if anyone makes something like! ❤️
+
+
+[11/17/2021 5:35 AM] ÅrÖhBê#8289
+Have you seen this yet? https://ergowallets.org/
+
+
+[11/17/2021 6:19 PM] glasgowm#9381
+https://www.reddit.com/r/ergonauts/comments/qvcq8t/sharing_my_ideas_for_projects_that_can_be_built/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/qvcq8t/sharing_my_ideas_for_projects_that_can_be_built/
+r/ergonauts - Sharing my ideas for projects that can be built for E...
+27 votes and 8 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/fTsSlgPaM8SdivjqkaNcB29wVIMvyZbPKdqLqEvq07I/%3Fauto%3Dwebp%26s%3D8f8121c45223147d932289f9e779d102d443767d/https/external-preview.redd.it/Iv8SMZzb9frhZXoAqYD-7jJnUPStnvnvStki_r73rvM.png
+
+
+[11/18/2021 7:01 AM] gilgaMesh#8262
+yes I have, its good but can be improved further just explorer  https://raptoreum.io/
+
+{Embed}
+https://raptoreum.io/
+Raptorio
+A personal Raptoreum portfolio, blockchain explorer and mining monitor
+
+
+[12/11/2021 6:46 AM] gilgaMesh#8262
+Can there be a blockchain/NFT based dApp to register/patent ideas or concepts
+
+this thing popped up in my mind recently
+
+
+[12/11/2021 6:46 AM] gilgaMesh#8262
+NFT Patents/Copyrights verifiable on the blockchain
+
+
+[12/11/2021 11:26 AM] glasgowm#9381
+sure, but you'd need people to use/recognise it legally
+
+But these are cool - 
+https://www.ergoforum.org/t/proof-of-work-backed-tokens/224/2
+
+{Embed}
+https://www.ergoforum.org/t/proof-of-work-backed-tokens/224/2
+Proof-of-Work Backed Tokens
+This is how useful proof of work can be implemented. When combined with service tokens.  And looks like the idea can be extended to not just tokens but any hash in registers can be used as a nonce. And then once obtained can be checked in contracts.  Very cool.
+
+
+[12/11/2021 11:30 AM] wombo22#5461
+Hi, wasn’t sure where to post this in either idea incubator or defi-daps. Not a developer so couldn’t make this myself so just throwing this out there.I’ve been seeing an uptrend in airdrops from meme contests. Just though of an idea that could maybe help out the coin owners and participants.
+
+Also, thought it just incorporates a few of the auction house and raffle components to make either a new contest site/dapp or ergo raffle can incorporate this into their site. 
+
+Idea would basically be someone sets up a contest were people can post all there memes, videos or anything to. The contest owner can set the parameters for the entry such as how much it costs to post something be it free to post or some unit of coin (erg, sigusd, whatever) (also there could be discussions about if they should be minting there entry like into an nft or just uploading off there computers). 
+
+Then there can be different parameters set depending on how the contest owner would like to conduct the contest.
+
+ I’ve seen a lot of recent, just post your meme and leave your address and i’ll air drop you coins. You can set a parameter that collects your address like raffle and by the end of the contest you get coins from a contract the contest owner sends their coins into. (I feel like this can add some safe of mind to people when the owner puts their coin into a contract vs they hold all the coins and are flipping through posts on reddit or wherever and sending coins individually to the address in the post). 
+
+You can set up how much coins someone gets like 5k for each post until the amount runs out or distribute to each post evenly from the  initial amount the contest owner send into the contract. Or like the raffle, if it costs an amount to post, the contest can collect the amount to add to a pot.
+
+You could also allow for the contest owner to  check a button which allows voting where viewers can come in and vote then top posts by the end of the contest wins an amount.
+
+
+[12/12/2021 1:35 PM] gilgaMesh#8262
+someday in the future, 🤞
+blockchain patents looks one of the better usecases, I would love if some dev here looks into this concept and develops further
+
+
+[12/15/2021 7:13 PM] gnuion#3794
+Hello! Just as an idea, is a decentralized search engine possible?
+
+
+[12/15/2021 7:16 PM] gnuion#3794
+And maybe this would be a good use case for multi pool oracles?
+
+{Reactions}
+🤯 (2) 
+
+[12/17/2021 1:02 PM] curbsideprophet#5083
+Check out what Presearch is doing: https://www.presearch.io/
+
+{Embed}
+https://www.presearch.io/
+Presearch - A Better Search Engine For We The People
+Presearch is a decentralized search engine that provides search choice, quality results, privacy and rewards to those who want to end the search monopoly and take back the web.
+https://images-ext-2.discordapp.net/external/zAolkn8qJRVGUsb9pY2tZ1g92t15tQlxj7u4ioPkMm4/https/presearch.io/opengraph.png
+
+{Reactions}
+🦾 
+
+[12/22/2021 6:10 PM] timreg7#6732
+I have an idea. Not sure that now is the time to pursue this, but I was thinking of which communities would benefit most from ergo's values and settled on Native Americans in the US. Those not from here might not know the history so well, but basically the US has destroyed these people and forced them to either live on small reservations or assimilate to american culture. They live today as technically sovereign states, but they face all sorts of challenges (poverty, no healthcare, no education, loss of culture) and rely on the US for lots of things. I think crypto in general could give them a way to take control of their own economic situation and be less reliant on the US govt. This would also give them an incentive to learn and participate in a worldwide economy, when otherwise they have very low participation in stem fields. Lastly... Casinos. Gambling is mostly illegal in the US, save for a few states and on many reservations. Online gambling is almost completely illegal, even for Native Americans despite them being sovereign. I wonder if the mixer could empower them to offer private online gambling to a worldwide audience? Any thoughts?
+
+
+[12/22/2021 6:13 PM] timreg7#6732
+I've found only 2 Native American specific crypto projects, neither has really done anything significant.
+
+
+[12/23/2021 12:25 PM] gnuion#3794
+I wonder how gambling could help Native Americans. Micropayments on the other hand could offer an alternative to the fiat dollar and communities could mint their own currencies. I think a layer two scaling solution for ERGO might be useful as even low transaction fees such as 0.01ERG ($0.05) could be a lot if you buy bread and I don't know the transaction finality. A less secure layer two scaling solution with even lower fees and instant finality could be a solution. I don't know, I need to educate myself more about ERGO.
+
+
+[12/23/2021 3:17 PM] timreg7#6732
+I agree that gambling is not so healthy, but that is how many native communities support themselves (operating a casino, not gambling). People travel to their casinos bc nothing else is legal I'm their area. The idea is that this would get them out from under the thumb of the US govt.
+
+
+[12/23/2021 3:19 PM] timreg7#6732
+I'm thinking there would be many use cases for LETS, I'm areas where tech and other business is limited
+
+
+[12/28/2021 2:51 PM] timreg7#6732
+Another idea: what if we had NFTs for something like Magic The Gathering? Your NFTs have certain properties that allow you to play against others and a website connects to your wallet, allowing you to visualize the game being played.
+
+
+[12/28/2021 2:52 PM] timreg7#6732
+Then you could use smart contracts to wager against people, or host tournaments. Like an 8 person winner take all bracket
+
+
+[12/28/2021 2:55 PM] timreg7#6732
+And on the issuance side, you could sell packs of cards just like irl. You could mint like 10k cards initially with random features according to a specific rarity, just like people do with nft drops. Then after that you can slowly release more cards, like once per month
+
+
+[12/28/2021 2:56 PM] timreg7#6732
+There could be a whole marketplace for the cards to be bought and sold, collecting a small royalty
+
+
+[12/28/2021 3:48 PM] curbsideprophet#5083
+Something like this? https://godsunchained.com/
+
+{Embed}
+https://godsunchained.com/
+Gods Unchained TCG
+The ultimate digital trading card game that gives players true ownership of their collection. Play for free, play for keeps, or trade on open marketplaces. Download now.
+https://images-ext-2.discordapp.net/external/PksBFv_UwMHGzPC4D-bglLJVWQV9RAHTTyuc0O6turQ/https/godsunchained.com/assets/images/backgrounds/wide-hi-res-god.jpg
+
+
+[12/28/2021 3:50 PM] timreg7#6732
+Looks pretty cool actually
+
+
+[12/28/2021 4:03 PM] curbsideprophet#5083
+I personally have not played it but heard good things about it and I invested in the underlying L2 ecosystem layer
+
+
+[12/28/2021 4:05 PM] timreg7#6732
+I guess I wonder how decentralized it all is and what the tokenomics look like. Thanks for sharing I'll have to read up
+
+
+[12/29/2021 12:44 PM] AggerGakker#4449
+As a part of privacy
+
+
+[12/29/2021 12:44 PM] AggerGakker#4449
+I think miners should be able to be paid in the currency of their choice
+
+
+[12/29/2021 12:45 PM] AggerGakker#4449
+I've been kicking around the following idea because the taxlaws of my country suck
+
+
+[12/29/2021 12:45 PM] AggerGakker#4449
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/925731259529953321/Screenshot_20211223-142453.jpg
+
+
+[12/29/2021 12:46 PM] AggerGakker#4449
+I'm part of the first batch of ErgoLearn students, but I'd like to participate in ErgoHack if anyone is interested
+
+
+[12/29/2021 7:29 PM] AllCloudy | GetBlok.io#1273
+@AggerGakker  Sync up with @ÅrÖhBê  we are actively looking to add on capabilities to the GetBlok.io SmartPool concept, and your idea makes sense - but has some intricacies that need to be explored/discussed.  For example, mine ergo -> get paid in eth? or mine ergo -> get paid in fiat?
+
+
+[12/29/2021 7:45 PM] AggerGakker#4449
+I've posted it over there already
+
+
+[12/29/2021 7:45 PM] AggerGakker#4449
+Thought I'd make an official attempt here
+
+
+[12/29/2021 7:46 PM] AggerGakker#4449
+My idea was initially just to get it to work with ERGO native tokens
+
+
+[12/29/2021 7:46 PM] AggerGakker#4449
+Since i would be taxed double if i minted SigUsd with my ERGO
+
+
+[12/29/2021 7:47 PM] AggerGakker#4449
+I would like to be able to mine it directly so for example i can join in liquidity farming without being over taxed
+
+
+[12/29/2021 7:53 PM] AggerGakker#4449
+I've been trying to get some answers from illya about programmable swaps
+
+
+[12/29/2021 7:53 PM] AggerGakker#4449
+No answers yet though
+
+
+[01/02/2022 9:03 PM] J - The Ergod#0899
+Looking to build ergo casino with a team. looking for devs and interested members. Will fund the project, so any devs interested will get paid in sigUSD. Let me know…
+
+
+[01/04/2022 1:40 PM] gnuion#3794
+it is somehow against the philosophy of crypto if we now somehow are required to submit tax reports. i think the idea was to separate the state and money. And now they are getting your financial data. Getting back to the old bank system.
+
+
+[01/04/2022 1:52 PM] gnuion#3794
+I don't think the definition of privacy should be Banks, The Government and I . But this is what is understood by law. I wonder if we should really adapt to the old system, or just continue defining the future.
+
+
+[01/04/2022 1:53 PM] AggerGakker#4449
+It's actually supposed to reduce the tax footprint by eliminating the swap
+
+
+[01/04/2022 1:54 PM] gnuion#3794
+But it doesn't work for all countries. For example in Portugal trading is a non taxable event. You can't reduce the tax any further.
+
+
+[01/04/2022 1:56 PM] AggerGakker#4449
+Great for the people who live in Portugal 🤷🏻‍♂️
+
+
+[01/04/2022 1:56 PM] gnuion#3794
+Indeed.
+
+
+[01/04/2022 1:56 PM] AggerGakker#4449
+But as we see the large popularity of unmineable and zergpool
+
+
+[01/04/2022 1:56 PM] AggerGakker#4449
+I think we can just do it better on Ergo
+
+
+[01/04/2022 1:56 PM] AggerGakker#4449
+And a plus is i don't get double taxed
+
+
+[01/04/2022 1:57 PM] AggerGakker#4449
+Call me selfish 🤣
+
+
+[01/04/2022 1:57 PM] gnuion#3794
+I am not against it. But it is somehow sad we have to find loopholes.
+
+
+[01/04/2022 1:58 PM] AggerGakker#4449
+Agree
+
+
+[01/04/2022 9:24 PM] Daniumy#5792
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/928036147072995338/Screenshot_2021-12-05-18-35-05-170_org.telegram.messenger.jpg
+
+
+[01/04/2022 9:35 PM] Daniumy#5792
+ErgoAcademy, a static way to teach some interested people with some programming knowledge, easy to maintain, easy to create.
+I dont think It would take longer than 2 days for any head developer to think of documentation/videos that would introduce people with certain programming knowledge(my case) to ErgoScript and eutxo programming, and obviously sorting such documentation/videos so that It goes from easier to harder.
+
+{Reactions}
+👍 
+
+[01/04/2022 9:37 PM] Daniumy#5792
+Would love to see this
+
+
+[01/05/2022 7:18 PM] gnuion#3794
+I think something like a mooc platform would be ideal for education and in the end students can mint their certificate.
+
+{Reactions}
+👍 
+
+[01/06/2022 6:47 PM] curbsideprophet#5083
+Is anyone building an Ergo name service ?
+
+
+[01/06/2022 9:22 PM] timreg7#6732
+I think there is, but idk who. Perhaps ask Glasgow or Armeanio
+
+
+[01/06/2022 9:30 PM] timreg7#6732
+Ive been thining about non-art NFT use cases. The thing that comes to mind is titles, deeds, registration, etc. This information is already stored centrally, but using NFT's to manage them would likely be much less expensive. There would have to be an onboarding process that includes creating digital identities that are linked to social security numbers, then everything could be associated with that (driver's license, etc). Once people had these, home / car titles could be sent to these public wallets, and identity could be verified without people ever having to share their social security ever again. Like they could cryptographically prove their identity without disclosing their secrets. This could then lead to things like degrees, certifications, & medical records being minted as NFTs, and things would be much more secure.
+
+
+[01/06/2022 9:31 PM] timreg7#6732
+I imaging this would have to be run as a side chain, and all of the UI would have to be built out before you could market it to a state government or something similar
+
+
+[01/06/2022 9:49 PM] glasgowm#9381
+Maybe @NoahErgo could tell you - rings a bell. It's also a suggested project for the Goodwhale Grant
+
+
+[01/06/2022 11:24 PM] NoahErgo#4349
+Yes but from what ive seen the dev is trying to keep it pretty low key for now
+
+
+[01/06/2022 11:26 PM] NoahErgo#4349
+https://github.com/Balbin-Labs/ergodomainservice-landing
+
+{Embed}
+https://github.com/Balbin-Labs/ergodomainservice-landing
+GitHub - Balbin-Labs/ergodomainservice-landing: A decentralized dom...
+A decentralized domain service built for the Ergo platform. - GitHub - Balbin-Labs/ergodomainservice-landing: A decentralized domain service built for the Ergo platform.
+https://images-ext-2.discordapp.net/external/5V5VE7_IsIwq94DECY1_FkZzQjkmi3dVYZp_-6-_zgw/https/opengraph.githubassets.com/53d1fc0463a97387d855218d1f5479e0fa9fa65d3b5d29db24bc1fb93cd48172/Balbin-Labs/ergodomainservice-landing
+
+
+[01/06/2022 11:26 PM] NoahErgo#4349
+I suggested he post in ergo dev updates and he said for now he wont until he has something more substantial to share
+
+
+[01/06/2022 11:37 PM] timreg7#6732
+Another idea I had for online games: We could have some pvp game (anything, really) and set up tournaments where people pay an entry fee and get placed randomly in a bracket. Then a smart contract facilitates the matches, advances through the brackets, and pays the winner the sum of the entry fees.
+
+
+[01/06/2022 11:39 PM] timreg7#6732
+Would need some sort of oracle I suppose, idk how that would be executed. but it sounds fun and i'd bet on myself to win a game like checkers, tic tac toe, excite bike... anything. If you could get something like an old school fighting game (mortal kombat, DOA, Tekken, etc) that would be super popular
+
+
+[01/06/2022 11:42 PM] curbsideprophet#5083
+Ahh nice thanks for sharing
+
+
+[01/10/2022 1:49 PM] Chingy Macaroni#3838
+Here's an idea I had, but like all ideas guys I have no clue how to implement or if there's enough interest
+
+**-Tokenized Scientific Research and Publishing-**
+-Publishing, approved access/references, and funding of research on Ergo Chain
+-Use of smart contract/oracle to approve funding payment terms (50% upfront, 50% upon publishing, whatever kind of contract you want as the funder)
+-Escrow of funds, could match Erg-Fiat via an oracle in case price swings wildly during the research term. Multisig/voting/change order on research possible via contract
+-Anonymous funding and NFT-ified patents or authorship on the paper
+-Permanent, uncensored publishing of research
+-Encrypted publishing of results available to funders for x years as per contract, if wanted by financier
+-Kickbacks for researchers if their paper is cited
+-Payment for other researchers for experimentally verifying the research (there is a crisis in reproducibility in published research that this could help) 
+-Getting research out from behind a paywall and to the people, where more ideas can flourish.
+
+
+[01/12/2022 6:09 PM] AllCloudy | GetBlok.io#1273
+What’s the market opportunity for something like this? How are research papers released today?
+
+
+[01/17/2022 1:07 AM] JOFLITO#9983
+MultiSignature wallets for regular people
+
+
+[01/17/2022 1:08 AM] JOFLITO#9983
+that could be really useful for treasury of projects
+
+
+[01/17/2022 3:34 PM] Dediou#0611
+Also saw your post on the smartpool channel regarding connecting a Dex to get autoswaps and get paid other than in ergo. 
+Not a developper myself, but there is a ETH pool taht embrace this concept (prohasing) where you mine what you can with your hardware and get paid in the multi currencies of your choice, in the proportions of your choice, like auto-building a portfolio. Maybe you can check out their pool / website to get an idea on how to implement something similar
+
+
+[01/17/2022 3:47 PM] AggerGakker#4449
+Yes. There's also unmineable and zergpool. But unmineable does it through their own wallet and zergpool through a CEX. With ERGO it's possible to do instant swaps via a dex
+
+{Reactions}
+👍 (2) 
+
+[01/18/2022 12:48 AM] timreg7#6732
+I remember reading that Ergo could have monero-like side chains. I wonder if these could be private stable coins? Just use the same mechanism as sigmausd.io.
+
+
+[01/19/2022 4:31 AM] AllCloudy | GetBlok.io#1273
+It’s something we are thinking about at GetBlok.  But getting to smart contracts and the proof of vote needs to happen first
+
+
+[01/26/2022 7:00 AM] alexandru#0679
+Hello, as I have many friends that are not very blockchain friendly and they prefer simple things, most don’t want to go through exchanges stuff and then create a wallet and then buy NFTs or ERG. (Also Ergo not being in major exchanges is no-no for some). Is any feature in development that will alow users to directly buy Ergo from Yoroi, Ergo Wallet, Nautilius ? Maybe a integration with moonpay, banxa, etc?
+
+
+[01/28/2022 4:05 AM] AllCloudy | GetBlok.io#1273
+With ledger support coming, you could do this with ledger live if support is there. Super easy but not always cheap
+
+{Reactions}
+❤️ 
+
+[01/30/2022 6:46 PM] glasgowm#9381
+An analysis tool in jupyter notebook to go alongside ErgoVision would be handy
+
+
+[02/06/2022 8:52 AM] alexandru#0679
+Is someone building a TOKEN CHART website like poocoin on ERGO ?  I noticed and addressed this similar issue on Cardano. As the ecosystem grows many tokens will be minted and some basics stats like price over time candles, market cap, holders could help users avoid scams and win a lot of time for investors. Someone asked the same question but related to ErgoDEX on their discord, but I think a separate app for this will be better. Also I don't have the dev knowledge how this can be built if it can, I'm just very intersted in the idea.  :ergo_orange:
+
+
+[02/08/2022 1:20 PM] glasgowm#9381
+https://www.reddit.com/r/ergonauts/comments/snhe3n/is_there_any_project_developing_a_solution_to/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/snhe3n/is_there_any_project_developing_a_solution_to/
+r/ergonauts - Is there any project developing a solution to connect...
+3 votes and 2 comments so far on Reddit
+
+{Reactions}
+ergo_orange (3) 
+
+[02/16/2022 12:54 PM] root7Z#8699
+I saw this decentralized search engine idea, idk tech side seems very unoptimized but maybe someone wants to check https://docs.google.com/document/d/1OeeJBGqngktOavBiVUegfe_o_wYNs25mTH-_U56QgG0/edit#
+
+{Embed}
+https://docs.google.com/document/d/1OeeJBGqngktOavBiVUegfe_o_wYNs25mTH-_U56QgG0/edit
+ADZE: Aggressively Decentralized Search Engine
+ADZE: Aggressively Decentralized Search Engine     ADZE is a design architecture for a global decentralized search engine.  It intends to solve similar problems as commercial search engines, but without any large company controlling the system. Businesses will participate on the ADZE network, bu...
+https://images-ext-1.discordapp.net/external/DVdeJE6_l_3t7mfQASYGwPyHGDfXYifxNaJ_0Aia0hg/https/lh3.googleusercontent.com/riwvx5AWOgdjgde_N4P5VTD0ZOTU4qi3P9DAhaJQm1KXhECZXWKM-uDLqLHX4QWIXxYPrxOKo-wHIw%3Dw1200-h630-p
+
+{Reactions}
+78157lightelectriclightingincand 
+
+[02/17/2022 6:12 AM] root7Z#8699
+ErgoDEX api is in development for analytic tools, also a dev built this https://share.streamlit.io/eeysirhc/ergodex-price-app/main
+
+And there is ergo.watch for Supply age, TVL, exchanges etc metrics
+
+{Reactions}
+🔥 
+
+[02/17/2022 5:01 PM] HelixEvo#2120
+Anyone know if this is already in the pipeline? Basically a decentralised eBay built with escrow and on the ERG blockchain.
+
+
+[02/17/2022 9:00 PM] root7Z#8699
+How will it be decentralized? I think the verification process makes it hard to de decentralize, like the problems such as if the product arrived or how will be the refund process. There is https://cryptocurrencycheckout.com/coin/ergo service which helps sellers to accept ERG and SigUSD on their Shopify or social media channels
+
+{Embed}
+https://cryptocurrencycheckout.com/coin/ergo
+Accept ERG on your website for free with CryptocurrencyCheckout.
+Start Accepting Ergo crypto on Woocommerce, Shopify, Bigcommerce, Twitch.tv, Youtube, Twitter, Facebook & more!
+https://images-ext-1.discordapp.net/external/KO2ZabIpUFgNtObcXLskaAAOfgsELXDY84RZFYWSkVw/https/cryptocurrencycheckout.com/img/coins/coin_banner/ErgBanner.png
+
+
+[02/17/2022 9:08 PM] root7Z#8699
+Maybe a similar design to NFT market can be forked with escrow contracts, it can work as P2P commerce platform, then the risks will be on the two ends being trustful
+
+
+[02/17/2022 9:36 PM] root7Z#8699
+Maybe a group of people can run a DAO on top of the e-commerce to take the responsibility of verification and we may expect it being further decentralized when users of the platform get voting power on disputes through the airdrop 🤔
+
+
+[02/17/2022 10:27 PM] HelixEvo#2120
+The decentralised bit I was on about the payment section and utilising some escrow contract. I’m sure you will have disputes, but having something like this for people without the crazy fees would be handy
+
+
+[02/27/2022 3:53 PM] gnuion#3794
+Hello, I see an urgent need for decentralizing the internet's Root! I am shocked to see how centralized the DNS is:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/947521716098310144/icann-controls-the-dns-root.png
+
+
+[02/27/2022 3:54 PM] gnuion#3794
+Maybe there is a way to mint domain names on the Ergo blockchain with a pointer to a IPFS resource. Not using the traditional DNS system at all.
+
+
+[02/27/2022 3:59 PM] gnuion#3794
+Also, another note, I don't know if it is on the road map, but I would advocate for a more use friendly address. Something the NEAR protocol already has implemented for their blockchain.
+
+
+[03/02/2022 12:46 PM] HelixEvo#2120
+ErgoDNS I think is in the works for address friendliness. As for DNS for domains, are you referring to something like unstoppable domains type of idea?
+
+
+[03/03/2022 3:07 PM] gnuion#3794
+I think of a technology that bypasses the traditional domain resolution system, because by design the traditional DNS is hierarchical and therefor centralized. I don't think unstoppable domain really a solution, as it still operates as a centralized company following the ICANN standard, correct me if I am wrong. I just was shocked to see how centralized the internet really is.
+
+
+[03/03/2022 3:10 PM] gnuion#3794
+Okay, from a quick google search I read that unstoppable domains  are focused on building domain systems that are not part of ICANN.
+
+
+[03/03/2022 3:17 PM] gnuion#3794
+NFT domains may also not resolve in traditional browsers. Instead we might need to install a plugin or use web3 browsers.
+
+
+[03/03/2022 9:02 PM] lgd#5847
+isn't this what the ergo summit video was about, with namebase and handshake?
+
+
+[03/04/2022 2:43 PM] gnuion#3794
+Cool! I have to catch up on that! 😲
+
+
+[03/06/2022 4:47 PM] EddNorris | FishFight.app DEV#1111
+@mhs_sam @Armeanio @glasgowm can we start an xClaim/ergoscript-relay bridge channel?
+
+{Reactions}
+ergo_orange (2) ❤️ (3) 
+
+[03/06/2022 4:48 PM] EddNorris | FishFight.app DEV#1111
+Or “xClaim-Bridge”
+
+
+[03/06/2022 5:27 PM] Armeanio#0321
+@glasgowm can you set this up?
+
+
+[03/07/2022 5:47 PM] curbsideprophet#5083
+I've been thinking a lot about this tweet from @Armeanio : https://twitter.com/CuriaCrypto/status/1499903917395611648?s=20&t=gIw9YXwAsiOhBvNwhckRiA
+
+we desperately need an "Umbrel for Ergo" type service (https://getumbrel.com/). 
+
+Setting up a node at this point in time is like constructing a nuclear fusion reactor from scratch with nothing but palm trees and coconuts. if the technically savvy amongst us are facing issues (https://discord.com/channels/668903786361651200/669989266478202917/918129569272311830) then I can only imagine the frustration levels for a person who is less technically inclined (https://www.reddit.com/r/ergonauts/comments/p2pn3y/my_experience_setting_up_an_ergo_node/).
+
+this would address and solve a number of things:
+1) strengthens network decentralization and adoption
+2) encourages privacy by interfacing with node instead of 3rd party
+3) fast and easy install process to get up and running
+4) makes ergo very attractive for new/veterans of the space
+5) acts as a "gateway" to other ergo products
+
+
+[03/07/2022 5:52 PM] curbsideprophet#5083
+if anyone has a deep understanding on what it would take to make this work please reach out! doing my initial research now and perhaps in preparation for ErgoHack IV 😉
+
+{Reactions}
+ergo_orange (4) 
+
+[03/07/2022 11:34 PM] Armeanio#0321
+Maybe a custom ERG linux distro for Rasp Pi with in Ergo in mind? 
+
+https://www.youtube.com/watch?v=84T-P5ye864
+
+{Embed}
+Geek Till It Hertz
+https://www.youtube.com/watch?v=84T-P5ye864
+DIY Custom Linux OS For the Raspberry Pi Using Buildroot
+Buildroot: https://buildroot.org/
+twitter: @sahajsarup
+Instagram: @ric_96
+My Gaming Channel: https://www.youtube.com/channel/UC9ybuwuWuMGnEzDLH3Qc77A
+blog: geektillithertz.com/wordpress
+https://images-ext-2.discordapp.net/external/aw7Hr92S9M8WOmGniZiEbakfGnO0rjP--xggYfYiIyY/https/i.ytimg.com/vi/84T-P5ye864/maxresdefault.jpg
+
+{Reactions}
+🙏 (3) 👏 
+
+[03/08/2022 12:47 AM] curbsideprophet#5083
+i will check this out thank you 🙂
+
+
+[03/08/2022 12:50 AM] Armeanio#0321
+That would be pretty valuable imo. 
+
+Especially if the node/ the bots/mixer etc are built in.
+
+
+[03/08/2022 1:15 AM] curbsideprophet#5083
+see point #5 -> `acts as "gateway" to other ergo products` 😉
+
+{Reactions}
+👍 (2) 
+
+[03/08/2022 11:49 AM] glasgowm#9381
+Most of these issues have appeared over the past year as the blockchain has grown so much - once UTXO set snapshots are out and we can sync with <1MB this will be much less of an issue. 
+
+This mostly works as a one-liner for UNIX systems and could work with some modifications/testing on WSL I think. 
+
+https://github.com/glasgowm148/ergoscripts/blob/main/sh/install_gui.sh
+
+Further improvements
+1. Generate blake2b without starting server
+2. Switch to correct jvm version cross-platform
+3. Better debugging analysis
+
+{Embed}
+https://github.com/glasgowm148/ergoscripts/blob/main/sh/install_gui.sh
+ergoscripts/install_gui.sh at main · glasgowm148/ergoscripts
+Contribute to glasgowm148/ergoscripts development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/YYnsBByf376Ik3b_nUfzaOox3bT9nPVYqwkUibgyE_o/https/opengraph.githubassets.com/bf2a1de19ead2c7d74f9e8250f1d1e6d987f7519b645fde0307251682544a6c7/glasgowm148/ergoscripts
+
+{Reactions}
+👏 
+
+[03/08/2022 3:18 PM] curbsideprophet#5083
+this is great...any idea ETA on UTXO set snapshots? i may have to try again getting a node setup on rpi with the above bash script
+
+
+[03/08/2022 3:42 PM] glasgowm#9381
+Think most of the heavy lifting is done in the node and sigma-rust. Full node writing snapshots done 24/11. P2P messages done 19/01 and moving onto bootstrap logic. So hopefully not too much longer.
+
+I'm about to run through the script on my Pi to test will let you know how it goes.
+
+{Reactions}
+👏 
+
+[03/08/2022 3:44 PM] curbsideprophet#5083
+i was planning to do a complete wipe and clean install with your script on my rpi4 as well 🙂
+
+
+[03/12/2022 6:54 PM] gnuion#3794
+Using blockchain technology in supply chain I think is a great use case!
+
+
+[03/18/2022 10:54 PM] Galim81#0252
+Hey Guys, Looking for a Dev to work on a project i'm trying to get off the ground.  The project has no token, purely smart contract and website UI. If anyone can point me in the right direction I would appreciate it 🙂
+
+
+[03/19/2022 3:56 PM] NoahErgo#4349
+Post your idea and maybe you can get some traction
+
+
+[03/19/2022 9:53 PM] Galim81#0252
+Hey Noah, As a starting point is is to bring a service similar to Olympus Pro to Ergo, Protocol owned liquidity. 1 additional service that allows projects greater control over their liquidity, treasury and token volatility. (An evolution/expansion on what Olympus pro offers). There is one further service i'm looking at but haven't fully fleshed it out as of yet and I would need to understand if it could be delivered through smart contracts. I have funds to pay for a Dev and also happy to discuss % share. I also have contacts with Dev's that have delivered a similar service on EVM chains. They would be willing to support for a % share, in particular around the front end development.
+
+
+[03/20/2022 1:25 AM] NoahErgo#4349
+You should apply for help from ergopad devs
+
+https://ergopad.io/apply
+
+Even if theres no token involved they can help
+
+
+[03/20/2022 1:27 AM] Galim81#0252
+Cheers Noah, Appreciated.
+
+
+[04/06/2022 4:19 PM] AngieHar#0865
+Hi all, 
+
+Our team organizes a new hackathon for the ecosystem. However, we see the next event as more extensive and supportive for the ecosystem. Therefore, we would like to increase the time frame for development and engagement. One of the tasks is to provide support for projects, both with additional promo and development.
+
+We want to attract more developers from outside and get them building on Ergo.  To do this it would be appreciated if you could describe any issues or bottlenecks on what you think needs improved to help onboard new devs.  This is an integral part of building up Ergo and in gratitude anyone who submits such feedback will be eligible for part of the ergohack prize pool.
+
+And also each project has the opportunity to participate in our Promo week on the official ergo youtube channel. To do this, you need to record a short video presentation of the project and send it to our video manager Andy (I think that most of you have already received his personal invitation)
+
+I look forward to your feedback, as the idea of the next hackathon aka hack fest (which we will announce very soon) is entirely dedicated to ecosystem projects. 
+
+Please use the typeform answering just 4 short questions, it would be highly appreciated 👇🏽
+
+https://q9fwzopidh8.typeform.com/to/agDaUL3k
+
+{Embed}
+Typeform
+https://q9fwzopidh8.typeform.com/to/agDaUL3k
+Feedback
+Turn data collection into an experience with Typeform. Create beautiful online forms, surveys, quizzes, and so much more. Try it for FREE.
+https://images-ext-2.discordapp.net/external/r-0AD7Bz7LLWlcz0Q2rTt4x0dtMnX7RHD5d6OcGyLcI/https/images.typeform.com/images/FYUps4mFKPYK/image/default
+
+
+[04/06/2022 8:19 PM] curbsideprophet#5083
+“…help onboard new devs…” 
+
+This is my anecdotal evidence but I see messages over discord Twitter and Reddit that many people actually do want to pick up ergoscript and contribute but examples/tutorials are just way over the head of everyone and it goes from 0-100 really quick (even for myself with partial programming experience). The template answer on reddit right now is "sign up for deco" but not everyone can commit to a dedicated set time schedule every week.
+
+The on-ramp needs to be a bit smoother IMO. The information is all over the place. Dav009 has a good starter guide in getting dev workflow setup. But then what? How to start from the most basic parts to a full contract? Again there are examples but the cognitive load to sift through and “just figure it out” is way too high. i have start-stop this learning more times than i can count.
+
+There really needs to be a single resource/guide/tutorial for this that people can use as a jumping point to go down the rabbit hole or reference again in the future. Right now you have to find it on ergo docs, medium, github, etc. This is something I have been wanting to do for awhile but goes back to everything I mentioned above.
+
+{Reactions}
+💯 (2) 
+
+[04/06/2022 9:01 PM] glasgowm#9381
+yeah I agree & that's what I've been trying to do here - https://docs.ergoplatform.com/dev/
+
+For scala/appkit there's a fair bit, but yeah still very steep. But anything you find on medium/git should be added/relinked here - plan is to have it step-by-step.
+
+PRs/comments always welcomed (I also asked Stacie to push through the bounties requests that were hanging earlier). But yeh - long process. Education partnerships we're working on + whatever we can pinch from DeCo should help push it along a bit again soon.
+
+{Reactions}
+🔥 ❤️ anetaThis 👍 🙏 
+
+[04/06/2022 9:34 PM] curbsideprophet#5083
+I would love to be an ergoscript dev someday. Thank you for the response!
+
+
+[04/06/2022 9:38 PM] glasgowm#9381
+me too 😅
+
+{Reactions}
+kushti_thumbsup 
+
+[04/07/2022 6:35 PM] HelixEvo#2120
+Anyone thought of some telegram bot or SMS type notification system to let people know if they have received ERG?
+
+
+[04/09/2022 12:52 PM] Mx62#7304
+https://github.com/DeCo-Education/DeCo-Homeworks/blob/cfea28c57e489e56b9c81a24c3967bd7ec7cabf2/ErgoScript-Developer-Course/batch-0/Individual/Mx62/hw1/hw1.md
+
+{Embed}
+https://github.com/DeCo-Education/DeCo-Homeworks/blob/cfea28c57e489e56b9c81a24c3967bd7ec7cabf2/ErgoScript-Developer-Course/batch-0/Individual/Mx62/hw1/hw1.md
+DeCo-Homeworks/hw1.md at cfea28c57e489e56b9c81a24c3967bd7ec7cabf2 ·...
+DeCo Homeworks. Contribute to DeCo-Education/DeCo-Homeworks development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/cqC2C8z85Vn2uncjxNb5TbPt13KyiLboQ58l-x8myyk/https/opengraph.githubassets.com/54b50b329e1865f52edd85b074b85200f0be35e620a77386d06ac9cda02c496c/DeCo-Education/DeCo-Homeworks
+
+
+[04/09/2022 12:53 PM] Mx62#7304
+^Here are my ideas on minable tokens and NFTs on ergo
+
+
+[04/09/2022 2:04 PM] Mx62#7304
+as far as feedback, im curious what R&D has been do so far on PoW tokens, if someone with more advanced cryptographic experience can comment on the security of my proposal, and if RSA decryption can be or is implemented in sigma propositions
+
+
+[04/09/2022 2:04 PM] Mx62#7304
+i know armeanio has been interested in this subject, do i tag him?
+
+
+[04/10/2022 1:00 AM] Cheese Enthusiast#0548
+Its an idea we have considered previously at getblok, could theoretically work well with our subpooling concept.
+
+
+[04/10/2022 1:04 AM] Mx62#7304
+are you talkin about the idea in general of minable coins, or the specific use of RSA?
+
+
+[04/10/2022 1:06 AM] Cheese Enthusiast#0548
+We have thought about both, there's ways to make it such that nfts can be provided as tokens on top of normal ERG mining, and also ways to make it so that the work being performed is only useful for mining the NFT itself.
+
+
+[04/10/2022 1:07 AM] Cheese Enthusiast#0548
+Theoretically also possible to perform some sort of dual mining set up. Where you set a separate target value that is checked against the hash of the block. Essentially you could mine blocks but then also randomly mine tokens depending on whether or not the hash of the block you mined was lower than the NFT target value.
+
+
+[04/10/2022 1:09 AM] Mx62#7304
+did you read my writeup? if youve thought about using RSA this way, what were the technical challenges?
+
+
+[04/10/2022 1:09 AM] Mx62#7304
+@Cheese Enthusiast
+
+
+[04/10/2022 1:13 AM] Cheese Enthusiast#0548
+Have not looked at it thoroughly yet, sorry. From a general overview I wonder if it is maybe a bit more complicated then it needs to be, but that depends on your goals for the project.
+
+
+[04/10/2022 1:23 AM] Mx62#7304
+yeah we could axe the record boxes and some other features
+
+
+[04/10/2022 1:25 AM] Mx62#7304
+the main thing i was curious about is if anyone here had talked about using RSA bruteforcing for mining since it would prevent frontrunning
+
+
+[04/10/2022 1:34 AM] Cheese Enthusiast#0548
+Are you worried about miners being able to frontrun the transaction by providing the same nonce in order to spend the box guarding the NFT? I think there are likely easier ways to solve this, for example require two inputs to the transaction. Input 1 being the guarding box holding the NFT, and input two being a box under the NFT miner's pk, that will hold the nonce in R4. The guarding box checks input 2 to see if its box id is less than some target value, and if it is then it will unlock. Now if someone were to try and create a separate box with the same nonce, the box id would be completely different and would not be able to unlock the guarding box.
+
+Didn't put too much thought into this set up so it would still have to be analyzed for security risks, but the general idea seems easier to implement then the rsa encryption you mentioned.
+
+
+[04/12/2022 1:06 PM] AngieHar#0865
+Hey Teams, 
+
+a kind reminder on the quick poll, please take a bit of your time to get as much as possible from our upcoming ergohack https://q9fwzopidh8.typeform.com/to/agDaUL3k
+
+{Embed}
+Typeform
+https://q9fwzopidh8.typeform.com/to/agDaUL3k
+Feedback
+Turn data collection into an experience with Typeform. Create beautiful online forms, surveys, quizzes, and so much more. Try it for FREE.
+https://images-ext-2.discordapp.net/external/r-0AD7Bz7LLWlcz0Q2rTt4x0dtMnX7RHD5d6OcGyLcI/https/images.typeform.com/images/FYUps4mFKPYK/image/default
+
+
+[04/12/2022 9:06 PM] NoahErgo#0000
+Did the ENFT gallery project drop development or something?
+
+
+[04/12/2022 9:16 PM] nirvanush#0000
+> nirvanush re @NoahErgo: Did the ENFT gallery project drop development ... 
+I don’t think so, he had a lot of plans when I last spoke with him
+
+
+[04/12/2022 10:22 PM] martyergo#0000
+nah they got caught up in ukraine
+
+
+[04/12/2022 10:22 PM] martyergo#0000
+they'll be back
+
+
+[04/12/2022 10:31 PM] NoahErgo#0000
+got it
+
+
+[04/12/2022 11:53 PM] koutelier#0000
+Hello
+
+
+[04/12/2022 11:55 PM] JOFLITO#0000
+welcome sir
+
+
+[04/12/2022 11:56 PM] JOFLITO#0000
+here we share ideas and ask stuff to the ergoPad team
+
+
+[04/12/2022 11:56 PM] JOFLITO#0000
+lol
+
+
+[04/13/2022 12:00 AM] koutelier#0000
+Lol I think I am in the perfect place then
+
+
+[04/13/2022 4:36 AM] Jayinergo#0000
+> Jayinergo re @C4lculista: lol 
+It's the cool kids hangout sir...lol
+
+
+[04/14/2022 8:56 AM] ChrisHobotnica#0000
+Am I right to think ErgoDex is launching via Ergopad on May 1st?
+
+
+[04/14/2022 3:13 PM] curbsideprophet#5083
+ErgoDEX has already launched without the need to go through ErgoPad.
+
+
+[04/15/2022 7:54 PM] Jεnniε D#0000
+Is there any way to find out more about who is behind Etaerneon Games? Not their identities necessarily, more like their bios or some information about them
+
+
+[04/15/2022 7:55 PM] martyergo#0000
+It will be in the upcoming whitepaper
+
+
+[04/15/2022 7:55 PM] martyergo#0000
+I think that's supposed to release today but I have to check
+
+
+[04/15/2022 7:56 PM] Gazza_ERG#0000
+> Gazza_ERG re @martyergo: I think that's supposed to release today but I... 
+ 
+ Get the whip out
+
+
+[04/15/2022 7:56 PM] Jεnniε D#0000
+Thank you. I realized all I knew about it was a couple of tweets/pictures - my imagination has created a whole story that has me very excited about it but isn't necessarily based in reality.
+
+
+[04/16/2022 12:36 PM] gilgaMesh#8262
+can we have something like https://fees.wtf/
+
+{Embed}
+https://fees.wtf/
+fees.wtf?
+The original Ethereum gas fee checker, claim your WTF airdrop today!
+https://images-ext-2.discordapp.net/external/1prHFujoZaQilJIMl5gblPJFwcPdPwMCt2q5lAdFJxM/https/fees.wtf./favicon.png
+
+
+[04/16/2022 12:36 PM] gilgaMesh#8262
+would be a nice tool to showoff the low tx fees on erg
+
+
+[04/20/2022 12:06 AM] JOFLITO#0000
+> JOFLITO re @C4lculista: Sirs I have an idea, but IDK if it is possible... 
+ 
+ @koutelier gero ql sir 👀
+
+
+[04/20/2022 12:16 AM] koutelier#0000
+> koutelier re @C4lculista: @koutelier gero ql sir 👀 
+ 
+ i am trying to slip ql
+
+
+[04/20/2022 12:16 AM] koutelier#0000
+i have less than 4 hours . show mercy
+
+
+[04/20/2022 1:02 AM] JOFLITO#0000
+> JOFLITO re @koutelier: i have less than 4 hours . show mercy 
+ 
+ put it in silence sir
+
+
+[04/20/2022 1:02 AM] JOFLITO#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/966126665950429264/mushu-mulan.mp4
+
+
+[04/20/2022 8:53 AM] fruittree#0000
+lol
+
+
+[04/20/2022 9:19 AM] koutelier#0000
+> koutelier re @C4lculista: put it in silence sir 
+ 
+ I will buy you a tamagotchi
+
+
+[04/20/2022 10:08 AM] glasgowm#0000 (pinned)
+Hey! Put together a list of all previous ideas discussed in the incubator chats (not went through this one yet) feel free to add.  
+
+https://sideways-stove-8c5.notion.site/ErgoHack-cb8989616d394ceebbabd64bb3814d92
+
+{Embed}
+https://sideways-stove-8c5.notion.site/ErgoHack-cb8989616d394ceebbabd64bb3814d92
+ErgoHack
+A new tool for teams & individuals that blends everyday work apps into one.
+
+
+[04/20/2022 10:10 AM] glasgowm#9381
+Pinned a message.
+
+
+[04/20/2022 4:21 PM] NoahErgo#0000
+Hey @LuivatraEP would a vesting contract be possible for an NFT mint? So people would mint their NFT and then it would be locked for a set period of time?
+
+
+[04/20/2022 4:25 PM] Luivatra#0000
+> Luivatra re @NoahErgo: Hey @LuivatraEP would a vesting contract be po... 
+ 
+ sure, an nft is just a token after all
+
+
+[04/20/2022 4:27 PM] NoahErgo#0000
+Really cool idea thank you
+
+
+[04/20/2022 5:37 PM] Marty#0000
+Other chat
+
+
+[04/21/2022 5:39 PM] liquid_phase#4605
+With Ergopad, it required mandatory telegram link
+
+
+[04/21/2022 5:39 PM] liquid_phase#4605
+to submit an IDO
+
+
+[04/21/2022 5:39 PM] liquid_phase#4605
+I don't use telegram
+
+
+[04/21/2022 5:41 PM] liquid_phase#4605
+Should I just list discord info?
+
+
+[04/21/2022 5:46 PM] curbsideprophet#5083
+yeah i submitted w/o it then pinged in the ergopad discord channele
+
+
+[04/21/2022 5:54 PM] cafebedouin#0000
+> cafebedouin re @ErgoBridgeBot: <liquid_phase> With Ergopad, it required manda... 
+ 
+ It no longer requires socials to stake.
+
+
+[04/21/2022 5:55 PM] cafebedouin#0000
+> cafebedouin re @ErgoBridgeBot: <liquid_phase> With Ergopad, it required manda... 
+ 
+ You cannot run a project in crypto and not have a telegram. People will assume its a scam.
+
+
+[04/21/2022 5:56 PM] liquid_phase#4605
+I mean, I'm an american and literally not one person i know uses telegram - not sure how much i believe your statement.
+
+
+[04/21/2022 5:57 PM] cafebedouin#0000
+I, too, am an American and use Telegram because it was literally the only way to get some of my crypto problems solved.
+
+
+[04/21/2022 5:58 PM] cafebedouin#0000
+Whether you believe it or not, the fact that the IDO has it listed should be a clue in it is kind of important.
+
+
+[04/21/2022 5:58 PM] liquid_phase#4605
+Okay, well. I am a business man - Who is getting into the crypto space. Are you saying that having a telegram in the space is like having a linkedin in the corporate one? is it ENTIRELYT neccessary to cultivate a message board just to launch a business, even if it has no plans to be community driven project?
+
+
+[04/21/2022 5:59 PM] liquid_phase#4605
+(outside of ergopad) i realize ergopad itself is for community driven projects
+
+
+[04/21/2022 5:59 PM] liquid_phase#4605
+im just curious
+
+
+[04/21/2022 5:59 PM] cafebedouin#0000
+> cafebedouin re @ErgoBridgeBot: <liquid_phase> Okay, well. I am a business man... 
+ 
+ If you have users, you'll need somewhere to communicate with them. Discord could work if your clients are IT pros I suppose, but do IT pros outside crypto use Discord? I have no idea.
+
+
+[04/21/2022 5:59 PM] liquid_phase#4605
+should i really consider using a chat app ive never used before and never planned to just because of this?
+
+
+[04/21/2022 5:59 PM] liquid_phase#4605
+discord/slack is the main thing people use in silicon valley
+
+
+[04/21/2022 6:00 PM] liquid_phase#4605
+telegram is seen as a 'encrypted chat app' and nothing more
+
+
+[04/21/2022 6:00 PM] liquid_phase#4605
+whatsapp is more popular here than telegram
+
+
+[04/21/2022 6:00 PM] cafebedouin#0000
+As curbside said, you could leave it off the Ergopad application, but you'll need something to communicate with prospective people you might need to say, buy tokens to launch the project, communicate with devs, communicate with marketing people on your team, etc.
+
+
+[04/21/2022 6:01 PM] liquid_phase#4605
+Planned on building that into the platform tbh
+
+
+[04/21/2022 6:02 PM] cafebedouin#0000
+Then, maybe your project is one of those 1% that can cut its own path. Good luck!
+
+
+[04/21/2022 6:02 PM] liquid_phase#4605
+^ your optimism feels great sir 🙂 thank you. I am that 1% in everyday life so im sure i can be so in this space too
+
+
+[04/21/2022 6:03 PM] cafebedouin#0000
+> cafebedouin re @ErgoBridgeBot: <liquid_phase> ^ your optimism feels great sir... 
+ 
+ Few people are 1% in every aspect of their lives. Not knowing this is probably a sign of Dunning-Kruger. Something to watch out for.
+
+
+[04/21/2022 6:04 PM] liquid_phase#4605
+Sir, i take exception to thee. In other words, why are you drinking the haterade ?
+
+
+[04/21/2022 6:07 PM] cafebedouin#0000
+> cafebedouin re @ErgoBridgeBot: <liquid_phase> Sir, i take exception to thee. ... 
+ 
+ Another thing that is common in life is not everyone is going to like you. I'm leaning toward mild dislike. But you seem capable, and I like capable people. If you reign in that ego a bit, we'll probably get along just fine. I voted for you to be added to the sigcans group, saying that you are pain in the ass, but so am I. So, here we are.
+
+
+[04/21/2022 6:10 PM] liquid_phase#4605
+No idea what sigcans are, nor do i care. Im helping teams build their products and launching my own - you hate on me or get in my way, you feel my abrasive side. I've said it to other people and i'll say it to you -  i dont care about making friends here, i make change - change makers are often disliked and i RELISH the opportunity to be disliked if it brings about constructive change
+
+
+[04/21/2022 6:10 PM] Marty#0000
+What discord chat is this coming from
+
+
+[04/21/2022 6:11 PM] liquid_phase#4605
+it started as ergopad questions then turned into a pissing contest. my apologies
+
+
+[04/21/2022 6:11 PM] Marty#0000
+What chat is this in?
+
+
+[04/21/2022 6:11 PM] liquid_phase#4605
+idea-incubator
+
+
+[04/21/2022 6:12 PM] Marty#4039
+Thanks
+
+
+[04/21/2022 6:12 PM] Marty#4039
+Wanted to read back. It didn't all come through
+
+
+[04/21/2022 6:14 PM] Marty#4039
+Anyway if you want to submit a project proposal to ergopad, just put "n/a" in the spots you haven't got something for yet
+
+
+[04/21/2022 6:14 PM] Marty#4039
+This comment is a huge red flag though
+
+
+[04/21/2022 6:14 PM] liquid_phase#4605
+I appreciate that - but as someone serious about launching a platform should i really consider using it?
+
+
+[04/21/2022 6:14 PM] Marty#4039
+What do you mean?
+
+
+[04/21/2022 6:15 PM] Marty#4039
+Ergopad is serious in every way
+
+
+[04/21/2022 6:15 PM] liquid_phase#4605
+using telegram as a platform of communcation
+
+
+[04/21/2022 6:15 PM] liquid_phase#4605
+as i've only ever used discord
+
+
+[04/21/2022 6:15 PM] Marty#4039
+Up to you. Darkpool doesn't have their own telegram
+
+
+[04/21/2022 6:15 PM] liquid_phase#4605
+and beduin says telegfram is more important for ergo projects
+
+
+[04/21/2022 6:15 PM] liquid_phase#4605
+im genuinely wanting to know
+
+
+[04/21/2022 6:15 PM] Marty#4039
+So we discuss their project in their discord, or in the ergopad telegram channel
+
+
+[04/21/2022 6:16 PM] cafebedouin#0000
+I didn't say it was more important. But not having a Telegram is going to be viewed a certain way.
+
+
+[04/21/2022 6:16 PM] liquid_phase#4605
+as someone who is primarily focused on running his own two businesses in the real non crypto space, who doesnt have time to keep up with the community as much but wants to launch his ideas on ergo
+
+
+[04/21/2022 6:16 PM] cafebedouin#0000
+Like, there are Discord/Telegram bridges for a reason, right?
+
+
+[04/21/2022 6:16 PM] liquid_phase#4605
+i think its a bit wrong to consider it a red flag to not know what some inside joke/statement means
+
+
+[04/21/2022 6:17 PM] liquid_phase#4605
+like, my vetting comes from the obvious stuff on my CV, references in business, my own successful projects - judging someone on not knowing some discord/telegram group? thats a red flag from ME to YOU acctually
+
+
+[04/21/2022 6:17 PM] cafebedouin#0000
+> cafebedouin re @ErgoBridgeBot: <liquid_phase> like, my vetting comes from the... 
+ 
+ Are we talking about you or your project?
+
+
+[04/21/2022 6:18 PM] liquid_phase#4605
+Dude quoting me saying he got red flags i dont know what sigcans are
+
+
+[04/21/2022 6:18 PM] Marty#0000
+> Marty re @ErgoBridgeBot: <liquid_phase> i think its a bit wrong to cons... 
+ 
+ It's a red flag that you'd relish the opportunity to piss everyone off..
+
+
+[04/21/2022 6:18 PM] Marty#0000
+We are a community driven ecosystem
+
+
+[04/21/2022 6:19 PM] liquid_phase#4605
+Not to piss everyone off, my friend. you mistake me - i relish the oportunity to bring about change - change makers are just disliked because they end up changing peoples jobs, changing peoples workflows or changing their perceptions.
+
+
+[04/21/2022 6:19 PM] liquid_phase#4605
+i relish the opportiunity to be disliked since it brings about changhe
+
+
+[04/21/2022 6:19 PM] liquid_phase#4605
+i choose my words carefiully
+
+
+[04/21/2022 6:19 PM] Marty#0000
+Yeah I understand your statement
+
+
+[04/21/2022 6:19 PM] Marty#0000
+But some people will bring change without pissing others off, because that's possible too
+
+
+[04/21/2022 6:19 PM] Marty#0000
+You seem to seek to piss people off
+
+
+[04/21/2022 6:20 PM] Marty#0000
+But that's none of my business. If you feel like making a proposal we'll assess it on its merits
+
+
+[04/21/2022 6:20 PM] liquid_phase#4605
+This is false, untrue and i call you a liar for saying so. What else of my content have you seen besides today?
+
+
+[04/21/2022 6:22 PM] liquid_phase#4605
+I seek to add value to this ecosystem - pissing people off is me figuring out my way through the maze. Don't be mistaken here.
+
+
+[04/21/2022 6:24 PM] Marty#0000
+You should try not pissing people off
+
+
+[04/21/2022 6:24 PM] liquid_phase#4605
+Okay i'll let you know how that goes in my real world life where i've always been who i am.
+
+
+[04/21/2022 6:25 PM] fruittree#0000
+lol what a real world drama queen
+
+
+[04/21/2022 6:25 PM] liquid_phase#4605
+did you just assume my gender?
+
+
+[04/21/2022 6:26 PM] fruittree#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/966751763547959327/office-space-ok.mp4
+
+
+[04/21/2022 6:26 PM] Marty#0000
+Jeez
+
+
+[04/21/2022 6:27 PM] liquid_phase#4605
+Just kidding - its all in good fun 🙂 go ahead and call me a drama queen. i'm a male, so its more of a drama king though
+
+
+[04/21/2022 6:28 PM] Marty#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/966752234794782770/animation.gif.mp4
+
+
+[04/21/2022 6:28 PM] NoahErgo#0000
+Not being a jackass will get you far in life
+
+
+[04/21/2022 6:28 PM] liquid_phase#4605
+They said to someone they don't know in life, whose already made it pretty far
+
+
+[04/21/2022 6:29 PM] fruittree#0000
+what do you do?
+
+
+[04/21/2022 6:29 PM] NoahErgo#0000
+All im saying is if you wish to add value to the ecosystem, creating friction with prominent actors in the ecosystem is not a great way to begin imo
+
+
+[04/21/2022 6:30 PM] liquid_phase#4605
+Former Quality System manager, ISO certified by NSF with the first quality system in the hemp extraction equipment space, Founder document control systems consultant, Founder music label, CTO cannabis grow company
+
+
+[04/21/2022 6:31 PM] Jεnniε D#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/966752958224171049/sacha-baron.mp4
+
+
+[04/21/2022 6:31 PM] fruittree#0000
+I also grew some dope and minted some Auction house audio nfts. seems like we would get along
+
+
+[04/21/2022 6:32 PM] Jεnniε D#0000
+Sorry for the gif btw, I wasn't making fun. I am in a silly mood. I realize probably not everyone is.
+
+
+[04/21/2022 6:32 PM] liquid_phase#4605
+I have worked in grey market emerging legal markets, understand how to market them, how counter-culture drives adoption, how to retain quality as an organization scaled across locations and states, developed the framework by which these companies share data with subsidiaries
+
+the company i did quality for and ISO certified with (and made and app for, and developed their customer portal, and tied it all to their back office software) was purchased for 47.5 million,
+
+
+[04/21/2022 6:32 PM] Marty#0000
+> Marty re @ErgoBridgeBot: <liquid_phase> Former Quality System manager, ... 
+ 
+ What extraction method did you use out of curiosity
+
+
+[04/21/2022 6:32 PM] fruittree#0000
+lol jk i've never succesfully grown cannabis
+
+
+[04/21/2022 6:33 PM] liquid_phase#4605
+the company i worked with pioneered the ethanol process line for bulk extraction and distillation for pen cartridges. 
+
+personal preference i choose water hash, rosin, or butane hash when made properly.
+
+the lab i just designed for cosmic gardens, currentlty CTO of this company, is a type 7 extraction lab for hydrocarbons (butane/propane)
+
+
+[04/21/2022 6:33 PM] liquid_phase#4605
+i deal with compliance, and grey market legality all day, every day
+
+
+[04/21/2022 6:34 PM] fruittree#0000
+lol all day every day
+
+
+[04/21/2022 6:34 PM] liquid_phase#4605
+except weekends, but im filling those up with crypto stuff now
+
+
+[04/21/2022 6:35 PM] Marty#0000
+> Marty re @ErgoBridgeBot: <liquid_phase> the company i worked with pione... 
+ 
+ No CO2?
+
+
+[04/21/2022 6:35 PM] liquid_phase#4605
+CO2 is incredibly slow throughput anmd you need co-solvent injection of ethanol to perform winterization of the CO2 crude to make it usable in pens
+
+
+[04/21/2022 6:35 PM] Jεnniε D#0000
+> Jεnniε D re @Marty: No CO2? 
+ 
+ I don't think he's watched your interviews/amas
+
+
+[04/21/2022 6:35 PM] Marty#0000
+Yeah you do need ethanol winterization
+
+
+[04/21/2022 6:36 PM] liquid_phase#4605
+a co2 system costs a million, needs ASME rating, takes 12 hours to perform what ethanol or butane could do in 2 hours
+
+
+[04/21/2022 6:36 PM] liquid_phase#4605
+its not a good methodology for bulk. and its too expensive for personal
+
+
+[04/21/2022 6:36 PM] Marty#0000
+It's a lot easier to get regulated for CO2 than butane extraction
+
+
+[04/21/2022 6:36 PM] liquid_phase#4605
+the company i built out was Delta Separations
+
+
+[04/21/2022 6:36 PM] liquid_phase#4605
+our ethanol line pioneered the regulation
+
+
+[04/21/2022 6:36 PM] Marty#0000
+Of course if you've already built the butane facility then there's no point
+
+
+[04/21/2022 6:36 PM] liquid_phase#4605
+we merged with apeks supercritical once purchased by gibraltar
+
+
+[04/21/2022 6:37 PM] Marty#0000
+CO2 is beautiful, you get a lot fuller spectrum
+
+
+[04/21/2022 6:37 PM] liquid_phase#4605
+the founder of this company im currently at is highly preferential on DIAMONDS. doesnt want carts or wax.
+
+
+[04/21/2022 6:38 PM] liquid_phase#4605
+CO2 is great for dialing in terpenes, and for specific use cases, when merged with ethanol injection you get some great results - im not questioning it. I m just from the bulk side of getting it done cheaper and faster. CO2 needs some barriers of entry (cost/speed) to come down for it to be production usable
+
+
+[04/21/2022 6:38 PM] Marty#0000
+Btw CO2 doesn't cost a million if you know what you're doing. We built one for $200k w/ 16lb capacity
+
+
+[04/21/2022 6:38 PM] liquid_phase#4605
+id love to have an actual conversation with you on this some day if it is one of your passions
+
+
+[04/21/2022 6:39 PM] liquid_phase#4605
+^ our centrifuge for ethanol did 15 lbs capacity PER RUN (15 minute run time) - up to 450 lbs per working day of cannabis processed
+
+
+[04/21/2022 6:39 PM] liquid_phase#4605
+CO2 just cant touch that
+
+
+[04/21/2022 6:39 PM] fruittree#0000
+honest question, why extracts? When i was quitting weed/drugs like over a decade ago everyone in denver  etc was almost exclusively smoking extracts. Maybe im old but why don't people like to smoke the whole herb anymore?
+
+
+[04/21/2022 6:40 PM] Marty#0000
+Gives you a lot more options
+
+
+[04/21/2022 6:40 PM] Marty#0000
+You can isolate specific flavor profiles, specific highs
+
+
+[04/21/2022 6:40 PM] Marty#0000
+Stores much longer
+
+
+[04/21/2022 6:40 PM] liquid_phase#4605
+I know co2 systems can be made cheaper, and actually once we merghed with apeks supercritical they were working on some cheaper units too - but again, its all about point of diminishing returns for me
+
+Co2 gives you options for terpenes, but those options are now available by using microwave distillation
+
+
+[04/21/2022 6:40 PM] Marty#0000
+> Marty re @ErgoBridgeBot: <liquid_phase> ^ our centrifuge for ethanol di... 
+ 
+ Yeah CO2 can't touch that at all
+
+
+[04/21/2022 6:40 PM] liquid_phase#4605
+CO2 extract does not store as well as butane extracts.
+
+
+[04/21/2022 6:40 PM] liquid_phase#4605
+the structure is more porous
+
+
+[04/21/2022 6:41 PM] liquid_phase#4605
+i switch back and forth tbh
+
+
+[04/21/2022 6:41 PM] Marty#0000
+Have had CO2 in the freezer for over 2 years that's as perfect as day one
+
+
+[04/21/2022 6:43 PM] liquid_phase#4605
+id love to talk more about this with you marty (really, i would, because its not often you find people who know how to build closed loop systems, and im sure you can see moreso how my mind operates now that you see im used to dealing with volatiles ands explosives and gray markets  all day) but i am actually pretty busy today. I really am not SEEKING to piss anyone off, and me talking the way i do is just sort oif a recognition that it happens wether i want it to or not. Generally speaking i tell people that they're going to dislike me until the moment they really like me - im just sorta like that. All i'm trying to do is increase quality and value.
+
+
+[04/21/2022 6:44 PM] liquid_phase#4605
+Will flesh out my whitepaper and get back to ya'll
+
+
+[04/21/2022 6:46 PM] fruittree#0000
+good mangoes have good terpenes
+
+
+[04/21/2022 6:46 PM] liquid_phase#4605
+Beta myrcene potentiates cannabinoids and is also found in Hops
+
+
+[04/21/2022 6:48 PM] fruittree#0000
+this all reminds me of errowid
+
+
+[04/21/2022 6:53 PM] Jεnniε D#0000
+> Jεnniε D re @fruittree: this all reminds me of errowid 
+ 
+ Blast from the past 😉
+
+
+[04/21/2022 6:57 PM] fruittree#0000
+yeah used to be a bold psychonaut now im an Ergonaut that is too content to take cubensis almost ever anymore. 
+
+Although I am thinking to try and go to some geomagnetic hotspots at 3 am in a lightning storm to see if i gain clairvoyance skills.. but still cautious of doing that.. lol
+
+
+[04/21/2022 6:59 PM] Jεnniε D#0000
+What do you need those for. Life is uncertain. Everything can change drastically from one moment to the next. You can't control it or really prepare for it.
+
+
+[04/21/2022 6:59 PM] Jεnniε D#0000
+Embrace the uncertainty.
+
+
+[04/21/2022 7:00 PM] Marty#0000
+> Marty re @fruittree: yeah used to be a bold psychonaut now im an Er... 
+ 
+ Psilocybin probably saved my life and now it does nothing good for me
+
+
+[04/21/2022 7:00 PM] Marty#0000
+Weird how that goes
+
+
+[04/21/2022 7:00 PM] Jεnniε D#0000
+Sounds preachy. I try to do that too, I'm not a master. Not knowing is just something I've accepted.
+
+
+[04/21/2022 7:01 PM] Marty#0000
+You ARE in a weird mood Jenny :)
+
+
+[04/21/2022 7:02 PM] Jεnniε D#0000
+Yeah.
+Psilocybin is getting some good results in countries where they're testing it for mental health benefits. And LSD. And MDMA.
+
+
+[04/21/2022 7:03 PM] liquid_phase#4605
+LSD and I have a similar story..
+
+
+[04/21/2022 7:04 PM] liquid_phase#4605
+It's almost reassuring to see other former psychnauts in here
+
+
+[04/21/2022 7:04 PM] liquid_phase#4605
+have a good day everyone
+
+
+[04/21/2022 7:05 PM] NoahErgo#0000
+Theres big overlap between ergonauts and pyschonauts haha
+
+
+[04/21/2022 7:06 PM] cafebedouin#0000
+Nice how the business side of drugs brought everyone together.
+
+{Reactions}
+🤣 
+
+[04/21/2022 7:10 PM] fruittree#0000
+back to work
+
+
+[04/21/2022 7:10 PM] Jεnniε D#0000
+> Jεnniε D re @fruittree: back to work 
+ 
+ Bye bye j :)
+
+
+[04/21/2022 8:31 PM] Brandon#0000
+Dang, see alot of messages and get excited. Just reminds me of the early days or rero hitting the chats
+
+
+[04/22/2022 6:08 PM] NoahErgo#0000
+Forwarded from ErgoBridgeBot: <Cheese Enthusiast> Hey guys, today I took some time to write about the general offchain transaction framework I designed for SubPooling. Though it was designed with our specific dApp in mind, it may have uses for anyone dealing with large sets of related txs, and so I have described it in a very abstract way. The goal is to maximize scalability and throughput using chained transactions, while also ensuring failed transactions are localized when possible. Write-up is here if anyone is interested:
+
+https://github.com/GetBlok-io/Subpooling#frameworks--abstractions
+
+{Embed}
+https://github.com/GetBlok-io/Subpooling
+GitHub - GetBlok-io/Subpooling: GetBlok.io Subpooling Service
+GetBlok.io Subpooling Service. Contribute to GetBlok-io/Subpooling development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/i3E10t-khHKWRc11RX1qCGQv7JrLwGcFKoERebJyMu8/https/opengraph.githubassets.com/0a5545ae214cfae551c7e81e694ec5e157c8bda767bf4973af055e4e324d9f73/GetBlok-io/Subpooling
+
+
+[04/22/2022 7:33 PM] Marty#0000
+> Marty re @NoahErgo: <Cheese Enthusiast> Hey guys, today I took som... 
+ 
+ @LuivatraEP this may be interesting to you?
+
+
+[04/22/2022 7:33 PM] Marty#0000
+@abhishekpal7
+
+
+[04/22/2022 7:38 PM] Luivatra#0000
+> Luivatra re @Marty: @LuivatraEP this may be interesting to you? 
+ 
+ Yeah, all in scala though but can see what concepts we can use
+
+
+[04/23/2022 4:25 PM] Cheese Enthusiast#0548
+Our implementation is in scala but the general idea can be applied and implemented in any language. Some of the important parts I didnt go into as much include pre-calculating the ERG and tokens needed in the beginning, along with using the boxes from the initial stage as fuel for any other transaction in the group. 
+
+Another important part is ensuring transaction cost is minimized, but this is partly based on contract design. We ensure this by only assigning 10 miners to a subpool, which lowers the amount of iterations performed.
+
+
+[04/23/2022 4:28 PM] Luivatra#0000
+We are handing staking rewards to 2000+ boxes everyday so we both batch together and chain
+
+
+[04/23/2022 4:33 PM] Cheese Enthusiast#0548
+Cool, batching and chaining with some extra rules is pretty much the gist of what I wrote imo. Do some of your guys transactions ever unexpectedly fail / not go through?
+
+
+[04/23/2022 4:44 PM] Luivatra#0000
+> Luivatra re @ErgoBridgeBot: <Cheese Enthusiast> Cool, batching and chainin... 
+ 
+ Yeah, but depending on the nodes mempool instead of the explorer seems much more stable
+
+
+[04/24/2022 9:23 PM] JOFLITO#0000
+> JOFLITO re @ergomergoadargo: Sorry for the gif btw, I wasn't making fun. I ... 
+ 
+ LMAO
+
+
+[04/24/2022 9:24 PM] JOFLITO#0000
+sorry to drive the conversation towards ideas and tech
+
+
+[04/24/2022 9:34 PM] JOFLITO#0000
+> JOFLITO re @LuivatraEP: yes, you could have one register hold the owne... 
+ 
+ Instead of doing this, is it possible to ask for "proof of spending" of that box?
+
+
+[04/24/2022 9:36 PM] JOFLITO#0000
+depend on the dapp right?
+
+
+[04/25/2022 10:23 PM] glasgowm#9381
+https://www.ergoforum.org/t/ergo-nation-identity-and-governance/3560
+
+{Embed}
+https://www.ergoforum.org/t/ergo-nation-identity-and-governance/3560
+Ergo Nation: Identity and Governance
+TLDR for Ergohack  Ergo nation enables decentralized on-chain governance by a community that shares the ideals in the Ergo manifesto.  Currently the default governance token models in crypto do not align with the ideals because they lead to governance by the wealthy. This is problematic for any project that would like to have decentralized gover...
+
+
+[04/25/2022 10:28 PM] Marty#0000
+Not a other "ergo"-name
+
+
+[04/25/2022 10:31 PM] JOFLITO#0000
+> JOFLITO re @Marty: Not another "ergo"-name 
+ 
+ said ergopad CEO
+
+
+[04/25/2022 10:31 PM] Marty#0000
+How dare you!
+
+
+[04/25/2022 10:32 PM] Marty#0000
+We changed our ways with Paideia
+
+
+[04/25/2022 10:32 PM] Marty#0000
+😅
+
+
+[04/25/2022 10:41 PM] cafebedouin#0000
+> cafebedouin re @Marty: We changed our ways with Paideia 
+ 
+ Make it easier to spell next time please.
+
+
+[04/25/2022 10:41 PM] cafebedouin#0000
+So many vowels.
+
+
+[04/25/2022 10:43 PM] JOFLITO#0000
+> JOFLITO re @cafebedouin: Make it easier to spell next time please. 
+ 
+ one step at a time
+
+
+[04/25/2022 10:44 PM] Marty#0000
+More vowels mean better
+
+
+[04/25/2022 10:44 PM] JOFLITO#0000
+> JOFLITO re @Marty: More vowels mean better 
+ 
+ bedouin = good, confirmed
+
+
+[04/25/2022 10:45 PM] JOFLITO#0000
+marty = 😅
+
+
+[04/25/2022 10:45 PM] JOFLITO#0000
+only one vowel
+
+
+[04/25/2022 10:46 PM] Marty#0000
+🤣🤣
+
+
+[04/25/2022 10:46 PM] Marty#0000
+Martin has two at least
+
+
+[04/25/2022 10:46 PM] JOFLITO#0000
+y is not a vowel
+
+
+[04/25/2022 10:46 PM] JOFLITO#0000
+aeiou
+
+
+[04/25/2022 10:46 PM] Marty#0000
+It's a hybrid. Some would say, more powerful
+
+
+[04/25/2022 10:47 PM] JOFLITO#0000
+not aeioyu
+
+
+[04/25/2022 10:47 PM] Marty#0000
+Who taught you English sir
+
+
+[04/25/2022 10:47 PM] JOFLITO#0000
+> JOFLITO re @Marty: Who taught you English sir 
+ 
+ self taught
+
+
+[04/25/2022 10:47 PM] JOFLITO#0000
+google translate
+
+
+[04/25/2022 10:47 PM] Marty#0000
+That explains it
+
+
+[04/25/2022 10:48 PM] cafebedouin#0000
+y is definitely a vowel. Also cafebedouin was selected for difficulty in spelling. Less likely other people will chose it as a username.
+
+
+[04/25/2022 10:48 PM] Marty#0000
+Damn, everything is premeditated with this guy
+
+
+[04/25/2022 10:48 PM] cafebedouin#0000
+My plans have plans.
+
+
+[04/25/2022 10:50 PM] JOFLITO#0000
+> JOFLITO re @cafebedouin: y is definitely a vowel. Also cafebedouin was ... 
+ 
+ yeah, w too somehow
+
+
+[04/25/2022 10:50 PM] Marty#0000
+It's a double U...
+
+
+[04/25/2022 10:50 PM] Marty#0000
+So naturally twice as good
+
+
+[04/25/2022 10:51 PM] JOFLITO#0000
+1:21
+Vocales en español para niños - Videos Aprende
+YouTube · Videos Aprende
+03-10-2013
+https://www.google.com/url?sa=t&source=web&rct=j&url=https://m.youtube.com/watch%3Fv%3DYTchED-pzYU&ved=2ahUKEwjVno-QmbD3AhU_lJUCHXJxA3cQwqsBegQIFRAB&usg=AOvVaw07Z2z6C_iploBRIBsSxrfY
+
+
+[04/25/2022 10:52 PM] JOFLITO#0000
+> JOFLITO re @Marty: Who taught you English sir 
+ 
+ En español hay cinco vocales: a, e, i, o, u. Los grafemas del AFI (Alfabeto Fonético Internacional) coinciden con los del abecedario del español
+
+
+[04/25/2022 10:53 PM] Marty#0000
+What's abecendario
+
+
+[04/25/2022 10:53 PM] Marty#0000
+Alphabet?
+
+
+[04/25/2022 10:53 PM] JOFLITO#0000
+> JOFLITO re @Marty: What's abecendario 
+ 
+ abc
+
+
+[04/25/2022 10:53 PM] JOFLITO#0000
+> JOFLITO re @Marty: Alphabet? 
+ 
+ yes
+
+
+[04/25/2022 10:54 PM] JOFLITO#0000
+never crossed my mind to consider Y and W as vowels
+
+
+[04/25/2022 10:54 PM] JOFLITO#0000
+Today I learned
+
+
+[04/25/2022 10:54 PM] Marty#0000
+W is not a vowel
+
+
+[04/25/2022 10:54 PM] JOFLITO#0000
+> JOFLITO re @Marty: W is not a vowel 
+ 
+ sir
+
+
+[04/25/2022 10:54 PM] Marty#0000
+I'm just taking the piss because it's called double U
+
+
+[04/25/2022 10:56 PM] cafebedouin#0000
+Taking the piss, is Canada turning British? Do you guys say that up there? All I know about Canada I learned from Strange Brew.
+
+
+[04/25/2022 10:56 PM] cafebedouin#0000
+Also @marty, please check your DMs.
+
+
+[04/25/2022 10:56 PM] Marty#0000
+No it's an English saying..I have English friends
+
+
+[04/25/2022 10:59 PM] JOFLITO#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/968269932984934400/file_12847.jpg
+
+
+[04/25/2022 10:59 PM] ergopad_leif#0000
+> ergopad_leif re @cafebedouin: y is definitely a vowel. Also cafebedouin was ... 
+ 
+ y is a vowel in context, it's not always a vowel ... w is never a vowel
+
+
+[04/25/2022 10:59 PM] JOFLITO#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/968269992388857946/file_12848.jpg
+
+
+[04/25/2022 10:59 PM] JOFLITO#0000
+> JOFLITO re @C4lculista:  
+ 
+ @ergopad_leif sir
+
+
+[04/25/2022 10:59 PM] cafebedouin#0000
+> cafebedouin re @ergopad_leif: y is a vowel in context, it's not always a vow... 
+ 
+ Your command of English may very well be better than mine. Sounds right.
+
+
+[04/25/2022 10:59 PM] ergopad_leif#0000
+...this is  my skeptical font
+
+
+[04/25/2022 11:00 PM] Marty#0000
+> Marty re @C4lculista:  
+ 
+ Somebody added that to wikipedia fella
+
+
+[04/25/2022 11:02 PM] JOFLITO#0000
+> JOFLITO re @Marty: Somebody added that to wikipedia fella 
+ 
+ that's how wikipedia works, pal
+
+
+[04/25/2022 11:02 PM] ergopad_leif#0000
+> ergopad_leif re @C4lculista: that's how wikipedia works, pal 
+ 
+ ...not how English works tho
+
+
+[04/25/2022 11:04 PM] JOFLITO#0000
+Is It True "W" Can Be Used As A Vowel? - Dictionary.com
+https://www.dictionary.com/e/w-vowel/
+
+{Embed}
+https://www.dictionary.com/e/w-vowel/
+Is It True "W" Can Be Used As A Vowel?
+A, E, I, O, U, and sometimes Y ... and W? Yes, the letter W can behave as a vowel. Let's learn more about this weird letter!
+https://images-ext-1.discordapp.net/external/3ew1i2k6-DkkaujXWmuo0z3WJxQ0XiYthr-RMWk5Ucg/https/www.dictionary.com/e/wp-content/uploads/2020/12/20201213_W_1000x700.png
+
+
+[04/25/2022 11:04 PM] JOFLITO#0000
+> JOFLITO re @C4lculista: Is It True "W" Can Be Used As A Vowel? - Dicti... 
+ 
+ sirs
+
+
+[04/25/2022 11:09 PM] ergopad_leif#0000
+guess I'm old school...I'll have to read up on this new idea, I'm sure it will be incredibly useful in my daily life ;)
+
+
+[04/25/2022 11:11 PM] Brandon#0000
+> Brandon re @cafebedouin: Make it easier to spell next time please. 
+ 
+ Yeah that I before e except after c went straight out the door on this one. Kills me still
+
+
+[04/26/2022 12:01 AM] Marty#0000
+whelp... english is dead to me
+
+
+[04/26/2022 12:02 AM] Marty#0000
+crwth (https://www.dictionary.com/browse/c_rwth)_ _pronounced Krooth_
+
+
+[04/26/2022 12:02 AM] Marty#0000
+that's english?
+
+
+[04/26/2022 8:35 AM] ergopad_leif#0000
+cockney slang perhaps?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/968415109212958770/file_12883.jpg
+
+
+[04/26/2022 8:36 AM] Gazza_ERG#0000
+> Gazza_ERG re @ergopad_leif: cockney slang perhaps? 
+ 
+ This is Irish pikey 😂
+
+
+[04/26/2022 8:36 AM] Gazza_ERG#0000
+I've met a lot in my times
+
+
+[04/26/2022 8:38 AM] ergopad_leif#0000
+in this particular conversation, that is a very appropriate differentiation to make, thank you :)
+
+
+[04/26/2022 8:40 AM] ergopad_leif#0000
+I remember watching that with cockney slang subtitles (which only had subtitles for Pitt's character), and then an  extra was some basic cockney linguistics.  But what the f*ck do I know about pikey slang anyway?
+
+
+[04/26/2022 8:41 AM] Jεnniε D#0000
+I actually love this conversation.
+Just to add to the insanity, in Italian "j" is a vowel. It used to be a variant of the letter "i" and imediately followed it in dictionaries. Then we started important English words so it's still in the dictionary, but following the English alphabetical ordern.
+
+
+[04/26/2022 8:41 AM] NoahErgo#0000
+> NoahErgo re @ergopad_leif: cockney slang perhaps? 
+ 
+ Thought we were talking about DAGs for a moment
+
+
+[04/26/2022 8:42 AM] NoahErgo#0000
+like ????
+
+
+[04/26/2022 8:42 AM] Jεnniε D#0000
+> Jεnniε D re @ergopad_leif: I remember watching that with cockney slang su... 
+ 
+ I think they're Irish gypsies. Right @Gazza_ERG ?
+
+
+[04/26/2022 8:42 AM] Gazza_ERG#0000
+> Gazza_ERG re @ergopad_leif: I remember watching that with cockney slang su... 
+ 
+ From Ireland originally but went over to England as far as I know, we call them travellers here not pikeys! All the same thing though! ☺️
+
+
+[04/26/2022 8:42 AM] Gazza_ERG#0000
+> Gazza_ERG re @ergomergoadargo: I think they're Irish gypsies. Right @Gazza_ER... 
+ 
+ Yeah that's it, we call them travellers though!
+
+
+[04/26/2022 8:43 AM] ergopad_leif#0000
+> ergopad_leif re @ergomergoadargo: I think they're Irish gypsies. Right @Gazza_ER... 
+ 
+ My knowledges is primarily from, "Snatch" the movie.  Also, my reference is also from the first scene in the movie ;)
+
+
+[04/26/2022 8:43 AM] Gazza_ERG#0000
+> Gazza_ERG re @ergopad_leif: My knowledges is primarily from, "Snatch" the ... 
+ 
+ Such a good movie, and honestly depicts them extremely accurately! ☺️
+
+
+[04/26/2022 8:45 AM] ergopad_leif#0000
+> ergopad_leif re @Gazza_ERG: Such a good movie, and honestly depicts them e... 
+ 
+ If you watch with the Cockney subtitles, there is a scene when they are at the coursing field where Brad says something and the subtitle is simply, "?"
+
+
+[04/26/2022 8:46 AM] Gazza_ERG#0000
+> Gazza_ERG re @ergopad_leif: If you watch with the Cockney subtitles, there... 
+ 
+ I've had that in real life with them before 🤣
+
+
+[04/26/2022 8:46 AM] ergopad_leif#0000
+...you of course have also seen, "Lock, Stock, and Two Smoking Barrels?
+
+
+[04/26/2022 8:46 AM] Gazza_ERG#0000
+> Gazza_ERG re @ergopad_leif: ...you of course have also seen, "Lock, Stock,... 
+ 
+ Oh yeah, what a film!
+
+
+[04/26/2022 8:48 AM] Gazza_ERG#0000
+If you want a taste of some real strong Irish accent, listen to this radio prank from a few years back, it's hilarious but gives you a taste of true country farmers 😂 https://youtu.be/qIfWTQAy5vY
+
+{Embed}
+Kenmare Lace
+https://www.youtube.com/watch?v=qIfWTQAy5vY
+96fm - The Dog License
+This is a Wind-up done on Irish Radio's Cork 96 FM a few years back.
+
+It genuine and must be the funniest thing I ever heard!
+Its about telling a west cork farmer he must get a dog license. The man is irate and claims that he has no dogs, then one barks in the background. Hilarious!
+https://images-ext-1.discordapp.net/external/_EX9U6RnBWZ1pwZKLhyLN7lzWYMVWyzA5qAf0mQBXMo/https/i.ytimg.com/vi/qIfWTQAy5vY/hqdefault.jpg
+
+
+[04/26/2022 8:52 AM] ergopad_leif#0000
+There is an analogous US gypsy language, "Carny Talk", I think also called Ciazam.  It's mostly to obscure the conversation so that it's private as I understand.  I've only heard it a couple times, it's very unique...sounds a bit like gibberish imho.
+
+
+[04/26/2022 9:42 AM] ThatOtherFella#0000
+> ThatOtherFella re @ergopad_leif: ...you of course have also seen, "Lock, Stock,... 
+ 
+ This just randomly started playing on tv right now... wtf trippy. Might have to watch it again lol
+
+
+[04/26/2022 5:54 PM] Marty#0000
+https://www.youtube.com/watch?v=qPHRsI9K6iw
+
+{Embed}
+OwenJ7
+https://www.youtube.com/watch?v=qPHRsI9K6iw
+Clarkson’s Farm | Gerald’s Best Moments
+This video is a montage of all of Geralds moments from Clarkson’s Farm hope you enjoy guys
+https://images-ext-1.discordapp.net/external/3lYkww5RqzqPmyZDX-g9sRpJZxYhwcrlgX8XAThSNRY/https/i.ytimg.com/vi/qPHRsI9K6iw/sddefault.jpg
+
+
+[04/26/2022 5:57 PM] Marty#0000
+i don't think i understood one thing he said. I got a word here and there
+
+
+[04/26/2022 6:18 PM] Gazza_ERG#0000
+> Gazza_ERG re @Marty: https://www.youtube.com/watch?v=qPHRsI9K6iw 
+ 
+ He's impossible 😂
+
+{Embed}
+OwenJ7
+https://www.youtube.com/watch?v=qPHRsI9K6iw
+Clarkson’s Farm | Gerald’s Best Moments
+This video is a montage of all of Geralds moments from Clarkson’s Farm hope you enjoy guys
+https://images-ext-1.discordapp.net/external/3lYkww5RqzqPmyZDX-g9sRpJZxYhwcrlgX8XAThSNRY/https/i.ytimg.com/vi/qPHRsI9K6iw/sddefault.jpg
+
+
+[04/26/2022 6:18 PM] Gazza_ERG#0000
+I can't understand anything either
+
+
+[04/27/2022 8:08 AM] NoahErgo#0000
+https://github.com/GetBlok-io/GetBlok-Plasma
+
+{Embed}
+https://github.com/GetBlok-io/GetBlok-Plasma
+GitHub - GetBlok-io/GetBlok-Plasma: An Ergo-Appkit based library pr...
+An Ergo-Appkit based library providing an abstraction layer to easily interact with AVL Trees as an L2 Solution - GitHub - GetBlok-io/GetBlok-Plasma: An Ergo-Appkit based library providing an abstr...
+https://images-ext-2.discordapp.net/external/Yrn0jyKI9jzgGRL7ZPeh50SiLM69aioWjUwTYLPq_9Y/https/opengraph.githubassets.com/ecf9e29b1adb4b74dbfe6af24fd0e758b5bea29c0079f847c151701181646709/GetBlok-io/GetBlok-Plasma
+
+{Reactions}
+😁 
+
+[04/27/2022 5:20 PM] glasgowm#9381
+https://www.reddit.com/r/ergonauts/comments/uczae6/would_you_be_interested_in_a_prediction_market/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/uczae6/would_you_be_interested_in_a_prediction_market/
+r/ergonauts - Would you be interested in a prediction market build ...
+6 votes and 1 comment so far on Reddit
+
+
+[05/02/2022 3:36 AM] Sisyphuspush#7967
+https://twitter.com/Ergonauts1/status/1520942687867834368
+
+{Embed}
+Ergonauts (@Ergonauts1)
+https://twitter.com/Ergonauts1/status/1520942687867834368
+Seeking a few #Ergonauts & #Sigmanauts to join me in building a one-of-a-kind #eNFT project aimed towards building community, harnessing passions and talents, and actively helping support & shape the Ergo ecosystem in a democratic and transparent way, regardless of expertise. 1/4
+Twitter
+
+
+[05/06/2022 4:34 AM] liquid_phase#4605
+@Marty 
+
+@marty
+
+Proposal 1 - ergohack / short term https://docs.google.com/document/d/1PYaEiPzZZulfmWa_oKIgO3ItA8cmhPcG_laOLhwTjp8/edit?usp=sharing
+
+Abstract on coming proposal - https://docs.google.com/document/d/17-q0eWFE0xjSBp_FEc9NU29rISKYpQPjlI3bH0ADhuA/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/document/d/1PYaEiPzZZulfmWa_oKIgO3ItA8cmhPcG_laOLhwTjp8/edit?usp=sharing
+SWAMP.AUDIO ERGOHACK PROPOSAL
+ERGO HACK PROPOSAL SWAMP.AUDIO LAYER 2 MUSICIAN LAUNCHPAD 5th May 2022 ABSTRACT Operating as a digital music label since 2013, Swamp Music has worked with hundreds of musicians and is proud to represent an existing I.P. catalog of over 40 music releases. Having distributed music for our own, an...
+https://images-ext-1.discordapp.net/external/EdtFX_kszeQ2AQwU-NfkG65nFkzn_Yxa4NW2iQ117Fg/https/lh5.googleusercontent.com/eN7GnLBn5S8P-PrVDx8eAwZAoGLiimhCSevktePgTaepJCCDwA_xdZMYTNq8v2Mwnv4tHyiIZBsRaw%3Dw1200-h630-p
+
+{Embed}
+https://docs.google.com/document/d/17-q0eWFE0xjSBp_FEc9NU29rISKYpQPjlI3bH0ADhuA/edit?usp=sharing
+DMT.PUB Abstract
+DMT.PUB May 05 2022 Abstract DMT networks seeks to become an international entity which provides layer-2 metaverse access to large-scale music festivals. Using the latest technology in cameras and audio recording, we can provide a realistic hybrid metaverse AR experience between the festival and ...
+https://images-ext-1.discordapp.net/external/6kopLGd6vruQBnLZS7PHHq59t1-o13YjHMnRjOd_pJc/https/lh3.googleusercontent.com/psKFbDRJNTkDES4gEaRHcn7fV0kEe8My7WXe0eOHShle-oAupMDkczH53-j8M1HyxsyOmcsI246DCA%3Dw1200-h630-p
+
+
+[05/08/2022 5:46 AM] liquid_phase#4605
+https://medium.com/@swampmusic.usa/swamp-audio-layer-2-musician-launchpad-a7027338941f
+
+{Embed}
+https://medium.com/@swampmusic.usa/swamp-audio-layer-2-musician-launchpad-a7027338941f
+SWAMP.AUDIO — LAYER 2 MUSICIAN LAUNCHPAD
+ABSTRACT
+
+
+[05/12/2022 11:30 AM] mijbil#7005
+In relation to oracle-pools: Random number generation would be super useful for a range of DeFi dapps. What would the usefulness of an oracle-based random-number generator be? From a quick google it seems like geiger-counters can record the random decay of material which forms a gaussian distribution. Statistics can the transform the gaussian distribution into a uniform distribution between any set value like 0 - 10 or 1 - 100 etc.. I can imagine the night-owl casino could use this somehow. I was also wondering if weather data (which is more accessible than geiger-counters) could be used in a similar manner.
+
+
+[05/12/2022 6:27 PM] lgd#5847
+but you need a radiating material source...
+
+
+[05/14/2022 11:48 AM] HelixEvo#2120
+Is there a list of what each team is proposing to build now?
+
+
+[05/14/2022 2:13 PM] glasgowm#9381
+thread here from the 10th
+
+https://twitter.com/AGlasgow12/status/1524012909575249920
+
+will be a summary posted from the updates we're collecting now
+
+{Embed}
+Glasgow (@AGlasgow12)
+https://twitter.com/AGlasgow12/status/1524012909575249920
+ERGOHACK-FEST: The 3-week event kicked off yesterday; below is a brief intro for the (15!) teams so far. 
+
+Many still looking for devs - (registrations are open till the 16th!) Join https://t.co/P0LYHy7RaA to participate or watch.
+
+@ergoplatformorg $ERG #Ergonauts #Erg
+
+🧵👇
+Twitter
+
+{Reactions}
+👍 (2) 
+
+[05/14/2022 7:16 PM] TheSentientNFT#0744
+Has anyone implement higher level logic in a smart contract on ergo
+
+
+[05/14/2022 7:16 PM] TheSentientNFT#0744
+like probably distributions over a continuum in N dimensions
+
+
+[05/14/2022 7:17 PM] TheSentientNFT#0744
+Im trying to fix UNI V3
+
+
+[05/14/2022 7:17 PM] TheSentientNFT#0744
+Their new protocol favors big bag holders immensely due to gas fees
+
+
+[05/14/2022 7:17 PM] TheSentientNFT#0744
+My Idea is why make people lay LP over ranges
+
+
+[05/14/2022 7:18 PM] TheSentientNFT#0744
+users provide LP and the AMM does what the algo is supposed to
+
+
+[05/14/2022 7:18 PM] TheSentientNFT#0744
+it makes the market
+
+
+[05/14/2022 7:19 PM] TheSentientNFT#0744
+but this improvement would be a normal distribution of liquidity around the geometric mean of the assets price derived from the mean of several oracle prices
+
+
+[05/14/2022 7:52 PM] Cheese Enthusiast#0548
+Is this a particularly complex set of computations to do? Its certainly possible to do in ErgoScript, but I would ask yourself how you can offload such computation into off chain code. Try to design the contracts in such a way that the bulk of the computation is done off-chain, and verification that the computations were done correctly is handled on-chain.
+
+
+[05/14/2022 7:56 PM] TheSentientNFT#0744
+I mean looking at the uni V3 contract the logic wouldnt be any more computationally intensive than what they are doing
+
+
+[05/14/2022 7:56 PM] TheSentientNFT#0744
+1) Oracle price aggregator contract
+
+
+[05/14/2022 7:56 PM] TheSentientNFT#0744
+want to take the average of several price oracles
+
+
+[05/14/2022 7:57 PM] TheSentientNFT#0744
+2) LP Factory Contract
+
+
+[05/14/2022 7:57 PM] TheSentientNFT#0744
+takes in oracle price data and shifts the probably distribution fuction accordingly
+
+
+[05/14/2022 7:58 PM] TheSentientNFT#0744
+3) Uni Price Oracle at the start of each block contract
+
+
+[05/14/2022 7:58 PM] TheSentientNFT#0744
+This simplifies the computations since time is weird on the blockchain wed drop the integrals and just use summations of each block
+
+
+[05/14/2022 7:59 PM] TheSentientNFT#0744
+https://sites.nicholas.duke.edu/statsreview/continuous-probability-distributions/
+
+{Embed}
+https://sites.nicholas.duke.edu/statsreview/continuous-probability-distributions/
+Continuous Probability Distributions
+Continuous Probability Distributions   Continuous probability distribution: A probability distribution in which the random variable X can take on any value (is continuous). Because there are i…
+https://images-ext-1.discordapp.net/external/S6UCsMoqlNa0OwCkvCud_4xorzS-uCYWluxYRBrXX8E/https/sites.nicholas.duke.edu/statsreview/files/2013/06/family-300x300.jpeg
+
+
+[05/14/2022 8:00 PM] TheSentientNFT#0744
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/975110287755710514/unknown.png
+
+
+[05/14/2022 8:00 PM] TheSentientNFT#0744
+This is ultimately what me want but this is all we need the from the contract
+
+
+[05/14/2022 8:01 PM] TheSentientNFT#0744
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/975110553620066384/unknown.png
+
+
+[05/14/2022 8:02 PM] TheSentientNFT#0744
+https://uniswap.org/whitepaper-v3.pdf
+
+
+[05/14/2022 8:02 PM] TheSentientNFT#0744
+but we wouldnt need to use the integral cause wed quantize the curve like in uniV3
+
+
+[05/14/2022 8:02 PM] TheSentientNFT#0744
+into bips (0.01%) ticks
+
+
+[05/14/2022 8:03 PM] TheSentientNFT#0744
+it might actually be more simple now that im thinking/typing it
+
+
+[05/14/2022 8:04 PM] TheSentientNFT#0744
+so expanding on the V3 whitepaper when you pass outside a tick you dont get any LP rewards. The AMM could use this to recenter the price LP distribution
+
+
+[05/14/2022 8:05 PM] TheSentientNFT#0744
+Users provide token pairs
+
+
+[05/14/2022 8:05 PM] TheSentientNFT#0744
+AMM does what its supposed to
+
+
+[05/14/2022 8:05 PM] TheSentientNFT#0744
+makes the market
+
+
+[05/14/2022 8:05 PM] Cheese Enthusiast#0548
+Think the integral would be the hardest part of that, so if you can simplify that into summing over some discrete values that would likely be the best way forward
+
+{Reactions}
+💯 ergo_orange k_thumbs_up 
+
+[05/14/2022 8:05 PM] TheSentientNFT#0744
+we can just sum the blocks
+
+
+[05/14/2022 8:05 PM] TheSentientNFT#0744
+since time isnt really real on the blockchain
+
+
+[05/14/2022 8:06 PM] Cheese Enthusiast#0548
+Also check out the amm contracts used by ErgoDex:
+https://github.com/ergoplatform/eips/blob/N2T-AMM-Dex/eip-0014.md
+
+Might help you to see how their AMM is handled
+
+{Embed}
+https://github.com/ergoplatform/eips/blob/N2T-AMM-Dex/eip-0014.md
+eips/eip-0014.md at N2T-AMM-Dex · ergoplatform/eips
+Ergo Improvement Proposals. Contribute to ergoplatform/eips development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/nMwK7ESKpbY5_mRZ1vnNKj1zS553ueUtMGZuU9nROT0/https/opengraph.githubassets.com/d645147c8cc03fea996efcb2bf3b8b51b72084475540805eec93f1d03ef3aa9f/ergoplatform/eips
+
+
+[05/14/2022 8:06 PM] TheSentientNFT#0744
+Thanks I found their pitch deck
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/975111995651158127/ergodex.pdf
+
+
+[05/14/2022 8:07 PM] TheSentientNFT#0744
+but I couldnt find like a solid WP
+
+
+[05/14/2022 8:08 PM] TheSentientNFT#0744
+https://tenor.com/view/facepalm-really-stressed-mad-angry-gif-16109475
+
+{Embed}
+https://tenor.com/view/facepalm-really-stressed-mad-angry-gif-16109475
+https://images-ext-1.discordapp.net/external/2MCbUZSZ2K9Xgvcx_jUGd6HA5lm4ky5smkJC5UthIuc/https/media.tenor.com/ZFc20z8DItkAAAAD/facepalm-really.png
+
+
+[05/14/2022 8:08 PM] TheSentientNFT#0744
+ugh my bad they have EIP-14 listed on their docs
+
+
+[05/14/2022 8:09 PM] TheSentientNFT#0744
+Ill have to look over this sorry
+
+
+[05/14/2022 8:11 PM] TheSentientNFT#0744
+This kind of just looks like uni v3 on first glance.. do they have a discord?
+
+
+[05/14/2022 8:11 PM] TheSentientNFT#0744
+id love to talk with one of their devs if they had time
+
+
+[05/14/2022 8:11 PM] Cheese Enthusiast#0548
+Lol no problem
+
+
+[05/14/2022 8:11 PM] Cheese Enthusiast#0548
+Yeah lemme send the link
+
+
+[05/14/2022 8:12 PM] TheSentientNFT#0744
+Im just trying to build cool stuff that actually moves crypto as a whole forward
+
+
+[05/14/2022 8:12 PM] TheSentientNFT#0744
+ah saw it for a second lol
+
+
+[05/14/2022 8:12 PM] TheSentientNFT#0744
+you can dm it to me
+
+
+[05/14/2022 8:12 PM] TheSentientNFT#0744
+thanks again for everything
+
+
+[05/14/2022 8:13 PM] TheSentientNFT#0744
+and whos been hosting the ergolearn on youtube
+
+
+[05/14/2022 8:13 PM] TheSentientNFT#0744
+those are really useful Ive been letting them play while I do research
+
+
+[05/14/2022 8:13 PM] TheSentientNFT#0744
+super informative
+
+
+[05/14/2022 9:34 PM] NoahErgo#4349
+Thats DeCo
+
+https://discord.gg/YzkjcXS2
+
+
+[05/14/2022 9:34 PM] NoahErgo#4349
+Cheese Enthusiast is actually one of the teachers!
+
+{Reactions}
+🔥 
+
+[05/14/2022 9:43 PM] TheSentientNFT#0744
+😂  should of known hes too helpful not to be a teacher
+
+
+[05/15/2022 12:16 AM] mijbil#7005
+If I understand this correctly, you want to filter out those feeds that are not within the standard deviation of the mean?
+If so, filtering oracle-feeds by these standard deviations would require meeting the central limit theorem (CLT). Assuming the feeds will form a normal distribution (seems like a good assumption) then you would need > 30 independent feeds to trust the mean which you would calculate the standard deviations from. If you use standard deviations but the incoming feeds don't match a normal distribution then the mean wouldn't be trusted and your standard deviations might be way out of whack
+
+
+[05/15/2022 1:17 AM] TheSentientNFT#0744
+so it will take in several prices I think 30 is more than enough in your example you then take the mean of those prices and set that as the mean for the Gaussian distribution
+
+
+[05/15/2022 1:18 AM] TheSentientNFT#0744
+this would be done at the begging of each block and checked against the mean value the dex sets (this part is similar to uniswaps own oracle which tracks price at each block)
+
+
+[07/02/2022 6:55 PM] Kaven#6681
+💡  paideia but for spinning up arbitrary 3d metaverse worlds  💡
+
+
+[07/02/2022 6:56 PM] Kaven#6681
+for payments, chat, and shared multimedia experience
+
+
+[07/05/2022 1:39 AM] curbsideprophet#5083
+**Idea: ergo mining pool alliance toolset**
+
+Open source code repo or tutorials on how to spin up your own mining pool which includes node setup, config parameters, basic payout settings, where and how to host, templates, etc. a “quick start” package and up to the owner to customize their offerings.
+
+It is the conscious choice of keeping the blockchain decentralized as much as possible for the long term even if they forgo profits. Also removes periodic reminders of “spread out your hashrate”
+
+{Reactions}
+✅ (3) 
+
+[07/30/2022 6:35 PM] amoeba#4237
+Idea: Lucid Charts for Ergo Smart Contracts 
+
+An easy way to build smart contracts with visual diagrams that complies into ErgoScript. This would make it easy for community members to build out smart contracts for whatever needed specification in a no code way.
+
+
+[08/10/2022 12:33 PM] glasgowm#9381
+Trying out the new Discord Forum feature in #incubator-forum  - maybe suited for Incubator ideas? Keeps discussion organised and allows people to upvote.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/849660327377240074/1006887955861868604/unknown.png
+
+
+[08/10/2022 1:55 PM] wombo22#5461
+seems similar to reddit posts
+
+
+[08/10/2022 1:55 PM] wombo22#5461
+pretty cool
+
+
+[08/13/2022 4:36 PM] blackinsecure#3693
+Aggregate information of circulating supply and market cap of all tokens on the network, just like ERC-20 tokens being shown on CMC / CoinGecko
+
+
+[08/13/2022 4:36 PM] blackinsecure#3693
+currently Spectrum displays only Price
+
+
+[08/13/2022 4:36 PM] blackinsecure#3693
+also that info should account for the tokens being delivered via subpool mining
+
+
+[08/24/2022 4:44 PM] Tchaarm#2402
+Did not do any research or so , and probably said a milion time but just my 2 cent...might be a good idea to think about a bsc integration via wERG or something similar....would greatly improve chance to be listed on binance ( just look at flux )
+
+{Reactions}
+🔥 
+
+==============================================================
+Exported 823 message(s)
+==============================================================

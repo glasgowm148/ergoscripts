@@ -1,0 +1,65 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / ergo-tool
+Topic: Development of ErgoTool command line utility (Incubation is being done here https://github.com/aslesarenko/ergo-tool, will be moved under ergoplatform)
+==============================================================
+
+[01/22/2020 7:55 AM] morphic#4133
+https://github.com/aslesarenko/ergo-tool/issues/22
+
+{Embed}
+https://github.com/aslesarenko/ergo-tool/issues/22
+[planning] DEX roadmap · Issue #22 · aslesarenko/ergo-tool
+DEX commands implementation is complete Cancel Order Command (DEX) #14 List my orders command (DEX) #16 Test DEX on testnet #21 blog post draft is ready blog post final version is ready review comm...
+https://images-ext-2.discordapp.net/external/elTY0f5IcgCYlqkyT633y2k4IrumfJoDn4Y5RCBNr0g/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/654077
+
+
+[03/17/2020 11:00 AM] morphic#4133
+@deleted-role The repository is moved to ergoplatform organization https://github.com/ergoplatform/ergo-tool
+
+
+[03/17/2020 12:30 PM] greenhat#6562
+@morphic fix for mnemonic input is ready - https://github.com/ergoplatform/ergo-tool/pull/49
+
+{Embed}
+https://github.com/ergoplatform/ergo-tool/pull/49
+make address and checkAddress commands read mnemonic from input str...
+Close #47
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[03/17/2020 1:03 PM] morphic#4133
+@greenhat commented
+
+
+[10/18/2021 9:25 AM] haileypdll#3353
+Hello Guys, I'm proposing two new commands for the ergo-tool for your review, to get more information about tokens and boxes: https://github.com/ergoplatform/ergo-tool/pull/58
+
+{Embed}
+https://github.com/ergoplatform/ergo-tool/pull/58
+add new commands to the ergo tool by ThierryM1212 · Pull Request #5...
+Proposing two news commands to get more information about an address:
+
+list tokens from an address
+get the detailed content of a box
+
+I have not found a way from the appkit to display the name of t...
+
+
+[10/18/2021 6:18 PM] morphic#4133
+Hi, thanks for the contribution. I replied in the PR.
+
+
+[10/19/2021 8:29 AM] haileypdll#3353
+Thanks, I'm trying to figure out how to run the existing test
+
+
+[10/19/2021 1:05 PM] haileypdll#3353
+I've managed to run the test... switching to linux
+
+{Reactions}
+👍 
+
+==============================================================
+Exported 8 message(s)
+==============================================================

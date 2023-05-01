@@ -1,0 +1,56 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Infra 〙☰ / ergosphere
+==============================================================
+
+[05/10/2022 11:46 AM] glasgowm#9381
+@⭐Fanta⭐ What is ErgoSphere?
+
+
+[05/10/2022 2:57 PM] ⭐Fanta⭐#0315
+Basically it's "Umbrel for Ergo"
+
+{Reactions}
+ergo_orange (3) 👍 🔥 (4) 💯 🚀 
+
+[05/10/2022 2:58 PM] glasgowm#9381
+Ah, I had that down originally but then your git history threw me. Nice one
+
+{Reactions}
+🙃 
+
+[05/12/2022 10:18 AM] digdug#5494
+👀
+
+
+[06/04/2022 10:52 AM] ⭐Fanta⭐#0315
+https://github.com/jellymlg/ErgoSphere
+
+{Embed}
+https://github.com/jellymlg/ErgoSphere
+GitHub - jellymlg/ErgoSphere: ErgoSphere - a personal Ergo ecosystem
+ErgoSphere - a personal Ergo ecosystem. Contribute to jellymlg/ErgoSphere development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/IhMzD3It_Lrl78J46HW73ApG1BIXAF8lLyv01N9vvgk/https/opengraph.githubassets.com/04bbf72d0a62637a975f6597c7217864769e940fc86690bee47853d6941a222a/jellymlg/ErgoSphere
+
+{Reactions}
+ergo_orange (2) spicy 
+
+[06/08/2022 8:16 AM] notmork#0302
+https://www.reddit.com/r/selfhosted/comments/v71e1u/umbrel_a_beautiful_os_for_selfhosting_on_a/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+{Embed}
+https://www.reddit.com/r/selfhosted/comments/v71e1u/umbrel_a_beautiful_os_for_selfhosting_on_a/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+r/selfhosted - Umbrel — A beautiful OS for self-hosting on a Raspbe...
+654 votes and 145 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/vTRYT34uUP2Um_0GE2J7eKYmuCim85MntanhNNEHMac/%3Fformat%3Dpjpg%26auto%3Dwebp%26s%3D5656fbbe92c37013c9d61c2617a950b9228c4246/https/external-preview.redd.it/fCT7H4AJCmHZ7poGsGdcqPy_FhN8IOYCmhujZ6ELoX4.png
+
+
+[06/08/2022 11:29 AM] ⭐Fanta⭐#0315
+I actually do plan on making an OS version of ErgoSphere after I'm satisfied with functionality 🙂
+
+{Reactions}
+🔥 (2) 
+
+==============================================================
+Exported 7 message(s)
+==============================================================

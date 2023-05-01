@@ -1,0 +1,182 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Infra 〙☰ / ergo-audit
+==============================================================
+
+[10/04/2022 5:00 PM] NoahErgo#4349
+@pa.bln sharing your past message here
+
+
+[10/04/2022 5:00 PM] NoahErgo#4349
+“Unfortunately, our topic is not related to mining, we are working on the development of the infrastructure of the ecosystem through the development of an audit platform. So we need a DAO as a management core of the platform.”
+
+
+[10/05/2022 3:32 PM] pa.bln#0933
+Working plan.
+
+1. Week:
+a) Define project tech stack, structure and deployment diagram 
+b) Define process flow diagram + methodology
+c) Define audit templates (dapp, metaverse, nft, dao, minig) at least 1
+d) Implement Frontend UI 
+e) Implement Backend + DB 
+
+2. Week: 
+a) Deployment of Frontend and Backend apps
+b) Get Backend and Frontend together
+c) Testing + debugging 
+d) Final state document
+
+
+[10/05/2022 3:35 PM] pa.bln#0933
+Currently working on b, c, d. Will post later process flow diagram. When I make the audit template, we'll discuss the exact data model @jl.sachse
+
+
+[10/05/2022 5:46 PM] jl.sachse#3248
+Ok 👍
+
+
+[10/05/2022 5:48 PM] jl.sachse#3248
+I created an initial deployment diagram including all servers and components we will need @pa.bln.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1026790169178808390/1027260883774214184/Deployment_Diagram.png
+
+{Reactions}
+🔥 (5) 
+
+[10/07/2022 12:32 PM] jl.sachse#3248
+@pa.bln I created the basic structure of our Spring Application. Do we want to meet up to design the data model?
+
+{Reactions}
+👍 
+
+[10/07/2022 2:04 PM] pa.bln#0933
+Almost have prepared our first dapp audit template, could meet in evening
+
+{Reactions}
+👍🏼 
+
+[10/07/2022 5:35 PM] pa.bln#0933
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1026790169178808390/1027982403328811128/Frontend_Submittion_process.drawio.png
+
+
+[10/07/2022 8:37 PM] jl.sachse#3248
+Looks good to me 👍🏼
+
+
+[10/10/2022 8:44 PM] jl.sachse#3248
+Hey @pa.bln, here is the OpenApi 3 file with the current interfaces
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1026790169178808390/1029117349632147507/ergo-audit-api.json
+
+{Reactions}
+👍 
+
+[10/13/2022 11:27 AM] jl.sachse#3248
+Hey, I've already posted this question in #❓│dev-support, but I'm unsure if it's the right place.
+
+We are trying to create a "Sign in with Ergo" feature for our application. The server would generate a message with a nonce and information about our application. Our front end would then request this data for a specific user. We would create a signature with a wallet (e. g. Nautilus) and send it to our backend. We would  then calculate the wallet address with the message by verifying the signature. The user would be logged in if the actual address and the result match.
+
+On the Ergo website, two wallets with a dapp connector are listed: Nautilus and Safew. Safew doesn't support signing data yet. I was able to call this method with nautilus, but I got the following response from (what I believe to be) the RPC node: {code: -1, info: 'not implemented'}. Does this mean the connected RPC node doesn't implement signData yet? If so, can I somehow change to another node which does? Thanks for your help 🙂
+
+
+[10/13/2022 11:50 AM] glasgowm#9381
+@capt_nemo
+
+
+[10/13/2022 12:06 PM] capt_nemo#3204
+Hi, you can use `ergo.auth` method to authenticate a user, what it basically does is proving that a user owns a private key by signing a message with it.
+
+Here is an example:
+```ts
+const wasm = await import("ergo-lib-wasm-browser");
+const address = await ergo.get_change_address();
+const message = crypto.randomUUID();
+const response = await ergo.auth(address, message);
+
+const [originalMessage, origin, timestamp, randomBytes] =
+  response.signedMessage.split(";");
+
+const verified = wasm.verify_signature(
+  wasm.Address.from_mainnet_str(address),
+  Buffer.from(response.signedMessage, "utf-8"),
+  Buffer.from(response.proof, "hex")
+);
+```
+
+Btw, you can have static typings for dApp Connector by using this tiny library: https://github.com/capt-nemo429/eip12-types
+
+
+[10/13/2022 12:10 PM] jl.sachse#3248
+I will try that. Thank you for the fast response!
+
+
+[10/13/2022 12:10 PM] jl.sachse#3248
+Thanks for referring 🙂
+
+
+[10/13/2022 12:16 PM] jl.sachse#3248
+I would still want to generate the message and verify the signature in the backend with this, right?
+
+
+[10/13/2022 12:41 PM] capt_nemo#3204
+Sure, that's just an example, you can sign any message and verify it in the backend
+
+{Reactions}
+🙏 
+
+[10/15/2022 12:11 AM] jl.sachse#3248
+Hey, our OpenApi Swagger UI wouldn't load anymore due to a conflict with io.swagger.core.v3 swagger-annotations in the ergo appkit. I resolved it by exclusion:
+
+        <dependency>
+            <groupId>org.ergoplatform</groupId>
+            <artifactId>ergo-appkit_2.12</artifactId>
+            <version>4.0.9</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.swagger.core.v3</groupId>
+                    <artifactId>swagger-annotations</artifactId>
+                </exclusion>
+            </exclusions>
+    </dependency>
+
+Please let me know if you have any more questions regarding this or if I should provide more information 🙂
+
+
+[10/19/2022 10:59 PM] jl.sachse#3248
+Hey all, hey @glasgowm,
+
+this our submission for the Ergo Hackaton. **Please be aware that account creation and submission currently only works with Nautilus installed**. You can get it here:
+
+https://github.com/capt-nemo429/nautilus-wallet
+
+These are the links to our project:
+[WEBSITE] https://red-lobster-showcase.link
+[BACKEND] https://github.com/jlsachse/ergo-audit-backend
+[FRONTEND] https://github.com/jlsachse/ergo-audit-frontend
+
+We've attached two documents. The first one is our documentation including a description of our concept, a project overview and an outlook. The second document contains a sort of tutorial for our website with short descriptions to each page.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1026790169178808390/1032412802792574976/ErgoAudit_Tutorial.pdf
+https://cdn.discordapp.com/attachments/1026790169178808390/1032412803098755103/ErgoAudit_Documentation.pdf
+
+{Reactions}
+🔥 
+
+[11/03/2022 4:02 AM] NoahErgo#4349
+@jl.sachse pls check dms 🙂
+
+
+[11/03/2022 7:01 AM] jl.sachse#3248
+I just accepted 🙂
+
+
+==============================================================
+Exported 22 message(s)
+==============================================================

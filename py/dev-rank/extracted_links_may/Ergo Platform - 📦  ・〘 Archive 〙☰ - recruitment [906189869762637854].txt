@@ -1,0 +1,433 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / recruitment
+==============================================================
+
+[11/05/2021 2:35 PM] glasgowm#9381
+```
+To Whom It May Concern,
+
+I'm writing to you today in regards to the backend Scala engineer position advertised on the ergo platform careers website.
+
+To prevent wasting your time I would like to mention up front that I do not currently have any prior Scala experience.
+
+I am a passionate self-taught software engineer with 4 years industry experience who is eager to learn and apply new technologies.
+
+The ergo manifesto inspired me to get involved in the community, since reading the manifesto I have spent considerable time studying ergo papers, experimenting with sdks/libraries and contributing to the sigma-rust codebase (soysor#6001 in the ergo platform discord) to build my experience and knowledge in the blockchain/crypto space. I truly believe the technology has the potential to create a hugely positive impact on our society.
+
+Please find attached my resume.
+
+Thank you for your time and consideration,
+--
+Ross Weir
+Software Engineer
+Mb: +61 458 103 391
+```
+
+{Attachments}
+https://cdn.discordapp.com/attachments/906189869762637854/906190022649188352/Ross-Weir-CV.pdf
+
+
+[11/05/2021 2:37 PM] glasgowm#9381
+I've also placed all applicants here: 
+
+https://checkvist.com/p/d45VDOl8ogFUvv9zNJ7yrO
+
+There is a Junior scala dev who applied - thinking I can get in touch and ask him to start making his way through bounties if he's not appropriate for the role.
+
+
+[11/05/2021 3:55 PM] morphic#4133
+His resume is not very impressive, and I looked at the code examples from CV, they are mostly Doc fixes, not sure why he is mentioning them in CV at all.
+However, he seems to work pretty well with greenhat on sigma-rust, and not mentioning this in the CV.
+The Scala Backend job requires good Scala experience with modern functional programming Scala libs, I don't think Ross is suitable right away.  
+Ilya used there all the modern libs he possibly could. 🙂
+So, this may be a problem to find a good candidate.
+On the other hand we can advertise this (new modern tech) and instead attract good Scala talents.
+So, for Ross the question is, why he wants to switch from sigma-rust to Scala Backend?
+
+
+[11/05/2021 4:03 PM] glasgowm#9381
+Thanks for the update, will keep that in mind. I imagine he was just using that job listing being posted as an opportunity to volunteer himself for any role.
+
+
+[11/05/2021 6:23 PM] morphic#4133
+I don't know if we pay him anything for his work in sigma-rust. Probably make sense to also have some opinion from greenhat about his work. If he is willing to spend more time on ergo and we have good evidence of his capabilities, then we can negotiate about some payments. (But only if he is able to work proactively and independently, so greenhat opinion is necessary as he nows him better)
+
+
+[11/05/2021 6:24 PM] glasgowm#9381
+Ah ok, I assumed he was picking up bounties. Will speak to greenhat.
+
+
+[11/05/2021 7:15 PM] glasgowm#9381
+"He made 7 PRs and his Rust code is solid. I don't remember spending any time guiding him or answering his questions so it means he was able to understand how it works on his own. Overall, I have only positive experience working with him."
+
+
+[11/12/2021 1:59 PM] glasgowm#9381
+For the scala role
+```
+Hi
+
+I would like to apply for the position mentioned in the titile. You can
+find my cv in the attachement.
+
+BR,
+
+Robert
+
+--
+Robert Wadowski
+```
+
+{Attachments}
+https://cdn.discordapp.com/attachments/906189869762637854/908717580146053200/resume_robert_wadowski.pdf
+
+
+[11/12/2021 2:02 PM] glasgowm#9381
+```
+Hey Mark,
+
+Hope you are well 😊
+
+I wanted to introduce myself-I work for Signify Technology, we are the only Scala specialist agency in the world!
+
+I have seen you are recruiting for functional Scala engineers so I wanted to reach out and make you aware of an exceptional engineer who is becoming available.
+
+Below is a quick synopsis of their profile.
+
+Msc. Computer Science.
+Senior developer with 10+ years’ experience.
+Scala has been main language for 6 years.
+Been focused on Typelevel stack since 2015- Shapeless, Cats, Cats-effect, Cats-mtl, Cats-tagless, Monix.
+Extensive experience with Akka ecosystem.
+Infrastructure and CI/CD experience with Docker.
+Microservices Architecture experience.
+Experience in Blockchain.
+FP Evangelist.
+Spoken at multiple conferences.
+Experience with developers working underneath.
+A wealth of experience will add great value to any project.
+
+An engineer like the above doesn’t come around often!
+
+Looking forward to hearing your feedback 😊
+
+Lauren Suckling
+Functional Programming Advocate at Signify Technology
+```
+
+
+[11/12/2021 2:04 PM] glasgowm#9381
+Two potential candidates for scala role @morphic Let me know if either of them sound appropriate.
+
+
+[11/12/2021 3:36 PM] morphic#4133
+the last one from Lauren looks relevant.
+
+
+[11/12/2021 3:42 PM] morphic#4133
+this also has relevant experience. So, how we should proceed?
+
+
+[11/12/2021 4:00 PM] glasgowm#9381
+What would you(s) prefer? I'm happy to set up interviews or pull them into a chat if that's what you mean - could set some trial bounties or a trial period or something to that effect.
+
+
+[11/12/2021 5:27 PM] morphic#4133
+Ok, l can do interviews next week. 
+If they agree, tell them they will need to tell their story/experience and be ready to solve a simple programming task on the interview (standard coding interview task, nothing tricky, just to see how they approach the problem and communicate solution).
+Regardless of the interview, if they are serious about Ergo they can join the #core and solve some bounty issue, this will definitely be a plus.
+
+{Reactions}
+👍 
+
+[11/18/2021 10:21 AM] glasgowm#9381
+Chased the guy who emailed a CV twice but never got back to me. Other one was from an agency so I'm still trying to get past the recruitment agent.
+
+Someone else applied. Looks like he'd be suitable to me 
+
+```
+Dear Madam/Sir,
+
+I would like to apply for your position as Scala Developer. I recently (1 year ago) discovered the blockchain world and was amazed by possibilities it opens for future generations (including mine). Please have a look at my CV if we can find possible match. Feel free to contact me if you have any question.
+
+Regards, Jozef
+```
+
+{Attachments}
+https://cdn.discordapp.com/attachments/906189869762637854/910837200982245416/cv_koval.pdf
+
+
+[11/18/2021 1:39 PM] morphic#4133
+Also looks suitable.
+
+
+[11/18/2021 1:42 PM] morphic#4133
+The simplest way for the guys would be to contact me directly in Discord so we can communicate.
+
+{Reactions}
+👍 ✅ 
+
+[11/22/2021 12:37 PM] glasgowm#9381
+I'm Business Development Manager at Estonian IT company MeGaDev (megadevllc.com). 
+
+We are currently developing an ICO for our clients. 
+Technologies that we are using on it: 
+Web 3, Vue.js/ VueX, Nuxt,
+JavaScript, DeFi, HTML/CSS, Vue Router, SCSS, GIT, Solidity.
+
+We set up a dedicated developer or a dedicated team of developers to dive into your project, engage with it and become an essential part of your team and company.
+
+So it would be awesome to know if you consider remote developers for your current needs. 
+
+Thanks in advance
+
+
+[11/22/2021 12:56 PM] morphic#4133
+He contacted me, still in talks. Ilya will be mentoring him to help get started with explorer.
+
+{Reactions}
+🎉 
+
+[11/22/2021 10:43 PM] glasgowm#9381
+passing him your way
+
+{Attachments}
+https://cdn.discordapp.com/attachments/906189869762637854/912473335990984734/Ergo-2.pdf
+
+
+[11/22/2021 10:43 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/906189869762637854/912473342655750204/Resume.pdf
+
+
+[11/23/2021 11:25 AM] morphic#4133
+Did an interview today. The impressions in general are quite good and I think he is suitable for us as Scala backend developer. 
+Algorithmic problem solving, ideas communication, logical thinking are quite good. 
+Asked him about compensation expectations. Once he replies we can discuss further.
+
+
+[11/23/2021 1:14 PM] glasgowm#9381
+awesome, if you quoted the right message they could also maybe help with revamping the website? Dmitry won't have time til after NY he says
+
+
+[11/23/2021 1:33 PM] morphic#4133
+@glasgowm Ah, sorry, I was talking about Josef Koval
+
+{Reactions}
+👍 
+
+[11/26/2021 9:49 AM] morphic#4133
+Just finished an interview with Monye David. I think he is borderline candidate. 
+He doesn't have better than average achievements at his job, and the project he is most proud of is his own personal project.
+He successfully solved the algorithms design task, but it required a couple of hints from my side to come up with a solution.
+He is sometimes hard to express the design choices he makes, so his technical communication has flaws, at the same time his thinking is fast enough.
+In summary, I think he definitely can be useful and capable of writing code under supervision, but I'm not sure he can lead explorer development and work independently. 
+He also didn't ask me questions (other than related to the future work), this is in contrast to other developers I've talked with (especially MrStahlfelge asked a lot). 
+I asked for his expectations for compensation, depending on them we can decide what to do. 
+It make sense also to let Ilya check his Scala specific knowledge. Or we can put him on hold for a while, hire Josef and let him check Scala knowledge.
+
+{Reactions}
+👍 
+
+[11/26/2021 9:54 AM] morphic#4133
+from Monye David "40USD/Hour is my usual rate"
+
+
+[11/26/2021 9:58 AM] glasgowm#9381
+Would Josef be in the Backend Scala Engineer role? (or Compiler Engineer)
+
+
+[11/26/2021 10:44 AM] morphic#4133
+Originally I thought he would be in Backend Scala. Will also check his experience with compilation. Maybe he will be able to do this as well.
+
+
+[11/26/2021 10:47 AM] morphic#4133
+From Josef
+"Okay Alex, I just finished my calculations. I have to say B2B is quite new for me, so please bear with me that this should be something presented for discussion, rather than set in the stone.
+I will very probably work "traditionally", i.e. during the week, 8h every day. I have 2 small kids so want so spend weekends and some time during the week with them and with my wife. As I mentioned earlier, my expectation is to work 220 days in the year, which is around 18 days per month.
+Now my calculations:
+MD rate - 275 USD + 10 ERG
+Probation period - 3 months, after that we can update the terms"
+The rate is per 8 hours (i.e. per working day)
+
+
+[11/26/2021 12:32 PM] morphic#4133
+Josef doesn't have compiler development experience. He knows about parsers, though. This means he will not be able to work on ErgoScript without supervision, but will probable can take some concrete simple tasks.
+
+
+[11/29/2021 1:29 PM] morphic#4133
+from Josef 
+"Hey Alex, coming back to you after the weekend. Absolutely saying yes to anything related to language development! Actually, this domain is very exciting for me. Of course, I would need more time to get oriented in problems, but in general I am very much in favour of this idea." /cc @everyone
+
+
+[11/29/2021 1:32 PM] morphic#4133
+I think we should go ahead with Josef ASAP. 
+Will create a post for voting.
+
+
+[11/29/2021 1:33 PM] morphic#4133
+@Armeanio Who will keep track of all the HR related data, Anastasia? Contracts terms, start/end dates, rates etc.
+Something like Google Spreadsheet would be very helpful.
+
+
+[11/29/2021 6:59 PM] Armeanio#0321
+That will be something Anastasia will track.
+
+
+[11/29/2021 7:01 PM] Armeanio#0321
+We need to start compiling this kind of information for her so she can start organizing the data.
+
+
+[11/29/2021 7:57 PM] glasgowm#9381
+We've started a Notion so I can get it linked up to that.
+
+
+[11/30/2021 10:25 AM] morphic#4133
+Notion is great
+
+
+[12/03/2021 10:22 AM] morphic#4133
+The feedback from Ilya about Money David's Scala skills/knowledge is good. However, Ilya thinks he will need some time for getting up to full speed with explorer code base. For this reason, I propose to have a probation period of 3 months with slightly reduced rate of 30 USD/hour. I will first negotiate it with Money and then create a forum post for voting.
+
+{Reactions}
+👍 
+
+[01/02/2022 1:30 PM] glasgowm#9381
+Mr S's draft dev roadmap
+
+{Attachments}
+https://cdn.discordapp.com/attachments/906189869762637854/927192150997876766/unknown.png
+
+
+[01/04/2022 9:35 PM] glasgowm#9381
+Hey Team,
+
+I am curious to know if Ergo has any career opportunities for information security, privacy, and risk professionals located in the United States. I have been a community supporter of Ergo and Cardano for well over a year now and would love to be able to contribute to the development and maturation of the platform and community in any way. Personally I have worked the past 10 years in the information security and compliance space with Big 4 consulting and technology companies working exclusively with financial institutions (credit unions, banking, wealth, and asset management). Mainframe infrastructure is old and slow, and the issues and risks that financial institutions encounter are fairly the same redundant concerns/challenges with little to no innovation or room to incorporate ethics into associated  technology decisions. I would truly like to dedicate my efforts and resources towards blockchain technology exclusively, and I know that there is no better community than Ergo with a need for support given its nascent state and massive growth potential - I WANT TO HELP, and I have the skills and experience to do so, just tell me how please. :) I genuinely appreciate any guidance or opportunities provided. Thank you and Happy New Year Team, Cheers!
+
+Bryan
+
+https://www.linkedin.com/in/bryanlcameron
+
+
+[01/27/2022 4:59 PM] glasgowm#9381
+updated roadmap for Mr S
+
+{Attachments}
+https://cdn.discordapp.com/attachments/906189869762637854/936304452439269446/unknown.png
+
+
+[02/01/2022 5:36 PM] glasgowm#9381
+```
+Dear Sir / Madam
+
+I would like to apply for role as a Scala Backend Engineer. I have over 9 years experience building backend services with Scala.
+I'm open to full time and part time role. I currently based in London.
+
+My Cv is attach to the email.
+
+Thank you and hope to hear from you soon
+
+Gary Aghedo
+
+mobile number: +447448622734
+
+email: codeneto@yahoo.com
+```
+
+{Attachments}
+https://cdn.discordapp.com/attachments/906189869762637854/938125757362884669/gary-aghedo-cv_1.pdf
+
+
+[03/28/2022 8:07 PM] mhs_sam#1471
+Regarding the talks on forum about my team's payments, here is their CVs. 
+Please take a look and I will send the payment proposal in a few days.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/906189869762637854/958079874529132564/Mostafa_Hosseini_resume.pdf
+https://cdn.discordapp.com/attachments/906189869762637854/958079874713669642/Sahand_Zoufan_Resume.pdf
+https://cdn.discordapp.com/attachments/906189869762637854/958079874986291251/Essmaeil_Mohammadi_resume.pdf
+https://cdn.discordapp.com/attachments/906189869762637854/958079875187638312/fateme_rahmani_resume.pdf
+https://cdn.discordapp.com/attachments/906189869762637854/958079875372183632/Hadi_Fazelinia_Resume.pdf
+https://cdn.discordapp.com/attachments/906189869762637854/958079875607052378/Moein_Zargarzadeh_Resume.pdf
+
+{Reactions}
+ergo_orange (2) 
+
+[04/27/2022 12:47 AM] mhs_sam#1471
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/906189869762637854/968659541271121960/payment_sheet.xlsx
+
+
+[04/27/2022 12:49 AM] mhs_sam#1471
+please vote:
+https://www.ergoforum.org/t/funding-proposal-for-mhs-sams-team/3565
+
+{Reactions}
+👍 
+
+[07/10/2022 8:42 PM] mhs_sam#1471
+"
+Hello, My name is Daniel Christopher. Hope this meets you well. 
+
+I am a young digital enthusiast with deep interest in the DEFI space and Blockchain technology, I'm an experienced Community/Social Media Manager and Moderator with a deep knowledge and understanding of the blockchain technology. I have been in Blockchain technology for like 4 years now, handling several job positions as a Twitter Marketer , Brand Ambassador, Moderation, as well as learning about cryptocurrency in this span of time.
+
+As a Fluent English speaker with adequate knowledge of French, I would love to work for you as a Social Media Manager, Telegram /Discord Community Moderator/Manager. 
+
+I'm flexible with working hours. Mostly around the GMT +1 timezone but can also navigate other timezones as well. 
+
+With my High proficiency in English language both written and spoken, I will help coordinate the activities of the community and make sure that everything goes smoothly without hitch. 
+
+Here's a link to my Portfolio:
+https://drive.google.com/file/d/1c60y0UW4XO-NOFMVYz94-Szu82P3mwpF/view?usp=drivesdk
+
+Link to Prove of Work:
+https://drive.google.com/drive/folders/1T0O7lWEohLAzlp9Gj8obeTn5s1SEWpHu 
+
+Twitter:
+https://twitter.com/Dablendo01?s=09
+
+Linkedin:
+https://www.linkedin.com/in/daniel-christopher-399111196
+
+Medium:
+Dablendo.medium.com 
+
+I anticipate your response with regards to any of the available positions I applied for. 
+
+If you're not looking at hiring at the moment, please kindly let me know
+"
+
+{Embed}
+https://drive.google.com/file/d/1c60y0UW4XO-NOFMVYz94-Szu82P3mwpF/view?usp=drivesdk
+Upwork Resume .pdf
+https://images-ext-2.discordapp.net/external/P3qRXqR9I7gCZ3iXBp1IP8Ex7SsWNYWtm6T67XApbIQ/https/lh4.googleusercontent.com/fOxYnQYLlSbu1U0m5hYjWAh534ez3UvkTp-yjGLU1l_ruczbLYE7ueNEpjaYVP4TeSo%3Dw1200-h630-p
+
+{Embed}
+https://twitter.com/Dablendo01?s=09
+Dablendo (@Dablendo01)
+#NFT and #Defi Enthusiast🔥 | Social Media /#Community_Manager and Moderator 💯
+Followers
+1614
+Tweets
+3182
+https://images-ext-2.discordapp.net/external/e2PeIkPbIyoXBNEul8XpvxPM5PWDbdLpYbiJ0DmG6lA/https/pbs.twimg.com/profile_images/1481552619294371843/vy6yRjN-_400x400.jpg
+Twitter
+
+
+[09/02/2022 9:19 PM] morphic#4133
+@everyone I talked with pragmaxim and among other things he mentioned that he would like to work for ergo based on some contract (currently he is working for bounties on Ergo node). @kushti please keep this in mind.
+
+{Reactions}
+👍 (3) 
+
+[11/17/2022 10:16 AM] glasgowm#9381
+Started a thread.
+
+
+==============================================================
+Exported 48 message(s)
+==============================================================

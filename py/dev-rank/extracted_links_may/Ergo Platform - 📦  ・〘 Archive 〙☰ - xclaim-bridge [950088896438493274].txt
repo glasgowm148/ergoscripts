@@ -1,0 +1,166 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / xclaim-bridge
+==============================================================
+
+[03/06/2022 5:54 PM] glasgowm#9381
+@EddNorris | FishFight.app DEV @Armeanio
+
+{Reactions}
+🔥 
+
+[03/06/2022 6:54 PM] EddNorris | FishFight.app DEV#1111
+Can this be a public channel?  @glasgowm 
+I have reached out to gupadhyaya#1654 about the opportunity to see if he has any additional comments since we spoke about the subject last. He’s very busy but hopefully I’ll have some notes about moving the concept forward.
+
+
+[03/06/2022 8:38 PM] glasgowm#9381
+Yeah it is public
+
+
+[03/06/2022 8:48 PM] Armeanio#0321
+Xclaim it is something we can consider.
+
+Mhs thinks the only thing to develop is a Ergo relayer, something like this? 
+ https://github.com/ethereum/btcrelay
+
+He thinks potentially it could  be NIPOPOW based too. 
+
+Maybe we can start talking about the requirements and possible collaboration, grants,...
+
+Technically, it could be done pretty easily it seems.
+
+{Embed}
+https://github.com/ethereum/btcrelay
+GitHub - ethereum/btcrelay: Ethereum contract for Bitcoin SPV: Live...
+Ethereum contract for Bitcoin SPV: Live on https://etherscan.io/address/0x41f274c0023f83391de4e0733c609df5a124c3d4 - GitHub - ethereum/btcrelay: Ethereum contract for Bitcoin SPV: Live on https://e...
+https://images-ext-1.discordapp.net/external/v8OgRWeH3KnWR9KKN55dqnVWshV5jnDrRcrqmKJg5cQ/https/opengraph.githubassets.com/d14aa7f4657d9e23a8bc150f0091d133db476f496c9d4baba928489dc83d49f8/ethereum/btcrelay
+
+{Reactions}
+👍 👏 
+
+[03/06/2022 8:48 PM] Armeanio#0321
+I would be very happy to see a bridge to one. Solid ecosystem.
+
+{Reactions}
+💙 
+
+[03/07/2022 4:55 PM] EddNorris | FishFight.app DEV#1111
+The only complication, which I think ultimately is a long term benefit, is finding a way to provide liquidity on both sides to collateralize the lock up on both sides. 
+There is also creating a front end for providing lock up collateral.
+As well as a front end for bridging $ERG to and from the  $ONE blockchain
+
+
+[03/07/2022 4:57 PM] EddNorris | FishFight.app DEV#1111
+The interesting part, is that there was no additional $btc1 bridging because such is not easily possible on BTC but would be possible on $ERG… although it would be great to just start with $ERG and move beyond that afterwards.
+
+
+[03/07/2022 5:03 PM] EddNorris | FishFight.app DEV#1111
+The complication of both creating a front end to basically stake $ERG or $ONE in order to support the bridge, and convincing the community to stake their funds on both sides. With some kind of incentive rewards to start, and then the bridge fee can be paid to the bridge stakers…
+
+IMO it’s very simple from a tech side and Harmony should be willing to put forth some Liquidity to make the bridge functional to start.
+
+
+[03/07/2022 8:34 PM] EddNorris | FishFight.app DEV#1111
+Heard back from @gupadhyaya#1654 (Core dev at Harmony who's been leading the 1BTC bridge) and he's excited to move this project forward! I'll post on Talk.Harmony.one tonight and cross post on the Ergo forums as well... 
+
+Anything I should know regarding how the ErgoFoundation might want to be involved? From speaking to the teams at ErgoPad, they were interested in providing liquidity for something like this.
+
+Definitely stoked to bring my two favorite projects together! 
+
+Thank you all for all you do! I'll update soon!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/950088896438493274/950491653024677888/unknown.png
+
+
+[03/08/2022 9:53 AM] EddNorris | FishFight.app DEV#1111
+https://talk.harmony.one/t/ergoplatform-erg-1erg-xclaim-bridge/13590
+
+{Embed}
+https://talk.harmony.one/t/ergoplatform-erg-1erg-xclaim-bridge/13590
+ErgoPlatform $ERG <-> $1ERG xClaim BRIDGE
+Name of Project ErgoPlatform $ERG <-> $1ERG xClaim BRIDGE  An Ergo Foundation x Harmony Core-Team Limited Partnership centered around creating support for an Ergo Blockchain Bridge to bring $ERG to/from the Harmony ONE Network as $1ERG.   Proposal overview  WHAT IS ERGO Ergo is an Energy Efficient, Proof-of-Work blockchain based on the Extended ...
+https://images-ext-2.discordapp.net/external/nETQ39igPewmWKS_mrvW3ZCHEHd-Z_GtLYzPdSpZ1Wc/https/aws1.discourse-cdn.com/business7/uploads/harmony1/optimized/2X/e/e842fc8202010ccdb790e79dc0a375aa7ec6ace7_2_1024x362.png
+
+
+[03/08/2022 9:53 AM] EddNorris | FishFight.app DEV#1111
+Planning to write something up on the ergo forums, to start a conversation over there about this post.
+
+
+[03/08/2022 9:54 AM] EddNorris | FishFight.app DEV#1111
+but it's late and will need to do it in the morning :ergo_orange_fill:
+
+
+[03/08/2022 10:58 AM] EddNorris | FishFight.app DEV#1111
+https://www.ergoforum.org/t/ergoplatform-erg-harmony-1erg-xclaim-bridge-ergo-foundation-support/3435
+
+{Embed}
+https://www.ergoforum.org/t/ergoplatform-erg-harmony-1erg-xclaim-bridge-ergo-foundation-support/3435
+ErgoPlatform $ERG <-> Harmony $1ERG xClaim BRIDGE - Ergo Foundation...
+Greetings  Who am I? Edd Norris Here!  One of the developers behind the ERGnomes NFT project, originally minter of the Ergo-Manifesto-Token and long time believer of the power of Ergonomic Economics ✊  6 months ago I became a Governor for the Harmony ($ONE) Developer DAO to help build, learn and teach others about EVM and making blockchain video...
+https://images-ext-2.discordapp.net/external/wKNq4z8MoJiuFyXe1Lu_ZqteBZAUDkYfPDmmzcAduoI/https/aws1.discourse-cdn.com/standard14/uploads/ergoforum/optimized/2X/b/bd74a5ce4328de533151c8a6a9c67043cef6b544_2_283x1024.jpeg
+
+{Reactions}
+ergo_orange_fill (2) 
+
+[03/09/2022 8:34 PM] MGpai#4313
+This is really exciting
+
+
+[03/09/2022 8:34 PM] MGpai#4313
+because this opens up the ecosystem to evm compatible blockchains
+
+
+[03/09/2022 8:35 PM] MGpai#4313
+Imagine some sort of intergration with DOT
+
+
+[03/10/2022 2:38 PM] Frosty#7344
+Oh sweeet we have a channel for xclaim lfg
+
+{Reactions}
+ergo_orange 
+
+[03/10/2022 2:39 PM] Frosty#7344
+I've spoken with Alexei before, planning to speak with him again soon
+
+
+[03/10/2022 2:40 PM] Frosty#7344
+our team has come to the same conclusion, having to build the relayer from scratch. I haven't considered NiPoPows, that's a sweet idea
+
+{Reactions}
+🔥 
+
+[03/15/2022 7:50 AM] NoahErgo#4349
+@EddNorris | FishFight.app DEV where has this landed? Seems like an exciting possibility and i dont want to see it squandered
+
+
+[03/19/2022 1:01 AM] EddNorris | FishFight.app DEV#1111
+Sorry for the delay! I meant to get back sooner but didn't really have much to report other than they're discussing it.
+https://talk.harmony.one/t/ergoplatform-erg-1erg-xclaim-bridge/13590/4
+Currently they just reported back asking for some support for specifically why Ergo should receive funding/attention.
+
+I responded but I'm certain there's other things I didn't list: if anyone else wants to comment.
+@here
+
+{Embed}
+https://talk.harmony.one/t/ergoplatform-erg-1erg-xclaim-bridge/13590/4
+ErgoPlatform $ERG <-> $1ERG xClaim BRIDGE
+Thank you for submitting a proposal to Harmony’s $300M Ecosystem Fund.  Allow me to be your representative on behalf of the Grants committee.  Thanks for being a liaison here @eddnorris, I’ve reviewed this a couple of instances and wondering why we would prioritize funds and focus on Ergo vs other initiatives.  I was looking for utility metrics ...
+https://images-ext-2.discordapp.net/external/0DFnUr7HVp8MPr4Ewh_vAqqC_98ItcQ_Hfm5KEDQpqc/https/aws1.discourse-cdn.com/business7/uploads/harmony1/optimized/2X/d/d413d85d271d11b35d062a9a24528ea5f0e6bf7b_2_1024x399.png
+
+{Reactions}
+ergo_orange (4) 
+
+[05/14/2022 9:45 PM] NoahErgo#4349
+@EddNorris | FishFight.app DEV any update on this?
+
+
+[05/14/2022 9:46 PM] NoahErgo#4349
+Ah nvm sounds like they arent interested yet
+
+
+==============================================================
+Exported 23 message(s)
+==============================================================

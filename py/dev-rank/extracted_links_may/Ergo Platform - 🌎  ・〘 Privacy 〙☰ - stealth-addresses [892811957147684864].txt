@@ -1,0 +1,347 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Privacy 〙☰ / stealth-addresses
+==============================================================
+
+[09/29/2021 5:52 PM] glasgowm#9381
+stealth pool context: https://www.ergoforum.org/t/provide-incentive-to-create-half-mix-boxes-in-ergomixer/678/3
+
+{Embed}
+https://www.ergoforum.org/t/provide-incentive-to-create-half-mix-boxes-in-ergomixer/678/3
+Provide incentive to create half-mix boxes in ErgoMixer
+I guess incentivization should be done a bit differently here. Assume that there’s some Privacy Reward Token (PRT). Then to get 1 PRT, you need to send to stealth pool, where withdrawal has additional optional contract with following conditions:   box being spent after some time only (timestamping service would be useful here) box being spent to...
+
+
+[09/29/2021 5:52 PM] glasgowm#9381
+Mixicles - simple private contracts on top of oracle data https://research.chain.link/mixicles.pdf . Implementation-wise, onchain part would simple, p2p offchain interaction is needed (and would be the most labor-intensive part likely)
+
+Mixicles paper https://assets.website-files.com/5f44d690acb168953e6181f6/5fa2f1616ac1b092226b3a86_mixicles.pdf
+
+Another simple idea to build on oracles (but offchain interaction for protocol participants is also needed) is mixicles for privacy-preserving binary options etc
+
+
+[09/30/2021 12:12 AM] Canberry#7404
+just thought this was funny
+
+{Attachments}
+https://cdn.discordapp.com/attachments/892811957147684864/892911719347789864/image0.png
+
+{Reactions}
+🧠 (4) 🌌 
+
+[10/02/2021 3:45 PM] TimL#0815
+It's long, but it's quite lucid.
+
+
+[02/07/2022 2:28 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/892811957147684864/940252654502826044/Team_Stealth_Address.pdf
+
+
+[02/09/2022 12:13 PM] TimL#0815
+Hey @soysor I'm in if that's ok with you!
+
+
+[02/09/2022 12:30 PM] glasgowm#9381
+I'd assumed someone had simply updated their proposal for the stealth addresses but it seems they were two separate applicants. 
+
+@_jd_ 
+@aragogi 
+
+Were you aware of each other / are there benefits in yous teaming up? Or would you prefer to submit separately? If so I can make a second channel
+
+
+[02/10/2022 10:22 AM] soysor#6001
+Hey! Sorry I didn't have time to submit a proposal/work in this 
+
+Looks like there might be others working on it though :ergo_orange:
+
+{Reactions}
+ergo_orange 
+
+[02/10/2022 5:59 PM] _jd_#3179
+Hi! I was not aware of @aragogi 's team.
+
+I talked to @anon2020s about another other team, and that might be it. anon2020s believes it's a good idea to work on two implementations, one short term solution and one long term solution. Even w/two implementations doesn't mean we can't work together (esp knowledge sharing). I'm down  so Lmk.
+
+
+[02/10/2022 6:02 PM] anon2020s#6116
+I think we can handle this in one channel (it's up to you). I'm in contact with both teams and we can move forward with both proposals.
+
+
+[02/10/2022 6:04 PM] anon2020s#6116
+The proposals are a bit different and we can have both implementations at the same time.
+
+
+[02/10/2022 6:23 PM] glasgowm#9381
+sure that works for me thanks!
+
+
+[02/11/2022 12:55 PM] root7Z#8699
+Hello @stealth-addr project team! How is it going with your development, would you provide updates?
+
+
+[02/11/2022 3:20 PM] _jd_#3179
+Good morning! I'll be joining in like an 1.5 hour.
+I'm going to try proving it first in scastie then trying to add it to sigma-rust. I started last night but then got tired - https://scastie.scala-lang.org/zAYWa6vpQcud4TUxe4fAaA
+
+{Embed}
+https://scastie.scala-lang.org/zAYWa6vpQcud4TUxe4fAaA
+Scastie - An interactive playground for Scala.
+import org.ergoplatform.compiler.ErgoScalaCompiler._
+import org.ergoplatform.playgroundenv.utils.ErgoScriptCompiler
+import org.ergoplatform.playground._
+import org.ergoplatform.Pay2SAddress
+import scorex.utils.Random
+import sigmastate.interpreter.CryptoConstants.dlogGroup
+
+def makeStealthAddressBoxFor(recieverPubKey: GroupElement, value: Long) {...
+https://images-ext-2.discordapp.net/external/ShkQTgvvG8UjMiDn9S4Yln0qIL78mBqhFH5aLJnvGUY/https/scastie.scala-lang.org/public/sharing-image-small-red.png
+
+{Reactions}
+👍 (2) 
+
+[02/11/2022 3:56 PM] aragogi#2525
+Hi!
+We developed a project to create a stealth address and scan the stealth boxes. Now we are working on embedding it into the mixer. If it works and passes all tests, in the next level mixer UI must be edited to have the stealth feature.
+
+{Reactions}
+ergo_white (2) 👍🏻 (4) 
+
+[02/11/2022 4:30 PM] _jd_#3179
+Oh you guys are putting into the mixer ui? Very cool!
+
+
+[02/11/2022 8:57 PM] root7Z#8699
+I hope the first day is going well. Please share a few notes as we are coming closer to the end of the day. Best regards,
+
+
+[02/11/2022 10:25 PM] anon2020s#6116
+no limitation for your work too. fork the mixer and do what's necessary.
+
+
+[02/11/2022 11:27 PM] _jd_#3179
+Could someone take a look at https://scastie.scala-lang.org/xFylblQTRrq98aCkOOxIgg I'm not sure what I'm doing wrong. What tools do you use to check these maths?
+
+
+[02/12/2022 2:43 AM] _jd_#3179
+I appreciate that btw. I'll see what can be done
+
+
+[02/12/2022 6:08 AM] root7Z#8699
+Good morning @stealth-addr team, I hope you are ready for the second day! Devs will be here soon, so good luck on today's progress 👍
+
+{Reactions}
+ergo_orange (2) 
+
+[02/12/2022 6:10 AM] root7Z#8699
+Please @anon2020s review when you're here
+
+
+[02/12/2022 9:05 AM] anon2020s#6116
+I'm looking at it now
+
+
+[02/12/2022 10:07 AM] anon2020s#6116
+As I can see, you're spending from Alice's stealth box to bob without proper proof. You used wallet.sign which is not a DHT proof.
+I'm not familiar with scastie's syntax, but this is how it is done with appkit:
+var proverBuilder = ctx.newProverBuilder()
+proverBuilder = proverBuilder.withDHTData(gr, gy, ur, uy, BigInt(sk, 16).bigInteger)
+val prover = proverBuilder.build()
+val signedTx = prover.sign(tx)
+
+
+[02/12/2022 11:58 AM] kushti#0978
+I guess you need to add secrets to a prover, dunno how to do add custom secrets in the playground though cc @greenhat
+
+
+[02/12/2022 1:20 PM] greenhat#6562
+@_jd_ There is a single dlog secret in playground's wallet. You could extend the API and add needed methods here to add arbitrary secrets here - https://github.com/ergoplatform/ergo-playgrounds/blob/defae2bd4250a3ec7a721621fe565a4cd9fe650a/playground-env/src/main/scala/org/ergoplatform/playgroundenv/models/DummyWalletImpl.scala#L28
+
+{Embed}
+https://github.com/ergoplatform/ergo-playgrounds/blob/defae2bd4250a3ec7a721621fe565a4cd9fe650a/playground-env/src/main/scala/org/ergoplatform/playgroundenv/models/DummyWalletImpl.scala
+ergo-playgrounds/DummyWalletImpl.scala at defae2bd4250a3ec7a721621f...
+Run contracts + off-chain code in the browser. Contribute to ergoplatform/ergo-playgrounds development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/XP1VZJRPgaXtST_72tbTAkzqfCh8Zk2C8NtXlnGpzo0/https/opengraph.githubassets.com/ed02d528a9fc2b3c65325f67a416a329bb3228f71914e4dd8f0bbe10e33635e2/ergoplatform/ergo-playgrounds
+
+
+[02/12/2022 3:41 PM] _jd_#3179
+Ok, let me take a look at it now. Thanks all
+
+
+[02/12/2022 5:37 PM] capt_nemo#3204
+Hey guys! Very excited about your projects, what do I need to integrate them into Nautilus?
+
+
+[02/12/2022 10:18 PM] root7Z#8699
+@stealth-addr Hello teams, how was your second day? Please provide updates from today's development, thank you
+
+
+[02/12/2022 10:20 PM] aragogi#2525
+Hi!
+This service has different parts:
+1- creating a stealth address and storing its secret
+2- converting a stealth address to payable address 
+3- fetching stealth pool boxes from blockchain and selecting the owned ones
+4- spending the funds in stealth pool
+
+these task are all doable in a wallet, however No3 needs storing utxo boxes in a db.
+Therefore, I think it is not very suitable for a wallet. If so, No1 and No4 is not feasible too.
+So, I think the best option is to provide No2 for the users.
+
+The scenario is:
+- user inputs a stealth address in the receiver's input box
+- wallet generates a p2s address based on this input
+- the rest is alike any other payment
+
+{Reactions}
+ergo_orange (3) 
+
+[02/12/2022 10:26 PM] aragogi#2525
+Hi!
+We embed our project into the mixer. Now we are testing the mixer and also working on the UI. Tomorrow I try to push the main project and our version of the mixer on GitHub and share the link with you.
+
+{Reactions}
+ergo_orange ergonaut 
+
+[02/12/2022 10:44 PM] root7Z#8699
+Thanks a lot
+
+
+[02/13/2022 12:11 AM] kushti#0978
+No 3 can be slow on light devices also potentially
+
+
+[02/13/2022 4:41 AM] _jd_#3179
+Oh this looks very cool. Interested in seeing the product/code!
+
+
+[02/13/2022 4:42 AM] _jd_#3179
+On my end I was able to get the scastie to work: https://scastie.scala-lang.org/x6bwPi9eRDiqX4m1cEJsNg
+I've added a PR for the necessary DHTuple access on the wallet - https://github.com/ergoplatform/ergo-playgrounds/pull/24
+
+Once that one lands, I could do a PR for adding it to ergo by example.
+
+{Reactions}
+👍🏻 
+
+[02/13/2022 6:54 AM] root7Z#8699
+Good morning @stealth-addr teams, good luck on the last day!
+
+
+[02/13/2022 9:56 AM] kushti#0978
+Oh nice
+
+
+[02/13/2022 7:11 PM] root7Z#8699
+Hello @stealth-addr teams , a quick update regarding the submissions: You are expected to send your final reports by Monday 12.00 UTC noon, not tonight. So please make the best out of your time, good luck!
+
+
+[02/13/2022 8:51 PM] aragogi#2525
+Hi! 
+Thank you. Where should we submit our codes and reports?
+
+
+[02/13/2022 9:04 PM] root7Z#8699
+You can drop here
+
+{Reactions}
+👍 
+
+[02/14/2022 10:30 AM] root7Z#8699
+Hello @stealth-addr teams, kindly reminder that you have about 90 min to send your final reports and documents. So please check-in on time. Thanks
+
+
+[02/14/2022 11:31 AM] aragogi#2525
+Hi!
+Thank you for the ErgoHack. It was so challenging for us.
+We pushed our stealth scanner project and our customized version of mixer in this repo:
+https://github.com/aragogi
+Also you can find the documentation of all projects in here.
+https://github.com/aragogi/Stealth-doc
+
+{Embed}
+https://github.com/aragogi
+aragogi - Overview
+aragogi has 5 repositories available. Follow their code on GitHub.
+https://images-ext-2.discordapp.net/external/kbR95NaDC6iMbRcK8-KvD6A9k4SV-Gi4KBy6JtdZeO0/%3Fv%3D4%3Fs%3D400/https/avatars.githubusercontent.com/u/98213055
+
+{Embed}
+https://github.com/aragogi/Stealth-doc
+GitHub - aragogi/Stealth-doc
+Contribute to aragogi/Stealth-doc development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/D83H9vz5LRblvhYcG9gRB_o82MW-bnwE1Gs59stTAt0/https/opengraph.githubassets.com/d0531ccbe2ed5a5d8af8fe30950768e54f29de4089494285039ad19b5a03ca5f/aragogi/Stealth-doc
+
+{Reactions}
+ergo_orange (4) 
+
+[02/14/2022 12:01 PM] root7Z#8699
+thank you
+
+
+[02/28/2022 9:08 PM] AngieHar#0865
+Congratulations stealth-addresses team! Great work, thank you for participating in ErgoHack 3. We hope we’ve convinced you to continue to develop the Ergo Platform and ecosystem.  💪  
+Your participation was a vital component in making the next hackathons even better. And hope to hear from you for marketing collaborations. 
+
+Please provide your wallet address so you can receive your prize.
+
+
+[03/01/2022 7:52 AM] aragogi#2525
+That's so kind of you. It is our pleasure to be a part of this community and help to improve it. 
+
+9hdXCeT2wjWc6rRUZ8zwE1gdugs1StGYiKKT88466oDMTyrfdre
+
+
+[03/02/2022 5:35 PM] AngieHar#0865
+@aragogi Thank you, well received!
+
+
+[03/31/2022 3:18 PM] cyborgz5#6382
+Hi
+
+
+[12/16/2022 8:22 AM] soysor#6001
+Example in typescript sending & spending stealth boxes: https://github.com/ross-weir/ergo-stealth-address-example/tree/main using `fleet-sdk`
+
+
+[12/16/2022 2:07 PM] capt_nemo#3204
+Wow, that's pretty awesome!
+
+
+[12/16/2022 2:09 PM] capt_nemo#3204
+It would be great if we can have stealth Fleet plugins at some point )
+
+
+[12/16/2022 8:23 PM] soysor#6001
+👍
+
+Currently working on an EIP to try and standardise their usage and was going to look into a plugin after that.
+
+Is the best way to contribute to make a pr with a new monorepo package like babel? Or published separately from fleet?
+
+
+[12/17/2022 1:31 AM] capt_nemo#3204
+Sounds like a nice plan 🙂
+
+On contributing, I would be glad to accept it as an "official" plugin and maintain it, but you can of course publish it as a separate package, it's up to you.
+
+{Reactions}
+👍 
+
+[12/17/2022 1:33 AM] capt_nemo#3204
+Btw, let me know if you need anything to be implemented on core side, I'll add GroupElement parsing support during this weekend.
+
+
+[12/17/2022 4:42 AM] soysor#6001
+Awesome, thanks!
+
+Great work on fleet btw, really nice to use
+
+{Reactions}
+❤️ 
+
+==============================================================
+Exported 54 message(s)
+==============================================================

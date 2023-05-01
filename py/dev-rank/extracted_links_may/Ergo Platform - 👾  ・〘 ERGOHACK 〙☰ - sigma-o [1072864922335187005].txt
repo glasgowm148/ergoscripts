@@ -1,0 +1,303 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 👾  ・〘 ERGOHACK 〙☰ / sigma-o
+==============================================================
+
+[02/08/2023 1:10 PM] glasgowm#9381
+SigmaO – Options on Ergo tokens
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864922335187005/1072866947689095228/SigmaO_ergohack_plan.pdf
+
+{Reactions}
+👍 (3) 
+
+[02/10/2023 4:51 PM] haileypdll#3353
+SigmaO intends to provide Ergo users the ability to create Call or Put options on EIP-4 tokens, materialized by a standard EIP-4 token.
+
+Reminder: An option contract offers the buyer the possibility but not the obligation to buy (Call) or sell (Put) the underlying asset at a fixed exercise price.
+
+A sample usage of SigmaO contracts:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864922335187005/1073647374943141989/use_case1_1.drawio.png
+
+
+[02/10/2023 4:51 PM] haileypdll#3353
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864922335187005/1073647527959744542/use_case1_2.drawio.png
+
+
+[02/10/2023 4:52 PM] haileypdll#3353
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864922335187005/1073647563380629524/use_case1_3.drawio.png
+
+
+[02/10/2023 4:52 PM] haileypdll#3353
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864922335187005/1073647595735486536/use_case1_4.drawio.png
+
+{Reactions}
+ergo_orange (4) spicy (5) 
+
+[02/12/2023 3:46 PM] haileypdll#3353
+Update:
+- the new UI in progress: 
+    -create, buy, sell, exercise options pages have a fist version.
+    - I'm working on the display of compound options (options on options)
+    - A presentation page and a user dashboard are still to be done.
+- The off-chain bot is in draft
+Trying to get it in test before the end of the week.
+
+{Reactions}
+ergo_orange (3) blob (3) 
+
+[02/15/2023 3:45 PM] haileypdll#3353
+Display of compound option is done.
+The user dashboard minimal version is available.
+Adding a new "open sale token" contract matching an "open buy token" contract.
+First sale done, still need to work on the limits.
+
+{Reactions}
+ergo_orange (2) blob (2) 
+
+[02/16/2023 11:58 AM] haileypdll#3353
+Open buy order contract allows to create an exercible buy order on any EIP-4 token.
+It includes an amount or ERG to be spent by anyone providing the right amount of a given token in the outputs(1) of the transaction sent to the buyer address.
+Focusing on the result, the buy order can be spent by any address or smart contract delivering the right amount of tokens.
+It is used in Sigmao to buy priced options or any EIP-4 token at fixed price.
+
+{Reactions}
+ergo_orange (3) blob (3) ergo_white 
+
+[02/18/2023 8:33 AM] haileypdll#3353
+SigmaO UI is now deployed for testing: https://www.sigmao.cc/ 
+Be careful and use small amounts for testing.
+
+Let starts to have fun:
+    A compound option Call on Put COMET is available, as well as few other tests.
+    It can be purchased using a SigmaO (https://www.sigmao.cc/buy-tokens), and one is also available in the Auction House !
+    https://ergoauctions.org/#/auction/specific/c064f0b6aecaddc0457648e56598f1cb6a35668c9a139759149a91cc8bf4e1a1
+  *Grant to buy at 0.0050 ERG the grant to Sell COMET per 10000 at 8000 nanoERG per COMET up to the 2023-03-20*
+
+Please leave comments and questions here.
+
+{Reactions}
+ergo_orange 👍 
+
+[02/18/2023 8:45 AM] haileypdll#3353
+The code repository is available at: https://github.com/ThierryM1212/sigmao
+
+{Reactions}
+ergo_orange (3) blob (2) 
+
+[02/18/2023 2:36 PM] NoahErgo#4349
+@haileypdll viewing the website i find it very overwhelming amount of information as a new user who doesnt know much about options and it’s intimidating. I think could benefit from some better ux to simplify things. There was a designer looking for a team would you be interested in collaborating with them? @inspiredude
+
+{Reactions}
+👍 
+
+[02/18/2023 4:16 PM] haileypdll#3353
+Hey, thanks for the feedback. I would probably need a designer or advices because I don't really see how to address it. On one side there is already too much information, but I would need to add even more to explain in details.
+
+
+[02/18/2023 4:54 PM] glasgowm#9381
+Dashboard could be an icon next to your ERG address
+
+For the rest of the menu items you could have
+`CREATE │ EXERCISE │ BUY │ SELL │ TOKENS`
+or simply
+`OPTIONS │ TOKENS`
+
+and lots of tool-tips on hover to explain things
+
+
+[02/18/2023 4:57 PM] haileypdll#3353
+thanks, I will try to improve
+
+
+[02/18/2023 5:03 PM] glasgowm#9381
+np, looks very functional! Options are probably a bit abstract for most people though so your biggest hurdle is probably not scaring people away. ChatGPT is handy for writing ELI5 explainers and simplfying things a bit.
+
+{Reactions}
+👍 (2) 
+
+[02/19/2023 3:35 AM] NoahErgo#4349
+Yeah btw hope that doesnt discourage you im excited to really dig into this when im back home next weekend. Would love to see sigma o shine in the ecosystem so all feedback is purely from that perspective
+
+
+[02/19/2023 7:07 AM] Kahnloc#3368
+This is one of the things I was hoping to see on ergo as I do a lot of options on equities and ETFs. Can’t wait to try this out.
+
+
+[02/19/2023 8:06 AM] haileypdll#3353
+Nah, that's fine thanks, the current design and complexity had a bit afraid you. I will try to add more explanation and pointers.
+
+{Reactions}
+❤️ 
+
+[02/19/2023 1:03 PM] haileypdll#3353
+New Sigmao homepage !
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864922335187005/1076851509981098055/image.png
+
+{Reactions}
+ergo_orange (5) 👍 (3) 
+
+[02/19/2023 3:33 PM] glasgowm#9381
+Nice! CSS/Alignment/Padding still needs some work but looks a lot better
+
+
+[02/19/2023 10:26 PM] haileypdll#3353
+Haha, a short term loan against a Call on Put option on COMET ! At the end those puts have value... no sure considering the fees and the number of transactions.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864922335187005/1076993091979989112/image.png
+
+{Reactions}
+🔥 (2) 
+
+[02/20/2023 11:02 AM] haileypdll#3353
+Exercising a Call on Put option on COMET
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864922335187005/1077183504326082682/image.png
+
+{Reactions}
+ergo_orange (3) blob (3) 
+
+[02/22/2023 5:04 PM] NoahErgo#4349
+@haileypdll hi! Nadi said she might be interested in helping with ui stuff 🙂
+
+She created the satergo ui design. I have invited her here just waiting for her to join discord channel so i can tag here
+
+{Reactions}
+❤️ 
+
+[02/22/2023 5:40 PM] NoahErgo#4349
+@Nadi 🙂
+
+
+[02/22/2023 5:42 PM] Nadi#5654
+Hello 🙂
+
+
+[02/22/2023 6:16 PM] haileypdll#3353
+Thanks !
+
+
+[02/22/2023 6:20 PM] haileypdll#3353
+Hello, yes, I can be interest with help to improve the UI. How would you like to contribute ?
+
+
+[02/22/2023 6:21 PM] haileypdll#3353
+Publishing the SigmaO Ergohack VI report also here:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864922335187005/1078018661907959839/SigmaO_Ergohack_VI_report.pdf
+
+{Reactions}
+ergo_orange (3) 🔥 (3) 
+
+[02/22/2023 6:22 PM] haileypdll#3353
+https://www.sigmao.cc/
+https://github.com/ThierryM1212/SigmaO
+
+
+[02/26/2023 12:35 AM] haileypdll#3353
+A slide show presentation of the project with demo videos: https://www.slideshare.net/VeuchVeuch/sigmao-options-on-ergo-tokens-256118722/
+
+{Embed}
+Haileypdll
+https://www.slideshare.net/VeuchVeuch/sigmao-options-on-ergo-tokens-256118722/
+Sigma'O - Options on Ergo tokens
+https://images-ext-2.discordapp.net/external/U83LcgretKClmuOJzpkc9JuUwsGxCmeN2QpxpfMr8f4/%3Fwidth%3D640%26height%3D640%26fit%3Dbounds/https/cdn.slidesharecdn.com/ss_thumbnails/sigmao-230226003108-7d3c6bdc-thumbnail.jpg
+
+{Reactions}
+ergo_orange blob 
+
+[02/27/2023 8:41 AM] bunnywabbit#0579
+unable to exercise any of my calls or puts, keeps giving me this error.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864922335187005/1079684653285376061/image.png
+
+
+[02/27/2023 10:55 AM] haileypdll#3353
+Hello, I've just tried to exercise a call and a put without issue. https://explorer.ergoplatform.com/en/transactions/14954cd3fe0f51d6a6c7d392ea6659d560d4280a99bc83e0e7f71ebe87b369b2. It seems you try to exercise a Put on SPF token here. Do you have 5 SPF at the connected address to sell them ? The error message means they have not been found.
+
+
+[02/27/2023 11:43 AM] bunnywabbit#0579
+oh right, I'm a dumdum and forgot to actually get the spf tokens 🤦‍♂️ works now thanks.
+
+
+[03/03/2023 9:23 AM] haileypdll#3353
+A Sigma'O presentation article is now available: https://medium.com/@Haileypdll/sigmao-options-on-ergo-tokens-18adaa098416
+
+{Embed}
+https://medium.com/@Haileypdll/sigmao-options-on-ergo-tokens-18adaa098416
+Sigma’O — Options on Ergo tokens
+Sigma’O is a dApp on the Ergo blockchain, made for the Ergohack VI, and now available for testing at https://www.sigmao.cc.
+https://images-ext-2.discordapp.net/external/I8Sq0a7d9iLbD67jgnweMmI5jzRQz4qNS4CPYIT5fx8/https/miro.medium.com/max/1181/1%2A7cDu6qGQ7z7Qb7gc8mj7Og.png
+
+{Reactions}
+ergo_orange (7) 👍 (6) 🔥 
+
+[03/23/2023 2:43 PM] haileypdll#3353
+Covered call strategy details to generate yield in stable markets: https://www.fidelity.com/learning-center/investment-products/options/why-use-a-covered-call
+
+{Embed}
+https://www.fidelity.com/learning-center/investment-products/options/why-use-a-covered-call
+Why use a covered call? - Fidelity
+A covered call is a two-part strategy in which stock is purchased or owned and calls are sold on a share-for-share basis.
+
+{Reactions}
+👍 
+
+[03/24/2023 5:40 PM] Ergo Tipper Bot[BETA]#0902
+@rustinmyeye sent a tip of 6.0 erg to @haileypdll!
+
+{Reactions}
+❤️ 
+
+[03/24/2023 6:30 PM] haileypdll#3353
+thanks
+
+
+[03/25/2023 5:05 PM] R C#4349
+thanks hailey, a lot of people in the erg trading group has never bought or sold options I have noticed, so education pieces like this will help a lot :k_thumbs_up:
+
+
+[03/31/2023 6:19 AM] haileypdll#3353
+Coming out of the dark SigmaO became blue
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864922335187005/1091230339814412328/image.png
+
+{Reactions}
+blob (2) spicy (2) 
+
+[03/31/2023 4:00 PM] wombo22#5461
+Could be just me but the blue font, I don’t think it meshes well with the background
+
+
+[03/31/2023 4:01 PM] wombo22#5461
+Maybe I’m getting ahead of myself and it’s not the final ui
+
+
+[03/31/2023 4:30 PM] haileypdll#3353
+Nah, there is someone (not sure I can give a name yet) working on a re-looking proposal... just got blue mood... be careful that could be orange toomorrow ! especially if you dislike the blue
+
+{Reactions}
+❤️ 👀 
+
+==============================================================
+Exported 42 message(s)
+==============================================================

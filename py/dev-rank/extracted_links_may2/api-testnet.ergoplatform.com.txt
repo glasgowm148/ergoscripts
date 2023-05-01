@@ -1,0 +1,13 @@
+http://api-testnet.ergoplatform.com/
+https://api-testnet.ergoplatform.com/api/v1/addresses/3WzLU3VXFYdR8nRVPFaSDi21hDnkSyG6AR7hkBc19VsWAxogSigV/balance/confirmed
+https://api-testnet.ergoplatform.com/info
+https://api-testnet.ergoplatform.com/blocks
+https://api-testnet.ergoplatform.com/api/v1/docs
+https://api-testnet.ergoplatform.com/api/v1/docs/
+https://api-testnet.ergoplatform.com/api/v0/assets/issuingBoxes
+https://api-testnet.ergoplatform.com/api/v1/boxes/bbb7e7ed799457f643e3a8276164745203495a835ffc9b4e068d45cf9799aa66)
+https://api-testnet.ergoplatform.com/api/v1/boxes/80a8b3a328d45ef468c27b1f5b0e0d924bfd52c16c1058aaaddd5d66ecf986...
+https://api-testnet.ergoplatform.com/api/v1/boxes/unspent/byAddress/
+https://api-testnet.ergoplatform.com/api/v1/boxes/unspent/byTokenId/f2f64bab1f2e9ab65c0e4a6a65eed0b26c5276eb5dda01d4a0e0ebe8a85bfbfc
+https://api-testnet.ergoplatform.com/api/v1/boxes/5d364ed34b9b388e3fa41332e387e6ef51fbb2dbe61fb5c57657e214e44bb260)
+https://api-testnet.ergoplatform.com

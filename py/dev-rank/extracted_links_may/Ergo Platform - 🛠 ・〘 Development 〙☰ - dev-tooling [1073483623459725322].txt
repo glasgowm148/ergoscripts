@@ -1,0 +1,90 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🛠 ・〘 Development 〙☰ / dev-tooling
+Topic: Join the threads you want to appear in the nav bar by sending a message in the thread!
+==============================================================
+
+[02/10/2023 6:00 AM] glasgowm#9381
+Started a thread.
+
+
+[02/10/2023 6:01 AM] glasgowm#9381
+Started a thread.
+
+
+[02/10/2023 6:01 AM] glasgowm#9381
+Started a thread.
+
+
+[02/10/2023 6:01 AM] glasgowm#9381
+Started a thread.
+
+
+[02/10/2023 6:01 AM] glasgowm#9381
+Started a thread.
+
+
+[02/10/2023 6:02 AM] glasgowm#9381
+Started a thread.
+
+
+[02/10/2023 6:02 AM] glasgowm#9381
+Started a thread.
+
+
+[02/10/2023 6:02 AM] glasgowm#9381
+Started a thread.
+
+
+[02/10/2023 6:03 AM] glasgowm#9381
+Started a thread.
+
+
+[02/10/2023 7:31 AM] glasgowm#9381
+Started a thread.
+
+
+[02/11/2023 10:34 PM] glasgowm#9381
+Started a thread.
+
+
+[02/25/2023 5:32 PM] glasgowm#9381
+Started a thread.
+
+
+[03/09/2023 11:29 AM] FlyingPig#2854
+I cannot get my head around how the development discord channels work?
+I've selected explorer from the channels & roles, but it never shows in my navbar. I have to search for it across all of ergoplat discord and then find a random topic before it becomes available. And next day it's gone...
+I can see the ergpy topic/thread, but that's not available in the menu/channel list.
+
+Is it just me, or is it harder to find things now?
+
+
+[03/09/2023 12:03 PM] glasgowm#9381
+Most channels work as usual, I've collapsed the ones that can be categorised as 'tooling' into threads in this category. You shouldn't need to search - just come here. I forgot to remove it from that channels and role pane sorry.
+
+To get these to stay on your sidebar send a message in the thread and that should be you. 
+
+This section made most sense and de-clutter the server collapse for a few reasons
+- This section will be constantly growing
+- Mostly used by devs on Discord (unbridged)
+- kushti wanted more chats in #🛠│development during the bear and less dev channels, so if people end up there for discussions no issue, can come to threads for longer discussions.
+
+{Reactions}
+👍 
+
+[03/10/2023 6:17 PM] Reqlez#6611
+SO what i'm hearing here is that... it's okay to spam #🛠│development  chat, can you please confirm this for me good sir @glasgowm :kekw:
+
+
+[03/10/2023 6:18 PM] glasgowm#9381
+Just you stay in #deleted-channel, you've already almost over-taken the chats that have been here for years in messages 😅
+
+
+[03/10/2023 6:19 PM] Reqlez#6611
+:kekw:
+
+
+==============================================================
+Exported 17 message(s)
+==============================================================

@@ -1,0 +1,1193 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🛠 ・〘 Development 〙☰ / 💰│jobs-bounties
+==============================================================
+
+[08/27/2021 3:54 PM] glasgowm#9381 (pinned)
+As a member of the Ergoplatform Core Development team, you will be responsible for maintaining and evolving open source bytecode interpreter of smart contracts and ErgoScript compiler of Ergo blockchain. Join a small team of experienced developers in pushing forward next generation blockchain and smart contracts programming. Work with Ergo core developers who delivered Ergo blockchain. The ideal candidate is an experienced compiler developer comfortable with working rapidly in open source environment.
+
+https://github.com/ergoplatform/grow-ergo/blob/main/jobs/compiler-engineer.md
+
+{Embed}
+https://github.com/ergoplatform/grow-ergo/blob/main/jobs/compiler-engineer.md
+grow-ergo/compiler-engineer.md at main · ergoplatform/grow-ergo
+Grow ERG. Contribute to ergoplatform/grow-ergo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/-MbB7vE2N2vsEEeI4GDbqTVvBR6oD1GfsRiOxu-rWHM/https/opengraph.githubassets.com/5db6b1dffddc3b571dbf01c36df4c9d2f9ec7b9a80a74c7d600e9dfce30aa882/ergoplatform/grow-ergo
+
+
+[08/27/2021 3:54 PM] glasgowm#9381
+Developer Bounties:
+
+https://github.com/ergoplatform/grow-ergo/issues/2
+
+{Embed}
+https://github.com/ergoplatform/grow-ergo/issues/2
+Developer Bounties · Issue #2 · ergoplatform/grow-ergo
+Developer bounties given in SigmaUSD Ergo Core Bounties Sigma-Rust Bounties Scanner Bounties
+https://images-ext-1.discordapp.net/external/skOLD9EJ26yfTqtocADJ0DlkmxbabdoVzFT7fF_xu8o/https/opengraph.githubassets.com/f47bd88406bd79a970b35889c4fba874d4ce6036111a05a9fea72c11dd79d08a/ergoplatform/grow-ergo/issues/2
+
+
+[08/30/2021 8:42 AM] morphic#4133
+@Leif Erickson we currently have different full-time and part-time positions in addition to bounties. 
+The main directions you can choose from:
+1) Ergo Node development in this repo https://github.com/ergoplatform/ergo
+2) ErgoScript/ErgoTree Interpreter development in this repo https://github.com/ScorexFoundation/sigmastate-interpreter
+3) Front-end development in Yoroi (working with Emurgo team to fully support Ergo in Yoroi wallet https://github.com/Emurgo/yoroi-frontend)
+
+
+[08/30/2021 9:09 AM] greenhat#6562
+@morphic @Leif Erickson Don't forget sigma-rust - https://github.com/ergoplatform/sigma-rust 🙂
+
+{Embed}
+https://github.com/ergoplatform/sigma-rust
+GitHub - ergoplatform/sigma-rust: Alternative and simple implementa...
+Alternative and simple implementation of ErgoTree interpreter - GitHub - ergoplatform/sigma-rust: Alternative and simple implementation of ErgoTree interpreter
+https://images-ext-1.discordapp.net/external/Lv5AzJyRKrT4Q_9pDGzR12-YrcXKB0wioharEsHsO4o/https/opengraph.githubassets.com/76c9cab2e8e36bc3fb2d1a7855a1ef3215fdbd504efe9bf1ac9292649d9258a9/ergoplatform/sigma-rust
+
+
+[08/30/2021 9:18 AM] morphic#4133
+Yes, sure, but those I mentioned is of highest priority ATM. The node needs a lot of optimisations to further scale with the growing network usage.
+
+
+[08/30/2021 9:19 AM] morphic#4133
+And Ergo support in Yoroi is lacking behind.
+
+
+[08/30/2021 5:11 PM] Leif Erickson#8939
+@morphic excellent, thank you!  @greenhat I'll check out sigma-rust soon since it'll take a bit for me to transition in to something in a more dedicated manner.
+
+
+[08/31/2021 7:26 PM] Apextheory#6577
+This is a great idea, I can likely put together one or two.  
+For SigmaUSD, are you looking for a walkthrough of the dApp usage?  Or more into the code and contracts.
+
+
+[08/31/2021 8:08 PM] glasgowm#9381
+I (think) we have quite a few walkthroughs of usage, would more be for ergohack stuff
+
+
+[09/01/2021 10:21 AM] root7Z#8699
+yes it's all about coding not usage
+
+
+[09/01/2021 3:10 PM] glasgowm#9381
+```
+Instead of using imgbb for issuing artworks (picture, audio), integrate IPFS or any other decentralized approach in a way that the auction house doesn't break.
+```
+150 ERG Bounty
+https://github.com/anon-real/ErgoUtils/issues/1
+
+{Embed}
+https://github.com/anon-real/ErgoUtils/issues/1
+Integrate artworks with IPFS. · Issue #1 · anon-real/ErgoUtils
+Instead of using imgbb for issuing artworks (picture, audio), integrate IPFS or any other decentralized approach in a way that the auction house doesn't break.
+https://images-ext-2.discordapp.net/external/ji3X6OHX4MLWCu-Qnd0ZllwRFq1j26KwRxiXaoU9BPU/https/opengraph.githubassets.com/269c968eeacbd420e5088c1cfda11f24faa448f89f930d674fcb086a3c5a2c68/anon-real/ErgoUtils/issues/1
+
+
+[09/01/2021 3:50 PM] bk#4411
+is there a way to claim one of these bounties so multiple people don't inadvertently work on the same thing?
+
+
+[09/01/2021 4:06 PM] greenhat#6562
+In sigma-rust we're using issue comments (like "I'm working on it." kind of stuff) and never got into any conflict so far.
+
+{Reactions}
+👍 
+
+[09/02/2021 11:33 AM] root7Z#8699 (pinned)
+Hello @everyone! As you may heard, the ErgoHack II will be conducted in the first week of October. 
+
+For having a good ErgoHack, we expect community and core devs to contribute with their tutorials on coding Ergo to support the new inflow of developers.
+
+Tutorials will be rewarded 30-50 ERGs for ecosystem support. To be more organized, I am adding a GitHub link docs that you can reach to Ergo repositoires and add comments or tag yourself on a tutorial topic.
+
+Some other coding tutorials could be:
+
+-ErgoTeam, multi-sig vaults, borrow/lend pools
+-Layer 2, sidechains, nipopows
+-DEX, AgeUSD, Raffle
+-Bridge, EVM compatibility, wrapped assets
+-Metaverse, NFT
+-Wallets
+-Privacy applications
+-Timestamp/TX with memo, digital identity
+
+
+The list below is made by me, so I might confuse the expertise levels because I don't know coding. If you think something is wrong, please notify me in the document. 
+
+If you something in mind, notify me so I can reserve the tutorial topic.
+
+https://docs.google.com/document/d/1GpAvLvznUq_Qasm7LtkVd9psP2BAz0pcMTB8yTHdrC0/edit
+
+{Embed}
+https://docs.google.com/document/d/1GpAvLvznUq_Qasm7LtkVd9psP2BAz0pcMTB8yTHdrC0/edit
+Tutorials
+Beginner:Ergo GitHub Wiki Ergo Protocol DescriptionAwesome ErgoGrow Ergo​​ErgoScript WhitepaperErgo PlaygroundsErgoTool: A Command Line Interface for Ergo ErgoScript By Example - GitHub Sigmastate Interpreter Ergo Scala Style Guide Ergo Scala Compiler Ergo Bootstrap  IntermediateFull N...
+https://images-ext-1.discordapp.net/external/MzkkrjLNbfRlr9BNhjBPkEPPCViysA6l132DoEKvAQE/https/lh6.googleusercontent.com/6xKftMyCCeQAyQScR8EmpUewFkuEkbYoc7y1JlL5FvY4PSxqG_kHl9YqIxWEv6HWYaRt84vTqvT9LQ%3Dw1200-h630-p
+
+
+[09/02/2021 10:43 PM] jahnreektor#4775
+Hey Root, what's the expected format for these tutorials? ReadMEs? Videos? Web pages?
+
+
+[09/03/2021 10:39 AM] glasgowm#9381
+I think all would be suitable
+
+
+[09/03/2021 10:54 AM] RGL#8584
+One thing I asked via DM, but it may just be better to post here. Where do these videos need to be uploaded? Can I upload them on say, my own YouTube channel, or do the finished tutorials need to be sent to someone else to upload? Same with articles and blog posts, would you like to have them posted on the Ergo website, or would my blog be fine?
+
+
+[09/03/2021 11:49 AM] glasgowm#9381
+@root7Z
+
+
+[09/03/2021 4:14 PM] root7Z#8699
+for videos your youtube channel is fine but I will save them to keep an archive of tutorial video in case you delete. For articles and blogposts, if you want to write regularly for Ergo Foundation you should speak with our marketing manager AngieHar(at telegram) or tell me what you want to write so I can contact you to her. or you can post on your own channel as you wish. I'm also DM  ing about this
+
+
+[09/03/2021 4:14 PM] root7Z#8699
+Videos are the priority at the moment, we lack those a lot right now
+
+
+[09/03/2021 4:16 PM] root7Z#8699
+They can also be a general How To Start Coding Ergo explaining tutorial about the ecosystem
+
+
+[09/03/2021 6:00 PM] root7Z#8699
+Also if you don't want to speak in the video, you can include some slide pages for us to follow what you do. In general, it's easier for a new dev to See&Try from video, than writings but if you think that's also needed than please tell me your plan and I'll check how should we do
+
+
+[09/06/2021 1:32 PM] glasgowm#9381 (pinned)
+From ErgoDex Team: 
+We are looking for two senior React developers to join our growing team!
+
+If you or someone you know is passionate about building usable interfaces and advancing decentralized finance then we urgently need to get acquainted!
+
+More details available at:
+https://ergodex.io/frontend
+
+
+[09/06/2021 1:42 PM] glasgowm#9381
+Pinned a message.
+
+
+[09/06/2021 1:42 PM] glasgowm#9381
+Pinned a message.
+
+
+[09/06/2021 1:42 PM] glasgowm#9381
+Pinned a message.
+
+
+[09/08/2021 1:40 PM] glasgowm#9381
+@Community Developer 
+
+This is your chance for some easy ERG ! 
+
+We need documents, tutorials, videos, etc!
+
+{Reactions}
+ergo_white (9) 
+
+[09/08/2021 2:09 PM] root7Z#8699
+Tutorial rewards are updated from 30-50 ERGs to 1000 SigUSD, please send your smart contract coding tutorials on ErgoScript and get your rewards! You can send video and now you can also provide your original detailed text tutorials on Ergo Smart Contracts. Ask on PM about details if you have questions @everyone also please check the github bounties page for other quests https://github.com/ergoplatform/grow-ergo/issues
+
+{Embed}
+https://github.com/ergoplatform/grow-ergo/issues
+Issues · ergoplatform/grow-ergo
+Grow ERG. Contribute to ergoplatform/grow-ergo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/B6-i5E2fM-rCO1Ad6RUWr72MpJ-BdArEdg1TyaJ26q4/https/opengraph.githubassets.com/f78935bccadffc0ba10fd2b6e8a6c734235abc15fd8e85b5c53d9564c4337e51/ergoplatform/grow-ergo
+
+
+[09/09/2021 7:34 AM] yashvant#2966
+from where I can learn ergo script?
+
+
+[09/09/2021 11:17 AM] glasgowm#9381
+#❓│ergoscript-support and https://github.com/ergoplatform/awesome-ergo/blob/master/pages/devs.md#contracts-and-scripts
+
+{Embed}
+https://github.com/ergoplatform/awesome-ergo/blob/master/pages/devs.md
+awesome-ergo/devs.md at master · ergoplatform/awesome-ergo
+A curated list of awesome and useful Ergo resources - awesome-ergo/devs.md at master · ergoplatform/awesome-ergo
+https://images-ext-1.discordapp.net/external/otz1ry85LhFEV_AtB5lLGn9VKP_r2P-qxmS1DFBllng/https/opengraph.githubassets.com/85895f1eb9bbb5cf50e978f315a0264f1a4257530debac5185d1a87f46473456/ergoplatform/awesome-ergo
+
+
+[09/09/2021 2:24 PM] guru_meditation0#6096
+Guys, I love the Ergo Manifesto and I need some ERG after having to sell part of my stack due to an emergency. I've already translated the website to Polish and I'd like to translate the manifesto too, if you're interested. Please DM me in that case. @glasgowm
+
+
+[09/16/2021 2:18 PM] callie#3352
+Any way I can test for Security of Ergo like websites or the software to find security bug.?
+
+
+[09/16/2021 4:09 PM] tech#7970
+Any pay for iOS wallet development?
+
+
+[09/17/2021 7:18 AM] Elemental#9509
+Honestly, it would be really awesome if we got some **"How to code/create an ERGO mining pool from scratch"** tutorials on YouTube or something because that would definitely help ERGO grow and become more accessible for miners to have more options with how they receive their ergo/payments
+
+Same with some **"How to code/create an ERGO Wallet from scratch"** tutorials
+
+{Reactions}
+👍🏼 
+
+[09/19/2021 8:47 AM] HazeyOneKenobi#2091
+For the wallets, do you just mean tutorial on how to setup yoroi / ergo full node (mining and not mining) ?
+
+
+[09/19/2021 9:08 AM] Elemental#9509
+For the wallet, I mean how do we make an app like Yoroi and allow it to create custom wallets for the users
+And for the pool, yes. A full detailed tutorial on how to create, and fully setup a custom node/pool for mining
+
+And possibly another tutorial on how to make it (the pool) public with a non-numeric IP like  (website.com), so other miners can connect to the pool
+
+
+[09/23/2021 7:53 PM] anon_real#2768
+https://github.com/anon-real/ErgoAuctionHouse/issues/33
+
+{Embed}
+https://github.com/anon-real/ErgoAuctionHouse/issues/33
+Remove sidebar menu and add header menu instead · Issue #33 · anon-...
+Like opensea:
+https://images-ext-1.discordapp.net/external/Zw5XvzobNSFCpooqXtDur2b1NVIiCb26tsxOKyQ_eTw/https/opengraph.githubassets.com/d1d3fe8a0357da53b9c58651ec83ef3c99177b8bfef4487187886038edc50c9c/anon-real/ErgoAuctionHouse/issues/33
+
+
+[09/24/2021 11:17 AM] yashvant#2966
+I would do this
+
+
+[09/24/2021 12:58 PM] anon_real#2768
+Great! Please comment on it so others don't waste their time then.
+
+
+[09/24/2021 12:59 PM] yashvant#2966
+Sure I will commit it asap
+
+
+[09/24/2021 12:59 PM] anon_real#2768
+Also, please do that on the v2 version ("new" branch)
+
+
+[09/24/2021 1:01 PM] yashvant#2966
+okay
+
+{Reactions}
+ergo_orange 
+
+[09/24/2021 1:03 PM] anon_br#2282
+I think he meant you to comment on the issue something like "working on it" so another guys will know there is someone working on
+
+{Reactions}
+💯 (2) 
+
+[09/24/2021 1:04 PM] yashvant#2966
+Actually I am in a company right now but will surely commit once I am off
+
+
+[09/26/2021 11:30 PM] Apextheory#6577
+I have spoken to root7z, and started working on a tutorial that is a bridge between **Ergoscript-by-Example** and **AppKit**.  The idea is to take some of the contracts that were written for the Ergo Playground, and use AppKit + local node to actually submit these transactions to testnet.  I feel this documentation is lacking, and would be very beneficial to a brand new Ergo dev.  It will provide most of the knowledge required to actually interact with the blockchain for the first time.
+
+{Reactions}
+😃 👍 (2) 
+
+[09/26/2021 11:35 PM] Apextheory#6577
+I will do a screen recording video with voiceover.  I'll cover: 
+- starting and using the node + wallet
+- using appkit as a dependency
+- appkit code (communicating with node, boxes, transactions, provers, contracts, etc.)
+- basic ergoscript
+- walk through transactions in explorer
+Any thoughts or additions on this?
+
+{Reactions}
+👍 (3) 
+
+[09/27/2021 12:23 PM] MrStahlfelge#0042
+setting up an own node is not needed for most tasks, so you could make it easier for beginners by just showing how to connect to public testnet node?
+
+{Reactions}
+👍 (2) 
+
+[09/27/2021 12:24 PM] Apextheory#6577
+Yea that makes sense. I was not going to do a whole setup instruction, just to quickly show that it is running, synced, and accepting connections etc.
+
+
+[09/27/2021 12:24 PM] Apextheory#6577
+There is a good full node tutorial already that I will link to.
+
+{Reactions}
+👍 
+
+[09/28/2021 8:49 PM] Apextheory#6577
+@root7Z @glasgowm here you go (video is unlisted for now): https://www.youtube.com/watch?v=Md5s-XV6-Hs
+A couple things:
+1) ~~There is some annoying background noise I am trying to cancel out, perhaps just scan it for content right now~~ Fixed in new link
+2) ~~I will push the code to GitHub soon, so that people can follow along.~~ https://github.com/ApexTheory/appkit-by-example
+
+{Embed}
+Apex Theory
+https://www.youtube.com/watch?v=Md5s-XV6-Hs
+AppKit by Example
+Interacting with the Ergo blockchain using AppKit
+https://images-ext-2.discordapp.net/external/nWixLA9IxgdOziOru48X4ev9gs5qkZjJyrx0NqjRmcY/https/i.ytimg.com/vi/Md5s-XV6-Hs/maxresdefault.jpg
+
+{Embed}
+https://github.com/ApexTheory/appkit-by-example
+GitHub - ApexTheory/appkit-by-example
+Contribute to ApexTheory/appkit-by-example development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/OhrTICLDdo7VA6eXHzB2d_RyFHa3fXI5crnH9jFMe2U/https/opengraph.githubassets.com/bfab56eaa6b3b5f6b4b2e633b5f7f704cf1df8e4d7160adf8c6a7505d76f1c3c/ApexTheory/appkit-by-example
+
+{Reactions}
+👍 ergo_white 
+
+[09/28/2021 9:18 PM] glasgowm#9381
+This looks great!
+
+
+[09/28/2021 9:26 PM] Apextheory#6577
+Good to hear.  I have very little experience making videos or tutorials, but hopefully it's easy to follow.
+
+{Reactions}
+👍 
+
+[09/29/2021 10:26 PM] root7Z#8699
+last examples by the community were
+https://github.com/ApexTheory/appkit-by-example
+https://github.com/ergoplatform/ergoscript-by-example#ergoscript-examples (last 3)
+
+I don't know any other at the moment
+
+{Embed}
+https://github.com/ApexTheory/appkit-by-example
+GitHub - ApexTheory/appkit-by-example
+Contribute to ApexTheory/appkit-by-example development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/OhrTICLDdo7VA6eXHzB2d_RyFHa3fXI5crnH9jFMe2U/https/opengraph.githubassets.com/bfab56eaa6b3b5f6b4b2e633b5f7f704cf1df8e4d7160adf8c6a7505d76f1c3c/ApexTheory/appkit-by-example
+
+{Embed}
+https://github.com/ergoplatform/ergoscript-by-example
+GitHub - ergoplatform/ergoscript-by-example: Learn ErgoScript by re...
+Learn ErgoScript by reading example smart contracts powered by Ergo Playground. - GitHub - ergoplatform/ergoscript-by-example: Learn ErgoScript by reading example smart contracts powered by Ergo Pl...
+https://images-ext-1.discordapp.net/external/diKRSJfRx25OhgOkcIxt5CdyyGVjXMaOQSbBe24iyHM/https/opengraph.githubassets.com/660be40dfeabdd134118bda6a9bc3424d9940efb52048522de832af2ff0273da/ergoplatform/ergoscript-by-example
+
+{Reactions}
+👊 
+
+[10/04/2021 9:59 AM] HazeyOneKenobi#2091
+Wondering if you can give a quick breakdown of how the randomised pick of winner works? I've read the code and docs but I'm still pretty new to scala and ergoscript
+
+
+[10/04/2021 12:15 PM] fateme.r#4033
+There are different ways of creating random seed based on the blockchain data. We have reviewed and mentioned some of them in the raffle doc.
+For example, all box and block ids are random numbers. (Since they are output of hash functions).
+But we wanted a random number that can not be influenced by other people. For example, since the box id is the hash of the box contents, the box creator can change the content to create a desired id (By searching and changing the content randomly). Thus a controllable box id is not a good random seed.
+We have discussed pros and cons of some random seeds in the raffle doc “Raffle Winner” section.
+https://github.com/ErgoRaffle/raffle-documentation#raffle-winner
+Finally we have used the oracle box id as a random seed for our winner selection.
+
+{Embed}
+https://github.com/ErgoRaffle/raffle-documentation
+GitHub - ErgoRaffle/raffle-documentation
+Contribute to ErgoRaffle/raffle-documentation development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/nYKGsZzEwcck3nqqSiCmPlP5si-xSeKDQn9cvEnb24U/https/opengraph.githubassets.com/eaccc7c4ea44576040db3d5003cff798d0e4428d251cce87cd2ef2279bc60aaa/ErgoRaffle/raffle-documentation
+
+
+[10/11/2021 1:39 PM] Fuzy#2126
+How can I contribute as a frontend developer, graphic designer, photographer, or videographer? Also, I can help you with translating and writing in the Serbian language.
+
+
+[10/11/2021 1:57 PM] Apextheory#6577
+There is a logo contest going on right now.  Tutorials are needed, infographics are always welcome (see the marketing telegram channel too). 
+You can try tackling some issues on GitHub https://github.com/ergoplatform
+
+
+[10/11/2021 11:28 PM] kushti#0978
+https://github.com/input-output-hk/scrypto/issues/84 , you can get pretty decent bounty imho while having fun with real crypto )
+
+{Embed}
+https://github.com/input-output-hk/scrypto/issues/84
+Batch MerkleProof  · Issue #84 · input-output-hk/scrypto
+Similarly to scorex.crypto.authds.merkle.MerkleProof, make BatchMerkleProof for many elements in the tree.
+https://images-ext-1.discordapp.net/external/xCRxJk96V4UPfxsMCVxKrFR2z5d5ArQgzL241-UwInc/https/opengraph.githubassets.com/f842e390c30a2d59c4c7b1712710dcac0d003ff1f9252a6923740a4c8abea1e8/input-output-hk/scrypto/issues/84
+
+{Reactions}
+👀 
+
+[10/12/2021 12:07 AM] Gytis#3049
+Ah, i and my friend applied to iohk
+
+
+[10/12/2021 12:07 AM] Gytis#3049
+We both got rejected without an interview :D
+
+{Reactions}
+😢 (3) 
+
+[10/12/2021 10:56 AM] kushti#0978
+You can make a decent bounty while having fun with real crypto in https://github.com/input-output-hk/scrypto/issues/84
+
+{Embed}
+https://github.com/input-output-hk/scrypto/issues/84
+Batch MerkleProof  · Issue #84 · input-output-hk/scrypto
+Similarly to scorex.crypto.authds.merkle.MerkleProof, make BatchMerkleProof for many elements in the tree.
+https://images-ext-1.discordapp.net/external/xCRxJk96V4UPfxsMCVxKrFR2z5d5ArQgzL241-UwInc/https/opengraph.githubassets.com/f842e390c30a2d59c4c7b1712710dcac0d003ff1f9252a6923740a4c8abea1e8/input-output-hk/scrypto/issues/84
+
+
+[10/15/2021 8:21 PM] glasgowm#9381
+https://www.ergoforum.org/t/good-whales-grant-fund/2779
+
+{Embed}
+https://www.ergoforum.org/t/good-whales-grant-fund/2779
+Good Whale's Grant Fund
+One whale approached me recently expressing desire to support research & development in the Ergo ecosystem. I expressed some topics of interest, and the whale was keen to support them.  Please note that DarkFund0 still has more than 4K ERG for privacy-preserving applications, and Ergo Foundation always waiting for grant proposals of any kind.  T...
+
+{Reactions}
+👍 (7) 
+
+[10/23/2021 12:32 AM] kii#8888
+Hi @glasgowm , I would like to examplify to code all of ergoscript examples and advanced example. And document easy to follow up exercises for a workbook for beginners to get onboard with ErgoScript and Ergocoding. Would there be job bounties for that?
+
+{Reactions}
+ergo_orange 
+
+[10/26/2021 10:23 PM] glasgowm#9381
+Sorry missed this - sure we could fund something like this @kushti ?
+
+
+[10/26/2021 10:25 PM] kii#8888
+No worries, just wanted to send a ping.
+
+
+I am trying to get up to speed too, and felt that that would help me and future devs a lot, and have been working through it and being able to see the theories being applied to code helped me understand ergoscript and how to utilize it in a code basis a lot better.
+
+I'm seeing that this could be done in 2 parts, a ergo-playground example, so no set up is needed.
+
+And then also a full setup against test node example. So that people who is trying to onboard onto ergo will know how to set up a test node right away and jump into the good stuff rather than being confused about how to set things up.
+
+
+I've been asking myself questions while learning like, "How can I learn ergoscript faster?", "How can I apply this to ErgoLend?", "How can I test more contracts faster?" and have found that the above ideas might help me move faster so I can learn more and break things in a controlled environment.
+
+
+[10/27/2021 10:00 AM] kushti#0978
+Yes, there are bounties for submitting such things to the ErgoScript-by-the-Example repo
+
+
+[10/27/2021 10:09 AM] kushti#0978
+It would be awesome if you can document and publish your Ergo endeavours
+
+
+[10/27/2021 5:31 PM] kii#8888
+Okay. I’ll make a pull request to show you what I mean better by EOW. 
+
+I had an idea that is like ergoscript by example, but a little different. 
+
+If we think it’s better to still have it in the normal ergoscript example format, we can do that too. 
+
+It’ll be clear after I make a PR
+
+{Reactions}
+👍 (2) 
+
+[10/27/2021 5:37 PM] kii#8888
+Yes. I have and will continue to do so. I’ve mentioned to Glasgow that ive been running a Thursday meet with ergo lend team to explain my understanding of UTXO and ergo and everything ive learned in a more layman understandable way. 
+
+If anyone have time, I’d love to be able to schedule some time to go through my understanding to validate whether the way I’m understanding is correct so that I don’t teach an invalid idea
+
+
+[11/01/2021 7:16 AM] kii#8888
+Would this be a right place to post this? 
+
+https://github.com/ergoplatform/ergoscript-by-example/pull/13
+
+@kushti
+
+{Embed}
+https://github.com/ergoplatform/ergoscript-by-example/pull/13
+Sigma Statement by k3ithl1m · Pull Request #13 · ergoplatform/ergos...
+This is an example from the white paper. 2.1
+https://images-ext-1.discordapp.net/external/gjVG4vVHcuyT3ZZEwsOVxp163IcQUc6WyBa4GDHSF44/https/opengraph.githubassets.com/728447036a7ffc009e0d723cb6779d2e5eb768fdc96bfd51f13d07b317a5a82b/ergoplatform/ergoscript-by-example/pull/13
+
+{Reactions}
+👍 
+
+[11/01/2021 12:13 PM] glasgowm#9381
+@Community Developer check out new bounties for Tutorials and How-to Guides (upto $500 SigUSD), and new CLI and web-ui applications (1-2k SigUSD)
+
+https://github.com/ergoplatform/grow-ergo/issues
+
+{Embed}
+https://github.com/ergoplatform/grow-ergo/issues
+Issues · ergoplatform/grow-ergo
+Grow ERG. Contribute to ergoplatform/grow-ergo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/cC1akcxDHyh3A6ENF7Zy8BmVo-mwwtCtrWhIQQTplJ8/https/opengraph.githubassets.com/4188fa791663ebf6232542a71f2168240dea854d9e16f77f8b806a6079fe3f6c/ergoplatform/grow-ergo
+
+{Reactions}
+👍 (8) chefskiss (2) ✊ (2) 👏 (2) 
+
+[11/02/2021 10:13 AM] HazeyOneKenobi#2091
+What is meant to be the purpose of CLI / Web-UI apps? Just any program that interacts with Ergo chain?
+
+{Reactions}
+👍 (2) 
+
+[11/02/2021 5:08 PM] venoox#1937
+does that also include RPC client or SDK library?
+
+
+[11/02/2021 7:26 PM] glasgowm#9381
+Just for applications I believe.
+
+
+[11/02/2021 9:56 PM] kushti#0978
+would be happy to join sometimes
+
+
+[11/02/2021 9:56 PM] kushti#0978
+basically,  yes
+
+
+[11/02/2021 9:58 PM] kii#8888
+I can invite you to our discord group. We normally meet on Thursday at 5pm pst (depending on our workload for the day). You can hop in whenever.
+
+I'm also currently ideating a curriculum for future teachings.
+
+
+[11/02/2021 9:59 PM] kii#8888
+Invite sent
+
+
+[11/11/2021 11:01 PM] glasgowm#9381 (pinned)
+https://www.ergoforum.org/t/bounties-for-dapp-examples/2946
+
+{Embed}
+https://www.ergoforum.org/t/bounties-for-dapp-examples/2946
+Bounties for DApp examples
+Bounties for submissions to ErgoScript-by-Example repository were very successful, a lot of submissions were received.  There’s also demand for ready-made application example to fully grasp possible full-stack solutions for dApps on Ergo.  Thus there are new bounties! First five submitted and approved applications will receive:   2,000 SigUSD fo...
+
+
+[11/11/2021 11:01 PM] glasgowm#9381
+Pinned a message.
+
+
+[11/14/2021 5:29 PM] Marty#4039
+@glasgowm can you check https://ergopad.io/dashboard and let us know if we finish historical chart and add a modal to show token and nft details, would that fit the criteria of a full stack dapp like what you're looking for?
+
+
+[11/14/2021 6:40 PM] Marty#4039
+"connect wallet" at the top to see your holdings
+
+
+[11/15/2021 8:36 AM] MrStahlfelge#0042
+Interesting question. I thought a dapp is an application doing or preparing smartcontract transactions on the blockchain, everything else is ecosystem (what is appreciated as well)
+
+
+[11/16/2021 10:34 PM] Fuzy#2126
+Is there any need for a graphic designer, video editor or frontend dev?
+
+
+[11/16/2021 10:35 PM] Fuzy#2126
+I would be more than glad to contribute!
+
+
+[11/18/2021 6:49 PM] AllCloudy | GetBlok.io#1273
+@Fuzy  I'm looking for Graphic Designer for Getblok.io, will DM
+
+
+[11/19/2021 2:42 PM] AllCloudy | GetBlok.io#1273
+If any .NET developer wants to cut their teeth into this problem, I will put a 20 ERG bounty on fixing this issue:  https://github.com/GetBlok-io/miningcore/issues/2
+
+{Embed}
+https://github.com/GetBlok-io/miningcore/issues/2
+ERGO Stratum: Block 615914 submission failed with: Invalid block mi...
+Describe the bug We have experienced this error three times now, from different stratum and different node combinations. On Miningcore stratum: [2021-11-09 19:59:19.9642] [I] [ergo1] Submitting blo...
+https://images-ext-1.discordapp.net/external/5Sb4LSbR8CjkSKd5zmGIhKu7XorccBlhNpt02AVM7mc/https/opengraph.githubassets.com/2dea3a06044fe2ee5f2d882fdaffb6f94b38b421127fc2f0f2591088d8d6a814/GetBlok-io/miningcore/issues/2
+
+
+[11/25/2021 10:54 AM] glasgowm#9381
+a SigUSD bounty budget has been approved for each core repository each month @Community Developer - please get in touch with whatever @Ecosystem Core developers are active on the repository if you have any issues you'd like bounties set for.
+
+Also In general, anything educative for the community is a subject to some bounty even if not specifically listed.
+
+@Ecosystem Core please bounty any repositories you manage with the `SigUSD-xxx` (ie, SigUSD-500) and `Bounty` labels.
+
+{Reactions}
+ergo_orange (7) 
+
+[11/30/2021 5:47 PM] aamiirzaa#7361
+I'm a fullstack developer. Who need a hand?
+
+{Reactions}
+ergo_black (2) 
+
+[12/06/2021 6:15 PM] Marty#4039
+Ergopad is looking for devs for a few Ergo projects, please DM if interested
+
+
+[12/11/2021 12:10 AM] andrewcen16#8633
+Front end dev here, if anything is available
+
+
+[12/11/2021 12:10 AM] andrewcen16#8633
+Front end dev here, if anything is available
+
+
+[12/22/2021 7:24 AM] Dmitry Usov#0134
+Hey! https://github.com/ergoplatform/sigmaverse/issues/4 you can take this one
+
+{Embed}
+https://github.com/ergoplatform/sigmaverse/issues/4
+[REQUEST] Category tag filtering · Issue #4 · ergoplatform/sigmaver...
+Would be good to be able to filter applications by their appCategory. This way we could include more tools & utilities relevant to ergo (and not just dApps)
+https://images-ext-2.discordapp.net/external/OVuE3ND6XDqlUFITwaZpLNiKYmLHvBQ9h0CkxcDQUds/https/opengraph.githubassets.com/cb87ff05872359a9758e5d0bc16a6d9891fb67f1bb66cf280104d6aa05635970/ergoplatform/sigmaverse/issues/4
+
+
+[12/24/2021 5:34 PM] Marty#4039
+Looking for help building this for ergo: 
+https://medium.com/truebit/exploring-the-iico-interactive-dapp-337e1d09fffe
+
+{Embed}
+https://medium.com/truebit/exploring-the-iico-interactive-dapp-337e1d09fffe
+Exploring the IICO Interactive DApp
+The Truebit team in collaboration with BKDF have released a prototype of the IICO interactive application; a user interface and third…
+https://images-ext-1.discordapp.net/external/UbvRvJNiEYkj_9ssVPJJk6S0IJLCuwXnudwv11EgHX0/https/miro.medium.com/max/1200/1%2A6m9CWJKnp-1O89nbGHz80A.jpeg
+
+
+[12/25/2021 2:08 PM] raoufbouky#4127
+interesting
+
+
+[12/25/2021 2:49 PM] raoufbouky#4127
+check my pull request
+
+
+[12/26/2021 12:09 AM] capt_nemo#3204
+Calling ERG Artists
+
+Nautilus Wallet needs a logo. 
+
+The name Nautilus is inspired by the Submarine in Jules Verne 20,000 Leagues Under the Sea. Nautilus is described by Verne as "a masterpiece containing masterpieces", which was built in secrecy, sourcing parts from unnamed sources and roams the seas beyond the reach of land-based governments.
+
+We are offering 10 ERG Tip for the best submission before the end of the year at https://t.me/ergo_nft_trading.
+
+* size: high resolution that can be reduced and remains legible in very small sizes, like 16x16 pixels, or a reduced version of the logo
+* format: svg, png and the editable source file
+
+Take a look at the initial concept.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880827367868743730/924453750561714236/photo_2021-12-23_15-31-28.jpg
+
+
+[01/02/2022 1:42 PM] glasgowm#9381
+ArØhBë K, [2 Jan 2022 at 06:00:34]:
+Translations Needed  ERG Bounties Available
+https://github.com/GetBlok-io/Translations/issues
+
+{Embed}
+https://github.com/GetBlok-io/Translations/issues
+Issues · GetBlok-io/Translations
+Landing for docs in need of translation . Contribute to GetBlok-io/Translations development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/qY1SymKEGR73WNCre0aoT-Dssv5Zv0XktLESZIkjmv0/https/opengraph.githubassets.com/cb5b3447926df881fd2d8eadcf88b68603ddcdc072d505f10b428c0b0a42b6f6/GetBlok-io/Translations
+
+
+[01/03/2022 10:41 PM] JOFLITO#9983
+https://discord.com/channels/668903786361651200/852478885744345118/927626424679039047
+
+
+[01/03/2022 10:41 PM] JOFLITO#9983
+if you guys are interested
+
+
+[01/11/2022 11:04 PM] martin.jpg#4404
+Hi everyone! I am looking for a rust developer who can write the bindgens from react-native-haskell shelley to support more stuff from the Cardano Serialization Library. It is just adapting it to mobile compatible C and Java. https://github.com/Emurgo/react-native-haskell-shelley
+
+{Embed}
+https://github.com/Emurgo/react-native-haskell-shelley
+GitHub - Emurgo/react-native-haskell-shelley: React-native bindings...
+React-native bindings for Emurgo&#39;s cardano-serialization-lib (Cardano haskell Shelley) - GitHub - Emurgo/react-native-haskell-shelley: React-native bindings for Emurgo&#39;s cardano-ser...
+https://images-ext-2.discordapp.net/external/tLfJ6Np5iLytzve8m2NTxeCXqBKjagzrmdAkB0Vy3Gk/https/opengraph.githubassets.com/14aff71105584a973eb4b72ddbce8edc93db5a7ead3fe731c232fe5265fd37f1/Emurgo/react-native-haskell-shelley
+
+
+[01/12/2022 6:18 PM] Dmitry Usov#0134
+Hi. I am looking for frontend dev who want to support ergo ecosystem. We have new design/pages for the explorer which need to be implemented. I need a help with this stuff.
+
+
+[01/12/2022 10:40 PM] Kurikun#6941
+What js framework are you writing in?
+
+
+[01/13/2022 4:53 AM] Dmitry Usov#0134
+React, scss, ts
+
+
+[01/18/2022 5:02 AM] alexandru#0679
+Hi, I’m looking for someone to modify the Auction House  " 2% of the final bid will go to the Ergo Auction House" and add a new fee of 5% that would go to another address which I own. Anon said ergoscript knowledge to change the requirements within the auction contract is needed and also change the js code consequently. Thanks! 🤍
+
+
+[01/19/2022 1:06 PM] raoufbouky#4127
+im interested
+
+
+[01/19/2022 1:30 PM] Dmitry Usov#0134
+I found one. Job not relevant yet
+
+
+[02/04/2022 1:40 AM] Marty#4039
+Anyone in here a graphic designer?
+
+
+[02/05/2022 1:37 AM] ÅrÖhBê#8289
+https://twitter.com/GetBlok_io/status/1489774679296557059?s=20&t=KfzdUXm20H7cbtmxUpwmow
+
+{Embed}
+GetBlok.io (@GetBlok_io)
+https://twitter.com/GetBlok_io/status/1489774679296557059?s=20&t=KfzdUXm20H7cbtmxUpwmow
+https://t.co/2eRiEOP6B4 is growing!   
+
+We are looking for front end developers.  Specifically in UI/UX design.  Current framework is in React.
+
+Reach out to us if you are interested in joining the https://t.co/2eRiEOP6B4 team and build the future of PoW mining
+https://images-ext-1.discordapp.net/external/RiCceGQ4fAgCe3DLmZkIgqN4r4oq40dnkknkMQw7WAA/https/pbs.twimg.com/media/FKy9XgWXwAUVIB4.png%3Alarge
+Twitter
+
+
+[03/02/2022 9:20 PM] Zeydenn#1909
+Hello, i'm working on a NFT/lottery project on Ergo. I'm still looking for an ErgoScript dev :ergonaut: i learned to code in Python and already finished the random generation part but the ErgoScript part is too much for me (originally designer ahah). If you're interested you can contact me, i created a white paper to explain the concept 😁
+
+
+[03/03/2022 12:41 AM] SoCool#6419
+Reach out to ErgoPad regarding it in their discord perhaps, helping get resources to launch ideas is their goal. Starting with a light paper is a good conversation beginning
+
+
+[03/03/2022 8:27 AM] Zeydenn#1909
+ok thanks i will check this !
+
+
+[03/06/2022 8:07 AM] NoahErgo#4349
+Did you apply?
+ 
+
+https://ergopad.io/apply
+
+
+[03/15/2022 1:18 AM] Elemental#9509
+Looking for someone to help me get setup with miningcore (hmu with your price)
+
+
+[03/15/2022 5:20 PM] Marty#4039
+Any expert react devs? We have a VERY detailed UX using all Material UI components as the core, atomic design principals in mind, built in figma. Just looking to give an ergo or ergopad bounty for someone to convert to a nextjs app for us so our dev team can focus on backend and ergoscript.
+
+
+[03/15/2022 7:45 PM] NoahErgo#4349
+@raoufbouky knows react not sure how much knowledge he has tho
+
+
+[03/17/2022 6:28 PM] glasgowm#9381
+https://ergopad.io/careers/3
+
+
+[03/18/2022 2:39 PM] glasgowm#9381 (pinned)
+Submit any payment requests for bounties, competitions, etc here
+
+https://q9fwzopidh8.typeform.com/to/G5gAKC4r
+
+{Embed}
+Typeform
+https://q9fwzopidh8.typeform.com/to/G5gAKC4r
+Payment Request
+Turn data collection into an experience with Typeform. Create beautiful online forms, surveys, quizzes, and so much more. Try it for FREE.
+https://images-ext-2.discordapp.net/external/r-0AD7Bz7LLWlcz0Q2rTt4x0dtMnX7RHD5d6OcGyLcI/https/images.typeform.com/images/FYUps4mFKPYK/image/default
+
+
+[03/18/2022 2:39 PM] glasgowm#9381
+Pinned a message.
+
+
+[03/31/2022 7:16 PM] Galim81#0252
+I am looking for an Ergo Script dev to do some paid consultancy work over the next few weeks. 
+
+What I am looking for is a breakdown of how complicated it will be to create 2 smart contracts and a trading bot. (Time taken to code, cost, complexity etc..) 
+
+Short version of the project is bringing something akin to Olympus pro to Ergo. (Smart contract 1) Smart contract 2 is an evolution of that process that offers more flexibility to projects around building treasury and liquidity. 
+
+I have funding, business development, community, and web development resources in place. Ergo script expertise is the final piece of the puzzle to progress this.  
+
+The information from this consultation will be used to complete the pitch deck and feed into the business plan. The Dev that does the consultancy work will be first refusal to take up the lead dev position on the project and receive a revenue share. 
+
+There will not be a token created for this project. Ever.
+
+
+[05/02/2022 6:17 PM] curbsideprophet#5083
+Reaching out to `Ergonauts` first: Azorus is looking for an extra pair of hands with frontend/backend dev experience. DMs are open if interested for more job details. Here is our whitepaper for some background info: https://github.com/gsblabsio/azorus
+
+
+[06/06/2022 9:17 PM] venoox#1937
+Hello 👋 I'm a web3 frontend developer also learning Solidity and all around interested in the blockchain space. I have half a year experience working at a decentralized exchange and I'm currently looking for jobs or gigs
+
+{Reactions}
+👍 
+
+[06/07/2022 1:43 PM] glasgowm#9381
+I've created r/ErgoJobs so we can track these a bit better. 
+
+https://www.reddit.com/r/ErgoJobs/comments/v6uil7/welcome_to_ergojobs_read_me/?
+
+{Embed}
+https://www.reddit.com/r/ErgoJobs/comments/v6uil7/welcome_to_ergojobs_read_me/?
+r/ErgoJobs - Welcome to ErgoJobs - READ ME
+0 votes and 0 comments so far on Reddit
+
+{Reactions}
+🔥 (2) 
+
+[07/11/2022 7:54 AM] Nico UX-UI#2185
+This is a good idea!
+
+
+[07/11/2022 7:56 AM] Nico UX-UI#2185
+We just are just finishing our work with Paideia and are looking for the next awesome project we can help with! If anyone is looking for any kind of design work reach out!
+
+You can book a free 30' call if you want to through my site! bigpampa.com
+
+
+[07/11/2022 7:56 AM] Nico UX-UI#2185
+🤓
+
+
+[07/17/2022 11:03 AM] ilya | dappstep#9261
+Hi guys! There is a new job bounties. It’s a low hanging fruit really if you understand transactions on ergo.
+
+250ERG
+Feel free to DM me for any question
+
+https://twitter.com/kaching_ergo/status/1547985667308720128?s=21&t=NoNiy-zOWyDfBpDi_W0Xuw
+
+{Embed}
+Ka-Ching - Ergo wallet push notifications (@kaching_ergo)
+https://twitter.com/kaching_ergo/status/1547985667308720128?s=21&t=NoNiy-zOWyDfBpDi_W0Xuw
+Build a custom service on top of KaChing and earn 250 Erg and a reputation of a badass hacker a cross the ecosystem. Your bot will notify Ergo community on the main TG channel (13K people) about Raffle events. Here are the requirements from @mhs_sam . DM me for guidance.
+https://images-ext-2.discordapp.net/external/-BYuJHR9MNGmD2ge4GqsETvyYCwNXed7wPDHpNmVsuk/https/pbs.twimg.com/media/FXuMwRrUsAEo5a0.jpg
+Twitter
+
+
+[07/22/2022 2:33 PM] CarnalCovin#5297
+Hi, I'm looking for an ergo script dev for a custom ergo mobile wallet. It could be based on the current mobile wallet with a few tweeks.
+
+- Looking to eventually integrate Lelantus Spark privacy protocol 
+- Crowdfunding
+- A social media platform.
+
+Please contact me with interest in any part of the project.
+
+
+[07/31/2022 8:02 PM] koutelier#5178
+$COMET TEAM is looking for a dev that will make our lottery smart contract and he will add it in our frontend ( we can help with the frontend work but we are not experts ) 
+
+Bounty 
+500 Sigusd
+
+
+[08/19/2022 7:29 PM] SkAit#3362
+Hi i am looking for a developer who could handle minting for my upcoming project on Ergo. Can pay with deposit/percentage of mint etc.
+Dm for interested
+
+
+[09/18/2022 10:13 PM] cannon#3541
+Looking for dev who can work on smart contract for flux tokens - deposit in, auto withdrawl out few days later plus stated interest.
+
+
+[10/18/2022 10:47 PM] NeoCait#7408
+Looking for someone who can do:
+Token creation
+Setup a NFT “vending machine” that only I can will up.
+PM me if you’re up for it 🙂
+
+
+[11/05/2022 3:58 PM] guru#1559
+@NeoCait are you looking for a dev?
+
+
+[11/05/2022 3:59 PM] guru#1559
+I have been involved in several projects related to Crypto Mixer Service, Ethereum Name Service, Casino Websites, Crypto Trading Bots, NFT marketplace and bridge with solidity and rust languages. 
+I also took part in launching a new parachain using Substrate and configured a new ecosystem consisting of several websites related to explorers and DAO system. 
+I am looking for a new job or a business partner now.
+
+
+[11/17/2022 12:01 PM] Grand Gambit#5886
+I am a frontend dev looking for some community backend dev with a bit of free time to to join me.
+I ve built a simple coinflip game but I am having trouble setting up the backend for it, my idea is to start building a few games and slowly gain community interest and build more and more games until we build kind of a gaming brand in Ergo. If someone is interested hit me up, it will take little to no time for someone with experience to build the initial backend to start seeing some sexy stuff go live!
+
+
+[01/05/2023 3:25 PM] Mojowlekaz#9395
+Hey there
+
+I’m a Blockchain developer I joined your project just in case you need a developer
+
+
+These are my just completed website 
+
+https://web3bet.netlify.app
+
+https://metawork.netlify.app
+
+https://voidfeathers.netlify.app
+
+Please open on your pc
+
+Let me know if you need my service
+
+{Embed}
+https://metawork.netlify.app/
+React App
+Web site created using create-react-app
+
+{Embed}
+https://voidfeathers.netlify.app/
+React App
+Web site created using create-react-app
+
+
+[01/21/2023 2:39 AM] Kill_It_With_Coffee#2653
+Hey @Mojowlekaz I like your work. Do you do strictly frontend or do you do backend work as well?
+
+
+[01/21/2023 2:42 AM] Kill_It_With_Coffee#2653
+@guru you might also be able to help me out sir, shoot me a friend request or dm if you'd like
+
+
+[01/28/2023 5:22 PM] Chris Ray#2713
+Exle is putting up a 1500 SigUSD bounty for a front end developer to add support for nautilus, please respond in ErgoLend channel if interested https://discord.com/channels/668903786361651200/889157122300981268
+
+
+[02/27/2023 2:32 AM] soysor#6001
+Hey, I'm looking to move into crypto/blockchain tech fulltime. Any reputable projects please feel free to reach out.
+
+Some background:
+
+- 12 years software engineering experience
+- Fullstack experience: React/Vue frontends, backends/cli tooling: TypeScript/JS, Python, Golang, Java, C#, WASM
+- Not professionally but have worked on large C/C++ & Rust codebases, very comfortable in all.
+- DevOps/infra: Currently working as a software engineer in cloud systems for one of AWS' biggest customers in the world, heap of infrastructure experience including CI/CD and on-call rotations relating to AWS
+
+Ergo knowledge:
+- Heap of contributions to `sigma-rust`
+- Helping greenhat re-work the WASM sigma-rust bindings: https://github.com/ergoplatform/ergo-lib-wasm
+- Currently working on my own node implementation so growing level of knowledge on the ergo protocol: https://github.com/ross-weir/ergode
+
+Thank you
+
+
+[03/01/2023 3:44 AM] Turtle Girl#4830
+Hi everyone I'm looking for marketing manager for NFT project dm me if you are interested
+
+
+[03/03/2023 11:42 AM] wombo22#5461
+https://discord.com/channels/668903786361651200/852478885744345118/1081061499730145351
+
+
+[03/03/2023 11:42 AM] wombo22#5461
+Js \front end help needed ^
+
+
+[03/04/2023 12:09 AM] Setvin#2532
+I posted this before, I dont have funds but the open source version of the ergo miner could use updating and maintaince. It would be a labor of love but it should be the sort of thing blockchain is built off of.
+
+
+[03/04/2023 12:09 AM] Setvin#2532
+Close sourced miners is against the principles of decentralization
+
+
+[03/04/2023 1:24 AM] deathgripson#2395
+wym "the ergo miner" ? there are a lot of mining applications that implement Autolykos2
+
+
+[03/17/2023 7:41 AM] hq3r#5569
+@Wolf9466
+
+
+[04/02/2023 1:16 AM] I&U#1000
+Started a thread.
+
+
+[04/02/2023 1:19 AM] I&U#1000
+Hi 🖐️ 
+As senior full stack dev, now I am looking for new job....
+And Have a good weekend...
+
+
+[04/08/2023 2:01 PM] Setvin#2532
+Welcome, there may be some work available.
+
+{Reactions}
+❤️ 
+
+[04/08/2023 2:01 PM] Setvin#2532
+@Gazza_SP u need some help
+
+
+[04/08/2023 3:07 PM] wombo22#5461
+.newdev
+
+
+[04/08/2023 3:07 PM] sigmabot#9505
+If you are a developer new to the Ergo ecosystem, these links may be useful:
+	
+	- Documentation: <https://docs.ergoplatform.com/dev/start/>
+	- Ergo Appkit: <https://github.com/ergoplatform/ergo-appkit>
+	- Fleet: <https://fleet-sdk.github.io/docs/>
+	- DeCo Education: <https://www.youtube.com/@decoeducation9394>
+	- Ergohack: <https://ergohack.io/>
+
+To access the Development channel in Discord, go to channels in the side bar. Click Channels & Roles (near the top). Then, select Start Developing.
+
+
+[04/09/2023 12:08 PM] glasgowm#9381
+https://twitter.com/Ergonaut2025/status/1644956642595991557
+
+{Embed}
+Ergonaut (@Ergonaut2025)
+https://twitter.com/Ergonaut2025/status/1644956642595991557
+I have an ErgoScript job offer. 
+
+$1000 SigmaUSD to program @HEXcrypto on Ergo. 
+
+This is a serious offer.
+Twitter
+
+
+[04/09/2023 5:16 PM] blackinsecure#3693
+40% APY?
+
+
+[04/09/2023 5:16 PM] blackinsecure#3693
+https://tenor.com/view/scam-alert-alarm-siren-gif-16909334
+
+{Embed}
+https://tenor.com/view/scam-alert-alarm-siren-gif-16909334
+https://images-ext-2.discordapp.net/external/LrG0bScJZHkRqQJDEHiNZ_QOYustuLsmw1o2JIF4nVw/https/media.tenor.com/5JnY52wQQK4AAAAD/scam-alert-alarm.png
+
+{Reactions}
+✅ 
+
+[04/18/2023 7:00 PM] NGU#1404
+:alarm:  **Specialized Full Stack Developer is here!!** :alarm:
+
+👊   **Perfect results** within the deadline
+👊   Rich experience of **website building** from scratch.
+👊   Creative **eyes** and idea
+
+✅  Skill set 
+
+🔹  Blockchain, Ethereum, Smart Contract, Solidity, Web3
+🔹 Angular, ReactJS, React Native, Flutter,Vue
+🔹 NodeJS, Express, Laravel, Django
+🔹 SQL(MySQL,), NoSQL(MongoDB, CouchDB), Firebase
+🔹 HTML5, CSS, Sass/Less, Bootstrap
+🔹 PHP, Javascript, jQuery, DHTMLX, Typescript, D3.js, Socket.IO, Three.js
+🔹Laravel, CI, Think PHP
+🔹 Webpack, Gulp, Babel
+🔹 UI/UX, Responsive Web Design
+
+If you have any projects, please let me know.
+Thank you
+
+
+[04/18/2023 8:00 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880827367868743730/1097959894528827493/image0.gif
+
+{Reactions}
+lmao (4) 
+
+[04/23/2023 11:43 PM] wombo22#5461
+https://discord.com/channels/668903786361651200/669989266478202917/1099756053681418301
+
+
+[04/23/2023 11:44 PM] wombo22#5461
+^ front-end heavy full stack dev looking to help anyone
+
+
+[04/26/2023 11:57 AM] !passion!#0000
+```Full Stack Blockchain Developer - Available for Hire (Remote, Full Time)```
+
+Hello,
+
+I am a Senior Blockchain & Full Stack Developer with over 6 years of rich experience in the industry. I am currently available for full-time remote work and can contribute to your projects anytime, anywhere.
+
+` Skills & Expertise`
+
+#### Blockchain Development
+- Smart Contract Development/Audit
+- Solidity, Hardhat, Truffle, Ethereum, BSC, Polygon
+- Rust, Anchor, Solana, NEAR, Terra
+- Cosmos SDK, Cosmwasm
+- Web3.js, Ethers.js, Moralis
+- DApps, DEX, DeFi, DAO, NFT marketplace
+
+#### Front-End Development
+- JavaScript, TypeScript
+- React, Next.js, Redux, Gatsby
+- Vue.js, Nuxt.js, Vuetify, Vuex, Quasar
+- AngularJS, Angular Materials
+- CSS 3, Bootstrap, TailWind CSS
+- Material UI, Styled-Component
+
+#### Back-End Development
+- Node.js, NestJS, ExpressJS, GoLang
+- PHP, Laravel
+- Python, Django, Flask
+- MongoDB, MySQL, Firebase, PostgreSQL
+- GraphQL, Apollo, Websocket, RESTful API
+
+`Availability & Commitment`
+
+As an individual freelancer without any ongoing projects, I am available to work full-time and at any time required. My career goal is to continuously learn and grow my skills from a technical standpoint while acquiring new skills over time.
+
+`Contact & Further Information`
+
+Please feel free to reach out if you are interested in building something together or require more information about my experience. I look forward to connecting with you and discussing how I can contribute to the success of your project.
+
+Thank you for considering my proposal.
+
+Best regards,
+
+
+[04/26/2023 11:57 AM] glasgowm#9381
+.newdev
+
+
+[04/26/2023 11:57 AM] sigmabot#9505
+If you are a developer new to the Ergo ecosystem, these links may be useful:
+	
+	- Documentation: <https://docs.ergoplatform.com/dev/start/>
+	- Ergo Appkit: <https://github.com/ergoplatform/ergo-appkit>
+	- Fleet: <https://fleet-sdk.github.io/docs/>
+	- DeCo Education: <https://www.youtube.com/@decoeducation9394>
+	- Ergohack: <https://ergohack.io/>
+
+To access the Development channel in Discord, go to channels in the side bar. Click Channels & Roles (near the top). Then, select Start Developing.
+
+
+[04/28/2023 10:34 PM] kii#8888
+Can update that with this too:
+https://deco-education.github.io/deco-docs/docs/category/into-the-woods
+
+{Embed}
+https://deco-education.github.io/deco-docs/docs/category/into-the-woods
+Into the Woods | DeCo Education
+Let's start our exploration!
+
+
+[04/28/2023 10:43 PM] cafebedouin#9837
+I'll add next time I'm in that repo.
+
+{Reactions}
+🤝 (2) 
+
+==============================================================
+Exported 165 message(s)
+==============================================================

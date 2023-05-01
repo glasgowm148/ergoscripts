@@ -1,0 +1,6 @@
+https://api.tokenjay.app/peers/list?unreachable=false&limit=50
+https://api.tokenjay.app/peers/list*)
+https://api.tokenjay.app/peers/list
+https://api.tokenjay.app
+https://api.tokenjay.app/peers/list?unreachable=false&limit=50*)
+https://api.tokenjay.app/ageusd/info

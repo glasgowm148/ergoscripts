@@ -1,0 +1,545 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / 🗣│eips
+Topic: Channel to discuss Ergo Improvement Proposals
+
+https://github.com/ergoplatform/eips
+==============================================================
+
+[03/22/2022 2:00 PM] glasgowm#9381
+New channel, for discussions around EIPs
+
+Currently, we need discussions around how best to prevent spam/scams from flooding the ecosystem
+
+@MrStahlfelge has started EIP-0021
+https://github.com/ergoplatform/eips/blob/master/eip-0021.md
+
+@Armeanio opened this issue yesterday after confusion/fear on ergodex custom pool launch
+https://github.com/ergolabs/ergo-dex-asset-icons/issues/3
+
+Question is - who is the authority on 'verifying' tokens or deeming them suspicious/blocked.
+
+{Embed}
+https://github.com/ergoplatform/eips/blob/master/eip-0021.md
+eips/eip-0021.md at master · ergoplatform/eips
+Ergo Improvement Proposals. Contribute to ergoplatform/eips development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/GIpPdV7xLpaXYYQ68KSCOhi2PQHIFHUiCFdPQUqzfYE/https/opengraph.githubassets.com/256b430151b6eabf5a4ee217b72202de5523d5cbcaa0930f2ff99843afa5419b/ergoplatform/eips
+
+{Embed}
+https://github.com/ergolabs/ergo-dex-asset-icons/issues/3
+Long Term Plan for Scam Tokens · Issue #3 · ergolabs/ergo-dex-asset...
+The hardest part of a decentralized dex is fake tokens. The easiest way to identify that for users will be visual through perhaps a logo and a popup warning that they are going to interact with som...
+https://images-ext-1.discordapp.net/external/ZMNdCKY8GM7E9rbcF0JN-D_1MomTPuYk0n69FX799as/https/opengraph.githubassets.com/288385e33f232df6cce0d2fb8bd47283a06c7061bb03ac55c5e6597b18894d1e/ergolabs/ergo-dex-asset-icons/issues/3
+
+
+[03/29/2022 7:18 PM] borggren4#2511
+Do we have ETA on EIP 27?
+
+
+[04/10/2022 3:34 AM] DreamsMoney#1427
+@here Anyone know where I can get info on EIP27?
+
+
+[04/14/2022 2:18 PM] glasgowm#9381
+https://www.reddit.com/r/ergonauts/comments/u072yc/eip27/i46j1l8/
+
+{Attachments}
+https://cdn.discordapp.com/attachments/955492522480779274/964152668304072764/unknown.png
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/u072yc/eip27/i46j1l8/
+r/ergonauts - Comment by u/sigmanaut_ on ”EIP-27”
+44 votes and 14 comments so far on Reddit
+
+{Reactions}
+ergo_black 
+
+[04/18/2022 9:18 AM] AggerGakker#4449
+I hear some rumblings in the mining community about the difficulty adjustment mechanism. What would it take to change the adjustment from 8 epochs to 1 epoch. Ideally it would be cool if difficulty adjusted every block but i guess reducing it to 1 would be the easiest to implement?
+
+{Reactions}
+👍 (2) 
+
+[04/27/2022 5:26 PM] glasgowm#9381
+https://docs.ergoplatform.com/dev/protocol/autolykos/#difficulty-adjustment
+
+https://www.reddit.com/r/ergonauts/comments/u473pp/surprise_reddit_ama/i4u1mb0/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/u473pp/surprise_reddit_ama/i4u1mb0/
+r/ergonauts - Comment by u/kushti on ”(Surprise) Reddit AMA.”
+121 votes and 150 comments so far on Reddit
+
+
+[04/27/2022 5:52 PM] AggerGakker#4449
+What is implied by "adversarial hopping"?
+
+
+[04/27/2022 6:09 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/955492522480779274/968921759552258149/unknown.png
+
+{Reactions}
+ergo_orange 
+
+[04/29/2022 3:50 AM] DreamsMoney#1427
+I'm glad more people are aware of that ^
+
+
+[04/29/2022 3:51 AM] DreamsMoney#1427
+Does anyone know what block rewards are with EIP27 in testnet? - it doesn't seem to be constant AND it's very low.
+
+
+[05/04/2022 10:24 AM] glasgowm#9381
+https://www.ergoforum.org/t/eip-27-mainnet-activation-voting-and-final-details/3585
+
+{Embed}
+https://www.ergoforum.org/t/eip-27-mainnet-activation-voting-and-final-details/3585
+EIP-27 Mainnet Activation Voting and Final Details
+After successful testnet activation of EIP-27 ( discussed at Emission Soft-Fork Proposal , and before at Ergo Emission: details, retargeting via a soft-fork ), which was done with the help of few miners, now mainnet setup is done.  Full details can be found in text of the upcoming EIP: EIP-0027: Emission Soft-Fork by kushti · Pull Request #52 · ...
+
+{Reactions}
+ergo_orange 
+
+[05/06/2022 12:38 AM] IFTTT#6211
+RT @sigmanaut: 🔔G'day #Ergonauts, Here is a quick update video on #Ergo's EIP-27 Emission Soft Fork proposal. Cheers! 📽️👉https://t.co/SJGclWLgBl https://t.co/w2r351XMHd
+
+via /r/ergonauts
+
+{Embed}
+RT @sigmanaut: G'day #Ergonauts Here is a quick update video on #Ergo's EIP-27 Emission Soft Fork proposal. Cheers! https://t.co/SJGclWLgBl https://t.co/w2r351XMHd
+RT @sigmanaut: 🔔G'day #Ergonauts, Here is a quick update video on #Ergo's EIP-27 Emission Soft Fork proposal. Cheers! 📽️👉https://t.co/SJGclWLgBl https://t.co/w2r351XMHd
+
+via /r/ergonauts
+https://images-ext-2.discordapp.net/external/g0nDScJTKGzuSnERpXFpdNeO1ydRwI0NT8V-5XhYYC4/https/i.ytimg.com/vi/3EBXpwiprEQ/maxresdefault.jpg
+RT @sigmanaut: 🔔G'day #Ergonauts, Here is a quick update video on #Ergo's EIP-27 Emission Soft Fork proposal. Cheers! 📽️👉https://t.co/SJGclWLgBl https://t.co/w2r351XMHd via /r/ergonauts https://ift.tt/ORfzFAU
+
+
+[05/07/2022 1:40 AM] nitram147#5106
+Could I reserve EIP-0032 ID for my upcoming EIP (it's already in the "beta" - I will make a few grammar correction and it's ready to be posted)
+
+
+[05/07/2022 1:40 AM] nitram147#5106
+Thanks 🙂
+
+
+[05/10/2022 7:29 AM] Luivatra#9076
+Any thoughts on https://github.com/ergoplatform/eips/pull/65
+@capt_nemo @MrStahlfelge please way in on what could be useful information in R8/R9
+
+{Embed}
+https://github.com/ergoplatform/eips/pull/65
+add utility asset type by Luivatra · Pull Request #65 · ergoplatfor...
+Will allow for wallets and dapps to filter utility tokens and nft to make it easier for the user to keep an overview.
+https://images-ext-1.discordapp.net/external/5pMpeRo-ms5Z-Xf1i1Fuy7yXgf6ylD3FcXsIUuCddCw/https/opengraph.githubassets.com/131b2249af9c7ab466771d9dac928b1c20abbf8a52b3b3386d338fb314113422/ergoplatform/eips/pull/65
+
+{Reactions}
+❤️ 
+
+[05/10/2022 9:01 AM] MrStahlfelge#0042
+would be great to use EIP-29 in R9. this way, different formats could be use there and existing code to parse the register be reused
+
+
+[05/10/2022 6:18 PM] nitram147#5106
+> cool, thanks. we should move to 🗣│eips  and ❓│dev-support . for the encryption, someone else than me should check if this introduces any security issues. I like the idea of using the actual secret a lot, but I can't judge if this leaks any information of the secret which would be a major issue. so best is to start a discussion in 🗣│eips
+@MrStahlfelge  of course I would like to hear a feedback from others and see somebody reviews the proposed cryptography. I'm assuming that you probably don't have a cryptography background so just a little explanation of the properties:
+
+
+[05/10/2022 6:18 PM] nitram147#5106
+The operation my EIP use for the calculation of the ``shared_secret`` is literally same operation as the operation for the derivation of public key from the private key. The operation (ECC point multiplication) is irreversible thus safe (assuming that the finding of discrete logarithm over the eliptic curve group is a hard operation). If somebody will be able to easily deduce private key from the ``shared_secret`` it would mean that with his special algorithm he would be also capable of finding a private key to any public key (any ergo P2PK) address. To the part that when somebody knows the ``encryption_key`` for one message, he isn't able to decrypt any other past or future messages, this is simply the implication of preimage resistance property of the Blake2b256 hash function.
+
+
+[05/10/2022 6:18 PM] nitram147#5106
+🙂
+
+
+[05/10/2022 6:27 PM] MrStahlfelge#0042
+You are right I don't have cryptography background so I have to let others review that part of the eip
+
+{Reactions}
+👍 
+
+[05/11/2022 9:00 PM] capt_nemo#3204
+Hey, shared some thoughts in the PR )
+
+https://github.com/ergoplatform/eips/pull/65#issuecomment-1124232701
+
+{Reactions}
+👍 (2) 
+
+[05/22/2022 2:13 PM] IFTTT#6211
+Dev Update May 22 2022 | EIP-27, sigUSD, Node 5.0, TokenJay, and more!
+
+via /r/ergonauts
+
+{Embed}
+Dev Update May 22 2022 | EIP-27 sigUSD Node 5.0 TokenJay and more!
+Dev Update May 22 2022 | EIP-27, sigUSD, Node 5.0, TokenJay, and more!
+
+via /r/ergonauts
+https://images-ext-1.discordapp.net/external/BZpV9UAxn9dLn1fPGalNVOVM8ZsqrvthBhjx8UgbSzY/https/i.ytimg.com/vi/X631NKHw7oc/hqdefault.jpg
+Dev Update May 22 2022 | EIP-27, sigUSD, Node 5.0, TokenJay, and more! via /r/ergonauts https://ift.tt/HAxEQuo
+
+{Reactions}
+goodBOYE (2) 
+
+[05/25/2022 2:13 PM] IFTTT#6211
+EIP-27 locked in: Votes for EIP-27 collected: 949 , height: 756736 (~92.67%)
+
+via /r/ergonauts
+
+
+[05/29/2022 9:43 PM] IFTTT#6211
+Dev Update May 29 2022 | SigmaValley Rentals, Oracle Pools 2.0, Swamp Audio, EIP-27 and more!
+
+via /r/ergonauts
+
+{Embed}
+Dev Update May 29 2022 | SigmaValley Rentals Oracle Pools 2.0 Swamp Audio EIP-27 and more!
+Dev Update May 29 2022 | SigmaValley Rentals, Oracle Pools 2.0, Swamp Audio, EIP-27 and more!
+
+via /r/ergonauts
+https://images-ext-2.discordapp.net/external/sPEjxPKilx07XefI9V0l939vQwwMFbmA-xhBxev3bdQ/https/i.ytimg.com/vi/5bhlaprXqYc/maxresdefault.jpg
+Dev Update May 29 2022 | SigmaValley Rentals, Oracle Pools 2.0, Swamp Audio, EIP-27 and more! via /r/ergonauts https://ift.tt/ZngGtIv
+
+
+[06/03/2022 5:07 AM] Krasavice Blasen#4574
+Hey there, who should I reach out to for adding 3d models to EIP 0004- Assets standard?
+I would propose the following structure:
+R7: 0e020104 (04 for 3d models)
+R8: Hash of 3d model file
+R9(optional): (3d model link, cover image link) - similar to audio files 3d models should have cover images
+
+
+[06/03/2022 8:33 AM] MrStahlfelge#0042
+you reach out by doing a PR on the eip repository 🙂
+and then link here and in development chat / weekly for discussion requests. always good to ping others as well as there are already some change proposals for eip4
+
+
+[06/03/2022 8:35 AM] MrStahlfelge#0042
+that said, I would change r9 to use the attachments format we have in eip-29. it was not present when eip4 was made, but new additions should use it to make implementations easier.
+and maybe we should simply introduce the mime file type classifier so that we don't need to change eip4 for every file type out there?
+
+
+[06/03/2022 9:10 AM] Krasavice Blasen#4574
+Ah yeah sure, will do. Although I don't see any PR's directly relating to eip4 currently so not sure who would currently be involved in the discussion.
+
+
+[06/03/2022 9:10 AM] MrStahlfelge#0042
+https://github.com/ergoplatform/eips/pull/67
+
+{Embed}
+https://github.com/ergoplatform/eips/pull/67
+Introduce 'Asset Pack' NFT type by nn-dmt · Pull Request #67 · ergo...
+Add new token type for "Asset Pack" which is proposed to be superscript language (YAML) referencing the ownership of other NFT objects in a hierarchy/pack.
+Allows for native organization ...
+https://images-ext-1.discordapp.net/external/ZjuDWbkX-Lr2pmMnvAZ0277F91jn8vSe8rK6ilmlcvE/https/opengraph.githubassets.com/0869605c715f05fd8f681013b4d9c0e807007d669e829f0cfda1cd321ec26033/ergoplatform/eips/pull/67
+
+
+[06/03/2022 9:11 AM] MrStahlfelge#0042
+https://github.com/ergoplatform/eips/pull/65
+
+{Embed}
+https://github.com/ergoplatform/eips/pull/65
+add utility asset type by Luivatra · Pull Request #65 · ergoplatfor...
+Will allow for wallets and dapps to filter utility tokens and nft to make it easier for the user to keep an overview.
+https://images-ext-1.discordapp.net/external/PneLrZ-di9YRFmptcFmUJJtkOC4Z2vhjpx4gRdrPTys/https/opengraph.githubassets.com/44f836145f913f8098eed4c6c63a955ea4ab83f9229aaab4ad4b0c07011b1526/ergoplatform/eips/pull/65
+
+
+[06/03/2022 9:12 AM] Krasavice Blasen#4574
+Ah yes perfect, thanks
+
+
+[06/03/2022 9:15 AM] Krasavice Blasen#4574
+Yeah using mime types sounds like a good way of avoiding needing a change for every new file type! 
+EIP29 sounds like a needed addition too
+
+
+[06/03/2022 9:17 AM] MrStahlfelge#0042
+yeah eip-29 makes the stuff with covers etc easier because of its recursive apprach
+
+
+[06/03/2022 8:17 PM] scalahub#2618
+https://github.com/ergoplatform/eips/blob/eip33/eip-0033.md
+Please give your feedback on this EIP for token burning during rent collection 
+cc @kushti @morphic @greenhat
+
+{Embed}
+https://github.com/ergoplatform/eips/blob/eip33/eip-0033.md
+eips/eip-0033.md at eip33 · ergoplatform/eips
+Ergo Improvement Proposals. Contribute to ergoplatform/eips development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/gQ1lbND6AVpDBHXDYgw0fOmUatdZFbab6dOWahF6zwU/https/opengraph.githubassets.com/4295245143dbcb1b09ea611a454c0dda61f38a8bf455bfdd74eb52b24f0ebbd1/ergoplatform/eips
+
+
+[06/03/2022 8:40 PM] nitram147#5106
+Thanks for your post, idea looks great 🙂
+
+
+[06/03/2022 8:42 PM] nitram147#5106
+Btw in https://www.ergoforum.org/t/a-trustless-timestamping-service-for-boxes/432 you've mentioned that the `creationInfo._1` contains only the "expected height". Does it mean that when the actual inclusion height of some transaction containing box B will be for example "800000", box B can contain for example "5" in it's `B.creationInfo._1`? 🤔
+
+{Embed}
+https://www.ergoforum.org/t/a-trustless-timestamping-service-for-boxes/432
+A trustless timestamping service for boxes
+The following post describes a trustless timestamping service.  Motivation:  The Ergo protocol currently has “expected height” as an integer field in R3 (accessed as creationInfo._1), which must be less than or equal to the actual height at which the box was created.  It is important for smart contract developers to realize that this value in R3...
+
+
+[06/03/2022 8:44 PM] nitram147#5106
+I was mistakenly assuming that the `creationInfo._1 ` would contain the actual inclusion height. Thank for enlightening me about this bad assumption 🙂
+
+{Reactions}
+💯 
+
+[06/04/2022 8:22 PM] scalahub#2618
+yes you are correct. It need not be the height at which the tx was mined.. The creation height is inserted by the spender, and can be anything as long as it is below or same as the actual height. . There is already an issue on Github discussing this https://github.com/ergoplatform/ergo/issues/1214
+
+{Embed}
+https://github.com/ergoplatform/ergo/issues/1214
+Add inclusion height to ErgoTree · Issue #1214 · ergoplatform/ergo
+AFAIK, the current context of ErgoTree does not contain &quot;inclusion height&quot; of a box (i.e., the height at which the box was mined/created). This is quite useful in contracts, for e...
+https://images-ext-1.discordapp.net/external/sWZUA0H3PPmLazMisOr_rAwedHxMxEX01KV2yP76TNg/https/opengraph.githubassets.com/726d41d817b6a57d80117b2cf129d5b3029db4176fbf2cf6bb1341fb78cee457/ergoplatform/ergo/issues/1214
+
+
+[06/05/2022 5:55 PM] morphic#4133
+Good idea, approved the PR
+
+
+[06/05/2022 7:40 PM] Cheese Enthusiast#0548
+This removes a potential path for miner profitability when claiming low value utxos for storage rent. It also ensures that valuable tokens left in dead addresses are unable to reap some of the benefits of Ergo's storage rent mechanism. Is there anyway to reconcile these problems with this EIP?
+
+
+[06/07/2022 1:31 PM] glasgowm#9381
+I don't think burning value is wise/efficient. Could it be placed in a box only redeemable by an address generated by the same private key? Or in a DAO who could opt to burn any tokens which pose a security risk before it was passed back to the miners.
+
+
+[06/07/2022 2:21 PM] nitram147#5106
+@Cheese Enthusiast @glasgowm Simplest solution (however not applicable right now) would be to indicate via token standard whether is this token some "security" token or not, if so, then it MUST be burned when garbage collecting boxes... However in order to make this approach to working it would be needed to enforce this behavior via consensus rules which would imply need for chain forking - and it also did not solve the problem with already existing tokens.
+
+
+[06/07/2022 2:23 PM] glasgowm#9381
+Why would it need to be consensus vs a DAO?
+
+
+[06/07/2022 2:31 PM] nitram147#5106
+If it's enforced via consensus rules it's guaranteed to hold true, in case of DAO the solution isn't 100% trustless - nobody can be sure that DAO voting isn't composed of actors with bad incetives
+
+
+[06/07/2022 3:06 PM] glasgowm#9381
+Not sure it needs that level of trust, but you could make the voting token ERG with some added function to reduce whale-powers and/or tokens with known risks be burned individually via SFs.
+
+
+[06/14/2022 6:06 AM] Krasavice Blasen#4574
+After wanting to add 3d models to the asset standard, I instead worked with @MrStahlfelge to add file attachments as an asset type for NFTs in eip4. 
+If approved, Ergo NFTs could support any arbitrary collection of file attachments.
+Encourage anyone to review 🙂
+https://github.com/ergoplatform/eips/pull/72
+
+{Embed}
+https://github.com/ergoplatform/eips/pull/72
+EIP4 - NFT File Attachment Asset Type by KrasaviceBlasen · Pull Req...
+Adding NFT File Attachments to eip4 asset types.
+File Attachments can be used to attach an arbitrary collection of files to an NFT.
+Benefits of this eip:
+
+Every new file format can use NFT file att...
+https://images-ext-2.discordapp.net/external/UP6t2I4275g5zB6VpuDqzYJqbDx9dXuyFgsXnEjxd0M/https/opengraph.githubassets.com/d0ff037bf613055c75c4868b8e4d89430305f601a240d3169d9d976068d97f0a/ergoplatform/eips/pull/72
+
+{Reactions}
+👍 evo2 
+
+[08/11/2022 5:59 PM] koutelier#5178
+@anon_real 
+
+https://api.ergoplatform.com/api/v1/tokens/3f9b638f44dd5c7ec2fa17e0392edac4df41264fd5ae9d19a9547157337b047a
+
+
+[08/11/2022 5:59 PM] koutelier#5178
+minted in AH with a greek letter in the name area. i think eip doesn't handle greek letters ?
+
+
+[08/13/2022 12:49 PM] MrStahlfelge#0042
+eip supports full unicode charset, proof -> https://explorer.ergoplatform.com/en/token/a3b3fa62124ef52209a46121e3f93ca98d7fc24198009e90fde8205ef9d3fc33
+
+
+[08/13/2022 12:52 PM] koutelier#5178
+Hmm then something else broke the procedure
+
+
+[08/13/2022 12:52 PM] MrStahlfelge#0042
+probably bug in auction house
+
+
+[08/13/2022 12:53 PM] koutelier#5178
+I think not . Because ergonation second event nfts have the same
+
+
+[08/13/2022 12:53 PM] koutelier#5178
+We mint the nfts like that
+
+
+[08/13/2022 12:54 PM] koutelier#5178
+1. Connect address A to auction house (without dapp connector).
+2. Create artwork.
+3. Send the payment using address B.
+4. The NFT is now minted in address A.
+5. Put it up for auction.
+6. Buy the NFT with address C.
+
+
+[08/13/2022 12:54 PM] MrStahlfelge#0042
+did you check the minting box registers?
+
+
+[08/13/2022 12:56 PM] koutelier#5178
+e4968c800d822acb3dc59dcba50d376595abcd4e8cf32773d844c27d25fbd591
+
+
+[08/13/2022 12:56 PM] koutelier#5178
+token id from second collection of ergonations
+
+
+[08/13/2022 12:56 PM] koutelier#5178
+no sir
+
+
+[09/23/2022 7:13 PM] IFTTT#6211
+ERGO EIP-37
+
+via /r/ergonauts
+
+{Embed}
+ERGO EIP-37
+ERGO EIP-37
+
+via /r/ergonauts
+https://images-ext-2.discordapp.net/external/Py9xiwOcsoV8S_QAYTWBPl6e1W8C96PMxpMeya7Wlq8/https/i.ytimg.com/vi/n0DC3_NBfuw/hqdefault.jpg
+ERGO EIP-37 via /r/ergonauts https://ift.tt/Rl5GrBF
+
+
+[09/24/2022 5:28 AM] IFTTT#6211
+EIP-37: Tweaking Difficulty Adjustment Algorithm by kushti · Pull Request #79 · ergoplatform/eips
+
+via /r/ergonauts
+
+{Embed}
+EIP-37: Tweaking Difficulty Adjustment Algorithm by kushti  Pull Request #79  ergoplatform/eips
+EIP-37: Tweaking Difficulty Adjustment Algorithm by kushti · Pull Request #79 · ergoplatform/eips
+
+via /r/ergonauts
+https://images-ext-1.discordapp.net/external/F87sGcz-KyZbI5GsNXtdzE9zcyG9tiJE_XyNiRB11iY/%3Fs%3D400%26amp%3Bv%3D4/https/avatars.githubusercontent.com/u/1972441
+EIP-37: Tweaking Difficulty Adjustment Algorithm by kushti · Pull Request #79 · ergoplatform/eips via /r/ergonauts https://ift.tt/REmN2sY
+
+
+[09/24/2022 5:30 AM] blackinsecure#3693
+will simulations be shared too?
+
+
+[09/24/2022 9:45 PM] Will386#8725
+I’m curious if Ergo goes through a hard fork, what would happen to the old chain? Would it continue to be supported like bitcoin cash and ethereum classic (I guess etc could be a bad example)? Since there are so few exchanges currently, is it expected they would all migrate quickly and stop trading for the old chain?
+
+
+[09/24/2022 9:46 PM] Will386#8725
+Sorry if that’s a dumb question 😅
+
+
+[09/24/2022 11:00 PM] WilfordGrimley#0124
+It's a good question.
+
+It hasn't happened yet, but it could happen if miners desired it. Avoiding it is advantageous.
+
+{Reactions}
+👍 (3) 
+
+[09/25/2022 2:42 PM] glasgowm#9381
+https://curiaregiscrypto.medium.com/eip-37-update-5a4b7c289381
+
+{Embed}
+https://curiaregiscrypto.medium.com/eip-37-update-5a4b7c289381
+EIP-37 Update
+Due to community demand we have been grinding away for the last week to create a proposal complete with simulations/data.
+https://images-ext-1.discordapp.net/external/1FoBIFkdldj3mDutl215o7i_5wjNg7RJyJJQCx05h4w/https/miro.medium.com/max/1200/1%2A7vR2UH8L3jgoDmA44RXNsQ.jpeg
+
+
+[09/25/2022 2:42 PM] glasgowm#9381
+https://github.com/ergoplatform/eips/blob/eip37/eip-0037.md
+
+{Embed}
+https://github.com/ergoplatform/eips/blob/eip37/eip-0037.md
+eips/eip-0037.md at eip37 · ergoplatform/eips
+Ergo Improvement Proposals. Contribute to ergoplatform/eips development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/3mGOjNdestZnNKcI02WqtZGj-X2Ugm-bewG3Ql0pLkk/https/opengraph.githubassets.com/0d327ef861f83c29d96d1828acfddba96d1bf61cba218ce338a6af968f56de25/ergoplatform/eips
+
+{Reactions}
+👍 
+
+[09/28/2022 11:28 PM] IFTTT#6211
+Flypool added to those in favor of EIP-37
+
+via /r/ergonauts
+
+{Embed}
+Flypool added to those in favor of EIP-37
+Flypool added to those in favor of EIP-37
+
+via /r/ergonauts
+https://images-ext-1.discordapp.net/external/TJBxc3ob0onydfLcXtir3TdDz1XasXIGlP4cXpRdlHw/https/i.redd.it/bo88noyfcoq91.png
+Flypool added to those in favor of EIP-37 via /r/ergonauts https://ift.tt/5cpysYG
+
+
+[09/29/2022 4:13 PM] glasgowm#9381
+https://youtu.be/UIvCHM7UxmQ
+
+{Embed}
+The Hobbyist Miner
+https://www.youtube.com/watch?v=UIvCHM7UxmQ
+When will ERGO be Profitable Again? What GPU Miners NEED to Know ab...
+In today's video we sit down with Joseph Armeanio to discuss what is coming for the Crypto Mining Scene for GPU Mining. Since the last time we spoke the Ergo Difficulty has dropped and same with Hashrate, but is it enough to aid in Ergo's Profit for GPU Miners.  The community of CryptoMiners have proposed ERGO EIP-37.  What does this mean for GP...
+https://images-ext-2.discordapp.net/external/rmaUIp4INl4wr0pTTxGDhH83EvsxyrGNd0twkA-pW-Q/https/i.ytimg.com/vi/UIvCHM7UxmQ/maxresdefault.jpg
+
+
+[10/02/2022 8:15 AM] TypoDaPsycho#6307
+it is now being updated 
+I am updating to 4.0.103
+And removed the vote {} section
+is that all that is needed? 
+Do I still need this section for 4.0.103 version `wallet {
+    checkEIP27 = true
+  }
+` 
+
+That's the question from Leafpool if anyone can help answer. I told them to leave the EIP27 section unchanged please correct me if I'm wrong .
+
+
+[10/09/2022 12:08 AM] IFTTT#6211
+EIP: Democratic Governance - Users, Devs & Miners
+
+via /r/ergonauts
+
+{Embed}
+EIP: Democratic Governance - Users Devs &amp; Miners
+EIP: Democratic Governance - Users, Devs & Miners
+
+via /r/ergonauts
+https://images-ext-2.discordapp.net/external/0T-ciiI89r6MZasvnvzXFs-o7mutSbWRuj2S95rO8Yg/https/ifttt.com/images/no_image_card.png
+EIP: Democratic Governance - Users, Devs &amp; Miners via /r/ergonauts https://ift.tt/QIoeFgh
+
+
+[10/16/2022 5:33 PM] IFTTT#6211
+eip-038 Partial Voting - A Hackathon Entrant
+
+via /r/ergonauts
+
+{Embed}
+eip-038 Partial Voting - A Hackathon Entrant
+eip-038 Partial Voting - A Hackathon Entrant
+
+via /r/ergonauts
+https://images-ext-2.discordapp.net/external/0T-ciiI89r6MZasvnvzXFs-o7mutSbWRuj2S95rO8Yg/https/ifttt.com/images/no_image_card.png
+eip-038 Partial Voting - A Hackathon Entrant via /r/ergonauts https://ift.tt/WXR2Lni
+
+
+==============================================================
+Exported 71 message(s)
+==============================================================

@@ -1,0 +1,34 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Infra 〙☰ / ergcube
+==============================================================
+
+[03/17/2023 7:44 AM] hq3r#5569
+Good morning guys, right now there Is only 5 top mining pool and there hashrate  section on index , wondering if creating  a bit More detailed "last blocks,totalminers, luck" Is complicating to much or would be good feature...people normally use miningpoolstats and it works fine...
+
+
+[04/28/2023 7:10 PM] wombo22#5461
+https://twitter.com/cardano_whale/status/1652007665361403917?s=46&t=7V4gahHBDrd-NonT5nLcEg
+
+{Embed}
+ADA whale (@cardano_whale)
+https://twitter.com/cardano_whale/status/1652007665361403917?s=46&t=7V4gahHBDrd-NonT5nLcEg
+Actually one of the slickest looking game UIs I’ve seen on Cardano
+https://images-ext-2.discordapp.net/external/V1gb9BXyBS3EiH-GLaDUWZZr8nYw96ljNQs4OiEfoIo/https/pbs.twimg.com/media/Fu0EKheXgAoXfEC.jpg
+https://images-ext-1.discordapp.net/external/r8j7vzuUl7lRBzh6Bd3q5fJJv8ukLRosHV0QdYPOw4A/https/pbs.twimg.com/media/Fu0EUwLWwAEqkHy.jpg
+https://images-ext-1.discordapp.net/external/l_L97o7LHgtqIbgPaPkvWvf-50SK7rjgBSsMHudCsME/https/pbs.twimg.com/media/Fu0EvYSXsAQEb1_.jpg
+https://images-ext-2.discordapp.net/external/P1xtT6rICMIOIrhd-eq079uMzPBqPirf14QVqVvD9Z4/https/pbs.twimg.com/media/Fu0EwOzXoAA_qti.jpg
+Twitter
+
+
+[04/28/2023 7:11 PM] wombo22#5461
+Looks like ergcub setup a bit or just reminds me of it
+
+
+[04/28/2023 8:49 PM] wombo22#5461
+Maybe just the left side bar
+
+
+==============================================================
+Exported 4 message(s)
+==============================================================

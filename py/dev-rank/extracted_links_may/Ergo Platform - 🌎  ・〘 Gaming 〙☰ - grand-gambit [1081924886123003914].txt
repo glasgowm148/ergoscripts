@@ -1,0 +1,687 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Gaming 〙☰ / grand-gambit
+==============================================================
+
+[03/05/2023 1:09 PM] glasgowm#9381
+test
+
+
+[03/05/2023 1:10 PM] glasgowm#9381
+Ergo Discord<>Grand Gambit Discord<>Telegram bridge setup :)
+
+
+[03/05/2023 3:17 PM] koutelier#0000
+Test ✅
+
+
+[03/06/2023 6:19 PM] $alex.ada#1660
+Is this how I “join grand gambits discord before it is setup? If so here I am!
+
+
+[03/06/2023 6:19 PM] $alex.ada#1660
+I’m @ergbass on twitter
+
+
+[03/06/2023 6:21 PM] Grand Gambit#5886
+You are currently using the grand gambit chat created at ergo's discord, this chat is bridged to Grand Gambit's both telegram and private discord server, if you want to make sure you are joined to the discord server join here! discord.gg/sEQtva9j
+
+
+[03/06/2023 6:22 PM] $alex.ada#1660
+That invite is invalid.
+
+
+[03/06/2023 6:23 PM] Grand Gambit#5886
+Dang it. Please use this one https://discord.gg/djAZ4ZybNE
+
+
+[03/06/2023 6:23 PM] Grand Gambit#5886
+My bad
+
+
+[03/06/2023 6:29 PM] REROLABS#0000
+(re @HQ3rr : *To be part of ergopad giveaway ,you have to play with ergopad or All tx are counted as valid?*) 
+ 
+ Wat if this ergopad giveaway please shed some light please
+
+
+[03/06/2023 6:48 PM] Grand_Gambit#0000
+(re @Rlabs : *Wat if this ergopad giveaway please shed some light please*) 
+ 
+ https://twitter.com/ErgoPadOfficial/status/1631725696098910208?t=sebq3g_nNaMElLVKD3gUWw&s=19 this one
+
+{Embed}
+ErgoPad.io (@ErgoPadOfficial)
+https://twitter.com/ErgoPadOfficial/status/1631725696098910208?t=sebq3g_nNaMElLVKD3gUWw&s=19
+#ErgoPad x @GrandGambits contest 🎉
+
+To celebrate the collaboration and listing of ErgoPad on the first ever #Ergo Casino, we're giving away:
+
+🏆 1st: $200 ErgoPad & whitelist spot for an upcoming NFT collection
+
+🥈 2nd: $100 ErgoPad & WL
+
+🥉 3rd: WL spot
+
+Each bet is an entry!
+Twitter
+
+
+[03/07/2023 11:48 PM] ABCLend#0000
+Yo! You should add crash! That would be so freaking awesome!
+
+
+[03/07/2023 11:53 PM] ABCLend#0000
+Wait you say that ios doesn’t work, but it let me add CYPX then sign a war transaction. No animation though
+
+
+[03/07/2023 11:53 PM] ABCLend#0000
+Add cypx to the speed pot
+
+
+[03/07/2023 11:54 PM] ABCLend#0000
+Apparently it works without animation cause my balance went up by 380
+
+
+[03/07/2023 11:56 PM] Grand_Gambit#0000
+(re @ABCLend : *Wait you say that ios doesn’t work, but it let me add CYPX then sign a war transaction. No animation though*) 
+ 
+ Yes it works with certain actions, and with plays it will work sometimes (if using speed pot and the game isn't roulette) even tho animation isn't triggered
+
+
+[03/07/2023 11:57 PM] Grand_Gambit#0000
+But it is easier to say it doesnt work than to explain all that and have a bad UX for iPhone, I have to find a way to make it work, if I only allowed speedy plays it would be much easier
+
+
+[03/07/2023 11:58 PM] Grand_Gambit#0000
+I will ask the community at some point if I should just remove the option of betting without speed pot and playing with raw funds leaving users' wallet which gives a worse User Experience and also makes my work harder
+
+
+[03/07/2023 11:59 PM] Grand_Gambit#0000
+(re @ABCLend : *Yo! You should add crash! That would be so freaking awesome!*) 
+ 
+ What game is it? I am not english so I dont know some games, I found some links about it but I want to make sure it s the one you are talking about
+
+
+[03/08/2023 5:47 AM] ABCLend#0000
+(re @Grand_Gambit : *What game is it? I am not english so I dont know some games, I found some links about it but I want to make sure it s the one you are talking about*) 
+ 
+ The one I play is on bc.game. Here is the GitHub of it: https://github.com/bcgame-project/bcgame-crash
+
+{Embed}
+https://github.com/bcgame-project/bcgame-crash
+GitHub - bcgame-project/bcgame-crash: bcgame-crash
+bcgame-crash. Contribute to bcgame-project/bcgame-crash development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/x1S1KDeVylf1ZpAZrV_umrCSqZO-NlsfljnPK7DTcxI/https/opengraph.githubassets.com/e247fc95914169555ef7b3dd5f0588dff6e3326b970b750f03c446fa0343e55b/bcgame-project/bcgame-crash
+
+
+[03/08/2023 5:48 AM] ABCLend#0000
+Here is the game: https://bc.game/game/crash
+
+{Embed}
+https://bc.game/game/crash
+Crash at BC.GAME
+Crash at BC.GAME: Overvoew
+https://images-ext-2.discordapp.net/external/VZdxmw9RCxXHk5aykIMK4i--vBuRPaNZh3K-K6Vyz2k/https/bc.game/share_image.jpg
+
+
+[03/08/2023 5:49 AM] ABCLend#0000
+Sorry my app lost its mind for a second
+
+
+[03/09/2023 11:40 AM] Grand_Gambit#0000
+(re @ABCLend : *Here is the game: https://bc.game/game/crash*) 
+ 
+ Will take a look at it and add to the to-do list, thanks for the suggestion Alex
+
+{Embed}
+https://bc.game/game/crash*)
+BC.Game: Crypto Casino Games & Casino Slot Games - Crypto Gambling
+Best Crypto Casino.Biggest crypto crash game.Provably fair & Live dealer.10000 slot games.Unique bonus & free lucky spins.BTC,ETH,DOGE,TRX,XRP,UNI,defi tokens supported fast withdrawals and Profitable vault.
+https://images-ext-2.discordapp.net/external/VZdxmw9RCxXHk5aykIMK4i--vBuRPaNZh3K-K6Vyz2k/https/bc.game/share_image.jpg
+
+
+[03/10/2023 1:18 PM] glasgowm#0000
+That should be it now, didn't like me using the channel ID instead of the name, seemed to have been working before tho
+
+
+[03/10/2023 1:18 PM] Grand Gambit#0000
+Thank you @glasgowm 🙏
+
+
+[03/10/2023 1:18 PM] CM Mongo#0000
+Okay seeet thanks !
+
+
+[03/13/2023 12:54 PM] Grand_Gambit#0000
+Help me decide how many ergs to ask for a username
+
+https://twitter.com/Grand_Gambit/status/1635262729928728576
+
+{Embed}
+Grand Gambit (@Grand_Gambit)
+https://twitter.com/Grand_Gambit/status/1635262729928728576
+📣Soon players will be able to claim usernames for their addresses, to avoid someone from spam claiming every "valuable" username e.g "USA" each username will cost x ERGs. (also helps me with funding)
+
+⁉️ How many ERGs should be asked for a username? 
+I was thinking that 1 ERG is…
+Twitter
+
+
+[03/13/2023 3:40 PM] ABCLend#0000
+(re @Grand_Gambit : *Help me decide how many ergs to ask for a username
+
+https://twitter.com/Grand_Gambit/status/1635262729928728576*) 
+ 
+ Just do like 2Σ
+
+
+[03/14/2023 12:34 AM] T U L O (ErgoMinnow)#0000
+What about this idea. 1 erg per username and the ability to sell them! Is that possible?
+
+
+[03/14/2023 12:36 AM] T U L O (ErgoMinnow)#0000
+Still waiting on Ergonames zzz
+
+
+[03/14/2023 12:37 AM] CM Mongo#0000
+Yah that would be cool, I’ve got mongo on cro and polygon hahaha
+
+
+[03/15/2023 11:40 AM] Grand Gambit#0000
+I think after Blitz's opinion on twitter I will make it so that first username is free for everyone, and if they want to have more than one username they will have to pay for it 3 ERGs.
+
+
+[03/15/2023 11:40 AM] Grand Gambit#0000
+Also I want to add the possibility of selling them as you said yes
+
+
+[03/15/2023 2:20 PM] Grand_Gambit#0000
+Since Rosen Bridge is happening very soon, Cardano could be coming to Grand Gambit soon! Lets make sure we catch Cardano's people attention
+
+https://twitter.com/Grand_Gambit/status/1636008462135042049
+
+{Embed}
+Grand Gambit (@Grand_Gambit)
+https://twitter.com/Grand_Gambit/status/1636008462135042049
+📣#ADA coming soon to the casino?
+
+Rosen Bridge public testing happens next week; it is an Any chain <> #Ergo bridge and tests have been successfully made with the #Cardano blockchain.
+
+Therefore Cardano people will be able to play at Grand Gambit too.
+
+Cardano people watch!
+👇
+https://images-ext-1.discordapp.net/external/rDDpp2yUakiixTpio1n9LFmPd5zRr_oXqIKwRsihNkY/https/pbs.twimg.com/ext_tw_video_thumb/1636001320283828224/pu/img/2qLHsX6AqKEGblNx.jpg
+Twitter
+
+
+[03/17/2023 3:35 PM] Grand_Gambit#0000
+Since Rosen Bridge is happening very soon, Cardano could be coming to Grand Gambit soon! Lets make sure we catch Cardano's people attention
+
+https://twitter.com/Grand_Gambit/status/1636008462135042049
+
+{Embed}
+Grand Gambit (@Grand_Gambit)
+https://twitter.com/Grand_Gambit/status/1636008462135042049
+📣#ADA coming soon to the casino?
+
+Rosen Bridge public testing happens next week; it is an Any chain <> #Ergo bridge and tests have been successfully made with the #Cardano blockchain.
+
+Therefore Cardano people will be able to play at Grand Gambit too.
+
+Cardano people watch!
+👇
+https://images-ext-1.discordapp.net/external/rDDpp2yUakiixTpio1n9LFmPd5zRr_oXqIKwRsihNkY/https/pbs.twimg.com/ext_tw_video_thumb/1636001320283828224/pu/img/2qLHsX6AqKEGblNx.jpg
+Twitter
+
+
+[03/28/2023 1:12 PM] Grand_Gambit#0000
+Make sure to grab a fancy username before anyone else!
+
+https://vxtwitter.com/Grand_Gambit/status/1640687942032031745
+
+{Embed}
+Twitter
+https://vxtwitter.com/Grand_Gambit/status/1640687942032031745
+Grand Gambit (@Grand_Gambit)
+📣 Get a unique username for your address at 👇
+http://grandgambit.io/address-name
+
+You can acquire more than one; first username is always free, you need to have played at least twice.
+
+Make sure to choose some fancy usernames for the upcoming PvP games.
+https://images-ext-1.discordapp.net/external/QsZ0cLPHywQ_-pPwLrOoBsvBNoaj_YeoOLmJ9JdUH7w/%3Fimgs%3Dhttps%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFsTjm16XoAI6ty5.jpg%2Chttps%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFsTj5iDX0AElknZ.png/https/vxtwitter.com/rendercombined.jpg
+
+
+[03/29/2023 3:22 AM] CM Mongo#0000
+wowee just won like 5 dice rolls in a row lol
+
+
+[03/29/2023 2:02 PM] Grand Gambit#0000
+LFG mongo
+
+
+[03/29/2023 2:02 PM] Grand Gambit#0000
+not an easy task
+
+
+[03/29/2023 10:05 PM] cometeer#0000
+thinking about dumping gold for erg and do a coin toss on gambit
+
+
+[03/29/2023 10:09 PM] Grand_Gambit#0000
+(re @cometeer : *thinking about dumping gold for erg and do a coin toss on gambit*) 
+ 
+ Soon gold added to the site
+
+
+[03/29/2023 10:09 PM] Grand_Gambit#0000
+Well I was kidding obv but just remembered that dexy thingy
+
+
+[03/29/2023 10:40 PM] T U L O (ErgoMinnow)#0000
+Will there be a way we can sell our grand gambit usernames?
+
+
+[03/29/2023 10:43 PM] hq3r#0000
+I don't think so , but gambit might come up with idea haha
+
+
+[03/29/2023 10:55 PM] Grand_Gambit#0000
+(re  : *<T U L O (ErgoMinnow)> Will there be a way we can sell our grand gambit usernames?*) 
+ 
+ I dont see why not, if I was a user like you guys I would like to be able to sell them, but it is not my priority atm
+
+
+[03/30/2023 2:31 AM] T U L O (ErgoMinnow)#0000
+fair!
+
+
+[04/02/2023 7:15 AM] blackinsecure#3693
+Is the team interested in UI language translations?
+
+
+[04/02/2023 1:13 PM] Grand Gambit#0000
+Yes, I wanted to start setting up some translation system soonish
+
+
+[04/02/2023 1:18 PM] blackinsecure#3693
+RankMyWallet and Spectrum use CrowdIn
+
+
+[04/02/2023 3:32 PM] Grand_Gambit#0000
+> (re  : *<blackinsecure> RankMyWallet and Spectrum use ...*)
+         
+        I will have to take a look at it, as well as looking for other languages speakers
+
+
+[04/02/2023 3:32 PM] Grand_Gambit#0000
+Developing a new game!
+
+https://twitter.com/Grand_Gambit/status/1642529866560987141?t=CjqurBa5DMGQ11F_OBpqbw&s=19
+
+{Embed}
+Grand Gambit (@Grand_Gambit)
+https://twitter.com/Grand_Gambit/status/1642529866560987141?t=CjqurBa5DMGQ11F_OBpqbw&s=19
+I have started a new game development, which is proving to be a challenging one, as it involves a 2D physics engine for the web - a technology I am not used to.
+
+I will be sharing a sneak peek video tomorrow.
+
+#Ergo 🪙🎲
+https://images-ext-2.discordapp.net/external/NguKj7dnwPaq90pBLECM1YKX73OumZQ_aJIiivhjvIs/https/pbs.twimg.com/media/FstvvRTWcAY9K9s.png
+Twitter
+
+
+[04/03/2023 1:02 PM] Grand_Gambit#0000
+Plinko sneek peak, new game!
+
+https://vxtwitter.com/Grand_Gambit/status/1642859732632231942
+
+{Embed}
+📣 The new game I am developing is Plinko! I am currently playing around with it and reading a bunch of docs to make sure I understand the object physics library properly. If I do not encounter any major issues, Plinko...
+https://vxtwitter.com/Grand_Gambit/status/1642859732632231942
+Grand Gambit (@Grand_Gambit)
+📣 The new game I am developing is Plinko!
+
+I am currently playing around with it and reading a bunch of docs to make sure I understand the object physics library properly. If I do not encounter any major issues, Plinko will probably be launched at Grand Gambit.
+
+#Ergo 🪙🎲
+
+
+[04/03/2023 1:48 PM] TIMRΣG7#0000
+🔥
+
+
+[04/04/2023 4:35 AM] M. Zuiko#0000
+So I remember hearing about this strategy where you gamble on a 50/50 game. You always bet on the same side so if it’s coin flip always on heads or tails. If you win you keep going at 1 erg, if you lose you double up to 2erg, if you win you go back to 1 erg, if you lose though you go to 4erg, etc… so if you lose again you go to 8erg and as long as you have enough float you’ll likely never lose enough in a row to go broke and your profit is the 1ergs you win straight away. Anyways I lost 23erg 🥹
+
+
+[04/04/2023 5:54 AM] koutelier#0000
+Lmfao
+
+
+[04/04/2023 5:55 AM] Ergo Tipper Bot[BETA]#0000
+koutelier, you do not have enough comet in your wallet to send this tip.
+
+
+[04/04/2023 5:56 AM] koutelier#0000
+That’s not right
+
+
+[04/04/2023 10:02 AM] Grand Gambit#0000
+I always thought those strategies were invented and spread by the own casinos to make people gamble
+
+
+[04/04/2023 5:12 PM] TIMRΣG7#0000
+> (re  : *<Grand Gambit> I always thought those strategi...*)
+         
+        I'm pretty sure that's how the main character in "the gambler" goes into crippling debt at the beginning of the movie. Good movie tho 🤣
+
+
+[04/10/2023 11:44 AM] Grand_Gambit#0000
+Plinko coming soon to Ergo
+
+https://twitter.com/Grand_Gambit/status/1645376840905773056
+
+{Embed}
+Grand Gambit (@Grand_Gambit)
+https://twitter.com/Grand_Gambit/status/1645376840905773056
+📣 Plinko is currently being tested, it will probably be launched this week.
+
+"Plinko is generally considered a popular game in crypto casinos due to its simple yet entertaining gameplay mechanics, and it has been a staple in many online casinos for years"
+
+Sneak peek👇
+
+#Ergo
+https://images-ext-2.discordapp.net/external/fW4hxhG6GsVUlxup5f3aKLpRrnwogdyPoYg-odGpOKk/https/pbs.twimg.com/media/FtWMlFAWAAIaDpR.jpg
+Twitter
+
+
+[04/10/2023 12:11 PM] MDMTXO#0000
+last time we chated multiple bet with same transaction was not possible on ergo 🤔
+it's great to see ball amount, tho will it be the same transaction that trigger those 5 bets ?
+
+
+[04/10/2023 12:14 PM] Grand_Gambit#0000
+Yes it will work that way
+
+
+[04/10/2023 12:14 PM] Grand_Gambit#0000
+However, I plan to only allow to play Plinko with speed pot
+
+
+[04/10/2023 12:16 PM] Grand_Gambit#0000
+Just like in normal casinos, plinko is such a fast game I think people should always use speed pot, in fact I would like to have speed pot being the only way of playing in the whole casino, makes development much easier, and also user experience much better
+
+
+[04/11/2023 9:42 AM] HelixEvo#0000
+(re @Grand_Gambit : *Just like in normal casinos, plinko is such a ...*)
+        
+        More of a security problem though no?
+
+
+[04/11/2023 10:43 AM] koutelier#0000
+(re @HelixEvo : *More of a security problem though no?*)
+        
+        Why?
+
+
+[04/11/2023 11:44 AM] HelixEvo#0000
+(re @koutelier : *Why?*)
+        
+        Somewhere on backend you are keeping balances of everyones address? If jacked, someone could increase a speed bots balance?
+
+
+[04/11/2023 11:49 AM] Grand_Gambit#0000
+(re @HelixEvo : *Somewhere on backend you are keeping balances ...*)
+        
+        Yes
+
+
+[04/11/2023 11:50 AM] Grand_Gambit#0000
+That is why speed pot limits were low so that some crazy mfer didnt deposit like 10k ERG and some other mfer hacked it or whatever
+
+
+[04/11/2023 11:51 AM] Grand_Gambit#0000
+Security should be just fine, there are also ways to do the speed pot without a centralized backend too, but that is just for the future
+
+
+[04/16/2023 12:38 PM] Grand_Gambit#0000
+https://twitter.com/Grand_Gambit/status/1647565159710294018
+
+{Embed}
+Grand Gambit (@Grand_Gambit)
+https://twitter.com/Grand_Gambit/status/1647565159710294018
+🔃 Plinko is 99% ready.
+
+It is being privately tested. 
+
+I liked playing around with physics and objects in JavaScript for this game, I am considering implementing some kind of 1v1 game "Angry Birds" style where you throw a projectile to your opponent.
+
+#Ergo #Crypto 🪙🎲
+https://images-ext-1.discordapp.net/external/RV4tmUCV0h9lL2ETItzk238GODkaw5vRk3rNMZgC5hk/https/pbs.twimg.com/media/Ft1Rw3IWcAUdM0k.jpg
+Twitter
+
+
+[04/16/2023 2:30 PM] bunny#0000
+Wen early Discord reward? 🥹
+
+
+[04/16/2023 3:54 PM] Grand Gambit#0000
+@koutelier dang it you are right
+
+
+[04/16/2023 3:55 PM] Grand Gambit#0000
+I got stuck while trying to set up an ergo address recorder, I will just do a google docs form where you can submit your address
+
+
+[04/16/2023 3:55 PM] Grand Gambit#0000
+thanks for reminding it to me
+
+
+[04/16/2023 3:55 PM] koutelier#0000
+Luivatra is the dude for it lol
+
+
+[04/16/2023 3:56 PM] Grand Gambit#0000
+I dont want to bother him, msged him but didnt get a reply so we ll do the google forms
+
+
+[04/17/2023 7:18 PM] koutelier#0000
+not my day, but it is pretty cool and fun game
+
+
+[04/19/2023 8:41 AM] Bullseye#0000
+I'm looking forward to trying Plinko
+
+
+[04/19/2023 9:27 AM] Grand Gambit#0000
+It might come out VERY soon
+
+
+[04/19/2023 9:28 AM] Bullseye#0000
+siiiick 👍
+
+
+[04/19/2023 9:37 AM] Grand Gambit#0000
+You want to help us with a few private test plays?
+
+
+[04/19/2023 9:40 AM] MDMTXO#0000
+if you can't find someone , i will be glad to help
+
+
+[04/19/2023 9:50 AM] Grand_Gambit#0000
+(re @MDMTXO : *if you can't find someone , i will be glad to ...*)
+        
+        Hey Michael sure will send u a link via PM
+
+
+[04/23/2023 5:20 PM] bunny#0000
+Wen Plinko? ╰（‵□′）╯
+
+
+[04/23/2023 5:20 PM] Grand Gambit#0000
+this explains it: https://twitter.com/Grand_Gambit/status/1649721943833100296
+
+{Embed}
+Grand Gambit (@Grand_Gambit)
+https://twitter.com/Grand_Gambit/status/1649721943833100296
+Plinko was ready to be launched a few days ago, but some minor bugs happened and when I fixed them I couldn't push the changes to the server because I had to re-login and didn't have access to my 2FA.
+
+Fixed soon🙃
+Twitter
+
+
+[04/23/2023 5:21 PM] Grand Gambit#0000
+I have emailed the contact support of ggambit's hosting services so that they "unlock" my account
+
+
+[05/01/2023 1:26 PM] Grand_Gambit#0000
+📣 ATTENTION everyone!
+
+Plinko is now live at Grand Gambit!
+
+Please help me spreading the word on twitter, and enter a giveaway of free plays by sharing the tweet! https://vxtwitter.com/Grand_Gambit/status/1653012279242137601
+
+👉 grandgambit.io/game/plinko
+
+Epic video at the twitter post, go check it out :)
+
+{Embed}
+📣 ATTENTION everyone! 🎉 We're excited to announce the launch of the highly anticipated Plinko game at Grand Gambit! 🎲Come play and experience the thrill of a classic game with a modern twist 👉...
+https://vxtwitter.com/Grand_Gambit/status/1653012279242137601
+Grand Gambit (@Grand_Gambit)
+📣 ATTENTION everyone! 
+
+🎉 We're excited to announce the launch of the highly anticipated Plinko game at Grand Gambit!
+
+🎲Come play and experience the thrill of a classic game with a modern twist
+
+👉 http://grandgambit.io/game/plinko
+
+20 people who Like & RT will receive free plays
+
+#Ergo
+
+
+[05/01/2023 1:47 PM] bunny#0000
+I assume it's the same odds of winning if I play 5 single ball games, or one 5 ball game?
+
+
+[05/01/2023 1:48 PM] Grand Gambit#0000
+yes the same odds
+
+
+[05/01/2023 1:48 PM] bunny#0000
+also, does the ball speed setting affect anything, or is it just visual?
+
+
+[05/01/2023 1:50 PM] Grand Gambit#0000
+it is just visual, but sometimes when speeding the ball, it falls to a different bucket than what the result actually returns and shows on the results table, e.g it could fall on the 0.5 multiplier but in reality it should have fallen to the 1.1 one, or viceversa, the table showing results is always the one showing the true results
+
+
+[05/01/2023 1:50 PM] Grand Gambit#0000
+however, i think i fixed all of those visual bugs after fighting for a few days against every ball interaction
+
+
+[05/01/2023 1:50 PM] Grand Gambit#0000
+if u encounter one of those please let me know
+
+
+[05/01/2023 1:50 PM] Hekek#0000
+sometimes the animations never plays
+
+
+[05/01/2023 1:51 PM] Grand Gambit#0000
+dang it, can you open the console of the browser and tell if there is any error showing there? thought i fixed that
+
+
+[05/01/2023 1:52 PM] Grand Gambit#0000
+it is a minor bug as it simply doesnt receive the play, and nothing happens, so dont worry about lost tokens, but I have to get that fixed asap
+
+
+[05/01/2023 1:52 PM] Grand Gambit#0000
+thanks for the warning @Hekek
+
+
+[05/01/2023 1:52 PM] Hekek#0000
+had to refresh the browser, if it happens again i will send you the log
+
+
+[05/01/2023 1:52 PM] Grand Gambit#0000
+thank you a lot
+
+
+[05/01/2023 1:55 PM] Grand Gambit#0000
+also to explain how the odds work, basically for each row the server has a 50% chance of telling the ball to go right, and a 50% chance of telling the ball to go left.
+
+Therefore it is hard for the ball to reach the corners multipliers, as it would have to return e.g "right" several times, which would cause the chances to go 0.5 * 0.5 * 0.5 * 0.5.... (0.5^rows).
+
+Which ends up in a very low percentage of actually happening, so manage your risks guys, have fun but be cautious, it is a very addicting game
+
+
+[05/01/2023 2:03 PM] Hekek#0000
+@Grand Gambit  should i open a ticket?
+
+
+[05/01/2023 2:03 PM] Grand Gambit#0000
+Sure do it to keep the general chat clean 🙂
+
+
+[05/01/2023 2:18 PM] bunny#0000
+Damn, Plinko is fun af
+
+
+[05/01/2023 2:19 PM] bunny#0000
+I think I just found the best use case for my Comet 😅
+
+
+[05/01/2023 2:19 PM] Grand Gambit#0000
+fun == dangerous tho
+
+
+[05/01/2023 2:19 PM] Grand Gambit#0000
+oh okay if it is using comet then no worries, worthless token as they claim
+
+
+[05/01/2023 2:19 PM] Grand Gambit#0000
+hahaha
+
+
+[05/01/2023 2:19 PM] bunny#0000
+it's basically air!
+
+
+[05/01/2023 2:22 PM] bunny#0000
+I think you could even lower the min bet in some places (if possible), I really only play for fun so I'm not degenerate enough to bet 1 Erg as min bet 😅
+
+
+[05/01/2023 2:23 PM] Grand Gambit#0000
+first person to claim not being a degen
+
+
+[05/01/2023 2:23 PM] Grand Gambit#0000
+and you own comet? wow
+
+
+[05/01/2023 2:23 PM] bunny#0000
+lmao
+
+
+[05/01/2023 2:24 PM] bunny#0000
+But I think $0.20 (min bet) seems to be pretty standard across online casinos, something to keep in mind
+
+
+[05/01/2023 2:26 PM] Grand Gambit#0000
+I will add it to todo list
+
+
+[05/01/2023 2:26 PM] Grand Gambit#0000
+thanks buny
+
+
+==============================================================
+Exported 116 message(s)
+==============================================================

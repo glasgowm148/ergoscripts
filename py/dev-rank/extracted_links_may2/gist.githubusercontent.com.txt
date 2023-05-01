@@ -1,0 +1,6 @@
+https://gist.githubusercontent.com/glasgowm148/23d5f1a8b6b9bcab70c5d739e863debf/raw/2419387cfe9f07870778365129f3cf46bf735deb/ergo_node.sh
+https://gist.githubusercontent.com/pragmaxim/466ee2a3b939555a75200ec26883787d/raw/73184411888e699be6193c855d4ae100ddd2d131/db.size
+https://gist.githubusercontent.com/glasgowm148/23d5f1a8b6b9bcab70c5d739e863debf/raw/ce277530293bc0878c63f4c46391da6c4a16af70/ergo_node.sh
+https://gist.githubusercontent.com/glasgowm148/23d5f1a8b6b9bcab70c5d739e863debf/raw/f9df8f94d4996bc9ee2865c87ebb39813f1f5adb/ergo_node.sh
+https://gist.githubusercontent.com/scalahub/4dbf3552ba09f12363b35cea669fa9ca/raw/a72f63a96fa547506b5b93d7590e3bb3797e515a/Live%2520Epoch%2520Script
+https://gist.githubusercontent.com/pragmaxim/c327bf6a90a8072718479cfebca0af7e/raw/51bdff968549035f48ee582217cf10e644fcf8ec/schema.cql

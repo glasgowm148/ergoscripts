@@ -1,0 +1,493 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Infra 〙☰ / oracle-pools2
+==============================================================
+
+[05/10/2022 12:54 PM] glasgowm#9381
+> Oracle pools v2
+
+> Work on implementation of Oracle pools v2 as described in the following EIP: https://github.com/ergoplatform/eips/blob/eip23/eip-0023.md
+
+> First goal is to implement oracle pool bootstrapping from a single command: https://github.com/ergoplatform/oracle-core/issues/17
+
+> If completed we can then run a pool on the testnet and implement some of the other transactions described in the EIP.
+
+
+[05/14/2022 11:31 PM] abchris#8522
+Has anyone taken this on already?
+
+
+[05/15/2022 5:40 AM] TimL#0815
+I submitted the proposal. Looks to be just myself for now.
+
+
+[05/15/2022 8:54 AM] abchris#8522
+Nice, good to know you're behind this. I could make some time free end of next week in case  you need a hand with something.
+
+
+[05/15/2022 2:16 PM] TimL#0815
+Thanks! If you'd like to dig into the code, a good starting point would be to compare the code here https://github.com/ergoplatform/oracle-core/blob/b1dfdfec73d37d0f356403a9f618928e603093e4/core/src/commands/refresh.rs#L54 against the transaction described in EIP-23 here: https://github.com/ergoplatform/eips/blob/eip23/eip-0023.md#refresh-pool as well as the refresh contract. The code base here isn't too massive, but it's undergoing a bunch of changes
+
+{Embed}
+https://github.com/ergoplatform/eips/blob/eip23/eip-0023.md
+eips/eip-0023.md at eip23 · ergoplatform/eips
+Ergo Improvement Proposals. Contribute to ergoplatform/eips development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/nMwK7ESKpbY5_mRZ1vnNKj1zS553ueUtMGZuU9nROT0/https/opengraph.githubassets.com/d645147c8cc03fea996efcb2bf3b8b51b72084475540805eec93f1d03ef3aa9f/ergoplatform/eips
+
+{Embed}
+https://github.com/ergoplatform/oracle-core/blob/b1dfdfec73d37d0f356403a9f618928e603093e4/core/src/commands/refresh.rs
+oracle-core/refresh.rs at b1dfdfec73d37d0f356403a9f618928e603093e4 ...
+Core off-chain component of Oracle Pools. Contribute to ergoplatform/oracle-core development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/hCojArItxirbqVa_tLsuNquAfA_UURGJhqIpgXk0My0/https/opengraph.githubassets.com/1b9902cbc1999a274213ec4a522da3bd68273f25f50af0a55cde2c795cffac6c/ergoplatform/oracle-core
+
+
+[05/15/2022 2:42 PM] TimL#0815
+I'm finalising the 'publish datapoint' action now, then after that it's onto bootstrap. Once complete I believe we have a MVP (according to greenhat here: https://discord.com/channels/668903786361651200/669989266478202917/971399410938417173), so can spin up some test pools
+
+{Embed}
+https://discord.com/channels/668903786361651200/669989266478202917/971399410938417173),
+Discord - A New Way to Chat with Friends & Communities
+Discord is the easiest way to communicate over voice, video, and text.  Chat, hang out, and stay close with your friends and communities.
+
+
+[05/15/2022 8:21 PM] abchris#8522
+Thanks, I'll have a look 👍
+
+{Reactions}
+👍 
+
+[05/18/2022 3:56 PM] TimL#0815
+Hi @greenhat just a quick question on chained transactions. I'm looking at the scala test here: https://github.com/ergoplatform/ergo/blob/b925ac9dd86e7db71e69591f0011611b649c8733/src/test/scala/org/ergoplatform/http/routes/TransactionApiRouteSpec.scala#L23. Is it simply a matter of sequentially submitting the signed txs from first to last separately to the `/transactions` API endpoint?
+
+{Embed}
+https://github.com/ergoplatform/ergo/blob/b925ac9dd86e7db71e69591f0011611b649c8733/src/test/scala/org/ergoplatform/http/routes/TransactionApiRouteSpec.scala
+ergo/TransactionApiRouteSpec.scala at b925ac9dd86e7db71e69591f00116...
+Ergo protocol description & reference client implementation - ergo/TransactionApiRouteSpec.scala at b925ac9dd86e7db71e69591f0011611b649c8733 · ergoplatform/ergo
+https://images-ext-2.discordapp.net/external/c8LWCWO0p-884RkPVw0VFhGcZ1qHT4fGAFQ564Jmrmw/https/opengraph.githubassets.com/0896df36ff64a3be3e55e1ea7118f2f05846ef08a5a6deeabca7b60ba3a9fe2a/ergoplatform/ergo
+
+
+[05/18/2022 4:02 PM] greenhat#6562
+I'm not 100% sure, but yes, this is my understanding. They suppose to get into one block and I believe that should be enough.
+
+
+[05/18/2022 4:04 PM] TimL#0815
+Great, thanks!
+
+
+[05/23/2022 3:46 PM] TimL#0815
+Hi @greenhat you mention in the bootstrap issue that `Oracle tokens should be put in a box guarded by the node wallet's PK for distribution among the oracles later.` Now I'm digging around the `ergo-node-interface-rust` crate and I can't find a function that can give me the public key. Am I missing something?
+
+
+[05/23/2022 3:52 PM] greenhat#6562
+Yes, you're right, there is none. There is WalletStatus::change_address, which kinda serves a similar purpose. I'm not sure we should use it though. It's probably better to ask for it to be set in the bootstrap conf file.
+
+
+[05/23/2022 4:05 PM] TimL#0815
+Thanks, I'll do that. So in practice, the operator can select any address in the node's wallet to serve as the guard for these boxes?
+
+
+[05/23/2022 4:12 PM] greenhat#6562
+@TimL Yes, I don't see a reason to limit the operator's choice. Actually, they can set an address that is not even a node's address.
+
+
+[05/23/2022 4:21 PM] TimL#0815
+That makes sense, thanks. Just another related question. When building up the chain transaction I'm assuming a PK from the wallet is provided as a function argument, to serve as the guard whenever I use `ErgoBoxCandidateBuilder`. Which PK should be used here?
+
+
+[05/23/2022 4:30 PM] TimL#0815
+With such a PK, I create the chain of signed transactions then submit all of them to the node at the end as a group.
+
+
+[05/23/2022 5:49 PM] greenhat#6562
+Do you mean the address where all other minted tokens will be sent? I think we can use this PK set in bootstrap conf.
+
+
+[05/24/2022 2:15 AM] TimL#0815
+Yes. Got it, thanks!
+
+
+[06/22/2022 4:03 PM] lemon0516#5959
+hallo
+
+{Reactions}
+👋 
+
+[06/23/2022 5:50 AM] TimL#0815
+Hi
+
+
+[07/25/2022 8:22 PM] lgd#5847
+Some questions about the oracle protocol (v1):
+1. Does the posting schedule need to be a whole number? (i.e. does it make any sense for this to be a fraction of a block?)
+2. Does the datapoint have to be a "single" value or could it be a tuple/collection of data?
+
+
+[07/26/2022 3:25 PM] TimL#0815
+Sorry I don't know much at all about v1. I see that greenhat answered you over in #🛠│development.
+
+
+[07/26/2022 3:27 PM] lgd#5847
+Yeah thanks. So the posting schedule is different in v2?
+
+
+[07/26/2022 3:28 PM] TimL#0815
+I think it's a whole number. Under the table here: https://github.com/ergoplatform/eips/blob/196e89a8f98bc1611473f059a9e58b81ca7d18d2/eip-0023.md#prerequisites
+
+{Embed}
+https://github.com/ergoplatform/eips/blob/196e89a8f98bc1611473f059a9e58b81ca7d18d2/eip-0023.md
+eips/eip-0023.md at 196e89a8f98bc1611473f059a9e58b81ca7d18d2 · ergo...
+Ergo Improvement Proposals. Contribute to ergoplatform/eips development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/5NWdLLbZgI2kPKNfOHwbNrmQk4xoSnAz-ZxHrFElFRk/https/opengraph.githubassets.com/c182a065f34d23c48f25fa43fff5fed9b07631c8c102313a7a28f8c0acea18fe/ergoplatform/eips
+
+
+[07/26/2022 3:28 PM] TimL#0815
+Epoch period refers to whole numbers
+
+
+[07/26/2022 3:29 PM] TimL#0815
+And I recall from coding the publish-data-point action that it's tied to the block height
+
+
+[07/26/2022 3:36 PM] lgd#5847
+Let's say I wanted to have a tuple as the data point and the second value in the tuple was an address, is that possible?
+
+
+[07/26/2022 3:37 PM] lgd#5847
+Ah okok. Then doesn't that make what nightowl wants to do impossible?
+
+
+[07/26/2022 3:39 PM] TimL#0815
+I don't think so in its current form. We can only publish a 'long' value.
+
+
+[07/26/2022 3:39 PM] TimL#0815
+I heard about nightowl, but not what they're trying to do here. Can you point me somewhere?
+
+
+[07/26/2022 3:48 PM] lgd#5847
+https://github.com/nightowlcasino/rng-svc
+
+{Embed}
+https://github.com/nightowlcasino/rng-svc
+GitHub - nightowlcasino/rng-svc: This app will provide the frontend...
+This app will provide the frontend with near realtime random numbers from the RNG oracle pool - GitHub - nightowlcasino/rng-svc: This app will provide the frontend with near realtime random numbers...
+https://images-ext-1.discordapp.net/external/XV7GJf0dGVKl4-vj2JU0oz2bhHrz5OgP1QBPlk2XsHY/https/opengraph.githubassets.com/6c736ee862ab91347f664bd04490e95839b5de348063f2970deffa3ae73300ba/nightowlcasino/rng-svc
+
+
+[07/26/2022 3:48 PM] lgd#5847
+I don't fully understand their solution tbh
+
+
+[07/26/2022 3:48 PM] lgd#5847
+They want to get random numbers every 20s or so
+
+
+[07/26/2022 3:48 PM] TimL#0815
+The oracle-pool needs to average each node's published result to come to the 'agreed-upon' value. So we're basically limited to numerical values. I suppose you could extend to tuples, but the elements need to be numerical
+
+
+[07/26/2022 3:49 PM] lgd#5847
+Okok that makes sense
+
+
+[07/26/2022 3:55 PM] TimL#0815
+Thanks for the link. 20s sounds a bit difficult...
+
+
+[07/26/2022 4:04 PM] lgd#5847
+After reading, I could be wrong, but I think their posting schedule is every 7min and they collect a collection of ETH hashes
+
+
+[07/26/2022 4:04 PM] lgd#5847
+So not a 20s posting schedule on ergo
+
+
+[07/26/2022 5:09 PM] greenhat#6562
+The published data type is limited only by the offchain and contract code - how they average(check) data points. So in theory, one can update contracts and offchain code to "average" on any reasonable data type.
+
+
+[07/26/2022 7:05 PM] TimL#0815
+That’s awesome, so it’s ultimately limited by what can be expressed in ergoscript. Can EIP-0023 be updated to accommodate this? I imagine we could also expose a trait in ‘oracle-core’ where operator can provide the offchain checking code for a customised pool
+
+
+[07/27/2022 5:33 AM] greenhat#6562
+Good idea for v2.1! It sounds way too meta for EIP-0023, though. @scalahub What do you think?
+
+
+[07/27/2022 5:35 AM] greenhat#6562
+I made https://github.com/ergoplatform/oracle-core/issues/82
+
+{Embed}
+https://github.com/ergoplatform/oracle-core/issues/82
+Expose a trait in ‘oracle-core’ where operator can provide the offc...
+More context at https://discord.com/channels/668903786361651200/973553479756947506/1001550900957032468
+https://images-ext-2.discordapp.net/external/DKVQjpeQ9x-IUWQBZtcJs6z5bupFTWXryoYBkqlAAOY/https/opengraph.githubassets.com/44b0419e17d2326cbe07ebba8405f784bc862303150ab33eb3a3cc6c54028ec9/ergoplatform/oracle-core/issues/82
+
+{Reactions}
+👍 
+
+[07/27/2022 2:35 PM] scalahub#2618
+same rules apply to 2.0 as well. The period is something that is defined during bootstrap
+
+
+[07/27/2022 3:02 PM] greenhat#6562
+@scalahub Just a reminder that https://github.com/ergoplatform/eips/pull/41#discussion_r927416773 needs your attention.
+
+{Embed}
+https://github.com/ergoplatform/eips/pull/41
+EIP-0023 Oracle pool 2.0 by scalahub · Pull Request #41 · ergoplatf...
+Main features in v2.0
+
+Single pool address (only one type of box). This version of the pool will have only one address, the pool address.
+Data-point boxes will be considered as inputs rather than d...
+https://images-ext-2.discordapp.net/external/nXbFW9SzpBsOJSXa4q__pBmL5L_WoPeZXjZLbnoSYoI/https/opengraph.githubassets.com/f55928d6bb7c85a3b331088c8895f5907b3a7175a851cbbfc3860edaf0e513aa/ergoplatform/eips/pull/41
+
+
+[07/27/2022 3:33 PM] scalahub#2618
+added a comment. We can probably remove this condition
+
+
+[07/27/2022 3:34 PM] scalahub#2618
+Started a thread.
+
+
+[07/27/2022 8:08 PM] scalahub#2618
+I'll go through the contracts to see if removing the "script change requirement" leads to any security issues. If all ok will update tomorrow
+
+{Reactions}
+👍 
+
+[07/30/2022 9:16 AM] scalahub#2618
+That sounds like a fairly big change so I would suggest to make a follow up EIP. We can of course mention in a paragraph that other data types can be supported and the new contracts are in EIP-X
+
+
+[07/30/2022 9:16 AM] scalahub#2618
+Have modified contract  as per your suggestion and pushed to EIP plus testing repo as v2c
+
+{Reactions}
+🙏 
+
+[08/08/2022 7:04 AM] greenhat#6562
+I put new bounties on the new and some old issues. Check them out!
+
+{Reactions}
+👍 
+
+[08/10/2022 2:21 AM] lgd#5847
+how much of the rust code needs to be changed if i want to use a different datatype/format for the datapoint?
+
+
+[08/10/2022 5:39 AM] greenhat#6562
+Not much. In data point submission (oracle box) and refresh ops (averaging/checks). Besides that, you need to change refresh contract.
+
+
+[08/10/2022 2:21 PM] lgd#5847
+What about the datapoint contract?
+
+
+[08/10/2022 2:24 PM] greenhat#6562
+Do you mean oracle box contract? It does not check the data point stored in R6, so it should be fine.
+
+
+[08/10/2022 3:05 PM] lgd#5847
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/973553479756947506/1006926389024403557/Screenshot_2022-08-10_at_10-05-43_eips_eip-0016.md_at_eip16_ergoplatform_eips.png
+
+
+[08/10/2022 3:06 PM] lgd#5847
+this is the datapoint contract
+
+
+[08/10/2022 3:06 PM] lgd#5847
+R6 is a Long
+
+
+[08/10/2022 3:09 PM] greenhat#6562
+Oh, I was talking about the latest version at  https://github.com/ergoplatform/eips/pull/41
+
+{Embed}
+https://github.com/ergoplatform/eips/pull/41
+EIP-0023 Oracle pool 2.0 by scalahub · Pull Request #41 · ergoplatf...
+Main features in v2.0
+
+Single pool address (only one type of box). This version of the pool will have only one address, the pool address.
+Data-point boxes will be considered as inputs rather than d...
+https://images-ext-1.discordapp.net/external/7eiQvLoc9UqAyq3BJlSiLhFT9FHm_xQ6YKFPqN3BX7I/https/opengraph.githubassets.com/e4e0ce5c56eef3328a73f6b50757b89f95de6291db698eaddcfd3df0b6562df6/ergoplatform/eips/pull/41
+
+
+[08/10/2022 3:52 PM] lgd#5847
+so i can set up a v2 pool to test out or it's not ready yet for that?
+
+
+[08/10/2022 3:54 PM] greenhat#6562
+It's not ready yet, but the finish line is in sight. :)
+
+
+[08/10/2022 3:57 PM] lgd#5847
+ok so if i wanted to setup a v1 pool then how much do i need to change to have custom datapoint/format?
+
+
+[08/10/2022 4:02 PM] greenhat#6562
+It's hard to tell. I only saw v1 first time when I started v2 development. v1 was a sort of PoC and requires a lot of manual job to bootstrap. I'd say v2 is your best bet.
+
+
+[08/10/2022 4:02 PM] lgd#5847
+so in v2, there is no "datapoint" dataInput like in v1, instead the pool box is used as datainput in dapps, is that correct understanding or am i wrong?
+
+
+[08/10/2022 4:04 PM] greenhat#6562
+That's correct.
+
+
+[08/10/2022 4:32 PM] lgd#5847
+ok so for my purposes i want to use oracle to post "exact" value. so if all datapoints submitted by the oracles are not the same then no datapoint is submitted by the pool box. is something like that possible?
+
+
+[08/10/2022 4:38 PM] greenhat#6562
+I'd say, yes.
+
+
+[08/10/2022 4:39 PM] lgd#5847
+so i would have to change the refresh contract logic to satisfy that? (sorry for all the questions lol)
+
+
+[08/10/2022 4:48 PM] greenhat#6562
+yep
+
+
+[08/10/2022 7:43 PM] lgd#5847
+is there still a preparation epoch and live epoch like in v1 or how is it different in v2. or is that the purpose of the epochLength and buffer period?
+
+
+[08/11/2022 4:32 AM] greenhat#6562
+No preparation epoch. Buffer is the max error allowed in the declared start height of a new epoch. Ideally, this should be the height at which tx gets mined. However, due to congestion, we allow this error margin.
+
+{Reactions}
+👍 
+
+[08/17/2022 4:01 PM] scalahub#2618
+Just to clarify, in both v1 and v2, the pool box is to be used as a data input in dApps.. dApps shouldn't have to worry about individual ~~pool~~ data-point boxes. The main difference between v1 and v2 is in the *collection* step, which consolidates all data points. In v1, the data points were used as data inputs and in v2 they are actual inputs
+
+{Reactions}
+👍 
+
+[08/17/2022 4:03 PM] scalahub#2618
+That will be a bit tricky, what you can do is as long as *x* number of oracles post the same data point, that will be valid
+
+{Reactions}
+👍 
+
+[08/17/2022 4:04 PM] scalahub#2618
+and if x is > half the number of oracles then there is unique value determined
+
+
+[08/17/2022 4:04 PM] lgd#5847
+So like a threshold. Yeah that makes sense
+
+
+[08/17/2022 4:07 PM] lgd#5847
+What different between this and the previous comment?
+
+
+[08/17/2022 4:42 PM] scalahub#2618
+suppose x = 5 and num oracles = 10, then 5 can post one value and the other 5 can post another; hence there is not a unique value to select
+
+{Reactions}
+👍 🧠 
+
+[08/19/2022 9:29 AM] kii#8888
+hi @greenhat i used the sample bootstrap config example, but there's some missing param. I want to try to run it so that i can check out how its run and walk through the code.
+
+Was wondering if there is a more up to date version
+
+
+[08/19/2022 9:42 AM] greenhat#6562
+Oh, we should delete that config example. It's no longer relevant. The bootstrap config should be generated by the app. Something like `Bootstrap --generate-config-template` should do the job. Check `--help` option.
+
+
+[08/19/2022 9:53 AM] kii#8888
+Just tried that, seems like its resulting in the same thing
+
+
+[08/19/2022 9:55 AM] kii#8888
+I can help make a pr to fix the generation.
+
+
+[08/19/2022 10:01 AM] greenhat#6562
+@kii It's kind of broken. No worries. I'm in the process of updating bootstrap and configs so that bootstrap generates the whole `OracleConfig` for the pool - https://github.com/ergoplatform/oracle-core/pull/95
+Meanwhile, you can check out the tests to get familiar with the code. I recommend bootstrat_and_run.rs. It's a high-level test with blockchain simulation.
+
+{Embed}
+https://github.com/ergoplatform/oracle-core/pull/95
+Build new contracts on bootstrap, save them in config, load with ch...
+Close #92
+Todo:
+
+ delete OracleConfigFields and write full OracleConfig config file on bootstrap;
+ update the rest of the contracts in bootstrap;
+ add rescan_height parameter with the height of the...
+
+
+[08/19/2022 10:06 AM] kii#8888
+oh yeah, that pr is def gonna solve it
+
+
+[11/17/2022 9:19 AM] greenhat#6562
+@scalahub Could you please merge https://github.com/ergoplatform/eips/pull/78
+
+{Embed}
+https://github.com/ergoplatform/eips/pull/78
+EIP23 separate contract files by kettlebell · Pull Request #78 · er...
+Split out contracts into separate files to help with verification in oracle-core off-chain implementation.
+https://images-ext-2.discordapp.net/external/y2ZPxw9ZwkrPwlHBMns0Hr-1LgtWyvzEqVvQXu7tIv8/https/opengraph.githubassets.com/08ff5804bd37a983918c207a942d21745af9e05c7c874f58b88458e414d05dfc/ergoplatform/eips/pull/78
+
+
+[11/23/2022 5:00 PM] scalahub#2618
+Looks good. Are you able to merge?
+
+
+[12/01/2022 3:22 PM] greenhat#6562
+@lgd @kii I'm going to run an ERG/XAU v2 pool on testnet. Everyone is invited! I made a group for the operators -  https://t.me/+EzqDnxW0wp5iMGQ0
+
+{Embed}
+https://t.me/+EzqDnxW0wp5iMGQ0
+Testnet ERG/XAU oracle pool v2
+
+
+[12/02/2022 5:26 PM] NoahErgo#4349
+@abchris tagging you if you want to play with the new oracles. I know you had delphi a while back
+
+{Reactions}
+🙏 
+
+[01/04/2023 12:53 PM] greenhat#6562
+New v2.0.0-beta4 https://github.com/ergoplatform/oracle-core/releases/tag/v2.0.0-beta4 is released. The big change is now config is split into oracle and pool config files. The migration from the old oracle_config.yaml happens on the first launch.
+
+{Embed}
+https://github.com/ergoplatform/oracle-core/releases/tag/v2.0.0-beta4
+Release v2.0.0-beta4 · ergoplatform/oracle-core
+What's Changed
+
+fix prepare-update command tx submission failure (missing ballot token minting tx) by @greenhat in #202
+update ballot contract in the updated oracle config on prepare-update; si...
+https://images-ext-2.discordapp.net/external/QHLrpd3F4Z5JTy2uoRHAa6Gx7OjprmHf1D8Gt_AqDDA/https/opengraph.githubassets.com/46faac82c0f6d6e79c26b5cdd084192587c2d7bc9072938bde7251c332a89b48/ergoplatform/oracle-core/releases/tag/v2.0.0-beta4
+
+{Reactions}
+ergo_orange 
+
+[02/13/2023 3:13 PM] greenhat#6562
+@scalahub I seem to have found a solution to the "async" voting - https://github.com/ergoplatform/oracle-core/issues/173#issuecomment-1427566800 
+ What do you think? /cc @dusek
+
+{Embed}
+https://github.com/ergoplatform/oracle-core/issues/173
+Make voting for contracts update more "async" · Issue #173 · ergopl...
+In their votes, an oracle needs to specify the reward token amount in the pool box at the time of update-pool command is initiated. See the check at the update contract https://github.com/ergoplatf...
+https://images-ext-2.discordapp.net/external/qCqyP1ASXzvXW6jl44mtysOMruvn8oR-B8kAqgynHpM/https/opengraph.githubassets.com/f106b5c5d528e25aad890c51feb607a9e9b65f88fbb39c08524049edd419a2de/ergoplatform/oracle-core/issues/173
+
+
+==============================================================
+Exported 88 message(s)
+==============================================================

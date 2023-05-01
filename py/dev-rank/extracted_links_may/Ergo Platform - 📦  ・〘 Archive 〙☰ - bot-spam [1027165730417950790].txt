@@ -1,0 +1,107 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / bot-spam
+==============================================================
+
+[10/05/2022 11:30 AM] glasgowm#9381
+.help
+
+
+[10/05/2022 11:30 AM] sigmabot#9505
+```
+DevTemplate:
+  roast        
+  toast        
+EIProposals:
+  eip          
+EasterEggs:
+  drama        
+  gulag        
+  wen          
+  why          
+Ecosystem:
+  graphql      
+  nfts         
+  node         
+  nodelist     
+  projects     
+  tokenjay     
+Exchanges:
+  cex          
+  dex          
+FrequentQuestions:
+  admin        
+  bots         
+  contribute   
+  docs         
+  forum        
+  manifesto    
+  marketcap    
+  partnerships 
+  tps          
+  welcome      
+Mining:
+  difficulty   
+  mining       
+Protocol:
+  genesis      
+  pouw         
+  rent         
+  staking      
+Wallets:
+  ledger       
+  seed         
+  tipbot       
+  wallets      
+  yoroi        
+​No Category:
+  help         Shows this message
+
+Type .help command for more info on a command.
+You can also type .help category for more info on a category.
+```
+
+
+[10/05/2022 11:30 AM] glasgowm#9381
+.wallets
+
+
+[10/05/2022 11:30 AM] sigmabot#9505
+[Team Wallets]
+Ergo Node: <https://docs.ergoplatform.com/node/install/>
+Ergo Mobile: <https://ergoplatform.org/en/mobile-wallets/>
+Paper Wallet: <https://ergopaperwallet.org/>
+
+[Other Wallets]
+Minotaur (Multi Platform): <https://github.com/minotaur-ergo/minotaur-wallet>
+Nautilus (Web): <https://github.com/capt-nemo429/nautilus-wallet>
+Satergo (Desktop): <https://satergo.com/>
+SAFEW (Web): <https://github.com/ThierryM1212/SAFEW>
+Zelcore (Multi Platform): <https://zelcore.io/>
+
+Learn more at <https://ergoplatform.org/en/get-erg/#Wallets>
+
+Modifiers: `dis`, `tg`, `cold`
+
+
+[10/05/2022 11:30 AM] glasgowm#9381
+.wallets dis
+
+
+[10/05/2022 11:30 AM] sigmabot#9505
+#🚧│wallets
+
+
+[10/05/2022 11:30 AM] glasgowm#9381
+.wallets tg
+
+
+[10/05/2022 11:30 AM] sigmabot#9505
+@NautilusWallet - web browser extension wallet
+@ErgoWalletApp - mobile wallet
+@SatergoWallet - full node desktop wallet
+
+
+==============================================================
+Exported 8 message(s)
+==============================================================

@@ -1,0 +1,68 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / 🧪│quiz
+==============================================================
+
+[04/14/2022 4:45 PM] ProBot ✨#5803
+
+
+{Embed}
+Languages
+1️⃣ │Java
+2️⃣ │Python
+3️⃣ │Scala
+4️⃣ │Rust
+5️⃣ │C#
+6️⃣ │JavaScript
+
+{Reactions}
+1️⃣ (27) 2️⃣ (43) 3️⃣ (15) 4️⃣ (16) 5️⃣ (21) 6️⃣ (38) 
+
+[04/14/2022 5:23 PM] ProBot ✨#5803
+
+
+{Embed}
+✍️ ErgoScript
+React to this message if you want to be added to the `@ErgoScript` tag; this will be used when people have contracts they want reviewed or bugs they need a hand with.
+
+{Reactions}
+✍️ (31) 
+
+[04/14/2022 8:20 PM] ProBot ✨#5803
+
+
+{Embed}
+⏰ Availability
+1️⃣ │ Just learning at the moment
+2️⃣ │ Looking for freelance/bounties (Front-end)
+3️⃣ │ Looking for contract work
+4️⃣ │ Looking for full-time work
+
+{Reactions}
+1️⃣ (55) 2️⃣ (11) 3️⃣ (10) 4️⃣ (9) 
+
+[04/14/2022 8:25 PM] ProBot ✨#5803
+
+
+{Embed}
+📚  Decentralised Collaboration
+DeCo is running several developer courses - be sure to check out their server
+Enable this in 🚧│development
+
+
+[04/14/2022 8:26 PM] ProBot ✨#5803
+
+
+{Embed}
+💰 Bounties
+Anything educative for the community is subject to some bounty, even if not specifically listed. Let's create grassroots finance!
+
+There are also plenty of bounties available across [GitHub](https://github.com/ergoplatform/grow-ergo/) and [Grants](https://github.com/ergoplatform/grow-ergo/issues/13) to be applied for. However, the fastest way to quickstart any idea is [Ergo Raffle](https://ergoraffle.com/). 
+
+Or contact us directly team@ergoplatform.org
+Enable this in 🚧│development
+
+
+==============================================================
+Exported 5 message(s)
+==============================================================

@@ -1,0 +1,375 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 FINANCIAL 〙☰ / sips
+==============================================================
+
+[02/10/2023 12:53 PM] glasgowm#9381
+SigmaUSD Improvement Proposals
+
+From @Armeanio 
+
+> This is a project to explore potential changes to SigUSD.
+> The goal is to start a larger discussion as a community regarding governance, sustainability, and the long term use case of SigUSD. 
+> This includes changes to the reserve ratios, fee structures, and the potential to rotate towards protocol owned equity in SigRSV
+
+
+[02/10/2023 12:54 PM] SIP Enthusiast#0000
+@Armeanio   was calling for discussion on SIPs.
+
+I have gathered all SIP proposals that I could find. Please add, if I missed something.
+
+Most of them are explained in @Bruno 's excellent video https://m.youtube.com/watch?v=yTgapwydOW0
+
+Also see https://github.com/ergoplatform/sips#governance
+
+Here is the list with numbers based on the video, together with my comments.
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=yTgapwydOW0
+Ideas for improvement of the Djed Protocol - Dr. Bruno W Paleo | Er...
+Dr. Bruno Woltzenlogel Paleo talks us through some ideas for how the Djed stablecoin protocol could be improved:
+
+00:00 Intro
+00:17 Brief introduction to Djed
+03:43 Improvement Ideas:
+04:09 Oracles without Deliberate Delays
+08:23 Oracles with Deviation-Triggered Updates
+10:01 Transaction Limits
+11:46 Dynamic Fees
+13:38 Delayed/Locked Settlement
+...
+https://images-ext-2.discordapp.net/external/cBu5HUlJqoFz_SdeEyTwJUZEekVNIT6xpxM2_UEh-PI/https/i.ytimg.com/vi/yTgapwydOW0/maxresdefault.jpg
+
+{Embed}
+https://github.com/ergoplatform/sips
+GitHub - ergoplatform/sips: SigmaUSD Improvement Proposals
+SigmaUSD Improvement Proposals . Contribute to ergoplatform/sips development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/8Dz2d-MrNCmqSxVABF_1QDSlAx81TjI6nY272cv6nl8/https/opengraph.githubassets.com/98a245a87fc980d2104a8ea09d44efd9ece60e4117b2bd9471c287fc2851df1a/ergoplatform/sips
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**1) oracle without delays. No smoothing.
+2) faster oracle price update when large deviation.**
+
+The first two seek to increase the speed of the oracle price updates. This might not be a good direction, because there will always be an edge in being fast (high frequency trading). The problem might be better tackled with delayed settlement or something that does not favor traders.
+
+Furthermore, the smoothing was inserted to make whale manipulation attacks more difficult. The proposed method has to address this.
+
+Also, smoothing gives time for people to exit, if RR approaches 100%.
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**3) transaction limits.
+**
+Easy to bypass, if identified by address.
+
+On protocol level, it might be good for minting sigusd, but not redeeming it. Redeeming full circulating supply must always be open for users to have full confidence.
+
+Max sigusd mint per oracle update or block might be a good idea to limit drain attacks. For example, only 10% of available sigusd (>400% RR) could be minted per oracle update.
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**4) dynamic fees.
+**
+Good idea. Needs more discussion to define the best approach. Sigusd redeem should noy have higher fee, because it would effectively mean losing peg. Adjusting sigusd mint, sigrsv mint and sigrsv redeem, can all be used to incentivize optimal RR.
+
+https://t.me/SigmaUSD/18685
+
+{Embed}
+https://t.me/SigmaUSD/18685
+Ile in SigmaUSD
+Here is a sketch for the dynamic fees. It is not based on any analysis, just a starter for the discussion.
+
+RR buy-usd sell-usd buy-rsv sell-rsv
+<400       na 2 0 2
+400-420 50 2 0 2
+420-440 30 2 1 2
+440-460 20 2 1 2
+460-480 10 2 1 2
+480-500 5 2 1 2
+500-550 3 2 1 2
+550-650 2 2 1 2
+650-700 1 2 2 2
+<700       1 2 2 0
+https://images-ext-1.discordapp.net/external/80e9NkMn20eJvYorlWAJ3hY5-iuFC5XcZU1xSbFtVPo/https/cdn4.telegram-cdn.org/file/K30FtxmXLnS557sIonCTKxRFK2M6HESx67SlxGp_Q-JbELJDXKVlS9J8hNYVl4gIR4XIkDgzQ_C5OfNJpGKKwEnPZxNAseHKKfwz7EMOrDdwC93RkoFQ_AjvGyUBQynRSVcNG46UmGW9uBgJRVi_uZPquQZmT-fE1RIT_XgBa03JWu_-qaZmcw4pIhlTOfl-ArFX_tCxiRr8uwKZvJjuFY70SJ85c14OHGyRX6yF60qqQ-LqhsieuGsgsnUPWbYxbKl791MrVdI6ixZd5CgHqppaZDd_dbIYx9REPFchpTkYMOnGJdhSv_6CGwZ_7isog_LloUo-t4liWL0fD5HciQ.jpg
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**
+5) delayed locked settlement.**
+
+This is a great idea for mitigating manipulation and drain. Instead of smoothing past oracle prices, sigmabank can take average of future prices before settlement.
+
+A whale could still manipulate price during the delay, but this is more difficult than the current setup. Long delay increases difficulty, but also reduces ease of use.
+
+This trade-off might be worth it, because the protocol has to be sustainable above all. That means taking all precautions against drain and manipulation.
+
+https://t.me/SigmaUSD/19655
+https://t.me/SigmaUSD/15864
+
+{Embed}
+https://t.me/SigmaUSD/19655
+Ile in SigmaUSD
+One way to stop sigmabank drain attacks due to oracle lag would be a delay in price setting.
+
+Examples:
+1) check price when tx is minted. Check price 1h later, if they are within 2% range, then execute, otherwise revert.
+
+2) calculate average across mint time and 24h after that, and execute with that price. 
+
+These are very bad in terms of usabi...
+https://images-ext-1.discordapp.net/external/80e9NkMn20eJvYorlWAJ3hY5-iuFC5XcZU1xSbFtVPo/https/cdn4.telegram-cdn.org/file/K30FtxmXLnS557sIonCTKxRFK2M6HESx67SlxGp_Q-JbELJDXKVlS9J8hNYVl4gIR4XIkDgzQ_C5OfNJpGKKwEnPZxNAseHKKfwz7EMOrDdwC93RkoFQ_AjvGyUBQynRSVcNG46UmGW9uBgJRVi_uZPquQZmT-fE1RIT_XgBa03JWu_-qaZmcw4pIhlTOfl-ArFX_tCxiRr8uwKZvJjuFY70SJ85c14OHGyRX6yF60qqQ-LqhsieuGsgsnUPWbYxbKl791MrVdI6ixZd5CgHqppaZDd_dbIYx9REPFchpTkYMOnGJdhSv_6CGwZ_7isog_LloUo-t4liWL0fD5HciQ.jpg
+
+{Embed}
+https://t.me/SigmaUSD/15864
+Ile in SigmaUSD
+I though of an additional mechanism to add to the list of ideas to discuss.
+
+What if the contract interactions would get locked in case of fast price decrease?
+
+For example, if the price would drop 5% between two oracle updates, then sigUSD purchases and sigRSV redeems would not go through. 
+
+Technically, the price change is already checked for ...
+https://images-ext-1.discordapp.net/external/80e9NkMn20eJvYorlWAJ3hY5-iuFC5XcZU1xSbFtVPo/https/cdn4.telegram-cdn.org/file/K30FtxmXLnS557sIonCTKxRFK2M6HESx67SlxGp_Q-JbELJDXKVlS9J8hNYVl4gIR4XIkDgzQ_C5OfNJpGKKwEnPZxNAseHKKfwz7EMOrDdwC93RkoFQ_AjvGyUBQynRSVcNG46UmGW9uBgJRVi_uZPquQZmT-fE1RIT_XgBa03JWu_-qaZmcw4pIhlTOfl-ArFX_tCxiRr8uwKZvJjuFY70SJ85c14OHGyRX6yF60qqQ-LqhsieuGsgsnUPWbYxbKl791MrVdI6ixZd5CgHqppaZDd_dbIYx9REPFchpTkYMOnGJdhSv_6CGwZ_7isog_LloUo-t4liWL0fD5HciQ.jpg
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**6) stability fee for holding sigusd.
+**
+This is not compatible for supporting the needs of the real economy. 
+
+For a trading instrument such fee is a good idea.
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**7) auctions for purchases of rsv.
+**
+Auctions are an interesting approach. They hold potential for removing oracle. However, this approach might need a completely new protocol.
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**8) Protocol controlled equity.
+**
+This is important. Market chosen level of collateral will always drive risk too high. Sigmabank should take a very small proportion of the fees to start building protocol owned equity (POE). For example, 5% of gathered fees, which is less than the UI fee.
+
+Initially it would not make any difference. At 400% POE human rsv holders would always be able to exit. At 800% POE humans might lose incentive to hold rsv due to diluted profits. If the RR drops back down, humans can re-enter. 
+
+At 1200% POE the reserve would be on such a safe level, that no competitor could offer as high stability guarantee. Together with dynamic fees, sigmabank could also become cheaper than competitors.
+
+However, it should not grow indefinitely. At 10000% POE the stability would not be materially different, but it would become a huge incentive for oracle pool to collude to steal the reserve. Therefore, at for example 1200% POE, excess retuns could be moved to a separate smart contract, which slowly distributes the pot to oracle pool members.
+
+This way, sigmabank would have built in support and incentive for continued oracle pool members, which it relies on.
+
+https://t.me/SigmaUSD/19087
+
+{Embed}
+https://t.me/SigmaUSD/19087
+Ile in SigmaUSD
+This made me think of an addition to SIPs. 
+
+I have been arguing for removing humans from the collateral provision side. What if a small part of the fees would be used to buy rsv, which would never be redeemed?
+
+That would reduce the rsv holder yield, but make it safer for them to exit. It would make the protocol more stable in general, when par...
+https://images-ext-1.discordapp.net/external/80e9NkMn20eJvYorlWAJ3hY5-iuFC5XcZU1xSbFtVPo/https/cdn4.telegram-cdn.org/file/K30FtxmXLnS557sIonCTKxRFK2M6HESx67SlxGp_Q-JbELJDXKVlS9J8hNYVl4gIR4XIkDgzQ_C5OfNJpGKKwEnPZxNAseHKKfwz7EMOrDdwC93RkoFQ_AjvGyUBQynRSVcNG46UmGW9uBgJRVi_uZPquQZmT-fE1RIT_XgBa03JWu_-qaZmcw4pIhlTOfl-ArFX_tCxiRr8uwKZvJjuFY70SJ85c14OHGyRX6yF60qqQ-LqhsieuGsgsnUPWbYxbKl791MrVdI6ixZd5CgHqppaZDd_dbIYx9REPFchpTkYMOnGJdhSv_6CGwZ_7isog_LloUo-t4liWL0fD5HciQ.jpg
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**9) unrestricted sale of rsv.
+**
+Does not seem attractive. The video mentions simultaneous sell, which is a great idea, and I made a separate point (19) on it below.
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**10) invest reserve.
+**
+No. This is an external dependency and risk. Also needs governance.
+
+Good idea for managed stablecoin, but I do not support this for sigmabank.
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**11) add charts.** Up to UI provider.
+**12) zero governance.**
+
+100% agree. Governance is a source of instability and path to tradfi and central banking.
+
+Such stability maximalism is a slow path to success, because the financial sector moves slowly through booms and busts, and those who survive prove their worth only after a long time via the lindy effect.
+
+Immutable SC is scary. There could easily be some unforeseen bug or manipulation in the future. POE can help to mitigate the impact in such case.
+
+Even so, the way forward is to fix the bug and re-deploy. Over time, it will iterate into a superior design. Protocols with governance will always have capped security. That cap is the quality of human governance.
+
+https://www.ergoforum.org/t/a-proposal-for-a-public-good-stablecoin/3432
+
+{Embed}
+https://www.ergoforum.org/t/a-proposal-for-a-public-good-stablecoin/3432
+A proposal for a public good stablecoin
+Summary  We propose a design for an extremely resilient decentralized algorithmic stablecoin. It has two major differences compared to the current stablecoins in the cryptomarket. First, no governance. Contrary to common intuition, relying on human judgement in a time of crisis is not a source of stability. Instead, a clear transparent code is s...
+https://images-ext-2.discordapp.net/external/O4pbt1yr6c9DdQM9k3V9JDSwWMl7Omw31fToBQLEV-g/https/global.discourse-cdn.com/standard14/uploads/ergoforum/original/2X/8/82a041b8d7dc7b2805adfde8832e372d0bf43ca7.png
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**13) different peg or backing. Different instantiation.
+14) liquidity pools across deployments. External dependence.
+15) UI improvement. Up to UI provider.
+16) debt to equity swap.
+**
+No. If reserves go under 100% for some non-wick period, then the protocol has failed in my view. Better fix and re-deploy, than try to revive with future-profit promises.
+
+Sigusd holders are still getting their fair share, and they probably had time to exit.
+
+https://www.ergoforum.org/t/lessons-for-sigmausd-from-the-djed-paper/2345
+
+{Embed}
+https://www.ergoforum.org/t/lessons-for-sigmausd-from-the-djed-paper/2345
+Lessons for sigmausd from the DJED paper
+Dear all,  DJED paper:   TLDR  minimal djed = sigmausd  Extended djed seeks to correct the following shortcomings: Reserve draining attack (read bearwhale), wholesale discount (buying in one tx is cheaper than the same amount with multiple tx, because the price changes in between), Zero equity (at 100% reserve ratio, reservecoin is worthless), r...
+https://images-ext-1.discordapp.net/external/jEQF8ZlreIoD2T5pkDYhdXSZ8nuKl8BP0ci8w1Z2zE8/https/global.discourse-cdn.com/standard14/uploads/ergoforum/original/1X/6ddaa9cd6102a55f417821b8ceece43dbe730113.jpeg
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**17) treasury and ui fees.
+18) integrations. Current sigmabank has to be able to stand on its own.
+**
+https://t.me/SigmaUSD/18856
+
+{Embed}
+https://t.me/SigmaUSD/18856
+Ile in SigmaUSD
+@Armeanio , could you expand on this? What is the downside of integrating sigusd outside of Ergo ecosystem? 
+
+I see this more as a risk for those stablecoins that are backed with interconnected coins. 
+
+Or if the protocol relies on having main liquidity in some external service.
+
+But with sigmausd, the collateral is erg only, and main liquidity ...
+https://images-ext-2.discordapp.net/external/b4R4aI1v9FvgL7ofrdhlgpSIqdTt0MXuiUCXTfp0cpA/https/cdn4.telegram-cdn.org/file/BiyEaYRHtjlwXhnB1eK7UtTmB9jMKTX7cbiGFftvavbolFvLiN8uWSxyLi1P9QTMPK-vY78sGjKTtMv_CGFaJzbFIbf_J0g6sLv77LBqnkZxUEQW2_nUc28HkFn4DrNmbapCCtpKtQZbvaGCI59-C4Jh7TFpy6wxc7andD4n5ruRm3JrJf78-ciSJgUOfpKQo2v5gqaD0FCmDxrrApotrRqJMpyXMUS0zW-dr-pLzEUDKhnM_PdG4yxRVlYU_-aZ4xJ_skjPJS-wWxHSLTx0aR8U23QnsbA8zVZgzWn60GcvRwOmkif0-PuZ1VZi7KTeJrXpn7lxRLd_N6a4x0Bl7Q.jpg
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**19) simultaneous mint/redeem.
+**
+This seems like an easy no-brainer. Mint and redeem in such sigusd/rsv ratio that keeps reserve ratio unchanged should always be possible.
+
+This enables external markets to balance prices via arbitrage within some range.
+
+https://t.me/SigmaUSD/18004
+https://t.me/SigmaUSD/18696
+
+{Embed}
+https://t.me/SigmaUSD/18004
+Klaus in SigmaUSD
+Yeah, sure. It should be a fair deal at the time of the deal. 
+
+Your argument hints at introducing a fee market. Something like an order-book of reserve providers where they can choose for which fee they offer their reserves. Similar to providing insurance or lending markets e.g. on KuCoin.
+https://images-ext-1.discordapp.net/external/80e9NkMn20eJvYorlWAJ3hY5-iuFC5XcZU1xSbFtVPo/https/cdn4.telegram-cdn.org/file/K30FtxmXLnS557sIonCTKxRFK2M6HESx67SlxGp_Q-JbELJDXKVlS9J8hNYVl4gIR4XIkDgzQ_C5OfNJpGKKwEnPZxNAseHKKfwz7EMOrDdwC93RkoFQ_AjvGyUBQynRSVcNG46UmGW9uBgJRVi_uZPquQZmT-fE1RIT_XgBa03JWu_-qaZmcw4pIhlTOfl-ArFX_tCxiRr8uwKZvJjuFY70SJ85c14OHGyRX6yF60qqQ-LqhsieuGsgsnUPWbYxbKl791MrVdI6ixZd5CgHqppaZDd_dbIYx9REPFchpTkYMOnGJdhSv_6CGwZ_7isog_LloUo-t4liWL0fD5HciQ.jpg
+
+{Embed}
+https://t.me/SigmaUSD/18696
+Ile in SigmaUSD
+Simultaneous minting.
+
+Allow minting sigusd and rsv in current ratio in one tx at any rr. For example, at 300%rr I send 4 erg (+0.08 fee) to sigmabank, and I get 1 erg worth of sigusd and 3 erg worth of rsv. 
+
+(This could be combined with a less aggressive set of dynamic fees, to get the push toward a balanced target like 500%rr.)
+
+Locking: the ...
+https://images-ext-1.discordapp.net/external/80e9NkMn20eJvYorlWAJ3hY5-iuFC5XcZU1xSbFtVPo/https/cdn4.telegram-cdn.org/file/K30FtxmXLnS557sIonCTKxRFK2M6HESx67SlxGp_Q-JbELJDXKVlS9J8hNYVl4gIR4XIkDgzQ_C5OfNJpGKKwEnPZxNAseHKKfwz7EMOrDdwC93RkoFQ_AjvGyUBQynRSVcNG46UmGW9uBgJRVi_uZPquQZmT-fE1RIT_XgBa03JWu_-qaZmcw4pIhlTOfl-ArFX_tCxiRr8uwKZvJjuFY70SJ85c14OHGyRX6yF60qqQ-LqhsieuGsgsnUPWbYxbKl791MrVdI6ixZd5CgHqppaZDd_dbIYx9REPFchpTkYMOnGJdhSv_6CGwZ_7isog_LloUo-t4liWL0fD5HciQ.jpg
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**20) nonmatching lock
+**
+Good easy addition.
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+**21) zero equity
+**
+At 100% Rsv is worthless. I dont think this is a problem (need to re-read djed paper if there was some rsv mint problem here). Rsv holders are supposed to carry the risk. No need to protect their equity.
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+***
+
+Here are two example action plans, depending on the dev resources and ambition to improve.
+
+The SIPs could be done sperately with one month between every change, or all at the same time. After all the changes, there could be 3 month period to monitor and evaluate. If all goes well, then burn keys at the end of that period
+
+Light weight.
+
+19) simultaneous mint
+20) nonmatching lock
+3) transaction limits
+8) POE
+12) zero gov
+
+Heavy weight.
+
+19) simultaneous mint
+20) nonmatching lock
+5) delayed settlement
+4) dynamic fees
+8) POE
+3) transaction limits
+12) zero gov
+
+Especially for the second case, it might be better to upgrade in steps, to monitor how the changes interact.
+
+Take this as a start of a discussion
+
+
+[02/10/2023 12:55 PM] SIP Enthusiast#0000
+***
+
+The main problem of sigmausd is the drain of the reserves. Currently it is not clear how profitable it is for rsv holders over time. These SIPs might well tip the balance onto the profitable side by mitigating manipulation.
+
+A secondary problem is that providing reserves is not capitally efficient from the rsv holder point of view. It might be difficult to find capital to scale. POE and the Lindy effect might be a way for long term success. 
+
+A third problem is the governance. From the outside, there is no reason to trust the key holders. One can't even verify if they are all held by one person or not. This is an obstacle for placing long term trust in sigmausd. No governance fixes this. 
+
+a fourth problem is that the dependence on oracle pool remains. Sharing profits to incentivize its decentralization makes it slightly more robust.
+
+
+[02/11/2023 6:26 AM] Armeanio#0321
+https://docs.google.com/document/d/1btfEVhPlJLK2OweAK2c1vY67cYE8hHULvxOA12G_5dk/edit#
+
+{Embed}
+https://docs.google.com/document/d/1btfEVhPlJLK2OweAK2c1vY67cYE8hHULvxOA12G_5dk/edit
+SigmaUSD Hack SIP
+ErgoHack SIGUSD
+https://images-ext-1.discordapp.net/external/w7Ik5S36nIWkqldTRwbON6LwiMsSsjjQdXyffgfEx5E/https/lh6.googleusercontent.com/80uWW5MemNrH6vhiLfkntI0QOZIEubE0d3jYDs7Brxknp_ZcITKiv0E0R1RsR0JmGIC6mYOnIZco0g%3Dw1200-h630-p
+
+{Reactions}
+ergo_orange (2) 👀 (4) 👍 (2) 
+
+[02/16/2023 3:35 PM] glasgowm#9381
+https://github.com/ergoplatform/sips
+
+{Embed}
+https://github.com/ergoplatform/sips
+GitHub - ergoplatform/sips: SigmaUSD Improvement Proposals
+SigmaUSD Improvement Proposals . Contribute to ergoplatform/sips development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/8Dz2d-MrNCmqSxVABF_1QDSlAx81TjI6nY272cv6nl8/https/opengraph.githubassets.com/98a245a87fc980d2104a8ea09d44efd9ece60e4117b2bd9471c287fc2851df1a/ergoplatform/sips
+
+
+[02/16/2023 4:36 PM] glasgowm#9381
+What section is non-matching lock on in the video @anon3165 ?
+
+
+[02/16/2023 4:54 PM] glasgowm#9381
+I've put these up on GitHub
+
+https://github.com/ergoplatform/sips/discussions/17
+
+{Embed}
+https://github.com/ergoplatform/sips/discussions/17
+SIP Strategy · Discussion #17 · ergoplatform/sips
+Taken from SIP Enthusiast during ERGOHACK VI Here are two example action plans, depending on the dev resources and ambition to improve. The SIPs could be done separately with one month between ever...
+https://images-ext-1.discordapp.net/external/Ib9Hia7NdPeS2gljMxqi752AeeABhIHzn8j_iQeGNkM/https/opengraph.githubassets.com/eb86433909c58a40c8a0a62169f9ce89b67efd047d72818c9abbeb8895bbfea4/ergoplatform/sips/discussions/17
+
+
+==============================================================
+Exported 23 message(s)
+==============================================================

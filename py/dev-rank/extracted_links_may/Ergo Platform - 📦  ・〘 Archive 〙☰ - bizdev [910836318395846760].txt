@@ -1,0 +1,181 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / bizdev
+==============================================================
+
+[11/18/2021 10:18 AM] glasgowm#9381
+```
+Good morning, I'm Cas from Komodo. I'm reaching out to you because our projects are both in the UTXO alliance- an initiative to kick start collaboration. We have succesfully launched some initiatives around UTXO partners in the past, and I'm keen to work together with you to raise both our profiles. Who would be the right person to speak to about this, please?
+
+Thanks,
+Cas
+```
+casaddison@komodoplatform.com
+
+{Reactions}
+🤩 
+
+[11/22/2021 9:39 PM] mhs_sam#1471
+"Hi,
+
+ First, let me introduce myself a little bit.
+
+ 
+
+I am Atakan, 
+
+I am a young 17 year old entrepreneur who wants to study International Economics and Finance. At the same time, I am someone who has initiatives and continues to produce.
+
+If you like my project and you can help with some issues by giving grants about it. Thanks to you, I will be able to finish my university degree abroad. Please take a look at what I wrote. I am sure you will like it. 🙂
+
+ 
+
+Now that I've told a little about myself, let's talk a little bit about the project.
+
+ 
+
+There is a Launchpad project that I have been working on for months. I think it's time to raise this issue.
+
+ 
+
+If you wish, we can earn extra coins for people who lock ERGO from the ready Stake Pool with this method. To reduce the circulating supply, Ergo can participate in pre-sales by creating Liquidity for the Special Launchpad token. We can issue special Launchpad tokens to these people, provided they lock the ERGO. This is a very open project, please think again. And hold the hand of a young man with dreams.
+
+ 
+
+I will make you proud. And I will do my best for this community. I am waiting for your support. I am really excited and passionate. I want to create wonders if you give me the opportunity.
+
+Please take a look at the slide presentation I prepared. It won't take much of your time. And you won't regret it. I look forward to your positive or negative comments. Thanks for listening to me. 
+
+ 
+
+(If you have any questions, please do not hesitate to let me know. Or, please tell me the places you don't like, the situations where you think it would be better if it was like this. Ultimately, we're going to build the best Launchpad platform ever. Exchange of ideas will of course be nice.)"
+
+
+[11/22/2021 9:40 PM] mhs_sam#1471
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/910836318395846760/912457485275779102/Big_Launchpad_Project_Vanir.pptx
+
+
+[11/22/2021 9:40 PM] mhs_sam#1471
+atakankendir15@gmail.com
+
+
+[12/01/2021 9:47 PM] kushti#0978
+what can we do with that ?
+
+
+[04/08/2022 3:48 PM] glasgowm#9381
+```
+@liquid_phase
+Dan mentioning in the update that he wants the community to get an investment package together
+that's right up my alley
+Let me know if my experience can be of value there, would love to participate in the bridging of blockchain and eneterprise/legacy
+```
+This guy is keen to help out - cv attached @Dan - Cardano @Armeanio
+
+{Attachments}
+https://cdn.discordapp.com/attachments/910836318395846760/962000867832242247/Michael_Belanger_-_CV_2021.pdf
+
+
+[05/10/2022 3:25 PM] glasgowm#9381
+fyi @Armeanio
+
+{Attachments}
+https://cdn.discordapp.com/attachments/910836318395846760/973591643427057724/unknown.png
+
+
+[05/10/2022 3:26 PM] glasgowm#9381
+@texas_miner
+
+
+[05/10/2022 4:32 PM] Armeanio#0321
+Stablecoins are difficult to get on exchanges in terms of conditions. 
+
+With the amount of liquidity that exists in sigusd, I would even say it is very premature. 
+
+The problem we would have is supply and market making on exchanges to make the peg efficient. It is much better suited in the ecosystem for now where users have access to the contract and dexes. 
+
+If Erg had a much higher cap it would probably be worth looking into... but it would need a lot of liquidity depth and serious MM to keep the peg.
+
+
+[05/10/2022 4:32 PM] Armeanio#0321
+Just not enough supply yet to be viable.
+
+
+[05/26/2022 3:52 PM] glasgowm#9381
+I was thinking OTC may be possible via GW? 
+
+Maybe a good idea to also write a script to arb some of the EF into SigUSD when possible to try and build a reserve in the liquidity pool without adding to the sell pressure.
+
+
+[06/01/2022 3:36 PM] Armeanio#0321
+GW? Sorry to early for acronyms here.
+
+
+[06/01/2022 3:55 PM] glasgowm#9381
+Goodwhale
+
+
+[06/16/2022 1:12 PM] glasgowm#9381
+liquid_phase — Today at 00:16
+
+another interesting thing happened
+one of the other distribution partners met with me to discuss using their API to aggregate. 
+
+They also do web 3 stuff on Beatcoin on ethereum. when they asked me if i was into that i told them about ergo and why we would not want to develop on ethereum based services, and then what we were doing on ergo. Their minds were blown, they said that our vision is 1 million % in alignment with theirs and they are going to be researching ergo now. This team literally works with Brian Eno
+
+I now have a meeting to talk with their founder who is a web 3 proponent/music publisher who is basically kind of a big deal in the publishing space presently
+they said their goals are basically the same as mine for open royalties and connecting directly the fan and musician - but i explained to them that they would never be able to do it in a sustainable way on something like ethereum
+this should be interesting
+
+{Reactions}
+👍 (3) 
+
+[09/06/2022 4:40 PM] CW#8500
+TG handle: @JKL_Pat
+
+Pat reached out with this proposal, JKL has shown interest and reached out a couple of times to various, be good to explore further
+
+{Attachments}
+https://cdn.discordapp.com/attachments/910836318395846760/1016734744815353896/unknown.png
+
+
+[09/06/2022 4:41 PM] CW#8500
+https://www.jkl.group/
+
+
+[09/06/2022 4:51 PM] Justin1000#9555
+I think they are worth taking seriously until we know otherwise. Feel free to offer face-to-face meeting with me if think is helpful. I told Yasha that too. Might get to bottom of things quicker that way.
+
+
+[09/07/2022 9:53 AM] CW#8500
+Hey mate, I suggested the possibility of a face to face meeting to Pat  earlier today. I'll let you know if/when I get a reply
+
+{Reactions}
+👍 
+
+[09/07/2022 2:50 PM] glasgowm#9381
+https://www.asia.token2049.com/speakers
+
+Lots of exchanges here, maybe worthwhile @Justin1000 ?
+
+{Embed}
+https://www.asia.token2049.com/speakers
+Speakers | TOKEN2049 | 28-29 September 2022 | Singapore
+TOKEN2049 brings together the leading voices in the crypto space. Learn from the people who are shaping the future of crypto.
+https://images-ext-1.discordapp.net/external/wSHbY8l7F4yJBbCHYnWwODCH5S2Q-tRaTP8IJbqY0Rs/https/static.wixstatic.com/media/d9129e_59f5521fc5154ceaa3fddfbf5989349c~mv2.png/v1/fill/w_1200%2Ch_630%2Cal_c/d9129e_59f5521fc5154ceaa3fddfbf5989349c~mv2.png
+
+
+[09/07/2022 2:57 PM] Justin1000#9555
+Yeah, I would consider going. But currently HK still has 3 days quarantine + 4 restricted movement upon arrival back. So don't think I will be traveling for now. Think policy is going to change in November.
+
+
+[09/07/2022 2:59 PM] Justin1000#9555
+@kushti Wow, Gleb Kostarev is on the list and is now head of Asia for Binance.
+
+
+==============================================================
+Exported 21 message(s)
+==============================================================

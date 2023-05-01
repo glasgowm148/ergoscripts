@@ -1,0 +1,110 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / financial-planning
+==============================================================
+
+[09/01/2022 4:49 AM] Armeanio#0321
+So we have 150k in marketing saved with Houbi 
+
+A year in market making will be paid upfront. 
+
+Good time to start discuss financial planning/fundrasing @everyone
+
+
+[09/01/2022 4:51 AM] Armeanio#0321
+I think it would be wise to raise a minimum balance over the next month or two using the market maker. 
+
+Then build a longer term goal for stability/spendings once we reach this threshold.
+
+
+[09/01/2022 4:52 AM] Armeanio#0321
+It would be good to use this interm time to get ahead with a goal for minimum on hand. 
+
+Then work towards estimating the next listing cost.
+
+
+[09/01/2022 4:54 AM] Armeanio#0321
+I would propose the minimum usdt on hand be set at 200k.
+
+{Reactions}
+👍 (2) 
+
+[09/01/2022 4:55 AM] Armeanio#0321
+For liquidity growth I am considering putting some personal funds with the MM on the erg/btc pair.  
+
+Minimize impermanent loss vs usdt and try to increase volume potential.
+
+
+[09/01/2022 5:43 AM] Justin1000#9555
+Yes, I agree with all this and was also going to suggest the $200k number for minimal balance to maintain. I am  not sure we should maintain a higher balance if the price is below $10 but debatable and indeed if we had pretty high certainty next listing was coming and was going to be a high cost in USDT, then it would be a good idea to raise more even at sub-$10 prices.
+
+{Reactions}
+👍 (3) 
+
+[09/02/2022 3:58 PM] Armeanio#0321
+Do I need to write up a proposal for the creating a fundraise/minimal balance of USDT around the listing or can this be voted on here?
+
+{Reactions}
+👍 (4) 
+
+[09/02/2022 4:01 PM] Armeanio#0321
+@everyone
+
+
+[09/19/2022 1:14 AM] Armeanio#0321
+Set up a monitoring desk - 
+So we can track EF holdings on exchanges. 
+
+https://monitoring.cls.global/login
+login: ERG
+password: Vfx8WRq3
+
+{Reactions}
+👍 
+
+[09/19/2022 1:14 AM] Armeanio#0321
+@everyone we need to discuss fundraising 
+
+I would recommend we start with the goal of 200k usdt.
+
+
+[09/19/2022 1:15 AM] Armeanio#0321
+Balances for now are somewhat useluss since reporting just started but should provide a clear view moving forward.
+
+
+[09/19/2022 1:17 AM] Armeanio#0321
+This can allow us to track cashout goals etc
+
+
+[12/14/2022 6:08 AM] Justin1000#9555
+For SPF liquidation, I think we are going to need to assume we sell ALL of the SPF tokens and we need to have a systematic liquidation proposal that:
+-Takes human decision making out of the loop as we are not a discretionary fund.
+-Limits and makes predictable negative market impact.
+-Minimally compromises the interests of the seed investors – we don’t want to upset them because they are potential first round of VCs into Ergo. 
+-But still sells fast enough that the EF has sold all the tokens in 24-30 months – 1) we don’t want to take more risk than needed on SPF; 2) We might need the funds earlier rather than later.
+-And yes, we can maybe give some to Sigmanauts although personally I prefer to see us get a handle on the EF problems first. And if give to Sigmanauts we should make sure they also aware of sensitivities of selling them. Will be significant % of total outstanding tokens for the initial period!
+
+I will confirm a few details with Yasha on the seed round vesting etc and come up with something and propose it. Might be a little delayed though because so much going on this week. Of course others could also come up with proposals. I am wary myself of making it too complicated though!
+
+
+[12/14/2022 6:21 AM] Justin1000#9555
+Can also add in a term where we sell SPF faster if ERG price <$5 and at a slower pace if >$5 say 24 vs 36 months. Cuz we would need the money less.
+
+
+[12/14/2022 8:25 AM] mhs_sam#1471
+I agree with the whole plan with a few notes:
+- More than everything you mentioned, it's important to make it a good example for other projects. So, in the future more project be willing to assign some tokens to EF. You said it implicitly however.
+
+- by selling, you probably mean converting to Erg?
+
+- Potentially, we can do a combination of strategies to liquidate. For example, we can use different strategies for each 25% of tokens:
+-- a regular weekly liquidation in 1-2 years (regardless of price or need)
+-- AMM with Erg / Defi options like bonds / grid
+-- being validator in their network (idk, if possible)
+-- paying salaries and rewards (for example we can pay EF rewards with SPF while Erg price is <5)
+-- reserve for better prices and occasional liquidation and even buying back in lower prices. or like what you said, selling slower/faster in different conditions based on price/need.
+
+
+==============================================================
+Exported 15 message(s)
+==============================================================

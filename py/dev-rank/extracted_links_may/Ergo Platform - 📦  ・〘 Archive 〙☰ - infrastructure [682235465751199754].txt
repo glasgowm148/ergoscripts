@@ -1,0 +1,387 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / infrastructure
+==============================================================
+
+[02/26/2020 2:41 PM] kushti#0978
+so let's discuss infrastructural questions here @Ilya | Spectrum @greenhat @morphic
+
+
+[02/26/2020 2:51 PM] kushti#0978
+oh also @Dmitry Meshkov
+
+
+[02/26/2020 3:28 PM] greenhat#6562
+I have to admit the setup of our infra is way out of my league. I don't understand at least half of it.
+
+
+[02/26/2020 3:30 PM] greenhat#6562
+I've started to explore how current explorer deployment works. I've stuck at docker hub.  Do we have credentials (login, pass) for https://hub.docker.com/u/ergoplatform account?
+
+
+[02/26/2020 3:35 PM] greenhat#6562
+@deleted-role ☝️
+
+
+[02/26/2020 3:51 PM] kushti#0978
+@greenhat so "master password" isnt' working ?
+
+
+[02/26/2020 4:19 PM] greenhat#6562
+It working fine, I've used it to decrypt vaults in ansible repo. But there are only passwords from DBs (influx, pg).
+
+
+[02/26/2020 4:39 PM] morphic#4133
+@greenhat do you still need some additional credentials?
+
+
+[02/26/2020 4:53 PM] greenhat#6562
+> I've started to explore how current explorer deployment works. I've stuck at docker hub.  Do we have credentials (login, pass) for https://hub.docker.com/u/ergoplatform account?
+@morphic Yes. I'm stuck at docker hub account.
+
+
+[02/26/2020 4:56 PM] morphic#4133
+@greenhat Could you specify more concretely what you need? Since @kushti already sent you master password, it is not enough?
+
+
+[02/26/2020 5:03 PM] greenhat#6562
+@morphic Yes, it's not enough. I believe the term "master password" messes things up. This "master password" is from vaults in ansible repo. In those vaults I found only passwords to influx and postgresql DB instances. There is no credentials to https://hub.docker.com/u/ergoplatform I need to explore our current deployment workflow.
+
+
+[02/26/2020 5:08 PM] greenhat#6562
+Actually, since  https://hub.docker.com/u/ergoplatform is organization and not a user, we need to find credentials of the owner of this org. So that owner can add me. @kushti @Dmitry Meshkov Please check if you have any account on hub.docker.com and if your account is the owner of the `ergoplatform` org.
+
+
+[02/26/2020 5:10 PM] greenhat#6562
+Although, I suspect @andyceo is the owner. @Ilya | Spectrum Do you see any details of the org? Who is the owner, etc.
+
+
+[02/26/2020 5:32 PM] Ilya | Spectrum#0494
+Probably @andyceo is owner. Is it problem to create new organization?
+
+
+[02/26/2020 5:41 PM] greenhat#6562
+No. New org is not a problem. But I don’t know how to setup the deployment of the built Docker images. That why I need to look at current org repos.
+
+
+[02/27/2020 6:05 AM] greenhat#6562
+So, I guess it's time for plan B - semi-manual deployment. We can create a new org `ergoplatform2` on docker hub and build docker images there, but deploy them manually. @Ilya | Spectrum Sounds good?
+
+
+[02/27/2020 6:06 AM] morphic#4133
+Let's ask @andyceo for owner password.
+
+
+[02/27/2020 6:36 AM] Ilya | Spectrum#0494
+> So, I guess it's time for plan B - semi-manual deployment. We can create a new org `ergoplatform2` on docker hub and build docker images there, but deploy them manually. @Ilya | Spectrum Sounds good?
+I think it's ok for the first time
+
+
+[02/27/2020 6:37 AM] Ilya | Spectrum#0494
+Though I still have no idea how to build multi project with one dockerfile
+
+
+[02/27/2020 6:52 AM] greenhat#6562
+@Ilya | Spectrum Do you want to build a separate image for grabber?
+
+
+[02/27/2020 6:53 AM] greenhat#6562
+Or put all jars in one image?
+
+
+[02/27/2020 7:38 AM] Ilya | Spectrum#0494
+I want to build api, grabber, utx-tracker in separate images
+
+
+[02/27/2020 7:39 AM] Ilya | Spectrum#0494
+In order to be able to update them separately
+
+
+[02/27/2020 8:22 AM] kushti#0978
+@Dmitry Meshkov do you have a phone of andyceo maybe ?
+
+
+[02/27/2020 8:48 AM] greenhat#6562
+@Ilya | Spectrum I’d make a separate repo in Docker hub for each image. All pointing to the same GitHub repository. Put Dockerfile for each image in project subdirectory and set custom Dockerfile location (not root). Check out https://docs.docker.com/docker-hub/builds/
+
+{Embed}
+https://docs.docker.com/docker-hub/builds/
+Set up automated builds
+How Automated Builds work Docker Hub can automatically build images from source code in an external repository and automatically push the built image to your Docker repositories. When you set...
+https://images-ext-1.discordapp.net/external/PCdDm6urnPkiAPvp45QDT_2Y3DllavgTjTRnm7_yg9w/https/docs.docker.com/favicons/docs%402x.ico
+
+
+[02/27/2020 8:52 AM] Ilya | Spectrum#0494
+@greenhat, I've tried to do it this way but it turned out dockerfile disallows referring directories from the outer scope (sbt <project_id>/assembly must be executed from root project, while dockerfile is in root/modules/project)
+
+
+[02/27/2020 11:32 AM] greenhat#6562
+@Ilya | Spectrum Seems like build context should help. https://stackoverflow.com/questions/27068596/how-to-include-files-outside-of-dockers-build-context
+
+{Embed}
+https://stackoverflow.com/questions/27068596/how-to-include-files-outside-of-dockers-build-context
+How to include files outside of Docker's build context?
+How can I include files from outside of Docker's build context using the "ADD" command in the Docker file?
+
+From the Docker documentation:
+  The  path must be inside the context of the build; you ...
+https://images-ext-1.discordapp.net/external/dP07hBXxuorGcvXU609uJ_e6ZgPlIdBxqG8OjQQiAyY/%3Fv%3D73d79a89bded/https/cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon%402.png
+
+
+[02/27/2020 11:33 AM] greenhat#6562
+Seems like default build context in hub repo set to `/` should do the job.
+
+
+[02/27/2020 11:35 AM] Ilya | Spectrum#0494
+@greenhat, ok, will try
+
+
+[02/29/2020 9:30 AM] Dmitry Meshkov#1652
+I think I should have an access to dockerhub, will check
+
+
+[02/29/2020 2:58 PM] kushti#0978
+@Dmitry Meshkov got in touch with andyceo he's claiming that you're admin there
+
+
+[03/01/2020 3:15 PM] Ilya | Spectrum#0494
+I've managed to setup explorer & infrastructure deployment manually using docker-compose (I think we can stick to this deployment scheme for a while as it requires very few actions)
+
+
+[03/01/2020 3:15 PM] Ilya | Spectrum#0494
+http://88.198.50.217:8081/api/v0/blocks
+
+
+[03/01/2020 3:19 PM] Ilya | Spectrum#0494
+Things to do:
+1. Create subdomain `explorer-new.ergoplatform.com` and add new server ip to DNS
+2. Setup nginx with SSL serts (existing or new)
+
+
+[03/01/2020 3:20 PM] Ilya | Spectrum#0494
+Alternatively, we can create proxy rule on the existing nginx such that all request starting from /api/v0 are passed to http://88.198.50.217:8081/api/v0
+
+
+[04/30/2020 9:59 AM] kushti#0978
+@Ilya | Spectrum @greenhat  Hey guys so let's figure out what to do with failing nginx (inside docker) on 188.166.109.25
+
+
+[04/30/2020 10:04 AM] kushti#0978
+From @greenhat "However, I cannot figure out how to deploy new nginx docker image. Can we bring back whatever was on explorer_back (ip 67.207.67.2)  on port 8080?"
+
+
+[04/30/2020 10:05 AM] kushti#0978
+Another option, if we can switch off nginx deployment within docker, I can setup standalone nginx with custom configs
+
+
+[04/30/2020 10:05 AM] kushti#0978
+Also, can we fix configs and deploy via ansible?
+
+
+[04/30/2020 10:14 AM] greenhat#6562
+I cannot comprehend ansible config enough to run it. Separate nginx instance sounds good.
+
+
+[04/30/2020 10:50 AM] jasondavies#8712
+Looks like docs.ergoplatform.com is down?
+
+
+[04/30/2020 11:52 AM] kushti#0978
+@jasondavies as well as many other (or all) subdomains of ergoplatform.com , figuring out what to do with nginx )
+
+
+[04/30/2020 11:53 AM] kushti#0978
+@greenhat @Ilya | Spectrum can we switch off auto-deployment of that nginx via ansible then?
+
+
+[04/30/2020 11:54 AM] Ilya | Spectrum#0494
+Let’s deploy new nginx instance
+
+
+[04/30/2020 11:54 AM] Ilya | Spectrum#0494
+Even in docker container
+
+
+[04/30/2020 11:55 AM] kushti#0978
+I 'm not familiar with docker much heh
+
+
+[04/30/2020 11:55 AM] greenhat#6562
+@kushti By auto-deployment you mean explorer deployment? I don't think nginx is a part of that deployment.
+
+
+[04/30/2020 12:27 PM] kushti#0978
+@greenhat ansible is auto-deploying that nginx container I guess ?
+
+
+[04/30/2020 12:27 PM] kushti#0978
+can I remove it manually ?
+
+
+[04/30/2020 12:37 PM] greenhat#6562
+@kushti I'm 99% sure that nginx along with other infra is not re-deployed on explorer deployment. I think infra deployment is done by manually launching some ansible playbook.
+
+
+[04/30/2020 12:44 PM] kushti#0978
+ok so then the plan is to install standalone nginx ?
+
+
+[04/30/2020 2:52 PM] kushti#0978
+@greenhat @Ilya | Spectrum last question gentlemen, why do we need for 2nd nginx, maybe one running on 88.198... is enough ?
+
+
+[04/30/2020 2:59 PM] greenhat#6562
+I don’t know. I don’t know their exact roles. In such cases I’d introduce only absolutely necessary changes.
+
+
+[04/30/2020 2:59 PM] Ilya | Spectrum#0494
+There are 2 nginx instances for mainnet and testnet explorers. 
+I’d prefer not to mix infrastructure related configs with explorer ones
+
+
+[04/30/2020 3:04 PM] kushti#0978
+@Ilya | Spectrum and that one failed ?
+
+
+[04/30/2020 3:05 PM] Ilya | Spectrum#0494
+Yes, 2 nginx instances except one that failed
+
+
+[04/30/2020 3:12 PM] kushti#0978
+@Ilya | Spectrum and nginx which is serving the website ?
+
+
+[04/30/2020 3:16 PM] Ilya | Spectrum#0494
+Probably, as far as website still functioning
+But I don’t know where it is located
+
+
+[04/30/2020 3:19 PM] kushti#0978
+88.198...
+
+
+[04/30/2020 3:19 PM] kushti#0978
+your niginx-es on another servers I guess ?
+
+
+[04/30/2020 3:57 PM] Ilya | Spectrum#0494
+88.198.50.217
+
+
+[04/30/2020 4:12 PM] kushti#0978
+haha I meant 88.198.13.202
+@Ilya | Spectrum both are on the same machine ?
+
+
+[04/30/2020 4:14 PM] Ilya | Spectrum#0494
+Only mainnet, testnet is on 167.99.44.242
+
+
+[05/01/2020 8:12 AM] kushti#0978
+So far only docs.ergoplatform.com is running, for jenkins. still getting upstream issue, any thoughts?
+
+
+[05/01/2020 8:16 AM] kushti#0978
+as infrastructure now is not centered around ansible, let's compile some document, where services live, how to reboot / redeploy them etc
+
+
+[05/04/2020 7:53 AM] gagarin55#2131
+no testnet anymore ?
+
+
+[05/04/2020 9:22 AM] kushti#0978
+@gagarin55 no one is mining there (
+
+
+[05/05/2020 10:27 AM] kushti#0978
+@Ilya | Spectrum do you use those explorer machines?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/682235465751199754/707161537260945418/download.png
+
+
+[05/05/2020 10:43 AM] Ilya | Spectrum#0494
+@kushti, yes
+```
+Explorer Testnet: 167.99.44.242
+Explorer Mainnet: 88.198.50.217
+Explorer Mainnet (replica): 167.71.14.34
+```
+
+
+[05/05/2020 11:42 AM] kushti#0978
+Finally, proxied Jenkins through nginx, but it gives some error
+
+
+[05/05/2020 11:42 AM] kushti#0978
+https://jenkins.ergoplatform.com/securityRealm/finishLogin?code=b4dfd33f4acf564b6701&state=sB08.IjBEXt7.fX7pf6ZeXU25Ih
+
+
+[05/05/2020 11:57 AM] kushti#0978
+any idea
+
+
+[05/05/2020 9:41 PM] kushti#0978
+Finally, Jenkins is accessible )
+
+{Reactions}
+😍 
+
+[05/05/2020 9:41 PM] kushti#0978
+Grafana is also, via ip:port
+
+
+[05/05/2020 9:42 PM] kushti#0978
+all the services inside docker , nginx outside
+
+
+[05/06/2020 7:33 AM] kushti#0978
+@greenhat can you please check that jenkins is configured and working properly ?
+
+
+[05/06/2020 7:42 AM] greenhat#6562
+@kushti I’m on it.
+
+
+[05/06/2020 8:02 AM] greenhat#6562
+@kushti jenkins agent on mainnet-seed-node-frankfurt is down. This node is used in ergo-it2 tests. https://jenkins.ergoplatform.com/computer/mainnet-seed-node-frankfurt/configure
+
+
+[05/06/2020 8:03 AM] greenhat#6562
+@kushti Jenkins master suppose to launch it on demand, but seems to be failing to do that.
+
+
+[05/06/2020 8:04 AM] greenhat#6562
+Here is the error: 
+```
+[05/06/20 06:56:35] [SSH] Opening SSH connection to 138.68.98.248:22.
+Operation timed out (Connection timed out)
+```
+via https://jenkins.ergoplatform.com/computer/mainnet-seed-node-frankfurt/log
+
+
+[05/06/2020 8:07 AM] kushti#0978
+@greenhat will check, thanks! so it tests working, it2 not ?
+
+
+[05/06/2020 8:34 AM] greenhat#6562
+@kushti yes, ergo-it tests are running now for last commit in nippopow branch. Please trigger them by pushing something in your branch. ergo-it2 tests are not starting cause the target jenkins agent on frankfurt node is down.
+
+
+[08/02/2020 5:51 PM] scalahub#2618
+How can we create webhooks on Ergo discord?
+
+
+[08/02/2020 8:48 PM] mx#5165
+done, we have now crosschat channel bpsaa-crosshat, what you post there will appear in bpsaa-externalchat in their discord
+
+{Reactions}
+👍 
+
+[08/02/2020 8:48 PM] mx#5165
+it is public channel
+
+
+==============================================================
+Exported 85 message(s)
+==============================================================

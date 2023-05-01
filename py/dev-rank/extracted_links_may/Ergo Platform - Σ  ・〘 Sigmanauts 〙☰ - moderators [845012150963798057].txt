@@ -1,0 +1,4896 @@
+==============================================================
+Guild: Ergo Platform
+Channel: Σ  ・〘 Sigmanauts 〙☰ / moderators
+Topic: https://sideways-stove-8c5.notion.site/Moderators-d44c6b41f09e43159b4a25cb210cb905
+==============================================================
+
+[05/20/2021 7:57 PM] glasgowm#9381
+@Ergonaut_Alpha I'll add the others here too but not sure their usernames. A comment automatically posts telling people to read the daily discussion, faq, and make sure their post doesn't belong in r/ergotrading or r/erg_miners
+
+
+[05/20/2021 8:23 PM] Ergonaut_Alpha#1583
+Like a PM that they receive when they follow the sub? Basically posting guidelines
+
+
+[05/20/2021 9:01 PM] Ergonaut_Alpha#1583
+Welcome message set . New adds will now receive a message asking them to 1) direct questions to the DD and FAQ section 2) direct mining posts to r/erg_miners 3) direct trading/buying posts to r/Ergotraders
+
+
+[05/20/2021 9:29 PM] glasgowm#9381
+I meant as a reply to the thread but that's an even better idea - thanks!
+
+
+[05/21/2021 2:38 AM] Ergonaut_Alpha#1583
+Ive set up the automod to remove any posts with mining or ELI5 in the title and gave it prompts to comment . I looked at the mod log and it was working already. Just need to get the timing right on the DD. I changed it to UTC +1
+
+
+[05/21/2021 8:20 AM] glasgowm#9381
+https://c.tenor.com/FbGYIDVztHEAAAAM/thanks-a-bunch-banana.gif
+
+{Embed}
+https://c.tenor.com/FbGYIDVztHEAAAAM/thanks-a-bunch-banana.gif
+https://images-ext-2.discordapp.net/external/6PhZrJEn87I4N3mHcuLY4IHHvWHSluS0tbo6Xhj-5K8/https/c.tenor.com/FbGYIDVztHEAAAAM/thanks-a-bunch-banana.gif
+
+
+[05/21/2021 10:06 AM] glasgowm#9381
+could you make the automod post the comment while the thread is still in the mod queue ?
+
+
+[05/21/2021 10:06 AM] glasgowm#9381
+cause this got removed, only noticed as I checked the mod log
+
+https://www.reddit.com/r/ergonauts/comments/nhjc1f/noob_tries_to_explain_sigmausdrsv_an_attempt_at/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/nhjc1f/noob_tries_to_explain_sigmausdrsv_an_attempt_at/
+r/ergonauts - Noob tries to explain SigmaUSD/RSV (an attempt at an ...
+1 vote and 1 comment so far on Reddit
+https://images-ext-2.discordapp.net/external/wVB2KZVng5_wnJYfK16O1zwCp5s6laQzoZ1vt0FrWEY/%3Fauto%3Dwebp%26s%3Dedc1cee2d95e9924f8b1936e9d846eb873522b18/https/external-preview.redd.it/0KH8qb1h0JkFfZwZuC4YXxT2unxDSC6K8k04_szLz90.jpg
+
+
+[05/21/2021 12:57 PM] Ergonaut_Alpha#1583
+I’ll check it out and figure out why that happened today
+
+
+[05/21/2021 2:24 PM] Ergonaut_Alpha#1583
+The post was removed because I have flagged “ELI5” in the tittle section in attempt to redirect questions to the DD and the FAQ section. Would we like to keep that action , remove , or edit? I’ve let the user know what happened
+
+
+[05/21/2021 4:00 PM] Ergonaut_Alpha#1583
+Ok automod is completely set to post the DD automatically at 0:00 UTC . The template is located in Mod Tools—> scheduled posts —> reoccurring posts
+
+
+[05/21/2021 4:00 PM] Ergonaut_Alpha#1583
+Comments will be sorted by *new*
+
+
+[05/21/2021 5:02 PM] Ergonaut_Alpha#1583
+I’ll add a link into the DD for u/dejfson sigmaUSD ELI5 post . @glasgowm do you want me to add back in the dated news information going back a couple days now that I have it figured out?
+
+
+[05/21/2021 5:32 PM] glasgowm#9381
+eh the action itself is fine, but stuff will end up getting missed if it is removed from modqueue too
+
+
+[05/21/2021 5:33 PM] glasgowm#9381
+yeh whatever you think. How did you figure out the news?
+
+
+[05/21/2021 6:06 PM] Ergonaut_Alpha#1583
+Sorry misunderstanding I think. I had removed the section of your DD template that had the individual dates with the linked posts almost like a “past featured” because initially I was writing this all on the wiki page in CSS but come to find out they have recently just integrated a template for reoccurring scheduled posts . So good experience for me. Bad time management 😆
+
+
+[05/25/2021 10:45 AM] glasgowm#9381
+All seems to be running pretty smoothly, thanks 🙂
+
+
+[05/25/2021 10:46 AM] glasgowm#9381
+I'm wondering if we can grab the top 5 posts in the past 24hrs and put them in the daily discussion? kinda auto-generating news
+
+
+[05/25/2021 11:05 AM] glasgowm#9381
+Can we add /r/ErgoNFTs to the autopost
+
+
+[05/26/2021 1:17 AM] Ergonaut_Alpha#1583
+I’ll see what I can find on that
+
+
+[05/26/2021 1:17 AM] Ergonaut_Alpha#1583
+Yes
+
+
+[05/27/2021 4:37 PM] Ergonaut_Alpha#1583
+Updated the automatic DD post. Haven’t got a chance to look into automating the top post feature on it yet but I will ASAP
+
+{Reactions}
+🤩 
+
+[05/29/2021 2:43 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/848194907138555924/unknown.png
+
+
+[05/29/2021 2:44 PM] glasgowm#9381
+Did you turn the automod message off on new posts @Ergonaut_Alpha ?
+
+
+[05/30/2021 3:31 AM] Ergonaut_Alpha#1583
+@glasgowm no I didn’t do anything
+
+
+[06/01/2021 3:55 PM] Ergonaut_Alpha#1583
+I looked into the automod . Seems like since we have got things running Reddit has been changing the UI for controlling the automod features . Everything seems to be on the up and up . I added another filter for any post with question in the title to be removed and redirected . If they the anything in particular it’s doing that it shouldn’t be I’d be happy to look into it
+
+
+[06/01/2021 4:01 PM] glasgowm#9381
+nice one cheers, what do you mean by `Everything seems to be on the up and up` ?
+
+
+[07/02/2021 10:30 AM] glasgowm#9381
+@Ergonaut_Alpha could you change it to weekly for now - thinking we link to the FAQ in that too so we have 1 free pinned slot to use
+
+
+[07/02/2021 10:31 AM] glasgowm#9381
+https://www.reddit.com/r/ergonauts/wiki/faq
+
+{Embed}
+https://www.reddit.com/r/ergonauts/wiki/faq
+faq - ergonauts
+r/ergonauts: Ergo, A Resilient Platform For Contractual Money Ergo builds advanced cryptographic features and radically new DeFi functionality on …
+
+
+[07/02/2021 10:41 AM] Ergonaut_Alpha#1583
+Copy that. I’ll get it done today
+
+
+[07/02/2021 10:44 AM] Ergonaut_Alpha#1583
+I’ll also update the posts body to add the ergoversary announcements and info
+
+
+[07/02/2021 3:41 PM] glasgowm#9381
+ty
+
+
+[07/02/2021 5:08 PM] Ergonaut_Alpha#1583
+Daily discussion has been updated to weekly and new relevant information has been updated
+
+
+[07/02/2021 5:15 PM] Ergonaut_Alpha#1583
+Ive also changed the auto responses and any reference on “daily” to weekly
+
+
+[07/02/2021 5:29 PM] glasgowm#9381
+legend
+
+
+[07/02/2021 5:38 PM] Ergonaut_Alpha#1583
+I’m not sure why but it seems like every post and comment is requiring approval in the modque . I tried to look around the community settings to adjust it so that we don’t get a massive backlog of things to approval but it’s unclear if it’s been fixed
+
+
+[07/02/2021 5:40 PM] glasgowm#9381
+yeh I changed it to that as we were getting like 30 posts a day and the page was just spam. Can probably be disabled for now
+
+
+[07/02/2021 5:40 PM] glasgowm#9381
+unless we go up...
+
+
+[07/02/2021 5:40 PM] glasgowm#9381
+not comments though, just posts
+
+
+[07/02/2021 5:41 PM] glasgowm#9381
+comments that appear there are normally people that have either been shadow banned or removed by reddit's filters
+
+
+[07/02/2021 6:00 PM] glasgowm#9381
+i cant find the setting either now tho :/
+
+
+[07/03/2021 5:29 PM] Ergonaut_Alpha#1583
+I think I got it yesterday Glasgow .
+
+
+[07/03/2021 5:30 PM] Ergonaut_Alpha#1583
+Found it
+
+
+[07/16/2021 4:56 PM] Ergonaut_Alpha#1583
+What’s everyone’s opinions about implementing a min. Karma requirement on posts? Something small like 50 to avoid the spam
+
+
+[07/16/2021 6:45 PM] glasgowm#9381
+Sure
+
+
+[07/25/2021 9:43 AM] glasgowm#9381
+should the weekly not be reposted by now @Ergonaut_Alpha
+
+
+[08/04/2021 10:31 PM] Ergonaut_Alpha#1583
+Apologies I didn’t see this but yes the weekly got axed somehow and then I rescheduled it with a date error. All is fixed now
+
+{Reactions}
+👍 
+
+[08/04/2021 10:31 PM] Ergonaut_Alpha#1583
+@glasgowm
+
+
+[08/04/2021 10:32 PM] Ergonaut_Alpha#1583
+I have discord loaded on my new phone and and reachable here again
+
+
+[08/07/2021 3:51 PM] glasgowm#9381
+!!githubcards
+
+
+[08/07/2021 3:51 PM] PhenoBot#9345
+
+
+{Embed}
+PhenoBot Help Menu
+```
+Syntax: !!githubcards 
+Alias: !!ghc
+```
+GitHubCards settings.
+​
+**__Subcommands:__**
+**add** Add a new GitHub repository with the given prefix.
+**instructions** Learn on how to setup GHC
+**list** List all prefixes for GitHub Cards in this server.
+**remove** Remove a GitHub repository with its given prefix.
+Type !!help <command> for more info on a command. You can also type !!help <category> for more info on a category.
+
+
+[08/07/2021 3:51 PM] glasgowm#9381
+!!ghc instructions
+
+
+[08/07/2021 3:51 PM] PhenoBot#9345
+Begin by creating a new personal token on your GitHub Account here;
+<https://github.com/settings/tokens>
+
+If you do not trust this to your own account, its recommended you make a new GitHub account to act for the bot.
+No additional permissions are required for public repositories, if you want to fetch from private repositories, you require full "repo" permissions.
+
+Copy your newly created token and go to your DMs with the bot, and run the following command.
+``[p]set api github token [YOUR NEW TOKEN]``
+
+Finally reload the cog with ``[p]reload githubcards`` and you're set to add in new prefixes.
+
+
+[08/07/2021 3:52 PM] PhenoBot#9345
+`github` API tokens have been set.
+
+
+[08/07/2021 3:52 PM] glasgowm#9381
+!!reload githubcards
+
+
+[08/07/2021 3:52 PM] PhenoBot#9345
+Reloaded `githubcards`.
+
+
+[08/07/2021 3:52 PM] glasgowm#9381
+!!githubcards
+
+
+[08/07/2021 3:52 PM] PhenoBot#9345
+
+
+{Embed}
+PhenoBot Help Menu
+```
+Syntax: !!githubcards 
+Alias: !!ghc
+```
+GitHubCards settings.
+​
+**__Subcommands:__**
+**add** Add a new GitHub repository with the given prefix.
+**instructions** Learn on how to setup GHC
+**list** List all prefixes for GitHub Cards in this server.
+**remove** Remove a GitHub repository with its given prefix.
+Type !!help <command> for more info on a command. You can also type !!help <category> for more info on a category.
+
+
+[08/07/2021 3:53 PM] glasgowm#9381
+!!lghc list
+
+
+[08/07/2021 3:53 PM] glasgowm#9381
+!!ghc list
+
+
+[08/07/2021 3:53 PM] PhenoBot#9345
+There are no configured GitHub repositories on this server.
+
+
+[08/07/2021 3:53 PM] glasgowm#9381
+!!ghc add
+
+
+[08/07/2021 3:53 PM] PhenoBot#9345
+
+
+{Embed}
+PhenoBot Help Menu
+```
+Syntax: !!githubcards add <prefix> <github_slug>
+```
+Add a new GitHub repository with the given prefix.
+Format for adding a new GitHub repo is "Username/Repository"
+Type !!help <command> for more info on a command. You can also type !!help <category> for more info on a category.
+
+
+[08/07/2021 3:53 PM] glasgowm#9381
+!!help githubcards add
+
+
+[08/07/2021 3:53 PM] PhenoBot#9345
+
+
+{Embed}
+PhenoBot Help Menu
+```
+Syntax: !!githubcards add <prefix> <github_slug>
+```
+Add a new GitHub repository with the given prefix.
+Format for adding a new GitHub repo is "Username/Repository"
+Type !!help <command> for more info on a command. You can also type !!help <category> for more info on a category.
+
+
+[08/07/2021 3:54 PM] glasgowm#9381
+!!ghc add ? https://github.com/ergoplatform/ergo
+
+{Embed}
+https://github.com/ergoplatform/ergo
+GitHub - ergoplatform/ergo: Ergo protocol description & reference c...
+Ergo protocol description & reference client implementation - GitHub - ergoplatform/ergo: Ergo protocol description & reference client implementation
+https://images-ext-2.discordapp.net/external/dhWFYgk6KDGfC7NkxRzd9GjGSpS7PbI6QU2ObDOq-ls/https/opengraph.githubassets.com/52228dc807184345b1fd5e48694b9197d2e499cbe1729e307e8df9765ba4dfbc/ergoplatform/ergo
+
+
+[08/07/2021 3:54 PM] PhenoBot#9345
+Invalid format. Please use ``Username/Repository``.
+
+
+[08/07/2021 3:54 PM] glasgowm#9381
+!!ghc add ? ergoplatform/ergo
+
+
+[08/07/2021 3:54 PM] PhenoBot#9345
+A GitHub repository (``ergoplatform/ergo``) added with a prefix ``?``
+
+
+[08/07/2021 3:54 PM] glasgowm#9381
+?
+
+
+[08/07/2021 3:57 PM] glasgowm#9381
+!!ghc ?
+
+
+[08/07/2021 3:57 PM] PhenoBot#9345
+
+
+{Embed}
+PhenoBot Help Menu
+```
+Syntax: !!githubcards 
+Alias: !!ghc
+```
+GitHubCards settings.
+​
+**__Subcommands:__**
+**add** Add a new GitHub repository with the given prefix.
+**instructions** Learn on how to setup GHC
+**list** List all prefixes for GitHub Cards in this server.
+**remove** Remove a GitHub repository with its given prefix.
+Type !!help <command> for more info on a command. You can also type !!help <category> for more info on a category.
+
+
+[08/07/2021 3:59 PM] glasgowm#9381
+? 1415
+
+
+[08/07/2021 3:59 PM] glasgowm#9381
+!!ghc ?1415
+
+
+[08/07/2021 3:59 PM] PhenoBot#9345
+
+
+{Embed}
+PhenoBot Help Menu
+```
+Syntax: !!githubcards 
+Alias: !!ghc
+```
+GitHubCards settings.
+​
+**__Subcommands:__**
+**add** Add a new GitHub repository with the given prefix.
+**instructions** Learn on how to setup GHC
+**list** List all prefixes for GitHub Cards in this server.
+**remove** Remove a GitHub repository with its given prefix.
+Type !!help <command> for more info on a command. You can also type !!help <category> for more info on a category.
+
+
+[08/07/2021 4:06 PM] glasgowm#9381
+!!retrigger
+
+
+[08/07/2021 4:06 PM] PhenoBot#9345
+
+
+{Embed}
+PhenoBot Help Menu
+*Page 1 of 2*
+```
+Syntax: !!retrigger 
+```
+Setup automatic triggers based on regular expressions
+See https://regex101.com/ for help building a regex pattern.
+See `!!retrigger explain` or click the link below for more details.
+[For more details click here.](https://github.com/TrustyJAID/Trusty-cogs/blob/master/retrigger/README.md)
+**__Subcommands:__**
+**allowlist** Set allowlist options for retrigger
+**ban** Add a trigger to ban users for saying specific things found...
+**blocklist** Set blocklist options for retrigger
+**command** Add a command trigger
+**cooldown** Set cooldown options for retrigger
+**deleteallbyuser** Delete all triggers created by a specified user...
+**disable** Disable a trigger
+**dm** Add a dm response trigger
+**dmme** Add trigger to DM yourself
+**edit** Edit various settings in a set trigger.
+Type !!help <command> for more info on a command. You can also type !!help <category> for more info on a category.
+
+
+[08/07/2021 4:06 PM] PhenoBot#9345
+
+
+{Embed}
+PhenoBot Help Menu
+*Page 2 of 2*
+```
+Syntax: !!retrigger 
+```
+**__Subcommands:__** (continued)
+**enable** Enable a trigger that has been disabled either by comman...
+**explain** Explain how to use retrigger
+**filter** Add a trigger to delete a message
+**image** Add an image/file response trigger
+**imagetext** Add an image/file response with text trigger
+**kick** Add a trigger to kick users for saying specific things fou...
+**list** List information about triggers.
+**modlog** Set which events to record in the modlog.
+**multi** Add a multiple response trigger
+**__Subcommands:__** (continued)
+**publish** Add a trigger to automatically publish content in news...
+**random** Add a random text response trigger
+**randomimage** Add a random image/file response trigger
+**react** Add a reaction trigger
+**remove** Remove a specified trigger
+**resize** Add an image to resize in response to a trigger
+**text** Add a text response trigger
+Type !!help <command> for more info on a command. You can also type !!help <category> for more info on a category.
+
+
+[08/07/2021 4:06 PM] glasgowm#9381
+!!retrigger allowlist
+
+
+[08/07/2021 4:06 PM] PhenoBot#9345
+
+
+{Embed}
+PhenoBot Help Menu
+```
+Syntax: !!retrigger allowlist 
+Alias: !!retrigger whitelist
+```
+Set allowlist options for retrigger
+allowlisting supports channels, users, or roles
+
+See https://regex101.com/ for help building a regex pattern.
+See `!!retrigger explain` or click the link below for more details.
+[For more details click here.](https://github.com/TrustyJAID/Trusty-cogs/blob/master/retrigger/README.md)
+**__Subcommands:__**
+**add** Add a channel, user, or role to triggers allowlist
+**remove** Remove a channel, user, or role from triggers allowlist
+Type !!help <command> for more info on a command. You can also type !!help <category> for more info on a category.
+
+
+[08/07/2021 4:07 PM] glasgowm#9381
+!!retrigger explain
+
+
+[08/07/2021 4:11 PM] glasgowm#9381
+!!customcom
+
+
+[08/07/2021 4:11 PM] PhenoBot#9345
+
+
+{Embed}
+PhenoBot Help Menu
+```
+Syntax: !!customcom 
+Alias: !!cc
+```
+Base command for Custom Commands management.
+​
+**__Subcommands:__**
+**cooldown** Set, edit, or view the cooldown for a custom command.
+**create** Create custom commands.
+**delete** Delete a custom command.
+**edit** Edit a custom command.
+**list** List all available custom commands.
+**raw** Get the raw response of a custom command, to get the proper...
+**search** Searches through custom commands, according to the query.
+**show** Shows a custom command's responses and its settings.
+Type !!help <command> for more info on a command. You can also type !!help <category> for more info on a category.
+
+
+[08/07/2021 4:11 PM] glasgowm#9381
+!!cc create
+
+
+[08/07/2021 4:11 PM] PhenoBot#9345
+
+
+{Embed}
+PhenoBot Help Menu
+```
+Syntax: !!customcom create <command> <text>
+Alias: !!customcom add
+```
+Create custom commands.
+If a type is not specified, a simple CC will be created.
+CCs can be enhanced with arguments, see the guide
+[here](https://docs.discord.red/en/stable/cog_customcom.html).
+**__Subcommands:__**
+**random** Create a CC where it will randomly choose a response!
+**simple** Add a simple custom command.
+Type !!help <command> for more info on a command. You can also type !!help <category> for more info on a category.
+
+
+[08/07/2021 4:12 PM] glasgowm#9381
+!!cc create yoroi test
+
+
+[08/07/2021 4:12 PM] PhenoBot#9345
+Custom command successfully added.
+
+
+[08/07/2021 4:12 PM] glasgowm#9381
+!!cc yoroi
+
+
+[08/07/2021 4:12 PM] PhenoBot#9345
+
+
+{Embed}
+PhenoBot Help Menu
+```
+Syntax: !!customcom 
+Alias: !!cc
+```
+Base command for Custom Commands management.
+​
+**__Subcommands:__**
+**cooldown** Set, edit, or view the cooldown for a custom command.
+**create** Create custom commands.
+**delete** Delete a custom command.
+**edit** Edit a custom command.
+**list** List all available custom commands.
+**raw** Get the raw response of a custom command, to get the proper...
+**search** Searches through custom commands, according to the query.
+**show** Shows a custom command's responses and its settings.
+Type !!help <command> for more info on a command. You can also type !!help <category> for more info on a category.
+
+
+[08/07/2021 4:12 PM] glasgowm#9381
+!!yoroi
+
+
+[08/07/2021 4:12 PM] PhenoBot#9345
+test
+
+
+[08/07/2021 4:13 PM] glasgowm#9381
+!!cc create yoroi 
+
+test one
+two
+
+
+[08/07/2021 4:13 PM] PhenoBot#9345
+This command already exists. Use `!!customcom edit` to edit it.
+
+
+[08/07/2021 4:14 PM] glasgowm#9381
+!!cc edit yoroi 
+
+test one
+two
+
+
+[08/07/2021 4:14 PM] PhenoBot#9345
+Custom command successfully edited.
+
+
+[08/07/2021 4:14 PM] glasgowm#9381
+!!yoroi
+
+
+[08/07/2021 4:14 PM] PhenoBot#9345
+test one
+two
+
+
+[08/07/2021 4:19 PM] glasgowm#9381
+!!cc edit yoroi 
+
+See #💳┃yoroi and tag the `Emurgo` role for yoroi-specific support. 
+
+Yoroi is currently available on most desktop browsers - no mobile support available yet (or confirmed timeline for integration). There is a #💳・wallet-app available and multiple iOS wallets in development.
+
+
+[08/07/2021 4:19 PM] PhenoBot#9345
+Custom command successfully edited.
+
+
+[08/07/2021 4:19 PM] glasgowm#9381
+!!yoroi
+
+
+[08/07/2021 4:19 PM] PhenoBot#9345
+See #💳┃yoroi and tag the `Emurgo` role for yoroi-specific support. 
+
+Yoroi is currently available on most desktop browsers - no mobile support available yet (or confirmed timeline for integration). There is a #💳・wallet-app available and multiple iOS wallets in development.
+
+
+[08/07/2021 4:22 PM] glasgowm#9381
+!!cc add oracles
+
+There's a first generation hosted here https://nut.link/ by mmahut that uses metadata to get it on cardano. Article here https://ergoplatform.org/en/blog/2020-11-09-first-steps-towards-interoperability-with-cardano-oracles/
+
+To work natively and utilise all the benefits of oracle pools ideally IOHK needs to add data-inputs to ADA as described here https://cardanoupdates.com/docs/255f71e1-458d-47e2-8504-3f25c729b44e by Robert K which seems like it would make DeFi in general a lot more practical on Cardano. Lots of startups trying to solve this problem atm - not sure what the current most likely is - and cardano itself is probably just focusing on getting alonso out.
+
+{Embed}
+https://ergoplatform.org/en/blog/2020-11-09-first-steps-towards-interoperability-with-cardano-oracles/
+First steps towards interoperability with Cardano oracles
+The oracle solution for …
+https://images-ext-1.discordapp.net/external/guXXvhi4w3-t2_NhMLd0O8bskRvdMnq_TGutNBuVHSU/https/ergoplatform.org/img/uploads/joshua-hoehne-xhnbw5x63mw-unsplash.jpg
+
+{Embed}
+https://cardanoupdates.com/docs/255f71e1-458d-47e2-8504-3f25c729b44e
+Cardano releases and daily development reports at 00:00 (UTC). See commits in real-time.
+https://images-ext-2.discordapp.net/external/xCmxSJYVEHlz9PwHjW2XivvmcOrqgWowUNRN9IKthO4/https/cardanoupdates.com/images/og-img.png
+
+
+[08/07/2021 4:22 PM] PhenoBot#9345
+Custom command successfully added.
+
+
+[08/07/2021 4:23 PM] glasgowm#9381
+!!cc edit oracles
+
+See #oracle-pools 
+
+There's a first generation hosted here https://nut.link/ by mmahut that uses metadata to get it on cardano. Article here https://ergoplatform.org/en/blog/2020-11-09-first-steps-towards-interoperability-with-cardano-oracles/
+
+To work natively and utilise all the benefits of oracle pools ideally IOHK needs to add data-inputs to ADA as described here https://cardanoupdates.com/docs/255f71e1-458d-47e2-8504-3f25c729b44e by Robert K which seems like it would make DeFi in general a lot more practical on Cardano. Lots of startups trying to solve this problem atm - not sure what the current most likely is - and cardano itself is probably just focusing on getting alonso out.
+
+{Embed}
+https://ergoplatform.org/en/blog/2020-11-09-first-steps-towards-interoperability-with-cardano-oracles/
+First steps towards interoperability with Cardano oracles
+The oracle solution for …
+https://images-ext-1.discordapp.net/external/guXXvhi4w3-t2_NhMLd0O8bskRvdMnq_TGutNBuVHSU/https/ergoplatform.org/img/uploads/joshua-hoehne-xhnbw5x63mw-unsplash.jpg
+
+{Embed}
+https://cardanoupdates.com/docs/255f71e1-458d-47e2-8504-3f25c729b44e
+Cardano releases and daily development reports at 00:00 (UTC). See commits in real-time.
+https://images-ext-2.discordapp.net/external/xCmxSJYVEHlz9PwHjW2XivvmcOrqgWowUNRN9IKthO4/https/cardanoupdates.com/images/og-img.png
+
+
+[08/07/2021 4:23 PM] PhenoBot#9345
+Custom command successfully edited.
+
+
+[08/08/2021 12:16 AM] Ergonaut_Alpha#1583
+I’m liking the bot commands @glasgowm what are you planning to use that for? Also thanks for banning the FUD poster . Never come across that type of behavior before and wasn’t sure how to proceed
+
+
+[08/08/2021 6:01 AM] glasgowm#9381
+https://index.discord.red/
+
+Lots 🙂
+
+
+[08/08/2021 3:51 PM] glasgowm#9381
+!!cc add staking
+
+Ergo is a Proof of Work blockchain, rather than Proof of Stake. However there is a staking solution being worked using the tokenisation of dApps that is almost complete. 
+
+The first implementation of this will be on #ergomixer - more details available here
+https://www.ergoforum.org/t/a-solution-for-staking/1057
+
+{Embed}
+https://www.ergoforum.org/t/a-solution-for-staking/1057
+A solution for staking
+This topic proposes a solution for staking, which is not relying on data inputs and also scalable (can support thousands of tokens).  We consider the case of ErgoMixer, with profit from the mixer to be collected in a box associated with some “funding NFT” first. Then payments done periodically, in epochs (say, 1 epoch = 1,024 blocks). Epoch numb...
+
+
+[08/08/2021 3:51 PM] PhenoBot#9345
+Custom command successfully added.
+
+
+[08/09/2021 8:21 PM] Ergonaut_Alpha#1583
+That’s awesome
+
+
+[08/11/2021 11:54 AM] glasgowm#9381
+can we lower this
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/874968938075787264/unknown.png
+
+
+[08/11/2021 2:01 PM] glasgowm#9381
+p erg
+
+
+[08/11/2021 2:02 PM] Alpha#9179
+
+
+{Embed}
+Ergo
+12.16 USD *(+3.46 %)*
+Data from CoinGecko
+
+
+[08/11/2021 10:17 PM] Ergonaut_Alpha#1583
+It was completely removed yesterday . Only had the issue for maybe 10minutes I though I caught all the responses about it in mod mail sorry!
+
+
+[08/11/2021 10:17 PM] Ergonaut_Alpha#1583
+This bots gonna have to change its name 😂
+
+
+[08/11/2021 10:19 PM] glasgowm#9381
+haha, it's the only permission I'm missing :/
+
+
+[08/13/2021 11:32 PM] glasgowm#9381
+!!help
+
+
+[08/21/2021 12:40 PM] geezar#8187
+hey all - just noticed this group - seems we're on the up price wise... 😄
+
+
+[08/21/2021 12:40 PM] geezar#8187
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/878604417350393866/unknown.png
+
+
+[08/25/2021 3:41 PM] Deleted User#0000
+Hello gents!
+
+
+[08/25/2021 3:57 PM] Ergonaut_Alpha#1583
+Coming up on 150 + comments on the weekly 3 days in @glasgowm . Let me know when you think daily becomes appropriate
+
+
+[08/25/2021 4:03 PM] Deleted User#0000
+I created a poll a couple of days ago - looks like people dont want NFT and Meme posts. I updated the rules section accordingly.
+
+
+[08/25/2021 4:12 PM] glasgowm#9381
+https://tenor.com/view/let-the-people-vote-voter-suppression-gif-12833444
+
+{Embed}
+https://tenor.com/view/let-the-people-vote-voter-suppression-gif-12833444
+https://images-ext-1.discordapp.net/external/goOVzWBpl-vzCp9pV3U6_oFCFb5BFwv2AOucQ_PIiy0/https/media.tenor.co/images/646be640274ededffa95cc922fdef968/tenor.png
+
+
+[08/25/2021 4:12 PM] glasgowm#9381
+not sure the context of that gif lol
+
+{Reactions}
+😂 
+
+[08/25/2021 4:51 PM] Deleted User#0000
+pretty much saying texan republicans will hear your pleas but technically not listen - hence the sweeping under the carpet lmao
+
+
+[08/25/2021 11:50 PM] Ergonaut_Alpha#1583
+And that makes it all the sweeter! 😂
+
+
+[08/30/2021 9:45 PM] glasgowm#9381
+!!chatchart
+
+
+[08/30/2021 9:45 PM] PhenoBot#9345
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/882003067845881866/chart.png
+
+{Reactions}
+😂 
+
+[08/30/2021 9:45 PM] glasgowm#9381
+!!chatchart chat
+
+
+[08/30/2021 9:45 PM] glasgowm#9381
+!!chatchart general
+
+
+[08/30/2021 9:46 PM] PhenoBot#9345
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/882003354279112724/chart.png
+
+
+[08/30/2021 9:52 PM] glasgowm#9381
+!!help
+
+
+[08/31/2021 12:54 PM] Deleted User#0000
+Is someone spamming general chat?
+
+
+[08/31/2021 1:05 PM] Deleted User#0000
+@glasgowm Are people allowed to post furry porn on the #🔞│random chat?
+
+{Reactions}
+😂 (2) 
+
+[08/31/2021 1:16 PM] glasgowm#9381
+Join here - gonna migrate for internal stuff.
+
+https://discord.gg/jET2nTh3NN
+
+
+[08/31/2021 1:16 PM] glasgowm#9381
+nop they're just active
+
+
+[08/31/2021 3:12 PM] Deleted User#0000
+alrighty
+
+
+[12/16/2021 3:26 PM] Luivatra#9076
+Is this open for sigmanauts to join? Dont want to crash any party I am not invited to
+
+
+[12/16/2021 3:28 PM] glasgowm#9381
+That servers dead atm, too hard to get people to switch to a new server so it's just all going in this one until we need to expand
+
+{Reactions}
+ergo_orange 
+
+[12/16/2021 6:15 PM] glasgowm#9381
+removed `CommieBoi` - same troll that keeps coming back, previously `BrokeErgoHolder` and before that someone telegram who got pissed I kicked him for screaming 'death to all commies' in the main chat
+
+{Reactions}
+👍 (2) 
+
+[12/18/2021 7:07 PM] Ergonaut_Alpha#1583
+Wow angry one huh?
+
+
+[12/19/2021 12:51 AM] glasgowm#9381
+The one above? Yeh pest lol
+
+
+[12/19/2021 12:56 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/922110158576947231/unknown.png
+
+
+[12/19/2021 12:56 PM] glasgowm#9381
+https://tenor.com/view/shaq-laughing-no-shakes-head-gif-11993400
+
+{Embed}
+https://tenor.com/view/shaq-laughing-no-shakes-head-gif-11993400
+https://images-ext-1.discordapp.net/external/1k4iZcjBLL-_ydiFW4AmuRKAlHrZpeYeJMGa5Zlzlx0/https/media.tenor.co/images/e8a7392ce932ca2c3dd252eef3c14824/tenor.png
+
+
+[12/22/2021 2:18 AM] JOFLITO#9983
+LMAO
+
+
+[12/22/2021 2:19 AM] JOFLITO#9983
+that's the point of random chat, and the reason it has the >18 sign
+
+
+[12/22/2021 2:19 AM] JOFLITO#9983
+also he is a good miner XD
+
+
+[12/23/2021 3:16 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/923594899692093460/unknown.png
+
+
+[12/23/2021 5:02 PM] Ergonaut_Alpha#1583
+that'll be fun
+
+
+[12/24/2021 5:55 AM] Gazza_SP#5835
+Any ideas for a question? Price EOY? When will profit sharing dapp release on mixer?
+
+
+[12/24/2021 12:11 PM] glasgowm#9381
+price EOY? Probably shouldn't be answering that one lol. 
+
+Profit sharing looks pretty close if you read anon2020s messages
+
+
+[12/24/2021 4:14 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/923971811954262046/unknown.png
+
+
+[12/27/2021 6:54 PM] Ergonaut_Alpha#1583
+LOOOL yea price prediction is a lose lose no matter what way you turn it.
+
+
+[12/28/2021 7:42 AM] Armeanio#0321
+Price in the future: jagged to the right.
+
+
+[12/28/2021 10:51 PM] Ergonaut_Alpha#1583
+I have banned u/VoteNOforEIP0027 on reddit for 90 days. They were making accusations of censorship because automod was removing their posts and comments due to age requirement. I sent them a PM early today to clarify any misunderstand and they have chosen to ignore the message
+
+
+[12/29/2021 10:49 AM] glasgowm#9381
+Oh they don't like that 😂
+
+
+[12/29/2021 10:50 AM] glasgowm#9381
+btw none of the comments were visible. Mobile app doesn't display it properly but Mods here often respond to shadow-banned/removed comments.
+
+
+[12/29/2021 10:50 AM] glasgowm#9381
+Be handy if they went to the mod-queue instead of straight removal
+
+
+[12/29/2021 3:40 PM] glasgowm#9381
+so seems that person was `justinbro430` - I've downvoted him more than he has comments in the subreddit so I'm guessing he deleted some.
+
+
+[12/30/2021 6:38 PM] Ergonaut_Alpha#1583
+ya probably is him. I saw that they had been removed via the spam inbox but I wanted to make sure he got responses to each and every post or comment he made to that he had no ability to say it wasn't addressed. I'm confident that if the user is dissatisfied with the responses and it is brought the community, they will feel that the due diligence was done and the outcome was reasonable. It's just 90 days lol if the user would have chilled out with the outbursts they could have campaigned with that user name all they want .. now unfortunately they have locked it up for 90 days and will have to come up with a new strategy to influence the upcoming vote 🙄
+
+
+[12/30/2021 11:00 PM] glasgowm#9381
+After my comment he just deleted his post and comments and went back to other things lol
+
+
+[12/30/2021 11:32 PM] Ergonaut_Alpha#1583
+Let’s hope that’s the path he continues down. Maybe they just had a bad week. Who isn’t guilty of that. I haven’t got a chance to contribute to the onboarding doc but once I get some free time I will most def8btely see here I can help if not on that then the ergo hack maybe I have a idea how I can help a team
+
+
+[12/31/2021 11:56 PM] Deleted User#0000
+Happy new year mods!
+
+
+[01/01/2022 4:44 PM] Ergonaut_Alpha#1583
+Happy new year! Here’s to a big year for the community!
+
+
+[01/01/2022 5:05 PM] Ergonaut_Alpha#1583
+@everyone I would like to purpose that we create a EIP-0027 Discussion thread and sticky it to the top of the reddit page until the vote concludes. We have another post from u/fantoboy that is loaded with factual errors and doesnt offer anything new to the conversation. my fear is that by denying the post his cries of censorship will increase along with the few additional posts that we denied over the past week.
+
+
+[01/01/2022 5:11 PM] JOFLITO#9983
+Happy new year! how about we pin u/fantoboy post and also pin a comment correcting the stuff that's wrong?
+
+
+[01/01/2022 5:12 PM] Ergonaut_Alpha#1583
+my fear is that by denying other posters and then pinning u/fantoboy we are giving some sort of celebrity status when the conversation should be owned by the community.
+
+
+[01/01/2022 5:13 PM] JOFLITO#9983
+ahá
+
+
+[01/01/2022 5:14 PM] JOFLITO#9983
+I would just create a pinned one and tell everybody that the discussion moved there
+
+{Reactions}
+👍 (3) 
+
+[01/01/2022 5:16 PM] Ergonaut_Alpha#1583
+yup I think that is the path of least resistance
+
+
+[01/01/2022 5:17 PM] Deleted User#0000
+We can remove posts about eip-0027 that aren't within the stickied thread. That way whenever someone posts errors about the emissions changes in the thread they can be corrected by the community without everything getting too messy. I personally think that it's the best way to go about it, so all the pros/cons and the debacle that comes with it gets contained in one neat thread.
+
+
+[01/01/2022 5:17 PM] Deleted User#0000
+Jose has a pretty good idea
+
+
+[01/01/2022 5:18 PM] JOFLITO#9983
+🥳
+
+
+[01/01/2022 5:22 PM] Ergonaut_Alpha#1583
+agreed. there needs to be heavy peer review on the statements. his 2nd post is HIGHLY opinionated just as the first, but offers nothing new to the conversation, which can FUD out all the newbies
+
+
+[01/01/2022 5:23 PM] Ergonaut_Alpha#1583
+I think the community is mature enough to discuss the topic at great length if given the correct platform
+
+
+[01/01/2022 5:38 PM] Ergonaut_Alpha#1583
+Post created and stickied. hope to nip this in the bud
+
+
+[01/01/2022 7:09 PM] Chris Ray#2713
+It is a good idea to keep the discussion in one thread, anyone can contribute to the conversation there without having to scan all the conversations in reddit - good play.
+
+{Reactions}
+🙌 
+
+[01/02/2022 4:38 AM] dashmunn#0001
+Hey guys, happy holidays! Going to update the banner with the latest iteration. Going to try and keep it updated as close to sigmaverse.io as possible in future as more dApps are developed. Only challenge posed so far is real estate for what is shown on the banner (especially on smaller resolutions - 1920x1080 is the minimum I'm aiming for the key elements to be displayed). Hoping to also have the banner display the newest *main* events for Ergo i.e. Ergohacks etc.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/927058210949591090/large_banner_3.1.png
+
+{Reactions}
+ergo_orange (5) 
+
+[01/02/2022 4:41 AM] NoahErgo#4349
+Oh man i have like 20 bookmarked pages of things to add in the near future hahaha im so sorry
+
+{Reactions}
+😂 
+
+[01/02/2022 4:41 AM] NoahErgo#4349
+most shouldnt affect the banner though. It looks amazing btw
+
+{Reactions}
+🧡 
+
+[01/02/2022 4:41 AM] dashmunn#0001
+haha all good!
+
+
+[01/04/2022 3:07 AM] Deleted User#0000
+That looks pretty awesome
+
+
+[01/04/2022 10:41 AM] glasgowm#9381
+Added this guy to the shadow-ban list as he's just spreading unrelenting FUD now.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/927874446117716018/unknown.png
+
+
+[01/04/2022 10:43 AM] glasgowm#9381
+(He also thinks Bitcoin SV is the real BTC 😂)
+
+{Reactions}
+🙃 (2) 
+
+[01/04/2022 2:37 PM] Deleted User#0000
+hahahah
+
+
+[01/05/2022 3:54 PM] glasgowm#9381
+I've pinned the year review btw, soft fork doesn't need 24/7 coverage for months (and only 2 spots). Can re-pin it periodically.
+
+{Reactions}
+👍 
+
+[01/08/2022 3:32 PM] Deleted User#0000
+bots are getting weirder by the second
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/929397215552765962/unknown.png
+
+
+[01/08/2022 4:06 PM] glasgowm#9381
+not sure that's a bot lol
+
+
+[01/08/2022 6:32 PM] Deleted User#0000
+the account creation date kinda threw me off a little
+
+
+[01/11/2022 6:48 PM] glasgowm#9381
+Muted Akm for a week on trading tg but he may have to go for good. Annoying fud
+
+{Reactions}
+👍 
+
+[01/11/2022 9:39 PM] Gazza_SP#5835
+Him and Ligmanauts(matt) are relentless, they basically run the chat
+
+
+[01/12/2022 9:19 AM] glasgowm#9381
+nuked Ligma for continuing to spread that delist fud, put him on a 1-month mute. He will come back as Alts no doubt so just kick any new members who start writing like him
+
+{Reactions}
+👍 
+
+[01/14/2022 9:31 PM] glasgowm#9381
+Removed that post @Deleted User - if he reposts with better arguments and stops spreading that price fud it's fine I guess since we've not had one in a while but he's not bringing anything new to the table and becoming spammy
+
+
+[01/14/2022 9:36 PM] Deleted User#0000
+My bad broski
+
+
+[01/14/2022 10:08 PM] glasgowm#9381
+no problemo, that guy is relentless. Still spamming people in the comments so can't say he's not being heard 😅
+
+
+[01/14/2022 10:12 PM] Deleted User#0000
+Lmao!
+
+
+[01/20/2022 2:23 PM] Deleted User#0000
+I shamelessly plugged my NFT and made a post on r/ergonauts ❤️
+
+
+[01/23/2022 11:37 PM] TypoDaPsycho#6307
+Can someone with mod privileges on r/erg_miners fix rule 6 to say r/ErgoTrading instead of current r/ErgoTraders
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/934954924238831656/Screenshot_20220123-173641.png
+
+
+[01/24/2022 12:01 AM] dashmunn#0001
+Done 🙂
+
+
+[01/24/2022 12:02 AM] dashmunn#0001
+FYI: Leaving this reported comment up as the downvotes say it all and helps keep context to the thread. Feel free to remove if anyone else disagrees.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/934961342610305084/unknown.png
+
+
+[01/26/2022 11:02 PM] curbsideprophet#5083
+what to do with this guy: https://discord.com/channels/668903786361651200/668903786902847502/936022579641188384
+
+
+[01/26/2022 11:03 PM] curbsideprophet#5083
+looks like i have option to `timeout` or `kick` but i am unsure of the process to help
+
+
+[01/26/2022 11:06 PM] glasgowm#9381
+Got him thanks. Kick and ping the moderators role.
+
+{Reactions}
+👌 
+
+[01/28/2022 4:56 AM] dashmunn#0001
+https://www.reddit.com/r/ergonauts/comments/sdztj8/my_ergo_thesis_is_playing_out_perfectly/ - removing this post as it doesnt seem to be related to ergo. reapprove if I'm wrong
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/sdztj8/my_ergo_thesis_is_playing_out_perfectly/
+r/ergonauts - My Ergo Thesis is playing out perfectly
+0 votes and 2 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/ayeuSqM2SaFRQ_Dt3HVM3fvS6XYDdxvJjyXHTBRLIUY/%3Fauto%3Dwebp%26s%3Dcca095f6788b4dc7121a5ebb4a790d89fdbc01b4/https/external-preview.redd.it/-CqLH6pEJb9xBoqeIyP3EAS1feIHI75o7MbxYt-VkMI.jpg
+
+
+[02/06/2022 6:46 AM] dashmunn#0001
+Updating /r/erg_miners sidebar widgets 
+* adding the mining handbook to the good to know section
+* cleaning some random capital letters
+* updating the colours on single posts to be readable
+* updating the distribution picture
+
+
+[02/06/2022 8:14 AM] dashmunn#0001
+After seeing this (https://www.reddit.com/r/ergonauts/comments/skvtuy/i_found_you_guys/) I'm going to try r/RedditRequest and get mod permissions for r/Ergo. I tried a couple of months ago to no success so I'm going to do what the r/RedditRequest rules say and do the following:
+1) PM'ing the mod team (it's just one person)
+2) Wait 3 days for a response
+3) Post to r/RedditRequest and request access to mod permissions. 
+
+If we can get permissions, I can just redirect people to r/ergonauts with a sticky and restrict posts to try prevent further traffic being sent there and confusing more people.
+
+{Reactions}
+ergo_orange (2) 
+
+[02/08/2022 11:13 AM] glasgowm#9381
+Yeah that sub was private when I first joined and then I guess someone claimed it. I put in a request on the back of that post but haven't heard
+
+
+[02/10/2022 12:31 PM] glasgowm#9381
+https://www.reddit.com/r/ergonauts/comments/sp52id/ergohack_3_joe_and_alex_discuss_privacy_and/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/sp52id/ergohack_3_joe_and_alex_discuss_privacy_and/
+r/ergonauts - ErgoHack 3 | Joe and Alex discuss privacy and securit...
+0 votes and 0 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/T8FEZ_PqkuRSSybRNM8ipKSk675l_M4pMI3liF2rb70/%3Fauto%3Dwebp%26s%3D3bc14b37c8bfe225b668f06937187da9877b8aee/https/external-preview.redd.it/AgKUE2oQxbzpuC1BXm3h23IpYT4hV5ejE7-cakkBJUI.jpg
+
+
+[02/10/2022 12:31 PM] glasgowm#9381
+Does this link to a weird dead link for everyone?
+
+
+[02/10/2022 2:47 PM] curbsideprophet#5083
+goes to this for me that's weird
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/941344715905851413/Screen_Shot_2022-02-10_at_6.47.42_AM.png
+
+
+[02/10/2022 2:48 PM] curbsideprophet#5083
+but in the url there is a `supported_browser` parameter so not sure if it was intentional for OP to be "user friendly"
+
+
+[02/13/2022 2:25 AM] dashmunn#0001
+Quick update regarding acquiring /r/ergo:
+
+Request was denied as the admins said that their was mod activity within the subreddit itself within the last 60 days. Annoying stuff. Not much we can do apart from waiting for another request in a few months time. For now, I might just pop in once in a while to see if there are any lost ergonauts in r/ergo and forward them to r/ergonauts and we do have some community members already doing that which is a bonus.
+
+{Reactions}
+kushti_thumbsup (3) 
+
+[02/13/2022 2:28 AM] Ergonaut_Alpha#1583
+Thanks for following up on that Dash!
+
+{Reactions}
+ergonaut 
+
+[02/13/2022 3:45 AM] Deleted User#0000
+Getting r/ergo would be great
+
+
+[02/13/2022 8:35 AM] root7Z#8699
+I just shared an announce on the sub, if it won't get deleted it might work for the instance imo
+
+{Reactions}
+🧡 
+
+[02/13/2022 9:20 AM] dashmunn#0001
+Awesome, thankyou for that :)
+
+{Reactions}
+👍 
+
+[02/13/2022 12:02 PM] glasgowm#9381
+Link?
+
+
+[02/13/2022 12:05 PM] dashmunn#0001
+Removed post due to their bot detecting mod activity: https://www.reddit.com/r/redditrequest/comments/sou7y2/requesting_rergo_mod_is_inactive_and_subreddit_is/
+
+After that, I had to move to PMs as thats the only way to get a manual check if the above fails:
+
+
+[02/13/2022 12:05 PM] dashmunn#0001
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/942391057776250880/unknown.png
+
+
+[02/14/2022 12:41 AM] dashmunn#0001
+https://www.reddit.com/user/Alexis-E1/ - This person looks to be part of the ergopad team and is getting caught by automod (I just approved a lot of their comments). Can I add them to the approved poster list?
+
+{Embed}
+https://www.reddit.com/user/Alexis-E1/
+Alexis Ekici (u/Alexis-E1) - Reddit
+https://images-ext-2.discordapp.net/external/txVb-4mrCwTBjNDc8DeLFBgWBiir54eC1cpsItQmSoY/%3Fwidth%3D256%26height%3D256%26crop%3D256%3A256%2Csmart%26s%3Dd66ce864521c6c9bcef03eceda29437eb27e643a/https/styles.redditmedia.com/t5_5swupf/styles/profileIcon_snoo040ae89e-42e8-4fd4-ab58-117b6deb333b-headshot.png
+
+
+[02/14/2022 12:43 AM] dashmunn#0001
+Nevermind they seem to be already approved...
+
+
+[02/15/2022 12:54 PM] glasgowm#9381
+I've chaneged the automod `remove` to `filter` - so should at least show in the mod-queue now
+
+{Reactions}
+ergo_orange 
+
+[02/15/2022 12:56 PM] glasgowm#9381
+If anyone sees these dirty links when they're fresh (less than few hours old / no comments). Feel free to delete and repost and get all that juicy karma. Not figured out how to trim the twitter autoposter yet
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/943128542961598494/unknown.png
+
+{Reactions}
+👍 (2) 
+
+[02/19/2022 6:47 AM] Chris Ray#2713
+Could someone edit the youtube link for the getblok summit video? It points to youtube support.
+https://www.reddit.com/r/ergonauts/comments/svxowc/smartpools_the_future_of_pow_mining_getblok_ergo/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/svxowc/smartpools_the_future_of_pow_mining_getblok_ergo/
+r/ergonauts - SmartPools - the Future of PoW Mining | GetBlok | Erg...
+15 votes and 0 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/T8FEZ_PqkuRSSybRNM8ipKSk675l_M4pMI3liF2rb70/%3Fauto%3Dwebp%26s%3D3bc14b37c8bfe225b668f06937187da9877b8aee/https/external-preview.redd.it/AgKUE2oQxbzpuC1BXm3h23IpYT4hV5ejE7-cakkBJUI.jpg
+
+{Reactions}
+👍 
+
+[02/19/2022 2:59 PM] ÅrÖhBê#8289
+https://youtu.be/pc3GEqMik48 not live until next week.
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=pc3GEqMik48
+SmartPools - the Future of PoW Mining | GetBlok | Ergo Summit 2022 ...
+ArOhBe (Rob) from GetBlok talks us through all the great reasons why you should consider mining on a smartpool. GetBlok is redefining decentralized mining with their smartpool, which now offers a range of advanced features. They can issue tokens to miners (on top of their normal ERG reward), can launch projects, distribute NFTs, and can use thes...
+https://images-ext-1.discordapp.net/external/nR3wHZ-khQtFopJxVUaOOoK58W_oTdzN7YqlfQWT7WQ/https/i.ytimg.com/vi/pc3GEqMik48/maxresdefault.jpg
+
+
+[02/19/2022 11:28 PM] Chris Ray#2713
+I saw that, it was just weird to be directed to youtube support instead of the channel.
+
+
+[02/20/2022 12:49 PM] dashmunn#0001
+Resubmitting the weekly-dev vid. The auto-generated for youtube URLs is doing the same issue as pointed out by Chris. Its a weird URL taking people to a supported browser youtube link
+
+
+[02/21/2022 10:42 AM] glasgowm#9381
+```
+Thanks for reaching out and sorry about the trouble! We've received similar reports from other users experiencing the same behavior, and this looks like a site-wide issue with Youtube links. We will be in touch to let you know when we have more information from the Youtube team.
+
+Thanks for your patience here!
+```
+
+{Reactions}
+ergo_orange 
+
+[02/21/2022 1:29 PM] glasgowm#9381
+people advertising NFTs should be pointed to #🏞│nft-projects from now on. Can be exceptions for things like big drops (ergnomes event). But people spamming their art daily should be kept out of #auction-house and #🗣│general
+
+{Reactions}
+anetaThis (3) 
+
+[02/25/2022 1:33 AM] Deleted User#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/946580699891241030/unknown.png
+
+
+[02/25/2022 1:34 AM] Deleted User#0000
+Do we flag any political related comments or what?
+
+
+[02/25/2022 5:21 AM] glasgowm#9381
+Wdym flag
+
+
+[02/26/2022 10:59 AM] dashmunn#0001
+I ignored that report as the person who reported the commented seems to have mistaken what the OP meant.
+
+
+[02/26/2022 12:57 PM] glasgowm#9381
+ah right yeh no worries
+
+
+[03/03/2022 2:31 AM] dashmunn#0001
+Adding new yield rules to AutoMod due to the influx in posts asking
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/948769646159474768/unknown.png
+
+{Reactions}
+👍 
+
+[03/07/2022 8:35 PM] Ergonaut_Alpha#1583
+can @Moderator anyone verify this raffle? new account and automod removed the post on the weekly discussion
+
+{Reactions}
+👍 
+
+[03/07/2022 8:35 PM] Ergonaut_Alpha#1583
+https://ergoraffle.com/raffle/show/ba647da2e647dae6e8fe487bdbfa37a6a59a15a980e1d6a64f6012cf78c44759
+
+{Embed}
+https://ergoraffle.com/raffle/show/ba647da2e647dae6e8fe487bdbfa37a6a59a15a980e1d6a64f6012cf78c44759
+Ergo Raffle
+Ergo raffle is a crowdfunding system based on ergo contracts
+
+
+[03/23/2022 5:36 PM] curbsideprophet#5083
+gave this one the boot for crypto DM spam (a few ergo people messaged me about it as well)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/956244981327208478/unknown.png
+
+
+[03/23/2022 5:36 PM] curbsideprophet#5083
+i dont know how to perma ban so FYI they might come back
+
+
+[03/23/2022 5:36 PM] curbsideprophet#5083
+for reference: `Kiarikakami#7609`
+
+
+[03/23/2022 5:47 PM] glasgowm#9381
+ty
+
+
+[03/23/2022 5:48 PM] glasgowm#9381
+no idea how they're getting through - no roles so they can't see channels/memberlist
+
+
+[03/23/2022 5:48 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/956248055420706866/unknown.png
+
+
+[03/27/2022 10:04 PM] Gazza_SP#5835
+I am the same, it's so frustrating
+
+
+[04/07/2022 7:54 PM] arkadias#4896
+
+
+
+[04/07/2022 7:54 PM] arkadias#4896
+
+
+
+[04/14/2022 3:34 PM] Jεnniε D#1687
+2
+
+
+[04/14/2022 3:59 PM] glasgowm#9381
+https://tenor.com/view/yawnface-gif-4425271
+
+{Embed}
+https://tenor.com/view/yawnface-gif-4425271
+shocked
+https://images-ext-2.discordapp.net/external/kAUCe-IQSrcffQ0_x6HSsLkCEjbewTRBXRZhdGQgGC4/%3Fc%3DVjFfZGlzY29yZA/https/media.tenor.com/GLZUkFLcqeQAAAAD/yawnface.png
+
+
+[04/16/2022 11:09 AM] dashmunn#0001
+https://www.reddit.com/r/ergonauts/comments/u4homh/hey_ergonauts_welcome_to_this_weeks_ergodesk/ - this post keeps getting removed, tried multiple approvals and reposting but the link itself might be the issue
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/u4homh/hey_ergonauts_welcome_to_this_weeks_ergodesk/
+r/ergonauts - Hey, #Ergonauts! Welcome to this week's ErgoDesk Dige...
+1 vote and 1 comment so far on Reddit
+https://images-ext-1.discordapp.net/external/M6_H0PIGRjG6jQZupj9PARxIuNpvAAqW0pRs_ZDABdg/%3Fauto%3Dwebp%26s%3D8b96529c06fd520fa63a3fd4c7c42f285421d5b7/https/external-preview.redd.it/9eQQWn_ca1O_E-VDBZmsC-PsNOybTQLLmw8_1vS_Un0.jpg
+
+
+[04/16/2022 11:28 AM] glasgowm#9381
+yeah that domain is blacklisted on reddit
+
+
+[04/18/2022 4:13 PM] curbsideprophet#5083
+`Joryboy#2239` for DM spam (i used to can help kick but looks like not anymore)
+
+
+[04/18/2022 5:29 PM] glasgowm#9381
+w!help
+
+
+[04/18/2022 5:29 PM] Wick#3938
+
+
+{Embed}
+Wick's Help Panel:
+:alarm: General Help:
+:space::rightSort: If you need help setting up Wick or knowing everything about it, You should check out the [Official Documentation](https://docs.wickbot.com/v3) *`[docs.wickbot.com/v3]`*
+:space::rightSort: If you want to view Wick's commands, do: `w!commands`
+:space::rightSort: **[Quick Troubleshooting](https://docs.wickbot.com/v3/troubleshooting)**
+:owner: Subscription Help
+:space:If you are interested in getting a more advanced wick with more features, please consider checking out our [Premium Version](https://wickbot.com/premium) *`[wickbot.com/premium]`*
+:space:If you just purchased a Wick Tier and you need help, Please join the [Discord Support Server](https://discord.gg/AuKkruK)
+
+
+[04/18/2022 5:29 PM] glasgowm#9381
+You should still be able to do it via this, managed here now as recommended by the plugin. Will write more detailed instructions
+
+
+[04/18/2022 5:35 PM] curbsideprophet#5083
+ahh nice thanks for this more efficient than going through UI ❤️
+
+
+[04/20/2022 11:50 AM] glasgowm#9381
+
+
+
+[04/20/2022 11:52 AM] glasgowm#9381
+
+
+
+[04/20/2022 11:52 AM] glasgowm#9381
+
+
+
+[04/21/2022 10:48 PM] glasgowm#9381
+w!misc 5 ?on
+
+
+[04/21/2022 10:48 PM] Wick#3938
+
+
+{Embed}
+:success: **Successful Operation!**
+:space::arrowRight: Deleting Informing Messages has been enabled!
+
+
+[04/23/2022 10:06 AM] hellyea#2223
+
+
+
+[04/29/2022 4:52 AM] dashmunn#0001
+Hey just wanted to confirm if its okay to remove these duplicate links from the ergonauts subreddit since Andy is already posting the link when it goes live: https://old.reddit.com/r/ergonauts/comments/ueahqi/ergonauts_dont_miss_our_weekly_update_and_ama/
+
+{Embed}
+https://old.reddit.com/r/ergonauts/comments/ueahqi/ergonauts_dont_miss_our_weekly_update_and_ama/
+r/ergonauts - 🔔 #Ergonauts, don't miss our weekly update and AMA Fr...
+8 votes and 0 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/iWn8FooNvbpAYcZmYiYdonBGg5uK745-GzYKRUrNw1Q/%3Fauto%3Dwebp%26s%3Dd0508517d0d566458a4061ebc8a6300faa5fcafc/https/external-preview.redd.it/SrmrFjZCsW7enneQf08KcC0JyZfHrenU65Vft8fhOQk.jpg
+
+
+[04/29/2022 8:34 AM] glasgowm#9381
+yep ofc
+
+{Reactions}
+👌 
+
+[05/02/2022 1:02 AM] Community Updates#0000
+Hello Admin & Mods!
+
+Today, we have a new update for slash commands in your servers: **Permissions!** If you don’t know, slash commands are a new, easier way to use bots on Discord. You might already have some to use—type `/` to find out!
+
+With this new system, you can:
+:dot:Control who can use slash commands in your servers
+:dot:Control in which channels commands can be used
+:dot:Sync or unsync commands like channels and categories, making mass management and special cases easy to handle
+
+You can find these permissions in **Server Settings → Integrations → Pick an app!** If the app supports slash commands, you’ll see the UI.
+
+⚠️ If a bot you use has integrated slash commands, the old way of denying the bot Read Messages **will not work to moderate commands usage.** You’ll need to use this new system to control access.
+
+Not sure if your bots support slash commands? Check out in **Server Settings → Integrations**, or just **type `/`!**
+
+Check out our blog post to learn more and see a detailed walkthrough: https://discord.com/blog/slash-commands-permissions-discord-apps-bots
+
+{Embed}
+https://discord.com/blog/slash-commands-permissions-discord-apps-bots
+Permission to Slash, Granted: Introducing Role Permissions for Slas...
+There’s a brand-new page in Server Settings: Command Permissions! Server admins and moderators can head into the Integrations page to customize which slash commands can be used, in what channels, and by which roles. Read on for more!
+https://images-ext-1.discordapp.net/external/-W0-y-4-TuP2MPtkpC80hJ5IEWyDD2yj4KNnHEgrwqk/https/assets-global.website-files.com/5f9072399b2640f14d6a2bf4/625489cc18bfe0b12a83e4a2_202201010_PM_CommandPermissionsBlog_JJ_v04.jpg
+
+
+[05/19/2022 8:59 PM] glasgowm#9381
+
+
+
+[05/23/2022 7:48 AM] TypoDaPsycho#6307
+I know at one point we wouldn't approve this post on r/ergonauts and would sometimes give a reason like "we ask that you keep posts regarding price discussion on r/ErgoTrading" or similar. 
+
+Now we allow everything, but tag with appropriate redirect for either r/ErgoTrading or r/erg_miners.  Which I personally think is a good policy, at least at the moment.
+
+BUT.... I still hesitate to approve really low effort posts like this. What does everyone else think?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/978187642049032192/unknown.png
+
+{Reactions}
+✅ 👍 
+
+[05/23/2022 8:07 PM] crandano#8951
+i'd say it should go into r/ErgoTrading - like you said it's super low effort, i would rather posts like this not being posted as well to throw my opinion out there
+
+
+[05/25/2022 3:58 PM] glasgowm#9381
+I'd still only approve high-quality posts or just to suit the activity of the subreddit (if there's no new posts in x hours)
+
+{Reactions}
+👍 
+
+[05/26/2022 7:07 PM] TypoDaPsycho#6307
+Makes sense to me
+
+
+[05/27/2022 3:18 AM] dashmunn#0001
+Does anyone know whats the state of this subreddit? https://www.reddit.com/r/ErgoNFTs/ - Currently, submissions are restricted. Should we take it off the related subreddits section on the sidebar?
+
+{Embed}
+https://www.reddit.com/r/ErgoNFTs/
+r/ErgoNFTs
+
+
+[05/27/2022 5:54 AM] TypoDaPsycho#6307
+Yeah either remove it totally or maybe put a note about its status being investigated? Probably best to remove it for now until we can get in touch with the subs 1 moderator & submissions are re-enabled
+
+{Reactions}
+👌 
+
+[05/27/2022 5:55 AM] dashmunn#0001
+Sounds good, Ill remove it for now
+
+{Reactions}
+👍 
+
+[05/27/2022 6:00 AM] TypoDaPsycho#6307
+I messaged the sub's mod u/jason_zgm about it, let you know if I get a response
+
+{Reactions}
+👌 
+
+[05/27/2022 12:37 PM] AmIFabian?#9849
+
+
+
+[06/10/2022 11:31 PM] C&D Cardboard Games#9820
+Thanks for the mod role guys. Ya I am not messing around with those wallet scammers there.
+
+
+[06/12/2022 3:34 PM] Community Updates#0000
+Hey Admins & Mods,
+
+Beginning Wednesday, 6/1 we’re rolling out **Text Chat in Voice Channels** to Discord. With embedded chat in voice channels, your community can send messages, GIFs, links, memes, etc. to everyone in the voice channel—no more clogging #deleted-channel.
+
+**We are rolling out Text Chat in Voice Channels slowly to all servers throughout the week. Initially, it will not be enabled by default for servers that have greater than 200 members or are set as a Community Server.**
+
+But once you have access…
+:dot: You’ll have a new Server Settings tab on the web or your client called *Text in Voice*.
+:dot: Turn Text Chat in Voice Channels on for your community by selecting *Enable*.
+:dot: Customize permissions for your community, like enabling in specific voice channels or disabling for certain roles. Most developers of your favorite moderation bots have already updated their instances to monitor Text Chat in Voice Channels!
+
+For more details on *Text Chat in Voice Channels*, read our Help Center article here: https://support.discord.com/hc/en-us/articles/4412085582359
+
+In four weeks, Text Chat in Voice Channels will be automatically enabled for all servers while still respecting your prescribed permissions—but we recommend you enable it early for all your server members to enjoy!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/667560445975986190/981463279232766012/img.gif
+
+{Embed}
+https://support.discord.com/hc/en-us/articles/4412085582359
+Text Channels & Text Chat In Voice Channels
+In Discord, there are three ways to communicate with your friends: voice, video, and text. For this article, you'll learn more about where to engage with others through text.
+What this article cove...
+
+
+[06/12/2022 5:54 PM] MGpai#4313
+
+
+
+[06/13/2022 1:53 PM] glasgowm#9381
+https://www.reddit.com/r/AssistantBOT/comments/dc6i1a/introduction_to_artemis_uassistantbot_iii/
+
+{Embed}
+https://www.reddit.com/r/AssistantBOT/comments/dc6i1a/introduction_to_artemis_uassistantbot_iii/
+r/AssistantBOT - Introduction to Artemis (u/AssistantBOT) III
+17 votes and 62 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/6p3cLVArRn9gDtmAMy3HcohLl9pQbQif-vptm1JSmbE/%3Fauto%3Dwebp%26s%3D98bc99f0391edec92e17cafbd91503e636f9b057/https/external-preview.redd.it/cUaj_-Mn7IXKSmmMiOHXaE2-FW-SKBmEKbGLH59bfpU.jpg
+
+
+[06/13/2022 1:54 PM] glasgowm#9381
+Welcome sir! You seem to be active when I'm asleep so feel free to nuke them)
+
+
+[06/13/2022 2:00 PM] C&D Cardboard Games#9820
+https://tenor.com/view/jim-carrey-yes-sir-you-got-it-you-rock-yes-boss-gif-15459239
+
+{Embed}
+https://tenor.com/view/jim-carrey-yes-sir-you-got-it-you-rock-yes-boss-gif-15459239
+https://images-ext-1.discordapp.net/external/hPxlvxN2E3Hdg-QCsSwGEhjTDhM_s1h7dbKFoebelq4/https/media.tenor.com/PgfvhIRWfrAAAAAD/jim-carrey-yes-sir.png
+
+
+[06/13/2022 9:22 PM] glasgowm#9381
+Sir delete the spam not respond to it 🤣
+
+
+[06/13/2022 9:22 PM] C&D Cardboard Games#9820
+I can’t delete it LOL
+
+
+[06/13/2022 9:22 PM] C&D Cardboard Games#9820
+😭 but I love to respond to it cause it’s such a sham
+
+
+[06/13/2022 9:23 PM] glasgowm#9381
+Oh lol
+
+
+[06/13/2022 9:23 PM] glasgowm#9381
+Re enabled the permission
+
+
+[06/13/2022 9:23 PM] glasgowm#9381
+Should be able to now
+
+
+[06/13/2022 9:23 PM] C&D Cardboard Games#9820
+10/10 thanks
+
+
+[06/13/2022 9:24 PM] C&D Cardboard Games#9820
+Ya  even respond to scam calls too one time I counted down from 10 very slowly
+
+
+[06/13/2022 9:24 PM] C&D Cardboard Games#9820
+😂
+
+
+[06/21/2022 4:07 AM] Sisyphuspush#7967
+Ever able to get ahold of the mod? I looked into taking over sub since mod isn't active but I don't have the required Karma ATM to do so
+
+
+[06/21/2022 5:20 AM] crandano#8951
+Noah shot a request in ~3 days ago
+
+{Reactions}
+👍 
+
+[06/23/2022 12:17 AM] rustinmyeye#3722
+
+
+{Embed}
+ever had peanutbutter and egg sandwiches? sounds fucked, and it is, but really good and filling early in the am
+rule_name
+Commonly Flagged Words
+channel_id
+668913748748271658
+decision_id
+325ca475cbf14146a81599613fa6cf55
+keyword
+fucked
+keyword_matched_content
+fucked,
+
+{Reactions}
+🤯 
+
+[06/23/2022 12:32 AM] glasgowm#9381
+That's severe? lol
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/989311840536367114/unknown.png
+
+{Reactions}
+dopamineduck 
+
+[06/23/2022 12:34 AM] C&D Cardboard Games#9820
+LOL
+
+
+[06/25/2022 10:31 PM] Community Updates#0000
+**Text Chat in Voice Channels will be enabled automatically for all servers on Wednesday, June 29th** and we’ve made it easier for you to moderate the surface with Discord’s AutoMod! Here’s how to make the best of this brand-new feature.
+
+:dot: Customize your server’s Channel and Role permissions and opt-in to *Text Chat in Voice Channels* ahead of time.
+:dot: Many of your favorite moderation bots support monitoring *Text Chat in Voice Channels* and Discord’s new AutoMod can automatically detect and flag undesirable messages and rule-breakers before they are posted; helping you keep conversations clean and giving you time to focus on the fun parts of managing your community: (AutoMod Help Center article here: https://support.discord.com/hc/en-us/articles/4421269296535-AutoMod-FAQ).
+:dot: Debut your new *Text Chat In Voice Channels* in your next D&D session or movie night.
+:dot: Sit back and enjoy a less chaotic #deleted-channel with zero context, now that members can send messages within voice channels.
+
+For more details on *Text Chat in Voice Channels* read our Help Center article here: https://support.discord.com/hc/en-us/articles/4412085582359
+
+We can’t wait to see how you make the most of *Text Chat In Voice Channels*.
+
+{Embed}
+https://support.discord.com/hc/en-us/articles/4412085582359
+Text Channels & Text Chat In Voice Channels
+In Discord, there are three ways to communicate with your friends: voice, video, and text. For this article, you'll learn more about where to engage with others through text.
+What this article cove...
+
+
+[06/26/2022 11:33 AM] dashmunn#0001
+https://old.reddit.com/r/ergonauts/comments/vl0bma/my_new_licence_plate/ - low effort removal or nah?
+
+{Embed}
+https://old.reddit.com/r/ergonauts/comments/vl0bma/my_new_licence_plate/
+r/ergonauts - My new licence plate
+0 votes and 1 comment so far on Reddit
+
+
+[06/26/2022 2:54 PM] glasgowm#9381
+Think its fine
+
+
+[07/01/2022 2:25 PM] Community Updates#0000
+Hello Admins & Mods!
+
+It’s official. 2022 is the year of communities. That’s why we’ve been investing in ways to make it easier to start, grow, and protect your communities on Discord. 
+
+Today, we’re unveiling new tools and resources fresh from our labs so let’s dive in.
+
+**It’s Easy To Keep Your Community And Conversations Clean With AutoMod**
+
+Meet AutoMod, your new best friend in moderation. Designed to reduce work and stress for moderators, AutoMod comes equipped with keyword filters to help keep your server clean and safe around the clock by automatically filtering out harmful or undesirable messages before they’re posted. Enjoy newfound peace of mind, even when you’re offline.
+
+Enable AutoMod in **Server Settings > AutoMod**. Once the wheels are turning…
+
+:dot: Choose from readily available keyword filters or customize your own with lists of words or phrases and the actions AutoMod will take when they’re found in your server.
+:dot: AutoMod’s keyword filters can automatically detect, block, and alert you of messages containing harmful words or phrases—before they’re ever posted.
+:dot: Receive alerts from AutoMod when members try to use words from your lists and assign actions like Timeout from the alert itself.
+:dot: Add **Wildcards** to your keywords to detect variations of words that partially match those on your lists. 
+     :bluedot: `bake*` ⇒ Today, we **bake**d some coffee cake
+     :bluedot: `*milk` ⇒ I add soy**milk** to my coffee
+     :bluedot: `*press*` ⇒ A Gibraltar is equal parts es**press**o and milk
+:dot: It just works™️ on any message sent (i.e., in #text-channels, Threads, Text chat in Voice channels). Check out our Help Center article for all your burning questions. <https://dis.gd/cu-automod-hc>
+
+Your friendly AutoMod is raring to go on Windows, macOS, Linux, iOS, Android, and the web app. Don’t delay—employ your AutoMod today! https://dis.gd/cu-automod-blog
+
+**New Tools To Build Thriving Communities On Discord**
+
+At Discord, we believe anyone can build a thriving community. We’re excited to share new products and support to help you do so—coming sooner than you think.
+
+:dot: Explore a new preview of **Premium Memberships**, bringing customizability to communities and creators platform-wide! <https://dis.gd/cu-community-update>
+:dot: Meet **Community Resources**, your one-stop shop for learning how to build your server into a community! Learn to build, engage, grow, and manage a space where anyone can belong. <https://dis.gd/cu-community>
+:dot: Chat with your peers in our brand new **Discord Admin Community**, a space where admins, creators, and community managers can connect. <https://dis.gd/cu-meet-admins>
+
+Incredible communities on Discord are built by incredible admins and moderators like you. We can’t wait to do more together.
+
+{Embed}
+https://dis.gd/cu-automod-blog
+Meet Your Newest Community Moderator: AutoMod Is Here
+Community moderation should be a hobby you celebrate, and we want to help you out. We'll be taking some of that moderation work off your hands and tackling it ourselves: Say hello to AutoMod!
+https://images-ext-1.discordapp.net/external/eXhRtVPg0jTYMaX5-879NDV2uFBGiSem8KTX7J_CBxQ/https/assets-global.website-files.com/5f9072399b2640f14d6a2bf4/629e8853e258b321e97c123d__AutoMod_Blog%2520Header.png
+
+
+[07/18/2022 5:14 PM] glasgowm#9381
+Just direct any CMC posts to daily pls, too common
+
+{Reactions}
+👌 
+
+[07/18/2022 5:15 PM] glasgowm#9381
+Dan is gonna try and help us get a contact via Ada for supply. 🤞
+
+
+[07/18/2022 11:30 PM] CW#8500
+https://www.reddit.com/r/ergonauts/comments/w2c6p9/%D1%8D%D0%BA%D1%81%D0%BA%D0%BB%D1%8E%D0%B7%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B0%D0%BC%D0%B0_%D1%81%D0%B5%D1%81%D1%81%D0%B8%D1%8F_%D1%81_%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%BC/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/w2c6p9/%D1%8D%D0%BA%D1%81%D0%BA%D0%BB%D1%8E%D0%B7%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B0%D0%BC%D0%B0_%D1%81%D0%B5%D1%81%D1%81%D0%B8%D1%8F_%D1%81_%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%BC/
+r/ergonauts - Эксклюзивная текстовая АМА- сессия с Александром Чепу...
+0 votes and 0 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/kxv5oZgAvwBCKUBa--EIoz6tKMOEBgzVEsunzbEjwyo/%3Fauto%3Dwebp%26s%3D69a340edea33baeeaf78f03f8f482acd659bb84f/https/external-preview.redd.it/U0G8ALt-32HXW0ODGbbwcfof9Z3poOTsiyjrxOAjpb0.jpg
+
+
+[07/18/2022 11:30 PM] CW#8500
+I just made this post, announcing Russian AMA in TG, please dont delete 🙂
+
+
+[07/18/2022 11:52 PM] Affable Villain#4533
+Took me a minute to translate, but it's approved 😄
+
+
+[07/18/2022 11:53 PM] CW#8500
+Thanks Vil!
+
+
+[07/26/2022 2:31 AM] dashmunn#0001
+Approved this link, found out the OP deleted their account. Removed link. 
+
+https://www.reddit.com/r/ergonauts/comments/w71ovm/ergo_and_cardano_simple_portfolio/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/w71ovm/ergo_and_cardano_simple_portfolio/
+r/ergonauts - ERGO and Cardano simple portfolio.
+23 votes and 4 comments so far on Reddit
+
+
+[07/26/2022 6:29 AM] TypoDaPsycho#6307
+Now op is wondering why we deleted it via DM
+
+
+[07/26/2022 6:30 AM] TypoDaPsycho#6307
+But he sent the message from a different reddit account
+
+
+[07/26/2022 6:31 AM] dashmunn#0001
+is there a reason why he deleted his account?
+
+
+[07/26/2022 6:31 AM] dashmunn#0001
+it all wouldve been approved if he didnt delete it
+
+
+[07/26/2022 6:31 AM] dashmunn#0001
+nvm, he got shadowbanned
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1001361134785400872/unknown.png
+
+
+[07/26/2022 6:34 AM] TypoDaPsycho#6307
+Hmm anybody know why or who by? It was a quality post IMO and would rather help the person if possible
+
+
+[07/26/2022 7:07 AM] curbsideprophet#5083
+here's original message: https://discord.com/channels/668903786361651200/668903786902847502/1000810665210024079
+
+
+[07/26/2022 7:08 AM] curbsideprophet#5083
+and below that i suggested he post to r/ergonauts
+
+
+[07/26/2022 8:58 AM] dashmunn#0001
+Shadowbans are done by reddit itself.
+
+
+[07/26/2022 8:58 AM] dashmunn#0001
+This one is probs an automated ban due a variety of factors being triggered
+
+{Reactions}
+👍 
+
+[07/26/2022 8:59 AM] dashmunn#0001
+E.g. crypto related, new account, posting links etc.
+
+
+[07/31/2022 11:14 AM] T U L O (ErgoMinnow)#6385
+the reddit mods be crazy
+
+{Reactions}
+k_thumbs_up (2) 
+
+[08/01/2022 4:55 AM] dashmunn#0001
+FYI: Im unstickying the tosihack post and stickying armenios coinex update.
+
+{Reactions}
+👍 (2) 
+
+[08/03/2022 2:43 AM] dashmunn#0001
+FYI for reddit mods: https://old.reddit.com/r/reddit/comments/weiqc0/better_faster_stronger_recent_improvements_to/
+
+TL;DR: Better tooling. Majority won't apply to us, but posting to keep us in-the-know.
+
+{Embed}
+https://old.reddit.com/r/reddit/comments/weiqc0/better_faster_stronger_recent_improvements_to/
+r/reddit - Better Faster Stronger: Recent improvements to moderatio...
+260 votes and 127 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/bNJdQzrApQ7ZVQ03bHSqoeObHtbM_faFkl3zzDvfIEc/%3Fformat%3Dpng8%26s%3D32d52eaeccb63e5d721d3ed100f8747cff92e47d/https/external-preview.redd.it/kd7APeUk2kHHrV72qRdzfcJwPghPi9yA5TjXC65KYn4.gif
+
+
+[08/06/2022 5:13 AM] TypoDaPsycho#6307
+Working on a FAQ for r/ErgoTrading if anyone has anything to add.
+
+Warning about burning tokens accidentally during a large (token heavy) transaction 
+
+Q: Where can I stake my Erg?
+Ergo is PoW, Link to yield page on ergonaut.space & mention upcoming dapps w/ link to sigmaverse.io 
+Q: What's the contract address? 
+A: Not erc-20 token, Ergo is a Layer 1 PoW chain that is pioneering the extended UTXO ledger model. 
+Q:What wallets are popular and does ledger support ERG? 
+Link to official wallet page possibly highlight popular options, definitely mention Yoroi being broken for most
+Q: So how can I send my ERG to another wallet if Yoroi is unusable?
+A: Restore from mnemonic seed phrase 
+Q: I heard something about upcoming exchange listing?
+A: link to official list of Ergo exchanges, explain NDA, recommend checking weekly AMAs
+Q: Question about historical ERG price on CMC?
+A: Mainnet went live on July 1 2019, link to EFYT info, link to CMC alternatives 
+
+Thanks for any suggestions
+
+{Reactions}
+👍 (2) 
+
+[08/06/2022 9:48 AM] dashmunn#0001
+lgtm (especially the plans for links for each question), for the second question, a link you could probably add is this https://ergoplatform.org/en/blog/2021-07-23-ergo-utxo-model-the-evolution-from-bitcoin-to-ergo/
+
+{Reactions}
+👍 
+
+[08/09/2022 5:51 PM] glasgowm#9381
+New forums setting 
+
+https://support.discord.com/hc/en-us/articles/6208479917079
+
+{Embed}
+https://support.discord.com/hc/en-us/articles/6208479917079
+Forum Channels FAQ
+Looking to utilize forum channels in your server? You can learn more about forum channels below!
+What does this article cover?
+
+What are Forum Channels?
+How do forums help my community?
+What's the ...
+
+
+[08/14/2022 3:58 AM] vzl#2000
+
+
+
+[08/16/2022 5:49 AM] Community Updates#0000
+Hey Admins and Moderators,
+
+We've got an update on all things Community today!
+
+If you haven't joined our Discord Admin Community… what are you waiting for? Head over to **Server Setting > Community overview** and join us — we've got a slew of exciting and fun stuff planned that you won’t want to miss out on.
+
+🪴 __*Below is a sneak peek at the Stage events we’ve got cookin’!*__
+
+:dot: August 16th: Safety on Discord
+:dot: August 25th: Utilizing Automod in your Community
+
+To join our Discord Admin Community, your server will need to hit a few engagement requirements. Once your community reaches the requirements listed <https://dis.gd/DAC-FAQ>, any of your Admins or Moderators with the “Manage Server” permission will be able to join the Discord Admin Community via Server Settings > Community.
+
+📚 __**Community Resources**__
+We recently released our Community Resources, a one-stop shop for learning how to build, engage, grow, and manage a space where anyone can belong. New articles, showcases, and more will be added in the future, so be sure to bookmark it for later. <https://dis.gd/Community_Resources>
+
+If you haven't already taken a peek at some of our content, you can check out the latest video! https://dis.gd/H2M_Your_Discord_Community
+
+🤖 **__Apps & Bots__**
+If your server uses a **verified app**, the way you send commands has probably changed in the last year - if it hasn’t, it may very soon! Developers of verified apps have been migrating to Slash Commands. The deadline to finish migrating is the end of August, which means on Sept 1, any apps that haven’t finished may have reduced functionality.
+
+If you haven’t tried out slash commands yet, type / in your server to see all the commands you have access to. If your favorite app isn’t listed, they may not yet have enabled slash commands. Or, you might need to check out the new permissions system in **Server Settings > Integrations.**
+
+If you run across any issues, you can reach out to individual app developers to find out more. Learn more here: <https://discord.com/blog/welcome-to-the-new-era-of-discord-apps>
+
+{Embed}
+Discord
+https://dis.gd/H2M_Your_Discord_Community
+How to Manage Your Discord Community
+Running a Discord community? Mosey on over to https://dis.gd/community-resources for more educational & informative Discord content on illuminative subjects ...
+https://images-ext-1.discordapp.net/external/RYrH1j11es7pa1LRoJgGGqgzW5m6Qb7cIHBldoxEH_E/https/i.ytimg.com/vi/ukhRLY7AZg8/hqdefault.jpg
+
+
+[08/17/2022 5:14 PM] Gstoiti#2984
+I noticed that the bridge bot doesn't delete all messages which we delete in the  German telegram group. For example, some verification codes and scam messages are still visible in the discord channel. Although the majority of the German community uses telegram, I would like to keep the channel clean for new users joining in telegram (especially since the bridge bot messages are already confusing enough). Is that fixable with other bot settings? Or can I also be moderator for the discord channel to delete the messages manually?
+
+
+[08/17/2022 5:17 PM] glasgowm#9381
+Telegram API doesn't report deleted msg's - so not fixable( 
+
+You should have mod rights there already due to the sigmanauts role I think
+
+{Reactions}
+👍 
+
+[08/17/2022 5:26 PM] Gstoiti#2984
+Is it possible to delete on mobile? Can't find the option
+
+
+[08/17/2022 6:01 PM] glasgowm#9381
+Should be yeah, just checked and you do have the perm
+
+
+[08/21/2022 10:03 AM] TypoDaPsycho#6307
+So I posted the FAQ on r/ErgoTrading, set up some new menu links after being inspired by r/ergonauts. I'm having a problem though, I can access the FAQ on desktop but not on mobile? Tried googling with no luck, any ideas?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1010836519499595786/Screenshot_20220821-040306.png
+
+
+[08/22/2022 4:44 AM] dashmunn#0001
+Accessing the FAQ on the official android app is fine on my side
+
+
+[08/22/2022 4:44 AM] dashmunn#0001
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1011118733785305210/Screenshot_2022-08-22-13-44-35-807_com.reddit.frontpage.jpg
+
+
+[08/22/2022 4:45 AM] dashmunn#0001
+Same goes for wiki
+
+
+[08/22/2022 6:31 AM] TypoDaPsycho#6307
+Thanks!
+
+
+[08/22/2022 10:39 AM] dashmunn#0001
+Is it working for you now? Apologies if my previous post was unhelpful, haha 😅
+
+
+[08/22/2022 1:21 PM] dashmunn#0001
+@glasgowm sent you a pm regarding the reddit banner/anetaBTC
+
+
+[08/23/2022 7:10 AM] TypoDaPsycho#6307
+You're response was helpful! But still haven't figured it out TBH. Thought maybe it was because of a recent app update but after rereading your message you're using the official reddit app on Android as well so IDK. Frustrating but comes with the territory I'm learning lol.
+
+
+[08/23/2022 3:40 PM] glasgowm#9381
+yeah go for it
+
+
+[08/26/2022 3:34 AM] Rishabh#7490
+So anybody know how we can fix this ?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1012550702423347350/Screenshot_20220826-001407_Discord.jpg
+
+
+[08/26/2022 8:20 AM] dashmunn#0001
+I've just enabled it for my own private server. I'll let you know if it succeeds/fails on the next post from that channel.
+
+{Reactions}
+👍 
+
+[08/26/2022 7:41 PM] Affable Villain#4533
+Is there a ban on telegram links at the reddit admin level? Posts with tg links get stuck in the mod queue and can't be approved. I tried having u/_Geros_  resubmit the Sigma Valley treasure hunt announcement sans tg links, but adding them in after approval bumped the post right back to the mod queue @glasgowm
+
+
+[08/26/2022 7:51 PM] glasgowm#9381
+Yep sounds like blacklisted
+
+{Reactions}
+👀 
+
+[08/27/2022 6:09 AM] TypoDaPsycho#6307
+Reddit mods idk how many are in here 😅 but I've seen some financial help subreddits (and probably others) that require links be posted in full plain-text format. Should we consider implementing a similar rule? I would think we could still use custom hyperlinks in wiki and sidebar ? just require links in posts and comments to be full links? Or is that stupid?
+
+
+[08/27/2022 7:59 AM] dashmunn#0001
+I don't think that would get around the blacklist. If it did, I would be surprised that reddit would implement such an easily bypassed filter.
+
+
+[08/27/2022 8:00 AM] dashmunn#0001
+I personally post raw links due to old reddit/3rd party app compatibility. Sometimes links get a random backslash added to urls but majority of traffic uses new reddit and those who use old reddit are usually tech savvy enough to know where to find the link being posted.
+
+
+[08/27/2022 8:02 AM] dashmunn#0001
+Yeah, that was annoying to see the mining telegram link blacklisted. Might be better to just direct people to our linktree if automod detects a ergo telegram link posted. Would have to look into it.
+
+
+[08/27/2022 5:07 PM] Affable Villain#4533
+That's a good idea. I'll start suggesting the linktree as a workaround. Thanks
+
+
+[08/28/2022 8:25 AM] TypoDaPsycho#6307
+There's telegram links on top menu of r/ErgoTrading ? I wonder how I got around that since telegram is blacklisted?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1013348572588146688/image0.png
+
+
+[08/28/2022 8:28 AM] TypoDaPsycho#6307
+No I'm not referring to the blacklisting of telegram,  I think some subreddits have that rule I mentioned to reduce malicious links.
+
+
+[08/28/2022 8:29 AM] TypoDaPsycho#6307
+Or at least that's their goal
+
+
+[08/28/2022 9:09 AM] dashmunn#0001
+The blacklist only scans reddit comments to my knowledge. You can have any link you want on the custom frontend widgets. i.e. the top banner links
+
+
+[08/28/2022 9:11 AM] dashmunn#0001
+Message came through on my private channel.
+
+
+[08/28/2022 9:12 AM] dashmunn#0001
+Ill check out the subreddit automod rules to see if we have a blacklist rule once im at my computer*
+
+
+[08/28/2022 10:45 AM] dashmunn#0001
+No rules found. Its definitely a reddit blacklist.
+
+
+[08/28/2022 11:03 AM] dashmunn#0001
+going to try whitelist the telegram urls through an automod rule.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1013388230567145492/unknown.png
+
+{Reactions}
+🔥 (3) 
+
+[08/28/2022 11:09 AM] dashmunn#0001
+Updating banner links with the main 3 telegrams and the linktree
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1013389801203978411/unknown.png
+
+{Reactions}
+👍 
+
+[08/29/2022 7:20 AM] dashmunn#0001
+Telegram links in weekly discussion thread were triggering reddit filter. 
+
+After manually trying to approve (didn't work), I went a different route and have removed the Telegram links from the Weekly Discussion body and have replaced it with a link to our LinkTree.
+
+Changed the scheduled post config to trigger the automod to repost it and am now reverting it back to it's original scheduled time.
+
+{Reactions}
+sigmanaut (2) 
+
+[08/29/2022 7:21 AM] dashmunn#0001
+Weird how telegram links have basically been blacklisted now...
+
+
+[08/29/2022 7:43 AM] Rishabh#7490
+How you do that ?
+
+
+[08/29/2022 7:49 AM] dashmunn#0001
+its automatic once you connect it to your discord server
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1013701845199376404/unknown.png
+
+
+[08/29/2022 7:57 AM] Rishabh#7490
+I'm trying to add again but it's showing error
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1013704018222137374/Screenshot_20220829-122643_Discord.jpg
+
+
+[08/29/2022 7:58 AM] Rishabh#7490
+Or there is another way to do it ?
+
+
+[08/29/2022 8:00 AM] dashmunn#0001
+Ah
+
+
+[08/29/2022 8:01 AM] dashmunn#0001
+you need to go to your server settings and allow webhooks, or have permissions to add webhooks
+
+
+[08/29/2022 8:02 AM] dashmunn#0001
+go to your roles in your server and enable this
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1013705293219233792/unknown.png
+
+
+[09/01/2022 7:37 PM] Rishabh#7490
+I think it's already added that's why it's showing error!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1014967302480994324/Screenshot_20220826-001407_Discord.jpg
+
+
+[09/01/2022 7:39 PM] Rishabh#7490
+I'm trying to add again because we didn't get announcement messages in channel
+
+
+[09/01/2022 7:39 PM] Rishabh#7490
+This option is enabled
+
+
+[09/02/2022 2:39 AM] dashmunn#0001
+Very weird. It's hard to debug what could be causing the messages to not appear. I would just delete the channel and recreate it again to see if that changes anything.
+
+
+[09/02/2022 7:34 PM] Rishabh#7490
+Is there any other method to do this like any bot ?
+
+
+[09/03/2022 10:34 AM] dashmunn#0001
+not to my knowledge, this is the easiest way to follow a discord channel. using a bot would just complicate things imo as youd need admin permissions iirc
+
+
+[09/03/2022 4:17 PM] geneclash#7369
+
+
+
+[09/03/2022 4:34 PM] liquid_phase#4605
+i totally forgot until now i was a moderator and can remove those stupid bot spams!
+
+{Reactions}
+kushti_thumbsup 
+
+[09/04/2022 8:44 AM] dashmunn#0001
+https://www.reddit.com/r/ergonauts/comments/x4tzbb/introducing_ogre_token_on_ergo/ - Should this post be removed? Seems to be botted
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/x4tzbb/introducing_ogre_token_on_ergo/
+r/ergonauts - Introducing Ogre Token on Ergo!
+156 votes and 53 comments so far on Reddit
+
+
+[09/04/2022 8:50 AM] dashmunn#0001
+I've removed the obvious bots, hard to tell which ones are just old accounts and new ergo users vs old bot accounts.
+
+
+[09/04/2022 2:03 PM] glasgowm#9381
+Hard to tell, bots go after them on Twitter too but don't think it's the OP orchestrating it.
+
+{Reactions}
+👍 
+
+[09/06/2022 1:27 PM] TypoDaPsycho#6307
+we need to update the emissions info or put reference link to EIP27 on r/erg_miners https://www.reddit.com/r/erg_miners/wiki/faq/ and https://www.reddit.com/r/erg_miners/comments/ngwi2s/faq/
+
+{Embed}
+https://www.reddit.com/r/erg_miners/wiki/faq/
+faq - erg_miners
+r/erg_miners: Ergo Miners supporting the Ergo network. Make sure to check out our "Good to Know". Feel free to ask & answer questions, and …
+
+{Embed}
+https://www.reddit.com/r/erg_miners/comments/ngwi2s/faq/
+r/erg_miners - FAQ
+20 votes and 13 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/FTuOcU871TzihNpNj7q5pmTNzYJu5U5HuKIjmL8asBw/%3Fauto%3Dwebp%26s%3D307ce453910c3272b2429ef83a3f9ddc1a1cad57/https/external-preview.redd.it/tv9NXYLv7HyHHHt8ZtQSqA9wxOkTXEAPkhfcgPSZBt8.png
+
+{Reactions}
+👍 
+
+[09/06/2022 1:28 PM] TypoDaPsycho#6307
+Id do it but I'm not a  mod there
+
+
+[09/07/2022 12:41 AM] dashmunn#0001
+Ill update when im at my computer
+
+
+[09/07/2022 10:21 AM] dashmunn#0001
+Updated the FAQ. Is this good? Viewable here: https://www.reddit.com/r/erg_miners/wiki/faq/
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1017001686461587496/unknown.png
+
+{Embed}
+https://www.reddit.com/r/erg_miners/wiki/faq/
+faq - erg_miners
+r/erg_miners: Ergo Miners supporting the Ergo network. Make sure to check out our "Good to Know". Feel free to ask & answer questions, and …
+
+
+[09/07/2022 10:23 AM] dashmunn#0001
+Do you want to be a mod for /r/erg_miners btw @TypoDaPsycho. It would make more sense to have all the moderators be able to access the related subreddits to help out in regards to keeping info updated. Not sure if Den_Ace is still active in the community. He hasn't posted in months (apart from the scheduled 51% reminder post he's set on his account)
+
+
+[09/07/2022 10:24 AM] dashmunn#0001
+Might reach out to Fathers_Folly as well as he's always active in the ergonauts subreddit.
+
+{Reactions}
+👍 (2) 
+
+[09/07/2022 11:15 AM] DenAce#1197
+Haven't really had much time to do what I did before and with the setup of info etc I thought that most bases would be covered without really having to do much.
+Slowly getting into it again. Can't spend as much time as before though 😅
+
+
+[09/07/2022 11:15 AM] DenAce#1197
+I invited Typo as a mod but couldn't find fathers_folly
+
+
+[09/07/2022 11:17 AM] DenAce#1197
+looks good but have to update Ergo Table Size Math as well 😉
+
+{Reactions}
+k_thumbs_up 
+
+[09/07/2022 11:17 AM] dashmunn#0001
+No worries! Glad to see your still around 🙂
+
+{Reactions}
+🙏 
+
+[09/07/2022 11:19 AM] DenAce#1197
+Still believing in the project, just had no time to be mod or community manager 😛
+
+
+[09/07/2022 11:21 AM] dashmunn#0001
+Haha, completely understandable 😀
+
+
+[09/07/2022 2:56 PM] glasgowm#9381
+wb sir
+
+{Reactions}
+k_thumbs_up 
+
+[09/07/2022 9:06 PM] liquid_phase#4605
+Permission to give Satergo the 'Contributors' role?
+https://discord.com/channels/668903786361651200/908347206988365864/1017162967915167805
+
+
+[09/08/2022 5:07 AM] TypoDaPsycho#6307
+Yes! I accepted the mod invite, appreciate it. I may make further edits later but it looks good to me for now. Definitely better than the old "8 years emission" we had before!
+
+{Reactions}
+k_thumbs_up 
+
+[09/08/2022 5:08 AM] TypoDaPsycho#6307
+Besides the table update DenAce mentioned which I didn't even think about
+
+
+[09/08/2022 5:10 AM] TypoDaPsycho#6307
+I could be wrong, but doesn't that role require being in Sigmanauts program? 🤔
+
+
+[09/08/2022 5:28 AM] liquid_phase#4605
+No, i was in contributors for a couple months before becoming sigmanaut
+
+
+[09/08/2022 10:51 AM] TypoDaPsycho#6307
+Hell yeah I didn't know that was possible. It only makes sense though now that I think about it. We want more contributors not less.  Satergo would be good for the role then I think! 
+
+@glasgowm is this something we should create a thread for in main #sigmanauts-archive  ?
+
+
+[09/08/2022 11:18 AM] glasgowm#9381
+I upgraded him when he asked. Contributors is just people contributing things. Was missed as he doesnt use Discord.
+
+
+[09/08/2022 11:32 AM] TypoDaPsycho#6307
+Gotcha thanks
+
+
+[09/08/2022 6:24 PM] koutelier#5178
+the telegram links on reddit post is not fixed right ?
+
+
+[09/08/2022 6:52 PM] glasgowm#9381
+they're blacklisted so cant be fixed
+
+
+[09/11/2022 8:53 PM] koutelier#5178
+Wen Reddit post approved? 😅
+
+
+[09/13/2022 2:19 PM] glasgowm#9381
+could you add `Stacie0808` as a mod to erg_miners @dashmunn
+
+
+[09/13/2022 2:21 PM] dashmunn#0001
+sure
+
+
+[09/13/2022 2:21 PM] dashmunn#0001
+she was invited 2 months ago @glasgowm
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1019236466490085517/unknown.png
+
+
+[09/13/2022 2:26 PM] glasgowm#9381
+oh
+
+
+[09/13/2022 2:26 PM] glasgowm#9381
+ta
+
+{Reactions}
+👍 
+
+[09/14/2022 11:17 AM] Community Updates#0000
+Hey Admins and Mods!
+
+In our mission to help you keep your communities safe and lift some of that moderation work off your shoulders, we’ve set our sights on helping you more easily detect and prevent spam and raids. Today's spotlight introduces new features that help keep your communities cleaner from spam, and a preview into our early plans on building tools to deal with raids.
+
+:automod: **Keep your Community clean from spam with new AutoMod spam filters**
+We know dealing with spammy messages sucks. If *only* there was a way spammy messages could be blocked from being posted in your channels and threads in the first place… 
+
+Thankfully, every community’s best friend in moderation - **AutoMod** - just got buffed with some new spam-cleansing abilities. Enable AutoMod in **Server Settings > AutoMod** to save hours of moderation work with these new filters:
+:dot:**Block Mention Spam** - Detect and block mention spam and mention raids before they happen to keep chat clean and prevent members in your community from receiving annoying mention notifications and ghost pings. Set your own limit on the number of mentions a message may contain (up to 50). 
+:dot: **Block Spam Content** - Detect and block messages containing text content that has been widely flagged as spam by user reports. Great for blocking unwanted spam like those pesky free Nitro scams, unsolicited advertisements, and invite spam that disrupt your Community's friendly conversations and game nights.
+Check out our updated AutoMod FAQ help article: https://support.discord.com/hc/en-us/articles/4421269296535-AutoMod-FAQ
+
+**Our early plans and progress to protect communities from raids**
+We know being raided is one of the worst experiences you and your Community can go through which is why we’re giving you a heads up that we’re exploring ways to better detect and prevent raids before they take place, while making it easier to de-escalate a raid when they do happen.
+
+While we’re in the earlier stages of progress here at Discord Labs™, rest assured we’re eager to equip you with effective tools to more easily deal with raids as quickly as we can. So what can you do now?
+:dot: **Report Raids**: You can now directly send us feedback reports when a raid is taking place in your server by going to your Server Dropdown and selecting Report Raid. If your Community is being raided, we encourage you to partner with us in our moderation efforts by reporting the situation as we’ll be regularly reviewing your raid reports to develop tooling that combat raids. 
+:dot: **Pause invitations** to your Community at anytime - You can now pause your invite links for when you want to temporarily prevent people from joining your server without having to revoking your invite links or vanity URLs - just head over to **Server Settings > Invites**. 
+Because this cuts off the flow of new arrivals, you'll have an easier time halting a raid in progress. It also lets well-intentioned community members trying to join know that the stoppage is temporary, and that soon, they’ll be able to come back to the same link and try again.
+Learn more about pausing invites: https://support.discord.com/hc/en-us/articles/8458903738647
+
+**How we’re protecting communities from suspicious links: **
+To help y’all with the legwork in dealing with messages containing malicious links, we’ve buffed every Community server with a proactive suspicious link filter designed to detect and block messages containing links that are verified to be harmful, such as those leading to malware or phishing sites that try to steal people’s personal or financial information. We’ll be continuously working on identifying links that might mislead or redirect users by reviewing a regularly updated list of unsafe and phishing websites: https://support.discord.com/hc/en-us/articles/7326747355159-Why-was-my-message-not-delivered-
+
+
+[09/14/2022 10:55 PM] TypoDaPsycho#6307
+r/ErgoTrading banner not displaying for me now on desktop. IDK if I messed it up somehow when editing menu links earlier or what, I'll try to figure it out when I get time later
+
+
+[09/15/2022 2:31 AM] dashmunn#0001
+looks fine on my end
+
+
+[09/17/2022 1:10 AM] TypoDaPsycho#6307
+Thanks dashmunn! banner not showing on Android chrome and desktop chrome for me but brave desktop is fine. Curious to why I keep having these issues on my end, 1st w/ reddit wiki pages now r/ErgoTrading banner.
+
+
+[09/17/2022 1:39 AM] dashmunn#0001
+Thats very weird. Might have to jump onto a voice chat call to see whats causing that. Does anyone else have issues seeing the banners?
+
+
+[09/17/2022 7:37 AM] glasgowm#9381
+can someone pin this to the top of the subs
+
+https://twitter.com/ergoplatformorg/status/1570807629957730305
+
+{Embed}
+Ergo (@ergoplatformorg)
+https://twitter.com/ergoplatformorg/status/1570807629957730305
+🛎 Hey #Ergonauts, this Saturday join us in the community chat to discuss the crypto landscape post-merge.
+
+🗓 September 17, 2022. 
+🕔 5 PM UTC
+📍 https://t.co/FgvkBu09RX
+📍https://t.co/upbMPpZSus
+
+#mERGe #Blockchain #cryptocurrency #Ergo
+https://images-ext-1.discordapp.net/external/mQ9kaqHLNFQDdiiIthRk2T36F5WAoQkszrz22WiQgA8/https/pbs.twimg.com/media/FcyhNl_aIAE1aWw.jpg
+Twitter
+
+
+[09/17/2022 8:39 AM] dashmunn#0001
+sure
+
+
+[09/17/2022 8:42 AM] dashmunn#0001
+done
+
+{Reactions}
+❤️ (3) 
+
+[09/18/2022 2:30 PM] Superheat22#8526
+
+
+
+[09/20/2022 1:48 PM] TypoDaPsycho#6307
+@DenAce could be assigned Sigmanaut role again & removed from dormant Sigmanaut role? (By someone with the permissions to do so, which isn't me)
+
+{Reactions}
+✅ 
+
+[09/21/2022 9:45 AM] TypoDaPsycho#6307
+I went ahead and requested r/Ergo, i forget who had the u/sigmanaut_ account? They're listed as the only mod BUT it's a suspended account so maybe I'll get lucky. If so, getting multiple other mods added will be first priority. God forbid my request is approved then *my* account gets suspended lol.
+
+{Reactions}
+👌 
+
+[09/21/2022 9:52 AM] TypoDaPsycho#6307
+I just removed myself as mod from r/ergoMemes as I don't want the r/redditrequest Admins to say I moderate *too* many subs, which was a reason they denied someone else's previous request ( I can't remember who  that was?).
+
+
+[09/21/2022 10:54 AM] glasgowm#9381
+Me, but wasn't aware I had access to r/ergo
+
+
+[09/22/2022 6:01 AM] TypoDaPsycho#6307
+yesterday that user name was showing suspended when I clicked it but not today, if you confirm you have access with that account I'll gladly rescind my request for the sub!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1022372000318099486/image0.png
+
+
+[09/22/2022 6:16 AM] TypoDaPsycho#6307
+what will the plan of action be for r/Ergo if we you/we get control?
+
+
+[09/22/2022 11:03 AM] glasgowm#9381
+That account got suspended for auto-sharing tweets :/ 
+
+Just redirect it to r/ergonauts?
+
+
+[09/27/2022 6:20 AM] Community Updates#0000
+Hey Admins and Mods,
+
+Y’all ready for some of that ~ juicy ~ product news?
+
+After a bunch of testing, we’re excited to begin rolling out Forum Channels across Community servers!
+
+Forum Channels are a new type of channel that provide a dedicated, organized space for conversations. Since conversations are contained in individual posts, your members can browse topics before jumping in—without worrying about breaking up or getting in the way of other on-going conversations.
+
+If you’ve been waiting for this news in anticipation and are ready to dive right in, go right ahead and click that Create Channel button. You should see that forum channels are now an option for you. If it’s not, you may be part of a small group of users who will have to wait just a little longer. (:soontm:)
+
+Want to do a bit more deep thonking and research around how to best use Forum Channels before diving in? The following article on our Community Resources site will guide you on your journey to reaching forum Valhalla: <https://discord.com/community/creating-value-with-conversation>
+
+https://www.youtube.com/watch?v=y4MxuHNIIg0
+
+{Embed}
+Discord
+https://www.youtube.com/watch?v=y4MxuHNIIg0
+Organize your Server with Forums
+Presenting a brand new feature with old school energy: Forum Channels. 
+Give your community a place to get ~Into It~ about topics without talking over anybody else.
+More info: https://www.dis.gd/forum-channels
+
+↓ look at us goooooooooooooooooooooooo ↓
+Twitter: https://twitter.com/discord
+Instagram: https://www.instagram.com/discord
+Facebook: htt...
+https://images-ext-1.discordapp.net/external/vzoblqVTNBfGywj7ci4-EuBX2c-QYzo8Y6Z3r83HgYc/https/i.ytimg.com/vi/y4MxuHNIIg0/maxresdefault.jpg
+
+
+[09/28/2022 2:47 AM] TypoDaPsycho#6307
+My request for r/Ergo was approved, I've sent out mod invites to several r/Ergonauts mods @dashmunn @Armeanio u/FathersFolly u/OneThirstyJ
+
+{Reactions}
+🥳 (2) 
+
+[09/28/2022 2:49 AM] TypoDaPsycho#6307
+I know some won't have the time to moderate but get admin control shared amongst several of us is first priority, have another account I can invite @glasgowm ?
+
+
+[09/28/2022 2:52 AM] dashmunn#0001
+🥳 nice work Typo!
+
+
+[09/28/2022 2:53 AM] dashmunn#0001
+I believe Glas created a second sigmanaut reddit account lmao. let me get his username
+
+
+[09/28/2022 2:57 AM] dashmunn#0001
+I think he got banned again, i swear it was sigmanaut__ (with two underscores) but that seems to be suspended...
+
+{Reactions}
+👍 
+
+[09/28/2022 2:58 AM] dashmunn#0001
+He can confirm once he sees these messages
+
+
+[09/28/2022 2:59 AM] dashmunn#0001
+btw its /FathersFolly just in case you invited the wrong person 🤭
+
+
+[09/28/2022 3:03 AM] TypoDaPsycho#6307
+invited correct user, but good catch thanks!
+
+{Reactions}
+👌 
+
+[09/28/2022 4:14 AM] curbsideprophet#5083
+FYI gave `wkholi#5094` the boot for a bunch of mining rig referral link spam
+
+{Reactions}
+👍 
+
+[09/28/2022 9:17 AM] glasgowm#9381
+Yep they got me again, moving in a few weeks so going to go covert
+
+
+[09/28/2022 9:24 AM] dashmunn#0001
+Rip :/ they really like smacking you with the ban hammer
+
+
+[09/29/2022 2:21 AM] TypoDaPsycho#6307
+Thanks to those who have accepted invite to mod r/Ergo! (And sorry to those I missed, please let me know)  I quickly wrote and pinned (please share better ways to do this) a post on r/Ergo directing people to r/ergonauts here: https://www.reddit.com/r/Ergo/comments/xqtu0c/mod_announcement_links_to_active_ergo_erg/?utm_source=share&utm_medium=web2x&context=3
+
+{Embed}
+https://www.reddit.com/r/Ergo/comments/xqtu0c/mod_announcement_links_to_active_ergo_erg/?utm_source=share&utm_medium=web2x&context=3
+r/Ergo - 📢 Mod announcement & links to active Ergo $ERG subreddits
+0 votes and 0 comments so far on Reddit
+
+
+[09/30/2022 2:31 AM] dashmunn#0001
+Updated the sidebar description and added the official subreddits (the 3 main ones) widget for ease of access 🙂
+
+{Reactions}
+💪🏽 (2) 
+
+[09/30/2022 6:23 AM] NoahErgo#4349
+Oh hell yea finally got it!
+
+
+[09/30/2022 6:23 AM] NoahErgo#4349
+Great job guys
+
+
+[10/01/2022 5:04 AM] TypoDaPsycho#6307
+can someone please resend me an invite to mod r/ErgoMemes, I left to increase chances for my r/Ergo request and now that's been sorted out so...  thank you!
+
+
+[10/01/2022 9:22 AM] dashmunn#0001
+sent 🙂
+
+
+[10/01/2022 10:28 AM] TypoDaPsycho#6307
+thank you 🙂
+
+
+[10/04/2022 12:25 PM] glasgowm#9381
+Could you re-add? she can't find it
+
+
+[10/04/2022 12:26 PM] dashmunn#0001
+Rescinded and resent
+
+{Reactions}
+❤️ 
+
+[10/04/2022 12:27 PM] dashmunn#0001
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1026817811965808680/unknown.png
+
+
+[10/04/2022 4:51 PM] koutelier#5178
+reddit mods why my post is removed ? lol
+
+
+[10/04/2022 10:47 PM] Affable Villain#4533
+How else can I keep all the hints for myself? 🤣
+
+
+[10/04/2022 10:48 PM] koutelier#5178
+lmao. i was checking from my alt reddit account :facepalm:
+
+{Reactions}
+😂 
+
+[10/07/2022 10:07 AM] TypoDaPsycho#6307
+Wait are we not approving Twitter posts on r/Ergonauts? That's fine if not but I just approved a couple before realizing all the unmoderated are Twitter related oops
+
+
+[10/07/2022 10:13 AM] TypoDaPsycho#6307
+And now I feel like I should go ahead and approve the last in the que? I'm going to I guess, feel free to reverse that choice
+
+
+[10/07/2022 1:11 PM] Affable Villain#4533
+Nah, I think Twitter drama is just the topic of the day 🙂
+
+{Reactions}
+💯 
+
+[10/08/2022 12:28 AM] curbsideprophet#5083
+@glasgowm i assume this isn't you, right? the discord DM scams are getting more elaborate
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1028086405546655754/unknown.png
+
+
+[10/08/2022 12:29 AM] glasgowm#9381
+Damn nice English
+
+
+[10/08/2022 12:29 AM] curbsideprophet#5083
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1028086601131245619/Screen_Shot_2022-10-07_at_4.29.01_PM.png
+
+
+[10/08/2022 12:29 AM] curbsideprophet#5083
+even has the same ID as you
+
+
+[10/08/2022 12:29 AM] glasgowm#9381
+Tf
+
+
+[10/08/2022 12:33 AM] glasgowm#9381
+L vs i, I think
+
+
+[10/08/2022 12:33 AM] glasgowm#9381
+sneaky
+
+{Reactions}
+🤔 
+
+[10/08/2022 12:56 AM] curbsideprophet#5083
+sneky mf. already reported & blocked
+
+
+[10/09/2022 4:33 AM] T U L O (ErgoMinnow)#6385
+ppl be cray
+
+
+[10/10/2022 1:52 AM] dashmunn#0001
+Removing this. Was approved but doesnt seem relevant?: https://www.reddit.com/r/ergonauts/comments/xzzcz4/ethereum_classic_awareness_education_for_the_ergo
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/xzzcz4/ethereum_classic_awareness_education_for_the_ergo
+r/ergonauts - Ethereum Classic Awareness & Education for the Ergo C...
+0 votes and 5 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/UIDsyVmI8qgVqP9PKbuvDUv2Fh-JCfcyvXLZKx44uus/%3Fauto%3Dwebp%26s%3D535c16cb2373e778e146d7e6ab44dc5bf1499a9c/https/external-preview.redd.it/j9tb31UxGrixEIH6FysGoak7GmZNjGYq9DprBuvObhc.jpg
+
+{Reactions}
+👍 
+
+[10/10/2022 3:34 AM] Affable Villain#4533
+Doesn't show any record of being approved. Lots of stuff skipping the modqueue lately 🤷‍♂️
+
+
+[10/10/2022 3:51 AM] dashmunn#0001
+Weird. Im still on mobile but ill check details once i access my pc
+
+
+[10/11/2022 9:59 AM] TypoDaPsycho#6307
+I added Medical-Result4453 to filter for mod review in automod settings, post history shows genuine (low quality) engagement in past but has devolved into generic "Ergo sucks" type comments. Should I have just banned instead of filtered?
+
+
+[10/11/2022 12:25 PM] glasgowm#9381
+Think filter is fine if they're being a wank
+
+
+[10/11/2022 12:25 PM] glasgowm#9381
+could someone group all the Twitter posts into a Flair?
+
+
+[10/12/2022 2:13 AM] dashmunn#0001
+sure, does that mean any post from the twitter domain should have the twitter flair applied, or just posts from the official ergo account(s)?
+
+
+[10/12/2022 8:04 AM] glasgowm#9381
+Just meta ones relating to the drama
+
+{Reactions}
+👌 
+
+[10/14/2022 7:37 AM] TypoDaPsycho#6307
+I switched the link filter to 'all' on r/ergonauts so we'll have to approve links even in comments I think, there's a way to automod filtering only specific YouTube channels/ videos but filter all links probably isn't a bad idea anyway since we're a crypto sub? Idk tell me what you think
+
+{Reactions}
+👍 
+
+[10/14/2022 8:07 AM] dashmunn#0001
+I believe so, it's just a matter of setting up a whitelist for urls akin to this: https://www.reddit.com/r/AutoModerator/comments/li2eez/whitelist_links_onlyhelp/
+
+{Embed}
+https://www.reddit.com/r/AutoModerator/comments/li2eez/whitelist_links_onlyhelp/
+r/AutoModerator - Whitelist links only(HELP)
+2 votes and 2 comments so far on Reddit
+
+
+[10/14/2022 8:08 AM] dashmunn#0001
+we'd just need a list of urls we want to allow, obvs ones being anything ergoplatform yt channel etc.
+
+
+[10/14/2022 8:17 AM] TypoDaPsycho#6307
+We pretty much already have to approve 99% of posts, this is just on comment level I'm referring to. And yeah my  punctuation isn't clear above I know there's a way, and if you want to do that it's probably the best choice I'm just being lazy
+
+
+[10/14/2022 8:19 AM] TypoDaPsycho#6307
+But I was taking the opposite approach and trying to auto filter certain channels or videos, but instead white listing makes more sense
+
+
+[10/14/2022 2:42 PM] glasgowm#9381
+Can someone change my flair to EF or something - /u/ERG_Glasgow
+
+
+[10/14/2022 4:19 PM] Affable Villain#4533
+Just tried, but I think you're shadowbanned. Your comment shows as banned/filtered, no visible profile history, and you don't show up in a search to grant user flair
+
+
+[10/14/2022 6:10 PM] glasgowm#9381
+oic, fresh setup weird. Maybe it has my VPN blacklisted
+
+
+[10/15/2022 1:31 PM] Dediou#0611
+
+
+
+[10/15/2022 1:31 PM] Dediou#0611
+
+
+
+[10/15/2022 11:50 PM] glasgowm#9381
+Whoever flaired me was quick of the mark 😅
+
+Think it was using a @duck.com email that got me shadowbanned so I just signed up on old.reddit without an email 😛
+
+
+[10/15/2022 11:52 PM] Affable Villain#4533
+Yeah, just noticed your comment in the queue. Added as an approved user as well. Want a mod invite while I'm at it?
+
+
+[10/15/2022 11:52 PM] glasgowm#9381
+Not yet don't want to trigger any filters heh
+
+
+[10/15/2022 11:53 PM] Affable Villain#4533
+Gotcha 👍
+
+
+[10/16/2022 12:28 AM] glasgowm#9381
+Got cocky and posted a link and they nuked me rip, seems you can't do anything with a fresh account
+
+{Reactions}
+🤷‍♂️ (2) 
+
+[10/16/2022 3:52 AM] dashmunn#0001
+ngl, I laughed as soon as I tried to view the approved profile and saw it nuked. just can't catch a break, glas 🤣
+
+
+[10/17/2022 11:15 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1031510639849521203/unknown.png
+
+
+[10/17/2022 11:15 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1031510730316464149/unknown.png
+
+
+[10/17/2022 11:15 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1031510748020621362/unknown.png
+
+
+[10/17/2022 11:15 AM] glasgowm#9381
+https://tenor.com/view/hopefully-very-soon-liam-scott-edwards-ace-trainer-liam-i-wish-it-came-sooner-i-hope-it-comes-soon-gif-26387702
+
+{Embed}
+https://tenor.com/view/hopefully-very-soon-liam-scott-edwards-ace-trainer-liam-i-wish-it-came-sooner-i-hope-it-comes-soon-gif-26387702
+https://images-ext-1.discordapp.net/external/Uf_3GnNZBsGuZ5P9svOeGTNKYgrBteFYu5tDGWK16Gc/https/media.tenor.com/BFRQML-EVkUAAAAD/hopefully-very-soon-liam-scott-edwards.png
+
+{Reactions}
+👌 
+
+[10/19/2022 1:02 AM] dashmunn#0001
+A wild telegram link that didnt get caught by the great black filter of reddit. :thinkRoll:  (Also, bruh, what a name, and I say that as an Aussie)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1032081238787362886/unknown.png
+
+
+[10/19/2022 12:00 PM] glasgowm#9381
+ty ser, baws too big on that reddit account for them to ban me :>
+
+{Reactions}
+🤣 
+
+[10/20/2022 7:10 AM] TypoDaPsycho#6307
+When was the last time someone requested r/ErgoNFTs ? I will if no one else wants to take a swing at it, but already mod of 5 Ergo related subs and I remember someone's request for r/Ergo being denied due to being mod of too many subreddits
+
+
+[10/20/2022 9:23 AM] TypoDaPsycho#6307
+updated Partnerships list and the roadmap link on r/ergonauts FAQ page
+
+{Reactions}
+ergo_orange2 
+
+[10/21/2022 7:14 AM] dashmunn#0001
+Awesome work Typo!
+
+
+[10/22/2022 12:09 AM] TypoDaPsycho#6307
+Thank you 😊
+
+
+[10/22/2022 8:36 AM] TypoDaPsycho#6307
+Updated NFT links to r/ergo_ nfts on r/ergonauts & r/erg_ miners - The only issue Is the ergo Ecosystem Subreddits post that Glasgow created with u/sigmanaut_ account needs updated, but since that account is banned I don't know if there's anything that can be done for that besides commenting like I've done
+
+
+[10/22/2022 8:38 AM] TypoDaPsycho#6307
+see here: https://www.reddit.com/r/ergonauts/comments/u22yc9/ecosystem_subreddits/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/u22yc9/ecosystem_subreddits/
+r/ergonauts - Ecosystem Subreddits
+58 votes and 6 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/m4cKTYZOWHlbdgk3QO1xwknFtLX5-sZeSN_ONRNlFkc/%3Fauto%3Dwebp%26s%3D9a5b230afc453c0a6ac5745450c8ac429c330290/https/external-preview.redd.it/egbQt62iU3Mglb1ferkvpXkvCQHWiqXn8t7m9fi5gq8.jpg
+
+
+[10/22/2022 8:41 AM] dashmunn#0001
+We can just remove them and post an updated version with our own accounts. Just gotta make sure whichever account we use doesn't get banned 🤣
+
+
+[10/22/2022 8:41 AM] dashmunn#0001
+Or even a wiki page which everyone can contribute to and just have a post that links back to the wiki page
+
+
+[10/22/2022 8:49 AM] TypoDaPsycho#6307
+Yeah that's what I figured, so anybody repost except Glasgow's account, gotcha 👍 lol
+
+
+[10/22/2022 8:50 AM] TypoDaPsycho#6307
+Yeah that's a good idea!
+
+
+[10/26/2022 9:52 AM] TypoDaPsycho#6307
+Is this spam?
+ https://www.reddit.com/r/ergonauts/comments/ydps3b/mining_cycle_may_also_on_the_way_recover_based_on/?utm_source=share&utm_medium=android_app&utm_name=androidcss&utm_term=1&utm_content=share_button
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/ydps3b/mining_cycle_may_also_on_the_way_recover_based_on/?utm_source=share&utm_medium=android_app&utm_name=androidcss&utm_term=1&utm_content=share_button
+r/ergonauts - Mining cycle may also on the way recover, based on TO...
+1 vote and 1 comment so far on Reddit
+https://images-ext-2.discordapp.net/external/v7Vx0G1NEMG5ZyqYhSlaE8vtOxgAfRnzpXFqewpvXaQ/%3Fauto%3Dwebp%26s%3D672ea82f5e5f9cb193afa96a805e1bea90a63033/https/external-preview.redd.it/pIW4xhQdXg31MWezGlblZ26ai825qK4c5eCa-Hp_P5k.jpg
+
+
+[10/26/2022 9:52 AM] glasgowm#9381
+yep
+
+
+[10/26/2022 9:55 AM] TypoDaPsycho#6307
+Thanks, It mentioned Ergo at the beginning and that threw me way off
+
+
+[10/27/2022 4:17 AM] dashmunn#0001
+https://www.reddit.com/r/modnews/comments/ydcrh3/mod_log_mod_queue_improvements_and_more_oh_my/ - new modding tools
+
+{Embed}
+https://www.reddit.com/r/modnews/comments/ydcrh3/mod_log_mod_queue_improvements_and_more_oh_my/
+r/modnews - Mod Log & Mod Queue improvements and more oh my
+247 votes and 179 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/uz1Q7jzZ4TbGZzM3ILZeSeooE_7XKydauen7fS3r32s/%3Fformat%3Dpng8%26s%3D969b5692a806b491afff5879a6facc666455f583/https/external-preview.redd.it/dd7pPx1L7fGMT-cXzCvMM5jekx36yz2G0KETPbB0KQ8.gif
+
+
+[10/27/2022 11:08 PM] TypoDaPsycho#6307
+Previously r/ErgoTrading was all one page in markdown format. But I wanted the idex to be an actual index with links. 
+
+Initially created the new wiki pages under r/ErgoTrading/wiki/index/ which is wrong I guess.
+
+ I can't delete wiki pages so tried to create new pages at correct r/ErgoTrading/wiki/  
+
+Without  index/ 
+
+And just make the index ones viewable by mod only
+
+
+[10/27/2022 11:12 PM] TypoDaPsycho#6307
+It worked for some of them. But for some reason, it created some pages at a totally different yet still incorrect location; I didn't knowingly set "about" as parent in this case? 
+
+here's an example here: https://www.reddit.r/ErgoTrading/about/wiki/
+
+
+[10/27/2022 11:20 PM] TypoDaPsycho#6307
+I'm doing the same thing creating the above example page that I'm doing when creating correct pages at correct location like here:  https://reddit.com/r/ErgoTrading/wiki/staking
+
+{Embed}
+https://reddit.com/r/ErgoTrading/wiki/staking
+staking - ErgoTrading
+r/ErgoTrading: Welcome to r/ErgoTrading, a community to discuss the trading and price of the cryptocurrency, Ergo ($ERG)... Any issues or questions …
+
+
+[10/28/2022 12:43 AM] dashmunn#0001
+I looked into it. Reddit doesnt allow you to delete wiki pages once theyve been created (very annoying that they dont have something so basic).
+
+If you want the structure to be /ErgoTrading/wiki/ChildPage, you have to recreate them manually and then hide the old pages from being edited (and probably blank them entirely to indicate that theyre obsolete).
+
+
+[10/31/2022 10:43 AM] dashmunn#0001
+Thoughts on adding an English only rule? Only because its hard to moderate posts when we don't know what the OP is saying and having to use google translate becomes cumbersome. I also dont think other redditors would like to see posts they themselves cant read.
+
+{Reactions}
+👍 
+
+[10/31/2022 6:32 PM] Affable Villain#4533
+Please do. I couldn't manage to translate a mandarin post today. Just had to direct them to the linktree/regional telegram and hope for the best
+
+
+[11/01/2022 2:46 AM] dashmunn#0001
+Awesome 🙂 I'll update the subreddit rules soon and I think there are some automod rules to detect non-english posts. If possible, I'll customise the automod message with a link to our linktree. (As telegram links are kind of a grey area with the filter)
+
+
+[11/01/2022 5:43 AM] dashmunn#0001
+Subreddit rule added. Can't seem to find a specific English only automod rule so I'll need to look into this at a later date.
+
+
+[11/01/2022 11:56 AM] dashmunn#0001
+Adding a new IDO post flair.
+
+{Reactions}
+👍 (2) 
+
+[11/02/2022 11:54 PM] TypoDaPsycho#6307
+Thank you, should be all good now!
+
+
+[11/03/2022 12:00 AM] TypoDaPsycho#6307
+Thinking about making a "posts must be tagged" rule on both- r/ErgoTrading (for organizational sake)  and r/ergonauts (to save time on moderation). 
+
+What would everyone think about that?
+
+
+[11/03/2022 12:02 AM] TypoDaPsycho#6307
+I could start with Trading and then if there's no issues with that we could add the rule to r/ergonauts after
+
+
+[11/03/2022 12:16 AM] dashmunn#0001
+My only concern is that people mislabel posts but I think that can be easily resolve as most of the subreddit mods check the subreddits multiple times a day. Regardless, happy to see the change be implemented. @Affable Villain thoughts?
+
+
+[11/03/2022 1:00 AM] Affable Villain#4533
+No harm trying it out. Ideally most mislabeled posts would be caught in the modqueue anyway
+
+{Reactions}
+ergo_orange2 
+
+[11/03/2022 6:16 AM] TypoDaPsycho#6307
+Added automod rule for YouTube that seems to work  when tested with alt account. Not how dashmunn suggested with whitelist of domains, but should at least solve YouTube spam problem.
+
+{Reactions}
+🥳 
+
+[11/03/2022 6:27 AM] TypoDaPsycho#6307
+TBH I don't keep my eyes on r/ErgoTrading like I do r/ergonauts so the mislabeling issue could be worse on Trading sub. But the tag list is more extensive on trading so we can try it out. 
+
+On r/ergonauts we approve and currently tag majority of posts, now we would have to approve and simply review tag. 
+
+I'll  review and add more tags to r/ergonauts before adding the rule to it though.
+
+{Reactions}
+ergo_orange2 
+
+[11/03/2022 7:20 AM] dashmunn#0001
+Sounds good!
+
+
+[11/04/2022 10:23 PM] Affable Villain#4533
+Automod seems to remove any and all YouTube links now. Seems that could detract from productive discussion and limit a lot of legitimate posts/responses. For example, it just removed a link to the DeCo YouTube channel. Maybe we could change the automod action from "remove" to "filter" so we just catch the spam links before anyone sees/reports them. What do you think?
+
+
+[11/05/2022 6:10 PM] TypoDaPsycho#6307
+Sorry just now seeing this, I think the issue is did automod remove YouTube links in comments prior?
+
+
+[11/05/2022 6:11 PM] TypoDaPsycho#6307
+But either way, yes definitely I'll change it to filter when I get a second
+
+
+[11/05/2022 6:33 PM] TypoDaPsycho#6307
+I actually just removed it
+
+
+[11/05/2022 6:33 PM] TypoDaPsycho#6307
+First I switched it to filter then decided just to remove it totally
+
+
+[11/05/2022 6:33 PM] Affable Villain#4533
+No, it never did. I figured if it's set to filter, it's an easy catch since the spam links are almost always posted 3-5 at a time
+
+
+[11/05/2022 6:34 PM] Affable Villain#4533
+Okay. Yeah, I think it might just be trading one headache for another
+
+
+[11/08/2022 9:54 AM] TypoDaPsycho#6307
+So what I've been doing on r/ergonauts is manually switching flair from 'Needs help' to 'Solved' once it seems appropriate. But then the sub goes from mostly "needs help", to mostly "solved" lol. So then after a day or so, I'm trying to switch flair to final & more specific flairs like '"wallets", or whatever is best fit. Anyone else doing similar?
+
+
+[11/08/2022 9:59 AM] TypoDaPsycho#6307
+But maybe I should make new flairs so that instead of "WALLET" we can choose "WALLET- SOLVED", or maybe we should just skip the "SOLVED" flair altogether... IDK
+
+
+[11/08/2022 10:13 AM] glasgowm#9381
+Yeah having `NEEDS HELP` then changing to `{CATEGORY}` on answer makes most sense to me.
+
+{Reactions}
+👍 
+
+[11/08/2022 11:29 PM] dashmunn#0001
+Happy to start doing this change. 🙂 I'll start doing this from today.
+
+
+[11/09/2022 8:00 AM] TypoDaPsycho#6307
+I switched it back to filter 😅 
+
+ but I also saw an option earlier to filter & send a notification via mod mail when there's a YouTube video that needs reviewing. Once I find it, I'll try that one out instead
+
+
+[11/09/2022 8:08 AM] TypoDaPsycho#6307
+"I have two subs that I moderate that were getting a lot of YouTube channel spam. I set up Automoderator to remove the posts and then send modmail to myself to review the submission. If it's spam, I deal with it. If the content is relevant, I approve it."
+
+---
+standard: video hosting sites
+action: remove
+modmail: The submission by /u/{{author}} is a video. Please review for spam.
+---
+
+That would be good if it works correctly?
+
+
+[11/09/2022 8:10 AM] TypoDaPsycho#6307
+Probably be better if we also (or instead?) whitelist the few regular posters who share YouTube content
+
+
+[11/09/2022 12:04 PM] Affable Villain#4533
+I think most of the content creators are already approved users and wouldn't be affected. If you feel having mod mail notifications for video links is beneficial, we can try that, but I think we're pretty diligent about keeping the queue clear and just filtering would be sufficient
+
+
+[11/09/2022 8:53 PM] TypoDaPsycho#6307
+Cool thanks, I don't think it works anyways from my testing on ErgoTrading earlier.
+
+
+[11/09/2022 9:06 PM] TypoDaPsycho#6307
+Is u/Slashair in this group? They haven't added another moderator to r/ergo_nfts & I don't want to end up with another situation like r/ErgoDevelopers where the only mod is a banned account
+
+
+[11/09/2022 9:10 PM] TypoDaPsycho#6307
+I would like a policy regarding moderator counts so we avoid ever being in a situation where one person can highjack the sub or do other scammy type things. 
+
+
+We can't force any sub creator to add more moderators BUT we can make multiple mods a requirement to be pinned to r/ergonauts sidebar
+
+
+[11/10/2022 12:34 AM] dashmunn#0001
+I believe Slashair is @quokka
+
+
+[11/10/2022 12:34 AM] quokka#1273
+yeah thats me
+
+
+[11/10/2022 12:35 AM] dashmunn#0001
+sorry for the ping, but could you add Typo to /r/ergo_nfts as a mod when youre free, please 🙂
+
+
+[11/10/2022 12:35 AM] quokka#1273
+YES I've been meaning to add new mods to ergo nfts
+
+{Reactions}
+👌 (2) 
+
+[11/10/2022 12:35 AM] quokka#1273
+Will do
+
+
+[11/10/2022 12:35 AM] dashmunn#0001
+Thanks, Quokka 🙂
+
+
+[11/10/2022 12:35 AM] quokka#1273
+ofc thanks for letting me know
+
+
+[11/10/2022 3:35 AM] dashmunn#0001
+updating removal reasons to be aligned with subreddit rules. ease of communication between mods and users when posts are removed.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1040107379368415232/image.png
+
+
+[11/10/2022 6:37 AM] TypoDaPsycho#6307
+Awesome thanks we needed to do that!
+
+But I also think we need to consider reworking the sub rules to better reflect what we are actually going to enforce. 
+
+I'm conflicted because I like r/ergonauts being active and people getting access to help they need. But the quality of posts sometimes make the front page be half filled with one paragraph posts, talking about market conditions or price,  that would better on r/ErgoTrading.
+
+But when we enforced the rules strictly, it wasn't worth the pushback and angry messages IMO. At some point when Ergo is bigger, we will have to start being stricter about what we allow.
+
+
+[11/10/2022 6:39 AM] TypoDaPsycho#6307
+I'm starting to realize that there can be such thing as too many flairs.
+
+{Reactions}
+😂 
+
+[11/10/2022 6:41 AM] TypoDaPsycho#6307
+Thank you!!
+
+
+[11/10/2022 4:04 PM] quokka#1273
+gotcha
+
+
+[11/10/2022 4:04 PM] quokka#1273
+glad we can move past the last sub
+
+
+[11/11/2022 9:33 AM] glasgowm#9381
+what is this fresh bs
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1040559827644076062/image.png
+
+
+[11/11/2022 9:49 AM] dashmunn#0001
+err, wut. let me look into it
+
+
+[11/11/2022 9:54 AM] dashmunn#0001
+removing this rule lads, I see some discussion above but its better for us just to approve anything that gets caught. doesnt make sense to block youtube domain
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1040565146721984582/image.png
+
+
+[11/11/2022 10:00 AM] glasgowm#9381
+Didn't even realise you could do that; but yeh just set it to filter. Shouldn't really remove anything by default as it's more hassle than just glancing at the list and approving/deleting manually
+
+{Reactions}
+👌 (2) 
+
+[11/11/2022 10:30 AM] TypoDaPsycho#6307
+I thought it was set to filter, I'm just going to delete the command in automod completely. For the second time if someone hasn't already 😂 😅
+
+
+[11/11/2022 10:39 AM] dashmunn#0001
+Didnt check automod. Please do, thanks 🙂
+
+
+[11/11/2022 8:41 PM] WilfordGrimley#0124
+Does anyone know any other handles of Turdah from matrix across different socials?
+
+There exists a matrix space for the Ergo Platform that is bridged to Discord/Telegram etc that is moderated by turdah:matrix.org but they do not respond to DMs or public chat on matrix.
+
+
+[11/11/2022 11:51 PM] glasgowm#9381
+Think it's maybe an old account of mine
+
+
+[11/12/2022 12:59 AM] WilfordGrimley#0124
+If so, do you still have access to it?
+
+I am close to having a matrix homeserver live for the Ergo community (keep getting errors with PostgresSQL)
+
+I would love to simply migrate the existing Ergo channels and space over to our homeserver when it's live rather than create a new one.
+
+
+[11/12/2022 8:38 AM] TypoDaPsycho#6307
+Gotcha 👍
+
+
+[11/12/2022 9:32 AM] TypoDaPsycho#6307
+invited @dashmunn and @Affable Villain to mod r/ergo_nfts up to them if they can accept
+
+To-do list: description and wiki, links to both AH and SH, related subreddits on sidebar widget,...?
+
+{Reactions}
+👍 
+
+[11/12/2022 9:40 AM] glasgowm#9381
+Why would we want to do that? But don't think I have access anyway.
+
+
+[11/12/2022 9:41 AM] TypoDaPsycho#6307
+Anyone else able to help mod r/ergo_nfts let me know, @glasgowm your still taking it easy on your new account right? Or should I send you invite to mod
+
+
+[11/12/2022 9:50 AM] glasgowm#9381
+sure can invite me now
+
+
+[11/12/2022 10:54 AM] dashmunn#0001
+Sounds good, ill accept it once I get back to my pc tomorrow
+
+
+[11/12/2022 2:11 PM] WilfordGrimley#0124
+The current matrix channels and space are on the matrix.org homeserver. 
+
+Matrix documention and ettiquette recommend users and channel managers move off of the matrix.org homeserver as soon as possible after registering to reduce load on that server, and increase decentralization of the fediverse.
+
+
+[11/12/2022 2:15 PM] WilfordGrimley#0124
+It is not too dissimilar to a miner opting to mine to the largest mining pool, altough obviously it poses no greater security risk to any consesus mechanism.
+
+
+[11/12/2022 5:03 PM] Affable Villain#4533
+I edited the weekly discussions to direct folks to the new nft subreddit instead of old, and spectrum instead of ergodex
+
+{Reactions}
+👏 
+
+[11/12/2022 6:18 PM] glasgowm#9381
+I dont hold much hope matrix will last/care about it's decentralisation - should really be built into the client already, seems switching entirely would also add inevitable downtime/maintenance. But if you add in the bridge bot (or create your own and send me the details - not sure how it works with other servers) can add it in a loop on the bridge
+
+
+[11/12/2022 6:19 PM] glasgowm#9381
+There is an Ergo Space on matrix, but quite hard to find via search I think; invited you & accessible here;
+
+https://matrix.to/#/#ergo-platform:matrix.org
+
+{Embed}
+https://matrix.to/
+Matrix - Decentralised and secure communication
+You're invited to talk on Matrix. If you don't already have a client this link will help you pick one, and join the conversation. If you already have one, this link will help you join the conversation
+https://images-ext-1.discordapp.net/external/3yPmfN-_U_7Xn8hLSG77nY9IvdtITH0GPrB6OX3JjEI/https/matrix.org/blog/img/matrix-logo.png
+
+
+[11/12/2022 9:37 PM] WilfordGrimley#0124
+"I dont hold much hope matrix will last/care about it's decentralisation" Not with that attitude! Decentralization is built on effort, and education.
+
+" should really be built into the client already" Which part? switching of channels and spaces from one homeserver to another is supported by both of the clients that I have tried:  Element (the most popular) and Cinny (the most similar to discord and my favorite)
+
+
+[11/12/2022 9:41 PM] WilfordGrimley#0124
+Regarding bridge bots: I intend to have the homeserver manage bridgebots between discord/ telegram/ matrix for any and all channels within whatever space ends up on the homeserver. Be that the existing space if you are willing to migrate, or any other if you are unwilling.
+
+The homeserver doesn't have to be responsible for it's own bridgebots if you are happy to continue to maintain them 🙂
+
+
+[11/12/2022 9:44 PM] WilfordGrimley#0124
+Regarding potential downtime: Currently I have only one server, and no users. If demand grows, the home server can be migrated to Kubernetes or Flux as needed to mitigate any downtime.
+
+Once a matrix space is fully (every channel) bridged to discord and telegram, the consequences of eventual downtime can be mitigated as willing users could simply continue their discussion on one of those centralized services.
+
+
+[11/12/2022 9:48 PM] WilfordGrimley#0124
+I also think it may be possible to have space/channels present on several homeservers simultaneously. Meaning migrating may not be a requirement, and duplication without the need for bots between matrix homeserver-homeserver would be possible further reducing the risk of any downtime. If this is true it would simply mean that the homeserver can serve as a method for reducing potential censorship of the ergo community which is the goal anyway 🙂
+
+
+[11/12/2022 9:50 PM] WilfordGrimley#0124
+Here is an example of the way spaces can be used with the cinny client to replicated the subgrouping feature of discord.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1041107833741123655/image.png
+
+{Reactions}
+🔥 
+
+[11/13/2022 12:09 AM] mjoe#6100
+
+
+
+[11/13/2022 1:00 PM] glasgowm#9381
+> "Not with that attitude! Decentralization is built on effort, and education."
+
+Decentralisation will need to be effortless, or it won't work.
+
+> Which part?
+
+All of it. Looks like they are planning this for their next homeserver release tho; https://github.com/matrix-org/dendrite
+
+> Regarding bridge bots: I intend to have the homeserver manage bridgebots between discord/ telegram/ matrix for any and all channels within whatever space ends up on the homeserver. Be that the existing space if you are willing to migrate, or any other if you are unwilling.
+
+Not sure what this means, how does the server manage bots? 
+
+> I also think it may be possible to have space/channels present on several homeservers simultaneously. Meaning migrating may not be a requirement, and duplication without the need for bots between matrix homeserver-homeserver would be possible further reducing the risk of any downtime. If this is true it would simply mean that the homeserver can serve as a method for reducing potential censorship of the ergo community which is the goal anyway
+
+Not sure the significance of being able to do it without bots, but that is possible via them anyway.
+
+{Embed}
+https://github.com/matrix-org/dendrite
+GitHub - matrix-org/dendrite: Dendrite is a second-generation Matri...
+Dendrite is a second-generation Matrix homeserver written in Go! - GitHub - matrix-org/dendrite: Dendrite is a second-generation Matrix homeserver written in Go!
+https://images-ext-2.discordapp.net/external/JOzvJk49mMYXyPgPnlLee9uHEwtz79XYTWXGkVhJQIA/https/repository-images.githubusercontent.com/79585104/a2400f80-8207-11e9-8cc8-8b227445ad62
+
+
+[11/13/2022 4:28 PM] WilfordGrimley#0124
+"Decentralization will need to be effortless, or it won't work."
+
+I see your point. The end user shoudn't need to manually opt for decentralization, and to that end federated services without a method to automatically manage decentralization in some P2P way are doomed to fail.
+
+To get to the point of effortless decentralization massive massive efforts will be required by developers and community leaders to educate users on the importance of decentralization. It will require effort to build decentralized systems, and effort to mitigate centralization as time passes.
+
+The Decentralization heading of Ergo's social contract covers this well.
+
+
+
+I will have to look further into dendrite, thanks for the link. 🙂 Always happy to see projects written in GO.
+
+Regarding bots: the ansible playbook I am using at the moment to manage the homeserver runs many different services as docker containers on a single server and configures them to work with one another.
+
+"Note sure the significance of being able to do it without bots, but that is possible via them anyway"
+
+The advantage of using the native federation of Matrix over bots (for duplicating across homeservers) is a reduced memory load and increased confidence that the data has not been tampered with. Matrix enables users to verify one another. If I see glasgow:matrix.org comment in a channel in matrix and I have verified you, I can be more confident that it is you than if a bot duplicated your comment in a different channel/space.
+
+
+[11/14/2022 10:49 AM] glasgowm#9381
+> I see your point. The end user shoudn't need to manually opt for decentralization, and to that end federated services without a method to automatically manage decentralization in some P2P way are doomed to fail.
+
+Yes this is what I was getting at, sorry was very hungover) But Dendrite does look interesting
+
+> The advantage of using the native federation of Matrix over bots (for duplicating across homeservers) is a reduced memory load and increased confidence that the data has not been tampered with. Matrix enables users to verify one another. If I see glasgow:matrix.org comment in a channel in matrix and I have verified you, I can be more confident that it is you than if a bot duplicated your comment in a different channel/space.
+
+fair enough, lmk if you need anything from me. I have access to my own account and the bot one, but think I made the original a while back under an anon account then forgot the pw.
+
+
+[11/14/2022 10:50 AM] glasgowm#9381
+Can someone mod me on Reddit? My flair re-appeared but seems to have reverted again.
+
+
+[11/14/2022 4:17 PM] Affable Villain#4533
+Done. I assigned you flair the other day, don't know why it reverted though 🤷‍♂️
+
+{Reactions}
+pepe_thx 
+
+[11/24/2022 1:33 AM] dashmunn#0001
+stickying the ergohack v results post for a bit for publicity sake.
+
+{Reactions}
+👍 
+
+[11/26/2022 10:56 AM] koutelier#5178
+reddit mods please allow me to shill emporas lol
+
+{Reactions}
+👍 
+
+[11/26/2022 10:56 AM] koutelier#5178
+it was removed by automod lol
+
+
+[11/27/2022 2:48 AM] dashmunn#0001
+stickying summit playlist
+
+
+[12/05/2022 4:47 PM] Sisyphuspush#7967
+Can I please get a Reddit mod to approve this post? https://www.reddit.com/r/ergonauts/comments/zdbr4x/2022_ergo_nft_awards_nominations_now_open/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/zdbr4x/2022_ergo_nft_awards_nominations_now_open/
+r/ergonauts - 2022 Ergo NFT Awards - Nominations Now Open
+0 votes and 0 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/JsJiagHFSvAfjRiD2Jbdvfy4c5MrCNWO5BrS1UKDSvk/%3Fauto%3Dwebp%26s%3D1bf1e806b0eb1ee486f2f7f8ff527326bcee7b63/https/external-preview.redd.it/QQU5f5B2U8fbm4FMgNi8RQfvbHhk6_L7GK0J9EQsfgQ.jpg
+
+{Reactions}
+👍 
+
+[12/09/2022 6:08 PM] Laggalot#0420
+
+
+
+[12/13/2022 3:36 PM] Affable Villain#4533
+@glasgowm  did you do anything special to get a telegram link through on Reddit? My attempts still get removed by the automod with no option to approve
+
+
+[12/13/2022 3:38 PM] glasgowm#9381
+Just re-approved manually until it gave up
+
+
+[12/13/2022 3:55 PM] Affable Villain#4533
+I'll quit giving up so easy
+
+{Reactions}
+💪 
+
+[12/14/2022 12:57 AM] dashmunn#0001
+Looks like bot waves are back. Don't forget to go through threads to see if bot accounts have been banned already. (Unless you guys are already doing that 🤙)
+
+{Reactions}
+👍 
+
+[12/15/2022 11:55 AM] Community Updates#0000
+Hey Admins and Mods! 
+
+Reach for the stars with new revenue tools for creators and communities on Discord.
+
+:sparkleblurple: Server Subscriptions available in the US! :sparkleblurple:
+:dot: Customize tiers, offer exclusive paid content, and meet future subscribers with Promo Pages—all while providing as much of a free experience to your community as you want. (https://dis.gd/CUServerSubs) 
+:dot: Server Subscriptions are only available in the US. Join our waitlist to be notified if they're available in your area. (https://dis.gd/ServerSubsWaitlist)
+
+:sparklegreen: Private Threads are now available to all! :sparklegreen: 
+:dot: Your community no longer needs to have Server Boosting to Level 2 to use Private Threads.
+
+:sparkleyellow: Improvements to Server Insights! :sparkleyellow:
+:dot: Dates should be more accurate.
+:dot: Conversations in Forum Channels will contribute to Engagement metrics, and now you can see joins via Student Hubs, Integrations, and Bots.
+:dot: The requirement to be a Communicator has been increased from 1 to 3 messages sent per week. This only applies to the Engagement tab and doesn’t impact Partner requirements.
+
+:sparklefuschia: Forum Channels now with Gallery View! :sparklefuschia: 
+:dot: Gallery View gives posts in image-heavy Forum Channels like #fanart and #pet-pics room to shine - easily toggle between List View and Gallery View at any time.
+:dot: With this update, Forum Channels are now officially available on all Community servers!
+
+:sparklered: AutoMod keeps getting better! :sparklered: 
+:dot: Alongside more Custom Rules, we’ve added Allowlists to your custom rules! Messages containing anything you’ve added to your Allowlist will not be flagged by AutoMod.
+:dot: We’ve also added the ability to filter messages using RegEX in your custom rules. (<https://dis.gd/RegEXHC>)
+
+Enjoy your new tools, everyone!
+
+{Embed}
+https://dis.gd/CUServerSubs
+Announcing Server Subscriptions and the Creator Portal, Now Open to...
+Creators and community leaders can now learn and earn with Discord: Today, we’re expanding the availability of Server Subscriptions, allowing existing creators to now earn directly on Discord. Learn how to use these new features with our Creator Portal, a one-stop-shop for education and inspiration.
+https://images-ext-1.discordapp.net/external/1cluY5F7Q0kQFN6DMvVjQWMZvhvJwjJmSUIjfp7osew/https/assets-global.website-files.com/5f9072399b2640f14d6a2bf4/6387a302c7db2474abd10c5c_Macro%2520Hero-Blog.png
+
+
+[12/18/2022 4:58 PM] Affable Villain#4533
+Stickied announcement for next community chat
+
+{Reactions}
+🔥 (2) 
+
+[12/20/2022 3:57 AM] dashmunn#0001
+https://www.reddit.com/user/Robd360/ - This user says they cant post to r/ErgoTrading. Anyone know what could be causing that? I added him as an approved user and nothing on the subreddit side should be blocking him i.e. shadowbans etc.
+
+{Embed}
+https://www.reddit.com/user/Robd360/
+Robd360 (u/Robd360) - Reddit
+https://images-ext-2.discordapp.net/external/Mz9F3u6q3_bWR05nVs7wQc09zJsWXIyNQ4KV9QbcZtQ/https/www.redditstatic.com/avatars/defaults/v2/avatar_default_3.png
+
+
+[12/20/2022 11:13 AM] glasgowm#9381
+No idea prob something dumb like not filling in the title like you've said
+
+
+[12/20/2022 12:03 PM] glasgowm#9381
+Finally arrived 🎉
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1054730758394216448/image.png
+
+
+[12/20/2022 12:57 PM] glasgowm#9381
+250+ channels 😯
+
+
+[12/20/2022 1:44 PM] glasgowm#9381
+Looks good for new users now, how does it look for you guys? 
+
+Do you see all channels by default or did nothing change?
+
+
+[12/20/2022 2:17 PM] wombo22#5461
+seeing every channel now
+
+
+[12/20/2022 2:19 PM] glasgowm#9381
+hmm not ideal
+
+
+[12/20/2022 2:19 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1054765109085487115/image.png
+
+
+[12/20/2022 2:20 PM] wombo22#5461
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1054765328695050390/Screen_Shot_2022-12-20_at_9.20.40_AM.png
+
+
+[12/20/2022 2:21 PM] wombo22#5461
+not sure if its for everyone but everything seemed to have been checked off by default
+
+
+[12/20/2022 2:21 PM] wombo22#5461
+but looks good though
+
+
+[12/20/2022 2:23 PM] glasgowm#9381
+Oh so you couldn't see them all by default, you just had the option to enable them all ?
+
+
+[12/20/2022 2:24 PM] wombo22#5461
+o no its seems everything got enabled and made me see everything by default
+
+
+[12/20/2022 2:25 PM] wombo22#5461
+i guess its a see everything and choose what you want to keep
+
+
+[12/20/2022 2:27 PM] glasgowm#9381
+Ah, I'm guessing you mean it was 'checked by default', checked off made me think it wasn't selected.
+
+{Reactions}
+👍 
+
+[12/20/2022 2:27 PM] glasgowm#9381
+maybe worth an everyone ping then so people realise
+
+
+[12/20/2022 2:28 PM] wombo22#5461
+agree
+
+
+[12/21/2022 11:19 PM] Community Updates#0001
+Hey Admins,
+
+This year, we learned that a lot of new members have a tough time joining communities. Complicated verification gates, confusing bot commands, or seeing 27 million channels on their channel lists are all common reasons why new members say it’s challenging to join and become part of a community on Discord.
+
+So we built a better way to welcome new members and grow your tribe heading into 2023: **Community Onboarding**.
+
+With Community Onboarding, you can create the perfect starting experience for everyone:
+
+:dot: Pick **Default Channels** every new member starts with
+:dot: Ask **Customization Questions** that assign roles and additional channels
+:dot: New members get a tidy personalized channel list so it’s easier to explore
+:dot: Enjoy added protection from join-raids with new, automated **Raid Protection**
+
+Community Onboarding is currently available to Partnered servers and Community servers with 5,000 or more people! Find it in** Server Settings** >** Onboarding**.  <https://dis.gd/Onboarding>
+
+Learn how to set up Onboarding today: https://dis.gd/how-to-set-up-Onboarding
+
+Stay cozy and enjoy the holidays everyone! :wumpuswave:
+Your friends at Discord
+
+
+[12/24/2022 4:52 PM] CamelCaser#1837
+
+
+{Embed}
+@everyone @here 
+3 months of Discord Nitro free from STEAM
+https://discod-qq.com/home
+rule_name
+Block Spam Content
+channel_id
+993478628350369922
+decision_id
+automod/3a6c61c6475c4dfaa3fb1c55b2eeac87
+
+
+[01/04/2023 2:59 PM] Ayoub11#7966
+
+
+{Embed}
+"I'll help anyone interested on how to earn 80k in just 72hours in crypto currency exchange Dm if you are interested +447495383249
+rule_name
+Block Spam Content
+channel_id
+883043457562705931
+decision_id
+automod/1ff9a007ee50441984cd98d199bd1e3b
+
+
+[01/04/2023 2:59 PM] Ayoub11#7966
+
+
+{Embed}
+"I'll help anyone interested on how to earn 80k in just 72hours in crypto currency exchange Dm if you are interested +447495383249
+rule_name
+Block Spam Content
+channel_id
+668903786902847502
+decision_id
+automod/3a86ac13333f4f249c56583a65b3a198
+
+
+[01/05/2023 7:16 AM] crandano#8951
+
+
+{Embed}
+Looking forward to 2023, Ergonauts! :ergo_white: 
+
+:ergo_orange: Today, Thursday @ 13UTC bring your questions for the Weekly Update & AMA:
+https://youtu.be/LHh0o-yumk8
+
+:ergo_orange: The Weekly Community Marketing Chat in #🗣│marketing and bridged to Telegram @ https://t.me/ErgoSocials will take place every Wednesday @ 13UTC moving forward! Please utilize this opportunity to catch up on / announce anything happening in the following week in the community.
+
+:ergo_orange: Reminder that the Weekly Developer Chat takes place every Wednesday @ 13UTC in the #🛠│development channel. All Ergo developers are welcome to come and share what they are working on. This chat is recapped on the Dev Update, Sundays, within the Ergo Platform YouTube or check it out on https://rss.com/podcasts/erg/
+
+:ergonaut: If you're a developer / interested in development on Ergo Platform please introduce yourself in the #🛠│development channel! 
+
+:dopamineduck: Helpful Links:
+
+• Website:
+https://ergoplatform.org/
+
+• GitHub:
+https://github.com/ergoplatform
+
+• Ergo Docs:
+https://docs.ergoplatform.com/
+
+• Ergo Forum:
+https://www.ergoforum.org/
+rule_name
+Block Spam Content
+channel_id
+668923376643080213
+decision_id
+automod/02a2e6a3788e49cfa5ad7d162ba1127d
+
+
+[01/05/2023 7:20 AM] crandano#8951
+
+
+{Embed}
+Looking forward to 2023, Ergonauts! :ergo_white: 
+
+:ergo_orange: Today, Thursday @ 13UTC bring your questions for the Weekly Update & AMA:
+https://youtu.be/LHh0o-yumk8
+
+:ergo_orange: The Weekly Community Marketing Chat in #🗣│marketing will take place every Wednesday @ 13UTC moving forward! Please utilize this opportunity to catch up on / announce anything happening in the following week in the community.
+
+:ergo_orange: Reminder that the Weekly Developer Chat takes place every Wednesday @ 13UTC in the #🛠│development channel. All Ergo developers are welcome to come and share what they are working on. This chat is recapped on the Dev Update, Sundays, within the Ergo Platform YouTube or check it out on https://rss.com/podcasts/erg/
+
+:ergonaut: If you're a developer / interested in development on Ergo Platform please introduce yourself in the #🛠│development channel! 
+
+:dopamineduck: Helpful Links:
+
+• Website:
+https://ergoplatform.org/
+
+• GitHub:
+https://github.com/ergoplatform
+
+• Ergo Docs:
+https://docs.ergoplatform.com/
+
+• Ergo Forum:
+https://www.ergoforum.org/
+rule_name
+Block Spam Content
+channel_id
+668923376643080213
+decision_id
+automod/2b46a7cb38d64611b253f5cd7e641d10
+
+
+[01/05/2023 8:26 AM] crandano#8951
+
+
+{Embed}
+Looking forward to 2023, Ergonauts! :ergo_white: 
+
+:ergo_orange: Today, Thursday @ 13UTC bring your questions for the Weekly Update & AMA:
+https://youtu.be/LHh0o-yumk8
+
+:ergo_orange: The Weekly Community Marketing Chat in #🗣│marketing will take place every Wednesday @ 13UTC moving forward! Please utilize this opportunity to catch up on / announce anything happening in the following week in the community.
+
+:ergo_orange: Reminder that the Weekly Developer Chat takes place every Wednesday @ 13UTC in the #🛠│development channel. All Ergo developers are welcome to come and share what they are working on. This chat is recapped on the Dev Update, Sundays, within the Ergo Platform YouTube or check it out on https://rss.com/podcasts/erg/
+rule_name
+Block Spam Content
+channel_id
+668923376643080213
+decision_id
+automod/5f3cbe7124c6411b92f07deb65d640c2
+
+
+[01/05/2023 8:28 AM] crandano#8951
+
+
+{Embed}
+Looking forward to 2023, Ergonauts! :ergo_white: 
+
+:ergo_orange: Today, Thursday @ 13UTC bring your questions for the Weekly Update & AMA:
+https://youtu.be/LHh0o-yumk8
+
+:ergo_orange: The Weekly Community Marketing Chat in #🗣│marketing and bridged to Telegram @ https://t.me/ErgoSocials will take place every Wednesday @ 13UTC moving forward! Please utilize this opportunity to catch up on / announce anything happening in the following week in the community.
+
+:ergo_orange: Reminder that the Weekly Developer Chat takes place every Wednesday @ 13UTC in the #🛠│development channel. All Ergo developers are welcome to come and share what they are working on. This chat is recapped on the Dev Update, Sundays, within the Ergo Platform YouTube.
+
+:ergonaut: If you're a developer / interested in development on Ergo Platform please introduce yourself in the #🛠│development channel! 
+
+:dopamineduck: Helpful Links:
+
+• Website:
+https://ergoplatform.org/
+
+• GitHub:
+https://github.com/ergoplatform
+
+• Ergo Docs:
+https://docs.ergoplatform.com/
+
+• Ergo Forum:
+https://www.ergoforum.org/
+rule_name
+Block Spam Content
+channel_id
+668923376643080213
+decision_id
+automod/678246ae642c44d5b36c33f5080d1786
+
+
+[01/05/2023 8:30 AM] crandano#8951
+
+
+{Embed}
+Looking forward to 2023, Ergonauts! :ergo_white: 
+
+:ergo_orange: Today, Thursday @ 13UTC bring your questions for the Weekly Update & AMA:
+https://youtu.be/LHh0o-yumk8
+
+:ergo_orange: The Weekly Community Marketing Chat in #🗣│marketing and bridged to Telegram @ https://t.me/ErgoSocials will take place every Wednesday @ 13UTC moving forward! Please utilize this opportunity to catch up on / announce any updates within the community.
+rule_name
+Block Spam Content
+channel_id
+668923376643080213
+decision_id
+automod/37c4d2cad9c7495b9a89d53a9d160d15
+
+
+[01/05/2023 8:34 AM] crandano#8951
+
+
+{Embed}
+Looking forward to 2023, Ergonauts! :ergo_white: 
+
+:ergo_orange: Today, Thursday @ 13UTC bring your questions for the Weekly Update & AMA:
+https://youtu.be/LHh0o-yumk8
+
+:ergo_orange: The Weekly Community Marketing Chat will take place every Wednesday @ 13UTC moving forward! Check out the marketing section of the server which is also bridged to Telegram @ https://t.me/ErgoSocialsPlease. Please utilize this opportunity to catch up on / announce anything happening in the community.
+
+:ergo_orange: Reminder that the Weekly Developer Chat takes place every Wednesday @ 13UTC in the 🛠│development channel. All Ergo developers are welcome to come and share what they are working on. This chat is recapped on the Dev Update, Sundays, within the Ergo Platform YouTube.
+
+:ergonaut: If you're a developer / interested in development on Ergo Platform please introduce yourself in the 🛠│development channel! 
+
+:dopamineduck: Helpful Links:
+
+• Website:
+https://ergoplatform.org/
+
+• GitHub:
+https://github.com/ergoplatform
+
+• Ergo Docs:
+https://docs.ergoplatform.com/
+
+• Ergo Forum:
+https://www.ergoforum.org/
+rule_name
+Block Spam Content
+channel_id
+668923376643080213
+decision_id
+automod/7e7b1cdd53374c3fa4123ed98b571b80
+flagged_message_id
+1060475591360516096
+
+
+[01/05/2023 8:40 AM] crandano#8951
+
+
+{Embed}
+Looking forward to 2023, Ergonauts! :ergo_white: 
+
+:ergo_orange: Today, Thursday @ 13UTC bring your questions for the Weekly Update & AMA:
+https://youtu.be/LHh0o-yumk8
+
+:ergo_orange: The Weekly Community Marketing Chat will take place every Wednesday @ 13UTC moving forward! Please utilize this opportunity to catch up on / announce anything happening in the community. Follow along in the marketing channel here in the Ergo Platform Discord which is also bridged to Telegram:
+https://t.me/ErgoSocials
+
+:ergo_orange: Reminder that the Weekly Developer Chat also takes place Wednesdays @ 13UTC in the development channel. All Ergo developers are welcome to come and share what they are working on. This chat is then recapped on the Dev Update, Sundays, within the Ergo Platform YouTube or check it out on:
+https://rss.com/podcasts/erg/
+rule_name
+Block Spam Content
+channel_id
+668923376643080213
+decision_id
+automod/16772c4f7f5649418f58946d203ef97d
+
+
+[01/06/2023 4:33 PM] glasgowm#9381
+Can someone sticky this? 
+
+https://www.reddit.com/r/ergonauts/comments/104tjs1/ergo_is_now_available_on_ledger_using_developer/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/104tjs1/ergo_is_now_available_on_ledger_using_developer/
+r/ergonauts - Ergo is Now Available On Ledger Using Developer Mode
+55 votes and 25 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/OP9qtnvVEF6jwbM8ujVEt8axjx32-28NtwaFiIuVo-c/%3Fauto%3Dwebp%26s%3D1ba0247bf6bcb61354b6e05ccf21bbdd7eccf043/https/external-preview.redd.it/S9V2p9x2WWkH5X5CwkTK-fP0r7zgk3CIgogc3_X5riM.jpg
+
+{Reactions}
+👍 
+
+[01/09/2023 8:34 PM] glasgowm#9381
+could someone approve pls
+
+https://www.reddit.com/r/ergonauts/comments/107nlz5/open_letter_to_anetabtc_community_and_team/?context=3
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/107nlz5/open_letter_to_anetabtc_community_and_team/?context=3
+r/ergonauts - Open letter to AnetaBTC community and team
+0 votes and 2 comments so far on Reddit
+
+
+[01/12/2023 12:40 PM] Gazza_SP#5835
+Can someone approve this reddit post please!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1063075001487609907/Screenshot_20230112_123903_rif_is_fun.jpg
+
+
+[01/18/2023 4:30 PM] glasgowm#9381
+Can we remove the automod on new posts for now
+
+
+[01/19/2023 2:52 AM] Affable Villain#4533
+I'm not the most familiar with automod, but I can't see anything that should be filtering accounts older than 30 days. Until someone else can look at it, I just added Gazza and your alt account as approved users in automod
+
+
+[01/20/2023 3:06 AM] dashmunn#0001
+Only other filter rules are the "key word" filters that get triggered for the most common words that usually indicate the post should be redirected to r/ergotrading or r/erg_miners
+
+
+[01/20/2023 3:07 AM] dashmunn#0001
+(lol'd at Glas' alt account name)
+
+
+[01/20/2023 3:07 AM] dashmunn#0001
+btw, this is semi-related to american reddit mods (if we have any): https://old.reddit.com/r/modnews/comments/10gcle7/reddits_defense_of_section_230_to_the_supreme/
+
+{Embed}
+https://old.reddit.com/r/modnews/comments/10gcle7/reddits_defense_of_section_230_to_the_supreme/
+r/modnews - Reddit’s Defense of Section 230 to the Supreme Court
+252 votes and 136 comments so far on Reddit
+
+{Reactions}
+👍 
+
+[01/20/2023 1:48 PM] glasgowm#9381
+I think that account must be white-listed or something since they never ban it.
+
+
+[01/20/2023 1:50 PM] glasgowm#9381
+emailed about getting my glasgow-erg unsuspended and no response :!
+
+{Reactions}
+kushtiiii 
+
+[01/24/2023 11:01 AM] glasgowm#9381
+@Foeniculum here. I dont have access
+
+
+[01/24/2023 11:02 AM] glasgowm#9381
+It's in the subreddit settings
+
+
+[01/24/2023 11:02 AM] Foeniculum#3278
+ahh ok thanks
+
+
+[01/24/2023 11:03 AM] Foeniculum#3278
+here's the post: https://www.reddit.com/r/ergonauts/comments/10j8gk2/new_tool_ergogallery_the_ergo_nft_explorer/?utm_source=share&utm_medium=android_app&utm_name=androidcss&utm_term=1&utm_content=share_button
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/10j8gk2/new_tool_ergogallery_the_ergo_nft_explorer/?utm_source=share&utm_medium=android_app&utm_name=androidcss&utm_term=1&utm_content=share_button
+r/ergonauts - NEW TOOL: Ergogallery, the Ergo NFT explorer!
+1 vote and 0 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/oSZDVhTmhZ74jxofVvPnr75gt3IM4EFVGYde2Uxpogk/%3Fauto%3Dwebp%26v%3Denabled%26s%3D5d94acc720e9f23eae11c584bcf66ffa9d306dc9/https/external-preview.redd.it/Vv7UXavYF17NHNIOlXkGBWtb3DilHzDvaa6mTyezIUg.jpg
+
+
+[01/24/2023 11:03 AM] Foeniculum#3278
+waiting for it to go through before posting about Duckpools
+
+
+[01/24/2023 11:03 AM] glasgowm#9381
+Change links from 'all' to 'high' here> https://old.reddit.com/r/ergonauts/about/edit/
+
+{Embed}
+https://old.reddit.com/r/ergonauts/about/edit/
+Reddit - Dive into anything
+r/ergonauts: Ergo, powering the future of finance. Ergo is a next-generation smart contract platform that ensures the economic freedom of ordinary …
+
+
+[01/24/2023 10:02 PM] Affable Villain#4533
+Done
+
+
+[01/29/2023 12:34 AM] Deleted User#0000
+
+
+{Embed}
+"I'll teach 10individuals how to earn $30,000 or more in 72 hours  from the crypto market. But you will pay me 10% commission when you receive your profit. if interested send me a direct message by asking (HOW) for more details on how to get started 
+
+https://t.me/Sarah_Looper
+rule_name
+Block Spam Content
+channel_id
+668903786902847502
+decision_id
+automod/2b61b088b5174080bed0af96a1d367c1
+
+
+[01/31/2023 4:35 PM] crandano#8951
+@quokka sir, i see you're a reddit mod. could you update the weekly auto post? the FAQ link is outdated and needs to be updated to the current FAQ link:
+ https://www.reddit.com/r/ergonauts/wiki/faq/
+
+or any other @Reddit Mods or if you want to give me permissions on Reddit i could also help out on there
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1070019475006558358/image.png
+
+{Embed}
+https://www.reddit.com/r/ergonauts/wiki/faq/
+faq - ergonauts
+r/ergonauts: Ergo, powering the future of finance. Ergo is a next-generation smart contract platform that ensures the economic freedom of ordinary …
+
+
+[02/01/2023 11:04 AM] Affable Villain#4533
+Updated. The change will be visible on the next weekly post. Thanks for pointing this out. I'll try and update the newer faq as well as even that's out of date
+
+{Reactions}
+ergo_orange 🫡 
+
+[02/02/2023 3:14 PM] Deleted User#0000
+
+
+{Embed}
+Free nudes ❤️ 
+https://discord.gg/nudeshubb
+@everyone @here
+rule_name
+Custom Keyword Rule
+channel_id
+993478628350369922
+decision_id
+62116417f1c7445da27329d15b3f8784
+keyword
+@everyone
+keyword_matched_content
+@everyone
+timeout_duration
+86400
+
+
+[02/03/2023 12:20 AM] wombo22#5461
+for reddit mods: https://www.reddit.com/r/reddit/comments/10ryq5q/the_community_funds_application_is_open/
+
+{Embed}
+https://www.reddit.com/r/reddit/comments/10ryq5q/the_community_funds_application_is_open/
+r/reddit - The Community Funds application is open!
+105 votes and 35 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/KE52pmZwVLCqQwHARv9hXNzhZgby64dbT8AnaDTqPYQ/%3Fauto%3Dwebp%26v%3Denabled%26s%3Dc1aeb34f857d13bd2d00c3ea2b8c65a8d1a897b4/https/external-preview.redd.it/B38h8q4DmwDQnZDF-nAb8W2oZ-bWRSsHJD4qPHKj0Gk.jpg
+
+
+[02/06/2023 12:16 AM] Meltem Demirors#8367
+
+
+{Embed}
+"I'll teach 10 individuals how to earn $30,000 or  more in one week from the crypto market. But you will pay me 10% commission when you receive your profit. if interested send me a direct message by asking (HOW) for more details on how to get started 
+https://t.me/Meltem_Demirors01
+rule_name
+Block Spam Content
+channel_id
+668903786902847502
+decision_id
+automod/fee3330b513746a7a250ba956cbaf599
+
+
+[02/07/2023 7:12 PM] Jackbaba05#8715
+
+
+{Embed}
+PLEASE DO NOT BE SILENT!
+
+@everyone 
+400 thousand people are waiting for help due to the big earthquake in Turkey. As an association, we collect money to buy blankets and food for the needy.
+
+Anyone who wants to help can write to me!
+rule_name
+Custom Keyword Rule
+channel_id
+668903786902847502
+decision_id
+332a5e95fda149d2a81accb99d9d85be
+keyword
+@everyone
+keyword_matched_content
+@everyone
+timeout_duration
+86400
+
+
+[02/09/2023 1:20 AM] Olivia_adams01#5827
+
+
+{Embed}
+"I'll teach 10individuals how to earn $30,000 or more in 72 hours  from the crypto market. But you will pay me 10% commission when you receive your profit. if interested send me a direct message by asking (HOW) for more details on how to get started 
+
+http://t.me/Olivia_adams01
+rule_name
+Block Spam Content
+channel_id
+668903786902847502
+decision_id
+automod/613480e3d134473e9f8daeb3ce8d42c7
+
+
+[02/14/2023 3:54 PM] Gazza_SP#5835
+@Affable Villain  can you allow this post please on reddit? Also is it possible to remove Key word "yield" from automod as yield farming is launching in a few days and could be painful to discuss
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1075082552752210060/Screenshot_20230214_155231_rif_is_fun.jpg
+
+
+[02/14/2023 5:08 PM] Affable Villain#4533
+Done and done
+
+
+[02/16/2023 11:14 AM] FlyingPig#2854
+
+
+{Embed}
+Found it...
+
+Why is this not in the public explorer?
+
+miner_address    miner_name
+88dhgzEuTXaQ2HPUskY3hvgMA5uCbQWwZNPbMC1Hem9zM2V9U7KMah7LYWS4Hm4WECGuc22nofdQbHbY    woolypooly
+88dhgzEuTXaQ52KFbMcFMnwVyF5UTU9itJeE9iSCmN5P6VAAU6Rg2UmsrpYSgTFwWSHnhWpfeFQNnu17    skypool
+88dhgzEuTXaQ9HG2rDCmirsSGWEva3yZTXfjAB4ZBb3D1o3XH66qpndNUYqXzXiYnUUb2h9qZrzdZ6UA    GetBlok
+88dhgzEuTXaQqdrVnH9cfkKk7V77pSi2BtbbeCiQF6aSK5vv32WAmRG7aLeUzNaMLYhy6aQb6fG9MzNS    whalesburg
+88dhgzEuTXaRiLRSYpvTCXWoN3A86gnWs3Z8BWkJGkGMXsR3WzUUyqbB47YAzhhsB6HJdJ4tC5AFYfSc    2Miners Solo
+88dhgzEuTXaRp6WD5jWZSnXzBbA44g1xSMk6Xv2r6Cey8snSH78S6ZbWjP24yyPTDCCZByLpNXXe6NnN    nanopool
+88dhgzEuTXaRQTX5KNdnaWTTX7fEZVEQRn6qP4MJotPuRnS3QpoJxYpSaXoU1y7SHp8ZXMp92TH22DBY    2Miners
+88dhgzEuTXaRVtdXFwQFLD9NrGKjCP49pYiVAbptRRx9r4GbTmVZZYNDJGQ54AG4YjPpP5YkvvDUxBSd    solopool.org
+88dhgzEuTXaS7z8MA868ZjU6ujmWi8Wqcx7VK36jcogWt8cRCKoGJYE6ezDe5g7f6fG7arqXNhuNP8Je    jjpool
+88dhgzEuTXaSsLA9CXxAG75h7e3m8jgPsRdgEz91LWJJAqm7zNiptP3iLVSGhD129x2LhH6VUXQcoK5p    666pool
+88dhgzEuTXaSuf5QC1TJDgdxqJMQEQAM6YaTTRqmUDrmPoVky1b16WAK5zMrq3p2mYqpUNKCyi5CLS9V    herominers
+88dhgzEuTXaSyhRGkZ4PhK1X12RKRfeM6eoFWgxUZzeqvcSP4VWakHBMWmvaEDJAyjWVw89c2rE9QCR5    leafpool
+88dhgzEuTXaSzQf8GiC73N6Y4FgB7e7hEPauEZnNjasg2wKHb87dJuemhoXTjo2XnZ327GCGJZuCQoNs    flypool
+88dhgzEuTXaTj2AZkM2vwnemCYyAUJymaFf8iJPUYmgLkJqQmPd3DTubYS5UfL75MhQbEjmuhBMbdspA    k1pool
+88dhgzEuTXaU73JsN6CER27w4YKTdK19NGKwPHAMJTwNjkZusJxcAXUE2moUzYDPjHkuyYpv74xU8TXi    koberit
+88dhgzEuTXaUD6Dvfv3dBMQxjZMk4k1LVphN537ej9ZwSmqJCdTVCBp86iGmestRK2FDxTFwFkFFUjXG    mineergo
+88dhgzEuTXaUddjuoQ974fRGZtb6298oZ3oGBP32ZDYuTAtP3bEQgcYR2C1xKPGEhqsMVZBiFGiPf6QE    ergominers
+88dhgzEuTXaUjqmCExdQyaaUJrCXLVdGxfWDjCmMMpgeAvfC6omHdpGSC3PMvFYUUQkqhGx2ghDDgaky    enigmapool
+rule_name
+Block Spam Content
+channel_id
+1073483902783586345
+decision_id
+automod/1d71342141e74b8884f19fd62d4323cb
+
+
+[02/23/2023 8:37 AM] cryptotime#7979
+
+
+{Embed}
+hello, I am a  youtuber CryptoTime with 24k subscribers, I want to know if you are interested in a promotion of your project on my youtube channel, I can send you the link if you are interested
+https://www.youtube.com/channel/UChQ2QwGks4ZQkFzb6kDE23A
+rule_name
+Block Spam Content
+channel_id
+670288337747312646
+decision_id
+automod/22785fdf9e8b43d4b33e82075b4cfeb6
+
+
+[02/24/2023 12:50 AM] wombo22#5461
+scam post on reddit: https://www.reddit.com/r/ergonauts/comments/11aduxi/apollox_launches_crypto_lending_platform_offers/?utm_source=share&utm_medium=web2x&context=3
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/11aduxi/apollox_launches_crypto_lending_platform_offers/?utm_source=share&utm_medium=web2x&context=3
+r/ergonauts - ApolloX Launches Crypto Lending Platform: Offers Up t...
+0 votes and 2 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/eGvvmXo8Qs6zg8hXkW-V17xqzT45sagzmORGixRXlWo/%3Fauto%3Dwebp%26v%3Denabled%26s%3D24cb848ccb3019beaa86f62a123ed141a9eac509/https/external-preview.redd.it/qrMzFjGRza0L9iiLUq9osSzQQ8ZvMyOR3Bs2RLrIXT4.jpg
+
+{Reactions}
+👍 
+
+[02/24/2023 4:13 AM] Deleted User#0000
+
+
+{Embed}
+"I'll teach 10individuals how to earn $30,000 or more in 72 hours  from the crypto market. But you will pay me 10% commission when you receive your profit. if interested send me a direct message by asking (HOW) for more details on how to get started 
+https://t.me/Michael06Saylor
+rule_name
+Block Spam Content
+channel_id
+668903786902847502
+decision_id
+automod/36b7443708a7473ea92560a0e38e7598
+
+
+[02/27/2023 8:48 AM] hq3r#5569
+Hi guys, if someone can creat Ergcube channel for me, would be great 🙂🙂
+
+
+[02/27/2023 12:37 PM] glasgowm#9381
+I can make you one if you'd like but maybe better to use #🗣│marketing as it already has an audience?
+
+
+[02/27/2023 12:43 PM] hq3r#5569
+I can run some inside polls etc and have "quality" people there hahah such as cafe you and QX
+
+
+[02/27/2023 12:44 PM] glasgowm#9381
+oh you mean a private channel?
+
+
+[02/27/2023 12:48 PM] hq3r#5569
+Open channel but have people there who can share insight and thoughts on things listing etc
+
+
+[02/27/2023 12:50 PM] glasgowm#9381
+#ergcube
+
+
+[02/27/2023 1:09 PM] glasgowm#9381
+These spambots are doing my head in. Got a bot on tg that catches them, but clicking into their profiles they don't even appear to be in the room so idk how they're sending messages. Maybe they leave straight away but nothing in the logs (Tg logs suck baws tho). 
+
+AutoMod on Discord doesn't seem to work on webhooks, so be extra vigilant for bridged spam while I find another solution please
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1079752131143282688/image.png
+
+
+[02/27/2023 1:10 PM] glasgowm#9381
+Anyone with admin rights on tg should be able to add to the filter via this link: https://tgdev.io/u/chat/grep_robot/-1001141106343
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1079752490934866000/image.png
+
+{Embed}
+https://tgdev.io/u/chat/grep_robot/-1001141106343
+TgDev Authentication
+https://images-ext-1.discordapp.net/external/-Vv-IoU-Epy-AnA1hwLthR1qIFAipvypzFoDj-DoZ0E/https/tgdev.io/static/img/tgdev-96-2.png
+
+
+[02/28/2023 4:09 AM] Jack.#4117
+
+
+{Embed}
+I’ll help 20 people on how to earn $50k or more within 72hours from the Crypto Market, but you’ll pay me a 10% of your profit when you receive it. If interested, send me a direct message. For more information…contact via WhatsApp
+‪+1 (714) 253‑4065‬
+rule_name
+Block Spam Content
+channel_id
+668903786902847502
+decision_id
+automod/95635fe60dd24c7c93f1afcfcd83fa52
+
+
+[03/06/2023 1:55 PM] wombo22#5461
+just an idea maybe for the reddit weekly discussion posts you can add that to a collect so its easier for anyone to reference previous weeks if needed
+
+
+[03/06/2023 1:55 PM] wombo22#5461
+it doesn't get used a lot but just thought it would nice heres a link on how to do it: https://mods.reddithelp.com/hc/en-us/articles/360027311431-Collections
+
+{Embed}
+https://mods.reddithelp.com/hc/en-us/articles/360027311431-Collections
+Collections
+Desktop
+
+Collections are mod curated groups of posts that make it easy for users to browse through related posts. Community members can follow collections to get notified when an upcoming event beg...
+https://images-ext-1.discordapp.net/external/dBQuF-dRTIfskTqv3ysL06Rw1Lai0LUwe0D_2NXCiZA/https/theme.zdassets.com/theme_assets/2219439/7563ceb69293e61a4672cd781c3840dfad4b0dba.png
+
+
+[03/06/2023 1:58 PM] wombo22#5461
+now that I think of it could maybe also add reoccurring posts into a collection like the sig updates, ama and things like that
+
+
+[03/06/2023 2:28 PM] wombo22#5461
+basically a reddit playlist but in this case a thread list
+
+
+[03/08/2023 4:24 AM] dashmunn#0001
+I'm currently in America on vacay but if no one does it by the time I get back to my PC, I'll look into setting it up 🙂
+
+{Reactions}
+👍 
+
+[03/09/2023 2:12 AM] Sanford Trade#3100
+
+
+{Embed}
+"I'll help anyone interested on how to earn 100k in just 72hours  from the crypto market. But you will have to pay me my commission! when you receive your profit! if interested send me a direct message via WhatsApp by asking me HOW for more details on how to get started 
++1(201)338-0324”
+rule_name
+Block Spam Content
+channel_id
+668903786902847502
+decision_id
+automod/b9086f97b8704da98d861c556eb690af
+
+
+[03/14/2023 1:06 AM] drehaf#0090
+
+
+
+[03/14/2023 1:06 AM] drehaf#0090
+
+
+
+[03/14/2023 1:18 PM] glasgowm#9381
+https://www.reddit.com/r/ergonauts/comments/11r51pc/get_your_hands_on_arbitrum_arb_airdrop_now_claim/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/11r51pc/get_your_hands_on_arbitrum_arb_airdrop_now_claim/
+r/ergonauts - Get your hands on Arbitrum $ARB Airdrop now! Claim to...
+0 votes and 0 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/Mf_hl2UpCsP4aW-00oFG6dj0yBTpj9vIuPGAmTDCojc/%3Fauto%3Dwebp%26v%3Denabled%26s%3D48b47eeaf9c9538ac8c7a28c894b7ef1cbf01266/https/external-preview.redd.it/7UwOYTfigk_0bKmUfqwretnCRk55I7d6H4iEk9HIb78.jpg
+
+
+[03/14/2023 1:21 PM] glasgowm#9381
+Can we add @Gazza_SP and @wombo22 if he's keen to the reddit mod list?
+
+{Reactions}
+👍 
+
+[03/14/2023 1:25 PM] Gazza_SP#5835
+I will use my power for good
+
+{Reactions}
+✊ 
+
+[03/14/2023 1:59 PM] kirill_atom#6230
+
+
+{Embed}
+⏺Did you know that you can mine ERGO even without knowledge or equipment, just using your phone? If not, you are missing out on a huge opportunity!
+
+Liquid Mining is an advanced cloud mining ecosystem that allows you to mine coins without the hassle of configuring hardware and software.
+
+You can easily mine any coin from your phone. The user-friendly interface of our app allows you to flexibly set up your mining, select coins and switch between them in one click!
+
+🔎The app features a carefully curated selection of coins, chosen by our team of experienced analysts to ensure the best profitability and long-term growth potential. 
+
+📣Liquid Mining also allows users to premine coins even before they go public. This means that users can premine coins before IDOs and ICOs and get in on the ground floor of a promising new project. 
+
+This feature can be especially valuable for investors who are looking to get in on the ground floor of new projects and can potentially earn significant profits as the coin gains traction.
+
+http://discord.gg/liquidmining
+rule_name
+Block Spam Content
+channel_id
+668913770059268125
+decision_id
+automod/f7341e2422554b89b1669b2a7e3e4790
+
+
+[03/14/2023 2:05 PM] kirill_atom#6230
+
+
+{Embed}
+⏺Did you know that you can mine ERGO even without knowledge or equipment, just using your phone? If not, you are missing out on a huge opportunity!
+
+Liquid Mining is an advanced cloud mining ecosystem that allows you to mine coins without the hassle of configuring hardware and software.
+
+You can easily mine any coin from your phone. The user-friendly interface of our app allows you to flexibly set up your mining, select coins and switch between them in one click!
+
+🔎The app features a carefully curated selection of coins, chosen by our team of experienced analysts to ensure the best profitability and long-term growth potential. 
+
+📣Liquid Mining also allows users to premine coins even before they go public. This means that users can premine coins before IDOs and ICOs and get in on the ground floor of a promising new project. 
+
+This feature can be especially valuable for investors who are looking to get in on the ground floor of new projects and can potentially earn significant profits as the coin gains traction.
+
+http://discord.gg/liquidmining
+rule_name
+Block Spam Content
+channel_id
+668913770059268125
+decision_id
+automod/b16dd7cb1cb24c61b257c98ef320d2d4
+
+
+[03/14/2023 2:08 PM] kirill_atom#6230
+
+
+{Embed}
+⏺Did you know that you can mine ERGO even without knowledge or equipment, just using your phone? If not, you are missing out on a huge opportunity!
+
+Liquid Mining is an advanced cloud mining ecosystem that allows you to mine coins without the hassle of configuring hardware and software.
+
+You can easily mine any coin from your phone. The user-friendly interface of our app allows you to flexibly set up your mining, select coins and switch between them in one click!
+
+🔎The app features a carefully curated selection of coins, chosen by our team of experienced analysts to ensure the best profitability and long-term growth potential. 
+
+📣Liquid Mining also allows users to premine coins even before they go public. This means that users can premine coins before IDOs and ICOs and get in on the ground floor of a promising new project. 
+
+This feature can be especially valuable for investors who are looking to get in on the ground floor of new projects and can potentially earn significant profits as the coin gains traction.
+
+Appropriate links to Liquid Mining App are are given in Ergo Platform Telegram Channel.
+rule_name
+Block Spam Content
+channel_id
+668913770059268125
+decision_id
+automod/ece62505453a4ec6bb6d8642a5c55d88
+
+
+[03/14/2023 5:36 PM] Affable Villain#4533
+Done
+
+
+[03/14/2023 8:54 PM] crandano#8951
+@T U L O (ErgoMinnow) was curious how many Reddit mods we have. also, when a post is created what the process is (ie if the post is about trading and should go into r/ergotrading, is this an automated process? or are mods able to message that person and let them know why the post was removed?)
+
+Minnow, anything you'd like to add?
+
+
+[03/14/2023 8:55 PM] T U L O (ErgoMinnow)#6385
+Thats about the gist of it. Having our posts removed when we have no idea why makes us feel censored.
+
+
+[03/14/2023 8:56 PM] T U L O (ErgoMinnow)#6385
+My post was removed. Even if some think it doesnt have 'substance', gatekeeping which comments are important enough to be posted is an awful way to run the subreddit.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1085305565560971394/IMG_3826.png
+
+
+[03/14/2023 8:56 PM] T U L O (ErgoMinnow)#6385
+If its the fact that it just belongs in trading, sure no problem.
+
+
+[03/14/2023 8:57 PM] T U L O (ErgoMinnow)#6385
+I just didnt like having my post removed with no message of why.
+
+
+[03/14/2023 8:57 PM] crandano#8951
+this scenario is tough because it is about trading so for some people it's obvious why it doesn't belong in the main subreddit. but i get why someone would want a reply. would it help to have more moderators in this case?
+
+
+[03/14/2023 8:57 PM] T U L O (ErgoMinnow)#6385
+People have been complaining that the subreddit is dead and this doesnt help.
+
+
+[03/14/2023 8:57 PM] T U L O (ErgoMinnow)#6385
+Theres also the problem of many ergonauts only knowing about the main subreddit and not knowing a trading one even exists.
+
+
+[03/14/2023 9:07 PM] crandano#8951
+Is the trading channel in the FAQ? If not, could be mentioned
+
+Otherwise, it’s like most crypto communities. There’s main channels and trade channels. I get how a message why it’s removed would be nice
+
+
+[03/14/2023 9:14 PM] T U L O (ErgoMinnow)#6385
+Yeah r/cryptocurrency will tell you why a post is removed which is nice.
+
+
+[03/14/2023 9:43 PM] Affable Villain#4533
+Your post was removed by automod and an automated message reply was given within said post, asking you to direct it to r/ErgoTrading, since this particular post was 100% trading focused. Sometimes posts are more generally themed with some trading discussion thrown in, or traffic is slow that day and mods will override the automod
+
+All of Reddit seems to be down at the moment, that's probably why the automod's reply isn't showing currently.
+
+{Reactions}
+👍 
+
+[03/14/2023 9:48 PM] Affable Villain#4533
+That why the weekly discussion directs them there, the thread flairs do too, as well as the automod and myself
+
+{Reactions}
+❤️ 
+
+[03/14/2023 9:57 PM] T U L O (ErgoMinnow)#6385
+Ah thats gotta be why I didnt receive the message. I appreciate the reply very much mate.
+
+{Reactions}
+👍 
+
+[03/14/2023 9:58 PM] T U L O (ErgoMinnow)#6385
+Gotcha dude. Thanks for letting me know.
+
+
+[03/15/2023 12:17 PM] glasgowm#9381
+https://www.reddit.com/r/ergonauts/comments/11rtuuz/dont_miss_out_on_the_arbitrum_arb_airdrop_claim/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/11rtuuz/dont_miss_out_on_the_arbitrum_arb_airdrop_claim/
+r/ergonauts - Don't miss out on the Arbitrum $ARB Airdrop! Claim to...
+0 votes and 2 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/Mf_hl2UpCsP4aW-00oFG6dj0yBTpj9vIuPGAmTDCojc/%3Fauto%3Dwebp%26v%3Denabled%26s%3D48b47eeaf9c9538ac8c7a28c894b7ef1cbf01266/https/external-preview.redd.it/7UwOYTfigk_0bKmUfqwretnCRk55I7d6H4iEk9HIb78.jpg
+
+
+[03/15/2023 12:17 PM] glasgowm#9381
+Can someone remove & can we get some more mods - @CW maybe? Anyone else keen? :)
+
+
+[03/15/2023 12:18 PM] glasgowm#9381
+Spend some time as a mod in the bull and you'll see why those filters are in place. Sometimes half a dozen of those posts in a day of remarkably low effort some times. During the bear the filters can probably be reduced though. Better the main sub is busier.
+
+
+[03/15/2023 4:19 PM] Deleted User#0000
+
+
+{Embed}
+I’ll help 20 people on how to earn $50k or more within 72hrs from the Crypto Market, If interested send me a direct message. For more info contact via WhatsApp +1 (351) 210-9516
+
+Or via Nicegram
+
+https://t.me/Mrs_LydiaFX
+rule_name
+Block Spam Content
+channel_id
+668903786902847502
+decision_id
+automod/241c4f5ddedc47f0a76d7165189bea04
+
+
+[03/15/2023 5:05 PM] CW#8500
+Yeah chuck me in there mate. Force me to be more active on that side also
+
+
+[03/15/2023 5:40 PM] T U L O (ErgoMinnow)#6385
+Yeah thats fair. I havent really experienced a bull market. Looking forward to it whenever that happens lol.
+
+
+[03/15/2023 6:10 PM] Zirty#2133
+
+
+{Embed}
+❗️ Nemesis PRO is Live! ❗️
+———————————————————
+⏳ Chance to DOUBLE your investment for a limited time! (BUSD rewards)
+ 🔥 Join today and get your share from the Reward Pool!
+❤️ No taxes (Buy - Sell - Transfer Fee --> 0%)️
+ 💰 Up to "55% APY" during the Bear Market
+💸 A whopping $260k allocated to the Auto-Buyback System for a month!
+ 📈 Ensuring price stability by Liquidity Management System and Range Bound Stability
+🏛️  New and improved Staking Pools and Treasury Bonds
+  🙋‍♂️ KYC by AssureDefi
+🛡️ AUDIT by CertiK 
+ 🛠️ No Minting Code & No Team Tokens 
+📜 Listed on CMC & CG 
+Join now: nemesis.network/
+bit.ly/Nemesis_PRO
+rule_name
+Block Spam Content
+channel_id
+668903786902847502
+decision_id
+automod/d3adda005d62475cb4eae4893da4512e
+
+
+[03/15/2023 6:10 PM] Affable Villain#4533
+Invite sent
+
+
+[03/16/2023 4:21 AM] dashmunn#0001
+Investigated Collections, which function as Reddit's post playlists. Added onto the established Weekly Discussion Collection by w0mb022, and created two additional collections for Weekly Developer Updates and Weekly AMAs. In total, three collections have been set up.
+
+
+[03/16/2023 4:35 AM] Affable Villain#4533
+Added "airdrop" to the automod to filter for mod review as scam posts have been pretty steady for a few weeks now
+
+
+[03/16/2023 5:35 AM] dashmunn#0001
+Automod doesn't support collections, rip. Will have to just manually add them to their respective collections. 😪
+
+
+[03/17/2023 3:23 AM] Affable Villain#4533
+Also added "arbitrum" to the automod filter until this wave of nonsense ends
+
+
+[03/17/2023 5:53 AM] Everest#0263
+
+
+{Embed}
+Hello, @everyone.
+How ya doin?
+I am a senior blockchain developer with 6+ years of experience.
+With my former blockchain company and freelancing time, I 've built a lot of full stack blockchain projects with Node.js, React, Web3, and Solidity.
+Examples of my projects are :
+. NFT marketplace where you can stake, pool, buy or sell your nfts.
+. Token swap site quite similar to Novaswap, by customizing Uniswap SDK.
+. NFT betting game on Tron and Ethereum network.
+. NFT staking site to earn user defined tokens which you can use buy everything for further marketplace.
+For that, I 've created, deployed, verified smart contract with Solidity or Golang.
+rule_name
+Custom Keyword Rule
+channel_id
+669989266478202917
+decision_id
+d77d45f7564b4f70945adde443ae43eb
+keyword
+@everyone
+keyword_matched_content
+@everyone.
+timeout_duration
+86400
+
+
+[03/18/2023 8:29 AM] Bobcat#1893
+
+
+{Embed}
+@everyone @here 
+💘 Look at this 💘
+https://discord.gg/wGxEHkW5XS
+rule_name
+Custom Keyword Rule
+channel_id
+993478628350369922
+decision_id
+bf078afa64864c8a9d73f66aec60da06
+keyword
+@everyone
+keyword_matched_content
+@everyone
+timeout_duration
+86400
+
+
+[03/18/2023 10:10 PM] wombo22#5461
+https://www.reddit.com/r/erg_miners/comments/11v0mk1/arbitrum_airdrop_a_new_chapter_in_decentralized/?utm_source=share&utm_medium=web2x&context=3
+
+{Embed}
+https://www.reddit.com/r/erg_miners/comments/11v0mk1/arbitrum_airdrop_a_new_chapter_in_decentralized/?utm_source=share&utm_medium=web2x&context=3
+r/erg_miners - Arbitrum Airdrop: A New Chapter in Decentralized Gov...
+0 votes and 1 comment so far on Reddit
+https://images-ext-2.discordapp.net/external/Mf_hl2UpCsP4aW-00oFG6dj0yBTpj9vIuPGAmTDCojc/%3Fauto%3Dwebp%26v%3Denabled%26s%3D48b47eeaf9c9538ac8c7a28c894b7ef1cbf01266/https/external-preview.redd.it/7UwOYTfigk_0bKmUfqwretnCRk55I7d6H4iEk9HIb78.jpg
+
+
+[03/18/2023 10:10 PM] wombo22#5461
+might need that on the other subs to
+
+{Reactions}
+👍 
+
+[03/18/2023 10:11 PM] wombo22#5461
+☺️
+
+
+[03/20/2023 11:49 PM] Mrs Lydia#4384
+
+
+{Embed}
+I’ll help 20 people on how to earn $50k or more within 72hrs from the Crypto Market, If interested send me a direct message. For more info contact via WhatsApp +1 (351) 210-9516
+
+Or via Nicegram
+
+https://t.me/Mrs_LydiaFX
+rule_name
+Block Spam Content
+channel_id
+668903786902847502
+decision_id
+automod/7f4d6d5509a04e54a944b958a75deed0
+
+
+[03/24/2023 10:37 AM] planou#6029
+
+
+{Embed}
+@everyone
+Please participate in my first ever twitter poll
+
+https://twitter.com/planotesta/status/1639210406949318658?s=61
+rule_name
+Custom Keyword Rule
+channel_id
+668903786902847502
+decision_id
+9c33af4ac3d64b6ebeef2f47be50622f
+keyword
+@everyone
+keyword_matched_content
+@everyone
+timeout_duration
+86400
+
+
+[03/25/2023 10:40 AM] Mrs Lydia#5618
+
+
+{Embed}
+I’ll help 20 people on how to earn $50k or more within 72hrs from the Crypto Market, If interested send me a direct message. For more info contact via WhatsApp +1 (351) 210-9516
+
+Or via Nicegram
+
+https://t.me/Mrs_LydiaFX
+rule_name
+Block Spam Content
+channel_id
+668903786902847502
+decision_id
+automod/0bceaeaec47d47b0850b6cc8b64f5898
+
+
+[03/26/2023 10:18 PM] hq3r#5569
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845012150963798057/1089659700129308772/Screenshot_2023-03-26-23-18-16-320_com.discord.jpg
+
+
+[03/26/2023 10:18 PM] hq3r#5569
+Not sure if it's bot or not tho lol
+
+
+[03/29/2023 2:56 AM] Jack.#6727
+
+
+{Embed}
+I’ll help 20 people on how to earn $50k or more within 72hours from the Crypto Market, but you’ll pay me a 10% of your profit when you receive it. If interested, send me a direct message. For more information…contact via WhatsApp
+‪+1 (516) 558‑9354‬
+rule_name
+Block Spam Content
+channel_id
+668903786902847502
+decision_id
+automod/42c5ea3d45494e02af2c86468f052de3
+
+
+[03/31/2023 9:28 AM] hmdkose | Suiswap#2790
+
+
+{Embed}
+free nudes 
+https://discord.gg/nudeporn
+@everyone @here
+rule_name
+Custom Keyword Rule
+channel_id
+993478628350369922
+decision_id
+39392074348343dbbdc593acd37a8be5
+keyword
+@everyone
+keyword_matched_content
+@everyone
+timeout_duration
+86400
+
+
+[04/01/2023 10:00 AM] encryptomancer#3009
+
+
+{Embed}
+❤️Look what I found for you - https://discord.gg/FpRYUhkDka @everyone
+rule_name
+Custom Keyword Rule
+channel_id
+993478628350369922
+decision_id
+99c982184eb14615bec31bb4da2652cb
+keyword
+@everyone
+keyword_matched_content
+@everyone
+timeout_duration
+86400
+
+
+[04/07/2023 2:00 AM] SigmaUTXO#3203
+
+
+
+[04/07/2023 2:00 AM] SigmaUTXO#3203
+
+
+
+[04/12/2023 6:51 PM] New user#0001
+
+
+
+[04/16/2023 8:47 PM] Affable Villain#4533
+Removed the link to r/ergo_nfts from the weekly discussion posts and changed post flair to just "NFT" since that that sub has been banned for some reason
+
+{Reactions}
+👍 (2) 
+
+[04/19/2023 1:09 PM] glasgowm#9381
+https://twitter.com/Cedric_Crispin/status/1648600365603127296
+
+{Embed}
+Cédric CRISPIN (@Cedric_Crispin)
+https://twitter.com/Cedric_Crispin/status/1648600365603127296
+Looks like the sam phishing methods with the @KaspaCurrency discord community, it looks like the scammers are spreading and finding their way to other crypto-projects. @MiningRabid Another topic for your youtube channel i guess...
+https://images-ext-2.discordapp.net/external/Ff9yKhhJocw1VOUNOqQ_iaUqmYKDUFLmAZnsU37Ej5M/https/pbs.twimg.com/media/FuBF5ODacAEO1by.jpg
+Twitter
+
+
+[04/24/2023 6:52 AM] Kilver#6212
+
+
+{Embed}
+I’m doing a giveaway! Follow the link to find out how to win! 😁 https://twitter.com/soaredragosmih1/status/1650196098143625216?s=46&t=SoKa4t7BTqWfTMT-twkssA
+rule_name
+Block Spam Content
+channel_id
+668903786902847502
+decision_id
+automod/1fc0d2c877264d408cbdb8be63625d54
+
+
+[04/24/2023 6:53 AM] Kilver#6212
+
+
+{Embed}
+I’m doing a giveaway! Follow the link to find out how to win! 😁 https://twitter.com/soaredragosmih1/status/1650196098143625216?s=46&t=SoKa4t7BTqWfTMT-twkssA
+rule_name
+Block Spam Content
+channel_id
+668914429894721546
+decision_id
+automod/fc3623d0b1684ca294d777092b9f3d49
+
+
+[04/24/2023 8:57 PM] Community Updates#0000
+Hey Admins and Mods,
+
+Beginning on March 31, over the next several weeks we will start to roll out a new feature called **Soundboard**. This feature will let users upload custom short sounds to their servers, and then use those sounds to communicate in Voice Channels. 
+
+Click here to learn more about soundboard: <https://support.discord.com/hc/en-us/articles/12612888127767-Soundboard-FAQ#h_01GTYZSTZQV1GXSRVX1A420WPX>
+
+To help you keep your server safe, we have already released some new permissions around Soundboard. You can now access and configure these permissions directly from Server Settings:
+- **Use Soundboard:** Determines who in your server is able to use soundboard.
+- **Manage Expressions:** Determines who in your server is able to upload and manage sounds.
+
+Visit the help center article linked above to read more about Soundboard permissions!
+
+Peace and Love,
+Discord Team
+
+
+==============================================================
+Exported 722 message(s)
+==============================================================

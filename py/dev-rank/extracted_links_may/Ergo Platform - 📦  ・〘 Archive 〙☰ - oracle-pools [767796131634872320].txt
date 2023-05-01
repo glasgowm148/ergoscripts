@@ -1,0 +1,2327 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / oracle-pools
+Topic: https://github.com/ergoplatform/oracle-core
+https://explorer.ergoplatform.com/en/oracle-pools-list
+==============================================================
+
+[10/19/2020 6:08 PM] Robert K#0722
+@Hedges Let's continue the conversation in here about oracle pools.
+
+
+[10/19/2020 6:08 PM] Robert K#0722
+So what it sounds like is that your `connector` is not able to find your `oracle-core`
+
+
+[10/19/2020 6:09 PM] Robert K#0722
+How are you starting your oracle?
+
+
+[10/19/2020 6:19 PM] Hedges#0781
+I'm running the sh run-oracle.sh command inside of the erg-usd-oracle-deployed sub directory
+
+
+[10/19/2020 6:21 PM] Robert K#0722
+Are you on linux?
+
+
+[10/19/2020 6:21 PM] Robert K#0722
+And do you have `screen` installed?
+
+
+[10/19/2020 6:22 PM] Robert K#0722
+The `run-oracle.sh` script effectively just opens screen and runs two commands:
+
+
+[10/19/2020 6:23 PM] Robert K#0722
+1. `./oracle-core`
+2. `./erg-usd-connector`
+
+
+[10/19/2020 6:23 PM] Robert K#0722
+You can also just open two terminal windows in the folder and run each of those commands separately
+
+
+[10/19/2020 6:40 PM] Hedges#0781
+I'm running Windows subsystem for linux. I have screen installed and thought I was swapping between the two using the ctr + a - n command but I'll open up two to see more clearly
+
+
+[10/20/2020 5:48 AM] scalahub#2618
+Can you try what Robert suggested (run two commands in two different terminals without screen)?
+
+
+[10/20/2020 5:48 AM] scalahub#2618
+I had some issues and doing that sovled it for me
+
+
+[10/20/2020 8:18 AM] Robert K#0722
+@Hedges Do you have an ergo node running as well that is configured?
+
+
+[10/20/2020 8:18 AM] Robert K#0722
+I've never tried WSL for this kind of stuff, and I'm not sure how well the local networking works if there's any issues there.
+
+
+[10/20/2020 8:19 AM] Robert K#0722
+Effectively how it works is that the Connector talks to the Oracle Core which talks to the Ergo Node.
+
+
+[10/20/2020 1:43 PM] Hedges#0781
+yeah I ran the ./oracle-core separately and got the same thing. I have my node configured and it is synced. So is the oracle-config.yaml used between the oracle core and the ergo node? Which would mean that a configuration issue in that file wouldn't cause the issue that I am seeing?
+
+
+[10/20/2020 1:59 PM] Hedges#0781
+"ERROR  thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: The configured node is unreachable. Please ensure your config is correctly filled out and the node is running.': src/oracle_state.rs:122" this is the full log
+
+
+[10/20/2020 3:27 PM] Robert K#0722
+the config file is used by the `Connector` and the `oracle core`.
+
+
+[10/20/2020 3:28 PM] Robert K#0722
+So it sounds like your config file is not set up correctly
+
+
+[10/20/2020 3:28 PM] Robert K#0722
+Is the IP/port/api key correct in your `oracle-config.yaml`?
+
+
+[10/20/2020 3:28 PM] Robert K#0722
+Because it is either that those are incorrect, or WSL has some weird local networking problems most likely.
+
+
+[10/20/2020 7:49 PM] Hedges#0781
+yep you're right its definitely because I am running my node in windows and the oracle core in WSL. I'll look into a work around
+
+
+[10/21/2020 8:40 AM] Robert K#0722
+You should be able to run the node in wsl or the Oracle core + connector in windows.
+
+
+[10/21/2020 8:40 AM] Robert K#0722
+The code is in rust which should compile on windows, though it hasn't been tested.
+
+{Reactions}
+🍴 
+
+[10/21/2020 10:04 AM] greenhat#6562
+@Robert K I have a recurring error.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/768399294880415765/message.txt
+
+
+[10/21/2020 11:15 AM] Robert K#0722
+@greenhat Are you getting that right now?
+
+
+[10/21/2020 11:15 AM] greenhat#6562
+@Robert K yes
+
+
+[10/21/2020 11:15 AM] Robert K#0722
+That test pool is currently in the Epoch Prep stage so maybe your node is not getting new blocks?
+
+
+[10/21/2020 11:16 AM] Robert K#0722
+You should be seeing something like
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/768417409656422420/unknown.png
+
+
+[10/21/2020 11:16 AM] Robert K#0722
+Is your height the same/nft id the same?
+
+
+[10/21/2020 11:17 AM] greenhat#6562
+yes, my node has peersCount zero. Thanks.
+
+{Reactions}
+👍 
+
+[10/21/2020 11:20 AM] greenhat#6562
+Seems to be working now. I wonder what could have caused node "disconnect".
+
+
+[10/21/2020 11:24 AM] Robert K#0722
+Indeed, good question. What version are you on?
+
+
+[10/21/2020 4:03 PM] greenhat#6562
+I built it from the develop branch last week. 🙂
+
+
+[10/21/2020 5:48 PM] kushti#0978
+> Seems to be working now. I wonder what could have caused node "disconnect".
+@greenhat maybe this ? https://github.com/ergoplatform/ergo/issues/894
+
+{Embed}
+https://github.com/ergoplatform/ergo/issues/894
+Node can not restore after long network degradation (restart helps)...
+After long (approx. 2 hours) network degradation, node can not back to normal work. Logs are: Logs: 00:17:41.097 WARN [tor.default-dispatcher-34] s.c.u.NetworkTimeProvider - Problems with NTP: java...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[10/21/2020 5:48 PM] kushti#0978
+A fix is coming
+
+
+[10/21/2020 6:01 PM] greenhat#6562
+No, mine have shown no exceptions in log, just no new blocks messages.
+
+
+[10/21/2020 9:41 PM] kushti#0978
+@greenhat exceptions are from NTP only, so rare
+
+
+[10/21/2020 9:41 PM] kushti#0978
+you can send me logs
+
+
+[10/22/2020 11:29 AM] kushti#0978
+@greenhat please try 3.3.5 candidate https://github.com/ergoplatform/ergo/pull/1225 , should be fixed there
+
+{Embed}
+https://github.com/ergoplatform/ergo/pull/1225
+Candidate for 3.3.5 by kushti · Pull Request #1225 · ergoplatform/e...
+Candidate PR for reference Ergo protocol client 3.3.5. It includes following PRs:
+
+#1224 : inactive connections being dropped, last seen message time added to /info
+#1223 : Consider mempool if minC...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[10/22/2020 11:36 AM] greenhat#6562
+@kushti thanks! Will do.
+
+
+[10/22/2020 11:44 AM] greenhat#6562
+@kushti I'm running it now and will keep an eye on the logs.
+
+
+[10/22/2020 1:13 PM] kushti#0978
+@greenhat thanks a lot!
+
+
+[11/13/2020 1:08 AM] Hedges#0781
+Finally got back around to this. I'm on the bootstrapping step. I created the pool token and oracle token but where do I get there IDs?
+
+{Reactions}
+👋 (2) 
+
+[11/13/2020 9:04 AM] Robert K#0722
+How did you bootstrap Keith? Manually or using the cli
+
+
+[11/13/2020 9:05 AM] Robert K#0722
+Either way, you can check your address on the Ergo explorer and find the tokens inside of the outputs in each respective transaction.
+
+
+[11/13/2020 2:02 PM] Hedges#0781
+Okay I found the IDs.  I was going down the manual route but decided to restart using the cli but currently my requests are timing out when trying to hitting the endpoints in the cli though.
+
+
+[11/13/2020 2:02 PM] Robert K#0722
+Is your node accesible?
+
+
+[11/13/2020 2:02 PM] Robert K#0722
+@scalahub Any ideas?
+
+
+[11/13/2020 2:03 PM] Hedges#0781
+yes node is up and fully synced
+
+
+[11/13/2020 2:06 PM] Hedges#0781
+I was able to create my first oracle and pool tokens fine using swagger but step 3 of the manual process seemed a lot more intimidating than using the cli so I switched over. I can continue down the manual route and see how things go
+
+
+[11/13/2020 2:10 PM] Robert K#0722
+Did you configure your CLI to use your node ip/port & api key?
+
+
+[11/13/2020 2:16 PM] Hedges#0781
+oops good call I copy and pasted my node ip in my application.conf incorrectly let me fix that and try again
+
+
+[11/13/2020 2:38 PM] Hedges#0781
+alright now when I do the bootstrap pool command I get
+
+
+[11/13/2020 2:38 PM] Hedges#0781
+Error: Could not find or load main class bootstrapPool
+
+
+[11/13/2020 3:40 PM] Robert K#0722
+@scalahub , any ideas?
+
+
+[11/13/2020 3:40 PM] Robert K#0722
+@Hedges are you sure you typed in the command properly?
+
+
+[11/13/2020 4:03 PM] Hedges#0781
+I am noticing when I run the "java -jar oracle-pool-bootstrap.jar" command the output for that task is:
+
+
+[11/13/2020 4:03 PM] Hedges#0781
+java -cp <jarFile> boostrapPool <oracleTokenId> <poolTokenId> <initialDataPoint_serialized>
+
+
+[11/13/2020 4:03 PM] Hedges#0781
+its spelled "boostrapPool" but I tried that and am getting same result
+
+
+[11/13/2020 4:05 PM] Robert K#0722
+Ah, thanks a lot for testing this out @Hedges. We've used it a few times but haven't had many others give it a go yet.
+
+
+[11/13/2020 4:05 PM] Robert K#0722
+@scalahub Will jump in at some point when he's next on and help you out since he wrote the bootstrap CLI.
+
+
+[11/13/2020 4:08 PM] Hedges#0781
+yeah no problem! So are oracle pools in a testnet phase? and incentives and disincentives will be added on later?
+
+
+[11/13/2020 4:10 PM] Robert K#0722
+Incentives are currently in place already.
+
+
+[11/13/2020 4:10 PM] Robert K#0722
+The next release will implement deviation checking consensus.
+
+
+[11/13/2020 4:11 PM] Robert K#0722
+And in the future we will be looking into adding disincentives on top of that.
+
+
+[11/13/2020 4:32 PM] Hedges#0781
+sweet, and that Cardano interoperability development is exciting. A lot to learn!
+
+
+[11/13/2020 6:57 PM] Hedges#0781
+btw it was named wrong it needs to be "bootStrapPool"
+
+
+[11/13/2020 6:58 PM] Hedges#0781
+when running bootStrapOracle command I'm getting a 400 response because
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/776883748531732490/unknown.png
+
+
+[11/13/2020 7:10 PM] scalahub#2618
+how did you create the jar?
+
+
+[11/13/2020 7:11 PM] Hedges#0781
+pre-compiled from when I cloned the project
+
+
+[11/13/2020 7:11 PM] scalahub#2618
+btw the code supports tab completion `java -cp oracle-pool-bootstrap.jar boot<tab>` will give the options
+
+
+[11/13/2020 7:13 PM] scalahub#2618
+> when running bootStrapOracle command I'm getting a 400 response because
+@Hedges can you give the error details? is that the error in the image?
+
+
+[11/13/2020 7:15 PM] Hedges#0781
+yeah that was the last line. here's the whole thing
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/776888032976306216/error.txt
+
+
+[11/13/2020 7:17 PM] scalahub#2618
+is the token tx confirmed?
+
+
+[11/13/2020 7:17 PM] scalahub#2618
+It should print a json. Did you try posting the json to swagger?
+
+
+[11/13/2020 7:18 PM] scalahub#2618
+to `wallet/transaction/send`
+
+
+[11/13/2020 7:18 PM] scalahub#2618
+Are you using the same node for oracle pool? (as an existing pool member)
+
+
+[11/13/2020 7:19 PM] scalahub#2618
+I have run into issue like this when the same node is used for oracle pool. it seems that the box with token may be currently use in one of the oracle transactions.. best to try on a different isolated node
+
+
+[11/13/2020 7:21 PM] scalahub#2618
+> its spelled "boostrapPool" but I tried that and am getting same result
+@Hedges yes its a typo.. good catch.
+
+
+[11/13/2020 7:24 PM] scalahub#2618
+for now you can try again after sometime and if still getting error, shut down oracle core, wait for several minutes and try again
+
+
+[11/13/2020 7:28 PM] Hedges#0781
+yes tx is confirmed, I haven't tried swagger. The node I specified in the application.conf was my own. Is that what you are referring to?
+
+
+[11/13/2020 7:37 PM] scalahub#2618
+yes if that node is also participating in some dapp (like oracle pool) then the tokens will be locked up and you will get this error
+
+
+[11/13/2020 7:37 PM] scalahub#2618
+try now
+
+
+[11/13/2020 7:38 PM] scalahub#2618
+and if still getting error then shut down the oracle core for sometime before trying
+
+
+[11/13/2020 7:47 PM] Hedges#0781
+okay tried and got same error. To shut down the oracle core do I have to do something else besides kill the screens?
+
+
+[11/13/2020 7:48 PM] Hedges#0781
+nevermind
+
+
+[11/13/2020 7:49 PM] Hedges#0781
+so what is the most sustainable solution for this? Create another node and point my application.conf to that?
+
+
+[11/13/2020 9:14 PM] Robert K#0722
+Yeah, just kill the screens.
+
+
+[11/13/2020 9:14 PM] Robert K#0722
+Having 1 node (wallet) per oracle is the cleanest solution to not override each other in spending the same boxes
+
+
+[11/13/2020 9:15 PM] Robert K#0722
+And so yes, point your conf at the new node
+
+
+[11/13/2020 10:12 PM] Hedges#0781
+okay but can't I bootstrap into the erg-usd pool that is already out there rather than creating my own pool?
+
+
+[11/14/2020 5:05 AM] scalahub#2618
+> okay but can't I bootstrap into the erg-usd pool that is already out there rather than creating my own pool?
+@Hedges The pool is already bootstrapped, so you cannot bootstrap it again. Now bootstrapOracle is possible but even for that you need the oracle tokens (which I guess you don't).. I can send some if you need. please paste wallet address 
+`java -cp oracle-pool-bootstrap.jar bootStrapOracle`
+
+
+[11/14/2020 5:07 AM] scalahub#2618
+even for that, can you run a separate wallet indepent of current oracle pool? The issue is the node using the token box for oracle transactions and not letting the box be free for our use
+
+
+[11/14/2020 8:07 AM] Robert K#0722
+It's not that vital to have two node wallets to get it to work.
+
+
+[11/14/2020 8:07 AM] Robert K#0722
+It's helpful, but not vital.
+
+
+[11/14/2020 1:13 PM] Hedges#0781
+Is there a good spot to read more about the token box? Basically a node runs into issue if it's token box is being used for oracle transactions and for validating blocks, correct? Let me look into creating another node
+
+
+[11/14/2020 1:41 PM] Hedges#0781
+also what is specified in the --mainnet argument in the jar command? Trying to figure out how to run new node on new port
+
+
+[11/15/2020 4:56 AM] scalahub#2618
+The command is `java -jar ergo-x.y.z.jar -c <configfile> -mainnet`  (no argument for mainnet)
+
+
+[11/16/2020 8:21 AM] Robert K#0722
+What error are you getting specifically @Hedges ? It might be related to spending the same box, and it might be not, but need more info.
+
+
+[11/16/2020 4:32 PM] Hedges#0781
+This was the main error I was receiving. I haven't had a chance to create another node yet
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/777934216981381210/error.txt
+
+
+[11/16/2020 4:42 PM] Robert K#0722
+And this error came from the oracle-core?
+
+
+[11/16/2020 4:42 PM] Robert K#0722
+Or the CLI?
+
+
+[11/16/2020 4:43 PM] Robert K#0722
+(I imagine the oracle-core, and you didn't bootstrap your oracle properly)
+
+
+[11/16/2020 4:43 PM] Robert K#0722
+And using a second node wouldn't help in that case.
+
+
+[11/16/2020 5:06 PM] Hedges#0781
+java -cp oracle-pool-bootstrap.jar ergo.oraclepool.BootStrapOracle <oracleTokenId> <poolTokenId> <oracleAddress>
+It came from this CLI command
+
+
+[11/16/2020 5:55 PM] Robert K#0722
+Did you already mint the Oracle participant tokens?
+
+
+[11/16/2020 5:55 PM] Robert K#0722
+The Oracle token you are using for Oracle token id
+
+
+[11/16/2020 6:03 PM] Hedges#0781
+https://explorer.ergoplatform.com/en/transactions/625f0924f99197d30c77d68f8d9aa5c0d2d101b5b2a4a12cbb1b5bc5fc75e9ca yeah here's the transaction but maybe there's a chance I used the wrong oracle token id
+
+
+[11/16/2020 8:58 PM] Hedges#0781
+yep that was it. I am seeing the bootstrap pool and bootstrap oracle transactions now
+
+
+[11/16/2020 9:06 PM] Hedges#0781
+but still getting this error: The UTXO-Set scans have not found all of the oracle pool boxes yet.
+
+Error: No Boxes Found For Local Oracle Datapoint Scan
+
+
+[11/16/2020 10:13 PM] Robert K#0722
+Ah, glad to hear that was it.
+
+
+[11/16/2020 10:13 PM] Robert K#0722
+So you will have to trigger a rescan via swagger for your node wallet
+
+
+[11/16/2020 10:14 PM] Robert K#0722
+Since you launched the Oracle core after you bootstrapped the pool, the scans weren't registered until after you created the boxes.
+
+
+[11/16/2020 10:14 PM] Robert K#0722
+So you have to rescan for your node to find the boxes so the Oracle core can act.
+
+
+[11/17/2020 3:36 PM] Hedges#0781
+okay so looking at swagger using the wallet/boxes/unspent get request I see one box with  "onchain": true, but the rest are false. To confirm, there is a box for each stage in the epoch but we are only bootstrapping the epoch preparation box and the oracle datapoint box? Is there a way for me to verify which of these boxes is on chain and which one is not?
+
+
+[11/17/2020 3:46 PM] Robert K#0722
+You have to use the /scan/ endpoints for checking scans
+
+
+[11/17/2020 3:47 PM] Robert K#0722
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/778285096482242604/unknown.png
+
+
+[11/17/2020 3:47 PM] Robert K#0722
+Check your scanIDs.json, and use the ids via that endpoint to see if your node found the boxes
+
+
+[11/17/2020 3:48 PM] Robert K#0722
+Otherwise use the rescan endpoint and wait for your node to rescan the whole history to find them
+
+
+[11/17/2020 3:48 PM] Robert K#0722
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/778285334886219806/unknown.png
+
+
+[11/17/2020 4:18 PM] Hedges#0781
+good to know. Looks like it is the epoch preparation box. I'll rescan again to see if I get same result and then troubleshoot it later today when I get some more time
+
+
+[11/17/2020 4:41 PM] Hedges#0781
+okay cool looks like node is able to find epoch preparation and datapoint boxes. Do I now simply wait for the epoch to reach the live epoch scan stage?
+
+
+[11/17/2020 6:41 PM] Robert K#0722
+Indeed, the oracle core should move the oracle pool from epoch prep -> live epoch
+
+
+[11/17/2020 6:41 PM] Robert K#0722
+You need to keep the oracle core running
+
+
+[11/17/2020 6:41 PM] Robert K#0722
+And the connector as well, so that your oracle can post datapoints
+
+
+[11/19/2020 10:28 PM] Hedges#0781
+to confirm, the assets listed in our wallet are also used for the pool token id and oracle token id, correct?
+
+
+[11/19/2020 10:30 PM] Robert K#0722
+No, both of those tokens are held in P2S (smart contract) addresses and so they don't show up by default in the wallet
+
+
+[11/19/2020 11:04 PM] Hedges#0781
+okay so https://explorer.ergoplatform.com/en/transactions/8f3d4ed262702caad89f33309322997a006581ffc29bba62b2041911fe2a6062 in this transaction would "fa46f43fab1712d392997ca49bda9a2678a2e0671be3d2e1e8ad882c8c7112da" be considered the token id
+
+
+[02/22/2021 9:31 PM] zargarzadehmoein#2928
+@Robert K 
+Hi
+
+I have a problem for start orcle-core
+after run `sh run-oracle.sh` i get:
+
+```
+UTXO-Set Scans Have Been Successfully Registered With The Ergo Node
+```
+so press enter for continue but in oracle-core i get this error:
+
+```
+The UTXO-Set scans have not found all of the oracle pool boxes yet.
+
+Error: No Boxes Found For Local Oracle Datapoint Scan
+```
+And in connector:
+
+```
+Erg-USD Connector
+===========================================
+Current Blockheight: 430105
+Current Oracle Pool Stage: Epoch Preparation
+Submit Datapoint In Latest Epoch: true
+Latest Datapoint: 0
+===========================================
+```
+after that i called rescan endpoint in node(4.0.7) but the error did not change.
+
+do you know what is the problem?
+I think should send token oracle pool to my oracle address ?
+
+
+[02/23/2021 10:54 AM] Robert K#0722
+Have you bootstrapped your own oracle pool @zargarzadehmoein ?
+
+
+[02/23/2021 10:55 AM] Robert K#0722
+You need to create your own pool, then with the oracle participant tokens from that pool, you need to send 1 to the address of your ergo full node which you have configured in your oracle core config file
+
+
+[02/27/2021 11:21 AM] JamesKelley#2466
+Hello! I'd like to run the oracle pools. I'm a Cardano stake pool operator and know my way around Linux and servers but I'm new to these oracle pools. Do I start with installing the oracle-core? I wasn't real clear on how to bootstrap the ERG-USD and ERG-ADA oracles, any hints/tips?
+
+
+[02/27/2021 11:23 AM] Robert K#0722
+Hi there @JamesKelley You can start your own oracle pool by following the instructions in the oracle core repo.
+
+
+[02/27/2021 11:24 AM] Robert K#0722
+The current erg-usd and ada-usd oracle pools are not open for absolutely anyone to join, as that would be insecure (open to sybil attacks).
+
+
+[02/27/2021 11:25 AM] JamesKelley#2466
+I see. Would there be an advantage to my getting involved if I were able to convince you that I'm safe? I'm better known on the Cardano side of things.
+
+
+[02/27/2021 11:29 AM] JamesKelley#2466
+I'd love to be pointed in the right direction so I can learn what would be best for the ecosystem regarding pools as well. Based on what you said I take it that I could start an ADA-BTC  pool, but I want to develop a deeper understanding of what would be useful before trying to jump into anything.
+
+
+[02/27/2021 11:31 AM] JamesKelley#2466
+BTW:  Here's my Cardano stake pool in case the stats help convince you I can run servers and keep them going. 🙂 https://pooltool.io/pool/08ac812c4721d68695614f3dcde425f1bdb7e298b3da19a9805a54f5/epochs
+
+{Embed}
+https://pooltool.io/pool/08ac812c4721d68695614f3dcde425f1bdb7e298b3da19a9805a54f5/epochs
+Cardano PoolTool
+The most comprehensive staking statistics for Cardano on the web.  Track and compare pool performance.  See who is staking to your pools with you.  Favorites and plenty of data analysis tools.
+https://images-ext-2.discordapp.net/external/xOz9M42f5H9XckUD7mlszyjTZZMR_japJoT6glga4xQ/https/pooltool.io/pooltool.png
+
+
+[03/04/2021 9:19 AM] glasgowm#9381
+Why do the epoch's take so long to end?
+
+
+[03/12/2021 9:03 PM] cymatic#8185
+In case anyone wants to update the listed prerequisites here https://github.com/ergoplatform/oracle-core 
+
+...I am building an oracle on a vanilla Ubuntu box and received errors in Step 3 of the build instructions when running the prepare-erg-usd-oracle.sh script due to not having gcc installed.
+
+{Embed}
+https://github.com/ergoplatform/oracle-core
+ergoplatform/oracle-core
+Core off-chain component of Oracle Pools. Contribute to ergoplatform/oracle-core development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/-KRVlD4_nyV4m1pVCd9KQWWbk8Kzhe9Rdnel6es6kxo/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/27490654
+
+
+[03/12/2021 9:04 PM] cymatic#8185
+This is the current list of prerequisites (gcc is not currently listed)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/820039517259694120/unknown.png
+
+
+[03/12/2021 9:34 PM] cymatic#8185
+Actually, there were other build components missing as well. They all seem to have been resolved by running the following:
+
+sudo apt install build-essential
+
+After that, I was able to fully run the prepare script in Step 3 successfully.
+
+
+[03/12/2021 10:26 PM] cymatic#8185
+I have my new oracle fully configured except for editing the oracle-config.yaml file.
+
+The instructions tell you to enter "your oracle address (address that was used for bootstrapping the pool & is inside of your Ergo Node wallet), and other relevant pool information".
+
+I guess this is the point where you have to be invited to the pool as a trusted member...so someone can provide you with this info?
+
+
+[03/21/2021 6:02 PM] UpwindStrategy - King de Medici#0001
+FYI https://twitter.com/stakenuts/status/1373684612392714241?s=20
+
+{Embed}
+Stake Nuts (@stakenuts)
+https://twitter.com/stakenuts/status/1373684612392714241?s=20
+You can also vote on the metadata oracle node Catalyst proposal to support further development of the client. #projectcatalyst https://t.co/uJVTeEp1bn
+https://images-ext-1.discordapp.net/external/fwc4sLj_JNQCjILVDdbO0-vuNlg3C-_R4gsa5-nqEe0/https/pbs.twimg.com/media/ExBOxVEXIAQ0QiV.jpg%3Alarge
+Twitter
+
+
+[03/27/2021 12:20 PM] glasgowm#9381
+https://havenprotocol.org/oracles/#
+
+{Embed}
+havenprotocol
+https://havenprotocol.org/oracles/
+Oracles
+
+{Reactions}
+😍 
+
+[03/27/2021 12:20 PM] glasgowm#9381
+Might be a good project to link up with - 'Private Money', PoW fork of Monero (also proof of no premine)
+
+
+[04/09/2021 4:15 PM] glasgowm#9381
+Is the ada-usd oracle down? can't seem to see it via explorer
+
+
+[04/17/2021 12:19 PM] Siavash#0930
+https://www.google.com/amp/s/btcmanager.com/ergo-oracle-solution-cardano-ada-interoperability/amp/
+
+{Embed}
+Ogwu Osaemezu Emmanuel
+https://www.google.com/amp/s/btcmanager.com/ergo-oracle-solution-cardano-ada-interoperability/amp/
+Ergo Launches Oracle Solution for Cardano (ADA) to Foster Interoper...
+Ergo (ERG) has announced the launch of an oracle solution for the Cardano (ADA) ecosystem. The firm claims its oracle pools present a new approach to oracles and make the creation of new types of dApps possible, according to a blog post on November 9, 2020. Ergo Deepens Partnership with…
+https://images-ext-1.discordapp.net/external/9yqlOuFMVQX6aYdN_X6uMxlijWeYw_SaWMB-Xirmk_A/https/btcmanager.com/wp-content/uploads/2018/06/Cardano-Rebrand.jpg
+
+
+[04/17/2021 6:16 PM] essaias#5787
+Cheers! I'd like to run an oracle for USDT and/or ADA using an existing pool.
+
+I already have the software build and running, but I am unsure what to put into the config of the oracle...
+
+I see all the fields on https://explorer.ergoplatform.com/en/oracle-pool-state/ergusd but am not sure if I just can copy them?
+
+2nd question: Are ports to open in the firewall?
+
+Thx in advance.
+
+
+[04/18/2021 7:37 PM] essaias#5787
+Anybody able to help me becoming an Oracle? 🙂
+
+
+[04/19/2021 8:50 AM] anon_real#2768
+@scalahub
+
+
+[04/19/2021 9:04 AM] scalahub#2618
+@essaias can you provide more details.  Dm me.. also you can also talk to @kushti
+
+
+[04/19/2021 12:49 PM] scalahub#2618
+actually its better if you paste your query here 🙂 It will help others
+
+
+[04/19/2021 1:42 PM] essaias#5787
+Alright @scalahub and @kushti ... 😉
+
+I'd like to run an Oracle and when I understood right, I can just operate the oracle and use an already existing pool: https://explorer.ergoplatform.com/en/oracle-pool-state/ergusd
+
+So  I followed this "guide" https://github.com/ergoplatform/oracle-core and have the oracle core and USDconnector build.
+
+Both do run, but I only see this message in the connector:
+```
+The UTXO-Set scans have not found all of the oracle pool boxes yet.
+
+Error: No Boxes Found For Local Oracle Datapoint Scan```
+
+The connector output:
+```Connector: Erg-USD Connector
+===========================================
+Current Blockheight: 470914
+Current Oracle Pool Stage: Epoch Preparation
+Submit Datapoint In Latest Epoch: true
+Latest Datapoint: 0
+===========================================```
+
+
+[04/19/2021 1:44 PM] essaias#5787
+(and yes I had the wallet do a rescan)
+
+I think that my oracle-config.yml is wrong... But its hard to find any valid information on what values to get from where...
+
+My oracle-config.yml:
+```#### Local Oracle Parameters ####
+# Your oracle address
+oracle_address: "9fkZ85fKfanqY2Dy1bYTSUm3DCogH4BNoV9jTtQtReXHQ2Vkxkw"
+# The base fee constant that all action txs use to calculate fee.
+# Adjust if blockchain is congested/higher tx fees are required.
+base_fee: 1100000
+
+#### Pool Token Ids ####
+# ID of the oracle pool participant token
+oracle_pool_participant_token: "8c27dd9d8a35aac1e3167d58858c0a8b4059b277da790552e37eba22df9b9035"
+# ID of the oracle pool NFT
+oracle_pool_nft: "011d3364de07e5a26f0c4eef0852cddb387039a921b7154ef3cab22c6eda887f"
+
+#### Pool Smart Contract Addresses ####
+# Address of the pool's "Live Epoch" contract
+live_epoch_contract_address: "NTkuk55NdwCXkF1e2nCABxq7bHjtinX3wH13zYPZ6qYT71dCoZBe1gZkh9FAr7GeHo2EpFoibzpNQmoi89atUjKRrhZEYrTapdtXrWU4kq319oY7BEWmtmRU9cMohX69XMuxJjJP5hRM8WQLfFnffbjshhEP3ck9CKVEkFRw1JDYkqVke>
+# Address of the pool's "Epoch Preparation" contract
+epoch_preparation_contract_address: "EfS5abyDe4vKFrJ48K5HnwTqa1ksn238bWFPe84bzVvCGvK1h2B7sgWLETtQuWwzVdBaoRZ1HcyzddrxLcsoM5YEy4UnqcLqMU1MDca1kLw9xbazAM6Awo9y6UVWTkQcS97mYkhkmx2Tewg3JntMgzfLWz5mACiEJEv7potayv>
+# Address of the pool's "Datapoint" contract
+datapoint_contract_address: "AucEQEJ3Y5Uhmu4o8dsrHy28nRTgX5sVtXvjpMTqdMQzBR3uRVcvCFbv7SeGuPhQ16AXBP7XWdMShDdhRy4cayZgxHSkdAVuTiZRvj6WCfmhXJ4LY2E46CytRAnkiYubCdEroUUX2niMLhjNmDUn4KmXWSrKngrfGwHSaD8RJUMEp5AGAD>
+# Address of the "Pool Deposit" contract
+pool_deposit_contract_address: "4L1NEtpkMq6NeZhy2pk6omYvewovcHTm7CbxKm9djsbobAHSdDe6TVfmnW5THVpSHrG6rWovqv7838reswYE3UYkykWaNnhoyBGHFCdZvWqa2TVRtHiWcVaner6giUp55ZpELLuj9TtKePv6zrtMV5YE1o2kjrQEgGDoGHBGNuyx6ym>```
+
+I assume just copying the values from the pool is wrong. But how / where do I get the right credentials?
+
+
+[04/19/2021 3:34 PM] scalahub#2618
+You cannot run your own oracle and join an already existing pool. You can, however, run your own oracle pool.
+You can use the existing pool only to read the data and not write data to it.. hope that helps
+
+
+[04/19/2021 3:35 PM] essaias#5787
+Ok, then the text "The majority of oracle operators will only need to focus on setting up their own oracle core to work with an already bootstrapped oracle pool." in the guide mislead me somewhat...
+
+
+[04/19/2021 3:35 PM] essaias#5787
+That means I'll set up a bootstrapped pool as well
+
+
+[04/19/2021 3:36 PM] scalahub#2618
+yes probably needs a bit of rewording. This is assuming that the operator is joining an already bootstrapped pool
+
+
+[04/19/2021 3:37 PM] essaias#5787
+ok, so does every oracle need its own pool? thought several could use one?
+
+
+[04/19/2021 3:37 PM] scalahub#2618
+so this guide will be for an operator who wants to join your bootstrapped pool 🙂
+
+
+[04/19/2021 3:38 PM] essaias#5787
+ok, then other way: are there existing pools to join, and if so: where / how? 🙂
+
+
+[04/19/2021 3:39 PM] scalahub#2618
+well there are two existing pools but they don't have free slots AFAIK .. but best to check with @kushti in this regard
+
+
+[04/19/2021 3:40 PM] scalahub#2618
+Since pool data has lot of external dependencies, its not possible for anyone to join the pool adhoc.. only selected few have the right to post rates 🙂
+
+{Reactions}
+👍 
+
+[04/19/2021 3:41 PM] essaias#5787
+ok understood
+
+
+[04/19/2021 3:41 PM] essaias#5787
+are the two existing pools these I can see on the explorer?
+
+
+[04/19/2021 3:41 PM] scalahub#2618
+so you could launch your own pool and then your own stablecoin using that pool
+
+
+[04/19/2021 3:41 PM] scalahub#2618
+https://explorer.ergoplatform.com/en/oracle-pools-list
+
+
+[04/19/2021 3:41 PM] scalahub#2618
+yes these are the two pools
+
+
+[04/19/2021 3:42 PM] essaias#5787
+ok, alright got it 😉
+
+
+[04/19/2021 3:43 PM] essaias#5787
+as I do not plan to create my own stable coin I'll wait for a slot / pool 😄
+
+
+[04/21/2021 8:30 PM] andee#4722
+hey, ADA/USD has not loaded at all for me on the explorer the week I have been trying
+
+
+[04/22/2021 6:46 AM] essaias#5787
+same here
+
+{Reactions}
+🇸 🇦 🇲 🇪 
+
+[04/22/2021 8:51 AM] andee#4722
+@essaias hmm.. I was hoping it was something blocking it from my end
+
+
+[04/22/2021 8:52 AM] andee#4722
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://ada-usd-ergo-oracle.emurgo.io/frontendData. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing).
+
+
+[04/22/2021 9:05 AM] andee#4722
+µBlock did block something, but the problem was not on my end
+
+
+[04/22/2021 9:05 AM] andee#4722
+@kushti
+
+
+[04/22/2021 9:43 AM] essaias#5787
+This is your browser. CORS is handeled by the browser
+
+
+[04/22/2021 10:29 AM] andee#4722
+so https://explorer.ergoplatform.com/en/oracle-pool-state/adausd works for you?
+
+
+[04/22/2021 10:30 AM] andee#4722
+loading the erg oracle works just fine
+
+
+[04/22/2021 10:31 AM] andee#4722
+seems to me its complaining about missing a header in the response
+
+
+[04/22/2021 10:32 AM] andee#4722
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors/CORSAllowOriginNotMatchingOrigin
+
+{Embed}
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors/CORSAllowOriginNotMatchingOrigin
+Reason: CORS header 'Access-Control-Allow-Origin' does not match 'x...
+The origin making the request does not match the origin permitted by the Access-Control-Allow-Origin header. This error can also occur if the response includes more than one
+  Access-Control-Allow-Origin header.
+
+
+[04/22/2021 1:32 PM] andee#4722
+ERG/USD responds with "access-control-allow-origin: *"
+
+
+[04/22/2021 5:55 PM] essaias#5787
+I meant the browser not adblock.
+Seems the site needs some more work for compatibility.
+
+
+[04/22/2021 6:22 PM] andee#4722
+ADA / USD should be removed from the page if its not even working
+
+
+[04/22/2021 6:38 PM] essaias#5787
+well not sure if its "not working" the pool UI for it is not working. the oracles might do their jobs 😉
+
+
+[04/22/2021 6:58 PM] andee#4722
+sure, but having a never loading oracle on the explorer still makes it look like its not working for most people. I am installing a node one of these days so I will check it out then
+
+{Reactions}
+🇹 (3) 🇭 (3) 🇮 (3) 🇸 (3) 👆 (3) 
+
+[04/26/2021 9:50 AM] JamesKelley#2466
+I have a question about Oracle pools. Want an Oracle that will give me temperature and rainfall details. I want to be able to guess if the ground is saturated based on how how much it has recently rained. I only need the data for some areas, not the entire globe, but I'd like the option of expanding the number of areas as needed.
+
+
+[04/26/2021 9:51 AM] JamesKelley#2466
+Let's say I start with five areas and I can pull the data from known weather sources. Will I be able to accomplish that with one Oracle pool or will I need many?
+
+
+[04/26/2021 3:23 PM] amsk#6884
+Hello... I'm doing some researches on oracle pools. I want to use this oracle pools's solution for some other issues than creating an stable coin etc. as @JamesKelley said. For example I want to provide some football matches odds or results using this protocol...I read oracle core and connectors (frontend and backend) rust codes and also oracle pool's smart contracts...For doing this I need to submit an string as datapoint in first place...So I think I should make changes in connectors libraries, oracle core source codes and also smart contracts...Generally I should rewrite many parts of the library to achieve this, but before start i want to ask if this issue is practical?...Can I use oracle pools to provide such data ever?...
+@scalahub @kushti 
+PS: I know oracle pools does not provide data on demand so I plan to provide some specific data like Premier League last week of matches results...(or simpler at the begging a specific team last match result)
+
+
+[04/26/2021 8:34 PM] scalahub#2618
+yes as far as I recall you just need to write a new connector for the data source
+
+
+[04/26/2021 9:44 PM] amsk#6884
+thank's....It seem's to be more places to change, cause all variables that hold datapoint are numeric type (Int > in smart contracts and u64, f64 in connector and oracle core source codes)...I want to implement an oracle pool to provide more flexible data, for example fixed length strings (Hash of raw data) and raw data store in some other place not in tx registers...I guess this way oracle pool can provide much more complex data (e.g. JSON string)...But then some concepts like deviation checking and datapoints average calculating makes no sense...
+
+
+[04/27/2021 1:04 AM] JamesKelley#2466
+Also, multiple data points, such as the temperature in London and Paris. A smart contract might only need one of those, so will it need to read both?
+
+
+[04/27/2021 5:46 AM] scalahub#2618
+oh sorry I assumed you will be posting Long..  the smart contracts are designed for Long data point. so as long as the data you want to submit ls long you will just have to write a connector.. otherwise need to change both smart contracts and the offchain code (both connectors and oracle-core)
+
+
+[04/27/2021 8:14 AM] amsk#6884
+To achieve this, I think you can concatenate these temperatures and submit all of them as a single data point (Stored in a single register of your oracle pool's live epoch box)...But to doing such things as Scalahub said, you will have to rewrite offchain code and smart contracts in order to support  your data type (e.g BigInt or Array of Bytes)...
+
+
+[04/27/2021 8:22 AM] JamesKelley#2466
+I'm guessing this doesn't scale well if we wanted temperature or rainfall data from every city. That's what I need for one project, the ability to calculate if the ground is saturated in about 5 to 10 different locations. I know Wolfram will be available on Cardano at some point but I'm looking for something I could implement now if possible.
+
+
+[04/27/2021 9:27 AM] amsk#6884
+In your case I think you can even run an oracle pool for each city you want to have it's humidity and temperature data and each smart contract or dApp need these data, can use relevant oracle pool...Generally I think the oracle pools can be more scalable and cover more dApp needs for data and provide more complex data later...
+
+
+[04/27/2021 10:15 AM] nitram147#5106
+@JamesKelley If it's not a secret what will be your project about? I can imagine only some type of insurance dApp against dry periods which would calculate  insurance fee based on the probability that there will be dry period. However it doesn't make a sense for me 🙂
+
+
+[04/27/2021 10:22 AM] JamesKelley#2466
+I am in discussions with a former International Insurance Commissioner to get him on board with designing insurance products that will pass as many regulatory regeimes as possible but in this case I'm wanting it for an unannounced project. The two different ideas are related, so you're on the right track.
+
+
+[04/28/2021 7:41 PM] NucaCola👨🚀#3711
+https://ergoplatform.org/en/blog/2021-04-27-chainlink-oracles-vs-ergo-oracle-pools/
+
+{Embed}
+https://ergoplatform.org/en/blog/2021-04-27-chainlink-oracles-vs-ergo-oracle-pools/
+Chainlink Oracles vs. Ergo Oracle Pools
+The design of Ergo’s oracle …
+https://images-ext-2.discordapp.net/external/I1r2_nR11ysiww4DTG9e-L-TGhiajP6D8SoS4WDSQPc/https/ergoplatform.org/img/uploads/webp.net-resizeimage-1-.jpg
+
+{Reactions}
+🌠 (2) 👍 
+
+[04/28/2021 8:40 PM] andee#4722
+And when is the ADA/USD oracle in the explorer going to be fixed?
+
+{Reactions}
+👆 (4) 🇹 (4) 🇭 (4) 🇮 (4) 🇸 (5) 
+
+[04/29/2021 7:43 AM] Ilya | Spectrum#0494
+@Dmitry Usov ^
+
+
+[04/29/2021 7:44 AM] Dmitry Usov#0134
+Emurgo disabled ada/usd oracle.
+
+
+[04/29/2021 8:07 AM] glasgowm#9381
+It's open source tho right? We not just fling another one up? Don't think it's used for anything rn anyway is it ?
+
+
+[04/29/2021 5:27 PM] Cris7#9283
+Any reason for this?
+
+{Reactions}
+👆 (5) 
+
+[05/08/2021 9:09 AM] JamesKelley#2466
+I'm curious about the ADA/USD oracle as well. Anyone know if there is a Cardano side oracle in the works? What about the efforts to create a bridge between the two blockchains?
+
+
+[05/08/2021 9:28 AM] glasgowm#9381
+The sidechain research/implementation is still planned as outlined in the ErgoDex pdf. Oracle is just down because emurgo has had some internal changes and kushti was still to speak to their new CTO last I heard (that was a few wks ago tho)
+
+
+[05/15/2021 9:55 AM] QU₳Z₳R#0436
+Hi James,
+I'm in the insurance space myself and would love to chat with you designing insurance products.
+
+
+[05/15/2021 9:59 AM] QU₳Z₳R#0436
+Rainfall and saturation aren't always consistent.
+
+
+[05/16/2021 12:47 AM] JamesKelley#2466
+For sure, which is why I'm also asking about other data points being added. There are different directions I can take the rainfall data, from not enough to too much rain affecting different things differently, but then you also have to deal with the locations which means there will be many different sets of the same data.
+
+{Reactions}
+💯 
+
+[05/16/2021 12:48 AM] JamesKelley#2466
+Since the time I wrote the question I have started to realize a more sophisticated oracle system will need to be developed but I haven't settled on anything yet.
+
+
+[05/16/2021 12:49 AM] JamesKelley#2466
+Where are you in your process?
+
+
+[05/16/2021 3:31 AM] QU₳Z₳R#0436
+It may also be necessary to consider the human element, water-main break, construction accident, runoff routing, downfield pollutants; it may not rain at all and the ground be saturated and flood. If you find the right insurance carrier, they'll provide reinsurance and fronting paper which is often already filed/approved on a multi-national, international level.
+
+
+[05/16/2021 3:35 AM] QU₳Z₳R#0436
+The oracle system may need to be more sophisticated or perhaps less, considering the potential power of pools of oracle pools of oracles.
+
+
+[05/16/2021 3:38 AM] QU₳Z₳R#0436
+I'd like to see social media scraping oracles. Getting social experiences of natural events on chain is on the table.  Created something called a Human Life Oracle to resolve life insurance claims couple years ago and the underwriters weren't too happy about it.
+
+
+[05/16/2021 3:47 AM] QU₳Z₳R#0436
+All I know for sure, *I think*, is that LINK is a sitting duck when it comes to parametric based insurance
+
+
+[05/24/2021 7:41 PM] QU₳Z₳R#0436
+@JamesKelley  how are you?
+
+
+[05/24/2021 7:42 PM] QU₳Z₳R#0436
+Is Emurgo working with API3 on this
+
+
+[06/03/2021 8:32 PM] Kaven#6681
+@glasgowm i've found some of your writeups pretty useful for making some complex topics accessible. one thing i'm struggling a bit with right now is understanding the specifics of ergo oracle pools and if/how they have greater cryptoeconomic security than chainlink's model. have you produced, or perhaps could you, something on this topic? i see quite a few write ups that imply superiority of ergo's framework, but it just hasnt sunk in for me yet. thoughts?
+
+
+[06/03/2021 8:51 PM] Kaven#6681
+oh wait, not sure if they're your writeups
+
+
+[06/03/2021 8:53 PM] Kaven#6681
+i dunno, in any case, i am seeking something that lands in the middle of blog/marketing copy and a whitepaper on this topic 😄
+
+
+[06/03/2021 9:23 PM] Gazza_SP#5835
+The biggest edge we have over chainlink that I've seen so far, and I'm only really starting to get into the dev side so don't know much specifics is that we don't have to use a seperate token to pay to use the Oracle, every customer can just pay in erg. The link token is basically unnecessary and it's now been proven by the ergo Oracle and further by the Oracle pools.
+
+
+[06/03/2021 9:27 PM] glasgowm#9381 (pinned)
+https://ergoplatform.org/en/blog/2021-04-27-chainlink-oracles-vs-ergo-oracle-pools/
+
+{Embed}
+https://ergoplatform.org/en/blog/2021-04-27-chainlink-oracles-vs-ergo-oracle-pools/
+Chainlink Oracles vs. Ergo Oracle Pools
+The design of Ergo’s oracle …
+https://images-ext-2.discordapp.net/external/eTJfVdYBiL0IFk9GfwFFPI3T1V6QP1jeOGrDX00E7gA/https/ergoplatform.org/img/uploads/pool.png
+
+
+[06/03/2021 9:27 PM] glasgowm#9381
+Pinned a message.
+
+
+[06/03/2021 9:28 PM] glasgowm#9381 (pinned)
+https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Oracle-Pools.md
+
+{Embed}
+https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Oracle-Pools.md
+Emurgo/Emurgo-Research
+Emurgo research made publicly available for the betterment of the open source and blockchain ecosystems. - Emurgo/Emurgo-Research
+https://images-ext-2.discordapp.net/external/r3vIr4ZVOjTSWI7GWaE2yxWH7-Kwtvr6MJ2Td1003iU/https/opengraph.githubassets.com/943ebb3ca96cee0ad18bc4f84d433648114530ec05c296ab4649f5199e7dad6f/Emurgo/Emurgo-Research
+
+
+[06/03/2021 9:28 PM] glasgowm#9381
+which write ups are you referring to?
+
+
+[06/03/2021 11:06 PM] Kaven#6681
+i have not read the Emurgo one you just posted, reading now
+
+
+[06/03/2021 11:07 PM] Kaven#6681
+@Gazza_SP i'm also interested in this criticism of chainlink:   https://ercwl.medium.com/whats-wrong-with-the-chainlink-2-0-whitepaper-for-simpletons-d50f27049464
+
+{Embed}
+https://ercwl.medium.com/whats-wrong-with-the-chainlink-2-0-whitepaper-for-simpletons-d50f27049464
+What’s Wrong With the Chainlink 2.0 Whitepaper? (For Simpletons)
+Spoiler for the impatient
+https://images-ext-1.discordapp.net/external/E9sbJdqplWmWKiW6LMc_X_ETiduIdoCCOglbRqBxioM/https/miro.medium.com/max/400/0%2A8F38Lmh2bEX8vfDk.jpg
+
+
+[06/03/2021 11:08 PM] Kaven#6681
+and how ergo oracles avoid a similar over-reliance on off-chain trust/reputation
+
+
+[06/03/2021 11:10 PM] Kaven#6681
+anyway, reading the emurgo paper now, thanks @glasgowm
+
+
+[06/04/2021 12:18 AM] Kaven#6681
+okay so do i understand correctly that the game theoretic lynchpin of oracles is collateral and slashing for deviation?
+
+
+[06/04/2021 12:18 AM] Kaven#6681
+like this is _the_ model for making oracles work right?
+
+
+[06/04/2021 12:24 AM] arokace#8057
+Can someone explain what these Oracle Pools are?  Are these some kind of pool someone can make ergo from or does it have a different meaning in this context.  I see they have something to do with dApps and the UTXO model.  Granted I don't understand the UTXO model very well either.  dApps is just the apps built on top of the Ergo network right?
+
+{Reactions}
+ergo_orange 
+
+[06/04/2021 5:05 AM] Kaven#6681
+dapp means one or more smart contracts and typically implies some kind of ui, like a web ui
+
+
+[06/04/2021 5:06 AM] Kaven#6681
+dapps consume oracle data if they need off chain data, which is most interesting/complex use cases
+
+
+[06/04/2021 5:06 AM] Kaven#6681
+so like exchange rates is the biggest use case for oracle data probably, but could be sports scores, weather data, court rulings, etc
+
+
+[06/04/2021 5:23 AM] Kaven#6681
+i'm trying to get my head around oracle frameworks and game theoretic security myself. its a tough subject for the layperson.
+
+
+[06/04/2021 5:25 AM] Kaven#6681
+my impression so far in my admittedly limited research is that chainlink has been pretty slow to implement collateral requirements, and for ergo's oracle framework, there are robust collateral requirements baked in. but this is precisely where i need to research more.
+
+
+[06/04/2021 5:26 AM] Kaven#6681
+i guess the idea is oracles must put up in-kind collateral that is more valuable than the rewards they're earning, so if they are sloppy or malicious, their collateral is lost, at least partially
+
+
+[06/04/2021 5:27 AM] Kaven#6681
+one of the main things i cant get my head around is the game theoretic or cryptoeconomic approach to collusion
+
+
+[06/04/2021 5:29 AM] Kaven#6681
+so its well and good that we have some algo that detects a certain deviation, or incentivizes reporting of deviations, from the norm, but then what prevents collusion where many oracles agree secretly, off-chain, to lie and game the contracts the supply data to.
+
+
+[06/04/2021 7:33 PM] danandbeard#3509
+what part are you struggling with?  to prevent malicious behavior you have to incentivize good behavior enough and/or penalize bad behavior enough to make it a losing proposition to be malicious
+
+
+[06/04/2021 7:39 PM] danandbeard#3509
+chainlink (according to the article you linked, I've only read a bit on it) appears to only give incentive to behave "implicitly" which is to say there's no immediate incentive, just that bad behavior would get them removed from the oracle pool and they'd lose future earnings
+
+ERG appears to pay top down with multi-stage contracts which I don't understand but the penalties make total sense - to be an oracle in an oracle pool you have to stake something of value that can be taken from you if you misbehave...that was the penalty is immediate and direct and you don't rely on "implicit" loss of not getting future funds by being a good oracle
+
+
+[06/04/2021 7:40 PM] danandbeard#3509
+act bad in a chainlink pool?  you get kicked
+act bad in an erg pool?  you lose your stake and get kicked
+
+
+[06/04/2021 8:44 PM] Kaven#6681
+i understand collateral and slashing, i'm just looking for cryptoeconomic guards against collusion
+
+
+[06/04/2021 8:44 PM] Kaven#6681
+i dont understand that part
+
+
+[06/10/2021 3:15 AM] DrShunts#4832
+Does anyone have any pointers on how I would go about querying the erg-usd oracle historical values. I see https://github.com/bdkent/sigmausd-history/blob/main/src/process.ts (line 28) uses them, however it seems to be from a file produced by code not in the repo.
+Can it be done through the api on https://explorer.ergoplatform.com/en/api ?
+Do I need to run a full local node (ergo-bootstrap)?
+Would I be able to use ergo-appkit?
+Any pointers to tutorials or working code would be great.
+
+{Embed}
+https://github.com/bdkent/sigmausd-history/blob/main/src/process.ts
+bdkent/sigmausd-history
+historical data for SigmaUSD. Contribute to bdkent/sigmausd-history development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/bSXkYcmWl5p97MTNAi-lX_7nztBy5h7PoqHRk9tOqxc/https/opengraph.githubassets.com/f3b718094addf7e734422cb3dd2dedd91f2fc48bd1eb473f68d0c57bc5b3678e/bdkent/sigmausd-history
+
+
+[06/10/2021 7:40 PM] bk#4411
+@DrShunts I provided some info in the discussion thread you started at the GH page. Please reach out there for more info or feel free to DM me here.
+
+
+[06/11/2021 12:11 AM] DrShunts#4832
+Awesome, thanks bdkent. Looking into it now. Thanks for the detailed response.
+
+
+[06/14/2021 12:09 PM] Snax#3268
+Here is my understanding of how the oracle pool contracts included in Oracle Core (https://github.com/ergoplatform/oracle-core) work. Please correct me if I got anything wrong, I am trying to wrap my head around oracle pools.
+
+
+Each oracle uses a "datapoint" contract to store what they think the datapoint should be, which basically just takes the last box protected by itself, and consumes it to create a new one with a new datapoint. 
+
+The pool consists of:
+
+- The contract used to protect deposits into the pool, which can only be spent to create a box protected by:
+- The "epoch prep" contract, which collects the pool's funds and checks whether a new epoch can begin. It can be spent to create a new epoch box protected by:
+- The "live epoch" one, which stores the latest pool datapoint, and the spending transaction of which must include the datapoints of the oracles in the pool as data inputs, and creates a new box protected by itself storing the next pool datapoint. A box protected by it always stores the latest pool datapoint.
+
+{Embed}
+https://github.com/ergoplatform/oracle-core
+ergoplatform/oracle-core
+Core off-chain component of Oracle Pools. Contribute to ergoplatform/oracle-core development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/5FDbFRbl2DEW_4brWOI2vQeb4VQqEwmy1OnhWMVF7wM/https/opengraph.githubassets.com/a5ec97dc1527970681f08d974e7d36da2faf5a422c55d367402b432135dcfd6e/ergoplatform/oracle-core
+
+
+[06/23/2021 4:28 AM] abchris#8522
+@Snax, I think the individual data postings are collected at the epoch prep stage. So they're data-inputs for the tx producing he new epoch prep box, not the live one. The epoch prep box contains the new aggregated datapoint and is then spent to produce the new live epoch box. During the live epoch each oracle can post to his data box, etc...
+
+
+[06/23/2021 4:30 AM] abchris#8522
+Question:
+If data boxes can only be spent by their respective oracle (whose address is encoded in R4), then what is this tx doing? Seems 9iDs7k is spending 9fzRcc's data box?
+https://explorer.ergoplatform.com/en/transactions/a23a9634db0d992d8fd3074d49eab713543449ca521eea833478691ca75c4fb4
+
+
+[06/26/2021 4:45 PM] Kaludan#3601
+Did you ever figure this one out? Was hoping the Ergo Oracle pool solution was going to be something smaller-time IT or SMB folks could participate in. It reads like it publicly, but then still seems like you need to invest heavily in the coin and/or be your own customer.
+
+
+[06/26/2021 5:08 PM] essaias#5787
+Yep you need an "invitation" of the pool Operator. Otherwise you cannot join.
+
+{Reactions}
+👍 
+
+[06/26/2021 5:12 PM] Kaludan#3601
+Well darn, was hoping something more innovative than Link, but sounds pretty much the same.
+
+
+[06/29/2021 3:02 AM] Collective.Bet#8682
+Hi everyone 👋🏻
+
+
+[06/29/2021 3:07 AM] Collective.Bet#8682
+I was looking over Ergo Explorer in the Oracle Pools section and the only pool is for ERG/USD. Any plans on adding more pools, example: ERG/ EURO? Any tutorial available on how to such a thing? I’ve seen this doc about Connectors for an Oracle Pool. 
+
+https://github.com/ergoplatform/oracle-core/tree/master/connectors/connector-lib
+
+{Embed}
+https://github.com/ergoplatform/oracle-core/tree/master/connectors/connector-lib
+ergoplatform/oracle-core
+Core off-chain component of Oracle Pools. Contribute to ergoplatform/oracle-core development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/MIeEZoK2qIM37Z7Xle0kL4L7rPIDPS7X_swePrRJf9c/https/opengraph.githubassets.com/6ceb93d91cae23bfc69054a164bed191c73cafcbd101583e9be2b49627c45c6a/ergoplatform/oracle-core
+
+{Reactions}
+☝️ 
+
+[06/29/2021 3:07 AM] Collective.Bet#8682
+Can a Connector be created using more complex data: JSON?
+
+{Reactions}
+☝️ 
+
+[07/05/2021 4:14 PM] Rhosu Katsudon#2651
+Hi guys, hope you don't mind me asking a question. I've just recently found out about Ergo and Oracle Pools. My question is, for the Oracle Pool to Cardano. Will there be a new coin for it, or will the Oracle Pool run off the ERGO blockchain's PoW and use ERG? Or will there be a new coin to be mined/staked for Oracle Pools? I either can't seem to find the answer anywhere or I'm just bad at searching.
+
+
+[07/05/2021 5:15 PM] glasgowm#9381
+The ADA Oracle pool ran on Erg afaik.
+
+
+[07/05/2021 6:51 PM] Rhosu Katsudon#2651
+Thank you!
+
+
+[07/05/2021 11:19 PM] glasgowm#9381
+Pinned a message.
+
+
+[07/05/2021 11:24 PM] glasgowm#9381
+For the ADA-USD Oracle
+
+https://github.com/ergoplatform/oracle-core/blob/master/scripts/ada-usd-oracle/oracle-config.yaml
+
+```yaml
+#### Oracle Pool Parameters ####
+# The minimum amount of Ergs required for the oracle pool to be considered funded.
+minimum_pool_box_value: 22200000
+# The payout in Ergs that a single oracle earns on successful datapoint posting
+oracle_payout_price: 2000000
+```
+
+{Embed}
+https://github.com/ergoplatform/oracle-core/blob/master/scripts/ada-usd-oracle/oracle-config.yaml
+ergoplatform/oracle-core
+Core off-chain component of Oracle Pools. Contribute to ergoplatform/oracle-core development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/MIeEZoK2qIM37Z7Xle0kL4L7rPIDPS7X_swePrRJf9c/https/opengraph.githubassets.com/6ceb93d91cae23bfc69054a164bed191c73cafcbd101583e9be2b49627c45c6a/ergoplatform/oracle-core
+
+
+[07/06/2021 2:42 AM] Collective.Bet#8682
+So, it’s impossible to create a pool
+
+
+[07/06/2021 3:16 AM] Rhosu Katsudon#2651
+thank you!
+
+
+[07/06/2021 8:08 AM] glasgowm#9381
+?
+
+https://github.com/ergoplatform/oracle-core/tree/master/oracle-pool-bootstrap
+
+{Embed}
+https://github.com/ergoplatform/oracle-core/tree/master/oracle-pool-bootstrap
+ergoplatform/oracle-core
+Core off-chain component of Oracle Pools. Contribute to ergoplatform/oracle-core development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/MIeEZoK2qIM37Z7Xle0kL4L7rPIDPS7X_swePrRJf9c/https/opengraph.githubassets.com/6ceb93d91cae23bfc69054a164bed191c73cafcbd101583e9be2b49627c45c6a/ergoplatform/oracle-core
+
+
+[07/06/2021 8:09 AM] Collective.Bet#8682
+Due to the number of ERGs required
+
+
+[07/06/2021 8:12 AM] glasgowm#9381
+Those are nanoErgs, or 10^−9
+
+
+[07/06/2021 8:12 AM] glasgowm#9381
+The parameters are also changeable ofc
+
+
+[07/06/2021 10:31 AM] roku_to_the_moon#8958
+It practically means close to nothing. So it is very possible :)
+
+
+[07/15/2021 9:16 PM] blale#5355
+theoretically, wouldn't this still be possible? have some kind of JSON schema registry maintained by Ergo Governance process. People could submit new schemas for approval that support new complex datapoint response types...if schema is followed and validated at the node...and yeah, some kind of weighted deviation check per json property? (I'm spitballing here)..then store largish (>2kB ?) payloads to a separate "payload blockchain" whereas the primary ergo blockchain just stores references to this?
+
+
+[07/23/2021 9:44 PM] danandbeard#2312
+how does cardano utilize ergo oracle pools? presumably their smart contracts will have some way to reference on-chain data from ergo, right?
+
+
+[07/24/2021 4:27 PM] glasgowm#9381
+There's a first generation hosted here https://nut.link/ by @mmahut that uses metadata to get it on cardano. Article here https://ergoplatform.org/en/blog/2020-11-09-first-steps-towards-interoperability-with-cardano-oracles/
+
+To work natively and utilise all the benefits of oracle pools ideally IOHK needs to add data-inputs to ADA as described here https://cardanoupdates.com/docs/255f71e1-458d-47e2-8504-3f25c729b44e by @Robert K which seems like it would make DeFi in general a lot more practical on Cardano. Lots of startups trying to solve this problem atm - not sure what the current most likely is - and cardano itself is probably just focusing on getting alonso out.
+
+{Embed}
+https://ergoplatform.org/en/blog/2020-11-09-first-steps-towards-interoperability-with-cardano-oracles/
+First steps towards interoperability with Cardano oracles
+The oracle solution for …
+https://images-ext-1.discordapp.net/external/guXXvhi4w3-t2_NhMLd0O8bskRvdMnq_TGutNBuVHSU/https/ergoplatform.org/img/uploads/joshua-hoehne-xhnbw5x63mw-unsplash.jpg
+
+{Embed}
+https://cardanoupdates.com/docs/255f71e1-458d-47e2-8504-3f25c729b44e
+Cardano releases and daily development reports at 00:00 (UTC). See commits in real-time.
+https://images-ext-2.discordapp.net/external/xCmxSJYVEHlz9PwHjW2XivvmcOrqgWowUNRN9IKthO4/https/cardanoupdates.com/images/og-img.png
+
+{Reactions}
+👍 (4) 
+
+[07/24/2021 8:43 PM] abchris#8522
+If Cardano ends up supporting data input boxes, they could just have their own oracle pools, right? No need to interact with Ergo.
+
+
+[07/24/2021 8:58 PM] glasgowm#9381
+Maybe? They'd need to port it all to Plutus, not sure if there's any other blockages. But the issue is you can't read data in cardano's eUTXO without spending a box. So you can't reference anything (ie, prices from an oracle) easily.
+
+
+[07/25/2021 2:14 AM] abchris#8522
+Hmm, I need to read up on it. I thought the reason Ergo was jumping in as oracle solution for Cardano was precisely because Cardano chose not to support read-only boxes.
+
+
+[08/11/2021 8:33 PM] Vino#4411
+any news?
+
+
+[08/13/2021 2:13 AM] BuzzLiteBeer#8676
+Anyone here setup an Oracle-Pool?
+
+
+[08/14/2021 12:22 PM] glasgowm#9381 (pinned)
+https://discord.com/channels/668903786361651200/668903786902847502/763729679307374653
+
+
+[08/14/2021 12:22 PM] glasgowm#9381
+Pinned a message.
+
+
+[08/15/2021 8:05 PM] Microproofs#4407
+Hi,
+I was wondering if there is any need for running an oracle pool that adds random entropy into the system via RNG. I’d love to add more oracle data points to ergo. The only concern I’d have is how the oracle pool would consolidate multiple RNG providers.
+
+
+[08/17/2021 9:07 PM] nitram147#5106
+Why should anybody trust that the numbers were really generated randomly? It doesn't make sense.
+
+
+[08/17/2021 9:08 PM] nitram147#5106
+If somebody want to have access to random numbers there are many better ways to obtain them on ergo rather then to blindly believe to some pool.
+
+
+[08/17/2021 9:09 PM] nitram147#5106
+And even the pooling concept doesn't make sense - how do you want to aggregate random numbers into a one number? Even if you xor them, there will be still a  place for cheating by the last entry in specific round.
+
+
+[08/17/2021 9:13 PM] Microproofs#4407
+Right now Ergo does not have outside entropy to help with applications like lottery systems. As is a miner could take advantage of the pseudo randomness to win that lottery. There is more on this subject on the ergo forum under the lottery thread
+
+
+[08/17/2021 9:16 PM] nitram147#5106
+If you make a contract that way, that you will require specific hash of block in advance (before it's known), to be able to 100% cheating, every miner should cooperate and mine only block (with that specified height) which hash will result in winning of the cheaters party. However nobody knows who would be lucky to get to mine specific block. And miner isn't incentivized to help cheating someone for free. So there has to be an extremely large bet and every miner should cooperate with cheater party to be able to 100% succeed by cheating.
+
+
+[08/17/2021 9:17 PM] Microproofs#4407
+https://www.ergoforum.org/t/a-lottery-on-top-of-ergo/137/3
+
+{Embed}
+https://www.ergoforum.org/t/a-lottery-on-top-of-ergo/137/3
+A lottery on top of Ergo
+There is a good paper [PW18] showing how an adversarial miner can manipulate blockchain entropy.  In Ergo, 10 last block headers available in execution context, and it is better to use not the latest block but a deepest one available, and mix randomness from it with a randomness committed to before (e.g. by a lottery organizer) . Still could be ...
+
+
+[08/17/2021 9:17 PM] Microproofs#4407
+This was the topic btw
+
+
+[08/17/2021 9:18 PM] Microproofs#4407
+Merely curious about creating a new source of data. And a new piece of information might add the needed randomness anyway
+
+
+[08/17/2021 9:19 PM] nitram147#5106
+I know what do you want to achieve, however I'm almost sure that it cannot be easily achieved by ordinary oracle pool concept.
+
+
+[08/17/2021 9:20 PM] nitram147#5106
+Best way to aggregate random numbers from multiple parties would be to xor them together.
+
+
+[08/17/2021 9:20 PM] nitram147#5106
+However the numbers had to be choosen without a knowledge of other choosen numbers.
+
+
+[08/17/2021 9:21 PM] nitram147#5106
+And this part cannot be achieved, because oracle posting datapoints don't happen in one specific moment.
+
+
+[08/17/2021 9:21 PM] nitram147#5106
+Some pool participant will post them earlier, which means somebody will post it as last participant.
+
+
+[08/17/2021 9:22 PM] nitram147#5106
+He can then based on the previous numbers manipulate his own number to make the outcome number he want to make.
+
+
+[08/17/2021 9:23 PM] Microproofs#4407
+Yeah lack of synchronization is a major issue. And pools can only output an aggregated piece of data correct?
+
+
+[08/17/2021 9:24 PM] nitram147#5106
+Even if the random enetering rties were separate, if somebody knows the logic how your smartcontract will aggregate these numbers, he can always cheat.
+
+
+[08/17/2021 9:25 PM] nitram147#5106
+So from my point of view, the mining block hash or the super hashes would be much better solution.
+
+
+[08/17/2021 9:25 PM] nitram147#5106
+Maybe it will be worth looking how does cardano's verifiable random function for choosing of staking pools work
+
+{Reactions}
+👍 
+
+[08/17/2021 9:26 PM] nitram147#5106
+(I did not find a time to do it yet)
+
+
+[08/17/2021 9:26 PM] Microproofs#4407
+Yeah a lot going on
+
+
+[08/17/2021 9:27 PM] Microproofs#4407
+I’m thinking we should definitely have more oracle pools soon especially looking at the functionality provided by Chainlink into Eth
+
+
+[08/25/2021 9:26 PM] troyl4#1317
+I saw multiple mentions now of oracle pools v2 in the development chat. Is there any documentation or github you could point me to?
+
+
+[08/25/2021 10:54 PM] glasgowm#9381
+https://github.com/scalahub/OraclePool/tree/main/src/main/scala/oraclepool
+
+{Embed}
+https://github.com/scalahub/OraclePool/tree/main/src/main/scala/oraclepool
+OraclePool/src/main/scala/oraclepool at main · scalahub/OraclePool
+Contribute to scalahub/OraclePool development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/N8GsuH8npbemgfr_7jYBbpkaDwNz7ocGNnutsznSySo/https/opengraph.githubassets.com/f24da643592b5f974d082ee7cc38af7b707b2c8970bd09c98f6c9666753befad/scalahub/OraclePool
+
+
+[08/25/2021 10:54 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/880208600604237864/Screenshot_2021-08-25-22-54-38-875_com.android.chrome.jpg
+
+
+[08/25/2021 11:44 PM] troyl4#1317
+Thanks!!
+
+
+[08/30/2021 7:26 PM] scalahub#2618
+Actually that is not really v2.0 .. it's still in review and will be updated soon. The above are just experimental versions derived from 1.0 and are more appropriate to be called 1.x .. in the near future this will be fixed
+
+{Reactions}
+😮 👍 
+
+[08/30/2021 9:50 PM] troyl4#1317
+Not to be that guy... but.... maybe more details about v2.0 oracle pools gets released upon the release of Alonzo? :thonk:
+
+{Reactions}
+👍 
+
+[09/15/2021 3:37 PM] amsk#6884
+@scalahub Hello...I cannot run oracle-core...It seems there is an issue with dependencies used in oracle-core...
+ergo-lib"0.4.1"  requires elliptic-curve"0.5.0" but this version of elliptic-curve was yanked...So the the project cannot be built...
+
+
+[09/15/2021 3:39 PM] glasgowm#9381
+https://twitter.com/ergoplatformorg/status/1438119688983269384
+
+{Embed}
+Alex Chepurnoy (@chepurnoy)
+https://twitter.com/ergoplatformorg/status/1438119688983269384
+Oracle Pools 2.0 draft (by ScalaHub) https://t.co/zGkJAn0Xkb
+https://images-ext-2.discordapp.net/external/xY9oU0vZDCBPKN1FYS1p_MI4hSoFHUyV5CCVq0cLf8I/%3Fformat%3Dpng%26name%3D600x314/https/pbs.twimg.com/card_img/1438117796001484804/ywSwUSRQ
+Twitter
+
+
+[09/15/2021 3:59 PM] scalahub#2618
+@amsk can you please link the repo which you used?
+
+
+[09/15/2021 4:49 PM] greenhat#6562
+Yes, I see it. First, we need to update `ergo-node-interface` lib. I've asked Emurgo to move its repo to our org. I'll ping them again. If no luck, we can always fork it.
+
+
+[09/15/2021 4:54 PM] amsk#6884
+This one...
+https://github.com/ergoplatform/oracle-core
+
+{Embed}
+https://github.com/ergoplatform/oracle-core
+GitHub - ergoplatform/oracle-core: Core off-chain component of Orac...
+Core off-chain component of Oracle Pools. Contribute to ergoplatform/oracle-core development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/mCBrI42TFA3o9hcW68UYpDM4Jhq-VipzY6JNDeYzDkM/https/opengraph.githubassets.com/550399123f981ad6120a6b7ff770efb73f4700cc0a9acf1e7b9c9d63133d412c/ergoplatform/oracle-core
+
+
+[09/15/2021 4:56 PM] amsk#6884
+Thank`s...All other rust libraries and frameworks do not work too due to the same issue...
+Headless dApp Framework and ergo-offchain-utilities
+
+
+[09/15/2021 5:00 PM] greenhat#6562
+Yes, they were a bit neglected lately. They deserve more attention. I'll take care of it ASAP.
+
+
+[09/16/2021 8:55 AM] amsk#6884
+I've created a fork of ergo-offchain-utilities and fixed the issues...It is compatible with ergo-lib@0.13.3 now...
+https://github.com/aliamsk/ergo-utilities-rust
+
+{Embed}
+https://github.com/aliamsk/ergo-utilities-rust
+GitHub - aliamsk/ergo-utilities-rust: General utilities to make wri...
+General utilities to make writing off-chain Ergo code in Rust simpler. - GitHub - aliamsk/ergo-utilities-rust: General utilities to make writing off-chain Ergo code in Rust simpler.
+https://images-ext-2.discordapp.net/external/OC7HMl-VUwkHQXySxt2QEoJeKDL4U-aUIO-ckh5r25w/https/opengraph.githubassets.com/eb6ebd0638ea825658d50f4f4d288368d9df01f0951c58604a97008470a1fe54/aliamsk/ergo-utilities-rust
+
+{Reactions}
+⭐ ergo_orange (2) 
+
+[09/16/2021 10:47 AM] amsk#6884
+I've forked `ergo-node-interface` too and fixed the version of `ergo-lib` in dependencies...It seems this library just used `chain` module and there was no differences between v0.4.1 and v0.13.3 in this module...So I've just edited `ergo-lib` version and it built successfully...
+https://github.com/aliamsk/ergo-node-interface
+
+{Embed}
+https://github.com/aliamsk/ergo-node-interface
+GitHub - aliamsk/ergo-node-interface: A Rust library which makes in...
+A Rust library which makes interacting with and using an Ergo Node simple. - GitHub - aliamsk/ergo-node-interface: A Rust library which makes interacting with and using an Ergo Node simple.
+https://images-ext-1.discordapp.net/external/-8LNUHeLEnyjPr9adctxQCBkVtSL9iiTjNEZZzL1zsI/https/opengraph.githubassets.com/e6b2b680b09920f104760fb12dff93ff9a12861015b13d7e3fc9f4f68e730be2/aliamsk/ergo-node-interface
+
+
+[09/16/2021 8:24 PM] amsk#6884
+It seems erg/usd oracle pool is stuck in live epoch stage...
+
+
+[09/16/2021 8:55 PM] glasgowm#9381
+yeh looks like it
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/888151209469435974/unknown.png
+
+
+[09/16/2021 9:33 PM] amsk#6884
+What caused this issue?...Network congestion or minimum consensus limitation?...
+
+
+[09/16/2021 9:48 PM] glasgowm#9381
+Congestion I think. Yoroi was laggy too for some people
+
+
+[09/20/2021 12:46 PM] greenhat#6562
+`ergo-node-interface` update with latest ergo-lib is published - https://github.com/ergoplatform/ergo-node-interface-rust/releases/tag/v0.2.5 , I'm arranging `ergo-offchain-utilities` to be moved to our org as well and it'll be updated next and then `oracle-core` build will be fixed. /cc @amsk
+
+{Embed}
+https://github.com/ergoplatform/ergo-node-interface-rust/releases/tag/v0.2.5
+Release v0.2.5 · ergoplatform/ergo-node-interface-rust
+Updated ergo-lib version to 0.13.3.
+https://images-ext-2.discordapp.net/external/wlnaWk6V9YPYAObjzjkhPcmxUvd71pr_4JWANS05DZw/https/opengraph.githubassets.com/33b773cd5d5316fd4fcc2b047ed8f6e231b36874dd3a98c3dc18e71485949a1f/ergoplatform/ergo-node-interface-rust
+
+{Reactions}
+ergo_orange (2) ⭐ (2) 🚀 (2) 
+
+[09/25/2021 10:29 PM] amsk#6884
+https://iohk.io/en/blog/posts/2021/09/25/cardano-to-integrate-chainlink-oracles-for-real-time-market-data/
+Does this suppose as a bad news for oracle pools project?...
+Cause I supposed that oracle pools are the first oracle services that designed to integrate with EUTXO based blockchains and now I found I am wrong some how...
+
+{Embed}
+https://iohk.io/en/blog/posts/2021/09/25/cardano-to-integrate-chainlink-oracles-for-real-time-market-data/
+Cardano to integrate Chainlink oracles for real-time market data - ...
+Our new collaboration will add additional support for developers building smart contracts for Cardano DeFi applications
+https://images-ext-1.discordapp.net/external/FBxMWXdGmmkq8Y2hzITgPt9sk-h9HORnDQhUBs48NC4/https/ucarecdn.com/0b614830-508d-4808-a2cc-c947b501e53e/
+
+
+[09/25/2021 10:46 PM] amsk#6884
+Also I faced a major issue in current implementation of ERG/USD oracle pool...
+Now the oracle who perform datapoint collection operation, pays about 0.011 ERG as tx fee in return he receives only 0.005 ERG as reward...
+I think the collector should be paid more than double of paying price...And I think there will be an issue with transaction fees...
+I was developing an oracle pool that supports string data type (or boolean, etc...) but in that case the transaction fee for `collect datapoints` operation will be much more and thus the cost of using this service will be high for smart contracts...
+
+
+[09/26/2021 12:36 AM] abchris#8522
+This is addressed in V2 it seems. The collector will get at least 5x more rewards than for a single datapoint posting.
+
+
+[09/29/2021 6:23 PM] amanadlakha#1734
+What is the cost per transaction for ergo oracle vs chainlink oracles?
+
+
+[09/29/2021 6:23 PM] amanadlakha#1734
+Also if anyone could provide info on why to choose ergo oracle over chainlink  for development purpose
+
+
+[09/29/2021 6:25 PM] glasgowm#9381
+In the OP model, oracle providers all submit their data via a regular transaction, including the datapoint in some agreed format, such as within Cardano's transaction metadata.
+
+The cost of providing this datapoint is a single transaction, but as we stated above each transaction in a EUTXO model can reference other UTXO's. The oracle provider references the entire pool's EUTXO when they submit their data (you can think of this as the pool's funds, or treasury), and this is how they get paid later, as described below.
+
+Lastly, the oracle provider that accumulates and aggregates all the other oracles' data into a finalized transaction gets paid double. This incentivizes timely delivery and a reward for minting what can be thought of as a "mini-block".
+
+{Reactions}
+👍 
+
+[09/29/2021 6:25 PM] glasgowm#9381
+https://thecryptodrip.com/oracle-pools-decentralized-truth/
+
+{Embed}
+https://thecryptodrip.com/oracle-pools-decentralized-truth/
+Oracle Pools: Decentralized Truth for the Modern Age
+Oracles have been around for thousands of years. Originally the channel through which a deity might speak to humanity, oracles have since taken many different forms. Spokespersons, elected officials, celebrities, and teachers can all be thought of as oracles in their own right: delivering information to a receiver through the
+https://images-ext-2.discordapp.net/external/Wp6tUaAFr8_E88qMREcL53Tu0keJQQQAHjCjjDbIiyY/%3Fcrop%3Dentropy%26cs%3Dtinysrgb%26fit%3Dmax%26fm%3Djpg%26ixid%3DMnwxMTc3M3wwfDF8c2VhcmNofDZ8fHBvb2x8ZW58MHx8fHwxNjI3NDg0NTA0%26ixlib%3Drb-1.2.1%26q%3D80%26w%3D2000/https/images.unsplash.com/photo-1500673587002-1d2548cfba1b
+
+
+[09/29/2021 6:25 PM] glasgowm#9381
+^
+
+
+[09/29/2021 10:04 PM] abchris#8522
+If you were asking about the cost of using a datapoint, it's free. Once a pool produces a datapoint, anyone can include it in a transaction. There's no pay-per-query like in Chainlink.
+
+
+[09/29/2021 10:05 PM] amanadlakha#1734
+So how a developer or a smart contract pays for oracle?
+
+
+[09/29/2021 10:07 PM] abchris#8522
+With V1 the pool must be funded. If a dev's app generates revenue and relies on a certain oracle pool, he'll be incentivized to contribute to the pool funding.
+
+
+[09/29/2021 10:08 PM] abchris#8522
+With V2, same logic, except the oracles will redeem a token in exchange for ERG.
+
+
+[09/29/2021 10:09 PM] amanadlakha#1734
+Also is ergo oracle interoperable with other block chains as chain link is. If not are there any plans for it to become one?
+
+
+[09/29/2021 10:11 PM] abchris#8522
+Yes, there are a number of bridges being worked on. Graviton team should be part of the hackaton I heard. https://ergoplatform.org/en/blog/2021-08-16-ergo-graviton-partnership/
+
+
+[09/29/2021 10:14 PM] glasgowm#9381
+I don't think Graviton is using oracles afaik. But anyone can use the price feed?
+
+
+[09/29/2021 10:18 PM] abchris#8522
+That's what I would think.
+
+
+[09/29/2021 10:37 PM] glasgowm#9381
+Chainlinks 'Chain Agnostism' seems to be that they don't prefer any blockchain on a ethical level - but it still needs APIs coded so the fees can be paid I think for new chains.
+
+
+[09/29/2021 10:38 PM] glasgowm#9381
+https://www.gemini.com/cryptopedia/chainlink-crypto-oracle-link-token#section-chainlinks-enterprise-applicability
+
+{Embed}
+https://www.gemini.com/cryptopedia/chainlink-crypto-oracle-link-token
+Chainlink’s Oracle Brings Practical Data to Smart Contracts | Gemini
+An overview of Chainlink, a blockchain-agnostic decentralized oracle network that brings off-chain data to smart contracts and the blockchain.
+https://images-ext-2.discordapp.net/external/bpXkQl4bY26Cx-LRyv7K4Eb_rUlzaLx1aui1y-VSlHQ/%3Ffm%3Dwebp/https/images.ctfassets.net/0idwgenf7ije/6Y3QCynLqH1B7I1QYJloou/a2866d812ac50f179bdbd47050dca041/Gemini-Chainlink__LINK__In_Practice-100.jpg
+
+
+[09/30/2021 10:40 AM] amsk#6884
+Chainlink also uses same logic as oracle pool for it's price feeds...There are some sponsors that pay for oracles and every one can use data that exists in `latestAnswer` freely...
+
+
+[09/30/2021 10:55 AM] amsk#6884
+Also there is another issue in V1...It seems there is not any way to ensure the collector folded all successful boxes in `collecting transaction`...Am I right?...
+In other words, the collectors can fold only a limited number of successful boxes in `collecting transaction` (equal to minimum consensus) and ignore other successful boxes...So they pay less transaction fee for this action...
+
+
+[10/04/2021 8:47 PM] Siavash#0930
+@mhs_sam @kushti
+
+
+[10/04/2021 10:01 PM] abchris#8522
+Interesting, I had no idea. Are there any guarantees around how recent `latestAnswer` is?
+
+
+[10/04/2021 10:01 PM] abchris#8522
+Ye I think you're right here. At least v2 has collector rewards increasing with number of datapoints collected.
+
+
+[10/05/2021 4:16 AM] WarriorKing#1784
+Will Ergo provide Oracle services to Cardona block chain?
+
+I was very disappointed to hear of the chainlink - Cardano partnership.
+
+I thought that was Ergo’s place@to have  🙂
+
+
+[10/05/2021 7:26 AM] glasgowm#9381
+ADA is integrating ETH feeds for their developers - was always the plan. Oracle Pools is a eUTXO design for oracle pools which will be available on ada yes.
+
+
+[10/09/2021 5:38 PM] Luivatra#9076
+With the eth bridge coming up I was thinking it could be good "advertising" to have an eth/usd oracle up and running? I was amazed at how easy and well documented the oracle-core repo is so my hands are itchy to try and bootstrap an eth/usd oracle. How much does it cost to keep an oracle running? I figured maybe we could keep it running with community funding through a raffle.
+
+{Reactions}
+👍 
+
+[10/09/2021 8:03 PM] abchris#8522
+Looks like 34 ERG was sent to the pool since March, some of it still unspent.
+https://explorer.ergoplatform.com/en/addresses/4L1NEtpkMq6NeZhy2pk6omYvewovcHTm7CbxKm9djsbobAHSdDe6TVfmnW5THVpSHrG6rWovqv7838reswYE3UYkykWaNnhoyBGHFCdZvWqa2TVRtHiWcVaner6giUp55ZpELLuj9TtKePv6zrtMV5YE1o2kjrQEgGDoGHBGNuyx6ymXkSimcAQo1oD4f4tTcuBfWfp
+
+
+[10/09/2021 8:03 PM] Luivatra#9076
+that doesnt sound too bad
+
+
+[10/09/2021 8:04 PM] abchris#8522
+Keep in mind that with V1 the oracles will lose some ERG too.
+
+
+[10/09/2021 8:05 PM] abchris#8522
+Might be worth waiting, depending on V2's ETA.
+
+
+[10/09/2021 8:05 PM] abchris#8522
+Either way, happy to jump in.
+
+
+[10/10/2021 10:22 AM] Chris Ray#2713
+Just as a thought to add to the discussion, with the eth miners integrating with ergo not only would this be "advertising" it would also be supportive for that community bridge and I imagine it would be appreciated.
+
+{Reactions}
+💯 
+
+[10/10/2021 12:53 PM] Luivatra#9076
+Yeah it's a good point regarding V2, but think I will try it anyways just for the hell of it, then we always see later whether it makes sense to keep it running or wait until v2
+
+{Reactions}
+👍 
+
+[10/11/2021 5:56 PM] Luivatra#9076
+~~It seems like there is a discrepancy between what the bootstrap-cli spits out for getContractAddresses and the actual addresses, took me a while to notice because they do look alike so I had the Can not find any local datapoint boxes error. Crossing fingers I fixed it now. Cant really figure out why though, the cli code looks quite straight forward~~
+
+
+[10/11/2021 6:13 PM] Luivatra#9076
+Nvm me, took the addresses when I had a mistake in my tokenid, of course the error was on my end 😆
+
+
+[10/14/2021 11:35 AM] anon.Σrg#5184
+Just thinking out loud here but what about an oracle pool for the gold price so we can have SigGold?
+
+
+[10/14/2021 12:07 PM] glasgowm#9381
+You can peg an oracle to anything you can find data-source(s) for
+
+
+[10/15/2021 4:27 PM] amsk#6884
+I don't think so...It's seems there is no schedule to update `latestAnswer` in price feeds...
+
+
+[10/15/2021 4:47 PM] amsk#6884
+That will be a nice idea...This will encourages the collector to fold all valid datapoints to earn maximum reward...
+Then the only restricting factor would be the cost of service...In chainlink minimum fee for each request to get  currency price (Prices that are not exist in price feed) is 0.1 LINK I think...
+
+
+[10/31/2021 1:40 AM] weirdhousenoisesat837pmeveryday#4778
+Hello, is it possible for the oracle to report an array of values per transaction rather than a single number? Sorry if dumb question, I dont have any coding experience
+
+
+[10/31/2021 1:43 AM] weirdhousenoisesat837pmeveryday#4778
+For instance, if I had a smart contract that needed eth/usd and btc/usd, would you save on transaction fees by looking at a single oracle containing both rates rather than looking up each rate individually in separate oracles?
+
+
+[10/31/2021 11:05 AM] thanhcutephomaique#9732
+I'm sorry, I just the new one and want to know about Oracle of Ergo. Do you have any paper or explain what is the different with Ergo Oracle and Chainlink?
+
+
+[10/31/2021 11:12 AM] glasgowm#9381
+https://ergoplatform.org/en/blog/2021-04-27-chainlink-oracles-vs-ergo-oracle-pools/
+
+{Embed}
+https://ergoplatform.org/en/blog/2021-04-27-chainlink-oracles-vs-ergo-oracle-pools/
+Chainlink Oracles vs. Ergo Oracle Pools
+The design of Ergo’s oracle …
+https://images-ext-2.discordapp.net/external/eTJfVdYBiL0IFk9GfwFFPI3T1V6QP1jeOGrDX00E7gA/https/ergoplatform.org/img/uploads/pool.png
+
+
+[10/31/2021 11:14 AM] thanhcutephomaique#9732
+Second question, I am checking your project now but may I ask. Do you have your own roadmap for Ergo Oracle? When is the time Ergo Oracle actually launching. I heard that Chainlink launch on Cardano, do you still have a plan on Cardano?
+
+
+[10/31/2021 11:15 AM] glasgowm#9381
+Ergo oracles are already live, they can be used by Cardano devs now - but will be more efficient with v2 oracles and data-inputs added to cardano.
+
+{Reactions}
+😋 
+
+[11/01/2021 3:22 AM] thanhcutephomaique#9732
+Do you have the not exact time when V2 online?
+
+
+[11/01/2021 5:36 AM] abchris#8522
+Don't think you need such an oracle as you can just include the boxes of multiple oracles (in your case eth/usd and btc/usd) into a single transaction.
+
+
+[11/01/2021 5:55 AM] thanhcutephomaique#9732
+And may I have information about v2 oracles?
+
+
+[11/01/2021 6:18 AM] abchris#8522
+What are you after? Here’s the relevant EIP:
+
+https://github.com/ergoplatform/eips/blob/eip23/eip-0023.md
+
+{Embed}
+https://github.com/ergoplatform/eips/blob/eip23/eip-0023.md
+eips/eip-0023.md at eip23 · ergoplatform/eips
+Ergo Improvement Proposals. Contribute to ergoplatform/eips development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/f1SAWdF3WGW2BlCeevFS7f0mJqjKC-V3KDMzEM7v_Dk/https/opengraph.githubassets.com/2aa095a05f9eb2a8a36ed6a76041ecf63fdb54cd4f2850e04869de782f8c3a52/ergoplatform/eips
+
+
+[11/01/2021 1:21 PM] weirdhousenoisesat837pmeveryday#4778
+But wouldn’t it become impractical once you start talking about tens or hundreds of data points? The eth/usd and btc/usd was just an example. What about for instance 5-minute  real time energy prices, would you need an oracle for each 5 minute interval in a day?
+
+
+[11/01/2021 1:22 PM] weirdhousenoisesat837pmeveryday#4778
+Or could you set up a single oracle to pull an array of 5 minute prices at the end of a day (or hour, or 15 minute interval, etc)?
+
+
+[11/01/2021 8:11 PM] abchris#8522
+I don't see how it is impractical, it's not like you have to do it manually or something 🙂
+
+In any case, the problem remains. Someone has to to merge those 100 boxes into a single tx. It's either gonna be you or a higher level oracle.
+
+Also, if going the oracle route, you'd have to modify the current oracle pool smart contracts to support arrays instead of single values and come up with deviation checking for arrays.
+
+
+[11/01/2021 8:58 PM] weirdhousenoisesat837pmeveryday#4778
+Thanks for elaborating. I have a lot to learn 😬 For deviation check of arrays of discrete numbers perhaps a hash of the numbers in the array could be used.
+
+
+[11/01/2021 9:04 PM] abchris#8522
+True if you need all arrays to be identical. Oracle pools typically allow for some deviation, which a hash wouldn't allow. But I guess identical arrays make sense if your only aggregating stuff that's already on chain.
+
+Another thought is that if your smart contract doesn't actually require the full array but just a statistic derived from it, you could move the aggregation off-chain into each oracle's connector.
+
+
+[11/01/2021 9:46 PM] weirdhousenoisesat837pmeveryday#4778
+Since the underlying data points that I have in mind are not subjective, but rather a reported number from a trusted source, I think intuitively I would be OK not allowing for any deviation.
+
+{Reactions}
+👍 
+
+[11/05/2021 7:57 AM] AggerGakker#4449
+Hey @Luivatra i have a few questions about your oracle
+
+
+[11/05/2021 7:57 AM] AggerGakker#4449
+Can i send you a DM?
+
+
+[11/05/2021 8:00 AM] Luivatra#9076
+Sure 🙂
+
+
+[11/11/2021 2:17 AM] Microproofs#4407
+Quick question would using these oracles mean connecting Cardano to Ergo and how would you do that currently
+
+{Reactions}
+👎 
+
+[11/11/2021 9:31 AM] yassassin#3364
+Let's assume I have a smart contract that approves/registers room bookings in a hotel. In that case, the smart contract would like to check if the selected period is still available to book the room. Is it possible for a data oracle to provide this kind of data? Most examples/use cases I find are about data oracles providing continuous updates of a single value.
+
+
+[11/11/2021 3:55 PM] Microproofs#4407
+Meant using them on Cardano. Just curious about doing it today because I wanted to try it out.
+
+
+[11/11/2021 3:56 PM] Microproofs#4407
+Also why the thumbs down? Im happy to help anyway I can
+
+
+[11/11/2021 3:58 PM] glasgowm#9381
+Can't connect Ergo & Cardano with them. You can read the data-feeds from within ADA.
+
+
+[11/14/2021 2:01 PM] huang#2811
+Hello, I meet a error when I build oracle pool using script 'prepare-erg-usd-oracle.sh' in repo.
+
+
+[11/14/2021 2:02 PM] huang#2811
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/909443241890426940/unknown.png
+
+
+[11/14/2021 2:04 PM] huang#2811
+rustc 1.56.1
+OS: Ubuntu 18.04
+
+
+[11/14/2021 2:05 PM] huang#2811
+Does anyboy know how to solve this error? Thanks
+
+
+[11/15/2021 2:26 AM] huang#2811
+@Luivatra Hi do you know this?
+
+
+[11/15/2021 4:24 AM] Luivatra#9076
+You need to use a different branch
+
+
+[11/15/2021 4:25 AM] Luivatra#9076
+https://github.com/ergoplatform/oracle-core/tree/update-dep-ergo-lib
+
+{Embed}
+https://github.com/ergoplatform/oracle-core/tree/update-dep-ergo-lib
+GitHub - ergoplatform/oracle-core at update-dep-ergo-lib
+Core off-chain component of Oracle Pools. Contribute to ergoplatform/oracle-core development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/QM28Dg2qOInQif5zl_gqriaZhYA7pfkNpY483wIPzmc/https/opengraph.githubassets.com/b62761210174fe77617ee95df4356531f1c108708b767f3697a2306d9a7f6d6c/ergoplatform/oracle-core
+
+
+[11/15/2021 5:49 AM] huang#2811
+thanks
+
+
+[11/15/2021 9:14 AM] huang#2811
+@Luivatra I want to run a eth-usd oracle node.
+I follow the cmd in https://github.com/Luivatra/oracle-core.git, branch eth-connector.
+When I run 'docker-compose build', this error come out.I'm unfamiliar with docker. I dont find the solution. Can you help me?
+
+
+[11/15/2021 9:14 AM] huang#2811
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/909733061934055424/image0.jpg
+
+
+[11/15/2021 10:15 AM] Luivatra#9076
+that is odd, what version of docker/docker-compose?
+
+
+[11/15/2021 10:44 AM] huang#2811
+Docker version 20.10.7, build 20.10.7-0ubuntu5~18.04.3
+docker-compose version 1.17.1
+
+
+[11/15/2021 7:15 PM] abchris#8522
+Try adding `version: "3"` at the top of  `docker-compose.yml` and check for whitespace issues.
+
+
+[11/15/2021 7:33 PM] abchris#8522
+The current tooling isn't there yet, so you'd have to build it yourself. But not sure if oracles are the best way to go here, you'd still have the risk of double booking rooms. NFT's can probably help in that regard.
+
+
+[11/16/2021 11:10 AM] huang#2811
+@Luivatra Can you bootstrap me to the ethusd pool？
+my wallet address：9h55P2uagKSeHHAE7KVkZWfhvTFN4GQpjrdf2bx8L9963w6kDwJ
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/910124580608290836/image0.jpg
+
+
+[11/21/2021 11:32 PM] Hamilton#4703
+I was doing research in oracles, just to see if I understand, I can make a oracle(inside the oraclepool or wtv) that straight up pull data from an API like the CoinGeckoAPI and that is it?
+
+
+[11/22/2021 7:48 AM] andee#4722
+that is a basic example of an oracle, I dont get what you are really asking though. it is not limited to querying one API and publishing (if that was your questions)
+
+
+[11/22/2021 12:14 PM] Hamilton#4703
+My question was about the minimum effort to make the oracle, cause I was wondering why we don't have more than 2 pools, lack of demand? Also, this brings me to 2 other questions, imagine that I have a stock API and I get the prices of Microsoft and Apple, are these two different oracles or this information can be put in one?
+
+
+[11/22/2021 12:15 PM] Hamilton#4703
+And, about the transactions, running the oracle would be free and the application running the oracle would pay for transactions? I am little confused on the money part
+
+
+[11/22/2021 12:43 PM] glasgowm#9381
+- Lack of demand when you can usually pull from a centralised source for free
+- v2 solves some issues and bugs which make v1 not worthwhile (can cost you more to run than you receive back in fees)
+- Documentation/frameworks - while the oracle cool documentation is thorough - it's not been simplified yet and there aren't many connectors premade (ada/erg/eth are available) 
+- Running the oracle is free, dApps querying the price pay a small fee each time I believe
+
+{Reactions}
+ergo_white 
+
+[11/22/2021 12:46 PM] Hamilton#4703
+Thanks, oracles are my new favorite thing in crypto and I'm trying to understand the possibilities and possible making it, although, for now, I'm just understanding the technicals
+
+
+[11/22/2021 12:56 PM] glasgowm#9381
+Forgot to answer your microsoft one - I suppose you could put an array but every other oracle in the pool would need it too
+
+
+[11/22/2021 1:06 PM] Hamilton#4703
+I see, I imagined that would be inconvenient, if people wants one data, they would need to request all and then just use one
+
+
+[11/22/2021 7:13 PM] abchris#8522
+About fees, a pool will keep running as long as it's funded. Once a datapoint is live, anyone can use it for free (i.e. include it in a tx). Anyone can fund a pool, so if you have a dapp that relies on one, you'll be incentivised to fund it.
+
+{Reactions}
+👍 🇹 🇭 🇮 🇸 
+
+[11/22/2021 7:15 PM] abchris#8522
+If there's a Microsoft and an Apple pool, you can just include the datapoints from both pools into a single tx. You could but don't need to have a dedicated pool that aggregates those into an array first.
+
+
+[11/23/2021 12:09 AM] Hamilton#4703
+I see, a little bit different than I thought
+
+
+[11/23/2021 12:09 AM] Hamilton#4703
+Understood
+
+
+[12/08/2021 6:33 AM] M. Zuiko#5537
+Hey quick question is there an example of settings for an oracle that's bootstrapped on the testnet. Can someone DM me the  person who did the ETH/USD oracle.
+
+
+[12/08/2021 6:40 AM] abchris#8522
+@Luivatra
+
+
+[12/08/2021 7:22 AM] Luivatra#9076
+I dont think there is any difference other than using a testnet node rather than a mainnet one
+
+
+[12/09/2021 3:02 PM] M. Zuiko#5537
+I’ve been on the road for work but tonight I might have a couple questions if you don’t mind @Luivatra
+
+
+[12/09/2021 3:49 PM] Luivatra#9076
+Just hope I have the answers 🙂
+
+{Reactions}
+😂 (3) 
+
+[01/04/2022 7:17 PM] TCAPLLC#0897
+is the oracle pool mainly CPU based, which means you could run it in parallel to the GPU mining rigs?
+
+
+[01/04/2022 10:16 PM] abchris#8522
+Yes, oracle cores don't need much resources really, all they do is fetch data and post transactions
+
+
+[01/04/2022 10:27 PM] TCAPLLC#0897
+So why are not more people that are already mining running oracle nodes? The only thing preventing me from doing that is that I haven’t found a guide to set one up yet
+
+
+[01/05/2022 5:38 AM] nox071218#1778
+i just came to this section to find out how i can help out. i'm currently tryign to spin up my own node, have miners going, but i've always been interested in helping the pool
+
+
+[01/05/2022 5:57 AM] nox071218#1778
+so i can run on a pi?
+
+
+[01/05/2022 5:59 AM] nox071218#1778
+https://github.com/ergoplatform/oracle-core this might help. I'm going to try and spin one up over the weekend if you try and run into issue let me know... maybe we can help each other out
+
+{Embed}
+https://github.com/ergoplatform/oracle-core
+GitHub - ergoplatform/oracle-core: Core off-chain component of Orac...
+Core off-chain component of Oracle Pools. Contribute to ergoplatform/oracle-core development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/6iEASOLx6tlnZEez1DlnqLY4WzAwb1FYhEDZT-3lsZw/https/opengraph.githubassets.com/7879bb32f06032a78dccfb68c0d64a3cefcc39c8179b3ccbdaceb93e243a19f2/ergoplatform/oracle-core
+
+
+[01/05/2022 6:00 AM] TCAPLLC#0897
+Sounds good!
+
+{Reactions}
+ergo_orange 
+
+[01/05/2022 7:12 AM] abchris#8522
+The oracle core alone, sure, but it needs access to a node as well. Pretty sure a node will run smoothly on an 8GB pi, and I think some have had success on a 4GB pi with some tweaks.
+
+
+[01/05/2022 7:18 AM] abchris#8522
+Because they aren't needed, yet.
+The oracles contributing to a pool are determined upon pool creation, so you can't just join a pool that is already running. Anyone is free to create a pool and distribute tokens to whomever they want to contribute as individual oracles, but if there's no need for the pool, no one is going to fund it.
+As dapps flourish, the need for additional oracle pools will increase
+
+
+[01/05/2022 7:23 AM] abchris#8522
+I've been pondering the idea of some kind of platform to bring together people wanting to run oracle cores and others wanting to spin up pools and looking for oracle operators. That and some other things related to oracle pools (lowering technical barrier, implementing missing features etc.). Need to put some more thoughts on paper but might post something in #🤝│i-need-a-team  for the next hackathon.
+
+{Reactions}
+👍 (5) ergo_black (2) ergo_orange ergo_white 
+
+[01/05/2022 8:12 AM] nox071218#1778
+I'll have to dig in but I was thinking I'd set my nose up on an older computer and connect via the pi to do oracle things.. have to dig in like I said
+
+
+[01/05/2022 8:14 AM] abchris#8522
+That should work fine
+
+
+[01/09/2022 2:43 PM] Luivatra#9076
+Agree, but just so you know what is decided upon pool creation is how many oracles there should be in the pool as a minimum and how many oracle tokens are minted (max possible oracles). Actual onboarding of oracles into the pool happens later
+
+{Reactions}
+👍 
+
+[02/17/2022 10:03 AM] NoahErgo#4349
+Thoughts on this?
+
+https://youtu.be/cmrWrFtL0e8
+
+{Embed}
+Tellor
+https://www.youtube.com/watch?v=cmrWrFtL0e8
+Tellor - An Animated Explainer
+Here is an animation that depicts the basics of how Tellor works.  Enjoy!
+https://images-ext-2.discordapp.net/external/HIwhnkZMbV4r13JgNzu-7GCM4zwRY9K61tWqGJV5hR8/https/i.ytimg.com/vi/cmrWrFtL0e8/maxresdefault.jpg
+
+
+[02/17/2022 10:05 AM] NoahErgo#4349
+https://medium.com/tellor/subjectivity-in-oracles-f7c3c06f69f1
+
+{Embed}
+https://medium.com/tellor/subjectivity-in-oracles-f7c3c06f69f1
+Subjectivity in Oracles
+Subjectivity, Ambiguity, and Decentralized Oracles
+https://images-ext-1.discordapp.net/external/3uIrZ8VZp2IXESFXSvYAs4Voa3KIVWtlvlLN9nsmnjM/https/miro.medium.com/max/1200/1%2AZvuanyUnOJ3-LwMOtt6udA.png
+
+
+[03/02/2022 1:37 PM] Krasavice Blasen#4574
+Hello,
+
+I am trying to setup a erg-usd pool to learn some more about the details of oracles. Ive bootstrapped multiple times but the create new epoch tx keeps failing. 
+Does anyone have any suggestions as to what could be going wrong? 
+Ive set the pool up such that I am the only datapoint provider.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/948574693806460938/unknown.png
+
+
+[04/02/2022 5:39 PM] glasgowm#9381
+maybe have more luck in #deleted-channel
+
+
+[04/02/2022 7:49 PM] abchris#8522
+Haven’t gotten around deploying one yet. Don’t think anyone tried on the team either.
+
+
+[04/02/2022 8:06 PM] glasgowm#9381
+oh. The error is pretty telling now that I look at it tho
+
+
+[04/04/2022 7:52 PM] ⭐Fanta⭐#0315
+Hello
+
+
+[04/04/2022 7:52 PM] ⭐Fanta⭐#0315
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/960612738655219842/unknown.png
+
+
+[04/04/2022 7:52 PM] ⭐Fanta⭐#0315
+Can someone help me with this error?
+
+
+[04/05/2022 6:40 AM] greenhat#6562
+Might be node wallet scan still running.
+
+
+[04/05/2022 1:12 PM] ⭐Fanta⭐#0315
+no, the scan is already done
+
+
+[04/05/2022 1:52 PM] ⭐Fanta⭐#0315
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/767796131634872320/960884515398631424/unknown.png
+
+
+[04/06/2022 10:10 AM] mijbil#7005
+I've been reading about oracle-pools for an editorial post. Super interesting stuff. I also found this recent Rekt article: https://rekt.news/inverse-finance-rekt/
+
+Am I right in thinking that Ergo Oracle-Pools would have prevented this attack as it would have been much more difficult for the attacker to inflate data from multiple oracles?
+
+Is this a 'good' example of the security issues behind point-to-point oracles and the need for oracle-pools?
+
+{Embed}
+https://rekt.news/inverse-finance-rekt/
+Rekt - Inverse Finance - REKT
+DeFi / Crypto - Inverse Finance got flipped for ~$15M. A professionally executed hack allowed an anonymous actor to manipulate the price of INV and help themself to an exclusive deal from the ETH based lending protocol.
+https://images-ext-2.discordapp.net/external/zGXQmfAHaXIcMmzEydgZZNrzaxR2lzRqFTC6Z8VCb4E/https/raw.githubusercontent.com/RektHQ/Assets/main/images/2022/04/inverse-header.png
+
+
+[04/13/2022 4:22 AM] xxxcuxxx#7692
+I am facing same error log, did yours already fixed??!
+
+
+[04/13/2022 6:45 AM] ⭐Fanta⭐#0315
+No, I gave up on it for now
+
+
+[04/13/2022 7:26 AM] xxxcuxxx#7692
+🤣🤣
+
+
+[04/15/2022 5:54 AM] xxxcuxxx#7692
+Hi bro do you have any progress about this error? Now I'm on this stage and found same error like yours.
+
+
+==============================================================
+Exported 447 message(s)
+==============================================================

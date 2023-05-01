@@ -1,0 +1,1230 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Infra 〙☰ / ergo-ai
+==============================================================
+
+[04/11/2023 2:00 PM] drehaf#0090
+hi
+
+
+[04/11/2023 2:00 PM] qx()#0000
+oo works
+
+
+[04/11/2023 2:00 PM] drehaf#0090
+ep erg
+
+
+[04/11/2023 2:00 PM] drehaf#0090
+/ep erg
+
+
+[04/11/2023 2:00 PM] glasgowm#9381
+Discord bots work on Tg but not the other way :(
+
+
+[04/11/2023 2:01 PM] drehaf#0090
+i have this as a discord bot too
+
+
+[04/11/2023 2:02 PM] drehaf#0090
+i mean, it's all a web api and the bots just pass stuff to and from it
+
+
+[04/11/2023 2:02 PM] drehaf#0090
+there are limitations of that but also advantages as it's easy to have something else use it
+
+
+[04/11/2023 2:32 PM] Kai#0000
+hello
+
+
+[04/11/2023 2:32 PM] wombo22#5461
+hello
+
+
+[04/11/2023 2:32 PM] Kai#0000
+dreambot dream
+
+
+[04/12/2023 11:18 AM] glasgowm#0000
+Hm, I switched my chatbot to gpt-4 and most of the bugs vanished. Will tidy up the ErgoLLM directory and write a tutorial on how to run that part locally. 
+
+Not sure what the best option for the web is. Let people enter their API keys? Charge? Pitch for funding via an ErgoRaffle as marketing? Would be great to have a free one open to all, but people would spam it and would quickly rack up thousands of $
+
+
+[04/12/2023 2:17 PM] qx()#0000
+(re @glasgowm : *Hm, I switched my chatbot to gpt-4 and most of...*)
+        
+        bot here could ask for API key and bind it to account yeah, thats a pretty good idea. I was going to purchase gpt4 for work anyway for a faculty member. how much do you think the bill would be if people used it for accessing help docs etc?
+
+
+[04/12/2023 2:20 PM] glasgowm#0000
+Solana guy said he was stopping his as it hit $800, and his was only trained on 1 repo I believe. So lots probably 😛
+
+Not sure if that was GPT4 or not though. 
+
+Suppose another option is waiting for the open source stuff to mature a bit. 
+
+https://news.ycombinator.com/item?id=35512338
+
+{Embed}
+LewisDavidson
+https://news.ycombinator.com/item?id=35512338
+Ask HN: Open source LLM for commercial use?
+Working on a ML project and looking for an open source LLM that can be used in a commercial environment. As far as I'm aware, products cannot be built on LLAMA.I don't want to use GPT since the project will be using personal information to train/fine tune the models.
+Hacker News
+
+
+[04/12/2023 2:24 PM] qx()#0000
+(re @glasgowm : *Solana guy said he was stopping his as it hit ...*)
+        
+        u don't think 3.5-turbo can ingest and respond well enough?
+
+
+[04/12/2023 2:27 PM] glasgowm#0000
+even 4 is still quite error prone. Maybe not trained well enough yet though. turbo would probably be fine but this chatbot in particular doesnt seem to like anything but gpt4
+
+
+[04/12/2023 2:27 PM] qx()#0000
+which CB are you using?
+
+
+[04/12/2023 2:27 PM] glasgowm#0000
+CB?
+
+
+[04/12/2023 2:27 PM] qx()#0000
+chat bot
+
+
+[04/12/2023 2:28 PM] glasgowm#0000
+https://github.com/context-labs/toly-gpt which is based on https://github.com/hwchase17/chat-langchain
+
+Their webUI has the same bug though it seems, so probably not my setup.
+
+{Embed}
+https://github.com/context-labs/toly-gpt
+GitHub - context-labs/toly-gpt: A chatbot trained on the Solana val...
+A chatbot trained on the Solana validator codebase. - GitHub - context-labs/toly-gpt: A chatbot trained on the Solana validator codebase.
+https://images-ext-2.discordapp.net/external/Z3xxFHOxrlryH7cd4QeJVHV99GaqQizfN3k5kYo4LsY/https/opengraph.githubassets.com/71a59feb91019e710ff9a16cd6397049d2c86cf1997a0b24a6dab1583ae7631e/context-labs/toly-gpt
+
+{Embed}
+https://github.com/hwchase17/chat-langchain
+GitHub - hwchase17/chat-langchain
+Contribute to hwchase17/chat-langchain development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/yyF3QB1D754AdiRsmPaLZKh_3pfcQBW9LRWH7SAkU4M/https/opengraph.githubassets.com/20b2a30f851cfe870506bd9b25d1c08eb5d3163c89a3113feb8c45963808343d/hwchase17/chat-langchain
+
+
+[04/12/2023 2:30 PM] glasgowm#0000
+There’s also https://github.com/arc53/DocsGPT but it has it’s own issues (code formatting ugly, links aren’t hyperlinked, etc). 
+
+Maybe need to wait for a more robust option to become available, unless it’s out there already and I’ve missed it.
+
+{Embed}
+https://github.com/arc53/DocsGPT
+GitHub - arc53/DocsGPT: GPT-powered chat for documentation search &...
+GPT-powered chat for documentation search & assistance. - GitHub - arc53/DocsGPT: GPT-powered chat for documentation search & assistance.
+https://images-ext-1.discordapp.net/external/UX-ZSf4lInOHAptI41FKta_hqxPjzY1ZL5Ay2V-sxos/https/opengraph.githubassets.com/da87b29309155d21e824dee86d3f6501efa194015a5377eab0ebfd357bbe5ba1/arc53/DocsGPT
+
+
+[04/12/2023 2:46 PM] glasgowm#0000
+Damn had no idea GitHub had a Trending section
+
+https://github.com/trending?since=weekly
+
+{Embed}
+https://github.com/trending?since=weekly
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+https://images-ext-1.discordapp.net/external/GknnCjizMYMXTf7AxtPGiAkqk1cGv6dwIUxYVc4g3cA/https/github.githubassets.com/images/modules/open_graph/github-logo.png
+
+
+[04/12/2023 3:46 PM] wombo22#5461
+dreambot hello
+
+
+[04/12/2023 5:18 PM] qx()#0000
+"However, a recent report from Semafor suggests his feud with OpenAI is more personal. In 2018, Musk reportedly told Sam Altman, one his fellow co-founders at OpenAI, the lab was falling too far behind Google. Musk then suggested that he should be the one to run the firm, a proposal Altman and OpenAI’s other founders rejected."
+
+
+[04/12/2023 5:18 PM] qx()#0000
+openai was that close to being a shit show
+
+
+[04/12/2023 9:46 PM] qx()#0000
+comedy gold....i guess this chatai sms service isn't ready quite yet.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095812131535995032/file_109179.jpg
+
+
+[04/12/2023 10:57 PM] hq3r#0000
+dreambot comeback foe
+
+
+[04/12/2023 10:58 PM] Pulsarz#0000
+how do we let dreambot create a variant of an image again?
+
+
+[04/12/2023 10:58 PM] Pulsarz#0000
+post the image and tag dreambot with a prompt?
+
+
+[04/12/2023 10:58 PM] hq3r#0000
+(re @Pulsarzz : *how do we let dreambot create a variant of an ...*)
+        
+        Download image
+
+
+[04/12/2023 10:58 PM] hq3r#0000
+Attach it
+
+
+[04/12/2023 10:58 PM] Pulsarz#0000
+dreambot create a better variant of this
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095830313663463485/file_109196.jpg
+
+
+[04/12/2023 10:58 PM] hq3r#0000
+And give it a prompt
+
+
+[04/12/2023 10:58 PM] Pulsarz#0000
+hrm
+
+
+[04/12/2023 10:58 PM] hq3r#0000
+Without dreambot lol
+
+
+[04/12/2023 10:58 PM] Pulsarz#0000
+lol
+
+
+[04/12/2023 10:58 PM] hq3r#0000
+Wait, for it
+
+
+[04/12/2023 10:59 PM] hq3r#0000
+Old warrior detailed face with scars, full hd
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095830626764079134/file_109197.jpg
+
+
+[04/12/2023 11:00 PM] Pulsarz#0000
+(re @ep_dream_bot : *"dreambot create a better variant of this" (Se...*)
+        
+        wait that's actually good
+
+
+[04/12/2023 11:01 PM] hq3r#0000
+@dadreboi  bot is lazy af now
+
+
+[04/12/2023 11:02 PM] hq3r#0000
+Creat variation of this , Egyptian goddess in desert playing with cats
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095831256496877652/file_109202.jpg
+
+
+[04/12/2023 11:03 PM] Pulsarz#0000
+variation of this with Ergo logo on it
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095831624991658125/file_109196.jpg
+
+
+[04/12/2023 11:03 PM] hq3r#0000
+Remove variation
+
+
+[04/12/2023 11:04 PM] hq3r#0000
+What it does is "it's fetches the shapes" and coloring
+
+
+[04/12/2023 11:04 PM] Pulsarz#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095831787898413117/file_108822.webp
+
+
+[04/12/2023 11:04 PM] hq3r#0000
+Funny miner character highly detailed
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095831861432959167/file_109202.jpg
+
+
+[04/12/2023 11:04 PM] Pulsarz#0000
+ergo pump moonboy
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095831877727817768/file_109196.jpg
+
+
+[04/12/2023 11:05 PM] hq3r#0000
+Funny miner detailed, 35mm Unreal Engine, Cinematic, Color Grading,portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Unreal Engine, Cinematic," (Seed: 7469)" (Seed: 1336)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095831999006121994/file_109202.jpg
+
+
+[04/12/2023 11:05 PM] hq3r#0000
+(re @ep_dream_bot : *"Funny miner character highly detailed" (Seed:...*)
+        
+        That's hot!
+
+
+[04/12/2023 11:05 PM] Pulsarz#0000
+wtf is that
+
+
+[04/12/2023 11:05 PM] glasgowm#0000
+Pump machine
+
+
+[04/12/2023 11:05 PM] Pulsarz#0000
+literally a pump boy
+
+
+[04/12/2023 11:05 PM] glasgowm#0000
+The key
+
+
+[04/12/2023 11:06 PM] hq3r#0000
+(re @ep_dream_bot : *"Funny miner detailed, 35mm Unreal Engine, Cin...*)
+        
+        We can use these in inforgraphics
+
+
+[04/12/2023 11:06 PM] Pulsarz#0000
+(re @ep_dream_bot : *"Funny miner detailed, 35mm Unreal Engine, Cin...*)
+        
+        see, just launch a new nft collection with variations of Foe's
+
+
+[04/12/2023 11:06 PM] Pulsarz#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095832341588480100/file_109192.webm
+
+
+[04/12/2023 11:07 PM] hq3r#0000
+(re @Pulsarzz : *see, just launch a new nft collection with var...*)
+        
+        Never , unethical stuff doesn't fullfill my satisfaction
+
+
+[04/12/2023 11:07 PM] Pulsarz#0000
+it was a joke, but im sure people are actually doing this stuff now on other chains lmao
+
+
+[04/12/2023 11:07 PM] Pulsarz#0000
+ah yes much better
+
+
+[04/12/2023 11:08 PM] hq3r#0000
+Ergo pump moonboi "detailed, 35mm Unreal Engine, Cinematic, Color Grading,portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Unreal Engine, Cinematic," (Seed: 7469)" (Seed: 1336)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095832730345951362/file_109202.jpg
+
+
+[04/12/2023 11:08 PM] Pulsarz#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095832856737087629/file_108845.webp
+
+
+[04/12/2023 11:08 PM] Pulsarz#0000
+large full moon, blue wolf
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095832953378050169/file_109196.jpg
+
+
+[04/12/2023 11:09 PM] hq3r#0000
+It will be red lol
+
+
+[04/12/2023 11:09 PM] hq3r#0000
+Let's see
+
+
+[04/12/2023 11:09 PM] Pulsarz#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095833054532087970/file_108822.webp
+
+
+[04/12/2023 11:09 PM] Pulsarz#0000
+thats.. not bad
+
+
+[04/12/2023 11:09 PM] Pulsarz#0000
+hm
+
+
+[04/12/2023 11:09 PM] Pulsarz#0000
+looks like something my kid will draw in a few years tho
+
+
+[04/12/2023 11:10 PM] hq3r#0000
+analog style, "Pirate's Bay Sunset," (ship, palm tree), (serene, nostalgic), (dusk), (digital illustration), (Minimalism), (orange, teal), (rim lighting), (in the style of Japanese ukiyo-e woodblock prints), (Contemporary), (Layered), (isometric projection), 8K colors cinematic light 16k real 3d""
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095833301857607690/file_109202.jpg
+
+
+[04/12/2023 11:11 PM] hq3r#0000
+Second variation mostly suck btw , try one more
+
+
+[04/12/2023 11:12 PM] hq3r#0000
+dreambot lushill style, A CREATURE THAT IS HALF A Bull AND HALF A Bear,  STYLE OF leonardo da vinci, HDR
+
+
+[04/12/2023 11:12 PM] Pulsarz#0000
+crypto pump, number go up, up only, green fat candles
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095833838179074118/file_109196.jpg
+
+
+[04/12/2023 11:13 PM] hq3r#0000
+dreambot a wisent head colorfull fridge magnet, centered, symmetry, painted, intricate, volumetric lighting, beautiful, rich deep colors masterpiece, sharp focus, ultra detailed, in the style of dan mumford and marc simonetti, astrophotography
+
+
+[04/12/2023 11:15 PM] hq3r#0000
+Attractive  young female miner  detailed, 35mm Unreal Engine, Cinematic, Color Grading,portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Unreal Engine, Cinematic," (Seed: 7469)" (Seed: 1336)" (Seed: 229)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095834485259509800/file_109202.jpg
+
+
+[04/12/2023 11:15 PM] Pulsarz#0000
+kraken
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095834623742853242/file_109196.jpg
+
+
+[04/12/2023 11:16 PM] hq3r#0000
+It has improved alot on faces too
+
+
+[04/12/2023 11:16 PM] Pulsarz#0000
+dreambot crypto pump machine, big green candles, up only
+
+
+[04/12/2023 11:18 PM] hq3r#0000
+"Funny miner detailed, 35mm Unreal Engine, Cinematic, Color Grading,portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Unreal Engine, Cinematic," (Seed: 7469)" (Seed: 1336)" (Seed: 229)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095835243581284452/file_109206.jpg
+
+
+[04/12/2023 11:19 PM] hq3r#0000
+"Funny miner detailed, 35mm Unreal Engine, Cinematic, Color Grading,portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Unreal Engine, Cinematic," (Seed: 7469)" (Seed: 1336)" (Seed: 229)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095835569570992248/file_109202.jpg
+
+
+[04/12/2023 11:20 PM] hq3r#0000
+Funny miner detailed, 35mm Unreal Engine, Cinematic, Color Grading,portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Unreal Engine, Cinematic
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095835894944124928/file_109208.jpg
+
+
+[04/12/2023 11:20 PM] hq3r#0000
+Funny miner detailed, 35mm Unreal Engine, Cinematic, Color Grading,portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Unreal Engine, Cinematic
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095835940938858517/file_109209.jpg
+
+
+[04/12/2023 11:21 PM] hq3r#0000
+Old male  miner detailed, 35mm Unreal Engine, Cinematic, Color Grading,portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Unreal Engine, Cinematic
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095836183570948146/file_109208.jpg
+
+
+[04/12/2023 11:22 PM] hq3r#0000
+Noice
+
+
+[04/12/2023 11:24 PM] hq3r#0000
+I like the color grading but I like the composition of other one hmmm
+
+
+[04/12/2023 11:25 PM] hq3r#0000
+Medusa with gold detailed dress  detailed, 35mm Unreal Engine, Cinematic, Color Grading,portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Unreal Engine, Cinematic
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095837019197952100/file_109208.jpg
+
+
+[04/12/2023 11:26 PM] hq3r#0000
+Medusa with gold detailed dress  detailed, 35mm Unreal Engine, Cinematic, Color Grading,portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Unreal Engine, Cinematic
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095837345632227378/file_109211.jpg
+
+
+[04/12/2023 11:26 PM] hq3r#0000
+Master piece incoming
+
+
+[04/12/2023 11:27 PM] hq3r#0000
+Preety decent
+
+
+[04/12/2023 11:27 PM] hq3r#0000
+Medusa , white hair , curly hair , big eyes ,clevage , gold detailed dress  detailed, 35mm Unreal Engine, Cinematic, Color Grading,portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Unreal Engine, Cinematic
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1095837677196165220/file_109211.jpg
+
+
+[04/12/2023 11:28 PM] hq3r#0000
+Screw it lol
+
+
+[04/12/2023 11:50 PM] qx()#0000
+Lol
+
+
+[04/13/2023 1:09 AM] glasgowm#0000
+*Emergent autonomous scientific research capabilities of large language models*
+https://arxiv.org/pdf/2304.05332.pdf
+
+
+[04/13/2023 2:52 PM] Paul1938#0000
+dreambot Medusa , white curly snakes, big eyes ,clevage , gold detailed dress  detailed, 35mm Unreal Engine, Cinematic, Color Grading,portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Unreal Engine, Cinematic
+
+
+[04/13/2023 9:35 PM] gianpaj#0000
+dreambot a group of people sitting at a table with laptops, trending on pexels, featured on pexels, trending on unsplash, pexels contest winner, endless collaboration with ai, social encounters, top selection on unsplash, pexels, high quality fantasy stock photo, group intelligence, award - winning brand agency, featured on unsplash, interconnections
+
+
+[04/13/2023 9:45 PM] gianpaj#0000
+Dreambot Mortal Kombat Barbie 
+[Superhero]
+
+
+[04/13/2023 9:45 PM] gianpaj#0000
+dreambot Mortal Kombat Barbie 
+[Superhero]
+
+
+[04/13/2023 9:55 PM] qx()#0000
+Hahahaha
+
+
+[04/15/2023 10:05 AM] cardano_tc#0000
+dreambot bravest and cutest cat [superhero with cape], trending on unsplash, line art
+
+
+[04/15/2023 10:08 AM] Paul1938#0000
+dreambot lying in a bed covered with bed bugs, rashes, happy, blissful, infection, ill, vertigo, photography
+
+
+[04/15/2023 10:14 AM] Paul1938#0000
+dreambot depressed scraggly grizzly bear, malnourished, portrait, photography
+
+
+[04/15/2023 10:16 AM] Paul1938#0000
+dreambot rough unhealthy grizzly bear, malnourished, patchy hair, portrait, photography
+
+
+[04/15/2023 10:18 AM] Paul1938#0000
+dreambot big male grizzly bear standing up, large genitals, photography
+
+
+[04/15/2023 10:19 AM] Paul1938#0000
+dreambot rough grizzly bear, malnourished, meth addiction, rough hair, portrait, photography
+
+
+[04/15/2023 10:21 AM] Paul1938#0000
+dreambot show bobs and vagene
+
+
+[04/15/2023 10:21 AM] Paul1938#0000
+dreambot rough grizzly bear, unhealthy, rough hair, portrait, photography
+
+
+[04/15/2023 10:23 AM] Paul1938#0000
+dreambot grizzly bear with eight legs, portrait, photography
+
+
+[04/15/2023 2:26 PM] cardano_tc#0000
+Dreambot cat drinking milk out of a ceramic bowl; in the garden; super cute; high quality, outperforms quality of unsplash
+
+
+[04/15/2023 2:26 PM] cardano_tc#0000
+*dreambot cat drinking milk out of a ceramic bowl; in the garden; super cute; high quality, outperforms quality of unsplash*
+
+
+[04/15/2023 2:27 PM] cardano_tc#0000
+dreambot cat drinking milk out of a ceramic bowl; in the garden; super cute; high quality, outperforms quality of unsplash; line art
+
+
+[04/15/2023 6:36 PM] Paul1938#0000
+dreambot milk blob drinking a cat sitting in a ceramic bowl; in the garden; super cute; high quality, outperforms quality of unsplash; line art
+
+
+[04/15/2023 6:37 PM] sl_antonov#0000
+dreambot pump no dump
+
+
+[04/15/2023 6:39 PM] sl_antonov#0000
+dreambot ladder to the moon, shishkin masterpiece
+
+
+[04/15/2023 6:41 PM] sl_antonov#0000
+dreambot infinite ladder to the moon, shishkin masterpiece
+
+
+[04/15/2023 6:41 PM] hq3r#0000
+(re @ep_dream_bot : *"dreambot ladder to the moon, shishkin masterp...*)
+        
+        This is nice
+
+
+[04/15/2023 6:41 PM] hq3r#0000
+But why 2 moons?
+
+
+[04/15/2023 6:44 PM] sl_antonov#0000
+dreambot ergo coin, shishkin masterpiece
+
+
+[04/15/2023 6:44 PM] sl_antonov#0000
+(re @HQ3rr : *But why 2 moons?*)
+        
+        Didnt you ever see the second one?
+
+
+[04/15/2023 6:45 PM] sl_antonov#0000
+dreambot ergo space era coin with stars and astronauts, shishkin masterpiece
+
+
+[04/15/2023 6:47 PM] sl_antonov#0000
+dreambot space era coin with stars and handshaking astronauts, shishkin masterpiece
+
+
+[04/15/2023 6:48 PM] sl_antonov#0000
+dreambot space era electronic coin with stars and handshaking astronauts, shishkin masterpiece
+
+
+[04/15/2023 6:48 PM] hq3r#0000
+dreambot anon Dev with black hoddie in dark pool full of monitor screens and smoke bombs "detailed, 35mm Unreal Engine, Cinematic, Color Grading,portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Unreal Engine, Cinematic," (Seed: 7469)" (Seed: 1336)
+
+
+[04/15/2023 6:49 PM] hq3r#0000
+Messed up with "screens" part
+
+
+[04/15/2023 6:50 PM] hq3r#0000
+Second variations are always shitty
+
+
+[04/15/2023 6:50 PM] sl_antonov#0000
+dreambot operational amplifier scheme
+
+
+[04/15/2023 6:53 PM] sl_antonov#0000
+dreambot RC circuit
+
+
+[04/15/2023 6:54 PM] sl_antonov#0000
+dreambot RC circuit schematics
+
+
+[04/15/2023 6:56 PM] sl_antonov#0000
+dreambot dream by shishkin
+
+
+[04/15/2023 6:57 PM] sl_antonov#0000
+dreambot very distant future by shishkin
+
+
+[04/15/2023 7:08 PM] Paul1938#0000
+hehe
+
+
+[04/15/2023 7:31 PM] qx()#0000
+Is dalle still up?
+
+
+[04/15/2023 7:31 PM] qx()#0000
+I forgot the command
+
+
+[04/15/2023 7:32 PM] Paul1938#0000
+(re @dadreboi : *I forgot the command*)
+        
+        dreambot mice eating cheese on the moon
+
+
+[04/15/2023 7:33 PM] Paul1938#0000
+(re @Paul1938 : */ep openai explain and comfort rlabs on how it...*)
+        
+        Rlabs ♥️
+
+
+[04/15/2023 7:33 PM] qx()#0000
+Shit i forgot the command
+
+
+[04/15/2023 7:34 PM] Paul1938#0000
+dreambot sentient curry monster
+
+
+[04/15/2023 7:36 PM] qx()#0000
+Lol
+
+
+[04/15/2023 7:37 PM] qx()#0000
+Hahaha
+
+
+[04/15/2023 7:37 PM] Paul1938#0000
+lol
+
+
+[04/15/2023 7:37 PM] qx()#0000
+If u wanna try dalle
+
+
+[04/15/2023 7:38 PM] qx()#0000
+Do /ep oaide PROMPT
+
+
+[04/15/2023 7:38 PM] qx()#0000
+It’s 2c per pic so don’t go stupid on me
+
+
+[04/15/2023 7:38 PM] Paul1938#0000
+easy, il try think of something half decent
+
+
+[04/15/2023 7:39 PM] Paul1938#0000
+cheers
+
+
+[04/15/2023 7:43 PM] Paul1938#0000
+dreambot Joe Biden as a cyborg with a evil grin standing in front of mass surveillance cameras with a magazine of vaccines and a tranquilizer gun tearing up the constitution
+
+
+[04/15/2023 7:45 PM] qx()#0000
+Ooo dalle doesn’t like u messing with the president! :)
+
+
+[04/15/2023 7:46 PM] Paul1938#0000
+ow shit
+
+
+[04/15/2023 7:48 PM] Paul1938#0000
+hope it didn't still charge you there, i kinda wanted to see that one, ironically ofc lol
+
+
+[04/15/2023 7:55 PM] qx()#0000
+No it’s fine lol
+
+
+[04/15/2023 8:28 PM] hq3r#0000
+(re @ergoportbot : *https://my.ergoport.dev/graphs/7-18-45.jpg 
+
+P...*)
+        
+        What are u trying to do bot?
+
+{Embed}
+https://my.ergoport.dev/graphs/7-18-45.jpg
+https://images-ext-1.discordapp.net/external/oayYoNyw3DR8t3dF4w4xhLdO9a7xYVlv7uhNMpbplVU/https/my.ergoport.dev/graphs/7-18-45.jpg
+
+
+[04/16/2023 11:13 AM] hq3r#0000
+Bot is gone wild!
+
+
+[04/16/2023 12:14 PM] Paul1938#0000
+dreambot creation of adam with donald trump as man by michelangelo
+
+
+[04/16/2023 5:12 PM] Paul1938#0000
+dreambot a piece of cheese wearing sunglasses
+
+
+[04/16/2023 5:16 PM] Paul1938#0000
+lol
+
+
+[04/16/2023 5:17 PM] Paul1938#0000
+dreambot homeless man looking swarve
+
+
+[04/16/2023 5:18 PM] Paul1938#0000
+dreambot homeless man sitting on the sidewalk wearing dirty designer versace cloths and sunglasses, photography, urban, slums
+
+
+[04/16/2023 5:19 PM] Paul1938#0000
+dreambot bobs and vagene
+
+
+[04/16/2023 5:22 PM] Paul1938#0000
+dreambot homeless man sitting on the sidewalk wearing dirty designer versace cloths and sunglasses, photography, urban, slums
+
+
+[04/16/2023 5:23 PM] Paul1938#0000
+dreambot bill gates vaccine propaganda poster
+
+
+[04/16/2023 5:26 PM] Paul1938#0000
+dreambot sexy innocent anime girl being promiscuous with cthulhu
+
+
+[04/16/2023 5:28 PM] Paul1938#0000
+dreambot bears having a party drinking beer with the bears
+
+
+[04/16/2023 5:31 PM] hq3r#0000
+(re @ep_dream_bot : *" bobs and vagene" (Seed: 3785)*)
+        
+        @dadreboi  what's that snake thingy?
+
+
+[04/16/2023 5:31 PM] Paul1938#0000
+dreambot bears in a tropical paradise drinking pina coladas
+
+
+[04/16/2023 5:32 PM] Paul1938#0000
+(re @HQ3rr : *@dadreboi  what's that snake thingy?*)
+        
+        looks like some kinda growth, tumor maybe
+
+
+[04/16/2023 5:34 PM] Paul1938#0000
+dreambot donald trump in the style of Michelangelo
+
+
+[04/16/2023 5:35 PM] Paul1938#0000
+dreambot the creation of adam in the style of Michelangelo
+
+
+[04/16/2023 5:36 PM] Paul1938#0000
+dreambot a red rocket blasting off
+
+
+[04/16/2023 5:38 PM] Paul1938#0000
+dreambot a red rocket protruding out into the unknown
+
+
+[04/16/2023 5:39 PM] Paul1938#0000
+dreambot optical illusion
+
+
+[04/16/2023 5:41 PM] qx()#0000
+children...
+
+
+[04/16/2023 5:43 PM] Paul1938#0000
+dreambot new found ruins of a long lost ancient civilization in the amazon jungle, aerial photography
+
+
+[04/16/2023 5:46 PM] Paul1938#0000
+dreambot Labrador astronaut space pioneer in a big red rocket
+
+
+[04/16/2023 5:48 PM] Paul1938#0000
+dreambot a waterpark full of pee
+
+
+[04/16/2023 5:49 PM] Paul1938#0000
+dreambot golden toilet throne fit for a king
+
+
+[04/16/2023 5:51 PM] Paul1938#0000
+(re @ep_dream_bot : *"dreambot golden toilet throne fit for a king"...*)
+        
+        one on the rights pre baller
+
+
+[04/16/2023 5:54 PM] Paul1938#0000
+dreambot golden toilet throne fit for a king, aerial photography
+
+
+[04/16/2023 5:56 PM] Paul1938#0000
+dreambot a group of priapulida on a dinner plate
+
+
+[04/16/2023 5:58 PM] Paul1938#0000
+dreambot a man covered in barnacles
+
+
+[04/17/2023 3:08 PM] Paul1938#0000
+dreambot big black erected penis
+
+
+[04/19/2023 1:20 PM] gianpaj#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1098221533144551434/file_110849.jpg
+
+
+[04/19/2023 1:21 PM] gianpaj#0000
+colored pencil drawing of a redheaded woman posing naked in a victorian style couch, wearing nothing but her perls, unsinkable boat, dim moody lighting
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1098221787977896016/file_110849.jpg
+
+
+[04/19/2023 1:36 PM] hq3r#0000
+(re @ep_dream_bot : *"colored pencil drawing of a redheaded woman p...*)
+        
+        Gorgeous
+
+
+[04/19/2023 3:57 PM] Paul1938#0000
+dreambot bear wearing a top hat and monocle
+
+
+[04/19/2023 3:58 PM] Paul1938#0000
+dreambot bear wearing a top hat and monocle, photograph
+
+
+[04/19/2023 9:48 PM] hq3r#0000
+dreamed style streetfighter96 backgrund hosky and chowchow fighting , war theme
+
+
+[04/19/2023 9:49 PM] hq3r#0000
+dreambot pixeled retro style poster  style streetfighter96 backgrund hosky and chowchow fighting , war theme
+
+
+[04/19/2023 9:50 PM] hq3r#0000
+dreambot pixeled retro style poster   streetfighter96 backgrund hosky and chowchow dog  fighting , war theme
+
+
+[04/19/2023 10:59 PM] glasgowm#0000
+https://app.humanornot.ai/
+
+Turing test officially squashed it seems
+
+
+[04/19/2023 11:54 PM] qx()#0000
+ooo trying now
+
+
+[04/19/2023 11:55 PM] qx()#0000
+qx 1, bot 0 🙂
+
+
+[04/19/2023 11:59 PM] qx()#0000
+just called a human a bot in game 2 because they were that bad...oops
+
+
+[04/20/2023 12:01 AM] qx()#0000
+well, for now the humans have all been worse at conversations
+
+
+[04/20/2023 9:14 PM] REROLABS#0000
+(re @Paul1938 : */ep openai explain and comfort rlabs on how it...*)
+        
+        Silence Bitcj
+
+
+[04/21/2023 1:11 PM] hq3r#0000
+(re @ergoportbot : *There is no specific information in this googl...*)
+        
+        Niceeeee
+
+
+[04/21/2023 3:03 PM] Paul1938#0000
+(re @Rlabs : *Silence Bitcj*)
+        
+        its ok we accept you rero
+
+
+[04/21/2023 3:06 PM] Paul1938#0000
+(re @ergoportbot : *I'm sorry, as an AI language model, I cannot g...*)
+        
+        Lol
+
+
+[04/21/2023 3:07 PM] Paul1938#0000
+hb don't share your seed phase with anyone except maybe a benefactor
+
+
+[04/24/2023 7:15 PM] openai_bot#6772
+**Post-Title: I think I did something pretty cool**
+Summary: The post is met with positive feedback and there is a request for a link to purchase merchandise. 
+Questions Unanswered: None
+Concerns: None 
+Link: https://reddit.com/r/ergonauts/comments/12tgzzh/i_think_i_did_something_pretty_cool/
+
+
+[04/24/2023 7:16 PM] openai_bot#6772
+**First Things First - Important information for first-time Ergonauts - @TortoDelivery by (Memory_Wooden)**
+
+Summary:
+This post by Memory_Wooden has been well-received, with positive comments expressing their appreciation for the information provided. 
+
+Questions Unanswered: None
+
+Concerns: None
+
+Link: https://reddit.com/r/ergonauts/comments/12prtva/first_things_first_important_information_for/
+
+
+[04/24/2023 7:16 PM] openai_bot#6772
+**In about 2 weeks Ergo will reach a height of 1 Mio blocks** - There is excitement amongst the community as Ergo is close to reaching a height of 1 Million blocks. No questions unanswered or concerns raised.
+
+
+[04/24/2023 7:16 PM] openai_bot#6772
+**Spectrum Finance: Raising Funds to Develop a New Design for the Ergo Explorer**
+Summary: Spectrum Finance is raising funds to develop a new design for the Ergo Explorer. They are offering a raffle as incentive and the minimum contribution is 1 ERG.
+
+Questions Unanswered: Can you do an official tweet from Spectrum’s account sharing this?
+
+Concerns: You are asking for $14.000 (at current ERG price, $140.000 at ERG ATH) for '2 months' of front-end work? Are you really serious?
+
+
+[04/24/2023 7:16 PM] openai_bot#6772
+**Post-Title**: Paideia DAO Toolkit - @TortoDelivery by (FathersFolly)
+
+<your-summary> The user is expressing admiration for the Paideia DAO Toolkit by TortoDelivery created by FathersFolly.
+
+<questions unanswered> None.
+
+<concerns> None. 
+
+<link> https://reddit.com/r/ergonauts/comments/12t81y7/paideia_dao_toolkit_tortodelivery/
+
+
+[04/24/2023 7:16 PM] openai_bot#6772
+- **Rosen Bridge AMA**
+Summary: The Rosen Bridge AMA discussed the limits and requirements for watchers and guards, the multisig threshold count, the bridge fee, the incentives for watchers and guards, token listing fees and the team size. Additionally, there is an ErgoPad Twitter Spaces AMA happening today.
+Questions Unanswered: How many days, weeks or months out till public usage? 
+Concerns: None.
+
+
+[04/24/2023 7:16 PM] openai_bot#6772
+**17:30 UTC - ErgoPad x RosenBridge x Paideia x BlockHeads AMA! 🥳** 
+- Summary: Rosen Bridge is finished and ready to launch, with an estimated timeline of 1.5-3 months. 
+- Unanswered Questions: What are enterprise level deals? 
+- Concerns: Twitter was deleted.
+
+
+[04/24/2023 7:16 PM] openai_bot#6772
+- **New Off-Chain Bots**
+Summary: The post is about new off-chain bots that allow users to trade and pay for execution fees in both ERG and SPF. It can help decentralize the DEX and also earn fees in the process.
+Questions Unanswered: How much can such a bot generate in fees on a daily, weekly, or monthly average? 
+Concerns: How can a bot run by a single anonymous host be trusted? What would prevent malicious execution bots from redirecting funds to their own wallet?
+
+
+[04/24/2023 7:16 PM] openai_bot#6772
+- **Found this somewhat old video where Dan talks about T1 listings, for those of you who keep on asking why not yet (fussednot)** /r/ergonauts/comments/12ux4qy/found_this_somewhat_old_video_where_dan_talks/
+
+Summary: Fussednot has found an old video by Dan discussing T1 listings, which some people have been asking about. There is a comparison made between Ergo and Bitcoin, with some noting that Ergo needs to carve its own path and gain access via grassroots efforts and mass adoption. Others suggest that the comparison is delusional. Ergo will become easy to buy if people are motivated. 
+
+Questions Unanswered: None
+
+Concerns: None
+
+
+[04/24/2023 7:17 PM] openai_bot#6772
+**What would Satoshi have thought of Ergo? by (fussednot)** /r/ergonauts/comments/12t9dxa/what_would_satoshi_have_thought_of_ergo/
+Summary: Discussion about the potential opinion of Satoshi Nakamoto on the Ergo blockchain, considering its decentralized nature, focus on resilience and financial contracts, privacy, openness and longevity. Questions arose about this person's opinion on Ergo and the potential of both Ergo and Bitcoin to coexist and thrive in the blockchain ecosystem. A basic ChatGPT answer was provided and another comment shared what Satoshi Nakamoto might say. 
+Questions Unanswered: None
+Concerns: None
+Link: https://www.reddit.com/r/ergonauts/comments/12t9dxa/what_would_satoshi_have_thought_of_ergo/
+
+
+[04/25/2023 5:03 PM] glasgowm#0000
+Nice
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1100451977474875412/file_112052.jpg
+
+
+[04/27/2023 8:27 AM] cardano_tc#0000
+(re @ergoportbot : *As an AI language model, I don't have personal...*)
+        
+        */ep* *openai give the most bullish case for the ergo cryptocurrency*
+
+
+[04/27/2023 4:35 PM] hq3r#0000
+Nordic mythology, finrill wolf
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1101169804137746532/file_112484.jpg
+
+
+[04/28/2023 8:31 AM] cardano_tc#0000
+dreambot cats on spaceships
+
+
+[05/01/2023 11:18 AM] glasgowm#9381
+https://github.com/xtekky/gpt4free
+
+{Embed}
+https://github.com/xtekky/gpt4free
+GitHub - xtekky/gpt4free: decentralising the Ai Industry, just some...
+decentralising the Ai Industry, just some language model api's... - GitHub - xtekky/gpt4free: decentralising the Ai Industry, just some language model api's...
+https://images-ext-2.discordapp.net/external/SBr0xh5ScJv0GyhnFZNJrq1mqQLy_zzpunGi_6K6JKU/https/repository-images.githubusercontent.com/620936652/d512c050-828e-429b-b2da-47a368ad8293
+
+
+[05/01/2023 11:20 AM] hq3r#0000
+(re  : *<Glasgow> https://github.com/xtekky/gpt4free*)
+        
+        ANY tutorial on how can i run it ?¿ :D
+
+
+[05/01/2023 11:23 AM] glasgowm#9381
+instructions are on the git
+
+
+[05/01/2023 12:42 PM] hq3r#0000
+2023-05-01 13:27:20.938 Uncaught app exception
+Traceback (most recent call last):
+  File "C:\Users\h\anaconda3\envs\chatgpt4\lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 565, in _run_script
+    exec(code, module._dict_)
+  File "C:\Users\h\Desktop\bots\streamlit_app.py", line 7, in <module>
+    from gpt4free import you
+ImportError: cannot import name 'you' from 'gpt4free' (unknown location)
+2023-05-01 13:27:22.743 Uncaught app exception
+Traceback (most recent call last):
+  File "C:\Users\h\anaconda3\envs\chatgpt4\lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 565, in _run_script
+    exec(code, module._dict_)
+  File "C:\Users\h\Desktop\bots\streamlit_app.py", line 7, in <module>
+    from gpt4free import you
+ImportError: cannot import name 'you' from 'gpt4free' (unknown location)
+2023-05-01 13:27:23.083 Uncaught app exception
+Traceback (most recent call last):
+  File "C:\Users\h\anaconda3\envs\chatgpt4\lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 565, in _run_script
+    exec(code, module._dict_)
+  File "C:\Users\h\Desktop\bots\streamlit_app.py", line 7, in <module>
+    from gpt4free import you
+ImportError: cannot import name 'you' from 'gpt4free' (unknown location)
+
+
+[05/01/2023 1:14 PM] glasgowm#9381
+@openai_bot Why does Ergo use 'Coll' instead of Array?
+
+
+[05/01/2023 1:14 PM] openai_bot#6772
+According to the conversation, "Coll is used instead of Array to remind that its different internally from Scala" and "Coll[Byte] is ordered. Its like Array[Byte] of Scala". Essentially, the use of the term 'Coll' is a way to indicate that it is a collection type that has certain internal differences from the standard Array type in Scala. Coll is a type that is part of the Ergo Platform and is often used in the ErgoTree, which is a serialization of a script that runs on the Ergo blockchain. If you are interested in learning more about how 'Coll' is used in Ergo, you can check out the Ergo Platform repository on GitHub, specifically the ErgoTree module, which uses 'Coll' extensively in its code.
+
+
+[05/01/2023 1:16 PM] glasgowm#0000
+@openai_bot Why does Ergo use 'Coll' instead of Array?
+
+
+[05/01/2023 1:16 PM] openai_bot#6772
+According to scalahub#2618 on June 8th, 2021 at 5:59 PM, "Coll is used instead of Array to remind that its different internally from Scala." They also mentioned earlier that "Coll[Byte] is ordered. its like Array[Byte] of Scala."
+
+In Ergo, Collection (Coll) is the base trait for all collection-like data structures used in the ErgoScript language. As mentioned, it is used instead of the default Scala Array to signify that it is different internally from Scala. Coll is designed to simplify the creation and manipulation of complex data structures, especially those involving nested collections.
+
+You can find more information about the Coll trait in Ergo in the ErgoScript specification on GitHub, specifically in the Collection Types section: https://github.com/ergoplatform/ergoscript/blob/master/docs/ergoscript.pdf#page=37
+
+
+[05/01/2023 1:16 PM] glasgowm#9381
+Nice, works both ways. hf @hq3r ;)
+
+{Reactions}
+🔥 (2) 
+
+[05/01/2023 1:23 PM] qx()#0000
+dreambot are you still awake
+
+
+[05/01/2023 1:39 PM] aap_dream_bot#8081
+Dreaming for @drehaf - Queue Position: ``0`` - ``/dream prompt:a beautiful sunset height:512 width:512 guidance_scale:7.0 steps:30 sampler:ddim seed:4062897283``
+
+
+[05/01/2023 1:39 PM] aap_dream_bot#8081
+@drehaf
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1102575019864887376/4062897283.png
+
+{Embed}
+command
+``/dream prompt:a beautiful sunset height:512 width:512 guidance_scale:7.0 steps:30 sampler:ddim seed:4062897283``
+compute used
+``9.921`` seconds
+delete
+React with ❌ to delete your own generation
+drehaf#0090
+
+{Reactions}
+❌ 
+
+[05/01/2023 1:39 PM] drehaf#0090
+ok @glasgowm dreambot here as well
+
+
+[05/01/2023 1:39 PM] drehaf#0090
+just do /dream
+
+
+[05/01/2023 1:41 PM] aap_dream_bot#8081
+Dreaming for @drehaf - Queue Position: ``0`` - ``/dream prompt:simple pencil drawing of a face height:512 width:512 guidance_scale:7.0 steps:30 sampler:ddim seed:4246548448``
+
+
+[05/01/2023 1:42 PM] aap_dream_bot#8081
+@drehaf
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1095323693124689941/1102575686763421826/4246548448.png
+
+
+[05/01/2023 1:45 PM] drehaf#0090
+ok permissions locked down and all good, this is actually a different server so 2x 3090's
+
+
+[05/01/2023 1:46 PM] qx()#0000
+@dreambot prompt:test
+
+
+[05/01/2023 1:53 PM] drehaf#0090
+could bring dall-e over to this side as well
+
+
+[05/01/2023 4:11 PM] hq3r#0000
+@openai_bot list me all ergo foundation members and Little info about them
+
+
+[05/01/2023 4:12 PM] hq3r#0000
+I am supposed to do it like this? Haha
+
+
+[05/01/2023 4:13 PM] glasgowm#9381
+Yes, can take a min or two sometimes. Also better for technical questions, although it should be able to respond to that as there is info from the docs it can pull from.
+
+
+[05/01/2023 4:13 PM] hq3r#0000
+Great
+
+
+[05/01/2023 4:13 PM] drehaf#0090
+it has to light its pipe and sit back in a chair to think about the response...good things take time 🙂
+
+
+==============================================================
+Exported 234 message(s)
+==============================================================

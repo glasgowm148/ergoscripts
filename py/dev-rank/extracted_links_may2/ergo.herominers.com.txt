@@ -1,0 +1,6 @@
+https://ergo.herominers.com/?lang=es
+https://ergo.herominers.com/?lang=fr
+https://ergo.herominers.com/?wallet=YOUR_ERGO_WALLET_ADDRESS
+https://ergo.herominers.com
+https://ergo.herominers.com/api/stats_address?address=YOUR_ERGO_WALLET_ADDRESS
+https://ergo.herominers.com/

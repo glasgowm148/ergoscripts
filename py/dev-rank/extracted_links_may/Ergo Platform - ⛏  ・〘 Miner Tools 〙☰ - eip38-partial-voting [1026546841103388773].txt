@@ -1,0 +1,197 @@
+==============================================================
+Guild: Ergo Platform
+Channel: ⛏  ・〘 Miner Tools 〙☰ / eip38-partial-voting
+==============================================================
+
+[10/03/2022 6:33 PM] WilfordGrimley#0124
+***The Proposal:***
+This EIP proposes modifying how parameter identifiers are communicated in the extension section of block headers such that in addition to miners being able to vote for or against a change, they can vote partially in support of a change (for indicative voting). This will enable mining pools to pass along true governance power to their miners when combined with a method for miner voting within a pool (such as GetBlok's proof-of-vote)
+
+
+EDIT: A solution that does not require a hard fork has been discovered. https://discord.com/channels/668903786361651200/1026583798290317424
+
+
+[10/03/2022 8:52 PM] WilfordGrimley#0124
+***The Motivation:***
+This change will increase miner governance to give it parity with Ergo’s launch. When Ergo launched,
+it’s mining algorithm Autolykos did not support outsourcability, and as such each miner was forced to
+solo mine. Ergo’s governance model has was built with the same assumptions.
+With Autolykos 2, non-outsourcability was disabled such that miners could join traditional stratum pools. This changed the assumptions of Ergo’s governance model: a solo miner now has to compete with pooled miners for blocks (and therefor their right to vote).
+A miner could choose to join a stratum pool, but are dependent on the pool developers and their willingness and capability to support a miner’s vote. Furthermore, even if a pool holds an internal vote in some way, the pool in still limited by the protocol to be either for or against any given change.
+Regardless of a pool’s desire to abide it’s miner’s votes, it still must censor some of them.
+
+**This change will return governance to miners.**
+
+By enabling partial voting, mining pools that desire to give governance rights back to miners need only track their miner’s votes, and could submit them directly to the network. (e.g. 91.56% of the hashrate on GetBlok is in favor of EIP 39 when it mines a block. GetBlok’s submits a block header with that block with the value of 0.9156 in favour of the fork; WoolyPool mines the next block, 82% in favour, submitting a 0.82 value in favour of the fork; GetBlok mines the next block, this time their miners indicated 0.931 in favour of the change, etc, etc.)
+
+
+[10/03/2022 8:53 PM] WilfordGrimley#0124
+**During the hackathon I intend to:**
+-Formalize an EIP following the correct procedures
+-Work with mentors to determine the viability and methodology for actual implementation of this
+change
+-Create some actual pull request in the node that would be required to implement the change
+-Test on the test net
+-Rally support from miners and at least one pool for this change.
+-try to find at least 2 solutions that pools could implement to enable them to verify and accurately relay miner votes.
+
+
+[10/03/2022 8:53 PM] WilfordGrimley#0124
+**Viability Research**
+
+I intend to populate this top level post with information as research continues.
+
+Hardfork Solution Resources:
+https://github.com/ergoplatform/ergo/blob/15bd802aacd50dbe94d8ac9dec55a7fa9d2f148f/src/main/scala/org/ergoplatform/settings/VotingTargets.scala
+https://github.com/ergoplatform/ergo/blob/2eda574d45659ebb2fa1c09535f19ae541bc8681/src/main/scala/org/ergoplatform/settings/ErgoValidationSettingsUpdate.scala
+https://github.com/ergoplatform/ergo/blob/ba74e132212fe099736bf1d9df692c54b649a054/src/main/scala/org/ergoplatform/settings/ErgoValidationSettings.scala
+https://github.com/ergoplatform/ergo/blob/3e5b5c0281c8e66889a3d94c3a3dd797f5319125/src/main/scala/org/ergoplatform/tools/ValidationRulesPrinter.scala
+https://github.com/ergoplatform/ergo/blob/2eda574d45659ebb2fa1c09535f19ae541bc8681/src/main/scala/org/ergoplatform/settings/VotingSettings.scala
+
+**NO FORK SOLUTION:**
+We can use klubernetes or some other hosting service such as Flux to spin up Kubes or docker containers hosting~~ nipopow nodes, or~~ bootstrapped light full nodes when called upon by subpool creation with the parameters of the votes such that each subpool is granted its own node for the duration of the voting period.
+
+Flux is likely a poor choice for this application, as trusting another network with our nodes poses a security risk, especially when both networks rely on GPUs for consensus.
+
+https://github.com/GetBlok-io/ergo-smartpooling-contracts/tree/proof-of-vote
+https://github.com/GetBlok-io/ergo-smartpooling-contracts/tree/master/src/main/scala/contracts
+https://github.com/GetBlok-io/Subpooling
+
+
+[10/03/2022 8:53 PM] WilfordGrimley#0124
+**Drawbacks**
+*I intend to populate this top level post with information as research continues.*
+
+
+[10/03/2022 8:57 PM] WilfordGrimley#0124
+~~-I imagine this change will require a hardfork.~~
+
+
+[10/03/2022 8:57 PM] WilfordGrimley#0124
+https://discord.com/channels/668903786361651200/1026582697138737262
+This leads to a thread on the issue of perverse incentive.
+
+
+[10/03/2022 9:39 PM] WilfordGrimley#0124
+This modification to the network will require block headers be populated with more data. I am unsure whether or not the data can be compressed into to required 32 bytes, but that is just due to my limited background in development. I will continue to research.
+
+If the size of the data is an issue, we can do an analysis to determine the most efficient ratio of decimal points to required bytes such that we round out the least number of miners.
+
+
+[10/03/2022 9:39 PM] WilfordGrimley#0124
+reserved
+
+
+[10/03/2022 9:39 PM] WilfordGrimley#0124
+reserved
+
+
+[10/03/2022 9:39 PM] WilfordGrimley#0124
+Current thoughts after day 1:
+Two solutions devised each with their drawbacks and benefits. Both solutions use subpools to award miners a box to enable them to cast their vote on chain without requiring a spending transaction.
+
+Solution 1: No hardfork required. 
+We design smartpools with subpooling enabled such that miners shares submitted across all daughter subpools are counted and miners in each subpool payed out (prop or pplns) whenever any of the participating pools mines a block.
+When a miner indicates their desired votes, they are reditected to a subpool that matched their indication exactly. If no such subpool yet exists, one is created for the duration of the voting period. When a subpool is created, external scripts commit the miner's votes to a modified copy of the master smartpool's (all neah votes) node. This copy is pushed to a klubernete or some other container and this node begins log space mining for the duration of the voting period.
+
+The major drawbacks to this solution are the potential decreases in blocks mined by these subpools when compared to no votes taking place can both reduce network security, and therefore reduce the actual likelihood that votes are cast. As well as the increased hardware overhead.
+
+Solution 2: Hard Fork Required
+This was the initial idea, and can still be pursued and researched.
+The idea was that we enable nodes to count fractional votes in favor of network changes such that pools that maintain a tally of their miner's shares in favor of various changes can relay that information directly to the network without needing to split miners into different pools with different nodes as in the first solution. This would enable us to measure potentially even more accurate votes than original autolykos 1 was able to if all miners are willing to participate in a pool that honors their votes.
+
+Largest drawback here is that a hardfork is likely required for this solution, and that blockheaders will need to include more data.
+
+
+[10/03/2022 9:39 PM] WilfordGrimley#0124
+reserved
+
+
+[10/03/2022 9:39 PM] WilfordGrimley#0124
+reserved
+
+
+[10/03/2022 9:39 PM] WilfordGrimley#0124
+reserved
+
+
+[10/03/2022 9:39 PM] WilfordGrimley#0124
+Please scroll to the top if it is your first time in this thread. 🙂
+
+
+[10/04/2022 12:41 AM] ziggomatic#9335
+sounds great ^^
+
+
+[10/09/2022 3:38 AM] WilfordGrimley#0124
+Made some progress: 
+-The hardfork solution is preferrable 
+-A couple of gits are available
+This one contains the unfinished EIP:https://github.com/WilfordGrimley/eip38PartialVoting/blob/master/EIP-0038.md
+This one (pull of the fork hosted in my repo) contains and will be populated with my recommended changes to the Node such that this change can be implemented (after the usual auditing by core devs, testing, discussions in the community and voting by miners)
+https://github.com/WilfordGrimley/ergo/blob/EIP-0038/src/main/scala/org/ergoplatform/nodeView/state/VotingData.scala
+
+Notably I think I have discovered one of the trickiest things for me: Which actual files must be modified. 😅 
+In the file linked above, we will likely redefine the Boolean nature of votes such that we maintain a Coll[T] and Option[T] of potential outputs. e.g 0.0001, 0.0002...1
+
+This is far from the only thing that will need changing, but tangible progress is being made. 🙂
+
+@Cheese Enthusiast has pointed out to me that AVL trees are a really clean way of storing vote data, so I will continue to explore if storing our fractional vote data at the protocol level in this way is preferable to the Coll/Option[T] method.
+
+
+[10/16/2022 12:36 AM] WilfordGrimley#0124
+The EIP has seen many passes and now includes code snippets that would be required for the hardfork.
+
+https://github.com/WilfordGrimley/eip38PartialVoting/blob/master/EIP-0038.md
+
+{Embed}
+https://github.com/WilfordGrimley/eip38PartialVoting/blob/master/EIP-0038.md
+eip38PartialVoting/EIP-0038.md at master · WilfordGrimley/eip38Part...
+EIP 38 Partial Voting. Contribute to WilfordGrimley/eip38PartialVoting development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/zZ1ySM89440eLM_1nJJ1gNbsblENKINOipYnQG67PFY/https/opengraph.githubassets.com/0d327ef861f83c29d96d1828acfddba96d1bf61cba218ce338a6af968f56de25/WilfordGrimley/eip38PartialVoting
+
+{Reactions}
+ergo_orange (2) 
+
+[10/16/2022 5:18 AM] WilfordGrimley#0124
+Current biggest blocker preventing testing: I can't find the code that sends miner's param preferences to the extension block.
+
+I want to copy and repurpose it for storing a coll[Long] of miner votes in favor of each voting byte.
+
+Planning a pull request tomorrow for what is already written.
+
+Once the extension validation issue is solved, I'll compile a node and try to break testnet! 😃
+
+
+[10/17/2022 1:54 AM] WilfordGrimley#0124
+added references, fixed a few things and made a pull request for the eip.
+
+https://github.com/ergoplatform/eips/pull/81
+
+{Embed}
+https://github.com/ergoplatform/eips/pull/81
+eip-0038 Partial Voting by WilfordGrimley · Pull Request #81 · ergo...
+https://images-ext-1.discordapp.net/external/0ra9-2rwte1H5s_2XHGxH0yzaLs4kFi3t5-myPv1UUg/https/opengraph.githubassets.com/5cabcd6ce7966cafa056c107bc4c2bec5338677305783c0ff0bbc04deb713bf9/ergoplatform/eips/pull/81
+
+{Reactions}
+ergo_orange (3) 
+
+[10/19/2022 12:56 AM] WilfordGrimley#0124
+@glasgowm Here is my final submission for the judges:
+
+video presentation:
+https://dalek.zone/w/quqExPoNiabYLKFx1FqUsf
+(if anyone has trouble accessing this PeerTube instance, please let me know and I can upload the video file somewhere else.)
+
+eip-0038 git:https://github.com/WilfordGrimley/eip38PartialVoting/blob/master/eip-0038.md
+
+Both interim reports have been completed. I am uncomfortable uploading via Google drive, my apologies to the judges.
+
+Thank you to everyone for the opportunity to participate!
+
+{Reactions}
+k_thumbs_up (3) 
+
+==============================================================
+Exported 21 message(s)
+==============================================================

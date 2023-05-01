@@ -1,0 +1,11 @@
+https://jenkins.ergoplatform.com/job/sigmastate-blockchain-simulation-bench/673/
+https://jenkins.ergoplatform.com/job/ergo-node-benchmarks/1888/
+https://jenkins.ergoplatform.com/job/ergo-node-benchmarks/1656/
+https://jenkins.ergoplatform.com/job/ergo-node-benchmarks/
+https://jenkins.ergoplatform.com/job/ergo-it/4113/artifact/target/logs/ForkResolutionSpec-975db29c98a86c324d77e09ad1694c936a9af77d162485b83afec5f5c82002fd.log
+https://jenkins.ergoplatform.com/securityRealm/finishLogin?code=b4dfd33f4acf564b6701&state=sB08.IjBEXt7.fX7pf6ZeXU25Ih
+https://jenkins.ergoplatform.com/computer/mainnet-seed-node-frankfurt/log
+https://jenkins.ergoplatform.com/
+https://jenkins.ergoplatform.com/computer/mainnet-seed-node-frankfurt/configure
+https://jenkins.ergoplatform.com/job/sigmastate-ergo-unit-tests/1760/console
+https://jenkins.ergoplatform.com

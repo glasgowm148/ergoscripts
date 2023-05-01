@@ -1,0 +1,249 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 👾  ・〘 ERGOHACK 〙☰ / ergo-tizen
+==============================================================
+
+[02/08/2023 1:08 PM] glasgowm#9381
+## Ergo Tizen
+
+Create an Ergo node that runs natively on smart devices such as TVs, fridges, mobile phones, watches, etc. This will be achieved by targeting Tizen OS, Samsungs open source mobile operating system and done in a way where it should be easily portable to other platforms such as WebOS (LG smart TVs).
+
+Currently there isn't a lot of light client based messages on the P2P layer of Ergo so this project aims to test viability of running nodes on smart devices without much functionality. At least connecting to a few peers and performing handshakes/probing for peers, etc.
+
+At the end of ErgoHack VI the goal is to have a node running natively on a real Samsung TV and displaying basic network information.
+
+{Reactions}
+👍 (9) 
+
+[02/08/2023 2:17 PM] rustinmyeye#3722
+Hah cool!
+
+{Reactions}
+❤️ (2) 
+
+[02/08/2023 9:36 PM] soysor#6001
+Couple of extra diagrams
+
+First couple of days will focus on the .NET bridge/proxy library (.NET for now because Tizen uses .NET) to provide platform functionality not available to web and starting the web compatible node library
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072866301170692126/1072994247566970910/generic-architecture.png
+https://cdn.discordapp.com/attachments/1072866301170692126/1072994247843778581/tizen-architecture.png
+
+{Reactions}
+spicy (2) k_thumbs_up 
+
+[02/09/2023 8:50 PM] soysor#6001
+Got the bridge/proxy to a stage where it can proxy multiple outbound TCP connections over websockets for my node running in a web environment. Repo: https://github.com/ross-weir/Ergode.Bridge
+
+Working on the nodes "web socket bridge" transport next, goal is to make the interface the same as any other Web stream so it can be handled the same as a native Deno TCP connection so there's no difference between running it in a web env vs natively on a desktop
+
+{Reactions}
+spicy 
+
+[02/09/2023 8:51 PM] soysor#6001
+gonna call my node "ergode" (ergo node) 🤷‍♂️
+
+
+[02/09/2023 9:18 PM] wombo22#5461
+How about soygoode (soy ergo node) sounds like soy good
+
+{Reactions}
+lmao 🔥 
+
+[02/10/2023 12:04 AM] soysor#6001
+😂 I dig the creativity
+
+
+[02/10/2023 8:12 AM] soysor#6001
+Working on node client library, able to create TCP connections/send/receive data via the websocket bridge in the browser.
+
+Implemented Web Streams API on top of websocket bridge so the interface is the same as a TCP stream so the bridge is transparent
+
+https://github.com/ross-weir/ergode
+
+{Embed}
+https://github.com/ross-weir/ergode
+GitHub - ross-weir/ergode: TypeScript Ergo node client library targ...
+TypeScript Ergo node client library targeting web/browser & Deno/native platforms - GitHub - ross-weir/ergode: TypeScript Ergo node client library targeting web/browser & Deno/native platforms
+https://images-ext-2.discordapp.net/external/uyRP5UfeLPVyrH6jaSqhrAfaw1M9RMjYQ5bSGwHeHZY/https/opengraph.githubassets.com/41d08c56a29a49fe15c265ebf6b9a6d08142f70b3a1ece98c00a3eb7c36ff7f2/ross-weir/ergode
+
+
+[02/11/2023 8:41 AM] soysor#6001
+lil update:
+
+- Published new NPM package that provides a reader/writer for over the wire encoding for ergo: https://github.com/ergoplatform/ergo-lib-wasm/pull/32
+- Encoding/decoding of peer handshakes largely working and passing test case from Ergo reference client, just missing sessionid and restapi peer features: https://github.com/ross-weir/ergode
+
+{Reactions}
+ergo_orange (2) 👍 
+
+[02/12/2023 5:48 AM] soysor#6001
+- Working on config schema & validation
+- Setup logging
+
+Once config is done can probably start wiring all the pieces together and be close to having a node with p2p handshake working in web browser
+
+https://github.com/ross-weir/ergode
+
+{Reactions}
+ergo_orange (2) 👍 
+
+[02/14/2023 8:55 AM] soysor#6001
+Ergode node is now working both in web/browser with a bridge/proxy and natively as a standalone executable over TCP and establishing handshakes with Ergo reference client peers. 
+
+Tidying time and maybe start a dashboard UI for the TV app soon.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072866301170692126/1074977293795078184/native-ergode.PNG
+https://cdn.discordapp.com/attachments/1072866301170692126/1074977294113841202/web-ergode.PNG
+
+{Reactions}
+ergo_orange (3) 👍 
+
+[02/16/2023 10:42 PM] soysor#6001
+Update:
+
+- Setup pipeline to deploy to emulator and 2x Tizen specific projects for service app & ui
+- Fixed a few issues specific to running on emulator
+- Everything is running on emulator now
+- Updated `ergode` README with some very rough details on how/why of the nodes design choices
+
+Ergohack code making up the project:
+
+- https://github.com/ross-weir/Ergode.Tizen contains Tizen UI (runs node) & Service app (bridge)
+- https://github.com/ross-weir/Ergode.Bridge Bridge used to proxy TCP connections over websockets
+- https://github.com/ross-weir/ergode Main project `ergode`
+
+
+[02/16/2023 10:43 PM] soysor#6001
+https://imgur.com/a/G83f45H
+
+{Embed}
+https://imgur.com/a/G83f45H
+Untitled Album
+https://images-ext-2.discordapp.net/external/U4tPBs2PDc-h6v_KGiCs2fFJdRS3ptZDYwXpERawA9A/https/i.imgur.com/YxcWt7gh.jpg
+
+{Reactions}
+ergo_orange 👍 
+
+[02/17/2023 10:50 AM] soysor#6001
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072866301170692126/1076093169923530802/Tizen_Emulator_17_02_2023_9_49_27_PM.png
+
+{Reactions}
+🔥 (3) 
+
+[02/17/2023 10:50 AM] soysor#6001
+on testnet connecting to public nodes
+
+{Reactions}
+ergo_orange spicy 
+
+[02/20/2023 4:10 AM] NoahErgo#4349
+@soysor check dms 🙂 thanks!
+
+{Reactions}
+k_thumbs_up 
+
+[02/20/2023 9:47 PM] soysor#6001
+Nothing super interesting from me for the last few days, just working on polishing the ergode library and setting groundwork for future components
+
+Added a CLI that aims to be easy to run, I'm hoping to just have executable that users download and run which contains sensible defaults. But can be configured with a config file of course
+
+Continue polishing and update the README
+
+Repo: https://github.com/ross-weir/ergode
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072866301170692126/1077345848377217044/ergode-cli.PNG
+
+{Embed}
+https://github.com/ross-weir/ergode
+GitHub - ross-weir/ergode: TypeScript Ergo node client library targ...
+TypeScript Ergo node client library targeting web/browser & Deno/native platforms - GitHub - ross-weir/ergode: TypeScript Ergo node client library targeting web/browser & Deno/native platforms
+https://images-ext-1.discordapp.net/external/teT64hvLH6NwXJNUWPtU4pmk_bdkmYuI7LZ7FZBVHzs/https/opengraph.githubassets.com/f767576f69fb902db41ef565ebe396819c633360935786c3c5ba36cefb13e7a5/ross-weir/ergode
+
+{Reactions}
+ergo_orange (5) 👍 (4) 
+
+[02/26/2023 9:22 PM] soysor#6001
+I'm continuing working on the `ergode` library, I think this was my last commit for ergohack: https://github.com/ross-weir/ergode/tree/1aa880d46e5af5300229f0a39962f8fcf07a6986
+
+{Embed}
+https://github.com/ross-weir/ergode/tree/1aa880d46e5af5300229f0a39962f8fcf07a6986
+GitHub - ross-weir/ergode at 1aa880d46e5af5300229f0a39962f8fcf07a6986
+TypeScript Ergo node client library targeting web/browser & Deno/native platforms - GitHub - ross-weir/ergode at 1aa880d46e5af5300229f0a39962f8fcf07a6986
+https://images-ext-1.discordapp.net/external/y0oHrMxx8hv1WOfYrSl5orrV8751gyuLyPWPR8fjuX8/https/opengraph.githubassets.com/413a85e7b81a2574d8f4afcea59f7fb234a6266f921b537d9a355824aa23ae0e/ross-weir/ergode
+
+{Reactions}
+ergo_orange (2) 👍 (2) 
+
+[03/03/2023 6:13 PM] MGpai#4313
+Is this a complete native implementation??
+
+
+[03/03/2023 6:14 PM] MGpai#4313
+Or is this a wrapper of the JVM node?
+
+
+[03/03/2023 7:12 PM] soysor#6001
+Not a wrapper, new implementation
+
+
+[03/03/2023 7:21 PM] MGpai#4313
+WOW that is amazing!
+
+
+[03/03/2023 7:21 PM] MGpai#4313
+an entire client written from scratch is so cool
+
+
+[03/03/2023 7:26 PM] MGpai#4313
+Does this support testnet?
+
+
+[03/03/2023 7:26 PM] MGpai#4313
+I want to run a client to try to mine
+
+
+[03/03/2023 7:28 PM] soysor#6001
+❤️ 
+
+Yeah it supports testnet but it doesn't do much at the moment, just establishes handshakes with peers and that's it - lots of work left before its functional
+
+
+[03/24/2023 8:13 PM] glasgowm#9381
+https://twitter.com/ERG_Glasgow/status/1637134627772014595
+
+{Embed}
+Glasgow (@ERG_Glasgow)
+https://twitter.com/ERG_Glasgow/status/1637134627772014595
+(1/9 🧵) Another #ERGOHACK project being featured during Ergo Summit is Ergo Tizen from @Ross_Weir. A project that focuses on creating a node compatible with web environments and smart devices. Let’s dive into the key concepts! 🎥 #ErgoTizen #ErgoSummit
+https://images-ext-2.discordapp.net/external/XiIFYgrJPl_LAy_t3XfB-VSDzGC9_7NaQlCY745FrbE/https/pbs.twimg.com/media/FrgeGriWYAELA8d.png
+Twitter
+
+
+[03/24/2023 8:13 PM] glasgowm#9381
+https://www.youtube.com/watch?v=aAGqILNzI78&feature=youtu.be
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=aAGqILNzI78
+Ergo Tizen | Ergo Summit - Cypherpunk Finance
+A presentation showcasing the Ergo Tizen Ergo Hack VI project, by Ross Weir, also known as Soysor#6001 on discord.
+
+--------------------------------------
+Website https://ergoplatform.org/
+Whitepaper https://ergoplatform.org/en/documents/
+Ergonaut Handbook: https://ergonaut.space/en/home
+Block Explorer https://explorer.ergoplatform.com/
+Github h...
+https://images-ext-2.discordapp.net/external/NWLeAiDbVCoq7w9jZY8tH2aXThkHDsBVZraMUFEXSz8/https/i.ytimg.com/vi/aAGqILNzI78/maxresdefault.jpg
+
+
+==============================================================
+Exported 28 message(s)
+==============================================================

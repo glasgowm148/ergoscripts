@@ -1,0 +1,477 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Ideas 〙☰ / ergo-audio
+==============================================================
+
+[10/03/2021 7:45 PM] WilfordGrimley#0124
+Hello all. Last Hackathon my team submitted SmartPools, an early decentralized mining solution. 
+
+This time, my team will be aiming to produce an on chain music streaming/ library platform where artists can share  their audio NFTs, while (ideally) remaining in possession of the NFTs, and listeners can donate to the artists if they so choose, while building their own music library. 
+
+The project is inspired by FunkWhale, an open source federated music streaming platform for Creative Commons licensed music. 
+
+For the Hackathon I aim to produce a whitepaper and ideally function smart contracts (this should be relatively easy, as the auction house contracts can be adapted). 
+
+In the future, light clients can be constructed that allow listeners to download their library from blockchain. 
+
+It would be lovely to merge my team with any others, or have others join my team, I am planning to start an Ergo raffle to incentivize developer and artist contribution to this project for the Hackathon and beyond.
+
+
+[10/03/2021 7:45 PM] WilfordGrimley#0124
+https://funkwhale.audio/
+
+{Embed}
+https://funkwhale.audio/
+Funkwhale - Your free and decentralized audio platform
+A social platform to enjoy and share music
+https://images-ext-2.discordapp.net/external/zFa2WDQFqleTIuxEQOT0VUAhzd7ZJkU0-bSnplGKPmY/https/funkwhale.audio/favicon.png
+
+
+[10/04/2021 5:44 PM] WilfordGrimley#0124
+@glasgowm, can you please invite @Jumei, @TimL and @hedges to my team in discord 😉
+
+{Reactions}
+greencheck 
+
+[10/05/2021 5:08 PM] NoahErgo#4349
+Hi! I saw your idea on reddit a while back and we had a brief exchange about audio NFTs. I have made a few so I wish you good luck with the project 🙂
+
+{Reactions}
+❤️ 
+
+[10/06/2021 7:42 PM] mig#4586
+hello! i’m fairly new to blockchain development, having only completed a Solidity Bootcamp course on Udemy.
+
+Saw @WilfordGrimley post about wanting more team members so I thought i’d reach out. I’m willing to help in any way I can if I’m given a space on this team 🙂
+
+{Reactions}
+👍 (2) 
+
+[10/06/2021 8:43 PM] WilfordGrimley#0124
+Hey, I haven't compiled my notes in text, I'll start getting everything together tmrw and friday before the Hackathon.
+
+
+As far as onchain vs off: 
+
+onchain: minting audio nfts, handling royalties, tipping artists, and all metadata. I am quite confident that a lot of existing contracts can be adapted for this on the auction house, and ergofund/ergoraffle. I am still unsure if the actual audio is stored directly onchain or if it is stored in IPFS. If stored in IPFS I need to understand how the storage is paid for (or if it needs to be)
+
+
+offchain: light clients representing user libraries (this is ideal but not buildable yet afaik, It would remove the need for federated hosting), 
+reference website with reference audio libraries. (This would work most similarly to FunkWhale, the website can exist in place of a light client, and would point to locked audio NFT contracts that artists choose to include. Because all of the actual audio content, and metadata exists onchain, 'federation' would not be necessary, as any offchain hoster can reference exactly the content that they desire. 
+
+Down the line, sidechains can be built in place of federation. I see these forming around specific license agreements, and potentially around production companies.
+
+
+It is also probably very possible to literally use FunkWhale, and build offchain bots to convert the above mentioned 'federations' of music libraries from the blockchain into Substream readable databases, or build a converter (maybe with Gravity if necessary) from sidechain to substream.
+
+As far as MVP: I think adapting existing smart contracts, and providing artists (who may or may not be seeking creative commons licenses) an alternative means of monetization apart from the auction house would be ideal. Combining Auction House contracts with crowdfunding contracts would be ideal. I'll buy a top level domain or two before the weekend also, it would be nice to host it.
+
+{Reactions}
+💯 
+
+[10/06/2021 8:44 PM] WilfordGrimley#0124
+Awesome! Welcome to the team. @glasgowm if you'd please 🙂
+
+
+[10/07/2021 3:33 AM] TimL#0815
+The Ergo Auction House stores data (image, audio) on `IPFS`. Before that it was stored on `imgbb` (source: https://github.com/anon-real/ErgoUtils/pull/2)
+
+
+[10/07/2021 3:34 AM] TimL#0815
+You can also see it if you attempt to mint a NFT here: https://ergoutils.org/#/token
+
+
+[10/07/2021 3:37 AM] TimL#0815
+`Filecoin` is used to incentivise persistence of data on `IPFS`: https://docs.ipfs.io/concepts/faq/#ipfs-and-filecoin
+
+{Embed}
+https://docs.ipfs.io/concepts/faq/
+FAQ
+Explore frequently asked questions about IPFS, the InterPlanetary File System.
+https://images-ext-1.discordapp.net/external/mssrYIkKIJkcP2VEupfGKxeR_oixd3Bji07-x0XIRiA/https/docs.ipfs.io/images/social-card.png
+
+
+[10/07/2021 1:46 PM] Aristofanis Chionis#1833
+I am interested in this project!
+
+
+[10/07/2021 2:56 PM] A_gora#8702
+I am also interested. The project seems to be quite advanced, to be in trend. Recently I came across a library blitz.js,It may come in handy. I could work on the frontend, I use react + typescript, react query, material UI for components. I know a bit about writing contracts (level beginner), but i didn't use ergo script.
+
+{Reactions}
+ergo_black 
+
+[10/07/2021 3:23 PM] Aristofanis Chionis#1833
+me too! I have mainly frontend dev exp and beginner lvl in smart contracts, 0 exp in ergoscript
+
+
+[10/08/2021 6:36 AM] WilfordGrimley#0124
+Literally all are welcome, please make sure you are registered on ErgoHack.io 
+
+I would be happy to have you both. @A_gora and @Aristofanis Chionis
+
+{Reactions}
+👍 
+
+[10/08/2021 11:03 AM] Aristofanis Chionis#1833
+I am registered 🙂
+
+
+[10/08/2021 12:28 PM] WilfordGrimley#0124
+Team, I work today and have a labour job so will be away from my desk (work every day this hackathon)
+
+I will steal as much time as I can 😉
+
+{Reactions}
+👍 
+
+[10/08/2021 12:46 PM] WilfordGrimley#0124
+Big question to ask ourselves here: will we be better off long term designing ErgoAudio as a FunkWhale addon, enabling other FunkWhale instance hosters to quickly and easily provide economic incentive to their artists; or will we be better off accepting FunkWhale as inspiration and trying to recreate its functioning within our ecosystem?
+
+A third option may be to start as a FunkWhale addon, keeping ActivityPub support and all it’s other goodies, building essential smart contracts and a bot and then slowly moving towards more independence from FunkWhale over time as Ergo matures.
+
+
+[10/08/2021 2:02 PM] WilfordGrimley#0124
+Essential smart contracts: a locking contract for audio NFTs. I know that the Auction house has a contract that does this that can be adapted. We don’t need auctions, we need donations, perhaps ErgoFund’s contracts are the way to go. 
+
+I remember reading that the AuctionHouse folks were working on NFT collections. This is awesome because we want artists to be able to define their music in albums. Supporting cover art would be awesome too.
+
+{Reactions}
+👍 (3) 
+
+[10/08/2021 2:09 PM] Jumei#5536
+Pretty busy today but I will try to take a look at some of the existing contracts out there and see if I can learn a bit. Ergoscript is new to me so this could be fun 🙂 Anyone on the team familar with ergoscript that could provide feedback on the contract side?
+
+Still need to learn a bit more about FunkWhale to provide useful feedback at the time.
+
+I like all 3 of those options... it would be nice to have a functional mvp soon, not sure which option that would be vs long term success. Let see where this goes and get some feedback from others 🙂
+
+
+[10/08/2021 3:05 PM] WilfordGrimley#0124
+The ErgoHack website, ErgoScript whitepapers and the ErgoRaffle documentation have a lot of good info on ErgoScript.
+
+{Reactions}
+👍 
+
+[10/08/2021 3:08 PM] WilfordGrimley#0124
+A question I have for some mentors: when minting an audio NFT and storing it on IPFS, how is the storage space paid for in filecoin, does it need to be? Is is paid in ERG and converted automatically? Where can we find more info on the integration?
+
+
+[10/08/2021 3:18 PM] WilfordGrimley#0124
+Somewhere between option 2 and 3 are probably best long term. It would be nice to use the Yoroi dApp connector and mint membership tokens for user audio libraries rather than FunkWhale’s login on a per federation basis. 
+
+Minting membership tokens would provide the advantage of being able to keep track of your library without needing access to your ergo wallet or login to FunkWhale. It would also make music suggestion possible in the future.  
+
+The trade off (I think) would be privacy, as if a membership token keeps track of an entire music library and makes recovering said library without ownership of the token every user’s library choices would be public. 
+
+Could have multiple membership tokens to protect privacy a bit.
+
+{Reactions}
+👍 
+
+[10/08/2021 3:37 PM] texas_miner#9831
+Played around on funk whale, awesome. Its a social network/lime wire streaming service imo.   Imo the idea of onboarding artist to a streaming service via ergo is a pipe dream. 
+
+We should enhance what the service already is. A cloud sharing service to share ur ripped music. 
+
+
+Then find a way to send erg around based off the hosts play lists. 
+
+Im already thinking convert and dl soundcloud songs to mp3 via a converter, upload the playlists, invite my friends, they do the same. We share our playlists in the “pod” and we have free sound cloud w/o the adds
+
+
+[10/08/2021 4:12 PM] WilfordGrimley#0124
+While you are 100% correct that the service can be used this way, that is not what FunkWhale is intended for. 
+
+Keeping our design goals consistent with the principles of parent projects will help legitimize what we build, without diminishing the side effect product with the capabilities you describe.
+
+
+[10/08/2021 4:16 PM] RobertLucian#5498
+Hey guys! I'm a full-time ML infra engineer, with experience on distributed systems. Think k8s/eks/gke on the major cloud providers. In the past month, I've become very interested in the blockchain technology, with a high preference for Cardano and Ergo. Read a lot of technical docs, but still very much in the beginning. I'd like to learn more about Ergo and this idea would act like a gateway into this world. This idea is pretty damn cool too! Available for this weekend. Got a spot?
+
+
+[10/08/2021 4:23 PM] glasgowm#9381
+Wilford's AFK but has said he's happy to take whoever he can get so feel free to dive in
+
+{Reactions}
+💯 
+
+[10/08/2021 4:27 PM] RobertLucian#5498
+Got it! Thanks! Is there a team discord?
+
+
+[10/08/2021 4:50 PM] root7Z#8699
+@WilfordGrimley
+
+
+[10/08/2021 4:54 PM] glasgowm#9381
+I imagine they'd just be using this
+
+
+[10/08/2021 5:11 PM] WilfordGrimley#0124
+Hey, welcome to the team. 
+
+I’d like to use this channel for the Hackathon at least. Keep things as transparent as possible. 🙂
+
+{Reactions}
+👍 
+
+[10/08/2021 6:09 PM] A_gora#8702
+here's a similar idea https://cardano.ideascale.com/a/dtd/projectNEWM-Fair-music-ecosystem/367129-48088, they probably use storj https://www.storj.io/pricing to store data, because they are partners.
+
+{Embed}
+https://www.storj.io/pricing
+Pricing | Affordable Object Storage | Storj DCS
+Now you can enjoy affordable cloud storage, that's save, secure, and private without breaking the bank, with Storj DCS.
+https://images-ext-1.discordapp.net/external/fzbLI122nOl_jjLQCt_tu_adXbl0eGhliDQ68PmD17U/https/assets-global.website-files.com/602eda09fc78afc76e9706b6/60b9147abf358416a0c81ebb_storj-site-cover-default.png
+
+
+[10/08/2021 11:49 PM] Jumei#5536
+Hey all, hope everyone is digging in to some cool tech and docs! I have cleared a good chunk of tomorrow to play with things and will update here with ideas/development. Time to catch up on sleep so my brain works for once 😉
+
+{Reactions}
+👍 (2) 💯 
+
+[10/09/2021 3:14 AM] WilfordGrimley#0124
+I bought us a domain from Njalla: 
+
+ergoaud.io is ours!
+
+We can look to rent a server when we know more about what requirements we will have.
+
+{Reactions}
+👍 (2) 
+
+[10/09/2021 3:39 AM] RobertLucian#5498
+Filecoin is built on top of Storj - Filecoin actually merges multiple blockchain networks into one (correct me if my recollection is bad). If we were to do IPFS, then wouldn't that mean we'd have to set up our own network? In which case, we'd probably do it on some cloud provider which is many times more expensive than something distributed like Storj/Filecoin/Sia. The reason is cost. I can imagine just renting out from Storj since they have a predictable pricing model, pay for the storage ourselves and then get back the costs by charging for holding those NFTs. Is this technically possible? Plus Storj has an S3 connector.
+
+Also, I don't think that storing the audio on-chain is a good idea. Reason is that anything that takes significant space should be off-chain.
+
+> Big question to ask ourselves here: will we be better off long term designing ErgoAudio as a FunkWhale addon, enabling other FunkWhale instance hosters to quickly and easily provide economic incentive to their artists; or will we be better off accepting FunkWhale as inspiration and trying to recreate its functioning within our ecosystem?
+Better off to start from scratch. Inspiration can be drawn from them, but not too much, 'cause otherwise you risk becoming a copycat, and all copycats eventually die.
+
+> We can look to rent a server when we know more about what requirements we will have.
+You mean AWS/GCP/Azure? Does it have to scale up/down based on load/traffic/requests? Multi-region or just do one zone/region for now? Might be a good idea to wrap everything in containers/pods.
+
+
+[10/09/2021 1:17 PM] Barun#6835
+Yes AWS is pretty good, specially lambda functions.
+
+
+[10/09/2021 1:17 PM] Barun#6835
+And dynamo db..
+
+
+[10/09/2021 1:17 PM] Barun#6835
+Nice scaling..
+
+
+[10/09/2021 1:18 PM] Barun#6835
+Yes i agree, anything taking more resources should be off chain.
+
+
+[10/09/2021 1:20 PM] Barun#6835
+What we can do is, associates a address with an audio, key value pair of (address, audio reference) and save that on chain.
+
+{Reactions}
+💯 
+
+[10/09/2021 1:56 PM] Barun#6835
+Only process address and transaction and values on chain.
+
+
+[10/09/2021 5:48 PM] WilfordGrimley#0124
+Right, want to be able for artists to crowdfund for their art on Ergo. Play to Ergo's strengths.
+
+Are you suggesting that we still encourage artists to mint their NFTs on Ergo, but that we pick a better sidechain for them to store the actual data? If so I agree.
+
+
+[10/09/2021 5:49 PM] WilfordGrimley#0124
+Regarding paying for storage, it would be nice to just charge % dev fee to donors and have that cover the cost of data storage.
+
+
+[10/09/2021 5:50 PM] Barun#6835
+Yes, minting on chain storing off chain.
+
+
+[10/09/2021 5:51 PM] Barun#6835
+We dont have any immutablex kindof thing in ergo right?
+
+
+[10/09/2021 7:34 PM] WilfordGrimley#0124
+Not yet
+
+
+[10/09/2021 11:16 PM] glasgowm#9381
+Some more inspiration: https://dashboard.audius.org/#/
+
+https://whitepaper.audius.co/AudiusWhitepaper.pdf
+
+{Reactions}
+❤️ 
+
+[10/10/2021 7:24 AM] hedges#1221
+@glasgowm that paper looks super relevant. thanks for sharing. I'm going to spend the next couple days digging through that paper and other relevant docs
+
+I agree with @RobertLucian that going with a fresh angle is perhaps best from a longevity perspective.
+
+{Reactions}
+👍 (2) 
+
+[10/10/2021 7:28 AM] hedges#1221
+as for an self-intro, my daily job is related to research and writing with like tech and biopolitics. shoutout to mark fisher if anyone has read Fisher's work.
+
+for the project though, I'm interested in helping out with contracts (still pretty fresh with ErgoScript though), and interested in helping with more back-end aspects.
+
+
+[10/10/2021 4:45 PM] WilfordGrimley#0124
+I’m going to create a small write up of our progress and research so far as a submission before the deadline to the Hackathon. I didn’t have the time I wanted to have this Hackathon (worked 3 shifts at the day job) and so didn’t write a lite paper and made too little progress on an MVP for our smart contracts to submit anything. 
+
+I see this as very much the beginning of this project. As I said before, I’d like to set up an ErgoFund for development bounties for this project (I’d use ErgoRaffle but there are legal restrictions on raffles where I live, and ErgoFund is better suited as a funding model IMO.)
+
+
+[10/10/2021 5:07 PM] WilfordGrimley#0124
+I can set aside 3-4 hours tonight for a last minute grind before deadline if anyone on the team with experience deploying websites wants to help me we can try to scrape an MVP together.
+
+
+[10/10/2021 5:07 PM] WilfordGrimley#0124
+Would be around 9pm EST. Deadline is 1am EST on the 11th.
+
+
+[10/10/2021 5:43 PM] Jumei#5536
+Thanks Wilford, sounds good. I too have been pretty busy past few days... However, I have learned a lot in that time and looking forward to contributing anything I can to this and other projects. I will try to stop in on that last minute push tomorrow evening to see what help I can provide.  Thanks for taking lead on this and keeping it moving 🙂
+
+
+[10/10/2021 8:02 PM] WilfordGrimley#0124
+This evening, for clarity. The deadline is 1am EST on the 11th.
+
+{Reactions}
+👍 
+
+[10/10/2021 10:41 PM] NonFungibleTwerkin#9263
+As a musician/producer, I'm very intrigued by this idea... Will this platform reward artists solely based on donations, or will there be some other way to monetize content/streaming?  Ideally a decentralized platform could be a better source of income for artists than Spotify/Apple/etc... In my opinion, to truly empower artists and become relevant, a blockchain-based streaming model needs to compete with the centralized players with regard to monetization for artists.  I did see a link to Audius, which is interesting, though it appears the devs took almost 1/3 of the $AUDIO supply initially, which I find quite suspect.  Anyway, would love to hear more about this idea and will keep in touch! Thanks and best.
+
+
+[10/11/2021 3:00 AM] WilfordGrimley#0124
+#ergofund is building contracts that will work really well for subscription models that could easily be adopted by ErgoAudio.
+
+I am personally very much against making tokens unnecessarily. There is no reason for ErgoAudio to have it's own token, the value comes from the artists and their music, not the protocol itself. A minimal dev fee could be charged but I expect this not to need to be higher than 5%.
+
+
+[10/11/2021 3:01 AM] WilfordGrimley#0124
+I am currently reviewing the ErgoRaffle documentation and the source code for it and the auctionhouse.
+
+
+[10/11/2021 3:01 AM] WilfordGrimley#0124
+https://github.com/ErgoRaffle/raffle-documentation
+
+
+[10/11/2021 4:27 AM] kii#8888
+I can see this growing into a live concert kind of thing with the ease of transfer of currency
+
+
+[10/11/2021 4:52 AM] WilfordGrimley#0124
+A fork of Lokinet would be a good way of achieving this. OXEN has not great tokenomics, but it could be recreated as a sidechain on Ergo with lower node requirements. Could solve the issue of private mining that @Armeanio talked bout recently also. 
+
+https://github.com/oxen-io
+
+{Embed}
+https://github.com/oxen-io
+Oxen
+Oxen has 56 repositories available. Follow their code on GitHub.
+https://images-ext-1.discordapp.net/external/kwzlJzXTRXrukIY1PsQFoiFncxdmlQy4Hze7r9Gc5yI/%3Fs%3D280%26v%3D4/https/avatars.githubusercontent.com/u/35471049
+
+
+[10/11/2021 7:46 AM] WilfordGrimley#0124
+Hey team, this is the email that I submitted to the judges:
+
+
+Ergo Team,
+
+The concept for ErgoAudio is inspired by FunkWhale, an open source federated music streaming platform for Creative Commons licensed music. 
+
+The design goals for ErgoAudio are to provide music artists a means of monetization through a streaming platform, when their audience could just as easily pirate their work. By making donating to an artist just as accessible as listening to their art, we increase the likelihood that an artist sees compensation. We want to remove the need for middlemen as much as possible, and dev fees should be minimized, and no tokenization is required for ErgoAudio to function. 
+
+While minting many duplicate NFTs is trivial on the Ergo Platform, it is unnecessary for multiple copies of the same audio track to exist on the public ledger. Because Ergo includes NiPoPoWs, light clients can be created to reference specific boxes containing specific NFTs. This means that we can both replicate the functioning of FunkWhale’s federated hosting (more efficiently), and that users can create their own offline libraries with purpose built light clients. 
+
+For the most basic initial contracts, ErgoAudio should be built with proxy contracts where an artist defines which audio NFTs in which order with which picture NFT as optional cover art. The artist can also input at this stage an address to which donations can be deposited. If the transaction is successful, the ‘album’ moves to a locking contract. 
+
+These simple multistage contracts should enable a great deal of practical use cases as mentioned above. 
+
+Initially we propose that the art be licensed under CC0. In future iterations, private side chains can be built with specific licences if artists desire. Eventually, Ergo Oracles can be utilized to validate authenticity of like tracks across sidechains, in this way federations can be constructed, and bloat can be reduced. 
+
+…cont…
+
+
+[10/11/2021 7:47 AM] WilfordGrimley#0124
+We have no functional smart contracts to present to the judges. We are still studying ErgoScript. I am personally trying to work backwards through the ErgoRaffle contracts and the AuctionHouse contracts because I am very confident the a lot of the heavy lifting has already been done by anon_real and the rest of the people who built these dApps. A more thorough litepaper with references will follow in the coming weeks.  
+
+I am looking forward to ErgoFund and ErgoTeams being more feature complete, as I would love to crowdsource future development for ErgoAudio (and SmartPools/ Subpools) through bounties. 
+
+Thank you very much for another Hackathon! Some excellent projects are in the works. 
+
+Regards,
+WilfordGrimley & Team ErgoAudio
+
+{Reactions}
+👌 (5) 👍 (2) 
+
+[10/11/2021 4:36 PM] Andy Lowe#6522
+Hello guys, heard about this project via ergohack II - I'm very keen to stay up to date with everything you are building
+
+{Reactions}
+❤️ 
+
+[10/11/2021 7:30 PM] kii#8888
+Hey Wilford, I'm from the ergolend team. I'm focusing on the ergoscript side too and am interested in learning different situations and how it can be implemented. Would love to help out with the contract design soon if you're interested in collaborating.
+
+{Reactions}
+blob_yay_praise (2) 
+
+[10/12/2021 12:59 AM] RobertLucian#5498
+> The design goals for ErgoAudio are to provide music artists a means of monetization through a streaming platform, when their audience could just as easily pirate their work. By making donating to an artist just as accessible as listening to their art, we increase the likelihood that an artist sees compensation. We want to remove the need for middlemen as much as possible, and dev fees should be minimized, and no tokenization is required for ErgoAudio to function. 
+Amen to this! I agree that tokenization can be left out. Don't see a strong reason for it. 
+
+> Initially we propose that the art be licensed under CC0. In future iterations, private side chains can be built with specific licences if artists desire. Eventually, Ergo Oracles can be utilized to validate authenticity of like tracks across sidechains, in this way federations can be constructed, and bloat can be reduced. 
+I wonder if the lack of licensing options could prove to be a deal breaker for artists. That being said, the team can cross that bridge later on.
+
+
+[10/12/2021 2:48 AM] WilfordGrimley#0124
+Thank you!!! You would be a big help! Looking forward to combining ErgoLend with ErgoMixer Staking 🙂
+
+{Reactions}
+🔥 
+
+[12/07/2021 6:37 PM] liquid_phase#4605
+I have wanted this for sooo long. I am a music label owner with a catalog of over 40 releases all currently being tracked through the ISRC and UPC monopoly. I want to be a first adopter and help wherever possible .
+
+{Reactions}
+ergo_orange (2) 👍 (2) 
+
+[12/08/2021 4:30 PM] liquid_phase#4605
+On top of your idea, I want to contract with streaming services to track statistics of track plays and monetiZe the content using blockchain. I want an artist to be able to make a drum sample, mint it with royalty built in, and get automatic distribution based on every time a track using that sample is streamed or at purchased
+
+
+[12/08/2021 4:30 PM] liquid_phase#4605
+Creative Commons is great but I want musicians to be able to survive in a tough economy too
+
+
+[12/14/2021 8:27 PM] Jumei#5536
+Hey all sorry I have not been active here, caught up in other things. I hope to loop back on this idea in jan, play with the idea a bit again
+
+
+[02/08/2022 9:41 AM] ryan69plank#9543
+I have some music mates that would be interested
+
+
+[04/13/2023 3:12 PM] Sonicchemist#6523
+I wanna chat with a core dev on an incubation idea for a music erg dapp. Basics would be a new music audio engine powered by ergo that would drives people to move away from things like Spotify & provides incentives to bring more audio heads into the block chain space. This ergo powered space is not just for artist but the listeners and all music parties involved including agents, managers, fans etc.. if there's a way to do this where I can share more detailed notes please lmk.
+
+
+[04/13/2023 4:07 PM] glasgowm#9381
+Check out #thz-fm
+
+
+==============================================================
+Exported 72 message(s)
+==============================================================

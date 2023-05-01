@@ -1,0 +1,1929 @@
+==============================================================
+Guild: Ergo Platform
+Channel: ⛏  ・〘 Mining 〙☰ / 📸│showoffyourrig
+Topic: Pics and content related to your rigs - flex away.. :)
+==============================================================
+
+[10/12/2021 8:50 PM] Attila#3944
+Yay!
+
+
+[10/12/2021 8:51 PM] Attila#3944
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/897572085482782720/video0.mov
+
+{Reactions}
+👍 (2) 
+
+[10/12/2021 8:51 PM] Attila#3944
+Will update when I have the remaining two slots filled 🙂
+
+
+[10/12/2021 9:00 PM] SnowPea#7485
+Small but hard working!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/897574458158620792/20211012_125654.jpg
+
+{Reactions}
+👍 (3) 
+
+[10/13/2021 12:24 AM] MikeyMike87#9350
+My 3060ti build that's been mining erg 24/7 since April
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/897625751128514601/20211012_172304.jpg
+
+{Reactions}
+💪🏻 
+
+[10/13/2021 5:57 AM] Dv#3650
+12x Zotac P106-90s (3GB) 
+Asus Prime z390-A 
+1200 Watt HP Platinum Server PSU
+
+655 MH/s
+913 watts (in software)
+
+Might be possible to squeeze a few more Mh out of this rig but been fighting with it to be stable so meh.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/897709585350152192/20211012_160922.jpg
+https://cdn.discordapp.com/attachments/897571711468310568/897709585903779910/20211012_160930.jpg
+
+{Reactions}
+💪🏻 
+
+[10/13/2021 6:02 AM] Dv#3650
+2x 3080ti FTW Ultras
+3x 1060 3Gb (MSI & Gigabyte)
+Asus Prime z390-A
+1500 Watt Be quiet dark power pro 12
+
+521 MH/s 
+800~ Watts (software)
+
+Dual mining eth, getting about 80 MH/s on there as well.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/897710802583314512/20211012_160913.jpg
+https://cdn.discordapp.com/attachments/897571711468310568/897710803279577138/20211013_005250.jpg
+
+{Reactions}
+💪🏻 (2) 
+
+[10/13/2021 6:29 AM] Runstyle#5968
+Some of my rigs on ergo way back 😂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/897717628007768064/1634102919465.jpg
+
+{Reactions}
+❤️ (2) 
+
+[10/13/2021 1:00 PM] Ananas#9063
+what card has the noctua coolers, and is it all just ziptie? I dig it
+
+
+[10/13/2021 2:58 PM] geezar#8187
+Damn @Dv those Evga's look nice but take a lot of juice!
+
+
+[10/13/2021 2:58 PM] geezar#8187
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/897845670063538256/unknown.png
+
+
+[10/13/2021 2:59 PM] geezar#8187
+Was wondering the same - good fans those too
+
+
+[10/13/2021 4:25 PM] SnowPea#7485
+Its the 3060ti lhr, i accidentally broke the stock fan. While i ordered a replacement and not sure how long it would take to arrive, i saw people using these noctua fans for it, so i bought two and gave it a try. Im just using regular zip ties to hold them, as long as they are not touching any metal, they wont melt. As for the fans, i tried to plug the power directly on the card, but since it needs 12w for each fan, the card couldnt provide enough power for the fans to go full rpm (1500), so i plugged them directly onto the mobo. The downside is that i could control the fan speed in msi or trex, so i just set them at full speed all the time. I'd say they are pretty quiet at full speed, but if i used the noise reduce cable, which only limited the speed up to 1200rpm, they would be super quiet. As far as the temp, they did bring the temp down for 1~2c, not a lot but they worked. I think if i put a couple more on the side of the rack, that would create a better airflow, but for now thats enough, never gone pass 55c on the hottest summer day.
+
+
+[10/13/2021 5:00 PM] geezar#8187
+Some room to grow @SnowPea for the future
+
+
+[10/13/2021 5:00 PM] geezar#8187
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/897876549733339206/unknown.png
+
+
+[10/13/2021 5:39 PM] SnowPea#7485
+Unfortunately that x4 slot was the one that was having issue (i had my 3060 there and it crashed every few minute), it didnt have any issues after i l moved it to the 4th slot. I'll need to get a splitter if i ever get a 4th card
+
+
+[10/13/2021 5:40 PM] geezar#8187
+4th GPU.... and so it continues 🍺
+
+
+[10/13/2021 5:41 PM] SnowPea#7485
+Lol i want to at least break even what i have spent before spending more
+
+{Reactions}
+💰 
+
+[10/13/2021 5:42 PM] Zuqerberg#4722
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/897887018800021584/image0.jpg
+
+{Reactions}
+👍 (2) 
+
+[10/13/2021 5:42 PM] Zuqerberg#4722
+This my little baby
+
+
+[10/13/2021 5:45 PM] SnowPea#7485
+Looks nice, hows the temp/airflow working out for you? the cards look pretty packed up
+
+
+[10/13/2021 5:48 PM] Zuqerberg#4722
+Ive been switching setup a million times but this works pretty well. Like i had a normal case before and they got superhot pretty fast, i tried cabling out but that also was a bit clunky. Also tried the same techniques with this new case i recently got in the pic and its working put pretty good
+
+
+[10/13/2021 5:49 PM] Zuqerberg#4722
+If i remember correctly i have 59 on the first card and 52 on the second one running 63% on the fan
+
+
+[10/13/2021 5:50 PM] Zuqerberg#4722
+The case also came with a tempered glass panel for the front but obviously that got too hot for the cards
+
+
+[10/13/2021 5:58 PM] Ananas#9063
+@Zuqerberg such an interesting setup, didnt know open air cases were a thing. whats the model number?
+
+
+[10/13/2021 5:59 PM] Zuqerberg#4722
+Thermaltake core p3 snow i recall correctly
+
+
+[10/13/2021 5:59 PM] Zuqerberg#4722
+I might try getting my hands on more gpus closer to 2022 but things aint all that easy as a student ahha
+
+
+[10/13/2021 6:00 PM] Zuqerberg#4722
+But absolutely recommend the case
+
+
+[10/13/2021 6:13 PM] SnowPea#7485
+@Zuqerberg it looks really nice and neat!
+
+
+[10/13/2021 6:13 PM] Zuqerberg#4722
+Thanks:pepecheer:
+
+
+[10/13/2021 6:14 PM] SnowPea#7485
+Im noticing my gpu fans are getting dusty, i'll probably have to clean the fans once a year
+
+
+[10/13/2021 6:35 PM] geezar#8187
+That TUF GPU is huge!
+
+{Reactions}
+pepecheer 
+
+[10/13/2021 6:36 PM] geezar#8187
+Can that be wall mounted or just a vertical case - nice design
+
+
+[10/13/2021 6:37 PM] Zuqerberg#4722
+Can both be laid down flat and wall mounted
+
+{Reactions}
+👍 
+
+[10/13/2021 6:38 PM] Zuqerberg#4722
+Also, gpu bracket can be flipped and set up for horizontal mounting
+
+
+[10/13/2021 6:40 PM] Zuqerberg#4722
+This is sort of the evolution of my setups with the fourth being the current:pepecheer:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/897901704962519090/image0.png
+https://cdn.discordapp.com/attachments/897571711468310568/897901705331609610/image1.png
+https://cdn.discordapp.com/attachments/897571711468310568/897901705704927312/image2.png
+https://cdn.discordapp.com/attachments/897571711468310568/897901706115956756/image3.jpg
+
+
+[10/13/2021 6:52 PM] geezar#8187
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/897904730720862208/unknown.png
+
+{Reactions}
+👍 
+
+[10/13/2021 7:16 PM] Zuqerberg#4722
+Anything with the screenshot?
+
+
+[10/13/2021 8:33 PM] Dv#3650
+Yes the triple 8 pin is kinda of annoying, but they run a lot cooler than fes
+
+
+[10/13/2021 8:48 PM] Herk#6019
+can’t quite compare any card to the FE when it comes to cooling.. specially the evga’s
+
+
+[10/13/2021 11:46 PM] Dv#3650
+Why can't I?
+
+
+[10/14/2021 12:19 AM] Herk#6019
+FE cooling is inferior
+
+
+[10/14/2021 12:19 AM] Herk#6019
+to pretty much anything
+
+
+[10/14/2021 12:20 AM] Herk#6019
+pads are also poop
+
+
+[10/14/2021 1:29 AM] Dv#3650
+Yea I know that's why I mentioned it running cooler than the fes. Saying that the trade off for the extra 8 pin is lower thermals.
+
+
+[10/14/2021 10:12 PM] Ananas#9063
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/898317332861054996/IMG_20211014_231111.jpg
+
+
+[10/14/2021 10:12 PM] Ananas#9063
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/898317350825250836/IMG_20211014_231139.jpg
+
+
+[10/14/2021 10:12 PM] Ananas#9063
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/898317361776566322/IMG_20211014_231150.jpg
+
+{Reactions}
+👍 
+
+[10/14/2021 10:12 PM] Ananas#9063
+Made this rig today just to make sure the budget setup idea works
+
+
+[10/14/2021 10:14 PM] Ananas#9063
+8 rig setup, one small ATX psu, 1200w hp psu, second hand 18 euro half config mobo I bought
+
+
+[10/14/2021 10:15 PM] Ananas#9063
+All in all less than 200 EUR for everything included
+
+
+[10/14/2021 10:15 PM] Ananas#9063
+Except the cards ofc
+
+
+[10/14/2021 10:15 PM] Ananas#9063
+Suggestions/critiques welcome
+
+
+[10/14/2021 10:20 PM] Ananas#9063
+next step is to find a relatively cheap mobo that has 4 pcie slots so I can do 4 pcie splitters on it in total
+
+
+[10/15/2021 7:24 AM] Runstyle#5968
+looks sweet bro, i almos tthought it was a riserless mobo for a split sec ahahaha
+
+
+[10/15/2021 7:40 AM] Ananas#9063
+Haha I can see it. If I have extra time today I will remake the rig into a hanging one, to see if I can fit the 2 psus and the mobo on the shelf
+
+
+[10/15/2021 9:50 AM] geezar#8187
+I like that @Ananas one question - are you intending on using the top shelf for more GPUs? - if not maybe consider spacing the cards out and running a couple higher to give them more space in between each GPU - the radiant heat from each would get toasty, the hot air also rises but the spacing would offset that - sweet rig tho 👍
+
+
+[10/15/2021 9:51 AM] geezar#8187
+Perfect example of a lower cost and efficient rig, not everyone can go for baller 30 series - love rigs like this 💯
+
+
+[10/15/2021 10:21 AM] Ananas#9063
+Thanks! Yes, I intend to use the top, and also stack another identical shelf on this one. So it will be 4 levels total, instead of the 2 now. Space between GPUs isnt an issue, as the 12cm fans blowing from directly behind them are 3800 RPM 12 watt fans that move 300 m3/h
+
+
+[10/15/2021 10:22 AM] Ananas#9063
+They are not your typical virgin arctics doing 90 m3/h 😅
+
+{Reactions}
+😆 
+
+[10/15/2021 10:29 AM] Herk#6019
+my 6.6W 140mm noctua's move 263m3/h
+
+
+[10/15/2021 10:30 AM] Herk#6019
+money well spent
+
+
+[10/15/2021 10:33 AM] Ananas#9063
+How much are they? @Herk
+
+
+[10/15/2021 10:35 AM] Herk#6019
+let's not talk about that
+
+
+[10/15/2021 10:35 AM] Herk#6019
+:aPES_Hide:
+
+{Reactions}
+thonk (2) 
+
+[10/15/2021 10:38 AM] Ananas#9063
+BRO
+
+
+[10/15/2021 10:38 AM] Ananas#9063
+THEY ARE 25 EUR A PIECE WTF
+
+
+[10/15/2021 10:38 AM] Ananas#9063
+:MonkaChrist:
+
+
+[10/15/2021 10:39 AM] Ananas#9063
+Mine were 6.5 eur a piece, 120mm 😅
+
+
+[10/16/2021 2:03 AM] ProSavage#7131
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/898737968100020244/unknown.png
+
+
+[10/16/2021 2:04 AM] ProSavage#7131
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/898738064338325574/image0.jpg
+
+{Reactions}
+👍 (2) 
+
+[10/16/2021 2:04 AM] ProSavage#7131
+built rack for rig 3 today
+
+
+[10/16/2021 2:04 AM] ProSavage#7131
+will be 10 more gpu
+
+
+[10/16/2021 5:37 AM] Dv#3650
+Upgraded the wire rack, another 12 cards online. Booted first try 🙏
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/898791867083288586/20211016_003037.jpg
+
+{Reactions}
+👍 (2) 
+
+[10/16/2021 10:54 AM] Ananas#9063
+@Dv you are EU right? I cannot find that wire rack anywhere in EU shops
+
+
+[10/16/2021 10:55 AM] Dv#3650
+Na
+
+
+[10/16/2021 10:55 AM] Ananas#9063
+Ah
+
+
+[10/16/2021 10:55 AM] Dv#3650
+Got this one from Amazon though
+
+
+[10/16/2021 10:56 AM] Dv#3650
+Basically the only place I could find one decently priced
+
+
+[10/16/2021 10:56 AM] Ananas#9063
+How are temps looking? I think its suboptimal to not have a fan blowing inbetween the cards
+
+
+[10/16/2021 10:56 AM] Dv#3650
+I have one behind, it's a tower fan
+
+
+[10/16/2021 10:56 AM] Dv#3650
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/898872128135393320/20211012_160930.jpg
+
+
+[10/16/2021 10:57 AM] Dv#3650
+It blows directly down the middle of both rigs
+
+
+[10/16/2021 10:57 AM] Ananas#9063
+What m3/h is the fan rated for?
+
+
+[10/16/2021 10:57 AM] Ananas#9063
+Or cfm
+
+
+[10/16/2021 10:57 AM] Ananas#9063
+Ah I found this rack on german amazon, its amazon basic
+
+
+[10/16/2021 10:58 AM] Dv#3650
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/898872478426873896/Screenshot_20211016-055809_Hive_OS.png
+
+
+[10/16/2021 10:58 AM] Ananas#9063
+It's 5 levels in total, right?
+
+
+[10/16/2021 10:58 AM] Ananas#9063
+You just dont use one level
+
+
+[10/16/2021 10:58 AM] Dv#3650
+It's 4, it's a small one
+
+
+[10/16/2021 10:59 AM] Dv#3650
+Only 4 foot tall
+
+
+[10/16/2021 10:59 AM] Dv#3650
+Not sure to be honest
+
+
+[10/16/2021 11:01 AM] Ananas#9063
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/898873204586717204/Screenshot_20211016-120022487_1.jpg
+
+
+[10/16/2021 11:01 AM] Ananas#9063
+Have you tried placing the tower fan to aim that way?
+
+
+[10/16/2021 11:01 AM] Dv#3650
+Aim which way?
+
+
+[10/16/2021 11:01 AM] Ananas#9063
+To blow towards where the red arrows point
+
+
+[10/16/2021 11:02 AM] Dv#3650
+Ohh no I have not
+
+
+[10/16/2021 11:02 AM] Ananas#9063
+Pretty sure you have small hot air bubbles between cards
+
+
+[10/16/2021 11:02 AM] Ananas#9063
+That make all of them hotter, because they are intaking the air that is heated up by the other card's backplate
+
+
+[10/16/2021 11:02 AM] Dv#3650
+Probably, but the tower fan won't be able to cover width of the rack that way
+
+
+[10/16/2021 11:02 AM] Ananas#9063
+Ur right
+
+
+[10/16/2021 11:02 AM] Dv#3650
+It's a pretty directed stream
+
+
+[10/16/2021 11:03 AM] Ananas#9063
+i'd find two box fans and put them on the top level, blowing upwarda
+
+
+[10/16/2021 11:03 AM] Dv#3650
+It's a temporary solution anyway, end game is a grow tent
+
+
+[10/16/2021 11:03 AM] Ananas#9063
+Towards the ceilinf
+
+
+[10/16/2021 11:04 AM] Dv#3650
+Yea that's the issue lol it's in somewhat of a closet haha
+
+
+[10/16/2021 11:04 AM] Dv#3650
+Built everything with the intention of using a grow tent
+
+
+[10/16/2021 11:04 AM] Dv#3650
+Just haven't gotten to that point yet
+
+
+[10/16/2021 11:05 AM] Ananas#9063
+Ah I see
+
+
+[10/16/2021 11:06 AM] Dv#3650
+Wired all this up a few weekends back, 3rd circuit is for my attic when my ASIC gets here. But grow tent is going to vent up above through the attic and outside
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/898874451473596447/20211016_060509.jpg
+
+
+[10/16/2021 11:06 AM] Ananas#9063
+Oo nice
+
+
+[10/16/2021 11:06 AM] Ananas#9063
+The rack is 54 inches tall, right? I think i found it
+
+
+[10/16/2021 11:06 AM] Ananas#9063
+I dig the shelf
+
+
+[10/16/2021 11:06 AM] Dv#3650
+48 inches
+
+
+[10/16/2021 11:07 AM] Ananas#9063
+Im debating if i should get the 4 or 5 level one
+
+
+[10/16/2021 11:07 AM] Dv#3650
+Well I was going to send you the Amazon link but it doesn't exist anymore lol
+
+
+[10/16/2021 11:09 AM] Dv#3650
+It's 23x13½x48
+
+
+[10/16/2021 11:11 AM] Dv#3650
+Got these as open box for $170, normally retail for almost $900, gonna use one of them for the wire rack and the other for the ASIC
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/898875869341319188/20211013_155708.jpg
+
+
+[10/16/2021 11:11 AM] Dv#3650
+About 500 cfm each
+
+
+[10/17/2021 12:30 AM] acadian.eth#2222
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/899076767917166612/20211013_154319.jpg
+
+{Reactions}
+😆 😥 bruh (3) uwotm8 (3) 
+
+[10/17/2021 12:30 AM] acadian.eth#2222
+My footwarmer rig (racks are too expensive rn qqq)
+
+
+[10/18/2021 3:47 AM] ercovero#0957
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/899488908881051699/unknown.png
+
+
+[10/18/2021 3:48 AM] Gytis#3049
+That's a lot of pcie lanes
+
+
+[10/18/2021 4:08 AM] ercovero#0957
+And 2 more gpu left hahaha waiting for msrp goodies
+
+
+[10/18/2021 12:15 PM] Attila#3944
+you could probably go lower on wattage on your 3060tis
+
+
+[10/18/2021 12:16 PM] Attila#3944
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/899617039843475528/unknown.png
+
+
+[10/18/2021 12:34 PM] ercovero#0957
+Dont get any better, and cant go near 2000 mem they crash, also free energy here but ty
+
+{Reactions}
+👍 (3) 
+
+[10/18/2021 4:59 PM] Aquaritek#9015
+Don't have a shot of the rigs themselves but here's what I'm working with. A lot of older 1000 series surprising all of them working without a hitch for 3yrs now in total lol
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/899688101797044244/unknown.png
+
+{Reactions}
+🔥 
+
+[10/18/2021 9:17 PM] Ananas#9063
+@Aquaritek what cards you running?
+
+
+[10/18/2021 10:25 PM] Aquaritek#9015
+I've got 20 1070tis, 4 1080tis, 2 1080's, and 2 3060tis (non-lhr)
+
+
+[10/19/2021 2:37 AM] Runstyle#5968
+just curious, i think ETH would be more profitable for them 10 series cards
+
+
+[10/19/2021 2:37 AM] Runstyle#5968
+mine ETH -> buy ERGO
+
+
+[10/19/2021 3:21 AM] Aquaritek#9015
+It's not that different. Maybe 10 bucks a day.
+
+
+[10/19/2021 3:22 AM] Aquaritek#9015
+Atleast at the moment
+
+
+[10/19/2021 3:25 AM] Aquaritek#9015
+Autolykos2 is the give my cards a break algo when it's not that difficult to mine. When you calculate power costs into the mix AL2 is about 35 to 40% more efficient which in the end nets about 10 bucks or so. Realistically I switched over right before the diff jump yesterday and the difference was only pennies.
+
+
+[10/19/2021 3:31 AM] Aquaritek#9015
+These old cards though will only do about 0.85MH/W or so. I'm just surprised they're still going. I've been mining on these rigs for 3 years. Not a hitch lol. I even ran x16R on these puppies full blast for a year back in the day. That was a "hot" algo lol.
+
+
+[10/19/2021 1:03 PM] geezar#8187
+the 80ti's surprised me on this algo - what hash are you seeing out of interest?
+
+
+[10/19/2021 3:57 PM] Aquaritek#9015
+My 1080tis are running 115MH at 140W I would bet I could lower tthe wattage but 140 is the floor can't lower it further. My 1080s are doing just shy of 80mh at 100w and the 1070tis are doing 72 to 73mh at 90w.
+
+
+[10/19/2021 4:19 PM] geezar#8187
+Yep - I managed to squeeze out 120 MH/s 139w 225/1800/140PL - great performance, I also used to have it on x16r and even ETH when they did 55 MH/s with the pill - good luck with it - 10 series still delivering the goods 👍
+
+{Reactions}
+💯 
+
+[10/22/2021 9:12 AM] CH#6305
+My 1st rig 2 vega 56s and a 64 530mh ergo and 4 5700s  also have a non LHR 3070 on eth too so 282mh exactly 1kw from the wall total…still have to tidy it lol… will be adding more Vegas I can get my hands on to the top to reach 1 gig 😊
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/901020242988384306/image0.jpg
+
+{Reactions}
+👍 (3) 
+
+[10/26/2021 4:42 AM] Mlorp#2578
+3090 internal temps are so high 😓
+
+
+[10/26/2021 6:46 PM] gilgaMesh#8262
+***Blower design air boost Vega 56*** -  *hold my beer 🍺*
+
+
+[10/27/2021 12:57 PM] Sazzik#9402
+First rigg. 
+850W psu 
+i5-3570k 3,40 Ghz
+3x1050ti 4gb, 1x1060 3gb, 1x1070 8gb, 1x1080ti 11gb. 
+
+And then 1x3080ti in my PC
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/902888777062682644/20211024_191739.jpg
+
+{Reactions}
+🦾 (2) 
+
+[10/27/2021 1:32 PM] acadian.eth#2222
+mine is sitting at 102 mem rn mining ETH, waiting on pads 😦
+
+
+[10/27/2021 3:58 PM] BrothaChad#0168
+https://www.youtube.com/watch?v=gHuznZXgT0s
+
+{Embed}
+TheMiningApple
+https://www.youtube.com/watch?v=gHuznZXgT0s
+1GH+ Ergo Mining Rig Showcase: 8x 3070 GPUs
+Hope you like the rig!! Sub for more ergo and cardano content :D
+
+Song: Nostalgia & Aami ft. Insomnia - Bad Machine
+
+#ergo #mining #cryptocurrency #ergonaut
+https://images-ext-1.discordapp.net/external/XRQSWtc1rxq5Lz4ICaCZYRzBgXT7Jsviu93ADWc1JO0/https/i.ytimg.com/vi/gHuznZXgT0s/maxresdefault.jpg
+
+{Reactions}
+4379_ShrekStare 
+
+[10/28/2021 11:07 AM] geezar#8187
+Some velcro ties or zip ties would work well on that setup - nice numbers @pieter 👍
+
+
+[10/28/2021 11:07 AM] geezar#8187
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/903223490843377674/unknown.png
+
+
+[10/30/2021 8:40 AM] Kiljoy#3695
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/903911304979443782/unknown.png
+
+
+[10/30/2021 8:40 AM] Kiljoy#3695
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/903911344636592188/IMG_0312.jpg
+
+
+[10/30/2021 8:40 AM] Kiljoy#3695
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/903911346104569857/unknown.png
+
+
+[10/30/2021 8:49 AM] Kiljoy#3695
+Box fans 💪
+
+
+[10/30/2021 12:35 PM] geezar#8187
+❤️
+
+
+[10/30/2021 12:35 PM] geezar#8187
+@Kiljoy curious - stunning setup but never considered a grow tent?
+
+
+[10/30/2021 12:48 PM] Kiljoy#3695
+Yeah not enough airflow, to combat the heat I have intake and exhausts MUCH bigger than a few 6’’ holes will allow in a grow tent even with high CFM fans
+
+
+[10/30/2021 2:29 PM] geezar#8187
+Yep for sure you would need twin 720's and 8" at least for your setup
+
+
+[10/30/2021 2:30 PM] geezar#8187
+non active intake I've found OK as long as you have sufficient negative pressure and high CFM that said
+
+{Reactions}
+💯 
+
+[10/30/2021 2:31 PM] geezar#8187
+its funny - the math to work out the CFM means nothing to mining over herb*... x10 the CFM touching the surface
+
+
+[10/30/2021 5:24 PM] Kiljoy#3695
+Unless you substitute co2 then you want less airflow! Growing my plants takes much less cfm than cooling my rigs
+
+
+[10/30/2021 6:11 PM] geezar#8187
+Hahahahah @Kiljoy
+
+{Reactions}
+💚 (2) 
+
+[11/01/2021 1:09 PM] acadian.eth#2222
+I have a medical license here in canada to legally grow 25 plants indoors... I could have quite the warehouse with plants and miners by next year 😆
+
+{Reactions}
+💪 (2) 
+
+[11/01/2021 1:09 PM] acadian.eth#2222
+does your power company ask any questions? lol
+
+
+[11/01/2021 1:58 PM] Kiljoy#3695
+oh no im on the US west coast in probably the largest growing state in the country, I have my medical card as well. Im just a little fish to the power company! 🙌
+
+{Reactions}
+👍 
+
+[11/03/2021 2:11 AM] ercovero#0957
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/905278002630369280/IMG_20211102_220950.jpg
+https://cdn.discordapp.com/attachments/897571711468310568/905278002894606366/IMG_20211102_220920.jpg
+https://cdn.discordapp.com/attachments/897571711468310568/905278003104342087/IMG_20211102_221039.jpg
+https://cdn.discordapp.com/attachments/897571711468310568/905278003339214909/IMG_20211102_220844.jpg
+
+
+[11/03/2021 5:32 PM] Kiljoy#3695
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/905509797321924618/IMG_0323.mov
+
+
+[11/03/2021 8:44 PM] Mattycool#2153
+Hi Killing no dust protection ? When I see how much dust my coarse mesh catch I imagine your fins could be full pretty soon right ..
+
+
+[11/03/2021 8:45 PM] Kiljoy#3695
+noooo they're good. when i move them i blow them out and clean every so often
+
+
+[11/03/2021 8:46 PM] Mattycool#2153
+Ok ^^ good job then
+
+
+[11/03/2021 8:48 PM] Kiljoy#3695
+thanks! also im sure im not doing anything the ideal way it just works for me so far theyve been happy
+
+
+[11/05/2021 11:37 PM] Aquaritek#9015
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/906326307795767296/20211105_171922.jpg
+https://cdn.discordapp.com/attachments/897571711468310568/906326307992916029/20211105_171935.jpg
+https://cdn.discordapp.com/attachments/897571711468310568/906326308223610910/20211105_171938.jpg
+
+{Reactions}
+❤️ (5) 💪 🔥 
+
+[11/05/2021 11:37 PM] Aquaritek#9015
+My mining crawlspace haven lol.
+
+
+[11/05/2021 11:39 PM] Aquaritek#9015
+I've been mining forever some of those cards are oldies. 20x 1070ti, 6x 1080ti, 2x3060ti, 18x 3060. Erg hash 4.5Gh.
+
+
+[11/05/2021 11:40 PM] Aquaritek#9015
+Planning expansion into second chamber down there with another 30a 240 circuit soon.
+
+
+[11/06/2021 1:53 AM] Kiljoy#3695
+wow making the most of that space for sure, looks great!
+
+{Reactions}
+👍 
+
+[11/06/2021 7:13 PM] acadian.eth#2222
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/906622447539871794/20211106_161131.jpg
+https://cdn.discordapp.com/attachments/897571711468310568/906622448227721326/20211106_160723.jpg
+
+{Reactions}
+👍 
+
+[11/06/2021 7:14 PM] acadian.eth#2222
+First rack complete, 4x 3080ti, max I can put on a 15A circuit
+
+
+[11/06/2021 7:59 PM] pieter#3957
+@acadian.eth switched cpu?
+
+
+[11/07/2021 12:28 AM] Marc the Shark#2053
+Currently Solo Mining @ 50% effort 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/906701726692806746/unknown.png
+
+
+[11/07/2021 12:35 AM] Marc the Shark#2053
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/906703290492928080/IMG_4371.jpg
+
+{Reactions}
+❤️ (3) 
+
+[11/07/2021 8:37 AM] ABennabi#3974
+Rip to that now after the update
+
+
+[11/07/2021 8:37 AM] ABennabi#3974
+I have 8 Vegas and I'm fucked. 27% hashrate drop
+
+
+[11/07/2021 5:56 PM] Tandera#4745
+have 20 already changed the algo its not worth it anymore for vegas
+
+
+[11/28/2021 6:16 PM] curbsideprophet#5083
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/914580475761291304/DDFABC2D-8EDF-4BC8-9206-7A95B7AFCC2F.jpg
+
+{Reactions}
+ergo_white (2) 🍺 
+
+[11/29/2021 6:53 PM] Salu#0001
+guys, anyone know where to get 140mm fans gpu rig frames?
+
+
+[11/29/2021 8:07 PM] Doomelf#7740
+https://www.newegg.com/
+
+
+[11/29/2021 8:08 PM] Doomelf#7740
+https://www.amazon.com/
+
+
+[11/30/2021 2:23 AM] abashai#9101
+What's it hash? 2 PSUs?
+
+
+[12/01/2021 6:05 AM] Salu#0001
+well duh but all the frame support 120mm fans but i have 140 fans
+
+
+[12/01/2021 12:57 PM] Attila#3944
+Flip’em
+
+
+[12/01/2021 1:08 PM] Salu#0001
+Sell the fans? Ugh might have to
+
+
+[12/01/2021 1:16 PM] Attila#3944
+Costs less to get fans that go with an easy to source rig
+
+
+[12/01/2021 3:19 PM] Salu#0001
+Fair enough, one more question
+
+
+[12/01/2021 3:20 PM] Salu#0001
+Is it wise to power a vega 64 with a single 8+6+2 cable?
+
+
+[12/02/2021 5:04 PM] ProSavage#7131
+New rig
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/916012015154237470/IMG_0243.jpg
+
+
+[12/06/2021 4:07 PM] gnuion#3794
+good old days
+
+
+[12/06/2021 4:49 PM] greenpanther#2309
+Not a Rig.. But just started my journey with a new laptop. 
+
+Lenovo Legion 5 - RTX 3050 Ti
+
+
+[12/06/2021 10:28 PM] geezar#8187
+What hash rate is that doing? Around 40 MH/s?
+
+
+[12/07/2021 3:06 AM] greenpanther#2309
+72 MH/s
+
+{Reactions}
+👍 
+
+[12/07/2021 8:40 AM] greenpanther#2309
+I think I am the only one using 3050 Ti
+
+
+[12/07/2021 4:45 PM] geezar#8187
+Really 72 MH/s! thats really good - not seen any posts about that mobile GPU
+
+
+[12/07/2021 4:46 PM] geezar#8187
+@greenhat have you tried ETH?
+
+
+[12/07/2021 4:46 PM] greenpanther#2309
+Yeah.. I have been trying to find out something on 3050 Ti too. But couldn't find anything
+
+
+[12/07/2021 4:46 PM] geezar#8187
+RVN guessing around 10-12 MH/s
+
+
+[12/07/2021 4:46 PM] greenpanther#2309
+I tried. But not much NVRAM
+
+
+[12/07/2021 4:46 PM] greenpanther#2309
+its 4GB
+
+
+[12/07/2021 4:46 PM] geezar#8187
+gotcha
+
+
+[12/07/2021 4:46 PM] greenpanther#2309
+RVN yes.. With stock settings it was 10-12.. Didn't try by tweaking or overclocking.
+
+
+[12/07/2021 4:47 PM] greenpanther#2309
+Still contemplating whether I should try something else. Will stick to Ergo for now while I explore and study about RVN and Vert
+
+
+[12/07/2021 4:47 PM] geezar#8187
+$39 USD per month on a basis as of today $1.30 yield per day or 0.2 ERG not bad at all
+
+
+[12/07/2021 4:48 PM] geezar#8187
+Does it heat the keyboard up and generally get annoying to do productivity tasks etc whilst mining?
+
+
+[12/07/2021 4:48 PM] geezar#8187
+any idea of the power draw ?
+
+
+[12/07/2021 4:48 PM] greenpanther#2309
+Yep.. Its running for about 2.5 days now. Started sunday afternoon. Its Tue night here.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/917819872438812682/unknown.png
+
+
+[12/07/2021 4:48 PM] geezar#8187
+nice
+
+
+[12/07/2021 4:48 PM] greenpanther#2309
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/917819976776294490/unknown.png
+https://cdn.discordapp.com/attachments/897571711468310568/917819977065697280/unknown.png
+
+
+[12/07/2021 4:48 PM] greenpanther#2309
+I am assuming its not hitting me too bad.
+
+
+[12/07/2021 4:49 PM] geezar#8187
+Wonder what the total power consumption is when mining at the wall
+
+
+[12/07/2021 4:49 PM] geezar#8187
+thats great efficiency
+
+
+[12/07/2021 4:49 PM] greenpanther#2309
+Thats the dashboard. 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/917820196432015371/unknown.png
+
+{Reactions}
+👍 
+
+[12/07/2021 4:50 PM] geezar#8187
+1st post I've seen on this mobile GPU - you should post up on the google sheet
+
+
+[12/07/2021 4:50 PM] geezar#8187
+https://docs.google.com/spreadsheets/d/1NsuoDB27EwCo_BlSjCP3GMLfTSJRPIWIBsL-wPTllUg/edit#gid=1675061291
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1NsuoDB27EwCo_BlSjCP3GMLfTSJRPIWIBsL-wPTllUg/edit
+Ergo Miners Hashrates and GPU settings (Responses)
+Overview
+
+To enter your OC settings and Hashrates click on this link to a Google Form
+Efficiency,AMD or Nvidia,GPU Series ,GPU Manufacturer,GPU Model,Memory size (VRAM) [GB],Memory Ty...
+https://images-ext-2.discordapp.net/external/Yg86gBTw2_2HsKj5zlYVkmI6Iffc_pOotSjmofoKj1Q/https/lh4.googleusercontent.com/6NK2Dik17CtbydRxaHTbBO4Tc5xa5xowlFViXz_dhER4PHThuSUpXISfYqHb7VIzn-cCYd4OvqLlTQ%3Dw1200-h630-p
+
+
+[12/07/2021 4:50 PM] greenpanther#2309
+Already did.
+
+
+[12/07/2021 4:50 PM] greenpanther#2309
+🙂
+
+{Reactions}
+👍 
+
+[12/07/2021 4:51 PM] geezar#8187
+What is the average purchase price on those laptops?
+
+
+[12/07/2021 4:52 PM] geezar#8187
+Only thing I can compare that too is mabye the P106's, Polaris or 1070's personally speaking but for more power for that hash - thanks for sharing
+
+
+[12/07/2021 4:52 PM] greenpanther#2309
+1050$
+
+
+[12/07/2021 4:52 PM] geezar#8187
+26 month ROI if mining - but if the price increases... long term nice way of paying the thing off
+
+
+[12/07/2021 4:53 PM] greenpanther#2309
+Yeah.. Hoping for that..
+
+
+[12/07/2021 4:53 PM] geezar#8187
+Wonder what the CPU will do on RTM haha
+
+
+[12/07/2021 4:53 PM] geezar#8187
+🙂
+
+
+[12/07/2021 4:54 PM] greenpanther#2309
+I heard of that too.. might give it a try.
+
+
+[12/07/2021 4:54 PM] geezar#8187
+6 ERG from a laptop per month give or take not bad at all stashed in a wallet
+
+
+[12/07/2021 4:54 PM] greenpanther#2309
+But don't want to tire the dude too early.
+
+
+[12/07/2021 4:54 PM] geezar#8187
+yep - have a look https://mineraptoreum.com/ - GL dude
+
+{Embed}
+https://mineraptoreum.com/
+Raptoreum Mining Hashrate Calculator
+Raptoreum Mining Hashrate Calcultor
+
+
+[12/07/2021 4:56 PM] greenpanther#2309
+Yep.. I had seen it. Got confused in crrating a wallet.
+
+
+[12/07/2021 4:58 PM] greenpanther#2309
+Btw are these power spikes normal?
+
+
+[12/08/2021 9:37 PM] andee#4722
+zelcore is a rtm wallet alternative, I tried syncing the official wallet but it was stuck at 0.02% after 4 hours
+
+
+[12/08/2021 9:38 PM] andee#4722
+adding extra peers had no effect
+
+
+[12/09/2021 9:59 AM] greenpanther#2309
+Thanks. Will check zelcore
+
+
+[12/15/2021 3:44 PM] Awdi4Life#9782
+Damn not many pics in here
+
+
+[12/15/2021 3:48 PM] Awdi4Life#9782
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/920703911550140466/20211215_074751.jpg
+
+{Reactions}
+❤️ (8) 
+
+[12/15/2021 3:49 PM] Awdi4Life#9782
+12x rtx 3080ftw3 ^^^^^^
+
+
+[12/15/2021 7:26 PM] curbsideprophet#5083
+looks awesome very clean
+
+
+[12/15/2021 7:27 PM] curbsideprophet#5083
+Mine is a mess lol (1 of 6 racks)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/920758983810236436/274A7896-C391-476C-BB21-19645EC48CB5.jpg
+
+
+[12/16/2021 10:40 AM] Gazza_SP#5835
+What a beautiful beast
+
+
+[12/16/2021 10:40 AM] Gazza_SP#5835
+2.5GH/s + I guess?
+
+
+[12/16/2021 1:10 PM] Awdi4Life#9782
+Yea about that.
+
+
+[12/17/2021 6:25 PM] Boldimore#5357
+12 3070 ti 😋
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/921468223923318864/20211216_121621.jpg
+
+{Reactions}
+🍺 (3) 
+
+[12/17/2021 6:28 PM] Boldimore#5357
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/921468933758935040/20211025_153623.jpg
+
+
+[12/19/2021 10:17 AM] geezar#8187
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/922070020119486474/unknown.png
+
+
+[12/19/2021 10:17 AM] geezar#8187
+Juiced up... 👀
+
+
+[12/19/2021 3:34 PM] acadian.eth#2222
+ahh a new Aorus I see.. your egg hasn't even hatched yet :p
+
+
+[12/19/2021 10:49 PM] andee#4722
+damn, that thing will probably cover 2 pci-e slots in a desktop
+
+
+[12/28/2021 6:06 PM] AggerGakker#4449
+2-5 to 3 is my guess
+
+
+[12/28/2021 6:37 PM] nox071218#1778
+cant wait for eth to move to POS; i want to build a rig as nice as some of the ones i see in here; i'm no good at finding decent GPU prices so i hope some eth miners give up and give me thier rig/GPUs for a discount
+
+
+[12/31/2021 4:19 AM] Awdi4Life#9782
+@curbsideprophet 
+Check these out, something to consider for some organization, I wouldn't use these in particular but there's many things like this you can do to organize them, I bet you could find a free file  online for some type of similar mount and have them printed urself cheap/free.
+
+https://www.etsy.com/ca/listing/1037750204/1-crypto-mining-stand-mounting-for?ref=related-5
+
+{Embed}
+https://www.etsy.com/ca/listing/1037750204/1-crypto-mining-stand-mounting-for?ref=related-5
+1 Crypto Mining Stand Mounting for Hanging GPU in Wire | Etsy Canada
+Crypto Mining Stand Mounting for hanging GPU in Wire Shelving. Excelent for organizing GPUs in wiring shelvings. By default these stands are 3D printed with PETG COLOR BLACK. PETG its a very strong and durable plástic. >>>PLEASE, BEFORE BUYING PAY ATTENTION TO THE PARAGRAPHS BELLOW<<<  1. Not all
+https://images-ext-2.discordapp.net/external/XPq6oPF2ZCJ0i72XLnxPPcW7IXq-vHRlEWY52vfHxIA/https/i.etsystatic.com/20143858/r/il/07aad7/3205503726/il_570xN.3205503726_tpax.jpg
+
+
+[01/01/2022 1:48 AM] netocanastra#3619
+3 - rx570 / 3 - 3060 LHR / 1 - 6600xt / 1 - Vega 56
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/926652998048964648/F13EA5C5-AF98-443B-97CD-1B482A8F0849.jpg
+https://cdn.discordapp.com/attachments/897571711468310568/926652998359322666/CEE2AFD4-6618-4A4C-A0A8-476C072AD3F6.jpg
+
+
+[01/02/2022 7:05 AM] Spinethetic#1502
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/927095119407095878/1.jpg
+
+
+[01/02/2022 7:05 AM] Spinethetic#1502
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/927095134724718642/2.jpg
+
+
+[01/02/2022 7:05 AM] Spinethetic#1502
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/927095152445644821/3.jpg
+
+
+[01/02/2022 7:05 AM] Spinethetic#1502
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/927095173165482034/4.jpg
+
+
+[01/02/2022 7:05 AM] Spinethetic#1502
+2x AMD Ryzen 9 3900X <https://www.amazon.com/AMD-Ryzen-3900X-24-Thread-Processor/dp/B07SXMZLP9>
+4x ZOTAC 3070 Ti AMP HoloBlacks <https://www.amazon.com/ZOTAC-Graphics-HoloBlack-IceStorm-ZT-A30710F-10P/dp/B096TZHXYN>
+2x MSI Performance Gaming AMD X470 boards <https://www.amazon.com/MSI-Performance-Gaming-X470-Plus/dp/B07Y468HV3>
+2x SunFounder Raspberry Pi 4 Display Touchscreen 7 Inch HDMI 1024×600 USB IPS LCD Screen Display Monitors <https://www.amazon.com/SunFounder-Raspberry-Touchscreen-1024%C3%97600-Capacitive/dp/B07Y889J3X>
+1x EVGA SuperNOVA 1300 G2 80+ GOLD, 1300W psu <https://www.amazon.com/EVGA-Supernova-Crossfire-Warranty-120-G2-1300-XR/dp/B00COIZTZM>
+1x EVGA SuperNOVA 1000 G+, 80 Plus Gold 1000W psu <https://www.amazon.com/EVGA-SuperNOVA-Modular-Warranty-120-GP-1000-X1/dp/B0797D5WHH/>
+4x top of the line twistie ties to hang the screens
+
+
+[01/14/2022 3:36 AM] MrDjordje93#9559
+For sale in Germany
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/931391284600520714/3C7C07C4-1A4D-46C9-893D-CFC7A56D0B6B.jpg
+
+
+[01/14/2022 11:22 AM] blackinsecure#3693
+how much?
+
+
+[01/14/2022 3:14 PM] MrDjordje93#9559
+5000€
+
+{Reactions}
+thonk (2) 
+
+[01/15/2022 9:56 PM] Brad#3375
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/932030480285597766/CC0B1D75-0947-45DB-8956-FB12DD4344A8.jpg
+https://cdn.discordapp.com/attachments/897571711468310568/932030480944074773/F7256AF8-ACAE-4861-8BCE-D3DA5381BE94.jpg
+https://cdn.discordapp.com/attachments/897571711468310568/932030481854234664/1D4AAC7A-2AF1-4AF9-8289-B3465CD15B08.jpg
+
+
+[01/15/2022 9:58 PM] Brad#3375
+Not everything pictured here.
+3080 non LHR
+3060 non LHR
+3060 LHR
+5700xt x 8
+5500xt 
+1660 Super X 9
+Rx 470/570 8gb x 10
+rx 470 4gb X 14
+
+
+[01/17/2022 3:36 AM] PtrckCrypto#7188
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/932478396959686696/20220116_203611.jpg
+
+
+[01/17/2022 3:36 AM] PtrckCrypto#7188
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/932478463414259742/20211031_151151.jpg
+
+
+[01/17/2022 3:38 AM] PtrckCrypto#7188
+My current setup. Dedicated 220 amps on 240. I have 41 gpus running and continuing to get more. Thanks for looking
+
+{Reactions}
+👍 (4) 827641054337171476 
+
+[01/17/2022 3:40 AM] PtrckCrypto#7188
+Impressive. What's your hashrate?
+
+
+[01/17/2022 8:04 AM] Brad#3375
+2.6ish gh/s
+
+
+[01/17/2022 1:20 PM] PtrckCrypto#7188
+Thats whats up! If you decide you want to sell let me know. I won't pay eBay prices though ahah
+
+
+[01/25/2022 3:11 PM] 91#3546
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/935552342386958346/E1C58A03-14AA-43E7-B8AC-C121590677D0.jpg
+
+
+[01/29/2022 10:09 AM] shivshuttler#9335
+What hashrate u are getting on 3060 lhr?
+
+
+[01/29/2022 5:13 PM] blackinsecure#3693
+100-105 no OC
+
+
+[01/29/2022 5:38 PM] Brad#3375
+^
+
+
+[02/20/2022 7:43 PM] JacobMichael#8318
+15x 3060
+3x 3060ti
+3x 3070ti
+1x 3080ti
+1x p106-100
+
+Adding another 3x 3060 next week. Should break 3 gh/s when those are up. Shout out to @Gainzez
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/945043087103774740/IMG_8816.jpg
+
+{Reactions}
+ergo_orange (2) 
+
+[02/23/2022 1:37 AM] Gainzez#4967
+ERGO 1 rates to follow this up @JacobMichael
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/945856801038041188/unknown.png
+
+
+[02/23/2022 10:04 AM] Runstyle#5968
+u cud hit 120mh/s on those 3060
+
+
+[02/23/2022 8:51 PM] Gainzez#4967
+Haven't found that sweet spot yet! Please opine!
+
+
+[02/24/2022 3:52 AM] Runstyle#5968
+Are those v2 or v1? They have different settings
+
+
+[02/24/2022 4:57 PM] blackinsecure#3693
+I have 8x 3060v2 and they are all around 104MHs
+
+
+[03/05/2022 7:02 AM] Attila#3944
+Finally consolidated my two rigs into one. I planned to deposit it in a datacenter but they canceled at the last minute so I just rolled with it. Asrock q270 working beautifully. Using 3x850W. This setup allowed me to keep one of my 6 card rigs empty and ready for deployment whenever I can scoop up cards at a discount and I will be selling the other 6 card rig I gutted for parts. Also saving around 70W when compared to split operation. Still mining ETH and buying ERG off it though. Hope it will be worth it to straight up mine ERG soon. For comparison, the very first post in this channel was my two initial rigs, without the 3080ti 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/949562548049543228/1881D449-F856-4562-AF96-CCF12F8776A5.jpg
+
+{Reactions}
+💯 (3) 🔥 (4) 🤩 
+
+[03/06/2022 7:12 PM] Doomelf#7740
+new rig build
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/950108746607112192/IMG_6684.png
+
+{Reactions}
+♥️ (3) 
+
+[03/09/2022 2:40 AM] Gainzez#4967
+Sorry for the belated reply, they are super new, have to be V2
+
+
+[03/09/2022 2:42 AM] Gainzez#4967
+You can get V2 up to 107-110 MH/s i've found that -502, 1250 or 1300 and 60% power give you that solid
+
+
+[03/09/2022 2:42 AM] Gainzez#4967
+103.9/104 is default MH/s without any OC for 3060's
+
+
+[04/01/2022 8:28 PM] vzl#2000
+Rx470/570
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/959534810894852106/EDFF301E-F0C9-4908-B3B0-BC415E3D25AE.jpg
+
+{Reactions}
+✅ 🔥 (3) 
+
+[04/02/2022 5:33 AM] DasFoxx#2457
+I like the wireless setup
+
+{Reactions}
+😂 (2) 
+
+[04/17/2022 6:34 PM] GPU STR DSTRYR#2445
+My rig, she’s a blessing, we ain’t stressing, hit em with that ranch dressing!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/965304225993203772/7FB2AD4F-8712-4713-8754-078302BA7C5F.jpg
+
+{Reactions}
+🤣 
+
+[04/18/2022 6:27 PM] stryke23x#4945
+Is there anywhere that we can list rigs for sale?
+
+
+[05/11/2022 4:12 AM] CW#8500
+Hey all, like to share some info and pics of your mining rigs? I'd like to cover our miners rigs/setups (no matter the size) on the Ergo Platform Twitter for "Miners Monday". 
+
+If interested please provide info such as the following, hashrate, number/type of gpus, wattage, twitter/discord etc to be featured!
+
+
+[05/11/2022 8:16 AM] sikkan#6377
+5x p106-100, 3x gtx 1060 6 gb and 7x rx 460 4 gb. total of 688 mhs @ 950w including cooling box fan at 60w and mobos, psus etc 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/973845960277000223/miner.jpg
+
+{Reactions}
+💯 (4) 
+
+[05/11/2022 8:17 AM] sikkan#6377
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/973846218776129546/unknown.png
+
+
+[05/23/2022 2:07 AM] TheSentientNFT#0744
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/978101864858017832/image0.jpg
+
+
+[05/23/2022 2:07 AM] TheSentientNFT#0744
+Some assembly required 😪
+
+
+[05/27/2022 3:43 AM] vzl#2000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/979575523720183818/IMG_0971.jpg
+
+
+[05/30/2022 7:16 PM] Xegrilt#7685
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/980897515912196126/unknown.png
+
+{Reactions}
+👌 (3) 🧐 
+
+[06/17/2022 2:24 AM] McOwnd4114(riglife)#9287
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/987165792187613194/unknown.png
+
+{Reactions}
+👍 
+
+[06/22/2022 4:29 AM] 0xMNITY#6979
+pretty
+
+
+[06/26/2022 7:27 AM] Muzi#9079
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/990503510594453514/IMG_1774.jpg
+https://cdn.discordapp.com/attachments/897571711468310568/990503511596863488/IMG_1744.jpg
+
+
+[06/26/2022 9:04 AM] blackinsecure#3693
+that's one way to keep your clothes warm
+
+
+[06/26/2022 9:17 AM] Muzi#9079
+🤣
+
+
+[06/28/2022 2:41 AM] AllCloudy | GetBlok.io#1273
+No need to press the shirts. Just wash them and hang to dry
+
+
+[07/05/2022 3:47 PM] nox071218#1778
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/993890988684759180/20220704_163542.jpg
+
+{Reactions}
+👍 (8) 
+
+[07/28/2022 12:35 AM] quash#3653
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/1001996202742665216/IMG_20220727_163457.jpg
+
+
+[07/28/2022 12:35 AM] quash#3653
+I am but a humble hobbyist. Three 8GB RX 580s do my mining while a single 4GB RX 480 takes care of everything else.
+
+
+[07/28/2022 2:34 PM] Breakfasto#1552
+Hello! Here's my shed farm lol https://imgur.com/a/V9ytNoH
+
+{Embed}
+https://imgur.com/a/V9ytNoH
+Riga
+https://images-ext-2.discordapp.net/external/CqQlRPwLh1zd_w9QprAaLg73elpArRkJoY8MRS-lhww/https/i.imgur.com/XCukK3Ah.jpg
+
+{Reactions}
+ergo_orange (3) 🔥 (2) 
+
+[07/28/2022 2:40 PM] Breakfasto#1552
+Got my gaming PC mining ERG as well 😄 
+https://imgur.com/a/d1lngIS
+
+{Embed}
+https://imgur.com/a/d1lngIS
+3090
+https://images-ext-1.discordapp.net/external/AWbeglOvvbec6Ao9AjkVFsbC_E50ADykjWkRov9M-dE/https/i.imgur.com/pCPfFa2h.jpg
+
+
+[08/18/2022 11:40 AM] BrothaChad#0168
+hey, how much mhs did u get on the p106-100? did u figure what it maxes out at regardless of power considerations? and what overclocks r u running if i may ask
+
+
+[08/18/2022 9:46 PM] sikkan#6377
+I get the same roughly as my 1060s.. 58-59 mhs set to 60w power limit
+
+
+[08/18/2022 9:46 PM] sikkan#6377
+core +100-150 and mem +1200-1300
+
+
+[08/18/2022 9:56 PM] sikkan#6377
+setting power above 60w gives no extra hashpower either..I actually wish I could set it to lower than 60 but its not possible
+
+
+[08/19/2022 12:32 AM] BrothaChad#0168
+mmmm seems like the p106-100 and 1060 are identical, thank you!
+
+
+[08/19/2022 5:37 AM] sikkan#6377
+Yes, when it comes to ergo atleast. The p106-100 is faster in other algos though if power limit is raised :)
+
+
+[08/20/2022 4:58 AM] BrothaChad#0168
+ok 🙂 and do the p106s get hot or are they very manageable
+
+
+[08/20/2022 11:09 AM] sikkan#6377
+Since they come with preinstalled heatsinks only an external fan is required so it would be more dependant on what fan/airflow is given those cards I'd say
+
+{Reactions}
+💯 
+
+[08/20/2022 11:11 AM] sikkan#6377
+I run a desk fan directed those cards which works sufficient but tend to get warm when it's 27-30c outdoors. Around 80c
+
+{Reactions}
+ergo_orange2 
+
+[08/24/2022 7:03 PM] Zer0k!LLer#6655
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/1012059705578889356/20220824_183856.jpg
+
+{Reactions}
+🔥 (4) 
+
+[08/24/2022 7:04 PM] Zer0k!LLer#6655
+In upgrading
+
+
+[09/15/2022 4:52 PM] Biglack#5342
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/1019999105025589298/65484E48-5E34-458B-831F-4F34CE26F772.jpg
+
+
+[09/15/2022 6:11 PM] JacobMichael#8318
+Very clean 👍🏻
+
+
+[09/15/2022 11:10 PM] Biglack#5342
+🙏 thank you
+
+
+[09/16/2022 2:28 AM] vzl#2000
+8x rx570 making $0.14 per day profit after power! This rig has mined 260 ERG in 2022 so far. Stacked them coins while I still had the chance edit: whattomine isn't accurate it seems that this rig is actually losing $1.24 per day
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/1020144196276985906/672D7038-ED27-48DB-9F55-117F690842BE.jpg
+
+{Reactions}
+💯 (4) 
+
+[09/17/2022 7:10 PM] TC Montague#0497
+My Ergo Rigs. 💪
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/1020758743635476580/IMG_20211007_201415.jpg
+
+
+[09/17/2022 8:03 PM] NeoCait#7408
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/1020772067169275924/6D2CB596-D7B1-409C-890A-27C1EED1464B.png
+
+{Reactions}
+❤️‍🔥 
+
+[10/04/2022 4:48 AM] Babelfish24#2887
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/1026702350800392284/PXL_20221002_021254509.jpg
+
+
+[10/04/2022 4:49 AM] Babelfish24#2887
+PLC that provides automation for ventilation fans and fire protection.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/1026702583898841128/PXL_20221002_021437048.jpg
+
+
+[10/05/2022 1:45 PM] Inversemaven#1369
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/1027199746139488266/68596995481__997DD4D1-F655-414D-9224-3CC1D4223312.jpg
+
+
+[10/05/2022 1:49 PM] blackinsecure#3693
+15GH ish?
+
+
+[10/13/2022 9:46 PM] r6#3182
+how much in GH ?
+
+
+[10/14/2022 12:21 AM] Inversemaven#1369
+Around 13GHz XD
+
+{Reactions}
+👍 
+
+[10/18/2022 1:13 AM] Lil_Time⏱=💰#9281
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/1031721728684068864/823452AA-3CC2-4FF3-83E6-AB435C29A2E4.png
+
+
+[10/18/2022 1:14 AM] Lil_Time⏱=💰#9281
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/1031721832295956541/091E1306-488C-4C70-BCAA-0532D9B637BE.jpg
+
+
+[10/18/2022 1:14 AM] Lil_Time⏱=💰#9281
+x13 a2000
+
+
+[10/18/2022 8:17 AM] New user#0001
+How would you rate the a2000 gpus?
+Solid for the price? Also how loud are they?
+
+{Reactions}
+👍🏻 ✨ 
+
+[10/18/2022 8:43 AM] Lil_Time⏱=💰#9281
+I would rate them 8.5/10 pros small,runs off riser, efficient in most algos. Cons. they run warm & require extra cooling in some instances.
+
+{Reactions}
+👌🏼 
+
+[10/18/2022 9:03 AM] New user#0001
+Thanks for the response, I have a A2000 mining rig planned. Got to do some more research though.
+
+{Reactions}
+🍻 
+
+[10/22/2022 1:28 AM] rpnChilled#6140
+highly recommend, just make sure to get ready to change some thermal pads
+
+
+[10/22/2022 1:29 AM] rpnChilled#6140
+I can't remember if I used 2mm or 1.5
+
+
+[10/22/2022 1:30 AM] rpnChilled#6140
+But Gelid extreme should do the trick
+
+
+[10/22/2022 1:30 AM] rpnChilled#6140
+I always follow youtube tutorials on this shit anyways
+
+
+[10/22/2022 7:39 AM] New user#0001
+Awesome, thanks for the tip. I have thermal pads in various thicknesses at home so I don't think I need to buy any 👌
+
+
+[11/05/2022 5:11 PM] rpnChilled#6140
+thats good, you're all sorted then
+
+
+[11/20/2022 3:35 PM] zgraber#6774
+Just got my setup put together at my new house. 8 LianLi server cases heating my garage. There’s a 16” ac infinity shutter fan behind them for when it gets too warm
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/1043912580932059268/IMG_7516.jpg
+
+{Reactions}
+❤️ (2) 
+
+[11/22/2022 3:36 AM] deadmanjack#7418
+asking here as seems like your the guys who would know
+
+
+[11/22/2022 3:37 AM] deadmanjack#7418
+I'm moving my GPU farms into cabinet's , i've brought some nice storage lockers ,about 400 mm deep ,1500mm wide ,1000mm tall , perfect for putting GPU mining racks in (im building them custom for the box) along side the hardware to run em.
+I intend to cut 120mm/140mm/200mm holes on the back plate depending on where i end  place hardware ,and leaving the front storage doors open, and getting a fiber board or albumin sheet for the front and cutting 120mm/140mm/200mm holes into for fans on the front/  air filter panel.
+
+The over engineering is required as these 2 unit's are for the shared rental i live at , so space/noise/easy heat magmeant (dumping it outside via window with ducting).
+
+  is there something I've overlooked in my build 
+and
+ what options exist for managing  20~30 fans , i would use the break out boards for fan power and spreading's the fans out amongst the psu's  but will be using atx supplies for noise reasons ,i know i can split them out from Molex and sata  but if there is another way ?
+
+
+[11/22/2022 10:07 AM] Agent_Nolo#1964
+guys... how can you mine profitably? Seriously though. I'm already on Solar and what I mine doesn't even cover depreciation
+
+
+[11/22/2022 1:31 PM] zgraber#6774
+Who said anything about mining profitably? I could definitely buy Erg for less than I can mine it for right now, but exchanges can’t heat my garage. Server cases sure can.
+
+For me it’s all about acquiring cheap efficient gear right now. I just picked up 8-6600s and 8-6600xts for $2500.
+
+
+[11/22/2022 1:44 PM] zgraber#6774
+How much gear are you cramming into these cabinets? One thing I can think of is you probably want some fresh air getting to your PSUs in the cabinet to keep them cool and quiet. 
+
+What’s your setup look like now?
+
+
+[11/30/2022 2:02 PM] Zer0k!LLer#6655
+Now
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/1047512964548280391/20221129_180358.jpg
+
+{Reactions}
+🔥 (4) 👀 (2) 
+
+[12/02/2022 8:41 PM] wombo22#5461
+Looks like. Fridge
+
+
+[01/24/2023 5:52 PM] T.K.M.#4367
+How does my queen looks☺️
+
+{Attachments}
+https://cdn.discordapp.com/attachments/897571711468310568/1067502271220432926/Snapchat-1445568223.jpg
+
+{Reactions}
+k_thumbs_up (3) 💟 
+
+[03/12/2023 3:01 PM] GabGno#6889
+Wow, such beautiful machines in here!
+
+
+[04/27/2023 7:56 PM] McOwnd4114(riglife)#9287
+https://cdn.discordapp.com/attachments/347118786991751168/1088641987944656927/VID_21760509_082936_628.mp4
+
+{Embed}
+https://cdn.discordapp.com/attachments/347118786991751168/1088641987944656927/VID_21760509_082936_628.mp4
+
+{Reactions}
+dopamineduck 
+
+==============================================================
+Exported 354 message(s)
+==============================================================

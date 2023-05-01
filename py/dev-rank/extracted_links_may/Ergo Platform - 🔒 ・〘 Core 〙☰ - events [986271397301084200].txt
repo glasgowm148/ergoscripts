@@ -1,0 +1,3923 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🔒 ・〘 Core 〙☰ / events
+==============================================================
+
+[10/05/2022 2:38 PM] AndyLowe#0000
+So are they sort of sponsoring the event as well? they are offering prizes for people who build multi-chain and involve alephium as part of the build.. so shouldnt this video be published asap so that people know about this? or was it written elsewhere already
+
+
+[10/05/2022 2:39 PM] AndyLowe#0000
+@NoahErgo also did you see ldg was asking why dont we publish the entire ergo course all at the same time. i dont see it as a big issue either way
+
+
+[10/05/2022 2:49 PM] AngieHar#0000
+(re @AndyLowe : *So are they sort of sponsoring the event as well? they are offering prizes for people who build multi-chain and involve alephium as part of the build.. so shouldnt this video be published asap so that people know about this? or was it written elsewhere already*) 
+ 
+ They just provided this, so I’m sharing 
+Yes they provide prizes
+
+
+[10/05/2022 3:10 PM] NoahErgo#0000
+(re @AndyLowe : *@NoahErgo also did you see ldg was asking why dont we publish the entire ergo course all at the same time. i dont see it as a big issue either way*) 
+ 
+ Yes i saw that
+
+
+[10/05/2022 3:10 PM] NoahErgo#0000
+I think its okay if we release rest of videos too
+
+
+[10/05/2022 3:10 PM] NoahErgo#0000
+Didnt realize his intention
+
+
+[10/05/2022 3:11 PM] NoahErgo#0000
+(re @AngieHar : **) 
+ 
+ Nice
+
+
+[10/05/2022 3:13 PM] NoahErgo#0000
+@AndyLowe i think lets do what LGD has asked and then alephium video can come after?
+
+
+[10/05/2022 3:47 PM] AndyLowe#0000
+(re @NoahErgo : *I think its okay if we release rest of videos too*) 
+ 
+ Ok so shall I just make them all public now? They can be in ErgoHack playlist and also in their own playlist
+
+
+[10/05/2022 4:21 PM] AngieHar#0000
+(re @AndyLowe : *Ok so shall I just make them all public now? They can be in ErgoHack playlist and also in their own playlist*) 
+ 
+ What else videos do we have?
+
+
+[10/05/2022 4:22 PM] NoahErgo#0000
+Just the alephium one
+
+
+[10/05/2022 4:29 PM] AngieHar#0000
+Maybe release one more part today 
+And other two tomorrow
+
+
+[10/05/2022 4:42 PM] NoahErgo#0000
+Would prefer if we respected his wish for it to all be one release. I know it isnt as great for marketing but he out a ton of effort into it and think should respect his intention
+
+
+[10/05/2022 5:54 PM] CW#0000
+@AndyLowe want to set vids to 5, 6, 7pm UTC for remaining crash course vids
+
+
+[10/05/2022 5:54 PM] CW#0000
+i can reschedule the tweets
+
+
+[10/05/2022 5:55 PM] CW#0000
+for Lucas vids
+
+
+[10/05/2022 5:56 PM] CW#0000
+still my preference to release a section a day, keep daily interest/ awareness of the Hackathon
+
+
+[10/05/2022 7:55 PM] AndyLowe#0000
+Sorry I only just saw this, so haven't published them. What shall I do
+
+
+[10/05/2022 7:59 PM] AngieHar#0000
+i’m voting for disctributing within some period of time
+
+
+[10/05/2022 8:01 PM] CW#0000
+Keep the crash course ones as is. so there is no radio silence on the Hackathon. If the Alephium one is ready we can send that out
+
+
+[10/05/2022 9:21 PM] AndyLowe#0000
+ok
+
+
+[10/05/2022 9:22 PM] AndyLowe#0000
+but @NoahErgo already told lgd on discord that it would be made into one playlist as he seems to think its quite important
+
+
+[10/05/2022 9:26 PM] AndyLowe#0000
+I feel like we could keep it how it is, and tell lgd that as soon as they are all available they will also be in their own playlist
+
+
+[10/05/2022 9:46 PM] NoahErgo#0000
+Sorry busy at work
+
+
+[10/05/2022 9:46 PM] NoahErgo#0000
+Should have bit my tongue
+
+
+[10/06/2022 10:12 AM] AngieHar#0000
+@AndyLowe Andy, could you please duplicate a schedule, I’m a bit confused 
+And when does alephium’s video go live?
+
+
+[10/06/2022 12:11 PM] AndyLowe#0000
+Regarding the ergo crash course vids: I think we are sticking to releasing them 1 each day. So yesterday was part 1, today part 2, tomorrow part 3 and then on Oct 8th, part 4.
+
+Alephium video I don't know when, maybe 9th?
+
+
+[10/06/2022 12:11 PM] AndyLowe#0000
+Or do we want that Alephium video sooner?
+
+
+[10/06/2022 12:14 PM] CW#0000
+I think we do Alephium sooner. Some stage tomorrow as we have part 2 of the crash course and AMA today
+
+
+[10/06/2022 12:37 PM] AndyLowe#0000
+Ok
+
+
+[10/06/2022 2:20 PM] AndyLowe#0000
+Alephium is scheduled for 14.00 utc today
+https://youtu.be/2Y39exF3tMo
+
+
+[10/06/2022 5:45 PM] AngieHar#0000
+@AndyLowe @seedubya Alephium confirmed participation in AMA on the 20th of October
+
+
+[10/06/2022 5:45 PM] AngieHar#0000
+Flux can’t confirm the available dates yet since their presenters are in vegas
+
+
+[10/07/2022 12:41 AM] AndyLowe#0000
+OK. its honestly fine anyway if its only alephium, we could do Flux the week after maybe?
+
+
+[10/07/2022 12:42 AM] AndyLowe#0000
+but if we have both at the same time, we might want to make the AMA longer than usual, so they can all get enough time to speak and not just be listening to the other
+
+
+[10/10/2022 3:28 PM] AngieHar#0000
+@seedubya Alephium and Flux confirmed their participation in thrursday’s ama in our youtube channel 
+1pm UTC 
+
+30-40 min panel discussion 
+and then questions from the community
+
+
+[10/10/2022 5:05 PM] AngieHar#0000
+ErgoHack 5: Mining and Minting
+
+cyti
+ergo-audit
+ergo-twitter
+dlop-art-generator
+eip38-partial-voting
+raptor-mining
+snisp
+paizo
+ergo-payroll
+ergonames
+sigma-balls
+sigma-rust-jit
+obolflip
+mine-ergo
+
+
+[10/10/2022 6:44 PM] AngieHar#0000
+Flux will join the ama on the 13th of October 
+Alephium 20th of October 
+
+@seedubya
+
+
+[10/10/2022 6:45 PM] AngieHar#0000
+i’m also discussing a panel discussion for the 18th 
+how does it sound?
+
+
+[10/10/2022 6:45 PM] AngieHar#0000
+@Ceilican Bruno, would you like to participate in a panel discussion?
+
+
+[10/10/2022 6:46 PM] Ceilican#0000
+(re @AngieHar : *@Ceilican Bruno, would you like to participate in a panel discussion?*) 
+ 
+ About which topic?
+
+
+[10/10/2022 6:49 PM] AngieHar#0000
+(re @Ceilican : *About which topic?*) 
+ 
+ for now checking the availability
+we can brainstorm the topic, depends on who will participate
+
+
+[10/10/2022 6:51 PM] Ceilican#0000
+Tuesdays and Wednesdays are difficult days for me, because of many meetings. A panel on Monday, Thursday or Friday woyld be better for me.
+
+
+[10/10/2022 7:22 PM] AngieHar#0000
+(re @Ceilican : *Tuesdays and Wednesdays are difficult days for me, because of many meetings. A panel on Monday, Thursday or Friday woyld be better for me.*) 
+ 
+ Alright got it, will try to orginise
+
+
+[10/11/2022 4:13 PM] AngieHar#0000
+@seedubya CW, could you please tell me when is the announcement of the ama with flux goes live?
+
+
+[10/11/2022 4:38 PM] AngieHar#0000
+https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit#gid=0
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit
+ErgoHack5 Teams
+Sheet1
+
+Teams,Description
+sigma-rust-jit,Enhancing sigma-rust with JIT 5.0 costing. Puts this in line with the ergo node.
+ergo-twitter,It's about time we get a decentralized twitter in the house
+eip38-partial-voting,This EIP proposes modifying how parameter identifiers are communicated in the ext...
+https://images-ext-2.discordapp.net/external/WcPlHr0ETfCRUUhFNKjNcPJamkyM5NzKwhKLN-CIyRA/https/lh5.googleusercontent.com/jpzzUy4gCsE4hnqEql4AlcXxoXMYfiXlu9YbH2vxoIPuBi7F7kkFfETHgXphB5iT9gefVHmbJ6_3BA%3Dw1200-h630-p
+
+
+[10/16/2022 4:02 PM] NoahErgo#0000
+How does final submission work for the hackathon teams? @AngieHar @glasgowm
+
+
+[10/16/2022 4:04 PM] AngieHar#0000
+(re @NoahErgo : *How does final submission work for the hackathon teams? @AngieHar @glasgowm*) 
+ 
+ They will have 4 days to prepare presentations and documentation+ interim reports
+They will need to submit it in their chatrooms I guess, or we can send a google drive
+
+
+[10/16/2022 4:05 PM] NoahErgo#0000
+I think just asking them to submit in the channel is ok.
+
+
+[10/16/2022 4:05 PM] NoahErgo#0000
+Would you like me to share a reminder for everyone in the hackathon-chat with this info?
+
+
+[10/16/2022 4:06 PM] AngieHar#0000
+(re @NoahErgo : *Would you like me to share a reminder for everyone in the hackathon-chat with this info?*) 
+ 
+ I was planning to drop an announcement with the link to interim report and reminder on Monday
+
+
+[10/16/2022 4:07 PM] NoahErgo#0000
+Sounds good, thank you Angie!
+
+
+[10/17/2022 3:54 PM] AngieHar#0000
+@seedubya @AndyLowe Alephium will be guests on our thursday’s ama
+
+
+[10/17/2022 4:20 PM] AngieHar#0000
+Cheng Wang, a founder and core developer will participate from Alephium
+
+
+[10/18/2022 2:14 AM] AndyLowe#0000
+(re @AngieHar : *Cheng Wang, a founder and core developer will participate from Alephium*) 
+ 
+ Cool. No probs
+
+
+[10/18/2022 7:51 AM] NoahErgo#0000
+@AngieHar we have had a few participants deploy their dapps on flux. This is great news for the partnership
+
+
+[10/18/2022 3:56 PM] AngieHar#0000
+hi team
+need your thought on this 
+
+>> Flux: We were thinking to give the projects a littl more time to deploy their applications on the Flux Cloud. Let me know what you think 
+would be appreciated if you could announce that we're giving them 10 more days until the October 26th to deploy on Flux
+
+
+[10/18/2022 3:57 PM] AngieHar#0000
+to my mind all the projects have to have equal conditions since it’s a competition 
+and after the ergohack is completed they can continue working with these projects 
+
+but please let’s discuss such possibilities, maybe we can find a common ground
+
+
+[10/18/2022 3:57 PM] AngieHar#0000
+@seedubya @NoahErgo
+
+
+[10/18/2022 4:02 PM] NoahErgo#0000
+I think it is a bad idea to change the rules to fit what a sponsor wants. And anyway projects were not required to launch on flux
+
+
+[10/18/2022 4:04 PM] NoahErgo#0000
+and anyway most projects are not in a complete state where they could launch on flux either
+
+
+[10/18/2022 4:05 PM] MrStahlfelge#0000
+I guess for their special prize they can make the rules as they want, which is okay somehow. But I agree it was not a rule to deploy on flux, often participants don't have something complete anyway
+
+
+[10/19/2022 3:23 PM] AngieHar#0000
+@AndyLowe Andy, could you please share a link to tomorrow’s ama
+
+
+[10/19/2022 3:23 PM] AngieHar#0000
+and if you have a zoom link in advance please share too
+
+
+[10/19/2022 3:24 PM] AngieHar#0000
+@NoahErgo a quick question, do we have any videos for closing the hack? from kushti or smbd else?
+
+
+[10/19/2022 3:47 PM] NoahErgo#0000
+We do not
+
+
+[10/19/2022 4:01 PM] AndyLowe#0000
+(re @AngieHar : *@AndyLowe Andy, could you please share a link to tomorrow’s ama*) 
+ 
+ https://youtu.be/GCDo3V7HTb0
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=GCDo3V7HTb0
+Weekly Update & AMA (with Alephium founder Cheng Wang) - October 20...
+Joseph Armeanio and Dan Friedman are joined this week by a special guest - Alephium founder and core developer; Cheng Wang, for this Weekly Update and AMA - they will be updating the Ergo community and answering your questions, so please ask them in the live chat!
+
+Follow Cheng on twitter: https://twitter.com/wachmc
+
+ErgoHack V: ergohack.io
+
+Erg...
+https://images-ext-1.discordapp.net/external/QLHEPLZg6GP8Y0X60u5iL_9owmQ7L4dUL8gMJUQP-7w/https/i.ytimg.com/vi/GCDo3V7HTb0/maxresdefault_live.jpg
+
+
+[10/19/2022 4:04 PM] AndyLowe#0000
+With regards to the zoom link - it generates a new one each time. so let me just have a look and see if I can generate one now that will definitely work tomorrow
+
+
+[10/19/2022 4:05 PM] AndyLowe#0000
+Join Zoom Meeting
+https://us02web.zoom.us/j/8598592670
+
+Meeting ID: 859 859 2670
+
+{Embed}
+https://us02web.zoom.us/j/8598592670
+Join our Cloud HD Video Meeting
+Zoom is the leader in modern enterprise video communications, with an easy, reliable cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems. Zoom Rooms is the original software-based conference room solution used around the world in board, conference, huddle, and training rooms, as well as ex...
+
+
+[10/19/2022 4:05 PM] AngieHar#0000
+(re @AndyLowe : *Join Zoom Meeting
+https://us02web.zoom.us/j/8598592670
+
+Meeting ID: 859 859 2670*) 
+ 
+ Thank you!
+
+{Embed}
+https://us02web.zoom.us/j/8598592670
+Join our Cloud HD Video Meeting
+Zoom is the leader in modern enterprise video communications, with an easy, reliable cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems. Zoom Rooms is the original software-based conference room solution used around the world in board, conference, huddle, and training rooms, as well as ex...
+
+
+[10/19/2022 4:05 PM] AndyLowe#0000
+i think that will work tomorrow
+
+
+[10/19/2022 4:05 PM] AndyLowe#0000
+who has a direct line of communication with Cheng?
+
+
+[10/19/2022 4:06 PM] AngieHar#0000
+(re @AndyLowe : *who has a direct line of communication with Cheng?*) 
+ 
+ I’m in touch with their marketer marina
+
+
+[10/19/2022 4:07 PM] AngieHar#0000
+I can forward your contact
+
+
+[10/19/2022 4:13 PM] AndyLowe#0000
+cool. we will need cheng to be reachable for the setup of the stream, at least 15 mins before we go live
+
+
+[10/19/2022 4:18 PM] AngieHar#0000
+(re @AndyLowe : *cool. we will need cheng to be reachable for the setup of the stream, at least 15 mins before we go live*) 
+ 
+ Yep, gave them all the info
+
+
+[10/20/2022 1:49 PM] AngieHar#0000
+@AndyLowe Cheng is in zoom
+
+
+[10/20/2022 7:16 PM] AngieHar#0000
+@NoahErgo Hi Noah, are you here?
+
+
+[10/20/2022 7:32 PM] NoahErgo#0000
+Hi @AngieHar what do you need
+
+
+[10/20/2022 7:32 PM] NoahErgo#0000
+I am at work currently
+
+
+[10/20/2022 7:37 PM] AngieHar#0000
+(re @NoahErgo : *I am at work currently*) 
+ 
+ ah, no problem 
+i’m creating a form for judging basing on the spreadsheet 
+but i think i got the idea already, and will send here when it’s updated
+
+
+[10/20/2022 11:05 PM] AngieHar#0000
+hi team 
+
+i have updated the tracking spreadsheet about hackathon participants 
+so all the info is here https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit#gid=0
+
+the tab «Summary Board» shows the list of participants and indicates whether they have fulfilled all the conditions of the competition
+
+participants were required to provide us with two interim reports and upload their solutions
+
+the following teams *did not send* solutions
+`raptor-mining
+ergonames
+sigma-balls
+satergo
+mine-ergo`
+
+thus, only 10 teams can move on in the voting
+
+@glasgowm Mark, could you please take a look and check the spreadsheet before sending the form to judges? Just to make sure i didn’t miss anyone 
+or can anybody else assist? 
+
+and here is the form for judges https://docs.google.com/forms/d/1KK6TO-M6otD1Y8O5hBFUAN5xM8xBXBgEl2jPUusyDcg/prefill
+also can be checked 
+
+please feel free to comment on
+
+{Embed}
+https://docs.google.com/forms/d/1KK6TO-M6otD1Y8O5hBFUAN5xM8xBXBgEl2jPUusyDcg/prefill
+Google Forms: Sign-in
+Access Google Forms with a personal Google account or Google Workspace account (for business use).
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit
+ErgoHack5 Tracking Spreadsheet
+About Projects: short description
+
+#,Teams,Description
+1,cyti,CYTI stands for Choose Your Token ID, this is a "minable" smart contrat allowing to mint tokens with a given character sequence at the begining of the token ID.
+A token minter create a CITY request, miners tries to generates the proper...
+https://images-ext-2.discordapp.net/external/WcPlHr0ETfCRUUhFNKjNcPJamkyM5NzKwhKLN-CIyRA/https/lh5.googleusercontent.com/jpzzUy4gCsE4hnqEql4AlcXxoXMYfiXlu9YbH2vxoIPuBi7F7kkFfETHgXphB5iT9gefVHmbJ6_3BA%3Dw1200-h630-p
+
+
+[10/20/2022 11:08 PM] AngieHar#0000
+and additionally, Flux still negotiates and wants to give time for 4 projects to deploy on Flux for 10 days more 
+i gave them my opinion and shared our voting outcome too, but i assume they don’t want to push the prizes until projects complete the development 
+
+any thoughts?
+
+
+[10/21/2022 12:45 AM] CW#0000
+there was no prerequisite or condition of having to have a project deploy on flux, it was encouraged. 20% of of the projects chose to do so. its my opinion not to extend, kind of gives an unfair advantage of potential prize who didnt do so initially
+
+
+[10/21/2022 12:56 PM] glasgowm#0000
+(re @AngieHar : *hi team 
+
+i have updated the tracking spreadsheet about hackathon participants 
+so all the info is here https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit#gid=0
+
+the tab «Summary Board» shows the list of participants and indicates whether they have fulfilled all the conditions of the competition
+
+participants were required to provide us with two interim reports and upload their solutions
+
+the following teams did not send solutions
+raptor-mining
+ergonames
+sig...*) 
+ 
+ Hey - Satergo has sent theirs. Ergonames and sigma-balls should be submitting something too I would think
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit
+ErgoHack5 Tracking Spreadsheet
+About Projects: short description
+
+#,Teams,Description
+1,cyti,CYTI stands for Choose Your Token ID, this is a "minable" smart contrat allowing to mint tokens with a given character sequence at the begining of the token ID.
+A token minter create a CITY request, miners tries to generates the proper...
+https://images-ext-2.discordapp.net/external/WcPlHr0ETfCRUUhFNKjNcPJamkyM5NzKwhKLN-CIyRA/https/lh5.googleusercontent.com/jpzzUy4gCsE4hnqEql4AlcXxoXMYfiXlu9YbH2vxoIPuBi7F7kkFfETHgXphB5iT9gefVHmbJ6_3BA%3Dw1200-h630-p
+
+
+[10/21/2022 12:56 PM] glasgowm#0000
+raptor-mining and mine-ergo didn’t show
+
+
+[10/21/2022 12:56 PM] AngieHar#0000
+(re @glasgowm : *Hey - Satergo has sent theirs. Ergonames and sigma-balls should be submitting something too I would think*) 
+ 
+ Satergo found, will add 
+About others not sure
+
+
+[10/21/2022 12:56 PM] glasgowm#0000
+I will chase
+
+
+[10/21/2022 12:57 PM] glasgowm#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1032985878819250237/ErgoNames_-_Ergohack_V_Submission.pdf
+
+
+[10/21/2022 1:46 PM] glasgowm#0000
+(re @AngieHar : *hi team 
+
+i have updated the tracking spreadsheet about hackathon participants 
+so all the info is here https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit#gid=0
+
+the tab «Summary Board» shows the list of participants and indicates whether they have fulfilled all the conditions of the competition
+
+participants were required to provide us with two interim reports and upload their solutions
+
+the following teams did not send solutions
+raptor-mining
+ergonames
+sig...*) 
+ 
+ no access to this forum btw
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit
+ErgoHack5 Tracking Spreadsheet
+About Projects: short description
+
+#,Teams,Description
+1,cyti,CYTI stands for Choose Your Token ID, this is a "minable" smart contrat allowing to mint tokens with a given character sequence at the begining of the token ID.
+A token minter create a CITY request, miners tries to generates the proper...
+https://images-ext-2.discordapp.net/external/WcPlHr0ETfCRUUhFNKjNcPJamkyM5NzKwhKLN-CIyRA/https/lh5.googleusercontent.com/jpzzUy4gCsE4hnqEql4AlcXxoXMYfiXlu9YbH2vxoIPuBi7F7kkFfETHgXphB5iT9gefVHmbJ6_3BA%3Dw1200-h630-p
+
+
+[10/21/2022 1:46 PM] glasgowm#0000
+msg’d quinn from sigma-balls but no response
+
+
+[10/21/2022 2:55 PM] AngieHar#0000
+(re @glasgowm : *no access to this forum btw*) 
+ 
+ Like you can’t look it through? 
+Maybe I can give you via email access?
+
+
+[10/21/2022 2:55 PM] glasgowm#9381
+Yeh it's set to private - markglasgow@gmail.com is my email if you want to invite me
+
+
+[10/21/2022 3:50 PM] AngieHar#0000
+(re  : *<Glasgow> Yeh it's set to private - markglasgow@gmail.com is my email if you want to invite me*) 
+ 
+ Mark, i ‘ve added you to collaborators
+
+
+[10/21/2022 4:10 PM] AngieHar#0000
+@glasgowm Mark, i updated a spreadsheet and a form itself 
+i think there is no point to wait for others
+i’m ready to send the form further
+
+
+[10/21/2022 4:14 PM] glasgowm#0000
+yeah go for it
+
+
+[10/26/2022 3:49 PM] AngieHar#0000
+@kushti_ru @Armeanio @Ceilican Hi team, 
+a kind reminder on voting for the hackathon 
+will you be able to provide with your points within today?
+
+
+[10/26/2022 3:57 PM] Ceilican#0000
+(re @AngieHar : *@kushti_ru @Armeanio @Ceilican Hi team, 
+a kind reminder on voting for the hackathon 
+will you be able to provide with your points within today?*) 
+ 
+ I got delayed. But I will be able to do it by tomorrow morning.
+
+
+[10/26/2022 4:01 PM] AngieHar#0000
+(re @Ceilican : *I got delayed. But I will be able to do it by tomorrow morning.*) 
+ 
+ okay, thank you for update!
+
+
+[10/26/2022 4:03 PM] AngieHar#0000
+i’m afraid that we are not able to announce the winners tomorrow because we have just 3 answers so far 
+i pinged partners too, but it requires at least one day to analyse all the results we get, especially with their comments, to prepare a blog post announcement etc
+
+
+[10/26/2022 4:07 PM] AngieHar#0000
+so far we have two answers from Alephium
+one judge from Flux left 
+and waiting the voice of EF and Djed 
+
+@seedubya CW, could we announce in twitter that it’s going to be delayed 
+i’m worring that participants will be frustraited if we don’t alert in advance
+
+
+[10/26/2022 8:12 PM] CW#0000
+(re @AngieHar : *so far we have two answers from Alephium
+one judge from Flux left 
+and waiting the voice of EF and Djed 
+
+@seedubya CW, could we announce in twitter that it’s going to be delayed 
+i’m worring that participants will be frustraited if we don’t alert in advance*) 
+ 
+ Sure I'll put something out shortly
+
+
+[10/26/2022 11:07 PM] AngieHar#0000
+Flux’s team completed their vote
+
+
+[10/27/2022 10:56 AM] Ceilican#0000
+I submitted my Hackathon evaluation form. One concern that I have is that, if you simply apply some mathematical formula to the ratings that I and other judges gave to the projects, you are probably not going to get a meaninful result.
+
+
+[10/27/2022 10:56 AM] Ceilican#0000
+If you need more information from me besides the ratings to determine the winners, let me know.
+
+
+[10/27/2022 11:36 AM] Ceilican#0000
+@AngieHar , here is some additional feedback about this hackathon's judging process:
+
+1) Compared to the previous hackathon, this year it was much easier to find information about the projects. Judging felt much less overwhelming. Thank you!
+
+2) I think "innovation" and "scope" should be separate criteria. Often, being innovative means doing something that is out of scope.
+
+3) I think "Urgency for the Ergo Ecosystem" could be another criterion. For example, "Sigma-Rust-JIT" is a project that seems tob e addressing an urgent need, and it would be good to acknoeledge the importance of addressing urgent needs.
+
+4) I think the submissions can be categorized in 3:  a) ongoing long-term projects; b)  short-term projects/features developed specifically for/during the hackathon; c) research papers (possibly with some preliminary/poc implementation).  It can be considered unfair to compare an (a)-type submission with a (b)-type submission. I think hackathons should be primarily about (b).  Projects from categories (a) and (c) should probably have a separate venue. For instance, there could be a remote "Ergo Workshop" for (c)-type submissions. (a)-type projects could receive longer-term grants, or could be encouraged to submit clearly scoped "features" to hackathons.
+
+5) I found a (0--3) range for interface quality too narrow. It forces many projects to have the same interface quality rating, even if there are differences in quality between them. For example, I may want to give a rating of 1.6 to project A and 1.9 to project B, to show that B is better than A. But the rating system would force me to give a rating of 2 to both of them, making them indistinguishable from an interface quality point of view.
+
+6) On the other hand, I found a (0-7) range for level of completed implementation too wide.  I would prefer to have just a 0-4 range here: 0 for "not started", 1 for "some implementation done", 2 for "almost <clipped message>
+
+
+[10/27/2022 11:36 AM] Ceilican#0000
+11) I think "Difficulty" or "Ambition" could be another criterion. It is easier to score high on "quality of code", quality of user interface" and "level of completed implementation", if I choose a very simple project. I might score higher than a harder more ambitious project that, because of its difficulty, has issues with quality and completion. But does this mean that I should win the hackathon? Probably not necessarily. A "difficulty" or "ambition" criterion could help.
+
+
+[10/27/2022 3:13 PM] AngieHar#0000
+Bruno, thanks a lot for your comment, will definately take into consideration
+
+
+[10/27/2022 4:33 PM] NoahErgo#0000
+Yes, on next round will try to implement some of these ideas!
+
+
+[11/01/2022 7:43 PM] AngieHar#0000
+@NoahErgo hey Noah, are you available now?
+
+
+[11/01/2022 7:51 PM] NoahErgo#0000
+I am working
+
+
+[11/01/2022 7:58 PM] NoahErgo#0000
+@AngieHar whats up?
+
+
+[11/01/2022 8:00 PM] AngieHar#0000
+(re @NoahErgo : *I am working*) 
+ 
+ okay, no problem 
+i’m trying to create a pivote table for ergohack, to count resuls
+so now i guess i have another idea, but i do it manually, so i thought maybe you know how to create this one automatically out from the results 
+
+and yet they are probably not final results
+
+
+[11/01/2022 8:00 PM] NoahErgo#0000
+Hmmm i dont think i would know how to actually
+
+
+[11/01/2022 8:01 PM] NoahErgo#0000
+Maybe @glasgowm or @seedubya might know they are both pretty clever with this kind of stuff
+
+
+[11/01/2022 8:04 PM] glasgowm#0000
+Not used them before but looks like there's a button for it
+
+https://support.google.com/a/users/answer/9308944?hl=en
+
+{Embed}
+https://support.google.com/a/users/answer/9308944?hl=en
+Create and edit pivot tables - Google Workspace Learning Center
+
+
+[11/01/2022 8:07 PM] AngieHar#0000
+so okay, i updated the tab form response ( it was generated from the form itself) 
+
+https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit?resourcekey=undefined#gid=843454428
+
+and then i created two more tabs just to understand how to make the pivot 
+and that’s what i would like to discuss with someone, what specifically we summarize 
+so we do not point out judges, correct? 
+and then summarise all the totals of innovations, quality of code, etc separately?
+
+so i mean which parameters should be x and y
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit?resourcekey=undefined
+ErgoHack5 Tracking Spreadsheet
+About Projects: short description
+
+#,Teams,Description
+1,cyti,CYTI stands for Choose Your Token ID, this is a "minable" smart contrat allowing to mint tokens with a given character sequence at the begining of the token ID.
+A token minter create a CITY request, miners tries to generates the proper...
+https://images-ext-2.discordapp.net/external/WcPlHr0ETfCRUUhFNKjNcPJamkyM5NzKwhKLN-CIyRA/https/lh5.googleusercontent.com/jpzzUy4gCsE4hnqEql4AlcXxoXMYfiXlu9YbH2vxoIPuBi7F7kkFfETHgXphB5iT9gefVHmbJ6_3BA%3Dw1200-h630-p
+
+
+[11/01/2022 8:14 PM] glasgowm#0000
+(re @AngieHar : *so okay, i updated the tab form response ( it was generated from the form itself) 
+
+https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit?resourcekey=undefined#gid=843454428
+
+and then i created two more tabs just to understand how to make the pivot 
+and that’s what i would like to discuss with someone, what specifically we summarize 
+so we do not point out judges, correct? 
+and then summarise all the totals of innovations, quality of code, etc separately?
+
+so i...*) 
+ 
+ Will have a look when I'm on desktop, just an average of the points usually I thought? My answers got lost and I had to fill it in twice so didn't write anything the second time-didnt realise they'd be used.
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit?resourcekey=undefined
+ErgoHack5 Tracking Spreadsheet
+About Projects: short description
+
+#,Teams,Description
+1,cyti,CYTI stands for Choose Your Token ID, this is a "minable" smart contrat allowing to mint tokens with a given character sequence at the begining of the token ID.
+A token minter create a CITY request, miners tries to generates the proper...
+https://images-ext-2.discordapp.net/external/WcPlHr0ETfCRUUhFNKjNcPJamkyM5NzKwhKLN-CIyRA/https/lh5.googleusercontent.com/jpzzUy4gCsE4hnqEql4AlcXxoXMYfiXlu9YbH2vxoIPuBi7F7kkFfETHgXphB5iT9gefVHmbJ6_3BA%3Dw1200-h630-p
+
+
+[11/01/2022 8:28 PM] AngieHar#0000
+(re @glasgowm : *Will have a look when I'm on desktop, just an average of the points usually I thought? My answers got lost and I had to fill it in twice so didn't write anything the second time-didnt realise they'd be used.*) 
+ 
+ Thank you
+
+
+[11/01/2022 8:28 PM] AngieHar#0000
+Feedbacks shouldn’t be public
+
+
+[11/01/2022 8:28 PM] CW#0000
+I've done a fair but with pivot tables in Office though haven't played in sheets or libre office with them. Assume they'd act the same maybe just some layout differences
+
+
+[11/01/2022 8:29 PM] AngieHar#0000
+Or we can make quotes for any future content, if judges are okay with that 
+But for now my biggest problem is logically summarize what we want to summarize lol
+
+
+[11/03/2022 10:03 AM] AngieHar#0000
+(re @AngieHar : *so okay, i updated the tab form response ( it was generated from the form itself) 
+
+https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit?resourcekey=undefined#gid=843454428
+
+and then i created two more tabs just to understand how to make the pivot 
+and that’s what i would like to discuss with someone, what specifically we summarize 
+so we do not point out judges, correct? 
+and then summarise all the totals of innovations, quality of code, etc separately?
+
+so i...*) 
+ 
+ @glasgowm Mark, did you have a chance to look into that?
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit?resourcekey=undefined
+ErgoHack5 Tracking Spreadsheet
+About Projects: short description
+
+#,Teams,Description
+1,cyti,CYTI stands for Choose Your Token ID, this is a "minable" smart contrat allowing to mint tokens with a given character sequence at the begining of the token ID.
+A token minter create a CITY request, miners tries to generates the proper...
+https://images-ext-2.discordapp.net/external/WcPlHr0ETfCRUUhFNKjNcPJamkyM5NzKwhKLN-CIyRA/https/lh5.googleusercontent.com/jpzzUy4gCsE4hnqEql4AlcXxoXMYfiXlu9YbH2vxoIPuBi7F7kkFfETHgXphB5iT9gefVHmbJ6_3BA%3Dw1200-h630-p
+
+
+[11/03/2022 10:19 AM] glasgowm#0000
+Not yet sorry, try Stacie though she'll probably know already
+
+
+[11/03/2022 10:33 AM] AngieHar#0000
+(re @glasgowm : *Not yet sorry, try Stacie though she'll probably know already*) 
+ 
+ Oh true, thanks
+
+
+[11/03/2022 3:56 PM] AngieHar#0000
+hi team, so let's go over the conditions of the hackathon once again 
+
+Teams are evaluated according to 4 main criteria
+Each criteria has a certain maximum number of points
+Teams who receive the maximum number of points according to 4 specified criteria get their prize pool 
+
+If everyone is satisfied with this statement and we are on the same page, then I have calculated the results and we have winners of the fifth hackathon 
+
+1st place goes to CYTI
+2nd place goes to ergonames
+3rd place is for paizo
+
+Judges who voted in the judging process: 
+
+Mikaël Vaivre Alephium 
+h0ngcha0 Alephium 
+Tadeas Kmenta Flux 
+Tim Sulmone Flux 
+Bruno Woltzenlogel Paleo Djed Alliance
+Mark Glasgow EF 
+Alexander Chepurnoy EF
+
+Alephium decided to split their prize pool between all the teams equally 
+
+updated the spreadsheet with the new tab «Winners» https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit?resourcekey=undefined#gid=1462599122
+
+additionally, preparing a wrap up of the hackathon, can include quotes from judges’ comments on teams
+if we are not waiting for other judges and go ahead, these results can be announced tomorrow 
+
+let me know your thoughts
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1iMxAhFhh0Si6ptydqtwa0T66h7rXE-GrWwY8UHaCd5o/edit?resourcekey=undefined
+ErgoHack5 Tracking Spreadsheet
+About Projects: short description
+
+#,Teams,Description
+1,cyti,CYTI stands for Choose Your Token ID, this is a "minable" smart contrat allowing to mint tokens with a given character sequence at the begining of the token ID.
+A token minter create a CITY request, miners tries to generates the proper...
+https://images-ext-2.discordapp.net/external/WcPlHr0ETfCRUUhFNKjNcPJamkyM5NzKwhKLN-CIyRA/https/lh5.googleusercontent.com/jpzzUy4gCsE4hnqEql4AlcXxoXMYfiXlu9YbH2vxoIPuBi7F7kkFfETHgXphB5iT9gefVHmbJ6_3BA%3Dw1200-h630-p
+
+
+[11/03/2022 4:00 PM] AngieHar#0000
+And additionally, want to ask our EF members, whether it’s possible to give additional prizes to all teams that we had been doing the previous time ( like 200 SigUSD to all active participants) 
+there is not a great amount of teams, but great solutions and judges admitted this
+but additonal prizes from Ergo for those who didn’t win but spent two weeks working on their projects for the ecosystem, can be addtional motivational point to participate in the future hacks
+
+
+[11/04/2022 10:00 AM] AngieHar#0000
+@seedubya
+
+
+[11/04/2022 10:05 AM] CW#0000
+So an additional $1800?
+
+
+[11/04/2022 10:06 AM] AngieHar#0000
+(re @seedubya : *So an additional $1800?*) 
+ 
+ Yep
+
+
+[11/04/2022 10:07 AM] AngieHar#0000
+(re @AngieHar : *hi team, so let's go over the conditions of the hackathon once again 
+
+Teams are evaluated according to 4 main criteria
+Each criteria has a certain maximum number of points
+Teams who receive the maximum number of points according to 4 specified criteria get their prize pool 
+
+If everyone is satisfied with this statement and we are on the same page, then I have calculated the results and we have winners of the fifth hackathon 
+
+1st place goes to CYTI
+2nd place goes to ergonames
+3rd place is for p...*) 
+ 
+ And if you agree with this? 
+Let’s move it forward then, no? 
+People are waiting
+
+
+[11/04/2022 10:10 AM] CW#0000
+(re @AngieHar : *And if you agree with this? 
+Let’s move it forward then, no? 
+People are waiting*) 
+ 
+ Looks good to me
+
+
+[11/04/2022 10:11 AM] CW#0000
+(re @AngieHar : *Yep*) 
+ 
+ I can propose this
+
+
+[11/04/2022 10:14 AM] AngieHar#0000
+(re @seedubya : *Looks good to me*) 
+ 
+ Okay thank you 
+Please let me know
+
+
+[11/04/2022 10:45 AM] CW#0000
+(re @AngieHar : *And if you agree with this? 
+Let’s move it forward then, no? 
+People are waiting*) 
+ 
+ Also just noticed Armeanio isn't on the judging list, mentioned he is still reviewing proposals so this could possibly change results pending his assessment
+
+
+[11/04/2022 10:47 AM] AngieHar#0000
+(re @seedubya : *Also just noticed Armeanio isn't on the judging list, mentioned he is still reviewing proposals so this could possibly change results pending his assessment*) 
+ 
+ Yes, I just don’t know how long to wait and partners and participants are asking me in dm when we are going to announce winners 
+
+Armeanio and mhs left 
+Mhs said he is okay to fill out, but do not wait for him if we need it this week 
+Joseph updated that he is on it 
+
+Soo I’m confused
+
+
+[11/04/2022 11:12 AM] CW#0000
+We can announce once we have results from all our judges
+
+
+[11/04/2022 12:05 PM] AngieHar#0000
+(re @seedubya : *We can announce once we have results from all our judges*) 
+ 
+ Okay so waiting then
+
+
+[11/04/2022 7:23 PM] CW#0000
+(re @AngieHar : *Okay so waiting then*) 
+ 
+ Hey Angie, we are not going to provide the additional funds
+
+
+[11/04/2022 7:35 PM] AngieHar#0000
+(re @seedubya : *Hey Angie, we are not going to provide the additional funds*) 
+ 
+ Okay, no problem
+Awaiting judges and complete the draft
+
+
+[11/06/2022 11:30 PM] CW#0000
+Hi all, we are going to host a mini summit on the weekend of November 26/27 with the topic Mining and Minting following ErgoHack V with aim of highlighting participant proposals.
+
+So far we have confirmation from 
+SNISP
+Ergo Payroll
+EIP-38 Partial Voting
+CYTI
+DumDumDum (Ergo Twitter)
+Ergo Audit
+ErgoNames
+Paizo
+
+Kushti has expressed interest recording his presentation recently given in Dubai, @kushti_ru please confirm subject/topic
+
+At this stage I think we only require intro/outro videos
+
+Aiming to receive final content by 21st Nov (earlier the better) to allow time for editing
+
+
+[11/07/2022 7:49 AM] CW#0000
+(re @seedubya : *Hi all, we are going to host a mini summit on the weekend of November 26/27 with the topic Mining and Minting following ErgoHack V with aim of highlighting participant proposals.
+
+So far we have confirmation from 
+SNISP
+Ergo Payroll
+EIP-38 Partial Voting
+CYTI
+DumDumDum (Ergo Twitter)
+Ergo Audit
+ErgoNames
+Paizo
+
+Kushti has expressed interest recording his presentation recently given in Dubai, @kushti_ru please confirm subject/topic
+
+At this stage I think we only require intro/outro videos
+
+Aiming...*) 
+ 
+ Getblok has shown initial interest in providing a video about pool infrastructure, describing workings of stratum, shares etc. Will discuss further in the next day or so
+
+
+[11/09/2022 2:49 PM] AngieHar#0000
+@seedubya mhs informed me that he can add his voting just by the 10th-11th of November
+
+
+[11/13/2022 1:28 AM] CW#0000
+(re @AngieHar : *@seedubya mhs informed me that he can add his voting just by the 10th-11th of November*) 
+ 
+ Hey, are we just waiting for mhs now or has his results come through?
+
+
+[11/13/2022 9:58 AM] AngieHar#0000
+(re @seedubya : *Hey, are we just waiting for mhs now or has his results come through?*) 
+ 
+ Hey, we have all answers now 
+Just need to check updated points
+
+
+[11/13/2022 9:59 AM] CW#0000
+Ok cool
+
+
+[11/14/2022 6:28 PM] AngieHar#0000
+Hi all,
+we have winners of the fifth ergohack 
+
+they are 
+
+1- CYTI
+2- ergonames
+3- paizo
+
+Judges who voted in the judging process: 
+
+Mikaël Vaivre Alephium 
+h0ngcha0 Alephium 
+Tadeas Kmenta Flux 
+Tim Sulmone Flux 
+Bruno Woltzenlogel Paleo Djed Alliance
+Mark Glasgow EF 
+Alexander Chepurnoy EF
+mhs_sam EF 
+Joseph Armeanio EF 
+
+I’m going to share the results with our partners to agree when we publish the announcement 
+
+also we need a day to cover it for a news and blog, but the announcement in twitter can go earlier 
+or announce it this Thursday on the AMA ( would be best in terms of timing to my mind)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1041781698230243429/file_86227.jpg
+
+
+[11/14/2022 6:45 PM] CW#0000
+(re @AngieHar : *Hi all,
+we have winners of the fifth ergohack 
+
+they are 
+
+1- CYTI
+2- ergonames
+3- paizo
+
+Judges who voted in the judging process: 
+
+Mikaël Vaivre Alephium 
+h0ngcha0 Alephium 
+Tadeas Kmenta Flux 
+Tim Sulmone Flux 
+Bruno Woltzenlogel Paleo Djed Alliance
+Mark Glasgow EF 
+Alexander Chepurnoy EF
+mhs_sam EF 
+Joseph Armeanio EF 
+
+I’m going to share the results with our partners to agree when we publish the announcement 
+
+also we need a day to cover it for a news and blog, but the announcement in twitt...*) 
+ 
+ Yep agree, can announce in the ama and release article etc at the same time
+
+
+[11/14/2022 6:45 PM] AngieHar#0000
+(re @seedubya : *Yep agree, can announce in the ama and release article etc at the same time*) 
+ 
+ Super, working on it
+
+
+[11/14/2022 6:46 PM] CW#0000
+(re @AngieHar : *Super, working on it*) 
+ 
+ Thanks!
+
+
+[11/17/2022 3:37 PM] NoahErgo#0000
+@AngieHar @seedubya if we remove names from judging sheet can we please release scores with feedback
+
+
+[11/17/2022 3:38 PM] NoahErgo#0000
+Im seeing some people frustrated by judging process
+
+
+[11/17/2022 3:38 PM] AngieHar#0000
+Like the whole spreadsheet?
+
+
+[11/17/2022 3:39 PM] NoahErgo#0000
+Yes
+
+
+[11/17/2022 3:39 PM] NoahErgo#0000
+People want to see feedback on their project
+
+
+[11/17/2022 3:41 PM] glasgowm#0000
+Some of the low scores have no feedback so may make things worse.
+
+
+[11/17/2022 3:45 PM] glasgowm#0000
+I think maybe the link to the git was missed on the slides and they’d assumed it was just the slides being submitted
+
+
+[11/17/2022 3:45 PM] glasgowm#0000
+at a guess
+
+
+[11/17/2022 3:45 PM] Armeanio#0000
+Lol probably need to spell check my comments ffs
+
+
+[11/17/2022 3:46 PM] NoahErgo#0000
+Just curious - how were ergo team judges vs our partner judges as for as scoring
+
+
+[11/17/2022 3:46 PM] NoahErgo#0000
+probably has something to do with it if i were to guess
+
+
+[11/17/2022 3:47 PM] Armeanio#0000
+Idk I think the scoresheet itself was a bit weird since ui was a consideration.
+
+
+[11/17/2022 3:47 PM] NoahErgo#0000
+Yeah i wanted to remove that altogether
+
+
+[11/17/2022 3:47 PM] Armeanio#0000
+My biggest complaint would be that.
+
+
+[11/17/2022 3:48 PM] Armeanio#0000
+Seems silly.
+
+
+[11/17/2022 3:48 PM] glasgowm#0000
+(re @NoahErgo : *Just curious - how were ergo team judges vs our partner judges as for as scoring*) 
+ 
+ ergo-audit got 2 low scores from bruno/mikael (4/8 on code) but havent looked much beyond that
+
+
+[11/17/2022 3:49 PM] NoahErgo#0000
+Only reason ui stayed is that partners already advertised rubric so we weighted it very low only 3 possible points
+
+
+[11/17/2022 3:49 PM] NoahErgo#0000
+but yes next time i would like to remove it
+
+
+[11/17/2022 3:49 PM] glasgowm#0000
+seems they might’ve lost a few points as not related to mining/theme
+
+
+[11/17/2022 3:49 PM] glasgowm#0000
+(re @NoahErgo : *Only reason ui stayed is that partners already advertised rubric so we weighted it very low only 3 possible points*) 
+ 
+ yeh that was hard to answer
+
+
+[11/17/2022 3:49 PM] NoahErgo#0000
+scores shouldnt be related to theme i guess though
+
+
+[11/17/2022 3:50 PM] Armeanio#0000
+(re @glasgowm : *seems they might’ve lost a few points as not related to mining/theme*) 
+ 
+ That was something I considered. Idk should I not have?
+
+
+[11/17/2022 3:50 PM] glasgowm#0000
+Seems they interpreted the ‘scope’ question as scope within the theme
+
+
+[11/17/2022 3:50 PM] NoahErgo#0000
+I see
+
+
+[11/17/2022 3:50 PM] glasgowm#0000
+(re @Armeanio : *That was something I considered. Idk should I not have?*) 
+ 
+ Usually it is I believe from remembering past judgings
+
+
+[11/17/2022 3:51 PM] NoahErgo#0000
+Well next time can clarify i guess. Just feel slightly weird given that my team was a winner and also i designed the rubric hope that wasnt some kind of conflict of interest
+
+
+[11/17/2022 3:52 PM] glasgowm#0000
+Scored highly on scope probably as related pretty directly to mining
+
+
+[11/17/2022 3:56 PM] glasgowm#0000
+‘Quality of Code’ is also hard to answer as a small amount of well documented code will score higher than lots of complex code explained poorly.
+
+
+[11/17/2022 3:58 PM] NoahErgo#0000
+On next go feedback on judging rubric is welcome would love to make it better
+
+
+[11/17/2022 3:58 PM] NoahErgo#0000
+Bruno had some good feedback above as well
+
+
+[11/17/2022 3:59 PM] NoahErgo#0000
+felt a bit backed into a corner on this one trying to tweak weighting because stuck with a wonky rubric
+
+
+[11/17/2022 4:02 PM] glasgowm#0000
+lol
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1042832075230814238/file_87104.jpg
+
+
+[11/17/2022 4:03 PM] NoahErgo#0000
+…….
+
+
+[11/17/2022 4:04 PM] NoahErgo#0000
+This does not seem fair to me at all
+
+
+[11/17/2022 4:05 PM] Armeanio#0000
+Oof
+
+
+[11/17/2022 4:05 PM] Armeanio#0000
+Maybe external judges are a bad idea 😅
+
+
+[11/17/2022 4:05 PM] NoahErgo#0000
+Yes
+
+
+[11/17/2022 4:06 PM] Armeanio#0000
+Ffs
+
+
+[11/17/2022 4:31 PM] glasgowm#0000
+(re @AngieHar : *Hi all,
+we have winners of the fifth ergohack 
+
+they are 
+
+1- CYTI
+2- ergonames
+3- paizo
+
+Judges who voted in the judging process: 
+
+Mikaël Vaivre Alephium 
+h0ngcha0 Alephium 
+Tadeas Kmenta Flux 
+Tim Sulmone Flux 
+Bruno Woltzenlogel Paleo Djed Alliance
+Mark Glasgow EF 
+Alexander Chepurnoy EF
+mhs_sam EF 
+Joseph Armeanio EF 
+
+I’m going to share the results with our partners to agree when we publish the announcement 
+
+also we need a day to cover it for a news and blog, but the announcement in twitt...*) 
+ 
+ These numbers also don’t seem to match up with the actual votes? ie CYTI says 71 points for innovation scope but the results say 9+9+9+9+7+7+6+6, or 62
+
+
+[11/17/2022 4:33 PM] AngieHar#0000
+(re @glasgowm : *These numbers also don’t seem to match up with the actual votes? ie CYTI says 71 points for innovation scope but the results say 9+9+9+9+7+7+6+6, or 62*) 
+ 
+ I didn’t change any numbers 
+The spreadsheet is automatic
+I just sum the result 
+
+Where did you find that?
+
+
+[11/17/2022 4:33 PM] glasgowm#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1042839994789806271/file_87137.jpg
+
+
+[11/17/2022 4:37 PM] AngieHar#0000
+I don’t know 
+It’s all seems correct 
+Check responses by individuals
+
+
+[11/17/2022 4:38 PM] AngieHar#0000
+It reflects correctly if you check all judges separately 
+The point in the form and the point reflected in the spreadsheet
+
+
+[11/17/2022 4:38 PM] AngieHar#0000
+(re @glasgowm : **) 
+ 
+ Plus Joseph didn’t use the form
+
+
+[11/17/2022 4:39 PM] glasgowm#0000
+right well thats what it is then
+
+
+[11/18/2022 1:23 AM] CW#0000
+(re @Armeanio : *Maybe external judges are a bad idea 😅*) 
+ 
+ the ratio also, 5 external, 4 internal
+
+
+[11/18/2022 12:18 PM] glasgowm#0000
+Forwarded from ErgoBridgeBot: <Cheese Enthusiast> Will the grading rubrics by all judges be released? Was hoping to do better, but it is what it is.
+
+
+[11/18/2022 12:18 PM] glasgowm#0000
+Forwarded from ErgoBridgeBot: <Cheese Enthusiast> I personally haven’t received anything yet. Would be nice to know where I did badly. Not to mention many days+nights of work, so would be good to see where I messed up compared to others.
+
+
+[11/18/2022 12:18 PM] glasgowm#0000
+Forwarded from chemmka: still looks like magic to me how the judges dealt with it. 
+In any case, can I somehow challenge the decision of the judges and ask for any comments on certain judicial articles? How and where is it best to do this?
+
+
+[11/18/2022 12:19 PM] glasgowm#0000
+What’s the plan here then? Seems Cheese’s project in particular did get nerfed.
+
+
+[11/18/2022 12:23 PM] MrStahlfelge#0000
+I somehow had access to the sheet and many judges noted obolflip had no UI. Helped them a lot with their UI and I've seen it for sure :-)
+But opening the sheet will ask for a lot of challenges like that. So I would not do it. Instead, we should perhaps define some more what s hackathon project is. It seems a good idea is more successful than a good implementation of a common idea. Which to some degree is okay for research projects, but when it comes to me a hackathon is more about implementing something. To add this, a centralized structure is not worth any price but that's just me
+
+
+[11/18/2022 12:37 PM] glasgowm#0000
+I agree opening it up fully will just lead to people being hypercritical - not sure what you mean by 'a centralized structure is not worth any price but that's just me’ though. 
+
+Thinking a summary of comments + maybe total score for each category is probably okay? 
+
+SNIPs had spoiled votes though so does seem unfair to include them. @AngieHar can you share the full sheet with me so I can see if it would’ve made a difference.
+
+
+[11/18/2022 12:40 PM] AngieHar#0000
+(re @glasgowm : *I agree opening it up fully will just lead to people being hypercritical - not sure what you mean by 'a centralized structure is not worth any price but that's just me’ though. 
+
+Thinking a summary of comments + maybe total score for each category is probably okay? 
+
+SNIPs had spoiled votes though so does seem unfair to include them. @AngieHar can you share the full sheet with me so I can see if it would’ve made a difference.*) 
+ 
+ Let’s have a copy?
+
+
+[11/18/2022 12:40 PM] glasgowm#0000
+what?
+
+
+[11/18/2022 12:41 PM] AngieHar#0000
+A copy of the spreadsheet
+
+
+[11/18/2022 12:41 PM] AngieHar#0000
+And make changes in a new one
+
+
+[11/18/2022 12:41 PM] glasgowm#0000
+sure
+
+
+[11/18/2022 12:48 PM] AngieHar#0000
+@glasgowm https://docs.google.com/spreadsheets/d/1UDJX8Mq5VJED6xxnkYTMWFVcaQDkqqWY1Lt3WOTVkLw/edit#gid=0
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1UDJX8Mq5VJED6xxnkYTMWFVcaQDkqqWY1Lt3WOTVkLw/edit
+Google Sheets: Sign-in
+Access Google Sheets with a personal Google account or Google Workspace account (for business use).
+
+
+[11/18/2022 12:54 PM] glasgowm#9381
+Okay thankfully (and remarkably) - removing that judges votes doesn't change the order at all
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1043147241747124254/image.png
+
+
+[11/18/2022 1:04 PM] MrStahlfelge#0000
+(re @glasgowm : *I agree opening it up fully will just lead to people being hypercritical - not sure what you mean by 'a centralized structure is not worth any price but that's just me’ though. 
+
+Thinking a summary of comments + maybe total score for each category is probably okay? 
+
+SNIPs had spoiled votes though so does seem unfair to include them. @AngieHar can you share the full sheet with me so I can see if it would’ve made a difference.*) 
+ 
+ If I understood correctly ergonames uses a centralized backend and keys for their solution, that's what I meant
+
+
+[11/18/2022 1:18 PM] glasgowm#9381
+Ah right, thanks for the clarification. Agreed. Maybe some workgroup or forum post for rubric design.
+
+
+[11/18/2022 1:31 PM] glasgowm#0000
+most of that flux guys answers are terrible lol
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1043156619648835675/file_87387.jpg
+
+
+[11/18/2022 1:43 PM] MrStahlfelge#0000
+Indeed it is ironic since they released on flux
+
+
+[11/18/2022 1:44 PM] MrStahlfelge#0000
+In what channel did cheese sent his messages btw?
+
+
+[11/18/2022 1:45 PM] glasgowm#9381
+main
+
+
+[11/18/2022 3:32 PM] NoahErgo#0000
+(re @glasgowm : *most of that flux guys answers are terrible lol*) 
+ 
+ Ffs lol
+
+
+[11/18/2022 4:35 PM] Armeanio#0000
+I went and put a prize together for cheese because he had the most interesting solution. 😅
+
+
+[11/18/2022 4:40 PM] NoahErgo#0000
+(re @Armeanio : *I went and put a prize together for cheese because he had the most interesting solution. 😅*) 
+ 
+ Is this the bounty you mentioned on ama?
+
+
+[11/18/2022 4:40 PM] Armeanio#0000
+(re @NoahErgo : *Is this the bounty you mentioned on ama?*) 
+ 
+ Yes
+
+
+[11/18/2022 4:40 PM] NoahErgo#0000
+Yeah cool. Good idea its deserved
+
+
+[11/18/2022 4:41 PM] Armeanio#0000
+Yeah external project judges seem like a bad idea moving forward.
+
+
+[11/18/2022 4:41 PM] Armeanio#0000
+Nice theory poor application
+
+
+[11/18/2022 4:41 PM] NoahErgo#0000
+lots of bad ideas we learned from this one 😅 next time will be better lets keep it simple
+
+
+[11/18/2022 7:08 PM] CW#0000
+Most def
+
+
+[11/19/2022 4:33 PM] Armeanio#0000
+(re @AngieHar : *@glasgowm https://docs.google.com/spreadsheets/d/1UDJX8Mq5VJED6xxnkYTMWFVcaQDkqqWY1Lt3WOTVkLw/edit#gid=0*) 
+ 
+ Just out of curiousity if the score was only judges in the Ergo ecosystem what would the scores have been?
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1UDJX8Mq5VJED6xxnkYTMWFVcaQDkqqWY1Lt3WOTVkLw/edit
+Google Sheets: Sign-in
+Access Google Sheets with a personal Google account or Google Workspace account (for business use).
+
+
+[11/19/2022 5:27 PM] AngieHar#0000
+(re  : *<Glasgow> Okay thankfully (and remarkably) - removing that judges votes doesn't change the order at all
+https://cdn.discordapp.com/attachments/986271397301084200/1043147241747124254/image.png*) 
+ 
+ @Armeanio I guess Mark compared here
+
+
+[11/21/2022 8:29 PM] AngieHar#0000
+what’s the decision with the winners?  I mean with the spreadsheet, do we announce it?
+
+
+[11/21/2022 8:33 PM] NoahErgo#0000
+up to EF members what to do now I think @glasgowm @Armeanio @seedubya
+
+
+[11/21/2022 8:44 PM] AngieHar#0000
+And one more thought 
+Alephium will distribute their prize pool equally between all teams 
+And Djed Alliance doesn’t provide with prizes 
+
+So in this case maybe separate teams won from EF and Flux?
+
+
+[11/21/2022 8:44 PM] AngieHar#0000
+And flux will send their prizes just to their three first places
+
+
+[11/21/2022 10:47 PM] glasgowm#0000
+(re @NoahErgo : *up to EF members what to do now I think @glasgowm @Armeanio @seedubya*) 
+ 
+ Drafted this; https://docs.google.com/document/d/1yLH7ZmyY02Z57pXQh-O6BMykazm8N9OhFy5MD1OjcNo/edit
+
+asked about extra rewards but didnt get any feedback
+
+{Embed}
+https://docs.google.com/document/d/1yLH7ZmyY02Z57pXQh-O6BMykazm8N9OhFy5MD1OjcNo/edit
+ERGOHACK Clarification [DRAFT]
+The results of ERGOHACK V were announced on the AMA yesterday, the full order is as follows;  CYTI ergonames paizo ergo-audit (Tied 4th) snisp  (Tied 4th) satergo  (Tied 4th) sigma-rust-jit obolflip eip38 partial voting dumdumdum ergo-payroll dlop-art-generator   These are all great contributions...
+https://images-ext-2.discordapp.net/external/C1jI4nbzJnPoRwdwuW-iRZ6-p1ngKg63o4HgywN2tWc/https/lh5.googleusercontent.com/spTsE4tZGM-xgf1aVRWgscVGiQSShN5sz2uAqVo8TzfUrsLzfhc5yBbAPvcdaH6Qu8B-IS_vbzbDPw%3Dw1200-h630-p
+
+
+[11/21/2022 10:50 PM] NoahErgo#0000
+(re @glasgowm : *Drafted this; https://docs.google.com/document/d/1yLH7ZmyY02Z57pXQh-O6BMykazm8N9OhFy5MD1OjcNo/edit
+
+asked about extra rewards but didnt get any feedback*) 
+ 
+ This is well thought out, nice one
+
+{Embed}
+https://docs.google.com/document/d/1yLH7ZmyY02Z57pXQh-O6BMykazm8N9OhFy5MD1OjcNo/edit
+ERGOHACK Clarification [DRAFT]
+The results of ERGOHACK V were announced on the AMA yesterday, the full order is as follows;  CYTI ergonames paizo ergo-audit (Tied 4th) snisp  (Tied 4th) satergo  (Tied 4th) sigma-rust-jit obolflip eip38 partial voting dumdumdum ergo-payroll dlop-art-generator   These are all great contributions...
+https://images-ext-2.discordapp.net/external/C1jI4nbzJnPoRwdwuW-iRZ6-p1ngKg63o4HgywN2tWc/https/lh5.googleusercontent.com/spTsE4tZGM-xgf1aVRWgscVGiQSShN5sz2uAqVo8TzfUrsLzfhc5yBbAPvcdaH6Qu8B-IS_vbzbDPw%3Dw1200-h630-p
+
+
+[11/21/2022 10:58 PM] CW#0000
+(re @glasgowm : *Drafted this; https://docs.google.com/document/d/1yLH7ZmyY02Z57pXQh-O6BMykazm8N9OhFy5MD1OjcNo/edit
+
+asked about extra rewards but didnt get any feedback*) 
+ 
+ Nice mate, one comment to add Alephium alongside djed and flux
+
+{Embed}
+https://docs.google.com/document/d/1yLH7ZmyY02Z57pXQh-O6BMykazm8N9OhFy5MD1OjcNo/edit
+ERGOHACK Clarification [DRAFT]
+The results of ERGOHACK V were announced on the AMA yesterday, the full order is as follows;  CYTI ergonames paizo ergo-audit (Tied 4th) snisp  (Tied 4th) satergo  (Tied 4th) sigma-rust-jit obolflip eip38 partial voting dumdumdum ergo-payroll dlop-art-generator   These are all great contributions...
+https://images-ext-2.discordapp.net/external/C1jI4nbzJnPoRwdwuW-iRZ6-p1ngKg63o4HgywN2tWc/https/lh5.googleusercontent.com/spTsE4tZGM-xgf1aVRWgscVGiQSShN5sz2uAqVo8TzfUrsLzfhc5yBbAPvcdaH6Qu8B-IS_vbzbDPw%3Dw1200-h630-p
+
+
+[11/22/2022 10:22 AM] AngieHar#0000
+(re @AngieHar : *And one more thought 
+Alephium will distribute their prize pool equally between all teams 
+And Djed Alliance doesn’t provide with prizes 
+
+So in this case maybe separate teams won from EF and Flux?*) 
+ 
+ any feedback on the idea? @seedubya
+
+
+[11/22/2022 12:10 PM] Ceilican#0000
+(re @Armeanio : *Yeah external project judges seem like a bad idea moving forward.*) 
+ 
+ Is it "external judges" a bad idea? Or is it actually "external judges with some potential conflict of interest" a bad idea?
+
+
+[11/22/2022 12:10 PM] Ceilican#0000
+In addition to the feedback that I have already given a long time ago above, here is another one:
+
+* because teams are working on entirely different projects, judging will always be a bit subjective. It is like trying to judge a marathon where each runner can choose in which direction to run. Some teams and judges may think that it is more worthy to run 100km on a  beach, whereas others may think that it is more worthy to climb a 1km high mountain. Aggregating such subjective opinions will lead to seemingly random results and to dissatisfaction among those who have a different opinion about what is more worthy. 
+
+One way to solve this is to change the notion of "winner". Instead of having a "first", "second", "third" place, the hackathon could have (small) prizes for everyone who is deemed to have "crossed the finish line" (in whatever direction they decided to "run") plus some special bonus prizes for special achievements ("longest distance", "highest altitude", or analogously "best documentation", "most in scope", "best UI", "most innovative idea",... ).
+
+
+[11/22/2022 2:11 PM] Armeanio#0000
+(re @Ceilican : *Is it "external judges" a bad idea? Or is it actually "external judges with some potential conflict of interest" a bad idea?*) 
+ 
+ Specifically the flux judges. It very well could be a conflict of interest.
+
+
+[11/22/2022 2:13 PM] AngieHar#0000
+(re @Armeanio : *Specifically the flux judges. It very well could be a conflict of interest.*) 
+ 
+ Can we separate them? So they give their prizes just for those whom they assessed 
+And EF will award their winners?
+
+
+[11/22/2022 2:18 PM] NoahErgo#0000
+Just for transparency w you guys - As a participant id rather not comment on this and leave it to EF as it may influence ranking team outcomes and i dont want to do that. Conflict of interest moreso than being involved in creating the rubric
+
+
+[11/22/2022 7:38 PM] CW#0000
+(re @AngieHar : *any feedback on the idea? @seedubya*) 
+ 
+ I don't particularly agree with the idea, we are moving the goalposts to address scrutiny of judging to find an outcome 'we' want and discrediting judges decisions based on the current judging rubric.
+
+In saying that if it means we can finalize this hack and pay out rewards then sure. 
+
+The hack is to be Ergo-centric, judges from our ecosystem know what is good for us, what is needed, what complexities, what's on scope, etc, and imo are in the best position to do so. 
+The weight of internal judges needs to far outweigh external to keep this in favor for participants. 
+
+There will always be subjectivity around proposal judging as they're always so differing as Bruno mentioned above
+
+
+[11/22/2022 7:39 PM] AngieHar#0000
+(re @seedubya : *I don't particularly agree with the idea, we are moving the goalposts to address scrutiny of judging to find an outcome 'we' want and discrediting judges decisions based on the current judging rubric.
+
+In saying that if it means we can finalize this hack and pay out rewards then sure. 
+
+The hack is to be Ergo-centric, judges from our ecosystem know what is good for us, what is needed, what complexities, what's on scope, etc, and imo are in the best position to do so. 
+The weight of internal judg...*) 
+ 
+ Please tell me what to do I just simply need to collect wallets
+
+
+[11/22/2022 7:40 PM] AngieHar#0000
+Leave as is?
+
+
+[11/22/2022 7:41 PM] CW#0000
+Yes leave it, we can learn and move on to organising the next
+
+
+[11/24/2022 8:57 PM] NoahErgo#0000
+At this point seems we will not get a video from ergonames
+
+
+[11/24/2022 8:58 PM] NoahErgo#0000
+@Armeanio i know its holiday but if you havent already, tomorrow could you record a brief wrap up of the mini summit in behalf of the EF
+
+
+[11/24/2022 8:59 PM] Armeanio#0000
+(re @NoahErgo : *@Armeanio i know its holiday but if you havent already, tomorrow could you record a brief wrap up of the mini summit in behalf of the EF*) 
+ 
+ I did
+
+
+[11/24/2022 8:59 PM] Armeanio#0000
+To andy
+
+
+[11/24/2022 8:59 PM] Armeanio#0000
+@AndyLowe can you confirm?
+
+
+[11/24/2022 9:21 PM] NoahErgo#0000
+Awesome thank you
+
+
+[11/24/2022 10:56 PM] kushti#0000
+Doing my video, sorry for delay
+
+
+[11/25/2022 2:59 AM] AndyLowe#0000
+(re @Armeanio : *@AndyLowe can you confirm?*) 
+ 
+ received and all good
+
+
+[11/25/2022 8:10 PM] NoahErgo#0000
+@AndyLowe Ergo Names has unexpectedly just messaged me that they finished their video
+
+
+[11/25/2022 8:11 PM] NoahErgo#0000
+i have not received it yet i will get it in your hands as soon as possible
+
+
+[11/25/2022 11:25 PM] AndyLowe#0000
+ok, any update on when its expected?
+
+
+[11/25/2022 11:34 PM] AndyLowe#0000
+@NoahErgo im assuming they had either not yet exported the video or they are having difficulty uploading the file or something? you can give them my direct wetransfer link, its quick for upload and download: andylowe.wetransfer.com
+
+
+[11/25/2022 11:41 PM] NoahErgo#0000
+Should be a few hours from what i was told
+
+
+[11/25/2022 11:42 PM] NoahErgo#0000
+Sorry i asked them for it to be done a week ago at latest
+
+
+[11/25/2022 11:42 PM] CW#0000
+whats the guys name? i cant remember it for the life of me
+
+
+[11/25/2022 11:42 PM] NoahErgo#0000
+zack balbin
+
+
+[11/25/2022 11:42 PM] CW#0000
+i only remember his twitter pfp
+
+
+[11/25/2022 11:42 PM] NoahErgo#0000
+Balb on discord
+
+
+[11/25/2022 11:42 PM] CW#0000
+thats it
+
+
+[11/25/2022 11:43 PM] CW#0000
+thank, been driving me nuts for the last 10 mins
+
+
+[11/25/2022 11:44 PM] AndyLowe#0000
+(re @NoahErgo : *Should be a few hours from what i was told*) 
+ 
+ was that a few hours from when you messaged before, or a few hours from now?
+
+
+[11/26/2022 12:59 AM] NoahErgo#0000
+Almost home will check
+
+
+[11/26/2022 12:59 AM] NoahErgo#0000
+Sorry for the wait
+
+
+[11/26/2022 1:07 AM] NoahErgo#0000
+@AndyLowe should have it for you in a few minutes
+
+
+[11/26/2022 1:08 AM] NoahErgo#0000
+again apologies for this last minute i was asking him for weeks and had written off getting anything from him
+
+
+[11/26/2022 1:10 AM] AndyLowe#0000
+(re @NoahErgo : *@AndyLowe should have it for you in a few minutes*) 
+ 
+ how are you sending it
+
+
+[11/26/2022 1:12 AM] NoahErgo#0000
+waiting on a google drive link from him
+
+
+[11/26/2022 1:12 AM] NoahErgo#0000
+can share it here and also on notion if you prefer
+
+
+[11/26/2022 1:12 AM] NoahErgo#0000
+he said should be just a few minutes, 6 mins ago
+
+
+[11/26/2022 1:14 AM] NoahErgo#0000
+@AndyLowe 
+
+https://drive.google.com/file/d/1dY-z2d9lE2yxxrIhzCGEAuupbM6_KPTl/view?usp=sharing
+
+{Embed}
+https://drive.google.com/file/d/1dY-z2d9lE2yxxrIhzCGEAuupbM6_KPTl/view?usp=sharing
+ergohackv.mp4
+https://images-ext-2.discordapp.net/external/2ABFbAeMMM9dS2xyNsxT_TarFs_M6sGz3DvrZxtzPBg/https/lh4.googleusercontent.com/MKCfaiuKXMeo_LcmrJf3pDFGn5jAdLAPyhixOxCGhX6DrNjEhtn3fjadOt0MjMJWUwY%3Dw1200-h630-p
+
+
+[11/26/2022 1:16 AM] NoahErgo#0000
+next time ill be more dilligent on following up with the stragglers so this doesn’t happen again
+
+
+[11/26/2022 1:46 AM] AndyLowe#0000
+not your fault noah, no worries
+
+
+[11/26/2022 1:47 AM] AndyLowe#0000
+their video seems pretty good, so it was worth the wait at least
+
+
+[11/26/2022 1:47 AM] CW#0000
+This summit has run much smoother than the previous one. 
+
+Good collaboration between everyone and also the use of the video notion board to bring it all together
+
+
+[11/26/2022 1:47 AM] AndyLowe#0000
+@seedubya everything is now all correct in the Notion (all timings adjusted to allow for Ergo Names vid)
+
+
+[11/26/2022 1:47 AM] AndyLowe#0000
+Ergo Names is now at 16.00, Kushti at 16.30, Armeanio at 17.00
+
+
+[11/26/2022 1:47 AM] AndyLowe#0000
+everything before that remains the same as before
+
+
+[11/26/2022 1:47 AM] NoahErgo#0000
+(re @AndyLowe : *their video seems pretty good, so it was worth the wait at least*) 
+ 
+ Good to hear.
+
+
+[11/26/2022 1:48 AM] NoahErgo#0000
+Thanks for being flexible on it
+
+
+[11/26/2022 1:48 AM] CW#0000
+(re @AndyLowe : *@seedubya everything is now all correct in the Notion (all timings adjusted to allow for Ergo Names vid)*) 
+ 
+ Thanks mate, will adjust the scheduled tweets now
+
+
+[11/26/2022 1:48 AM] AndyLowe#0000
+The only thing is that Paizo project seems like a bit of a scam
+
+
+[11/26/2022 1:48 AM] AndyLowe#0000
+definitely seems dodgey
+
+
+[11/26/2022 1:48 AM] CW#0000
+😁
+
+
+[11/26/2022 1:48 AM] NoahErgo#0000
+hope you are joking haha
+
+
+[11/26/2022 1:49 AM] AndyLowe#0000
+(re @NoahErgo : *hope you are joking haha*) 
+ 
+ yes of course im joking haha lol
+
+
+[11/26/2022 1:49 AM] AndyLowe#0000
+I knew you wouldnt get the joke
+
+
+[11/26/2022 1:49 AM] NoahErgo#0000
+hahahaha got nervous i was self conscious when i made it
+
+
+[11/26/2022 1:49 AM] AndyLowe#0000
+Everything is set for tomorrow guys
+
+
+[11/26/2022 1:49 AM] AndyLowe#0000
+good work team
+
+
+[11/26/2022 1:49 AM] NoahErgo#0000
+Awesome. Appreciate you
+
+
+[12/21/2022 4:24 PM] AngieHar#0000
+i put some preliminary thoughts on the upcoming ergohacks for the next year
+hope that some ideas find a response 
+https://docs.google.com/document/d/1XBDZ5ziXKxUPwB1NNf1n_Q2dSS2-kMFLVTdVPx7ccrs/edit#
+
+{Embed}
+https://docs.google.com/document/d/1XBDZ5ziXKxUPwB1NNf1n_Q2dSS2-kMFLVTdVPx7ccrs/edit
+ErgoHack 2023
+NOTES Set and confirm dates for 2023 I propose 3 events in the following time frames:  – February/March ( 3 weeks)  – May ( 1 week)  – October/ November ( 3 weeks)  Publish the schedule of all hackathons at once in one advertising post (on the website and social media), so people are aware of the...
+https://images-ext-2.discordapp.net/external/vtlV_k8_SYeis3x1cj-ovexwuO82NnZKA4WlBdGcrOQ/https/lh6.googleusercontent.com/YMSqlPCKvudUGROhLXPZIjkQHmiJyK42cCqhwClhpM95FVhn-mUEOoQn9jbchP02tQD65sTfHv04Gw%3Dw1200-h630-p
+
+
+[12/21/2022 4:31 PM] CW#0000
+Hi angie I've set dates and requested funding from EF for the first hack already as well as a calendar for time periods. 
+
+A number of proposed topics also to hopefully coincide with product releases - oracles v2, rose bridge etc.
+
+
+[12/21/2022 4:32 PM] CW#0000
+4 hacks, 2 weeks in length seems optimal with opportunity for smaller run initiatives in between - pending fund availability
+
+
+[12/21/2022 4:32 PM] CW#0000
+https://docs.google.com/spreadsheets/d/140OAKJ1vXxB8tLrg_pxxht0vI2xRzyNstyyXE6tFwd0/edit#gid=43751550
+
+{Embed}
+https://docs.google.com/spreadsheets/d/140OAKJ1vXxB8tLrg_pxxht0vI2xRzyNstyyXE6tFwd0/edit
+Ergo Event Calendar 2023
+2023 Calendar
+
+Ergo Event Calendar 2023
+Su,Mo,Tu,We,Th,Fr,Sa,Su,Mo,Tu,We,Th,Fr,Sa,Su,Mo,Tu,We,Th
+Jan,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19
+Feb,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+ErgoHack VI - 
+Mar,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+Apr,1,2,3,4,5,6,7,8,9,10,11,12,13
+May,1,2,3,4,5...
+https://images-ext-2.discordapp.net/external/l7jlEBVCdAk-25SNSD5E-mlQnjYgHODaKk-K0IASS_8/https/lh3.googleusercontent.com/POaLTrlE3aGHNGR_Vxp2DTlX-y8rsftAkTXjgv8kycVxH8wK6RJuqYBNdw-gSJAsY-6qZNzMTQ-Keg%3Dw1200-h630-p
+
+
+[12/21/2022 4:33 PM] AngieHar#0000
+(re @seedubya : *https://docs.google.com/spreadsheets/d/140OAKJ1vXxB8tLrg_pxxht0vI2xRzyNstyyXE6tFwd0/edit#gid=43751550*) 
+ 
+ one thought, maybe shift the third event from august to september? everybody is on vacation this period
+
+{Embed}
+https://docs.google.com/spreadsheets/d/140OAKJ1vXxB8tLrg_pxxht0vI2xRzyNstyyXE6tFwd0/edit
+Ergo Event Calendar 2023
+2023 Calendar
+
+Ergo Event Calendar 2023
+Su,Mo,Tu,We,Th,Fr,Sa,Su,Mo,Tu,We,Th,Fr,Sa,Su,Mo,Tu,We,Th
+Jan,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19
+Feb,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+ErgoHack VI - 
+Mar,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+Apr,1,2,3,4,5,6,7,8,9,10,11,12,13
+May,1,2,3,4,5...
+https://images-ext-2.discordapp.net/external/l7jlEBVCdAk-25SNSD5E-mlQnjYgHODaKk-K0IASS_8/https/lh3.googleusercontent.com/POaLTrlE3aGHNGR_Vxp2DTlX-y8rsftAkTXjgv8kycVxH8wK6RJuqYBNdw-gSJAsY-6qZNzMTQ-Keg%3Dw1200-h630-p
+
+
+[12/21/2022 4:33 PM] CW#0000
+Time for Ergohack VI!
+
+> Date: Feb 8 - 22 (2 weeks)
+> Prize Pool: 18k SigUSD (TBC)
+> Judging: Feb 22 - Mar 1
+> Announce winners:  Mar 2 at weekly AMA
+
+> There have been a number of suggestions and ideas put forth for topics of upcoming Hackathons and would like to discuss what we, as the EF, would like to see be the focus for ErgoHack VI. 
+
+> Ideas include (to name a few):
+> Oracles and DeFi
+> Education, Tutorials and Documentation
+> Green Button Solutions
+> Sigma Protocols and ZKPs
+> Grassroots Finance
+> Arbitrage/Trading Bots and Off-Chain Solutions
+> Hack/Harden Current Projects
+
+> My suggestion for ErgoHack VI is Oracles and Defi. Pending Oracle v2 release, building use and utility around the oracle framework and DeFi utilizing such oracles and open to discuss ideas
+
+
+[12/21/2022 4:34 PM] CW#0000
+Will update when I have PC available
+
+
+[12/21/2022 4:34 PM] AngieHar#0000
+okay got it 
+but anyway my ideas are more general, about the structure
+
+
+[12/21/2022 4:37 PM] CW#0000
+Just waiting for EF vote on funding and also release on main net of the options mentioned above to set the theme for Hack VI
+
+
+[12/21/2022 4:39 PM] AngieHar#0000
+cool 
+so we can announce all hacks in advance, just need to confirm themes, so they coincide with the dates
+
+
+[12/21/2022 4:43 PM] CW#0000
+Not without confirmation of funding availability I guess. Can request total for 2023. I get where you're coming from though
+
+
+[12/31/2022 10:14 PM] NoahErgo#0000
+(re @seedubya : *Time for Ergohack VI!
+
+> Date: Feb 8 - 22 (2 weeks)
+> Prize Pool: 18k SigUSD (TBC)
+> Judging: Feb 22 - Mar 1
+> Announce winners:  Mar 2 at weekly AMA
+
+> There have been a number of suggestions and ideas put forth for topics of upcoming Hackathons and would like to discuss what we, as the EF, would like to see be the focus for ErgoHack VI. 
+
+> Ideas include (to name a few):
+> Oracles and DeFi
+> Education, Tutorials and Documentation
+> Green Button Solutions
+> Sigma Protocols and ZKPs
+> Grassroots...*) 
+ 
+ i think oracles and defi is a good idea
+
+
+[12/31/2022 10:14 PM] NoahErgo#0000
+Would allow us the opportunity to provide a nice video overview of the oracles v2 framework, similar to the rosen bridge video that was done
+
+
+[12/31/2022 10:15 PM] NoahErgo#0000
+Not sure if greenhat would be interested in providing this or not. And I know @Armeanio said something about creating a similar dexy overview
+
+
+[12/31/2022 10:17 PM] NoahErgo#0000
+@seedubya when you are back from your trip shoot me a message and can start preparing for next ergohack asap
+
+
+[01/02/2023 8:38 PM] CW#0000
+Hey mate just got back. Have a bit if catching up to do over the coming hours and will be in contact!
+
+
+[01/03/2023 4:59 PM] NoahErgo#0000
+(re @seedubya : *Hey mate just got back. Have a bit if catching up to do over the coming hours and will be in contact!*) 
+ 
+ If we do land on accessibility/ease of use theme ill hit up nico (behind paideia and zengate) and see if he would do a video on design principles
+
+
+[01/12/2023 4:11 PM] AngieHar#0000
+Forwarded from kushti_ru: @seedubya @glasgowm @AngieHar on ErgoHack, what about to have it very generic and name just "CypherPunk Finance" ? 
+
+Which may include (but not limited to):
+- research in hardening PoW , L2 
+- hardware wallets (I know a guy who is working on Tangem impl for example), physical Erg coins 
+- cold wallets
+- p2p financial instruments
+- community finance
+- improving on- and off-ramp (Bisq-like contracts by @MrStahlfelge and so on)
+- minimizing trust in cross-chain and off-chain solutions
+- PoW-Fi
+- experiments in tokenomics
+- degen finance 
+
+and so on, so basically filling holes and building where we have half-baked stuff already , also, with catchy name
+
+
+[01/16/2023 2:25 PM] AngieHar#0000
+(re @AngieHar : *@seedubya @glasgowm @AngieHar on ErgoHack, what about to have it very generic and name just "CypherPunk Finance" ? 
+
+Which may include (but not limited to):
+- research in hardening PoW , L2 
+- hardware wallets (I know a guy who is working on Tangem impl for example), physical Erg coins 
+- cold wallets
+- p2p financial instruments
+- community finance
+- improving on- and off-ramp (Bisq-like contracts by @MrStahlfelge and so on)
+- minimizing trust in cross-chain and off-chain solutions
+- PoW-Fi
+- ex...*) 
+ 
+ hi there, 
+can we discuss the proposed topic? 
+we shifted from "Integration and Accessibility" to "CypherPunk Finance" 
+ what it means and how to transfer it into more clear tasks
+
+
+[01/16/2023 2:25 PM] AngieHar#0000
+@seedubya @NoahErgo
+
+
+[01/16/2023 3:03 PM] NoahErgo#0000
+Yes i would like some clarity as well
+
+
+[01/16/2023 3:48 PM] glasgowm#0000
+(re @AngieHar : *hi there, 
+can we discuss the proposed topic? 
+we shifted from "Integration and Accessibility" to "CypherPunk Finance" 
+ what it means and how to transfer it into more clear tasks*) 
+ 
+ Theme is more of a guideline usually right? + videos/materials on the topic
+
+> A cypherpunk is any activist advocating widespread use of strong cryptography and privacy-enhancing technologies as a route to social and political change. Originally communicating through the Cypherpunks electronic mailing list, informal groups aimed to achieve privacy and security through proactive use of cryptography. Cypherpunks have been engaged in an active movement since the late 1980s.
+
+Some resources on the privacy aspect here which I will improve before the hack
+
+https://docs.ergoplatform.com/crypto/
+
+
+[01/16/2023 3:51 PM] AngieHar#0000
+(re @glasgowm : *Theme is more of a guideline usually right? + videos/materials on the topic
+
+> A cypherpunk is any activist advocating widespread use of strong cryptography and privacy-enhancing technologies as a route to social and political change. Originally communicating through the Cypherpunks electronic mailing list, informal groups aimed to achieve privacy and security through proactive use of cryptography. Cypherpunks have been engaged in an active movement since the late 1980s.
+
+Some resources on the p...*) 
+ 
+ hmm, interesting 
+is this a reference?  https://en.bitcoinwiki.org/wiki/Cypherpunk
+
+{Embed}
+https://en.bitcoinwiki.org/wiki/Cypherpunk
+Cypherpunk
+Cypherpunk is any activist advocating widespread use of strong cryptography and privacy-enhancing technologies as a route to social and political change. Originally communicating through the Cypherpunks electronic mailing list, informal groups aimed to achieve privacy and security through proactive use of cryptography. Cypherpunks have been enga...
+https://images-ext-2.discordapp.net/external/Sfz1c6qCIBTkboRUsIW-niyeoBO3mrNZ2ApRKTk5qBY/https/en.bitcoinwiki.org/resources/new_assets/MetaPicWIKI.png
+
+
+[01/16/2023 3:51 PM] AngieHar#0000
+https://docs.ergoplatform.com/crypto/ and this is for to form tasks?
+
+
+[01/16/2023 3:52 PM] glasgowm#9381
+sure
+
+
+[01/16/2023 3:52 PM] glasgowm#9381
+Well it's related. ie, you can get to https://docs.ergoplatform.com/dev/scs/sigma/verifying/ which is a tutorial for verifying a sigma protocol. 
+
+But wdym exactly by tasks?
+
+
+[01/16/2023 3:54 PM] AngieHar#0000
+(re @AngieHar : *@seedubya @glasgowm @AngieHar on ErgoHack, what about to have it very generic and name just "CypherPunk Finance" ? 
+
+Which may include (but not limited to):
+- research in hardening PoW , L2 
+- hardware wallets (I know a guy who is working on Tangem impl for example), physical Erg coins 
+- cold wallets
+- p2p financial instruments
+- community finance
+- improving on- and off-ramp (Bisq-like contracts by @MrStahlfelge and so on)
+- minimizing trust in cross-chain and off-chain solutions
+- PoW-Fi
+- ex...*) 
+ 
+ by tasks i mean how to transform these points? 
+
+- research in hardening PoW , L2 
+- hardware wallets (I know a guy who is working on Tangem impl for example), physical Erg coins 
+- cold wallets
+- p2p financial instruments
+- community finance
+- improving on- and off-ramp (Bisq-like contracts by @MrStahlfelge and so on)
+- minimizing trust in cross-chain and off-chain solutions
+- PoW-Fi
+- experiments in tokenomics
+- degen finance 
+
+so they can be listed in «Suggested Ideas for ErgoHack» section
+
+
+[01/16/2023 3:56 PM] glasgowm#9381
+Just needs a bit of formatting and fleshing out
+
+- Research in hardening Proof of Work & Layer 2
+- Hardware wallets & Cold wallets
+- Physical Erg coins 
+- P2P financial instruments
+- Community Finance
+- improving on-and off-ramp (Bisq-like contracts)
+- Minimizing trust in cross-chain and off-chain solutions
+- PoW-Fi
+- Experiments in tokenomics
+- Degen finance
+
+
+[01/16/2023 4:07 PM] AngieHar#0000
+(re  : *<Glasgow> Just needs a bit of formatting and fleshing out
+
+- Research in hardening Proof of Work & Layer 2
+- Hardware wallets & Cold wallets
+- Physical Erg coins 
+- P2P financial instruments
+- Community Finance
+- improving on-and off-ramp (Bisq-like contracts)
+- Minimizing trust in cross-chain and off-chain solutions
+- PoW-Fi
+- Experiments in tokenomics
+- Degen finance*) 
+ 
+ okay, so all in all we need to highlight privacy aspect
+
+
+[01/16/2023 4:09 PM] AngieHar#0000
+another question to confirm is registration 
+does typeform remain as was used 
+or google form/ any other 
+
+there was a discussion
+
+
+[01/16/2023 4:35 PM] NoahErgo#0000
+(re @AngieHar : *another question to confirm is registration 
+does typeform remain as was used 
+or google form/ any other 
+
+there was a discussion*) 
+ 
+ I think a google form would be reasonable? Typeform seemed to have issues
+
+
+[01/16/2023 4:52 PM] glasgowm#9381
+There's also https://tally.so/
+
+{Embed}
+https://tally.so/
+Free Online Form Builder | Tally
+Tally is the simplest way to create free forms & surveys. Create any type of form in seconds, without knowing how to code, and for free.
+https://images-ext-1.discordapp.net/external/ysRwphRPX1yd2_5y5JdXtd1UeTJ_TRj781MwbeTCRvg/https/tally.so/images/og.jpg
+
+
+[01/16/2023 4:58 PM] NoahErgo#0000
+I think issue with typeform was probably that entry fields were across multiple pages. If it can all be in one simple form on a single page i think people wouldnt have a problem
+
+
+[01/16/2023 10:05 PM] CW#0000
+(re @NoahErgo : *I think issue with typeform was probably that entry fields were across multiple pages. If it can all be in one simple form on a single page i think people wouldnt have a problem*) 
+ 
+ Also reports of submissions not registering or missing. Maybe from not following all the way through as its over multiple pages. Also like the registration form to be available whilst the hack is running
+
+
+[01/16/2023 10:05 PM] CW#0000
+(re  : *<Glasgow> There's also https://tally.so/*) 
+ 
+ This looks pretty simple
+
+{Embed}
+https://tally.so/*)
+Free Online Form Builder | Tally
+Tally is the simplest way to create free forms & surveys. Create any type of form in seconds, without knowing how to code, and for free.
+https://images-ext-1.discordapp.net/external/ysRwphRPX1yd2_5y5JdXtd1UeTJ_TRj781MwbeTCRvg/https/tally.so/images/og.jpg
+
+
+[01/16/2023 10:06 PM] NoahErgo#0000
+(re @seedubya : *Also reports of submissions not registering or missing. Maybe from not following all the way through as its over multiple pages. Also like the registration form to be available whilst the hack is running*) 
+ 
+ Yeah was thinking possibly timeouts while entering across multiple pages or something
+
+
+[01/16/2023 10:06 PM] NoahErgo#0000
+Simpler the better though
+
+
+[01/18/2023 10:22 AM] glasgowm#0000
+(re @NoahErgo : *I think issue with typeform was probably that entry fields were across multiple pages. If it can all be in one simple form on a single page i think people wouldnt have a problem*) 
+ 
+ https://tally.so/r/wdboEo
+
+{Embed}
+Tally Forms
+https://tally.so/r/wdboEo
+ERGOHACK VI: Cyberpunk Finance
+Made with Tally, the simplest way to create forms.
+https://images-ext-2.discordapp.net/external/rYTJJx-G2hPCeg8j39TlVdU0nEAMMd3jUC5pYu9JIuw/https/storage.googleapis.com/tally-block-assets/dc0debef-f9b2-4e84-beeb-542e40b7f4a6/ergohackvi_form.png
+
+
+[01/18/2023 10:22 AM] CW#0000
+Hey @AngieHar how is the text for the website coming along? I've reached out to @tortodelivery also on graphics again. 
+
+Sticking to the dates in the pinned message. 
+
+We can update the website and announce at tomorrows AMA and spread across socials
+
+
+[01/18/2023 10:24 AM] CW#0000
+(re @glasgowm : *https://tally.so/r/wdboEo*) 
+ 
+ Looks good mate, can we chuck in an address field so don't have to chase up for prizes? Easy to embed on the website?
+
+{Embed}
+Tally Forms
+https://tally.so/r/wdboEo*)
+Form - Tally
+Made with Tally, the simplest way to create forms.
+https://images-ext-1.discordapp.net/external/ysRwphRPX1yd2_5y5JdXtd1UeTJ_TRj781MwbeTCRvg/https/tally.so/images/og.jpg
+
+
+[01/18/2023 10:24 AM] AngieHar#0000
+(re @seedubya : *Hey @AngieHar how is the text for the website coming along? I've reached out to @tortodelivery also on graphics again. 
+
+Sticking to the dates in the pinned message. 
+
+We can update the website and announce at tomorrows AMA and spread across socials*) 
+ 
+ The intro text can be complete today 
+But a question if the other organisation remains the same?
+
+
+[01/18/2023 10:24 AM] AngieHar#0000
+I mean maybe pre announce it in a simple form?
+
+
+[01/18/2023 10:24 AM] AngieHar#0000
+Like topic dates and registration until the following date
+
+
+[01/18/2023 10:25 AM] CW#0000
+Sorry, not quite following
+
+
+[01/18/2023 10:27 AM] glasgowm#0000
+(re @seedubya : *Looks good mate, can we chuck in an address field so don't have to chase up for prizes? Easy to embed on the website?*) 
+ 
+ https://ergohack.io/register/
+
+{Embed}
+ergoplatfrom
+https://ergohack.io/register/
+Register - ErgoHack VI
+https://tally.so/embed/wdboEo?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1
+https://images-ext-2.discordapp.net/external/kJLq_V-nGbDztl8PZmWnmrXtEucS8jbo-Bw7BQwHQZ8/https/i0.wp.com/ergohack.io/wp-content/uploads/2022/09/feature-image-1200-675-1024x578-1.webp
+
+
+[01/18/2023 10:27 AM] AngieHar#0000
+I propose to pre announce it just in social media with the link to registration 
+The ergohack.io can’t be promoted yet since there are many aspects to discuss or confirm whatever 
+The intro text for ergohack.io can be completed today ( as for a homepage) but other info should be reworked
+
+
+[01/18/2023 10:28 AM] AngieHar#0000
+Is the concept of ergo hack remains the same?
+
+
+[01/18/2023 10:28 AM] CW#0000
+(re @glasgowm : *https://ergohack.io/register/*) 
+ 
+ Awesome! On mobile the image is off but form looks good
+
+
+[01/18/2023 10:34 AM] CW#0000
+(re @AngieHar : *Is the concept of ergo hack remains the same?*) 
+ 
+ Correct, same concept as previous hacks. 
+
+Main page intro/desc updated for current theme with suggestions above on Glasgow's refinement 
+
+About page the majority of that is reusable with update to "ErgoHack VI" throughout the text
+
+
+[01/18/2023 10:34 AM] AngieHar#0000
+Okay
+
+
+[01/18/2023 10:36 AM] CW#0000
+(re @glasgowm : *https://ergohack.io/register/*) 
+ 
+ Form looks good mate, the image is off on mobile. It's centered but cropping ends like it's not scaling, not sure if something can be done on that
+
+
+[01/18/2023 10:37 AM] CW#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065218303133491220/file_96832.jpg
+
+
+[01/18/2023 10:37 AM] AngieHar#0000
+What is with schedule?
+
+
+[01/18/2023 10:38 AM] AngieHar#0000
+Oh no problem I have an idea
+
+
+[01/18/2023 10:40 AM] CW#0000
+ErgoPad are committing 300k tokens to sponsor. Can break that up like the following 
+
+1st - 150k 
+2nd - 100k 
+3rd- 50k
+
+
+[01/18/2023 10:41 AM] CW#0000
+(re @AngieHar : *What is with schedule?*) 
+ 
+ ?? More info please heh
+
+
+[01/18/2023 10:52 AM] CW#0000
+Couple of minor updates on About page
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065222033094488094/file_96833.jpg
+
+
+[01/18/2023 10:52 AM] CW#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065222035401363476/file_96834.jpg
+
+
+[01/18/2023 10:53 AM] AngieHar#0000
+updated
+
+
+[01/18/2023 10:53 AM] CW#0000
+Ty 🙂
+
+
+[01/18/2023 10:53 AM] AngieHar#0000
+i guess Mark updated
+
+
+[01/18/2023 11:00 AM] CW#0000
+Another slight update for consistency, expand Feb - Mar to full names and with numbers add or remove "th" etc so all similar
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065224267664465932/file_96835.jpg
+
+
+[01/18/2023 11:01 AM] AngieHar#0000
+one sec
+
+
+[01/18/2023 11:01 AM] AngieHar#0000
+adding hall of fame
+
+
+[01/18/2023 11:03 AM] CW#0000
+(re @AngieHar : *adding hall of fame*) 
+ 
+ Too easy
+
+
+[01/18/2023 11:07 AM] AngieHar#0000
+that’s all
+remain to update header banner and cover image
+
+
+[01/18/2023 11:07 AM] AngieHar#0000
+announcement for blog in progress
+
+
+[01/18/2023 11:10 AM] CW#0000
+(re @AngieHar : *that’s all
+remain to update header banner and cover image*) 
+ 
+ Also link preview image
+
+
+[01/18/2023 11:13 AM] AngieHar#0000
+(re @seedubya : *Also link preview image*) 
+ 
+ I guess preview and cover is the same 
+Preview that appears while linking?
+
+
+[01/18/2023 11:15 AM] CW#0000
+(re @AngieHar : *I guess preview and cover is the same 
+Preview that appears while linking?*) 
+ 
+ Yeah it'll be the same image, I remember last hack it wasn't updated. Think from me more Glasgow knew where to update it
+
+
+[01/18/2023 11:16 AM] AngieHar#0000
+It was updated, there is a problem with cache
+
+
+[01/18/2023 11:16 AM] AngieHar#0000
+So yeah, two images
+
+
+[01/18/2023 11:17 AM] CW#0000
+(re @glasgowm : *https://ergohack.io/register/*)
+
+
+[01/18/2023 11:17 AM] CW#0000
+Testing the form mate, I get the following w/ and w/o an attachment
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065228334952370246/file_96838.jpg
+
+
+[01/18/2023 11:17 AM] CW#0000
+(re @AngieHar : *It was updated, there is a problem with cache*) 
+ 
+ Ok cool
+
+
+[01/18/2023 11:27 AM] CW#0000
+Maybe just mention special prize with Ergo Foundation member or similar in brackets. Same formatting as 1st, 2nd etc
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065230994136903730/file_96842.jpg
+
+
+[01/18/2023 11:28 AM] AngieHar#0000
+okay
+
+
+[01/18/2023 11:35 AM] AngieHar#0000
+can’t find the solution from Obolflip
+
+
+[01/18/2023 11:37 AM] glasgowm#9381
+fixed
+
+
+[01/18/2023 11:37 AM] glasgowm#9381
+https://github.com/ObolFlip/obolflip-client ?
+
+{Embed}
+https://github.com/ObolFlip/obolflip-client
+GitHub - ObolFlip/obolflip-client
+Contribute to ObolFlip/obolflip-client development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/2-IU4P9ayBTzCWdhIOlTrfUny6c_OlPgXFBiacI1J2I/https/opengraph.githubassets.com/fafa362ff2def0538897a8dc7b948ef0d5b670db4dceda5c7d1e99393b21bce8/ObolFlip/obolflip-client
+
+
+[01/18/2023 11:37 AM] AngieHar#0000
+updated
+
+
+[01/18/2023 11:37 AM] CW#0000
+(re @AngieHar : *can’t find the solution from Obolflip*) 
+ 
+ https://docs.ergoplatform.com/events/ergohack/#obolflip
+
+Looks like domain not renewed on flux etc
+
+
+[01/18/2023 11:38 AM] AngieHar#0000
+github
+
+
+[01/18/2023 11:42 AM] CW#0000
+(re  : *<Glasgow> fixed*) 
+ 
+ Cheers, tested again and both went through. After submission what are your thoughts on a redirect to the resources page?
+
+
+[01/18/2023 11:46 AM] glasgowm#9381
+Enabled but makes it unclear it's been submitted. Resources page also outdated
+
+- Switched over to new twitter in menu
+- switched resources -> docs for now
+
+
+[01/18/2023 11:49 AM] CW#0000
+(re  : *<Glasgow> Enabled but makes it unclear it's been submitted. Resources page also outdated
+
+- Switched over to new twitter in menu
+- switched resources -> docs for now*) 
+ 
+ Yeah I see what you mean about the redirect. Maybe can it
+
+
+[01/18/2023 11:50 AM] CW#0000
+Not knowing if a form was submitted or not was some feedback about the signup process last hack
+
+
+[01/18/2023 11:54 AM] CW#0000
+(re  : *<Glasgow> Enabled but makes it unclear it's been submitted. Resources page also outdated
+
+- Switched over to new twitter in menu
+- switched resources -> docs for now*)
+
+
+[01/18/2023 11:54 AM] CW#0000
+Can also do this one
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065237694394925056/file_96847.jpg
+
+
+[01/18/2023 11:55 AM] AngieHar#0000
+(re @seedubya : *Can also do this one, at the bottom of the main page*) 
+ 
+ Please give a link
+
+
+[01/18/2023 11:55 AM] CW#0000
+(re @AngieHar : *Please give a link*) 
+ 
+ https://twitter.com/Ergo_Platform
+
+
+[01/18/2023 11:55 AM] AngieHar#0000
+(re @seedubya : *https://twitter.com/Ergo_Platform*) 
+ 
+ done
+
+
+[01/18/2023 11:55 AM] AngieHar#0000
+(re @seedubya : *https://twitter.com/Ergo_Platform*) 
+ 
+ done
+
+
+[01/18/2023 11:56 AM] CW#0000
+Ty
+
+
+[01/18/2023 11:58 AM] AngieHar#0000
+will start sending the website for listings where possible
+
+
+[01/18/2023 12:05 PM] CW#0000
+Few more minor things...
+
+On the desc we can mention Cypherpunk DeFi at arrow and expand a little on what that means 
+
+Remove the comma 
+
+New paragraph for "The event..."
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065240624179191810/file_96850.jpg
+
+
+[01/18/2023 12:07 PM] AngieHar#0000
+Let’s speak about cypherpunk in announcement piece in blog?
+
+
+[01/18/2023 12:08 PM] AngieHar#0000
+At least it will be there as a short paragraph and intro
+
+
+[01/18/2023 12:09 PM] AngieHar#0000
+(re @seedubya : *Few more minor things...
+
+On the desc we can mention Cypherpunk DeFi at arrow and expand a little on what that means 
+
+Remove the comma 
+
+New paragraph for "The event..."*) 
+ 
+ Other updated
+
+
+[01/18/2023 12:14 PM] CW#0000
+(re @AngieHar : *Let’s speak about cypherpunk in announcement piece in blog?*) 
+ 
+ Possibly reword that sentence to include something like 
+
+Cypher punks advocate the widespread use of strong cryptography and privacy-enhancing technologies and are encouraged to explore the realms of web3, defi, x, y, z
+
+
+[01/18/2023 12:16 PM] AngieHar#0000
+Ah okay
+
+
+[01/18/2023 12:44 PM] glasgowm#0000
+where the f is this set do you remember @AngieHar ? fckn wordpress lol
+
+I installed a plugin to manage/override it and it’s somehow reverted from ERGOHACK V to ERGOHACK II
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065250312631373844/file_96871.jpg
+
+
+[01/18/2023 12:44 PM] glasgowm#0000
+where the f is this set do you remember @AngieHar ? fckn wordpress lol
+
+I installed a plugin to manage/override it and it’s somehow reverted from ERGOHACK V to ERGOHACK II instead
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065250346655563806/file_96871.jpg
+
+
+[01/18/2023 12:45 PM] glasgowm#0000
+Ah okay, found the text - in here for the next time. Not sure where it was pulling from previously though.
+
+tags for search: preview, card, og:image, opengraph
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065250651128467456/file_96873.jpg
+
+
+[01/18/2023 12:45 PM] glasgowm#0000
+Ah okay, found the text - in here on homepage for the next time. Not sure where it was pulling from previously though.
+
+tags for search: preview, card, og:image, opengraph
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065250681834962944/file_96873.jpg
+
+
+[01/18/2023 12:47 PM] AngieHar#0000
+appearance maybe
+
+
+[01/18/2023 12:47 PM] AngieHar#0000
+one sec trying to find
+
+
+[01/18/2023 12:52 PM] AngieHar#0000
+it’s updated as i see
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065252246570418176/file_96875.jpg
+
+
+[01/18/2023 12:52 PM] AngieHar#0000
+but if it doesn
+
+
+[01/18/2023 12:52 PM] AngieHar#0000
+ergohack.io
+
+
+[01/18/2023 12:53 PM] AngieHar#0000
+https://ergohack.io/
+
+{Embed}
+ergoplatfrom
+https://ergohack.io/
+Hackathon - ErgoHack VI
+Welcome to ErgoHack V! Ergo’s hackathons have become an incredibly important and identifying feature of the blockchain after four highly successful events in the past year.
+https://images-ext-1.discordapp.net/external/oEUH8_16ynYGo2HgJHabR0p3mWnlfw4NJAxWz35_QMw/https/i0.wp.com/ergohack.io/wp-content/uploads/2022/09/feature-image-1200-675.png
+
+
+[01/18/2023 12:53 PM] glasgowm#0000
+Being overridden somewhere
+
+https://www.opengraph.xyz/url/https%3A%2F%2Fergohack.io%2F
+
+{Embed}
+https://www.opengraph.xyz/url/https%3A%2F%2Fergohack.io%2F
+OpenGraph - Preview Social Media Share and Generate Metatags
+OpenGraph is the easiest way to preview and generate open graph meta tags for any website.
+https://images-ext-2.discordapp.net/external/lvulltCJFaDs12v0CGi1PfNFve74V-tLQP6DEqgUoPg/https/www.opengraph.xyz/og-opengraph-v2.png
+
+
+[01/18/2023 12:53 PM] glasgowm#0000
+Found it
+
+
+[01/18/2023 12:53 PM] glasgowm#0000
+https://ergohack.io/wp-admin/admin.php?page=rank-math-options-titles
+
+{Embed}
+https://ergohack.io/wp-admin/admin.php?page=rank-math-options-titles
+
+
+[01/18/2023 12:54 PM] AngieHar#0000
+https://ergohack.io/
+
+{Embed}
+ergoplatfrom
+https://ergohack.io/
+Hackathon - ErgoHack VI
+Welcome to ErgoHack V! Ergo’s hackathons have become an incredibly important and identifying feature of the blockchain after four highly successful events in the past year.
+https://images-ext-1.discordapp.net/external/oEUH8_16ynYGo2HgJHabR0p3mWnlfw4NJAxWz35_QMw/https/i0.wp.com/ergohack.io/wp-content/uploads/2022/09/feature-image-1200-675.png
+
+
+[01/18/2023 12:57 PM] glasgowm#0000
+We should publish a donation address too where people can drop ERG/NFTs/etc as prizes
+
+
+[01/18/2023 1:00 PM] CW#0000
+(re @glasgowm : *We should publish a donation address too where people can drop ERG/NFTs/etc as prizes*) 
+ 
+ Was just talking to marcelo, he raised a similar point. Making the robots as nfts and raising some funds. I suggested we could do some community fav votes again and allocate accordingly
+
+
+[01/18/2023 1:00 PM] CW#0000
+(re @glasgowm : *We should publish a donation address too where people can drop ERG/NFTs/etc as prizes*) 
+ 
+ Good idea!
+
+
+[01/18/2023 1:01 PM] AngieHar#0000
+how to change the header?
+
+
+[01/18/2023 1:02 PM] AngieHar#0000
+found
+
+
+[01/18/2023 1:02 PM] glasgowm#0000
+(re @AngieHar : *how to change the header?*) 
+ 
+ The header or the og:image that is displayed on cards?
+
+Header in apperances 
+og image in that link above
+
+
+[01/18/2023 1:03 PM] AngieHar#0000
+https://ergohack.io/
+
+{Embed}
+ergoplatfrom
+https://ergohack.io/
+Hackathon - ErgoHack VI
+Welcome to ErgoHack V! Ergo’s hackathons have become an incredibly important and identifying feature of the blockchain after four highly successful events in the past year.
+https://images-ext-1.discordapp.net/external/oEUH8_16ynYGo2HgJHabR0p3mWnlfw4NJAxWz35_QMw/https/i0.wp.com/ergohack.io/wp-content/uploads/2022/09/feature-image-1200-675.png
+
+
+[01/18/2023 1:04 PM] AngieHar#0000
+okay, the header is updated 
+this link preview doesn’t work
+
+
+[01/18/2023 1:05 PM] glasgowm#9381
+yeah probably cached. Will give it a bit to see if it updates itself before digging into the admin menu again
+
+
+[01/18/2023 3:16 PM] AngieHar#0000
+@glasgowm Mark, could you please take a look at the header? 
+https://ergohack.io/wp-admin/customize.php?return=https%3A%2F%2Fwordpress.com%2Fhome%2Fergohack.io&autofocus%5Bcontrol%5D=header_image
+
+how upload one image for a desktop and another for mobile? 
+we have two versions and the site doesn’t allow to assign images, just one
+
+{Embed}
+https://ergohack.io/wp-admin/customize.php?return=https%3A%2F%2Fwordpress.com%2Fhome%2Fergohack.io&autofocus%5Bcontrol%5D=header_image
+
+
+[01/18/2023 3:17 PM] AngieHar#0000
+Forwarded from tortodelivery:
+
+
+[01/18/2023 3:17 PM] AngieHar#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065288839695966238/Ergo_hack_VI_header.png
+
+
+[01/18/2023 3:17 PM] AngieHar#0000
+Forwarded from tortodelivery:
+
+
+[01/18/2023 3:17 PM] AngieHar#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065288845026934804/Ergo_hack_header.png
+
+
+[01/18/2023 3:17 PM] AngieHar#0000
+Forwarded from tortodelivery:
+
+
+[01/18/2023 3:17 PM] AngieHar#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065288850517262457/Ergo_hack_littlemobile_header.png
+
+
+[01/18/2023 4:20 PM] glasgowm#9381
+updated
+
+
+[01/18/2023 9:52 PM] CW#0000
+Just did another once over of the website, fixed up one or two very minor things 
+
+The link preview text has updated on twitter, still waiting on the image to refresh. TG still waiting for both - just a waiting game i think
+
+@glasgowm on the register form i think change the redirect and have a separate page on WP saying the registration has been successful then a call to action to join the hackathon channel on Discord and provide the link to docs.ergoplatform.org for more info on dev/tutorials etc
+
+Outside of that just the prize pool to update shortly. 
+
+Good job guys
+
+
+[01/18/2023 10:43 PM] CW#0000
+Created this landing page for the registration form redirect - currently saved as a draft
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065401190076129371/file_97095.jpg
+
+
+[01/19/2023 10:37 AM] AngieHar#0000
+@seedubya Hi CW, when to publish the announcement of ergohack?
+
+
+[01/19/2023 10:39 AM] AngieHar#0000
+we have a typo on the cover image/ or a link preview
+
+
+[01/19/2023 10:40 AM] AngieHar#0000
+so let’s stick to Cypherpunk
+not Cyberpunk 
+
+so need to change the image
+
+
+[01/19/2023 10:43 AM] AngieHar#0000
+ergohack.io
+
+
+[01/19/2023 10:43 AM] AngieHar#0000
+https://ergohack.io/
+
+{Embed}
+ergoplatfrom
+https://ergohack.io/
+Welcome to ERGOHACK! - ErgoHack VI
+Welcome to ErgoHack V! Ergo’s hackathons have become an incredibly important and identifying feature of the blockchain after four highly successful events in the past year.
+https://images-ext-1.discordapp.net/external/oEUH8_16ynYGo2HgJHabR0p3mWnlfw4NJAxWz35_QMw/https/i0.wp.com/ergohack.io/wp-content/uploads/2022/09/feature-image-1200-675.png
+
+
+[01/19/2023 10:47 AM] glasgowm#0000
+updated
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065583336027869194/file_97137.jpg
+
+
+[01/19/2023 10:48 AM] glasgowm#0000
+ops still a typo
+
+
+[01/19/2023 10:48 AM] AngieHar#0000
+(re @glasgowm : *updated*) 
+ 
+ Could you please send me this image please
+
+
+[01/19/2023 10:48 AM] AngieHar#0000
+I also updated the background image 
+But I don’t know how to change it for mobile
+
+
+[01/19/2023 10:49 AM] glasgowm#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065583668644548628/ERGOHACK_VI.png
+
+
+[01/19/2023 10:52 AM] glasgowm#0000
+(re @seedubya : *Created this landing page for the registration form redirect - currently saved as a draft*) 
+ 
+ published & linked
+
+
+[01/19/2023 10:53 AM] AngieHar#0000
+Forwarded from tortodelivery:
+
+
+[01/19/2023 10:53 AM] AngieHar#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065584811189743636/Ergo_hack_littlemobile_header.png
+
+
+[01/19/2023 10:54 AM] glasgowm#0000
+(re @AngieHar : **)
+
+
+[01/19/2023 10:54 AM] glasgowm#0000
+Already updated it for mobile - looks the same?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065584989787410482/file_97141.jpg
+
+
+[01/19/2023 10:55 AM] AngieHar#0000
+Yep
+Trying to find another one 
+Seems torto deleted 
+One moment
+
+
+[01/19/2023 10:59 AM] AngieHar#0000
+ah, no, no other image, maybe it was a dream 😁
+
+
+[01/19/2023 11:13 AM] glasgowm#0000
+good to publish then? EF funding has 5 votes so can probably consider it passed too
+
+
+[01/19/2023 11:17 AM] glasgowm#0000
+I’ve removed the ‘get an interview’ from the ergohack page because we dont do that
+
+
+[01/19/2023 11:17 AM] glasgowm#0000
+openai <3
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065590855613808680/file_97143.jpg
+
+
+[01/19/2023 11:22 AM] AngieHar#0000
+Announcement published to news
+
+
+[01/19/2023 11:22 AM] AngieHar#0000
+Will duplicate to telegram after ama
+
+
+[01/19/2023 11:24 AM] glasgowm#0000
+What times exactly? As people always ask
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065592663564353556/file_97144.jpg
+
+
+[01/19/2023 12:08 PM] glasgowm#0000
+Could ask these guys for funding
+
+https://cypherpunkguild.org/
+
+{Embed}
+https://cypherpunkguild.org/
+Cypherpunk Guild
+Enabling coders to prioritize privacy for a world free from prying eyes.
+https://images-ext-2.discordapp.net/external/Fv-hAQriUI1X1OhiEIuTpwBlRnf7nEod1IPy4S0OdK8/https/cypherpunkguild.org/img/og.jpg
+
+
+[01/19/2023 12:27 PM] CW#0000
+(re @glasgowm : *Could ask these guys for funding
+
+https://cypherpunkguild.org/*) 
+ 
+ Will reach out, good find
+
+
+[01/19/2023 12:38 PM] glasgowm#0000
+I’ve shilled a bit in their matrix but doesn’t look very active.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1065611219651797053/file_97146.jpg
+
+
+[01/22/2023 3:12 PM] glasgowm#0000
+Submissions: https://docs.google.com/spreadsheets/d/1vhJhHMy_xQJT_eGFq38bBmZ-5lK0RFGasD_YyX5NEhk/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1vhJhHMy_xQJT_eGFq38bBmZ-5lK0RFGasD_YyX5NEhk/edit?usp=sharing
+ERGOHACKVI
+ERGOHACK_VI_Cypherpunk_Finance_Submissions_2023-01-22
+
+Submission ID,Respondent ID,Submitted at,Please enter your Discord username,Untitled multiple choice field,Team Name,Untitled file upload field,Untitled short answer field
+W2ZEAN,8Neelo,2023-01-20 01:22:06,cannon#3541,No this is my first.,9ex...
+https://images-ext-1.discordapp.net/external/14-FM3r9VHLvTqsXH7mVXYmVgLhSVf2mXcNtsQmPctQ/https/lh3.googleusercontent.com/raCF1LyVs-WV3MSFoh71brUw7uNQj7a7l1vQq_97AwornQRja6O6wZyYx7wjXhyMHTKY51qWm8UKrQ%3Dw1200-h630-p
+
+
+[01/22/2023 3:13 PM] AngieHar#0000
+(re @glasgowm : *Submissions: https://docs.google.com/spreadsheets/d/1vhJhHMy_xQJT_eGFq38bBmZ-5lK0RFGasD_YyX5NEhk/edit?usp=sharing*) 
+ 
+ Cool
+Is it possible to follow them in a system?
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1vhJhHMy_xQJT_eGFq38bBmZ-5lK0RFGasD_YyX5NEhk/edit?usp=sharing*)
+ERGOHACKVI
+ERGOHACK_VI_Cypherpunk_Finance_Submissions_2023-01-22
+
+Submission ID,Respondent ID,Submitted at,Please enter your Discord username,Untitled multiple choice field,Team Name,Untitled file upload field,Untitled short answer field
+W2ZEAN,8Neelo,2023-01-20 01:22:06,cannon#3541,No this is my first.,9ex...
+https://images-ext-1.discordapp.net/external/14-FM3r9VHLvTqsXH7mVXYmVgLhSVf2mXcNtsQmPctQ/https/lh3.googleusercontent.com/raCF1LyVs-WV3MSFoh71brUw7uNQj7a7l1vQq_97AwornQRja6O6wZyYx7wjXhyMHTKY51qWm8UKrQ%3Dw1200-h630-p
+
+
+[01/22/2023 4:14 PM] glasgowm#9381
+could you rephrase?
+
+
+[01/22/2023 4:18 PM] AngieHar#0000
+(re  : *<Glasgow> could you rephrase?*) 
+ 
+ I mean, is there access to tally to watch the growth of participants?
+there were statistics in the typeform so that you could track which channels they came from
+
+
+[01/22/2023 5:50 PM] glasgowm#9381
+markglasgow@duck.com / bx8xdDSP8xsj74y
+
+Analytics only available on the pro version
+
+
+[01/22/2023 10:27 PM] CW#0000
+Hi all, looking to lock down judges for the current hackathon. Luivatra is happy to be part of the judging panel from the ErgoPad side seeing as they're sponsoring. @oskin would you be interested as another "independent" judge?
+
+@glasgowm @mhs_sam @kushti_ru @Armeanio I can also ask Anon_Br
+
+Aiming for a quick turn around this time as to not leave participants waiting 3-4 weeks on conclusion of the hack. This one ends on 22nd of Feb and hoping to announce at AMA on the 2nd of March so you'll need to set some time aside to assess the proposals that week
+
+
+[01/22/2023 10:28 PM] CW#0000
+Also on the process of judging...
+
+With the vast and varying projects submitted for assessment throughout the history of ErgoHacks, judges are often left comparing apples to oranges.
+
+We are simplifying the judging process as much as possible and return to the judging process that occured at ErgoHack I. This allows the judges to apply subject relevance and utilise their experience, knowledge and ecosystem awareness to assess and rank by the quality of the submission (ranked-choice voting).
+
+The ranking points accumulated for each submission are then accumulated. The submission with the lowest points accumulated is considered first place, the second lowest is second place and so on.
+
+
+[01/22/2023 11:58 PM] NoahErgo#0000
+@seedubya still looking to get that video from Nico
+
+
+[01/22/2023 11:58 PM] NoahErgo#0000
+When i get back from vacation ill make a video about full node with mobile wallet
+
+
+[01/22/2023 11:59 PM] NoahErgo#0000
+not sure about other ideas, have been trying to think about whats cypherpunk
+
+
+[01/22/2023 11:59 PM] CW#0000
+(re @NoahErgo : *When i get back from vacation ill make a video about full node with mobile wallet*) 
+ 
+ Good idea, directing mobile wallet to your own node?
+
+
+[01/23/2023 1:55 AM] NoahErgo#0000
+(re @seedubya : *Good idea, directing mobile wallet to your own node?*) 
+ 
+ Yep thats right
+
+
+[01/23/2023 1:55 AM] CW#0000
+Sweet
+
+
+[01/23/2023 2:58 PM] AngieHar#0000
+a thought on the content for ergohack 
+maybe we can duplicate some materials from our privacy event
+
+
+[01/23/2023 3:01 PM] Ilya | Spectrum#0000
+(re @seedubya : *Hi all, looking to lock down judges for the current hackathon. Luivatra is happy to be part of the judging panel from the ErgoPad side seeing as they're sponsoring. @oskin would you be interested as another "independent" judge?
+
+@glasgowm @mhs_sam @kushti_ru @Armeanio I can also ask Anon_Br
+
+Aiming for a quick turn around this time as to not leave participants waiting 3-4 weeks on conclusion of the hack. This one ends on 22nd of Feb and hoping to announce at AMA on the 2nd of March so you'll nee...*) 
+ 
+ Sure
+
+
+[01/23/2023 6:46 PM] mhs_sam#0000
+(re @seedubya : *Hi all, looking to lock down judges for the current hackathon. Luivatra is happy to be part of the judging panel from the ErgoPad side seeing as they're sponsoring. @oskin would you be interested as another "independent" judge?
+
+@glasgowm @mhs_sam @kushti_ru @Armeanio I can also ask Anon_Br
+
+Aiming for a quick turn around this time as to not leave participants waiting 3-4 weeks on conclusion of the hack. This one ends on 22nd of Feb and hoping to announce at AMA on the 2nd of March so you'll nee...*) 
+ 
+ if we have enough judges, I prefer not to be judge this time. otherwise, count on me.
+
+
+[01/23/2023 7:26 PM] CW#0000
+(re @AngieHar : *a thought on the content for ergohack 
+maybe we can duplicate some materials from our privacy event*) 
+ 
+ Yep, quite a bit of material that can be drawn from
+
+
+[01/24/2023 1:40 PM] glasgowm#0000
+https://www.reddit.com/r/ergonauts/comments/10j58ip/community_chat_tuesdays_decentralized_lending/
+
+Not getting much engagement. 
+
+- I’d make the title something more like `Community Chat - Ask us anything on Decentralized Lending Protocols`
+- 1 day probably not long enough to get a good set of questions. I’d create a set date, last day of every month or something. Post the thread up ~2wks before to get questions in.
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/10j58ip/community_chat_tuesdays_decentralized_lending/
+r/ergonauts - Community Chat Tuesdays - Decentralized Lending Proto...
+28 votes and 2 comments so far on Reddit
+
+
+[01/24/2023 10:02 PM] CW#0000
+Yeah mate agree on the title, can post a theme something a week out or like you mentioned, make it a monthly thing
+
+
+[01/31/2023 5:38 PM] NoahErgo#0000
+Should be getting the ergohack video from Nico today or tomorrow
+
+
+[01/31/2023 5:38 PM] NoahErgo#0000
+Later in week ill record mine too
+
+
+[02/01/2023 8:39 PM] AndyLowe#0000
+(re @NoahErgo : *Should be getting the ergohack video from Nico today or tomorrow*) 
+ 
+ Nice
+
+
+[02/03/2023 1:18 AM] NoahErgo#0000
+@AndyLowe havent had a chance to get on notion with this link but if you wanna get a head start
+
+https://drive.google.com/file/d/1heE64GAFzxSe6ZMdeivYlJPN0POUfRiF/view?usp=sharing
+
+{Embed}
+https://drive.google.com/file/d/1heE64GAFzxSe6ZMdeivYlJPN0POUfRiF/view?usp=sharing
+UX challenges on web3 - Ergohack.mp4
+https://images-ext-1.discordapp.net/external/Hwy9_K1Srs_cstt2Nm2LEn4-to9JGua4TVbVng58Hrc/https/lh5.googleusercontent.com/M9DVu1v_kAQR1RApoMVRO2Bugp2o94wMv8VbXmRgsIUPMJWnfQOvcrCWmnLhaq82-MQ%3Dw1200-h630-p
+
+
+[02/03/2023 12:03 PM] AndyLowe#0000
+guys, I was going to make the usual video I make to help promote the ergohack, and encourage sign ups etc. but I saw on the website that it says 'will run in partnership with ErgoPad and more TBC!' ...so I was waiting to see what those other partners would be so I could include them. Is there still a prospect of there being other partners?
+
+
+[02/03/2023 12:06 PM] AngieHar#0000
+(re @AndyLowe : *guys, I was going to make the usual video I make to help promote the ergohack, and encourage sign ups etc. but I saw on the website that it says 'will run in partnership with ErgoPad and more TBC!' ...so I was waiting to see what those other partners would be so I could include them. Is there still a prospect of there being other partners?*) 
+ 
+ i guess we just have ergopad confirmed 
+no more other partners
+
+
+[02/03/2023 12:08 PM] AndyLowe#0000
+ok. maybe someone can edit that on the website then
+
+
+[02/03/2023 12:08 PM] AndyLowe#0000
+i will make the promo vid
+
+
+[02/03/2023 12:08 PM] AndyLowe#0000
+so registration is from now until feb 21, so this means you can sign up at any point up until 1 day before the end of the hackathon?
+
+
+[02/03/2023 12:09 PM] AngieHar#0000
+(re @AndyLowe : *ok. maybe someone can edit that on the website then*) 
+ 
+ yes suer, where did you find it?
+
+
+[02/03/2023 12:09 PM] AngieHar#0000
+(re @AndyLowe : *so registration is from now until feb 21, so this means you can sign up at any point up until 1 day before the end of the hackathon?*) 
+ 
+ yes until the submission date
+
+
+[02/03/2023 12:27 PM] AngieHar#0000
+(re @AndyLowe : *ok. maybe someone can edit that on the website then*) 
+ 
+ updated
+
+
+[02/03/2023 10:34 PM] CW#0000
+Confirmation of judges
+Armeanio 
+Glasgow 
+Alison (anon_br)
+
+Ilya (spectrum)
+Luivatra (ergopad/paideia)
+
+
+[02/03/2023 10:36 PM] AngieHar#0000
+(re @seedubya : *Confirmation of judges
+Armeanio 
+Glasgow 
+Alison (anon_br)
+
+Ilya (spectrum)
+Luivatra (ergopad/paideia)*) 
+ 
+ no kushti?
+
+
+[02/03/2023 10:38 PM] CW#0000
+(re @AngieHar : *no kushti?*) 
+ 
+ Not this time, he wants to take a little break and focus on making a submission this time around
+
+
+[02/03/2023 10:40 PM] AngieHar#0000
+(re @seedubya : *Not this time, he wants to take a little break and focus on making a submission this time around*) 
+ 
+ okay got it
+
+
+[02/05/2023 12:15 AM] CW#0000
+community vote
+
+
+[02/05/2023 8:01 PM] NoahErgo#0000
+@AndyLowe video is all set for you on notion
+
+
+[02/05/2023 8:02 PM] NoahErgo#0000
+@seedubya i know we had talked about posting your mixer vid on main channel, still want to do that?
+
+
+[02/05/2023 9:08 PM] CW#0000
+(re @NoahErgo : *@seedubya i know we had talked about posting your mixer vid on main channel, still want to do that?*) 
+ 
+ Yeah no issue with that mate. I'll have a look and see if I want to redo it or not. Can post as part of the hack if so
+
+
+[02/05/2023 10:35 PM] NoahErgo#0000
+I feel like i dont really know what im doing with videos so feel free to watch mine and if it seems bad i can redo it 😅
+
+
+[02/05/2023 11:11 PM] CW#0000
+(re @NoahErgo : *I feel like i dont really know what im doing with videos so feel free to watch mine and if it seems bad i can redo it 😅*) 
+ 
+ Sure think mate
+
+
+[02/06/2023 2:43 PM] AndyLowe#0000
+https://youtu.be/3QF7r4tikyI
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=3QF7r4tikyI
+ERGOHACK VI - CYPHERPUNK FINANCE
+Are you ready to build the future of blockchain?  The next ErgoHack is coming soon, and its not too late to sign up and get involved! Registration is open now and runs all the way until February 21st.
+
+The official start date of the hackathon is February 8th
+The end date is February 22nd.
+Judging will take place from February 22nd - March 1st.
+
+...
+https://images-ext-1.discordapp.net/external/Eo28zmomFfc6s6p9sL1BOJClrySjT8i_FSvASF5sONY/https/i.ytimg.com/vi/3QF7r4tikyI/maxresdefault.jpg
+
+
+[02/06/2023 2:43 PM] AndyLowe#0000
+Promo video for the upcoming hack
+
+
+[02/06/2023 10:44 PM] CW#0000
+Looks like we have about 17-18 individual registrations thus far
+
+
+[02/06/2023 10:56 PM] AndyLowe#0000
+Do you know how does that compare to previous hacks?
+
+
+[02/06/2023 11:00 PM] CW#0000
+EH I - 6
+EH II - 6
+EH III - 13
+EH HackFest - 17
+EH V - 14
+
+Still early, some will deliver a proposal for voting, some wont. Also have the ones that come from left field too
+
+
+[02/06/2023 11:04 PM] AngieHar#0000
+(re @seedubya : *Looks like we have about 17-18 individual registrations thus far*) 
+ 
+ There is one person who registered 4 times
+
+
+[02/06/2023 11:04 PM] CW#0000
+(re @AngieHar : *There is one person who registered 4 times*) 
+ 
+ yeah, only counted once
+
+
+[02/06/2023 11:05 PM] CW#0000
+21 submissions in total
+
+
+[02/06/2023 11:05 PM] AngieHar#0000
+Ah okay
+
+
+[02/06/2023 11:05 PM] AngieHar#0000
+Cool
+
+
+[02/06/2023 11:54 PM] NoahErgo#0000
+(re @seedubya : *Looks like we have about 17-18 individual registrations thus far*) 
+ 
+ Wow thats awesome
+
+
+[02/06/2023 11:54 PM] NoahErgo#0000
+Better than i expected
+
+
+[02/06/2023 11:55 PM] CW#0000
+can add kushti/scalahub and nemo onto there too
+
+
+[02/07/2023 12:24 PM] AndyLowe#0000
+Hi guys, who will be doing the intro video? I'm assuming it's got to be up tomorrow, since Feb 8 is the start of the hack
+
+
+[02/07/2023 12:25 PM] AndyLowe#0000
+There is no info on the notion tile for the Ergohack intro
+
+
+[02/07/2023 1:09 PM] CW#0000
+(re @AndyLowe : *There is no info on the notion tile for the Ergohack intro*) 
+ 
+ Joe has done a short intro and mention he's sent to you, will mention it shortly again
+
+
+[02/07/2023 2:17 PM] AndyLowe#0000
+Iv got it, cheers
+
+
+[02/07/2023 2:18 PM] AndyLowe#0000
+What time do we want that one to go live
+
+
+[02/07/2023 2:18 PM] CW#0000
+Think 12 utc encompasses most time zones
+
+
+[02/07/2023 2:19 PM] AndyLowe#0000
+Cool
+
+
+[02/08/2023 12:00 PM] AndyLowe#0000
+hello all - when do we want to schedule the next ErgoHack video to be released?
+
+
+[02/08/2023 12:01 PM] AngieHar#0000
+(re @AndyLowe : *hello all - when do we want to schedule the next ErgoHack video to be released?*) 
+ 
+ Is there a list?
+
+
+[02/08/2023 12:01 PM] AndyLowe#0000
+on notion there are tiles for videos
+
+
+[02/08/2023 5:05 PM] NoahErgo#0000
+@glasgowm could we move up hackathon channels on discord right below development again?
+
+
+[02/08/2023 5:47 PM] glasgowm#9381
+Good call - done.
+
+
+[02/08/2023 5:55 PM] NoahErgo#0000
+Thanks!
+
+
+[02/12/2023 9:41 PM] CW#0000
+(re @glasgowm : *Submissions: https://docs.google.com/spreadsheets/d/1vhJhHMy_xQJT_eGFq38bBmZ-5lK0RFGasD_YyX5NEhk/edit?usp=sharing*) 
+ 
+ hey mate, would you be able to update please? its in view only
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1vhJhHMy_xQJT_eGFq38bBmZ-5lK0RFGasD_YyX5NEhk/edit?usp=sharing*)
+ERGOHACKVI
+ERGOHACK_VI_Cypherpunk_Finance_Submissions_2023-01-22
+
+Submission ID,Respondent ID,Submitted at,Please enter your Discord username,Untitled multiple choice field,Team Name,Untitled file upload field,Untitled short answer field
+W2ZEAN,8Neelo,2023-01-20 01:22:06,cannon#3541,No this is my first.,9ex...
+https://images-ext-1.discordapp.net/external/14-FM3r9VHLvTqsXH7mVXYmVgLhSVf2mXcNtsQmPctQ/https/lh3.googleusercontent.com/raCF1LyVs-WV3MSFoh71brUw7uNQj7a7l1vQq_97AwornQRja6O6wZyYx7wjXhyMHTKY51qWm8UKrQ%3Dw1200-h630-p
+
+
+[02/13/2023 12:38 AM] NoahErgo#0000
+Not sure if you guys have watched the Nico UX vid but its really really fantastic i recommend everyone check it out when its released
+
+
+[02/13/2023 9:24 AM] glasgowm#0000
+(re @seedubya : *hey mate, would you be able to update please? its in view only*) 
+ 
+ you have access to tally now tho?
+
+
+[02/13/2023 9:26 AM] AngieHar#0000
+Where is better to make interim reports? 
+We basically don’t need them, going to publish an overview article about teams from the first week 
+But there are a few more joint, so maybe there is no need to report 🤷🏻‍♀️
+
+
+[02/13/2023 7:43 PM] CW#0000
+(re @glasgowm : *you have access to tally now tho?*) 
+ 
+ Yeah but instead of creating another sheet could update the one already there
+
+
+[02/13/2023 7:45 PM] CW#0000
+(re @AngieHar : *Where is better to make interim reports? 
+We basically don’t need them, going to publish an overview article about teams from the first week 
+But there are a few more joint, so maybe there is no need to report 🤷🏻‍♀️*) 
+ 
+ In the article is ok. Was going to use that Google sheet to put project summaries in to make it easier to write the article to cover participants
+
+
+[02/13/2023 7:47 PM] AngieHar#0000
+(re @seedubya : *In the article is ok. Was going to use that Google sheet to put project summaries in to make it easier to write the article to cover participants*) 
+ 
+ I’ve made already
+
+
+[02/13/2023 7:48 PM] AngieHar#0000
+We just published the first week overview
+
+
+[02/13/2023 7:50 PM] CW#0000
+Yep just catching up now from over night :)
+
+
+[02/16/2023 12:00 AM] glasgowm#0000
+(re @AngieHar : *Where is better to make interim reports? 
+We basically don’t need them, going to publish an overview article about teams from the first week 
+But there are a few more joint, so maybe there is no need to report 🤷🏻‍♀️*)
+
+
+[02/16/2023 12:00 AM] glasgowm#0000
+EOW?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1075567420107935814/file_101705.jpg
+
+
+[02/16/2023 12:50 AM] CW#0000
+Yeah happy with that mate
+
+
+[02/16/2023 7:55 AM] AngieHar#0000
+Can drop a quiz?
+
+
+[02/16/2023 7:56 AM] AngieHar#0000
+The previous time it was in typeform
+
+
+[02/16/2023 7:57 AM] AngieHar#0000
+Can I use this one, or another? 
+It can be just one interim report, will help for the article
+
+
+[02/22/2023 7:49 AM] CW#0000
+Hi all we are in the concluding stages of the hackathon, judging sheets have been sent out to @glasgowm @Armeanio @anon_br @oskin and Luivatra. Once completed I'll compile rankings together into one sheet. 
+
+Links to each proposal folder is listed in the sheet to make thinks a little easier or the overall folder is located on the link below. 
+
+We will start to see projects making their submissions now and will chase up any who are lagging a little. 
+
+https://docs.google.com/spreadsheets/d/1Afj5zlRcBU7b61UX2vSHGHY9nailgBOxMHztV3s0Mgs/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1Afj5zlRcBU7b61UX2vSHGHY9nailgBOxMHztV3s0Mgs/edit?usp=sharing
+Google Sheets: Sign-in
+Access Google Sheets with a personal Google account or Google Workspace account (for business use).
+
+{Reactions}
+👍 
+
+[02/22/2023 8:10 AM] CW#0000
+Hey @NoahErgo the tiles you have listed in notion for the mini summit, they're projects willing to make vids so far?
+
+
+[02/22/2023 8:29 AM] NoahErgo#0000
+People i have made contact with
+
+
+[02/22/2023 8:29 AM] NoahErgo#0000
+Told people i would follow up w them after the hackathon is over so they can focus on finishing
+
+
+[02/22/2023 8:30 AM] CW#0000
+Too easy mate
+
+
+[02/22/2023 9:14 AM] AngieHar#0000
+(re @seedubya : *Also on the process of judging...
+
+With the vast and varying projects submitted for assessment throughout the history of ErgoHacks, judges are often left comparing apples to oranges.
+
+We are simplifying the judging process as much as possible and return to the judging process that occured at ErgoHack I. This allows the judges to apply subject relevance and utilise their experience, knowledge and ecosystem awareness to assess and rank by the quality of the submission (ranked-choice voting).
+
+The ...*) 
+ 
+ hey CW, is this judging process relevant? 
+will it be any other details on that?
+
+
+[02/22/2023 9:15 AM] CW#0000
+Correct, that's the judging process
+
+
+[02/22/2023 9:16 AM] AngieHar#0000
+(re @seedubya : *Correct, that's the judging process*) 
+ 
+ can i publish this one? 
+
+the only thing i don’t get
+so overall judges will give their point from one to 10 to assess the project?
+
+
+[02/22/2023 9:22 AM] CW#0000
+No, the 5 judges will rank projects 1 through 19 (I think was the total number of projects, not at PC). 
+
+The sum of the 5 judge's rank for each project will then determine the winner
+
+
+[02/22/2023 9:38 AM] AngieHar#0000
+(re @seedubya : *No, the 5 judges will rank projects 1 through 19 (I think was the total number of projects, not at PC). 
+
+The sum of the 5 judge's rank for each project will then determine the winner*) 
+ 
+ okay got it, but do we know the boarders of this rank? or it’s just i like it/don’t like it
+
+
+[02/22/2023 9:49 AM] CW#0000
+This allows the judges to apply subject relevance and utilise their experience, knowledge and ecosystem awareness to assess and rank by the quality of the submission (ranked-choice voting).
+
+
+[02/22/2023 9:55 AM] AngieHar#0000
+(re @seedubya : *This allows the judges to apply subject relevance and utilise their experience, knowledge and ecosystem awareness to assess and rank by the quality of the submission (ranked-choice voting).*) 
+ 
+ okay, got it, thank you!
+
+
+[02/26/2023 4:07 PM] NoahErgo#0000
+@seedubya @AndyLowe have requested from participants we get videos back for the mini summit by wednesday March 8th. Will update notion as we get links in. Currently storing them in the events pipe and as we get links to videos in I will move them to the videos pipe
+
+
+[02/26/2023 6:18 PM] CW#0000
+Awesome, thanks mate
+
+
+[02/26/2023 7:57 PM] AndyLowe#0000
+Sound like a reasonable amount of time for them to do it
+
+
+[02/26/2023 8:37 PM] NoahErgo#0000
+@AndyLowe apologies i guess the single tx swap video was not intended for the summit but for the judges. My internet is down rn but dont start on that one yet
+
+
+[02/26/2023 9:15 PM] AndyLowe#0000
+No worries I hadn't looked at it yet, I'm not starting anything for a while anyway
+
+
+[02/27/2023 4:33 PM] glasgowm#0000
+Surprise entry from SigmaStamp?
+
+
+[02/27/2023 4:34 PM] glasgowm#0000
+https://drive.google.com/drive/folders/1qp5XSXWzrp8mv5N5GYYXeSVFgVvyIJBK
+
+
+[02/27/2023 4:37 PM] NoahErgo#0000
+Oh wow!
+
+
+[02/27/2023 4:38 PM] NoahErgo#0000
+Thats awesome to see them return to it. The improved dev tooling helps a lot
+
+
+[02/27/2023 4:39 PM] NoahErgo#0000
+Oh it is nitram he has done many projects
+
+
+[02/28/2023 2:42 PM] glasgowm#0000
+Issue is they’re not on the judging criteria. Can you amend @seedubya (if they submitted on time?)
+
+
+[02/28/2023 2:55 PM] CW#0000
+(re @glasgowm : *Issue is they’re not on the judging criteria. Can you amend @seedubya (if they submitted on time?)*) 
+ 
+ I'll check the time the folder was created and if they registered in the tally form in a sec. If after the 21st they're ineligible. 
+
+If that's the case I think provide some comments but ineligible for ranking points/prizes.
+
+Will confirm and get back mate
+
+
+[02/28/2023 6:57 PM] CW#0000
+Registration for sigma 
+Stamp was on the 21st. I've added the project to the judging sheet
+
+
+[03/05/2023 4:18 PM] NoahErgo#0000
+@AndyLowe I’ve updated a few new video links and pinged the rest to submit by wednesday march 8
+
+
+[03/05/2023 8:28 PM] AndyLowe#0000
+(re @NoahErgo : *@AndyLowe I’ve updated a few new video links and pinged the rest to submit by wednesday march 8*) 
+ 
+ I don't see any links. Where did you put them?
+
+
+[03/05/2023 8:31 PM] NoahErgo#0000
+In the comments of each card when you click on them
+
+
+[03/05/2023 8:33 PM] AndyLowe#0000
+Can you confirm they are there?
+
+
+[03/05/2023 8:33 PM] AndyLowe#0000
+I don't see anything
+
+
+[03/05/2023 10:39 PM] NoahErgo#0000
+Strange. Okay let me check when i get home
+
+
+[03/06/2023 12:36 AM] CW#0000
+Sometimes on notion it asks you to expand some fields on the card. Might be in there?
+
+
+[03/06/2023 12:39 AM] NoahErgo#0000
+@seedubya can you check if comments on these cards are visible for you
+
+
+[03/06/2023 12:42 AM] CW#0000
+I'm on my phone but can see here...
+
+
+[03/06/2023 12:42 AM] CW#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/986271397301084200/1082100867655798896/file_103495.jpg
+
+
+[03/06/2023 12:43 AM] CW#0000
+That's on ergo tizen, looks as though the link is in the field name not the "comment" field.
+
+
+[03/06/2023 12:45 AM] NoahErgo#0000
+Hmm. Im almost home can investigate in a sec
+
+
+[03/06/2023 12:53 AM] NoahErgo#0000
+@AndyLowe check now
+
+
+[03/06/2023 12:54 AM] NoahErgo#0000
+Just the 4 that are in video pipeline, not events
+
+
+[03/06/2023 1:19 AM] AndyLowe#0000
+cool. comments have now appeared
+
+
+[03/06/2023 1:20 AM] AndyLowe#0000
+(re @seedubya : **) 
+ 
+ no idea what that link is, maybe that was something from a while ago? probably can be deleted
+
+
+[03/06/2023 1:21 AM] AndyLowe#0000
+(re @NoahErgo : *@AndyLowe I’ve updated a few new video links and pinged the rest to submit by wednesday march 8*) 
+ 
+ how likely do you think it is that we get all of them in the next 2/3 days? the deadline may need to be extended by a few days to give people time to finish maybe
+
+
+[03/06/2023 1:44 AM] NoahErgo#0000
+(re @AndyLowe : *how likely do you think it is that we get all of them in the next 2/3 days? the deadline may need to be extended by a few days to give people time to finish maybe*) 
+ 
+ Pretty likely, i first pinged them i think 3 weeks ago with rough timeline, have been checking in frequently
+
+
+[03/06/2023 1:49 AM] AndyLowe#0000
+Awesome
+
+
+[03/09/2023 5:08 AM] NoahErgo#0000
+Almost all videos for the summit are submitted
+
+
+[03/09/2023 5:08 AM] NoahErgo#0000
+Waiting on videos from:
+Kushti
+Armeanio
+Yasha
+Cheese
+Danza from single tx swap (he said he would have it within 12 hours)
+
+
+[03/09/2023 3:28 PM] NoahErgo#0000
+Single tx swap ready on notion now just waiting on the others @AndyLowe
+
+
+[03/11/2023 5:34 PM] NoahErgo#0000
+@seedubya yasha told me he sent video to you
+
+
+[03/11/2023 5:53 PM] CW#0000
+(re @NoahErgo : *@seedubya yasha told me he sent video to you*) 
+ 
+ Yep, will try downloading and pass onto andy today sometime 4.50am here 😫
+
+
+[03/11/2023 7:17 PM] NoahErgo#0000
+@AndyLowe just uploaded the last one aside from joe’s and Yasha’s. Yasha’s should be up later today for you and then just have joe’s
+
+
+[03/11/2023 7:58 PM] AndyLowe#0000
+(re @NoahErgo : *@AndyLowe just uploaded the last one aside from joe’s and Yasha’s. Yasha’s should be up later today for you and then just have joe’s*) 
+ 
+ Nice one
+
+
+[03/11/2023 9:59 PM] CW#0000
+(re @AndyLowe : *Nice one*) 
+ 
+ forwarding through wetransfer mate
+
+
+[03/15/2023 8:46 AM] CW#0000
+@AndyLowe hey mate. Link for the summit schedule. Let me know what you think
+
+https://docs.google.com/spreadsheets/d/1GpFpAzXGPe9VleiddMuPwTnsYRS4Xkrg7TKYBK9f8Ig/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1GpFpAzXGPe9VleiddMuPwTnsYRS4Xkrg7TKYBK9f8Ig/edit?usp=sharing
+Ergo Summit - Cypherpunk Finance Schedule
+Sheet1
+
+
+Video,Length (mins),Day,Time (UTC)
+ChainCash,28,Saturday,1000
+Privacy Guide,8,Saturday,1100
+Ergo Stats,6,Saturday,1200
+Lilium,27,Saturday,1300
+Ergo Tizen,7,Saturday,1400
+PermaErgo,4,Sunday,1500
+Analog Ergo,15,Saturday,1600
+Sigma Subscriptions,38,Sunday,1000
+SigmaO,7,Sunday,1100
+Collatera...
+https://images-ext-2.discordapp.net/external/_HoYppPSev0ZG0HarbSeN8sacl-LiU20ZPFFL4PIZXA/https/lh3.googleusercontent.com/vEYLLDE7WCus7snQ_h30ST_fAuPhjZmMwETb9mWI1joq-wCf_mYtfUdui3N7-oRJk4SZrmNYkNg5HA%3Dw1200-h630-p
+
+
+[03/15/2023 9:04 AM] AndyLowe#0000
+(re @seedubya : *@AndyLowe hey mate. Link for the summit schedule. Let me know what you think
+
+https://docs.google.com/spreadsheets/d/1GpFpAzXGPe9VleiddMuPwTnsYRS4Xkrg7TKYBK9f8Ig/edit?usp=sharing*) 
+ 
+ Will there be a Dev update this week?
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1GpFpAzXGPe9VleiddMuPwTnsYRS4Xkrg7TKYBK9f8Ig/edit?usp=sharing*)
+Ergo Summit - Cypherpunk Finance Schedule
+Sheet1
+
+
+Video,Length (mins),Day,Time (UTC)
+ChainCash,28,Saturday,1000
+Privacy Guide,8,Saturday,1100
+Ergo Stats,6,Saturday,1200
+Lilium,27,Saturday,1300
+Ergo Tizen,7,Saturday,1400
+PermaErgo,4,Sunday,1500
+Analog Ergo,15,Saturday,1600
+Sigma Subscriptions,38,Sunday,1000
+SigmaO,7,Sunday,1100
+Collatera...
+https://images-ext-2.discordapp.net/external/_HoYppPSev0ZG0HarbSeN8sacl-LiU20ZPFFL4PIZXA/https/lh3.googleusercontent.com/vEYLLDE7WCus7snQ_h30ST_fAuPhjZmMwETb9mWI1joq-wCf_mYtfUdui3N7-oRJk4SZrmNYkNg5HA%3Dw1200-h630-p
+
+
+[03/15/2023 9:05 AM] CW#0000
+yes, good point
+
+
+[03/15/2023 2:31 PM] AndyLowe#0000
+nice one. its all queued up and ready. Here is the playlist link if anyone wants to share it:
+
+
+[03/15/2023 2:31 PM] AndyLowe#0000
+https://youtube.com/playlist?list=PL8-KVrs6vXLSplfL5Xd5VSZK_TPSyHgy-
+
+{Embed}
+https://youtube.com/playlist?list=PL8-KVrs6vXLSplfL5Xd5VSZK_TPSyHgy-
+Ergo Summit | Cypherpunk Finance
+https://images-ext-1.discordapp.net/external/J3iL5oYEsUjETXuWCfg6djX8DC3mEI_QPypX9qYCeXc/%3Fsqp%3D-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ%3D%3D%26rs%3DAOn4CLCijWKMCr5dY4kFh8hJZi7HQ8Qxcg%26days_since_epoch%3D19433/https/i.ytimg.com/vi/NxIlIpO6ZVI/hqdefault.jpg
+
+
+[03/23/2023 5:55 AM] NoahErgo#0000
+Do we have an idea of when ergohack results are out?
+
+
+[03/23/2023 5:59 AM] CW#0000
+Need to check if theyre all in. Will do so when on the PC in a little bit
+
+
+[03/30/2023 10:51 AM] glasgowm#0000
+All in?
+
+
+[03/30/2023 11:07 AM] CW#0000
+Not yet. I havent heard from joe in a while. I've sent mhs a DM to see if he can step in if he has any time available
+
+
+[03/30/2023 11:17 AM] glasgowm#9381
+ah right
+Maybe we could just count without Joe's? That all we're missing?
+
+
+[04/04/2023 2:42 PM] AngieHar#0000
+Who are the winners in the ergohack 6?
+
+
+[04/04/2023 4:50 PM] glasgowm#9381
+Tizen I think, CW was tallying it the other day
+
+
+[04/04/2023 4:52 PM] Armeanio#0000
+> (re @AngieHar : *Who are the winners in the ergohack 6?*)
+         
+        I added mine sorry I have been woth family in and out of hospitals for the last 2 weeks.
+
+
+[04/04/2023 5:33 PM] AngieHar#0000
+> (re @Armeanio : *I added mine sorry I have been woth family in ...*)
+         
+        Oh gosh, hope everything is better now 🙏🏼
+
+
+[04/04/2023 5:41 PM] CW#0000
+> (re @AngieHar : *Who are the winners in the ergohack 6?*)
+         
+        1. Ergo Tizen 
+2. SigmaO 
+3. Lithos 
+
+Going to announce at AMA, reached out to Sean for an article and marcelo is making a graphic for Twitter, might be able to use in the article too. I see sean pinged you in editorial TG
+
+
+[04/04/2023 5:46 PM] AngieHar#0000
+> (re @seedubya : *1. Ergo Tizen 
+2. SigmaO 
+3. Lithos 
+
+Going to...*)
+         
+        yeah, but the article is for ergo minnow
+
+
+[04/04/2023 5:47 PM] AngieHar#0000
+and the results from the community voting is in reddit correct?
+
+
+[04/04/2023 5:56 PM] CW#0000
+Yeah. Mick is a cross posting machine 
+
+https://www.reddit.com/r/ergonauts/comments/120heq5/ergohack_vi_community_vote_results/?utm_source=share&utm_medium=android_app&utm_name=androidcss&utm_term=1&utm_content=share_button
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/120heq5/ergohack_vi_community_vote_results/?utm_source=share&utm_medium=android_app&utm_name=androidcss&utm_term=1&utm_content=share_button
+r/ergonauts - ErgoHack VI Community Vote Results
+46 votes and 8 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/zE7a4TqU6ET7PgX8xR7wUDQmmKZrfz9u5FLwylLJ_IE/%3Fauto%3Dwebp%26v%3Denabled%26s%3D909d280c14801933b0a7215aef3bb4380ecee3d3/https/external-preview.redd.it/PqIZ44cTeJ3sCEjjv6pnXpI-6vqQCMZZ4xizKIXlUF8.jpg
+
+
+==============================================================
+Exported 605 message(s)
+==============================================================

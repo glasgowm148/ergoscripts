@@ -1,0 +1,6 @@
+https://api.sigmaexplorer.org/swagger/index.ht...*)
+https://api.sigmaexplorer.org/sigmafi/tvl'
+https://api.sigmaexplorer.org/swagger)
+https://api.sigmaexplorer.org/swagger/index.html
+https://api.sigmaexplorer.org/sigmafi/orders/open?filterTokenIdCollateral=36aba4b4a97b65be491cf9f5ca57b5408b0da8d0194f30ec8330d1e8946161c1&limit=5
+https://api.sigmaexplorer.org/sigmafi/orders/open?filterTokenIdRequested=36aba4b4a97b65be491cf9f5ca57b5408b0da8d0194f30ec8330d1e8946161c1&filterTokenIdCollateral=36aba4b4a97b65be491cf9f5ca57b5408b0da8d0194f30ec8330d1e8946161c1&limit=5

@@ -1,0 +1,94 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 FINANCIAL 〙☰ / single-tx-swap
+==============================================================
+
+[02/13/2023 11:51 AM] AngieHar#0865
+Hi there, 
+hope your team is doing well 
+could you please send me your short description of a proposal and goals? it is highly needed for the  overview blog article 
+thanks in advance
+
+
+[02/13/2023 7:46 PM] danza#2629
+Hello,
+
+we're building a multisig token swapping service. It's mainly meant for users who decide they want to swap their NFTs on Discord and want a trustless escrow service to perform the swap. Everything should happen in a single transaction, so no sending to a smart contract that the user does not understand is needed.
+
+This is the flow:
+1. Users A and B decide they want to swap some of their tokens (possibly many different tokens and NFTs at once). They have a channel such as Discord or similar.
+2. User A visits our website, connects their wallet and opens a private trading session.
+3. User A sends a link to the private session (such as www.ergo-token-swap.com/session/{trading-session-identifier}) to the user B and waits for the user B to connect their wallet.
+4. All assets owned by user A and user B are displayed to the user A and they select assets to swap. A transaction swapping these assets is built and signed by the user A.
+5. The partially signed transaction is sent to the user B and the user B also signs the transaction if they agree with it. This transaction is then submitted to the network.
+
+We need to have `sign_tx_input` from EIP-0012 implemented for this. Captain Nemo says he's already working on it in Nautilus, which is great. The transaction building part should be very easy to do using Fleet after Nemo pushes `sign_tx_inputs`.
+
+So far we've done half of the backend, designed frontend and partially implemented it too.
+
+{Reactions}
+ergo_orange (5) 👋 (2) 
+
+[02/20/2023 4:24 AM] NoahErgo#4349
+@danza check dms, thanks!
+
+{Reactions}
+👍 
+
+[02/23/2023 5:48 AM] danza#2629
+Also posting our results here in case anyone is interested. The app is available at https://www.single-tx-swap.com/ One needs to have this pre-release of Nautilus installed in order for the app to work, as it has some new functionality: https://github.com/capt-nemo429/nautilus-wallet/releases/tag/v0.8.0-alpha.0
+Our code is at: https://github.com/danieloravec/ergo-token-swap
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072865108490977340/1078191514372558908/single-tx-swap-report.pdf
+https://cdn.discordapp.com/attachments/1072865108490977340/1078191515039440976/single-tx-swap-demo.mp4
+
+{Embed}
+https://github.com/capt-nemo429/nautilus-wallet/releases/tag/v0.8.0-alpha.0
+Release v0.8.0-alpha.0 · capt-nemo429/nautilus-wallet
+dApp Connector: add sign_tx_inputs method;
+ergo.sign_tx_inputs(
+  unsignedTransaction: UnsignedTransaction, 
+  inputIndexesToSign: number[]
+): Promise<SignedInput[]>
+
+
+Full Changelog: v0.7.2....
+https://images-ext-1.discordapp.net/external/xiqVE3360Inl9ksBpn1ZsjzBVec2HnX8o8fskGflk5E/https/opengraph.githubassets.com/59a73fee3700961217e4902746c131d3dd8afd967f7aea52615b5b61509565eb/capt-nemo429/nautilus-wallet/releases/tag/v0.8.0-alpha.0
+
+{Embed}
+https://github.com/danieloravec/ergo-token-swap
+GitHub - danieloravec/ergo-token-swap: A trustless multisignature e...
+A trustless multisignature escrow service for Ergo blockchain. - GitHub - danieloravec/ergo-token-swap: A trustless multisignature escrow service for Ergo blockchain.
+https://images-ext-1.discordapp.net/external/Ls7xbFkXn6NJHnIIjNuVuKiqRJP9Ab-iCK58XQ0-Cs8/https/opengraph.githubassets.com/bc03890c9e17b6432ae5dacf40efd61264703b62180ec8a73af95c1789398be0/danieloravec/ergo-token-swap
+
+{Reactions}
+ergo_orange (4) 🔥 (4) spicy (3) 
+
+[02/26/2023 11:41 PM] NoahErgo#4349
+@Kill_It_With_Coffee check here
+
+
+[02/26/2023 11:44 PM] Kill_It_With_Coffee#2653
+Thanks Noah!
+
+
+[02/26/2023 11:44 PM] NoahErgo#4349
+Unless i am mistaken it is similar to your idea
+
+
+[02/26/2023 11:45 PM] Kill_It_With_Coffee#2653
+They're pretty much exactly the same, however mine does have a few additional ideas baked into it
+
+
+[02/26/2023 11:47 PM] Kill_It_With_Coffee#2653
+Hey @danza how would you like to team up and merge our projects together? It looks like you've got most of it worked out pretty well so if you're not interested I completely understand, but given our similar ideas I think it could be mutually beneficial.
+
+
+[02/28/2023 5:25 AM] danza#2629
+Hey @Kill_It_With_Coffee, let's talk about your expectations in DMs, feel free to drop me one.
+
+
+==============================================================
+Exported 10 message(s)
+==============================================================

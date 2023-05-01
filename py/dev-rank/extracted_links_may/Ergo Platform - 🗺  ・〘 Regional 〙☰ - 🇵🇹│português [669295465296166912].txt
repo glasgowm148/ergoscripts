@@ -1,0 +1,4359 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🗺  ・〘 Regional 〙☰ / 🇵🇹│português
+Topic: https://ergonaut.space/pt-br/home
+==============================================================
+
+[12/28/2020 2:08 PM] Ricardo Machado#7845
+Alguém?
+
+
+[12/28/2020 2:08 PM] Ricardo Machado#7845
+Já podemos minerar isso?
+
+
+[02/14/2021 4:37 PM] bardamug#3039
+sim pode.
+
+
+[02/14/2021 4:39 PM] bardamug#3039
+https://miningpoolstats.stream/ergo
+
+{Embed}
+https://miningpoolstats.stream/ergo
+Ergo (ERG) Autolykos | Mining Pools
+List of known Ergo pools (ERG) Autolykos PoW algorithm. Live hashrate distribution, pool fees & minimum payment comparison. Mining Pools & Block Explorer
+
+
+[02/14/2021 4:39 PM] bardamug#3039
+#⛏│mining
+
+
+[03/06/2021 7:04 PM] _xXx_KtEvT_xXx_#1239
+oi
+
+
+[03/06/2021 7:04 PM] _xXx_KtEvT_xXx_#1239
+algum brasileiro que saiba mais coisas a respeito da ergo?
+
+
+[03/08/2021 8:12 PM] bardamug#3039
+...esta no Discord do Ergo...tudo está aqui.
+
+
+[03/08/2021 8:15 PM] bardamug#3039
+Website official https://ergoplatform.org/en/  website da comunidade https://ergoplatform.org/en/
+
+{Embed}
+https://ergoplatform.org/en/
+Ergo
+Ergo is a resilient platform for contractual money
+
+
+[03/10/2021 2:05 PM] _xXx_KtEvT_xXx_#1239
+oi bom dia alg sabe se a ergo possui masternode
+
+
+[03/10/2021 2:05 PM] _xXx_KtEvT_xXx_#1239
+?
+
+
+[03/20/2021 4:36 AM] bardamug#3039
+Não tem masternode. Ergo é POW, então pode fazer nos nodes com GPU.
+
+
+[03/28/2021 11:28 PM] JonasNunes#0789
+Boa noite gurizada.... recebi um pagamento de ERG na coinbarn mas o saldo nao aparece somente a transação.. preciso criar alguma configuração extra?
+
+
+[04/26/2021 11:36 PM] gohaNBR#5265
+quão "serio" é um bagulho como esse? hahahahaha
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/836370157915078666/unknown.png
+
+
+[04/27/2021 5:01 PM] soninho89#8594
+Bom dia...
+
+
+[04/27/2021 5:01 PM] soninho89#8594
+alguem pra tirar duvidas?
+
+
+[05/01/2021 4:36 PM] DuqueMH41#7797
+eae, qual a duvida?
+
+
+[05/03/2021 7:18 PM] Fábio Pereira#5187
+boas como faço para mandar Ergo para Wallet?
+
+
+[05/03/2021 7:24 PM] Fábio Pereira#5187
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/838843548522643506/Screenshot_1.jpg
+
+
+[05/03/2021 7:40 PM] DuqueMH41#7797
+onde é isso ?
+
+
+[05/03/2021 7:41 PM] DuqueMH41#7797
+se é uma pool o pagamento é automatico
+
+
+[05/03/2021 7:49 PM] Fábio Pereira#5187
+mais a 4 dias e dinheiro não esta na wallet
+
+
+[05/03/2021 7:50 PM] Fábio Pereira#5187
+aquele indereço ip mineiro deixo vazio  ou aonde posso encontrar aquele ip
+
+
+[05/03/2021 10:06 PM] DuqueMH41#7797
+q pool é essa ai ? vc ta minerando ?
+
+
+[05/03/2021 10:15 PM] Fábio Pereira#5187
+sim ergo
+
+
+[05/03/2021 10:16 PM] Fábio Pereira#5187
+ao carregar no valor que ja tenho aparece essa janela para marcar wallet mais  ja 4 dias nao pasa nada para la
+
+
+[05/03/2021 10:18 PM] Fábio Pereira#5187
+Wallet Yoroi
+
+
+[05/03/2021 10:37 PM] DuqueMH41#7797
+Qual a pool vc usa?
+
+
+[05/03/2021 10:38 PM] DuqueMH41#7797
+Minera na herominers ou nanopool q eh de boa. Vc minerou quanto?
+
+
+[05/03/2021 10:38 PM] DuqueMH41#7797
+Uso a nanopool
+
+
+[05/03/2021 10:40 PM] Fábio Pereira#5187
+nanopool
+
+
+[05/03/2021 10:44 PM] DuqueMH41#7797
+Nanopool nao eh essa pagina ai entao.
+
+
+[05/03/2021 10:45 PM] DuqueMH41#7797
+E minimo payout la e 5 erg
+
+
+[05/03/2021 10:45 PM] DuqueMH41#7797
+1 alias msm
+
+
+[05/03/2021 10:47 PM] Fábio Pereira#5187
+pode passar mine de ergo sff
+
+
+[05/03/2021 10:47 PM] DuqueMH41#7797
+essa pagina ai nunca vi na nanopool, minero la
+
+
+[05/03/2021 10:47 PM] DuqueMH41#7797
+passar o q ?
+
+
+[05/03/2021 10:48 PM] Fábio Pereira#5187
+site para tirar minerador de ergo
+
+
+[05/03/2021 10:48 PM] DuqueMH41#7797
+qual sua gpu ?
+
+
+[05/03/2021 10:48 PM] DuqueMH41#7797
+uso srbminer
+
+
+[05/03/2021 10:48 PM] Fábio Pereira#5187
+rtx2060
+
+
+[05/03/2021 10:48 PM] DuqueMH41#7797
+https://github.com/doktor83/SRBMiner-Multi/releases
+
+{Embed}
+https://github.com/doktor83/SRBMiner-Multi/releases
+Releases · doktor83/SRBMiner-Multi
+Cpu & Gpu cryptocurrency miner. Contribute to doktor83/SRBMiner-Multi development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/tQCLYOeFaiePhcWSWojnqbn-J1JXP5Sok7kVG_Q6IHk/https/repository-images.githubusercontent.com/207241702/27f92d80-e6c8-11e9-9081-158ee113177d
+
+{Reactions}
+👍 
+
+[05/03/2021 10:49 PM] DuqueMH41#7797
+nao sei se pega nvidia, tenho q ver.
+
+
+[05/03/2021 10:49 PM] DuqueMH41#7797
+pra vc é o NVminer
+
+
+[05/03/2021 10:49 PM] DuqueMH41#7797
+ou nanominer
+
+
+[05/03/2021 10:51 PM] Fábio Pereira#5187
+eu tava minerando com nanominer
+
+
+[05/03/2021 10:51 PM] Fábio Pereira#5187
+dava tudo certo so nao vai para wallet
+
+
+[05/03/2021 11:17 PM] DuqueMH41#7797
+aparece seu endereco na nanopool ?
+
+
+[05/03/2021 11:17 PM] DuqueMH41#7797
+quanto vc minerou, etc
+
+
+[05/03/2021 11:17 PM] DuqueMH41#7797
+vc configurou o .bat do minerador ne
+
+
+[05/03/2021 11:18 PM] DuqueMH41#7797
+com sua carteira e o end da pool
+
+
+[05/04/2021 5:48 AM] Fábio Pereira#5187
+Sim copiei o codigo site e só  inseri wallet no ficheiro
+
+
+[05/04/2021 6:27 AM] DuqueMH41#7797
+coloca aqui o qq tem no seu bat pra ver se ta ok ou manda no privado. Aparece na nanopol quando vc digita sua carteira ? a sua pagina ?
+
+
+[05/04/2021 6:27 AM] DuqueMH41#7797
+ja recebeu algum pagamento ou comecou agora ?
+
+
+[05/04/2021 9:22 AM] Fábio Pereira#5187
+N  recebi nenhum  comesei a 5 dias
+
+
+[05/04/2021 5:34 PM] DuqueMH41#7797
+manda o q ta no arquivo do minerador, pra ver se ta td certo... pode ta minerando pro lugar errado
+
+
+[05/04/2021 5:36 PM] Fábio Pereira#5187
+pool1= ergo.herominers.com:10250
+wallet = 9fPij1cpV5krCCBvJJgdxJMQVSTD4LQ4gvkXbWX1hV4GSfGx
+rigname = YOUR_WORKER_NAME
+coin= ergo
+
+
+[05/04/2021 5:40 PM] DuqueMH41#7797
+nao aparece nada na sua carteira la
+
+
+[05/04/2021 5:40 PM] Fábio Pereira#5187
+nada a 5 dias
+
+
+[05/04/2021 5:40 PM] DuqueMH41#7797
+troca o worker name pra algum outro nome
+
+
+[05/04/2021 5:40 PM] DuqueMH41#7797
+mas ta minerando ?
+
+
+[05/04/2021 5:41 PM] Fábio Pereira#5187
+sim mais nao vai nada para wallet
+
+
+[05/04/2021 5:41 PM] DuqueMH41#7797
+tenta com o nbminer
+
+
+[05/04/2021 5:41 PM] DuqueMH41#7797
+https://github.com/NebuTech/NBMiner/releases
+
+{Embed}
+https://github.com/NebuTech/NBMiner/releases
+Releases · NebuTech/NBMiner
+NVIDIA & AMD GPU Miner for ETH, RVN, GRIN, BEAM, CFX, AE, SERO, ERGO - NebuTech/NBMiner
+https://images-ext-1.discordapp.net/external/i688Gtwb52n8cUyBIcGNyPfPiXwPLsbselPcWBOoib0/https/opengraph.githubassets.com/bd6e065b76455e5b52771088db027da33dd0b3b709d253309cf1a96bbd955e52/NebuTech/NBMiner
+
+
+[05/04/2021 5:41 PM] DuqueMH41#7797
+nao tem nem registro no site q vc ta minerando
+
+
+[05/04/2021 5:41 PM] DuqueMH41#7797
+se vc poe a carteira la é pra aparecer quanto ta fazendo de hashrate
+
+
+[05/04/2021 5:42 PM] Fábio Pereira#5187
+sim aparece
+
+
+[05/04/2021 5:42 PM] DuqueMH41#7797
+nesse endereco q vc mandou ai nao aparece nda
+
+
+[05/04/2021 5:42 PM] Fábio Pereira#5187
+nada
+
+
+[05/04/2021 5:42 PM] DuqueMH41#7797
+9fPij1cpV5krCCBvJJgdxJMQVSTD4LQ4gvkXbWX1hV4GSfGx
+
+{Reactions}
+👍 
+
+[05/04/2021 5:44 PM] DuqueMH41#7797
+editou o config.ini ne ?
+
+
+[05/04/2021 5:44 PM] Fábio Pereira#5187
+apaguei o que estava la e colei oque tava no site
+
+
+[05/04/2021 5:45 PM] DuqueMH41#7797
+vc baixou o nanominer cuda11 ne ?
+
+
+[05/04/2021 5:47 PM] Fábio Pereira#5187
+axo sim
+
+
+[05/04/2021 5:47 PM] DuqueMH41#7797
+testa esse outro minerador
+
+
+[05/04/2021 5:48 PM] DuqueMH41#7797
+https://github.com/NebuTech/NBMiner/releases/download/v37.2/NBMiner_37.2_Win.zip
+
+
+[05/04/2021 5:49 PM] DuqueMH41#7797
+edita o start_ergo.bat
+
+
+[05/04/2021 5:58 PM] Fábio Pereira#5187
+ta minando  deixo trabalhar  quando desligar ele envia automaticamente para wallet?
+
+
+[05/04/2021 6:51 PM] DuqueMH41#7797
+ainda nao aparece sua carteira na herominers
+
+
+[05/04/2021 6:51 PM] DuqueMH41#7797
+Your Stats & Payment History
+
+
+[05/04/2021 6:51 PM] DuqueMH41#7797
+quando vc poe seu end la é pra aparecer seus dados
+
+
+[05/04/2021 6:51 PM] DuqueMH41#7797
+é esse ? 9fPij1cpV5krCCBvJJgdxJMQVSTD4LQ4gvkXbWX1hV4GSfGx
+
+
+[05/04/2021 7:04 PM] Fábio Pereira#5187
+nada
+
+
+[05/04/2021 7:05 PM] Fábio Pereira#5187
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/839200990691721327/unknown.png
+
+
+[05/04/2021 7:25 PM] DuqueMH41#7797
+vc ta minerando em qual programa ? mudou ou ta no msm ?
+
+
+[05/04/2021 7:25 PM] DuqueMH41#7797
+me manda o config ai
+
+
+[05/04/2021 7:25 PM] DuqueMH41#7797
+vo minerar pro seu endereco e vamos ver no herominers se aparece
+
+
+[05/04/2021 7:31 PM] DuqueMH41#7797
+clica em receber ai, qual endereco da carteira ? ta dando invalido o q vc me passou... 9fPij1cpV5krCCBvJJgdxJMQVSTD4LQ4gvkXbWX1hV4GSfGx
+
+
+[05/04/2021 7:32 PM] DuqueMH41#7797
+essa aqui nao existe
+
+
+[05/04/2021 7:32 PM] DuqueMH41#7797
+ta faltando algum digito nela. nao funciona quando coloco pra minerar, na minha vai normal
+
+
+[05/04/2021 7:41 PM] Fábio Pereira#5187
+posso fazer live assim vc ve
+
+
+[05/04/2021 7:42 PM] DuqueMH41#7797
+clica ai em receber na carteira erco e copia o endereco q aparece
+
+
+[05/04/2021 7:42 PM] DuqueMH41#7797
+acho q ta digitado errado o numero
+
+
+[05/04/2021 7:42 PM] DuqueMH41#7797
+ai minero pra vc aqui pra testar
+
+
+[05/04/2021 7:43 PM] DuqueMH41#7797
+alias vou te mandar um pouco de ergo e testa se recebe, melhor ainda
+
+
+[05/04/2021 7:44 PM] Fábio Pereira#5187
+9fPij1cpV5krCCBvJJgdxJMQVSt1UXhoLQ4gvkXbWX1hV4GSfGx
+
+
+[05/04/2021 7:44 PM] DuqueMH41#7797
+P2PK
+Your wallet address
+
+
+[05/04/2021 7:45 PM] DuqueMH41#7797
+agora ta certo perai, tava faltando numeros
+
+
+[05/04/2021 7:45 PM] DuqueMH41#7797
+te mandei 0.01 ai ve se chega
+
+
+[05/04/2021 7:46 PM] DuqueMH41#7797
+to minerando tb, agora ta certo o endereco esse ultimo q vc passou, coloca no minerador
+
+
+[05/04/2021 7:47 PM] Fábio Pereira#5187
+ja esta la mais n entra na wallet  a sua tarsferencia esta dando
+
+
+[05/04/2021 7:47 PM] DuqueMH41#7797
+default    37.76 MH/s    45.35 MH/s    34.08 MH/s    34.08 MH/s    less than a minute ago    128    0    0    197372704386
+FabioPereira    0.00 H/s    0.00 H/s    25.99 MH/s    25.99 MH/s    about an hour ago    24    0    0    36063829787
+YOUR_WORKER_NAME    0.00 H/s    0.00 H/s    0.00 H/s    0.00 H/s    a day ago    1715    3    0    2283556023058
+
+
+[05/04/2021 7:47 PM] DuqueMH41#7797
+agora apareceu
+
+
+[05/04/2021 7:47 PM] DuqueMH41#7797
+Pending Balance: 0.2594 ERG- 0.96 USD - 0.000018
+
+
+[05/04/2021 7:48 PM] DuqueMH41#7797
+vc ainda nao tem 1 ergo pra eles enviarem, agora q comecou a contar certo, deve funcionar
+
+
+[05/04/2021 7:48 PM] Fábio Pereira#5187
+só quando chega 1 erg e que envia entao
+
+
+[05/04/2021 7:48 PM] DuqueMH41#7797
+isso, passou de 1 envia
+
+
+[05/04/2021 7:49 PM] Fábio Pereira#5187
+ha certo
+
+
+[05/04/2021 7:49 PM] DuqueMH41#7797
+ta desligado o seu ne ? so ta aparecendo meu minerador la
+
+
+[05/04/2021 7:50 PM] Fábio Pereira#5187
+ta ligado meu
+
+
+[05/04/2021 7:52 PM] DuqueMH41#7797
+qual sua placa msm ? ta fazendo poucos Mh
+
+
+[05/04/2021 7:52 PM] DuqueMH41#7797
+agora entrei la, tava errado o endereco
+
+
+[05/04/2021 7:52 PM] DuqueMH41#7797
+apareceu a minha tb
+
+
+[05/04/2021 7:53 PM] Fábio Pereira#5187
+sim apareceu agora
+
+
+[05/04/2021 7:53 PM] Fábio Pereira#5187
+como devolvo oque me envio??
+
+
+[05/04/2021 7:54 PM] DuqueMH41#7797
+nada, pode ficar ai
+
+
+[05/04/2021 7:55 PM] DuqueMH41#7797
+olha, fiz as contas aqui, sua placa de video ganha mais minerando ethereum do que ergo. mais que o dobro
+
+
+[05/04/2021 7:55 PM] DuqueMH41#7797
+se for a rtx 2060
+
+
+[05/04/2021 7:55 PM] Fábio Pereira#5187
+sim
+
+
+[05/04/2021 7:56 PM] Fábio Pereira#5187
+obrigada
+
+
+[05/04/2021 7:56 PM] DuqueMH41#7797
+nda, vou deixar minerando umas horas pra vc
+
+
+[05/04/2021 7:56 PM] DuqueMH41#7797
+ai ve se a pool paga
+
+
+[05/04/2021 7:57 PM] Fábio Pereira#5187
+muito obrigado
+
+
+[05/04/2021 7:57 PM] DuqueMH41#7797
+sem problema
+
+
+[05/08/2021 4:28 AM] soninho89#8594
+fala povo...O que acham do potencial da ergo?
+
+
+[05/08/2021 6:56 AM] DuqueMH41#7797
+interessante, to holdando algumas
+
+
+[05/08/2021 6:56 AM] DuqueMH41#7797
+ta embaixo dos radares ainda
+
+
+[05/08/2021 6:56 AM] DuqueMH41#7797
+mas tem potencial
+
+
+[05/08/2021 6:23 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Aproveitando o chat português... onde vocês estão guardando suas moedas, eu tava deixando na hotbit
+
+
+[05/08/2021 6:24 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Mas ela sofreu uns ataques recentemente e está em manutenção agora
+
+
+[05/08/2021 6:25 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Não tenho certeza se é uma boa manter elas lá assim que acabar as manutenções
+
+
+[05/08/2021 8:35 PM] RodZz#1577
+Eu mantenho minhas moedas no Kraken, em alternativa existe i binance
+
+
+[05/08/2021 8:35 PM] RodZz#1577
+o*
+
+
+[05/09/2021 2:00 AM] DuqueMH41#7797
+deixa na carteira yoroi
+
+{Reactions}
+👍 
+
+[05/09/2021 2:00 AM] DuqueMH41#7797
+nao deixem em exchanges
+
+
+[05/09/2021 5:11 PM] Chiron#5824
+Acheiiiiiii
+
+
+[05/09/2021 5:11 PM] Chiron#5824
+👍 👍 👍 👍 👍 👍 👍
+
+
+[05/09/2021 5:12 PM] Chiron#5824
+Vou ler todo tópico desde o primeiro
+
+
+[05/09/2021 5:22 PM] Chiron#5824
+Eu tambem uso Navegador web na https://ergo.herominers.com para acompanhar meus mineradores trabalhando, estou nos primeiros 15 dias
+
+{Embed}
+https://ergo.herominers.com/
+Ergo ERG Mining Pool - HeroMiners
+Ergo ERG Mining Pool. Features: PPS+ and PROPX Payment System, SOLO Mining, Exchange Wallet Support. Regions: Europe, US, Canada, Asia
+https://images-ext-2.discordapp.net/external/BnmStBb6OPFsSCv0XwHdcVEyFAsNitweqDyKA18IBRY/https/ergo.herominers.com/favicon/ms-icon-310x310.png
+
+
+[05/09/2021 5:24 PM] Chiron#5824
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/840987708801417276/unknown.png
+
+
+[05/09/2021 5:25 PM] Chiron#5824
+apenas uma 1050TI
+
+
+[05/09/2021 5:25 PM] Chiron#5824
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/840987963562393610/unknown.png
+
+
+[05/09/2021 5:26 PM] Chiron#5824
+👆 site ergo.herominers
+
+
+[05/09/2021 5:29 PM] Chiron#5824
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/840988797880893470/unknown.png
+
+
+[05/09/2021 7:13 PM] Fábio Pereira#5187
+Boas conhecem alguma VPN aonde se possa  meter a minerar??
+
+
+[05/09/2021 7:45 PM] Chiron#5824
+Quando o assunto é o armazenamento de criptoativos, seja ele Bitcoin ou altcoin, temos que levar em consideração vários aspectos antes de escolher.
+
+
+[05/09/2021 7:45 PM] Chiron#5824
+O tipo de wallet precisa ser definido de acordo com o uso e com perfil do investidor.
+
+
+[05/09/2021 7:45 PM] Chiron#5824
+Existem várias opções disponíveis no mercado, tais como: paper wallet, brain wallet, hardware wallet, mobile wallet, desktop wallet, web wallets e etc.
+
+
+[05/09/2021 7:47 PM] Chiron#5824
+PRIMEIRO PASSO OBRIGATÓRIO DE SEGURANÇA: ANOTE A SEED PHRASE /PRIVATE KEY DE SUA WALLET EM PAPEL OU PLACA DE METAL, NUNCA ARMAZENAR ONLINE . COMPARTILHE APENAS COM PESSOAS DE SUA PLENA CONFIANÇA E GUARDE EM ALGUM LOCAL SEGURO, COMO BANCO, COFRE ETC.
+
+
+[05/09/2021 7:49 PM] Chiron#5824
+Eu pretendo fazer trade com minhas moedas entao devo escolher em breve uma exchange
+
+
+[05/09/2021 7:49 PM] Chiron#5824
+Por hora estou deixando na Yoroi .
+
+
+[05/10/2021 5:27 PM] DuqueMH41#7797
+Vpn minerar?
+
+
+[05/10/2021 5:59 PM] Chiron#5824
+Acho que ela quiz dizer para guardar as moedas minerada
+
+
+[05/10/2021 6:57 PM] Fábio Pereira#5187
+boas é por o minerador numa VPS  para poder ir minerando  24h pq no Pais que eu tou a luz é muito cara deixar o Pc ligado mais de 24h! queria  alguma VPN para deixar la minerador trabalando!!
+
+
+[05/10/2021 7:07 PM] DuqueMH41#7797
+vpn nao tem gpu
+
+
+[05/10/2021 7:08 PM] DuqueMH41#7797
+infelizmente nao tem, vc pode alugar mineradora
+
+
+[05/10/2021 7:08 PM] DuqueMH41#7797
+miningrigrentals ou nicehash
+
+
+[05/10/2021 7:09 PM] DuqueMH41#7797
+mas o preco de alugar e o que minera é o mesmo, entao é mais barato comprar a moeda
+
+
+[05/10/2021 7:09 PM] DuqueMH41#7797
+alugar mineradora é interessante pra moedas q nao tem em exchanges, e especulativas.
+
+{Reactions}
+👍 
+
+[05/12/2021 2:59 AM] Chiron#5824
+28 reais ------1 erg só eu estou vendo isso?
+
+
+[05/12/2021 3:00 AM] Chiron#5824
+https://tenor.com/view/xmas-happy-dance-gif-13017096
+
+{Embed}
+https://tenor.com/view/xmas-happy-dance-gif-13017096
+https://images-ext-2.discordapp.net/external/fwUPCL10cXpfLm2uKW7lAUEN-HDjlCsvvLa5MbhNWr4/https/media.tenor.co/images/48f86b697bffd487d00e9666fbf74795/tenor.png
+
+
+[05/12/2021 5:01 AM] DuqueMH41#7797
+rumo aos 100
+
+
+[05/12/2021 12:00 PM] Chiron#5824
+Duque vc sabe os.valores que pagamos no BR em taxas para transformar ERG em reais na conta corrente de bancos brasileiros?
+
+
+[05/12/2021 6:49 PM] DuqueMH41#7797
+Cara. Nao tem ergo em exchange q tem reais. Vc teria q mandar tipo pra tradeogre e vender. Ai compra Ltc que é mais barato o envio. E tem trades brasileiras q tem Ltc. Ou manda pea binance q la eles enviam por pix tb pro brasil.
+
+
+[05/12/2021 6:49 PM] DuqueMH41#7797
+Da um pouco de trabalho
+
+
+[05/12/2021 6:50 PM] DuqueMH41#7797
+A waves.exchange tb tem ergo. Pode trocar por waves tb e envia pra binance. Ate melhor. Q waves custa centavos pra enviar.
+
+
+[05/12/2021 11:41 PM] Chiron#5824
+conta de padeiro...se tiver  3 ERG voce tens  17 USD -------na Waves exchange (vou chutar um valor ) voce troca 3 ERG por 20 Waves, depois na Binance transformo Waves por Real . Acho que foi isso que voce disse, a minha duvida é onde eu encontro os valores que irei pagar de taxas.
+
+
+[05/13/2021 3:00 AM] Chiron#5824
+acho que consegui enviar da yoroi para Waves Exchange
+
+
+[05/13/2021 3:00 AM] Chiron#5824
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/842219652083875851/unknown.png
+
+
+[05/13/2021 3:01 AM] Chiron#5824
+taxa de envio cobrada na yoroi foi de 0,0011 ERG = R$0,03
+
+
+[05/13/2021 3:01 AM] Chiron#5824
+ate aqui o valor esta muito bom das taxas
+
+
+[05/13/2021 3:02 AM] Chiron#5824
+ja recebi o valor na Waves...
+
+
+[05/13/2021 3:02 AM] Chiron#5824
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/842220297746907157/unknown.png
+
+
+[05/13/2021 3:03 AM] Chiron#5824
+0,001 ERG esta la na Waves, agora a guerra sera transformar esse Erg em Waves
+
+
+[05/13/2021 3:05 AM] Chiron#5824
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/842220980499251230/unknown.png
+
+
+[05/13/2021 3:06 AM] Chiron#5824
+achei.... taxa para fazer o trade de erg para waves esta em 0,003 waves
+
+
+[05/13/2021 3:08 AM] Chiron#5824
+0,003 waves = 0,017787610619469027 erg
+
+
+[05/13/2021 3:09 AM] Chiron#5824
+0,017787610619469027 erg = R$ 0,52
+
+
+[05/13/2021 4:10 PM] DuqueMH41#7797
+isso
+
+
+[05/13/2021 4:11 PM] DuqueMH41#7797
+0.003 waves e o custo de envio é 0.001 eu acho.. no maximo 0.003
+
+
+[05/13/2021 4:14 PM] DuqueMH41#7797
+mas se vc ainda tiver com seu dinheiro na waves, tem um grupo brasileiro de waves que tem servico p2p
+
+
+[05/13/2021 4:14 PM] DuqueMH41#7797
+via pix e picpay
+
+
+[05/13/2021 4:15 PM] DuqueMH41#7797
+usam a moeda BRLN que tem na waves, pra compra e venda 1 pra 1.
+
+
+[05/13/2021 4:15 PM] DuqueMH41#7797
+eu uso sempre pra ficar de fora de exchanges, quando quero pagar alguma conta e sacar.
+
+
+[05/13/2021 4:17 PM] DuqueMH41#7797
+t.me/WavesBrasil e o p2p é t.me/SafeEscrow
+
+
+[05/13/2021 6:23 PM] Chiron#5824
+Eu fiz apenas um teste com 0,0001 erg transferido para WAVES.exchange os Ergos ainda estão na carteira Yoroi.
+
+
+[05/13/2021 6:24 PM] Chiron#5824
+Ainda tenho que descobrir lá na WAVES.exchange como que eu faço para transformar os Ergos em WAVES.
+
+
+[05/13/2021 6:25 PM] Chiron#5824
+Parece que é na guia trade
+
+
+[05/13/2021 6:42 PM] DuqueMH41#7797
+sim, vc vai em trade
+
+
+[05/13/2021 6:43 PM] DuqueMH41#7797
+e o par erg/waves  ou erg/usdn se quiser dolar de la
+
+
+[05/13/2021 6:43 PM] DuqueMH41#7797
+e dps usdn/brln se quiser reais
+
+
+[05/13/2021 6:43 PM] DuqueMH41#7797
+e vc ate ganha staking de usdn e brln, apy ta em torno de 15% ao ano
+
+
+[05/13/2021 11:23 PM] Chiron#5824
+estava eu aqui pensando com meus botoes. Quando isso acontece sai cada coisa que me assustam. Então, estava eu imaginando um grupo de pessoas, que mineram ERG exemplo 5 pessoas, e essas pessoas combinam de minerar entre elas. Exemplo dia 1 todos os 5 minerando com endereço da carteira da Pessoa n°1 , dia 2 todos 5 minerando para pessoa n°2 e assim por diante. Sera que isso poderia render mais do que as 5 ficar minerando particular ?
+
+
+[05/14/2021 2:09 AM] DuqueMH41#7797
+Nao muda em nada, mineração tem um pouco de sorte e acaba acumulando na media a mesma coisa a longo prazo... tanto faz o endereço, a pool, etc. No fim quase sempre vai da a mesma media, um dias mais outros menos.
+
+
+[05/14/2021 2:10 AM] DuqueMH41#7797
+a curto prazo pode ser que quer vender a moeda, vc acumula mais rapido, mas se for pra hold, nao faz diferenca, a variacao é pouca. Minerar 5 dias em 1 carteira ou 5 dias em 5 carteiras diferentes a soma é a msm.
+
+
+[05/14/2021 12:13 PM] DuqueMH41#7797
+ERG 9 USD heheh +90%
+
+
+[05/14/2021 3:33 PM] Chiron#5824
+Carambaaaaaaa 47 reais um ERG
+
+
+[05/14/2021 3:33 PM] Chiron#5824
+https://tenor.com/view/feliz-demais-gif-19270134
+
+{Embed}
+https://tenor.com/view/feliz-demais-gif-19270134
+https://images-ext-2.discordapp.net/external/cSinXFkcogVr15yqJW36ewDQXa_OGvxRFW6FsNepgUI/https/media.tenor.co/images/655e7e86316f4830f2d10d509bb92d0d/tenor.png
+
+
+[05/14/2021 4:34 PM] Deleted User#0000
+poderia sim, seus saques seriam mais rapidos, e ajudaria mais no poder de mineraçao de cada pessoa.
+
+
+[05/14/2021 4:37 PM] Chiron#5824
+👍 👍 👍 👍 👍 👍 👍 👍
+
+
+[05/14/2021 7:42 PM] DuqueMH41#7797
+vamo q vamo
+
+
+[05/14/2021 7:43 PM] DuqueMH41#7797
+quem tiver interessado ergo esta em votacao pra entrar na pool da Swop.fi, gerando liquidez e farm... vai ter um apy bom, da uma olhada la. Melhor que deixar moeda parada na carteira.
+
+
+[05/14/2021 11:10 PM] Deleted User#0000
+Boa noite rapaziada, to começando a minerar e fiz a wallet pelo yoroi porem continua 0000 la e qnd vou no nanopool pra ver se ta minerando nao aparece, mesmo eu minerando aparece offline e minha ultima conexao a 21 horas atras
+
+
+[05/14/2021 11:57 PM] Chiron#5824
+Estranho Vinícius aqui está normal
+
+
+[05/14/2021 11:58 PM] Chiron#5824
+Na yoroi só vai ter saldo quando vc atingir 1 ergo. Daí a nanopool envia direto para yoroi.
+
+
+[05/14/2021 11:58 PM] Chiron#5824
+Mas a questão do off LINE não está certo isso
+
+
+[05/14/2021 11:59 PM] Chiron#5824
+Vc precisa rever o arquivo . Bat que vc fez
+
+
+[05/15/2021 1:39 AM] DuqueMH41#7797
+tem que aparecer em poucos mins, vc deve ta colocando algo errado no arquivo...
+
+
+[05/15/2021 1:39 AM] DuqueMH41#7797
+a nanopool é diferente tem . pro miner e / pro email... diferente da herominers.
+
+
+[05/15/2021 2:12 AM] Chiron#5824
+Duque sabe de alguem que troca ERG por WAVES? preciso enviar no minimo 0.003 waves na waves.exchange para conseguir fazer o trade dos meus ERGOS.
+
+
+[05/15/2021 3:13 AM] Deleted User#0000
+eu to usando o nanominer mesmo, no site da ergo aparece minerando porem na nanopool apenas algumas vezes, espero chegar a 1 ?
+
+
+[05/15/2021 3:37 AM] DuqueMH41#7797
+vc ta ai @Chiron ?
+
+
+[05/15/2021 3:37 AM] Chiron#5824
+sim
+
+
+[05/15/2021 3:37 AM] DuqueMH41#7797
+me manda dm
+
+
+[05/15/2021 3:38 AM] Chiron#5824
+dm ?
+
+
+[05/15/2021 3:38 AM] DuqueMH41#7797
+msg no privado, te mando as waves ai
+
+
+[05/15/2021 1:12 PM] Chiron#5824
+Duque acabei nem te agradecendo pela força ontem. Valeu muito obrigado cara. Tmj
+
+
+[05/15/2021 3:04 PM] alisovsky#6009
+Bom dia, pessoal! Pretendo minerar erg mas a placa de vídeo do meu notebook é uma nvidia com 2gb de ram, e vi por aí que o mínimo necessária seria 2.5gb. Existe alguma forma de contornar essa limitação?
+
+
+[05/15/2021 3:21 PM] Chiron#5824
+https://ergo.herominers.com/#how-to-mine-ergo-erg
+
+{Embed}
+https://ergo.herominers.com/
+Ergo ERG Mining Pool - HeroMiners
+Ergo ERG Mining Pool. Features: PPS+ and PROPX Payment System, SOLO Mining, Exchange Wallet Support. Regions: Europe, US, Canada, Asia
+https://images-ext-2.discordapp.net/external/BnmStBb6OPFsSCv0XwHdcVEyFAsNitweqDyKA18IBRY/https/ergo.herominers.com/favicon/ms-icon-310x310.png
+
+
+[05/15/2021 3:22 PM] Chiron#5824
+NBMiner v37.1+ (Windows, Linux, NVIDIA) eu uso esse minerador pois minha plac a é uma NVIDIA
+
+
+[05/15/2021 3:23 PM] alisovsky#6009
+Tentei usar esse aí mas da erro pois a minha placa só tem 2gb
+
+
+[05/15/2021 3:23 PM] Chiron#5824
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/843131525192220722/unknown.png
+
+
+[05/15/2021 3:24 PM] Chiron#5824
+eu nao tenho experiencia ainda , mas logo alguem nos ajuda aqui no grupo
+
+
+[05/15/2021 3:25 PM] alisovsky#6009
+Muito bom!
+
+
+[05/15/2021 3:25 PM] alisovsky#6009
+Sua placa tem@quantos gb?
+
+
+[05/15/2021 3:26 PM] Chiron#5824
+4gb
+
+
+[05/15/2021 3:26 PM] Chiron#5824
+1050 ti
+
+
+[05/15/2021 3:27 PM] alisovsky#6009
+Da pra fazer 1 erg por dia?
+
+
+[05/15/2021 3:30 PM] Chiron#5824
+sim
+
+
+[05/15/2021 3:30 PM] Chiron#5824
+opsssss
+
+
+[05/15/2021 3:30 PM] Chiron#5824
+nao erg nao
+
+
+[05/15/2021 3:30 PM] Chiron#5824
+dolar sim
+
+
+[05/15/2021 3:30 PM] Chiron#5824
+heheheh
+
+
+[05/15/2021 3:31 PM] Chiron#5824
+eu estou fazendo 1 erg a cada 3 dia com essa placa
+
+
+[05/15/2021 3:31 PM] Chiron#5824
+fui ver o preço dela para colocar duas a minerar mas esta acima de 1200 reais uma 1050 TI
+
+
+[05/15/2021 3:32 PM] Chiron#5824
+eu nao pago isso nao
+
+
+[05/15/2021 3:33 PM] Chiron#5824
+nosss O erg CHEGOU A marca dos 53,94 R$
+
+
+[05/15/2021 3:34 PM] Chiron#5824
+Recent Block Rewards
+Time Found    Height    Difficulty    Region    Effort    Block Reward    Reward    Status
+15/05/2021, 11:19:54    489761    983809503789056    as-sg    61%    67.5000 ERG    0.0013 ERG (=0.00201%)    64 to go
+15/05/2021, 11:13:19    489757    983809503789056    as-sg    83%    67.5069 ERG    0.0012 ERG (=0.00185%)    60 to go
+15/05/2021, 11:04:32    489753    983809503789056    eu-de    172%    67.5087 ERG    0.0014 ERG (=0.00213%)    56 to go
+15/05/2021, 10:45:52    489744    983809503789056    eu-fi    66%    67.5109 ERG    0.0017 ERG (=0.00260%)    47 to go
+15/05/2021, 10:38:28    489740    983809503789056    eu-de    245%    67.5461 ERG    0.0012 ERG (=0.00174%)    43 to go
+15/05/2021, 10:12:05    489731    983809503789056    as-sg    488%    67.5000 ERG    0.0012 ERG (=0.00175%)    34 to go
+15/05/2021, 09:19:07    489710    983809503789056    eu-de    29%    67.5264 ERG    0.0014 ERG (=0.00209%)    13 to go
+15/05/2021, 09:15:59    489709    983809503789056    eu-de    134%    67.5100 ERG    0.0010 ERG (=0.00152%)    12 to go
+15/05/2021, 09:01:27    489703    983809503789056    eu-de    204%    67.5149 ERG    0.0015 ERG (=0.00225%)    6 to go
+
+
+[05/15/2021 3:35 PM] Chiron#5824
+essas sao as recompensas dos blocos minerados rescentemente pela minha velha placa mas guerreira na ativa
+
+
+[05/15/2021 3:36 PM] Chiron#5824
+meu record de recompensa foi 0,0157 ERG
+
+
+[05/15/2021 3:58 PM] Chiron#5824
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/843140336897359892/unknown.png
+
+
+[05/16/2021 3:33 PM] DuqueMH41#7797
+15 usd ERG
+
+
+[05/16/2021 3:33 PM] DuqueMH41#7797
+vamo q vamo pros 100 reais
+
+
+[05/16/2021 4:45 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+1050 é realmente uma tristeza para minerar, mas pelo menos nem gasta energia direito
+
+
+[05/16/2021 4:46 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+A tua se mantém a que temperatura?
+
+
+[05/16/2021 4:46 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+A minha não fica abaixo de 70 por algum motivo:v
+
+
+[05/16/2021 4:47 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Mas ainda considero uma temperatura aceitavel
+
+
+[05/16/2021 5:40 PM] RodZz#1577
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/843528309186887720/unknown.jpeg
+
+
+[05/16/2021 5:40 PM] RodZz#1577
+Alguem me conseguea explicar o que significa o offline na carteira?
+
+
+[05/16/2021 5:41 PM] RodZz#1577
+Costumo usar esta Carteira no trade ogre para exchange, mas como está offline existe alguma alternativa?
+
+
+[05/16/2021 5:48 PM] Chiron#5824
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/843530290689343509/unknown.png
+
+
+[05/16/2021 5:48 PM] Chiron#5824
+53
+
+
+[05/16/2021 5:49 PM] Chiron#5824
+carteira para ERG é Yoroi
+
+
+[05/16/2021 5:49 PM] Chiron#5824
+o resto é sacolinha plastica
+
+
+[05/16/2021 5:49 PM] Chiron#5824
+https://youtu.be/4SnpCF67kyc
+
+{Embed}
+Hero Miners
+https://www.youtube.com/watch?v=4SnpCF67kyc
+How to Mine ERGO? ERG Mining Pool
+This video will help you how to start mining ERGO (ERG) coin.
+
+Mining Pool: https://ergo.herominers.com
+
+You can start ERGO mining in the simplest way with this video.
+
+Note: You can use same method for mining other CryptoCurrency coins.
+
+
+HeroMiners CryptoCurrency Mining Pools
+Different Pool Regions for Best Hashrate Experience
+
+• Central Europ...
+https://images-ext-2.discordapp.net/external/1Oeu0DGgT4pwkrkXUwFbF6sraSf5hL8S7-HpW1LHKsE/https/i.ytimg.com/vi/4SnpCF67kyc/maxresdefault.jpg
+
+
+[05/16/2021 5:52 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+nn é possivel, onde tu mora é friu né.. pq as configurações no afterburn está praticamente identicas e nn cai para baixo de 70º
+
+
+[05/16/2021 5:53 PM] Chiron#5824
+talvez as pas da sua cooller estejam com sujeira
+
+
+[05/16/2021 5:54 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+elas estão ok, apesar de só haver uma.... talvez seja isso?
+
+
+[05/16/2021 5:54 PM] Chiron#5824
+qual o hasrtae que vc esta agora?
+
+
+[05/16/2021 5:54 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+tu usa gabinete?
+
+
+[05/16/2021 5:54 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+meu hashrate é de 29,30
+
+
+[05/16/2021 5:54 PM] Chiron#5824
+sim eu uso gabinte
+
+
+[05/16/2021 5:55 PM] Chiron#5824
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/843532059078426694/unknown.png
+
+
+[05/16/2021 5:57 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+fazer oque...
+
+
+[05/16/2021 5:57 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+é isso mesmo para mim então
+
+
+[05/16/2021 5:59 PM] Chiron#5824
+sabe me dizer....
+
+
+[05/16/2021 6:00 PM] Chiron#5824
+se gtx 970 minera erg ?
+
+
+[05/16/2021 6:00 PM] Chiron#5824
+e se posso colocar junto no mesmo pc com essa minha gtx 1050 ti
+
+
+[05/16/2021 6:02 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+quanto a usa-la junto a outra placa de video é de boa eu diria
+
+
+[05/16/2021 6:03 PM] Chiron#5824
+eu pergunto isso pois no site whattomine eu nao achei essa gtx 970
+
+
+[05/16/2021 6:03 PM] Chiron#5824
+dai fiquei na duvida se ela minera
+
+
+[05/16/2021 6:03 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+eu chuto que ela possa minerar sim
+
+
+[05/16/2021 6:04 PM] Chiron#5824
+vi que ela é superior a minha 1050
+
+
+[05/16/2021 6:04 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+vi um pessoal dizendo que a gtx 1650 não consegue minerar por algum motivo ai
+
+
+[05/16/2021 6:04 PM] Chiron#5824
+neh
+
+
+[05/16/2021 6:04 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+mas eu testei no computador de um primo meu e minerou de boa
+
+
+[05/16/2021 6:05 PM] Chiron#5824
+li algo que a nvidia esta alterando algo nas placas para que nao minere
+
+
+[05/16/2021 6:05 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+nesse caso é só nn atualizar os drivers
+
+
+[05/16/2021 6:05 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+a minha 1050 ta com drivers da 980ti
+
+
+[05/16/2021 6:06 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+eu nn escolhi isso, o proprio app da geforce me mandou esse
+
+
+[05/16/2021 6:06 PM] Chiron#5824
+vc viu o preço das 1050 ?
+
+
+[05/16/2021 6:06 PM] Chiron#5824
+subiu muito em 3 meses
+
+
+[05/16/2021 6:06 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+vi.. é inacreditavel
+
+
+[05/16/2021 6:06 PM] Chiron#5824
+e com essa agora to achando que vai entrar na casa dos 3k
+
+
+[05/16/2021 6:06 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+tava uns 700 reais um tempo atrás
+
+
+[05/16/2021 6:07 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+se entrar na faixa dos 3k eu vendo a minha kkk
+
+
+[05/16/2021 6:07 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+eu paguei 3k no PC inteiro
+
+
+[05/16/2021 6:07 PM] Chiron#5824
+eu vou comprar dia 30 agora 4 pc gamer com essa placa
+
+
+[05/16/2021 6:07 PM] Chiron#5824
+ja listei hj esta 2,5 cada pc
+
+
+[05/16/2021 6:07 PM] Chiron#5824
+vou arrancar a placa e vender os itens restante kkkk
+
+
+[05/16/2021 6:08 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+tenho uma 9800 guardada aqui, tenho certeza que ela da conta de me suprir ainda
+
+
+[05/16/2021 6:08 PM] Chiron#5824
+tem pc gamer a 2.500 com hd de 1 tera e I5 com essa placa 1050 ti 4gb
+
+
+[05/16/2021 6:08 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+mhmm
+
+
+[05/16/2021 6:09 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+certeza que é i5 antigo
+
+
+[05/16/2021 6:09 PM] Chiron#5824
+so a placa ja esta quase esse valor
+
+
+[05/16/2021 6:09 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+mas de fato compensa ainda
+
+
+[05/16/2021 6:09 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+considerando o mercado maluco de hoje
+
+
+[05/16/2021 6:11 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+anyway
+
+
+[05/16/2021 6:11 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+estava pensando aqui
+
+
+[05/16/2021 6:12 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+testa essa config ai
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/843536275880411146/unknown.png
+
+
+[05/16/2021 6:12 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+tenho certeza que tua temperatura nn vai subir muito
+
+
+[05/16/2021 6:12 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+e vai aumentar consideravelmente seu hashrate
+
+
+[05/16/2021 7:00 PM] Chiron#5824
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/843548557365739580/unknown.png
+
+
+[05/16/2021 7:56 PM] DuqueMH41#7797
+eu uso RX470 e RX570 4GB ela faz 65Mh/s, amd minera bem ergo.
+
+
+[05/17/2021 6:12 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+gg.. agora que um povo migrou do ETH para ERG eu to conseguindo muito pouco shares aceitos
+
+
+[05/17/2021 6:13 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+hora de voltar a ser um "gamer" genérico
+
+
+[05/18/2021 2:03 AM] DuqueMH41#7797
+menos shares mas com mais valor, moeda tava 3usd hj ta 15
+
+
+[05/18/2021 9:58 AM] Chiron#5824
+$18 💯 💯 💯
+
+
+[05/18/2021 1:12 PM] DuqueMH41#7797
+🚀
+
+
+[05/18/2021 7:49 PM] HenriqueSS#1491
+comprei um pouco de ergo nos 4$ e queria colocar mais
+
+
+[05/18/2021 7:50 PM] HenriqueSS#1491
+sera q essa alta vai ser infinita mesmo? vale a pena comprar mais agr pro hold?
+
+
+[05/18/2021 8:03 PM] DuqueMH41#7797
+pois é to quase vendendo os meus
+
+
+[05/18/2021 8:03 PM] DuqueMH41#7797
+nao sei cmo q vai ficar
+
+
+[05/18/2021 8:06 PM] DuqueMH41#7797
+fix 5x
+
+
+[05/18/2021 8:15 PM] DuqueMH41#7797
+acho q vai da uma corrigida, btc ta fraco
+
+
+[05/18/2021 8:16 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+voc~es acham que a hora de trocar eles é agora?
+
+
+[05/18/2021 8:16 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+eu consegui juntar alguns e realmente está interessante o valor
+
+
+[05/18/2021 8:26 PM] DuqueMH41#7797
+eu to vendendo, subir de 3 pra 18 em poucos dias ainda mais mercado querendo baixar
+
+
+[05/18/2021 8:27 PM] DuqueMH41#7797
+depois compro quando for pra uns 9, 10 de novo
+
+
+[05/18/2021 9:05 PM] DuqueMH41#7797
+td vendido, $18.30 agora pode cair kkk
+
+
+[05/18/2021 11:49 PM] cryptoold#9444
+boa noite pessoal
+
+
+[05/18/2021 11:50 PM] cryptoold#9444
+como eu crio um worker na nanopool?
+
+
+[05/18/2021 11:50 PM] cryptoold#9444
+eu tava minerando direto e nao aparece worker
+
+
+[05/18/2021 11:51 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+tu pesquisa pela carteira que tu ta usando
+
+
+[05/18/2021 11:52 PM] cryptoold#9444
+sim
+
+
+[05/18/2021 11:52 PM] cryptoold#9444
+ai o woker tem 0
+
+
+[05/18/2021 11:52 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+depois do primeiro share aceito tu espera uns minutos que aparece
+
+
+[05/18/2021 11:52 PM] cryptoold#9444
+hmm
+
+
+[05/18/2021 11:52 PM] cryptoold#9444
+mas ja faz dias que minero
+
+
+[05/18/2021 11:52 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+então ta errado
+
+
+[05/18/2021 11:53 PM] cryptoold#9444
+eu ate parei pq minha placa de video tava morrendo
+
+
+[05/18/2021 11:54 PM] cryptoold#9444
+eu nao minerei o minimo pra receber da nanopool
+
+
+[05/18/2021 11:54 PM] cryptoold#9444
+queria pelo menos tirar oq ja minerei mas nao da sem worker
+
+
+[05/19/2021 1:40 AM] jjbit#5167
+oi gente tudo bem?
+
+
+[05/19/2021 1:41 AM] jjbit#5167
+preciso de ajudar aqui sobre mining solo
+
+
+[05/19/2021 1:42 AM] jjbit#5167
+eu fiz tudo certinho no video mas o meu continua amarelo assim jeito...
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/844374469094277140/Captura_de_tela_2021-05-16_160339.png
+
+
+[05/19/2021 4:23 AM] DuqueMH41#7797
+worker é seu email e sua carteira
+
+
+[05/19/2021 4:23 AM] DuqueMH41#7797
+na nanoppol poe no arquivo carteira.worker/email
+
+
+[05/19/2021 4:24 AM] DuqueMH41#7797
+com seu email vc consegue mudar a quantidade de moedas minimas, nao importa o worker q tava
+
+
+[05/19/2021 4:27 AM] DuqueMH41#7797
+@jjbit minerar solo agora é perda de tempo, ja tem muitos TH na rede
+
+
+[05/19/2021 4:28 AM] jjbit#5167
+Que e-mail lol
+
+
+[05/19/2021 4:29 AM] jjbit#5167
+Entendi
+
+
+[05/19/2021 4:29 AM] DuqueMH41#7797
+la pro camarada da nanopool
+
+
+[05/19/2021 4:36 AM] jjbit#5167
+Entendi não uso da nanopool
+
+
+[05/19/2021 4:36 AM] jjbit#5167
+Não sabia que dava colocar por e-mail
+
+
+[05/19/2021 5:03 AM] DuqueMH41#7797
+nao é por email, é carteira worker e o email seria sua senha pra mudar configuracoes na pool
+
+
+[05/19/2021 5:03 AM] DuqueMH41#7797
+la vc escolher qual o minimo pra sacar e ele te avisa se minerador parou por email
+
+
+[05/19/2021 6:03 AM] DuqueMH41#7797
+E ai venderam o ergo ? kkk avisei... ainda bem q sai, bateu uns 9 to de volta.
+
+
+[05/19/2021 8:39 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+eu fui no seu palpite kkk
+
+
+[05/19/2021 8:39 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+esperar abaixar e eu volto tambem
+
+
+[05/19/2021 2:58 PM] DuqueMH41#7797
+boa, ja caiu metade
+
+
+[05/19/2021 2:59 PM] DuqueMH41#7797
+tudo caiu, saiu do btc tambem ? kkk
+
+
+[05/19/2021 2:59 PM] DuqueMH41#7797
+eu fui pro usdt
+
+
+[05/19/2021 3:56 PM] cryptoold#9444
+btc ja ta subindo dnv
+
+
+[05/19/2021 11:36 PM] Itaguaí#4131
+Boa noite
+
+
+[05/19/2021 11:36 PM] Itaguaí#4131
+Alguém pode me explicar como funciona melhor o SigRSV
+
+
+[05/19/2021 11:37 PM] Itaguaí#4131
+Estou confuso em como somos recompensados lá
+
+
+[05/21/2021 1:54 AM] baleia#8727
+Queria criar um nó pra mineração solo mais n sei, tenho 2k hashes no ergo eu pago pra que me ensinar!!!👍
+
+
+[05/21/2021 12:48 PM] DuqueMH41#7797
+Nesse poder de mineracao solo nao vai conseguir nada. Pool eh melhor opcao.
+
+
+[05/22/2021 2:08 AM] Gabu Ito#2411
+@baleia Pela Herominers, é só colocar "SOLO:" antes da wallet e ir acompanhando pela scan da pool se vc foi o "sortudo"
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/845468124350513172/unknown.png
+
+
+[05/22/2021 2:10 AM] Gabu Ito#2411
+A média é 8 meses para 500 Mh\s, e de 100:2 blocos no SOLO, vai depender da sorte e da dificuldade.
+
+
+[05/22/2021 5:40 AM] DuqueMH41#7797
+vai na pool normal, a média e a mesma no final das contas.
+
+
+[05/22/2021 5:40 AM] DuqueMH41#7797
+ainda mais se tiver com ping do brasil
+
+
+[05/22/2021 3:56 PM] Chiron#5824
+Parece que melhorou a mineração
+
+
+[05/22/2021 3:57 PM] Chiron#5824
+Connected Miners: 4765 (10473 workers)
+
+
+[05/22/2021 3:57 PM] Chiron#5824
+debandaram
+
+
+[05/22/2021 6:53 PM] Pedro Mariussi#9425
+tem como alterar depois que eu ja tiver iniciado a mineração? coloquei o email la mas nao to conseguindo alterar o pagamento minimo
+
+
+[05/22/2021 6:55 PM] DuqueMH41#7797
+pode sim, nao alterando a carteira. Mas demora um tempo pra aparecer
+
+
+[05/22/2021 6:56 PM] Pedro Mariussi#9425
+beleza...vou deixar aberto aqui ver se consigo alterar
+
+
+[05/22/2021 6:56 PM] Pedro Mariussi#9425
+aumentou muito a dificuldade ne ?
+
+
+[05/22/2021 6:57 PM] Pedro Mariussi#9425
+aqui so esta subindo o tempo para chegar nas 5 ergo
+
+
+[05/22/2021 6:57 PM] DuqueMH41#7797
+tem que ver a media, se comecou agora a calculatora nao acerta mt
+
+
+[05/22/2021 6:57 PM] Pedro Mariussi#9425
+no inicio da semana ia terminar as 5 em 5 dias
+
+
+[05/22/2021 6:58 PM] Pedro Mariussi#9425
+hj esta para terminar em 9
+
+
+[05/22/2021 6:58 PM] Pedro Mariussi#9425
+kkkk
+
+
+[05/22/2021 6:58 PM] DuqueMH41#7797
+mas baixou bastante
+
+
+[05/22/2021 6:58 PM] DuqueMH41#7797
+tb fazia quase 1 ergo por dia hj nao faz 0.30
+
+
+[05/22/2021 6:58 PM] Pedro Mariussi#9425
+é relacionado ao valor da moeda  ?
+
+
+[05/22/2021 6:58 PM] DuqueMH41#7797
+dificuldade
+
+
+[05/22/2021 6:58 PM] DuqueMH41#7797
+preço nao
+
+
+[05/22/2021 6:59 PM] DuqueMH41#7797
+muita gente migrou do eth quando ela tava numero 1 de mineracao, 4x mais dificil
+
+
+[05/22/2021 6:59 PM] DuqueMH41#7797
+agora q ta caindo, deve normalizar
+
+
+[05/22/2021 6:59 PM] Pedro Mariussi#9425
+entendi...
+
+
+[05/22/2021 7:00 PM] DuqueMH41#7797
+tava 3TH no inicio bom chegou a 20... hj ta uns 12.
+
+
+[05/22/2021 7:00 PM] DuqueMH41#7797
+eth caiu demais tb
+
+
+[05/22/2021 7:00 PM] DuqueMH41#7797
+quero so ve se aguentam essas vga caras ai. jaja nao compensa minerar cmo ano passado
+
+
+[05/22/2021 7:02 PM] Pedro Mariussi#9425
+vc acha que demora quanto para validar o email
+
+
+[05/22/2021 7:03 PM] DuqueMH41#7797
+vc colocou cmo o arquivo ? --wallet YOUR_WALLET.YOUR_WORKER/YOUR_EMAIL
+
+
+[05/22/2021 7:03 PM] DuqueMH41#7797
+vai testando, so colocar email e a quantidade la de ergo q quer mudar se der ok q ta certo
+
+
+[05/22/2021 7:04 PM] Pedro Mariussi#9425
+desse jeito ai
+
+
+[05/22/2021 7:04 PM] Pedro Mariussi#9425
+e no final -log
+
+
+[05/22/2021 7:04 PM] Pedro Mariussi#9425
+YOUR_WALLET.YOUR_WORKER/YOUR_EMAIL -log
+
+
+[05/22/2021 7:04 PM] DuqueMH41#7797
+qual valor ta o rating ?
+
+
+[05/22/2021 7:04 PM] DuqueMH41#7797
+qq coisa troca o worker name pra resetar
+
+
+[05/22/2021 7:05 PM] DuqueMH41#7797
+troca default pra outr nome ai aparece um novo
+
+
+[05/22/2021 7:06 PM] Pedro Mariussi#9425
+vou mudar pra ver
+
+
+[05/22/2021 7:06 PM] Pedro Mariussi#9425
+agora 0
+
+
+[05/22/2021 7:08 PM] DuqueMH41#7797
+deixa aparecer algum valor ai ja deve ta ok o email
+
+
+[05/22/2021 7:08 PM] DuqueMH41#7797
+quando sair do 0
+
+
+[05/22/2021 7:08 PM] Pedro Mariussi#9425
+belza...vou testar
+
+
+[05/22/2021 7:08 PM] Pedro Mariussi#9425
+e amanha sera que da verdao
+
+
+[05/22/2021 7:09 PM] DuqueMH41#7797
+complicado, mas pode da, joga melhor fora de casa kkk
+
+
+[05/22/2021 7:12 PM] Pedro Mariussi#9425
+ta duro dar um aceito aqui..dificuldade aumentou mt
+
+
+[05/22/2021 7:20 PM] DuqueMH41#7797
+ta com quantos Mh ?
+
+
+[05/22/2021 8:57 PM] jjbit#5167
+alguem pode me ensinar solo mining?
+
+
+[05/22/2021 8:57 PM] jjbit#5167
+fiz tudo certinho mas fica amarelo ainda....
+
+
+[05/22/2021 10:20 PM] Ale#1504
+galera, alguem sabe me dizer, se minerar gasta muita "data de internet"
+
+
+[05/22/2021 10:21 PM] Ale#1504
+eu uso internet 3g
+
+
+[05/22/2021 10:21 PM] Ale#1504
+dai se gastar muita data pra mim não vai dar
+
+
+[05/22/2021 10:30 PM] Pedro Mariussi#9425
+Agora 38, desliguei uma maquina
+
+
+[05/23/2021 2:55 AM] Gabu Ito#2411
+@Ale Deve ser algo de 100 mb por dia
+
+
+[05/23/2021 5:16 AM] Stigz#8221
+tem q esperar sincronizar todo o node
+
+
+[05/23/2021 11:18 AM] Chiron#5824
+CONCEAUL
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/845968894417829908/unknown.png
+
+
+[05/23/2021 11:18 AM] Chiron#5824
+share de 0,17%
+
+
+[05/23/2021 11:20 AM] Chiron#5824
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/845969376850083870/unknown.png
+
+
+[05/23/2021 1:03 PM] Chiron#5824
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/845995405748994098/unknown.png
+
+
+[05/23/2021 11:51 PM] DuqueMH41#7797
+e ai, cmo estao se segurando nessas quedas ? sairam de td a tempo ?
+
+
+[05/24/2021 1:10 AM] Pedro Mariussi#9425
+Vendi no 0a0, to aguardando ver oq vai ocorrer
+
+
+[05/24/2021 2:51 AM] Chiron#5824
+eu vendi 2,5 ERG a 9 USDN aquele dia, e juntei mais 1,4 ERG mas esta na carteira ainda, nao fiz trade devido preço baixo.
+
+
+[05/24/2021 2:53 AM] Chiron#5824
+os 20 USDT ainda em staking rendendo 0,050791 USDT(9dias) = 8,9% ao ano
+
+
+[05/24/2021 3:34 AM] Chiron#5824
+Eita - Fazer trade na Coinex parece ser muito melhor (devido tempo grande volume de negociaçoes) do que na Wave.Exchange (ainda estagnado no 8 USDN o ultimo volume de ERG negociado.
+
+
+[05/24/2021 4:33 AM] DuqueMH41#7797
+Tradeogre e de boa
+
+
+[05/24/2021 4:33 AM] DuqueMH41#7797
+Essa coinex eh meio estranha
+
+
+[05/24/2021 4:33 AM] DuqueMH41#7797
+E ta tendo swap de ergo na swop.fi.
+
+
+[05/26/2021 4:48 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+até que estou tendo sorte recentemente
+
+
+[05/26/2021 4:49 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+parei de minerar mas to conseguindo aumentar meu estoque de dinheiro virtual com o vai e vem que ergo anda tendo
+
+
+[05/30/2021 12:38 AM] Gabu Ito#2411
+estou fazendo hold, acredito no potencial dessa blockchain à longo prazo , 93 Erg na Yoroi intocada,  saudades de Janeiro quando era possível minerar 3 Erg por dia com 2 RX
+
+
+[05/30/2021 12:25 PM] Triblit#1624
+Bom dia, alguem enfrentando problemas com a Yoroi? a minha não atualiza o saldo e nem faz transação, só consigo ver no explorer que ta tudo ok..
+
+
+[05/30/2021 12:25 PM] Triblit#1624
+@here
+
+
+[05/30/2021 2:10 PM] DuqueMH41#7797
+ta td normal na yoroi
+
+
+[05/30/2021 2:10 PM] DuqueMH41#7797
+as vezes vc clica na moeda e volta pro menu ele atualiza
+
+
+[05/30/2021 2:26 PM] Chiron#5824
+aqui tudo certinho na yoroi
+
+
+[05/30/2021 2:29 PM] Chiron#5824
+essa é a grande duvida que acordei hoje, vai que eu tenho achado num cantinho por ai 10 BITCOINS eu venha na cabeça onde guarda-los?  ja pensou colocar na carteira da ze da borracharia e voce entra numa manha qualquer e nao consegue fazer o login por varios motivos? voce ficaria maluko neh.
+
+
+[05/30/2021 2:52 PM] DuqueMH41#7797
+se vc tem a seed das carteiras ta seguro, nao precisa lembrar de logins, senhas, etc.. so importar.
+
+
+[05/30/2021 4:49 PM] dapovoa#2043
+Alguém sabe como configurar o config.json para minerar diretamente o nó?
+
+
+[05/30/2021 4:50 PM] dapovoa#2043
+{ 
+    "mnemonic" : "my_mnemonic_phrase",
+    "mnemonicPass": "my_password",
+    "node" : "http://127.0.0.1:9053/", 
+    "keepPrehash" : true 
+    }
+
+
+[05/30/2021 7:02 PM] baleia#8727
+Também queria aprender
+
+
+[05/30/2021 7:38 PM] DuqueMH41#7797
+nao adianta minerar solo com essa quantidade de hashrate da rede, demoraria anos pra achar 1 bloco sozinho
+
+
+[05/30/2021 7:38 PM] DuqueMH41#7797
+se ainda quer testar, vai na herominers solo e tenta la
+
+
+[05/30/2021 8:54 PM] alexsandro.xyz#1233
+pra minerar  ERGO o pc precisar ficar online 24/7?? caso eu desligue o node eu sou punido de alguma forma???
+
+
+[05/30/2021 10:54 PM] Primata#0001
+é melhor, mas aparentemente nao
+
+
+[05/30/2021 10:54 PM] Primata#0001
+voce só tem menos tempo na pool
+
+
+[05/31/2021 2:42 AM] DuqueMH41#7797
+nao precisa, vai acumulando na pool
+
+
+[05/31/2021 2:42 AM] DuqueMH41#7797
+minerando solo vc nao ganha nada, na pool ganha fracoes a kda bloco, o resultado final é sempre o mesmo, melhor minerar em uma pool
+
+
+[05/31/2021 12:24 PM] pinkosa#0008
+Quanto mais tempo você ficar online, mais shares você tem oportunidade de pegar e consequentemente ganhar mais. Mas como tudo é online, você pode desligar o computador e o que você minerou vai ficar salvo. E quando voltar começa a contar novamente 😊
+
+
+[05/31/2021 3:10 PM] alexsandro.xyz#1233
+showwwww obrigado ☺️
+
+
+[06/01/2021 5:15 AM] gbo#4135
+olá gente! alguém aqui já minerou com nvidia usando o nbminer? to com um problema de oscilação de temperatura muito alta e queria saber se alguém já passou pelo mesmo, e se conseguiu resolver
+
+
+[06/01/2021 5:16 AM] gbo#4135
+porque a temperatura fica estável em 62, e toda vez que encontra um novo job ela oscila pra 73 por um tempo bem curto e volta a 62
+
+
+[06/01/2021 5:16 AM] gbo#4135
+mas isso não é muito bom pros componentes da gpu, o ideal seria estabilidade
+
+
+[06/01/2021 5:16 AM] gbo#4135
+valeu!
+
+
+[06/01/2021 5:20 AM] soninho89#8594
+boa noite alguem para sanar uma duvida?
+
+
+[06/01/2021 2:54 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Normal ela dar um pico na temperatura as vezes
+
+
+[06/01/2021 3:32 PM] DuqueMH41#7797
+nao tem problema algum, pode ate ser configuracao do fan que relaxa um pouco e temp sobe. Pode configurar pra ficar numa % de velocidade fixa.
+
+
+[06/02/2021 2:50 AM] baleia#8727
+Bom eu tenho 3 GHz no ergo,no eth tenho 1.2ghz, n quero minera solo na herominers,queria criar um nó pra ir solo mais n tô conseguindo
+
+
+[06/02/2021 5:15 AM] DuqueMH41#7797
+tem 20 TH na rede... minera na pool comum e seja feliz, a media da no mesmo
+
+
+[06/02/2021 5:15 AM] DuqueMH41#7797
+nao tem pra q fazer solo
+
+
+[06/02/2021 5:22 AM] DuqueMH41#7797
+melhor a nanopool
+
+
+[06/02/2021 5:22 AM] DuqueMH41#7797
+e se ta com ip do brasil vc ta em desvantagem no solo tb, nao ganha no ping
+
+
+[06/02/2021 12:06 PM] Cancian#8925
+alguem sabe quando vão anunciar mais exchanges, ouvi falar que era hoje
+
+
+[06/02/2021 3:33 PM] baleia#8727
+Por causa da desvantagem de ping que quero cria um nó amigo!!! Dexa pra lá semana que vem estou de férias do trabalho aí posso fazer com calma!!!
+
+
+[06/04/2021 6:51 PM] Yisus#7650
+Alguém tá na pira da hackathon?
+
+
+[06/04/2021 9:57 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Não, mas já que mencionou
+
+
+[06/04/2021 9:57 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Oque planeja?
+
+
+[06/06/2021 3:40 PM] Hallzz#2169
+fiz uma pool "solo' com 3 amigos, ficamos em 5ghz
+
+
+[06/06/2021 4:35 PM] Corvo#3413
+Pro Hackaton, vai que ajuda alguém: https://github.com/rf-peixoto/ergopy Pequena, mas já é funcional.
+
+{Embed}
+https://github.com/rf-peixoto/ergopy
+rf-peixoto/ergopy
+Simple Python API for the Ergo Platform Explorer. Contribute to rf-peixoto/ergopy development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/5-g5EbP0PHbS99a4g3NvRhVDD4C5KJfI49rNafsYNWw/https/opengraph.githubassets.com/1124468884b02dfff02df93605b6a572601c3734b69b6679da843a734b35ebec/rf-peixoto/ergopy
+
+
+[06/07/2021 7:21 AM] baleia#8727
+Pode me ensinar?
+
+
+[06/07/2021 3:28 PM] robocopy#2475
+vale a pena minerar em solo
+
+
+[06/08/2021 10:20 PM] DiogoTex#1586
+Alguém tem OverClock da 3070 pra Ergo? To usando o de ETH esta fazendo 168mh
+
+
+[06/08/2021 10:44 PM] DuqueMH41#7797
+msm coisa, mas pode subir um pouco o core tb, nao so memoria
+
+
+[06/08/2021 10:45 PM] DuqueMH41#7797
+mas eth paga mais, melhor minerar eth e comprar ergo com o q faz
+
+
+[06/08/2021 10:54 PM] baleia#8727
+No caso da Vega é o contrário
+
+
+[06/08/2021 10:54 PM] baleia#8727
+No etash faz 52 mhz
+
+
+[06/08/2021 10:55 PM] baleia#8727
+No ergo faz 180 mhz
+
+
+[06/08/2021 10:55 PM] baleia#8727
+Faz mais na ergo mesmo
+
+
+[06/08/2021 10:56 PM] baleia#8727
+Faz até 200 se força mais
+
+
+[06/09/2021 12:36 AM] DuqueMH41#7797
+mas MH na ergo nao significa nada em relacao ao eth
+
+
+[06/09/2021 12:36 AM] DuqueMH41#7797
+minha placa faz o dobro no ergo mas o rendimento é menor
+
+
+[06/09/2021 12:36 AM] DuqueMH41#7797
+ergo nao eh Ethash
+
+
+[06/09/2021 2:11 PM] baleia#8727
+Então maninho
+
+
+[06/09/2021 2:12 PM] baleia#8727
+Vó te dá outro exemplo, uma rx 570 faz 30 no eth e 60 na ergo certo?
+
+
+[06/09/2021 2:12 PM] baleia#8727
+A Vega faz 50 no eth e 180 a 200 na ergo
+
+
+[06/09/2021 2:12 PM] baleia#8727
+Vale quase 4 rx 570 na ergo e no eth quase 2
+
+
+[06/09/2021 2:13 PM] baleia#8727
+Entendeu irmao
+
+
+[06/09/2021 2:13 PM] baleia#8727
+A Vega é um monstro na ergo vale por 4 rx 570
+
+
+[06/09/2021 2:13 PM] baleia#8727
+Bota no whattomine uma Vega e veja se dá mais eth ou ergo
+
+
+[06/09/2021 3:19 PM] DuqueMH41#7797
+Sim. Pra esse caso da vega ta ok ir no ergo.
+
+
+[06/09/2021 3:20 PM] DuqueMH41#7797
+Ja nvidia eh cansada pra ergo
+
+
+[06/10/2021 4:27 PM] jjbit#5167
+Alguém manja hacker ?
+
+
+[06/10/2021 5:30 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+desconsiderando o mundo da mineração, voc~es acham que compensa trocar uma gtx 1050ti de 4gb + xbox 360 com alguns jogos + um setup meio irrelevante por uma R9 390 de 8gb?
+
+
+[06/10/2021 5:31 PM] DuqueMH41#7797
+nunca... r9 390 é muito antiga
+
+
+[06/10/2021 5:32 PM] DuqueMH41#7797
+vc vende ate bem a sua 1050ti agora, espera uns meses e pega uma 1660
+
+
+[06/10/2021 5:32 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+quanto está saindo a 1660?
+
+
+[06/10/2021 5:33 PM] DuqueMH41#7797
+hoje ta caro por causa da mineracao
+
+
+[06/10/2021 5:33 PM] DuqueMH41#7797
+ou ate uma gtx 1650
+
+
+[06/10/2021 5:35 PM] DuqueMH41#7797
+tenta vender a sua por mais de 1500 e espera, nao trocaria por uma geracao inferior que da muito problema de aquecimento
+
+
+[06/10/2021 5:37 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+eu estava pensando nisso
+
+
+[06/10/2021 5:37 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+só que eu tambem estava pensando no fato dela ainda ser superior
+
+
+[06/10/2021 5:39 PM] DuqueMH41#7797
+mas ela é antiga e da muito problema, nao vale a pena essa geracao de radeon.. se fosse uma RX 470+ ate ia... R9 cai fora..
+
+
+[06/11/2021 5:35 PM] Joab#2116
+yae galerinha dos ergo
+
+
+[06/11/2021 5:35 PM] Joab#2116
+to minerando aqui na minha rx 580
+
+
+[06/11/2021 5:35 PM] Joab#2116
+ta bomzinho até
+
+
+[06/11/2021 5:42 PM] Joab#2116
+pegando em média 50MH/s
+
+
+[06/11/2021 5:42 PM] Joab#2116
+o que eu acho estranho, é que no SRBminer ta falando que eu pego 60MH/s, mas nas pools (nanominer, herominer) diz que eu só pego 48MH/s - 50MH/s
+
+
+[06/11/2021 5:42 PM] Joab#2116
+zikado
+
+
+[06/11/2021 9:00 PM] Gabu Ito#2411
+Aperta S no SRB pra pegar as medias, e 50MH/s acho baixo até, 570 tá fazendo 73 MH/s
+
+
+[06/11/2021 11:28 PM] baleia#8727
+Qual config pra tua 570 da 73 mhz?
+
+
+[06/12/2021 12:29 AM] Joab#2116
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/853053387586404372/unknown.png
+
+
+[06/12/2021 12:30 AM] Joab#2116
+70 MH/s na RX 570? Mas ela com crtz tá com um BIOS mod né? E usando um HiveOS da vida, com as voltagens de core configuradas
+
+
+[06/12/2021 12:31 AM] Joab#2116
+algumas configurações eu mudei pelo CoreCtrl
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/853053770798465064/unknown.png
+
+
+[06/12/2021 12:31 AM] Joab#2116
+uso o PopOS pra minerar
+
+
+[06/12/2021 12:35 AM] Gabu Ito#2411
+É mais agressivo, GPU 1380Mhz@1000mV e MEM 2000Mhz@875mV, uso esse perfil em dias bem gelados
+
+
+[06/12/2021 12:36 AM] Gabu Ito#2411
+O safe é 1250Mhz@910mV e 1950Mhz@870mV, já faz 68~69 Mh/s
+
+
+[06/12/2021 12:37 AM] Gabu Ito#2411
+Isso com Gpu boa e memoria Samsung
+
+
+[06/12/2021 12:37 AM] Joab#2116
+você usa HiveOS pra minerar?
+
+
+[06/12/2021 12:37 AM] Joab#2116
+a memória da minha 580 é Samsung
+
+
+[06/12/2021 12:37 AM] Joab#2116
+porém é de 4GB
+
+
+[06/12/2021 12:38 AM] Gabu Ito#2411
+4GB é tranquilo, a Dag size está entre 2,5GB e 3GB
+
+
+[06/12/2021 12:38 AM] Gabu Ito#2411
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/853055609615679508/unknown.png
+
+
+[06/12/2021 12:38 AM] Joab#2116
+qual é o minerador?
+
+
+[06/12/2021 12:38 AM] Gabu Ito#2411
+Uso Windows mesmo, já que eu uso pra programar durante a mineração
+
+
+[06/12/2021 12:38 AM] Gabu Ito#2411
+SRBMiner
+
+
+[06/12/2021 12:39 AM] Joab#2116
+qual programa você usa pra mexer nas voltagens?
+
+
+[06/12/2021 12:39 AM] Joab#2116
+AMD wattman?
+
+
+[06/12/2021 12:39 AM] Gabu Ito#2411
+Yes
+
+
+[06/12/2021 12:39 AM] Joab#2116
+nice
+
+
+[06/12/2021 12:39 AM] Joab#2116
+vou testar no windows
+
+
+[06/12/2021 12:39 AM] Joab#2116
+linux é um saco kk
+
+
+[06/12/2021 12:39 AM] Joab#2116
+só uso pq geralmente dá mais H/s na mineração
+
+
+[06/12/2021 12:40 AM] Gabu Ito#2411
+Linux não é ruim, mas tem que puxar o ROCm do repositorio pra render mais, se não me engano
+
+
+[06/12/2021 12:40 AM] Joab#2116
+eu uso o driver da AMD PRO GPU
+
+
+[06/12/2021 12:41 AM] Joab#2116
+o seu driver no Windows é um driver comum?
+
+
+[06/12/2021 12:41 AM] Joab#2116
+ou algum especifico ?
+
+
+[06/12/2021 12:42 AM] Gabu Ito#2411
+No Win não tem muita diferença do Normal x Pro nas versões novas, já que tem um switch pro Compute Mode
+
+
+[06/12/2021 12:42 AM] Gabu Ito#2411
+Mas lembrando, minha placa tem Bios Mod com UberMix 3.1
+
+
+[06/12/2021 12:42 AM] Joab#2116
+usou gravador para instalar na placa ?
+
+
+[06/12/2021 12:43 AM] Gabu Ito#2411
+Tem um software pra isso, PolarisBiosEditor
+
+
+[06/12/2021 12:44 AM] Gabu Ito#2411
+vc edita lá e usa o ATI vBios Flash pra programar na placa
+
+
+[06/12/2021 12:44 AM] Gabu Ito#2411
+mas é por conta e risco
+
+
+[06/12/2021 12:44 AM] Joab#2116
+ss
+
+
+[06/12/2021 12:44 AM] Joab#2116
+é tanto q eu ainda n fiz kk
+
+
+[06/12/2021 12:45 AM] Joab#2116
+acho que não iria fazer também
+
+
+[06/12/2021 1:15 AM] DuqueMH41#7797
+pode fazer td pelo hiveos tb
+
+
+[06/12/2021 1:16 AM] DuqueMH41#7797
+ele msm faz a bios e flasha
+
+
+[06/12/2021 1:52 AM] Joab#2116
+sera que é confiavel ? ;v
+
+
+[06/12/2021 2:35 AM] DuqueMH41#7797
+sim, eu uso direto
+
+
+[06/12/2021 2:35 AM] DuqueMH41#7797
+eu fiz minha bios pelo polaris mas baixei e enviei pelo hiveos
+
+
+[06/12/2021 2:35 AM] DuqueMH41#7797
+mas ja tem bios prontas la se quiser
+
+
+[06/12/2021 2:38 AM] DuqueMH41#7797
+so guardar bem a original
+
+
+[06/12/2021 2:59 PM] Joab#2116
+No hiveOS o cara não tem como usar outros programas né? tipo navegador, aplicativos, etc
+
+
+[06/12/2021 4:36 PM] DuqueMH41#7797
+nao tem, é so pra minerar msm. Ate daria pra tentar instalar um desktop mas nao sei se funciona.
+
+
+[06/12/2021 4:36 PM] DuqueMH41#7797
+so uso num pc velho msm, core2duo kkk e 3gpu.
+
+
+[06/12/2021 4:43 PM] Joab#2116
+queria fazer uma mini rig tb
+
+
+[06/12/2021 4:43 PM] Joab#2116
+só que os preços das placas hoje tão uma facada insana
+
+
+[06/13/2021 1:34 AM] DuqueMH41#7797
+Pega pc bem fulerinho. Ta cheio de core2duo ai q placa memoria e cpu sai 150 reais ou menos. Meu eh 2gb ddr2 ainda. Mas minera a meses, nao trava. Mt tranquilo. 3pcie.
+
+
+[06/15/2021 1:54 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+a vez que eu testei o HiveOs ele tinha a parte grafica toda
+
+
+[06/15/2021 1:55 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+inclusoo navegador e a possibilidade de instalar outros apps
+
+
+[06/20/2021 8:25 PM] baleia#8727
+Estou pensando em juntar com algumas pessoas e junta o poder computacional pra minerar ergo solo quem topa?
+
+
+[06/21/2021 6:46 PM] marcioglaser#3380
+Eu já faço isso.
+Temos 7.5 Ghs e mineramos solo desde 01/06.
+
+Qual o seu MH em ERGO?
+
+{Reactions}
+🐳 
+
+[06/22/2021 2:38 AM] Joab#2116
+Interessante
+
+
+[06/22/2021 2:39 AM] Joab#2116
+Mas acho que só valeria a pena para altos MH/s né
+
+
+[06/22/2021 2:39 AM] Joab#2116
+O meu é de 50MH/s
+
+
+[06/22/2021 3:15 AM] marcioglaser#3380
+Pra solo é inviável.
+
+
+[06/23/2021 3:17 AM] Joab#2116
+Rip
+
+
+[06/23/2021 3:17 AM] Joab#2116
+As moedinha tão caindo com força em
+
+
+[06/23/2021 8:13 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Relaxa, eventualmente elas voltam
+
+
+[06/23/2021 8:14 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+É só questão de tempo
+
+
+[06/23/2021 1:44 PM] jajamiller#4932
+Pessoal alguem teve problema com NBminer com RX550?
+
+
+[06/23/2021 4:52 PM] DuqueMH41#7797
+sua srbminer, bem melhor
+
+
+[06/25/2021 2:24 AM] Mazuqui#6503
+boa noite pessoal vcs estao usando qual oc na 3070 ?
+
+
+[06/25/2021 4:45 AM] marcioglaser#3380
+Tenta -400 2500 130. Faz 170 Mh
+
+
+[06/25/2021 5:00 AM] Mazuqui#6503
+Opa marcio se ta por aqui
+
+
+[06/25/2021 2:43 PM] Mazuqui#6503
+Ta pegando bloco com effort alto ?
+
+
+[06/25/2021 7:22 PM] marcioglaser#3380
+Opa Rogério, agora que me liguei no sobrenome.
+Nosso último foi 31%, mas já tivemos até quase 300%.
+
+Faz parte
+
+
+[06/25/2021 11:03 PM] Mazuqui#6503
+Estamos em 91
+
+
+[06/26/2021 6:17 AM] Gabu Ito#2411
+Pra quem usa Nicehash Cloud (sei lá o por quê usaria), Ergo está disponível por lá agora.
+
+
+[06/26/2021 6:19 AM] Gabu Ito#2411
+https://www.nicehash.com/algorithm/autolykos
+
+
+[06/26/2021 4:49 PM] Mazuqui#6503
+pegamos um hash bom agora
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/858373361221632000/unknown.png
+
+
+[06/26/2021 4:50 PM] marcioglaser#3380
+Bacana.
+E já quebrou o que estava com 91?
+
+
+[06/26/2021 4:52 PM] Mazuqui#6503
+quebramos ontem
+
+
+[06/26/2021 11:09 PM] baleia#8727
+@marcioglaser2500 no ergo!!!
+
+
+[06/26/2021 11:23 PM] marcioglaser#3380
+Legal. É muito bom.
+Porém estamos esperando quebrar esse próximo bloco para darmos uma possível pausa.
+Com a queda do valor do ERGO, a média final não está compensando. Estamos com 10GH e pegamos frequentemente blocos com 200% de EFFORT, isso leva 3 dias, então a média está ficando abaixo do esperado.
+
+
+[06/28/2021 10:57 PM] Mazuqui#6503
+Vc ja reparou que parece que carteiras novas quebram o bloco com menos effort ?  tem um outro grupo que simplesmente trocou a carteira e quebraram blocos os dois primeiros blocos com menos de 20%
+
+
+[06/30/2021 4:07 AM] baleia#8727
+Vcs são da mesma cidade ou tem grupo de mineração?
+
+
+[07/02/2021 3:47 PM] marcioglaser#3380
+Somos um grupo. Mas neste momento não estamos mais minerando ERGO. Estamos juntos minerando ETH, aí fazemos diariamente mais de 0.1 ETH então pegamos payout de qualquer pool. Então temos pagamentos diários.
+
+
+[07/02/2021 8:00 PM] baleia#8727
+legal
+
+
+[07/05/2021 7:56 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Alguem tem uma média de quanto a RIG de vcs esta consumindo de energia e quais as configurações?
+
+
+[07/05/2021 3:50 PM] DuqueMH41#7797
+é muita variavel... a minha consumia 830W na tomada 220v - 8x RX 570 - fonte de 1000w gold - celeron - placa z170 HiveOS
+
+
+[07/05/2021 9:30 PM] Gabu Ito#2411
+Atualização Lolminer
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/861705684370456606/unknown.png
+
+
+[07/06/2021 7:39 PM] Marins#0234
+alguem sabe algum site que mostre o grafico da ergo ?
+
+
+[07/09/2021 2:56 PM] DuqueMH41#7797
+https://coinmarketcap.com/currencies/ergo/
+
+
+[07/30/2021 5:36 PM] glasgowm#9381
+https://t.me/ErgoPortuguese
+
+{Embed}
+https://t.me/ErgoPortuguese
+Ergo Português
+You can view and join @ErgoPortuguese right away.
+https://images-ext-1.discordapp.net/external/JNCXAM2dnJ9nqeZ9N_EXs1b1R8EvVIABbIvUiR6dWik/https/cdn5.telesco.pe/file/uUSnuqcyW4vP7aV1bkBMqGX_vHd_xKEJgqpKVYaZCCE4MKibr_RrowMiqhP1hkqdKcIBNjB5ivIen8mRnK43Hg192PKsTev2hm7fyXVReotd-oLFIH2QmhsWnaSMExwGKIjSYqnrajbotNKnl0aPtFKTYprFoj8sBbGuiO_GqTFlX1eg96viJ0T_VyCsCi6qiMxbGtNMDpM5dV1ZmeNPVzZG-yOBJTVn7JmVpGt2mEWCwTrAu8f81cSy781Ho4ulIh3bbdiVEMB5mhtmso2CYIC7vKThpxs_rmMh7DJhfxuXnRV2XDrb4r4iO5VMFN4GnzC1iBjulJL6I9fbqid0xA.jpg
+
+
+[08/03/2021 2:45 PM] DouglasPazinatto#3385
+Alguem sabe o HashRate da RX 5500 XT 8Gb?
+
+
+[08/04/2021 1:37 AM] Gabu Ito#2411
+@DouglasPazinatto Algo proximo de 60~70 Mh/s
+
+
+[08/04/2021 12:33 PM] DouglasPazinatto#3385
+obrigado
+
+
+[08/04/2021 4:31 PM] anon_br#2282
+Olá pessoal, caso queiram trocar uma ideia no telegram, o nosso grupo está de portas abertas (e agora livre de spammers)! https://t.me/ergobrazil
+
+{Embed}
+https://t.me/ergobrazil
+Ergo Platform Brasil
+Ergo constrói recursos criptográficas avançadas e funcionalidades DeFi radicalmente novas tendo como base fundamentos sólidos, estabelecidos por uma década de teoria e desenvolvimento de blockchains.		Canal de notícias e anúncios: @ergo_newsbr
+https://images-ext-1.discordapp.net/external/iqojYEBHZSkyynwTm0sj2i2It4VmV65FwSmGM77TPkI/https/cdn1.telesco.pe/file/HPgsAmphrAZud8PXvEj16e_oPdZAgGm4FXXIFMXYzyDhhWwZR3rykWDcLpJNcQdUxFKydASItDjuzb7yGOHobYFrVyANwy9wkWt8ppGrcm3L8JJt61BZChIiy1JTIMGDY-ydyI3iOoeYeVe2ott8hT4ujzIztmrdoThgbnAxIbryEMk7ggQsgvG7kKQjA9i8v3WRRcbaKCAAAExPIp51f5ffJHoLS3tiFHfDk8dTMepAn5REBrz3_mpAytLFZhVFtzIFQ_MWR0LN6jE7gyHEKYBB9V4hjIvNlNCn2D-hCG3AMFsmfz4cTHKDESqBe4XvQEuEPq4GAq6shW3BTT032Q.jpg
+
+
+[08/04/2021 4:35 PM] anon_br#2282
+Pessoal lá está perguntando se existe alguma pool brasileira de Ergo e não soube responder, mas lembro que já discutiram o assunto aqui, então caso alguém que esteja por dentro desse assunto pudesse dar uma força lá seria de grande ajuda.
+
+
+[08/04/2021 8:01 PM] DuqueMH41#7797
+boa
+
+
+[08/05/2021 11:36 PM] DouglasPazinatto#3385
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/872971466071744532/20210805_192302.jpg
+
+
+[08/07/2021 9:31 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+970 se da bem na mineração de ergo?
+
+
+[08/07/2021 9:32 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+usar 1050 ti tem sido algo meio triste ultimamente
+
+
+[08/07/2021 9:32 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+e me apareceu uma 970
+
+
+[08/07/2021 9:32 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+tinha uma 1070 tambem, mas não sei se consigo pegar a 1070
+
+
+[08/07/2021 9:32 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+alias, quanto voc~es pagariam de uma 1070?
+
+
+[08/08/2021 3:06 AM] DuqueMH41#7797
+970 eh fraca
+
+
+[08/08/2021 3:07 AM] DuqueMH41#7797
+1070 deve ta uns 2k ou mais hj em dia... se vendem as 1060 por 1500
+
+
+[08/08/2021 3:10 AM] DuqueMH41#7797
+procura as 470, 570 q fazem 60Mh+ melhor q a 1070 pra ergo
+
+
+[08/10/2021 4:08 AM] [FORCA] NovasDream#9624
+po cara minha ccarteira na ergo platform nao carrega o balanco. e no explore la ela tem o saldo ok
+
+
+[08/10/2021 5:15 PM] DuqueMH41#7797
+q ergo platform ?
+
+
+[08/10/2021 5:15 PM] DuqueMH41#7797
+yoroi ?
+
+
+[08/10/2021 5:17 PM] DuqueMH41#7797
+pega a extensao yoroi q funciona
+
+
+[08/11/2021 8:16 PM] Joab#2116
+ei ta bom viu o preço da Ergo
+
+
+[08/11/2021 8:16 PM] Joab#2116
+mas a dificuldade ta alta
+
+
+[08/11/2021 8:44 PM] Joab#2116
+galerinha
+
+
+[08/11/2021 9:00 PM] Joab#2116
+minerar com uma RX 570 numa placa mãe de PCI Express 2.0 diminui o hashrate?
+
+
+[08/12/2021 1:31 AM] DuqueMH41#7797
+nao
+
+
+[08/12/2021 1:33 AM] DuqueMH41#7797
+pode usar qq coisa, ka usei ate placa de 10 anos atras ddr2, mesmo hashrate de pc atual
+
+
+[08/14/2021 3:39 PM] Fernando H.#7551
+O que vcs acham amigos? Continuo no ravencoin mesmo desgastando mais a placa? Ou fico no ergo pq tende a valorizar mais a longo prazo?
+
+
+[08/14/2021 3:40 PM] Fernando H.#7551
+@DuqueMH41 @Joab @[FORCA] NovasDream @sselesex᲼᲼᲼᲼᲼᲼ @DouglasPazinatto @anon_br @Gabu Ito
+
+
+[08/14/2021 3:41 PM] Fernando H.#7551
+Ravencoin desgasta mais a placa e gasta mais energia, só que ergo e melhor a longo prazo
+
+
+[08/14/2021 3:41 PM] Fernando H.#7551
+Rvn lucra mais só que gasta mais a placa, e ergo ganha menos, só que a placa fica mais tranquila, tenho RTX 3080 ti
+
+
+[08/14/2021 4:08 PM] Gabu Ito#2411
+Você deve decidir isso por si mesmo, pesquise e defina o que você procura em cripto.
+Na MINHA opinião, Ravencoin é um simples fork do Bitcoin e nada mais, foi criada para outros definirem o que ela é, você pode ver isso pela postagens no blog e Twitter da RVN.
+A Ergo é mais complexa, ela é uma rede que aceita Smart Contracts, quer ser integrada às outras blockchains, equipe sempre busca atualizá-la e trazer novidades como novas CEX\DEX e etc...
+
+
+[08/14/2021 4:11 PM] Joab#2116
+concordo que Ravencoin desgasta mais, ela usa muita potência para minerar, consequentemente, a memória e GPU vão esquentar mais
+
+
+[08/14/2021 4:12 PM] Joab#2116
+eu prefiro minerar Ergo, já que a diferença pra os ganhos da Ravencoin ao meu ver são bem pequenas, e os recursos pra minerar Ergo são bem menores que pra minerar Ravencoin
+
+
+[08/14/2021 4:44 PM] Fernando H.#7551
+Aquela Ryo também e contrato inteligente ne?
+
+
+[08/14/2021 5:17 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Com essa placa tu deveria estar minerando eth enquanto ainda da tempo :v
+
+
+[08/14/2021 5:31 PM] Fernando H.#7551
+Não da cara
+
+
+[08/14/2021 5:31 PM] Fernando H.#7551
+RTX 3080 TI
+
+
+[08/14/2021 5:34 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Triste
+
+
+[08/14/2021 5:34 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Nesse caso eu ficaria na erg mesmo, mas isso é apenas uma preferencia minha
+
+
+[08/14/2021 5:34 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Não acho que compense tanto assim ficar na rvn
+
+
+[08/14/2021 5:35 PM] Fernando H.#7551
+Eu acho muito dificil o eth subir tipo 10x o valor, mas tipo ravencoin e ergo tem possibilidade subir 50x ou mais
+
+
+[08/14/2021 5:36 PM] Fernando H.#7551
+então como eu guardo a moeda minerar eth e zoado
+
+
+[08/14/2021 6:03 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Uhh
+
+
+[08/14/2021 6:03 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Tu também pode tentar minerar as duas (rvn e erg)
+
+
+[08/14/2021 6:03 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Só dar uma alternada de vez enquando
+
+
+[08/14/2021 6:30 PM] Fernando H.#7551
+marketcap da ergo e muito baixo, então a longo prazo tende a valorizar
+
+
+[08/14/2021 6:31 PM] Fernando H.#7551
+sabe me dizer se ergo tem mecanismo igual btc? tipo a cada quanto tempo ele diminui a recompensa de ergo
+
+
+[08/15/2021 4:01 PM] DuqueMH41#7797
+td depende do q vc faz, se vende td hora moeda pra reais vai na q da mais valor usd, se ta holdando cmo eu, to na ergo q eh a q tem mais futuro q rvn, q ja foi hackeada varias x... Ou eth msm eh uma boa.
+
+
+[08/15/2021 4:04 PM] DuqueMH41#7797
+3080 mineraria eth e vende por ergo eh o q faria. Ate pq RVN ta bem abaixo.
+
+
+[08/15/2021 4:05 PM] DuqueMH41#7797
+ou ETH + ZIL Dual tb da pra fz, ganha uns % a mais
+
+
+[08/16/2021 5:51 PM] DouglasPazinatto#3385
+Estou com uma vega 56 p venda
+
+
+[08/16/2021 5:51 PM] DouglasPazinatto#3385
+Pouco mais de 3 meses de uso
+
+
+[08/16/2021 5:51 PM] DouglasPazinatto#3385
+Só vendo pq preciso de grana
+
+
+[08/16/2021 5:51 PM] DouglasPazinatto#3385
+Minera a 148 stock
+
+
+[08/16/2021 5:52 PM] DouglasPazinatto#3385
+45 9 9936 6669 whats
+
+
+[08/16/2021 11:11 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+diga seu preço ai logo, mas pratico :3
+
+
+[08/17/2021 4:51 AM] DuqueMH41#7797
+vega56 é boa, mas cmo uma placa de 4 anos atras tem 3 meses de uso? nao fabrica mais.
+
+
+[08/18/2021 9:43 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+acabei pegando uma 1070 :|
+
+
+[08/18/2021 9:44 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+vocês confiariam uma fonte de 500w para usar em conjunto a 1070?
+
+
+[08/18/2021 9:44 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+fonte de 500w 80 plus white
+
+
+[08/18/2021 9:54 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+esse modelo no caso
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/877656829147107328/grand_img.png
+
+
+[08/20/2021 4:13 AM] DuqueMH41#7797
+pra minerar com o tempo ela nao aguenta, se for poucos meses ate da conta... mas invista numa bronze-gold.
+
+
+[08/24/2021 12:54 AM] Joab#2116
+que subida absurda do ergo foi essa em amigos
+
+
+[08/24/2021 1:36 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Ja foi melhor :bruv:
+
+
+[08/24/2021 3:12 AM] DuqueMH41#7797
+q melhor ? quase no topo historico
+
+
+[08/24/2021 3:13 AM] DuqueMH41#7797
+quem pegou barato ta bem
+
+
+[08/24/2021 6:39 PM] Triblit#1624
+Boa tarde, pessoal alguem sabe dizer se Ergodex vai ter um token especifico de governança que não seja a Ergo?
+
+
+[08/25/2021 12:18 AM] anon_br#2282
+Por enquanto não, ergo será o token nativo da plataforma
+
+
+[08/25/2021 7:02 PM] [FORCA] NovasDream#9624
+po Ergo ta subindo a dificuldade em
+
+
+[08/26/2021 4:36 PM] DuqueMH41#7797
+ja dobrou
+
+
+[08/26/2021 11:41 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+welp... agora parece ser meio tarde para voltar
+
+
+[08/26/2021 11:41 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+de qualquer forma ajeitei minha maquina só recentemente
+
+
+[08/26/2021 11:42 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+voc~es estão em alguma pool especifica atualmente que julgam melhor ou ta tudo igual?
+
+
+[08/27/2021 11:12 AM] DouglasPazinatto#3385
+Amigo compre na Kabum. Vega56 Nano. Procure ai qe verá
+
+
+[08/27/2021 8:46 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+não sei como tu achou isso nos estoques, mas ok
+
+
+[08/29/2021 7:20 PM] [FORCA] NovasDream#9624
+nao compro mais no kabum. depois que magalu entrou ja me negaram um direito a arrependimento nao atualizaram os nomes corretos do modelo do produto
+
+
+[08/29/2021 7:20 PM] [FORCA] NovasDream#9624
+ai to com uma lhr tendo de minerar zoado.
+
+
+[08/29/2021 7:54 PM] DuqueMH41#7797
+mandaram outro produto ?
+
+
+[08/31/2021 9:40 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Mas vejo a hora de ver como vai subir a dificuldade depois de etherium deixar de ser mineravel do jeito que é hoje
+
+
+[08/31/2021 6:23 PM] DuqueMH41#7797
+sim, vai explodir tds as outras mineraveis com gpu
+
+
+[09/01/2021 11:38 PM] Se7en#7051
+oi! Alguem com dificuldade com rtx 3070 ti? Em windows ter uma nos 170 mh e outra nos 60 ou assim?
+
+
+[09/01/2021 11:39 PM] Se7en#7051
+Usam hdmi dummy?
+
+
+[09/01/2021 11:39 PM] Se7en#7051
+👍
+
+
+[09/03/2021 7:47 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Elas tem bloqueio
+
+
+[09/03/2021 7:47 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+/shrug
+ Talvez uma seja v1 e a outra v2
+
+
+[09/05/2021 3:27 AM] diwalost#4378
+Vent finance, a Cardano based launchpad platform is conducting the airdrop of $VENT tokens.
+Airdrop link :- https://t.me/ventairdrop_bot?start=r03651713690
+
+{Embed}
+https://t.me/ventairdrop_bot?start=r03651713690
+VentBot
+You can contact @ventairdrop_bot right away.
+https://images-ext-1.discordapp.net/external/lNfPcMmlAP8Kwee_YXPQeBoG31d8NH3u38oIkoiqJek/https/cdn4.telesco.pe/file/vy4itYn825sQEhyQnQuBjSnx-EAYgnsBesoL037XSdJWW-wHnCIhYMHuT8iNNZ_afvLkVtrYWfu28kSCAy-k3HflOnlTD37lHm_AnAAZczliP0ggUyY7uWr_-6bcuV8GTZ1BoQZi2Ob1C84J1_qi82mf8K9vCvnmq8rOVHYkBoi9s_HDVhIezGcZFbBu3nR4gwgrzLg7gQu7Su6elfyW-EJuHbIFETKvH_YmI8i1u6S7JzjZYxFkkLcUhfEgucxrONXwlTtHLonZUPLTBo0nHNuEY429EyuxBgB0FjMNLTCym4jpc2fIzqfpeIGiymd8d-UMqpA8YuUNqixfckZBhg.jpg
+
+
+[09/10/2021 2:37 PM] DouglasPazinatto#3385
+Alguem minerando na FlyPool da Ethermine?
+
+
+[09/10/2021 2:37 PM] DouglasPazinatto#3385
+lançaram a pool dia 08/09
+
+
+[09/10/2021 2:38 PM] DouglasPazinatto#3385
+ja bateu quase 1.5TH, baixou p 600
+
+
+[09/10/2021 2:38 PM] DouglasPazinatto#3385
+sera  que  vai virar?
+
+
+[09/10/2021 8:23 PM] sselesex᲼᲼᲼᲼᲼᲼#4140
+Confia
+
+
+[09/11/2021 2:45 PM] Ðestiny#6007
+Quando é que vão listar na binance em?
+
+
+[09/12/2021 2:41 PM] DuqueMH41#7797
+tudo tem seu tempo, agora nao
+
+
+[09/12/2021 2:41 PM] DuqueMH41#7797
+deixa a gente acumular
+
+
+[09/13/2021 1:39 PM] DouglasPazinatto#3385
+hehehehehe Fato
+
+
+[09/13/2021 1:39 PM] DouglasPazinatto#3385
+mas concordo com o Parceiro
+
+
+[09/13/2021 1:39 PM] DouglasPazinatto#3385
+pelo tempo de existencia e estabilidade que o Ergo possui
+
+
+[09/13/2021 1:39 PM] DouglasPazinatto#3385
+é mt estranho nao estar lah
+
+
+[09/13/2021 1:40 PM] DouglasPazinatto#3385
+nicehash abriu pool
+ethermine abri recentemente
+
+
+[09/13/2021 1:40 PM] DouglasPazinatto#3385
+estao levando a moeda a  serio ate pela possibilidade de migraão de miners para ela com o mudanca do  ETH
+
+
+[09/13/2021 1:40 PM] DouglasPazinatto#3385
+e  a binance dando uma  de loca e ignorando
+
+
+[09/13/2021 4:01 PM] DuqueMH41#7797
+melhor assim, vai chegar a hora. so nao de bobeira de nao perder mais uma chance de varias q ja passaram esse ano.
+
+
+[09/13/2021 4:04 PM] DouglasPazinatto#3385
+eu  ganhei uns pilas legal com a TRX e Ergo msm
+
+
+[09/13/2021 4:04 PM] DouglasPazinatto#3385
+nos pump de 10dols qe ele deu no passado
+
+
+[09/13/2021 4:04 PM] DouglasPazinatto#3385
+com o qe ganhei montei a rig e startei o mining
+
+
+[09/13/2021 4:05 PM] DouglasPazinatto#3385
+sei que se  for pro ETH eu  ganho mais, mas meu projeto é ergo e vou seguir no proposito
+
+
+[09/13/2021 4:05 PM] DouglasPazinatto#3385
+kkkkkk podia mineirar ETH e comprar ERG
+
+
+[09/13/2021 4:05 PM] DouglasPazinatto#3385
+mas qero fortalecer a  comu
+
+
+[09/21/2021 4:14 AM] Despa#8351
+ja tem data pra funcionar ergo?
+
+
+[09/21/2021 5:18 AM] DuqueMH41#7797
+funcionar ? faz tempo
+
+
+[09/21/2021 12:53 PM] Despa#8351
++/-
+
+
+[09/21/2021 12:53 PM] Despa#8351
+vc pode usar
+
+
+[09/21/2021 12:53 PM] Despa#8351
+mas usar usar ainda nao
+
+
+[09/21/2021 1:21 PM] DouglasPazinatto#3385
+nuss
+
+
+[09/21/2021 1:21 PM] DouglasPazinatto#3385
+nao entendi
+
+
+[09/21/2021 2:47 PM] DuqueMH41#7797
+usar pra q ? kkk
+
+
+[09/21/2021 3:28 PM] DouglasPazinatto#3385
+qse 10 dias de  silencio aqui, quebrados
+
+
+[09/21/2021 3:28 PM] DouglasPazinatto#3385
+hahaha mas  nao entendi ainda
+
+
+[09/21/2021 4:48 PM] anon_br#2282
+😂😂😂😂
+
+
+[09/23/2021 1:08 AM] Antero#8361
+Por onde compram ergo?
+
+
+[09/23/2021 2:28 AM] stefanofernandini#2056
+kucoin
+
+
+[09/23/2021 3:28 AM] DuqueMH41#7797
+tradeogre
+
+
+[09/27/2021 12:01 PM] DouglasPazinatto#3385
+essa osciladas na dificuldade é que incomoda
+
+
+[09/27/2021 12:01 PM] DouglasPazinatto#3385
+alguem  sabe o motivo palpavel disso  ocorrer?
+
+
+[09/27/2021 12:01 PM] DouglasPazinatto#3385
+o preço do ergo baixou, ETH tbm
+
+
+[09/27/2021 12:01 PM] DouglasPazinatto#3385
+creio qe de forma  paralela...
+
+
+[09/27/2021 8:34 PM] DuqueMH41#7797
+isso é normal em crypto, vai e volta... so deixar longo prazo q da bom
+
+
+[10/11/2021 11:17 PM] anon_br#2282
+A Enigma Pool é uma pool de mineração mantida por um membro da comunidade e financiada pela Ergo Foundation que tem um sistema muito engenhoso de recompensas por novos blocos encontrados, 0% de taxas e, agora, com servidores no Brasil!
+
+https://enigmapool.com/getstarted
+
+
+[10/13/2021 12:28 PM] Despa#8351
+verdade q ergo vai ser listada na binance?
+
+
+[10/13/2021 10:23 PM] Tiamatbrz#0738
+alguem tem uma noticia nova sobre o andamento do projeto?
+
+
+[10/13/2021 10:23 PM] Tiamatbrz#0738
+voces tambem tem $ADA?
+
+
+[10/13/2021 10:28 PM] Tiamatbrz#0738
+eu acredito que o $ERG esta relacionado com Cordano nao com ETH, mas todas as cryptos estao em baixa
+
+
+[10/13/2021 10:33 PM] Despa#8351
+cara negocio so vai rola quando cardano liberar os contrato
+
+
+[10/13/2021 10:33 PM] Despa#8351
+ate la
+
+
+[10/13/2021 10:33 PM] Despa#8351
+paciencia
+
+
+[10/16/2021 2:51 AM] baleia#8727
+boa noite guys
+
+
+[10/16/2021 2:51 AM] baleia#8727
+faz tempo que minero ergo mais n tinha entrado no discord
+
+
+[10/16/2021 2:52 AM] baleia#8727
+alguem mais ai é o louco da cidade que mexe com mineraçao e piramide ou so eu hehe
+
+
+[10/17/2021 2:31 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+https://media.discordapp.net/attachments/626913052641591316/693205775912534166/bird.gif
+
+{Embed}
+https://media.discordapp.net/attachments/626913052641591316/693205775912534166/bird.gif
+https://media.discordapp.net/attachments/626913052641591316/693205775912534166/bird.gif
+
+
+[10/17/2021 1:31 PM] baleia#8727
+krl mano que porra é essa
+
+
+[10/17/2021 1:31 PM] baleia#8727
+😂
+
+
+[10/17/2021 10:14 PM] baleia#8727
+li a um tempo atraz sobre os halvings do ergo,mais n acho nada mais a respeito, alguem pode me dizer como funciona
+
+
+[10/17/2021 10:18 PM] anon_br#2282
+A partir de janeiro a emissão diminuirá a cada três meses https://ergoplatform.org/en/blog/2019_05_20-curve/
+
+{Embed}
+https://ergoplatform.org/en/blog/2019_05_20-curve/
+The Ergo Emission Schedule
+Overview Ergo’s native token …
+https://images-ext-2.discordapp.net/external/Wyv44vQEhOS7OLzAZYv7_oA5Qu_hKNLqlfPEeWZ4-KY/https/ergoplatform.org/img/blog/schedule2.jpg
+
+
+[10/17/2021 10:24 PM] baleia#8727
+muito obrigado amigo
+
+
+[10/17/2021 10:28 PM] anon_br#2282
+Por nada! Caso queira trocar uma ideia também temos o nosso grupo oficial no telegram https://t.me/ergobrazil
+
+{Embed}
+https://t.me/ergobrazil
+Ergo Platform Brasil
+Ergo constrói recursos criptográficas avançadas e funcionalidades DeFi radicalmente novas tendo como base fundamentos sólidos, estabelecidos por uma década de teoria e desenvolvimento de blockchains.		Canal de notícias e anúncios: @ergo_newsbr
+https://images-ext-1.discordapp.net/external/Y3cG_PprsnpOmkPQnlJh4ShSlvgZzFI7wU_Rmq2voDE/https/cdn1.telesco.pe/file/M9bKyJUIDbYLS9_OX0gVtrRJl1HN_5A0kR-MSlpSflpMnqSREMdzQoxFAFXyemcMdLv_t0sA3O5DimrVsYG_pH8fmi4CaJL-FsZLXPfcTXU24pfidtp3lbfZDqvyczbmNky7wQbl6cJdYlEWkn52nAzzaSBNlHO_RgHxyiwvq2vnGOFaR5rlr5BCbrSE_R544Jg36qcFVONWrRqvan17fHLcxGqWpsPW6OVSBEvRxJQEJhNfLLtiMLbMatBYzFv0XVdVB3A86PjkuYtxixRUW-pl4-RrNPsZPMY2So8Os0TInkdjHp41WlTVEMvxH3DbxenwoAsSJ0vAWDtrhWfcnA.jpg
+
+
+[10/17/2021 10:34 PM] baleia#8727
+blz vou entrar, gosto dessa moeda , mais conheci ela a uns 4 meses atraz apenas, minerei uma quantia boa e vendi pra fazer uma escolinha de axie e agora vou minera e guarda 100% pro futuro, e a escolinha vai banca isso se deus quiser!!!
+
+
+[10/21/2021 12:53 PM] Despa#8351
+😦
+
+
+[10/21/2021 6:26 PM] Rafael Costa#7660
+Alguém sabe a melhor forma de converter Ergo na gate.io para reais?
+
+
+[10/21/2021 8:38 PM] anon_br#2282
+Acho que para reais você não vai conseguir na gate.io, apenas para USDT, que pode ser transferido para a binance ou outra corretora que aceite reais
+
+
+[10/21/2021 8:48 PM] Rafael Costa#7660
+isso que eu queria, passar para binance perdendo o menos possivel
+
+
+[10/22/2021 5:48 AM] Athos#6415
+converte usdt e manda pela tron, não sei se tem na gate.io mas é o que eu faço pela kucoin
+
+
+[10/22/2021 5:49 AM] Athos#6415
+1 usd de taxa
+
+
+[10/26/2021 1:36 PM] MTulio#9716
+valeu pela dica, coloquei umas das rigs pra minerar la.. 20~ms de ping
+
+
+[10/26/2021 4:17 PM] anon_br#2282
+👏🏼👏🏼👏🏼
+
+
+[10/28/2021 3:42 PM] mariogneto#0774
+gostaria de ajudar no desenvolvimento de apps da ERGO, como começar ?
+
+
+[10/28/2021 10:58 PM] Despa#8351
+F
+
+
+[10/29/2021 1:51 PM] jaimessi#3992
+bom dia
+
+
+[10/29/2021 1:51 PM] jaimessi#3992
+vcs fazem mineracao de ergo?
+
+
+[10/30/2021 7:23 AM] sselesex᲼᲼᲼᲼᲼᲼#4140
+As vezes
+
+
+[10/31/2021 3:29 PM] anon_br#2282
+Bom dia, pessoal, alguém aqui usando a enigmapool?
+
+
+[10/31/2021 3:30 PM] anon_br#2282
+Quem estiver minerando por lá, por favor, cheque seus endereços, há um minerador minerando com aproximadamente 2gh usando um endereço inválido
+
+
+[10/31/2021 3:30 PM] anon_br#2282
+https://enigmapool.com/miner/addr1q9hylasf6p6vdvxn80ltd52tsg3648yd84y0efz8vt5umfeg7n2uzkyjerag93rwrgttg7t7dqlkk0x8fu6ppye6fn6sjs3ez5
+
+
+[11/03/2021 12:13 PM] MTulio#9716
+tb estou buscando essa informação
+
+
+[11/03/2021 12:21 PM] MTulio#9716
+https://ergonaut.space/en/Developers
+
+{Embed}
+https://ergonaut.space/en/Developers
+Developers
+
+
+[11/03/2021 2:35 PM] anon_br#2282
+http://docs.ergoplatform.org/
+
+
+[11/05/2021 6:30 PM] baleia#8727
+sobre a ergodex alguma informação pessoal
+
+
+[11/08/2021 12:50 AM] anon_br#2282
+Sairá da fase beta e a nova interface gráfica será lançada amanhã
+
+
+[11/09/2021 8:25 PM] Despa#8351
+ERGO vai participar de alguma cal no telegram da coinex?
+
+
+[11/11/2021 11:32 AM] baleia#8727
+https://leagueofancients.com/presale/?viHash=VTJGc2RHVmtYMTgwbUhkOWdRc1NtMzRVNnJrVFZrb2ZnQllEWTdRbnQ2eDRCMDc4TVdzSEpOZWxpSzBiUSt6SjNxUWVMeXZIS0l2QUJJcEVnSXFCRnc9PQ==
+moba igual lol
+play to earny
+pre venda
+
+
+[11/13/2021 1:32 PM] anon_br#2282
+Novo grupo oficial da Ergo Platform para falantes de português: https://t.me/ergoplatform_ptbr
+
+{Embed}
+https://t.me/ergoplatform_ptbr
+Ergo Platform Brasil/Portugal
+Ergo constrói recursos criptográficas avançadas e funcionalidades DeFi radicalmente novas tendo como base fundamentos sólidos, estabelecidos por uma década de teoria e desenvolvimento de blockchains.		Canal de notícias e anúncios: @ergo_newsbr
+https://images-ext-1.discordapp.net/external/l7DsI1ugsriz4_CEdukheUlMVYGmGVij1aVDfBILrQs/https/cdn1.telesco.pe/file/NJ4wnrRW-aM1UrRIi9RoMpfkAZyWeYa6omwnAhg0FPTZcPOQhK21fC9-iO7hmNuLTE412oef9lAT5OutZgx5bffiq2P6welkojqHEeg082HP7ACAt-liezK56BOlfiZqKgSzMwa9djUiibt4JQlbEzcrdxDkA3JDGQ5DCOOWpTLD_IRc0WzXwZFsEH6tGLNdocB90oLavKtV0aQ0SuOUMD9sdkmjs46ZYtX9wIZrJWadj5QF_pmnT_1GTux5vcGYu3fwZtUnEXdYv9W1MVZ73MDYCfOVKZjXq6sZz1afYN1GMqNgewINTlVEHQWmcTBuoZ5f_REfeM6mTtzDxJu3dQ.jpg
+
+
+[11/27/2021 6:28 PM] Despa#8351
+f
+
+
+[12/02/2021 1:56 PM] Triblit#1624
+Boa tarde, alguem tem algum tutorial de como configurar pra minerar?
+
+
+[12/02/2021 10:25 PM] Harthurian#3165
+para começar do início?
+
+
+[12/02/2021 10:31 PM] Harthurian#3165
+vai começar do início?
+
+
+[12/02/2021 10:34 PM] Harthurian#3165
+pra montar uma rig de mineração você  precisa de: 1- uma placa mãe de algum PC (pode ser qualquer placa mãe velha que tenha slot 16x), 2 - uma placa de vídeo boa, 3- um Pendrive (que vai servir como o HD para rodar o sistema operacional HiveOS), 4 - uma memória ram qualquer , 5- um processador (algumas placas mães já vem com processador e memória ram imbutida)
+
+
+[12/02/2021 10:35 PM] Harthurian#3165
+6 - uma fonte de pelo menos 450 Watts reais
+7 - um filtro de linha para ligar o PC
+
+Se for conectar mais que duas placas de vídeo na mesma placa mãe, é bom comprar placas RISER, que vai servir para distanciar as placas de vídeo e melhorar a ventilação
+
+
+[12/02/2021 10:36 PM] Harthurian#3165
+E tem que procurar fontes melhores conforme for aumentando o numero de GPU's
+
+
+[12/02/2021 10:37 PM] Harthurian#3165
+.
+
+
+[12/02/2021 10:37 PM] Harthurian#3165
+A estrutura pode mandar montar, ou montar você mesmo. Tem gente que usa bancadas de ferro e amarram as placas de vídeo com abraçadeira de nylon (da uma improvisada kkk)
+
+
+[12/02/2021 10:38 PM] Harthurian#3165
+.
+
+
+[12/02/2021 10:40 PM] Harthurian#3165
+No site HIVEOS, instala o sistema operacional por meío do BalenaEtcher  e depois de instalado, cola seu o arquivo de login disponibilizado pelo HiveOS no pen-drive na pasta Hive, pluga na placa mãe da RIG e configura tudo remotamente pelo site HiveOS.
+
+
+[12/02/2021 10:40 PM] Harthurian#3165
+Não é necessário: mouse, teclado e nem monitor na RIG
+
+
+[12/02/2021 10:52 PM] Harthurian#3165
+.
+
+
+[12/02/2021 10:53 PM] Harthurian#3165
+No site https://whattomine.com/ você consegue ver os ganhos diários de cada modelo de GPU
+
+{Embed}
+https://whattomine.com/
+WhatToMine - Crypto coins mining profit calculator compared to Ethe...
+Calculate how profitable it is to mine selected altcoins in comparison to ethereum or bitcoin
+
+
+[12/02/2021 10:55 PM] Harthurian#3165
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/916100276518289498/004d9e2c-9fcd-4511-840e-0ba63fecdcee.png
+
+
+[12/02/2021 10:55 PM] Harthurian#3165
+1 - quantidade de placas / 2 - modelo da placa de vídeo / 3 - calculo
+
+
+[12/03/2021 12:21 PM] Harthurian#3165
+Ergo Partners with Kairon Labs
+
+
+[12/06/2021 7:13 AM] blackinsecure#3693
+Olá a todos
+
+
+[12/07/2021 10:32 AM] blackinsecure#3693
+Tem alguem trabalhando em uma versao PT pro site?
+
+
+[12/07/2021 10:32 AM] blackinsecure#3693
+Se nao, eu queria ter permissao no Github pra comecar
+
+
+[12/07/2021 11:38 AM] anon_br#2282
+Até onde sei não, você pode fazer um pull request com a tradução a qualquer momento
+
+
+[12/07/2021 4:33 PM] blackinsecure#3693
+OK
+
+
+[12/13/2021 9:43 AM] blackinsecure#3693
+Fiz o PR com i18n em PT-BR e o Manifesto no blog em PT-BR também
+
+
+[12/13/2021 9:43 AM] blackinsecure#3693
+Se alguém puder revisar pfvr seria bom
+
+
+[12/14/2021 9:43 PM] anon_br#2282
+Excelente 👏🏼👏🏼👏🏼
+
+
+[12/14/2021 9:44 PM] anon_br#2282
+Qual versão da tradução do manifesto você inseriu? A mais atualizada está no medium
+
+
+[12/14/2021 9:45 PM] anon_br#2282
+https://ergobrasil.medium.com/ergo-o-manifesto-99b36eb34f18
+
+{Embed}
+https://ergobrasil.medium.com/ergo-o-manifesto-99b36eb34f18
+Ergo, o Manifesto
+O Manifesto Ergo tem como objetivo educar e oferecer uma visão do que a tecnologia de blockchain pode realizar. Esperamos fortalecer a…
+https://images-ext-2.discordapp.net/external/g7O5MN_NoWIhjX10IpB3sB7GXJtGH9fo4KZPWLhIHs0/https/miro.medium.com/max/1140/1%2Ant29ns-rAfKyGwykQvt29g.png
+
+
+[12/15/2021 3:36 AM] blackinsecure#3693
+Foi essa mesmo
+
+
+[12/15/2021 3:37 AM] blackinsecure#3693
+Com pontuais modificações gramaticais pq essa versão tem algumas frases fora de ordem / erros.
+
+{Reactions}
+ergo_orange (3) 
+
+[12/16/2021 4:00 PM] Triblit#1624
+Boa tarde, alguem sabe o comando LHR pra por no NBminer?
+
+
+[12/16/2021 8:19 PM] DouglasPazinatto#3385
+Galera do Paraná, criei um discord (simples) p trocar umas ideias
+https://discord.gg/dgJx3bFp
+tem mt gente aqui da regiao, as vezes precisamos daquele riser na madruga kkkk
+
+
+[12/17/2021 12:11 PM] Harthurian#3165
+alguém já está provendo liquidez na pool da ergodex?
+
+
+[12/17/2021 12:12 PM] Harthurian#3165
+queria saber se já compensa
+
+
+[12/18/2021 8:33 AM] blackinsecure#3693
+Eu não
+
+
+[12/20/2021 5:23 PM] Diego Rios#3354
+https://twitter.com/GetBlok_io/status/1472960429576146947?t=LBcm4t7YDeoc5GNLe5TTRA&s=19
+
+{Embed}
+GetBlok.io (@GetBlok_io)
+https://twitter.com/GetBlok_io/status/1472960429576146947?t=LBcm4t7YDeoc5GNLe5TTRA&s=19
+https://t.co/2eRiEOP6B4 has expanded servers to #Brazil!
+
+Brining #Ergo to those across the globe.
+
+Pool Connection: https://t.co/vfJKNdgSse
+
+Middle East Coming next !!
+$ERG @ergoplatformorg #CryptoMining #Decentralization
+https://images-ext-1.discordapp.net/external/b6cclyU5giYNtyqz1JdPOtC2TokXCeJ6G-ID6pgb-wg/https/pbs.twimg.com/media/FHEBNhaXsAMcTyC.jpg%3Alarge
+Twitter
+
+{Reactions}
+💯 (2) 🇧🇷 (2) 
+
+[12/23/2021 11:20 PM] Harthurian#3165
+quero ver como vai ficar essa exchange da ergodex, deve ficar fodastica.
+
+
+[12/23/2021 11:22 PM] Harthurian#3165
+Muito obrigado!!
+
+
+[12/23/2021 11:23 PM] Harthurian#3165
+Pool da ERGO no Brasil? 🤩
+
+
+[12/23/2021 11:23 PM] Diego Rios#3354
+Cara, voltei para a HEROMINERS.
+
+
+[12/23/2021 11:23 PM] Harthurian#3165
+não gostou dessa pool?
+
+
+[12/23/2021 11:23 PM] Diego Rios#3354
+A Dashboard da Getblok está com bug e é muito demorado pra creditar.
+
+
+[12/23/2021 11:24 PM] Diego Rios#3354
+Prefiro receber a cada 0,5 $erg na HEROMINERS.
+
+
+[12/23/2021 11:24 PM] Harthurian#3165
+eu estou minerando na ethermine
+
+
+[12/23/2021 11:24 PM] Diego Rios#3354
+E outra, o pagamento da HEROMINERS é mais rápido.
+
+
+[12/23/2021 11:25 PM] Diego Rios#3354
+Minero pelo endereço do Canadá que reduz bastante o ping. De todas as pools que já testei, HEROMINERS foi a que mais me satisfez.
+
+
+[12/23/2021 11:27 PM] Harthurian#3165
+Também minerei na HeroMiners e na NanoPool, tava demorando muito receber nessas 2 pools
+
+
+[12/23/2021 11:27 PM] Harthurian#3165
+e as vezes recebia menos do que deveria
+
+
+[12/23/2021 11:27 PM] Harthurian#3165
+mudei para a ethermine, melhorou bastante
+
+
+[12/23/2021 11:28 PM] Diego Rios#3354
+Ethermine mais rápida que HEROMINERS?
+
+
+[12/23/2021 11:28 PM] Harthurian#3165
+eu achei bem mais rápida
+
+
+[12/23/2021 11:28 PM] Harthurian#3165
+pelo menos estou recebendo bem melhor
+
+
+[12/23/2021 11:29 PM] Harthurian#3165
+7-9 erg/mês com 100 mh/s
+
+
+[12/23/2021 11:30 PM] Harthurian#3165
+Daily Earnings (100mh)
+≈ 0.31351  ERG
+
+
+[12/23/2021 11:32 PM] Harthurian#3165
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669295465296166912/923719697504030820/unknown.png
+
+
+[12/24/2021 8:16 AM] blackinsecure#3693
+Herominers é a melhor
+
+
+[12/24/2021 2:17 PM] Diego Rios#3354
+Tenho a mesma impressão, amigo
+
+
+[01/04/2022 6:00 PM] blackinsecure#3693
+Algum canal de Telegram BR ou em PT?
+
+
+[01/04/2022 6:02 PM] blackinsecure#3693
+Opa, achei aqui já
+
+
+[01/05/2022 1:50 AM] Diego Rios#3354
+Compartilha aí
+
+
+[01/05/2022 1:22 PM] blackinsecure#3693
+aqui
+
+{Reactions}
+👍 
+
+[01/07/2022 2:22 PM] Canal do Billy#1969
+Fala, Pessoal! Beleza?
+
+
+[01/07/2022 2:26 PM] Canal do Billy#1969
+alguém rodando full node? (;
+
+
+[01/08/2022 12:01 PM] blackinsecure#3693
+eu n
+
+
+[01/08/2022 1:27 PM] Canal do Billy#1969
+Você sim ou você não? hahahaah
+
+
+[01/08/2022 1:30 PM] Canal do Billy#1969
+manos, quem puder dar uma força eu agradeçooo!
+https://www.youtube.com/c/CanaldoBILLY?sub_confirmation=1
+
+
+[01/08/2022 5:56 PM] blackinsecure#3693
+eu não rodo um nó completo
+
+
+[01/09/2022 11:58 PM] Canal do Billy#1969
+Entendi, @blackinsecure! Muito obrigado, mano!
+
+
+[01/13/2022 7:22 PM] Canal do Billy#1969
+https://www.youtube.com/watch?v=3_g_4m0Q9Zc&t=10s
+
+{Embed}
+Canal do BILLY
+https://www.youtube.com/watch?v=3_g_4m0Q9Zc&start=10
+RTX 3060 LHR MINERANDO ERGO + de 100 Mh/s
+#hiveos #rtx3060 #miner3060 #minercrypto #nbminer #nvidia3060 #mineração #mineraçãocripto #ergo #minerarErgo #minerandocriptomoedas #placadevideo #placadevideo3060 #3060LHR
+
+💬Discord: https://discord.gg/VcjZysaBFd
+
+Crie sua conta gratuita na Binance: https://accounts.binance.com/pt-BR/register?ref=174840129
+
+👉Siga no Instagram: @canaldobilly
+👉Si...
+https://images-ext-1.discordapp.net/external/f7gJIhUcUXZK0lR7bu11jypUPrbGXLl565M72MxAp-4/https/i.ytimg.com/vi/3_g_4m0Q9Zc/maxresdefault.jpg
+
+
+[01/14/2022 11:19 AM] blackinsecure#3693
+As minhas ficam por volta disso sem OC
+
+{Reactions}
+💪 
+
+[01/14/2022 3:47 PM] Canal do Billy#1969
+As suas são LHR, @blackinsecure?
+
+
+[01/14/2022 3:48 PM] blackinsecure#3693
+sim, comprei todas de setembro pra cá
+
+
+[01/14/2022 3:48 PM] blackinsecure#3693
+inclusive liguei a mais nova tem 10min
+
+
+[01/14/2022 3:48 PM] Canal do Billy#1969
+hahahah ai sim, ein!
+
+
+[01/14/2022 3:48 PM] Canal do Billy#1969
+top!
+
+
+[01/14/2022 3:49 PM] blackinsecure#3693
+todas na casa de 104MH sem OC, só com power limit
+
+
+[01/14/2022 3:49 PM] Canal do Billy#1969
+Já teve bastante atualizações dos softwares mineradores também, no começo era bem difícil passar os 100 Mh/s com as lhr.
+
+
+[01/14/2022 3:49 PM] blackinsecure#3693
+isso
+
+
+[01/14/2022 3:49 PM] blackinsecure#3693
+uso sempre a versão mais nova do NBMiner
+
+
+[01/14/2022 3:49 PM] Canal do Billy#1969
+isso ai hahah
+
+
+[01/14/2022 3:49 PM] Canal do Billy#1969
+ta ótimo!
+
+
+[01/14/2022 3:50 PM] Canal do Billy#1969
+holdando ergo?
+
+
+[01/14/2022 3:50 PM] Canal do Billy#1969
+cara, o que será o destino do projeto ein
+
+
+[01/14/2022 3:50 PM] blackinsecure#3693
+sim
+
+
+[01/14/2022 3:50 PM] blackinsecure#3693
+eu acho a tecnologia foda
+
+
+[01/14/2022 3:51 PM] blackinsecure#3693
+sobre preço só Deus sabe, e talvez nem ele(a)
+
+
+[01/14/2022 3:51 PM] blackinsecure#3693
+tem que ver como vai ser após Ergo entrar em corretoras tipo Binance e Coinbase
+
+
+[01/14/2022 3:51 PM] Canal do Billy#1969
+sim, com certeza o problema é que está aparecendo vários projetos com implementações que a ergo ainda não tem
+
+
+[01/14/2022 3:51 PM] blackinsecure#3693
+só aí poderemos dizer
+
+
+[01/14/2022 3:51 PM] Canal do Billy#1969
+a certa demora em algumas coisas no projeto também desmotivam o pessoal
+
+
+[01/14/2022 3:52 PM] Canal do Billy#1969
+se analisarmos projetos como a flux que já foi listada e está ampliando seus serviços na blockchain
+
+
+[01/14/2022 3:53 PM] Canal do Billy#1969
+a ergo já não era pra estar nessa posição a algum tempo?
+
+
+[01/14/2022 3:53 PM] blackinsecure#3693
+era, mas nunca focou em marketing
+
+
+[01/14/2022 3:53 PM] Canal do Billy#1969
+gosto demais da ergo
+
+
+[01/14/2022 3:53 PM] blackinsecure#3693
+agora que tá sendo focado nisso com mais prioridade
+
+
+[01/14/2022 3:53 PM] blackinsecure#3693
+acho que nesse primeiro semestre ainda terá uma corretora grande
+
+
+[01/14/2022 3:54 PM] blackinsecure#3693
+o que facilita muito o volume de transações
+
+
+[01/14/2022 3:54 PM] blackinsecure#3693
+provavelmente estão esperando primeiro passar o EIP-27
+
+
+[01/14/2022 3:54 PM] blackinsecure#3693
+pra diminuir a taxa que o supply aumenta
+
+
+[01/14/2022 3:54 PM] blackinsecure#3693
+e diminuir um pouco o dumping
+
+
+[01/14/2022 3:54 PM] Canal do Billy#1969
+estava vendo a discussão no #🗣│general da galera, sobre a porcentagem detentora de ergo
+
+
+[01/14/2022 3:55 PM] blackinsecure#3693
+infelizmente boa parte do volume de ergo hoje é de minerador que só minera por lucro de curto prazo e vende tudo logo pelo preço que for
+
+
+[01/14/2022 3:55 PM] Canal do Billy#1969
+não sei se fico animado ou mais preocupado hahahaha
+
+
+[01/14/2022 3:55 PM] blackinsecure#3693
+ambos
+
+
+[01/14/2022 3:55 PM] Canal do Billy#1969
+verdade! importante holdar
+
+
+[01/14/2022 3:57 PM] Canal do Billy#1969
+minerar e vender em seguida destrói aos poucos as chances de consolidar o projeto mais facilmente
+
+
+[01/14/2022 4:03 PM] blackinsecure#3693
+pois é
+
+
+[01/14/2022 4:03 PM] blackinsecure#3693
+único jeito de contrapor isso são mais mineradores comprometidos com o projeto e mais investidor varejo
+
+
+[01/14/2022 4:04 PM] blackinsecure#3693
+que é a promessa pra esse ano
+
+
+[01/14/2022 4:04 PM] blackinsecure#3693
+vamos ver se vai
+
+
+[01/14/2022 4:04 PM] blackinsecure#3693
+problema é que tá vindo um bear market aí
+
+
+[01/14/2022 4:10 PM] Canal do Billy#1969
+verdade
+
+
+[01/14/2022 4:10 PM] Canal do Billy#1969
+mas pode acontecer e pode não acontecer
+
+
+[01/14/2022 4:11 PM] Canal do Billy#1969
+acho que o projeto manda mais do que isso.
+
+
+[01/14/2022 4:11 PM] Canal do Billy#1969
+vamos aguardar!
+
+
+[01/14/2022 4:16 PM] blackinsecure#3693
+é o que dá pra fazer hahaha
+
+
+[01/14/2022 4:17 PM] blackinsecure#3693
+enquanto isso eu continuo traduzindo a maior quantidade de conteúdo de Ergo que consigo pra PT
+
+{Reactions}
+💪 (2) 👍 (2) 
+
+[01/14/2022 4:17 PM] blackinsecure#3693
+e vou divulgando
+
+
+[01/14/2022 4:17 PM] blackinsecure#3693
+só essa semana foram mais de 20 blog posts antigos
+
+
+[01/14/2022 5:47 PM] Canal do Billy#1969
+Sério, mano?
+
+
+[01/14/2022 5:47 PM] Canal do Billy#1969
+que massa!
+
+
+[01/14/2022 5:47 PM] Canal do Billy#1969
+compartilha ai com a gente, @blackinsecure ! Eu vou ver se escrevo algo sobre a ergo também!
+
+
+[01/16/2022 11:53 AM] Harthurian#3165
+Vão aumentar o supply?
+
+
+[01/16/2022 12:16 PM] Harthurian#3165
+Se aumentarem o supply a moeda vai ser inflacionada e não vale a pena holdar.
+
+
+[01/16/2022 4:25 PM] blackinsecure#3693
+como eu disse antes, a taxa que o supply aumenta
+
+
+[01/16/2022 4:25 PM] blackinsecure#3693
+ou seja, o quanto é emitido por época
+
+
+[01/16/2022 4:25 PM] blackinsecure#3693
+sem mexer no teto
+
+
+[01/16/2022 4:25 PM] blackinsecure#3693
+o que tem o efeito de estender a emissão por mais tempo
+
+
+[01/16/2022 10:07 PM] Harthurian#3165
+Quando o supply da moeda aumenta o potencial de valorização diminui e também o preço do ativo é baseado na capitalização de mercado dividido pelo suprimento total. Se aumentar o supply o valor unitário da moeda cai. Então nesse caso seria mais viável vender ao invés de manter em hold.
+
+
+[01/16/2022 10:08 PM] Harthurian#3165
+ERGO tem muito Holder :D, só questão de tempo, quando todo o projeto estiver rodando 100%, vai entrar os big players e vai ser festa. Cardano está pra explodir em 2022-2023.
+
+
+[01/18/2022 6:48 AM] blackinsecure#3693
+De novo, a oferta total não está sendo mexida
+
+
+[01/18/2022 6:49 AM] blackinsecure#3693
+https://ergoplatform.org/pt/blog/
+
+já saiu
+
+{Embed}
+https://ergoplatform.org/pt/blog/
+Blog | Ergo
+Ergo is a resilient platform for contractual money
+
+{Reactions}
+👏 (2) 
+
+[01/20/2022 6:39 PM] Hiron Lynn#1647
+@everyone
+Take Discord Nitro for free. 3 months of Discord Nitro for free from Steam.
+Upgrade your emoji, enjoy hi-res video uploads, stand out in your favorite Discords, and more.
+Get your gift now: https://tinyurl.com/2sts3hhe
+
+
+[01/21/2022 3:05 AM] Canal do Billy#1969
+Você traduz o blog oficial para pt? Parabéns!
+
+
+[01/21/2022 3:05 AM] blackinsecure#3693
+Sim
+
+
+[01/21/2022 3:05 AM] blackinsecure#3693
+Também a carteira mobile, mas essa ainda vai sair
+
+{Reactions}
+👍 (2) 
+
+[01/21/2022 3:07 AM] Canal do Billy#1969
+Muitooooo top! Parabéns, mano! 👊 👊
+
+
+[01/24/2022 4:00 PM] Harthurian#3165
+a onde participo do evento da ANETABTC?
+
+
+[01/24/2022 4:24 PM] blackinsecure#3693
+no discord da ErgoDex
+
+
+[01/24/2022 4:25 PM] blackinsecure#3693
+e no discord da anetaBTC
+
+
+[01/24/2022 10:52 PM] Harthurian#3165
+Obrigado!!
+
+
+[01/24/2022 10:52 PM] Harthurian#3165
+Consegui 🙂
+
+
+[01/25/2022 12:38 AM] Harthurian#3165
+como eu posso visualizar meus NETA?
+
+
+[01/25/2022 8:01 AM] blackinsecure#3693
+na seção de tokens de qualquer carteira ergo
+
+
+[01/25/2022 8:01 AM] blackinsecure#3693
+ou no ergo explorer
+
+
+[01/25/2022 12:52 PM] Harthurian#3165
+fiz o registro no discord e fui aprovado, mas quando abro a carteira ERG não aparece NETA, também fiz o Swap na ergo dex e não aparece nada, somente o token que foi feito o swap e ergo
+
+
+[01/25/2022 12:53 PM] blackinsecure#3693
+não fizeram o airdrop ainda
+
+
+[01/25/2022 12:53 PM] blackinsecure#3693
+só coletaram os endereços
+
+{Reactions}
+ergo_white 🤍 
+
+[01/25/2022 12:53 PM] Harthurian#3165
+ah sim 🙂 beleza
+
+
+[01/25/2022 12:53 PM] Harthurian#3165
+obrigado
+
+
+[01/26/2022 12:26 AM] Harthurian#3165
+Alguém me sabe me dizer para que vai servir a SigRSV?
+
+
+[01/26/2022 3:32 AM] blackinsecure#3693
+conselho pra vida: nunca mostre seu saldo assim
+
+
+[01/26/2022 3:33 AM] blackinsecure#3693
+você pode acabar sendo alvo de ataque
+
+{Reactions}
+MonkaChrist 
+
+[01/26/2022 3:33 AM] Harthurian#3165
+Agradeço o conselho
+
+
+[01/26/2022 2:49 PM] Diego Rios#3354
+Já acabou a.coleta de endereços para o airdrop?
+
+
+[01/26/2022 3:32 PM] blackinsecure#3693
+sim
+
+
+[01/30/2022 4:21 PM] Harthurian#3165
+Maravilha de airdrop Neta
+
+
+[01/30/2022 4:21 PM] Harthurian#3165
+Vão holdar?
+
+
+[01/31/2022 10:23 PM] Harthurian#3165
+Está valendo a pena prover liquidez ERG x NETA?
+
+
+[02/01/2022 3:37 AM] blackinsecure#3693
+Eu acho que não, mas essa é a minha opinião
+
+
+[02/01/2022 4:56 AM] rangel#1502
+Opa blz? estou conhecendo o projeto agora... Meu que trampo bacana que vc esta fazendo com as traduções!!! Parabéns!
+
+
+[02/01/2022 4:57 AM] blackinsecure#3693
+tamo junto
+
+
+[02/01/2022 4:57 AM] blackinsecure#3693
+agora é com vocês aí lerem tudo hahahha
+
+
+[02/01/2022 4:58 AM] blackinsecure#3693
+e usarem a carteira mobile em português quando sair
+
+
+[02/01/2022 4:58 AM] blackinsecure#3693
+e me avisar se encontrarem coisa errada
+
+{Reactions}
+❤️ 
+
+[02/01/2022 4:58 AM] rangel#1502
+vou devorar tudo, faz pouco tempo que conheci esse mundo, e o projeto da ergo achei muito fod.... só o manifesto ja mostra uma vibe diferente
+
+
+[02/01/2022 4:59 AM] rangel#1502
+assim que eu me ambientar, vou ajudar no que puder... pra fortalecer!
+
+
+[02/01/2022 5:05 AM] blackinsecure#3693
+fechou
+
+
+[02/01/2022 5:06 AM] blackinsecure#3693
+entra no grupo do telegram também, lá tem bastante comentário
+
+
+[02/01/2022 5:06 AM] blackinsecure#3693
+link tá aí em cima
+
+
+[02/01/2022 5:22 AM] rangel#1502
+Valeu!!!
+
+
+[02/01/2022 12:53 PM] rangel#1502
+Fala Pessoal, pra galera que minera, qual a melhor pool? tenho uma 1660 super, acho q vou colocar pra minerar ergo!
+
+
+[02/01/2022 1:10 PM] blackinsecure#3693
+eu uso Herominers
+
+
+[02/01/2022 1:10 PM] blackinsecure#3693
+mas qualquer uma que não seja a Nanopool tá bom
+
+
+[02/01/2022 1:10 PM] blackinsecure#3693
+aconselho olhar pra getblok.io
+
+
+[02/01/2022 1:11 PM] blackinsecure#3693
+https://discord.gg/4TUbCYkA
+
+{Reactions}
+👍 
+
+[02/05/2022 6:38 PM] netocanastra#3619
+Flypool
+
+
+[02/09/2022 9:40 PM] Harthurian#3165
+entraram na ERGOPAD?
+
+
+[02/10/2022 4:29 PM] Harthurian#3165
+flypool (2) e provavelmente o GetBlock.io que ainda não testei
+
+
+[02/11/2022 12:06 AM] netocanastra#3619
+Eu usei leafpool por um período. Agora tô na Flypool recebo pagamento semanal sem nenhum problema
+
+{Reactions}
+😉 
+
+[02/12/2022 2:42 PM] rangel#1502
+Legal pessoal, testei o GetBlock.io... agora vou verificar o leafpool
+
+
+[02/13/2022 12:43 PM] Diego Rios#3354
+Já testei várias. Prefiro a herominers pela velocidade dos pagamentos. Minha Wallet recebe todas vez que faço 0.5 ERG
+
+
+[03/05/2022 5:02 AM] AllCloudy | GetBlok.io#1273
+So para avisar que a GetBlok agora paga em 20 confirmações
+
+
+[03/05/2022 6:33 AM] blackinsecure#3693
+isso é bom
+
+
+[03/05/2022 10:27 PM] Harthurian#3165
+caramba.... ERGOPAD já subiu 6x
+
+
+[03/05/2022 10:27 PM] Harthurian#3165
+fiquei enrolando pra comprar esperando uma correção
+
+
+[03/05/2022 10:28 PM] Harthurian#3165
+era pra ter comprado no primeiro dia
+
+
+[03/06/2022 5:23 AM] blackinsecure#3693
+https://ergoplatform.org/pt/blog/2022-03-03-blockchain-and-the-case-for-ergo/
+
+mais um post traduzido
+
+{Embed}
+https://ergoplatform.org/pt/blog/2022-03-03-blockchain-and-the-case-for-ergo/
+Blockchain e a Motivação para Ergo
+Desde o nascimento de Bitcoin, …
+https://images-ext-2.discordapp.net/external/VViNaZJgD38FOGm6nJwHf5Pa4wSpledwwFE3NcUcKSQ/https/ergoplatform.org/img/uploads/news-blog-41.png
+
+
+[04/05/2022 2:20 AM] Harthurian#3165
+Galera, alguém sabe me informar o nome do token de juros para quem provê liquidez na ergodex?
+
+
+[04/07/2022 4:13 AM] blackinsecure#3693
+ErgoDEX não tem token dela ainda
+
+
+[04/07/2022 11:01 PM] Harthurian#3165
+E se a pessoa prover liquidez agora não recebe nada de juros?
+
+
+[04/08/2022 7:04 AM] blackinsecure#3693
+recebe em ERG
+
+{Reactions}
+❤️ 
+
+[04/08/2022 7:04 AM] blackinsecure#3693
+ou no outro token do par
+
+
+[04/08/2022 7:04 AM] blackinsecure#3693
+ErgoDEX planeja lançar token dela, mas ainda não o fez
+
+
+[04/22/2022 5:09 AM] Harthurian#3165
+Mas se eu sofrer impermanent loss? Eu perco meus erg e não recebo as taxas por prover liquidez? Aí é tenso.
+
+
+[04/22/2022 11:58 PM] Harthurian#3165
+:Gulag:
+
+
+[04/22/2022 11:58 PM] Harthurian#3165
+:MonkaChrist: :commie:
+
+
+[05/08/2022 3:35 PM] VLAD#5088
+fala pessoal
+
+
+[05/08/2022 3:35 PM] VLAD#5088
+onde fica armazenada as NFT da ERGO?
+
+
+[05/09/2022 2:11 PM] Rijadkixi / Pvrisx#5123
+opa!
+
+
+[05/09/2022 2:11 PM] Rijadkixi / Pvrisx#5123
+qual wallet?
+
+
+[05/18/2022 7:58 PM] Ricardo Ferrari#6439
+Olá, alguém saberia dizer se é possível trocar a wallet do Ergo Node ?
+
+
+[07/12/2022 2:32 PM] JackSky#3735
+Ola, alguem sabe o pq agora eles só pagam 48 ergos bloco? Sendo que cada bloco tem 58 ergos.
+
+
+[07/12/2022 2:48 PM] blackinsecure#3693
+uma atualização recente na rede redireciona uma parte das recompensas para um fundo que será usado pra reemitir essas ERG no futuro e assim extender o período de emissão
+
+
+[07/12/2022 2:48 PM] blackinsecure#3693
+o que aumenta estabilidade e previsibilidade das recompensas no longo-prazo
+
+
+[07/12/2022 3:47 PM] JackSky#3735
+Legal! Ótima informação. Achei que começaria a queda gradativa como foi anunciado, de somente 3 ergos a cada 3 meses que diminuiria por bloco. Minerava solo. Agora estou testando outra pool que ainda esta pagando 58 ergos. Mas, o front da herominers é o melhor por enquanto. E isso faz falta..rs 
+
+Vlw pela informação 👍🏻
+
+
+[07/12/2022 4:00 PM] blackinsecure#3693
+A redução normal de 3 ERG por época ainda tá valendo
+
+
+[07/12/2022 4:01 PM] blackinsecure#3693
+Outra vantagem de combinar as duas é diminuir pressão de venda de quem vende pra pagar as contas da mineração
+
+
+[07/12/2022 4:08 PM] JackSky#3735
+Sim, isso é bom. Peguei 5 blocos na herominer em uns 30 +-... Estou é guadando tudo. Pq quando subir vai ficar interessante🙌🏻
+
+
+[07/12/2022 4:09 PM] JackSky#3735
+Primeiro veio de 63, 51 e depois de 48. Vou é esperar a valorização. E manter sempre uma parte na carteira.
+
+
+[07/24/2022 3:55 PM] blackinsecure#3693
+a redução normal de rewards é de 3 em 3
+
+
+[08/18/2022 11:15 AM] Balrog - josejgcosta#8685
+Bom dia. Existe em Portugal alguma empresa que presta seviços de montagem de mining rigs?
+
+
+[08/27/2022 2:10 PM] Emanuel O.#4661
+As que tenho visto são anúncios do OLX. Mas empresa especializada tbm desconheço
+
+
+[09/17/2022 4:27 PM] Despacito#6041
+Pessoal, não sei se temos brasileiros e outros países perto por aqui, gostaria de informar que temos um Pool Brasileiro, considere nos ajudar, descentralizando o hash dos maiores, obrigado
+
+{Reactions}
+ergo_orange 
+
+[09/17/2022 4:27 PM] Despacito#6041
+http://ergo.friendspool.net/
+
+{Embed}
+http://ergo.friendspool.net/
+FriendsPool mining pools - FriendsPool
+FriendsPool mining pools
+https://images-ext-1.discordapp.net/external/hcTlD3zv4MW7QT_vbmjkWc6ygJ75PFXcAh2ZqZKsoAg/http/ergo.friendspool.net/img/logo.png
+
+
+[09/18/2022 4:41 PM] baleia#8727
+vitalik fdp
+
+
+[09/18/2022 4:41 PM] baleia#8727
+modo sparta agora
+
+
+[11/16/2022 2:02 PM] Tiago…#4104
+Boa tarde , aonde busco um link seguro para baixar a carteira Nautilus ?
+
+
+[11/17/2022 12:44 PM] anon_br#2282
+https://chrome.google.com/webstore/detail/nautilus-wallet/gjlmehlldlphhljhpnlddaodbjjcchai
+
+{Embed}
+https://chrome.google.com/webstore/detail/nautilus-wallet/gjlmehlldlphhljhpnlddaodbjjcchai
+Nautilus Wallet
+Privacy Wallet Designed for Ergo Network
+https://images-ext-2.discordapp.net/external/5dVO8Omz4mgXtcf8j4GNCRGRQIjmkccI62eWeFYE-SE/https/lh3.googleusercontent.com/mblhZwNtpIhG1nwZmes2kcNml_xUAkbaksNDCgIYbeAJ_fLUTykaYe6h5iINGFSwRQV2XHUSSC37vwVcPuNdoLRyrnk%3Dw128-h128-e365-rj-sc0x00ffffff
+
+{Reactions}
+🙏 
+
+[01/09/2023 10:58 PM] Harthurian#3165
+alguém tem notícias de quando será o airdrop dos token Spectrum?
+
+
+[01/16/2023 10:16 PM] Harthurian#3165
+alguém recebeu o airdrop dos tokens spectrum?
+
+
+[02/17/2023 5:14 AM] blackinsecure#3693
+não sei de nada
+
+
+[02/26/2023 6:21 PM] baleia#8727
+karai
+
+
+[02/26/2023 6:21 PM] baleia#8727
+quem é da mineração ai? tao firmes
+
+
+[02/26/2023 6:21 PM] baleia#8727
+2025 vamo fica podre de rico heim]
+
+
+[02/26/2023 6:21 PM] baleia#8727
+minerando ergo
+
+
+[02/26/2023 6:21 PM] baleia#8727
+duvido que não passe de 100usd facil
+
+
+[02/28/2023 4:40 AM] blackinsecure#3693
+calma
+
+
+[03/23/2023 10:23 PM] normando#5016
+opa
+
+
+[03/23/2023 10:23 PM] normando#5016
+boa noite
+
+
+[04/02/2023 2:55 PM] blackinsecure#3693
+https://rankmywallet.com/pt-br
+
+divulgando aqui que a tradução pra PT-BR que fiz do site Rank My Wallet está no ar
+
+{Embed}
+https://rankmywallet.com/pt-br
+RankMyWallet
+Blockchain rankings for Cardano and Ergo
+
+
+[04/27/2023 11:25 AM] Canal do Billy#1969
+Espero, mano!
+
+
+[04/27/2023 11:25 AM] Canal do Billy#1969
+Pessoal, o que vocês estão usando de carteira para armazenar os Ergos?
+
+
+[04/28/2023 6:24 AM] blackinsecure#3693
+Ergo Mobile Wallet
+
+
+[04/28/2023 6:24 AM] blackinsecure#3693
+Que no iOS se chama Terminus
+
+
+[04/28/2023 6:25 AM] blackinsecure#3693
+E ironicamente tem uma versão desktop
+
+
+[04/30/2023 6:37 PM] normando#5016
+Opa
+
+
+==============================================================
+Exported 996 message(s)
+==============================================================

@@ -1,0 +1,5692 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / 💳┃yoroi
+Topic: Tag @Emurgo
+==============================================================
+
+[10/10/2020 10:08 AM] gtklocker#2347
+Will import from coinbarn work?
+
+
+[10/10/2020 10:11 AM] mx#5165
+"You can migrate from CoinBarn -> Yoroi with the same recovery phrase
+You can NOT migrate from Yoroi -> CoinBarn with the same recovery phrase
+You can NOT migrate from Yoroi -> Full Node wallet until the full node BIP44 support for full node wallets is released (planned for this week)
+You can NOT migrate from Full Node wallet -> Yoroi until the full node BIP44 support for full node wallets is released (planned for this week)"
+
+
+[10/10/2020 10:12 AM] mx#5165
+"Coinbarn only supports one address for the whole wallet, where as Yoroi allows creation of multiple addresses"
+
+
+[10/10/2020 10:16 AM] gtklocker#2347
+aha so yoroi also covers the edge case of generating and checking the p2pk address coming directly from the master key?
+
+
+[10/10/2020 10:17 AM] gtklocker#2347
+I see thanks
+
+
+[10/10/2020 10:17 AM] gtklocker#2347
+where was this posted?
+
+
+[10/10/2020 10:18 AM] mx#5165
+on telegram some time ago so node-Yoroi should be ok already
+
+
+[10/10/2020 10:31 AM] Robert K#0722
+But only for newly generated wallets using the latest version of the node
+
+{Reactions}
+👍 
+
+[10/10/2020 1:54 PM] kushti#0978
+Ergo node 3.3.4 already on BIP44
+
+{Reactions}
+👍 (4) 
+
+[10/13/2020 2:02 PM] Cyphrym#6140
+I love seeing my Ergs on my Yoroi wallet. ☺️
+
+{Reactions}
+😎 
+
+[10/28/2020 10:04 PM] GER#8806
+Hi guys,
+I'm helding some Ergs on Hotbit and I'd like to transfer them to Yoroi Wallet, but when I open the wallet only propose me and Shelley or Byron wallet, how could I create an Ergo address? Thanks!
+
+
+[10/28/2020 11:54 PM] Sebastien#0653
+@GER are you on the latest version of the Yoroi Extension? (3.7.3)
+
+
+[10/30/2020 3:49 PM] GER#8806
+@Sebastien Nop! 3.3.1 where could I download that one (3.7.3)? Thanks man.
+
+
+[10/30/2020 6:10 PM] Sebastien#0653
+@GER sounds like you're using Yoroi Mobile which doesn't have Ergo support yet. Currently we only support Ergo through the Yoroi Extension
+
+
+[10/30/2020 6:58 PM] GER#8806
+@Sebastien thanks, I'll search it at the Ergo website
+
+
+[11/08/2020 7:00 PM] 16739263#7960
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/775072165862047764/image0.jpg
+
+
+[11/08/2020 8:56 PM] kushti#0978
+@16739263 currently you can send a transaction when previous is confirmed only.
+
+
+[11/08/2020 8:57 PM] 16739263#7960
+@kushti oh okay, my apologies
+
+
+[11/15/2020 3:58 PM] anon_real#2768
+When sending a transaction with "Send all ERG" enabled, Yoroi will also send all available tokens in the wallet alongside the ERGs. Although Yoroi doesn't really support tokens yet, it doesn't seem like the best behavior I think.
+
+
+[11/15/2020 4:01 PM] anon_real#2768
+Not a big deal for now, but better for people to know since they may participate in auctions and end up winning some tokens!
+
+
+[11/16/2020 8:19 AM] Robert K#0722
+Ah, yeah Yoroi tracks tokens in the backend so that they don't get burned. And the default case there ends up being if you send all Ergs, when then you send all your tokens since you have no boxes left too.
+
+
+[11/16/2020 8:20 AM] Robert K#0722
+That likely should be addressed once full token support is implemented, good point @anon_real.
+
+{Reactions}
+👍 
+
+[11/16/2020 10:53 AM] anon_real#2768
+My Yoroi wallet does not sync. It gets 500 response, "error: "REFERENCE_BLOCK_MISMATCH" when calling `/history`. Any idea?
+
+
+[11/16/2020 11:05 AM] kushti#0978
+@anon_real @Robert K well, if all the ergs sent out, no ergs for storing the tokens then, so it is okay then to send the tokens also I guess, at least for now ?
+
+
+[11/16/2020 11:43 AM] anon_real#2768
+> @anon_real @Robert K well, if all the ergs sent out, no ergs for storing the tokens then, so it is okay then to send the tokens also I guess, at least for now ?
+@kushti Yeah, as long as people who care know the behavior.
+
+
+[11/16/2020 11:55 AM] anon_real#2768
+> My Yoroi wallet does not sync. It gets 500 response, "error: "REFERENCE_BLOCK_MISMATCH" when calling `/history`. Any idea?
+I tried restoring in another browser, but it couldn't find all my ERGs, only some of them!
+
+
+[11/16/2020 11:56 AM] anon_real#2768
+Also, I tried "Resync wallet" in the settings in my original browser, after a while it synced but again shows only some of my ERGs.
+
+
+[11/16/2020 12:44 PM] Robert K#0722
+@Sebastien any ideas on the above?
+
+
+[11/16/2020 1:08 PM] kushti#0978
+@anon_real have you checked against the explorer?
+
+
+[11/16/2020 1:15 PM] anon_real#2768
+I checked again now and it updated my balance to the right amount. However, it didn't before for a long time even though all requests to the backed were successful.
+
+
+[11/16/2020 1:18 PM] anon_real#2768
+I tried restoring again in the other browser and works fine now! Don't know what it could be about before.
+
+
+[11/16/2020 2:57 PM] Sebastien#0653
+`REFERENCE_BLOCK_MISMATCH` is caused when the transaction history stored in your Yoroi wallet no longer matches the blockchain in the explorer. It's caused whenever a rollback happens that undoes one of your transactions.
+When this error happens, Yoroi tries to rollback your transaction history and then resync, which is why part of your wallet went missing. If the explorer was having issues as you mentioned (hence being slow), that's probably why it wasn't able to resync fully and you were left with a partially rolled back wallet.
+
+{Reactions}
+👍 
+
+[11/16/2020 2:59 PM] Sebastien#0653
+That's my best guess for the series of events that led to your issue. It could always be a bug somewhere, so don't hesitate to let me know if you think that doesn't sound accurate!
+
+
+[11/16/2020 4:12 PM] anon_real#2768
+@Sebastien Will do, thanks!
+
+
+[01/02/2021 9:33 PM] Storm#5224
+Hello everyone
+Happy New Year to you all.
+Sorry for this weird question, I'm New to Ergo.
+Is Yoroi Ergo wallet ready to use?
+
+
+[01/02/2021 11:41 PM] kushti#0978
+@Storm yes, browser extension for now only available though
+
+
+[01/03/2021 8:30 AM] Storm#5224
+Great, thanks Kushti!
+
+
+[01/15/2021 1:38 PM] Platypus#2410
+hi devs, i noticed another ADA symbol in the ERGO environment of Yoroi
+
+
+[01/15/2021 1:39 PM] Platypus#2410
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/799633765030166609/Screenshot_2021-01-15_at_14.38.00.png
+
+
+[01/15/2021 1:40 PM] Platypus#2410
+Sebastien & other devs are busy with a lot more important stuff currently, but for when things calm down again a bit
+
+
+[01/15/2021 2:44 PM] vicente#4295
+noted thanks!
+
+{Reactions}
+👍 
+
+[01/20/2021 10:40 PM] egorishek#5517
+Hi...so I'm new to the space of cryptocurrency/blockchain, and I recently set up a Yoroi wallet and transferred both ERG and ADA to it. I'm confused on why one of my generated addresses it not showing a sum? When clicked and taken to Cardanoscan it states that there are two transactions (received and sent 9k~ ADA). My total ADA shown in my wallet is correct, but just curious why it appears different than the other transactions I sent.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/801581837184401418/Screen_Shot_2021-01-20_at_3.30.47_PM.png
+
+
+[01/20/2021 10:52 PM] egorishek#5517
+Looks like the missing balance (sum) is listed under the internal tab. If someone could explain how/why that transaction is listed under the internal tab vs external would be much appreciated.
+
+
+[01/23/2021 2:12 PM] Sebastien#0653
+@egorishek it comes from BIP44 and the UTXO system if you want to learn more
+
+
+[01/23/2021 2:12 PM] Sebastien#0653
+we have a link to a blog post in the internal tab that explains it also I think
+
+
+[01/23/2021 9:53 PM] egorishek#5517
+@Sebastien Great! I’ll definitely check it out. Thanks for pointing me in the right direction.
+
+
+[02/04/2021 2:04 PM] MrSupercool#7391
+At some point will you be able to Swap ERG for ADA in the Yoroi wallet?
+
+
+[02/04/2021 11:14 PM] MrSupercool#7391
+@kush02 At some point will you be able to Swap ERG for ADA in the Yoroi wallet?
+
+
+[02/05/2021 1:06 PM] Deleted User#0000
+yes, this appears likely
+
+
+[02/05/2021 1:55 PM] triptek#3191
+hey guys, sent some from coinex to yoroi, coinex saying witdrawal compelte but nothign showing in the wallet yet
+any hints, tips, suggestions?
+
+
+[02/08/2021 7:07 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/808413669267603506/Screen_Recording_2021-02-08_at_22.03.52.mov
+
+
+[02/08/2021 7:07 PM] Dmitry Usov#0134
+@Sebastienhi! I have some errors when sent coins for my wallet and tx is not confirmed
+
+
+[02/09/2021 12:22 AM] Sebastien#0653
+@Dmitry Usov seems to just be a server connection issue. Just try again and maybe it works now
+
+
+[02/09/2021 8:09 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/808610510941192252/unknown.png
+
+
+[02/09/2021 8:09 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/808610577009213450/unknown.png
+
+
+[02/09/2021 8:09 AM] glasgowm#9381
+My pal sent me these - its working now, but just for posterity
+
+
+[02/11/2021 8:00 PM] Bauhaus911#7350
+Just installed yoroi extension in my browser (Brave) and put in my mnemonic phrase expecting my wallet address to be the same as what shows in my ERGO reference node implementation, but it is not.  Surpsingly, it IS showing some ergs, but it shows about half the # of ergs I see when I use the ERGO reference node.  Could it be it is showing ergs from before the hard fork?
+
+
+[02/11/2021 8:10 PM] Bauhaus911#7350
+If Yoroi supports hardware wallets, does that mean I can store my ERGs into a hardware wallet as long as it is supported by Yoroi?
+
+
+[02/12/2021 2:21 AM] Claydo#3635
+@Bauhaus911 I think I read on their development roadmap that they are working on ledger support for ERG on Yoroi. Not sure, but I don't think it's out yet.
+
+
+[02/12/2021 10:04 AM] kushti#0978
+@Bauhaus911 how many addresses do you have in your node ? Maybe you need to derive new addresses in Yoroi to see the full balance
+
+
+[02/13/2021 7:48 AM] glasgowm#9381
+A refresh button on the yoroi would be useful, on chrome/osx - doesn't seem to pick up new stuff until I F5
+
+
+[02/14/2021 9:48 AM] TOXid#0099
+Yoroi node on wrong blockchain?
+
+
+[02/14/2021 11:23 AM] DrakeR#0734
+I think what Yoroi in wrong blockchain, wallet deposit 0.000. But in blockchain i have many ERG.
+
+
+[02/14/2021 11:28 AM] Ilya | Spectrum#0494
+The problem is likely with the explorer their backend relies on
+
+
+[02/14/2021 11:29 AM] Ilya | Spectrum#0494
+It is out of sync
+
+
+[02/14/2021 11:30 AM] Ilya | Spectrum#0494
+The Ergo network itself is consistent
+
+
+[02/14/2021 11:32 AM] DrakeR#0734
+Can you tell them about the problem?
+
+
+[02/14/2021 11:35 AM] Ilya | Spectrum#0494
+Yes, we are trying to reach them
+
+
+[02/14/2021 11:36 AM] TOXid#0099
+Yoroi it's a trap - it's not possible to export private key for normal wallet...
+
+
+[02/14/2021 11:36 AM] DrakeR#0734
+thank you
+
+
+[02/14/2021 11:36 AM] Ilya | Spectrum#0494
+Seed phrase should be enough
+
+
+[02/14/2021 6:16 PM] bitsolver#7337
+hello all -- I've created my first Ergo wallet in Yoroi and sent 10 ERG to it from CoinEx... CoinEx says the tx is complete, the tx currently has 80 confirmations, my receiving address on the explorer says it has the 10 ERG in it, but Yoroi says zero and no transactions... I've re-synced several times, and even removed and restored my wallet (and re-verified my receiving address is still the same, etc...) -- reading the posts above, it looks like Yoroi's Ergo node might be out of sync right now... does anyone have an update, or can anyone point me to a status page, or somewhere I can watch for updates?
+
+
+[02/14/2021 6:17 PM] io8126#2322
+Same for me
+
+
+[02/14/2021 6:17 PM] io8126#2322
+From all day
+
+
+[02/14/2021 6:24 PM] bitsolver#7337
+okay, I've sent them a support request...
+
+
+[02/14/2021 6:45 PM] io8126#2322
+check now, my wallet start to sync
+
+{Reactions}
+👍 
+
+[02/14/2021 6:49 PM] bitsolver#7337
+yep, just came here to post that my tx finally appeared and my balance is correct now
+
+
+[02/14/2021 8:52 PM] Zach1two#4662
+Yea gotta be patient with coin ex to yoroi. Took a few hours/day to process
+
+
+[02/15/2021 12:56 AM] TOXid#0099
+It was possible to restore the seed from yoroi to a full node. But there is a very serious problem with a wallet on a full node - when transferring from a wallet, it transfers the amount remaining after the transaction to another address, but this address is not added to the wallet list.
+
+
+[02/15/2021 11:17 PM] kushti#0978
+@TOXid windows? your config ?
+
+
+[02/15/2021 11:39 PM] TOXid#0099
+Windows. Config node like this video. Restore wallet with seed from Yoroi.
+https://www.youtube.com/watch?v=fpEDJ1CM6ns
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=fpEDJ1CM6ns
+How to set up and configure a full Ergo node on Windows
+Additional notes: https://ergoplatform.org/en/blog/2019_12_02_how_to_setup/
+
+Great video made by a community member Kst!
+https://images-ext-1.discordapp.net/external/IIBeFPI6q4Jll7ZCXKKvXwZJY4pJLjmby2hAX82HI_Q/https/i.ytimg.com/vi/fpEDJ1CM6ns/sddefault.jpg
+
+
+[02/15/2021 11:44 PM] kushti#0978
+can you copypaste config please ?
+
+
+[02/15/2021 11:45 PM] kushti#0978
+second transaction is ok ?
+
+
+[02/15/2021 11:45 PM] kushti#0978
+there are some weird issues on Windows reported by some users, trying to figure out what is this about
+
+
+[02/15/2021 11:47 PM] TOXid#0099
+ergo {
+    directory = "F:/ergo/ergo"
+    node {
+        mining = false
+    }
+    wallet.secretStorage.secretDir = "F:/ergo/wallet/keystore"
+}
+
+scorex {
+ restApi {
+    # Hex-encoded Blake2b256 hash of an API key. 
+    # Should be 64-chars long Base16 string.
+    # below is the hash of the string 'hello'
+    # replace with your actual hash 
+    apiKeyHash = "cb7eefe95915a12028ebdf3dd0934abd4261565b7a93aaf9b197e9fa5a2782e6"
+  }
+}
+
+
+[02/15/2021 11:50 PM] TOXid#0099
+Больше транзакций я не пробовал делать, т.к. весь остаток ушел на счет, которые не прикрепился к кошельку. Но скорее всего, все они будут с такой же проблемой.
+Я так понял, что остаток со счета переводится на другой счет во время транзакции, только в других кошельках этот счет добавляется в кошелек, а тут он просто потерялся.
+Проблема именно со счетом, восстановленным из Ёрои. Если создавать счет в самом кошельке может проблем и не будет, я не проверял. Просто отметил такой баг с восстановление по сиду из Ёры, поскольку Ёрои на тот момент не работал.
+
+
+[02/15/2021 11:57 PM] TOXid#0099
+Сейчас проверил как работает в самом Yoroi - остаток он перевел на этот же счет, откуда и шел перевод. Что странно, зачем переводить остаток на этот же самый счет?
+
+
+[02/17/2021 1:56 PM] Pancakes#6139
+Anyone else having issues with the yoroi wallet
+
+
+[02/17/2021 1:56 PM] Pancakes#6139
+I resynched my wallet and now my balance shows as 0
+
+
+[02/17/2021 1:57 PM] Pancakes#6139
+But the correct balance shows in the ergoplatform explorer
+
+
+[02/17/2021 2:00 PM] ®™-vale-™®#5415
+@Pancakes all fine here
+
+
+[02/17/2021 2:01 PM] Pancakes#6139
+Anyone know what I can do?
+
+
+[02/17/2021 5:18 PM] kushti#0978
+@Pancakes try resync in wallet settings
+
+
+[02/17/2021 5:37 PM] Pancakes#6139
+@kushti I tried it 3 times 🤦‍♂️ makes no sense
+
+
+[02/17/2021 5:37 PM] Pancakes#6139
+Ahh now it's working and balance is showing
+
+
+[02/17/2021 5:38 PM] Pancakes#6139
+So weird! It's been like 4 hrs lol
+
+
+[02/17/2021 9:51 PM] TOXid#0099
+If you are sure that the address in Yoroi  and in the explorer matches, you can restore the wallet in the full node wallet using the seed. Only here is a bug with the disappearance of the balance after the transfer possible - so transfer the entire amount at once.
+
+
+[02/18/2021 5:12 PM] Pancakes#6139
+@TOXid thank you. It actually ended up resynching in the yoroi wallet and now the correct amount is showing. Thanks for your help. I was actually considering that.
+
+
+[02/21/2021 8:26 PM] 𐎷𐎱𐎡𐎽#7312
+hello i tried for fun to restore a ERG wallet on yoroi mobile (yes the one that doesnt support erg yet). i was surprised because my erg private key was recognized in yoroi mobile when i restored it (in a ADA wallet off course).   so a ada wallet-empty-  is restored with the erg key lol..
+
+
+[02/21/2021 8:26 PM] 𐎷𐎱𐎡𐎽#7312
+i'm not a expert but i don't understand why the key was recognized because it is 2 different blockchain right ?  if anyone got an explanation just because i'm quite curious!
+
+
+[02/21/2021 8:27 PM] Robert K#0722
+Your mnemonic can be used to derive an infinite number of keys technically, for various blockchains
+
+
+[02/21/2021 8:28 PM] 𐎷𐎱𐎡𐎽#7312
+oooh so its just coincidence right?
+
+
+[02/21/2021 8:28 PM] Robert K#0722
+It's a way to effectively have a human-readable seed that can always be used to create a wallet
+
+
+[02/21/2021 8:28 PM] 𐎷𐎱𐎡𐎽#7312
+interesting
+
+
+[02/21/2021 8:28 PM] Robert K#0722
+And the process is deterministic for each, but work slightly differently for each
+
+
+[02/21/2021 8:29 PM] Robert K#0722
+So if you want to you can just have 1 mnemonic and reuse it for having both Ada and Erg wallets
+
+
+[02/21/2021 8:29 PM] 𐎷𐎱𐎡𐎽#7312
+i never "played" with mnemonics before that so i was surprised^^
+
+
+[02/21/2021 8:30 PM] 𐎷𐎱𐎡𐎽#7312
+really uuh
+
+
+[02/21/2021 8:30 PM] 𐎷𐎱𐎡𐎽#7312
+thank you for theses details
+
+
+[02/22/2021 8:57 AM] Taegus#5853
+Basically a mnemonic seed is just a string of words from which you calculate a number. A private key in every blockchain is just a very big number represented in alphanumeric way
+
+
+[02/22/2021 8:57 AM] Taegus#5853
+So you can have same seed but calculate it in a different way for different blockchain. But only if seed calculation uses the same words and same number of them ofc
+
+
+[02/22/2021 8:58 AM] Taegus#5853
+You could also have the exact same calculation and get exact same keys for two different blockchains
+
+
+[02/22/2021 8:58 AM] Taegus#5853
+Not a problem
+
+
+[02/22/2021 8:59 AM] Taegus#5853
+Basically how security for keys work on all blockchains is that the space of all possible numbers is so big its basically impossible to guess an existing key
+
+
+[02/22/2021 8:59 AM] Taegus#5853
+There is a cloud network of computers trying BTC keys and I think they actually found some small amounts already lol
+
+
+[02/22/2021 3:21 PM] Bauhaus911#7350
+@Sebastien How do you detect when an incoming payment occurs?  I've got a light iPhone app that communicates with the ERGO reference node implementation and can't figure out how I might get at receipts.  Do you poll periodically or is it event driven (catching and logging those receipts)?
+
+
+[02/22/2021 3:21 PM] Sebastien#0653
+@Bauhaus911 Yoroi polls our server every ~20 seconds
+
+
+[02/22/2021 3:24 PM] Bauhaus911#7350
+And on the server, what is the algorithm to split apart payments from receipts?  Do you keep a copy of transactions and then compare that with what is polled after 20 secs?
+
+
+[02/22/2021 6:49 PM] Taegus#5853
+@Sebastien Did you thought about using web sockets to reduce the request count from pooling?
+
+
+[02/22/2021 6:49 PM] Sebastien#0653
+https://github.com/Emurgo/yoroi-graphql-migration-backend
+
+{Embed}
+https://github.com/Emurgo/yoroi-graphql-migration-backend
+Emurgo/yoroi-graphql-migration-backend
+Contribute to Emurgo/yoroi-graphql-migration-backend development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/xHAk_ziRPnkEG9RreCwow25rgpXAukdgRa4kd6p1WIY/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/36142236
+
+
+[02/22/2021 6:50 PM] Sebastien#0653
+https://github.com/Emurgo/yoroi-ergo-backend
+
+{Embed}
+https://github.com/Emurgo/yoroi-ergo-backend
+Emurgo/yoroi-ergo-backend
+Contribute to Emurgo/yoroi-ergo-backend development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/xHAk_ziRPnkEG9RreCwow25rgpXAukdgRa4kd6p1WIY/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/36142236
+
+
+[02/22/2021 6:50 PM] Sebastien#0653
+those are the two backends we run: one for Cardano and one for Ergo
+
+
+[02/22/2021 6:51 PM] Sebastien#0653
+we've looked into websockets multiple times before but there always ends up being something that makes REST the only choice that really works across all use cases
+
+
+[02/22/2021 6:59 PM] Taegus#5853
+Yea same when I was trying and checking it for our cloud wallet. Was wondering if you had any more luck with it
+
+
+[02/24/2021 4:29 PM] gtklocker#2347
+will it not be possible to reset an ergo node seed with yoroi? I can restore the seed but different addresses are generated unfortunately
+
+
+[02/24/2021 5:03 PM] Robert K#0722
+You can if your node wallet was generated after node v3.3.4 (I think that's the version)
+
+
+[02/24/2021 5:04 PM] Robert K#0722
+Somewhere around that version the address derivation was synced between the two.
+
+
+[02/25/2021 9:22 AM] gtklocker#2347
+I created my node wallet on 4.0.7 and import didn't work, different address was generated
+
+
+[02/25/2021 9:23 AM] gtklocker#2347
+I think it was a 15 word seed?
+
+
+[02/25/2021 9:24 AM] gtklocker#2347
+I will share a more detailed bug report, what is the appropriate repo?
+
+
+[02/25/2021 9:38 AM] Robert K#0722
+Did you use a mnemonic password?
+
+
+[02/25/2021 9:39 AM] Robert K#0722
+Because they aren't supported in Yoroi
+
+
+[02/25/2021 9:39 AM] Robert K#0722
+Could be good to try going from Yoroi mnemonic -> Node as well. Nonetheless I think https://github.com/ergoplatform/ergo is the best repo
+
+{Embed}
+https://github.com/ergoplatform/ergo
+ergoplatform/ergo
+Ergo protocol description & reference client implementation - ergoplatform/ergo
+https://images-ext-1.discordapp.net/external/-KRVlD4_nyV4m1pVCd9KQWWbk8Kzhe9Rdnel6es6kxo/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/27490654
+
+
+[02/25/2021 3:15 PM] gtklocker#2347
+no mnemonic password
+
+
+[02/25/2021 4:01 PM] gtklocker#2347
+my problem is node -> yoroi not the other way
+
+
+[02/25/2021 4:02 PM] gtklocker#2347
+let me reproduce and I'll open a bug report
+
+
+[02/25/2021 4:06 PM] Robert K#0722
+I understand, but for testing it could be useful to see where the edge case is
+
+
+[02/25/2021 4:13 PM] gtklocker#2347
+yeah ok
+
+
+[02/26/2021 3:01 PM] bitsolver#7337
+okay, I've got my SigRSV!! now, when will I be able to see it in my Yoroi wallet? @Robert K @Sebastien 😉
+
+
+[02/26/2021 3:21 PM] Robert K#0722
+You can see it in the send tab
+
+
+[02/26/2021 3:32 PM] bitsolver#7337
+yeah, it's kinda buried there tho... not very easily discoverable... will the ADA wallets handle multi-tokens the same way? it'd be nice if there were a new "All Tokens" or "All Balances" tab or something... just an idea...
+
+
+[02/27/2021 2:22 PM] Dmitry Usov#0134
+@Sebastien can you add alert when you have tokens and want to send all ergs at the balance? because some guys send all ergs to exchange and do not understand why sigmausd/sigmarsv also gone
+
+{Reactions}
+👆 👍 
+
+[02/27/2021 2:58 PM] Dmitry Usov#0134
+@Sebastien please, can you will do it ASAP. I think we can have many issues
+
+
+[02/27/2021 3:37 PM] anon_real#2768
+The logical behavior is to not let users send all ergs if tokens are being sent or destroyed!
+
+{Reactions}
+👍🏼 
+
+[02/27/2021 5:50 PM] anon_real#2768
+@zebbra2014 also has lost his SigRSV tokens to coinex because of this. @Robert K @Sebastien
+
+
+[02/27/2021 6:34 PM] Sebastien#0653
+the send confirmation page already tells you that you are sending all your tokens as well
+
+If people tend to ignore this, I can add a second warning on top of this though
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/815290840054104114/unknown.png
+
+
+[02/27/2021 6:47 PM] Dmitry Usov#0134
+Oh
+
+
+[02/27/2021 6:47 PM] anon_real#2768
+@Sebastien The misleading thing is "Send all ERG" checkbox. Which will result in people not paying enough attention to the next page.
+
+{Reactions}
+👍 (5) 💯 (2) 
+
+[02/27/2021 6:48 PM] Dmitry Usov#0134
+Yes
+
+{Reactions}
+👍 
+
+[02/27/2021 6:48 PM] Dmitry Usov#0134
+Need UPPERCASE RED TEXT))
+
+
+[02/27/2021 7:39 PM] Karen094#8565
+separate toggles "send all" for each token will be a better solution
+
+
+[02/27/2021 7:41 PM] Karen094#8565
+It doesn't make sense to place a toggle "send all ERG" and then warn users that they are sending not only all ERGs, but all the other tokens
+
+{Reactions}
+👍 (9) 💯 (3) 
+
+[02/27/2021 7:53 PM] andyceo#3095
+@Sebastien any plans to let users select addresses (or even boxes) to spend money (ergs and tokens) from?
+
+
+[02/27/2021 7:54 PM] Sebastien#0653
+it's a feature we've wanted to have for a long time, but it never makes it to the top of the priority list
+
+
+[02/27/2021 10:13 PM] andyceo#3095
+Great to here that. I am lacking of this very much. May be sometimes I can help with this (unfortunately I am Python dev, not JS and it is simplier to me write a python script for myself. But I will pay attention at Yoroi when will be acking for spending boxes).
+
+
+[02/28/2021 12:41 PM] guru_meditation0#6096
+guys, basic question, but want to make sure: if I generate a new receive address for ergo on yoroi will my old ones keep working?
+
+
+[02/28/2021 2:31 PM] glasgowm#9381
+yes
+
+{Reactions}
+👍 
+
+[03/03/2021 2:42 AM] Zimulakra#7908
+If there are a lot of NFTs in a wallet, I have to make the font super small to see the NFTs at the bottom of the list. It would be nice to have a scroll slider bar on the side. Thanks!
+
+
+[03/03/2021 10:55 PM] kushti#0978
+@Zimulakra fixed today, please check )
+
+
+[03/03/2021 11:19 PM] Zimulakra#7908
+Yes! Perfect
+
+
+[03/04/2021 12:29 AM] Sebastien#0653
+it now says "send all assets" when you have ERG selected as the asset
+cc @Dmitry Usov @Karen094
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/816829752676843560/unknown.png
+
+{Reactions}
+👍 (5) 
+
+[03/05/2021 2:49 AM] Fourieristic Fr໐ງ#6571
+how did you send a support request?
+
+I'm stuck trying to redeem my sigRSV
+
+
+[03/05/2021 8:00 AM] JamesKelley#2466
+Are you selecting sigRSV in the dropdown for "Select asset?"
+
+
+[03/05/2021 4:15 PM] DroLouis#1506
+Can we just leave our rsv as is?
+
+
+[03/06/2021 5:28 AM] MrSupercool#7391
+No, I  don't think we can. It can't be converted into the new smart contract
+
+{Reactions}
+👍 
+
+[03/07/2021 8:40 AM] Fourieristic Fr໐ງ#6571
+Yes I did that, thanks!
+
+{Reactions}
+👍 
+
+[03/08/2021 1:39 PM] Karen094#8565
+Hi,  I was one of those people, who sent sigRSV to Coinex exchange (through "send all ERG" checkbox). During more then 10 days I'm trying to explain them that they have to send sigRSV tokens back to my yoroi wallet, but it seems useless. I wonder if they don't understand what are sigRSV tokens or they can't do that. Is there any chance that they will send me back sigRSV tokens or they are lost forever?
+
+
+[03/09/2021 1:27 AM] JamesKelley#2466
+I wonder if support could put you in touch with whoever manages their wallets. I'd send along a link to the transaction that shows the asset included so they won't need to search for it.
+
+
+[03/09/2021 3:05 PM] Karen094#8565
+Yeah, I have done it. I contacted them through telegram and e-mail and in both cases sent them links to ergo explorer (transaction and wallet address). Moreover, I sent them screenshots where I clicked on button in explorer "show tokens" to make them see that sigRSV tokens are there. Even a child would understand what's the issue after all my broad explanations.
+
+
+[03/20/2021 3:53 PM] Ilya | Spectrum#0494
+@mmahut, hey!
+Please update yoroi backend schema ASAP:
+`alter table tokens alter column name type varchar`
+This will remove length constraint from token name.
+It seems constraining any fields according to their semantics was generally a bad idea. In practice people are putting random text to fields which are supposed to hold short token tickers according to the standard.
+
+
+[03/20/2021 3:54 PM] mmahut#8044
+done
+
+{Reactions}
+👍 
+
+[03/21/2021 5:54 PM] 20Log#8768
+Hey guys i just brought some ERGO and use the Yoroi mobile app, do i just send the ERGO to the recieve addy as i would do with ada ? or is it a function thats only possible on the desktop?
+
+
+[03/21/2021 6:50 PM] cymatic#8185
+(for those seeing 20Log's request above...his request was just answered over in the #🗣│general channel)
+
+{Reactions}
+👍 (3) 
+
+[03/25/2021 9:02 AM] teppi#8003
+Ergo yoroi is more slowly than ada
+
+
+[03/25/2021 9:02 AM] ®™-vale-™®#5415
+yes same here freez alot
+
+
+[03/25/2021 9:16 AM] teppi#8003
+May @Sebastien fix this
+
+
+[03/25/2021 1:05 PM] Gazza_SP#5835
+Same for me, it's only very recently.
+
+
+[03/28/2021 6:43 PM] bardamug#3039
+Ergo is only supported on desktop browser extension. You need to create an Ergo wallet. Option is available when opening the extension (create wallet then ERGO or Cardano)
+
+
+[03/28/2021 8:05 PM] 20Log#8768
+Hi thanks this was resolved shortly after thanks though
+
+
+[03/29/2021 5:09 PM] Dergler#0451
+would love to see an art gallery!
+
+{Reactions}
+🤔 🤩 ☝️ 
+
+[04/03/2021 9:07 PM] c8e4d2a#9854
+what's the current state of yoroi-ergo-connector? Alive/dead/active/inactive?
+
+
+[04/03/2021 9:10 PM] glasgowm#9381
+Due out anyday now
+
+{Reactions}
+🤩 
+
+[04/03/2021 9:23 PM] c8e4d2a#9854
+last commit is 5 month ago, does that mean the project is on hold currently?
+
+
+[04/03/2021 9:32 PM] glasgowm#9381
+Wrong repo
+
+
+[04/03/2021 9:34 PM] glasgowm#9381
+https://github.com/Emurgo/yoroi-frontend/tree/develop/packages/yoroi-ergo-connector
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/tree/develop/packages/yoroi-ergo-connector
+Emurgo/yoroi-frontend
+Yoroi Wallet - Cardano ADA Wallet - Your gateway to the financial world (extension frontend) - Emurgo/yoroi-frontend
+https://images-ext-2.discordapp.net/external/1e-t5s_ozw_GZmUTfYYzwoz8bRKHKNjtEbS_wtELy0o/https/repository-images.githubusercontent.com/144911693/91963f00-7e7f-11e9-9385-4f7404177cf6
+
+
+[04/03/2021 10:47 PM] c8e4d2a#9854
+thanks
+
+
+[04/04/2021 2:46 AM] Dergler#0451
+looks like the connector is done?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/828083137456242698/unknown.png
+
+{Reactions}
+👀 (2) 
+
+[04/04/2021 5:06 AM] Dergler#0451
+and waiting on release
+
+
+[04/04/2021 3:52 PM] glasgowm#9381
+Yeh I think its in alpha/dev testing right now
+
+
+[04/04/2021 3:52 PM] glasgowm#9381
+Hopefully public release soon 👀
+
+
+[04/04/2021 3:53 PM] glasgowm#9381
+ErgoSwap will work with it on launch too ❤️
+
+{Reactions}
+😆 🤘 👨‍🔬 
+
+[04/04/2021 4:18 PM] Dergler#0451
+I haven't been up to date on ergoswap, will it have ada/erg pair?
+
+
+[04/04/2021 4:25 PM] Foeniculum#3278
+I asked the same question, was answered that ADA needs smart contracts to make that happen
+
+
+[04/05/2021 9:09 PM] kushti#0978
+@Sebastien any news on on the connector ?
+
+{Reactions}
+🤞 (2) 
+
+[04/05/2021 11:04 PM] Sebastien#0653
+https://github.com/Emurgo/yoroi-frontend/pull/2014
+this is the last main PR I want
+
+there will be some UI tweaks afterwards, but functionality-wise it will be done
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/pull/2014
+Use db copy for connector popup page by SebastienGllmt · Pull Reque...
+This PR does a few things:
+
+This allows us to properly fetch token information from the server to show on the signing page
+Change the UnsignedInput to include the full box JSON so that we can show ...
+https://images-ext-2.discordapp.net/external/1e-t5s_ozw_GZmUTfYYzwoz8bRKHKNjtEbS_wtELy0o/https/repository-images.githubusercontent.com/144911693/91963f00-7e7f-11e9-9385-4f7404177cf6
+
+
+[04/05/2021 11:06 PM] Sebastien#0653
+once this PR is merged I'll push an update to the nightly connector build we have and then share the links
+
+
+[04/06/2021 4:01 AM] Karen094#8565
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/828826638271512632/218.png
+
+
+[04/06/2021 4:01 AM] Karen094#8565
+Yesterday my yoroi wallet become blank. It shows 0 balance. I tried to resync it and restore but without success.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/828826650790723584/216_LI.jpg
+
+
+[04/06/2021 6:03 AM] Karen094#8565
+Several people are facing this issue too.
+
+
+[04/06/2021 7:39 AM] Deleted User#0000
+Got the same issue.
+
+
+[04/06/2021 9:36 AM] anon_real#2768
+Having the same issue. @Sebastien
+
+
+[04/06/2021 9:37 AM] Sebastien#0653
+hmm strange. We didn't change any code and it works for me 🤔
+
+
+[04/06/2021 9:42 AM] anon_real#2768
+For me, it stopped syncing new transactions yesterday. Today, I did a resync and it is completely wrong now, it shows 0 as my balance.
+
+
+[04/06/2021 9:50 AM] Deleted User#0000
+It stopped synching. People sended ERG in the wallet and when it didn't update we all forced the sync and it showed 0 afterwards. Even when new ERG got send afterwards
+
+
+[04/06/2021 9:51 AM] Deleted User#0000
+this is what you see in the overview:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/828914827439243294/unknown.png
+
+
+[04/06/2021 9:52 AM] Deleted User#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/828914954995761192/unknown.png
+
+
+[04/06/2021 9:52 AM] Deleted User#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/828915005507502100/unknown.png
+
+
+[04/06/2021 9:52 AM] Sebastien#0653
+hmm. We'll try and investigate but nobody on our team can reproduce the issue
+
+
+[04/06/2021 9:53 AM] Deleted User#0000
+I personally even removed the wallet and restored the wallet. But it stays the same.
+
+
+[04/06/2021 9:59 AM] Deleted User#0000
+https://explorer.ergoplatform.com/en/addresses/9hsMtdDDF9GoriqduxRdx8gJnn1iFTB8QkUpcpu23YuC8WwmAPB  is just one of the adresses i used
+
+
+[04/06/2021 10:29 AM] anon_real#2768
+Solved for me just now.
+
+
+[04/06/2021 10:32 AM] Karen094#8565
+For me too
+
+
+[04/06/2021 10:56 AM] Deleted User#0000
+solved
+
+
+[04/06/2021 7:59 PM] Sebastien#0653
+yeah we resynced our nodes so one of them must have been in a bad state
+
+
+[04/10/2021 10:21 AM] teppi#8003
+ergo yoroi wallet is too slow, how to fix this?
+
+
+[04/10/2021 10:31 AM] ®™-vale-™®#5415
+same here
+
+
+[04/10/2021 12:03 PM] Ilya | Spectrum#0494
+@Sebastien, in case these performance issues have something to do with the explorer backend please let me know
+
+
+[04/10/2021 9:15 PM] Sebastien#0653
+is it still slow for you now? Every time I read somebody saying things are being a little slow, it's automatically resolved by the time I see the message 🤔
+
+
+[04/10/2021 9:37 PM] Foeniculum#3278
+Sorry to hijack this convo, but my wallet has been showing this for about 15 hours now - should I get worried?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/830542136033542225/unknown.png
+
+
+[04/10/2021 9:38 PM] Foeniculum#3278
+I don't have 0 ERG btw, it just shows I have 0 ERG
+
+
+[04/10/2021 9:38 PM] Sebastien#0653
+did your txs get rolled back? You can check on the explorer to see if those txs still exist
+
+
+[04/10/2021 9:39 PM] Foeniculum#3278
+I opened Yoroi again after reading your message, and instead of "failed", all of the transactions were "low". I waited 2 seconds, and now it's back to normal
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/830542554205519902/unknown.png
+
+
+[04/10/2021 9:40 PM] Sebastien#0653
+yeah so probably one of your transactions got rolled back and so Yoroi rolls back your tx history as well and then re-syncs
+
+
+[04/10/2021 9:40 PM] Foeniculum#3278
+I'm gonna pretend I understood what you said and go on my marry way haha sorry for bothering you and thanks for the help!
+
+
+[04/11/2021 1:47 AM] teppi#8003
+Which browser are you using?
+
+
+[04/11/2021 8:53 AM] teppi#8003
+i use chrome, and always wait for long time
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/830712254425071616/Screenshot_1.png
+
+
+[04/11/2021 8:54 AM] Sebastien#0653
+could you try going to
+settings > support > logs
+and sharing the logs with me (via DM is best) to see if maybe I can figure out what the problem is?
+
+
+[04/13/2021 4:08 AM] JKleinne#7947
+yea same here for me. the ADA wallet works flawlessly but the ERG wallet for some reason is unresponsive 80% of the time
+
+
+[04/13/2021 4:08 AM] JKleinne#7947
+logs doesn't indicate that there has been any error
+
+
+[04/13/2021 4:09 AM] teppi#8003
+Yes if your wallet connect to a pool
+
+
+[04/13/2021 4:09 AM] teppi#8003
+It has 100 transactions to address
+
+
+[04/13/2021 4:10 AM] teppi#8003
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/831365681940660275/image0.jpg
+
+
+[04/13/2021 4:11 AM] JKleinne#7947
+awesome, thanks for the info
+
+
+[04/14/2021 7:42 AM] Dergler#0451
+@Sebastien I saw your proposal in Catalyst, and I think it's a great and definitely has a high chance of success, but I urge you to reconsider what challenge you are submitting it under. when it comes for assessments this is very important. I'm newer to the crypto world but as a community advisor one of my jobs in catalyst is to help out where I can, and I think your proposal would better fit under Dapps challenge. the dev ecosystem it's currently under is more about making the dev environment better, and the yoroi connector has real utility that it would provide to the end users.
+
+
+[04/14/2021 8:00 AM] Sebastien#0653
+ah fk I messed up the category for two of our proposals and you can't edit the category of a submitted proposal :/
+
+
+[04/14/2021 8:00 AM] Sebastien#0653
+what is the best solution? Delete this proposal and re-submit a new one in the correct category? Or can mods move the category for us?
+
+
+[04/14/2021 8:01 AM] Dergler#0451
+Marek? Sec I’ll get you instructions. 🙏
+
+
+[04/14/2021 8:01 AM] Dergler#0451
+@sebastien
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/831786345407971328/image.png
+
+
+[04/14/2021 8:02 AM] Dergler#0451
+@Sebastien
+
+{Reactions}
+🙏 
+
+[04/14/2021 8:08 AM] Dergler#0451
+Your team isn’t the only one that does this, it seems to be a bigger issue.
+
+
+[04/14/2021 8:09 AM] Dergler#0451
+Hope I helped
+
+
+[04/14/2021 10:26 AM] Busata#9432
+if I'm trying to withdraw from hotbit to yoroi, I only see that the "erg" blockchain is available, the withdrawal failed, so can I assume I need to transfer it to a private ergo node first & then get it to that wallet somehow?
+
+
+[04/14/2021 10:32 AM] Busata#9432
+or is it just hotbit shenanigans?
+
+
+[04/14/2021 5:14 PM] Dergler#0451
+not sure what you mean by this, do you have an ERG wallet in yoroi? yoroi can have ADA and ERG.
+
+
+[04/14/2021 6:52 PM] Busata#9432
+nvm, it's just hotbit being tiring I think
+
+
+[04/14/2021 6:53 PM] Busata#9432
+3 days now I've been trying to transfer erg to my yoroi wallet
+
+
+[04/15/2021 6:18 PM] anon_real#2768
+@Sebastien is there any working example of how to use dApp connector in dApps?
+
+
+[04/15/2021 6:18 PM] anon_real#2768
+For developers I mean.
+
+
+[04/15/2021 6:18 PM] Sebastien#0653
+https://github.com/Emurgo/yoroi-frontend/tree/develop/packages/yoroi-ergo-connector/example
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/tree/develop/packages/yoroi-ergo-connector/example
+Emurgo/yoroi-frontend
+Yoroi Wallet - Cardano ADA Wallet - Your gateway to the financial world (extension frontend) - Emurgo/yoroi-frontend
+https://images-ext-2.discordapp.net/external/1e-t5s_ozw_GZmUTfYYzwoz8bRKHKNjtEbS_wtELy0o/https/repository-images.githubusercontent.com/144911693/91963f00-7e7f-11e9-9385-4f7404177cf6
+
+
+[04/15/2021 6:18 PM] anon_real#2768
+Nice, thanks a lot!
+
+
+[04/15/2021 6:18 PM] Sebastien#0653
+the example could be improved
+
+
+[04/15/2021 6:19 PM] Sebastien#0653
+also be careful since the example sends your ERG balance to an address
+
+{Reactions}
+👍 
+
+[04/16/2021 1:38 PM] anon_real#2768
+@Sebastien what should I do in my app to be able to have access to dApp connector's functionalities like simply `ergo_request_read_access`? seems like the only ergo-related dependency in the example you provided is  `ergo-lib-wasm-browser` 
+Sorry for the noob question )
+
+
+[04/16/2021 1:40 PM] Sebastien#0653
+Yes. `ergo_request_read_access` is injected into the page by the dApp connector
+
+
+[04/16/2021 1:41 PM] Sebastien#0653
+https://github.com/Emurgo/yoroi-frontend/blob/develop/packages/yoroi-ergo-connector/src/inject.js
+
+you can look at this file to see what functions get injected into the web page
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/blob/develop/packages/yoroi-ergo-connector/src/inject.js
+Emurgo/yoroi-frontend
+Yoroi Wallet - Cardano ADA Wallet - Your gateway to the financial world (extension frontend) - Emurgo/yoroi-frontend
+https://images-ext-2.discordapp.net/external/1e-t5s_ozw_GZmUTfYYzwoz8bRKHKNjtEbS_wtELy0o/https/repository-images.githubusercontent.com/144911693/91963f00-7e7f-11e9-9385-4f7404177cf6
+
+
+[04/16/2021 1:44 PM] anon_real#2768
+It is injected automatically?
+Because I'm getting `'ergo_request_read_access' is not defined  no-undef`
+
+
+[04/16/2021 1:47 PM] Sebastien#0653
+it's injected as long as you have the dApp connector extension installed
+
+
+[04/16/2021 1:48 PM] anon_real#2768
+I have it and the example you provided works just fine
+
+
+[04/16/2021 2:15 PM] anon_real#2768
+My bad, it was eslint error. works now
+
+{Reactions}
+🎉 
+
+[04/22/2021 1:16 PM] Karen094#8565
+Hi, I'm experiencing horrific lags with yoroi wallet in transaction history. I tried to wait until it ends up lagging but it crashed. Logs are attached.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/834764551055999010/2021-04-22T17_12_0305_00-yoroi.log
+
+
+[04/23/2021 3:22 PM] kushti#0978
+@Sebastien ^
+
+
+[04/23/2021 3:22 PM] Sebastien#0653
+it's because you're on an old version of Yoroi
+
+
+[04/23/2021 3:22 PM] Sebastien#0653
+update to the latest version (4.3.2)
+
+
+[04/23/2021 7:20 PM] Karen094#8565
+Thanks. It worked for me.
+
+
+[05/02/2021 8:42 AM] wkholi#5094
+can you stake ERGO on Yori?
+
+
+[05/02/2021 11:01 AM] southeast#7790
+No Ergo is proof of work not proof of stake.
+
+
+[05/02/2021 11:26 AM] Deleted User#0000
+You can use erg to provide liquidity to Coinex AMM pool if you’re looking to put your erg to work. Just research impermanent loss before making a big deposit
+
+
+[05/04/2021 2:24 AM] Chris Ray#2713
+I feel a disturbance in the force, who is going to be picking up where @Sebastien leaves off @ Emurgo?
+
+
+[05/04/2021 2:25 AM] Sebastien#0653
+I'll make sure the existing tasks like the connector integration get done
+
+
+[05/04/2021 2:28 AM] Chris Ray#2713
+I wish you the best Seb, I have thoroughly enjoyed your contributions and look forward to your success in the future, great things await you
+
+
+[05/04/2021 2:24 PM] glasgowm#9381
+https://explorer.ergoplatform.com/en/addresses/9fLarG9A2StUc3KipQvvSTpsiDUULfSAqJ1fF5H7fjXJJ3QeoaX
+
+Seems to be out-of-sync with what yoroi is displaying for them. I've told them to try reinstalling/restoring
+
+
+[05/04/2021 2:24 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/839130323157254235/unknown.png
+
+
+[05/04/2021 2:24 PM] glasgowm#9381
+and no sig visible from the send tab under that wallet
+
+
+[05/04/2021 3:00 PM] glasgowm#9381
+nope, didn't work even when restoring on a new PC
+
+
+[05/04/2021 9:35 PM] Deleted User#0000
+I tried sending some ERG to the same UTXO where the RSV is to try and get it 'unstuck' but no luck. Last idea would be to use the 'send all assets' option to try and get it to show.
+
+I've also been told that using a full node wallet would allow me access, but that's a bit above my knowledge level. :/
+
+
+[05/04/2021 11:56 PM] glasgowm#9381
+What about coinbarn?
+
+
+[05/04/2021 11:56 PM] Deleted User#0000
+Not familiar with coin barn, what’s that?
+
+
+[05/04/2021 11:58 PM] glasgowm#9381
+Another wallet
+
+
+[05/04/2021 11:58 PM] glasgowm#9381
+https://github.com/coinbarn/coinbarn-extension
+
+{Embed}
+https://github.com/coinbarn/coinbarn-extension
+coinbarn/coinbarn-extension
+Contribute to coinbarn/coinbarn-extension development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/hbwV5ubKI19gGNW2wey7xK_lC2aaQO14n9Zp9jK0a70/https/opengraph.githubassets.com/eefa5d503a1b1ba72e21cbecea3108e866b5bbee813c8419c21accef6d86b0df/coinbarn/coinbarn-extension
+
+
+[05/05/2021 12:00 AM] Deleted User#0000
+Didn’t even know there was one
+
+
+[05/05/2021 12:02 AM] Deleted User#0000
+I might try that, if send all doesn’t work
+
+
+[05/05/2021 11:25 AM] Deleted User#0000
+So, I’m considering coinbarn, but can’t find a lot of info on it. Are we sure it’s secure?
+
+
+[05/05/2021 3:30 PM] Deleted User#0000
+There is no coinbarn in the Chrome web store. So, still looking for a solution besides a full node here. Anyone from Yoroi have any ideas??
+
+
+[05/05/2021 3:36 PM] glasgowm#9381
+https://github.com/coinbarn/coinbarn-extension/blob/master/docs/add-to-chrome.md
+
+{Embed}
+https://github.com/coinbarn/coinbarn-extension/blob/master/docs/add-to-chrome.md
+coinbarn/coinbarn-extension
+Contribute to coinbarn/coinbarn-extension development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/hbwV5ubKI19gGNW2wey7xK_lC2aaQO14n9Zp9jK0a70/https/opengraph.githubassets.com/eefa5d503a1b1ba72e21cbecea3108e866b5bbee813c8419c21accef6d86b0df/coinbarn/coinbarn-extension
+
+
+[05/05/2021 6:09 PM] anon_real#2768
+@Sebastien @Robert K 
+This seems to be a bug in Yoroi. @Deleted User has 15000 SigRSV in his address (https://explorer.ergoplatform.com/en/addresses/9fLarG9A2StUc3KipQvvSTpsiDUULfSAqJ1fF5H7fjXJJ3QeoaX) but Yoroi doesn't show it even though it is synced.
+
+
+[05/06/2021 8:17 AM] Dmitry Usov#0134
+I’ve seen it before. Also, when the user submitted all their tokens, sigrsv did not go
+
+
+[05/06/2021 8:18 AM] Dmitry Usov#0134
+Idk what is this. But as I remember his have 2 transactions with the same amount, like 15000 in one and 15000 in second Txid.
+
+
+[05/06/2021 9:54 AM] Deleted User#0000
+Nah, there is only 1 tx with 15000 rsv. I’m going to try the ‘send all assets’ feature today and move everything to a new wallet. If that doesn’t work, I’ll try coinbarn with the old “empty” wallet to try and get the rsv. Just don’t want to use coinbarn on my main wallet until I’ve moved the funds
+
+
+[05/06/2021 10:09 AM] Dmitry Usov#0134
+Maybe problem with 15.000?))
+
+
+[05/06/2021 4:12 PM] Deleted User#0000
+I don't think it's a problem with the 15,000. It shows fine on chain and the transaction looks like any other from that contract. Just for some reason, Yoroi is not seeing all of the txs on that UTXO
+
+
+[05/06/2021 7:17 PM] Deleted User#0000
+ok. 'Send all Assets' didn't work. And neither does coinbarn. Not sure how to proceed. Any ideas short of trying to figure out how to run a full node wallet?
+
+
+[05/06/2021 7:42 PM] Deleted User#0000
+Would really appreciate some further help with this. If anyone has a full node, I will transfer my funds out of the wallet and send you the private key so you can try and send the 15k RSV. I know it's only $80 or whatever, but 20erg could be worth a lot more one day. 😛
+
+
+[05/07/2021 4:19 PM] glasgowm#9381
+@Dmitry Usov @anon_real @kushti any ideas? or is anyone still at emurgo active here?
+
+
+[05/07/2021 4:39 PM] Dmitry Usov#0134
+@Deleted User I can try at Sunday, if you give me your mnemonic
+
+
+[05/07/2021 4:40 PM] Deleted User#0000
+Ok, yeah I can do that
+
+
+[05/07/2021 4:40 PM] Dmitry Usov#0134
+Add me at the friends, please. Text at direct message.
+
+
+[05/07/2021 4:40 PM] Deleted User#0000
+Done. Thank you for your help. 🙂
+
+
+[05/07/2021 4:43 PM] Dmitry Usov#0134
+No problem. I will try to understand the problem also
+
+
+[05/07/2021 4:45 PM] Deleted User#0000
+Cool, maybe we can find something to prevent this from happening to anyone else. I will wait for your message on Sunday. 🙂
+
+
+[05/07/2021 7:14 PM] anon_real#2768
+@Deleted User I also have full nodes and can restore your funds (not safe to give your mnemonic to anyone though). Please pm me if you still need it.
+
+
+[05/07/2021 8:20 PM] Deleted User#0000
+Yeah, if I do - it will just be to recover the rsv and there won’t be any other erg on there.
+
+
+[05/07/2021 8:20 PM] Deleted User#0000
+I can make a new wallet for that.
+
+
+[05/08/2021 11:38 PM] kushti#0978
+@Deleted User @anon_real @glasgowm invited new Yoroi devs to this chat
+
+{Reactions}
+👏 
+
+[05/08/2021 11:39 PM] kushti#0978
+btw Ergo Wallet can be used as well I guess ?
+
+
+[05/08/2021 11:39 PM] kushti#0978
+It supports EIP-3
+
+
+[05/09/2021 8:30 AM] Deleted User#0000
+Thanks for your help Kushti. I think I’m just going to clean out the funds I can see in the wallet and send deadIt my mnemonic to recover the rest. 
+
+Unless you guys want me to help troubleshoot what’s causing this? I can if I can be helpful somehow
+
+
+[05/09/2021 8:37 AM] anon_real#2768
+Can you please tag them so we know them?
+
+
+[05/09/2021 8:37 AM] anon_real#2768
+Also, who is working on the connector?
+
+
+[05/09/2021 5:09 PM] Chiron#5824
+Meu sonho é ter um discord com canal de assunto ERGO e YOROI com idioma em português Brasil
+
+
+[05/09/2021 8:01 PM] glasgowm#9381
+#🇵🇹│português
+
+{Reactions}
+👍 
+
+[05/10/2021 1:13 PM] Deleted User#0000
+Did we want me to try anything other than sending my mnemonic to @Dmitry Usov ?
+I don’t mind troubleshooting if there’s anything I can do to help. Just wanna get my rsv redeemed while all the drama with whale is happening
+
+
+[05/10/2021 1:25 PM] anon_real#2768
+@Deleted User You still have the problem?
+
+
+[05/10/2021 1:25 PM] anon_real#2768
+Please DM me your mnemonic.
+
+
+[05/10/2021 1:31 PM] anon_real#2768
+But please understand that this is not safe )
+I'm just trying to help and you shouldn't use this wallet ever again after.
+
+
+[05/10/2021 2:00 PM] Deleted User#0000
+Yeah, I do. Ok I will DM you that in an hour or so
+
+
+[05/10/2021 3:50 PM] Deleted User#0000
+Yeah, I already transferred all of my ERG to a different wallet and won't use this one again. I appreciate your help. Sending you the mnenomic now
+
+
+[05/10/2021 6:52 PM] anon_real#2768
+@Deleted User sent you your SigRSV, check DM.
+
+{Reactions}
+👍 
+
+[05/10/2021 6:56 PM] Deleted User#0000
+Thanks man. Much appreciated!
+
+{Reactions}
+👍 
+
+[05/11/2021 11:50 AM] glasgowm#9381
+what are their usernames?
+
+
+[05/12/2021 3:27 AM] Dergler#0451
+so do we have new yoroi support?
+
+
+[05/12/2021 6:21 PM] Dmitry Usov#0134
+coinbarn/ ergo-node-interface
+
+
+[05/12/2021 10:14 PM] glasgowm#9381
+There is a yoroi dApp connecter in public beta
+
+
+[05/13/2021 12:05 AM] NFTMASTER#9178
+This is huge
+
+
+[05/13/2021 2:17 PM] Deleted User#0000
+When will Yoroi on mobile support on Ergo?
+
+
+[05/13/2021 5:50 PM] Deleted User#0000
+Are there any plans for this at all?
+
+
+[05/13/2021 7:19 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/842465999332704306/unknown.png
+
+
+[05/15/2021 11:23 AM] Armeanio#0321
+Yoroi is in serious need of multistage verification specifically related to that send all feature.
+
+It's problematic for users at the moment. They need to be protected from themselves. 
+
+ Exchanges are not being very friendly reversing unsupported native assets. 
+
+Imo, It's like a launch button without a safety cover. Clumsy users are creating a lot of problems here.
+
+{Reactions}
+🚀 (3) ☝️ (3) 
+
+[05/15/2021 1:33 PM] Canberry#7404
+if you send enough ergo to the exchanges they’ll have to add it
+
+
+[05/15/2021 1:34 PM] Canberry#7404
+https://tenor.com/view/think-about-it-use-your-brain-use-the-brain-think-brain-gif-7914082
+
+{Embed}
+https://tenor.com/view/think-about-it-use-your-brain-use-the-brain-think-brain-gif-7914082
+https://images-ext-2.discordapp.net/external/inL7MYZkGV5qtmj14SceQyYquY_w6ktJ8rz6YfXN-V4/https/media.tenor.co/images/834b86b5aeb0959a15d026f380fc942c/tenor.png
+
+
+[05/17/2021 4:34 PM] andee#4722
+any news on the dapp connector?
+
+
+[05/18/2021 11:48 AM] Boopop#8411
+I've set up yoroi and I'm mining with the herominers pool. What's the steps to actually sell ergo? Thanks
+
+
+[05/18/2021 11:49 AM] Boopop#8411
+Not necessarily planning on doing it any time soon, just want to check
+
+
+[05/18/2021 12:06 PM] killawatt#4708
+best way to sell ERG is to not sell at all
+
+
+[05/18/2021 12:07 PM] Boopop#8411
+That's not very helpful
+
+
+[05/18/2021 12:09 PM] glasgowm#9381
+Send to coinex from yoroi, sell.
+
+
+[05/18/2021 12:10 PM] glasgowm#9381
+or send to sigmausd and mint stablecoins
+
+
+[05/18/2021 12:16 PM] Boopop#8411
+thanks @glasgowm . Is there a way to link my yoroi wallet to koinly for tax purposes? After selecting Yoroi I can't find the Ergo coin :
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/844171484448161813/unknown.png
+
+
+[05/18/2021 12:16 PM] Boopop#8411
+Or is it cardano?
+
+
+[05/18/2021 12:17 PM] glasgowm#9381
+Not sure what koinly is - but probably just cardano. We were much smaller a few months ago so this stuff is all on the way now 🙂
+
+
+[05/18/2021 12:17 PM] Boopop#8411
+Just keeps track of my wallets essentially
+
+
+[05/18/2021 12:17 PM] Boopop#8411
+thanks
+
+
+[05/18/2021 1:34 PM] WARLORD#1937
+How come when expanding a receive transaction in yoroi, there's alot of entries under it with different amounts?
+
+
+[05/18/2021 2:05 PM] Dergler#0451
+Because this is UTXO
+
+{Reactions}
+👍 (2) 
+
+[05/18/2021 2:58 PM] andee#4722
+Why am I unable to send SigUSD with yoroi?
+
+
+[05/18/2021 3:02 PM] andee#4722
+resynced wallet then it worked
+
+
+[05/20/2021 7:29 AM] teppi#8003
+Yoroi is too slow when connected to miner pool. How to fix that?
+
+
+[05/20/2021 11:29 AM] andee#4722
+@teppi Yoroi is not used to connect to a mining pool...
+
+
+[05/20/2021 11:43 AM] glasgowm#9381
+I think he means pool payments. The small tx can overload Yoroi, I think one of the @Yoroi dev's commented on it in this channel a while ago @teppi
+
+
+[05/20/2021 11:46 AM] andee#4722
+Aah, that makes more sense. I thought small tx's was usually a problem with hardware wallets
+
+
+[05/20/2021 11:52 AM] andee#4722
+if one recieves many small transactions, can it be fixed by sending the whole amount in the wallet to myself?
+
+
+[05/21/2021 8:09 AM] teppi#8003
+Yes, and now its overload yoroi,  i can not view and send ergo to other wallet. How can i fix this?
+
+
+[05/22/2021 1:00 PM] Dmitry Usov#0134
+If you do not want overload yoroi, just send erg from your address to your address.
+
+
+[05/22/2021 1:00 PM] Dmitry Usov#0134
+@teppi
+
+
+[05/22/2021 1:00 PM] Dmitry Usov#0134
+For now, you can restore your wallet at full node or coinbarn extension in chrome
+
+
+[05/22/2021 1:16 PM] teppi#8003
+Does Full node can restore 15 phase word key from yoroi?
+
+
+[05/22/2021 1:22 PM] teppi#8003
+Now i can not open my yoroi wallet even restore to new browser.
+
+
+[05/22/2021 1:23 PM] Dmitry Usov#0134
+Yes
+
+
+[05/22/2021 1:25 PM] teppi#8003
+Thanks, i will try
+
+
+[05/24/2021 1:36 AM] nitram147#5106
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/846184765366730822/unknown.png
+
+
+[05/24/2021 1:36 AM] nitram147#5106
+The "buy/sell ada" button definitely shouldn't be in the ergo version of yoroi 😄
+
+
+[05/26/2021 8:01 PM] andee#4722
+there is some weird bug with a coinex deposit address that permanently messes up yoroi for some users
+
+
+[05/26/2021 8:02 PM] andee#4722
+who is able to look at this?
+
+
+[05/26/2021 8:04 PM] andee#4722
+@kushti
+
+
+[05/26/2021 10:43 PM] geezar#8187
+https://github.com/Emurgo/yoroi-frontend/issues/2108
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/issues/2108
+ERG Yoroi stops working after inputting this address and does not w...
+So on discord someone came on and asked why this address was not valid when he inputted it when wanting to send ERG. I was like &quot;Hmm okay let me see why this isn&#39;t working&quot...
+https://images-ext-1.discordapp.net/external/EOfnWof3535a-C50LpOEYlrJdgaW7nOrUSxtB9bBzEE/https/opengraph.githubassets.com/3d3228eb23b484a5abec6a73c38e9b020def2e3dc15f75167289b1e994cdb73f/Emurgo/yoroi-frontend/issues/2108
+
+
+[05/26/2021 10:43 PM] geezar#8187
+Is this affecting a lot of people?
+
+
+[05/26/2021 10:47 PM] verioxn#7730
+@geezar I just signed up to discord to find more information on this. My wallet got screwed up too and is stuck syncing/gives a similar error message in the log
+
+{Reactions}
+😱 
+
+[05/26/2021 10:52 PM] geezar#8187
+sorry to hear that - have you approached the Dev team from yoroi via github ?
+
+
+[05/26/2021 10:52 PM] geezar#8187
+perhaps they are on here too - just noticed that post and curious
+
+
+[05/26/2021 10:56 PM] verioxn#7730
+About to submit an issue through github.
+
+
+[05/26/2021 10:57 PM] HeyI'mGary#5435
+Does Yoroi have a discord
+
+
+[05/26/2021 10:57 PM] Dergler#0451
+don't think so, since it's a product of EMURGO and not a community thing.
+
+
+[05/26/2021 10:58 PM] HeyI'mGary#5435
+I reached out to their support on both Twitter and through their website
+
+
+[05/26/2021 10:59 PM] Dergler#0451
+the best contact we had (Sebastien) at EMURGO for wallet support left. we're supposed to be getting new people to work with but honestly I haven't seen them around yet. hopefully this gets seen.
+
+
+[05/26/2021 11:02 PM] verioxn#7730
+Just submitted my issue: https://github.com/Emurgo/yoroi-frontend/issues/2109
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/issues/2109
+Yoroi stuck syncing · Issue #2109 · Emurgo/yoroi-frontend
+Yoroi Wallet on Firefox, ERG balance wouldn&#39;t update so I tried to re-sync my wallet to the blockchain. The wallet has been stuck syncing and the logs show an error has occurred. I removed ...
+https://images-ext-2.discordapp.net/external/02AViuARrMhhnbBqa5FBgCpW8LSQYrDn7zR5a8s3JBQ/https/opengraph.githubassets.com/1cdd82720b9f6dd28fb7c9e0a94f12ebd0e7a583423f23b0826d68de5cf81ece/Emurgo/yoroi-frontend/issues/2109
+
+
+[05/27/2021 12:32 AM] damison#3013
+i came here for this exact reason
+
+
+[05/27/2021 12:32 AM] damison#3013
+just nothing
+
+
+[05/27/2021 12:38 AM] pedjav#4494
+I have similar problem
+
+{Reactions}
+🇸 (5) 🇦 (5) 🇲 (5) 🇪 (5) 
+
+[05/27/2021 12:41 AM] Degen#1684
+Yeha i dont know if my funds didnt come through or im just stuck syncing
+
+
+[05/27/2021 12:50 AM] damison#3013
+i been mining and using the wallet for the last month
+
+
+[05/27/2021 12:50 AM] damison#3013
+no issue
+
+
+[05/27/2021 12:52 AM] damison#3013
+are the nodes down? my wallet just says never synched now womp womp
+
+
+[05/27/2021 12:56 AM] Degen#1684
+Hey if it doesnt work for you just resync the wallet on edge
+
+
+[05/27/2021 12:56 AM] Degen#1684
+Edge browser
+
+
+[05/27/2021 12:56 AM] Degen#1684
+did the trick for me
+
+
+[05/27/2021 1:08 AM] damison#3013
+you the champ
+
+
+[05/27/2021 1:13 AM] Degen#1684
+haha no problem mate ❤️
+
+
+[05/27/2021 1:25 AM] glasgowm#9381
+@Yoroi
+
+
+[05/27/2021 1:48 AM] verioxn#7730
+@Degen can confirm that totally works. Thanks!
+
+
+[05/27/2021 1:49 AM] Degen#1684
+haha no problem brother 🤙
+
+
+[05/27/2021 1:52 AM] Foeniculum#3278
+Having issues with sending ERG between 2 Yoroi wallets.
+When the person who's trying to send me ERG pastes my address, it says that it's not a valid address (despite it being the correct one)
+
+
+[05/27/2021 1:58 AM] Degen#1684
+you can create infinite wallet addresse @Foeniculum
+
+
+[05/27/2021 1:58 AM] Degen#1684
+try making a new one
+
+
+[05/27/2021 2:01 AM] ChrisRey3156#4211
+This worked, thank you.
+
+
+[05/27/2021 2:01 AM] Foeniculum#3278
+Already tried
+
+
+[05/27/2021 2:01 AM] Foeniculum#3278
+the issue is not the address(es), it's Yoroi 😦
+
+
+[05/27/2021 2:04 AM] Degen#1684
+haha no problem
+
+
+[05/27/2021 2:04 AM] Degen#1684
+jeez idk man good luck
+
+{Reactions}
+🙏 
+
+[05/27/2021 2:05 AM] ChrisRey3156#4211
+Well I got to see the true balance, but the extension in Edge keeps crashing now. Imma just leave it alone for a while. Assuming the payouts will still occur
+
+
+[05/27/2021 2:05 AM] Degen#1684
+jeez to be honest im hodling the coin for a long time i just wanted to assure my coins are safe haha
+
+
+[05/27/2021 3:26 AM] engchitchat#4843
+I'm having the same problem. I'm trying to send ERG to an exchange address that I've used before.
+
+
+[05/27/2021 5:40 AM] Hoff#8353
+https://www.reddit.com/r/ethdev/comments/nlrmup/chrome_91_breaks_ledger_support_of_metamask_dont/
+
+{Embed}
+https://www.reddit.com/r/ethdev/comments/nlrmup/chrome_91_breaks_ledger_support_of_metamask_dont/
+r/ethdev - Chrome 91 breaks Ledger support of MetaMask. Don't updat...
+21 votes and 8 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/dzFLhMzI0nBnYHrgAjuh7iO5GqhsvodV51QmPMNb1B0/%3Fauto%3Dwebp%26s%3D5b36b0c978658da7db7e8393ddc726fcdf2747eb/https/external-preview.redd.it/6GJ3sZENslBoe2T1lGoeQltmdykmfXm5nJwoKJU901M.jpg
+
+
+[05/27/2021 5:40 AM] Hoff#8353
+hmmmm
+
+
+[05/27/2021 5:54 AM] teppi#8003
+Have any other wallet developing?
+
+
+[05/27/2021 5:54 AM] teppi#8003
+Yoroi is not good
+
+
+[05/27/2021 5:55 AM] teppi#8003
+Bad experience
+
+
+[05/27/2021 5:56 AM] teppi#8003
+I creat new wallet and very slow
+
+
+[05/27/2021 6:23 AM] Hoff#8353
+yoroi has been fine for me except for recently
+
+
+[05/27/2021 6:23 AM] Hoff#8353
+i hope so because it's sad when you only have 1 real user friendly option
+
+
+[05/27/2021 6:24 AM] Hoff#8353
+to send money XD
+
+
+[05/27/2021 6:24 AM] iamm#1412
+I created an address on teh mobile Yoroi wallet.  It looks like an ada address (and see no options for creating an ERG specific address).  Is this normal? Or should I be using the browser version?
+
+
+[05/27/2021 6:45 AM] Hoff#8353
+yes there is no erg support for the mobile
+
+
+[05/27/2021 6:45 AM] Hoff#8353
+@iamm
+
+
+[05/27/2021 6:47 AM] iamm#1412
+I feel like banging my head against the wall 😛
+
+Will go for the browser version next.
+
+
+[05/27/2021 6:51 AM] Hoff#8353
+😦 yeah
+
+
+[05/27/2021 7:01 AM] ®™-vale-™®#5415
+hello my yoroy last sync 4 days ago what need to do for sync?
+
+
+[05/27/2021 7:01 AM] ®™-vale-™®#5415
+chrome wallet
+
+
+[05/27/2021 7:03 AM] ®™-vale-™®#5415
+https://prnt.sc/13gtxry i try resync wallet but nothing
+
+{Embed}
+https://prnt.sc/13gtxry
+Screenshot
+Captured with Lightshot
+https://images-ext-1.discordapp.net/external/A0z-5SUGFegazZ-CMNGs8mQjFEhT5DeW7KM6-JrXRjI/https/image.prntscr.com/image/LoARzhp-RfKqX9z1kTBenQ.png
+
+
+[05/27/2021 7:05 AM] iamm#1412
+@Hoff Thanks for the info, I was finally ale to get myself an ERG wallet.  I think I tried out every wallet in the list too :/
+
+
+[05/27/2021 7:05 AM] Hoff#8353
+Lol np
+
+
+[05/27/2021 7:05 AM] Hoff#8353
+You have to use microsoft edge sadly
+
+
+[05/27/2021 7:06 AM] Hoff#8353
+Not sure why but something broken :\
+
+
+[05/27/2021 7:06 AM] ®™-vale-™®#5415
+are safe my coin?
+
+
+[05/27/2021 7:06 AM] Hoff#8353
+Yeah
+
+
+[05/27/2021 7:06 AM] iamm#1412
+so... my chrome wallet will break? 😭
+
+
+[05/27/2021 7:06 AM] Hoff#8353
+Yeah just use edge for now
+
+
+[05/27/2021 7:06 AM] Hoff#8353
+Lots of people having this issue
+
+
+[05/27/2021 7:06 AM] Hoff#8353
+Definitely need more wallet development
+
+
+[05/27/2021 7:06 AM] Hoff#8353
+Can't have one wallet breaking :\ and being stuck without any other options
+
+
+[05/27/2021 7:06 AM] ®™-vale-™®#5415
+but in future resolv the problem?
+
+
+[05/27/2021 7:07 AM] iamm#1412
+here I was thinking I was finally finished 😛  At least the addy is made.
+
+
+[05/27/2021 7:07 AM] Hoff#8353
+Yeah
+
+
+[05/27/2021 7:07 AM] Hoff#8353
+It's just a the wallet software issue
+
+
+[05/27/2021 7:07 AM] Hoff#8353
+not with the chain
+
+
+[05/27/2021 7:36 AM] ®™-vale-™®#5415
+yep edge is ok crhome heave old version
+
+{Reactions}
+💯 
+
+[05/27/2021 8:46 AM] geezar#8187
+Wallet not sync in 23 hours.... ffs...
+
+
+[05/27/2021 8:52 AM] geezar#8187
+Confirmed EDGE restore works 👍 , CHROME does not sync (23 hours now) 💩
+
+
+[05/27/2021 8:58 AM] geezar#8187
+Edge.... now blank page post sync - really bad experience, must look at other options...
+
+
+[05/27/2021 8:58 AM] geezar#8187
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/847383356681224222/unknown.png
+
+
+[05/27/2021 9:37 AM] geezar#8187
+Edge working for others?
+
+
+[05/27/2021 9:47 AM] anon_real#2768
+My Yoroi wallet also doesn't sync.
+
+
+[05/27/2021 9:56 AM] teppi#8003
+No developer for yoroi now?
+
+
+[05/27/2021 10:14 AM] geezar#8187
+15 mins - refreshing and UI came back... I'm now focused on getting my ERG anywhere other than on this wallet....
+
+
+[05/27/2021 10:27 AM] Deleted User#0000
+My yoroi wallet isn't syncing on chrome? Any means to force it?
+
+
+[05/27/2021 10:31 AM] Ilya | Spectrum#0494
+Yoroi team is fixing the problem
+https://github.com/Emurgo/yoroi-frontend/issues/2109
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/issues/2109
+Yoroi stuck syncing · Issue #2109 · Emurgo/yoroi-frontend
+Yoroi Wallet on Firefox, ERG balance wouldn&#39;t update so I tried to re-sync my wallet to the blockchain. The wallet has been stuck syncing and the logs show an error has occurred. I removed ...
+https://images-ext-1.discordapp.net/external/owGkqgOuPLKIeYFww9zMnqSn9CJC5q5iH_1mDm1_bPE/https/opengraph.githubassets.com/584036fa4d35e1c311ddd3af3a02c4ac1a8f2f67ee29db8dd886dbbb3abd5e43/Emurgo/yoroi-frontend/issues/2109
+
+
+[05/27/2021 10:32 AM] Ilya | Spectrum#0494
+@Yoroi, guys, why aren't you providing updates to your community yourself?
+
+
+[05/27/2021 10:34 AM] Deleted User#0000
+That's on firefox, I've been having chrome sync issues all day
+
+
+[05/27/2021 10:35 AM] Ilya | Spectrum#0494
+Please comment the issue
+
+
+[05/27/2021 11:11 AM] Dmitry Usov#0134
+https://github.com/Emurgo/yoroi-frontend/issues/2109 resolved, please update your wallet
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/issues/2109
+Yoroi stuck syncing · Issue #2109 · Emurgo/yoroi-frontend
+Yoroi Wallet on Firefox, ERG balance wouldn&#39;t update so I tried to re-sync my wallet to the blockchain. The wallet has been stuck syncing and the logs show an error has occurred. I removed ...
+https://images-ext-1.discordapp.net/external/zmyjqDO9JI7LxN-rsb-i2FMGoGYiM3aEWnGKnHHHn-A/https/opengraph.githubassets.com/4154b04171dfed0f4ea347e1f0eabde8a353301b325a11636db0c4310557aedb/Emurgo/yoroi-frontend/issues/2109
+
+{Reactions}
+👍 (3) 
+
+[05/27/2021 12:09 PM] geezar#8187
+@Dmitry Usov thanks for sharing - Chrome when re-opening the browser sync worked. Moving to a node however now personally
+
+
+[05/27/2021 1:46 PM] anon_real#2768
+@Ilya | Spectrum @greenhat I get the following error when trying to sign a tx with dApp connector:
+
+```{\"code\":-1,\"info\":\"Box invalid structure: {\\\"value\\\":200000000,\\\"ergoTree\\\":\\\"10100400040204000400041e04280101040004040400040204000e2035f2a7b17800bd28e0592559bccbaa65a46d90d592064eb98db0193914abb563040004000580b6dc05d805d601e4c6a70504d602c1a7d603e4c6a70605d604e4c6a7080ed605e4c6a7040ed1958fa37201d802d606b2a5730000d607b2a5730100edededededededededed93b2db63087206730200b2db6308a773030093c27206c2a792c172069a7202720393c27207720492c17207720293e4c67206040e720593e4c6720605049590997201a373049a72017305720193e4c672060605720393c67206090ec6a7090e93c67206070ec6a7070e7306d805d606b2db6501fe730700d607b2a5730800d6089d72027ee4c67206040405d609b2a5730900d60ab2a5730a00edededededed938cb2db63087206730b0001730c92c17207720893c27207e4c67206050e93b2db63087209730d00b2db6308a7730e0093c27209720492c1720a999972027208730f93c2720a7205\\\",\\\"assets\\\":[{\\\"tokenId\\\":\\\"d962db4637677c92e4cd6bccaebc87c6785a66618535f33bf867d5ce5898811c\\\",\\\"amount\\\":1}],\\\"additionalRegisters\\\":{\\\"R8\\\":\\\"0e240008cd031feaa43b3fcb6638cb19281b27a7df79dccf3715b26bd86e7d5d8406ddafb9ad\\\",\\\"R6\\\":\\\"058084af5f\\\",\\\"R5\\\":\\\"04eeb23d\\\",\\\"R7\\\":\\\"0e1654657374696e67206461707020636f6e6e6563746f72\\\",\\\"R9\\\":\\\"0e1a3130303030303030302c3130303030303030302c343937393632\\\",\\\"R4\\\":\\\"0e240008cd031feaa43b3fcb6638cb19281b27a7df79dccf3715b26bd86e7d5d8406ddafb9ad\\\"},\\\"creationHeight\\\":498004}\"}"}```
+The box that it is claiming has an invalid structure, is an output. Any idea why?
+
+I followed https://github.com/Emurgo/yoroi-frontend/blob/821638d29553bc1c780bd215806acc4e1ffcc83e/packages/yoroi-ergo-connector/example/index.js for creating and signing my tx.
+
+I don't know anyone here currently working on Yoroi to tag them, I thought you may know something )
+
+
+[05/27/2021 1:49 PM] Ilya | Spectrum#0494
+I guess the problem is that currently Yoroi expects `UnsignedTx` to contain `outputs: ErgoBox[]` rather than `outputs: ErgoBoxCandidate[]`.
+
+
+[05/27/2021 1:50 PM] Ilya | Spectrum#0494
+This should be fixed soon
+https://github.com/Emurgo/yoroi-frontend/pull/2103
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/pull/2103
+Migration to SigmaRust 0.13.x by oskin1 · Pull Request #2103 · Emur...
+Recently several mistakes in ErgoRust data model were fixed. Namely UnsignedTransaction now requires ErgoBoxCandidate[] rather than ErgoBox[]. Also UnsignedTransaction no longer requires an id field.
+https://images-ext-1.discordapp.net/external/xjXgWXpzJl-yCFOQ93s-xRm2XNPnpEmS50PFKtSA95o/https/opengraph.githubassets.com/fb5040695f0c60a355559ecddf1bbe8cdde441455d844083373ac33bd9537966/Emurgo/yoroi-frontend/pull/2103
+
+
+[05/27/2021 1:50 PM] anon_real#2768
+Yes, so it expects keys like `id`, right?
+
+
+[05/27/2021 1:50 PM] Ilya | Spectrum#0494
+Exactly
+
+
+[05/27/2021 1:50 PM] ®™-vale-™®#5415
+remouve old wallet and reinstall
+
+
+[05/27/2021 1:50 PM] ®™-vale-™®#5415
+for me whorks
+
+
+[05/27/2021 1:51 PM] anon_real#2768
+Both Yoroi nighty and dApp connector are the latest versions for me!
+
+
+[05/27/2021 1:53 PM] anon_real#2768
+Also, there are some other inconsistencies between sigma-rust and the connector. Some manual intervention is needed to provide what the connector expects for it.
+
+
+[05/27/2021 1:54 PM] anon_real#2768
+@Ilya | Spectrum Do you think this will be merged rather soon?
+
+
+[05/27/2021 1:56 PM] greenhat#6562
+I suppose it's because you're using v0. 13 of sigma-rust and dapp connector is still using an older version. In this case PR linked by @Ilya | Spectrum should fix it.
+
+
+[05/27/2021 1:56 PM] anon_real#2768
+I see
+
+
+[05/27/2021 1:58 PM] greenhat#6562
+As a workaround you can use sigma-rust v0.12 till dapp connector is updated.
+
+
+[05/27/2021 2:06 PM] anon_real#2768
+Just did, yoroi crashes when `sign_tx` is called without any errors. I'd better wait for the PR to be merged, will be easier to debug I guess. Thanks!
+
+
+[05/27/2021 2:13 PM] greenhat#6562
+Oh, my bad. I thought of using the same version as yoroi. It's v0.10. It should work.
+
+
+[05/28/2021 1:25 AM] Hoff#8353
+Hi are there plans for a dark mode? My eyes hurt really bad whenever I use yoroi
+
+
+[05/28/2021 11:37 AM] abashai#9101
+issues with Edge too. Crashes constantly. The ADA wallet does not, only ERG
+
+
+[05/30/2021 9:49 AM] teppi#8003
+yoroi is error
+
+
+[05/30/2021 9:50 AM] teppi#8003
+i can't receive or send ergo
+
+
+[05/30/2021 9:56 AM] Dmitry Usov#0134
+https://github.com/Emurgo/yoroi-frontend/issues create issue please
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/issues
+Emurgo/yoroi-frontend
+Yoroi Wallet - Cardano ADA Wallet - Your gateway to the financial world (extension frontend) - Emurgo/yoroi-frontend
+https://images-ext-2.discordapp.net/external/1e-t5s_ozw_GZmUTfYYzwoz8bRKHKNjtEbS_wtELy0o/https/repository-images.githubusercontent.com/144911693/91963f00-7e7f-11e9-9385-4f7404177cf6
+
+
+[05/30/2021 10:05 AM] teppi#8003
+does ergo full node can restore 15 key phases from yoroi? thanks
+
+
+[05/30/2021 10:15 AM] Dmitry Usov#0134
+Yes
+
+
+[05/30/2021 10:16 AM] Dmitry Usov#0134
+Hmm
+
+
+[05/30/2021 10:16 AM] Dmitry Usov#0134
+Maybe ergo full node has 12 key phrase
+
+
+[05/30/2021 10:17 AM] Dmitry Usov#0134
+I think yes
+
+
+[05/30/2021 10:17 AM] teppi#8003
+thanks, i will try before yoroi fix the issues
+
+
+[05/30/2021 10:17 AM] Dmitry Usov#0134
+Path for 12-15-18 is the same
+
+
+[05/30/2021 10:17 AM] teppi#8003
+thanks u
+
+
+[05/30/2021 12:55 PM] chaosboi#1974
+Yoroi not syncing. Anyway to fix?
+
+
+[05/30/2021 12:58 PM] andee#4722
+active issues on github
+
+
+[05/30/2021 1:27 PM] Triblit#1624
+@Sebastien
+
+
+[05/30/2021 1:28 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/848538284870860830/unknown.png
+
+
+[05/30/2021 1:38 PM] Sebastien#0653
+I don't work for EMURGO anymore so there is nothing I personally can do about this. Presumably they will look into it on Monday
+
+
+[05/30/2021 1:40 PM] Triblit#1624
+oh lol, sry @.@
+
+
+[05/30/2021 3:29 PM] arokace#8057
+Fuckin' Yoroi screwing shit up, now a bunch of people are switching to exchange wallets ./facepalm
+
+
+[05/30/2021 4:03 PM] roku_to_the_moon#8958
+Your money is not gone. It just won't be shown. Just wait
+
+{Reactions}
+💯 (4) 
+
+[05/30/2021 4:12 PM] andee#4722
+is there anyone with yoroi actually working?
+
+{Reactions}
+🙋‍♀️ 
+
+[05/30/2021 4:26 PM] andee#4722
+I managed to send a tx, not showing in yoroi yet
+
+
+[05/30/2021 4:30 PM] Sebastien#0653
+if people are upset that light wallets can't always provide them 100% uptime, moving to an exchange which also occasionally goes down and imposes a bunch of restrictions isn't the right direction. They should be moving to fullnode wallets if they really want more control over their funds without having to rely on 3rd parties
+
+{Reactions}
+💯 (5) 
+
+[05/30/2021 4:30 PM] arokace#8057
+they should but alas you know most people don't understand the space as well as they probably should sadly
+
+
+[05/30/2021 4:31 PM] arokace#8057
+Sorry if my comment was taken as an assault on you (if you're from Yoroi).  Just sucks that people are switching to an exchange over this even though if they check their wallet on the network... their ergo is there
+
+
+[05/30/2021 4:36 PM] andee#4722
+I am starting to wonder if my old ESR version of firefox is what keeps me unaffected, the address bug was also impossible for me to replicate
+
+
+[05/30/2021 4:37 PM] glasgowm#9381
+I'm using firefox and wasn't affected by the sync issue this time or the last time. My wallet is frozen though and can't redeem/mint sigma
+
+
+[05/30/2021 4:38 PM] arokace#8057
+I'm just glad I spent the 5 minutes to setup a node wallet 😛 (+ sync time).  And now that I understand that UTXO shit I was worried about, I'm sitting happy 🙂
+
+
+[05/30/2021 4:39 PM] andee#4722
+Yes, but are you using the latest firefox? my -v is Mozilla Firefox 78.10.0esr
+
+
+[05/30/2021 4:39 PM] andee#4722
+latest is like 88
+
+
+[05/30/2021 4:51 PM] andee#4722
+must have been lucky earlier, unable to send anything now
+
+
+[05/30/2021 4:53 PM] arokace#8057
+>_<
+
+
+[05/30/2021 5:09 PM] andee#4722
+after a resync my wallet updated, shows the first tx as received and I was able to send a new tx
+
+
+[05/30/2021 5:11 PM] andee#4722
+but unable to send a new tx again after that
+
+
+[05/30/2021 5:12 PM] Foeniculum#3278
+Same here (Yoroi)
+
+
+[05/30/2021 5:19 PM] andee#4722
+now it updated without resync and was able to send a tx again. Maybe backend is being worked on
+
+
+[05/30/2021 5:21 PM] glasgowm#9381
+yoroi working again for me
+
+
+[05/30/2021 5:25 PM] andee#4722
+seems smooth now 👍
+
+
+[05/30/2021 5:25 PM] Foeniculum#3278
+https://tenor.com/view/celebration-supporters-cheer-gif-15021069
+
+{Embed}
+https://tenor.com/view/celebration-supporters-cheer-gif-15021069
+https://images-ext-2.discordapp.net/external/dihzwOD-BJSURStSlhW2yjQ5Hj70DOntyyxyWDv_BBo/https/media.tenor.co/images/68d73157ba322c978de8302da9898a45/tenor.png
+
+
+[05/30/2021 7:05 PM] burnysizzz#0822
+yes mines back working again
+
+
+[06/01/2021 12:59 AM] kpampz#5853
+Anyone still having issues with Yoroi on Chrome or Mobile? I've been hesitant to move more of my ERG and ADA off exchanges given the issues some people were reporting
+
+
+[06/01/2021 2:17 AM] arokace#8057
+AFAIK it came back to normal the day of, that's why that picture is there above
+
+
+[06/01/2021 1:09 PM] MrStahlfelge#0042
+it worked well for me yesterday
+
+
+[06/01/2021 3:38 PM] geezar#8187
+Personally having a wallet that 'may not work well' is not a great option, whilst commits are being done and recovery seems quickly done by the Yorio team... Full Node the way to go or exchange IMO
+
+
+[06/01/2021 3:54 PM] arokace#8057
+You had me at full node... then you lost it all when you said exchanges.  At least with Yoroi it is still YOUR wallet.  An exchange wallet is never yours, its the exchanges, you don't have a seed, a phrase, no recovery at all just the hopes that if something does go wrong on their side that they are good peolpe.  
+
+With Yoroi, they don't have control of your wallet, could you lose yea but they can't get access to your stuff unless they were logging all that recovery stuff when you made it.  So yea still hoping they are good people too.
+
+{Reactions}
+👍 
+
+[06/01/2021 4:09 PM] geezar#8187
+Exchanges are there as an option to reduce fees if your just going to sell into other coins - the point is I've used Exchanges like Trade Ogre for years now and never lost anything, Yorioi does not have the same legacy - each to their own. For me Node
+
+
+[06/01/2021 4:12 PM] arokace#8057
+Node is king.
+
+{Reactions}
+👑 (2) 
+
+[06/02/2021 7:41 AM] JSTNCredible#4750
+Do you have any recommended articles on a Full Node? I'd like to learn more on what that is.  I am also Googling some things.
+
+
+[06/02/2021 9:28 AM] glasgowm#9381
+#node
+
+
+[06/02/2021 10:44 AM] burnysizzz#0822
+worked later on that day fine and I've moved both ergo and ada in the past 24 hours no issues
+
+
+[06/02/2021 9:12 PM] kidamoianlicci#1768
+@glasgowm  @scalahub  who is now yoroi lead dev?  pls tell them to put entire yoroi app/server run it on twitter.com/RunOnFlux
+
+Use flux as decentralized server backend never have outages. Important that backend is robust as soon as ergo garners more mainstream attention later.
+
+
+[06/03/2021 8:49 AM] glasgowm#9381
+I don't think any of the issues so far have been related to server outage. Not sure who the lead dev is but I've been adding people to the Emurgo group
+
+
+[06/03/2021 12:53 PM] Ilya | Spectrum#0494
+@anon_real, have you managed to sign anything with yoroi connector?
+
+
+[06/03/2021 1:44 PM] anon_real#2768
+Not actually. Last time the connector would crash as soon as its tab opened in the browser.
+
+
+[06/03/2021 1:44 PM] anon_real#2768
+Trying again right now.
+
+
+[06/03/2021 1:44 PM] anon_real#2768
+@Ilya | Spectrum How about you?
+
+
+[06/03/2021 1:44 PM] anon_real#2768
+Any working example?
+
+
+[06/03/2021 1:48 PM] anon_real#2768
+@Ilya | Spectrum https://github.com/Emurgo/yoroi-frontend/pull/2103 is merged but not released. So should we build from source?
+
+
+[06/03/2021 3:58 PM] Ilya | Spectrum#0494
+We are getting type errors caused by incompatibility with Yoroi data model
+
+
+[06/03/2021 3:59 PM] Ilya | Spectrum#0494
+I haven't tried building it from source, currently we're working with the old version
+
+
+[06/03/2021 6:25 PM] anon_real#2768
+So how are you bypassing fields that it needs in the output boxes like `boxId`? Are you using an old version of sigma rust for that?
+
+
+[06/03/2021 6:47 PM] anon_real#2768
+@Ilya | Spectrum anyway, dApp connector seems to have other problems besides data incompatibility. I have a perfectly fine unsigned transaction, but when it tries to sign the tx, I get "Yoroi Crashed".
+
+
+[06/03/2021 6:47 PM] anon_real#2768
+@greenhat I remember you said sigma-rust should be able to sign for auction contracts, right?
+
+
+[06/03/2021 6:48 PM] anon_real#2768
+Just want to make sure the crash is not because of the auction box in the input.
+
+
+[06/03/2021 6:52 PM] greenhat#6562
+Yes, I tested them, they should work.
+
+{Reactions}
+👍 
+
+[06/03/2021 6:52 PM] anon_real#2768
+No, it is a Yoroi problem. The error is:
+```Error: genLookupOrFail no token info for {"identifier":"d58b85b6e6319796d42feccfee4f80086efbd4d9098dd435f205750845d501f9","amount":"-1","networkId":200}
+    at Object.getTokenInfo (ergo.bundle.js:1)
+    at Vn.renderAmountDisplay (ergo.bundle.js:1)
+    at s (ergo.bundle.js:1)
+    at ergo.bundle.js:1
+    at Array.map (<anonymous>)
+    at Vn.renderRow (ergo.bundle.js:1)
+    at ergo.bundle.js:1
+    at Array.map (<anonymous>)
+    at Vn.render (ergo.bundle.js:1)
+    at Se (813.bundle.js:2)
+rs @ 587.bundle.js:2
+```
+
+
+[06/03/2021 6:58 PM] anon_real#2768
+https://github.com/Emurgo/yoroi-frontend/issues/2157
+
+
+[06/04/2021 3:46 AM] Notoooriou5#1003
+just tried to send 1 erg as a test to probit, been waiting a few mins but no action so far. how long do transactions usually take to process?
+
+
+[06/04/2021 5:55 AM] MrStahlfelge#0042
+At the moment it is five minutes, you can check your address in ergo explorer
+
+
+[06/04/2021 8:11 AM] andee#4722
+@Notoooriou5 check if they have a minimum deposit amount and how many confirmations they require
+
+
+[06/04/2021 1:16 PM] anon_real#2768
+https://github.com/Emurgo/yoroi-frontend/issues/2160
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/issues/2160
+dApp connector removes inputs of the signed transaction · Issue #21...
+dApp connector removes some inputs when signing the transaction. Example: Unsigned transaction (input to sign_tx): { &quot;id&quot;: &quot;7af39f14f0989c2f52047d9186388d39cd7410f972f304...
+https://images-ext-2.discordapp.net/external/hrK7pkiH1xowDfLsCxVar37xkeLCR75XNW9pn3PUJ8U/https/opengraph.githubassets.com/a9e85092e4ffe6b7e1256e1303cc6abe77b972be676f7614f4ab3265aee48514/Emurgo/yoroi-frontend/issues/2160
+
+
+[06/04/2021 3:02 PM] Niko#1921
+I have the feeling its a mess to sent nfts+ergs in a yoroi transaction with ergo
+
+
+[06/04/2021 4:48 PM] Notoooriou5#1003
+all good thanks mate, just took about 10 mins for yoroi wallet to show the transactions, and one just never even went through
+
+
+[06/04/2021 5:06 PM] Ilya | Spectrum#0494
+Have you managed to sign your tx finally?
+We stuck at this https://github.com/Emurgo/yoroi-frontend/issues/2162
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/issues/2162
+Getting a blank popup window when trying to sign a transaction with...
+https://images-ext-2.discordapp.net/external/HzPSA3vB5mHSNGdjtP88vqrhXUblLQ-2TNRTn7S9amg/https/opengraph.githubassets.com/b45dc0de1e56078ff7d734f7863a6cebb2a2f88fb76300e7337c3b2456cc05e7/Emurgo/yoroi-frontend/issues/2162
+
+
+[06/04/2021 6:29 PM] anon_real#2768
+Yes, the tx is singed but it removes one of the inputs )
+
+
+[06/04/2021 6:29 PM] anon_real#2768
+So the final tx is invalid in fact
+
+
+[06/04/2021 6:31 PM] anon_real#2768
+Have you looked into the popup's console to see if there is any error?
+
+
+[06/04/2021 6:31 PM] anon_real#2768
+It helped me.
+
+
+[06/04/2021 6:36 PM] Ilya | Spectrum#0494
+Yes, we've seen only this
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/850427859965181972/unknown.png
+
+
+[06/04/2021 6:36 PM] Ilya | Spectrum#0494
+But this seems irrelevant to the problem
+
+
+[06/04/2021 6:38 PM] anon_real#2768
+I would suggest also to test with a newly created wallet.
+
+
+[06/04/2021 6:45 PM] Dmitry Usov#0134
+Ok, thank you!
+
+{Reactions}
+👍 
+
+[06/05/2021 10:06 AM] meinhof.eth#9433
+Is the yoroi mobile app working for ergo now?
+
+
+[06/05/2021 4:53 PM] kpampz#5853
+https://apps.apple.com/us/app/emurgos-yoroi-cardano-wallet/id1447326389 the app listing only lists ADA
+
+{Embed}
+https://apps.apple.com/us/app/emurgos-yoroi-cardano-wallet/id1447326389
+‎EMURGO’s Yoroi Cardano Wallet
+‎A simple, secure and fast Cardano ADA wallet by EMURGO.
+English / 日本語 / 한국어 / Pусский
+
+Yoroi allows users to manage ADA on their phone. It is a lightweight wallet that launches quickly, allowing users to start sending or receiving ADA in minutes.
+
+The Yoroi iOS App is small and can be downloaded wit…
+https://images-ext-1.discordapp.net/external/vHWk8EhPcJEYs1IAXQ_vdp2-kSxW-KwwzauM8NVc484/https/is1-ssl.mzstatic.com/image/thumb/Purple115/v4/c1/ec/80/c1ec803a-e3e6-595a-24d4-c494fd8f799c/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png
+
+
+[06/05/2021 4:58 PM] glasgowm#9381
+the app only supports ada
+
+
+[06/05/2021 10:50 PM] kidamoianlicci#1768
+on twitter yoroi published outage due to heavy app usage as reason service got disrupted
+
+But anyway should run the whole app on @runonflux , not just for performance. for ddos, censor, dns,  basic internet/server security reasons too.
+
+
+[06/07/2021 10:04 AM] Ilya | Spectrum#0494
+@Yoroi https://github.com/Emurgo/yoroi-frontend/issues/2162
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/issues/2162
+Getting a blank popup window when trying to sign a transaction with...
+https://images-ext-1.discordapp.net/external/KWlhlkpP0EEVpb78Keh7Lk26ZpiTAVFihSA0idmRhpg/https/opengraph.githubassets.com/61292d850321cfd7258ce0afa053c9cc79046ba1d13af6aba5c46aba806fee6f/Emurgo/yoroi-frontend/issues/2162
+
+
+[06/07/2021 11:20 AM] anon_real#2768
+@Emurgo also this: https://github.com/Emurgo/yoroi-frontend/issues/2160
+
+
+[06/07/2021 12:07 PM] Ilya | Spectrum#0494
+@anon_real , we managed to sign simple tx, but also found out that it is incapable of processing transactions which issue assets
+
+
+[06/07/2021 1:45 PM] anon_real#2768
+Yes, it has two problems for now:
+- incapable of managing token in outputs (it is a UI issue)
+- unexpectedly removes some inputs when it is signing the tx
+
+
+[06/08/2021 11:31 PM] kushti#0978
+@anon_real @Ilya | Spectrum "Hi, guys! We have an issue solved in out current develop branch, just been merged: https://github.com/Emurgo/yoroi-frontend/pull/2151
+
+It will be a part of the next release, but if someone if working directly with the codebase - they can check it already
+
+It’s related to the p2s and data-inputs changes that are also not release yet, so all of this together will be in version 4.6
+
+If you were getting an error when syncing on any ergo wallet (regardless of connector usage), this is the fix. "
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/pull/2151
+Fix for Ergo unknown address type error in develop by rooooooooob ·...
+When we updated sigma-rust the flow types weren't updated which caused
+ergoplatform/sigma-rust@30be67d
+to give us undefined instead of 1 or 2.
+https://images-ext-2.discordapp.net/external/KWj7dr33_8pnwF2UmQwADEGiabaRzcYWJMW7bcjKUEg/https/opengraph.githubassets.com/a8ce61d28443a02e934b94c9cd2612ecb6c0adf00ec029bedf88737e99e0f4cf/Emurgo/yoroi-frontend/pull/2151
+
+{Reactions}
+👍 (2) 
+
+[06/09/2021 10:06 AM] Ilya | Spectrum#0494
+@anon_real have you encountered a problem that Yoroi produces invalid signatures for regular (p2pk ) inputs?
+
+
+[06/09/2021 10:40 AM] anon_real#2768
+With sigma-rust yes, but not with the dapp connector. @greenhat could this be related?
+
+
+[06/09/2021 10:40 AM] Ilya | Spectrum#0494
+Yoroi relies on sigma-rust as well
+
+
+[06/09/2021 10:41 AM] anon_real#2768
+Yes but I think the part that caused the problem can't cause it there. Not sure though.
+
+
+[06/09/2021 10:43 AM] greenhat#6562
+It could be related, depending on how yoroi provides input boxes. However, it was fixed in v0.12 - https://github.com/ergoplatform/sigma-rust/blob/develop/ergo-lib/CHANGELOG.md#fixed-1
+
+{Embed}
+https://github.com/ergoplatform/sigma-rust/blob/develop/ergo-lib/CHANGELOG.md
+ergoplatform/sigma-rust
+Alternative and simple implementation of ErgoTree interpreter - ergoplatform/sigma-rust
+https://images-ext-1.discordapp.net/external/GTZxUzjKaHchBXLOQhNsFiwlHMjtqMXhmSYZNIh-wIE/https/opengraph.githubassets.com/c837a0d996b07f2575b998a52ec28dc63ea08d1f7d0ef6f3f78acf3cc1651b1a/ergoplatform/sigma-rust
+
+
+[06/09/2021 10:46 AM] greenhat#6562
+And I see yoroi uses v0.13.1
+
+
+[06/09/2021 10:47 AM] Ilya | Spectrum#0494
+But it is not released yet
+
+
+[06/09/2021 10:48 AM] Ilya | Spectrum#0494
+We are using latest Nightly published
+
+
+[06/09/2021 4:15 PM] Ilya | Spectrum#0494
+Weird, but it seems Yoroi produces invalid signatures when sending funds to p2s address
+
+
+[06/09/2021 4:16 PM] Ilya | Spectrum#0494
+We tried two similar transactions sending some ERGs and assets to p2pk and p2s, and the latter failed because of invalid sig.
+
+
+[06/09/2021 4:16 PM] Ilya | Spectrum#0494
+@anon_real , @greenhat
+
+
+[06/09/2021 4:16 PM] Ilya | Spectrum#0494
+Any ideas?
+
+
+[06/09/2021 4:21 PM] greenhat#6562
+Nope. Could you give an example of invalid tx? I can take a closer look.
+
+
+[06/09/2021 4:21 PM] Ilya | Spectrum#0494
+```json
+
+```
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/852205883944337438/message.txt
+
+
+[06/09/2021 4:22 PM] Ilya | Spectrum#0494
+```
+{
+  "error": 400,
+  "reason": "bad.request",
+  "detail": "Malformed transaction: Scripts of all transaction inputs should pass verification. 1efcdc76a33ee79d80c4234969f9f742cab82bab04a1451d3ab1ec2d6d455941: #0 => Success((false,10141))"
+}
+```
+
+
+[06/09/2021 4:22 PM] Ilya | Spectrum#0494
+Node response
+
+
+[06/09/2021 4:40 PM] Ilya | Spectrum#0494
+I noticed that ErgoTree is derived differently from p2s address
+
+
+[06/09/2021 4:40 PM] Ilya | Spectrum#0494
+From scala implementation
+
+
+[06/09/2021 4:40 PM] greenhat#6562
+I assume It's on mainnet so I can see input boxes. I'll looking into it first thing tomorrow morning.
+
+
+[06/09/2021 4:41 PM] greenhat#6562
+Interesting. Testnet/mainnet prefix?
+
+
+[06/09/2021 4:41 PM] Ilya | Spectrum#0494
+This is my ErgoTree 
+`198f030f08cd02217daf90deb73bdf8b6709bb42093fdfaff6573fd47b630e2d3fdd4a8193a74d040004040e20020202020202020202020202020202020202020202020202020202020202020204060400050204d00f05cc0f0e200101010101010101010101010101010101010101010101010101010101010101040005b20105c601060203e6060203e6d810d6017300d602b2a4730100d603db63087202d604b27203730200d6058c720401d6067303d607b27203730400d6088c720701d609b2db6308a7730500d60a8c720901d60b7e8c72040206d60c998c7209027306d60d7e720c06d60e7e8c72070206d60f7307d6107e9c720c730806eb027201d1ededed93cbc272027309ec93720572069372087206ec937205720a937208720aaea5d9011163d802d613b2db63087211730a00d6148c721302edededed93c27211d07201938c7213017206927214730b92c1721199c1a79c7214730c959372057206909c9c720b720d730d9c7e7214069a9c720e7e720f067210909c9c720e720d730e9c7e7214069a9c720b7e720f067210`
+
+In Scala I get the following address from it:
+`Lr2R8cLAC2Hkk3Jvn9pjzLPmKpX7nY6S5G9VLsBwjfWBRDXW2KHc5tqwRNLCrJGEvt5Sc6pgzwysQDexRhSso3Az4ECRxzoeRMcPazRCZD6H6HcP1h8mPxvsfqbdqCK76fKtd4tvsUBAL8FzHtNDYi1wA9chj2UyQYEfuDCXzwfdzFsoCBz6UfhyNGnGNC9JJiF9SZd189MfYZBCrVjVeiSKotytkxcZS4xDTCEHcnD1JKDuXQguiW458b7RA8S9DLwwRCL4WvnvRDSFiJqdXAHfamJQ4FuEoGWVwtPn2p88Ki2FPmrT47Z8bYADtXD2pq2x7P2BBYbxMjuM7PspF1Wsj3NnNpcKFPW4pXfEYszLZm2kbSHF3dtkviRRSUTQZeDYcjtimwsoUTiQV1u4Ef5gUvaL2DPxhFtNcpdexebS8ndQMDSJFcKgfbRHKenptJ3vQYWdrU7DXVpG2r8Q7tNho3KaNu7UaUPrrxg8UgdpQ7XHVs2dCPFcsCL3ptJwFTHYUkjsUxdEXmz9EnS7HWkSeYqKoCpGFijA64dXMcj`
+
+
+[06/09/2021 4:41 PM] Ilya | Spectrum#0494
+When I `SigmaRust.Address.from_base58(addr).to_ergo_tree().to_base16_bytes()` this address in JS
+
+
+[06/09/2021 4:42 PM] Ilya | Spectrum#0494
+I get the following ErgoTree:
+`1990030f08cd02217daf90deb73bdf8b6709bb42093fdfaff6573fd47b630e2d3fdd4a8193a74d040004040e20020202020202020202020202020202020202020202020202020202020202020204060400050204d00f05cc0f0e200101010101010101010101010101010101010101010101010101010101010101040005b20105c601060203e6060203e6d810d6017300d602b2a4730100d603db63087202d604b27203730200d6058c720401d6067303d607b27203730400d6088c720701d609b2db6308a7730500d60a8c720901d60b7e8c72040206d60c998c7209027306d60d7e720c06d60e7e8c72070206d60f7307d6107e9c720c730806eb027201d1ededed93cbc272027309ec93720572069372087206ec937205720a937208720aaea5d9011163d802d613b2db63087211730a00d6148c721302edededed93c27211d07201938c7213017206927214730b92c1721199c1a79c7214730c959372057206909c9c720b720d730d9c7e7214069a9c720e7e720f067210909c9c720e720d730e9c7e7214069a9c720b7e720f067210`
+
+
+[06/09/2021 4:42 PM] Ilya | Spectrum#0494
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/852211083544100864/unknown.png
+
+
+[06/09/2021 4:42 PM] Ilya | Spectrum#0494
+Actually, the only difference is highlighted on the screenshot
+
+
+[06/09/2021 4:50 PM] Ilya | Spectrum#0494
+The affected piece is ProveDLog constant at index 0.
+This one is from original tree:
+`{0} -> ConstantNode(SigmaProp(ProveDlog(ECPoint(b14e30,afc548,...))),SSigmaProp)`
+
+And this one from the tree I'm getting from SigmaRust:
+`{0} -> ConstantNode(SigmaProp(ProveDlog(ECPoint(217daf,5c2454,...))),SSigmaProp)`
+
+
+[06/09/2021 5:00 PM] Ilya | Spectrum#0494
+Contracts without ProveDlog are affected as well
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/852215563576672296/unknown.png
+
+
+[06/09/2021 5:02 PM] Ilya | Spectrum#0494
+But constants aren't affected this time
+Original tree:
+```
+{0} -> IntConstant(0)
+{1} -> IntConstant(2)
+{2} -> ConstantNode(Coll(2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2),Coll[SByte$])
+{3} -> IntConstant(3)
+{4} -> IntConstant(0)
+{5} -> LongConstant(1)
+{6} -> IntConstant(1000)
+{7} -> LongConstant(998)
+{8} -> ConstantNode(Coll(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1),Coll[SByte$])
+{9} -> IntConstant(0)
+{10} -> LongConstant(89)
+{11} -> LongConstant(99)
+{12} -> ConstantNode(CBigInt(998),SBigInt$)
+{13} -> ConstantNode(CBigInt(998),SBigInt$)
+```
+Modified tree:
+```
+{0} -> IntConstant(0)
+{1} -> IntConstant(2)
+{2} -> ConstantNode(Coll(2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2),Coll[SByte$])
+{3} -> IntConstant(3)
+{4} -> IntConstant(0)
+{5} -> LongConstant(1)
+{6} -> IntConstant(1000)
+{7} -> LongConstant(998)
+{8} -> ConstantNode(Coll(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1),Coll[SByte$])
+{9} -> IntConstant(0)
+{10} -> LongConstant(89)
+{11} -> LongConstant(99)
+{12} -> ConstantNode(CBigInt(998),SBigInt$)
+{13} -> ConstantNode(CBigInt(998),SBigInt$)
+```
+
+
+[06/09/2021 5:02 PM] Ilya | Spectrum#0494
+Template bytes are also the same
+
+
+[06/09/2021 5:44 PM] greenhat#6562
+@Ilya | Spectrum Thanks for digging into it. I wonder if it's a ProveDlog(EcPoint) serialization issue. I'm on it.
+
+
+[06/09/2021 5:46 PM] Ilya | Spectrum#0494
+Note, ErgoTree without ProveDlog is also affected
+
+{Reactions}
+👌 
+
+[06/09/2021 5:46 PM] Ilya | Spectrum#0494
+^
+
+
+[06/09/2021 5:47 PM] Ilya | Spectrum#0494
+But neither constants nor tree itself are affected this time, strange
+
+
+[06/09/2021 5:48 PM] Ilya | Spectrum#0494
+Seems like they are different only in serialized form
+
+
+[06/09/2021 5:54 PM] greenhat#6562
+Looks like I botched the serialized tree size. "Off by 1" at it's best. 😔
+
+
+[06/09/2021 5:57 PM] Ilya | Spectrum#0494
+I hope we let Yoroi know about the issue before they would have released new version
+
+
+[06/09/2021 5:58 PM] Ilya | Spectrum#0494
+@Yoroi , we will need another one ergo-wasm update, it seems
+
+
+[06/09/2021 6:00 PM] greenhat#6562
+I hope to release the fix tomorrow morning.
+
+
+[06/09/2021 7:40 PM] CryptoTheo#7410
+hey everyone, I'm trying to setup the yoroi connector, but the example project just says "Wallet not connected." I can see that it reaches the point where it runs ergo_request_read_access(), but it looks like the promise is never fulfilled somehow. Any ideas on how to fix this? I'm using the latest yoroi wallet and connector extensions from "Load unpacked"
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/852255778316222485/Screen_Shot_2021-06-09_at_11.39.26_AM.png
+
+
+[06/09/2021 7:40 PM] CryptoTheo#7410
+also if this should be in dev-support instead of here, please let me know and I'll move it there 🙂
+
+
+[06/09/2021 11:16 PM] morbes#6686
+Any idea why my Yoroi wallet is saying time difference error to the server? My clock has been synced to latest time and time zone. It won't go away even after restarting. I'm running Firefox.
+
+
+[06/10/2021 12:22 AM] CryptoTheo#7410
+I had a different error after ("Uncaught (in promise) TypeError: Cannot read property 'postMessage' of null at inject.js:256") and realized it was because I was running on Brave. seems to be working on Chrome now
+
+
+[06/10/2021 4:29 AM] greenhat#6562
+Hi! I've tried to reproduce it with no luck. I suspect you're using old ergo-lib version. In your branch v0.1.0 it's old `0.14.0-alpha-c42b78c`. Please, try 0.13.2 released yesterday.
+
+
+[06/10/2021 7:33 AM] Ilya | Spectrum#0494
+Fixed in `0.13.2`👍
+
+{Reactions}
+🙌 
+
+[06/10/2021 2:36 PM] anon_real#2768
+So do you have `yoroi-ergo-dapp-connector` installed?
+
+
+[06/10/2021 4:17 PM] CryptoTheo#7410
+yeah, and specifically [this](https://github.com/Emurgo/yoroi-frontend/tree/develop/packages/yoroi-ergo-connector) one, not [this](https://github.com/emurgo/yoroi-ergo-connector) one. It connects in the exampe project and in the Ergo DEX frontend project
+
+
+[06/11/2021 8:45 AM] greenhat#6562
+https://github.com/ergoplatform/sigma-rust/pull/304 is merged.  /cc @Ilya | Spectrum
+
+{Embed}
+https://github.com/ergoplatform/sigma-rust/pull/304
+Fix for UnsignedTransaction's from-JSON conversion by rooooooooob ·...
+After tx ids were removed from UnsignedTransaction, the automatic serde
+deserialization no longer worked as there was no way for it to know how
+to construct the tx_id field. This just does an appro...
+https://images-ext-1.discordapp.net/external/ncFjla2DMEmjsytZ8oQ5dy4N03PwiB-L_cL-ZuNDoiw/https/opengraph.githubassets.com/b0e6ee5091acf95a0cd2cf0d553e81e3314ef12ccc7f8d74ce5e6f137a15f4bd/ergoplatform/sigma-rust/pull/304
+
+
+[06/11/2021 12:14 PM] Ilya | Spectrum#0494
+So we need to update `ergo-lib` once again in Yoroi?
+
+
+[06/11/2021 1:17 PM] Ilya | Spectrum#0494
+@greenhat ^
+
+
+[06/11/2021 1:21 PM] Ilya | Spectrum#0494
+Currently we have https://github.com/Emurgo/yoroi-frontend/pull/2169 pending
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/pull/2169
+ergo-lib updated to 0.13.2 by oskin1 · Pull Request #2169 · Emurgo/...
+Close #2168
+https://images-ext-2.discordapp.net/external/9trXcEuUrLQT-abX6fGVMPrlD8oqJX9rxdGzkloqQCE/https/opengraph.githubassets.com/55d30f4f1623c86feb7eafe844e5de6bb95f077679251f89d1c6e1dca1f676ee/Emurgo/yoroi-frontend/pull/2169
+
+
+[06/11/2021 1:21 PM] greenhat#6562
+I'm ready to make a release. Do they have any more planned fixes?
+
+
+[06/11/2021 1:35 PM] Ilya | Spectrum#0494
+Have no idea. But I guess they wont release until this PR is merged so I can update `ergo-lib` right there
+
+
+[06/11/2021 1:38 PM] greenhat#6562
+Ok I'm doing a release.
+
+
+[06/21/2021 7:14 PM] TheWildJarvi《THE SEMI SEER》#1337
+Any idea how long it usually takes for a transfer from yoroi to gate.io?
+
+
+[06/21/2021 7:46 PM] TheWildJarvi《THE SEMI SEER》#1337
+we good nvm
+
+
+[06/25/2021 3:07 PM] Лука#7776
+Can somebody help me with Yoroi Wallet, whenever I go to the transactions page, the page is not loading, and wallet stops working until I close Microsoft Edge and open wallet again?
+
+
+[06/25/2021 3:10 PM] glasgowm#9381
+reinstall the plugin or use FF
+
+
+[06/25/2021 3:11 PM] Лука#7776
+What is ff? I am not sure if I can reinstall plugin, because my dad forgot his wallets password 🙉
+
+
+[06/25/2021 3:23 PM] MrStahlfelge#0042
+FF is Firefox
+
+
+[06/25/2021 3:25 PM] Лука#7776
+Yeah I swapped my wallet on ff and its kinda working, now the problem is to swap fathers wallet because he doesnt know the words
+
+
+[06/25/2021 3:38 PM] glasgowm#9381
+Luka I think you are maybe too young for crypto
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/857993188350099486/unknown.png
+
+
+[06/25/2021 3:39 PM] Лука#7776
+Haha, ergo to the mooooooooon
+
+
+[06/28/2021 4:25 PM] TSNP#1337
+xDDDD
+
+
+[06/30/2021 1:13 AM] Nythain#6769
+Those seed words were single handedly the most important thing to backup/write down :(
+
+
+[06/30/2021 4:21 AM] Dergler#0451
+Create a new wallet with new seed and send to that from the old. Seed phrase is #1
+
+{Reactions}
+👍 
+
+[07/04/2021 4:53 PM] Saw235#2613
+Hi
+
+
+[07/04/2021 4:54 PM] Saw235#2613
+Is there anyone i can talk to understand how the yoroi dapp connector work? I looked into the documentation at https://github.com/ergoplatform/eips/pull/23/files?short_path=cb3f835#diff-cb3f835ea389f22c2f074a6acd820d178e44c but still couldn't figure out how to make the wallet access the wallet access read
+
+{Embed}
+https://github.com/ergoplatform/eips/pull/23/files?short_path=cb3f835
+EIP-0012 - dApp-Wallet Web Bridge by rooooooooob · Pull Request #23...
+Technical spec for wallet-dApp communication.
+https://images-ext-2.discordapp.net/external/YGcW-KT_HNmDqefOdfTHQSCeZNNZTLTP8s19n9w9GNI/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/5298635
+
+
+[07/06/2021 2:49 PM] glasgowm#9381
+https://github.com/ergolabs/ergo-dex-frontend has a working implementation or check the scrollback in this chat
+
+{Embed}
+https://github.com/ergolabs/ergo-dex-frontend
+ergolabs/ergo-dex-frontend
+Contribute to ergolabs/ergo-dex-frontend development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/yjtoC2uuEAUJ_qAdrRXA_VaLgebEOAkTvtrRBTGC_Jo/https/opengraph.githubassets.com/5b3bcda0c3c9f6c6be66b36a1aaf9d0df721672ef1183558e7dedbe7f78bdeed/ergolabs/ergo-dex-frontend
+
+
+[07/08/2021 10:51 PM] weskinner#4666
+I'm trying to dig into this as well
+
+
+[07/10/2021 7:21 AM] godsendtoxic#7683
+Hey is anyone else having trouble sending funds with Yoroi? I'm trying to send funds between wallets but whenever I type in my spending password Yoroi starts lagging and the funds don't move.
+
+
+[07/12/2021 3:41 AM] ShhNoGoat#5173
+yeah they were backed up, should be fine now
+
+
+[07/14/2021 2:26 PM] Andrius#5701
+try to use a different browser. It works better on Chrome VS EDGE
+
+
+[07/15/2021 2:20 AM] Jerky#8464
+I use edge Yoroi and I always have issues.  It feels like updates take longer to happen on the edge browser too.  Maybe that's just me
+
+
+[07/15/2021 6:04 PM] Dergler#0451
+Hey! I've got a bug in yoroi where only some of my assets appear in the send tab. After investigating the box where my 'missing' assets went and comparing against addresses in yoroi I found that I do own the box. This happened after purchasing sigRSV from sigmausd.io. in parallel, sigmausd.io doesn't show the assets and has incorrect balance of sigRSV/ERG.
+
+
+[07/15/2021 6:07 PM] Dergler#0451
+I restored the wallet on a full node and everything is there, all good and dandy. @anon_real  tagged just in case you're interested in tracking down the bug on the sigusd.io side. anyone from EMURGO Interested? DM and I'll share the transaction where the split happened.
+
+
+[07/16/2021 3:57 AM] Dergler#0451
+I'm holding the wallet where it's at until either someone responds or I get bored of hodling.
+
+
+[07/16/2021 9:00 AM] anon_real#2768
+SigmaUSD only looks at the address you've configured in the site for balance. It doesn't have access to your whole Yoroi wallet (other addresses)
+
+
+[07/16/2021 6:24 PM] LeggoMyErgo#4477
+I pray for dark mode 🤷‍♂️ 😫 🤣
+
+{Reactions}
+ergo_black (3) 👍 (2) 
+
+[07/21/2021 4:40 PM] Gazza_SP#5835
+I am having an issue when trying to send ERG from my mining yoroi wallet, I have tried resyncing, recovering twice in chrome and I just recovered in edge and I still cant access my ERG, any other troubleshooting tips? Can I recover the wallet in the full node?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/867430797362069504/unknown.png
+
+
+[07/22/2021 2:21 PM] danandbeard#2312
+random though: woudl yoroi ever be open to being a "dapp store" of sorts?  e.g. someone sets up a crowdfunding dapp and doesn't want to host an app on a server - maybe a yoroi user could visit the dapp store to download/launch the dapp - maybe the dapp is just a browser extension itself, but yoroi does seem well positioned to be a good centralized place to discover dapps which can often struggle with discoverability
+
+
+[07/22/2021 2:37 PM] danandbeard#2312
+~~lol, I guess I should read up on yoroi before I propose ideas already being worked on xD -~~ or maybe the thing I'm reading is about connectors and not so much centralizing discovery
+
+
+[07/27/2021 12:39 AM] Meh-hel-kh#7362
+I accidentally "send all assets" from my mined ERG yoroi wallet to Hotbit ERG address. It was too late when I found out in the pending transaction that my SigmaRSV was also sent to the address. 
+
+Is there a way for me to retrieve my SigmaRSV?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/869363409714573372/Screenshot_2021-07-27_060106.png
+
+
+[07/27/2021 7:52 AM] Ilya | Spectrum#0494
+The only way is to connect Hotbit support and ask them to send tokens back to you.
+
+
+[08/03/2021 1:42 PM] Salu#0001
+hey guys new here just started mining, i made a mobile yoroi wallet deposited some ada, sadly i cant make a ergo mobile wallet, so im currently mining to a chrome wallet for erg, any idea how to bring my yoroi wallet to my mobile app?
+
+
+[08/03/2021 2:41 PM] glasgowm#9381
+not available on mobile yet
+
+
+[08/03/2021 2:42 PM] Salu#0001
+That makes alot of sense, since I can port my ergo wallet from the chrome extension to my ergo app but not my yoroi mobile app, cheers glasgow
+
+
+[08/03/2021 11:24 PM] Snax#3268
+Is it possible to send both ERGs and a token in the same transaction using Yoroi?
+
+
+[08/03/2021 11:27 PM] Snax#3268
+also, the ability for technical users to send transactions formatted as JSON requests would be great. Having to download the entire blockchain and wait for wallet scans to work with contracts is a pain.
+
+
+[08/04/2021 10:08 AM] glasgowm#9381
+not currently afaik
+
+
+[08/04/2021 10:09 AM] glasgowm#9381
+yoroi nightly does list the assets incoming though which is nice
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/872405926341124166/unknown.png
+
+
+[08/04/2021 7:04 PM] Crypto Cream#4657
+it's possible to create an ERG token, which when received in Yoroi kinda looks like you're receiving the real thing, someone not so familiar with crypto might mistake it for an actual payment, perhaps a UI change is needed?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/872540560739663913/unknown.png
+
+
+[08/04/2021 9:34 PM] MrStahlfelge#0042
+you are right, you could probably also mint a "SigUSD" token
+
+
+[08/04/2021 10:51 PM] Crypto Cream#4657
+definitely
+
+
+[08/05/2021 7:28 PM] HelixEvo#2120
+Hi.. Does the Yoroi ios app support ERG now?
+
+
+[08/05/2021 7:34 PM] bk#4411
+not yet
+
+
+[08/09/2021 8:58 PM] BoTD#6559
+I've lost my spending wallet password and I'm trying to recover it, any advice?
+
+
+[08/10/2021 1:15 PM] Gazza_SP#5835
+Restore a new wallet with your seed phrase is your only option I think!
+
+
+[08/11/2021 1:48 AM] Deleted User#0000
+How much % does yoroi take for withdrawal? Is it 10% ?
+
+
+[08/11/2021 1:49 AM] Deleted User#0000
+If I wanted to transfer my erg to an exchabge for example
+
+
+[08/11/2021 1:53 AM] bk#4411
+0%  just the normal transaction fee (.0011 ERG)
+
+
+[08/11/2021 1:53 AM] Deleted User#0000
+Oh, that's awesome!
+
+
+[08/11/2021 1:55 AM] bk#4411
+Yoroi is just a UI window into the blockchain.
+
+
+[08/11/2021 6:51 AM] Stef#0241
+Wait so there are transaction fees on the ergo Blockchain? I suppose those are paid to miners? I thought there was only the block reward since it's still high at 67.5 erg
+
+
+[08/11/2021 7:15 AM] MrStahlfelge#0042
+Yes there are transaction fees
+
+
+[08/11/2021 1:28 PM] Michawl_#2646
+The transaction fees are added into the block reward, this makes it so that when all coins are mined there is still an incentive to keep mining
+
+
+[08/11/2021 2:21 PM] Gazza_SP#5835
+A number of us have had an issue with yoroi when sending multiple token transactions one after another, only one will actually send, the rest just disappear, they don't appear in yoroi or the explorer. Do we need to wait for another block to be mined between sending each token?
+
+
+[08/11/2021 2:47 PM] MrStahlfelge#0042
+can you link a transaction?
+
+
+[08/11/2021 5:36 PM] Gazza_SP#5835
+No thats the issue, they dont ever get created, you go through the process of clicking send, putting in password and it says transaction complete, go to transaction list, but it just never happens!
+
+
+[08/11/2021 5:36 PM] Gazza_SP#5835
+It's happened to me personally 3 times, a few other guys have been having the same issue!
+
+
+[08/11/2021 5:39 PM] Gazza_SP#5835
+I've tried another test, I did 4 sequential sends, to 2 different addresses both with test tokens, I will see if they appear or dont appear and post the results here!
+
+
+[08/11/2021 5:41 PM] MrStahlfelge#0042
+Ah okay. The Android app has a similar problem, maybe that's what you experience: As long as the transaction is not commited, issueing a new one is successful but the transaction disappears. That's because the same input boxes are selected, which makes the transaction invalid for the node. Wait some time between sending stuff.
+
+
+[08/11/2021 5:42 PM] Gazza_SP#5835
+Ok, is there anyway to get multiple inputs when they are different tokens into a box? Thanks for the response! 😄
+
+
+[08/12/2021 5:35 AM] phenphen#2045
+hey guys, can i use yoroi wallet address for ergo mining (i saw new addresses are generated automatically once after used for transaction)
+
+
+[08/12/2021 6:11 AM] andee#4722
+yes. all addresses that you generate can be viewed under the 'Receive' tab
+
+
+[08/12/2021 6:45 AM] Stef#0241
+Yeah of course but are they already active now?
+
+
+[08/12/2021 9:43 AM] andee#4722
+why wouldn't they be? if there were no transaction fees it would be free to spam the network
+
+
+[08/12/2021 12:45 PM] Gazza_SP#5835
+Yoroi doesn't automatically generate a new address you need to use after every transaction, you can use the same address for every transaction, but you also have a list of generated addresses you can also use.
+
+
+[08/12/2021 4:41 PM] Lidney#5584
+Unfortunately cant see my ergs in yoroi app for androids( are you guys gonna deal with it this year? (Its not gonna affect my belief in ergo....just in case)
+
+
+[08/12/2021 5:53 PM] MrStahlfelge#0042
+Use the Ergo Android wallet on Android
+
+
+[08/12/2021 10:10 PM] Doomelf#7740
+I hope Yoroi will show tokens like Metamask does and allow Ergodex to work within it
+
+{Reactions}
+🔥 
+
+[08/13/2021 6:43 AM] MrStahlfelge#0042
+How does metamask show tokens?
+
+
+[08/13/2021 6:55 AM] Stef#0241
+Yea you're right, forgot about that
+
+
+[08/13/2021 7:49 AM] glasgowm#9381
+In the wallet popup. It won't, they made the dApp connector a separate plugin for some reason.
+
+
+[08/13/2021 8:18 AM] MrStahlfelge#0042
+still don't know what's meant. just wanted to understand what's needed to make sure that Android wallet provides it 🙂
+
+
+[08/13/2021 10:41 AM] animagus#4279
+How long till yoroi adds ledger support for ERG 🥲
+
+
+[08/14/2021 2:48 AM] $incahoots#7269
+Hey everyone, new to ergo and would like to know when ergodex launches will we be able to store erg on yoroi?
+
+
+[08/14/2021 9:17 AM] glasgowm#9381
+You already can
+
+
+[08/14/2021 9:26 AM] $incahoots#7269
+Awesome thanks! Any dex that you would recommend? To buy ergo
+
+
+[08/14/2021 10:24 AM] glasgowm#9381
+swop.fi or waves.exchange
+
+{Reactions}
+🔥 
+
+[08/14/2021 8:16 PM] andee#4722
+just noticed that yoroi has an option for making paper wallets for cardano, would be nice to have that option for ergo too
+
+
+[08/14/2021 11:26 PM] Steve Lockhart#5327
+Yoroi has been repeatedly crashing on me this week.
+I was under the impression it updated automaticly. do I need to update it manually?
+
+
+[08/15/2021 12:54 AM] Steve Lockhart#5327
+@Sebastien  when you get a chance can you answer this for me? 👆
+
+
+[08/15/2021 12:56 AM] Sebastien#0653
+should be updated automatically unless you turned automatic updates off in your browser settings
+
+
+[08/15/2021 12:57 AM] Steve Lockhart#5327
+in chrome settings?
+
+
+[08/15/2021 1:07 AM] Sebastien#0653
+I don't remember the settings off the top of my head. It should be automatic unless you went out of your way to disable it though
+
+
+[08/15/2021 1:21 AM] Steve Lockhart#5327
+ok, i didnt do that. but it sure has been crashing a lot. 👀
+
+
+[08/15/2021 1:22 AM] Sebastien#0653
+yeah probably due to out of memory
+especially if you mine on Ergo, you have a lot of transactions with hundreds of addresses and Yoroi wasn't really optimized for that case. There are things they can do to improve it but I don't know if they've spent time on it (I left EMURGO a few months ago)
+
+{Reactions}
+👍 (2) 
+
+[08/15/2021 1:24 AM] Steve Lockhart#5327
+i keep way too much open at the same time for the memory I've got. so that may be it.
+
+
+[08/15/2021 1:27 AM] Sebastien#0653
+it's not your computer's memory that's the problem -- it's the memory Chrome allocates to the specific tab that runs out
+
+
+[08/15/2021 1:27 AM] Steve Lockhart#5327
+ok, thanks for your help!
+
+
+[08/16/2021 4:17 AM] $incahoots#7269
+Follow up question 🙋‍♂️ can I store erg on yoroi without downloading all the browser extensions? I tried to do the beta for ergodex and it said i needed to download all these browser extensions but i can only do that on desktop which I don’t use
+
+
+[08/16/2021 5:48 AM] Fy00zh3n#6898
+Once I close tab.. wallet is signed out of?
+
+
+[08/16/2021 5:49 AM] Fy00zh3n#6898
+It really trips me out using a browser extension to store crypto tokens, currency
+
+
+[08/16/2021 5:49 AM] Fy00zh3n#6898
+Access a wallet..
+
+
+[08/16/2021 5:51 AM] Fy00zh3n#6898
+Now I have metamask AND now this...on a side note T-Mobile reportedly just lost 100 million users accounts to hack
+
+
+[08/16/2021 5:52 AM] Fy00zh3n#6898
+SSN, IMEI,DL, PWs no telling what else..on sale now on darkweb
+
+
+[08/16/2021 5:53 AM] Fy00zh3n#6898
+6BTC for 30 million accounts..seems cheap
+
+
+[08/16/2021 6:48 AM] Gazza_SP#5835
+No unfortunately, yoroi is only available on yoroi desktop web extension. There is an ergo wallet on the play store for Android and an IOS one in development.
+
+{Reactions}
+👍 
+
+[08/16/2021 6:51 AM] $incahoots#7269
+Thanks for the info mate, good to know that an ios wallet is in the works
+
+
+[08/16/2021 8:29 AM] glasgowm#9381
+Wallet is for storing. There's no mobile dapp connector in development afaik
+
+{Reactions}
+👍 
+
+[08/18/2021 2:41 PM] anon_br#2282
+Hey, guys! 
+I'm working on a paper wallet and while writing some unit tests, something caught my attention: Yoroi omits `Parent Fingerprint` field on extended public key. Is there any reason for this?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/877547638503915600/Screenshot_2021-08-17_20.46.15.png
+
+
+[08/18/2021 2:41 PM] anon_br#2282
+The "Expected" one came from Yoroi
+
+
+[08/19/2021 7:04 PM] andee#4722
+looking forward to testing it @anon_br , a paper wallet will be a great addition 👍
+
+{Reactions}
+👍 
+
+[08/21/2021 2:31 AM] zennethx#3207
+can I use yoroi to reclaim an ergo wallet if I have the password and pass phrase?
+
+
+[08/22/2021 11:14 AM] Kusarigama#7905
+Someone else has problem with yoroi wallet? Trying to send erg but transaction not starting at all
+
+
+[08/24/2021 9:52 PM] glasgowm#9381
+restore using the seed
+
+
+[08/26/2021 1:32 AM] egorishek#5517
+Has anyone restored their wallet and it then shows a balance of 0 ERG?
+
+
+[08/26/2021 1:32 AM] egorishek#5517
+I have a family member freaking out a bit. Any thoughts on what is causing this and how to fix it?
+
+
+[08/26/2021 1:33 AM] egorishek#5517
+@Emurgo ☝️
+
+
+[08/26/2021 1:42 AM] andee#4722
+@egorishek has the receiving address been checked on the explorer?
+
+
+[08/26/2021 1:46 AM] egorishek#5517
+I don't believe so - I'll have them check
+
+
+[08/26/2021 1:46 AM] egorishek#5517
+they'd search the new (restored) wallet address correct?
+
+
+[08/26/2021 1:53 AM] egorishek#5517
+@andee when they search the newly restored wallet address it states unrecognized search pattern
+
+
+[08/26/2021 1:54 AM] andee#4722
+click the address, not copy paste since not it doesn't show the whole address
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/880253962471763988/Screenshot_from_2021-08-26_02-54-25.png
+
+
+[08/26/2021 1:55 AM] egorishek#5517
+ok there are zero transactions
+
+
+[08/26/2021 1:56 AM] andee#4722
+double and triple check the seed. the mind can play tricks when reading it
+
+
+[08/26/2021 1:57 AM] egorishek#5517
+are you talking about the 15 word seed?
+
+
+[08/26/2021 1:57 AM] egorishek#5517
+to restore the wallet?
+
+
+[08/26/2021 1:57 AM] andee#4722
+yes
+
+
+[08/26/2021 1:58 AM] egorishek#5517
+ok he states he has tripled checked it. And also tried restoring putting the seed words out of order and it didn't work.
+
+
+[08/26/2021 1:59 AM] egorishek#5517
+so he's confident he has done it right
+
+
+[08/26/2021 1:59 AM] andee#4722
+https://mtlynch.io/stole-siacoins/
+
+
+[08/26/2021 2:00 AM] andee#4722
+here the person having problems restoring his wallet wrote ionic instead of tonic
+
+
+[08/26/2021 2:00 AM] andee#4722
+same thing could have happened when writing it down
+
+
+[08/26/2021 2:00 AM] egorishek#5517
+if you have a word slightly off will it create a new wallet anyway?
+
+
+[08/26/2021 2:00 AM] egorishek#5517
+when going through the restoring steps?
+
+
+[08/26/2021 2:01 AM] andee#4722
+as long as the checksum is ok, the wallet isn't created and stored somewhere. its cryptography
+
+
+[08/26/2021 2:02 AM] andee#4722
+all wallets already exists, you just need the key to unlock it (the mnemonic)
+
+
+[08/26/2021 2:08 AM] egorishek#5517
+Hmmm
+
+
+[08/26/2021 2:24 AM] anon_br#2282
+All the possible English words are here, you can check for similar words https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt
+
+{Embed}
+https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt
+bips/english.txt at master · bitcoin/bips
+Bitcoin Improvement Proposals. Contribute to bitcoin/bips development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZNs-SCttQLNE8XNB6Q-Cek6qyrCLuRiZpod2XTJAeCo/https/opengraph.githubassets.com/f058c0b5b75c22d8d5234fde1045b8a6d584dbf327667e10b0c5e2e43b7a53cc/bitcoin/bips
+
+
+[08/26/2021 2:31 AM] egorishek#5517
+so he took a picture of the words
+
+
+[08/26/2021 2:32 AM] egorishek#5517
+and when going through the restore steps it seems to work
+
+
+[08/26/2021 2:33 AM] egorishek#5517
+but there's just no erg
+
+
+[08/26/2021 2:34 AM] andee#4722
+then he has to double check the receive address with the transaction from where he got sent erg
+
+
+[08/26/2021 2:51 AM] egorishek#5517
+he found the address with the transaction via explorer but it is different than the restored wallet address
+
+
+[08/26/2021 2:54 AM] egorishek#5517
+withdraw from exchange to yoroi wallet can be traced
+
+
+[08/26/2021 2:55 AM] egorishek#5517
+and seen within explorer but when trying to restore wallet it seems it's unlocking another wallet address?
+
+
+[08/26/2021 3:07 AM] andee#4722
+was the wallet created using yoroi?
+
+
+[08/26/2021 3:18 AM] egorishek#5517
+yep wallet was created using yoroi earlier this year
+
+
+[08/26/2021 3:19 AM] egorishek#5517
+then bought erg via hotbit and sent to yoroi wallet
+
+
+[08/26/2021 3:20 AM] egorishek#5517
+and now is trying to restore the wallet
+
+
+[08/26/2021 3:21 AM] egorishek#5517
+the yoroi chrome extension
+
+
+[08/26/2021 7:58 AM] MrStahlfelge#0042
+Check in the receive tab, you can add more addresses
+
+
+[08/27/2021 7:26 PM] JCFishing2000#1308
+When will we have ledger integration with yoroi?  thanks
+
+
+[09/01/2021 7:08 AM] Chris Horticulturalist#2573
+I have a problem with Yoroi showing only part of my SigRSV holdings say 1,100 in the select asset drop down box; ergo explorer reveals there's a actually larger balance of 11,100 on the same address. Sending an additional 1,000 increases Yoroi SigRSV balance to 2,100 and Ergo explorer shows 12,100.
+Oddly there's an asset I have no idea about called OUROBOROS OMEGA listed under Select asset.
+
+I have resynced the wallet along with removed and restored it...but to no avail. Anyone know how I can fix this & regain access to these inaccessible SigRSV?
+
+
+[09/01/2021 7:25 AM] glasgowm#9381
+Try sending all assets to one address. If not you'll need to restore to Node.
+
+The omega token looks like someone spammed you with a nft or something
+
+
+[09/01/2021 8:13 AM] Chris Horticulturalist#2573
+Cheers Glasgow, I tried these a while ago to no avail
+
+
+[09/01/2021 8:15 AM] Chris Horticulturalist#2573
+Am in touch with Dimitry, he suggested setting up a full node and has been helping me with this
+
+
+[09/02/2021 1:45 AM] cambrule#9287
+Morning all, I have been testing the ergodex with Yoroi nightly. Transferred some ergo into sigRSV, then deposited the sigRSV+erg into the dex. I think the deposit transaction was rolled back. When I check in my Yoroi wallet all my transactions are marked as failed (even prior transactions due to mining). Checking the Yoroi logs I see the attached stacktrace.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/882788182263988234/2021-09-02T10_43_2910_00-yoroi.log
+
+
+[09/02/2021 1:31 PM] glasgowm#9381
+Is there an existing issue here or just a general crash report?
+
+
+[09/02/2021 10:03 PM] cambrule#9287
+Seems like I’ve run into a bug that has happened as a result of depositing sigRSV/ERG into the Ergodex. The wallet is basically unusable in Yoroi at the moment because it keeps throwing that error and showing all transactions as failed/balance as 0. Btw I also opened an issue for it on GitHub, not sure what your preferred method of bug reporting is. https://github.com/Emurgo/yoroi-frontend/issues/2362
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/issues/2362
+Error: Request failed with status code 500 · Issue #2362 · Emurgo/y...
+Hi, I&#39;m using the Yoroi nightly chrome extension with Ergo as well as the DApp connector (nightly version). I transferred some ERG to sigRSV via the Ergodex - everything worked fine. After ...
+https://images-ext-1.discordapp.net/external/jzmY8BV-ThbKmFcVMO6mtV6T9t6JQ0kro6-7iczJ3_w/https/opengraph.githubassets.com/5e9f323ee4333471f81eaf7135655ac21f59c180e69d3ef87dd52dfbdbed284e/Emurgo/yoroi-frontend/issues/2362
+
+
+[09/02/2021 10:10 PM] glasgowm#9381
+Ta
+
+
+[09/08/2021 8:15 PM] varsismaname#3662
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/885241885214531624/screen-20210908-151159.mp4
+
+
+[09/08/2021 8:15 PM] varsismaname#3662
+Error code 500
+
+
+[09/09/2021 4:24 AM] Caramel#5218
+Anyone else run into an issue where their Ergo deposits arnt showing? been 2 days and no record of the deposit from Hero
+
+
+[09/09/2021 9:10 AM] SolReaper#7892
+yoroi does not sync with the blockchain
+
+
+[09/09/2021 9:11 AM] SolReaper#7892
+any solutions?
+
+
+[09/09/2021 3:34 PM] Quinnt#4533
+Same issue, I sent ERG from CoinEx to Yoroi 14 hours ago and it's not showing up in my wallet.
+
+
+[09/09/2021 3:57 PM] anon_br#2282
+Do you have the txid of the transaction and double checked if the address was correct?
+
+
+[09/09/2021 4:00 PM] Quinnt#4533
+Yes, I confirmed...I have the tx ID from CoinEx and I can see it was part of block 572594 last night...when I click on my receiving address, it does show the ERG as being received...tx ID is b64d4d8febdb959e37d9e74671bc846735699d2eea280592a1d2c161522ba725
+
+
+[09/09/2021 4:31 PM] Sazzik#9402
+I also have the same issue, it only say 0.00000000 ERG.
+Is it possible to confirm that I have recived my last payout from mining?
+
+
+[09/09/2021 5:36 PM] anon_br#2282
+Have you tried to go to `Settings > Wallet > Resync Wallet`? 
+@Sazzik you can try this too
+
+
+[09/09/2021 5:43 PM] Quinnt#4533
+Yes, several times. I also tried using the Edge version of Yoroi, no luck.  Looks like there are others with the same issue posting on the Ergo support forums as well.
+
+
+[09/09/2021 5:51 PM] Quinnt#4533
+If I use my wallet address on the Ergo explorer site, I can see the ERG balance there
+
+
+[09/09/2021 5:57 PM] andee#4722
+an option to use other nodes would be a great addition, the wallet has to work 24/7
+
+{Reactions}
+👍 
+
+[09/09/2021 6:06 PM] anon_br#2282
+Well, you can open your Yoroi, press F12, go to "network" tab and see if some api call is failing
+
+
+[09/09/2021 6:08 PM] Quinnt#4533
+I've got it open but not sure how to tell if anything is failing...my other Yoroi wallets seem to have no issue synching
+
+
+[09/09/2021 6:30 PM] anon_br#2282
+It seems Yoroi is experiencing technical issues. Until this is resolved, you can try restoring your wallet on Android Wallet or even Node Wallet. https://ergoplatform.org/en/wallets/
+
+{Embed}
+https://ergoplatform.org/en/wallets/
+Wallets | Ergo
+
+
+[09/09/2021 7:17 PM] Quinnt#4533
+FYI, issue seems to be resolved...my transfer from last night is now reflected in my wallet, and I just did another similar transfer that showed up within a few minutes.  Thanks!
+
+{Reactions}
+👍 
+
+[09/10/2021 9:04 PM] anon_real#2768
+@Ilya | Spectrum I'm sure you've noticed that when dapp connector is used to make a payment, the user will have to open his Yoroi wallet for his history to get updated in order to be able to make another payment. Do you know any workarounds?
+
+
+[09/10/2021 9:34 PM] Ilya | Spectrum#0494
+Yeah, no workaround found so far.
+
+{Reactions}
+🙁 
+
+[09/13/2021 6:12 AM] cadaver#4093
+I have been experiencing slow performance with yoroi wallet lately - it is functional in that it stays synced and allows me to send/receive, just very laggy
+
+
+[09/13/2021 11:03 AM] glasgowm#9381
+Restore from seed, having hundreds of transactions (especially as a miner) will cause it to become slow with dust
+
+
+[09/15/2021 2:48 PM] Jovee#1600
+Yoroi mobile does not support ergo?
+
+
+[09/15/2021 2:56 PM] andee#4722
+not yet
+
+
+[09/15/2021 2:57 PM] Jovee#1600
+Thank you
+
+
+[09/16/2021 8:01 PM] smq#5175
+Are you able to make any withdrawals from yoroi wallet right now? I have an issue that's all says successful but ergo is still on wallet and there is no transaction in history?
+
+
+[09/16/2021 8:54 PM] glasgowm#9381
+working here
+
+
+[09/16/2021 8:57 PM] smq#5175
+When u made it?
+
+
+[09/16/2021 9:00 PM] smq#5175
+Ok now it's works
+
+
+[09/16/2021 9:00 PM] smq#5175
+Thanks
+
+
+[09/17/2021 12:38 PM] anon_real#2768
+https://github.com/Emurgo/yoroi-frontend/issues/2397
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/issues/2397
+indefinite loader when issuing tokens on Ergo using the dapp connec...
+I am using Yoroi-nighty 4.7.200 and dapp connector 0.7.0. When trying to issue tokens, an indefinite loader appears and I get the following error in the console: Failed to load resource: the server...
+https://images-ext-2.discordapp.net/external/N5EP2bUm9LLxLPrSvEuGeEzVV34h8BMTTAmWp9piobc/https/opengraph.githubassets.com/7affc5f425cbecd2abb76f10ec075a4773cd295acb4a6039c4ac53f9062be206/Emurgo/yoroi-frontend/issues/2397
+
+
+[10/11/2021 6:20 AM] Spheny#8442
+Im running into an issue for some reason it seems that my ergo is not sending to my kucoin address>
+
+
+[10/11/2021 6:20 AM] Spheny#8442
+nvm im just impatient
+
+
+[10/14/2021 8:52 AM] techinez#1860
+Hello, I have Yoroi extension for ERGO since January and I have some Ergo there since the creation of Wallet (january this year).
+When I try to open by Extension (tried on Google and Firefox and another computer with linux) , I can see a YOROI logo, loading components.... then it's blank with the LOGO only. It doesn't load the wallet... WHY ?
+
+I created a new wallet 5 days ago, and it load fast. It seems an issue with old wallet.
+
+
+[10/14/2021 12:43 PM] anon_br#2282
+Try to press CTRL + F5 to force cache refresh
+
+
+[10/14/2021 12:50 PM] anon_br#2282
+Be very cautious on restoring your wallet on your current computer, on brazilian channels there are reports of viruses that breaks the Yoroi extension just to force you to try to restore your wallets from the mnemonics to stolen it from you through keylogging.
+
+
+[10/14/2021 12:50 PM] anon_br#2282
+Try to restore it in a fresh computer
+
+
+[10/15/2021 5:16 AM] Vendetta#4016
+Mobile support when?
+
+
+[10/16/2021 6:14 AM] Radioactive#7078
+its like that on older wallets , a trick to it is just leave it on the main screen and wait to fully initialise
+
+
+[10/17/2021 11:03 PM] techinez#1860
+I installed Yoroi Wallet from microsoft store  on Microsoft Edge (i don't use this browser regulary) and I was able to send funds to another new wallet with some glitches, because it's like older wallets. On new yoroi wallet it's working fine and fast now.
+
+
+[10/17/2021 11:03 PM] techinez#1860
+👍
+
+
+[10/17/2021 11:05 PM] Gytis#3049
+ew windows user
+
+
+[10/17/2021 11:05 PM] Gytis#3049
+:kekw:
+
+
+[10/17/2021 11:06 PM] Gytis#3049
+actually tell me something - are you excited about win11?
+
+
+[10/17/2021 11:06 PM] techinez#1860
+ouch, I have Ubuntu aswell, used mostly, I have the same problem with older wallet as windows.
+
+
+[10/17/2021 11:06 PM] Gytis#3049
+whats the problem?
+
+
+[10/17/2021 11:06 PM] Gytis#3049
+oh, i see
+
+
+[10/17/2021 11:07 PM] Gytis#3049
+yoroi seems to work fine for me
+
+
+[10/17/2021 11:07 PM] techinez#1860
+when opening the wallet, it takes a long time to open, or don't open after a long time.
+
+
+[10/17/2021 11:07 PM] Gytis#3049
+never encountered any issues
+
+
+[10/17/2021 11:07 PM] techinez#1860
+now is fine.
+
+
+[10/17/2021 11:07 PM] techinez#1860
+with new wallet.
+
+
+[10/18/2021 8:25 AM] glasgowm#9381
+If you're a miner with hundreds/thousands of transactions - yoroi can become laggy with miner dust.
+
+
+[10/18/2021 1:33 PM] gilgaMesh#8262
+android ergo walllet to the rescue
+
+
+[10/18/2021 1:33 PM] gilgaMesh#8262
+I am so glad it exists
+
+{Reactions}
+❤️ (3) 
+
+[10/21/2021 2:56 PM] danandbeard#2312
+yeah but yoroi is a huge gateway from cardano to ergo - if people stop using yoroi then ergo loses a ton of exposure
+
+
+[10/21/2021 2:58 PM] danandbeard#2312
+I feel like a few UX tweaks would solve half of yoroi issues - like when you click a wallet and it tries to sync the balance but something fails so it displays all transactions as failed and balance as zero until a successful sync?  I have to imagine that's terrifying for new users
+
+
+[10/21/2021 7:29 PM] gilgaMesh#8262
+have experienced that 0 balance thing when was new into erg, oh boy it was scary lol
+
+
+[10/21/2021 7:44 PM] Muessig#0272
+@RH
+
+
+[10/24/2021 11:17 PM] Kazi R#9094
+I observed the dev team is working on ERG Ledger support. From my reading of the chat transcript, they are in the alpha testing phase.  
+
+Is there an expected delivery of this support to the public or is it a moving target **?**
+
+
+[10/27/2021 10:43 AM] vingallo22#2115
+is it possible to swap between ergo and ada with yoroi?
+
+
+[10/27/2021 10:58 AM] Gytis#3049
+it is not an exchange, so that would be no
+
+
+[10/27/2021 11:00 AM] vingallo22#2115
+Yes indeed, it is a wallet, my question was if it provided swap functionality between the two coins it supports ? Despite it being "not an exchange" the website shows that is offers the ability to buy, functioning as an onramp, so does it allow swaps ?
+
+
+[10/27/2021 11:12 AM] Gytis#3049
+not that im aware of
+
+
+[10/28/2021 3:43 AM] cyrusliu#9668
+Hi everyone, I created my wallet from android device, now I want to access it on my browser extension,found out there is a word in the recovery phrase that doesn't exist or not an option in Yoroi web extension, what's wrong? 
+
+Now I'm concerned since I'm afraid login out from my mobile, and won't be able to recover the wallet.
+
+
+[10/28/2021 4:11 AM] cyrusliu#9668
+My typo, never mind...
+
+
+[10/28/2021 3:45 PM] Caramel#5218
+Yoroi running super sluggish with just 49 transactions. To the point where its hanging in firefox and asks if i want to close the page. Any advice for better performance?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/903293365922197565/unknown.png
+
+
+[10/28/2021 5:57 PM] anon_br#2282
+You can try to resync your wallet at `Settings > Wallet > Resync`
+
+
+[10/30/2021 5:39 PM] Attila#3944
+I’m also excited for that feature!
+
+
+[11/01/2021 2:39 AM] Kazi R#9094
+Same; I was trying to see if celsius network could list ERG, but seems like the community dictates what coin is listed
+
+
+[11/03/2021 5:56 AM] Funky Homosapien#9611
+Mine went through pretty easy.  Is the other end of the transaction going to a Yoroi wallet as well?
+
+
+[11/04/2021 4:27 AM] Dv#3650
+is it normal
+
+
+[11/04/2021 4:28 AM] Dv#3650
+for yoroi to log out of my wallet all the time? getting tried of restoring my wallet every few days...
+
+
+[11/04/2021 9:23 AM] andee#4722
+that is not normal
+
+
+[11/04/2021 9:24 AM] andee#4722
+do you use any addons that delete everything from your browser session when you close it?
+
+
+[11/04/2021 10:23 AM] Dv#3650
+Nope
+
+
+[11/04/2021 10:24 AM] Dv#3650
+Wish the android wallet had an export option
+
+
+[11/04/2021 10:24 AM] Dv#3650
+Only reason I ever use yoroi and it takes literal years to load
+
+
+[11/04/2021 10:25 AM] MrStahlfelge#0042
+export for what?
+
+
+[11/04/2021 11:11 AM] Dv#3650
+Transactions to csv
+
+
+[11/04/2021 11:12 AM] MrStahlfelge#0042
+I see. Would you open an issue on GitHub describing the content of the CSV?
+
+
+[11/04/2021 11:13 AM] Dv#3650
+For yoroi?
+
+
+[11/04/2021 11:13 AM] MrStahlfelge#0042
+No for the Android wallet. As a feature request
+
+
+[11/04/2021 11:13 AM] Dv#3650
+Ohh okay
+
+
+[11/04/2021 11:27 AM] andee#4722
+check for viruses or track the files yoroi store to see what is happening. there was talk about a virus that deleted yoroi wallets to force people to restore from mnemonic a while ago
+
+
+[11/06/2021 11:29 PM] Doomelf#7740
+Yoroi is running really slow and been having issues lately
+
+
+[11/06/2021 11:31 PM] Doomelf#7740
+cant even move ERG around rip
+
+
+[11/06/2021 11:32 PM] Doomelf#7740
+finally loads and gets stuck on calculating fees
+
+
+[11/07/2021 9:33 AM] andee#4722
+@Doomelf received a lot of small transactions? does it calculate faster if you input 1ERG instead of 30?
+
+
+[11/07/2021 5:39 PM] Doomelf#7740
+There was 1400 transactions on that wallet but it also was lagging out my other wallets too. Wondering if i should only be using 1 Yoroi per computer if that will fix it
+
+
+[11/07/2021 5:40 PM] Doomelf#7740
+Took 3 hours to send a few hundred ERG
+
+
+[11/07/2021 5:44 PM] Doomelf#7740
+Never had issues with Yoroi before until yesterday. Was very frustrating to deal with
+
+
+[11/07/2021 5:44 PM] Doomelf#7740
+Going to try and see if things go smoother today
+
+
+[11/08/2021 2:38 PM] curbsideprophet#5083
+does anyone else use Brave browser? Yoroi is ridiculously slow for me on there but perfectly fine on Chrome
+
+
+[11/08/2021 4:34 PM] Franku#1505
+Hi everyone. When i try to restore my wallet on yoroi it says Invalid phrase, can someone please help me, i know it's right since i tested it when i wrote it down...
+
+
+[11/09/2021 12:24 AM] Caramel#5218
+My Yoroi goes really slow in firefox
+
+
+[11/09/2021 12:24 AM] Caramel#5218
+havnt tried chrome
+
+
+[11/09/2021 12:27 AM] curbsideprophet#5083
+i even tried resetting wallet with no success 😦
+
+
+[11/09/2021 12:29 AM] Caramel#5218
+same
+
+
+[11/09/2021 12:34 AM] Caramel#5218
+Yea.. Yoroi is making me nervous with how poorly it runs
+
+
+[11/09/2021 11:03 AM] curbsideprophet#5083
+seems slightly faster today ( no changes on my part )
+
+
+[11/09/2021 6:43 PM] andee#4722
+you might have had a brainfart when writing it down or when typing it.  https://mtlynch.io/stole-siacoins/
+
+{Embed}
+https://mtlynch.io/stole-siacoins/
+How I Stole Your Siacoin
+A lesson in Sia wallet seed safety
+https://images-ext-1.discordapp.net/external/LNoJmRC0Jj22slBZvsq4Rw2o9Zj3xQ5v2DDn75bmvKc/https/mtlynch.io/stole-siacoins/american-psycho.jpg
+
+
+[11/09/2021 6:43 PM] andee#4722
+`They had correctly written down ionic but they kept mistakenly reading it back as tonic`
+
+
+[11/09/2021 6:44 PM] andee#4722
+if you send your wallet balance to yourself once in a while it might reduce the problem
+
+
+[11/09/2021 10:59 PM] valkynut#7932
+Guys, is there ongoing effort to fix yoroi's performance issues??
+
+
+[11/09/2021 11:00 PM] valkynut#7932
+It is really bad
+
+
+[11/09/2021 11:21 PM] Franku#1505
+Hahahaha that was exactly what happened to me, thank god i got so scared. Thank you for the reply!
+
+
+[11/10/2021 8:08 AM] andee#4722
+hehe, glad you got it fixed 😄
+
+{Reactions}
+💕 
+
+[11/11/2021 2:01 PM] Krasavice Blasen#4574
+Since the DEX discord seems somewhat inactive, I just wanted to mention here that the Yoroi wallet severely hinders the DEX user experience. Since the DEX uses the data given by the wallet many 'bugs' are simply Yoroi not reporting wallet data correctly due to constantly being incorrectly sync or not up to date. The assets tab is also displaying incorrect token names/ not showing some assets. Im not sure where the best place is to report these issues, so just writing a note here.
+
+
+[11/11/2021 2:02 PM] glasgowm#9381
+Should be out of beta in a few weeks - I've not had any issues apart from having to refresh yoroi but yeh it's a pain
+
+
+[11/11/2021 2:05 PM] Krasavice Blasen#4574
+Yeah, the refreshing is annoying, also some specific things: 
+The Wt_erg_Wt_Ada LP and Erdoge_Kushti Lp have been incorrectly named/ not recognised in assets.
+The view pending tx link does not work (which is likely due to Yoroi not reporting txid)
+
+
+[11/11/2021 2:07 PM] Krasavice Blasen#4574
+Keen to see the shiny out of Beta Yoroi though 🙂
+
+
+[11/11/2021 5:06 PM] edenberry#3212
+I am experiencing the same problems with the Yoroi wallet.  Transaction refreshes take a long time and I cannot interact with the new dex because the wallet does not present my assets properly.  Trying to setup liquidity tells me I do not have enough assets to setup the contract.  I am usuing yoroi nightly wallet.
+
+
+[11/11/2021 5:06 PM] edenberry#3212
+I can connect to the SigmaUSD app and my assets are shown correctly.
+
+
+[11/11/2021 11:01 PM] Krasavice Blasen#4574
+Also Erdoge_Kushti LP going missing in assets tab in Yoroi means liquidity providers cannot remove their Erdoge_Kushti liquidity
+
+
+[11/11/2021 11:04 PM] glasgowm#9381
+where is the best place to open issues for nightly @anon_br ? yoroi-frontend repo?
+
+
+[11/11/2021 11:58 PM] anon_br#2282
+yeah, that is the right place. But this isn't a Yoroi issue actually, the WR_ERG/WT_ADA LP (and Erdoge/kushti I suppose) token doesn't provide a verbose name in the R4 register like described in EIP4 (https://github.com/ergoplatform/eips/blob/master/eip-0004.md), this is the reason that this toke appears named like "-" in Yoroi. But this doesn't represent a problem to to remove ErgoDEX liquidity at all, once the token id is used to do so, not the verbose name.
+
+
+[11/12/2021 12:12 AM] Krasavice Blasen#4574
+WR_ERG/WT_ADA LP is fine (just a name issue, which is fair enough if it isnt following EIP4), however Erdoge/kushti LP does not appear in Yoroi Nightly and is not appearing in the DEX because Yoroi is not reporting the existence of the token.
+
+
+[11/12/2021 12:13 AM] Krasavice Blasen#4574
+This token ID which the explorer reports is not appearing in Yoroi
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/908509777821331497/unknown.png
+
+
+[11/12/2021 12:13 AM] Krasavice Blasen#4574
+Which is the Erdoge/Kushti LP
+
+
+[11/12/2021 12:14 AM] Krasavice Blasen#4574
+A thing to note, was that it was appearing in Yoroi about 15 hours ago, under the wrong name WR_ERG/WT_ADA _2 LP or something like that
+
+
+[11/12/2021 1:24 AM] anon_br#2282
+Hmm, I see. Did you tried to resync your wallet?
+
+
+[11/12/2021 1:24 AM] edenberry#3212
+Is the slow yoroi response a known issue?  It was fine until about 200 transactions loaded, then it got really slow and times out a lot
+
+
+[11/12/2021 1:25 AM] edenberry#3212
+Cant use the dex because the wallet never responds to the Dex for the approval
+
+
+[11/12/2021 1:25 AM] edenberry#3212
+Using nightly with dapp installed on chrome
+
+
+[11/12/2021 2:35 AM] Krasavice Blasen#4574
+Yeah resynced multiple times (through setting hard resync)
+
+
+[11/12/2021 2:35 AM] Krasavice Blasen#4574
+I havent tried logging in on another device though, was going to try that later'
+
+
+[11/12/2021 2:51 AM] Krasavice Blasen#4574
+On another device
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/908549499616645120/unknown.png
+
+
+[11/12/2021 2:51 AM] Krasavice Blasen#4574
+So on my other device I can withdraw liquidity. Token name still incorrect
+
+
+[11/12/2021 8:36 AM] glasgowm#9381
+Yes, send all assets to a new box. Your wallet has a ton of UTXOs
+
+
+[11/12/2021 11:34 AM] Pikel#8232
+Hello, i have problem with yoroi wallet , when i have 200 translations from 350 all i get crashed , and when i want start again yoroi 10 sec and crash , when i reinstall addon and restore wallet have the same problem , i use chrome and Microsoft edge  but nothing help:( . anyone have maybe solution this problem ?
+
+
+[11/12/2021 11:34 AM] Pikel#8232
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/908681226808872970/message.txt
+
+
+[11/12/2021 11:39 AM] anon_br#2282
+Ok, can you send DM your Yoroi logs?
+
+
+[11/12/2021 11:41 AM] anon_br#2282
+Hi, I'm investigating this issue, can you please send me HAR logs?
+
+Here is an instruction on how the file can be saved in Chrome: https://support.google.com/admanager/answer/10358597?hl=en
+
+NOTE:
+
+  1. No secret private information is ever transferred over network in Yoroi, so network logs only contain your addresses and responses from server about the state of your addresses, e.g. txs and utxos.
+  2. In order for the HAR log to capture the error you need to:
+    - Open Yoroi
+    - Open browser devtools and open the Network tab in the tools
+    - Wait for some time for the error to occur in the background - it might be visible in the network tab as red entries - or alterantively you can reload the Yoroi page and open the wallet again, while devtools are open, to force the resync.
+    - Then click download in the devtools to export the HAR file
+  3. You can send the HAR logs directly to me via DM or email sigmanon@protonmail.com to not have it attached to a public issue here on GitHub
+
+{Embed}
+https://support.google.com/admanager/answer/10358597?hl=en
+Capture web session traffic - Google Ad Manager Help
+Using Chrome DevToolsCapturing live ad requests and Ad Manager interactions using HTTP network sessions can be a powerful troubleshooting exercise. By providing network sessions to Ad Manager sup
+
+
+[11/12/2021 11:55 AM] Psiho.com#9265
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/908686374243291156/unknown.png
+
+
+[11/12/2021 11:55 AM] Psiho.com#9265
+This is INSANE fee
+
+
+[11/12/2021 11:56 AM] Psiho.com#9265
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/908686756302450708/unknown.png
+
+
+[11/12/2021 11:56 AM] Psiho.com#9265
+Anyone had this issue?
+
+
+[11/12/2021 12:31 PM] anon_br#2282
+Hi, can you provide more details?
+
+
+[11/12/2021 12:36 PM] Psiho.com#9265
+I've sent 2.5ERG from my Yoroi Chrome wallet to KuCoin ... This is not my first time, and fee was always 0.001ERG, now transaction completed and fee is 1ERG... this is not normal at all
+
+
+[11/12/2021 12:40 PM] Psiho.com#9265
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/908697861280133130/unknown.png
+
+
+[11/12/2021 7:54 PM] Krasavice Blasen#4574
+Yeah will do when I get home
+
+
+[11/12/2021 7:54 PM] Krasavice Blasen#4574
+Im also getting: [2021-11-13T06:52:52+11:00] WalletReceivePage unexpected address tab
+
+
+[11/12/2021 7:55 PM] Krasavice Blasen#4574
+And cant send erdoge on a freshly restored wallet
+
+
+[11/12/2021 9:14 PM] andee#4722
+have you checked the transaction in the explorer and confirmed that you actually paid that much?
+
+
+[11/12/2021 9:42 PM] Caramel#5218
+Dying for a good alternative, legit have worry keeping my coins on Yoroi atm
+
+
+[11/13/2021 1:20 AM] Krasavice Blasen#4574
+Yoroi nightly also stuck on never syncing for me
+
+
+[11/13/2021 3:08 AM] Krasavice Blasen#4574
+Just took a very long time all good
+
+
+[11/13/2021 6:39 AM] edenberry#3212
+Ill try, my wallet doesn't load anymore.  So people move from wallet to wallet after 100 transacations or so?
+
+
+[11/13/2021 6:57 AM] Krasavice Blasen#4574
+Its not the transaction count, its the number of UTXOs you have created.
+
+
+[11/13/2021 8:59 AM] andee#4722
+no moving of wallets, just send your wallet balance to yourself. and increasing payout limit on pool if very much recommended
+
+
+[11/13/2021 9:01 AM] andee#4722
+do a search on "consolidate utxo", not consolidating them while using a hardware wallet can result in not being able to sign transactions because of their size
+
+
+[11/13/2021 10:01 PM] zero🧛#9553
+Hello great ones
+
+
+[11/13/2021 10:01 PM] zero🧛#9553
+I tried sending ergo to my yoroi wallet but it tells me incorrect address
+
+
+[11/13/2021 10:02 PM] glasgowm#9381
+are you sure you've not generated an ADA wallet?
+
+
+[11/13/2021 10:02 PM] zero🧛#9553
+I probably did
+
+
+[11/13/2021 10:02 PM] zero🧛#9553
+I can’t keep both on the same wallet?
+
+
+[11/13/2021 10:03 PM] glasgowm#9381
+no they're separate blockchains. Yoroi (Desktop) supports erg too but you need to set up a seperate wallet
+
+
+[11/13/2021 10:03 PM] zero🧛#9553
+Ah damn another wallet to add lol this will drive me crazy
+
+
+[11/13/2021 10:04 PM] zero🧛#9553
+Thx tho
+
+
+[11/13/2021 10:14 PM] zero🧛#9553
+Sad yoroi can’t be added to brave browser?
+
+
+[11/13/2021 10:16 PM] glasgowm#9381
+it can yeh
+
+
+[11/13/2021 10:17 PM] zero🧛#9553
+Chrome edge Firefox android iOS
+
+
+[11/13/2021 10:17 PM] zero🧛#9553
+Are the options
+
+
+[11/13/2021 10:18 PM] glasgowm#9381
+brave is chrome
+
+
+[11/13/2021 10:18 PM] glasgowm#9381
+same backend
+
+
+[11/13/2021 10:18 PM] zero🧛#9553
+Well I’m dumb lol
+
+
+[11/13/2021 10:18 PM] zero🧛#9553
+Thx
+
+
+[11/14/2021 8:45 PM] Apextheory#6577
+Anybody's Yoroi wallet showing wrong balance after restoring from seed phrase?  It does not match the explorer amounts on my addresses.  I guess node is out of sync?
+
+
+[11/15/2021 12:07 AM] Krasavice Blasen#4574
+I physcially cannot send erdoge, any way to solve this?
+
+
+[11/15/2021 1:07 AM] Seyahn#7547
+Have you tried doing it digitally?
+
+{Reactions}
+😂 (2) 
+
+[11/15/2021 1:07 AM] Seyahn#7547
+(I'm sorry, I'm sorry. The joke presented itself and I couldn't resist.)
+
+
+[11/15/2021 10:21 AM] glasgowm#9381
+refresh nightly probably. Or restore on #💳・wallet-app
+
+
+[11/15/2021 10:38 AM] Krasavice Blasen#4574
+Ah didnt consider android wallet thanks!
+
+
+[11/15/2021 3:58 PM] Apextheory#6577
+An update to this. I sent all funds + tokens back to myself to consolidate the UTXO's in a single address.  Yoroi is still showing different address balance than Explorer
+
+
+[11/15/2021 4:03 PM] glasgowm#9381 (pinned)
+Here is an instruction on how the file can be saved in Chrome: https://support.google.com/admanager/answer/10358597?hl=en
+
+NOTE:
+
+  1. No secret private information is ever transferred over network in Yoroi, so network logs only contain your addresses and responses from server about the state of your addresses, e.g. txs and utxos.
+  2. In order for the HAR log to capture the error you need to:
+    - Open Yoroi
+    - Open browser devtools and open the Network tab in the tools
+    - Wait for some time for the error to occur in the background - it might be visible in the network tab as red entries - or alterantively you can reload the Yoroi page and open the wallet again, while devtools are open, to force the resync.
+    - Then click download in the devtools to export the HAR file
+  3. You can send the HAR logs directly to me via DM or email sigmanon@protonmail.com to not have it attached to a public issue here on GitHub
+
+{Embed}
+https://support.google.com/admanager/answer/10358597?hl=en
+Capture web session traffic - Google Ad Manager Help
+Using Chrome DevToolsCapturing live ad requests and Ad Manager interactions using HTTP network sessions can be a powerful troubleshooting exercise. By providing network sessions to Ad Manager sup
+
+
+[11/15/2021 4:03 PM] glasgowm#9381
+Pinned a message.
+
+
+[11/15/2021 4:04 PM] Apextheory#6577
+thanks will try this
+
+
+[11/17/2021 12:23 AM] homesizzle#4097
+I'm using yoroi on chrome and every few seconds the transactions change from high to failed. It shows my balance and then a few seconds later, the balance goes to zero. Few seconds later balance comes back. repeat. I've resynced the wallet multiple times. Same problem.
+
+
+[11/17/2021 12:24 AM] homesizzle#4097
+Not a good look for the coin
+
+
+[11/17/2021 3:03 AM] curbsideprophet#5083
+Does your balance show up on ergo block explorer ?
+
+
+[11/17/2021 3:41 AM] torchTheMall#9228
+im assuming everyone asks this or im an idiot - where do I get the nightly channel for yoroi
+
+
+[11/17/2021 3:51 AM] torchTheMall#9228
+nevermind - the only link i could find to it was on ergodex - thanks
+
+
+[11/17/2021 2:40 PM] anon_br#2282
+You can solve this by resyncing you wallet `Settings > Wallet > Resync`
+
+
+[11/17/2021 10:36 PM] Rob3#6008
+Does anyone know if there is a. Issue with running Yoroi Nightly on a Mac? I was able to use the Auction House and ErgoDex yesterday on my PC without any issue. I bought a new iMac and set it up today. However, the transactions won’t go through on either Dapp.
+
+
+[11/18/2021 12:07 AM] Krasavice Blasen#4574
+Settings > Wallet > Resync, if you havent already tried. I had a similar issue when there are multiple devices using the same wallet it seems to break things. I ended up fixing by using the android wallet
+
+
+[11/18/2021 12:09 AM] mix#6733
+What is yoroi website??
+
+
+[11/18/2021 8:09 AM] andee#4722
+Make sure that yoroi is open then reload the page that uses dApp connector
+
+
+[11/18/2021 8:10 AM] andee#4722
+if you are using brave you also have to give permission to access the connector every time
+
+
+[11/18/2021 8:58 AM] glasgowm#9381
+No issues here
+
+
+[11/18/2021 9:21 AM] homesizzle#4097
+Tried that multiple times. This is a problem. Many people report the same thing on Reddit.
+
+
+[11/18/2021 9:27 AM] andee#4722
+find it through https://ergoplatform.org/en/wallets/
+
+{Embed}
+https://ergoplatform.org/en/wallets/
+Wallets | Ergo
+
+
+[11/18/2021 10:21 PM] Rob3#6008
+Thanks guys. I go it sorted out
+
+
+[11/19/2021 8:53 PM] LeggoMyErgo#4477
+How long until yoroi fixes latest nightly update, apparently it's broken
+
+
+[11/19/2021 8:54 PM] LeggoMyErgo#4477
+or dapp connector i mean
+
+
+[11/20/2021 2:17 PM] curbsideprophet#5083
+From the ergodex discord channel
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/911621281760288808/IMG_5717.png
+
+{Reactions}
+👍 
+
+[11/20/2021 2:17 PM] curbsideprophet#5083
+So a couple hours after you asked
+
+
+[11/21/2021 7:02 AM] torchTheMall#9228
+can you use yoroi nightly and dapp connector on a testnet?
+
+
+[11/22/2021 4:34 PM] NoQuieroNiPensar#1308
+Yes, it have been created for that
+
+
+[11/22/2021 4:34 PM] torchTheMall#9228
+I couldn't figure out how to change networks
+
+
+[11/22/2021 4:35 PM] torchTheMall#9228
+I'm new to useing ergo test net so I'm probably doing it wrong
+
+
+[11/22/2021 4:35 PM] torchTheMall#9228
+Perhaps it's not like eth/polygon/etc.  Now I can just run ganache and use a local blockchain
+
+
+[11/22/2021 4:36 PM] torchTheMall#9228
+Still figuring out how to get on ergos.
+
+
+[11/22/2021 4:38 PM] NoQuieroNiPensar#1308
+oh sorry man, I know that is possible but I dont know how it works. 
+As i know all you need is in Ergoplatform.org
+
+
+[11/23/2021 3:26 AM] Cheese Enthusiast#0548
+Hey does anybody know the current Yoroi dev? I have a bug that is making the entire wallet unusable for me.
+
+
+[11/23/2021 6:24 AM] Krasavice Blasen#4574
+You may want to restore your wallet on android wallet if you can. Then send your funds to a new adress
+
+
+[11/23/2021 6:31 AM] Cheese Enthusiast#0548
+Unfortunately only have an iOS. Worst case I can use a node wallet or even code a transaction but I'd rather just get the wallet fixed.
+
+
+[11/23/2021 10:10 AM] glasgowm#9381
+@anon_br is the dev, but there's a beta for the iOS if that's easier.
+
+
+[11/23/2021 10:11 AM] glasgowm#9381
+Do you have a ton of UTXOs by chance?
+
+
+[11/26/2021 8:40 AM] lafrenieree#5485
+Is there an eta when we can use ergo on ios yoroi?
+
+
+[11/26/2021 10:19 AM] MrStahlfelge#0042
+no, but there is an eta for ergo wallet on ios. if you like to try the beta, it is now.
+
+{Reactions}
+ergo_orange (2) 
+
+[11/26/2021 10:15 PM] 𝐵𝓊𝒷𝒷𝓁𝑒𝓈#6339
+How to get the beta?😅
+
+
+[11/26/2021 10:43 PM] MrStahlfelge#0042
+Send me your apple id
+
+
+[11/27/2021 12:31 AM] lafrenieree#5485
+Where can i find the beta?
+
+
+[11/27/2021 11:43 AM] HelixEvo#2120
+My mining address for Yoroi on Firefox absolutly munches the browsers processing. USing the moz-extension
+
+
+[11/27/2021 11:44 AM] HelixEvo#2120
+Same for other miners using Yoroi on Firefox?
+
+
+[11/27/2021 11:47 AM] andee#4722
+having lots of small payouts is not recommended on UTxO chains, and depending on where you are located it can create a lot of extra work for tax documentation
+
+
+[11/27/2021 11:47 AM] andee#4722
+try consolidating your wallet by sending your wallet balance to yourself
+
+
+[11/28/2021 5:32 AM] Venom T 10#8384
+Is it just me or does it take forever to access yoroi it’s so slow to load.
+
+{Reactions}
+👍 
+
+[11/28/2021 9:59 AM] gnuion#3794
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/914455346590928946/unknown.png
+
+
+[11/28/2021 9:59 AM] gnuion#3794
+very bad user experience with yoroi
+
+
+[11/28/2021 10:18 AM] gnuion#3794
+I get suggested words even though I completed mnemonic. This is clearly a bug.
+
+
+[11/28/2021 11:44 AM] andee#4722
+it happens if you type word and press enter, enter.
+
+
+[11/28/2021 11:44 AM] andee#4722
+should be addressed though. but pressing enter again removes list
+
+
+[11/28/2021 1:33 PM] gnuion#3794
+yes, this is how it happens.
+
+
+[11/28/2021 4:06 PM] Mystic Monkey#9283
+Same here. It's been barely usable the last few weeks
+
+
+[11/28/2021 4:09 PM] glasgowm#9381
+It can happen with too many transactions - use the 'send all' feature to collect all your UTXOs
+
+
+[11/28/2021 8:09 PM] HelixEvo#2120
+Do you send it to yourself with this procedure?
+
+
+[11/28/2021 9:20 PM] glasgowm#9381
+Yes
+
+
+[11/29/2021 4:02 AM] Venom T 10#8384
+this wallet is ass tbh i cant get into it lol
+
+
+[11/29/2021 7:50 AM] alexandru#0679
+yep, not working on me too, it's the most shit wallet for ergo, it's crashing at 20+ transactions
+
+
+[11/29/2021 8:24 AM] Venom T 10#8384
+Yea I have to leave it open for about 10-20 opens to get in
+
+
+[11/29/2021 9:08 AM] andee#4722
+I have no slowdown with over 60 transaction, but I have consolidated my wallet a couple of times to avoid problems. what browser are you using?
+
+
+[11/29/2021 11:02 AM] HelixEvo#2120
+Consolidated mine yesterday. Still is very slow and browser constantly popping up saying its slowing down the whole session. Im on Firefox.
+
+
+[11/30/2021 12:20 AM] Venom T 10#8384
+I’m on chrome doesn’t work well
+
+
+[11/30/2021 12:21 AM] Venom T 10#8384
+I do have over 200 transactions tho
+
+
+[11/30/2021 9:40 AM] andee#4722
+what version are you on @HelixEvo ?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/915175388441903125/Screenshot_from_2021-11-30_10-39-31.png
+
+
+[12/01/2021 8:41 AM] Doomelf#7740
+One of my generated addresses that has Erg on it will not show balance
+
+
+[12/01/2021 8:41 AM] Doomelf#7740
+I've resynced to the blockchain and still nothing. Also token amounts in Assets are incorrect overall on that wallet showing in Yoroi.
+
+
+[12/01/2021 8:45 AM] Doomelf#7740
+I decided to restore my wallet somewhere else and still nothing. 29 ERG just sitting that i cant do anything with
+
+
+[12/01/2021 8:45 AM] Doomelf#7740
+https://explorer.ergoplatform.com/en/addresses/9huXcFy7kS8j8QMWmekiiTtm8EAp3FCgjsmQkiVPUy36vGaL9cD
+
+
+[12/01/2021 9:15 AM] Doomelf#7740
+I've sent tokens and more ERG to that Generated address hoping my wallet would read the correct total amount.... and this is what it shows
+
+
+[12/01/2021 9:15 AM] Doomelf#7740
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/915531445714432000/unknown.png
+
+
+[12/01/2021 9:16 AM] Doomelf#7740
+Its the same on both  Yoroi and Yoroi Nightly
+
+
+[12/01/2021 9:17 AM] Doomelf#7740
+@anon_br
+
+
+[12/01/2021 9:54 AM] Doomelf#7740
+Tried different browsers and still the same.
+
+
+[12/01/2021 11:32 AM] glasgowm#9381
+Did you try generating more addresses?
+
+
+[12/01/2021 11:33 AM] Doomelf#7740
+No, i will try it
+
+
+[12/01/2021 11:41 AM] Doomelf#7740
+@glasgowm still shows 1 ERG
+
+
+[12/01/2021 11:41 AM] Doomelf#7740
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/915568323125739550/unknown.png
+
+
+[12/01/2021 11:45 AM] glasgowm#9381
+You need to keep going til you hit the address that has the funds in it.
+
+
+[12/01/2021 11:46 AM] glasgowm#9381
+or is that already there - but displaying 0 ?
+
+
+[12/01/2021 11:46 AM] Doomelf#7740
+i sent ERG to it, it shows 1 ERG in the UTXO Balance
+
+
+[12/01/2021 11:46 AM] Doomelf#7740
+But it does not show the other 29 ERG
+
+
+[12/01/2021 11:46 AM] Doomelf#7740
+That i got back from a bid on the AH
+
+
+[12/01/2021 11:47 AM] glasgowm#9381
+oh I see, yeh sounds like a sync issue then. anon can assist when he's around. There's pinned instructions to get logs
+
+
+[12/01/2021 11:47 AM] Doomelf#7740
+if you see in this link, there is ERG in that address
+https://explorer.ergoplatform.com/en/addresses/9huXcFy7kS8j8QMWmekiiTtm8EAp3FCgjsmQkiVPUy36vGaL9cD
+
+
+[12/01/2021 12:21 PM] anon_br#2282
+hi, probably a sync issue, did you tried to resync your wallet through `Settings > Wallet > Resync`?
+
+
+[12/01/2021 12:24 PM] Doomelf#7740
+yes
+
+
+[12/01/2021 12:25 PM] anon_br#2282
+Can you please send me your logs? Instructions here: https://discord.com/channels/668903786361651200/763809133191102485/909836033842102293
+
+
+[12/01/2021 12:33 PM] Doomelf#7740
+Just sent in a msg, i think i did it right
+
+{Reactions}
+👍 
+
+[12/01/2021 12:38 PM] anon_br#2282
+Weird, nothing wrong with the har log, can you please also send the Yoroi logs at `Settings > Suppor / Logs > Download logs`?
+
+
+[12/01/2021 12:38 PM] anon_br#2282
+One question: does your overall balance looks right?
+
+
+[12/01/2021 1:28 PM] Doomelf#7740
+Sent, no the overall balance is not correct. If it was, i would just send all to another wallet
+
+
+[12/01/2021 1:29 PM] anon_br#2282
+Received, thank you
+
+
+[12/01/2021 1:29 PM] Doomelf#7740
+thank you for looking into this so quick 🙂
+
+
+[12/01/2021 3:27 PM] ripci#2432
+Guys whats difference between yoroi night and yoroi? I see that I need yoroi night to provide liquidity
+
+
+[12/01/2021 4:58 PM] glasgowm#9381
+yoroi nightly is the beta version.
+
+
+[12/01/2021 7:21 PM] LeggoMyErgo#4477
+Yeah same, showing a lot of incorrect balances and syncing doesn't do the job, incorrect balance and such.
+
+
+[12/01/2021 7:22 PM] anon_br#2282
+Do you have lots of txs?
+
+
+[12/01/2021 7:25 PM] LeggoMyErgo#4477
+yes...I think I found a solution, after resyncing and generating addresses not working, I just sent 0.5 Erg to a new address. appears correct now. I'll try sending again as that was the issue (failed txs now not visible).
+
+
+[12/01/2021 7:25 PM] anon_br#2282
+How many addresses do you have?
+
+
+[12/01/2021 7:26 PM] LeggoMyErgo#4477
+20+?
+
+
+[12/01/2021 7:27 PM] LeggoMyErgo#4477
+I should probably consolidate. is it suggested to ever delete any?
+
+
+[12/01/2021 7:28 PM] anon_br#2282
+I'm investigating an issue which only occurs when the wallet has more than 20 addresses, and the 21st onward has some balance
+
+
+[12/01/2021 7:28 PM] anon_br#2282
+You can try to, is your balance ok?
+
+
+[12/01/2021 7:29 PM] LeggoMyErgo#4477
+it is now. waiting to see if I can actually send anything.
+
+
+[12/01/2021 7:30 PM] LeggoMyErgo#4477
+yeah outgoing txn. seems like it was a weird sync issue
+
+
+[12/01/2021 7:30 PM] LeggoMyErgo#4477
+but got sorted
+
+
+[12/01/2021 7:31 PM] LeggoMyErgo#4477
+sending small amount to the wallet did the trick. i'm not technical person. but am sold on ergo 😉
+
+{Reactions}
+👍 
+
+[12/02/2021 5:39 AM] Doomelf#7740
+yeah i just broke another wallet >.< same cant send anything off it and balance seemed to get messed up again lol.... forced hodl
+
+
+[12/03/2021 11:44 AM] Pgr456#1839
+@anon_br  Managed to brake a yoroi wallet too on nightly and on stable. Does the yoroi backend some caching because even if I restore from scratch I am getting the exact same messed up state? If it helps debugging I should have around 100 transactions (wallet shows 53) and my derivation path says I have generated 141 addresses (that should be the correct value). Interestingly it shows the wrong balance (ERG and assets) even for the first address in the derivation path
+
+
+[12/03/2021 7:08 PM] Doomelf#7740
+seems to be an issue happening to alot of people recently. I've broken a few wallets hoping it gets fixed soon so i can get them into a fresh new wallet. Maybe try the android wallet. I hear it could take up to 2 weeks for emurgo to fix this issue...
+
+
+[12/04/2021 12:30 AM] postie#4384
+Hey guys. Yoroi withdrawls straight up not working for me right now. What gives?
+
+
+[12/04/2021 12:30 AM] postie#4384
+Balance showing correct on erg scan
+
+
+[12/04/2021 12:31 AM] postie#4384
+And i get the success message after submitting the withdrawl request
+
+
+[12/04/2021 12:31 AM] postie#4384
+The transaction just never shows up
+
+
+[12/04/2021 12:31 AM] postie#4384
+Any ideas?
+
+
+[12/04/2021 12:50 AM] anon_br#2282
+Hi, sorry for the late response, this issue is already fixed, just waiting for review and publish https://github.com/Emurgo/yoroi-frontend/pull/2551
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/pull/2551
+Fix a syncing issue on wallets with 50+ addresses by anon-br · Pull...
+This PR fixes a syncing issue that affects wallets which have more addresses than CONFIG.app.addressRequestSize.
+Background
+The rawUpdateTransactions() function fetches transaction history in batch...
+https://images-ext-1.discordapp.net/external/rfucXMJxb23kUEQtjArdahzsEwRCsi12gbcCwWawlwk/https/opengraph.githubassets.com/48a7c66198f341a209179b13341ecdacf92cc3e78ad86fe42933097b7755794c/Emurgo/yoroi-frontend/pull/2551
+
+
+[12/04/2021 12:51 AM] Pgr456#1839
+No worry's thanks for the update on that 🙂
+
+{Reactions}
+👍 
+
+[12/04/2021 12:51 AM] anon_br#2282
+Do you have 50+ addresses?
+
+
+[12/04/2021 12:52 AM] postie#4384
+Nope
+
+
+[12/04/2021 12:52 AM] postie#4384
+I literally only have 1 lol
+
+
+[12/04/2021 12:52 AM] postie#4384
+1 generated address
+
+
+[12/04/2021 12:52 AM] anon_br#2282
+Ok, can you send me logs? so I can get more details on this
+
+
+[12/04/2021 12:53 AM] postie#4384
+How do i find those?
+
+
+[12/04/2021 12:55 AM] anon_br#2282
+`Settings > Support / Logs > Download Logs`
+
+
+[12/06/2021 2:57 AM] Cheese Enthusiast#0548
+Hey @anon_br I've been having trouble with getting my yoroi wallet to sync with the blockchain for some time now, I seem to be getting a few errors in the chrome dev console. Is it cool if I dm you my yoroi logs so you can look at them when you get the chance?
+
+
+[12/06/2021 11:36 AM] cryptolemon#3587
+Hi all, I have a question about Yoroi. I have two wallets in my Yoroi app and one shows four panels: "Transactions", "Send", "Assets", and "Receive". But the other just shows three without the "Assets" one. Even though I have sent tokens to that one. Any ideas what is going on?
+
+
+[12/06/2021 11:52 AM] anon_br#2282
+For sure! Just a question: are all your tx showing the status "failed"?
+
+
+[12/06/2021 11:53 AM] cryptolemon#3587
+Yes exactly
+
+
+[12/06/2021 11:53 AM] cryptolemon#3587
+Same for me
+
+
+[12/06/2021 11:53 AM] anon_br#2282
+Just a back-end issue, it is being fixed atm
+
+
+[12/06/2021 11:54 AM] cryptolemon#3587
+Ok, thanks!
+
+
+[12/06/2021 11:54 AM] anon_br#2282
+No problem
+
+
+[12/06/2021 1:06 PM] PloppyTheJailer#4041
+Is it normal to see failed transactions in Yoroi?
+
+
+[12/06/2021 1:06 PM] PloppyTheJailer#4041
+Is that just some kind of syncing/software issue on their end?
+
+
+[12/06/2021 1:07 PM] PloppyTheJailer#4041
+I'm very confused lol
+
+
+[12/06/2021 1:07 PM] PloppyTheJailer#4041
+The status of my transactions were high but now they've failed?
+
+
+[12/06/2021 1:08 PM] anon_br#2282
+This is an issue with the backend service, already known and being fixed atm
+
+
+[12/06/2021 1:08 PM] PloppyTheJailer#4041
+Is that the case for both ADA and ERG?
+
+
+[12/06/2021 1:08 PM] PloppyTheJailer#4041
+Because I'm having the issue with them both
+
+
+[12/06/2021 1:12 PM] anon_br#2282
+I'm not aware from the ADA side tbh, but I heard they are facing some backend trouble too
+
+
+[12/06/2021 1:12 PM] PloppyTheJailer#4041
+Yeah
+
+
+[12/06/2021 1:12 PM] PloppyTheJailer#4041
+Very strange
+
+
+[12/06/2021 1:12 PM] PloppyTheJailer#4041
+I'm concerned that it will affect staking rewards lol
+
+
+[12/06/2021 1:13 PM] PloppyTheJailer#4041
+All but one of my ADA transactions say failed
+
+
+[12/06/2021 1:14 PM] PloppyTheJailer#4041
+Which is weird because the status of them was high previously 🤔
+
+
+[12/06/2021 1:15 PM] anon_br#2282
+Don't worry, it's just a syncing issue
+
+
+[12/06/2021 1:16 PM] PloppyTheJailer#4041
+Cool
+
+
+[12/06/2021 1:16 PM] PloppyTheJailer#4041
+@anon_br Thx for clarifying that mate 🥰
+
+
+[12/06/2021 1:16 PM] PloppyTheJailer#4041
+Much appreciated 🍻
+
+{Reactions}
+🙏 
+
+[12/06/2021 1:22 PM] PloppyTheJailer#4041
+Also
+
+
+[12/06/2021 1:22 PM] PloppyTheJailer#4041
+I'm not sure if you know the answer to this
+
+
+[12/06/2021 1:23 PM] PloppyTheJailer#4041
+Each time I've deposited ADA into Yoroi I've had to use a new address
+
+
+[12/06/2021 1:24 PM] PloppyTheJailer#4041
+And I'm assuming this is correct because it says "To protect your privacy, new addresses are generated automatically once you use them"
+
+
+[12/06/2021 1:24 PM] PloppyTheJailer#4041
+But this hasn't been the case with ERG
+
+
+[12/06/2021 1:25 PM] PloppyTheJailer#4041
+I've used the same Yoroi address for 5 transactions now and a new one hasn't been generated
+
+
+[12/06/2021 1:27 PM] PloppyTheJailer#4041
+@anon_br Do you know anything about this?
+
+
+[12/06/2021 1:28 PM] PloppyTheJailer#4041
+I'm just kind of confused because new Yoroi addresses have been generated automatically for ADA but not for ERG after they have been used
+
+
+[12/06/2021 1:39 PM] glasgowm#9381
+think doing that is more problematic on PoW - you can generate addresses if you needed each time but not always needed
+
+{Reactions}
+ergo_orange 
+
+[12/06/2021 1:43 PM] PloppyTheJailer#4041
+@glasgowm Yeah, what I'm saying is that new addresses have been generated automatically with my ADA wallet but not with ERG
+
+
+[12/06/2021 1:44 PM] glasgowm#9381
+oh right sorry, never noticed - will just be using the same UI elements as the ada one
+
+
+[12/06/2021 1:44 PM] PloppyTheJailer#4041
+What do you mean by that?
+
+
+[12/06/2021 1:44 PM] PloppyTheJailer#4041
+Sorry
+
+
+[12/06/2021 1:45 PM] PloppyTheJailer#4041
+I'm still very new to crypto lol
+
+
+[12/06/2021 1:45 PM] glasgowm#9381
+ada side was built first - so they've just reused that page and forgot to remove it.
+
+
+[12/06/2021 1:45 PM] PloppyTheJailer#4041
+Alright
+
+
+[12/06/2021 1:45 PM] glasgowm#9381
+@anon_br can fix 🙂
+
+
+[12/06/2021 1:45 PM] PloppyTheJailer#4041
+I don't have to be concerned about anything then?
+
+
+[12/06/2021 1:46 PM] glasgowm#9381
+nope
+
+
+[12/06/2021 1:46 PM] PloppyTheJailer#4041
+Hahaha
+
+
+[12/06/2021 1:46 PM] PloppyTheJailer#4041
+Awesome
+
+
+[12/06/2021 1:46 PM] PloppyTheJailer#4041
+Legend
+
+
+[12/06/2021 1:46 PM] PloppyTheJailer#4041
+Appreciate it mate 🙌
+
+{Reactions}
+duckThumbsUp 
+
+[12/06/2021 1:48 PM] anon_br#2282
+Didn’t notice that, will fix ASAP
+
+
+[12/06/2021 1:49 PM] PloppyTheJailer#4041
+@anon_br Yeah, I found it confusing because they both say that new addresses are generated automatically once you use them
+
+
+[12/06/2021 1:49 PM] PloppyTheJailer#4041
+But I've been allowed to use the same Yoroi address to receive ERG
+
+
+[12/06/2021 1:52 PM] anon_br#2282
+Yeah, thanks for the report! )
+
+
+[12/06/2021 1:54 PM] PloppyTheJailer#4041
+No worries!
+
+
+[12/06/2021 4:08 PM] Cheese Enthusiast#0548
+No I think it is related to a certain transaction. I'll send you the logs so you can look at them
+
+
+[12/07/2021 6:40 PM] Kaotic#4193
+I mine to a yoroi wallet. I use firefox. Wallet constantly crashes before it can sync? Cant load/display correct balance either. It gets worse with every transaction.  Wallet is not useable. Erg is stuck. Any fix?
+
+
+[12/07/2021 6:46 PM] Doomelf#7740
+i think it will be fixed this week, they have been reporting problems and posting on github
+
+{Reactions}
+👍 
+
+[12/07/2021 6:46 PM] Doomelf#7740
+https://github.com/Emurgo/yoroi-frontend/pull/2551
+
+
+[12/07/2021 6:46 PM] Kaotic#4193
+Thank you for the hopium
+
+{Reactions}
+💯 👍 
+
+[12/10/2021 2:16 AM] wileyyy#7785
+Yoroi still broken? Shows a different amount than my android wallet, since 12/5
+
+
+[12/10/2021 10:32 AM] Donalddd#2998
+with the same seed?
+
+
+[12/10/2021 10:47 AM] TillDawn#6408
+hey guys can anyone tell me what a spending password is in yoroi wallet? try to withdraw some ergo cheers
+
+
+[12/10/2021 11:24 AM] Donalddd#2998
+a password that you set when you created the wallet
+
+
+[12/10/2021 2:56 PM] wileyyy#7785
+Yeah it's the same seed. Ergo explorer shows the same as my Android wallet as well. Hasn't synced in a week.
+
+
+[12/10/2021 8:22 PM] alexandru#0679
+yes, you are lucky, mine is not even loading :)))
+
+
+[12/10/2021 8:25 PM] wileyyy#7785
+My yoroi nightly shows the correct amount and syncs properly, but also I use brave so it won't connect to anything right now while their trying to fix a bug or something. Whole thing is goofed up rn
+
+
+[12/11/2021 9:58 AM] MrStahlfelge#0042
+When Yoroi shows more chances are high you have some amount on a derived address that you didn't add to Android yet
+
+
+[12/11/2021 2:25 PM] wileyyy#7785
+Yoroi shows less actually. Hasn't shown any transactions since 12/5
+
+
+[12/14/2021 8:12 AM] Dv#3650
+is there anyway to make yoroi not freeze/take 2 hours to load?
+
+
+[12/14/2021 10:59 AM] Dv#3650
+Man it's so frustrating, guess I'll let it load over night, god damn
+
+
+[12/14/2021 4:21 PM] Kaotic#4193
+Then it will crash your browser...
+
+
+[12/14/2021 4:37 PM] glasgowm#9381
+Create a new wallet and 'send all assets' - it's because you've got too many UTXOs - fixed in an upcoming update
+
+
+[12/14/2021 4:56 PM] Deleted User#0000
+can i store my $ERGO on yoroi?
+
+
+[12/14/2021 8:01 PM] alexandru#0679
+nope yoroi dead for now, wait for update
+
+
+[12/14/2021 8:02 PM] alexandru#0679
+yes but if you have to many UTXOs you should wait for an update because it's not  fully functional right now. I sugges you to use the mobile app
+
+
+[12/14/2021 8:02 PM] alexandru#0679
+the last option, the node, is also a headache, i have my funds stuck in yoroi
+
+
+[12/14/2021 8:09 PM] Deleted User#0000
+alright thanks!!
+
+
+[12/15/2021 2:46 AM] Dv#3650
+Defeats the purpose of the wallet for me then. Only reason I use yoroi is for the transaction export feature for tax purposes. If I send all of them to another wallet my cost basis won't be correct once I import them.
+
+
+[12/15/2021 5:05 AM] Dv#3650
+yea does the node have transaction export feature though? That's literally all I need atm
+
+
+[12/15/2021 6:22 PM] Gazza_SP#5835
+There is a mobile ergo wallet that works very well.
+
+
+[12/16/2021 2:07 AM] soysor#6001
+Hey, what do these strings represent on wallets? `BKJO-5416` in the screenshot attached
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/920859566953074758/yoroi-wallet.PNG
+
+
+[12/16/2021 8:16 AM] andee#4722
+I think its a hash, so restoring from seed on a different computer should yield the same id
+
+{Reactions}
+ergo_orange (3) 
+
+[12/16/2021 7:23 PM] uros#2054
+When will the ergo wallet be available on ios?
+
+
+[12/17/2021 9:28 AM] MrStahlfelge#0042
+it already is available on TestFlight
+
+
+[12/17/2021 9:51 AM] uros#2054
+@MrStahlfelge ok where can i find that?
+
+
+[12/17/2021 9:54 AM] MrStahlfelge#0042
+https://testflight.apple.com/join/MRyG2qfm
+
+
+[12/17/2021 10:04 AM] Dv#3650
+how do I go about updating my yoroi using this??
+
+
+[12/17/2021 10:05 AM] Dv#3650
+nvm that's the current version, the issue I have is this one https://github.com/Emurgo/yoroi-frontend/pull/2551
+
+{Embed}
+https://github.com/Emurgo/yoroi-frontend/pull/2551
+Fix a syncing issue on wallets with 50+ addresses by anon-br · Pull...
+This PR fixes a syncing issue that affects wallets which have more addresses than CONFIG.app.addressRequestSize.
+Background
+The rawUpdateTransactions() function fetches transaction history in batch...
+https://images-ext-1.discordapp.net/external/gPq3Ce8chg8xMLqxyBKmCVzGLe0X3eiEmaYfzreH_oo/https/opengraph.githubassets.com/c813c0de1883918836c58f4d3bf65f62792e5d6d1bea0e678f7b8645c3e8b7d2/Emurgo/yoroi-frontend/pull/2551
+
+
+[12/17/2021 10:06 AM] Dv#3650
+unlucky
+
+
+[12/17/2021 10:30 AM] Dv#3650
+omg
+
+
+[12/17/2021 10:31 AM] Dv#3650
+my wallet actually loaded
+
+
+[12/17/2021 10:31 AM] Dv#3650
+:cat2: :catjam2:
+
+
+[12/17/2021 10:36 AM] Dv#3650
+and then crashed as soon as I tried to download my transaction history
+
+
+[12/17/2021 10:36 AM] Dv#3650
+https://tenor.com/view/burying-dying-dead-grave-gif-17189345
+
+{Embed}
+https://tenor.com/view/burying-dying-dead-grave-gif-17189345
+https://images-ext-1.discordapp.net/external/FjiuaK7GC6MtLp1WPkFWYlWzOawatncwPLqOS4zoZvw/https/media.tenor.co/images/0aa55e451be3f706bb28404ed3510a9f/tenor.png
+
+
+[12/17/2021 12:55 PM] Doomelf#7740
+still not fixed sadly. Hoping its today because its been 2 weeks now...
+
+
+[12/18/2021 2:21 AM] LiuKrang#1754
+Yo my boi @Deleted User we made it
+
+
+[12/18/2021 12:23 PM] Deleted User#0000
+Haha I was bout to pm you
+
+
+[12/18/2021 2:17 PM] Kaotic#4193
+At this point yoroi is a forced hodl...
+
+{Reactions}
+💯 
+
+[12/18/2021 2:29 PM] Doomelf#7740
+yeah.... i was hoping it would get updated and fixed yesterday but nothing happened...rip
+
+
+[12/18/2021 2:29 PM] Doomelf#7740
+I wish Emurgo would give us an update
+
+
+[12/18/2021 2:31 PM] glasgowm#9381
+You can see the comments on the PR above
+
+
+[12/18/2021 2:48 PM] Doomelf#7740
+Yeah i read them, thankfully we got anon_br working on things he knows how to get things done. Sucks its getting held up because of something on the ADA side...
+
+
+[12/18/2021 6:28 PM] G. de Balboa#0001
+Not sure if the recent update broke something but I can't seem to load my wallets (ADA & ERG) anymore. Yoroi just crashes when I click on the extension, I'm on chrome
+
+
+[12/19/2021 9:38 PM] CyB3RNooB#1396
+I stopped mining Erg because of the yoroi wallet not working properly....
+
+
+[12/20/2021 12:58 AM] nitram147#5106
+Opened yoroi after 2-3 weeks and my wallet dissapeared
+
+
+[12/20/2021 12:58 AM] nitram147#5106
+Seem suspicious at least for me
+
+
+[12/20/2021 12:58 AM] nitram147#5106
+It's like if I made a clean install of Yoroi
+
+
+[12/20/2021 12:58 AM] nitram147#5106
+Does Emurgo released some strange update?
+
+
+[12/20/2021 3:10 AM] ÅrÖhBê#8289
+Just use the Android or new iOS beta wallet for now.  Yoroi is working hard on improving the wallet but there are alternatives for now to access your Erg quickly.
+
+
+[12/20/2021 3:43 AM] CyB3RNooB#1396
+Ok thanks
+
+
+[12/20/2021 11:34 AM] Dv#3650
+Mine was doing this for a while too
+
+
+[12/21/2021 7:03 AM] Welly#3430
+This is a concern. If miners are leaving the ecosystem because Yoroi isn’t fit for purpose then it needs to go
+
+
+[12/21/2021 2:23 PM] Doomelf#7740
+I had to stop using Yoroi and started using an exchange to mine too. I ended up pulling the plug though and stopped mining ERG.... to many issues
+
+
+[12/21/2021 3:57 PM] Over#7169
+@Doomelf you can use android/ios wallet tho
+
+
+[12/21/2021 6:49 PM] Kaiser#0106
+iOS wallet is available?
+
+
+[12/22/2021 7:08 AM] LiuKrang#1754
+Is it possible to pull ada based tokens held on yoroi to the ergo wallet app?
+
+
+[12/22/2021 9:11 AM] MrStahlfelge#0042
+ergo wallet app only supports ergo blockchain
+
+
+[12/22/2021 9:34 AM] LiuKrang#1754
+Is there a list of ergo blockchain available assets?
+
+
+[12/23/2021 9:52 AM] gnuion#3794
+any ideas why yoroi so slow?
+
+
+[12/23/2021 11:58 PM] Dv#3650
+@gnuion
+
+{Reactions}
+👌 
+
+[12/24/2021 4:04 AM] brendan#8201
+is there any update on when the sync issue will be fixed? I can't even open my mining wallet without it freezing my entire PC
+
+{Reactions}
+👍 🤌 
+
+[12/25/2021 7:55 AM] Eratz#2879
+Hi does the dapp connector obsolete ? Link from the doc is dead.
+
+{Reactions}
+👌 (2) 
+
+[12/25/2021 7:56 AM] Eratz#2879
+I tried testing Ergodex for a week but still havent made a single swap 😂
+
+
+[12/25/2021 8:18 AM] Eratz#2879
+Managed once to sync on the dex, connector popped, reduced my screen 50% to see the F button. 
+Then nothing 🥲.
+
+
+[12/25/2021 1:45 PM] Kaotic#4193
+Christmas morning. Trying to gift Erg...thanks for holding it hostage. Yoroi devs need to get this fixed asap. Its unacceptable to not have access to my assets due to bad code.
+
+
+[12/25/2021 4:38 PM] Dv#3650
+All I want for Christmas is the sync issue fixed 😊
+
+
+[12/26/2021 10:13 PM] coolbrown#9003
+WHy does YOROI wallet suck so much that it took me about 30 mins to send one transaction?
+
+
+[12/26/2021 10:15 PM] coolbrown#9003
+Why someone can create the crypto currency and lone blockchain but cant fix their damn wallet?/??? just wondering  looking at everyone's comments
+
+
+[12/26/2021 10:22 PM] andee#4722
+Ergo's official wallet is the node, not Yoroi. Did you receive lots of small transactions by any chance? I have seen some minor slowdowns, but the wallet has never been non functional
+
+
+[12/27/2021 12:48 AM] coolbrown#9003
+It just crashes all the time. So much difficult to do anything. Plus not many wallets such trustwallet, zelcore, etc wallets supports ERG which make it harder for transactions.
+
+
+[12/27/2021 8:26 AM] MrStahlfelge#0042
+as said, yoroi is not made from the team. you can use the node on desktop or our mobile wallets, these are made from the team. personally, looking at the comments I wonder why everyone complains about yoroi but sticks to it instead of choosing to use another wallet. makes no sense to me.
+
+
+[12/27/2021 11:13 AM] blackinsecure#3693
+probably the convenience of having everything  related to ADA and ERG in one wallet + not wanting to transfer all funds back and forth every time something goes wrong with one platform
+
+
+[12/27/2021 11:14 AM] MrStahlfelge#0042
+no need to transfer anything, just restore your wallet
+
+
+[12/27/2021 5:48 PM] brendan#8201
+sorry but I'm really not that technically savvy and when clicking on the Ergo desktop wallet it forwards me to Github. If you want people to use it create an exe like Bitcoin Core has
+
+{Reactions}
+💯 (3) 
+
+[12/27/2021 6:29 PM] WoodΣrs100#3329
+I found it fairly easy. All the instructions are there. Thanks Ergo team. Ergo node wallet is amazing!
+
+
+[12/27/2021 7:50 PM] Dv#3650
+Mine is unfunctional after just 280~ ish transactions...
+
+
+[12/27/2021 7:51 PM] Dv#3650
+From my understanding yoroi is the only wallet that support transaction exports... Kinda forced to use it to calculate taxes/cost basis for mining.
+
+
+[12/27/2021 7:52 PM] Dv#3650
+Agreed
+
+
+[12/27/2021 7:55 PM] andee#4722
+If you get a lot of small mining payouts you should consolidate once in a while, while a desktop app should handle stuff like this a hardware wallet would also be unable to sign a transaction with too many inputs
+
+
+[12/27/2021 8:08 PM] Dv#3650
+That doesn't really help me with book keeping
+
+
+[12/27/2021 8:12 PM] andee#4722
+Pools usually support exporting as CSV or have API calls to get payout data
+
+
+[12/27/2021 8:24 PM] Dv#3650
+Don't believe herominers or nano have that, which are the two I've been using so
+
+
+[12/27/2021 8:41 PM] andee#4722
+It is possible to get payout data from both, but its in JSON. A small python script and the tax work can be fully automated
+
+
+[12/27/2021 8:42 PM] andee#4722
+Anyways, I just wanted to tell you about consolidating since that actually keeps the wallet functional.
+
+
+[12/27/2021 10:08 PM] MrStahlfelge#0042
+Ergo explorer returns a JSON as well. 🤷‍♂️
+
+
+[12/27/2021 11:50 PM] Dv#3650
+That's cool and all but not very user friendly
+
+
+[12/28/2021 1:54 AM] nox071218#1778
+i submitted a transaction sending ergo from one wallet to another. Its been stuck in pending for more then an hour now.... is there anything i can do? I'm using a yoroi wallet
+
+
+[12/28/2021 2:35 AM] Dv#3650
+Although possible, it seems a lot of these "small" issues compound, creating a frustrating experience for users, especially new users. I'd say most people choose yoroi over the node because of its simplicity. Although it has bugs which cause it to break completely. And I'll acknowledge that I'm just bitching atm since I'm not able to create or fix the current issues, but regardless it's frustrating non the less.
+
+
+[12/28/2021 2:36 AM] Dv#3650
+Are there any tutorials for this or any where you could point me? Looks like this will be the only way I'll be able to get the transaction info. Unless yoroi is patched within the next week
+
+
+[12/28/2021 4:14 PM] Chicken#8262
+Should be included with yoroi nightly now I believe
+
+
+[12/28/2021 4:37 PM] Chicken#8262
+Np 😁
+
+
+[12/28/2021 5:59 PM] tooz#3853
+anyone else's yoroi wallet not working?
+
+
+[12/29/2021 2:48 AM] Venom T 10#8384
+yoroi never works
+
+
+[12/29/2021 2:48 AM] Venom T 10#8384
+its a shit wallet
+
+
+[12/29/2021 2:48 AM] Venom T 10#8384
+ive been trying to withdraw my 120 erg for several days now
+
+
+[12/29/2021 5:06 AM] Dv#3650
+You can just recover your wallet on mobile
+
+
+[12/29/2021 8:51 AM] andee#4722
+Where in the process does it fail? If you have 120 1ERG mining payouts in the wallet, try sending less at a time
+
+
+[12/29/2021 8:54 AM] andee#4722
+To fully automate it would require some basic python tutorials. I can probably help you with a script to get data from the pools as CSV so you can import it to a spreadsheet
+
+
+[12/29/2021 9:41 PM] Venom T 10#8384
+It takes a couple hours to fully load my balance and everytime I click to go to a different menu it takes about 10 minutes to load, but yea I did change the payout to higher so maybe it’ll fix from here on out
+
+
+[12/31/2021 6:41 PM] Dv#3650
+thank you
+
+
+[12/31/2021 6:41 PM] Dv#3650
+it wasn't pain free but after like 12 hours I managed to finally get my transactions exported
+
+
+[01/01/2022 12:58 PM] Kaotic#4193
+Sorry Yoroi. I had to let you go. It was good for a bit but you changed over time and I just dont think we can be together anymore.
+
+
+[01/01/2022 3:40 PM] nox071218#1778
+Have to keep it for the dApp connector; but I just switched to the mobile ergo_wallet. I think Yoroi comes through it eventually but for now i'll try to support the Ergo eco-system
+
+
+[01/04/2022 10:02 PM] Marty#4039
+Yoroi needs an option to use a specific address, rather than trying to send assets from random addresses.
+
+{Reactions}
+👍 
+
+[01/04/2022 10:02 PM] Marty#4039
+a UTXO generated from one or your addresses shouldn't send change to another address in the wallet
+
+
+[01/04/2022 10:03 PM] Marty#4039
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/928045911492399155/ergwallet2.png
+
+
+[01/04/2022 10:03 PM] Marty#4039
+Even if you do this to congregate all your assets into one address, it still doesn't always only operate with that address
+
+
+[01/05/2022 5:23 AM] MarantzCube#4825
+Agree.
+Now it can be done manually via transaction-builder.ergo.ga
+But this tool is for dev, not for the common user 🤷‍♂️
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/928156679344914453/unknown.png
+
+
+[01/05/2022 5:24 AM] MarantzCube#4825
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/928156916746711040/unknown.png
+
+
+[01/05/2022 5:27 AM] MarantzCube#4825
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/763809133191102485/928157710707482655/unknown.png
+
+
+[01/05/2022 5:35 AM] Marty#4039
+@Leif Erickson this may be an answer to some of our user's problems
+
+
+[01/05/2022 5:38 AM] Leif Erickson#8939
+oh, this looks super handy!!
+
+
+==============================================================
+Exported 1,225 message(s)
+==============================================================

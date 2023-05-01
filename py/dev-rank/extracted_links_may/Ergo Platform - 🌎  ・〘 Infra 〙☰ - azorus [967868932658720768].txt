@@ -1,0 +1,1113 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Infra 〙☰ / azorus
+==============================================================
+
+[05/05/2022 8:51 AM] glasgowm#9381
+This channel is now linked `Ergo Discord <> Ergopad Discord`
+
+
+[05/05/2022 12:51 PM] curbsideprophet#0000
+https://discord.gg/VXPSCBtN6S
+
+
+[05/09/2022 12:14 AM] curbsideprophet#5083
+Azorus whitepaper: https://github.com/gsblabsio/azorus
+We have an IDO with ErgoPad: https://ergopad.io/projects/azorus
+
+ErgoHack Fest objective: "show, don't tell" is our philosophy so rather than wait around we thought it best to jump start the project by building a simple prototype for the hackathon! 😄
+
+
+[05/09/2022 1:37 AM] Cheese Enthusiast#0000
+[thread]: Hey guys I read your whitepaper. I have a few questions about what Azorus is and your initial plans.
+
+- Is Azorus centralized, decentralized, or a hybrid approach. If it is centralized, will you move towards a decentralized model over time? If decentralized, how do you reconcile the usage of large calculations and data sets on the blockchain. Seems tough considering how slow and inefficient blockchains tend to be.
+
+- What is the utility of the data you will be serving? I see some mentions of trading bots, price calculations, etc that might be interesting. Are there any other use cases?
+
+- Who are your main customers? Are there any companies / projects you see on the Ergo blockchain right now that could benefit from Azorus?
+
+- How do you deal with problems such as desyncing of nodes which could provide bad / old data? How do you deal with data providers being potential bad actors?
+
+- I didn't quite understand what a MOOC is. Do you mind explaining that again and how it is relevant to Azorus?
+
+-  Useful Proof-of-Work is claimed by many but implementations I've seen are usually lacking(ex. Offchain bots are great for carrying out transactions, but usually lack a consensus, so the fastest bot will usually "win"). Generally, part of the security of PoW is that the work is both hard to do and useless in any context outside of the blockchain. So what is meant here by UPoW, and how do you plan on implementing it?
+
+- You mention nodes a few times. Are you referring to Ergo nodes, or nodes specifically designed to interface with Azorus ?
+
+- What type of L2 solution do you think Azorus would work best with in the future?
+
+No need to have an answer for all the questions, I imagine some will be easier to answer in the future.
+
+
+[05/09/2022 2:37 AM] curbsideprophet#0000
+[thread]: This is a mouthful so let’s see if I can get to them:
+
+- Mentioned this needs to be centralized first to get up and running with a planned move to decentralization. How? Not sure yet we have not hit that fork in the road yet
+
+- The applications section is a non-exhaustive list it ultimately comes down to whatever the person wants to explore when it comes to onchain data 
+
+- Not sure why this wasn’t clear but two main customers are blockchain analysts who want a one stop shop for analyzing and visualizing utxo data straight from their web browser and actual report consumers who have questions about things like rich lists, token distribution, ergo Puell multiple charts, whatever that’s created by the analyst 
+
+- Good question but again have not reached that bridge yet to even begin to answer this 
+
+- MOOC is an example use case we can partner with someone like codecademy to provide the data and web UI to incorporate for a potential “blockchain analyst” learning track specifically for UTXO model 
+
+- Not sure yet that’s why it’s a backlog item that we can get to whether or not we use UPoW or off chain bots (someone mentioned to me latter is more efficient too)
+
+- The vision is “umbrel for ergo” where someone can access straight from their node and before you ask jot sure how it would work yet 
+
+- Also no clue about L2 solution but would love to further explore what that would look like
+
+
+[05/09/2022 2:44 AM] curbsideprophet#0000
+Definitely encourage you to check out dune analytics they live on eth chain and recently valued at $1B. 
+
+No tokenomics or payments for their analysts just all “good will” with your traditional web2 framework. For Azorus want to change that where analysts are actually compensated for what they bring to the platform. 
+
+This is why we need to start with web2 version where majority is familiar with. Does not make practical sense when general pop does not care about decentralization yet
+
+
+[05/09/2022 2:58 AM] Cheese Enthusiast#0000
+[thread]: Yeah in general not too worried about this project starting out centralized. I don't think it would be viable if you guys tried to go for decentralization first, way too many issues you will run into there when you're first starting up. 
+
+For customers, I was under the impression this data would be more focused on providing solutions to companies in need of specific stats and visualizations. I'm guessing that is covered by the second part of your answer?
+
+So in general it seems like a lot of the ideas haven't been fully fleshed out yet (which is completely okay). So with that in mind, what would Azorus "1.0" look like? I understand it'd be centralized, and likely provide access to an API for a price. Are there any other specific details you can mention about that? What's your vision for it to look like in the next few months?
+
+
+[05/09/2022 3:00 AM] Cheese Enthusiast#0000
+[thread]: Yeah in general not too worried about this project starting out centralized. I don't think it would be viable if you guys tried to go for decentralization first, way too many issues you will run into there when you're first starting up. 
+
+For customers, I was under the impression this data would be more focused on providing solutions to companies in need of specific stats and visualizations. I'm guessing that is covered by the second part of your answer?
+
+So in general it seems like a lot of the ideas haven't been fully fleshed out yet (which is completely okay). So with that in mind, what would Azorus "1.0" look like? I understand it'd be centralized, and likely provide access to an API for a price. Are there any other specific details you can mention about that? What's your vision for it to look like in the next few months when it first launches?
+
+
+[05/09/2022 3:00 AM] Cheese Enthusiast#0000
+[thread]: Yeah in general not too worried about this project starting out centralized. I don't think it would be viable if you guys tried to go for decentralization first, way too many issues you will run into there when you're first starting up. 
+
+For customers, I was under the impression this data would be more focused on providing solutions to companies in need of specific stats and visualizations. I'm guessing that is covered by the second part of your answer?
+
+So in general it seems like a lot of the ideas haven't been fully fleshed out yet (which is completely okay). So with that in mind, what would Azorus "1.0" look like? I understand it'd be centralized, and likely provide access to an API for a price. Are there any other specific details you can mention about that? What's your vision for it to look like in the next few months / when it first launches?
+
+
+[05/09/2022 3:15 AM] curbsideprophet#0000
+[thread]: Yeah great follow-up questions and something I am editing to add to WP.
+
+There is general audience customer and enterprise customer. The 2nd one can either pay subscription, enlist a community analyst to help, or have someone on our team to build for them. This latter point especially important as a consulting aspect to help get them up and running for whatever data or charts they need without worrying about overhead (taken from my professional learning experiences as a consultant).
+
+For me v1.0 is clear: web2 browser to query and analyze ergo data using SQL with something simple as high charts to visualize tabulated data, and jupyter/R notebook format to also do the same as above 
+
+All of this will be free to use and access and open to everyone to see the code, charts, and data. However, we have a fast follow to start business development getting Edtech websites onboard for the paid services
+
+
+[05/09/2022 3:20 AM] curbsideprophet#0000
+@Cheese Enthusiast I am typing this all on phone so apologies for typos or anything may be unclear or not a good idea. Early feedback like this is what I appreciate most to ensure we handle any unknown-unknowns we did not consider.
+
+Please keep them coming or how best I can assuage anything other questions, comments or concerns!
+
+
+[05/09/2022 4:12 AM] theta#0000
+Thanks you two. I enjoyed being the fly on the wall.
+
+
+[05/09/2022 5:02 AM] Cheese Enthusiast#0000
+[thread]: No problem, thanks for bearing with me and answering everything. Pretty interested in this project as I haven't heard anything like it before. You mentioned dune though, which I'll have to check out. Probably done with questions for right now, but if anything else pops into my head I'll make sure to ask 🙂
+
+
+[05/09/2022 3:43 PM] JCFishing2000#0000
+[thread]: Well done, thank you for sharing CE & CSP.
+
+
+[05/09/2022 6:37 PM] curbsideprophet#0000
+https://twitter.com/azorus_xyz/status/1523705167408816129?s=20&t=fjf_Mg4IXS--Gu2gSihsLw
+
+{Embed}
+Azorus (@azorus_xyz)
+https://twitter.com/azorus_xyz/status/1523705167408816129?s=20&t=fjf_Mg4IXS--Gu2gSihsLw
+ICYMI #ErgoHack starts today and the #Azorus team will be participating!
+
+Objective: "show, don't tell" is our philosophy so rather than wait around we thought it best to jump start our project by building a prototype.
+
+#ergonauts who want to learn more? https://t.co/I8qE8qAbpl
+Twitter
+
+
+[05/10/2022 1:41 PM] Doomelf#0000
+700
+
+
+[05/11/2022 5:11 AM] curbsideprophet#5083
+and we are off to the races!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967868932658720768/973799575292874802/unknown.png
+
+{Reactions}
+ergo_orange (3) 
+
+[05/11/2022 6:39 AM] esot321c#0000
+Is it a conflict of interest if you win? 😂
+
+
+[05/11/2022 6:45 AM] curbsideprophet#0000
+[thread]: If we win kick us off ergopad. If we lose then the IDO is still on the menu! 😆
+
+
+[05/11/2022 6:58 AM] esot321c#0000
+Never!
+
+
+[05/11/2022 1:33 PM] ilya | dappstep#9261
+OMG! Is it Jira? You guys are serious af! 😄
+
+
+[05/11/2022 2:02 PM] FlyingPig#0000
+[thread]: I would hope they are serious...They are launching through Ergopad....
+I'm very excited for this one...more than all the other projects so far because this has a real world implication! (not that the others don't.....)
+
+
+[05/11/2022 2:04 PM] Luivatra#0000
+we dont even use Jira 😅
+
+
+[05/11/2022 2:04 PM] Luivatra#0000
+zenhub is nice
+
+
+[05/11/2022 2:25 PM] curbsideprophet#0000
+haha yeah there is a lot going on and it helps us stay focused since we still have to mine fiat so seeing some progress/structure keeps us motivated 🙂
+
+{Reactions}
+ergo_orange (2) 
+
+[05/12/2022 7:11 PM] curbsideprophet#5083
+https://twitter.com/azorus_xyz/status/1524814092896112640?s=20&t=BeqYLaJ9jHcgeoZ3AqEdzw
+
+{Embed}
+Azorus (@azorus_xyz)
+https://twitter.com/azorus_xyz/status/1524814092896112640?s=20&t=BeqYLaJ9jHcgeoZ3AqEdzw
+Which is worst?
+- JIRA for project management
+- Excel spreadsheet for wireframes
+
+#ergo #ergonauts #ergohack $erg @ergoplatformorg
+https://images-ext-2.discordapp.net/external/fxnZ3qxWf4L8fr_D_57ron_0YLY26SWDox8QLP11iH8/https/pbs.twimg.com/media/FSk5l3uVEAs7O4B.jpg
+https://images-ext-1.discordapp.net/external/yC0Oq8fAqUP5b8Di1-grfzznSs3hOw_LgmG9EPDqA4A/https/pbs.twimg.com/media/FSdA--_VIAAnrKz.jpg
+Twitter
+
+
+[05/14/2022 8:44 PM] curbsideprophet#5083
+how it started VS how its going (https://twitter.com/azorus_xyz/status/1525562061500993536?s=20&t=jjo-wU2YhW5cDq7BtPReyA)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967868932658720768/975121404938829824/started-going.png
+
+
+[05/14/2022 8:49 PM] esot321c#0000
+dang, nice work
+
+
+[05/14/2022 9:32 PM] NoahErgo#4349
+Hnnnnnnng
+
+
+[05/14/2022 9:32 PM] NoahErgo#4349
+looks sick
+
+
+[05/14/2022 11:32 PM] abchris#8522
+Impressive progress! Keep it up, can't wait to play around with it.
+
+
+[05/14/2022 11:57 PM] curbsideprophet#5083
+i'll let our graphic designer know hehe
+
+
+[05/15/2022 12:00 AM] curbsideprophet#5083
+thanks mate! hoping to knock off your socks very soon 😛
+
+
+[05/15/2022 12:00 AM] curbsideprophet#0000
+[thread]: 😄 just getting warmed up
+
+
+[05/15/2022 12:26 AM] abchris#8522
+Am sure I’ll end up barefoot 😁
+
+{Reactions}
+😂 kushti_thumbsup pepe_laugh 
+
+[05/18/2022 8:26 AM] curbsideprophet#5083
+while some are focused on price charts we are busy looking at our jira tix 😄 (https://twitter.com/azorus_xyz/status/1526826193223229441?s=20&t=pHdCkRXI-IHpVvxSLT5JYA)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967868932658720768/976385287775215626/ergohack-updates.png
+
+{Reactions}
+ergo_orange 
+
+[05/18/2022 5:35 PM] curbsideprophet#0000
+https://twitter.com/azorus_xyz/status/1526963331700957184?s=20&t=4NMtF4Q1SAzwgfjM-CQhdw
+
+{Embed}
+Azorus (@azorus_xyz)
+https://twitter.com/azorus_xyz/status/1526963331700957184?s=20&t=4NMtF4Q1SAzwgfjM-CQhdw
+[GIVEAWAY] The #Azorus team will purchase a total of 100 $ERG worth of NFT on @SkyHarbor_io - winner's choice!
+
+* Prize Pool Distribution * 
+1st: 60 $erg
+2nd: 30 $erg
+3rd: 10 $erg
+
+1/n
+
+#ergo #ergohack #ergonauts @ergoplatformorg
+Twitter
+
+
+[05/19/2022 6:46 PM] curbsideprophet#5083
+backend ready with multiple full nodes operational. working on frontend now! (https://twitter.com/azorus_xyz/status/1527344171630985216?s=20&t=Tx-S54ayk34no1IaUt15QQ)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967868932658720768/976903701602123848/azorus-updates.png
+
+{Reactions}
+🔥 (5) 
+
+[05/22/2022 3:50 PM] dragonborn#0000
+hi guys, can you explain a bit the need to have a separate token for this?
+
+We could contribute ERG to the project, and then ERG could be used to use your analytics.
+
+What is the token providing, except an exchange for our funding, to the project that the native ERG coin can't provide?
+
+Thanks
+
+
+[05/22/2022 4:21 PM] curbsideprophet#0000
+[thread]: it is not out of the realm of possibilities but did you read the "tokenomics" section of the WP? although not finalized it alludes to the general direction we are headed - but i can broadly answer some of that here.
+
+**investment vehicle**: bottom line is people want to see a return on their investment. they could hold ERG and fund the project with ERG but the last few months it has only been bleeding downward. why not contribute to an early project and then 5x your initial ERG investment amount when ERG is expected to go sideways in the foreseeable future?
+
+**future product support**: there is a long term vision to make this a fully decentralized service. how do you incentivize actors in the economy, such as Data Providers or Computation Miners, to participate in it? There needs to be a reward for the services they provide. If you are thinking "why not ERG" then see above
+
+**VC for non-VCs**: if you haven't already check out the original thesis behind ErgoPad...it's a method to get people invested in on projects early when it would normally be reserved for VC firms.
+
+
+[05/22/2022 7:30 PM] curbsideprophet#5083
+https://twitter.com/azorus_xyz/status/1526963331700957184?s=20&t=yWFvH7g6vAOM9L2KUS7NXg
+
+{Embed}
+Azorus (@azorus_xyz)
+https://twitter.com/azorus_xyz/status/1526963331700957184?s=20&t=yWFvH7g6vAOM9L2KUS7NXg
+[GIVEAWAY] The #Azorus team will purchase a total of 100 $ERG worth of NFT on @SkyHarbor_io - winner's choice!
+
+* Prize Pool Distribution * 
+1st: 60 $erg
+2nd: 30 $erg
+3rd: 10 $erg
+
+1/n
+
+#ergo #ergohack #ergonauts @ergoplatformorg
+Twitter
+
+
+[05/23/2022 3:08 AM] Leif Erickson#0000
+@curbsideprophet what backend are you running nodes on? I have a setup on AWS using load balancer and a simple python health check in case a node stalls (a node stall won't show error, but health script does). Or, perhaps you got things going that I might improve our setup with?
+
+
+[05/23/2022 3:13 AM] curbsideprophet#0000
+[thread]: Nothing fancy yet so just AWS for this hackathon prototype. More than happy to see what you have going on but next week will start kicking off deeper convo on architecture to make this all work
+
+
+[05/23/2022 3:18 AM] curbsideprophet#0000
+@Leif Erickson do you have some more context around question ? Curious to know how we can help!
+
+
+[05/23/2022 3:27 AM] Leif Erickson#0000
+[thread]: We have found that keeping a node active and at proper height can be tricky at times.  Nothing specific
+
+
+[05/23/2022 3:32 AM] curbsideprophet#0000
+[thread]: We have 4 nodes live but haven’t been battle tested yet to provide a decent answer for you
+
+
+[05/25/2022 7:29 AM] curbsideprophet#5083
+coming down to the wire! (https://twitter.com/azorus_xyz/status/1529347263129976832?s=20&t=BoafWHT6P9UdNhrrvZ1Dxg)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967868932658720768/978907652488855592/azorus-updates.png
+
+{Reactions}
+spicy 
+
+[05/25/2022 2:47 PM] curbsideprophet#5083
+project summary for ergohack (https://discord.com/channels/668903786361651200/669989266478202917/979012757171109938)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967868932658720768/979017798053417020/Screen_Shot_2022-05-25_at_6.45.10_AM.png
+
+
+[05/25/2022 8:31 PM] abchris#8522
+Re the last bit: I stumbled upon <https://github.com/txpipe> and <https://github.com/dcSpark/carp>
+
+{Reactions}
+📌 
+
+[05/25/2022 8:33 PM] curbsideprophet#5083
+i was going to start with ADA (obvi) and a more ambiguous one like Alephium - so this is great. thank you! 🥰
+
+
+[05/25/2022 11:33 PM] JamiePariah#0000
+Hello
+
+
+[05/26/2022 12:51 PM] AlexisE#0000
+[thread]: Welcome
+
+
+[05/26/2022 1:42 PM] JamiePariah#0000
+Thanks 👍
+
+
+[05/27/2022 8:16 AM] curbsideprophet#5083
+Rough around the edges but good enough as an ErgoHack proof of concept I s'pose? https://www.youtube.com/watch?v=SD8bDf-nxTQ
+
+{Embed}
+Azorus
+https://www.youtube.com/watch?v=SD8bDf-nxTQ
+Azorus: ErgoHack Fest Prototype Submission
+Demo our proof of concept submission for the Ergo hackathon (May 2022).
+
+Ergo Platform - https://ergoplatform.org/en/
+ErgoHack Fest - https://ergohack.io/
+Github - https://github.com/gsblabsio/azorus
+Whitepaper - https://github.com/gsblabsio/azorus/blob/main/WHITEPAPER.md
+https://images-ext-2.discordapp.net/external/ehnr8wxIz0CP1I7alQ2QCTv6JODlZcvjekloiiDvfgc/https/i.ytimg.com/vi/SD8bDf-nxTQ/maxresdefault.jpg
+
+{Reactions}
+ergo_orange (4) kushtinaut (2) 
+
+[05/30/2022 4:23 AM] Betquity#0000
+Without reading too much into things, will this project be supported by validation nodes?
+
+
+[05/30/2022 5:12 AM] curbsideprophet#0000
+can you elaboratee ?
+
+
+[05/30/2022 5:12 AM] curbsideprophet#0000
+can you elaborate ?
+
+
+[06/01/2022 8:54 PM] curbsideprophet#5083
+https://twitter.com/ergosaurs/status/1532083289426624513?s=20&t=ur0xf2xaM_n2pvHUmGGV6w
+
+{Reactions}
+ergo_orange (4) 
+
+[06/14/2022 5:52 PM] curbsideprophet#5083
+Leave questions, comments or concerns if you have them: https://twitter.com/proofofergo/status/1536745051711279108?s=21&t=rLx8yyLS61EXvIeuR1nP3Q
+
+{Embed}
+Proof of Ergo (@proofofergo)
+https://twitter.com/proofofergo/status/1536745051711279108?s=21&t=rLx8yyLS61EXvIeuR1nP3Q
+We're here to hear your voice and answer your questions, Ergonauts.🎙️
+
+💥The team behind @azorus_xyz  and @GuapSwapErgo will be interviewed in our next episode. If you have any questions, please leave them in the comments below, and we'll reward two of them with special gifts.🥳
+Twitter
+
+{Reactions}
+ergo_orange 
+
+[06/15/2022 10:00 AM] curbsideprophet#5083
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967868932658720768/986555788363436072/Screen_Shot_2022-06-15_at_02.00.25.png
+
+{Reactions}
+👍 
+
+[06/16/2022 3:41 AM] curbsideprophet#5083
+https://twitter.com/ergoplatformorg/status/1537245708625281024
+
+{Embed}
+Ergo (@ergoplatformorg)
+https://twitter.com/ergoplatformorg/status/1537245708625281024
+#Ergo Space with Azorus: A Web3 based data intelligence suite for all blockchains.
+
+🗓 Tuesday, June 21
+🕒 3pm UTC
+🔗 https://t.co/YdH4vcz4pe
+
+🔸Learn about @azorus_xyz 
+https://t.co/uqmTntaQgF
+
+#Ergonauts #ThisIsErgo #blockchain #cryptocurrency
+https://images-ext-1.discordapp.net/external/fgUcbXtpu6qZyKJw2nqlASLu8VEMnxVy_Dtl3GPRAZ4/https/pbs.twimg.com/media/FVVcmE4aIAAUTa2.jpg
+Twitter
+
+{Reactions}
+spicy (2) 
+
+[06/17/2022 7:49 PM] curbsideprophet#5083
+https://m.youtube.com/watch?v=TQsmtNvqYo8
+
+{Embed}
+Proof of Ergo
+https://www.youtube.com/watch?v=TQsmtNvqYo8
+PoE e06 Working the System
+In this episode we speak to developers for both GuapSwap and Azorus about their projects and what to expect moving forward. We also talk about a random number generator from the developers of Nautilus Wallet and finally we look at the project Ergo GraphQL - why we need it and what it does.  
+
+For the latest on Ergo and more on what makes this cr...
+https://images-ext-1.discordapp.net/external/cvbyMc85R2QO7dA9O0Qj9kaPX4RdQMmMF0UaHy5yLUk/https/i.ytimg.com/vi/TQsmtNvqYo8/maxresdefault.jpg
+
+
+[06/20/2022 6:08 PM] curbsideprophet#5083
+https://twitter.com/azorus_xyz/status/1538905873216483328
+
+{Embed}
+Azorus (@azorus_xyz)
+https://twitter.com/azorus_xyz/status/1538905873216483328
+Let's have a chat in less than 24 hours! :D
+
+#ergo #ergonauts #ThisIsErgo
+Twitter
+
+
+[06/24/2022 6:37 PM] curbsideprophet#5083
+https://twitter.com/ergo_prism/status/1540321247548133376?s=21&t=Ed7yvCRuzob7i9Rjm3bbfQ
+
+{Embed}
+Ergo Prism (@Ergo_Prism)
+https://twitter.com/ergo_prism/status/1540321247548133376?s=21&t=Ed7yvCRuzob7i9Rjm3bbfQ
+Hey #Ergonauts!
+
+Next week, @azorus_xyz will be on our Show for an interview!
+
+Excited to get more in-depth with what they’re building — a self-described “UTXO Blockchain Intelligence Platform”! 👏🏼
+Twitter
+
+
+[07/12/2022 10:36 PM] curbsideprophet#5083
+https://twitter.com/azorus_xyz/status/1546969973758709760?s=21&t=LvdNV9c19Wg8hUCQCBvPVA
+
+{Embed}
+Azorus (@azorus_xyz)
+https://twitter.com/azorus_xyz/status/1546969973758709760?s=21&t=LvdNV9c19Wg8hUCQCBvPVA
+the evolution of web2:web3 data analytics services
+
+website visitor counter : blockchain explorer
+google analytics : predefined onchain metric charts
+tableau/looker/etc : #azorus intelligence platform
+
+accurate comparison or nah?
+
+#ergo #ergonauts #ThisIsErgo
+Twitter
+
+
+[07/24/2022 2:35 AM] curbsideprophet#5083
+https://twitter.com/SigmaPrism/status/1550830051234615297?s=20&t=S4z5fxTpMyR-mRl5E3_WWA
+
+{Embed}
+Sigma Prism (@SigmaPrism)
+https://twitter.com/SigmaPrism/status/1550830051234615297?s=20&t=S4z5fxTpMyR-mRl5E3_WWA
+Today's Weekly Interview is with no other than one of the most exciting projects building on #Ergo: @azorus_xyz!
+
+I sat down with Chris, the Project Lead behind Azorus to speak about all things #UTXO, why big data insights matter in #blockchain, and more!
+
+https://t.co/YXZVzXWCvf
+https://images-ext-2.discordapp.net/external/WqChDuHXLuCJr7ti205wvMAt2eeEwsHaGhkJA3ynq8I/https/pbs.twimg.com/media/FYWnkm1XEAgUZW3.jpg
+Twitter
+
+
+[07/31/2022 11:04 PM] T U L O (ErgoMinnow)#6385
+Bullish on Azorus
+
+{Reactions}
+❤️ 
+
+[08/02/2022 9:21 AM] curbsideprophet#5083
+https://twitter.com/azorus_xyz/status/1554321303263330304?s=21&t=piz3TOMjxA8ACHLCf2zSVg
+
+{Embed}
+Azorus (@azorus_xyz)
+https://twitter.com/azorus_xyz/status/1554321303263330304?s=21&t=piz3TOMjxA8ACHLCf2zSVg
+We've been quiet for a minute but you know what they say: still waters run deep.
+
+#utxoalliance #blockchain #ergo #alephium #nervosnetwork
+https://images-ext-1.discordapp.net/external/1HXAtb6M-l9yYtEdO8NkOGHitAGFH2JcABgQvf94epg/https/pbs.twimg.com/media/FZIOvfxUcAAkg7d.jpg
+Twitter
+
+{Reactions}
+ergo_orange (4) 
+
+[09/20/2022 10:20 PM] curbsideprophet#5083
+`Build Club milestone #1 complete`: setting up backend infrastructure to integrate CKB blockchain data (historical & streaming). Docker repo can be found at https://github.com/gsblabsio/nervos-analytics and public explorer getting sync at https://nervos.azorus.xyz/
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967868932658720768/1021893620665692180/Screen_Shot_2022-09-20_at_14.14.00.png
+
+{Reactions}
+🥳 ergo_orange 👏 
+
+[10/11/2022 1:22 PM] curbsideprophet#5083
+sneak peek of what we have so far. find anything that catches your eye? 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967868932658720768/1029368434649211001/charts-customize.png
+https://cdn.discordapp.com/attachments/967868932658720768/1029368435186094170/dashboard.png
+https://cdn.discordapp.com/attachments/967868932658720768/1029368435752312862/charts-data.png
+https://cdn.discordapp.com/attachments/967868932658720768/1029368436201115718/sql.png
+
+{Reactions}
+👏 (3) 🔥 (3) 
+
+[10/11/2022 1:33 PM] curbsideprophet#5083
+and yes there will be a dark mode it is in our backlog
+
+{Reactions}
+ergo_dark (5) 
+
+[10/18/2022 10:21 AM] curbsideprophet#5083
+https://twitter.com/azorus_xyz/status/1582299989115428864
+
+{Embed}
+Azorus (@azorus_xyz)
+https://twitter.com/azorus_xyz/status/1582299989115428864
+Still have time to hang around? 😏 
+
+Hop into our Discord right after at 18:00 UTC for a closed Alpha release demo: https://t.co/9EaswI5USq
+
+You can expect bugs, unpolished functionality, a glimpse into the product, and some good times! 🙌
+
+#utxo $ERG $ALPH $CKB $ADA
+https://images-ext-1.discordapp.net/external/MU0KZ7CIsvSyAg5QfL5IfpIjJjR-iRtz3OF3bl_PZh0/https/pbs.twimg.com/media/FfVi41AXoAAusws.jpg
+Twitter
+
+
+[10/21/2022 7:55 PM] curbsideprophet#5083
+slides: https://docs.google.com/presentation/d/1ArQvvE-5MUWNE0fkbDmgjWyBJQTDyWvqN4G09HCudBE/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/presentation/d/1ArQvvE-5MUWNE0fkbDmgjWyBJQTDyWvqN4G09HCudBE/edit?usp=sharing
+alpha demo - oct 2022
+Azorus The UTXO Blockchain Intelligence Platform Alpha Demo
+https://images-ext-1.discordapp.net/external/cEljKoaS2tIgJAaz-EZm3FUW_Gv6RXRPQNZOUJ0I3pg/https/lh5.googleusercontent.com/_cwKNNeZHxdM6FLBqUYTMqRi9WCJ_rWBfMmpapZzfWaCGa9UKaW8Hc1mTqryrV08dzRyhvP6J_TX9A%3Dw1200-h630-p
+
+
+[10/30/2022 1:54 AM] curbsideprophet#5083
+🔥 [ICYMI] 🔥 
+We live streamed our Alpha release on Discord last week but for those who could not make the demo here is the (re-)recorded version of it. Enjoy! https://www.youtube.com/watch?v=czgQ5ALPggw
+
+{Embed}
+Azorus
+https://www.youtube.com/watch?v=czgQ5ALPggw
+Azorus: (closed) Alpha release demo
+Demo of our (closed) Alpha release product.
+This puts us one step closer to becoming the UTXO blockchain intelligence platform for the blockchain & web3 space!
+https://images-ext-1.discordapp.net/external/_Aatutd4fOcnRAtunkU4Fcyo__fFKwODh2NonO5Enyk/https/i.ytimg.com/vi/czgQ5ALPggw/maxresdefault.jpg
+
+
+[11/01/2022 5:09 AM] abchris#8522
+Impressive progress 👏 Keep it up!
+
+{Reactions}
+ergo_orange 🥰 🙏 
+
+[11/02/2022 8:03 PM] curbsideprophet#5083
+Onboarded SpectrumDEX courtesy of @error as a "database operator" (working out some configs before releasing to our test groups)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967868932658720768/1037456982250094633/unknown.png
+
+{Reactions}
+🤝 
+
+[11/03/2022 3:20 PM] curbsideprophet#5083
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967868932658720768/1037748111122120764/Screen_Recording_2022-11-02_at_10.54.50_PM.mov
+
+{Reactions}
+😍 (2) 🥵 
+
+[11/05/2022 2:37 AM] quirk220#0000
+Very cool
+
+
+[11/06/2022 8:05 PM] curbsideprophet#5083
+ErgoWatch (courtesy of @abchris) now integrated with Azorus - access for Alpha testers will be rolling out shortly.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967868932658720768/1038906868346654810/Screen_Recording_2022-11-06_at_11.30.50_AM.mov
+
+{Reactions}
+🎉 
+
+[11/06/2022 8:33 PM] Marty#0000
+This is mental
+
+
+[11/06/2022 8:33 PM] Marty#0000
+Nice work guys
+
+
+[11/06/2022 8:36 PM] Leif Erickson#0000
+This looks really amazing!!
+
+
+[11/06/2022 11:01 PM] Enigma#0000
+Thank you! 😘
+
+
+[11/08/2022 9:40 PM] curbsideprophet#5083
+Cardano now available for testnet (including SpectrumDEX and ErgoWatch)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967868932658720768/1039655600876949544/image.png
+
+
+[11/09/2022 11:44 PM] curbsideprophet#5083
+https://youtu.be/ZijrHvMZU7w
+
+{Embed}
+Azorus
+https://www.youtube.com/watch?v=ZijrHvMZU7w
+[Azorus] Use cases & applications: NFT creator dashboard
+Alpha release to highlight potential use cases and applications for an NFT project creator.
+
+Website: https://azorus.xyz/
+Twitter: https://twitter.com/azorus_xyz
+https://images-ext-2.discordapp.net/external/8M50BWlA7cL1xG6AF1HMwSuxLn4WSumprH0dsznhyYw/https/i.ytimg.com/vi/ZijrHvMZU7w/maxresdefault.jpg
+
+
+[11/18/2022 12:00 AM] $alex.ada#0000
+Hello! I am hoping to create a rarity tool for Ergo. Is there a way I could get api access to Azorus?
+
+
+[11/18/2022 4:11 AM] curbsideprophet#5083
+Howdy! We don’t have an API yet but it’s on our roadmap. Would love to connect regardless to see how we can bake your request into overall roadmap and convince our team it’s an important ask though 🙂
+
+
+[11/18/2022 6:34 AM] $alex.ada#0000
+Would you like to schedule a time to talk about it?
+
+
+[11/18/2022 4:04 PM] curbsideprophet#0000
+Just DM’d you
+
+
+[11/25/2022 12:02 PM] Jmp#0000
+When is the Ido?
+
+
+[11/26/2022 9:13 PM] wombo22#5461
+no time set yet probably
+
+
+[11/26/2022 9:13 PM] wombo22#5461
+due to current conditions
+
+
+[11/29/2022 10:16 PM] curbsideprophetz#0000
+Test.
+
+
+[11/29/2022 10:18 PM] koutelier#0000
+test.
+
+
+[11/29/2022 10:20 PM] koutelier#0000
+test failed
+
+
+[11/29/2022 10:22 PM] curbsideprophetz#0000
+it works
+
+{Attachments}
+https://cdn.discordapp.com/attachments/967868932658720768/1047276396856234106/file_89198.jpg
+
+
+[11/29/2022 10:22 PM] curbsideprophetz#0000
+for ergo/ergopad discord at least. i did not setup for azorus discord
+
+
+[11/29/2022 10:27 PM] theta_decay#0000
+(re @curbsideprophetz : *it works*) 
+ 
+ Fantastic.
+
+
+[12/19/2022 7:55 AM] Linnea1_PCA#0000
+326887
+
+
+[12/19/2022 7:56 AM] Linnea1_PCA#0000
+Hey Azorus Team,
+Whom Can I contact for featuring *Azorus* in No.1 Crypto Magazine 'Cryptonaire Weekly'?
+
+
+[12/19/2022 2:56 PM] koutelier#0000
+(re @Linnea1_PCA : *Hey Azorus Team,
+Whom Can I contact for featuring Azorus in No.1 Crypto Magazine 'Cryptonaire Weekly'?*) 
+ 
+ @curbsideprophetz
+
+
+[12/19/2022 2:56 PM] koutelier#0000
+Is this legit though?
+
+
+[12/19/2022 3:18 PM] curbsideprophetz#0000
+(re @Linnea1_PCA : *Hey Azorus Team,
+Whom Can I contact for featuring Azorus in No.1 Crypto Magazine 'Cryptonaire Weekly'?*) 
+ 
+ What do you need contact for? Just put it up there if we meet criteria for #1 ?
+
+
+[12/20/2022 12:02 AM] wombo22#5461
+payment probably
+
+{Reactions}
+😲 
+
+[12/20/2022 5:30 AM] Linnea1_PCA#0000
+Hello *Team Azorus*,
+
+Congratulations on an impressive project. It must be great to be part of the *Azorus.
+
+*I wanted to ask if reaching an engaged audience of crypto traders’ investors is a priority for your crypto project.
+
+I know it's extremely important for projects like *Azorus* to get in front of the correct audience: -
+- We have Investors with portfolios between $10k and $7.5 million
+- Our Academy has a Crypto subscriber list of over 283,000 contacts
+- The Platinum Trading Academy has over 10,000 Financial Traders.
+
+If so, we’ve helped/advertised Ledger hardware wallet, Atani, Aubit, the wise token with the same challenge through our Crypto Trading Academy.
+Please let me know.
+    
+Thanks,  
+PLATINUM CRYPTO ACADEMY
+
+
+[12/20/2022 7:56 AM] ChrisHobotnica#0000
+Perhaps Linnea Mack might consider buying up Ergopad tokens for access to staker round for its members?
+
+
+[12/21/2022 5:55 AM] Linnea1_PCA#0000
+Hi *team Azoru*s– could we arrange a quick call?
+
+I know this is very direct, but inboxes like yours get hectic. So, we could grab 10-15 mins. on the phone and cut all the hassle of a long message?
+We work with businesses at the ICO stage, much like *Azorus* to get in front of the people who can make their projects successful.
+Can we schedule a quick call?
+
+Many Thanks,
+Platinum Crypto Academy
+
+
+[12/21/2022 6:00 AM] Linnea1_PCA#0000
+https://www.platinumcryptoacademy.com/cryptonaireweekly/edition265/20th-december-2022
+
+you can find out latest edition of our magazine.
+
+{Embed}
+Platinum Support
+https://www.platinumcryptoacademy.com/cryptonaireweekly/edition265/20th-december-2022
+265th Best Crypto News Magazine | 20th December 2022 - Platinum Cry...
+https://images-ext-1.discordapp.net/external/pHDAsimHUdw8ZEkc4YPueXlXOuVy4jOl0pLxILlcjEo/https/www.platinumcryptoacademy.com/wp-content/uploads/2022/12/MAGAZINE-FEATURE-IMAGE.png
+
+
+[01/01/2023 9:21 AM] curbsideprophetz#0000
+Happy 2023 Azorus gang! 🎉🥰😅
+
+
+[01/05/2023 6:57 AM] NoahErgo#0000
+hey @curbsideprophetz what is the status of azorus?
+
+
+[01/05/2023 7:37 AM] curbsideprophetz#0000
+(re @NoahErgo : *hey @curbsideprophetz what is the status of azorus?*) 
+ 
+ yes, we are still here if that's what you are asking? 🙂
+
+
+[01/05/2023 7:38 AM] curbsideprophetz#0000
+in more concrete terms...
+- wrapping up alpha testing
+- building out the eng backlog
+- prioritize what needs to be done for open beta
+- figure out funding problem
+- do the above
+- ??? 
+- win
+
+
+[01/05/2023 7:42 AM] curbsideprophetz#0000
+the 4th bullet point is holding us back in terms of velocity. even if we don't secure external sources we should be able to pick back up around march/april since that's when i get fiat job bonus and can continue to bootstrap dev time
+
+
+[01/05/2023 7:49 AM] NoahErgo#0000
+Thanks for sharing sir :)
+
+
+[01/05/2023 7:50 AM] NoahErgo#0000
+Win is a good roadmap item to have
+
+
+[01/05/2023 7:51 AM] curbsideprophetz#0000
+(re @NoahErgo : *Win is a good roadmap item to have*) 
+ 
+ Need to have an abstract goal in mind 😂
+
+
+[01/05/2023 8:16 PM] Mr#0000
+Hey,may i know who is the correct person to discuss regarding listing launchpad?
+
+
+[01/05/2023 8:27 PM] koutelier#0000
+(re @Mr : *Hey,may i know who is the correct person to discuss regarding listing launchpad?*) 
+ 
+ @curbsideprophetz
+
+
+[01/06/2023 7:11 AM] Mrdevil23#0000
+@curbsideprophetz sir kindly check your DM✅
+
+
+[01/07/2023 12:49 AM] NoahErgo#0000
+@curbsideprophetz how much do we have to pay you to integrate a tool that generates csv that is immediately compatible with koinly
+
+
+[01/07/2023 1:23 AM] curbsideprophetz#0000
+(re @NoahErgo : *@curbsideprophetz how much do we have to pay you to integrate a tool that generates csv that is immediately compatible with koinly*) 
+ 
+ What are koinly CSV input values ?
+
+
+[01/07/2023 3:35 AM] NoahErgo#0000
+(re @curbsideprophetz : *What are koinly CSV input values ?*) 
+ 
+ Will get you an example later
+
+
+[01/07/2023 5:21 AM] scotman8888#0000
+(re @curbsideprophetz : *What are koinly CSV input values ?*) 
+ 
+ /t 1 COMET
+
+
+[01/07/2023 5:22 AM] scotman8888#0000
+(re @curbsideprophetz : *What are koinly CSV input values ?*) 
+ 
+ /t 1000 erg
+
+
+[01/07/2023 8:43 PM] curbsideprophetz#0000
+(re @NoahErgo : *Will get you an example later*) 
+ 
+ i found this which i think should help us get started: https://help.koinly.io/en/articles/3662999-how-to-create-a-custom-csv-file-with-your-data
+
+{Embed}
+https://help.koinly.io/en/articles/3662999-how-to-create-a-custom-csv-file-with-your-data
+How to create a custom CSV file with your data
+https://images-ext-1.discordapp.net/external/fpDHmukQZV8a3ibOQv_HzWMq1Kz7V9TiBcLb7JNkECU/https/downloads.intercomcdn.com/i/o/319077/ac6cdbe21c44e90aee615a34/85a917bb5d50737715cc01491332b459.png
+
+
+[01/07/2023 11:30 PM] NoahErgo#0000
+Yeah thats the one
+
+
+[01/11/2023 3:30 PM] cafebedouin#9837
+I saw this somewhere. I haven't looked at the repo, but perhaps of use: https://github.com/crystoll/export-erg-transactions/blob/main/export_all.py
+
+{Embed}
+https://github.com/crystoll/export-erg-transactions/blob/main/export_all.py
+export-erg-transactions/export_all.py at main · crystoll/export-erg...
+Little ERG explorer tool to export crypto transactions to csv file for tax calculations - export-erg-transactions/export_all.py at main · crystoll/export-erg-transactions
+https://images-ext-2.discordapp.net/external/K_gFyD1jr80fJIhXgC7gY_-ZnZWm_aawiKdttlF3_Mk/https/opengraph.githubassets.com/5f3afb1ee104b2f121d8b5b5c6824519c158627adaf90e2e483e92f5b631908f/crystoll/export-erg-transactions
+
+
+[01/11/2023 4:16 PM] glasgowm#9381
+Nice find
+
+
+[01/11/2023 4:17 PM] NoahErgo#0000
+(re  : *<cafebedouin> [reply]: I saw this somewhere. I haven't looked at the repo, but perhaps of use: https://github.com/crystoll/export-erg-transactions/blob/main/export_all.py*) 
+ 
+ Oh wow will definitely check this out. Tyvm!
+
+
+[01/11/2023 7:44 PM] curbsideprophet#5083
+nice! our prayers have been answered 🙌
+
+
+[01/13/2023 5:57 AM] curbsideprophetz#0000
+https://youtu.be/a5r4at1Ygo0 - sweet shout out by Joe at 37:20
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=a5r4at1Ygo0
+Weekly Update & AMA - January 12, 2023
+Joseph Armeanio, Dan Friedman and Alex Chepurnoy once again host this Weekly Update and AMA - they will be updating the Ergo community and answering your questions, so please ask them anything in the live chat!
+
+- Σ - Σ - Σ - Σ - Σ - Σ - Σ - Σ - Σ - Σ - Σ - Σ - Σ - Σ - Σ - Σ - Σ - Σ -
+
+Website https://ergoplatform.org/
+Whitepaper https://ergopla...
+https://images-ext-2.discordapp.net/external/t89yVdsEdRMTQ4e3htsc9L9c_0OZS67UOh9ReDChF8I/https/i.ytimg.com/vi/a5r4at1Ygo0/maxresdefault.jpg
+
+
+[02/09/2023 2:31 PM] 7/420 Denselitos#0000
+where can we get azoorus tokens ?
+
+
+[02/09/2023 5:55 PM] theta_decay#0000
+Thanks for your interest. They're not available yet. We'll make announcements when the team is ready to proceed.
+
+
+[02/21/2023 6:11 PM] lyndon_b#0000
+Hey @curbsideprophetz, are there any plans on revisiting an ergopad IDO anytime soon?
+
+
+[02/21/2023 7:37 PM] curbsideprophetz#0000
+(re @lyndon_b : *Hey @curbsideprophetz, are there any plans on revisiting an ergopad IDO anytime soon?*) 
+ 
+ we are working on some due diligence with our lawyers to tread softly here since the SEC hasn't been too fond of crypto/token/securites/etc. lately
+
+
+[02/21/2023 7:46 PM] m3rileo#0000
+I'm so glad I have a KYC'd wallet, if you decide to go that route
+
+
+[02/22/2023 1:04 AM] JCFishing#0000
+(re @m3rileo : *I'm so glad I have a KYC'd wallet, if you decide to go that route*) 
+ 
+ Shut it please.  If I cannot get Azorus, will sell my ergopads since more projects are going through the kyc route.
+
+
+[02/22/2023 1:54 AM] m3rileo#0000
+(re @JCFishing : *Shut it please.  If I cannot get Azorus, will sell my ergopads since more projects are going through the kyc route.*) 
+ 
+ I'd be willing to purchase vesting keys for others just like I did with Spectrum, just FYI.
+
+
+[02/22/2023 2:05 AM] curbsideprophetz#0000
+(re @JCFishing : *Shut it please.  If I cannot get Azorus, will sell my ergopads since more projects are going through the kyc route.*) 
+ 
+ it's a very tough balancing act right now 😔
+
+
+[02/22/2023 3:16 AM] JCFishing#0000
+(re @curbsideprophetz : *it's a very tough balancing act right now 😔*) 
+ 
+ Gary gangster will be out of the sec soon, hopefully the US will have a clearer guidance for new crypto projects.  If not, innovation will be migrate to Dubai or other crypto friendly countries.
+
+
+[02/22/2023 3:39 AM] theta_decay#0000
+(re @m3rileo : *I'd be willing to purchase vesting keys for others just like I did with Spectrum, just FYI.*) 
+ 
+ Very thoughtful of you.
+
+
+[03/10/2023 9:09 PM] oldnifer#0000
+Hi
+
+
+[03/10/2023 10:46 PM] wombo22#5461
+hi
+
+
+[03/17/2023 8:26 PM] oldnifer#0000
+Is there anyone alive?
+
+
+[03/17/2023 8:45 PM] FlyingPig#0000
+(re @oldnifer : *Is there anyone alive?*) 
+ 
+ I died last month
+
+
+[03/17/2023 8:48 PM] NoahErgo#0000
+Dying but still alive
+
+
+[03/17/2023 9:03 PM] oldnifer#0000
+(re @FlyingPig_69 : *I died last month*) 
+ 
+ Is azorus a reason?
+
+
+[03/19/2023 9:15 PM] gg#0000
+Any update of the project?
+
+
+[03/20/2023 9:18 PM] wombo22#5461
+last was waiting for curbs real world bonus then to pick back up again on project was KTLO until the
+
+
+[03/20/2023 11:56 PM] FlyingPig#0000
+Curb seems to have disappeared. He was very active on all channels, but not seem for a month now.
+
+Hope all is ok.
+
+
+[03/21/2023 6:52 AM] koutelier#0000
+(re @FlyingPig_69 : *Curb seems to have disappeared. He was very active on all channels, but not seem for a month now.
+
+Hope all is ok.*) 
+ 
+ Last time we spoke his was ramped up in his real life job
+
+
+[03/21/2023 3:16 PM] theta_decay#0000
+Sightings are more frequent in the discord server.
+
+
+[03/21/2023 3:18 PM] Gazza_SP#0000
+(re @FlyingPig_69 : *Curb seems to have disappeared. He was very active on all channels, but not seem for a month now.
+
+Hope all is ok.*) 
+ 
+ He's good, chatted with him a little 😊
+
+
+[03/21/2023 4:06 PM] Gazza_SP#0000
+(re @FlyingPig_69 : *Curb seems to have disappeared. He was very active on all channels, but not seem for a month now.
+
+Hope all is ok.*) 
+ 
+ He's good, chatted with him a little 😊
+
+
+[03/29/2023 4:48 AM] curbsideprophetz#0000
+(re @FlyingPig_69 : *Curb seems to have disappeared. He was very active on all channels, but not seem for a month now.
+
+Hope all is ok.*) 
+ 
+ yeah i am alive sorry have been slowly chipping away at it on the backend with eng team (we mostly chat in private discord channel)
+
+
+[03/29/2023 4:50 AM] curbsideprophetz#0000
+it is still going though currently working on some backend changes to allow for dashboards to be public so ergonauts can share their beautiful creations
+
+edit: or at least expose some of the dashboards i created from my videos so others can start referencing or interacting with it
+
+
+[04/04/2023 6:31 AM] curbsideprophetz#0000
+Dashboards should now be available for viewing here is one example: https://app.azorus.xyz/i/dashboard/25/
+
+
+[04/04/2023 6:41 AM] NoahErgo#0000
+Hell yes!!
+
+
+==============================================================
+Exported 158 message(s)
+==============================================================

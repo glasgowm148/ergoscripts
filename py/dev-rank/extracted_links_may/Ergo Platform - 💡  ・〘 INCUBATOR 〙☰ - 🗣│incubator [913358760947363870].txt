@@ -1,0 +1,140 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 💡  ・〘 INCUBATOR 〙☰ / 🗣│incubator
+==============================================================
+
+[12/08/2021 3:28 PM] glasgowm#9381 (pinned)
+Welcome to the Ergo @Incubator ! 
+
+See this video from @Stacie for a short introduction on what the incubator is - or how to use these channels. Or jump directly to the slides/submission form below. 
+
+https://www.youtube.com/watch?v=cmWBtZp6Mb4
+
+SLIDES: https://bit.ly/3dyvtp6
+FORM: https://q9fwzopidh8.typeform.com/to/CkkmGTrz
+
+If you shouldn't be in this role (no longer working on project, wrong tag, etc) - let me know. Same goes for if anyone else should be in your team or if your team is missing from the form.
+
+{Reactions}
+👍 (5) ergo_black 
+
+[12/22/2021 9:45 PM] glasgowm#9381
+anon_real — Today at 21:30
+On my side, I've been only working on the development of ErgoTeam from the smart contract side. ErgoTeam will not only be for simple joint-spendings like it was initially intended where special tokens needed to be issued. I plan for it to be much more general where any already issued token would work. This will help dApps to build an ecosystem around their product easily.
+
+To achieve that, certain procedures must be improved. That is what I am doing currently. Here is one aspect of it: https://www.ergoforum.org/t/a-more-efficient-utxo-voting/3144
+I'd appreciate if community devs & ecosystem core would read it and provide feedback.
+
+Moreover, my guys for AH are getting familiar with Ergo in general and the code base of AH to develop it further. The progress has been good.
+
+{Embed}
+https://www.ergoforum.org/t/a-more-efficient-utxo-voting/3144
+A more efficient UTXO voting
+Let’s say we have a voting contract or a joint-spending contract similar to here. In this setting voters have some specific token that allows them to have a specific “voting power”. For example, if there are a total of 100 of token x and Alice owns 15 x then she has 15% of the entire voting power.  We’d like to have an efficient way of voting. V...
+
+
+[12/23/2021 2:26 AM] Chris Ray#2713
+Pulling me in as I start to consider how a dao structure could be utilized for many simple and/or complicated things, I like to think a token does not need to be used in a transaction and allowing "Alice" to keep tokens in a box and also allowing them to participate in a vote opens up new pathways of multi-use tokens where they might be in a profit-sharing/staking agreement or possibly in a collateralized loan yet they can still continue to hold weight in a vote. 
+
+Very interesting development.
+
+
+[02/01/2022 12:46 PM] glasgowm#9381
+Watch out for these guys @Incubator 
+
+Offer to setup regional community chats (or just go ahead like this guy has done), fill them with bots and spam usually and then demand payment or they'll restrict the group. What works best is setting the group up yourself, finding an existing ergonaut from the region to ensure quality/it's not spam and then reward people if they actually build up a community. Or feel free to point them to the existing regional chats in the time-being if that's easier.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/913358760947363870/938052586328698920/unknown.png
+
+
+[02/01/2022 1:06 PM] ilya | dappstep#9261
+Lol! He approached SigmaValley too
+
+
+[02/25/2022 11:13 AM] glasgowm#9381
+free alternative to linktree : https://direct.me/
+
+{Embed}
+https://direct.me/
+Your springboard for your social presence. Engage, Grow & Earn with one link.
+https://images-ext-1.discordapp.net/external/xxDDmVU2ysIXtQkWRVEbn2K_gScFWcqJd5xfNlj8phM/https/direct.me/static/img/meta-image.jpg
+
+
+[02/28/2022 2:43 PM] glasgowm#9381
+@Crypto Cream has kindly started a Community Standards page @Incubator 
+
+https://github.com/ergoplatform/grow-ergo/blob/main/Ergo-community-standards.md
+
+{Embed}
+https://github.com/ergoplatform/grow-ergo/blob/main/Ergo-community-standards.md
+grow-ergo/Ergo-community-standards.md at main · ergoplatform/grow-e...
+Grow ERG. Contribute to ergoplatform/grow-ergo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/H2tuuG839fkQJUvklYF5SDd080dCvfQUVzfgfvFVGXU/https/opengraph.githubassets.com/50c25aa94cf0c57280f44ccdeae1ecab65e11eafe252f28e5520913ec16e7332/ergoplatform/grow-ergo
+
+
+[02/28/2022 7:32 PM] glasgowm#9381
+Pinned a message.
+
+
+[03/04/2022 6:19 PM] glasgowm#9381
+Adding TVL to Defi Llama 
+https://docs.llama.fi/list-your-project/submit-a-project
+
+The adaptor for ergodex
+
+https://github.com/DefiLlama/DefiLlama-Adapters/blob/main/projects/ergodex.js
+
+Can yous add USD endpoints so we can get these added to ergo TVL @Luivatra @anon_real ?
+
+{Embed}
+https://docs.llama.fi/list-your-project/submit-a-project
+How to list a DeFi project
+https://images-ext-1.discordapp.net/external/1Z52R_RQd2NSj5s-LTL8eVc6EowZPYoNhzJbjn0QgXA/%3Fcolor%3D%25233884FF%26logo%3Dhttps%253A%252F%252Ffirebasestorage.googleapis.com%252Fv0%252Fb%252Fgitbook-28427.appspot.com%252Fo%252Fspaces%25252F-MVnGnXr5_eAilN_e5PP%25252Favatar-1617498752653.png%253Fgeneration%253D1617498752834476%2526alt%253Dmedia%26theme%3Dnone/https/app.gitbook.com/share/space/thumbnail/-MVnGnXr5_eAilN_e5PP.png
+
+{Embed}
+https://github.com/DefiLlama/DefiLlama-Adapters/blob/main/projects/ergodex.js
+DefiLlama-Adapters/ergodex.js at main · DefiLlama/DefiLlama-Adapters
+Contribute to DefiLlama/DefiLlama-Adapters development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/MbVLi90mN75pz4N65rGB-4-deyz-keYxDL_i_MYzWB0/https/opengraph.githubassets.com/32c004aa69d81df1507603e9c063d55101b95c184f82e462b47f8750768f1002/DefiLlama/DefiLlama-Adapters
+
+
+[03/04/2022 6:35 PM] Luivatra#9076
+you mean for tvl in ergopad?
+
+
+[03/04/2022 7:18 PM] glasgowm#9381
+yeh
+
+
+[03/04/2022 7:18 PM] Luivatra#9076
+alright, will pass it on to Noob, he is not a retard like me when it comes to js
+
+{Reactions}
+😅 
+
+[04/27/2022 10:21 AM] glasgowm#9381
+Hey @Incubator - Added a guide here for getting added onto the chat bridge. (Can be set up like `Your Discord<>Ergo Discord<>Your Telegram` see #spectrum for an example). Would be good to have a channel on this Discord for every project working on Ergo as it'll help visibility/pull people in. 
+
+https://github.com/ergoplatform/grow-ergo/blob/main/ecosystem/standards/ChatBridge.md
+
+{Embed}
+https://github.com/ergoplatform/grow-ergo/blob/main/ecosystem/standards/ChatBridge.md
+grow-ergo/ChatBridge.md at main · ergoplatform/grow-ergo
+Grow ERG. Contribute to ergoplatform/grow-ergo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/LQ4in3s7cwXMGcy7Lpt3vQ5oG8u3l73o1VbnpRWZpJ4/https/opengraph.githubassets.com/e353913ce9a48d7d7ae9490f04c8f0a58fb9ae5bed84d5e2aa06377bd6e4a316/ergoplatform/grow-ergo
+
+{Reactions}
+🙏🏽 (2) 👍 (3) 
+
+[06/22/2022 12:50 PM] glasgowm#9381
+The amount of channels we were needing was growing exponentially so I've just switched to a #🎟│tickets channel instead. Open a ticket from here to start a channel with me, armeanio and stacie. I can add in your team members and the other EF members as required.
+
+
+[11/16/2022 10:54 AM] Stacie#8189
+Started a thread.
+
+
+==============================================================
+Exported 15 message(s)
+==============================================================

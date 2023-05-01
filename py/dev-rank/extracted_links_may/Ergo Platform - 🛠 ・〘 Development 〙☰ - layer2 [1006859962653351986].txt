@@ -1,0 +1,1341 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🛠 ・〘 Development 〙☰ / layer2
+Topic: https://t.me/ErgoLayer2
+==============================================================
+
+[08/26/2022 12:57 PM] glasgowm#0000
+Forwarded from K: https://github.com/GetBlok-io/GetBlok-Plasma/blob/master/documents/SmartPool_Plasma.MD
+
+{Embed}
+https://github.com/GetBlok-io/GetBlok-Plasma/blob/master/documents/SmartPool_Plasma.MD
+GetBlok-Plasma/SmartPool_Plasma.MD at master · GetBlok-io/GetBlok-P...
+An Ergo-Appkit based library providing an abstraction layer to easily interact with AVL Trees as an L2 Solution - GetBlok-Plasma/SmartPool_Plasma.MD at master · GetBlok-io/GetBlok-Plasma
+https://images-ext-1.discordapp.net/external/y6n0uXCZUKThbMGxYqqVlhRTmZvavGoXleIkoSP_4fI/https/opengraph.githubassets.com/182c2e5b133a18361f70ba1e550cc419c5a6c7f994a24bbe7149f76c70990afb/GetBlok-io/GetBlok-Plasma
+
+
+[08/26/2022 12:57 PM] glasgowm#0000
+Forwarded from ErgoBridgeBot: <Luivatra> anyways, here is a draft for plasma based staking setup (missing a bunch of checks but should catch the general idea) https://github.com/ergo-pad/paideia-contracts/blob/main/paideia_contracts/contracts/staking/ergoscript/latest/plasmaStaking.es
+
+
+[08/26/2022 12:57 PM] glasgowm#0000
+Forwarded from K: Question about rollups -
+
+So as I understand, the general idea is to have a tree containing a UTXO set, along with some transaction data on the L1. The transactions are used to perform state transformations on the UTXO set until a new final UTXO set is outputted.
+
+
+[08/26/2022 12:57 PM] glasgowm#0000
+Forwarded from K: My question is about understanding what guarantees the validity of the transactions. Would it be the same as on Ergo in that each transaction input has a spending proof attached to it? If so, how would the spending proof be verified on the L1?
+
+
+[08/26/2022 12:57 PM] glasgowm#0000
+Forwarded from kushti_ru: Rollup is about posting only data onchain, not doing verification
+
+
+[08/26/2022 12:57 PM] glasgowm#0000
+Forwarded from kushti_ru: Then there are two options
+
+
+[08/26/2022 12:57 PM] glasgowm#0000
+Forwarded from kushti_ru: Disputes in optimistic rollups when computations are done only on data which validity is disputed
+
+
+[08/26/2022 12:57 PM] glasgowm#0000
+Forwarded from kushti_ru: In zk rollups a short proof of data validity is attached
+
+
+[08/26/2022 12:57 PM] glasgowm#0000
+Forwarded from kushti_ru: I think optimistic rollups should work well on Ergo
+
+
+[08/26/2022 12:57 PM] glasgowm#0000
+Forwarded from kushti_ru: Zk rollups have a lot of issues in practice, and likely pairing friendly curves support in the core protocol would be required
+
+
+[08/26/2022 12:57 PM] glasgowm#0000
+Forwarded from K: Thanks, I think I was confused by the validity proof aspect of zk rollups
+
+
+[08/26/2022 12:57 PM] glasgowm#0000
+Forwarded from K: Btw I made a few more writings involving AVL Trees
+
+Basic intro in ErgoScript:
+https://github.com/GetBlok-io/GetBlok-Plasma/blob/master/documents/AVL_Trees.MD
+
+On-demand NFT minting:
+https://www.ergoforum.org/t/scalable-on-demand-nft-minting/3770
+
+Hopefully more documentation will make it easier to understand and implement for newer devs.
+
+{Embed}
+https://github.com/GetBlok-io/GetBlok-Plasma/blob/master/documents/AVL_Trees.MD
+GetBlok-Plasma/AVL_Trees.MD at master · GetBlok-io/GetBlok-Plasma
+An Ergo-Appkit based library providing an abstraction layer to easily interact with AVL Trees as an L2 Solution - GetBlok-Plasma/AVL_Trees.MD at master · GetBlok-io/GetBlok-Plasma
+https://images-ext-1.discordapp.net/external/y6n0uXCZUKThbMGxYqqVlhRTmZvavGoXleIkoSP_4fI/https/opengraph.githubassets.com/182c2e5b133a18361f70ba1e550cc419c5a6c7f994a24bbe7149f76c70990afb/GetBlok-io/GetBlok-Plasma
+
+{Embed}
+https://www.ergoforum.org/t/scalable-on-demand-nft-minting/3770
+Scalable, On-Demand NFT Minting
+I was discussing different ways to make mass NFT minting and sales more scalable with a few other devs (like MGPai, lgd, Ilya). Currently, if you want to mint and sell 1000 NFTs, you need to do 1000 NFT minting transactions, and then over time do 1000 sale transactions.  To make this more efficient, one could use an AVL Tree. Lets say the tree h...
+
+
+[08/26/2022 12:57 PM] glasgowm#0000
+Forwarded from seedubya: https://twitter.com/orbisproject/status/1559178331433512960 
+
+May be of interest
+
+{Embed}
+Orbis (@orbisproject)
+https://twitter.com/orbisproject/status/1559178331433512960
+Psst... we’ve just released our in-depth technical whitepaper! 🎉
+
+📜 The paper describes #Orbis—a general-purpose layer 2 zero-knowledge rollup protocol—and gives a technical dive into the protocol design considerations and more.
+
+Jump in ▶️ https://t.co/DSB4tOM4iJ
+
+#cardano
+Likes
+315
+https://images-ext-2.discordapp.net/external/1ODds8Mj1xRynYg-NdK11QnXRAD5esHFIIJjmYDvzY0/https/pbs.twimg.com/media/FaNJNo5UIAQPCYS.jpg
+Twitter
+
+
+[08/26/2022 2:56 PM] Quwin#6226
+For fraud proofs in Optimistic Rollups I'm currently dabbling in multi-stage fraud proofs, so the total computation a fraud proof can do is not limited by the 95kb tx size and the computation limit. 
+
+In addition, with that, I think verifying even complicated box scripts via spending proofs would be possible by allowing pseudoBoxes (my term for fake Boxes within the AvlTree representing Layer 2) to contain multiple scripts, and requiring all of those Box's scripts to be true
+
+
+[08/26/2022 3:01 PM] Quwin#6226
+currently I'm working on a fraud proof to ensure the total value of all inputs == total value of all outputs.
+
+Due to proof sizes and the computation limit, only around ~120 pseudoBoxes can have their values calculated in a single real Tx. 
+So by using a multi-stage contract, and allowing concurrent calculation Boxes to be merged, a single Block (with many different transactions) can calculate thousands of pseudoBox values at once. 
+
+So for example creating a value fraud proof for a Tx with 100,000 Boxes would take ~850 Transactions, between around 5-10 Blocks, and then could be submitted to the main chain to roll it back
+
+
+[08/26/2022 3:03 PM] Cheese Enthusiast#0548
+Can you explain the boxes with multiple scripts idea?
+
+
+[08/26/2022 3:10 PM] Quwin#6226
+Basically when you make a pseudoBox instead of having 1 Large Script you make several smaller ones which fufill the same functionality. In current Ergo only a single script per Box is validated per Tx, (well you could do more with Context Variable shenanigans + storing propBytes but it's ineffecient)
+
+But with Layer 2 transactions, because creating a fraud proof has some overhead, the SigmaProps which a Layer 2 pseudoBox contains cannot have much complexity as a normal Layer 1 Box.
+
+In that way, a pseudoBox could have multiple adjacent scripts, each of which have to be true. 
+
+For example:
+
+A normal Box would have a script like:
+```scala
+{
+  SELF.R4[Coll[Byte]].get == OUTPUTS(0).propositionBytes &&
+  OUTPUTS(0).value == 100000
+} 
+```
+but if this is too large to be (in)validated as a Layer 2 pseudoBox (it isn't pretend it is), the pseudoBox could instead have two scripts:
+```scala
+{
+  SELF.R4[Coll[Byte]].get == OUTPUTS(0).propositionBytes
+} 
+```
+and 
+```scala
+{
+  OUTPUTS(0).value == 100000
+} 
+```
+
+
+[08/26/2022 3:11 PM] Quwin#6226
+So when making a fraud proof you can just prove either script 1 or script 2 is wrong instead of calculating both to say 1 is wrong
+
+
+[08/26/2022 3:19 PM] Quwin#6226
+So a Layer 2 Tx could theoretically have:
+- Unlimited number of pseudoBoxes within a single layer 2 Tx (but practically I think 100k or 1 mil Max is a good number there's not really a good reason to go above that) 
+- With each Box having their own scripts, reaching complexity even above a Layer 1 Tx's (Again, practically this likely won't occur)
+- And an unlimited number of rolled up Layer 2 Txs within a single Layer 1 Tx (again, there will be a practical limit)
+
+
+[08/26/2022 3:23 PM] Quwin#6226
+The main issues I'm not sure on is the finality of the Layer 2 itself, which was actually the main issue compared to mainnet I think should be improved with scalability, and transaction Fees (mainnet fees should be low, but since a TON of work is being done to validate a rolled up Tx actual Layer 2 fees might not be lower)
+
+
+[08/26/2022 3:36 PM] Cheese Enthusiast#0548
+So are bytes for scripts just being attached to each box in each L2 transaction? I'm confused about how this would save space.
+
+
+[08/26/2022 4:18 PM] Cheese Enthusiast#0548
+I wonder if its possible to store script hashes instead of actual scripts on utxos. Then in case of fraud, the prover must provide the full script in context vars (verified to be correct by checking the hashes), and show where script execution failed.
+
+This would mean for all utxos in the rollup only 32 bytes are needed for script storage. Also we know a script at most will be 4096 bytes, and we only need to disprove at most 1 script in a transaction for a fraud proof.
+
+So this should still provide 91kb of free space in the fraud proof tx (which will likely be needed for other aspects of the fraud proof)
+
+
+[08/26/2022 4:18 PM] Cheese Enthusiast#0548
+But this may pose a problem for data availability
+
+
+[08/26/2022 4:38 PM] Quwin#6226
+Yeah that was the plan, each box can freely store the hash of the proposition Bytes of their scripts. 
+
+To provide a fraud proof, the user provides the SigmaProp as a context variable and checks that the hash of the SigmaProp’s proposition Bytes == the hash stored in the Box.
+
+
+[08/26/2022 4:42 PM] Quwin#6226
+Since only a single script needs to be invalidated the invalidator only needs to link:
+
+- 1 SigmaProp
+- Which Box they’re disputing the script of
+- Which script of the Box they’re disputing
+- The transaction they’re invalidating
+- Proof that the transaction is a past state (as an AvlTree Proof)
+
+And this can all be done across multiple stages as well if necessary
+
+
+[08/26/2022 4:51 PM] Cheese Enthusiast#0548
+I think with multiple scripts per box, you actually add to the amount of data needed though. Using one script hash per box only has 32 byte overhead, by including multiple scripts you get `32 * n` bytes of overhead for some box with `n` scripts attatched to it.
+
+
+[08/26/2022 4:53 PM] Cheese Enthusiast#0548
+But besides that, I guess one question I have about this that I'm not too sure abt myself, what happens if the sequencer posts a transaction with some script hash who's actual script is unknown? Wouldn't fraud be impossible to prove in this case (because script must be known)? Or is it irrelevant?
+
+
+[08/26/2022 4:55 PM] Quwin#6226
+That was actually something I though about, as well as what if they just make a script so large it’s over 95kb:
+
+In that case, since the script cannot be invalidated, the default would be that the script is valid. 
+
+So it essentially would be “sigmaProp(true)”
+
+
+[08/26/2022 4:56 PM] Quwin#6226
+That’s why every single validation rule has to be separate, so the default into a “valid” state won’t break any functionality
+
+
+[08/26/2022 4:56 PM] Cheese Enthusiast#0548
+Well script size is limited to size of the box, so at most script will be 4096 bytes (or max box size on L2). I just wonder if there is some attack vector here for unknown script hashes, but maybe that is just paranoia.
+
+
+[08/26/2022 4:59 PM] Quwin#6226
+That’s true for normal Boxes on ergo, but the boxes I’m working with as a Layer 2 are actually represented by AvlTrees and their digests, they aren’t of the “Box” type. That’s why I refer to them as pseudoBoxes, as they aren’t real boxes. So they can hold an “”unlimited”” amount of data, multiple scripts, etc
+
+
+[08/26/2022 5:00 PM] Quwin#6226
+Because since the pseudoBoxes are created off chain, they don’t have any reference data like creation height etc so I had to change functionality a bit
+
+
+[08/26/2022 5:01 PM] Cheese Enthusiast#0548
+Why not just enforce a max box size on the rollup contract? Seems like unlimited storage will pose problems for sequencers and require that they hold potentially huge amounts of data off-chain.
+
+
+[08/26/2022 5:38 PM] Quwin#6226
+Yeah there will be a limit for sure but I’m just thinking in theoreticals for now.
+
+
+[08/29/2022 11:41 PM] Quwin#6226
+https://www.ergoforum.org/t/optimistic-rollups-and-fraud-proofs-in-ergo/3819
+
+{Embed}
+https://www.ergoforum.org/t/optimistic-rollups-and-fraud-proofs-in-ergo/3819
+Optimistic Rollups and Fraud Proofs in Ergo
+Optimistic Rollup Design in Ergo     Summary on the bottom    Upgrading scalability while maintaining functionality            Layer 2 Scaling solutions have long been touted as a solution to scalability problems, allowing for transactions to take place off-chain or to be "rolled-up" into a single larger transaction. This means that individual t...
+
+{Reactions}
+🔥 (3) 
+
+[08/30/2022 12:02 AM] Cheese Enthusiast#0548
+Nice!
+
+
+[08/30/2022 12:02 AM] Cheese Enthusiast#0548
+Gonna read this through and let you know my thoughts
+
+{Reactions}
+❤️ 
+
+[08/30/2022 12:34 AM] Cheese Enthusiast#0548
+Sent my thoughts. In general it makes sense but I had a few questions / concerns about the design.
+
+
+[08/30/2022 1:43 AM] lgd#5847
+what does it mean to have "sub-txs" be part of a larger "single-tx"?
+
+
+[08/30/2022 1:44 AM] Quwin#6226
+because transactions are rolled up, essentially theres a main transaction which is just a list of smaller, user submitted sub transactions
+
+
+[08/30/2022 1:44 AM] Quwin#6226
+and they're just shoved next to each other
+
+
+[08/30/2022 1:45 AM] Quwin#6226
+the larger transaction which reflects all the smaller ones together is posted to the Layer 1
+
+
+[08/30/2022 1:45 AM] Cheese Enthusiast#0548
+So essentially the main tx is an AVL Tree representing the transactions posted onto the L2
+
+
+[08/30/2022 1:46 AM] Cheese Enthusiast#0548
+I guess its just terminology differences
+
+
+[08/30/2022 1:46 AM] Quwin#6226
+It's AvlTrees all the way down
+
+
+[08/30/2022 1:52 AM] lgd#5847
+so it's a pseudo tx haha?
+
+
+[08/30/2022 1:53 AM] lgd#5847
+oh so like the sub tx are in the avl tree, then the single "actual" tx stores the avl tree with the sub-tx in a register of the new output box?
+
+
+[08/30/2022 1:55 AM] Cheese Enthusiast#0548
+Yeah, in general the point is that the L2 transactions are posted on-chain so that they can be verified in case of fraud.
+
+
+[08/30/2022 1:55 AM] lgd#5847
+so like the avl tree is like a pseudo block? i guess im confused by what an L2 tx is
+
+
+[08/30/2022 1:59 AM] Cheese Enthusiast#0548
+An L2 tx is just like an Ergo tx. In general it works like this, you bridge your ERG onto the L2 which is a separate network (in this case, an eUTXO network similar to Ergo). You can then transact in the L2 similar to Ergo (spend your utxos, etc). Every time you spend a box, its included in a transaction on the L2 network. These transactions are then posted onto Ergo, rather than its own blockchain.
+
+
+[08/30/2022 2:00 AM] Quwin#6226
+Basically the mainTx is a Block, subTx is a transaction
+
+{Reactions}
+☝️ 
+
+[08/30/2022 2:02 AM] Quwin#6226
+so there's two main trees:
+
+1. A tree of Boxes, just like how the Ergo Network is just a ton of Boxes
+2. A tree of Blocks, which can be contested if they're wrong. Each Block has a tree of transactions, and each transaction has a tree of the boxes they use
+
+
+[08/30/2022 2:03 AM] Quwin#6226
+also the boxes are trees too so everything a tree
+
+
+[08/30/2022 2:03 AM] Quwin#6226
+🌲
+
+
+[08/30/2022 2:05 AM] Cheese Enthusiast#0548
+Hmm now I'm confused 🤔 , what's the reasoning for posting blocks of transactions rather than just a bunch of transactions. I imagine that if even one transaction is wrong, than the entire "mainTx" is gonna be wrong anyway.
+
+
+[08/30/2022 2:06 AM] Cheese Enthusiast#0548
+So why not just get rid of the blocks and just keep the tree holding transactions instead?
+
+
+[08/30/2022 2:07 AM] lgd#5847
+another question, whenever you post the Tree of Transactions, does that occur only once every block on Ergo?
+
+
+[08/30/2022 2:07 AM] Quwin#6226
+The block is the tree holding the transaction, not sure what you mean
+
+
+[08/30/2022 2:07 AM] Quwin#6226
+oh wait i misspoke
+
+
+[08/30/2022 2:07 AM] Cheese Enthusiast#0548
+Ah okay, I got confused by what you said earlier. That makes sense
+
+
+[08/30/2022 2:08 AM] Quwin#6226
+So the tree of blocks is because the past ~5000 blocks have to be held in case they get contested
+
+
+[08/30/2022 2:09 AM] Quwin#6226
+I'm not sure yet, I'm not 100% sure about the benefits/tradeoffs between increasing block time or not. But at the fastest it would be every Ergo Block, yeah
+
+
+[08/30/2022 2:10 AM] lgd#5847
+i guess if you post a collection of blocks, would that occur once every block, or could that occur multiple times per block?
+
+
+[08/30/2022 2:11 AM] lgd#5847
+or maybe im wrong and that doesnt make any sense?
+
+
+[08/30/2022 2:11 AM] lgd#5847
+i guess what would be the point of that, just group those groups and post all of those in one block instead
+
+
+[08/30/2022 2:12 AM] Quwin#6226
+Idk what you mean lol which block is which
+
+
+[08/30/2022 2:12 AM] Quwin#6226
+thats why i wanted to use mainTx and subTx 😭
+
+
+[08/30/2022 2:13 AM] Cheese Enthusiast#0548
+Lol
+
+
+[08/30/2022 2:13 AM] Cheese Enthusiast#0548
+Okay so can you describe to me what is held in the avl tree that is NOT holding the utxo set
+
+
+[08/30/2022 2:13 AM] lgd#5847
+posting to a block => creating a tx on ergo that gets inserted into one block on ergo
+
+
+[08/30/2022 2:14 AM] Cheese Enthusiast#0548
+Because that is what is confusing me mostly
+
+
+[08/30/2022 2:17 AM] Quwin#6226
+So Main Tree 1:
+Keys are BoxIds, Values are Box Digests (Boxes are Trees)
+
+Main Tree2:
+Keys are which mainTx of past 5000 unconfirmed mainTxs, Values are mainTx Digests
+
+- mainTx: Keys are which subTx of x subTxs, Values are subTx Digests
+
+- subTx: Keys are pseudoBox number of x pseudoBoxes, Values are pseudoBox Digests
+
+
+[08/30/2022 2:17 AM] Quwin#6226
+I need to draw a picture lmao
+
+{Reactions}
+🤣 
+
+[08/30/2022 2:18 AM] Cheese Enthusiast#0548
+Okay cool this makes sense. So I guess the way I would say it is that it's a tree holding L2 transactions rather than blocks, but again just terminology
+
+
+[08/30/2022 2:18 AM] Quwin#6226
+one rollup STATE UPDATE per Ergo Block
+
+
+[08/30/2022 2:19 AM] Quwin#6226
+okay lemme finish answering ur Q on the forum lol
+
+{Reactions}
+🔥 
+
+[08/30/2022 2:20 AM] Cheese Enthusiast#0548
+Theoretically, you could also chain state updates together so that multiple happen within a single block. But then you risk those transactions being invalidated later due to fraud occurring in a previous state update.
+
+
+[08/30/2022 2:20 AM] lgd#5847
+yeah so then all those L2 blocks would be invalid right?
+
+
+[08/30/2022 2:21 AM] Cheese Enthusiast#0548
+Correct, the real L2 state would be rolled back to the last confirmed state
+
+
+[08/30/2022 2:21 AM] lgd#5847
+that's what my questions were sort of getting too
+
+
+[08/30/2022 2:23 AM] Quwin#6226
+yeah it's probably best to prevent that, and finality could just be considered whenever the sequencer receives and confirms your transaction on Layer 2
+
+
+[08/30/2022 2:24 AM] Cheese Enthusiast#0548
+However, I have another problem with posting transactions as AVL Trees that I just realized 😁 
+
+If transactions are posted into a tree, then someone must keep the avl tree holding them off-chain. If they don't, then how will they be able to prove that a transaction has fraud in it?
+
+
+[08/30/2022 2:25 AM] Cheese Enthusiast#0548
+Because an AVL proof is needed to get the actual transaction, which must then be checked for fraud.
+
+
+[08/30/2022 2:27 AM] Quwin#6226
+Only the unconfirmed states AvlTree needs to be held right, as it holds all of the digests of other AvlTrees and you can form trees by their digests
+
+
+[08/30/2022 2:27 AM] Quwin#6226
+also I replied on the forum
+
+
+[08/30/2022 2:28 AM] Cheese Enthusiast#0548
+So now, verifiers must have access to all of the transaction data stored off-chain in order to prove fraud. Now if a sequencer includes a transaction that nobody else knows about, then nobody will be able to prove fraud, because any AVL proof they provide will be incorrect (because the entire AVL digest they have stored off-chain is different from what is on-chain).
+
+
+[08/30/2022 2:29 AM] Cheese Enthusiast#0548
+Cool, I'll check it out
+
+
+[08/30/2022 2:31 AM] Cheese Enthusiast#0548
+But in regards to this, I can't really see a good way to post transactions as an AVL tree. This kind of defeats the purpose of the rollup imo. Most rollups I've seen on Ethereum post extremely compressed transactions using certain techniques to lower data size, but I don't think any of them keep the transactions in an authenticated dictionary (so a merkle tree, or in Ergo's case, an AVL tree).
+
+
+[08/30/2022 2:32 AM] Quwin#6226
+couldn't a verifier just use the digest which is posted on-chain to get the transaction's data?
+
+
+[08/30/2022 2:33 AM] Cheese Enthusiast#0548
+You also need the AVL proof to get the transaction correctly. If the sequencer posts a transaction that no verifiers know about, then any AVL proof the verifiers provide will be incorrect.
+
+
+[08/30/2022 2:35 AM] Cheese Enthusiast#0548
+So in a pessimistic case, lets say the sequencer posts a transaction that spends the box protected by my public key, but no verifiers know about it. Since no verifiers can prove fraud (because any avl proof they provide is incorrect), then eventually this transaction will be confirmed.
+
+
+[08/30/2022 2:37 AM] Quwin#6226
+I see, I was under the impression that only the Digest was necessary, in that case the only options would be to either require the Avl Proof to be posted, which isn't efficient, or use a different method
+
+
+[08/30/2022 2:39 AM] Quwin#6226
+maybe the Manifest of the Tree could be compressed and posted, but idk how effecient that is
+
+
+[08/30/2022 2:40 AM] Cheese Enthusiast#0548
+Manifest would be too huge I imagine. I think the best way to go about this is to have transactions be extremely compressed but still have enough data available to understand what's going on.
+
+
+[08/30/2022 2:40 AM] Cheese Enthusiast#0548
+It might be a good idea to see how rollups are done on Ethereum, where they are becoming more common, then convert it to UTXO. Then after that, try and make it more efficient for our model. A good explanation by vitalik is here: https://vitalik.ca/general/2021/01/05/rollup.html
+
+{Embed}
+https://vitalik.ca/general/2021/01/05/rollup.html
+An Incomplete Guide to Rollups
+https://images-ext-1.discordapp.net/external/EpmVrfqfsZLKyvVHX8C3E4oj8nq4zCVGb9Y_-qmV4jY/http/vitalik.ca/images/icon.png
+
+
+[08/30/2022 2:41 AM] Cheese Enthusiast#0548
+Using tons and tons of avl trees is more of a Plasma based approach. I guess the key here is that the data can be seen on-chain easily and then verified. Authenticated dictionaries won't work for posting transaction, though extremely compressed transactions would solve the data size problem.
+
+
+[08/30/2022 2:47 AM] Cheese Enthusiast#0548
+So instead of say, using 32 bytes hashes as keys in the utxo set, you can use hashed integer values instead. Then each transaction in the rollup's register only needs 4 bytes of data per input box. To check for fraud, simply take the integer values, hash them, provide an AVL proof, and then perform whatever fraud proof you need using the box data returned from the utxo set.
+
+Just an example and maybe more thought is needed, but I think following this general design pattern would be better.
+
+{Reactions}
+👍 
+
+[08/30/2022 8:37 PM] Quwin#6226
+Alright I've been putting some thought into it and here's what I came up with:
+
+So in Ethereum, because of their account-based model, they represent accounts (and smart contracts, and tokens since they're all the same) as a 4-byte id, where all accounts, smart contracts, and tokens are essentially mapped to a number as they're introduced. 
+
+So in Ergo, it could be similar, but let's have a separate database for each of Box ids, scripts, and token ids since they're not all equivalent addresses and hold different amounts of data.
+
+So, for a Layer 2 transactions (subTx), it could be formed as follows:
+
+⦁ The subTx gathers all of the scripts and token ids used, and maps them to a 1-2 byte small Int for scripts, and 1 byte for token Ids. 
+⦁ Maximum of 65535 scripts, or 255 tokens per subTx
+⦁ Each BoxId is represented by a 4-byte integer. 
+⦁ So each input is a 4-Byte Box id, where the box data can be pulled from the network
+⦁ Each output is a 4-Byte Box id, + 1-2 Byte script pointer, + 1 Byte token id pointer
+
+So a subTx's data = (inputs * 4) + (outputs * ~6) + (total tokens + total scripts in Tx * 4)
+
+So in that case I guess ~23748 Boxes (95000/4) is the maximum for a subTx with no tokens and 1 script, not counting registers...
+
+
+[08/30/2022 8:40 PM] Quwin#6226
+The main issue is just that it's a lot easier to compress data on ETH due to the nature of their account-based system, the equivalent to an Account in ETH is a Box in Ergo but the average smart-contract will use a lot more Boxes in Ergo than accounts in ETH
+
+
+[08/30/2022 8:43 PM] Quwin#6226
+nvm I also missed Box Values and Token Amounts ugh
+
+
+[08/30/2022 8:44 PM] Quwin#6226
+So probably around 10+ bytes per output
+
+
+[08/30/2022 8:46 PM] Cheese Enthusiast#0548
+Inputs should be relatively light because they reference existing boxes already in the state, so that data can be grabbed from the AVL Tree. Outputs are a bit harder to deal with, so we need ways to compress those well.
+
+
+[08/30/2022 8:47 PM] Quwin#6226
+yeah Inputs only need to be referred to by their key in the AvlTree
+
+
+[08/30/2022 8:47 PM] Cheese Enthusiast#0548
+I think to start off, lets deal with a simple UTXO (not eUTXO) rollup. From there we can add complexity, jumping in straight from the top is going to get complicated. I believe the first rollups on ETH were also for just simple payments.
+
+
+[08/30/2022 8:50 PM] Cheese Enthusiast#0548
+So with that in mind, focusing on simple P2PK outputs, box values, and box identifiers.
+
+
+[08/30/2022 8:53 PM] Quwin#6226
+Yeah that's why I'm ignoring Box Registers and context variables for now, a simple utxo rollup is more than doable just referring to inputs as 4-bytes, and outputs would be ~9-12 bytes each
+
+
+[08/30/2022 8:56 PM] Quwin#6226
+So the simplest transaction would be ~16 bytes, which when compared to ETH's simplest L2 tx of ~12 isn't horrible
+
+
+[08/30/2022 8:57 PM] Cheese Enthusiast#0548
+Hmm, well something to think about, inputs must also have spending proofs (to prove that you didn't just spend some guys p2pk box). For p2pk boxes, I believe it is just the bytes of the box signed by the persons PK
+
+
+[08/30/2022 8:58 PM] Cheese Enthusiast#0548
+So some extra bytes will also be needed for that
+
+
+[08/30/2022 9:00 PM] Quwin#6226
+in the ETH rollup design they use aggregate signatures, which are also possible with Schnorr signatures iirc. So it shouldn't be too much of an issue as multiple L2 transactions can use a single signature
+
+
+[08/30/2022 9:00 PM] Cheese Enthusiast#0548
+Ah good idea, yea you can do aggregate schnorr signatures
+
+
+[08/30/2022 9:01 PM] Cheese Enthusiast#0548
+For a simple payment rollup, we can also require all boxes from the same pk as inputs, and sign just the tx vs each box
+
+
+[08/30/2022 9:03 PM] Quwin#6226
+That's true too
+
+
+[08/30/2022 9:06 PM] Cheese Enthusiast#0548
+In general though, I think you're right that simple UTXO isn't too bad
+
+
+[08/30/2022 9:06 PM] Cheese Enthusiast#0548
+So next step, lets become a Ravencoin-like rollup and add tokens without smart contracts lol
+
+
+[08/30/2022 9:12 PM] Quwin#6226
+Aight so I actually think token ids could be referred to by the order they appear in the Inputs, to save more data. so a token id could just be 1 byte per token id per box. Minting tokens on Layer 2 isn't possible anyways, unless you wanna do potentially Layer 2 only tokens but that's messy so I'll not do that. 
+
+So each box then adds a 1-Byte token id + 1+ byte token amount per box.
+
+
+[08/30/2022 9:17 PM] Quwin#6226
+So right now we're at:
+
+4 Bytes per Input
+
+6+ Bytes per Output (+2-9 per token, +1-7 for larger Erg Values)
+
+x Bytes signature (combined with other transactions)
+
+
+[08/30/2022 9:17 PM] Cheese Enthusiast#0548
+Hmm but how to distinguish which token is which? If I create two outputs, one with NETA in it, and one with ergopad, how do I distinguish which of these is which?
+
+
+[08/30/2022 9:19 PM] Quwin#6226
+I'd just keep it simple like INPUTS(0).tokens(0)._1 == 1 ,  INPUTS(0).tokens(1)._1 = 2, etc... for each token in an input and each input. And then just remove repeated token ids
+
+
+[08/30/2022 9:20 PM] Cheese Enthusiast#0548
+So is 1 and 2 essentially representing a unique token id on Ergo?
+
+
+[08/30/2022 9:20 PM] Quwin#6226
+yeah
+
+
+[08/30/2022 9:20 PM] Cheese Enthusiast#0548
+Okay so in that case we need a separate token AVL database. However I don't think that's too bad of an ask, it will only be referenced in case of fraud / withdrawal and all updates can be posted on-chain
+
+
+[08/30/2022 9:21 PM] Quwin#6226
+yeah Token Ids would need a separate AvlTree, and it wouldn't be too bad because new entries would only be made when a new token is deposited on Layer 2
+
+
+[08/30/2022 9:22 PM] Cheese Enthusiast#0548
+Cool, now for token amounts, we're only allowing one byte?
+
+
+[08/30/2022 9:22 PM] Cheese Enthusiast#0548
+Or is it 1+ depending on the amount posted
+
+
+[08/30/2022 9:22 PM] Quwin#6226
+It would be a VLQ-encoded Long, so 1+ depending on amount posted
+
+
+[08/30/2022 9:23 PM] Cheese Enthusiast#0548
+Nice
+
+
+[08/30/2022 9:24 PM] Cheese Enthusiast#0548
+For fraud we can follow same rules as Ergo. Burning if not included in outputs. "Minting" if a token is deposited from L1
+
+
+[08/30/2022 9:25 PM] Quwin#6226
+Yep, that'd work
+
+
+[08/30/2022 9:25 PM] Cheese Enthusiast#0548
+Maybe we increase token id to be 4 bytes to allow for more than 256 unique tokens in the rollup?
+
+
+[08/30/2022 9:26 PM] Cheese Enthusiast#0548
+So max number of unique tokens is Int.MAX
+
+
+[08/30/2022 9:31 PM] Quwin#6226
+So my idea was that the Token AvlTree database would have 4-Byte Keys so the maximum tokens on Layer 2 is Int.MAX. 
+
+Then, when a transaction is created, those 4-Byte Keys are mapped to 1-Byte pointers depending on how many Tokens are used within the transaction. 
+
+So the maximum number of tokens within a single transaction would be 255, but that's not the maximum of the entire network.
+
+If necessary it could just be VLQ-encoded too and so a single transaction could go to Int.MAX number of tokens too
+
+
+[08/30/2022 9:32 PM] Quwin#6226
+So each box would hold the actual 4-Byte Key, but when you're making the transaction only the 1-Byte pointer is necessary as an input, and the Key would be derived from the pointer
+
+
+[08/30/2022 9:33 PM] Cheese Enthusiast#0548
+So the 1 byte is representing tokens already in the input boxes?
+
+
+[08/30/2022 9:33 PM] Quwin#6226
+yes
+
+
+[08/30/2022 9:33 PM] Cheese Enthusiast#0548
+I see, that makes sense
+
+
+[08/30/2022 9:33 PM] Cheese Enthusiast#0548
+Pretty good idea
+
+
+[08/30/2022 9:34 PM] Quwin#6226
+I didn't think more than 256 tokens in a single transaction was necessary, if it is 2-Bytes or 65536 tokens is way more than necessary
+
+
+[08/30/2022 9:34 PM] Quwin#6226
+and it can just be VLQ-encoded at that point too
+
+
+[08/30/2022 9:35 PM] Cheese Enthusiast#0548
+Yeah more than 256 per tx is overkill
+
+
+[08/30/2022 9:35 PM] Cheese Enthusiast#0548
+So I think tokens looks pretty good
+
+
+[08/30/2022 9:36 PM] Cheese Enthusiast#0548
+Whats the storage overhead so far
+
+
+[08/30/2022 9:36 PM] Cheese Enthusiast#0548
+4 Bytes per Input
+6+ Bytes per Output (+2-9 per token, +1-7 for larger Erg Values)
+x Bytes signature (combined with other transaction
+
+
+[08/30/2022 9:36 PM] Cheese Enthusiast#0548
+Right?
+
+
+[08/30/2022 9:36 PM] Quwin#6226
+yep
+
+
+[08/30/2022 9:37 PM] Quwin#6226
+The main issue is just I have no idea how to compress Box Registers
+
+
+[08/30/2022 9:37 PM] Quwin#6226
+because Box scripts can be handled similarly to tokens
+
+
+[08/30/2022 9:38 PM] Quwin#6226
+just a VLQ-encoded 1-2 Bytes per script (because >256 scripts in a Tx isn't unreasonable)
+
+
+[08/30/2022 9:40 PM] Quwin#6226
+but Box Registers are funky because they straight up just hold raw, necessary data
+
+
+[08/30/2022 9:43 PM] Quwin#6226
+Actually you'd need to link the scripts to since you're not necessarily reusing them like tokens, so more like 1-2 or 4 bytes per script depending on whether it's reused or not
+
+
+[08/30/2022 9:47 PM] Cheese Enthusiast#0548
+Maybe we use some arbitrary lossless compression algo?
+
+
+[08/30/2022 9:48 PM] Cheese Enthusiast#0548
+Goal here is to use less data and use more computation. Luckily ErgoScript is a very simple language with simple data-types.
+
+
+[08/30/2022 9:49 PM] Cheese Enthusiast#0548
+So maybe we have a 1 byte identifier that tells what datatype is being stored?
+
+
+[08/30/2022 9:50 PM] Cheese Enthusiast#0548
+And we limit complex data-types (nested colls, nested pairs, etc) to the most commonly used ones. I don't think anybody is doing `Coll[Coll[Coll[Coll[Byte]]]]]`
+
+
+[08/30/2022 9:51 PM] Cheese Enthusiast#0548
+Hmm but not very satisfied with this, and it doesn't get to the problem of the actual data
+
+
+[08/30/2022 9:54 PM] Quwin#6226
+Yeah the main problem is that sending a transaction with say 1kb of data in the Box registers kills throughput, that's like 100-200 Boxes of data right there lol
+
+
+[08/30/2022 9:54 PM] Quwin#6226
+not to mention if someone tried getting to the 95 kb Ergo limit
+
+
+[08/30/2022 9:56 PM] Quwin#6226
+Maybe the best solution is to allow it but just jack up fees so it's not worth it and they'd rather just do it on Layer 1
+
+
+[08/30/2022 9:57 PM] Cheese Enthusiast#0548
+True, but then we're not much better than the L1 for anything but simple payments. That isn't necessarily a bad thing, just depends on what the goals are
+
+
+[08/30/2022 9:59 PM] Quwin#6226
+Well my main goal for the Layer 2 is to improve transaction finality and scalability foremost, not necessarily reduce fees. Because Layer 1 fees are really small anyways, and should stay small unless we shoot up past 40 tps
+
+
+[08/30/2022 10:01 PM] Quwin#6226
+but the fee model could simply be exponential too, because 1kb Tx data isn't too much of a problem and could be handled with equal or less fees than Layer 1, but after that it gets a bit much
+
+
+[08/30/2022 10:01 PM] Quwin#6226
+and Input Boxes do not have their data count towards the limit, while they do on Layer 1
+
+
+[08/30/2022 10:01 PM] Cheese Enthusiast#0548
+Good point with fees being small already
+
+
+[08/30/2022 10:03 PM] Cheese Enthusiast#0548
+Right now we're at like ~20 bytes + sig bytes for non-data storing txs
+
+
+[08/30/2022 10:06 PM] Quwin#6226
+Yeah, that's not bad.
+
+
+[08/30/2022 10:07 PM] Cheese Enthusiast#0548
+Lets assume 100 bytes for signature (I have no idea exact amount but I imagine this is an overestimate).
+120 bytes max per tx, and we post these txs in context vars of the rollup box.
+500 txs would be about 60,000 bytes of data
+
+
+[08/30/2022 10:08 PM] Cheese Enthusiast#0548
+So 500x increase for non-data storing, non-script txs, (With only 1 output)
+
+
+[08/30/2022 10:08 PM] Cheese Enthusiast#0548
+That's pretty darn good, and tons of left over space. I'm assuming rollup box is 5kb for right now, so about 30kb left.
+
+
+[08/30/2022 10:09 PM] Quwin#6226
+the Box size can be kept really small if just the Digest is stored
+
+
+[08/30/2022 10:10 PM] Quwin#6226
+so 4 AvlTree Digests (Boxes, unconfirmed, Tokens, Scripts) so 132 Bytes
+
+
+[08/30/2022 10:10 PM] Cheese Enthusiast#0548
+I think we can keep tokens tree outside of the rollup box, it is only updated on deposits, and is only checked when fraud occurs
+
+
+[08/30/2022 10:11 PM] Cheese Enthusiast#0548
+Same with scripts
+
+
+[08/30/2022 10:11 PM] Quwin#6226
+Yeah you're right, that'd help a bit too
+
+
+[08/30/2022 10:11 PM] Quwin#6226
+so even only 66 bytes at that point
+
+
+[08/30/2022 10:12 PM] Cheese Enthusiast#0548
+Maybe with scripts its a bit more complicated actually, because you may want to send ERG to a new script on the rollup that doesn't exist on L1
+
+
+[08/30/2022 10:12 PM] Cheese Enthusiast#0548
+Or I guess we can prevent that for right now
+
+
+[08/30/2022 10:12 PM] Cheese Enthusiast#0548
+for simplicity sake
+
+
+[08/30/2022 10:12 PM] Cheese Enthusiast#0548
+What's unconfirmed referring to?
+
+
+[08/30/2022 10:13 PM] Quwin#6226
+the past ~5000 unconfirmed state updates, it has to be changed every state update
+
+
+[08/30/2022 10:14 PM] Cheese Enthusiast#0548
+Hmm, lets not keep that in a tree I think. We can benefit from using utxo here, and instead make a new box for each state update, then "merge" the boxes as updates get confirmed
+
+
+[08/30/2022 10:15 PM] Quwin#6226
+I did think of doing that but having ~5000 Boxes which all "are" the Rollup State feels so icky lmao
+
+
+[08/30/2022 10:15 PM] Cheese Enthusiast#0548
+Actually I'm wondering if this is even needed per se.
+
+
+[08/30/2022 10:16 PM] Cheese Enthusiast#0548
+A tx itself is a state update anyway right?
+
+
+[08/30/2022 10:16 PM] Cheese Enthusiast#0548
+Or a function which updates the state
+
+
+[08/30/2022 10:17 PM] Quwin#6226
+It's a direct state update
+
+
+[08/30/2022 10:17 PM] Quwin#6226
+There just needs to be a way to ensure whatever transaction you're contesting was a state update
+
+
+[08/30/2022 10:17 PM] Quwin#6226
+and not made out of your head
+
+
+[08/30/2022 10:18 PM] Cheese Enthusiast#0548
+I see what you mean, so every rollup tx, we post the unconfirmed L2 txs and then insert them into this unconfirmed tree?
+
+
+[08/30/2022 10:19 PM] Cheese Enthusiast#0548
+Then eventually, we either prove fraud or they move to the confirmed state tree
+
+
+[08/30/2022 10:20 PM] Quwin#6226
+Yeah, unless there's a way to access the data of a spent Box on Layer 1 I didn't know about
+
+
+[08/30/2022 10:20 PM] Cheese Enthusiast#0548
+There is but lots of overhead and this is likely simpler
+
+
+[08/30/2022 10:21 PM] Quwin#6226
+I see
+
+
+[08/30/2022 10:22 PM] Cheese Enthusiast#0548
+I wonder if we can enforce that all unconfirmed txs posted on each rollup box are parallel
+
+
+[08/30/2022 10:22 PM] Cheese Enthusiast#0548
+Meaning, they do not build on top of one another
+
+
+[08/30/2022 10:22 PM] Cheese Enthusiast#0548
+Until the next rollup tx happens
+
+
+[08/30/2022 10:23 PM] Cheese Enthusiast#0548
+This makes chained txs slower, but parallel txs extremely quick.
+
+
+[08/30/2022 10:23 PM] Cheese Enthusiast#0548
+And simplifies things for us a bit
+
+
+[08/30/2022 10:24 PM] Quwin#6226
+The Input/Output ids can just be compared for all of the transactions, and if there's no collisions it can be run in parallel
+
+
+[08/30/2022 10:25 PM] Quwin#6226
+So all parallel Txs can be run at first at the beginning and then chained Txs afterwards
+
+
+[08/30/2022 10:26 PM] Cheese Enthusiast#0548
+Also for data-storage
+
+
+[08/30/2022 10:29 PM] Cheese Enthusiast#0548
+What if we have a separate data-rollup box? Where each "transaction" (using this term loosely here) is the unconfirmed box identifier on the rollup box, paired with the necessary data for the rollup. Then each rollup tx is linked to data on the other box which can be checked using the unconfirmed box id.
+
+
+[08/30/2022 10:30 PM] Cheese Enthusiast#0548
+Idk if that makes sense lmao
+
+
+[08/30/2022 10:30 PM] Cheese Enthusiast#0548
+But essentially, each box id can be used in two avl trees. One to get utxo data, one to get extension data.
+
+
+[08/30/2022 10:31 PM] Cheese Enthusiast#0548
+This means each sequencer has to post two txs, one to update utxo state, and one to update data state.
+
+
+[08/30/2022 10:31 PM] Cheese Enthusiast#0548
+And checking script fraud requires using both
+
+
+[08/30/2022 10:32 PM] Cheese Enthusiast#0548
+Failure to post data updates is also considered fraud in this case.
+
+
+[08/30/2022 10:33 PM] Quwin#6226
+I'm not sure what you mean lol
+
+
+[08/30/2022 10:34 PM] Quwin#6226
+So the transaction data is written to a Box and that Box's id is written to the main Box?
+
+
+[08/30/2022 10:36 PM] Cheese Enthusiast#0548
+Sorta
+
+
+[08/30/2022 10:36 PM] Cheese Enthusiast#0548
+Idk I'm trying to figure out the best way to store data and I feel like having a separate "data-state" avl tree is the answer pretty much
+
+
+[08/30/2022 10:37 PM] Cheese Enthusiast#0548
+But its tough, I guess maybe compressing data would make this cleaner
+
+
+[08/30/2022 10:37 PM] Quwin#6226
+Oh I see what you mean now
+
+
+[08/30/2022 10:37 PM] Cheese Enthusiast#0548
+There's no way to get around the fact that the data must be posted to the L1 somewhere
+
+
+[08/30/2022 10:39 PM] Cheese Enthusiast#0548
+So thinking again, it makes most sense to compress it I guess
+
+
+[08/30/2022 10:39 PM] Cheese Enthusiast#0548
+Because if we let any data through it will still be limited by the 95kb per tx
+
+
+[08/30/2022 10:40 PM] Quwin#6226
+I guess transaction data could just be posted in any box with the correct lockup Value, and the Box either:
+
+Expires, and is free for the sequencer to spend + they get emissions
+Is proven incorrect, and the prover gets the Box Value
+
+
+[08/30/2022 10:42 PM] Cheese Enthusiast#0548
+Yeah I guess this is the best way to do it, I still think some compression techniques could be used for certain data types though to increase throughput
+
+
+[08/30/2022 10:43 PM] Quwin#6226
+Yep, besides that the main issue always comes back to data compression lol
+
+
+[08/30/2022 10:43 PM] Quwin#6226
+that is the point of a rollup after all
+
+
+[08/31/2022 1:52 AM] Quwin#6226
+I was looking over it again and while more compression techniques would help, the difference between this model and ETH's model isn't too large
+
+
+[08/31/2022 1:53 AM] Quwin#6226
+Eth and Ergo both have similar block sizes, but the main difference is just ETH's 15s Block time vs Erg's 120s
+
+
+[09/10/2022 3:08 PM] Quwin#6226
+Alright i've been working on the specifics of how a Fraud Proof would look like with the current model, and I've run into an issue.
+
+Basically, Input Boxes in this model are "too compressed", so making a Fraud Proof for a transaction with a large number of Inputs requires an insane amount of data on-chain. 
+
+Let's say the maximum size of a Box is 2061 Bytes (4-Byte ID, 4-Byte Script, 4-Byte ERG Value, 1-Byte # of Tokens, and 256*8-Byte TokenId+TokenAmount)
+That is then referenced by only the ID, compressing 2061 Bytes to the 4-Byte ID. 
+So even a Layer-2 Transaction with 1,000 Inputs would require 2,061,000 Bytes at least, which is enough data to fill up ~22-25 Blocks.
+
+I was simply going to limit the amount of Inputs a given transaction could have, but the issue compounds on the Rolled-up Layer 1 Transaction level. Because initial state of a given transaction is calculated by removing the inputs, adding the outputs, and repeating that step for every given Layer 2 Transaction, that exact same issue occurs on a Rolled-up Transaction Level. In the worst case, I calculated that a Fraud Proof could require up to 270,000,000 Bytes, or 3000 Blocks full of data. This essentially is halting the Layer 1 and Layer 2 chain for ~100 hours in order to preserve the security of Layer 2, which is unacceptable.
+
+And that part is what I don't have a solution for yet. 
+
+The simplest solution would be to use the Input limit per-Layer2 Transaction, as well as requiring all Layer 2 Transactions to include their ending Digest after the transaction (this can be checked for validity though a Fraud Proof), but the main reason why I don't like this method is that it's really inefficient. 
+Adding an overhead of ~32 Bytes to every single Layer 2 Transaction sucks, reducing TPS by a maximum of 66% (more likely around 40-50%)
+
+I could also try ZK SNARKs/STARKs, but I run into the same issue that idk how to implement them lol. Anyone got any ideas?
+
+
+[09/10/2022 9:31 PM] K#0000
+We cant implement zk snarks yet, no support for that
+
+
+[09/10/2022 9:31 PM] K#0000
+Though I’m sure theres a solution to the problem, just requires some thought
+
+
+[09/10/2022 9:32 PM] K#0000
+Can you explain the inputs being too compressed? Im not sure I get the issue entirely
+
+
+[09/10/2022 9:44 PM] Quwin#6226
+Basically, in my current design of a Layer 2 Optimistic Rollup structure, Layer 2 transactions refer to inputs by a 4-Byte Box Id. That Box ID is a key which links to up to 2,061 Bytes of a Box data. 
+
+This is similar to normal Ergo but just compressed a bit more: Mainnet Ergo Boxes have a 32-Byte Id and can hold up to 4,096 Bytes of data.
+
+But the issue is that if you need that full Box info on-chain, due to making a Fraud Proof, you now need 515x (2,061/4) more data on-chain than was initially done to make the transaction. 
+
+So the total size of a Fraud Proof of a transaction has to be 515x larger than the transaction itself, and since the transaction is already really large you get insanely large Fraud Proofs
+
+
+[09/10/2022 9:48 PM] Quwin#6226
+(Also, there's actually a redundancy for certain Fraud Proofs which could lead to the Fraud Proof having to be over 1000x larger than the initial transaction)
+
+
+[09/11/2022 5:15 AM] Cheese Enthusiast#0548
+Then the only option is to compress the full box data so you can fit more in
+
+
+[09/11/2022 2:25 PM] Quwin#6226
+I had some thought and I think that this issue is solvable in a decent way, the biggest compromise would be a limit on # of Inputs per Layer 2 Transaction though. 
+
+So basically, like the simplest method I spoke of earlier, there’s a cap on the number of Inputs in a single Layer 2 Transaction. Let me use 300 Inputs as a placeholder for now. (Using 300 Input Boxes in a Fraud Proof takes at most ~22 transactions on Layer 1)
+
+So at base, there will be a maximum of 300 Inputs, and every L2 Tx will have a Digest associated with it. 
+
+But how about instead of having a Digest necessary every transaction with a 300 Input limit, just have a Digest every 300 Inputs. This would increase the complexity of the average Fraud Proof, but normalize it, so that even at the maximum complexity level a Fraud Proof is not excessively large to the point where it interferes with Ergo’s Layer 1. 
+
+With this, using an Input Box on L2 take a bit more data, but not enough so unlike a flat Digest-per-Tx where smaller transactions are punished more. 
+
+With every 300 Inputs = +32 Byte Digest, each Input requires 300/32 = 0.107 Bytes, for a total of ~4.107 Bytes per input, only a 2.7% increase in size per-Input and probably only a <1% decrease in tps overall.
+
+
+[09/11/2022 3:39 PM] Quwin#6226
+Now it comes to the issue that 300 Inputs isn’t a lot of inputs, and that ~22 transactions on Layer 1 is a pretty long time still (~44 minutes assuming Block size limit stays the same)
+
+This comes to another benefit of this method, it actually scales with Ergo Layer 1 linearly.  (I’m ignoring hardware rn)
+
+For example, with the current Block size Limit of ~96KB, and a Block time of 2min, Ergo increases by a maximum size of 48KB/min. In contrast, for ETH, they can increase by ~3,462KB/min, more than 72x more! 
+This block size limit directly impacts both scalability of Transactions (right now, this Layer 2 can handle a theoretical maximum of ~50tps, the same as Ergo’s Layer 1!) and the scalability of Fraud Proofs (as mentioned before, pessimistic case of ~22 Blocks)
+If the Block size is increased (or Block time decreased), then TPS directly scales (~3605tps max assuming same Block growth as ETH), as well as the Fraud Proof being more efficient (~.29 Blocks for the worst Fraud Proof). With even higher Block sizes, the restriction on Inputs per Block can be increased for (marginal) additional increases in tps, along with the benefits of more maximum Inputs per Tx.
+
+For contrast, ETH Layer2s has a theoretical tps of ~4,807tps, using a ZK Rollup. This means that Ergo's Layer 2 can reach a comparable tps to ETH, but with the benefits of the eUTXO model allowing for more complex Transactions on Ergo than ETH. Due to this model, Ergo is also more efficient when sending multiple tokens, with that efficiency increasing as more tokens are added to a single transaction. Sending a token requires an addition of 2-5 Bytes per token, and can be done at the same time as sending Ergo. Sending a single Token in Ergo is at least ~25% less efficient, but ERG can be sent in addition. However, sending 256 Tokens (the maximum amount of Tokens per Layer2 Tx) in Ergo is almost 400% more efficient. This tradeoff means Ergo is essentially as efficient as ETH, but with different specializations.
+
+
+[09/12/2022 6:34 AM] greenhat#6562
+Regarding ZK rollup. I think we can try to compile ErgoTree to MidenVM https://github.com/maticnetwork/miden and get zkSTARKs "for free". We could even "sprinkle" some off-chain code on top of that and get proof for it as well. For on-chain verification, we can try to plug in our hashes (sha256 or blake2b). What else do we need for a ZK rollup?
+
+{Embed}
+https://github.com/maticnetwork/miden
+GitHub - maticnetwork/miden: STARK-based virtual machine
+STARK-based virtual machine. Contribute to maticnetwork/miden development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/6IpsQz0BvFPTAxccmI0O2iwjTciJ-wLQZapQGT7CIQg/https/repository-images.githubusercontent.com/404963106/1f386194-0e3a-41ee-b29c-6b5b811b7bf9
+
+
+[09/13/2022 4:38 AM] Cheese Enthusiast#0548
+Is this assuming one L1 tx to update the rollup? I've been thinking that maybe it makes more sense to have multiple chained txs updating the rollup. I mean, that is how computation is supposed to be done on eUTXO.
+
+If you allow for multiple L1 transactions, then you greatly increase the amount of space you have to work with. Keep in mind that the definition for an L2 "block" doesn't have to be a single L1 transaction, its definition can pretty much be arbitrary.
+
+
+[09/13/2022 4:39 AM] Cheese Enthusiast#0548
+I think kushti would know more about whether this is viable, but I remember him mentioning that we need paired curve support
+
+
+[09/13/2022 4:40 AM] Quwin#6226
+Well currently the size limit of a single transaction and the block size limit are roughly the same, no?
+
+But yeah L2 updates would be chained within a single block to increase scalability, that why I took Block size increases into account
+
+
+[09/13/2022 4:42 AM] Cheese Enthusiast#0548
+Does Ergo have a set block size? I believe it has a costing limit but not sure abt data limit. I think you can definitely chain together multiple 95kb transactions into a single block.
+
+
+[09/13/2022 4:43 AM] Cheese Enthusiast#0548
+Regardless, whether or not they settle in a single block probably isn't too relevant to the L2 imo
+
+
+[09/13/2022 4:43 AM] greenhat#6562
+I believe he meant zkSNARK which needs paired curve support. zkSTARK uses only hash from cryptographic primitives, i.e. it does not use curves at all.
+
+{Reactions}
+👀 
+
+[09/13/2022 4:44 AM] Cheese Enthusiast#0548
+Interesting 🤔
+
+
+[09/13/2022 4:45 AM] Quwin#6226
+Afaik the Block size limit is ~100kB, but miners can increase/decrease it. 
+
+But yeah my scalability numbers were all assuming transactions were chained
+
+
+[09/13/2022 5:03 AM] greenhat#6562
+But the best part is that we don't have to implement even zkSTARK ourselves. With zkVM all we have to do is to express our code in VM opcodes, which in the case of MidenVM is a quite simple stack-based VM.
+EDIT: We do need to implement zkSTARK verifier.
+
+
+[09/13/2022 5:23 AM] Cheese Enthusiast#0548
+How do the zkSTARKs get verified on-chain?
+
+
+[09/13/2022 5:45 AM] greenhat#6562
+The verifier seems quite complex, but might be doable in ErgoScript. Here is one implemented in Solidity - https://github.com/starkware-libs/starkex-contracts/blob/master/evm-verifier/solidity/contracts/StarkVerifier.sol
+
+{Embed}
+https://github.com/starkware-libs/starkex-contracts/blob/master/evm-verifier/solidity/contracts/StarkVerifier.sol
+starkex-contracts/StarkVerifier.sol at master · starkware-libs/star...
+Contribute to starkware-libs/starkex-contracts development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/Agw9rmZ-xw1XHNwy-zw39WKj_sKJc9TpbgJAwMos_w0/https/opengraph.githubassets.com/da82b980b1e91e896f6b7399c964debdce4e577273a0b661075963d6e7c9ac10/starkware-libs/starkex-contracts
+
+
+[09/13/2022 6:38 AM] Quwin#6226
+Ima admit I do not have enough knowledge about both solidity and zkSTARKs to try implementing this in ErgoScript. If someone is able to do it it’d be a big leap forwards for zkRollups on ERG though
+
+
+[09/13/2022 6:42 AM] Quwin#6226
+However in general a zkSTARK proof size should be larger than the transaction size limit, no? Although we could just increase it if the benefits are worth
+
+
+[09/13/2022 6:51 AM] greenhat#6562
+I can give it a go, but first, I'd like to check if we can push all our tx verification code into zkVM.
+
+
+[09/13/2022 6:57 AM] greenhat#6562
+https://github.com/maticnetwork/miden#single-core-prover-performance  
+104kb proof size for 2^20 VM cycles does not sound bad. Plus, don't forget about potential recursive proofs, i.e., proof of proofs - combining proofs from multiple txs/blocks into a single proof.
+
+{Embed}
+https://github.com/maticnetwork/miden
+GitHub - maticnetwork/miden: STARK-based virtual machine
+STARK-based virtual machine. Contribute to maticnetwork/miden development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/6IpsQz0BvFPTAxccmI0O2iwjTciJ-wLQZapQGT7CIQg/https/repository-images.githubusercontent.com/404963106/1f386194-0e3a-41ee-b29c-6b5b811b7bf9
+
+
+[09/13/2022 7:06 AM] greenhat#6562
+For zkSTARK proof verification, in case it's not feasible to implement the proof verification in ErgoScript we could add a new op code to the ErgoScript via a soft-fork.
+
+
+[10/03/2022 2:51 AM] Joshua#0000
+Where is the state stored on a PoWsidechain on ergo? Do the miners store that as well? Is it a subset of miners
+
+
+[10/03/2022 3:17 AM] Cheese Enthusiast#0548
+Yeah a sidechain is like its own blockchain, so miners and full nodes would be storing the current state / utxo set
+
+
+[10/03/2022 3:19 AM] Cheese Enthusiast#0548
+Plasma chains and rollups will likely be storing some or all of the state on Ergo itself though.
+
+
+[10/03/2022 5:25 AM] Joshua#0000
+Can sidechains potentially be asynchronous to the main chain? Have faster or slower block times, different tx finality
+
+
+[10/03/2022 5:56 AM] Cheese Enthusiast#0548
+Yep, sidechains can have completely different parameters from the main chain. One thing to keep in mind though, they don't inherit the security of the mainchain. So it will have its own hashrate and it may be easier or harder to 51% attack than Ergo depending on its hashrate.
+
+
+[10/03/2022 2:21 PM] Joshua#0000
+(re  : *<Cheese Enthusiast> Yep, sidechains can have completely different parameters from the main chain. One thing to keep in mind though, they don't inherit the security of the mainchain. So it will have its own hashrate and it may be easier or harder to 51% attack than Ergo depending on its hashrate.*) 
+ 
+ Will profitability be the determining factor for the security of sidechains?
+
+
+[10/03/2022 2:21 PM] Joshua#0000
+What might encompass the equation?
+
+
+[10/03/2022 2:22 PM] Joshua#0000
+Encompass that equation?*
+
+
+[10/03/2022 2:54 PM] Joshua#0000
+A hydra sidechain on ergo would be really interesting! Full nodes & miners could be heads. SPV NiPoPoW clients could run the tail protocol maybe.
+
+
+[10/03/2022 2:59 PM] Joshua#0000
+You could have a potentially massive set of validators(miners, full nodes)!
+
+
+[11/12/2022 6:23 PM] Cheese Enthusiast#0548
+@Quwin Wen optimistic rollup
+
+
+[11/18/2022 11:58 PM] kushti#0000
+https://bitcoinrollups.org/
+
+{Embed}
+bitcoinrollups
+https://bitcoinrollups.org/
+validity_rollups_on_bitcoin
+
+
+[11/19/2022 4:04 AM] hans_the_crypto#0000
+(re @Joshua : *Will profitability be the determining factor for the security of sidechains?*) 
+ 
+ Sidechains don't even need to be PoW. Permissioned consortium chains, useful for supply chain projects for example. The kind that would use super high throughput BFT consensus but a limited number of validators
+
+
+[11/19/2022 4:05 AM] hans_the_crypto#0000
+Basically centralized VC chains could actually have some use as sidechains on a decentralized platforms instead of pretending to be a decentralized L1
+
+
+[12/10/2022 4:19 AM] pgwada#0227
+I played a little with the AVID from paper "Information Dispersal with Provable Retrievability for Rollups" .  Are rollups in roadmap of Ergo and need for data availability as a separate layer?
+https://arxiv.org/abs/2111.12323?context=cs
+
+{Embed}
+https://arxiv.org/abs/2111.12323?context=cs
+Information Dispersal with Provable Retrievability for Rollups
+The ability to verifiably retrieve transaction or state data stored off-chain
+is crucial to blockchain scaling techniques such as rollups or sharding. We
+formalize the problem and design a...
+https://images-ext-1.discordapp.net/external/HUrD-HZewQUxSbAMnSSFsIbyHy5XOTAomBRxj_HAOMc/https/static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png
+
+
+[12/10/2022 5:52 AM] hans_the_crypto#0000
+(re @Joshua : *Will profitability be the determining factor for the security of sidechains?*) 
+ 
+ Sidechains don't even need to be PoW. Permissioned consortium chains, useful for supply chain projects for example. The kind that would use super high throughput BFT consensus but a limited number of validators
+
+
+[12/10/2022 5:52 AM] hans_the_crypto#0000
+Basically centralized VC chains could actually have some use as sidechains on a decentralized platforms instead of pretending to be a decentralized L1
+
+{Reactions}
+💯 
+
+[01/20/2023 10:45 PM] NoahErgo#0000
+(re  : *<PG> I played a little with the AVID from paper "Information Dispersal with Provable Retrievability for Rollups" .  Are rollups in roadmap of Ergo and need for data availability as a separate layer?
+https://arxiv.org/abs/2111.12323?context=cs*) 
+ 
+ LITHOS is a new optimistic rollup mining protocol being developed
+
+{Embed}
+https://arxiv.org/abs/2111.12323?context=cs*)
+Information Dispersal with Provable Retrievability for Rollups
+The ability to verifiably retrieve transaction or state data stored off-chain
+is crucial to blockchain scaling techniques such as rollups or sharding. We
+formalize the problem and design a...
+https://images-ext-1.discordapp.net/external/HUrD-HZewQUxSbAMnSSFsIbyHy5XOTAomBRxj_HAOMc/https/static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png
+
+
+==============================================================
+Exported 265 message(s)
+==============================================================

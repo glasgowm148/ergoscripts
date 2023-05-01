@@ -1,0 +1,199 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / hard-fork
+==============================================================
+
+[09/23/2022 3:56 PM] glasgowm#9381
+@Armeanio new channel here
+
+
+[09/23/2022 3:58 PM] Armeanio#0321
+@kushti @mhs_sam @morphic 
+
+I think we should operate with the assumption a HF is needed moving forward. This should be the short term focus for all core devs. 
+
+We have signmanauts to assist in the infrastructure/communication/upgrade if things get messy.
+
+{Reactions}
+👍 
+
+[09/23/2022 3:59 PM] Armeanio#0321
+Made a channel to keep messages in one place vs a ton of pms and information fragmenting. We need to move as one here.
+
+
+[09/23/2022 4:16 PM] glasgowm#9381
+How fast could a HF even happen?
+
+
+[09/23/2022 4:17 PM] Armeanio#0321
+Need a viable solution first. 
+
+Would require communication and support with all the pools, exchanges and other node operators wallets etc
+
+
+[09/23/2022 4:20 PM] Armeanio#0321
+For that sigmanauts would be extremely helpful
+
+
+[09/23/2022 4:21 PM] glasgowm#9381
+Changing 1 variable seems like the simplest solution which should hold similar assumptions imo.
+
+We have chats with all the pools/exchanges. what can sigmanauts do?
+
+
+[09/23/2022 4:23 PM] Armeanio#0321
+Smaller mining pools wallets etc
+
+{Reactions}
+👍 
+
+[09/23/2022 4:23 PM] Armeanio#0321
+A lot recently came online
+
+
+[09/23/2022 6:07 PM] morphic#4133
+the HF will require pools to update version and probably miners to update software (which I cannot estimate)
+
+
+[09/23/2022 6:07 PM] morphic#4133
+Will write more concretely what exactly will change. 
+But so far it seems the only change is that difficulty will be updated every K  (say 8 or 16) blocks instead of 1024 blocks. Such K will ensure that every epoch boundary is also difficulty update.
+
+
+[09/23/2022 6:18 PM] morphic#4133
+I'm talking about this proposal https://www.ergoforum.org/t/difficulty-adjustment-at-regular-time-intervals/3907
+
+
+[09/24/2022 12:17 AM] CW#8500
+I think its important to keep the community up to date regarding simulation results and such. If you can let me know I can relay
+
+
+[09/24/2022 5:32 PM] morphic#4133
+I need to clarify, difficulty algorithm is not my topic. 
+But because we had this problem Feb 2020 and then during Kucoin listing pump and we have it now I just wanted to contribute with ideas (not implementation).
+I don't want to jump in with any alternative implementation as I realise it is not easy. 
+But if we are going to do hard-fork I think we should solve the problem and i'm just trying to help.
+I have strong conclusion that we need to change the algorithm and not just change parameters of the existing algorithm. Existing algorithm creates strong incentive for coin-hopping. Even if we reduce epoch, the effect will persist. 
+I don't understand how miners can be loyal to Ergo when the protocol itself is penalising loyalty and developers don't want to fix it.
+Changing parameters can be a fast and temporary solution, but I think we need to communicate to the community that we learned the problem and started working on a principal fix.
+
+
+[09/24/2022 6:00 PM] morphic#4133
+The new EIP-37 proposes 128 blocks per epoch. This is 2 * 128 = 4.3 hours - long enough to mine one epoch and switch on the next one.
+
+
+[09/24/2022 6:00 PM] morphic#4133
+The strategy for rational Ergo miner is to mine only those epochs where profitability is good (large price/diff ratio). They will learn that after short period of profitable blocks there is a much longer period of slow blocks where mining is non-profitable. These periods exists because of the algorithm.
+
+
+[09/24/2022 6:00 PM] morphic#4133
+Our miners are not bitcoin miners, they have a choice, they can mine ergo before lunch and something else afterwards.
+
+
+[09/24/2022 6:00 PM] morphic#4133
+We cannot ask miners to be loyal and intentionally put them at a disadvantage.
+
+
+[09/24/2022 6:02 PM] morphic#4133
+@kushti you are citing this https://read.cash/@jtoomim/bch-upgrade-proposal-use-asert-as-the-new-daa-1d875696 post and ASERT algorithm https://reference.cash/protocol/forks/2020-11-15-asert. Why it is not suitable for us?
+
+{Embed}
+https://read.cash/@jtoomim/bch-upgrade-proposal-use-asert-as-the-new-daa-1d875696
+BCH upgrade proposal: Use ASERT as the new DAA
+Abstract The current BCH difficulty adjustment algorithm (DAA) allows for a switch miner to extract a large amount of profit from constant-hashrate miners. This strongly discourages constant-hashrate...
+https://images-ext-1.discordapp.net/external/1rQTaRLZxud1ZkdBPc24VOOaE7H_-g4AceC-pkIpS6Y/https/cdn.rcimg.net/jtoomim/images/1d875696/eac2de6ada4603ff6cbc212a74e46367.png
+
+
+[09/24/2022 6:04 PM] morphic#4133
+Their motivation sound like exactly what we need.
+```Motivation
+    To eliminate periodic oscillations in difficulty and hashrate
+    To reduce the difference in profitability between steady miners and
+    those who switch to mining other blockchains.
+    To maintain average block intervals close to the 10 minute target.
+    To bring the average transaction confirmation time close to target time.
+```
+
+
+[09/26/2022 3:39 AM] Armeanio#0321
+This would be ideal but also development time is an unknown.
+
+
+[09/26/2022 4:21 AM] Armeanio#0321
+A proposal that is an idea here would be to get the EF to hire IOG to build a diff/adjustment algo based on the citation about or perhaps another implementation that works well. 
+
+Charles wants to build an ERG position and move into the ecosystem. The opportunity in this obstacle we are facing is it puts us in a potential position to hire his company, he builds ERG and uses his resources to deliver a solution.
+
+{Reactions}
+👍 
+
+[09/26/2022 4:21 AM] Armeanio#0321
+Talking to Dan about this as a rough potential.
+
+
+[09/26/2022 4:30 AM] Armeanio#0321
+This is a potential opportunity anyway I can get on a call with Charles with this offer. We would need terms of delivery and a timeline etc.
+
+
+[09/26/2022 4:31 AM] Armeanio#0321
+But I dont want to move without support or a potential offer.
+
+
+[09/26/2022 4:32 AM] Armeanio#0321
+Also potentially he wants to give us the ETH_classic twitter handle to change and take their 600k followers.
+
+
+[09/26/2022 4:41 AM] CW#8500
+Purely from a PR pov, its welcoming him/iog into the ecosystem on a profession level. Also can play into utxo alliance.
+
+
+[09/26/2022 5:14 AM] Armeanio#0321
+An option but I think he wants a pretty nice incentive.
+
+{Reactions}
+👍 
+
+[09/26/2022 12:29 PM] Armeanio#0321
+@everyone thoughts?
+
+
+[09/26/2022 12:33 PM] glasgowm#9381
+Think this would make ergo look a bit weak and those that wanted a HF wouldn't be happy either as it would take longer. I think an IOG partnership with rosen has much better optics.
+
+
+[09/26/2022 12:45 PM] mhs_sam#1471
+I agree with @glasgowm. Even our current DAA is working, there is a lack of short-term incentive however. If we were in a better funding/MM/price position things could be more easily handled through price appreciation/subsidizing miners for short term and being stabilized sooner.
+Unfortunately, we are far from that position.
+
+I think here comes our options:
+- wait and do nothing. probably a bad idea, because sentiment is against it and it could worsen the situation.
+- pump the price and leave the herd of PoW coins in profitability. Miners will come, our harsh reduction of Erg emission will help and we should keep the price in certain levels with MM.
+IOG deal and ETC overtake will help here magically.
+- Do the HF as quick as POSSIBLE without creating another mess. 
+
+On DAA/HF, as I said, even our current DAA is working but we can make it to react faster/smoother. I think EIP37 is great and does the job. Even @morphic proposal is nice, I'm a bit worried about radical paradigm changes here. If we had enough time, we can consider it more seriously.
+
+Having IOG to make it for us has at least two drawbacks. first is delay, second is weakness.
+
+{Reactions}
+👍 (4) 
+
+[09/26/2022 12:49 PM] Armeanio#0321
+Makes sense.
+
+
+[09/26/2022 1:37 PM] Armeanio#0321
+-Wait and do nothing does seem like a bad idea. 
+
+Pump the price takes marketing or some change in trends.  MM doesn't have the liquidity for price protection anyway. 
+
+-IOG still trying to structure what that would look like. 
+
+-HF waiting on the reference client. 
+
+The question with the HF is one of time and the potential for additional features.
+
+
+==============================================================
+Exported 33 message(s)
+==============================================================

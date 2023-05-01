@@ -1,0 +1,182 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Privacy 〙☰ / multisig
+==============================================================
+
+[05/10/2022 1:41 PM] glasgowm#9381
+added @lazypinkpatrick - could you provide a brief description ?
+
+
+[05/10/2022 9:43 PM] glasgowm#9381
+In this hackathon, Minotaur-wallet is extended in order to support multisig. The goals of this project are as follows: The end user (i) can easily create a multi-signature wallet, (ii) can see their wallet balance, (iii) can sign their transactions in the wallet. The software will provide an automatic transfer method that safely processes all signatures between wallets upon user approvals.
+
+Project steps:
+1) Minotaur-wallet is extended so that it can create a multi-signature wallet.
+2) Addresses are derived in such a way that a unique path would always result in the same address on all wallets.
+3) The transaction is signed in the multi-signature wallet. For this purpose, regardless of the communication routine between wallets, each of the users in the multisig wallet must be able to sign a transaction in their own wallet. Information is transferred between wallets utilizing a file or QR code.
+4) As an improvement in Step 3, a secure routine is designed for communications between wallets, so that no transaction is needed to be transferred as a file.
+
+{Reactions}
+ergo_orange 👍🏻 
+
+[05/11/2022 12:27 AM] lgd#5847
+what kind of information is transferred?
+and how do you get a tx to be signed by multiple people?
+just curious how this works.
+
+
+[05/11/2022 6:08 AM] lazypinkpatrick#8683
+unsinged transaction and users commitments.
+
+
+[05/17/2022 12:39 PM] glasgowm#9381
+Please provide a brief update for your first week https://q9fwzopidh8.typeform.com/to/WR2IOaP1
+
+
+[05/20/2022 5:43 PM] SoCool#6419
+So the idea is given an unsigned TX, N wallets can sign the TX, and then it may be submitted.
+If the aforementioned wallets *don't* sign it, then it will be invalid for submission.
+
+Is this the correct understanding of multisig wallet? `N` of `N` wallets must sign a TX, or is it `M` of `N` - or? "multi-sig wallet" is just a contract address, and the details of said contract are malleable to be either of those implementations?
+
+
+[05/20/2022 6:31 PM] lazypinkpatrick#8683
+A multi-sig wallet signing a transaction using M-of-N where M <= N
+It has a simple contract :
+‍‍‍`atLeast(M, Col(PK1,...,PKn)`
+The signing process must be done on several wallets. The output of each wallet is used in the next wallet. This process in Ergo is a two-step process.
+multi-sig-wallet is a wallet that supports the signing process of this transaction
+
+
+[05/20/2022 6:33 PM] lazypinkpatrick#8683
+This wallet must be able to generate addresses, manage boxes, make transactions, and sign them.
+
+
+[05/20/2022 6:38 PM] SoCool#6419
+And communicate the signed tx to the next wallet which needs to sign it? Signing in sequence then?
+
+
+[05/20/2022 6:45 PM] lazypinkpatrick#8683
+Communicate unsigned tx to generate signature for it.
+
+
+[05/24/2022 2:33 PM] kushti#0978
+EIP-11 on distributed signatures: https://github.com/ergoplatform/eips/pull/8
+
+
+[05/24/2022 2:33 PM] kushti#0978
+The node is implementing it
+
+
+[05/24/2022 2:34 PM] glasgowm#9381
+Also some stuff here: 
+
+https://docs.ergoplatform.com/node/sigs/
+
+
+[05/24/2022 5:48 PM] lazypinkpatrick#8683
+Its a good document.
+Exporting and importing commitments are not implemented in sigma-rust.
+@greenhat  and he implement it. Thanks a lot @greenhat
+
+
+[05/31/2022 8:20 PM] lazypinkpatrick#8683
+https://github.com/lazypinkpatrick/minotaur-wallet/blob/main/doc/MultiSig.md
+https://drive.google.com/file/d/1lDOKaz55N3POy2H7Rz5SGWCgAAWJtiqB/view?usp=sharing
+Documentation of multi signature
+
+https://drive.google.com/file/d/1J4IdlvpqWIo1eV1wtiT2DsfPPmgmVNQb/view?usp=sharing
+Usage Example
+
+{Embed}
+https://github.com/lazypinkpatrick/minotaur-wallet/blob/main/doc/MultiSig.md
+minotaur-wallet/MultiSig.md at main · lazypinkpatrick/minotaur-wallet
+Ergo wallet for android and IOS. Contribute to lazypinkpatrick/minotaur-wallet development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/l8hrt0vwAgxSGJQ05YZ9eWiRZymrlzfjSuvxGv3pEVA/https/opengraph.githubassets.com/9828ee8d4f6328fa9a2daede3e07683ceebe0a399c7dd29b22f492529c45324d/lazypinkpatrick/minotaur-wallet
+
+{Embed}
+https://drive.google.com/file/d/1lDOKaz55N3POy2H7Rz5SGWCgAAWJtiqB/view?usp=sharing
+MultiSig.pdf
+https://images-ext-2.discordapp.net/external/PQ3r7qmcd9WrFoPRBjVcY9ZjgC7fc0ou-PhUdPaUBCQ/https/lh4.googleusercontent.com/6cQsHxvwT6yn86AwLCqw8anReb6j388HhhYEArCZl3YNoddplfmwqof2bVpEAh3iuy8%3Dw1200-h630-p
+
+{Embed}
+https://drive.google.com/file/d/1J4IdlvpqWIo1eV1wtiT2DsfPPmgmVNQb/view?usp=sharing
+Multi-Sig Usage.mp4
+
+{Reactions}
+ergo_orange (4) 
+
+[06/02/2022 5:13 PM] Adoo#5093
+Great work @lazypinkpatrick.
+
+
+[06/04/2022 7:10 PM] Adoo#5093
+Tested method 1 of multi-sig signing on Minataur wallet. It works. Co-Signing server wasn't working for me though. CC: @lazypinkpatrick
+
+{Attachments}
+https://cdn.discordapp.com/attachments/973320735202373693/982707976966123530/Screenshot_2022-06-04_at_11.39.38_PM.png
+
+
+[06/05/2022 7:09 AM] lazypinkpatrick#8683
+You must run cosigning server on your own system.
+In project we assume cosigning server runs on localhost:8080 and currently, it is not deployed on server
+
+
+[06/05/2022 11:05 AM] Adoo#5093
+Where is the code for co-signing server? Any build / run instructions? Is this zk-treasury server?
+
+
+[06/05/2022 11:08 AM] lazypinkpatrick#8683
+https://github.com/lazypinkpatrick/cosigning-server
+
+{Embed}
+https://github.com/lazypinkpatrick/cosigning-server
+GitHub - lazypinkpatrick/cosigning-server
+Contribute to lazypinkpatrick/cosigning-server development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/tnuXqOkwlv5_Yli5a9teF85BNuUFAq0RyneAakdS04w/https/opengraph.githubassets.com/ddbb0dccfb0125a9b3a2a2b35f8ee06b4756f7a4ed5f3c1c482cf5e82162f613/lazypinkpatrick/cosigning-server
+
+
+[06/05/2022 11:10 AM] lazypinkpatrick#8683
+Its only communication server. no zk-treasury server.
+
+
+[06/05/2022 11:10 AM] lazypinkpatrick#8683
+only install dependency and run start
+
+
+[06/05/2022 11:10 AM] lazypinkpatrick#8683
+```
+npm install
+npm run start
+```
+
+{Reactions}
+👍 
+
+[06/06/2022 7:48 PM] son_of_an_el#1619
+i have been reading the documentation regarding multisig n was wondering if it would be possible to spend boxes of the different signatories in the transaction as well. Any insight would be helpful
+
+
+[06/06/2022 9:49 PM] lazypinkpatrick#8683
+It can be done. But not in this implementation. in my implementation we create a wallet. so this wallet scan boxes for one signatories, and it can't create transaction for different signatories.
+
+
+[06/06/2022 9:53 PM] lazypinkpatrick#8683
+Currently working on cosigning server.
+First version of cosigning server only store message from different parties and send message to them without any authentication.
+we working on authentication scenario. Any address prove itself first, this it is possible to get details of signing process.
+
+
+[06/18/2022 3:12 AM] Siegfried#2220
+I wonder how is this going. I developed a multi-sig dApp on Cardano. I've been thinking to support Ergo. https://roundtable.theadao.io
+
+{Reactions}
+🔥 (7) 
+
+[03/10/2023 1:48 AM] ❤/#2713
+We use roundtable for almost everything. Would love to see you do something for ERGO.
+
+
+==============================================================
+Exported 28 message(s)
+==============================================================

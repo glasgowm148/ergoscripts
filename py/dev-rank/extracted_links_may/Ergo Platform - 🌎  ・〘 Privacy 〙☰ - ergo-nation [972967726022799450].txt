@@ -1,0 +1,989 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Privacy 〙☰ / ergo-nation
+==============================================================
+
+[05/09/2022 11:40 AM] Ulmo#5367
+Hi. I am looking for people to join working on this decentralized ID and governance project. Non-profit with full commitment to Ergo ideals. Please let me know, if you are interested.  https://www.ergoforum.org/t/ergo-nation-identity-and-governance/3560
+
+{Embed}
+https://www.ergoforum.org/t/ergo-nation-identity-and-governance/3560
+Ergo Nation: Identity and Governance
+TLDR for Ergohack  Ergo nation enables decentralized on-chain governance by a community that shares the ideals in the Ergo manifesto.  Currently the default governance token models in crypto do not align with the ideals because they lead to governance by the wealthy. This is problematic for any project that would like to have decentralized gover...
+
+{Reactions}
+spicy (3) 
+
+[05/09/2022 11:43 AM] Ulmo#5367
+Lets focus on building the games, extracting on-chain data, and displaying the ID list on a website. The governance takes shape later, when we get people equipped with IDs.
+
+
+[05/11/2022 9:49 PM] Ulmo#5367
+Ergo Nation update: Working on crawling data from explorer API using R (thanks to @curbsideprophet for the tooling). We can now generate a table of ID addresses and their activity. We are still looking for front end dev to make a website, where that table and information is published. Also looking for more game ideas and developers.
+
+{Reactions}
+ergo_orange (3) 
+
+[05/11/2022 9:54 PM] Ulmo#5367
+Anonymity is an important piece in our ID solution. The first idea was to use a faucet for initial funding of the ID addresses. I was not aware that there is no ERG faucet. The next best idea is that the users send 1 ERG via mixer into their ID address for initial funding. We will work on identifying whether transaction going in/out of ID addresses are from mixer. Sending funds in/out of the ID address without mixing would exclude that ID from the publicly available list.
+
+{Reactions}
+ergo_orange (3) 
+
+[05/12/2022 11:12 AM] mijbil#7005
+The gyroscope protocol had a running set of games to test its algorthmic stablecoin but also to create a running record of addresses likely not to be bots for sybil resistance. The likelihood that you could complete the games over some months and be a bot was very low. Also some of the games required some kind of history with the ETH system but can imagine history with auction-house and other ergo dapps could be used to. Proof of participation in Ergnomes could be one game? Using the  ErgoDex testnet could be another? A simple game could be to pay 1 ERG / 1 SigUSD or whatever and be given a series of card pairs. The one card of the pair is a classic ergo NFT and the other is a random nft or just a bus/lightpost picture. If you select all the classic ergo NFTs out of a series of 5 to 10 pairs then it's a pretty good chance you are not a bot and are an actual ID. But of rambling, sorry Ulmo.
+
+
+[05/12/2022 12:05 PM] Ulmo#5367
+Thank you for chiming in. What you propose is indeed the vision. The ID provides the proof of unique person behind the ID address. The rest is reputation that can be combined via zk-proofs, if they are done in different addresses. Gyroscope is a good example. Countless amount of projects are running their own games to weed out bots and multi-accounts. Such a waste of resources. Imagine if they did not have to do that in Ergo.
+
+
+[05/12/2022 12:23 PM] glasgowm#9381
+Instead of a game - could it maybe be simplified to solving a captcha that requires you send a specific amount to an address (ie, `0.002345ERG` - or `102383 tokens` (which would be claimed from the faucet)
+
+
+[05/12/2022 12:24 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967726022799450/974270914390786058/unknown.png
+
+
+[05/12/2022 12:28 PM] glasgowm#9381
+There's 
+https://vivirenremoto.github.io/doomcaptcha/
+
+but they're solved easily
+
+http://telnet.asia/script.html
+
+{Embed}
+https://vivirenremoto.github.io/doomcaptcha/
+DOOM Captcha
+https://images-ext-2.discordapp.net/external/ltKMiqDhIvwDhUxqoD7skJWNlKVjJuyVdT1L9vUMFtE/https/vivirenremoto.github.io/doomcaptcha/static/social.jpg
+
+
+[05/12/2022 12:28 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967726022799450/974271908000448513/unknown.png
+
+
+[05/12/2022 12:29 PM] glasgowm#9381
+https://www.producthunt.com/posts/squat-captcha
+
+{Embed}
+https://www.producthunt.com/posts/squat-captcha
+Squat Captcha - The worst captcha ever! Forces you to do 10 squats...
+This captcha forces you to do 10 squats to continue. Works with chrome/firefox, desktop environment and also a webcam is required. There is available a Chrome extension to prevent compulsive purchases on amazon, more info https://bit.ly/3jS73YX
+https://images-ext-1.discordapp.net/external/Wv3CFsnXBTthyiemMpVORlkZdQSXl23ekR-Ixipl-uk/%3Fauto%3Dformat%26fit%3Dcrop%26frame%3D1%26h%3D512%26w%3D1024/https/ph-files.imgix.net/6f63f55c-4cfe-4105-a7fa-0d99630fbd39.png
+
+
+[05/12/2022 12:31 PM] glasgowm#9381
+> Have the CAPCHA require properly constructing a nonlinear programming problem to solve an optimization problem, where the requirements are not expressed in terms of the NLP and the human has to design it. Which would have the side effect of putting the bot makers to work on useful and hard problems to solve.
+
+> Good idea! To prove you are a human, mine three Bitcoin.
+
+
+[05/12/2022 12:37 PM] Ulmo#5367
+@Marty brought up the same idea in the development chat some time ago. It remained an open question whether captcha could work. I don't know enough how they work, maybe someone here could clarify. My question is that, if the database for captcha tasks is open source, then would it not be possible to simply teach a bot to solve them? In other words, does a reliabla captcha require closed database so that the tasks can be surprises to bots?
+
+
+[05/12/2022 12:38 PM] glasgowm#9381
+This seems to be the popular option: 
+https://www.jqueryscript.net/form/image-puzzle-slider-captcha.html
+
+or the commercial version
+https://www.geetest.com/en/
+
+But DOM querying/manipulation in an automated browser, JS tricks, etc - would defeat any naively designed game. 
+
+> You could get them to build a fortress in minecraft, train a classifier on all neat looking fortresses, then run outputs through the classifier. Measure the cosine similarity to all previously-seen activations, and discard any that are too similar -- thus making sure that people need to come up with unique neat-looking fortresses.
+
+{Embed}
+https://www.jqueryscript.net/form/image-puzzle-slider-captcha.html
+Touch-friendly Image Puzzle Captcha Plugin - SliderCaptcha
+A touch-friendly and self-hosted image puzzle captcha JavaScript library to test if you are Human/Robot or Not. Supports both client-side and server-side verification.
+https://images-ext-1.discordapp.net/external/hDrBHyjEQOn5dGfI6AfeISvNhzLmh9f271L14zyKwLc/https/www.jqueryscript.net/images/image-puzzle-slider-captcha.jpg
+
+{Embed}
+https://www.geetest.com/en/
+Geetest CAPTCHA: Protect website, APIs and mobile apps from bots
+Geetest's CAPTCHA - a user-friendly CAPTCHA powered by AI. Protect your website and mobile apps against bot traffic. Start your free trial now!
+
+
+[05/12/2022 12:39 PM] Ulmo#5367
+The captchas could be used in the events as games. That is a great idea. Then it is not known beforehand, which OS captcha game the team is going to pick. There just has to be 10-15 minutes of captchas in a row so that people cant multiaccount 😄
+
+
+[05/12/2022 12:40 PM] Ulmo#5367
+If the game is only revealed at the start of an event, then bots would not have time to learn to beat it. Is it reasonable to assume that you can't develop a bot to beat the game in 5 minutes?
+
+
+[05/12/2022 12:41 PM] glasgowm#9381
+Maybe for the first round but there'd be bots by the 2nd round that could solve it on-the-fly
+
+
+[05/12/2022 12:42 PM] Ulmo#5367
+Second event would optimally be different team and different game
+
+
+[05/12/2022 12:43 PM] glasgowm#9381
+ie if you used something like the doom game but then on a different level/layout someone could write a bot to iterate over each row of pixels looking for a few consecutive pixels that uniquely match the monster and then trigger a click on those coordinates and 'play' the game
+
+
+[05/12/2022 12:45 PM] Ulmo#5367
+First event, captcha. second event quiz. Third event Ergnomes arcade game.... The type of game would optimally be completely different every time. Not just different captchas
+
+
+[05/12/2022 12:51 PM] glasgowm#9381
+Yeah that could work I think, maybe even combined with something like hcaptcha when submitting to be safe. How do you prevent someone from hiring cheap human labour from a click-farm though?
+
+
+[05/12/2022 12:55 PM] glasgowm#9381
+Depends on how important it is that nobody writes a bot for it is also. They'd probably need to be completely unique each time with the exception of the quiz
+
+
+[05/12/2022 12:59 PM] glasgowm#9381
+https://www.humanpresence.io/
+
+{Embed}
+https://www.humanpresence.io/
+Human Presence | End Form Spam & Bots
+Get started with Human Presence to easily stop all form spam bots + protect your checkout on WordPress and Shopify.
+
+
+[05/12/2022 1:02 PM] glasgowm#9381
+nice : https://github.com/dessant/buster
+
+{Embed}
+https://github.com/dessant/buster
+GitHub - dessant/buster: Captcha solver extension for humans
+Captcha solver extension for humans. Contribute to dessant/buster development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/QBM5Ln9FxqNSp1v1T2NZxop3UPH4C9thNoiBmxf_0u4/https/repository-images.githubusercontent.com/158064011/1d379c00-e6ba-11e9-954d-004e5727a312
+
+
+[05/12/2022 1:09 PM] glasgowm#9381
+https://www.researchgate.net/publication/260944463_Dynamic_Cognitive_Game_CAPTCHA_Usability_and_Detection_of_Streaming-Based_Farming
+
+
+[05/12/2022 1:12 PM] Ulmo#5367
+This seems like a fundamentally unsolvable problem, but I think Ergo Nation offers good tools to mitigate it. (This happens in centralized verification systems too. You can buy KYC accounts for example)
+
+The event guarantees that you have a unique person tied to an ID address. It does not guarantee the motivations of that person. This is where the reputation part steps in. Projects that use the ID list will want to further filter out people that might not be suitable for their purposes (e.g. reward hunters, IDs information sold out publicly, IDs who reveal true identity, etc.).
+
+
+[05/12/2022 1:12 PM] Ulmo#5367
+.
+
+
+[05/12/2022 1:13 PM] glasgowm#9381
+updated your role so that shouldn't happen again
+
+
+[05/12/2022 1:13 PM] Ulmo#5367
+Here is a wall of text from an earlier discussion on this point. 
+
+The idea somewhat originated from on-chain gaming, where you can make up bot detection rules as you progress. For example after the game is 1 month old, mark accounts as bots, if they only grind resources, and never do quests. 
+
+Now a botter can start a new account, that does grinding and quests. Then after another month the game marks accounts that never talk to others as bots. Again, a new bot could start fresh with grind + quest + talk. And again the rules can adjust. At this point, you can be quite sure that the accounts that passed all filters are true unique players. Passing a few could be players who just don't talk, so less confidence.
+
+This is much harder for human multi-accounts, than bots. However, the on-chain history reveals patterns that can be used to distinguish multi-accounts too. Maybe not in the start, but increasing complexity allows the filter makers adapt. 
+
+In our case, the governance actions and reputation is the game. At start it will be easy to just be active in every vote. If the ecosystem scales to what Ethereum is now, then there are thousands of projects doing votes and other activities. It would be quite clear that a voter who votes on everything does not care about the content. 
+
+Also, EN is not a single game maker coming up with the filtering rules. Community and projects can come up with their own filters. Strict filter is less accessible, but more confident in having no multi-accounts. Also, projects promise reward, pay as a surprise, or not at all. It will get very complex for multi-accounts to maximize rewards.
+
+Also, the ID can be combined with other filter with zk-proofs. For example, show us address with 1000erg traded in Ergodex AND unique ID.
+
+{Reactions}
+👍🏻 
+
+[05/12/2022 1:13 PM] Ulmo#5367
+.
+
+
+[05/12/2022 1:13 PM] Ulmo#5367
+As a summary, I think we can't define magic bullet rules to avoid multi-accounts. However, EN does take care of bots, and it provides decentralized on-chain data to identify multi-accounts. That history allows for continuous adaptation in detecting multi-accounts. This is a large improvement to having to do multi-account and bot detection at every vote/airdrop.
+
+
+[05/12/2022 1:13 PM] Ulmo#5367
+.
+
+
+[05/12/2022 1:13 PM] Ulmo#5367
+Here is one example on how innovation can take place in detecting multi-accounts. Incentivize users to hunt them:
+
+https://twitter.com/hopprotocol/status/1522284558179307522?s=21&t=o60H9eu_v1bgHTPbb-yjfA
+
+{Embed}
+HopProtocol (@HopProtocol)
+https://twitter.com/hopprotocol/status/1522284558179307522?s=21&t=o60H9eu_v1bgHTPbb-yjfA
+Successful reports are rewarded with 25% of the saved $HOP - paid out by the DAO and subject to a 1 year lock-up.
+
+• Each report must eliminate a minimum of 20 related addresses
+
+• Reports must show high-quality research and be easy to verify by the Hop Labs team.
+Likes
+108
+Twitter
+
+
+[05/12/2022 1:14 PM] Ulmo#5367
+.
+
+
+[05/12/2022 1:14 PM] Ulmo#5367
+Finally, a quote from Westworld.
+
+I could tell my mum to set up ID, and follow all votes in the spirit of manifesto to milk rewards. 
+
+Now a project that wants to be governed in that spirit, might let my mum vote, even though her motivations are just money. However, "if you can't tell the difference, then does it matter?" 
+
+In other words, if the project gets the governance in the spirit of some set of values like the Ergo manifesto, then does it matter if that representation of values was from passionate unique people or reward hunters? Maybe it does? If yes, then as a project you need to figure out how to filter for the passionate ones.
+
+
+[05/12/2022 1:16 PM] Ulmo#5367
+Thank you for the links. I will look into them. This one is a company. Needs to be decentralized.
+
+
+[05/12/2022 1:16 PM] glasgowm#9381
+Also this aspect to consider
+https://journal.media-culture.org.au/index.php/mcjournal/article/view/2726
+
+{Embed}
+https://journal.media-culture.org.au/index.php/mcjournal/article/view/2726
+A Flattering Robopocalypse | M/C Journal
+RACHAEL. It seems you feel our work is not a benefit to the public. DECKARD. Replicants are like any other machine. They're either a benefit or a hazard. If they're a benefit it's not my problem. RACHAEL. May I ask you a personal question? DECKARD. Yes. RACHAEL. Have you ever retired a human by mistake? (Scott 17:30) 
+ 
+ CAPTCHAs (henceforth...
+
+
+[05/12/2022 1:17 PM] glasgowm#9381
+I have a feeling having humans verify other humans is the easiest solution that avoids a lot of the issues - not sure what that'd look like though.
+
+
+[05/12/2022 1:20 PM] Ulmo#5367
+I agree. Personal trust is the best solution in a local system. I just don't see a way to scale it into a global blockchain system. The effort seems to inevitably create centralized gatekeepers.
+
+
+[05/12/2022 1:23 PM] Ulmo#5367
+This is a valid concern. Accessibility and identity proving are at odds. Luckily the games in the events do not have to be difficult. They just need to keep attention long enough to verify tx on-chain. This allows for maximizing robustness and accessibility.
+
+{Reactions}
+👍 
+
+[05/12/2022 5:20 PM] glasgowm#9381
+Thinking a quiz with questions that only a person could answer is probably the best option as each question could act like a puzzle and not requirement much coding (or be open for exploitation) 
+
+Beyond this maybe ultimately a heirarchy of reputation based on interactions between each other/time
+
+{Reactions}
+👍 
+
+[05/12/2022 8:49 PM] lgd#5847
+is anything like atala prism being considered/worked on for Ergo?
+
+
+[05/13/2022 7:16 PM] Ulmo#5367
+Combining on-chain ID with certifications from centralized institutions off-chain? I think the Castanets project from last hackathon was going in this direction. Not sure if they are still active.
+
+
+[05/13/2022 7:18 PM] lgd#5847
+I thought castanets was about a way to generate ergoscript from diagrams.
+
+
+[05/13/2022 7:31 PM] Ulmo#5367
+So it seems https://github.com/iandebeer/ergo-castanet. However, I remember seeing a discussion on the ID topic. Maybe @iandebeer can remind us.
+
+
+[05/15/2022 4:21 PM] Ulmo#5367
+Still having trouble finding team members. If anyone wants to contribute, please let me know.
+
+
+[05/15/2022 4:25 PM] Ulmo#5367
+In any case, I would still like put the project in motion after the Ergohack. This would probably mean no front end. The first event could be a typeform quiz or something. Organization in an anonymous telegram group. Also publishing the list of IDs in there, so projects can come in and utilize it. (The list would also be available for anyone on-chain by interpreting the Ergo Nation address.)
+
+
+[05/15/2022 4:28 PM] glasgowm#9381
+@deleted-role
+
+{Reactions}
+👀 (5) 
+
+[05/15/2022 4:41 PM] liquid_phase#4605
+Hi Ulmo, i will look over the idea in a few once i have finished some stuff. Maybe i will have some time to provide work after this ergo hack
+
+{Reactions}
+🔥 (4) 
+
+[05/15/2022 6:33 PM] Ulmo#5367
+Great! Let me know if you have any questions or criticism.
+
+
+[05/15/2022 7:01 PM] liquid_phase#4605
+I am reading the forum post now. I would like to see the flow for the governance participation model staying anonymous and such in a flow chart as my brain can't wrap my head around it as written.
+
+For integrating a game, i would get in touch with night owl and see if they would let you tie into their Coinflip bot API as it seems to work presently and would be afairly easy game to get started with just to test the principles you're looking at with participation in a game (a coinflip is boolean, so that's about as simple as it can get)
+
+I am not actually sure If my skill set is yet at the point with ergoscript to offer support in that area.
+
+I can help with flow models for the infrastructure and scaling as well as some frontend/backend work once you're ready for it
+
+{Reactions}
+🧠 
+
+[05/15/2022 8:57 PM] Ulmo#5367
+Thank you for the feedback. I will produce some illustrations. Night owl tooling and games have large overlap with what we are trying to achieve in the events. Hopefully they have time to contribute at some point. Thank you for the offer. I will now focus on a very simple setup of all parts that are required. 1. An anonymous group chat to share instructions (probably telegram group). 2. First event (a quiz). 3. Use explorer API to see addresses took part in the event.  4. Publish the ID list in the group. 5. Let ecosystem projects know that there is a set of unique IDs that they can utilize.
+
+
+[05/15/2022 9:01 PM] Ulmo#5367
+All of those points can then be built better by anyone who wants to contribute. 1. Have the info on a website 2. Better games. 3. Analyze the addresses if they used mixer. Track their governance actions. 4. Publish the ID list on the website, with additional reputation info. 5. Community engagement.
+
+
+[05/15/2022 10:29 PM] Ulmo#5367
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967726022799450/975510194832425020/EN_flow.png
+
+
+[05/15/2022 10:29 PM] Ulmo#5367
+Does that help?
+
+
+[05/15/2022 10:32 PM] curbsideprophet#5083
+Who determines the ERG amount for the mixer? What if the coin goes to $1,000 let’s say X years from now?
+
+
+[05/15/2022 10:37 PM] Ulmo#5367
+Currently the lowest mixable amount is 1 ERG. The amount does not matter. The ID addresses should just have enough ERG for transaction fees to take part in the events and governance or other activities.
+
+
+[05/17/2022 8:24 AM] Ulmo#5367
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967726022799450/976022273079279657/EN_flow_2.png
+
+
+[05/17/2022 8:24 AM] Ulmo#5367
+Updated the nutshell explanaion to include some use cases.
+
+
+[05/17/2022 8:28 AM] Ulmo#5367
+This still does not motivate the idea why anonymity is so important.
+
+
+[05/17/2022 9:19 AM] glasgowm#9381
+@night-owl
+
+{Reactions}
+💜 (2) 
+
+[05/17/2022 1:38 PM] J - The Ergod#0899
+happy to connect ! feel free to reach out 🌙🦉
+
+
+[05/17/2022 8:04 PM] Ulmo#5367
+Hi. There was some talk about it on telegram with @Krasavice Blasen  already.  Shortly, Ergo Nation needs games to verify that a person is not using bot or multi-accounting. This means that a game should start simultaneously for all participants, and keep them occupied long enough to send a verification code on-chain. Maybe your games could be modified for this purpose in the future?
+
+
+[05/18/2022 8:07 AM] Ulmo#5367 (pinned)
+Ergo Nation now has a community telegram group. Unfortunately it was not possible to make it fully anon. This will require more work in the future, and probably some other communications platform. To keep the access a bit easier in the start, the Telegram group will be the announcement channel after Ergohack. Please join here: https://t.me/+9Q22gjQI5Go1ZDUy
+
+{Embed}
+https://t.me/+9Q22gjQI5Go1ZDUy
+Ergo Nation community
+https://images-ext-2.discordapp.net/external/zo-np1iy8TAIlNbF9nNb2fIeVbllHQr3sLdL9cuY_aU/https/cdn4.telegram-cdn.org/file/k13N3-t0wuqjaxkdi4RVHx2TF4ohvvGUBid9UBmMVNaNl96qNK2kkuT9Fw882tjLaaM9DIyt7GDhAS02THfz1NIwhGvfOQoQJRVn66fPHq8060szmgoFrigRkXX32SK-BOzn1SRE2TDsKwZc9NVQGSIKlgiVr-Q8pCRAJxl1pQQtbO0xMXfuXd-TA8pGrS2n9TrAu8yhhedKxPCEdqBGCtj5LBnwXKlu8sJX23IY_EyR2UlEkWdK-srsOtRQgpOich5kSGTMk3E3sgbnW32zA8q4Pej7-yqk-xIQteIWr-u_P1Frwe8Kb9JK0qFdhayJD9mZw0whVFC-v7T9fYNtTA.jpg
+
+{Reactions}
+ergo_orange (2) 
+
+[05/19/2022 12:32 PM] Ulmo#5367
+The current plan for an event is:
+
+1. Start at pre-announced time (e.g. 20.00 UTC) by minting a “Start NFT”.
+
+2. At the moment when participants can first see the NFT, it will also be sent to the announcement channel. It contains at least the event number, start time and a website address for the game.
+
+3. Participants go to the website, and actively play a game for 10 minutes. At the end they get instructions to send the on-chain verification (X amount of ERG to the Ergo Nation address).
+
+4. After 15 minutes since the “Start NFT” was revealed, another “End NFT” is minted. It contains the logic of how X was calculated based on sender ID address.
+
+5. After the event, we check all incoming transactions to the Ergo Nation address. If they arrived between minting the NFTs, and they send the correct amount (X), then those addresses pass as unique people.
+
+
+[05/19/2022 12:32 PM] Ulmo#5367
+I have a few questions regarding this design. Maybe the mentors can help?
+- Can people see the NFT while it is in the mempool? Or only when it gets mined in a block?
+- The design is vulnerable to someone taking all block space, and no verification transactions passing between the NFTs. The tx data from API explorer contains “InclusionHeight” and “timestamp” variables. Can those or some other variables be used infer when the transaction was sent? In this case, it would be enough to have the tx sent but not mined before the end NFT.
+
+
+[05/19/2022 2:22 PM] Cheese Enthusiast#0548
+- A transaction minting an NFT will be visible in the mempool. If looking through it in explorer, the EIP 4 registers may not be parsed, but the transaction with the new outputted nft can be seen.
+
+- Both of the variables mentioned may be used inside contracts, though I wonder if there are more elegant solutions. Is block time a limiting factor in this scenario?
+
+
+[05/19/2022 2:47 PM] Ulmo#5367
+Thank you for the reply.
+
+- Could you please clarify for a non-tech person. I mint an NFT image via auctionhouse at 20.00 UTC. That mint is included in a block at 20.02. Is there any way to see the NFT image, or its metadata at 20.01?
+
+- The variables are not for contracts. I only want to know, when a transaction was sent. For example, if I send a tx at 20.14 and it is mined into a block at 20.20, then is there a variable in the tx data that indicates the send time of 20.14?
+
+
+[05/19/2022 3:01 PM] Cheese Enthusiast#0548
+- Yes its possible to view that data before the mint is included in the block, though I'm not sure explorer api does that. Explorer api might only show the encoded values if the transaction has not been included in a block, so you may have to decode them yourself.
+
+- There are no variables for this in the transaction data as far as I know. The only timestamp that you get is the timestamp of the block in which the transaction was included. I suppose at the very least, you can narrow down correct transactions by looking at the blocks in which the start and end NFTs were minted.
+
+
+[05/19/2022 3:07 PM] Ulmo#5367
+- Then we can mint the start NFT exactly at 20.00, and post it as an announcement on socials at the same time. This way those who know how to decode have no advantage.
+
+- This weakness has to be addressed somehow in the future. If we mint start NFT at 20.00, end NFT at 20.15, and accept verification transactions only between the blocks where those are mined, then someone could sabotage the event by spamming transactions in that timeframe.
+
+
+[05/19/2022 3:08 PM] Ulmo#5367
+But for now we go ahead with the most rudimentary setup. Thank you for the input.
+
+
+[05/19/2022 3:12 PM] Cheese Enthusiast#0548
+Maybe you can use a combination of timestamp and transaction creation height to address the second point
+
+
+[05/19/2022 3:13 PM] anon_br#2282
+On step 3, what do you think about creating a box and inserting the verification data into a register instead of asking the user to send a x amount of erg? 
+This is something simple to be done through dApp Connector
+
+
+[05/19/2022 3:16 PM] Ulmo#5367
+This would be an improvement. The current team does not have skills to implement it. Could be added in the future, if we find contributors.
+
+
+[05/19/2022 3:28 PM] anon_br#2282
+> - Then we can mint the start NFT exactly at 20.00, and post it as an announcement on socials at the same time. This way those who know how to decode have no advantage.
+Actually it can be decoded relatively easy, a bad agent can make a script to track mempool for this kind of NFT and decode the information contained in the registers
+
+
+[05/19/2022 3:30 PM] Ulmo#5367
+Ok. That is not a problem. We can just send the mint tx and publish on socials at the same time.
+
+{Reactions}
+👍 
+
+[05/21/2022 5:19 PM] glasgowm#9381
+Pinned a message.
+
+
+[05/30/2022 1:28 PM] Ulmo#5367
+@glasgowm , could you please upload the Ergo Nation final report.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967726022799450/980809849749241856/Ergo_Nation_final_report.pdf
+
+{Reactions}
+kushti_thumbsup 
+
+[05/30/2022 6:06 PM] Ulmo#5367
+Get your Ergo Nation ID now!
+   
+Step 1. Create ID
+- Create a new Ergo wallet address. This address is your anonymous ID. Do not reveal it to anyone. 
+- Use the mixer to send 1 ERG into it. The mixing process may take some time. Start it right away to be ready for the verification event.
+- All funds going in and out of the ID address must go through the mixer to preserve anonymity. 
+
+Step 2. Verify ID
+- Join the first monthly ID verification event on 7th of June 2022 at 20.00 UTC for instructions. The event itself will start 20.15 UTC, and end 20.30 UTC.
+- Participants will play a short game. If successful, they will be able to verify the ID on-chain.
+
+Step 3. Use ID
+- Ergo projects can engage the ID holders in governance, testing, whitelist, rewards, tasks, etc.
+- The IDs will gather reputation through actions in the ecosystem. We encourage projects to engage those IDs that actively support decentralization, anonymity and the spirit of Ergo (see Ergo Manifesto).
+
+For further event and Ergo Nation information, please join:
+https://t.me/+9Q22gjQI5Go1ZDUy
+
+{Embed}
+https://t.me/+9Q22gjQI5Go1ZDUy
+Ergo Nation community
+https://images-ext-2.discordapp.net/external/sYw0di34Yza1EF5SwT99ZwKt2V65F6HVMOIQwIdNuS8/https/cdn4.telegram-cdn.org/file/SopGPp_TRmnxI1PRYm-2f2OrEmK-6Pt6CdkW41o-mjhCaPyxfCYaJ064Qi_7jPe-5lJnmdfxtoQdPUmTt6sehQTE9IARwYIfpI6-abDlXmGIaadsR8f8pTc2zToT_okRz_488tCW7dP3WLcwnhbBsWU46fsLIfzY1bGl1usbZ1G_FN5Dy1MJAIeuj_GegaTrTnHF98fPTI0DzQm-bbfROEq5FunL8pCst-BCH67SDuhCELuxveGQrBCHCgTSlEkySqw9bdjOzGy2i6w-KgKDea2hOayLdGz2vBtPPBxT_auokG5y9Vcc9YYDgrin6g-Vm4SBRMWYv4-cd8n-LSjZZQ.jpg
+
+{Reactions}
+ergo_orange (4) 
+
+[05/31/2022 9:07 PM] glasgowm#9381
+am I ok to post this to r/ergonauts?
+
+
+[05/31/2022 9:11 PM] Ulmo#5367
+Yeah, go ahead.
+
+
+[06/06/2022 9:20 PM] Ulmo#5367
+Attention!
+
+Those of you who have been too busy/lazy to create new ID address and mix funds, now is your chance. 
+
+We will help you to fast track the process.
+
+Create a new ID address right now. 
+
+Create a new one-time-use Discord account with a one-time-use email.
+
+This does not concern people who already have ID with mixed funds. If you are currently mixing, and worried that you dont have enough time, then you can take part. 
+
+If you know people who were interested, now is a chance to get in.
+
+A friendly anon has loaded a faucet with ERG. 
+
+1. Go to this website: https://ergofaucet.org/
+2. Enter your new ID address. 
+3. Pick ErgoNation from the "select asset".
+4. Authenticate with the burner discord account.
+5. You will get 0.1 ERG sent to your address.
+
+Now you have the ID and funds ready for the ID verification event tomorrow. 
+
+To avoid funds being drained fast, please
+- Do not use the faucet more than once. 
+- Do not announce this faucet in large groups. Only for those who might be interested.
+
+{Embed}
+https://ergofaucet.org/
+Ergo Faucet
+Ergo Faucet
+
+{Reactions}
+💪 
+
+[06/07/2022 9:00 PM] lafrenieree#5485
+event starting now?
+
+
+[06/07/2022 9:01 PM] Ulmo#5367
+Welcome to the first Ergo Nation Verification Event.
+
+Starting now, 20:00 UTC, you have 15 minutes to read the instructions; read them carefully!
+
+The game starts at 20:15 UTC. We will post a link at that time.
+
+The game ends at about 20:23 UTC. If you finish the game successfully, then you will be given a specific amount of ERG to send to the Ergo Nation address. This amount is the “verification code”, and it will be different for each participant.
+
+The event ends at 20:30 UTC. Verification codes mined after that time will be invalid. We suggest using a higher tx fee to make sure your verification transaction is mined fast. For example, in the Nautilus Send tab there is a slider that allows you to move the fee up to 0.0055; we suggest using this fee.
+
+We can’t mute the anon admins; please do not spam in the chat during the event. Check if your question was already answered, before asking.
+
+
+[06/07/2022 9:02 PM] Ulmo#5367
+During the game, do not share any details about the game here or elsewhere. Also, do not try to send your verification code from an address that was not funded by the mixer or the faucet.
+
+Please don’t get frustrated if something goes wrong during the event. Consider this alpha testing. We have built the first event with very limited time resources and technical skills. There will be many things to learn and improve for the future events.
+
+After the event, give us a few days to analyze the data. We have a code with which we check the verification codes, but we will go through them manually, as well, to be certain. Anyone else is welcome to study the event by looking at the transactions in the Ergo Nation address. If there are some unexpected or unfair outcomes, we can try to find solutions.
+
+
+[06/07/2022 9:02 PM] Ulmo#5367
+Now that you have read the instructions, you have a bit of time to pre-set details in the send tab of your wallet:
+- Receiver is the Ergo Nation address: 9hYhWuXJXZYrsetXp6khEgH5H5SZPfjsze2XhQqEaGAiTX9L2dT
+- Set the higher transaction fee. 
+- Some wallets allow to pre-type password; try doing this.
+- Leave the amount of ERG empty until you get the specific amount after the game.
+
+
+[06/07/2022 9:05 PM] Ulmo#5367
+You can also make note of the second digit in your ID address (ignoring the letters). You will be asked this in the game. For example, in the platform address above, the second digit is 6. Double check what it is in your own ID address and note it down.
+
+{Reactions}
+k_thumbs_up (2) 
+
+[06/07/2022 9:10 PM] Ulmo#5367
+Game link will be posted in 5 min
+
+
+[06/07/2022 9:15 PM] Ulmo#5367
+The game is available at
+https://q9fwzopidh8.typeform.com/to/tjt800Pt
+
+{Embed}
+Typeform
+https://q9fwzopidh8.typeform.com/to/tjt800Pt
+EN test 1 (copy)
+Turn data collection into an experience with Typeform. Create beautiful online forms, surveys, quizzes, and so much more. Try it for FREE.
+https://images-ext-2.discordapp.net/external/r-0AD7Bz7LLWlcz0Q2rTt4x0dtMnX7RHD5d6OcGyLcI/https/images.typeform.com/images/FYUps4mFKPYK/image/default
+
+
+[06/07/2022 9:32 PM] Ulmo#5367
+The event is now over. Thank you for taking part. As you could see, the first game was not up to the standards of being non-exploitable, accessible, fully engaging or robust. It was created with limited time and skill resources. 
+
+If you would like to contribute in making the next event better, then please join the working group. You can search for “Ulmo” in the Ergo main telegram group and request access via DM.
+
+Anyone willing to help is welcome. These working groups have also turned out to be very educational. If people want to understand and shape Ergo Nation, then contributing is a great way to do that.
+
+
+[06/08/2022 8:03 PM] asil furkan.#1305
+Hello, after +24 hours, ergo mix is still showing only 1 round passed. Now I wanted to withdraw and transaction is being generated for more than 30 minutes. Is something wrong here?
+
+
+[06/08/2022 8:03 PM] asil furkan.#1305
+How long does a mix take normally?
+
+
+[06/08/2022 8:07 PM] asil furkan.#1305
+And do i need to keep the ergomixer opened on my pc?
+
+
+[06/09/2022 6:55 AM] notmork#0302
+Yes, but if you shutdown it will start up from where it left off
+
+
+[06/09/2022 6:57 AM] notmork#0302
+Really depends on how much liquidity there is (few days ago 1 erg mixed  32rounds ~ 12hrs)
+
+
+[06/09/2022 7:43 AM] asil furkan.#1305
+Thanks for your response!
+
+{Reactions}
+ergo_orange 
+
+[06/09/2022 3:29 PM] Ulmo#5367
+OK. We have results from the first event. 
+
+If your ID address is not on the list, then please check the following criteria before asking questions. 
+
+1. Is your verification transaction going into EN address between 20.15 and 20.30 UTC?
+2. Is the amount sent correct. Verfication code is based on second digit of your ID address with formula: ([digit] + 3) / 2000. For example, digit 6 would give 0.0045.
+3 . Was your ID address initially funded by the faucet or mixer?
+
+If there are any cases, where you think an address is unjustly left out, then anyone can bring up the address and ask for a clarification.
+
+
+[06/09/2022 3:30 PM] Ulmo#5367
+################
+
+Quiz responses by minute:
+
+22.18 respondents 2
+22.19 respondents 0
+22.20 respondents 5
+22.21 respondents 2
+22.22 respondents 3
+22.23 respondents 6
+22.24 respondents 1
+22.25 respondents 0
+22.26 respondents 2
+
+Total 21 quiz responses. 
+
+Fastest ones did in 3 minutes. This is bad because they could have done multiple IDs, if they had addresses ready with mixed funds. 
+
+Slowest ones did in 11 minutes. Also bad, because they might have been left out due to long block time.
+
+If quiz is used again as a game in event, then I propose a timer to read the text and answer. This would enforce everyone to take the same time. Also, it would be good to have many more questions in a pool, and those would be assigned to respondents in a random order.
+
+
+[06/09/2022 3:30 PM] Ulmo#5367
+###################
+
+Blocks during the event:
+
+20:15:22 block 767047 start NFT minted
+20:20:23 block 767048 verification tx count 2
+20:21:32 block 767049 verification tx count 3
+20:24:37 block 767050 verification tx count 9
+20:24:53 block 767051 verification tx count 3
+20:26:15 block 767052 verification tx count 2
+20:27:57 block 767053 verification tx count 2
+20:28:51 block 767054 verification tx count 0
+20:36:25 block 767055 end NFT minted
+
+Total 21 verification transactions. All mined between 20.15 and 20.30 UTC.
+
+
+[06/09/2022 3:31 PM] Ulmo#5367
+###################
+
+Out of 21 verification transactions, 18 sent the correct code. The code was depending on the last quiz question about the second digit in ID address. They either picked the wrong digit, or sent the wrong amount by accident. 
+
+For future improvement, we can ask to copy-paste full address, or connect wallet. This will reduce the room for error. We did not have the skillset to include this feature in event #1. 
+
+Those 3 ID addresses will not be shown in the ID address list. However, I don’t think there is any reason to expect any dishonesty here. If we want, we could recommend projects to add these three addresses, if they are using the ID list. It is up to them.
+
+
+[06/09/2022 3:31 PM] Ulmo#5367
+###################
+
+Out of the 18 correct verification codes, 2 were not funded with mixer or faucet. 
+
+We think that Nautilus may have caused some of these issues. Nautilus seems to combine erg from all addresses in the wallet when sending transactions. Setting default address does not stop that. This automatic linking of addresses within the wallet means that creating a new address in old nautilus wallet is not enough to keep the ID address anonymous. 
+
+Therefore, when using Nautilus for Ergo Nation ID address, you have to do a fresh new wallet. Even then, we are not sure if the additional addresses will cause problems in the future. Maybe Nautilus is not the best wallet to use for Ergo Nation. Sorry for those affected, we were not aware of this problem.
+
+
+[06/09/2022 3:31 PM] Ulmo#5367
+We try to soon publish the code for producing the main ID list and a report of event 1. 
+
+The list is now on the website: https://ergonation.vercel.app/id-list
+
+{Embed}
+https://ergonation.vercel.app/id-list
+ErgoNation
+Generated by create next app
+
+
+[06/09/2022 3:32 PM] Ulmo#5367
+If you have any questions, then ask in general terms: "What happened to this id address?"
+
+
+[06/14/2022 3:03 AM] lafrenieree#5485
+who do i reach out to to ask questions?
+
+
+[06/14/2022 1:05 PM] deklnu#2834
+In the lobby it has a "ask-anything"
+
+
+[06/16/2022 3:15 PM] Ulmo#5367
+Me, sorry for the late reply
+
+
+[06/17/2022 3:04 PM] glasgowm#9381
+https://www.ergoforum.org/t/proof-of-activity-as-a-smart-contract/132
+
+{Embed}
+https://www.ergoforum.org/t/proof-of-activity-as-a-smart-contract/132
+Proof-of-Activity as a Smart Contract
+Proof-of-Activity (a lottery which is using randomness from PoW output to select winners among UTXO holders) was first proposed (AFAIK) by Bentov et al. in with a goal to reward for running the nodes in the following paper https://allquantor.at/blockchainbib/pdf/bentov2014proof.pdf . Conceptually, PoA is close to PoS (e.g. Nxt is about also abou...
+
+
+[06/17/2022 4:44 PM] Ulmo#5367
+Thanks. ΣID could definitely help with the tricky part in the end.
+
+
+[06/27/2022 8:02 PM] Ulmo#5367
+ErgoNation identity verifcation event #2
+
+The event takes place on Monday 11th of July 2022 at 13.00 UTC. The event ends 13.30 UTC.
+
+All interested people in the Ergo ecosystem are welcome to join. All projects interested in decentralized 1-person-1-vote governance are welcome to use the system. The ΣID is also useful for targeting unique community members instead of having to deal with bots and multiaccounts. 
+
+If you don’t have an ΣID yet, please follow the instructions on the website to set up a fresh Ergo wallet and mix 1 ERG into it. Mixing can take a few days, and we highly recommend you to start it right away.
+
+For further information, check the website:
+https://ergonation.vercel.app/
+
+Community chat groups are listed in:
+https://t.me/+iwWTrzMcfq0zZDcy
+
+In co-operation with Mr. Stahlfelge from tokenjay.app, who has upgraded the event quality to the next level.
+
+{Embed}
+https://ergonation.vercel.app/
+ErgoNation
+Generated by create next app
+
+{Embed}
+https://t.me/+iwWTrzMcfq0zZDcy
+Ergo Nation Announcements
+https://images-ext-2.discordapp.net/external/MdbSAVhox2qW7ZmSlH9kPFvtJSLmhflk6xAo02nPGdc/https/cdn4.telegram-cdn.org/file/Dk1HfrwanG9WIxKzD35yWhO9VZEpe1vioSg82fVBGUIG1ph854lJ2LR08DFJ7YBX6BF9crY8uq0o3wttBiW9OTzqtxOX4UTFJsNfY66tYbqPwPQ8G3JPzOZlhrc5n4h-TViDtqct0XMJu9YihSvTivMGK2jWtHq2aULzfSIAXbEILQpNGoPUmFqsfjijLv1eG2-1z7TYhC2xZrRiXZiMO1-N2m1PQFv5aOsuXoDv2OYdNVHL5bP_zh-QAzjdVUZLfFXM5nwiDgoiPkb9xF8Xw5M91ll2c6CLoG92lzNsS2THTt8kYxEdKcNNPn-MryGZAS-Sby9-USQ33iw2fzpdxQ.jpg
+
+
+[06/27/2022 9:02 PM] Ulmo#5367
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967726022799450/991071083690094662/photo_2022-06-27_21-42-55.jpg
+
+
+[07/10/2022 7:45 PM] mattam#8988
+Is there an ergo nation discord? Invite on the website is expired.
+
+
+[07/11/2022 8:26 AM] Ulmo#5367
+Attention!
+
+Those of you who have been too busy/lazy to create new ΣID address and mix funds, now is your chance. 
+
+We will help you to fast track the process.
+
+This does not concern people who already have ΣID with mixed funds. If you are currently mixing, and worried that you dont have enough time, then you can take part. 
+
+Create a new ΣID address right now. 
+
+Create a new one-time-use Discord account with a one-time-use email.
+
+If you know people who were interested, now is a chance to get in.
+
+A friendly anon has loaded a faucet with ERG. 
+
+1. Go to this website: https://ergofaucet.org/
+2. Enter your new ΣID address. 
+3. Pick ErgoNation from the "select asset".
+4. Authenticate with the burner discord account.
+5. You will get 0.1 ERG sent to your address.
+
+Now you have the ΣID and funds ready for the ΣID verification event tomorrow. 
+
+To avoid funds being drained fast, please
+- Do not use the faucet more than once. 
+- Do not announce this faucet in large groups. Only for those who might be interested.
+
+{Embed}
+https://ergofaucet.org/
+Ergo Faucet
+Ergo Faucet
+
+
+[07/11/2022 8:26 AM] Ulmo#5367
+5 and a half hours until event starts
+
+
+[07/11/2022 8:27 AM] Ulmo#5367
+I will let them know.
+
+
+[07/11/2022 1:49 PM] Ulmo#5367
+fixed
+
+
+[07/11/2022 2:00 PM] Ulmo#5367
+[Forwarded from Ergo Nation Announcements]
+Welcome to the second ErgoNation ΣID Verification Event.
+
+Starting now, 13:00 UTC, you have 10 minutes to read the instructions; read them carefully!
+
+The game starts at 13:10 UTC. We will post a link at that time.
+
+The game does not work on mobile devices. You need a laptop or desktop computer with an internet browser. The game has been tested to work with Ubuntu and Windows OS, and firefox/chrome/brave browsers. Two issues came up in testing: 1) privacy tools or browser settings that prevent a new tab from popping up may interrupt the game. 2) Windows zoom setting higher than 100% may hide parts of the game screen. There were no issues, if you are using default OS and browser settings. 
+
+The game is Pacman. You can start the game by pressing [ENTER]. Use arrow keys to move around  (↑ ↓ → ←). You have unlimited lives. You need to fulfill two criteria to pass the game. Play 10 minutes actively, and reach high enough score threshold. That means you need to play without breaks for 10 minutes. If successful, a dialogue box will ask for your ΣID address. Copy paste your address into the field and press ok. Then a new tab will open with payment instructions. Send the transaction manually from your ΣID address. Double check that you are sending from your ΣID address, to the ErgoNation address, and that the amount is exactly as instructed. 
+
+Correct transactions that are mined before 13.30 UTC qualify as successful ΣID verifications. We suggest using a higher tx fee to make sure your verification transaction is mined fast. For example, in the Nautilus Send tab there is a slider that allows you to move the fee up to 0.0055; we suggest using this fee.
+
+
+[07/11/2022 2:00 PM] Ulmo#5367
+We can’t mute the anon admins; please do not spam in the chat during the event. Check if your question was already answered, before asking.
+
+During the game, do not share any details about the game here or elsewhere. Also, do not try to send your verification code from an address that was not funded by the mixer or the faucet.
+
+Please don’t get frustrated if something goes wrong during the event. Since it is a one time event, there is always a chance of something going wrong. 
+
+After the event, give us a few days to analyze the data. We have a code with which we check the verification codes, but we will go through them manually, as well, to be certain. Anyone else is welcome to study the event by looking at the transactions in the ErgoNation address. If there are some unexpected or unfair outcomes, we can try to find solutions.
+
+Now that you have read the instructions, you have a bit of time to pre-set details in the send tab of your wallet:
+- Receiver is the ErgoNation address: 9hYhWuXJXZYrsetXp6khEgH5H5SZPfjsze2XhQqEaGAiTX9L2dT
+- Set the higher transaction fee. 
+- Some wallets allow to pre-type password; try doing this.
+- Leave the amount of ERG empty until you get the specific amount after the game.
+- Have your ΣID address ready to be copy-pasted.
+
+{Reactions}
+👍 
+
+[07/11/2022 2:10 PM] Ulmo#5367
+Game link:
+https://tokenjay.app/pacman/
+
+{Reactions}
+💪 
+
+[07/11/2022 2:31 PM] Ulmo#5367
+The event has ended now. Thank you for taking part. Please give us a few days to get the results online.
+
+
+[07/11/2022 3:25 PM] Kaven#6681
+wen next 1
+
+
+[07/12/2022 1:52 AM] mattam#8988
+UTC got me, I was asleep
+
+
+[07/12/2022 9:36 PM] Ulmo#5367
+In a month.
+
+
+[07/12/2022 9:41 PM] Ulmo#5367
+You are welcome to join the activities before you have ΣID too. We have working groups for ErgoNation, and hopefully first use-case(s) for ecosystem projects this month.
+
+
+[07/13/2022 2:12 PM] Ulmo#5367
+Results for event 2.
+
+We had 7 participants. 6 sent the correct verification code, and have addresses funded by mixer or faucet. 1 failed (wrong code and non-mixed).
+
+The last verification code was sent in block 791015 at 13:26:35 UTC. Block 791019 was the last one before 13.30. So this time, congestion was not an issue, and 10 minutes game and tx send time seems to be ok. 
+
+We did not run into any other problems either. The Pacman game by Mr. Stahlfelge is very good in preventing bots and multiaccounts compared to event 1. Also copy-pasting the ΣID address instead of asking for a specific digit leaves less room for error.
+
+Now the main focus for improvement is the amount of participants. We thought that it would be most fair to rotate the event time so that people globally would have equal chances of maintaining their ΣIDs. However, with so few participants, it might be better to just vote a time that fits most. 
+
+Hopefully we can also get use-cases started before the next event, which might raise interest for people to join the ErgoNation. 
+
+Thank you all for taking part. If you or your project would like to take part in organizing event #3 next month, then please let us know in one of the community chats.
+
+{Reactions}
+💪 
+
+[07/25/2022 7:46 AM] Ulmo#5367
+Vote on event #3 date and time https://t.me/ErgoNation_announcements/32
+
+{Embed}
+https://t.me/ErgoNation_announcements/32
+Ergo Nation Announcements
+Time to vote on the date/time for the event #3. We have three candidates, and the one with most votes will be chosen. You can pick more than one option. Voting ends in 48h.
+Sa 13.8. at 07.00 UTC / Su 14.8. at 13.00 UTC / Mo 15.8. at 20.00 UTC
+https://images-ext-2.discordapp.net/external/mFAHx3RgpUiIrN7iurnvrKVHgO_cHaRnfBdW-VSbv40/https/cdn4.telegram-cdn.org/file/eVEX7I5vRqva8hpFtxSff5yMVjklcTJwwwIlCeYrY7jJ5cbC-2W3cGKyjtsZLHyKyUe1wMUxtKzx67KSXdY2RfAjYFInc5AAPniDZNEWvVLnEzgGz9Yoo9eaOxZ_-a1ZvlLqvQmd3bOVaeOixOlREi1kDGdKwkIQr5jf1Oi0IA6A6eBbq8J7KTtjf_jWncq2973M4byk7H0tyK-W1ciuKs34ocSKo32ldjmRBvKQCnZgvHhnRitxlAaMnDEuEnMc9s4bi75AkZ9Wz31kpbvc2T8KuzojJWa1D1LtyPp6vBpb_dtRkGDttkGKloNQeqWUQZ7whF25NCTYFeAqphu6YQ.jpg
+
+
+[08/15/2022 6:34 PM] Ulmo#5367
+Event #3 in 2.5 hours
+
+
+[08/15/2022 9:01 PM] Ulmo#5367
+Welcome to the third ErgoNation ΣID Verification Event.
+
+Starting now, 20:00 UTC, you have 10 minutes to read the instructions; read them carefully!
+
+The game starts at 20:10 UTC. We will post a link at that time.
+
+The game does not work on mobile devices. You need a laptop or desktop computer with an internet browser. The game has been tested to work with Ubuntu and Windows OS, and firefox/chrome/brave browsers. 
+
+One issue came up in testing. Privacy tools or browser settings that prevent a new tab from popping up may interrupt the game. There were no issues, if using default OS and browser settings.
+
+The game is again Pacman. You can start the game by pressing [ENTER]. Use arrow keys to move around  (↑ ↓ → ←). You have unlimited lives. You need to fulfill two criteria to pass the game. Play 10 minutes actively, and reach high enough score threshold. That means you need to play without breaks for 10 minutes. If successful, a dialogue box will ask for your ΣID address. Copy paste your address into the field and press ok. Then a new tab will open with payment instructions. Send the transaction manually from your ΣID address. Double check that you are sending from your ΣID address, to the ErgoNation address, and that the amount is exactly as instructed. 
+
+Correct transactions that are mined before 20.30 UTC qualify as successful ΣID verifications. We suggest using a higher tx fee to make sure your verification transaction is mined fast. For example, in the Nautilus Send tab there is a slider that allows you to move the fee up to 0.0055; we suggest using this fee.
+
+
+[08/15/2022 9:01 PM] Ulmo#5367
+During the game, do not share any details about the game here or elsewhere. Also, do not try to send your verification code from an address that was not funded by the mixer or the faucet.
+
+Please don’t get frustrated if something goes wrong during the event. Since it is a one time event, there is always a chance of something going wrong. 
+
+After the event, give us a few days to analyze the data. We have a code with which we check the verification codes, but we will go through them manually, as well, to be certain. Anyone else is welcome to study the event by looking at the transactions in the ErgoNation address. If there are some unexpected or unfair outcomes, we can try to find solutions.
+
+Now that you have read the instructions, you have a bit of time to pre-set details in the send tab of your wallet:
+- Receiver is the ErgoNation address: 9hYhWuXJXZYrsetXp6khEgH5H5SZPfjsze2XhQqEaGAiTX9L2dT
+- Set the higher transaction fee. 
+- Some wallets allow to pre-type password; try doing this.
+- Leave the amount of ERG empty until you get the specific amount after the game.
+- Have your ΣID address ready to be copy-pasted.
+
+
+[08/15/2022 9:10 PM] Ulmo#5367
+Game link:
+https://tokenjay.app/enpm/
+
+
+[08/15/2022 9:32 PM] Ulmo#5367
+The event has ended now. Thank you for taking part. Please give us a few days to get the results online.
+
+
+==============================================================
+Exported 130 message(s)
+==============================================================

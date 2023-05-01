@@ -1,0 +1,182 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / graphics
+Topic: See pins
+==============================================================
+
+[09/20/2022 8:12 AM] hq3r#5569
+Looks like we have changed our orange scheme , 
+ we get back to old or use this new color scheme?
+
+
+[09/20/2022 8:12 AM] hq3r#5569
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1021395536944836638/1021680139739856896/20220920_091006.jpg
+
+
+[09/20/2022 8:13 AM] hq3r#5569
+#Old color scheme
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1021395536944836638/1021680420808577064/IMG_20220620_201008_813.jpg
+
+
+[09/20/2022 8:25 AM] Steel#8070
+I vote on the new color scheme.
+
+
+[09/20/2022 10:55 AM] glasgowm#9381
+It's the same scheme was just updated to look orange on all screens. The second image you've shared looks more red to me
+
+{Reactions}
+❤️ 
+
+[09/20/2022 8:31 PM] hq3r#5569 (pinned)
+https://www.figma.com/file/pd92vgB3xNFThaacIKodYs/ERGO?node-id=538%3A987 PING!
+
+{Embed}
+https://www.figma.com/file/pd92vgB3xNFThaacIKodYs/ERGO?node-id=538%3A987
+ERGO
+Created with Figma
+https://images-ext-2.discordapp.net/external/P2yqfjYsSObF1WTOIauw-1oxZDklR4mXcWVeVpTBXdE/%3Fver%3Dthumbnails%2F69326142-a02c-4875-96c3-e644f76ca9a6/https/www.figma.com/file/pd92vgB3xNFThaacIKodYs/thumbnail
+
+
+[09/21/2022 11:00 AM] glasgowm#9381
+Pinned a message.
+
+
+[09/22/2022 12:48 PM] hq3r#5569
+REGIONAL ergo group pfp 
+- keep them simple or add flags in bg ?
+Personal preference 
+- without flags because most of languages are used in more then one county
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1021395536944836638/1022474497904877598/Group_1018.png
+https://cdn.discordapp.com/attachments/1021395536944836638/1022474498286563338/Group_1019.png
+
+
+[09/23/2022 2:33 PM] Sisyphuspush#7967
+@hq3r This is what I have been using for the NFT Twitter Community. Feel free to change as you see fit. This was just put together quickly to set up the community.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1021395536944836638/1022863348221624430/Screenshot_2022-09-15_141257.jpg
+
+
+[09/23/2022 2:36 PM] Sisyphuspush#7967
+And to further display my terrible graphic design skills, this is what I used for 1st Twitter Space. If you were able to create a a template where I can just update the info about the space, that would be amazing. Again, please feel free to design how you see fit.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1021395536944836638/1022864038495010896/Spaces.001.jpg
+
+
+[09/23/2022 2:42 PM] Sisyphuspush#7967
+Feel free to ping me if you have any questions or need anything from me. Thanks again for offering to assist with these @hq3r
+
+
+[09/23/2022 2:43 PM] hq3r#5569
+do u have png or svg file ¿
+
+
+[09/23/2022 2:47 PM] Sisyphuspush#7967
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1021395536944836638/1022866678733869167/My_project-1_11.png
+
+
+[09/23/2022 2:47 PM] Sisyphuspush#7967
+You dont have to use this template. I'm not the creative type and this was the best I could come up with, lol
+
+
+[09/23/2022 5:33 PM] hq3r#5569
+something like this ? kept it simple for u
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1021395536944836638/1022908476411891763/Group_1.png
+
+
+[09/23/2022 5:33 PM] hq3r#5569
+@Sisyphuspush
+
+
+[09/23/2022 5:39 PM] Sisyphuspush#7967
+I like the layout. Would this be something that I would be able to update?
+
+
+[09/23/2022 5:40 PM] Sisyphuspush#7967
+The Header would always be the same except updating the #. I suppose the blank area would be used for sub-header and the list of topics covered?
+
+
+[09/23/2022 5:55 PM] hq3r#5569
+yes
+
+
+[09/23/2022 11:26 PM] Equinox#5557
+I really like the clean aspect of the clear background with typography more than the direct information assessment from the flag background. To me at least it makes more sense to have it clean and sharp! Nice work btw!!
+
+
+[09/23/2022 11:28 PM] hq3r#5569
+Will work on those and hope all community group change them and have more organized graphics too
+
+
+[09/25/2022 12:53 PM] glasgowm#9381
+I think for a lot of them a flag will do, depends on the country obviously but some other solid image behind is probably better so you can differentiate it from others
+
+
+[09/25/2022 12:53 PM] glasgowm#9381
+As they look the same at this size
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1021395536944836638/1023562883768004658/unknown.png
+
+
+[09/25/2022 12:54 PM] hq3r#5569
+Maybe , fadding the bg gradient and adding country "famouse buildings" in background?
+
+
+[09/25/2022 12:55 PM] hq3r#5569
+O just add a small flags instead of short form of language
+
+
+[09/25/2022 12:56 PM] glasgowm#9381
+Some new ones we're using internally, think they work pretty well. Buildings again hard to see. Most a flag should be fine, think exceptions is maybe the Brasil/Portugal one
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1021395536944836638/1023563605616099378/unknown.png
+
+
+[09/25/2022 12:57 PM] hq3r#5569
+Was trying to keep the icon "fixed for all" I think we can reduce that and place bigger text
+
+
+[09/25/2022 1:16 PM] hq3r#5569
+something like this ¿
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1021395536944836638/1023568671655870535/Group_1039.png
+
+
+[09/25/2022 1:19 PM] glasgowm#9381
+looks a bit mental heh
+
+
+[09/25/2022 1:19 PM] glasgowm#9381
+was thinking like
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1021395536944836638/1023569421551276082/unknown.png
+
+
+[09/25/2022 1:20 PM] hq3r#5569
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1021395536944836638/1023569731938164806/Group_1040.png
+
+
+==============================================================
+Exported 31 message(s)
+==============================================================

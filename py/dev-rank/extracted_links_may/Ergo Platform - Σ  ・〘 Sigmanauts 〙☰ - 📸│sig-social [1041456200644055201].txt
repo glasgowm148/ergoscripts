@@ -1,0 +1,350 @@
+==============================================================
+Guild: Ergo Platform
+Channel: Σ  ・〘 Sigmanauts 〙☰ / 📸│sig-social
+Topic: https://sideways-stove-8c5.notion.site/Social-Media-18e8fd2b04404e6196acebe10d3ada98
+==============================================================
+
+[11/13/2022 8:56 PM] drehaf#0090 (pinned)
+media style guide from @CW i've made a copy and shared here: 
+https://docs.google.com/document/d/1VhJTKgk7VezjPR25RfdtWxfUOgWgn3ePE5sK_XSAApI/edit?usp=sharing
+
+{Reactions}
+👍 (2) 
+
+[11/13/2022 8:56 PM] drehaf#0090 (pinned)
+media kit folder writeable by all:
+https://drive.google.com/drive/folders/1JMwqZXF6mFEULU9Yhj3ALojc-bV4LNVN
+
+
+[11/13/2022 8:56 PM] drehaf#0090
+Pinned a message.
+
+
+[11/13/2022 8:57 PM] drehaf#0090
+Pinned a message.
+
+
+[11/13/2022 10:10 PM] CW#8500
+@Sisyphuspush See DM about the handle mate
+
+{Reactions}
+👍 
+
+[11/14/2022 12:47 AM] drehaf#0090
+@CW happy to be added on tweet deck for this acct so we can get this moving forward asap. Will read up on editorial guide and make a copy of it and start firing out some initial tweets as gov moves forward so the public can see more. Once more people join we can onboard them and not have to start from scratch during the hustle. wdyt?
+
+
+[11/14/2022 12:49 AM] CW#8500
+Yep, once i get the handle i can swap it over.
+
+{Reactions}
+👍🏻 
+
+[11/14/2022 12:50 AM] CW#8500
+Just to reiterate once more also, like you mentioned access will be granted through Tweet Deck. We are doing it this way incase anything unforeseen happens with Ergo_Platform account we have this one to fall back on.
+
+
+[11/14/2022 12:51 AM] drehaf#0090
+makes sense 😉
+
+
+[11/14/2022 12:52 AM] drehaf#0090
+thanks for doing all this 🙂 much appreciated!
+
+
+[11/14/2022 12:53 AM] CW#8500 (pinned)
+The way i see Sigmanauts utilizing this account is highlighting the Sigmanaut endeavors but also everything going on in the Ergo ecosystem. Liking, retweeting project and community tweets etc, I guess over all bringing as much awareness to the ecosystem as possible
+
+
+[11/14/2022 12:54 AM] drehaf#0090
+yup, i think that's a great capture and good enough to pin 😉
+
+{Reactions}
+🙂 
+
+[11/14/2022 12:54 AM] drehaf#0090
+Pinned a message.
+
+
+[11/14/2022 12:56 AM] CW#8500
+Sisyphus is on his cruise enjoying himself so will let ya know when i get the login heh
+
+{Reactions}
+🤣 (3) 
+
+[11/14/2022 12:58 AM] drehaf#0090
+sounds like a plan 🙂
+
+{Reactions}
+👍 
+
+[11/16/2022 2:30 PM] drehaf#0090
+@Sigmanauts 
+Whoever is interested please read the style guide above. Twitter has been updated with the logo/banner for now. I'm studying the style guide and will slowly start engaging (liking other posts, retweet, and eventually start posting) as CW has extended tweet deck access to me.
+
+{Reactions}
+❤️ (2) 
+
+[11/16/2022 2:31 PM] drehaf#0090
+CW and I are going to start hosting a community show discussing the ongoings in the community/ecosystem as well as covering some general dev things translated into as simple terms as we can.
+
+{Reactions}
+🔥 
+
+[11/16/2022 2:31 PM] drehaf#0090
+here is a mockup of the intro
+
+
+[11/16/2022 2:32 PM] drehaf#0090
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1041456200644055201/1042447007199010896/Intro.mp4
+
+{Reactions}
+🔥 (3) 
+
+[11/16/2022 2:32 PM] drehaf#0090
+(sound)
+
+
+[11/16/2022 2:42 PM] Sisyphuspush#7967
+Yo! This intro is 🔥
+
+{Reactions}
+❤️ (2) 
+
+[11/16/2022 2:45 PM] Sisyphuspush#7967
+I reviewed the style guide and will keep it handy as reference. If needed, I can assist with tweets, spaces, etc...Probably not until December though.
+
+{Reactions}
+👍🏻 
+
+[11/22/2022 11:48 AM] glasgowm#9381
+Added to the social media page on Notion and linked in the channel description
+
+{Reactions}
+👍🏻 
+
+[11/22/2022 2:33 PM] WilfordGrimley#0124
+Can anyone with moderation privilege on r/ergonauts pin something new for us like the summit post? The Cardano/Ergo Twitter chat is 4 days old now.
+
+
+[11/22/2022 3:15 PM] drehaf#0090
+i don't see a pin currently?
+
+
+[11/22/2022 3:16 PM] drehaf#0090
+OH, i use old.reddit, shows up as green
+
+
+[11/22/2022 3:16 PM] glasgowm#9381
+I unpinned it a few mins ago
+
+
+[11/22/2022 3:17 PM] drehaf#0090
+yeah i see ty
+
+
+[11/25/2022 2:38 AM] drehaf#0090
+Just to keep the group informed. CW and I recorded the first ever Sigma Update tonight, will edit tonight and tomorrow and will post soon after!
+
+{Reactions}
+ergo_orange (6) 
+
+[11/29/2022 12:50 AM] drehaf#0090
+FYI Kill it with coffee (new sigcan) has volunteered to take a look at on-boarding docs. I've given him some direction to map out the current documentation so we can get a handle on it and really focus on an introduction page that leaves the reader with a clear idea of what they are getting in to (which current does, it sounds like cafe's style) AND knows where to go. That means that some really good current separate pages that cafe and others have worked on might be merged with the initial page to help with that message. To put in a list his direction is:
+1. Map out the current documentation
+2. Find what needs to be finished (some spots are empty)
+3. Work on a front page that if the reader stopped there would have a good idea of who to talk to, what holes to look to fill, and where they might be able to jump in. Then, the other pages can be much more detailed as the sigmanauts are able to better define and manage things that need to get done.
+
+{Reactions}
+ergo_orange 
+
+[11/30/2022 11:25 PM] drehaf#0090
+Using google slides for now for a colab template of tweets for sigmanauts twitter @Sigmanauts 
+P1 is weekly template, P2 is this week.
+This week I might start poking it if we have some good ones, will do more brainstorming tonight.
+https://docs.google.com/presentation/d/1DICL11y4aDke8xl_FNBLBcx1AMoV78WiscD2AzIQvdk/edit?usp=sharing
+
+{Reactions}
+💪 
+
+[12/04/2022 3:26 PM] glasgowm#9381
+Started a thread.
+
+
+[12/07/2022 3:57 AM] drehaf#0090
+@Sigmanauts 
+anyone have time to find the weekly shows done about ergo and stick them in a list so we can work on spreading the word? Reply to this comment and I'll add them in. Thanks!
+
+So far:
+HiO with CW
+Weekly Dev Update
+Weekly AMA
+Sigma Prism
+The Sigma Update
+Proof of Ergo
+
+
+[12/07/2022 4:01 AM] Rishabh#7490
+I can
+
+
+[12/07/2022 4:05 AM] drehaf#0090
+thanks so much 🙂
+
+{Reactions}
+❤️ 
+
+[12/07/2022 4:05 AM] drehaf#0090
+even the ones that aren't active, we can reference as an archive
+
+
+[12/07/2022 4:06 AM] drehaf#0090
+and post them when relevancy is needed to display.
+
+
+[12/07/2022 4:06 AM] Ergo Tipper Bot[BETA]#0902
+@drehaf sent a tip of 10.0 love to @Rishabh!
+
+{Reactions}
+❤️ 
+
+[12/07/2022 5:02 AM] Rishabh#7490
+i have to list this shows link in google docs ?
+
+
+[12/07/2022 5:07 AM] drehaf#0090
+you can just paste it here
+
+
+[12/07/2022 5:07 AM] drehaf#0090
+i'll add it to the list above
+
+
+[12/07/2022 5:16 AM] Rishabh#7490
+Ok from which date ?
+
+
+[12/07/2022 5:30 AM] drehaf#0090
+whatever you can find
+
+
+[12/07/2022 5:30 AM] drehaf#0090
+ergo content creators beyond what is known
+
+
+[12/07/2022 5:30 AM] drehaf#0090
+coverage in other channels etc
+
+
+[12/07/2022 6:45 AM] Rishabh#7490
+I have added link in this docs file, is this right ?    
+
+https://docs.google.com/document/d/1V7nNTVHEJ-ndBwa19kPOraivGU2zaDKdF6O17QXz76g/edit?usp=drivesdk
+
+{Embed}
+https://docs.google.com/document/d/1V7nNTVHEJ-ndBwa19kPOraivGU2zaDKdF6O17QXz76g/edit?usp=drivesdk
+Untitled document
+HIO W CW   https://youtu.be/xn1Fy8wF3SE https://youtu.be/BQrmEQN9NUE https://youtu.be/sMBhv29Q3XU https://youtu.be/Moyg6vCslAA  https://youtu.be/7-fZIWA0qbI  https://youtu.be/CzGqYAlQRWQ https://youtu.be/2axpizzqqwg  https://youtu.be/bqUhSGVX4vY https://youtu.be/ibk0yFMgacw  https://youtu.be/2Ej5...
+https://images-ext-2.discordapp.net/external/XZFP3xWnfkGvIUNI4BWPFII_mGtntIq_kgw6QqOvi5M/https/lh5.googleusercontent.com/9wHDBx7aGqb25580sHOFrDpgGQMtxDF8LSlTAtUE8PxhaPgyOaGq5Z945Ig9gtw-MdZaZKu8KPz9QQ%3Dw1200-h630-p
+
+{Reactions}
+❤️ 
+
+[12/07/2022 7:23 AM] drehaf#0090
+wow you are fast, that is great ty!
+
+{Reactions}
+❤️ 
+
+[12/07/2022 7:24 AM] drehaf#0090
+can i ask for one more thing?
+
+
+[12/07/2022 7:25 AM] Ergo Tipper Bot[BETA]#0902
+@drehaf sent a tip of 1000.0 neta to @Rishabh!
+
+
+[12/07/2022 7:26 AM] drehaf#0090
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1041456200644055201/1049950050039627847/Screenshot_2022-12-07_at_2.26.35_AM.png
+
+
+[12/07/2022 7:27 AM] drehaf#0090
+if you drop the title and if the summary is short, that means we can search for key words
+
+
+[12/07/2022 7:27 AM] drehaf#0090
+when we need to
+
+
+[12/07/2022 7:27 AM] drehaf#0090
+im going to bed, this will be a great resource you are starting for when we need to give info, backup a tweet, filler, etc... ty 🙂
+
+
+[12/07/2022 8:38 AM] Rishabh#7490
+Ok i will add
+
+
+[12/07/2022 9:10 AM] hq3r#5569
+Drop the title and I can list all those on ergcube and you can share
+
+
+[12/07/2022 9:31 AM] Rishabh#7490
+I have added some video description in Docs please check, is this too long title or okay ?
+
+
+[12/07/2022 9:32 AM] hq3r#5569
+Too long... But that can be the description
+
+
+[12/07/2022 9:35 AM] hq3r#5569
+https://youtu.be/cwttM41xVBY use this 🙂
+
+{Embed}
+GSheets
+https://www.youtube.com/watch?v=cwttM41xVBY
+How to Copy All The Titles, URLs And Views From YouTube Channel (Fr...
+Trick to copy the Titles, URLs, and Video Views of all Videos of the Youtube Channels without installing anything from your browser and then using those URLs in Google Sheets. (Tested on Google Chrome & Mozilla Firefox)
+
+First code used in the video:
+var scroll = setInterval(function(){ window.scrollBy(0, 1000)}, 1000);
+
+Second Code used in the ...
+https://images-ext-1.discordapp.net/external/dqBBsqMC8cTtgHz_Bkyuy_esbiK7D3q0R4Sk4_SNrls/https/i.ytimg.com/vi/cwttM41xVBY/maxresdefault.jpg
+
+
+[12/07/2022 12:06 PM] drehaf#0090
+Perfect for our purposes!
+
+
+[12/09/2022 7:58 PM] Rishabh#7490
+Ok i will add title and description both
+
+
+[12/09/2022 8:46 PM] drehaf#0090
+ty ser!
+
+
+[01/09/2023 10:44 PM] Rishabh#7490
+Sheet updated !
+
+
+[01/11/2023 12:21 AM] drehaf#0090
+wow, great work @Rishabh !!! Thank you!
+Im going to work on ingesting this into a DB next and making an easy way to continue to add to it, possibly scripted to follow some of the channels. will be a fun project 🙂 so glad you finished it 🙂
+
+{Reactions}
+❤️ 
+
+[01/11/2023 12:21 AM] Ergo Tipper Bot[BETA]#0902
+@drehaf sent a tip of 100.0 love to @Rishabh!
+
+
+==============================================================
+Exported 64 message(s)
+==============================================================

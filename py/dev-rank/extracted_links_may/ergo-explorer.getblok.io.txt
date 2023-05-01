@@ -1,0 +1,5 @@
+https://ergo-explorer.getblok.io/
+https://ergo-explorer.getblok.io/graphql
+https://ergo-explorer.getblok.io/graphql/
+https://ergo-explorer.getblok.io/api/
+https://ergo-explorer.getblok.io/api/*)

@@ -1,0 +1,7 @@
+https://bitcoin.stackexchange.com/questions/75831/what-is-time-warp-attack-and-how-does-it-work-in-general
+https://bitcoin.stackexchange.com/questions/116146/why-is-connecting-bitcoin-exclusively-over-tor-considered-bad-practice*)
+https://bitcoin.stackexchange.com/questions/116146/why-is-connecting-bitcoin-exclusively-over-tor-considered-bad-practice
+https://bitcoin.stackexchange.com/questions/57184/what-does-the-nbits-value-represent
+https://bitcoin.stackexchange.com/questions/48503/how-does-a-time-warp-attack-work
+https://bitcoin.stackexchange.com/questions/148/what-exactly-is-mining
+https://bitcoin.stackexchange.com/a/10692

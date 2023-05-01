@@ -1,0 +1,8 @@
+https://docs.cardano.org/cardano-testnet/about/secp
+https://docs.cardano.org/learn/cardano-node
+https://docs.cardano.org/cardano-testnet/tools/faucet
+https://docs.cardano.org/cardano-testnet/tools/faucet>
+https://docs.cardano.org/plutus/eutxo-explainer
+https://docs.cardano.org/plutus/collateral-mechanism
+https://docs.cardano.org/plutus/transaction-costs-determinism
+https://docs.cardano.org/cardano-testnet/tools/faucet*)

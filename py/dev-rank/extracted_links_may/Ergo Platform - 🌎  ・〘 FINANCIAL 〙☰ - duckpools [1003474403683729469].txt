@@ -1,0 +1,5545 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 FINANCIAL 〙☰ / duckpools
+Topic: https://discord.com/invite/2xKbNFWYjm
+==============================================================
+
+[08/31/2022 6:13 PM] jhon_moio#2140
+Hi!
+
+
+[09/01/2022 12:56 PM] Krasavice Blasen#4574
+Hi!
+
+
+[09/01/2022 3:56 PM] Krasavice Blasen#4574
+Is it possible to share a link to the duckpools discord here @glasgowm
+
+
+[09/01/2022 4:25 PM] glasgowm#9381
+of course, I can bridge this chat too if you'd like
+
+
+[09/02/2022 9:18 AM] Krasavice Blasen#4574
+Yeah I think that would be a good idea too 🙂 DM me the details of any bot you need to add
+
+
+[09/02/2022 2:12 PM] jhon_moio#2140
+I Wanted to know how will be the apy be paid?
+
+
+[09/02/2022 2:12 PM] jhon_moio#2140
+In ergo or duck Pool tokens?
+
+
+[09/02/2022 2:15 PM] Krasavice Blasen#4574
+Currently there is no duck pool token. All initial versions of the protocol will pay pool earnings in the pool's currency. So for the ERG pool, earnings are received as ERG.
+
+
+[09/02/2022 2:18 PM] jhon_moio#2140
+And that payment comes from the Pool fees?
+
+
+[09/02/2022 2:21 PM] jhon_moio#2140
+Are you a duck Pool dev?
+
+
+[09/02/2022 2:24 PM] Krasavice Blasen#4574
+Currently it comes directly from repaid loans, so earnings are not realised until loans are repaid/ liquidated. At scale the difference between receiving continuous earnings and actual earnings (receiving when loans are settled) is likely to be miniscule. That said, setting up some smart contracts to fund the pull continuously using active loan data would make this more seamless
+
+
+[09/02/2022 2:24 PM] Krasavice Blasen#4574
+Yes 🙂
+
+
+[09/02/2022 2:25 PM] jhon_moio#2140
+I like the idea of a non emissive protocol
+
+
+[09/02/2022 2:25 PM] jhon_moio#2140
+Like $Kujira
+
+
+[09/02/2022 2:25 PM] jhon_moio#2140
+Do u know it?
+
+
+[09/02/2022 2:26 PM] Krasavice Blasen#4574
+I don't actually, just googling it now!
+
+
+[09/02/2022 2:27 PM] Krasavice Blasen#4574
+What emissions are you referring to here?
+
+
+[09/02/2022 2:27 PM] jhon_moio#2140
+Many defi protocol pays highers apy with their protocol tokens
+
+
+[09/02/2022 2:28 PM] jhon_moio#2140
+Which comes from emission
+
+
+[09/02/2022 2:29 PM] Krasavice Blasen#4574
+Oh yes, in that case I would consider myself in favour of non-emissive protocols too.
+
+
+[09/02/2022 2:31 PM] Krasavice Blasen#4574
+I think its important to align with the core values of Ergo and an emissive protocol to me seems like a step away from the core values
+
+
+[09/02/2022 2:33 PM] Krasavice Blasen#4574
+That said, things are very early and I don't want duckpools to commit to any one structure just yet 🙂 The primary focus at this stage is to produce a solid foundation for the protocol.
+
+
+[09/02/2022 2:33 PM] jhon_moio#2140
+Kujira is a l1 protocol, but has $orca where you can buy tokens at a liquidation price from liquidated loans, Fin that is a dex with order book and you can stake kujira but apy is paid by fees of all their protocols ( non emmision)
+
+
+[09/02/2022 2:35 PM] jhon_moio#2140
+And all these with bridges across various ecosystem haha
+
+
+[09/02/2022 2:35 PM] jhon_moio#2140
+I think you can take good ideas from them
+
+
+[09/02/2022 2:38 PM] Krasavice Blasen#4574
+Right, well for duckpools this continous apy can really be self-sustained (both fees or emitted tokens wouldn't really even be needed) since loans will eventually settle debts and Ergo smart contracts can reference active loans. All that would be needed is some bootstrap capital
+
+
+[09/02/2022 2:39 PM] Krasavice Blasen#4574
+Yeah I am sure there are some fine ideas out there worth checking out. Just as I feel chains in the future will look to Ergo for good ideas 🚀
+
+
+[09/02/2022 2:40 PM] jhon_moio#2140
+How much ergo can i put now? I think its in beta isnt it?
+
+
+[09/02/2022 2:43 PM] Krasavice Blasen#4574
+We have a 0.5ERG limit per tx at the moment, but I actually would recommend waiting for the next release, this current one is incomplete and its intention was to simply test out the lend/borrow/repay/withdraw cycle.
+
+
+[09/02/2022 2:44 PM] jhon_moio#2140
+Ok thanks
+
+
+[09/02/2022 2:44 PM] jhon_moio#2140
+If you need someone for marketing put in contact with me i can do it for free. Not full Day but i can help!
+
+{Reactions}
+👍 
+
+[09/02/2022 4:34 PM] theta_decay#5677
+Yes, please do post official links to discord, twitter etc. Thank you.
+
+
+[09/03/2022 1:37 PM] Krasavice Blasen#4574
+Sure, I cant post a discord link here. Are you able to?
+
+
+[09/03/2022 1:38 PM] Krasavice Blasen#4574
+Website: <https://www.duckpools.io>
+Twitter: https://twitter.com/duckpools_io
+
+
+[09/03/2022 1:42 PM] Krasavice Blasen#4574
+I have DMed you the discord link
+
+
+[09/03/2022 2:18 PM] theta_decay#5677
+Thank you.
+
+
+[09/08/2022 10:45 PM] glasgowm#9381
+So just add this bot and let me know
+
+https://github.com/ergoplatform/grow-ergo/blob/main/ecosystem/standards/ChatBridge.md
+
+{Embed}
+https://github.com/ergoplatform/grow-ergo/blob/main/ecosystem/standards/ChatBridge.md
+grow-ergo/ChatBridge.md at main · ergoplatform/grow-ergo
+Grow ERG. Contribute to ergoplatform/grow-ergo development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/Cyrd9u95aD6BteFnj8Dd4YhoR2mwbiTq5gW45gql3zo/https/opengraph.githubassets.com/8d92466ef8d15e6e91894a14493687f90df4c4c007e91f950a1e7f8e8a9a7d8e/ergoplatform/grow-ergo
+
+{Reactions}
+👍 
+
+[12/07/2022 2:20 PM] glasgowm#9381
+https://discord.com/invite/2xKbNFWYjm
+
+
+[12/11/2022 7:59 PM] chaks#0000
+did the airdrop ever happen?
+
+
+[12/12/2022 8:39 AM] Krasavice Blasen#0000
+beta is still active, rewards will be released when it is complete
+
+
+[12/15/2022 10:28 PM] Tomat#0000
+Hi guys. Are there any deadlines, the end date of the beta test?
+
+
+[12/15/2022 11:53 PM] Krasavice Blasen#0000
+https://discord.com/channels/1001717706032160799/1003151161886519398/1048578957227851818
+
+
+[12/18/2022 5:10 AM] drewbeefy.eth#0000
+😎
+
+
+[12/23/2022 4:00 AM] DeanP#0000
+Hello,
+
+This doesn't seem to exist anymore, it's empty. I just tried going via the Duckpools website to make sure I wasn't dreaming, but it's definitely empty. Is that correct? Or am I looking incorrectly? I was hoping to check out the liquidation comments, again.
+
+
+[12/23/2022 4:32 AM] Krasavice Blasen#0000
+Hey, yeah we made it private when we were considering a bug bounty competition
+
+
+[12/23/2022 4:32 AM] Krasavice Blasen#0000
+But, Im thinking of a different approach now for auditing process
+
+
+[12/23/2022 4:33 AM] Krasavice Blasen#0000
+So, happy to make public again
+
+
+[12/23/2022 4:35 AM] Krasavice Blasen#0000
+https://github.com/duckpools/lend-protocol-contracts
+
+{Embed}
+https://github.com/duckpools/lend-protocol-contracts
+GitHub - duckpools/lend-protocol-contracts
+Contribute to duckpools/lend-protocol-contracts development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/r3KdxXhW93xZF8ZvzVGgfN4m1WrTeHvZaaV7RCVhDFQ/https/opengraph.githubassets.com/f90a5019c63a15ec8a12e83351937415219ecc778630d4ca6e375d68f42db366/duckpools/lend-protocol-contracts
+
+
+[12/23/2022 4:36 AM] Krasavice Blasen#0000
+Comments regarding the threshold is described best probably in the collateral contract section.
+
+
+[12/23/2022 4:47 AM] DeanP#0000
+Awesome, thanks for this. I was only reading the documentation a few weeks back, and I just wanted to refer back to it. 
+
+I'll keep my eye on things as best I can. I believe you're looking at the possibility of a token, and I liked your previous comments on this matter. I look forward to seeing more details of your plan for the project.
+
+
+[12/24/2022 1:46 AM] yeahokai#0000
+After lending ergo to pool is it meant to show up on the 'your assets in pool'?
+
+
+[12/24/2022 1:47 AM] yeahokai#0000
+Or does it just take time to show?
+
+
+[12/24/2022 2:01 AM] Krasavice Blasen#0000
+Takes a little bit of time
+
+
+[01/08/2023 4:15 PM] Victor | The Valedictorian 🌱#0000
+Hello everyone! How’s it going?
+
+
+[01/08/2023 4:15 PM] Victor | The Valedictorian 🌱#0000
+I hope the holiday season treated you all nicely
+
+
+[01/08/2023 6:59 PM] Chungus#0000
+Hello
+
+
+[01/08/2023 7:14 PM] quokka#0000
+Hello 👋
+
+
+[01/08/2023 10:43 PM] Krasavice Blasen#0000
+Hello to the new people! Thanks for joining! I presume the latest couple have come from this Twitter Space. Its great to have you here!
+
+
+[01/08/2023 10:44 PM] Krasavice Blasen#0000
+We have a lot of things lined up for this and I think its going to get very active around here soon.
+
+{Reactions}
+👍 
+
+[01/08/2023 10:44 PM] Krasavice Blasen#0000
+We have a lot of things lined up for this month and I think its going to get very active around here soon.
+
+
+[01/09/2023 5:23 PM] Rishabh#0000
+Is airdrop testing over ? Some of my friends asking to participate but this week i received airdrop test token in my wallet, so is it over or still running ?
+
+
+[01/10/2023 3:26 AM] Krasavice Blasen#0000
+Still going 🙂
+
+
+[01/10/2023 3:27 AM] Krasavice Blasen#0000
+Id like to see some liquidations during the beta which hasnt happened yet!
+
+
+[01/10/2023 11:38 AM] DeanP#0000
+Damn, I had a higher risk loan I paid back yesterday. I'll put one back on. I don't mind taking one for the team 😉
+
+By the way, the Twitter Space the team were involved with on Sunday with Cardano Proxies was really insightful. It was nice to hear about the plans for the future. Keep up the great work.
+
+
+[01/10/2023 7:42 PM] Foeniculum ERGnomes#0000
+Love to hear that! We're considering having a more in-depth space about lending with Duckpools and e.g. Aada Finance from Cardano 😁
+
+
+[01/11/2023 6:08 AM] DeanP#0000
+That would be awesome. Something being a little more centered around Duckpools would be very useful. I'm not saying don't try and include Aada Finance, I absolutely would love to hear that. I just think something a little more personally would be great. May be dropping some targets Q1 or Q2 (whenever it may be) for a token sale on Ergopad would help as well. Some may want to make sure they organise their Ergo and Ergopad accordingly 😉 
+
+I'll keep my eyes peeled for the Whitepaper.
+
+
+[01/11/2023 6:13 AM] Krasavice Blasen#0000
+I'd love us to release a date for the token sale, nothing official yet but I would count on it coming very soon. 🙂
+Having Aada Finance join us would be great, but totally agree something more personal is needed too. 
+I do plan on hosting a couple AMAs leading up to the token sale so that will be a good opportunity for that. 
+
+Whitepaper is just about ready, but we are waiting on some legal advice before we can release.
+
+
+[01/11/2023 12:41 PM] Foeniculum ERGnomes#0000
+Having a Cardano counterpart helps with showing them what Ergo and its devs are capable of, as well as with reaching out to Cardano peeps that don't know much about Ergo DeFi 🥳
+
+
+[01/11/2023 5:35 PM] MGpai#0000
+@Krasavice Blasen Have you considered using NFTs as collateral?
+
+
+[01/11/2023 11:39 PM] Krasavice Blasen#0000
+Yes, but perhaps better as a sky harbor product. On duckpools it would be fine too so long as nft offers are setup so nfts could actually be immediately liquidated
+
+
+[01/17/2023 7:53 PM] Noah#0000
+this will be possible on SigmaFi
+
+
+[01/17/2023 7:54 PM] Noah#0000
+any native token including stake keys could be used as collateral
+
+
+[01/17/2023 9:32 PM] quokka#0000
+I should talk with SigmaFi devs to see if theres any way for collaboration with SkyHarbor
+
+{Reactions}
+🔥 
+
+[01/18/2023 6:24 AM] T U L O (ErgoMinnow)#0000
+I just wrote an article on SigmaBonds. Some cool stuff. I think skyharbor and them could definitely figure out some fun stuff
+
+
+[01/22/2023 8:42 PM] MB App0#0000
+👀
+
+
+[01/22/2023 9:13 PM] Foeniculum ERGnomes#0000
+Might look quiet now, but the coming week is gonna be packed with news
+
+
+[01/22/2023 9:13 PM] Foeniculum ERGnomes#0000
+that's when the marketing begins :dancingduck:
+
+
+[01/22/2023 9:14 PM] Foeniculum ERGnomes#0000
+buidl -> test -> shill
+
+
+[01/22/2023 9:21 PM] Krasavice Blasen#0000
+Yeah super excited for the coming weeks!
+
+
+[01/22/2023 10:01 PM] DeanP#0000
+I was curious to know if you have you now seen this happen? 
+
+I had some positions in place, but they seem to have disappeared. The problem I've got is I haven't tallied everything up as good as I had hoped for you, and the Ergo explorer is defeating me at the moment haha. 
+
+This had me thinking will their be something showing the transactions an individual has made? This would make things much easier.
+
+
+[01/22/2023 10:05 PM] Krasavice Blasen#0000
+Yeah we plan to have a full user dashboard which shows all sorts of things, one of which is tx history
+
+
+[01/22/2023 10:10 PM] Krasavice Blasen#0000
+Oh wow! I actually hadn't looked through the history when I made this statement, I thought there were no liquidations since my position hadn't been liquidated (and I bought at an extreme) but it seems like many have been already!
+
+
+[01/22/2023 10:11 PM] Krasavice Blasen#0000
+Here is an example of a liquidation transaction: https://explorer.ergoplatform.com/en/transactions/1bf959cf7dd2b51155ba4f3ae358530331f36c2dcc0a05d49e4716dfa10c3063
+So if you are looking for your own, follow the path of your txs to where it ends up at ``4mzW6T9P1ufY4xwq5jNGZNtv6tpPMjYR3nyYTZejCZ1xawYCySuMacMW81Cwr4YikrcfLLA9oXHVxs7C96Q3wPNajVSPUSged4E5JA1NcGnckSgu15FZ3BYC29CYFacZPpfxdSRbNcxFWcfRV2UEehfuHUSeChsXXSBkiFttCy9Cjnt54mCLacV4DmNxDQqfo9sX3N7gpehnbWcmQe3mb6Ha2vwnknosShUoxQcoRf8u1KbLoYRQzkyBZ3rAi7gT8jfKWb36K1ZuL9jggyrmrn1aPNY71xtjTGpVw4DyEJLA9tQj3dPgYeNzzGpdbzv8omx6fMG6zr99G3PGy7HHdwbH1vaRhhVtAuXaTbidhjJctfpzWBCCUQRiksfqBr9hiwDCnLidhRHgTBiFrtet3gDTbZGrhN5YJpteDc8RvwtXrurwi82ksLcvhXZE51De2uha4o3Sp2PFrYrhjCMQKZ2ntkEjxSkDmk4HCsp68U9NBFYbF9KHdKiEYESPPJzDx8yFhLKrgyPiB15KwtE88WXQEC6b6aSgD9qcd92jCACVURPed2Nufgnqdrap4kj8msyZs1BuYxoWfEu3JYUFPWRm842yxkmPVdeMvXwxsfcZu86iNPLNGFy9hVxPF1QNVjjNsLS9GnK8D9HzvmzSXMidJsvfZZV4aHZA3bXs2GovsxHzsBaVXMqRKxPxVN2vGhFN6djW7M9BJUe9Fv4FwTDyDrAPo6E3Mk2sDuaTnsjFpuHUsWycW5s2EcJXmQrLpXK8LMRxSKVNqk2MUfWbxMtqYJvTAi1mj7pDfuna67V5qnC9GcsZKsPsXxvRYdDf1r`` (this is the collateral contract) and then you should find it being spent
+
+
+[01/22/2023 10:18 PM] DeanP#0000
+I'm sure someone would have already mentioned this, but because I noticed my positions looked liquidated I thought I would mention something. 
+
+What you've mentioned sounds like just the thing needed.
+
+
+[01/22/2023 10:26 PM] DeanP#0000
+Nice. I shouldn't be happy to see my positions liquidated, but I'm glad they've helped the team haha. It goes to show that positions particularly with all the volatility going on need to be monitored. Obviously, I'm only playing with small figures to help. 
+
+Thanks for sending me an example of a liquidated position. I'll have a play with things, and I'll try and locate mine.
+
+
+[01/23/2023 4:21 AM] Arkadias#0000
+me three
+
+
+[01/23/2023 4:22 AM] Arkadias#0000
+https://tenor.com/view/shut-up-and-take-my-money-futurama-fry-take-my-money-money-gif-15195954
+
+{Embed}
+https://tenor.com/view/shut-up-and-take-my-money-futurama-fry-take-my-money-money-gif-15195954
+https://images-ext-1.discordapp.net/external/lzc04UPNcLwJAF0sFUS2hfeuI7W33TArWKunF_T0WYk/https/media.tenor.com/0-e7d7ct3G0AAAAD/shut-up-and-take-my-money-futurama.png
+
+
+[01/23/2023 9:46 AM] mappo#0000
+Hehe, jep. Was just looking for updates / roadmap in here but looks like announcement channel isn't up to date
+
+
+[01/23/2023 10:14 AM] Krasavice Blasen#0000
+Yeah I didnt post the latest tweet here as it was just a teaser, today the quackpaper will be released here and on Twitter
+
+
+[01/23/2023 2:46 PM] stralCornumorph#0000
+https://tenor.com/view/dog-doggo-puppies-puppy-cute-gif-16889235
+
+{Embed}
+https://tenor.com/view/dog-doggo-puppies-puppy-cute-gif-16889235
+https://images-ext-1.discordapp.net/external/8zD0LNLL3hlpj_xVRPruaLdKCYG_yajuzaE5dj-Sae8/https/media.tenor.com/p61bWiMkoAYAAAAD/dog-doggo.png
+
+
+[01/24/2023 1:45 PM] glasgowm#9381
+https://www.reddit.com/r/ergonauts/comments/10j58ip/community_chat_tuesdays_decentralized_lending/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/10j58ip/community_chat_tuesdays_decentralized_lending/
+r/ergonauts - Community Chat Tuesdays - Decentralized Lending Proto...
+28 votes and 2 comments so far on Reddit
+
+
+[01/24/2023 5:05 PM] Cosmo Kramer#0000
+GM
+
+
+[01/24/2023 5:24 PM] Foeniculum#0000
+Sup Kramer
+
+
+[01/26/2023 12:46 PM] StarboyNeon#0000
+hello bro
+
+
+[01/26/2023 3:58 PM] Foeniculum#0000
+What's quackin'
+
+
+[01/26/2023 3:58 PM] Foeniculum#0000
+🤣
+
+
+[01/26/2023 4:05 PM] StarboyNeon#0000
+😂 😂
+
+
+[01/26/2023 6:38 PM] mtlz - Surfer#0000
+hello everyone !
+
+
+[01/26/2023 6:38 PM] mtlz - Surfer#0000
+🦆
+
+
+[01/26/2023 6:39 PM] mtlz - Surfer#0000
+I discovered Duckpools yesterday via a newsletter. 
+I would like to offer for **free** an interview on my blog. 
+
+Please have a look at some of my previous interviews. 
+https://thesurferinvestor.com/analysis/interview-0xsilkroad-teaparty/
+https://thesurferinvestor.com/analysis/interview-supriyo-hyy-pe/
+
+I do it to support early stage founders. 
+I would send you some question in writing, you answer them via voice message or writing (you decide) - then I work on making a bullish article and you have final approval. Then I publish. 
+It should take around 30mins of your time.
+
+{Embed}
+Crypto Pouf
+https://thesurferinvestor.com/analysis/interview-0xsilkroad-teaparty/
+[Exclusive Interview] Meet 0xSilkRoad founder of the Social protoco...
+Today we have the pleasure of interviewing 0xSilkRoad, the founder of TeaParty one of the first Web3 Social & Earn (S&E) protocols. In this article, together with 0xSilkRoad, we will cover, what Social & Earn is, what is his background, how to earn via Social media, what are the next steps for TeaParty, and many more. Ready for a party? A TeaPar...
+https://images-ext-1.discordapp.net/external/24MeNv8TFpAQ26YmbGXhFcMWWxtIgQ1tXfQ8ivVVckA/https/thesurferinvestor.com/wp-content/uploads/2022/08/Screenshot-2022-08-05-at-13.02.56.png
+
+{Embed}
+Surfer Investor
+https://thesurferinvestor.com/analysis/interview-supriyo-hyy-pe/
+[Exclusive Interview] Meet Supriyo, CEO&Co-Founder of Hyy.pe - Surf...
+Today we have the honor to get an interview with Supriyo, CEO and Co-Founder of Hyy.pe. We had the chance to ask him a couple of questions about what Hyy.pe is, what problem it solves, what new features are expected, and many more. Let’s dive in! [SurferInvestor] Could you please summarize briefly what Hyy.pe is about? [Supriyo] Hyype is an open...
+https://images-ext-2.discordapp.net/external/GSCJniqOOvANI_HBPOBLvOTwAMJDGAhwVgq9GQi6r2A/https/thesurferinvestor.com/wp-content/uploads/2022/07/We9RzxjA_400x400.jpeg
+
+
+[01/26/2023 11:51 PM] Krasavice Blasen#0000
+https://tenor.com/view/utya-duck-kaczka-hello-hi-gif-23947977
+
+{Embed}
+https://tenor.com/view/utya-duck-kaczka-hello-hi-gif-23947977
+https://images-ext-2.discordapp.net/external/780MCNeyynk5-kK2eAq7Z7bj1yrk03TTlJg0Ke4E5NA/https/media.tenor.com/_GLDs33hTqQAAAAD/utya-duck.png
+
+
+[01/26/2023 11:53 PM] Krasavice Blasen#0000
+That sounds amazing! Please send me a DM and we can discuss things further there. Welcome to the discord btw!
+
+
+[01/27/2023 10:40 AM] StarboyNeon#0000
+how was your night bro
+
+
+[01/27/2023 10:40 AM] StarboyNeon#0000
+thanks
+
+
+[01/27/2023 1:21 PM] outsider dogue#0000
+wen NON kyc non ergopad presale ?
+
+
+[01/27/2023 1:21 PM] Foeniculum#0000
+Duckpools is no KYC
+
+
+[01/27/2023 1:23 PM] Krasavice Blasen#0000
+Feb 9 is the public signup round! It will be first come first served so look out for a follow-up announcement with the specific date/time for it.
+
+
+[01/27/2023 1:23 PM] drewbeefy.eth#0000
+❤️
+
+
+[01/27/2023 1:38 PM] ! Jaypeee.sol#0000
+Helloo
+
+
+[01/27/2023 1:39 PM] Krasavice Blasen#0000
+Hey! Welcome!
+
+
+[01/27/2023 1:39 PM] Krasavice Blasen#0000
+It's night for me now! But things have been great so far 🙂
+
+
+[01/27/2023 1:46 PM] T U L O (ErgoMinnow)#0000
+dat timezone difference lol
+
+
+[01/27/2023 1:46 PM] StarboyNeon#0000
+wow, where are you from
+
+
+[01/27/2023 1:46 PM] Krasavice Blasen#0000
+Australia 🇦🇺
+
+
+[01/27/2023 1:47 PM] Krasavice Blasen#0000
+But I am somewhat accustomed to the American/ EU timezones now
+
+
+[01/27/2023 1:53 PM] T U L O (ErgoMinnow)#0000
+im still trying to get used to my normal timezone lol
+
+
+[01/27/2023 1:54 PM] Krasavice Blasen#0000
+Yeah, the Philippines is basically Australian time anyway
+
+
+[01/27/2023 2:06 PM] T U L O (ErgoMinnow)#0000
+right lol
+
+
+[01/27/2023 2:06 PM] T U L O (ErgoMinnow)#0000
+still struggling LOL
+
+
+[01/27/2023 2:32 PM] outsider dogue#0000
+thanks for info
+
+
+[01/27/2023 3:54 PM] StarboyNeon#0000
+wow
+
+
+[01/27/2023 3:54 PM] StarboyNeon#0000
+ooh
+
+
+[01/28/2023 7:10 AM] StarboyNeon#0000
+Gm guys
+
+
+[01/28/2023 8:28 AM] Krasavice Blasen#0000
+Morning!
+
+
+[01/28/2023 4:36 PM] StarboyNeon#0000
+Weekend bro
+
+
+[01/28/2023 7:33 PM] NuTt#0000
+hello 👋 guys
+
+
+[01/28/2023 7:36 PM] NuTt#0000
+it’s like IDO starts from 3rd or 4th ?
+
+
+[01/28/2023 7:38 PM] NuTt#0000
+bit confused 
+3rd there will be snapshot for ergopad holders right?
+
+from 4th we need to send SigUSD for eligible tires
+
+
+[01/28/2023 7:39 PM] NuTt#0000
+or different approch
+
+
+[01/28/2023 10:29 PM] StarboyNeon#0000
+Hi
+
+
+[01/29/2023 2:02 PM] Foeniculum#0000
+https://twitter.com/ERGnomes/status/1619686891716235268?s=20&t=9bZ9XXuatQxSQvAVTTrpwg
+
+{Embed}
+Foeniculum (@ERGnomes)
+https://twitter.com/ERGnomes/status/1619686891716235268?s=20&t=9bZ9XXuatQxSQvAVTTrpwg
+Ergo breaking out on high volume🔥
+
+Perfect timing: today we're hosting #Cardano🤝 #Ergo Deep Dives Ep. 5 - Lending Protocols
+
+⏰7pm UTC
+📍https://t.co/sym7fUPAD1
+
+Learn about how lending is done differently on @duckpools_io 🦆
+#Ergonauts $ERG
+https://images-ext-2.discordapp.net/external/C5LSc5mUuk_dsMcGpLL_1P_rOrAkK6PxLWTA2scsjSE/https/pbs.twimg.com/media/FnpHn44XgAMkoon.jpg
+Twitter
+
+
+[01/29/2023 2:03 PM] Foeniculum#0000
+Hey guys! Duckpools will be speaking at today's cross-chain space 😄
+Cardano 🫶  Ergo Deep Dives Ep. 5: Lending Protocols 🔥
+
+
+[01/29/2023 5:41 PM] StarboyNeon#0000
+Nice
+
+
+[01/29/2023 9:04 PM] Krasavice Blasen#0000
+Welcome to the newcomers! I hope you enjoyed our twitter space today!
+
+
+[01/29/2023 10:48 PM] StarboyNeon#0000
+Yes bro
+
+
+[01/30/2023 3:13 PM] mbiro0256#0000
+If your  interested in promoting your project in telegram channel and YouTube channel to attract more investors dm for more details
+
+
+[01/30/2023 4:19 PM] StarboyNeon#0000
+Ok
+
+
+[01/30/2023 4:20 PM] mbiro0256#0000
+can dm you directly?
+
+
+[01/31/2023 9:24 PM] gcarrharris#0000
+Good afternoon all
+
+
+[01/31/2023 9:59 PM] Foeniculum#0000
+what's up
+
+
+[01/31/2023 11:14 PM] Austen Milbarge | mikeyctc1#6303
+Hello, i have a Question about Lending on DuckPools, say I wanted to commit 1000 Erg to the Pool right now, and there's only 331 ERG currently in the pool, so that makes 1331 total ERG available for Borrowing, if someone Borrows 500 Erg, am I locked into holding My entire 1000 in until they repay, or could I pull out 831, and have to hold 169 in until the ERG Deposited for Lending goes above 669 to pull my other 169 out?
+
+
+[02/01/2023 12:03 AM] Foeniculum#0000
+Hi!
+Fyi you can only lend 1 ERG atm cause Duckpools is still in beta
+
+(you've just posted the same message 3 times in case you didn't notice)
+
+
+[02/01/2023 12:22 AM] Austen Milbarge | mikeyctc1#6303
+oh, Unsure why it posted 3 times.. , yes I understand current situation,  Im just asking for Reference in the future hown it works
+
+
+[02/01/2023 1:30 AM] Krasavice Blasen#0000
+In your hypothetical situation you could pull out as much as availble, you dont need to wait for the full 1000. But, it is unrealistic for one person to make up so much of a major pool, so without 1 Erg limits this would be close to impossible for the Erg pool
+
+
+[02/01/2023 1:32 AM] Krasavice Blasen#0000
+Maybe if a community created novelty token with low traction was made, one person might make up the majority of the pool and have to deal with this. But again, if this is an issue then we can just create locked liquidity contracts too
+
+
+[02/01/2023 2:38 AM] Austen Milbarge | mikeyctc1#6303
+I see, so pools will have limits so this doesn’t happen. Just trying to learn how I could commit enough to make the APY return a couple Erg a day. And what type commitment that amount of erg has to be to the pool.
+
+
+[02/01/2023 2:39 AM] Krasavice Blasen#0000
+No no, pools won't have limits!
+
+
+[02/01/2023 2:39 AM] Krasavice Blasen#0000
+They just do for now with testing stage
+
+
+[02/01/2023 2:40 AM] Krasavice Blasen#0000
+I was just saying once the limits are gone, the ERG pool is likely to have significantly more liquidity so it will be very difficult for one person to make up even 20% of the pooled funds
+
+
+[02/01/2023 2:42 AM] gcarrharris#0000
+Was curious on the wallet snapshot for the QUACK how much do you have to be staking on ergopad
+
+
+[02/01/2023 2:42 AM] gcarrharris#0000
+Couldn’t see that
+
+
+[02/01/2023 2:42 AM] gcarrharris#0000
+To be eligible for sale
+
+
+[02/01/2023 2:49 AM] Krasavice Blasen#0000
+From my understanding of the info at https://www.ergopad.io/staking
+it looks like you need at least 12,500 Ergopad staked. Let me confirm with marty
+
+
+[02/01/2023 2:51 AM] Austen Milbarge | mikeyctc1#6303
+Oh I got ya. Thank you for taking the time to explain
+
+
+[02/01/2023 2:52 AM] gcarrharris#0000
+Ok thanks so that looks like minimum tier if I remember without looking, so if you are minimum tier on the snapshot you should be eligible
+
+
+[02/01/2023 2:53 AM] Krasavice Blasen#0000
+Yeah that sounds correct to me. I'll let you know if otherwise as soon as I can 🙂
+
+
+[02/01/2023 10:35 AM] WickedRider17#0000
+Hi Blasen, with regard to this ergopad stake. Let’s say the stakers registering for the whitelist have a total of stake of 10mil ergopad and my stake represent, say, 0.1mil ergopad (i.e 1%). Does that mean I can only purchase 1% of 3.15mil Quacks = 31,500 tokens?
+
+
+[02/01/2023 11:04 AM] Krasavice Blasen#0000
+So my understanding is that the maximum amount of tokens allocated to you would be: (your tier allocation / total allocation weigh registered) * 3.15 mil tokens. This roughly equates to what are stating. 0.1 mil has a allocation weight of 96. So you would get 96/ amount registered * 3.15 million
+
+
+[02/01/2023 11:06 AM] WickedRider17#0000
+I see
+
+
+[02/01/2023 11:07 AM] Krasavice Blasen#0000
+The nature of our token launch is to raise the  amount of funds actually needed, not some speculative figure. The consequence of this is the supply can be quite limited. But I do hope that this increases token ownership decentralization
+
+
+[02/01/2023 11:07 AM] WickedRider17#0000
+1. Is there a table for the tier allocation?
+2. What if someone does not buy up all the token allocated for them?
+
+
+[02/01/2023 11:08 AM] Krasavice Blasen#0000
+In the page linked if you click tiers it explains the allocations
+
+
+[02/01/2023 11:08 AM] WickedRider17#0000
+Totally agree on the token ownership decentralisation 💯
+
+
+[02/01/2023 11:10 AM] Krasavice Blasen#0000
+2. I have asked Marty to confirm exactly how we proceed with unsold tokens. Unsold tokens will definitely be resold, it most likely will be a first come first served so there wont be allocation shenanigans there.
+
+
+[02/01/2023 11:10 AM] Krasavice Blasen#0000
+But yeah hopefully he can back soon so I can give a how and when for that one
+
+
+[02/01/2023 11:10 AM] WickedRider17#0000
+Thanks a lot. Found it!
+
+
+[02/01/2023 11:10 AM] WickedRider17#0000
+https://cdn.discordapp.com/attachments/1003151161886519398/1070300213270560829/IMG_5976.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/1003151161886519398/1070300213270560829/IMG_5976.png
+https://media.discordapp.net/attachments/1003151161886519398/1070300213270560829/IMG_5976.png
+
+
+[02/01/2023 11:11 AM] Krasavice Blasen#0000
+Yep keep in mind the tiers stack which is why 100k should have 96 weight
+
+
+[02/01/2023 11:22 AM] FlyingPig#0000
+100k would have 58 as weighting as the Gamma tier.
+If you have 125k you get the 100k weight for Gamme which is 58 and the 25k weight for Alpha which is 10, totalling 68.
+
+
+[02/01/2023 11:46 AM] Krasavice Blasen#0000
+Ahhh ok, I misunderstood that makes sense! Thanks for clarifying
+
+
+[02/01/2023 11:47 AM] WickedRider17#0000
+I see. Yeah that makes more sense 😬
+
+
+[02/01/2023 3:23 PM] gcarrharris#0000
+Hey GM all
+
+
+[02/01/2023 3:23 PM] gcarrharris#0000
+Is it safe to say if you are staking on at least minimum tier, you can get some $quacks
+
+
+[02/01/2023 3:24 PM] gcarrharris#0000
+Or is it not guaranteed
+
+
+[02/01/2023 3:29 PM] Krasavice Blasen#0000
+Yeah it should be guaranteed you receive the whitelist tokens which you can use to purchase your allocated $quacks
+
+
+[02/01/2023 3:29 PM] Krasavice Blasen#0000
+You can purchase anytime during the staker contribution phase
+
+
+[02/01/2023 3:30 PM] Krasavice Blasen#0000
+You can purchase anytime during the staker contribution phase, it is not first come first served for staker round
+
+
+[02/01/2023 4:15 PM] gcarrharris#0000
+Ok thanks and if your not staking ergo pad you can’t participate in the snapshot first round is that correct?
+
+
+[02/02/2023 2:07 AM] yeahokai#0000
+When is contribution phase?
+
+
+[02/02/2023 2:08 AM] Krasavice Blasen#0000
+Yeah you will need to wait for the public round
+
+
+[02/02/2023 2:10 AM] Krasavice Blasen#0000
+Staker contribution is Feb 4 at 18:00 UTC
+
+
+[02/02/2023 2:52 PM] muffinator#5168
+what are your thoughts/the main differences between sigmafi and duckpools on the surface they are very similar?
+
+
+[02/02/2023 2:55 PM] Krasavice Blasen#4574
+This exact question was asked on twitter today! https://twitter.com/duckpools_io/status/1621109011268636672?s=20&t=puVV11XJkX1m5oi5kz5NOA
+
+{Embed}
+duckpools.io (@duckpools_io)
+https://twitter.com/duckpools_io/status/1621109011268636672?s=20&t=puVV11XJkX1m5oi5kz5NOA
+@ndogg11421204 SigmaFi is p2p lending. So every request for a loan needs a lender who is willing to accept those specific conditions. duckpools is pooled lending. So lenders just drop assets in a pool, borrowers just borrow from the pool - all instantly! No need to wait for individual backers
+Twitter
+
+
+[02/02/2023 2:59 PM] Krasavice Blasen#4574
+As mentioned it really boils down to p2p lending vs pool to peer lending. duckpools enables more reliable liquidity sources, you can say with great confidence that if you come to duckpools you could get a loan for just about any amount instantly. On sigmafi you would need to wait for a lender to match your specific conditions
+
+
+[02/02/2023 2:59 PM] muffinator#5168
+that was handy, Thank you!
+
+
+[02/02/2023 3:03 PM] muffinator#5168
+not sure this would be possible but what if someone made a token or artificially inflated a tokens value and then took out a large loan using the inflated value of the other token as collateral from the pool what would happen? and would that be possible?
+
+
+[02/02/2023 3:05 PM] Krasavice Blasen#4574
+So is the suggestion to use a token with artifically inflated value as collateral?
+
+
+[02/02/2023 3:06 PM] Krasavice Blasen#4574
+If so, then keep in mind pools have a select set of accepted collateral. So a brand new token couldn't just be easily accepted as collateral for a pool
+
+
+[02/02/2023 3:06 PM] Krasavice Blasen#4574
+Pools can add collateral types over time, but they would need to go through governance and there would be a large window of warning so lenders who disagree with it can withdraw positions if needed
+
+
+[02/02/2023 3:07 PM] muffinator#5168
+Thank you for the quick reply and great answer
+
+
+[02/02/2023 3:08 PM] Krasavice Blasen#4574
+No worries, also to add, pools can set different liquidation thresholds for every asset accepted as collateral. So perhaps $sigusd might be considered a safe collateral it could have low liquidation threshold, but some risky token like $comet for example should have a higher threshold
+
+
+[02/02/2023 3:09 PM] Krasavice Blasen#4574
+The pools themselves are designed to be quite customizable actually 🙂
+
+
+[02/02/2023 4:23 PM] StarboyNeon#0000
+Why are people having bot tag
+
+
+[02/02/2023 4:24 PM] Krasavice Blasen#0000
+There is a #duckpools channel in the main Ergo discord and messages there are being bridged here by a bot
+
+
+[02/02/2023 4:26 PM] StarboyNeon#0000
+ooh
+
+
+[02/03/2023 10:11 AM] Xizzle4Shizzle#0000
+Will we be able to earn QUACKS just by using the platform e.g lending and borrowing?
+
+
+[02/03/2023 10:16 AM] Krasavice Blasen#0000
+Its possible as the holders can vote to set this up using treasury tokens and its in the spirit of decentralized ownership and rewarding those with regular use of the platform
+
+
+[02/03/2023 10:18 AM] Krasavice Blasen#0000
+But no explicit definition of this has beeb planned yet, coming up with fair reward systems free from exploits takes some time to plan and research
+
+
+[02/03/2023 10:18 AM] Xizzle4Shizzle#0000
+Oh that's strange I thought it would've just been a given considering most defi you get rewarded by using the platform
+
+
+[02/03/2023 10:19 AM] Xizzle4Shizzle#0000
+Yeah that makes sense
+
+
+[02/03/2023 10:20 AM] Krasavice Blasen#0000
+But no explicit definition of this has been planned yet, coming up with fair reward systems free from exploits takes some time to plan and research
+
+
+[02/03/2023 10:48 AM] George208H#0000
+Has duckpools launched? I only see 300+ ERG locked?
+
+
+[02/03/2023 10:57 AM] Krasavice Blasen#0000
+Launched as a proof of concept beta. The beta has transaction limits of 1 ERG, hence the low liquidity. We had this in place to protect users during testing phase. Full launch will have no limits after some additional security checks and audits, as well as some UI redesign and more borrowing features and lending pools 🙂
+
+
+[02/03/2023 10:58 AM] Krasavice Blasen#0000
+But keep in mind the beta is fully functional from lending to borrowing, dynamic interest rates and liquidations. But full launch will be even better!
+
+
+[02/03/2023 11:36 AM] XupEdd#0000
+Any future plans to collaborate with Spectrum DEX?
+
+
+[02/03/2023 12:31 PM] Krasavice Blasen#0000
+Definitely! We already use Spectrum DEX for liquidations on insufficiently collateralized loans. In phase 3 of our token launch a candidate feature to be developed is undercollateralized loans in restricted spending environments - one example of a restricted spending environment might be on spectrum, so margin trading tools for spectrum up to 100x leverage for example
+
+
+[02/03/2023 12:32 PM] Krasavice Blasen#0000
+Similar to a margin trading account on a CEX, duckpools could be used for this on spectrum DEX
+
+
+[02/03/2023 3:39 PM] Kikubaaqudgha#0000
+Hasn't been here for a while, did the initial airdrop happened?
+
+
+[02/03/2023 3:42 PM] Krasavice Blasen#0000
+The airdrop rewards are still safely being held. We were just waiting for beta closure which got delayed a bit as we prioritized token launch in order to grow faster
+
+
+[02/03/2023 3:42 PM] Krasavice Blasen#0000
+But, that said I think we should announce an end date for it. Get a last minute flurry of testing as the public token launch round comes into play!
+
+
+[02/03/2023 3:43 PM] Krasavice Blasen#0000
+Expect an annoucement in the next 2 days, thanks for bringing it up!
+
+
+[02/03/2023 3:51 PM] Kikubaaqudgha#0000
+No worries!
+
+
+[02/03/2023 3:51 PM] gcarrharris#0000
+Hey all Gm
+
+
+[02/03/2023 3:51 PM] Kikubaaqudgha#0000
+looking forward to the full launch
+
+
+[02/03/2023 3:53 PM] gcarrharris#0000
+Spent some time reading the white paper and I love the project, however the last page of WP I am curious about the anonymous entity…do investors get access to the multi sig info and all that? I was super comfy and about to stake ergopad but after that last page it makes me a bit cautious, anywhere to read more about the entity and will the community be involved in anyway managing the treasury?
+
+
+[02/03/2023 4:03 PM] Krasavice Blasen#0000
+So the disclaimer is there for legal reasons to recognize that, as with most tokens, just because a project makes claims about its token's offerings they usually don't carry any legal weight. Generally, people purchase tokens in good faith, which is the sad reality of the lack of good regulation for crypto in the world right now. 
+
+Some of the legal advice we received recommended using a different entity to run the token sale, so we as founders, wouldn't be liable for any possible damages. We have gone down this route. 
+
+All I can really say is that I vouch for and trust this entity 100%. I believe that they will act responsibly. As mentioned in the whitepaper, financial statements will be prepared for token holders, which will show exactly how funds have been spent.
+
+
+[02/03/2023 4:05 PM] Krasavice Blasen#0000
+Also, keep in mind phase 2 looks to create even greater funding levels than phase 1, so I would argue that the greatest incentive is to deliver on the proposed works
+
+
+[02/03/2023 4:09 PM] gcarrharris#0000
+where is the entity of the anonymous jurisdiction?
+
+
+[02/03/2023 4:09 PM] gcarrharris#0000
+location wise
+
+
+[02/03/2023 4:09 PM] gcarrharris#0000
+and thx for the explanation
+
+
+[02/03/2023 4:12 PM] Krasavice Blasen#0000
+A jurisdiction with more relaxed regulations on crypto token sales 🙂 
+I can't be more specific than that sorry!
+
+
+[02/03/2023 4:13 PM] Krasavice Blasen#0000
+No worries, I am glad you are doing your research. duckpools afterall is about sound finance. I really hate how dubious things need to be!
+
+
+[02/03/2023 4:18 PM] gcarrharris#0000
+I understand regulations are hard trust me I’m also building a project, just hard to get serious investors to put money in an “anonymous entity” and also not disclose where they are located
+
+
+[02/03/2023 4:18 PM] gcarrharris#0000
+I’m sure you have heard of INDIGO on cardano but an example of posting public all the legal docs they have, the cayman island jurisdiction and paperwork, etc.
+
+
+[02/03/2023 4:19 PM] gcarrharris#0000
+They have been building for over a year and are blowing up now, it’s synthetics so a bit different but just as a regulatory example
+
+
+[02/03/2023 4:20 PM] gcarrharris#0000
+As I remain in cardano and venture into ergo, I’m looking for great projects like this, but this above would hold me back personally from investing a large amount, that’s just me doesn’t mean it’s right or anything
+
+
+[02/03/2023 4:29 PM] Krasavice Blasen#0000
+For sure, I do agree that serious investors would beware or at least not invest with large amounts and this is perfectly reasonable to me. 
+
+Fortunately, phase 1 has a very minimal target funding. Even small contributions from the many will likely allow us to reach funding goals. 
+
+Thereafter, code becomes law. Phase 1 transitions the protocol in its entirety to a DAO-like structure at smart contract level. Subsequent token sale tokens are locked by smart contracts unless follow-on phases are successful. Promises become reality in code and subsequent funding rounds require less and less trust in the token sale conductor.
+
+
+[02/03/2023 4:31 PM] Krasavice Blasen#0000
+Really, the legal structures become less and less useful. And the protocol and token sale become rather isolated from legalties
+
+
+[02/03/2023 4:32 PM] Krasavice Blasen#0000
+That said, it's possible some of those filings INDIGO has could become public information. I would need to consult with some legal advice first though!
+
+
+[02/03/2023 4:46 PM] Yee#0000
+Will staker contribution start when signup ends?
+
+
+[02/03/2023 4:48 PM] Krasavice Blasen#0000
+Yeah, 1 day after it begins 🦆 
+You can make your contribution anytime during the staker contribution period Feb 4 - Feb 9th
+
+
+[02/03/2023 4:48 PM] Yee#0000
+cool thanks
+
+
+[02/03/2023 5:01 PM] Krasavice Blasen#0000
+Alright, I will be heading to sleep now. Thank you to everyone who has signed up to the staker round. I look forward to seeing duckpools reach its potential!
+
+
+[02/03/2023 5:27 PM] gcarrharris#0000
+Cool this all makes sense and thanks for taking the time, I guess you can get in for not too much first time around, have a great night man!
+
+
+[02/03/2023 7:04 PM] bitsolver#0000
+> Snapshot will be after this form closes on Feb 3 at 17:00 UTC.
+> -- https://www.ergopad.io/whitelist/duckpools/staker
+
+...it's currently past 19:00 UTC, shouldn't the form be closed? has the snapshot happened?
+
+edit: um, this tweet from Ergopad says there's (as of this moment) still 5h left to signup?? https://twitter.com/ErgoPadOfficial/status/1621506218345873409
+
+edit: also gonna ask over in the Ergopad discord...
+
+{Embed}
+ErgoPad.io (@ErgoPadOfficial)
+https://twitter.com/ErgoPadOfficial/status/1621506218345873409
+🚨There is NOW ONLY 10 hours left to join the duckpools staker round on #ErgoPad.
+
+@duckpools_io is a pool based lending platform to facilitate lending and collateralized borrowing of #ERG and it's native assets.
+
+👉🏽 Sign-up now: https://t.co/wDmspAKt8y
+Twitter
+
+
+[02/03/2023 7:06 PM] bitsolver#0000
+also, Hi all! I'm new to Ergopad... how will I know if I'm approved/whitelisted... I completed the form days ago, and there wasn't much of a confirmation, just a little popup that said the form was submitted...
+
+
+[02/03/2023 7:22 PM] Foeniculum#0000
+https://t.me/ergopad_chat
+
+{Embed}
+https://t.me/ergopad_chat
+ErgoPad Discussion
+Welcome to the official Ergopad.io Telegram Group.		📣Announcements: 	https://t.me/ergopad		中文:	https://t.me/+yN8QD_adXQ9mNTk1
+https://images-ext-2.discordapp.net/external/jgMdidOCturPJ5vERIltevX4lmKK8eo5Il4zaLrrXQc/https/cdn1.telegram-cdn.org/file/DO3MFO6HRcXyDese0C5wyF6ebDflAipLC_1zpeS4Sn4AOLUjPmdp2gr3eZemWBIl6B91a-rLD49p3JS3b9ePli6m2B31NHvtJ0eWjDIOgVNtqgzLZuL2gRHaGkwWfUuKR-T_rWRZt2nYEixVwE8cIigDdvWv8g_ptCmSc6bYrZ7uBH-zD1l0WZt6rEBj0AOGdJwLSbuiGU4MHswCEgGGlcqnU-Zyu6ZeEBWPXrRzg3zp_j9IDaDCIbVU6Gf841LifcOAxL0x9SA2ad9AzePGwOTzrVoKPRaxmHBP6mFCW71TpOS562a75dNRXO8INXXWdZzpurmn--gmySmXtCWhMA.jpg
+
+
+[02/03/2023 7:22 PM] Foeniculum#0000
+Ergopad team are very active on telegram, I'd suggest you ask them on there
+
+
+[02/03/2023 7:28 PM] bitsolver#0000
+yeah, I've just posted on their discord, and so did someone else who was just trying to signup but I guess their form submission failed as "soldout" ... and, no offense, but IMHO telegram is hot garbage and it can fucking die ... its UI/UX is so god-awful I don't know how it ever gained any traction at all
+
+
+[02/03/2023 7:30 PM] Foeniculum#0000
+haha fair enough, I personally find it useful when asking for help to DeFi protocols like DEXes etc
+
+
+[02/03/2023 9:11 PM] planou#0000
+Hi,  Is there a bug with the  borrowing tab?  I posted 31 SigRSV of collateral to receive 1 ERG and signed my transaction.  THe 31 SigRSV are gone but I did not receive the 1 ERG and the borrowing key.
+
+
+[02/03/2023 9:15 PM] planou#0000
+Hi,  Is there a bug with the  borrowing tab?  I posted 31 SigRSV of collateral to receive 1 ERG and signed my transaction.  THe 31 SigRSV are gone but I did not receive the 1 ERG and the borrowing key.
+NEVERIND- The trade got reversed and my SigRSV is back in my account.  I guess that side of the dApp is not ready yet to be tested.
+
+
+[02/04/2023 12:58 AM] Krasavice Blasen#0000
+Answered on Twitter, https://twitter.com/duckpools_io/status/1621674260124295168?t=D_9EF6shQHcZ5WrcmK1VXQ&s=19
+
+Basically there is indeed a bug with an API call so your order was automatically refunded
+
+{Embed}
+duckpools.io (@duckpools_io)
+https://twitter.com/duckpools_io/status/1621674260124295168?t=D_9EF6shQHcZ5WrcmK1VXQ&s=19
+@Planotesta Borrowing has been functional on the beta, there is a bug retrieving some data from an API right now. So your borrow order was automatically refunded after it did not go through due to the bug! We will post update in discord when fixed (should be soon)
+Twitter
+
+
+[02/04/2023 1:00 AM] Krasavice Blasen#0000
+Haha secretly I share your telegram sentiment. Looks like ErgoPad messed up with their dates on their tweet. As you can see they extended it and now there are 2 hours left
+
+
+[02/04/2023 1:01 AM] Krasavice Blasen#0000
+Fortunately, it wont delay any other part of the token launch
+
+
+[02/04/2023 1:20 AM] planou#0000
+Thanks
+
+
+[02/04/2023 2:18 AM] Marty#0000
+Sorry about all the issues everyone. Just a reminder the staker snapshot is in 45 minutes
+
+
+[02/04/2023 2:18 AM] Marty#0000
+The signup form will be live until then as well
+
+
+[02/04/2023 11:46 PM] cyrusk40#0000
+Any whitelist leftovers someone has for quackpools staker round contribution?
+
+
+[02/04/2023 11:46 PM] cyrusk40#0000
+Missed that one
+
+
+[02/05/2023 12:50 AM] mattam#0000
+Beta was only 1900 Quacks 🥲
+
+
+[02/05/2023 12:52 AM] Krasavice Blasen#0000
+Fortunately there is still public round and beta staking gets 1 hour early access on signup
+
+
+[02/05/2023 12:55 AM] Krasavice Blasen#0000
+As mentioned there has been so much demand that supply is really stretched!
+
+
+[02/05/2023 1:43 AM] planou#0000
+My stake key was on a different address than the one I whitelisted 🤦‍♂️
+Will need to wait for public round
+
+
+[02/05/2023 1:44 AM] Krasavice Blasen#0000
+I am afraid so, sorry! We can't change allocations post signup as it would adjust everyones allocations
+
+
+[02/05/2023 1:45 AM] planou#0000
+NP
+100% my fault
+
+
+[02/05/2023 3:12 PM] StarboyNeon#0000
+New week guys
+Lg
+
+
+[02/05/2023 3:16 PM] Foeniculum#0000
+Happy Sunday Starboyy
+
+
+[02/05/2023 3:24 PM] cannon#0000
+Is there anything that explains the staking details and benefit? Have any tokens listed on ergopad appreciated since launch? Thx
+
+
+[02/05/2023 3:28 PM] Krasavice Blasen#0000
+There is no staking for duckpools token. 
+
+I am not sure about the details regarding if other tokens have depreciated after their launch. 
+
+I think though, in general most have declined in value. But I think with duckpools since we have a modest funding target (low supply) and there is no staking (no supply to be added) and seemingly high demand. I, personally, believe appreciation is rather likely - but this of course is not financial advice and just my opinion 🙂
+
+
+[02/05/2023 3:29 PM] Krasavice Blasen#0000
+There is no staking for duckpools token. 
+
+I am not sure about the details regarding if other tokens have depreciated after their launch. 
+
+I think though, in general most have declined in value (but again most have had staking?). But I think with duckpools since we have a modest funding target (low supply) and there is no staking (no supply to be added) and seemingly high demand. I, personally, believe appreciation is rather likely - but this of course is not financial advice and just my opinion 🙂
+
+
+[02/05/2023 3:31 PM] cannon#0000
+Mention staking here... in ergopad, yes? It is all confusing a bit honestly and I'm a finance guy. But I haven't focused a ton of time on the raises for any tokens. Was curious on this one.
+
+
+[02/05/2023 3:32 PM] Krasavice Blasen#0000
+The round is called the staker round since you need to stake Ergopad to qualify for allocations in that round. But thereafter, no staking exists at all for $QUACKS
+
+
+[02/05/2023 3:33 PM] Krasavice Blasen#0000
+I think a lot of projects do use staking which is why that word is so visible on the sit
+
+
+[02/05/2023 3:33 PM] Krasavice Blasen#0000
+I think a lot of projects do use staking which is why that word is so visible on the site
+
+
+[02/05/2023 3:33 PM] cannon#0000
+Stake ergopad, then it converts to quacks?
+
+
+[02/05/2023 3:33 PM] cannon#0000
+Pledge of an asset effectively?
+
+
+[02/05/2023 3:36 PM] Krasavice Blasen#0000
+No, so our token launch phase 1 has to subrounds:
+1. Staker Round
+2. Public Round
+
+In the staker round you can signup to purchase $QUACKS at a reduced price but with a longer vesting period. To signup you need to stake ErgoPad tokens. When you signup you are allocated a portion of the staker round offering. You can chose to buy those $QUACKS in Ergs/sigUsd.
+
+In the public round you don't need to stake ErgoPad at all. Anyone can signup when signups open to buy in the public round
+
+
+[02/05/2023 3:37 PM] Krasavice Blasen#0000
+No, so our token launch phase 1 has 2 subrounds:
+1. Staker Round
+2. Public Round
+
+In the staker round you can signup to purchase $QUACKS at a reduced price but with a longer vesting period. To signup you need to stake ErgoPad tokens. When you signup you are allocated a portion of the staker round offering. You can chose to buy those $QUACKS in Ergs/sigUsd.
+
+In the public round you don't need to stake ErgoPad at all. Anyone can signup when signups open to buy in the public round
+
+
+[02/05/2023 3:39 PM] Krasavice Blasen#0000
+Basically anyone ALWAYS has to purchase the $QUACKS. Staking ErgoPad just allowed purchase of the tokens for a reduced price over a longer vesting period.
+
+
+[02/05/2023 3:40 PM] cannon#0000
+Do you get the ergopad tokens back after the round/snapshot is completed?
+
+
+[02/05/2023 3:41 PM] Krasavice Blasen#0000
+Yeah so you can unstake at anytime but unstaking fees apply as follows depending on when you unstake:
+https://cdn.discordapp.com/attachments/1003151161886519398/1071817940766306484/image.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/1003151161886519398/1071817940766306484/image.png
+https://media.discordapp.net/attachments/1003151161886519398/1071817940766306484/image.png
+
+
+[02/05/2023 3:46 PM] Krasavice Blasen#0000
+If you are interested in the staker round just know it has already been completed.
+
+For some perspective though, the staker round allocation makes up just 9% of the tokens planned to be publicly sold so the amount offered to each person was quite limited due to minimal supply on offer.
+
+
+[02/05/2023 3:54 PM] cannon#0000
+No worries... just trying to understand it all without investing a ton of time. Probably not the best way, but time is limited
+
+
+[02/05/2023 3:55 PM] Krasavice Blasen#0000
+Yeah I fully understand. Theres a lot of info out there, so even if you have just a small question I am happy to answer anything 🙂
+
+
+[02/05/2023 3:57 PM] Krasavice Blasen#0000
+Its good to build an understanding of how it all works even if you are just participating in the public round
+
+
+[02/05/2023 4:03 PM] cannon#0000
+Is there any document/presentation that lays it out... nothing I've found thus far does and that is ...
+
+
+[02/05/2023 4:16 PM] Krasavice Blasen#0000
+The whitepaper covers just about everything at a general/overview level in the tokenomics.
+
+
+[02/05/2023 4:18 PM] Krasavice Blasen#0000
+Maybe some outside context is needed (i.e. what exactly is an ergopad staker) but I feel most of the key parts (token distribution, token sale prices, vesting periods) is all described in the whitepaper
+
+
+[02/05/2023 4:21 PM] Krasavice Blasen#0000
+I feel something that really walks you through it would be nice to have, but at this stage the whitepaper is the best resource available
+
+
+[02/05/2023 5:08 PM] StarboyNeon#0000
+Thanks
+
+
+[02/05/2023 7:50 PM] HelixEvo#0000
+Is everyone getting less tokens than what they put down in the whitelist?
+
+
+[02/05/2023 7:51 PM] HelixEvo#0000
+I have only received ~790 whitelist tokens.
+
+
+[02/05/2023 9:13 PM] Foeniculum#0000
+I think for issues like these it'd be easier to reach out to Ergopad directly
+
+
+[02/06/2023 3:45 AM] Pyro ₳Σ#0000
+Hey guys
+
+
+[02/06/2023 3:46 AM] Pyro ₳Σ#0000
+looking forward to tomorrows talk on mehen connect
+
+
+[02/06/2023 3:46 AM] Pyro ₳Σ#0000
+I shared the reminder but realized last minute of course your twitter is duckpools_io not duckpool_io lol
+
+
+[02/06/2023 3:46 AM] Pyro ₳Σ#0000
+so if you didnt get the tag this is why q.q
+
+
+[02/06/2023 3:53 AM] Pyro ₳Σ#0000
+@quokka hey 🙂 your twitter name through me off xD
+
+
+[02/06/2023 3:54 AM] Pyro ₳Σ#0000
+https://twitter.com/MehenOfficial/status/1622441155081441280?s=20&t=dX538cMCqKYlORGAwy58cQ
+
+{Embed}
+Mehen Stablecoin | $USDM (@MehenOfficial)
+https://twitter.com/MehenOfficial/status/1622441155081441280?s=20&t=dX538cMCqKYlORGAwy58cQ
+Dont miss tomorrow! @duckpool https://t.co/dF8B0HCjRE
+
+@duckpools_io !!!! Tomorrow! Set that reminder!
+Twitter
+
+
+[02/06/2023 3:54 AM] Pyro ₳Σ#0000
+might be a little late to share this
+
+
+[02/06/2023 4:20 AM] quokka#0000
+How ?
+
+
+[02/06/2023 4:23 AM] Pyro ₳Σ#0000
+there is a twitter name duckpool_io this was duckpools_io
+
+
+[02/06/2023 4:23 AM] Pyro ₳Σ#0000
+its okay I am going to change for tuesday matt told me.
+
+
+[02/06/2023 4:23 AM] Pyro ₳Σ#0000
+so it was prob best it was not seen by a lot of people :
+
+
+[02/06/2023 4:24 AM] Pyro ₳Σ#0000
+xD
+
+
+[02/06/2023 4:26 AM] Krasavice Blasen#0000
+Haha yeah. Do you plan to delete and tweet again with updated time?
+
+
+[02/06/2023 4:39 AM] Pyro ₳Σ#0000
+I am doing that right now xD
+
+
+[02/06/2023 4:45 AM] Pyro ₳Σ#0000
+https://twitter.com/mehenofficial/status/1622456192080699392?s=46&t=4LnAzKK0RhuFya2HbD-0rw
+
+{Embed}
+Mehen Stablecoin | $USDM (@MehenOfficial)
+https://twitter.com/mehenofficial/status/1622456192080699392?s=46&t=4LnAzKK0RhuFya2HbD-0rw
+Lets go this tuesday! On Mehen connect @duckpools_io
+
+Collateralized lending on ergo! 
+
+Disclaimer: Mehen Connect will be this Tuesday. Next week will be back on Monday same time!
+
+ https://t.co/a7IBMeLfbx
+Twitter
+
+
+[02/07/2023 5:49 PM] Pyro ₳Σ#0000
+Thank you very much for your time my friends!
+
+
+[02/08/2023 9:21 AM] Krasavice Blasen#0000
+A small vesting key giveaway to join our duckpools telegram group!
+
+https://twitter.com/KrasaviceBlasen/status/1623245208032014338?t=F6r3QX_DATUt6RjNkh7Ujw&s=19
+
+{Embed}
+KrasaviceBlasen (@KrasaviceBlasen)
+https://twitter.com/KrasaviceBlasen/status/1623245208032014338?t=F6r3QX_DATUt6RjNkh7Ujw&s=19
+The duckpools telegram group has flown under the radar and I think it needs some love! 
+
+I will be giving away 4 vesting keys of 2,000 $QUACKS (valued as +$50 USD at IDO) to a random choice of 4 of the first 200 people to join the telegram 👇
+
+https://t.co/uIT7qNsW1F
+Twitter
+
+
+[02/08/2023 8:26 PM] outsider dogue#0000
+hey, is tomorow just sign up, or to buy already ?
+
+
+[02/08/2023 8:27 PM] outsider dogue#0000
+do I have to take my personal laptop with  to work ? (since I dont have any ergo phone wallet)
+
+
+[02/09/2023 1:07 AM] Krasavice Blasen#0000
+Just signup!
+
+
+[02/09/2023 2:15 AM] Krasavice Blasen#0000
+Nope, for signup you can just go to: 
+https://www.ergopad.io/whitelist/duckpools/public
+and paste your wallet address in
+
+
+[02/09/2023 4:41 AM] Ne2p#0000
+hello, will it be possible to connect other wallets, for example mobile?
+
+
+[02/09/2023 4:46 AM] Krasavice Blasen#0000
+Yep, you can use nautilus, both android wallet and terminus mobile wallet, safew
+
+
+[02/09/2023 5:50 AM] XupEdd#0000
+Lending ADA(or wrapped tokens) using bridge is in the plan?
+
+
+[02/09/2023 5:53 AM] Krasavice Blasen#0000
+Lending any ergo native asset is in the plan and will actually be supported in just phase 1 of the development works
+
+
+[02/09/2023 5:53 AM] Krasavice Blasen#0000
+Lending any ergo native asset (including any bridged assets) is in the plan and will actually be supported in just phase 1 of the development works
+
+
+[02/09/2023 5:55 AM] XupEdd#0000
+Ok, but it's going to support multi-chain in the future? Can I suggest that?
+
+
+[02/09/2023 5:59 AM] Krasavice Blasen#0000
+Certainly, it could be something to look into for phase 3 or treasury funded works. But it would most likely be best to partner with a bridge service (since the bridge project would have done the research for us already) to facilitate direct cross-chain lending and borrowing
+
+
+[02/09/2023 6:00 AM] Krasavice Blasen#0000
+So all in all, wrapped ada will be lendable and borrowable in the very near future, whereas using native ada or other cross-chain assets would be reserved until at least phase 3
+
+
+[02/09/2023 6:00 AM] Krasavice Blasen#0000
+So all in all, wrapped ada will be lendable and borrowable in the very near future (phase 1), whereas using native ada or other cross-chain assets would be reserved until at least phase 3
+
+
+[02/09/2023 6:01 AM] XupEdd#0000
+Got it, looking great about this project! Good luck.
+
+
+[02/09/2023 1:37 PM] Krasavice Blasen#0000
+Also to add to this. When you go to signup it will ask you to select a wallet. To paste in your address, click mobile and then it will let you put an paste an address there
+
+
+[02/09/2023 7:24 PM] jiu#0000
+Gm
+
+
+[02/09/2023 10:47 PM] vexorg#0000
+hello
+
+
+[02/09/2023 11:27 PM] Pyro ₳Σ#0000
+GM 🙂
+
+
+[02/09/2023 11:33 PM] quokka#0000
+Gm hello
+
+
+[02/10/2023 11:45 AM] FELA!#0000
+GM!
+
+
+[02/10/2023 2:01 PM] Pyro ₳Σ#0000
+GM
+
+
+[02/10/2023 2:14 PM] Krasavice Blasen#0000
+https://tenor.com/view/good-morning-gif-19141950
+
+{Embed}
+https://tenor.com/view/good-morning-gif-19141950
+https://images-ext-1.discordapp.net/external/Gcg6FCE1GVb4XRY1ia20jLwqQN7dQxm4M8X0RVEbecI/https/media.tenor.com/EXNQ922x3boAAAAD/good-morning.png
+
+
+[02/10/2023 3:43 PM] quokka#0000
+that just reminded me to get starbucks
+
+
+[02/11/2023 7:19 AM] legitimate#0000
+yo
+
+
+[02/11/2023 8:32 AM] Krasavice Blasen#0000
+Hi legitimate
+
+
+[02/11/2023 9:43 AM] legitimate#0000
+oh hi there
+
+
+[02/11/2023 5:35 PM] $saint#0000
+Hi is this still in beta or can we use the Platform?
+
+
+[02/12/2023 1:26 AM] Krasavice Blasen#0000
+The platform will be in beta until token sale is complete to use funds raised to perform security audits and allow for adjustable pool parameters
+
+
+[02/12/2023 10:08 AM] Simone Puzzovio#9314
+Will it be possible to lend SigRSV?
+
+
+[02/12/2023 10:10 AM] Krasavice Blasen#0000
+Certainly alongside any Ergo Native asset
+
+
+[02/12/2023 10:11 AM] Krasavice Blasen#0000
+Erg, SigUsd and SigRsv pools are likely the ones which will see greater demand initially
+
+
+[02/12/2023 10:26 AM] Simone Puzzovio#9314
+Awesome! 😃
+
+
+[02/13/2023 1:28 PM] StarboyNeon#0000
+gmgm
+
+
+[02/15/2023 8:24 PM] gcarrharris#0000
+Good day all
+
+
+[02/15/2023 8:25 PM] gcarrharris#0000
+How’s the pub sale going
+
+
+[02/15/2023 10:35 PM] Krasavice Blasen#0000
+Great, Ive been told we are over 100k in signups so nearly twice the amount allocated for public round has been requested so far
+
+
+[02/15/2023 10:36 PM] gcarrharris#0000
+Well congrats 🎉
+
+
+[02/15/2023 10:36 PM] gcarrharris#0000
+That is good news
+
+
+[02/16/2023 2:54 PM] StarboyNeon#0000
+hi
+
+
+[02/16/2023 2:54 PM] StarboyNeon#0000
+great news
+
+
+[02/18/2023 4:33 AM] Pyro ₳Σ#0000
+Sup brothers
+
+
+[02/19/2023 8:53 AM] legitimate#0000
+So is the current round called public and the next round also called public?  I signed up on the 10th or 11th but didn't get any WL tokens
+
+
+[02/19/2023 8:57 AM] Krasavice Blasen#0000
+Its the same round, whitelist tokens were allocated first come first served to those who signed up earliest (roughly those on the 9th/10th when signups first opened) and remaining signups were placed on waitlist.
+
+
+[02/19/2023 9:01 AM] Krasavice Blasen#0000
+All in all 3.15m Public tokens are being sold, early signups have had a reserved period of time to make their contribution and waitlist will be able to purchase any remaining quacks at first come first served when it opens up Feb 20, 0001 UTC.
+
+
+[02/19/2023 9:02 AM] legitimate#0000
+So those who manage to buy on Feb 20 will get it at the same $0.0019 per with 6 month lock?
+
+
+[02/19/2023 9:03 AM] legitimate#0000
+One too many zeros I think
+
+
+[02/19/2023 9:04 AM] Krasavice Blasen#0000
+Haha yeah 1 too many, but thats exactly right. They fall under the same round (public) 🙂
+
+
+[02/19/2023 9:04 AM] legitimate#0000
+OK, I will set a timer 😎
+
+
+[02/19/2023 11:56 PM] legitimate#0000
+tik tok
+
+
+[02/20/2023 12:03 AM] Krasavice Blasen#0000
+Should be live now, but waiting on airdrop to be completed by Ergopad
+
+
+[02/20/2023 12:11 AM] legitimate#0000
+yeah, just here refreshing the browser/wallet
+
+
+[02/20/2023 12:12 AM] Krasavice Blasen#0000
+Alright tokens should be airdropped within the next few minutes
+
+
+[02/20/2023 12:13 AM] Krasavice Blasen#0000
+Once they hit your wallet, you will be able to make your contribution on Ergopad
+
+
+[02/20/2023 12:29 AM] Krasavice Blasen#0000
+Airdrop has now been made. Just need to wait for tx to confirm before you should be able to make your purchase:
+https://explorer.ergoplatform.com/en/transactions/388c4268d481594065441bada472501ef9488400d04185318dabac1d1486f66d
+
+
+[02/20/2023 12:31 AM] Krasavice Blasen#0000
+Confirmed 🎉
+
+
+[02/20/2023 12:34 AM] legitimate#0000
+done and done
+
+
+[02/20/2023 4:49 PM] jozinek#0000
+I think I haven't received whitelist tokens for public round, can I dm someone with details?
+
+
+[02/20/2023 10:09 PM] planou#0000
+I received it on two wallets as I did not think it had worked on the first one.  If you want, I have 10,560 whitelist tokens that I can send over to you.  Just give me your wallet address.
+
+
+[02/20/2023 11:58 PM] Krasavice Blasen#0000
+Sure, feel free to dm
+
+
+[02/21/2023 8:15 AM] KayGNight#0000
+Hello 👋 
+
+May I Know who is the best person to speak when it regards to  AMA proposal  & Long Time Collaboration?🙏
+
+
+[02/21/2023 9:45 AM] Krasavice Blasen#0000
+Feel free to dm
+
+
+[02/21/2023 11:39 AM] KayGNight#0000
+will do sir
+
+
+[02/21/2023 11:39 AM] KayGNight#0000
+will do sir 🙂
+
+
+[02/21/2023 3:15 PM] CryptoRisman#0000
+Please check your DM sir.
+
+
+[02/22/2023 10:25 AM] NuTt#0000
+what will happen to the tokens will not be sold after 24th
+
+
+[02/22/2023 10:26 AM] Krasavice Blasen#0000
+They will be burnt
+
+
+[02/22/2023 10:26 AM] NuTt#0000
+😅😅😅 ohh
+
+
+[02/22/2023 10:27 AM] NuTt#0000
+i thought it will go for fund reserve
+
+
+[02/22/2023 10:27 AM] NuTt#0000
+we got sold all 3.5M on staker round right?
+
+
+[02/22/2023 10:28 AM] Krasavice Blasen#0000
+Staker sold out, just about a million left on public.
+
+
+[02/22/2023 10:28 AM] Krasavice Blasen#0000
+As mentioned in whitepaper tokens are burnt which will effectively increase everyones relative ownership to supply
+
+
+[02/22/2023 10:29 AM] NuTt#0000
+it’s nice to hear that
+
+
+[02/22/2023 10:30 AM] NuTt#0000
+hopefully everything will be sold out in public sale too
+
+
+[02/22/2023 10:30 AM] Krasavice Blasen#0000
+Indeed!
+
+
+[02/23/2023 7:42 PM] Bublik#0000
+Sorry if this has been asked already, but is there any estimated date for when the beta ends and more deposits into duckpools will be available?
+
+
+[02/23/2023 11:49 PM] NuTt#0000
+if anyone has extra tokens please send 10000 whitelist tokens for my friend wallet address 
+
+thank you for advance
+
+
+[02/23/2023 11:49 PM] NuTt#0000
+9gRvKPtxJdq1fH7LpSVvrDpKsJvtVWY9zwJmuCQm4W2aMbtgn7J
+
+
+[02/23/2023 11:50 PM] NuTt#0000
+he was too late ⏰ for enrollment
+
+
+[02/24/2023 12:39 AM] Krasavice Blasen#0000
+Can send now but he needs to contribute quick since forms are closing
+
+
+[02/24/2023 4:20 AM] arkadias#0000
+How did public round go?
+
+
+[02/24/2023 10:38 AM] Krasavice Blasen#0000
+73% sold out!
+
+
+[02/24/2023 10:38 AM] arkadias#0000
+That's great to hear!
+
+
+[02/24/2023 10:57 AM] DeanP#0000
+A sold out staker round, and 73% sold out in the public round is amazing. I know a number of projects in the crypto world have struggled to do well on their token sales in recent times. This is very nice to see.
+
+
+[02/24/2023 12:02 PM] jozinek#0000
+anyone still having unused whitelist tokens?
+
+
+[02/24/2023 6:04 PM] bitsolver#0000
+hi... it's 18:04 UTC and I don't see $QUACKS on SpectrumFi...?
+
+
+[02/24/2023 6:06 PM] bitsolver#0000
+...ah, it just went live this minute
+
+
+[02/24/2023 6:08 PM] quokka#0000
+Yep, when deploying we ran into a 10 minute block time 🤦‍♂️ lol
+
+
+[02/24/2023 6:20 PM] bitsolver#0000
+well, congrats y'all 🎉
+
+
+[02/24/2023 6:22 PM] NuTt#0000
+it’s great to see finally on quacks 🦆 on dex
+
+
+[02/24/2023 6:22 PM] NuTt#0000
+https://cdn.discordapp.com/attachments/1003151161886519398/1078743761309405305/IMG_8061.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/1003151161886519398/1078743761309405305/IMG_8061.png
+https://media.discordapp.net/attachments/1003151161886519398/1078743761309405305/IMG_8061.png
+
+
+[02/24/2023 6:22 PM] NuTt#0000
+i though 5M liquidity 😅
+
+
+[02/24/2023 6:24 PM] NuTt#0000
+i don’t know how it works in dex but 337k is small amount 😅
+
+
+[02/24/2023 6:24 PM] NuTt#0000
+can easily manipulate price by whale’s 😅
+
+
+[02/24/2023 6:31 PM] quokka#0000
+https://cdn.discordapp.com/attachments/1003151161886519398/1078745938228678667/Screen_Shot_2023-02-24_at_1.31.05_PM.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/1003151161886519398/1078745938228678667/Screen_Shot_2023-02-24_at_1.31.05_PM.png
+https://media.discordapp.net/attachments/1003151161886519398/1078745938228678667/Screen_Shot_2023-02-24_at_1.31.05_PM.png
+
+
+[02/24/2023 6:32 PM] quokka#0000
+5M after final phase
+
+
+[02/24/2023 6:35 PM] NuTt#0000
+got it now,
+was lazy to went through all 😁
+
+
+[02/24/2023 6:37 PM] NuTt#0000
+now i have zero ergs, 
+only ducks 🦆😜
+
+need to wait for next paycheck to buy erg again 😅
+
+
+[02/24/2023 6:38 PM] NuTt#0000
+i never seen this type of lending model before on cardano, sol, eth
+
+
+[02/24/2023 6:38 PM] NuTt#0000
+it’s easy to understand people 
+what is meaning of decentralized
+
+
+[02/24/2023 6:38 PM] quokka#0000
+haha understandable, lots to read through
+
+
+[02/24/2023 6:39 PM] quokka#0000
+Yeah. AVAX has it but there is much more possibility on Ergo eUTXO
+
+
+[02/24/2023 6:40 PM] quokka#0000
+We also didn't ask for a million dollars like a lot of tokens do, so our price evaluation is much more reasonable
+
+
+[02/24/2023 6:41 PM] NuTt#0000
+never looked on inside after Luna, i thought next Avax 🤪
+
+
+[02/24/2023 6:42 PM] NuTt#0000
+simply was on cardano but felt ergo is the thing what i was expecting from cardano
+
+
+[02/24/2023 6:42 PM] NuTt#0000
+here there are more tools to build
+
+
+[02/24/2023 6:43 PM] NuTt#0000
+hope in future many devs find the way
+
+
+[02/24/2023 6:43 PM] quokka#0000
+Same thing happened to me when I first got here. Was excited for Cardano smart contracts and when I saw what they were like I pivoted 100% towards Ergo. I think it was the right decision
+
+
+[02/24/2023 6:44 PM] quokka#0000
+And now the community seems to be imploding lol. I think it's temporary and they will get sentiment back, but I enjoy that there is no huge drama like that here currently
+
+
+[02/25/2023 5:06 PM] planou#0000
+Hi
+Is the borrow feature not working?
+I wanted to test it last night but got my SigRSV refunded.
+If it’s not working, could the button be disabled? Or some pop-up telling us not to go through with signing the transaction.
+
+
+[02/26/2023 12:05 AM] Krasavice Blasen#0000
+The intention is for it to be working but it currently is not due to an api issue that we need fixed. Been a little caught up with the ido but now that its over should have a chance to fix in the coming days
+
+
+[02/26/2023 12:27 AM] planou#0000
+Great thanks
+
+
+[02/26/2023 8:13 PM] slkev7#0000
+Sorry if this has already been answered, when does the vesting period start for the public sale and other rounds?
+
+
+[02/27/2023 3:50 AM] cafebedouin#9837
+It had its IDO already. So, it is over.
+
+
+[02/27/2023 3:51 AM] cafebedouin#9837
+Oh, vesting can be redeemed at Ergopad.io
+
+
+[02/27/2023 3:51 AM] cafebedouin#9837
+Dashboard.
+
+
+[02/27/2023 3:51 AM] cafebedouin#9837
+Already begun.
+
+
+[02/28/2023 2:34 PM] Jpow#2124
+was lurking n trying things, are we not supposed to be able to redeem liquidity atm?
+
+
+[03/01/2023 10:54 AM] Krasavice Blasen#0000
+Yeah you can redeem your tokens on the Ergopad dashboard!
+
+
+[03/01/2023 2:10 PM] Jpow#2124
+i don't mean tokens i mean erg in liquidity pool
+
+
+[03/01/2023 2:11 PM] Krasavice Blasen#0000
+Ah on duckpools.io? Yeah you should be able to withdraw lent ergs just fine
+
+
+[03/01/2023 2:12 PM] Jpow#2124
+In this case seems like there's something wrong. Deposited 1erg 2 days ago, tx is confirmed, and nothing happened aside from that. withdrawal still greyed out. Dont have a token to redeem or anything like that in my wallet.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1003474403683729469/1080492835863797780/image.png
+
+
+[03/01/2023 2:13 PM] Krasavice Blasen#0000
+Please share the tx in which you sent the funds if possible
+
+
+[03/01/2023 2:15 PM] Jpow#2124
+https://explorer.ergoplatform.com/en/transactions/e334ee0d4fdd226ee262a0f5460211a06beb0803de3c8a4a858aefaf59338cb9
+
+
+[03/01/2023 2:16 PM] Krasavice Blasen#0000
+Ahh this timeline aligns with something that occurred recently on another project. Seems like a node issue on an off-chain bot
+
+
+[03/01/2023 2:17 PM] Krasavice Blasen#0000
+I will reset up our off-chain bot and your tx will be refunded. After that you are welcome to try adding liqudity again
+
+
+[03/01/2023 2:17 PM] Krasavice Blasen#0000
+I will reset our off-chain bot and your tx will be refunded. After that you are welcome to try adding liqudity again
+
+
+[03/01/2023 2:18 PM] Jpow#2124
+Sounds good
+
+
+[03/01/2023 2:36 PM] Krasavice Blasen#0000
+Ah the problem was we decided to take down an off-chain bot to reduce costs until full launch. But the back-up bot had outdated code
+
+
+[03/01/2023 2:36 PM] Krasavice Blasen#0000
+Refunds should have hit wallets now
+
+
+[03/01/2023 2:40 PM] Jpow#2124
+Yeap, it did.
+
+
+[03/01/2023 2:42 PM] Jpow#2124
+lent 1 again, we'll see how that goes.
+
+
+[03/01/2023 3:07 PM] Jpow#2124
+20 conf, problem seems to persist. https://explorer.ergoplatform.com/en/transactions/a3203335a8736164e7abeb82843765348f4e69e07f809942a78a5cdd034dbeb5
+
+
+[03/01/2023 4:33 PM] NuTt#0000
+is ergo-lend(exle) a rug ?
+
+
+[03/01/2023 4:35 PM] NuTt#0000
+for now, Sigma fi is P2P and ducks is p2pool right
+
+
+[03/01/2023 5:09 PM] quirk220#0000
+exle is non collateralized lending protocol for unbanked countries.  It has an excellent team and is almost in beta.
+
+
+[03/01/2023 5:25 PM] NuTt#0000
+i felt it’s a rug 😅 because no updates
+
+
+[03/01/2023 5:26 PM] NuTt#0000
+you mean it’s only works in certain countries?
+
+
+[03/01/2023 5:27 PM] NuTt#0000
+i am trying to explore ergo ecosystem more but it’s bit tougher 😉 actually
+
+
+[03/01/2023 5:27 PM] NuTt#0000
+hopefully we get more tools 🛠️ sooner/later
+
+
+[03/01/2023 6:05 PM] quirk220#0000
+It will work anywhere but the target audience for the launch are those who are unbanked.
+
+
+[03/02/2023 5:08 PM] Krasavice Blasen#0000
+Thanks for sharing, a few more issues to resolve regarding the change in off-chain bots. Minor fixes but currently I am somewhat occupied with other work. I will make an announcement when it has been fixed and tested
+
+
+[03/03/2023 8:26 PM] NuTt#0000
+is it possible to get know quacks token id ?
+
+why i am not able check easily on ergo, like on cardanoscan ?
+
+
+[03/03/2023 8:27 PM] NuTt#0000
+totally supply ?
+something like that way
+
+
+[03/03/2023 11:15 PM] quokka#0000
+https://www.ergopad.io/projects/duckpools
+
+
+[03/03/2023 11:16 PM] quokka#0000
+As for token ID, that’s a good point we should put that somewhere more obvious
+
+
+[03/04/2023 9:01 PM] k1ngjohniii#2980
+I know this is a dumb question but what am I doing with my duckpoola public whitelist token on ergopad? I can't seem to figure out what to do with it now ..any help would be appreciated
+
+
+[03/05/2023 10:03 AM] Roger Dodger#2680
+Ser EXLE is a legit project and there are updates. You can join the telegram and communicate with the founder (Chris Ray) directly. @Chris Ray , it’s one of the more exciting programs in the space and they are actually bringing an important use case to an underserved part of the world. You can even see their first loans.
+
+
+[03/05/2023 1:12 PM] planou#0000
+GM, how is the development going? When will we be able to borrow? I tried a few times and get refunded my collateral.
+
+Also, when do you expect to be ready to go 'live’ with more than 1 erg? 
+
+This platform is very similar to Liqwid on Cardano or Aave on Eth and has the potential to be very powerful. 
+
+Exciting times ahead…
+
+
+[03/05/2023 2:58 PM] Krasavice Blasen#0000
+Borrowing should be working since yesterday, feel free to give it a go again!
+
+As for going live we need to implement adjustable protocol design so that parameters can be changed without "hard fork" and do security audits. For specific time, I think a realistic assessment of this is May, but more optimistically April.
+
+
+[03/05/2023 6:17 PM] planou#0000
+Thanks for the update. Just sent a borrow trade. I will check if it remains or if Inget reimbursed
+
+
+[03/05/2023 7:28 PM] planou#0000
+Thanks for the update. Just sent a borrow trade. I will check if it remains or if I get reimbursed
+
+
+[03/05/2023 7:29 PM] planou#0000
+Got reimbursed again!
+Does not seem to be working still for a loan
+
+
+[03/05/2023 7:29 PM] planou#0000
+Using SigRSV
+
+
+[03/06/2023 7:01 PM] gcarrharris#0000
+Hey all good afternoon
+
+
+[03/06/2023 7:01 PM] gcarrharris#0000
+Hope all is well!
+
+
+[03/08/2023 9:46 PM] StarboyNeon#0000
+Hi
+
+
+[03/11/2023 3:12 AM] IPS-DeFi-State-Of-Mind#0000
+gm
+
+
+[03/12/2023 6:13 PM] Chris Ray#2713
+umm ok...
+kind of passive imo, come at me directly and ask questions I will always be honest and open 😉
+
+
+[03/12/2023 9:53 PM] planou#0000
+When should we expect a go-live? Will api be similar to current beta version or will it adjust based on lend/borrowing ratio like in Aave, Liqwid and other similar tools?
+
+
+[03/15/2023 12:12 AM] planou#0000
+Is there another community where people exchange about this project, like Telegram or is this a dead duck?
+
+
+[03/15/2023 12:23 AM] cannon#3541
+Think @Krasavice Blasen said was focusing on other work in short term... back on Mar 2nd
+
+
+[03/15/2023 1:11 AM] planou#0000
+Mar5th? That’s 9 days ago…
+
+
+[03/15/2023 1:59 AM] Krasavice Blasen#0000
+Telegram here: https://t.me/duckpools_chat
+
+{Embed}
+https://t.me/duckpools_chat
+duckpools
+Welcome to the official duckpools.io Telegram group! 🐥		👉🏽 Twitter:		https://twitter.com/duckpools_io		👉🏽 Website:		https://www.duckpools.io
+https://images-ext-2.discordapp.net/external/jAcZ-qZ85VuwUkX8rEyeIxHFNHoSNGDkncNFcpB-Ims/https/cdn1.telegram-cdn.org/file/K2PONtmv6R24SzMX_ekcnBAmdKdbYpM0niSiG-v0cJAQYtoLC2mQPmHUPk5daXyqrLbyLHW0JSHdUqJR6ls9ubBnnUa2Q9yvp27lSTsoX7IvHHepZ8SHvVAVoGX6fdwkct7JRb4qyk0PRLMYI9dU0P0MSvOyLWIvWOe6X7oJfhHUyQzi7gaF5dnmudEfXg_CGMEnhX136aqLvMxW78ecR4CNM3iFJ5m-GbVYdy6Xfdrw9BoqGvFC3W1Irir_fQp9gvGNmc-l8VqKMPJXbKwV5ykNY6pzwIRcX80P9GWrvy6lETWe8B5LFXZnMOJysGiXhCW2SfsSEmqHel3SKIA2ig.jpg
+
+
+[03/15/2023 2:00 AM] Krasavice Blasen#0000
+I dont recall specifically mentioning that, however on March 10 I did mention being able to work on things more from then onwards
+
+
+[03/15/2023 2:04 AM] Krasavice Blasen#0000
+Regardless, I do expect it to be fairly quiet until closer to full launch. Preparations for full launch have been going on in the background (engaging contractors, final processing of the ido)
+
+
+[03/15/2023 2:05 AM] Krasavice Blasen#0000
+When progress is reported as milestones are reached I believe we will see some more chatter 🙂
+
+
+[03/15/2023 4:00 AM] planou#0000
+Thanks
+Good to here.
+I get that it’s a lot of work behind the scene. Just thought it was strange that there is not much going on in the community
+
+
+[03/15/2023 11:21 AM] cannon#3541
+I see a lot of activity in general on ergo but not a lot of marketing or hype for most projects. Not commenting on if that's a good thing, just an observation over part half year or so
+
+
+[03/19/2023 6:52 AM] Sebus#0000
+hi, can you help me ? i've particapate on lending i think with this transcation but i dont see it on duckpool.io https://explorer.ergoplatform.com/en/transactions/7f7004ac85bfbb9a45a1114061cac7057bb1d720a4fc5fecd97ce61192383730
+
+
+[03/19/2023 8:14 AM] quokka#0000
+Taking this to #🐝report-bugs
+
+
+[03/23/2023 7:16 PM] George208H#0000
+is the platform live? what's the TVL?
+
+
+[03/23/2023 11:08 PM] gcarrharris#0000
+There’s a small limit like 1 ergo you can use to test
+
+
+[03/23/2023 11:09 PM] gcarrharris#0000
+As far as I knew the protocol was not live
+
+
+[03/27/2023 12:16 PM] wombo22#0000
+tvl displayed on website, live with limits if im not mistaken
+
+
+[03/27/2023 2:41 PM] quokka#0000
+yes, 1 erg limit. Also the number displayed isnt exactly TVL but close
+
+
+[03/27/2023 2:44 PM] wombo22#0000
+https://cdn.discordapp.com/attachments/1003151161886519398/1089907709035417600/FsLjQZIWYAAEH0m.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/1003151161886519398/1089907709035417600/FsLjQZIWYAAEH0m.png
+https://media.discordapp.net/attachments/1003151161886519398/1089907709035417600/FsLjQZIWYAAEH0m.png
+
+
+[03/28/2023 2:09 AM] Setvin#0000
+hello
+
+
+[03/28/2023 2:10 AM] Setvin#0000
+I put in 1 ergo to the pool but does not show that I have anything in the pool
+
+
+[03/28/2023 2:10 AM] Setvin#0000
+but my wallet is short an ergo
+
+
+[03/28/2023 2:10 AM] Setvin#0000
+does it take more than 10 confirmations?
+
+
+[03/28/2023 2:14 AM] Krasavice Blasen#0000
+No it should take only a couple, I will check this out soon for you
+
+
+[03/28/2023 2:16 AM] Setvin#0000
+can I dm you transaction id
+
+
+[03/28/2023 2:23 AM] Krasavice Blasen#0000
+Sure 🙂
+
+
+[03/28/2023 2:36 AM] Setvin#0000
+dm sent not sure if it flags me
+
+
+[03/29/2023 2:20 PM] Setvin#0000
+I made a duck ergo nft
+
+
+[03/31/2023 12:52 PM] Setvin#0000
+oh wow you airdropped NETA?
+
+
+[03/31/2023 12:52 PM] Setvin#0000
+thank you!
+
+
+[03/31/2023 1:00 PM] Krasavice Blasen#0000
+Yeah neta and a few other tokens I believe were part of it. It was small airdrop setup a while ago to encourage testing
+
+
+[03/31/2023 1:01 PM] Setvin#0000
+I have a lot of time on my hands lets just say that. I made a porcelain duck nft you want one lol. Have been trying to test the ecosystem
+
+
+[03/31/2023 1:01 PM] Setvin#0000
+are you also involved with skyharbor? I was hoping to get verified on that platform so I can think about making a collection.
+
+
+[03/31/2023 1:02 PM] Krasavice Blasen#0000
+Yeah, Ive been working with quokka on setting up an automatic verification system so in the future new applications can instantly have a profile
+
+
+[03/31/2023 1:03 PM] Krasavice Blasen#0000
+But in the meantime, if you want to get verified apply very early as waiting times tend to be long without the automation
+
+
+[03/31/2023 1:04 PM] Krasavice Blasen#0000
+Haha sure, Id love to see it. Ill send you an address to send to 🙂
+
+
+[03/31/2023 1:05 PM] Setvin#0000
+yes I have submitted my app, so I will continue to exercise patience
+
+
+[03/31/2023 1:07 PM] Setvin#0000
+also I did have a question about the platform. Will you be able to show how much interest you accrued? I see right now says I just have "1 ergo" but maybe I have earned .0000145 interest lol
+
+
+[03/31/2023 1:07 PM] Setvin#0000
+you could show those decimal places slowly going up it make user want to use site more cuz monkey brain
+
+
+[03/31/2023 1:11 PM] Krasavice Blasen#0000
+If you hover over your erg it should show a precise amount
+
+
+[03/31/2023 1:12 PM] Krasavice Blasen#0000
+In the development scope we will have real time updates that should literally grow as you watch your screen
+
+
+[03/31/2023 1:12 PM] Setvin#0000
+https://cdn.discordapp.com/attachments/1003151161886519398/1091334103950962768/image.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/1003151161886519398/1091334103950962768/image.png
+https://media.discordapp.net/attachments/1003151161886519398/1091334103950962768/image.png
+
+
+[03/31/2023 1:12 PM] Krasavice Blasen#0000
+This is part of phase 2 if I recall correctly
+
+
+[03/31/2023 1:12 PM] Setvin#0000
+that would be good
+
+
+[03/31/2023 1:12 PM] Krasavice Blasen#0000
+Ahhh, We have it on the borrow page
+
+
+[03/31/2023 1:12 PM] Krasavice Blasen#0000
+https://cdn.discordapp.com/attachments/1003151161886519398/1091334299606863942/image.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/1003151161886519398/1091334299606863942/image.png
+https://media.discordapp.net/attachments/1003151161886519398/1091334299606863942/image.png
+
+
+[03/31/2023 1:13 PM] Krasavice Blasen#0000
+But yeah it would all be part of the lender dashboard in phase 2
+
+
+[03/31/2023 1:13 PM] Setvin#0000
+also would you be able to clarify in your announcement what will happen to tokens that are not withdrawn before the end of testing. Will they just return in liquidity if that is not done?
+
+
+[03/31/2023 1:13 PM] Setvin#0000
+happy to report, that should be quick fix
+
+
+[03/31/2023 1:14 PM] Krasavice Blasen#0000
+If they are not withdrawn there will be no UI to access them. If you are savy you could try and use a node and build the transaction manually to withdraw from the smart contracts.
+
+
+[03/31/2023 1:15 PM] Setvin#0000
+but when you return with phase two funds will still be there?
+
+
+[03/31/2023 1:17 PM] Krasavice Blasen#0000
+No, since it will be a complete "hard-fork" update. If people ask for it though we can have the old protocol running on a separate site/domain (like auction house v1) so people can still access old funds there
+
+
+[03/31/2023 1:18 PM] Krasavice Blasen#0000
+This should be at least for quite some time, the last update of this nature. So future updates will work as you mention where user funds carry over.
+
+
+[03/31/2023 1:18 PM] Setvin#0000
+ok I think it will be better if users remove funds now
+
+
+[03/31/2023 1:19 PM] Setvin#0000
+thanks for clarifying
+
+
+[03/31/2023 1:19 PM] Krasavice Blasen#0000
+Anytime
+
+
+[03/31/2023 1:36 PM] Rishabh#0000
+I didn't get testing rewards
+
+
+[03/31/2023 1:59 PM] lexymon#0000
+me neither 😢  only the duck nft haha
+
+
+[03/31/2023 2:20 PM] Rishabh#0000
+Is this send by duckpools ?
+https://cdn.discordapp.com/attachments/1003151161886519398/1091351227360616518/20230331_184942.jpg
+
+{Embed}
+https://cdn.discordapp.com/attachments/1003151161886519398/1091351227360616518/20230331_184942.jpg
+https://media.discordapp.net/attachments/1003151161886519398/1091351227360616518/20230331_184942.jpg
+
+
+[03/31/2023 2:32 PM] lexymon#0000
+no thats a sigmanaut nft
+
+
+[03/31/2023 2:34 PM] Setvin#0000
+how do u get that
+
+
+[03/31/2023 2:37 PM] lexymon#0000
+i didnt ^^
+
+
+[03/31/2023 8:13 PM] NoahErgo#0000
+@Krasavice Blasen would be good to post the update on duckpools twitter too if u can
+
+
+[04/01/2023 6:22 AM] jt013823#0000
+guys
+
+
+[04/01/2023 1:55 PM] Setvin#0000
+yes
+
+
+[04/01/2023 5:07 PM] jt013823#0000
+Andrew tate is BACK
+
+
+[04/01/2023 5:07 PM] jt013823#0000
+LFG
+
+
+[04/01/2023 5:15 PM] wombo22#0000
+is that a duck?
+
+
+[04/02/2023 6:51 AM] Rishabh#0000
+I didn't receive duck nft also 🥲
+
+
+[04/02/2023 4:32 PM] Setvin#0000
+that was my duck nft
+
+
+[04/02/2023 4:32 PM] Setvin#0000
+post ur address on this thread if u want duck nft
+
+
+[04/02/2023 4:32 PM] Setvin#0000
+https://twitter.com/RealSetvin/status/1641047136878968834
+
+{Embed}
+Setvin (@RealSetvin)
+https://twitter.com/RealSetvin/status/1641047136878968834
+Created this "Porcelain Duck" which is an NFT on the ERGO network. I am looking to distribute 200 of these! You can comment below or message me if you are interested, just promise not to drop it! 
+
+Just give me your Ergo address and why you want one!
+
+https://t.co/GBHwIzu4CB
+https://images-ext-1.discordapp.net/external/y58cipzKjcWgpT0wagj6QqHwfxl3uMYhrO-G927t1sI/https/pbs.twimg.com/media/FsYrRIdWcAAZW9f.jpg
+Twitter
+
+
+[04/02/2023 7:14 PM] wombo22#0000
+https://cdn.discordapp.com/attachments/1003151161886519398/1092150027176116376/FstIUx9WIAE7oo6.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/1003151161886519398/1092150027176116376/FstIUx9WIAE7oo6.png
+https://media.discordapp.net/attachments/1003151161886519398/1092150027176116376/FstIUx9WIAE7oo6.png
+
+
+[04/02/2023 11:39 PM] Rishabh#0000
+Oh i think duckpools send those 😅
+
+
+[04/02/2023 11:50 PM] Setvin#0000
+did you like it when you thought duckpool sent it lol
+
+
+[04/02/2023 11:50 PM] Setvin#0000
+I made that myself
+
+
+[04/02/2023 11:51 PM] Setvin#0000
+ouch no beta tester tag? 😦
+
+
+[04/02/2023 11:51 PM] Setvin#0000
+do I need to submit my address? I got the reward. You sent me 500 neta
+
+
+[04/03/2023 3:55 PM] NuTt#0000
+there is lot of uncertainty going on voting protocols in crypto space
+
+
+[04/03/2023 3:55 PM] NuTt#0000
+ARB
+LQ
+
+
+[04/03/2023 3:56 PM] NuTt#0000
+hope nothing happens here in future like that 😜
+
+
+[04/05/2023 1:17 AM] Setvin#0000
+I created "sigma duck"
+
+Twitter post
+(https://twitter.com/RealSetvin/status/1641047136878968834)
+Reddit post
+(https://www.reddit.com/r/ergonauts/comments/125nin4/sigmaduck/)
+
+I still have a few left to give out! Would love to include you. 
+
+If you want one please reply with your wallet address on reddit or preferably twitter. 
+
+If you know anyone who might be interested dont be shy! 
+
+The addresses I collect can and will be used for future airdrops as well.
+
+{Embed}
+Setvin (@RealSetvin)
+https://twitter.com/RealSetvin/status/1641047136878968834
+Created this "Porcelain Duck" which is an NFT on the ERGO network. I am looking to distribute 200 of these! You can comment below or message me if you are interested, just promise not to drop it! 
+
+Just give me your Ergo address and why you want one!
+
+https://t.co/GBHwIzu4CB
+https://images-ext-1.discordapp.net/external/y58cipzKjcWgpT0wagj6QqHwfxl3uMYhrO-G927t1sI/https/pbs.twimg.com/media/FsYrRIdWcAAZW9f.jpg
+Twitter
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/125nin4/sigmaduck/
+r/ergonauts - "Sigmaduck"
+33 votes and 25 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/MdSndmYP0im3u06GZv-M5QaP7A4KBdxhsS-z68ISHpc/%3Fauto%3Dwebp%26v%3Denabled%26s%3D8eb62cd6148b52b0c454441e5921db41a7be8a02/https/preview.redd.it/drzyhfieboqa1.png
+
+
+[04/08/2023 12:51 PM] Setvin#0000
+I still have a few ducks
+
+
+[04/08/2023 12:51 PM] Setvin#0000
+I need to hurry up and give away the rest of these porcelain ducks so I can work on my next project. 
+
+I am thinkin all of those who are holders of the duck can be the base of the airdrop for my next project?
+
+{Reactions}
+HYPERCHAMP HYPERCLAP 
+
+[04/10/2023 12:39 PM] Setvin#0000
+ok now its a nft project lol
+
+
+[04/10/2023 12:39 PM] Setvin#0000
+also still dont have my red name, whats everyone up to
+
+
+[04/10/2023 12:44 PM] Krasavice Blasen#0000
+Sure you do 🙂
+
+
+[04/11/2023 4:24 PM] NoahErgo#0000
+https://twitter.com/duckpools_io/status/1645778186394009600?s=46&t=Vd31QFsknxwBFGgSq2DnPw
+
+{Embed}
+duckpools.io (@duckpools_io)
+https://twitter.com/duckpools_io/status/1645778186394009600?s=46&t=Vd31QFsknxwBFGgSq2DnPw
+📢  Our beta will be closing April 17 to prepare for full launch.
+
+It will be difficult to access funds held in the smart contracts after this closure date. Ensure you withdraw your funds prior.
+
+🎉  Part 1 of the beta tester airdrops have been released, so check your wallets!
+Twitter
+
+
+[04/14/2023 1:08 AM] Setvin#0000
+like 80% of the people who deposited did not withdraw their ergo, still like 300 in the beta lol
+
+
+[04/14/2023 1:08 AM] Setvin#0000
+Do you have a way to automatically send those funds back to their account holders?
+
+
+[04/14/2023 7:37 AM] Krasavice Blasen#0000
+No as that would require custody over their funds.
+
+
+[04/14/2023 10:32 PM] Setvin#0000
+maybe they can make an announcement in the main ergo discord? seems like many users will lose thier funds
+
+
+[04/15/2023 2:00 AM] quokka#0000
+bro
+
+
+[04/15/2023 2:00 AM] MGpai#0000
+tf
+
+
+[04/15/2023 2:01 AM] MGpai#0000
+quokka ban it 😭
+
+
+[04/15/2023 2:01 AM] quokka#0000
+dude
+
+
+[04/15/2023 2:01 AM] quokka#0000
+kras didnt make me an admin
+
+
+[04/15/2023 2:02 AM] quokka#0000
+im so mad rn
+
+
+[04/15/2023 2:02 AM] MGpai#0000
+oh lmaoo I thought you were giving it a chance
+
+
+[04/15/2023 2:03 AM] wombo22#0000
+https://tenor.com/view/lils-silly-duck-lilsduck-ducky-duck-duck-riri-the-duck-gif-19719423
+
+{Embed}
+https://tenor.com/view/lils-silly-duck-lilsduck-ducky-duck-duck-riri-the-duck-gif-19719423
+https://images-ext-1.discordapp.net/external/GA5b0WlyPqNn8Q2GZnoF-jWtsvPWHw4EMRea7tLN_74/https/media.tenor.com/3ZYRtxMK4WcAAAAD/lils-silly-duck-lilsduck.png
+
+
+[04/15/2023 2:04 AM] quokka#0000
+nah
+
+
+[04/15/2023 2:04 AM] quokka#0000
+wtf
+
+
+[04/15/2023 2:04 AM] quokka#0000
+.
+
+
+[04/15/2023 2:04 AM] quokka#0000
+.
+
+
+[04/15/2023 2:04 AM] quokka#0000
+.
+
+
+[04/15/2023 2:04 AM] quokka#0000
+.
+
+
+[04/15/2023 2:04 AM] quokka#0000
+.
+
+
+[04/15/2023 2:04 AM] quokka#0000
+.
+
+
+[04/15/2023 2:04 AM] quokka#0000
+.
+
+
+[04/15/2023 2:04 AM] quokka#0000
+..
+
+
+[04/15/2023 2:04 AM] quokka#0000
+.
+
+
+[04/15/2023 2:04 AM] quokka#0000
+.
+
+
+[04/15/2023 2:04 AM] quokka#0000
+.
+
+
+[04/15/2023 2:04 AM] quokka#0000
+.
+
+
+[04/15/2023 2:04 AM] quokka#0000
+,
+
+
+[04/15/2023 2:04 AM] quokka#0000
+,
+
+
+[04/15/2023 2:04 AM] quokka#0000
+,
+
+
+[04/15/2023 2:05 AM] quokka#0000
+,
+
+
+[04/15/2023 2:05 AM] quokka#0000
+,
+
+
+[04/15/2023 2:05 AM] quokka#0000
+,
+
+
+[04/15/2023 2:05 AM] quokka#0000
+,
+
+
+[04/15/2023 2:05 AM] quokka#0000
+,
+
+
+[04/15/2023 2:05 AM] quokka#0000
+,
+
+
+[04/15/2023 2:05 AM] quokka#0000
+.
+
+
+[04/15/2023 2:05 AM] quokka#0000
+.
+
+
+[04/15/2023 2:05 AM] quokka#0000
+.
+
+
+[04/15/2023 2:05 AM] quokka#0000
+.
+
+
+[04/15/2023 2:05 AM] quokka#0000
+.
+
+
+[04/15/2023 2:05 AM] quokka#0000
+.
+
+
+[04/15/2023 2:06 AM] quokka#0000
+.
+
+
+[04/15/2023 2:06 AM] quokka#0000
+.
+
+
+[04/15/2023 2:06 AM] quokka#0000
+.
+
+
+[04/15/2023 2:06 AM] quokka#0000
+.
+
+
+[04/15/2023 2:06 AM] quokka#0000
+.
+
+
+[04/15/2023 2:06 AM] quokka#0000
+.
+
+
+[04/15/2023 2:06 AM] quokka#0000
+.
+
+
+[04/15/2023 2:06 AM] quokka#0000
+.
+
+
+[04/15/2023 2:06 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:06 AM] quokka#0000
+..
+
+
+[04/15/2023 2:06 AM] quokka#0000
+.
+
+
+[04/15/2023 2:07 AM] MGpai#0000
+..
+
+
+[04/15/2023 2:07 AM] quokka#0000
+.
+
+
+[04/15/2023 2:07 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:07 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:07 AM] quokka#0000
+.
+
+
+[04/15/2023 2:07 AM] quokka#0000
+.
+
+
+[04/15/2023 2:07 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:07 AM] quokka#0000
+.
+
+
+[04/15/2023 2:07 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:07 AM] quokka#0000
+.
+
+
+[04/15/2023 2:07 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:07 AM] quokka#0000
+.
+
+
+[04/15/2023 2:08 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:08 AM] quokka#0000
+.
+
+
+[04/15/2023 2:08 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:08 AM] quokka#0000
+.
+
+
+[04/15/2023 2:08 AM] MGpai#0000
+😦
+
+
+[04/15/2023 2:08 AM] MGpai#0000
+..
+
+
+[04/15/2023 2:08 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:08 AM] MGpai#0000
+..
+
+
+[04/15/2023 2:08 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:08 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:08 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:08 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:09 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:09 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:09 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:09 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:09 AM] quokka#0000
+.
+
+
+[04/15/2023 2:09 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:09 AM] quokka#0000
+.
+
+
+[04/15/2023 2:09 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:09 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:09 AM] quokka#0000
+.
+
+
+[04/15/2023 2:09 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:09 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:09 AM] quokka#0000
+.
+
+
+[04/15/2023 2:10 AM] quokka#0000
+.
+
+
+[04/15/2023 2:10 AM] quokka#0000
+..
+
+
+[04/15/2023 2:10 AM] quokka#0000
+.
+
+
+[04/15/2023 2:10 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:10 AM] quokka#0000
+.
+
+
+[04/15/2023 2:10 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:10 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:10 AM] quokka#0000
+.
+
+
+[04/15/2023 2:10 AM] quokka#0000
+.
+
+
+[04/15/2023 2:10 AM] quokka#0000
+.
+
+
+[04/15/2023 2:10 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:10 AM] quokka#0000
+.
+
+
+[04/15/2023 2:11 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:11 AM] quokka#0000
+.
+
+
+[04/15/2023 2:11 AM] quokka#0000
+.
+
+
+[04/15/2023 2:11 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:11 AM] quokka#0000
+.
+
+
+[04/15/2023 2:11 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:11 AM] quokka#0000
+..
+
+
+[04/15/2023 2:11 AM] quokka#0000
+.
+
+
+[04/15/2023 2:11 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:11 AM] quokka#0000
+.
+
+
+[04/15/2023 2:11 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:11 AM] quokka#0000
+.
+
+
+[04/15/2023 2:12 AM] quokka#0000
+.
+
+
+[04/15/2023 2:12 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:12 AM] MGpai#0000
+leave
+
+
+[04/15/2023 2:12 AM] MGpai#0000
+leave
+
+
+[04/15/2023 2:12 AM] quokka#0000
+its the same dick pic u googled
+
+
+[04/15/2023 2:12 AM] quokka#0000
+.
+
+
+[04/15/2023 2:12 AM] quokka#0000
+.
+
+
+[04/15/2023 2:12 AM] quokka#0000
+.
+
+
+[04/15/2023 2:13 AM] quokka#0000
+.
+
+
+[04/15/2023 2:13 AM] quokka#0000
+.
+
+
+[04/15/2023 2:13 AM] quokka#0000
+.
+
+
+[04/15/2023 2:13 AM] quokka#0000
+.
+
+
+[04/15/2023 2:13 AM] quokka#0000
+.
+
+
+[04/15/2023 2:13 AM] quokka#0000
+.
+
+
+[04/15/2023 2:13 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:13 AM] quokka#0000
+..
+
+
+[04/15/2023 2:13 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:13 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:13 AM] quokka#0000
+..
+
+
+[04/15/2023 2:14 AM] quokka#0000
+.
+
+
+[04/15/2023 2:14 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:14 AM] quokka#0000
+.
+
+
+[04/15/2023 2:14 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:14 AM] quokka#0000
+.
+
+
+[04/15/2023 2:14 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:14 AM] quokka#0000
+.
+
+
+[04/15/2023 2:14 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:14 AM] quokka#0000
+.
+
+
+[04/15/2023 2:14 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:14 AM] quokka#0000
+.
+
+
+[04/15/2023 2:14 AM] mattam#0000
+Ugggggg
+
+
+[04/15/2023 2:15 AM] quokka#0000
+sure
+
+
+[04/15/2023 2:15 AM] quokka#0000
+.
+
+
+[04/15/2023 2:15 AM] quokka#0000
+.
+
+
+[04/15/2023 2:15 AM] quokka#0000
+.
+
+
+[04/15/2023 2:15 AM] quokka#0000
+.
+
+
+[04/15/2023 2:15 AM] quokka#0000
+.
+
+
+[04/15/2023 2:15 AM] MGpai#0000
+gtfo
+
+
+[04/15/2023 2:15 AM] quokka#0000
+.
+
+
+[04/15/2023 2:15 AM] quokka#0000
+.
+
+
+[04/15/2023 2:15 AM] quokka#0000
+.
+
+
+[04/15/2023 2:15 AM] quokka#0000
+.
+
+
+[04/15/2023 2:16 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:16 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:16 AM] quokka#0000
+.
+.
+
+
+[04/15/2023 2:16 AM] quokka#0000
+.
+
+
+[04/15/2023 2:16 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:16 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:16 AM] quokka#0000
+..
+
+
+[04/15/2023 2:16 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:16 AM] quokka#0000
+.
+
+
+[04/15/2023 2:16 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:16 AM] quokka#0000
+.
+
+
+[04/15/2023 2:16 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:17 AM] quokka#0000
+.
+
+
+[04/15/2023 2:17 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:17 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:17 AM] MGpai#0000
+lmao wombo
+
+
+[04/15/2023 2:17 AM] zuli#0000
+.
+
+
+[04/15/2023 2:17 AM] quokka#0000
+.
+
+
+[04/15/2023 2:17 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:17 AM] quokka#0000
+.
+
+
+[04/15/2023 2:17 AM] quokka#0000
+.
+
+
+[04/15/2023 2:17 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:17 AM] quokka#0000
+.
+
+
+[04/15/2023 2:18 AM] quokka#0000
+.
+
+
+[04/15/2023 2:18 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:18 AM] quokka#0000
+.
+
+
+[04/15/2023 2:18 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:18 AM] quokka#0000
+.
+
+
+[04/15/2023 2:18 AM] zuli#0000
+.
+
+
+[04/15/2023 2:18 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:18 AM] quokka#0000
+.
+
+
+[04/15/2023 2:18 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:18 AM] quokka#0000
+.
+
+
+[04/15/2023 2:18 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:19 AM] quokka#0000
+.
+
+
+[04/15/2023 2:19 AM] quokka#0000
+.
+
+
+[04/15/2023 2:19 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:19 AM] quokka#0000
+..
+
+
+[04/15/2023 2:19 AM] quokka#0000
+..
+
+
+[04/15/2023 2:19 AM] quokka#0000
+.
+
+
+[04/15/2023 2:19 AM] zuli#0000
+.
+
+
+[04/15/2023 2:19 AM] quokka#0000
+.
+
+
+[04/15/2023 2:19 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:19 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:19 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:19 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:20 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:20 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:20 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:20 AM] quokka#0000
+.
+
+
+[04/15/2023 2:20 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:20 AM] quokka#0000
+.
+
+
+[04/15/2023 2:20 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:20 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:20 AM] quokka#0000
+.
+
+
+[04/15/2023 2:20 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:20 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:20 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:21 AM] quokka#0000
+.
+
+
+[04/15/2023 2:21 AM] quokka#0000
+.
+
+
+[04/15/2023 2:21 AM] quokka#0000
+.
+
+
+[04/15/2023 2:21 AM] quokka#0000
+.
+
+
+[04/15/2023 2:21 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:21 AM] quokka#0000
+.
+
+
+[04/15/2023 2:21 AM] quokka#0000
+.
+
+
+[04/15/2023 2:21 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:21 AM] quokka#0000
+.
+
+
+[04/15/2023 2:21 AM] quokka#0000
+.
+
+
+[04/15/2023 2:22 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:22 AM] quokka#0000
+.
+
+
+[04/15/2023 2:22 AM] quokka#0000
+.
+
+
+[04/15/2023 2:22 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:22 AM] quokka#0000
+.
+
+
+[04/15/2023 2:22 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:22 AM] quokka#0000
+..
+
+
+[04/15/2023 2:22 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:22 AM] quokka#0000
+.
+
+
+[04/15/2023 2:22 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:22 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:22 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:22 AM] quokka#0000
+.
+
+
+[04/15/2023 2:23 AM] quokka#0000
+.
+
+
+[04/15/2023 2:23 AM] quokka#0000
+.
+
+
+[04/15/2023 2:23 AM] quokka#0000
+.
+
+
+[04/15/2023 2:23 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:23 AM] quokka#0000
+.
+
+
+[04/15/2023 2:23 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:23 AM] quokka#0000
+.
+
+
+[04/15/2023 2:23 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:23 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:23 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:23 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:24 AM] quokka#0000
+.
+
+
+[04/15/2023 2:24 AM] quokka#0000
+.
+
+
+[04/15/2023 2:24 AM] quokka#0000
+.
+
+
+[04/15/2023 2:24 AM] quokka#0000
+.
+
+
+[04/15/2023 2:24 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:24 AM] quokka#0000
+.
+
+
+[04/15/2023 2:24 AM] quokka#0000
+.
+
+
+[04/15/2023 2:24 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:24 AM] quokka#0000
+.
+
+
+[04/15/2023 2:24 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:24 AM] quokka#0000
+.
+
+
+[04/15/2023 2:25 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:25 AM] quokka#0000
+.
+
+
+[04/15/2023 2:25 AM] quokka#0000
+.
+
+
+[04/15/2023 2:25 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:25 AM] quokka#0000
+.
+
+
+[04/15/2023 2:25 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:25 AM] quokka#0000
+.
+
+
+[04/15/2023 2:25 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:25 AM] quokka#0000
+.
+
+
+[04/15/2023 2:25 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:25 AM] quokka#0000
+.
+
+
+[04/15/2023 2:26 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:26 AM] quokka#0000
+.
+
+
+[04/15/2023 2:26 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:26 AM] quokka#0000
+.
+
+
+[04/15/2023 2:26 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:26 AM] quokka#0000
+.
+
+
+[04/15/2023 2:26 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:26 AM] quokka#0000
+.
+
+
+[04/15/2023 2:26 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:26 AM] quokka#0000
+.
+
+
+[04/15/2023 2:26 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:26 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:27 AM] quokka#0000
+.
+
+
+[04/15/2023 2:27 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:27 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:27 AM] quokka#0000
+.
+
+
+[04/15/2023 2:27 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:27 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:27 AM] quokka#0000
+why r u doing this man
+
+
+[04/15/2023 2:27 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:27 AM] wombo22#0000
+stop dude
+
+
+[04/15/2023 2:27 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:27 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:28 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:28 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:28 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:28 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:28 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:28 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:28 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:28 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:28 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:28 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:28 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:28 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:29 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:29 AM] quokka#0000
+why
+
+
+[04/15/2023 2:29 AM] quokka#0000
+what did we do to deserve this
+
+
+[04/15/2023 2:29 AM] theta_decay#0000
+https://tenor.com/view/no-non-nope-workaholics-adam-levine-gif-17682086
+
+{Embed}
+https://tenor.com/view/no-non-nope-workaholics-adam-levine-gif-17682086
+https://images-ext-1.discordapp.net/external/gCTyXO8QTqOCZBYeUL49i4KArzx3ZVdkzcCJBSLenl0/https/media.tenor.com/EftQpd-5cy0AAAAD/no-non.png
+
+
+[04/15/2023 2:29 AM] mattam#0000
+Report and block until mods kick him
+
+
+[04/15/2023 2:29 AM] quokka#0000
+yeah blocked
+
+
+[04/15/2023 2:29 AM] MGpai#0000
+https://tenor.com/view/stfu-shut-up-stop-shut-your-mouth-shut-it-down-gif-20324546
+
+{Embed}
+https://tenor.com/view/stfu-shut-up-stop-shut-your-mouth-shut-it-down-gif-20324546
+https://images-ext-2.discordapp.net/external/yG903bO7IOCEHOdSfVKOXPdtuwvNnAfN-_omQqUVNm4/https/media.tenor.com/jmEeIVgFhjQAAAAD/stfu-shut-up.png
+
+
+[04/15/2023 2:29 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:29 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:30 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:30 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:30 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:30 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:30 AM] wombo22#0000
+..
+
+
+[04/15/2023 2:30 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:30 AM] quokka#0000
+.
+
+
+[04/15/2023 2:30 AM] quokka#0000
+.
+
+
+[04/15/2023 2:30 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:30 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:30 AM] MGpai#4313
+@glasgowm probably should clear this channel
+
+
+[04/15/2023 2:31 AM] quokka#0000
+.
+
+
+[04/15/2023 2:31 AM] quokka#0000
+.
+
+
+[04/15/2023 2:31 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:31 AM] quokka#0000
+.
+
+
+[04/15/2023 2:31 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:31 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:31 AM] quokka#0000
+.
+
+
+[04/15/2023 2:31 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:31 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:31 AM] quokka#0000
+.
+
+
+[04/15/2023 2:31 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:31 AM] quokka#0000
+.
+
+
+[04/15/2023 2:31 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:32 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:32 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:32 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:32 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:32 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:32 AM] MGpai#0000
+..
+
+
+[04/15/2023 2:32 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:32 AM] quokka#0000
+.
+
+
+[04/15/2023 2:32 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:32 AM] quokka#0000
+.
+
+
+[04/15/2023 2:32 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:33 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:33 AM] quokka#0000
+..
+
+
+[04/15/2023 2:33 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:33 AM] quokka#0000
+.
+
+
+[04/15/2023 2:33 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:33 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:33 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:33 AM] quokka#0000
+.
+
+
+[04/15/2023 2:33 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:33 AM] quokka#0000
+.
+
+
+[04/15/2023 2:33 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:33 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:34 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:34 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:34 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:34 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:34 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:34 AM] quokka#0000
+honestly doesnt matter
+
+
+[04/15/2023 2:34 AM] quokka#0000
+Let this be a lesson
+
+
+[04/15/2023 2:34 AM] MGpai#0000
+yep
+
+
+[04/15/2023 2:34 AM] Cor#0000
+If everyone blocks hims no one will see his messages
+
+
+[04/15/2023 2:34 AM] MGpai#0000
+maybe its a sign that ergo is getting bigger
+
+
+[04/15/2023 2:35 AM] quokka#0000
+I'm more concerned with new people seeing it
+
+
+[04/15/2023 2:35 AM] MGpai#0000
+oh shit it worked lol
+
+
+[04/15/2023 2:35 AM] wombo22#0000
+o nice
+
+
+[04/15/2023 2:35 AM] quokka#0000
+nice
+
+
+[04/15/2023 2:35 AM] quokka#0000
+thanks for the help guys
+
+
+[04/15/2023 2:35 AM] wombo22#0000
+get this last one out of here
+
+
+[04/15/2023 2:35 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:35 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:35 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:35 AM] MGpai#0000
+hey zuli 😮
+
+
+[04/15/2023 2:35 AM] Cor#0000
+https://cdn.discordapp.com/attachments/1003151161886519398/1096604403408052334/IMG_4340.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/1003151161886519398/1096604403408052334/IMG_4340.png
+https://media.discordapp.net/attachments/1003151161886519398/1096604403408052334/IMG_4340.png
+
+
+[04/15/2023 2:35 AM] Cor#0000
+Easy peazy
+
+
+[04/15/2023 2:35 AM] theta_decay#0000
+How is kras the only person with admin perms lol
+
+
+[04/15/2023 2:36 AM] MGpai#0000
+good lesson for him
+
+
+[04/15/2023 2:36 AM] quokka#0000
+not only that he allows for @ everyone
+
+
+[04/15/2023 2:36 AM] wombo22#0000
+guess he has to clean up the mess
+
+
+[04/15/2023 2:36 AM] quokka#0000
+yea
+
+
+[04/15/2023 2:36 AM] zuli#0000
+Maybe he's intentionally trying to sabotage public image for newcomers. We should be wary of trolls.
+
+
+[04/15/2023 2:36 AM] quokka#0000
+I just dont think he knows discord too well. anyway he shouldve made me an admin
+
+
+[04/15/2023 2:36 AM] quokka#0000
+yea
+
+
+[04/15/2023 2:36 AM] quokka#0000
+now the issue is everyone knows the @ lol
+
+
+[04/15/2023 2:36 AM] quokka#0000
+thank god erg has a decent community
+
+
+[04/15/2023 2:36 AM] zuli#0000
+Hey Hey, nice to see you ^^
+
+
+[04/15/2023 2:37 AM] MGpai#0000
+🙂
+
+
+[04/15/2023 2:37 AM] Cor#0000
+"@lol?"
+
+
+[04/15/2023 2:37 AM] MGpai#0000
+oh we got luca too
+
+
+[04/15/2023 2:37 AM] lgd#0000
+So this is where all the notifications were coming from, my computer was making so many noises
+
+
+[04/15/2023 2:37 AM] quokka#0000
+LMAO how to get everyone to mute the server in one fowl swoop
+
+
+[04/15/2023 2:37 AM] MGpai#0000
+lgd make sure to block the dude
+
+
+[04/15/2023 2:37 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:37 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:37 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:37 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:37 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:38 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:38 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:38 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:38 AM] MGpai#0000
+.
+.
+
+
+[04/15/2023 2:38 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:38 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:38 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:38 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:38 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:38 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:38 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:38 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:39 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:39 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:39 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:39 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:39 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:39 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:39 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:39 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:39 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:39 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:39 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:40 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:40 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:40 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:40 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:40 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:40 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:40 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:40 AM] wombo22#0000
+..
+
+
+[04/15/2023 2:40 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:40 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:40 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:40 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:40 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:41 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:41 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:41 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:41 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:41 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:41 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:41 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:41 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:41 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:41 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:41 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:41 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:42 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:42 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:42 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:42 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:42 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:42 AM] wombo22#0000
+..
+
+
+[04/15/2023 2:42 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:42 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:42 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:42 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:42 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:42 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:43 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:43 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:43 AM] arkadias#0000
+.
+.
+
+
+[04/15/2023 2:43 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:43 AM] wombo22#0000
+..
+
+
+[04/15/2023 2:43 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:43 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:43 AM] arkadias#0000
+.
+
+
+[04/15/2023 2:43 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:43 AM] arkadias#0000
+.
+
+
+[04/15/2023 2:43 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:43 AM] arkadias#0000
+.
+
+
+[04/15/2023 2:44 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:44 AM] arkadias#0000
+..
+
+
+[04/15/2023 2:44 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:44 AM] arkadias#0000
+.
+
+
+[04/15/2023 2:44 AM] arkadias#0000
+.
+
+
+[04/15/2023 2:44 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:44 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:44 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:44 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:44 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:44 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:44 AM] arkadias#0000
+.
+
+
+[04/15/2023 2:45 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:45 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:45 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:45 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:45 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:45 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:45 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:45 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:45 AM] arkadias#0000
+.
+
+
+[04/15/2023 2:45 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:45 AM] arkadias#0000
+.
+
+
+[04/15/2023 2:45 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:46 AM] arkadias#0000
+.
+
+
+[04/15/2023 2:46 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:46 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:46 AM] arkadias#0000
+.
+
+
+[04/15/2023 2:46 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:46 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:46 AM] arkadias#0000
+.
+
+
+[04/15/2023 2:46 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:46 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:46 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:46 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:47 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:47 AM] quokka#0000
+.
+
+
+[04/15/2023 2:47 AM] quokka#0000
+.
+
+
+[04/15/2023 2:47 AM] quokka#0000
+.
+
+
+[04/15/2023 2:47 AM] quokka#0000
+.
+
+
+[04/15/2023 2:47 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:47 AM] quokka#0000
+.
+
+
+[04/15/2023 2:47 AM] quokka#0000
+.
+
+
+[04/15/2023 2:47 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:47 AM] quokka#0000
+.
+
+
+[04/15/2023 2:47 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:47 AM] quokka#0000
+.
+
+
+[04/15/2023 2:48 AM] quokka#0000
+.
+
+
+[04/15/2023 2:48 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:48 AM] quokka#0000
+.
+
+
+[04/15/2023 2:48 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:48 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:48 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:48 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:48 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:48 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:48 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:48 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:48 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:49 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:49 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:49 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:49 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:49 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:49 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:49 AM] quokka#0000
+.
+
+
+[04/15/2023 2:49 AM] quokka#0000
+.
+
+
+[04/15/2023 2:49 AM] quokka#0000
+.
+
+
+[04/15/2023 2:49 AM] quokka#0000
+.
+
+
+[04/15/2023 2:49 AM] quokka#0000
+.
+
+
+[04/15/2023 2:49 AM] quokka#0000
+.
+
+
+[04/15/2023 2:50 AM] quokka#0000
+..
+
+
+[04/15/2023 2:50 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:50 AM] quokka#0000
+.
+
+
+[04/15/2023 2:50 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:50 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:50 AM] WilfordGrimley#0000
+Someone hacked?
+
+
+[04/15/2023 2:50 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:50 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:50 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:50 AM] wombo22#0000
+..
+
+
+[04/15/2023 2:51 AM] Exerlife#0000
+wtf
+
+
+[04/15/2023 2:51 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:51 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:51 AM] MGpai#0000
+no some bot or troll
+
+
+[04/15/2023 2:51 AM] quokka#0000
+nah dude this asshole just found out we have basically no rules on the server lmao
+
+
+[04/15/2023 2:51 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:51 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:51 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:51 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:51 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:51 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:51 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:52 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:52 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:52 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:52 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:52 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:52 AM] MGpai#0000
+...
+
+
+[04/15/2023 2:52 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:52 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:52 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:52 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:52 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:53 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:53 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:53 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:53 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:53 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:53 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:53 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:53 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:53 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:53 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:53 AM] MGpai#0000
+..
+
+
+[04/15/2023 2:53 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:53 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:54 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:54 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:54 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:54 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:54 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:54 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:54 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:54 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:54 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:54 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:54 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:55 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:55 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:55 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:55 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:55 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:55 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:55 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:55 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:55 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:55 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:55 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:55 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:56 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:56 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:56 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:56 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:56 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:56 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:56 AM] WilfordGrimley#0000
+@quokka you admin right?
+
+
+[04/15/2023 2:56 AM] quokka#0000
+nope
+
+
+[04/15/2023 2:56 AM] quokka#0000
+gonna absolutely roast kras for not making me one
+
+
+[04/15/2023 2:56 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:57 AM] MGpai#0000
+I thought so too lmao
+
+
+[04/15/2023 2:57 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:57 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:57 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:57 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:57 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:57 AM] quokka#0000
+guys i appreciate the help but this guy isnt going away
+
+
+[04/15/2023 2:57 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:57 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:57 AM] quokka#0000
+.
+
+
+[04/15/2023 2:57 AM] quokka#0000
+.
+
+
+[04/15/2023 2:58 AM] quokka#0000
+*several people are typing*
+
+
+[04/15/2023 2:58 AM] TexasRed#0000
+Can the devs do something please?!
+
+
+[04/15/2023 2:58 AM] quokka#0000
+i wish
+
+
+[04/15/2023 2:58 AM] MGpai#0000
+block the guy and you wont see
+
+
+[04/15/2023 2:58 AM] wombo22#0000
+spamming the other channels to
+
+
+[04/15/2023 2:58 AM] quokka#0000
+deka get a life my man
+
+
+[04/15/2023 2:58 AM] quokka#0000
+touch some grass
+
+
+[04/15/2023 2:58 AM] quokka#0000
+get a girlfriend
+
+
+[04/15/2023 2:59 AM] wombo22#0000
+.
+
+
+[04/15/2023 2:59 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:59 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:59 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:59 AM] MGpai#0000
+..
+
+
+[04/15/2023 2:59 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:59 AM] MGpai#0000
+...
+
+
+[04/15/2023 2:59 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:59 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:59 AM] MGpai#0000
+.
+
+
+[04/15/2023 2:59 AM] MGpai#0000
+.
+
+
+[04/15/2023 3:00 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:00 AM] MGpai#0000
+.
+
+
+[04/15/2023 3:00 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:00 AM] MGpai#0000
+.
+
+
+[04/15/2023 3:00 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:00 AM] MGpai#0000
+.
+
+
+[04/15/2023 3:00 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:00 AM] MGpai#0000
+..
+
+
+[04/15/2023 3:00 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:00 AM] MGpai#0000
+.
+
+
+[04/15/2023 3:00 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:00 AM] MGpai#0000
+.
+
+
+[04/15/2023 3:00 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:01 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:01 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:01 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:01 AM] quokka#0000
+😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂
+
+
+[04/15/2023 3:01 AM] quokka#0000
+dude ur so funny
+
+
+[04/15/2023 3:01 AM] quokka#0000
+be a comedian
+
+
+[04/15/2023 3:01 AM] lgd#0000
+Teenager
+
+
+[04/15/2023 3:01 AM] lgd#0000
+Deka it's ok to be gay
+
+
+[04/15/2023 3:01 AM] quokka#0000
+lol i think i made him mad
+
+
+[04/15/2023 3:02 AM] quokka#0000
+yeah he needs to get a boyfriend
+
+
+[04/15/2023 3:02 AM] quokka#0000
+*
+
+
+[04/15/2023 3:02 AM] Q86#0000
+shitstorm is boolish sign
+
+
+[04/15/2023 3:02 AM] quokka#0000
+LMAO honestly
+
+
+[04/15/2023 3:02 AM] MGpai#0000
+thats what I was saying lmaoo
+
+
+[04/15/2023 3:02 AM] lgd#0000
+🦆 not 🍆
+
+
+[04/15/2023 3:02 AM] Molech#0000
+Wtf?
+
+
+[04/15/2023 3:02 AM] MGpai#0000
+as a reminder everyone should have 2fa on
+
+
+[04/15/2023 3:02 AM] qx()#0000
+Lol
+
+
+[04/15/2023 3:03 AM] wombo22#0000
+https://cdn.discordapp.com/attachments/1003151161886519398/1096609179206172822/file_109192_2.webm
+
+{Embed}
+https://cdn.discordapp.com/attachments/1003151161886519398/1096609179206172822/file_109192_2.webm
+
+
+[04/15/2023 3:03 AM] qx()#0000
+Duck pools changing its name to fuck pools.
+
+
+[04/15/2023 3:03 AM] MGpai#0000
+$FUCK
+
+
+[04/15/2023 3:03 AM] wombo22#0000
+aww no tips in here either
+
+
+[04/15/2023 3:03 AM] qx()#0000
+Oh. There’s tips all right.
+
+
+[04/15/2023 3:03 AM] qx()#0000
+U can’t see them
+
+
+[04/15/2023 3:03 AM] qx()#0000
+It’s more than the tip for more than a bit.
+
+
+[04/15/2023 3:03 AM] wombo22#0000
+https://tenor.com/view/laugh-funny-spit-water-lol-cant-stop-laughing-gif-16881734
+
+{Embed}
+https://tenor.com/view/laugh-funny-spit-water-lol-cant-stop-laughing-gif-16881734
+https://images-ext-1.discordapp.net/external/1AN5D8hJjugjii08fSfB6X2drrKLGGgs0fcFTmTD8VM/https/media.tenor.com/Bnin4i9-lP0AAAAD/laugh-funny.png
+
+
+[04/15/2023 3:04 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:04 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:04 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:04 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:04 AM] wombo22#0000
+https://tenor.com/view/duck-dance-gif-25202061
+
+{Embed}
+https://tenor.com/view/duck-dance-gif-25202061
+https://images-ext-1.discordapp.net/external/OOebqCWcTypkZOERTCIr-b35TPV4k7X4W6uZV_fER_k/https/media.tenor.com/CL1DdPfOVqQAAAAD/duck-dance.png
+
+
+[04/15/2023 3:04 AM] wombo22#0000
+https://tenor.com/view/duck-dance-gif-25202061
+
+{Embed}
+https://tenor.com/view/duck-dance-gif-25202061
+https://images-ext-1.discordapp.net/external/OOebqCWcTypkZOERTCIr-b35TPV4k7X4W6uZV_fER_k/https/media.tenor.com/CL1DdPfOVqQAAAAD/duck-dance.png
+
+
+[04/15/2023 3:05 AM] wombo22#0000
+.
+
+
+[04/15/2023 3:05 AM] Krasavice Blasen#0000
+Thanks for putting up a fight guys. Sorry about not setting the discord up properly!
+
+
+[04/15/2023 3:05 AM] Krasavice Blasen#0000
+His messages are deleted? Are you saying to clear the spam too?
+
+
+[04/15/2023 3:07 AM] qx()#0000
+quokka doesn't have ban permissions?
+
+
+[04/15/2023 3:07 AM] qx()#0000
+you guys on same timezone anyway no?
+
+
+[04/15/2023 3:08 AM] Krasavice Blasen#0000
+No he did not and no we are on differing. He should have ban, just never really setup the discord/look at settings since creating it
+
+
+[04/15/2023 3:24 AM] Yanhui Zhu#0000
+What happened?
+
+
+[04/15/2023 3:28 AM] quokka#0000
+nothing someone just found out they can spam then @ everyone call
+
+
+[04/15/2023 3:57 AM] mattam#0000
+dick pics happened 😵 a whole lot of them
+
+
+[04/15/2023 4:03 AM] MGpai#0000
+I put that on the ergo discord bridge
+
+
+[04/15/2023 4:32 AM] quokka#0000
+Oof
+
+
+[04/15/2023 5:02 AM] Krasavice Blasen#0000
+Alright, I have cleaned up the permissions, @quokka has admin perms now. I will do some more setup tonight too. Once again, I apologize for allowing this to happen!
+
+
+[04/15/2023 5:55 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1003474403683729469/1096660162871296081/image0.gif
+
+
+[04/15/2023 7:40 AM] Bublik#0000
+What happened here 😭
+
+
+[04/15/2023 1:45 PM] quokka#0000
+🙏
+
+
+[04/15/2023 1:46 PM] quokka#0000
+We botched the server settings and someone found out they can do things they werent allowed to do for a bit
+
+
+[04/15/2023 3:10 PM] theta_decay#0000
+Hey mate, I'd like to recommend sharing the "beta closing" announcement in the tg group.
+
+
+[04/15/2023 3:10 PM] quokka#0000
+Sure
+
+
+[04/15/2023 3:10 PM] quokka#0000
+Thanks for the heads up
+
+
+[04/15/2023 7:19 PM] NuTt#0000
+it means alpha version going to launch soon ?
+
+
+[04/15/2023 7:21 PM] NuTt#0000
+any information about when we can see lending/borrowing for SigUSD/ERG/SigRSV
+
+
+[04/15/2023 10:38 PM] theta_decay#0000
+Sounds like they're getting close. Hopefully we'll get more details soon.
+
+
+[04/16/2023 5:22 PM] Krasavice Blasen#0000
+It was moved to the full launch package, so there will be numerous pools with no lend/borrow limits at full launch
+
+
+[04/17/2023 12:16 AM] Khelben#0000
+Ada?
+
+
+[04/17/2023 1:42 PM] panasonic#0000
+Guys, when's the full launch again?
+
+
+[04/17/2023 1:43 PM] Krasavice Blasen#0000
+There is no official date yet, but we are aiming for End of May
+
+
+[04/17/2023 1:43 PM] Krasavice Blasen#0000
+Yes we will offer wrapped Ada when the rosen bridge is ready
+
+
+[04/20/2023 9:10 AM] F Kavka#0000
+So duckpools is like AAVE on Ergo? When mainnet?
+
+
+[04/20/2023 10:34 AM] bunnywabbit#0000
+Basically yes, and It's already launched on main-net as beta version, which means lending and borrowing has been limited to 1 erg. Full release coming in +1 month
+
+
+[04/20/2023 8:19 PM] NuTt#0000
+https://twitter.com/i/spaces/1jMKgLEdaVXGL
+
+
+[04/20/2023 8:19 PM] NuTt#0000
+if someone involved in meld just listen 🎧
+
+
+[04/20/2023 8:20 PM] NuTt#0000
+it’s totally feels like slow rug 😂😂😂
+
+
+[04/20/2023 10:29 PM] HanzoHasashi#0000
+looks like one cannot listen to his part spaces.
+
+
+[04/20/2023 11:08 PM] quokka#0000
+Currently down while we get ready for initial release
+
+
+[04/28/2023 3:57 PM] Dubbleu_43#0000
+Too late for token sale?
+
+
+[04/28/2023 4:16 PM] muffinator#5168
+too late for the first round i believe they plan on having 3 rounds youll have to check the white/quack paper to find out more
+
+
+[04/28/2023 4:16 PM] muffinator#5168
+you can also buy the tokens from https://spectrum.fi/
+
+
+[05/01/2023 5:48 AM] rcondude#0000
+Dudes!🍕
+
+
+[05/01/2023 5:49 AM] russel#0000
+bro's
+
+
+[05/01/2023 1:40 PM] quokka#0000
+Fellas
+
+
+==============================================================
+Exported 1,287 message(s)
+==============================================================

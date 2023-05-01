@@ -1,0 +1,962 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 FINANCIAL 〙☰ / ergoraffle
+==============================================================
+
+[08/31/2021 6:52 PM] glasgowm#9381
+Try out the Raffle and leave any comments here!
+
+https://beta.ergoraffle.com/
+
+{Embed}
+https://beta.ergoraffle.com/
+Ergo Raffle
+Web site created using create-react-app
+
+
+[08/31/2021 6:54 PM] glasgowm#9381
+- Works great, does seem a bit slow to return tokens (15-30m) so maybe an indicator for the user here to wait
+- % funded on homepage (and probably sorted by % funded to stop spam)
+
+
+[08/31/2021 8:30 PM] mhs_sam#1471
+Plz plz plz note that this is a beta. It works and already tested for days. But, it is beta. We would like to give it a chance in wild to figure out any bugs and issues.
+Based on the findings there would be some changes in the dapp, including the contracts.
+
+So, making a raffle with a 1 year deadline or donating to it is not a good choice.
+
+
+[08/31/2021 8:43 PM] pbr713#9954
+@mhs_sam nice work! Brilliant idea
+
+{Reactions}
+ergo_black 👍 (2) 
+
+[09/01/2021 10:07 AM] roku_to_the_moon#8958
+@mhs_sam I could support with UI/UX design, but not with UI dev. So would still need a frontend dev. But let me know if I could be of any help.
+
+
+[09/01/2021 12:30 PM] Legendonger#0662
+Heya @mhs_sam 
+
+I'm a professional web dev from New Zealand specializing in React. I've been looking for an opportunity to contribute to the Ergo ecosystem, and would definitely be keen to help with your UI. 
+
+Message me if you'd like to chat :)
+
+
+[09/01/2021 3:43 PM] Snipe#9798
+I’m a backend / mobile developer but also have some experience with react and would love to help!
+
+
+[09/01/2021 7:03 PM] retpumpz#6845
+Hey, thanks for the invite. Quick intro : I raffled my house in 2017, sold 500,000 tickets for £2 each, raised £1 million, gave 40k to charity, hit the global news - skynews live worldwide, BBC etc I sort of found a loophole that stopped the gambling commission from shutting down your raffle here in the UK. This caused an avalanche of copcat raffles. I'm super interested in helping with the legal setup with ergo, also in extending raffles in perpetual raffles for ico style share and profits issuance, high frequency micro raffles etc what would be the best way to present my ideas to you guys? Also, I would be happy to answer any questions. To check out my raffle just Google "Melling Manor" cheers!
+
+{Reactions}
+🤩 (3) 
+
+[09/02/2021 12:33 PM] mhs_sam#1471
+@pbr713 @roku_to_the_moon @Legendonger  Thanks for your interest and support. actually, I'm working with a UI designer right now for the raffle. Meanwhile we may need other's help. I will be in contact
+
+
+[09/02/2021 12:46 PM] mhs_sam#1471
+amazing! It's very interesting to see you here!
+
+
+[09/02/2021 12:54 PM] pbr713#9954
+@mhs_sam is it possible to put a creator section in the raffle? I all for supporting the driving forces of ergo but I also want to ensure legitimacy. Just a thought
+
+
+[09/02/2021 1:00 PM] Snipe#9798
+Also keep me in the loop if you will! 🙂
+
+
+[09/02/2021 1:02 PM] mhs_sam#1471
+Sure sure
+
+
+[09/02/2021 1:17 PM] mhs_sam#1471
+I like the idea but I will not do it. I think some community dev may create a raffle to raise fund and develop it. I will donate for sure to a legitimate dev with plan.
+
+
+[09/02/2021 1:19 PM] pbr713#9954
+@mhs_sam right on. Even if you just put the field in and not make it mandatory.
+
+
+[09/02/2021 1:27 PM] mhs_sam#1471
+Currently the raffle service fee is 5%, I'm thinking about decreasing to 1-2 percent in one year or so.
+interestingly, this 5% or so, can be divided manually or even in the contracts.
+so, I would be happy to see a very rich website with lots of features on top of the raffle. This way we can negotiate the developer fee for that website.
+so, one can raise the dev costs by a raffle, and/or earn a portion of the fee for UI.
+
+
+[09/02/2021 1:32 PM] retpumpz#6845
+@mhs_sam cheers. I'm writing some notes that I have been working on to send over to you. Hopefully my experience can be of help here, it's great to see huge progress and interest so far. Ps I had intended to use www.synthesis.finance as a platform and there are some basic ideas sketched out over there. I would be happy to share/donate that domain/logo etc for a platform if anyone is interested
+
+{Reactions}
+ergo_white (2) 
+
+[09/02/2021 8:34 PM] ClayvΣrsΣ#4730
+Coulnt Help Myself....
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880758096253816832/883072403524177970/Raffle.gif
+
+{Reactions}
+😎 (2) 👍 (4) 
+
+[09/02/2021 9:42 PM] quokka#1273
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880758096253816832/883089415285661716/image0.png
+
+
+[09/02/2021 9:43 PM] quokka#1273
+Someone’s having issues. Can you send erg to a raffle that’s already met it’s goal?
+
+
+[09/02/2021 9:45 PM] quokka#1273
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880758096253816832/883090279920451624/image0.png
+
+
+[09/02/2021 9:59 PM] andee#4722
+worked for me, was at 101% when I sent
+
+
+[09/02/2021 10:00 PM] quokka#1273
+Yeah I don’t think it’s overfunding. Idk what the problem is
+
+
+[09/02/2021 10:00 PM] mhs_sam#1471
+yes, it works. raffle will be ended at deadline and can be over funded.
+
+
+[09/02/2021 10:01 PM] mhs_sam#1471
+can you tag me under his post on tw. I need his address to find out any problem
+
+
+[09/02/2021 10:03 PM] mhs_sam#1471
+i see in the logs and someone who had to send 4003000000 had sent only 4002900000 (nanoErg).
+seems to be him but not sure
+
+
+[09/02/2021 10:04 PM] mhs_sam#1471
+also, closing the pop up is okay and the address is valid for a few mins
+
+
+[09/02/2021 10:45 PM] mhs_sam#1471
+:ergo_orange:  meanwhile that we do not have any history of successful raffles in the UI, this address can be useful 
+https://explorer.ergoplatform.com/en/addresses/9i1Jy713XfahaB8oFFm2T9kpM7mzT1F4dMvMZKo7rJPB3U4vNVq
+
+
+[09/02/2021 11:02 PM] quokka#1273
+Just tagged you
+
+
+[09/02/2021 11:02 PM] quokka#1273
+But yeah that’s probably him
+
+
+[09/02/2021 11:11 PM] manansh#7167
+yo! i have been trying to practice my UX design skills. I am a newbie. Can I get anyone in here to critique what I got so far? Just threw some things together. https://www.figma.com/proto/cVu5S4g4QvtGsvYIdVgNxt/ERGO-Platform-Copy?node-id=611%3A212&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=611%3A212&show-proto-sidebar=1&hide-ui=1
+
+i made it for a display of 1920 x 1080, so that means desktop or laptop. It'll look messed up on a phone.
+
+{Reactions}
+👍 
+
+[09/02/2021 11:15 PM] manansh#7167
+Main thing is really reinforcing the ERGO branding. The blue that we got has gotta GO!
+
+
+[09/02/2021 11:29 PM] quokka#1273
+I think it looks cool!!
+
+
+[09/02/2021 11:29 PM] quokka#1273
+If I have the time the next week or two I might try to implement that
+
+
+[09/03/2021 8:30 PM] retpumpz#6845
+Take a look at dlapiper for legal ideas globally for raffles - see prize draw law. For reference you won't be able to do much with the existing system as it will need some additional functions, so in this case you would need to manually process elements of the raffle which would quickly make it complex. I'm hoping to help out on ideas for this soon but automating the legal side could be very complex.
+
+
+[09/03/2021 8:31 PM] retpumpz#6845
+https://www.dlapiperintelligence.com/prizepromotions/insight/index.html?t=prize-draws
+
+{Embed}
+https://www.dlapiperintelligence.com/prizepromotions/insight/index.html?t=prize-draws
+Prize draws around the world - DLA Piper Prize Promotions Around th...
+
+
+[09/05/2021 2:05 AM] Chris Ray#2713
+Does the donation goal have to be met or will the raffle pay out whatever ergs enter the contract after the deadline?
+
+
+[09/05/2021 5:26 AM] Legendonger#0662
+Had a crack at mocking up how I might've gone about updating the UI, just to get some thoughts out there 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880758096253816832/883931012889976912/ergo_raffle_wallet_connected.png
+
+{Reactions}
+👍 (5) 💯 (3) ergo_orange (2) 
+
+[09/05/2021 1:15 PM] glasgowm#9381
+Has to be met
+
+
+[09/06/2021 12:18 AM] quokka#1273
+Currently working on trying to implement this. Can I message you w questions if I have any?
+
+
+[09/06/2021 3:35 PM] dubster#1960
+it'd be great to be able to add attachments, or at least pictures / videos in the project description. I don't know if anything is planned about it
+
+{Reactions}
+👍 
+
+[09/07/2021 3:37 AM] manansh#7167
+Yes ofcourse. Sorry I was late to respond. On vacation.
+
+{Reactions}
+👍 
+
+[09/08/2021 12:20 AM] Legendonger#0662
+Seconding this, I'd recommend using markdown for raffle descriptions. Plenty of plug-and-play open source libraries out there
+
+{Reactions}
+👍 (2) 
+
+[09/08/2021 9:23 PM] retpumpz#6845
+Hey, sorry I haven't had time to note anything down as yet due to other commitments. I just wanted to say that obviously raffles on ergo would likely fly under the radar for a long time legally, however, perhaps the easiest way to legalise them with the most jurisdictions being applicable would be to add a simple skill based question requirement for entries. This could be a multiple choice question which should require a degree of judgement to answer. Beyond this free entries would be the other route but this would require more trickery - normally in a real world raffle you could allow entrants to enter for free by post with a paid stamp on it - a similar solution via  Blockchain message or transaction may be possible as long as the fees don't profit the person running the raffle and the free entry doesn't cost more than a paid entry - there are a few more requirements (please see dla Piper above). A mix of the two is also viable. Perhaps a postcard as a service/nft mashup on ergo would work for a free entry route! I think once this is solved then raffles can be massively modified for ico style perpetual raffles and also automated hi frequency mini raffles for such things as babbel fees and stable coins.  Back to free entries, obviously the transaction cost can be used to throttle the amount of free entries, but at the same time they should be no less convenient to use, it's an interesting problem to solve if keeping everything with the Blockchain eco system.
+
+
+[09/08/2021 9:29 PM] retpumpz#6845
+To quickly explain the ico/raffle idea - switch an individual prize to an ongoing prize, switch single use tickets to multi use tickets, switch from single large prizes to multiple smaller prizes. Use proceeds of ticket sales to invest in assets eg real estate / defi / other - pay profit out monthly as prizes to ticket holders.
+
+
+[09/08/2021 10:36 PM] mhs_sam#1471
+thanks for explanation! It takes some time to grasp it!
+I took some notes and will research on the topics.
+
+
+[09/09/2021 10:49 AM] nitram147#5106
+For some raffle participants it could be beneficial to collect SigmaUSD instead of ERG (for example the dogfor the autism boy, dog has fixed price in the USD) 🙂
+
+
+[09/09/2021 10:50 AM] nitram147#5106
+If I rember correctly how the raffle backend work, it should be easy to made this modification (participant should of course send also some nanoergs for future transaction fees)
+
+
+[09/09/2021 3:00 PM] retpumpz#6845
+That's a really good point
+
+
+[09/09/2021 3:04 PM] glasgowm#9381
+https://www.reddit.com/r/ergonauts/comments/pkxyxi/ergoraffle_not_issuing_tickets/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/pkxyxi/ergoraffle_not_issuing_tickets/
+r/ergonauts - ErgoRaffle not issuing tickets
+0 votes and 0 comments so far on Reddit
+
+
+[09/09/2021 8:04 PM] Doomelf#7740
+Can someone explain what the service fee is and where does it go?
+
+
+[09/09/2021 8:17 PM] andee#4722
+developer
+
+
+[09/09/2021 11:41 PM] quokka#1273
+@mhs_sam Just created a PR with some UI updates, you can find them here. I used @manansh 's Figma file for design
+
+https://github.com/ErgoRaffle/raffle-frontend/pull/1
+
+{Embed}
+https://github.com/ErgoRaffle/raffle-frontend/pull/1
+UI UPDATE by TanBeige · Pull Request #1 · ErgoRaffle/raffle-frontend
+Let me know if there are any bugs or if you have any requests. Btw I'm Quokka on the discord. Worked on this using gucamole#7167 UI design
+https://images-ext-2.discordapp.net/external/vYMS0hXCqCQNcWGj2aLp7YzwU-IQQ9n5rgZwG5SgurU/https/opengraph.githubassets.com/201e955bf50ab21aec1d1b6dcec734e24a40483b822bd20f8b89496f43ae0f95/ErgoRaffle/raffle-frontend/pull/1
+
+{Reactions}
+🇨🇦 
+
+[09/09/2021 11:41 PM] quokka#1273
+Let me kno what you think
+
+{Reactions}
+👍 (2) 
+
+[09/09/2021 11:49 PM] mhs_sam#1471
+thanks a lot, I will check tomorrow.
+
+
+[09/09/2021 11:50 PM] mhs_sam#1471
+it is not easy but doable. it's in our plan.
+
+
+[09/09/2021 11:52 PM] mhs_sam#1471
+yep, it's the conversion issue of mobile wallet. 
+if you send any amount other than specified, it will be refunded to your wallet.
+
+
+[09/09/2021 11:57 PM] mhs_sam#1471
+on the refund, I will check it tomorrow.
+
+
+[09/10/2021 3:24 PM] glasgowm#9381
+@MrStahlfelge
+
+
+[09/10/2021 3:27 PM] MrStahlfelge#0042
+yeah I know, first transaction was a float issue. but second should be another problem. in any case, next version of the wallet will be fixed
+
+{Reactions}
+👍 (2) 
+
+[09/11/2021 7:50 AM] mhs_sam#1471
+refunded. He had sent to the previous address (without creating a new request and receiving a new address)
+https://explorer.ergoplatform.com/en/transactions/541e9483d024660183893baa9667947e987eb5434deeb24d7eb3f61d7e16eb2f
+
+{Reactions}
+👍 (2) 
+
+[09/11/2021 4:44 PM] quokka#1273
+@manansh our design update just got merged into master. Very excited to see the new version up!!!
+
+{Reactions}
+😍 (2) 
+
+[09/11/2021 5:43 PM] manansh#7167
+HAHA nice! Props to you for making the changes.
+
+{Reactions}
+😈 
+
+[09/11/2021 9:25 PM] mhs_sam#1471
+yeah, thanks. It will be deployed by tomorrow.
+I will report on the process of UI development very soon. The progress is about 30% by now; I hope the final UI will be available in 20 days.
+
+{Reactions}
+👍 (2) 
+
+[09/12/2021 11:46 PM] quokka#1273
+I see it up! Can’t wait to see the final UI
+
+{Reactions}
+👍 
+
+[09/13/2021 11:02 AM] glasgowm#9381
+Looks great! Could we see some stats on the homepage (funded %?) next maybe ? 🙏  Hard to tell at a glance what's spam currently
+
+
+[09/17/2021 1:52 AM] Chris Ray#2713
+I exchanged 110.5 Erg’s that were crowd sourced by using beta.ergo.raffle.
+
+100.5 were raised through the raffle and 10 were donated by twitter user @ClayrgoNauts
+
+Thank you to everyone who contributed.
+
+The exchange was to USDT and after fee’s the amount is $1937.27
+
+I then sent it to my coinbase account for a fee of 22 USDT = $1915.21 sent
+
+Sold the USDT for $$s for a fee of $28.40 = $1877.81
+
+Sent funds to my bank account with no fee.
+
+$575.00 loaned on Kiva 9-16-21
+
+Please feel free to advise me on what loans on Kiva I should put the rest of the funds towards, I will listen. 😊
+
+{Reactions}
+⭐ (3) 
+
+[09/17/2021 1:39 PM] lgd#5847
+I have a question about creating a raffle, sorry if it's a dumb question. I'm confused about the difference between the "charity wallet" and the "wallet" sections of the form. Is "charity wallet" where I want the money to go and "wallet" my wallet to pay the fee? Thnx and really cool project btw.
+
+
+[09/17/2021 2:06 PM] zargarzadehmoein#2928
+It's right, the `wallet address` is for a time when for any reason it is not possible to create a raffle and the fee will be returned to this address.
+
+{Reactions}
+👍 
+
+[09/17/2021 4:53 PM] quokka#1273
+^^^
+
+
+[09/17/2021 6:46 PM] lgd#5847
+There are some raffles that are doubled, including one I made. It happened because I thought something went wrong after I paid the fee, so I tried again but not realizing it takes time. Would be good if there was a way to prevent this kind of thing from happening by accident lol.
+
+
+[09/19/2021 8:47 PM] quokka#1273
+@mhs_sam if you can add # funded to the api call to the homepage I can go in and add the progress bar to the cards
+
+
+[09/20/2021 9:18 AM] Dmitry Usov#0134
+also will be useful to add: 
+1. participants 
+2. fees
+3. how much ergs now in raffle and how much needed
+
+{Reactions}
+❗ 
+
+[09/21/2021 4:40 PM] mhs_sam#1471
+I will update the UI in a few days, it would be great if you improve the final UI when released. 
+almost all of the features mentioned in this chat is added to this UI.
+
+{Reactions}
+👍 🙏 🤩 
+
+[09/22/2021 9:01 AM] vegycslol#1714
+who gets the service fee in the raffle?
+
+
+[09/22/2021 9:16 AM] glasgowm#9381
+raffle devs
+
+{Reactions}
+👍 
+
+[09/22/2021 9:16 AM] glasgowm#9381
+who were participants in ergohack 1
+
+
+[09/22/2021 9:17 AM] vegycslol#1714
+thanks, wasn't sure if it's part of the "reward" or not
+
+
+[09/22/2021 9:21 AM] vegycslol#1714
+i think it would be good to have some sortings (eg. trending, new, close to deadline etc), maybe even have some categories somehow since there are too many raffles going on and you currently need to go through all of them afaik
+
+
+[09/22/2021 10:04 AM] glasgowm#9381
+Yep, I suggested the same above ^^ - Think mhs_sam is pushing a new UI in the next few days so hopefully it's more manageable after that
+
+{Reactions}
+👏 (2) 
+
+[09/24/2021 12:50 PM] mhs_sam#1471
+the current raffle dapp is working only with blockchain's data and there is actually no database on the backend. So, some features like tags and categories are not straightforward. It is possible but data needs to be stored onchain, increasing the tx size and fee. For now, we chose to avoid this.
+
+Also, data is partially fetched from the explorer when you scroll the site. I mean we do not fetch all the raffles at once. So, sorting a partial data while scrolling provides new unsorted data is absurd. But, we are working on it to provide some levels of sorting.
+
+I'm working to outsource building and managing of a subsidiary raffle site with all the centralized amusements, like user profiles, comments, fund tracking and reporting, vids,...
+this website uses raffle apis and will act as a centralized bulletin board for raffle information, while raffle dapp is fully decentralized. Later, we can choose if the current raffle UI is still needed or not (it can be used as a raffle explorer though)
+
+{Reactions}
+ergo_orange 
+
+[09/24/2021 12:59 PM] mhs_sam#1471
+if raffle is successful, the total raised funds will be distributed as: charity%+prize%+fee%=100%. 
+if a raffle is not successful, nothing is charged and the funds will be refunded. of course, there are mining fees to be paid for each tx.
+there are no hidden fees.
+
+currently the fee is 5% but it is configurable and I think we can decrease it over time.
+
+
+[09/24/2021 1:20 PM] vegycslol#1714
+Thanks for the explanation, i thought you have some central db that you create from the onchain data
+
+
+[09/26/2021 2:03 PM] mhs_sam#1471
+raffle doc is updated:
+https://github.com/ErgoRaffle/raffle-documentation
+
+{Embed}
+https://github.com/ErgoRaffle/raffle-documentation
+GitHub - ErgoRaffle/raffle-documentation
+Contribute to ErgoRaffle/raffle-documentation development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/nYKGsZzEwcck3nqqSiCmPlP5si-xSeKDQn9cvEnb24U/https/opengraph.githubassets.com/eaccc7c4ea44576040db3d5003cff798d0e4428d251cce87cd2ef2279bc60aaa/ErgoRaffle/raffle-documentation
+
+
+[09/30/2021 12:07 AM] pbr713#9954
+Is it possible to have a raffle for a NFT?
+
+
+[10/07/2021 4:14 AM] Deleted User#0000
+Hi, have participated on spanish comunity raffle and it was great!
+i know as i have read on the previous messages this is a very simple first ui version, but would like to know if is in the plans having an ui to see all the transactions and tickets owners distribution and, after raffle is done see wich ticket and wallet have won. i think it would be great because it would give all the information about the raffle "statistics" to all the people making things fair for all (just my thoug). excuse my grammar english isnt my language. Thank you for the great work!
+
+{Reactions}
+👍 
+
+[10/08/2021 3:55 AM] panasonic#9004
+hm is the ergo raffle prize?
+
+
+[10/08/2021 11:26 AM] mhs_sam#1471
+yes, new ui with these features is coming.
+
+{Reactions}
+ergo_orange (2) 
+
+[10/11/2021 1:48 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880758096253816832/897103401496752148/unknown.png
+
+
+[10/14/2021 2:34 PM] glasgowm#9381
+Is there a way to send every bidder a NFT? Could you just search the token ID of the raffle ticket to find bidders?
+
+
+[10/22/2021 7:09 AM] Zeiezee#0876
+how long does it take for a raffle ticket to return after i send the ERG out
+
+
+[10/22/2021 7:10 AM] Zeiezee#0876
+I've sent one an hour ago
+
+
+[10/22/2021 7:11 AM] Zeiezee#0876
+oh nvm i just had to refresh the page weird
+
+
+[10/26/2021 7:30 AM] quokka#1273
+I was wondering this as well. I was going to just look at the explorer and see which address got the winning erg and send to them, but if theres a better way would be great to know
+
+
+[11/02/2021 2:10 PM] Dmitry Usov#0134
+I think it would good to have verification mechanism if raffle is directed by charity. Dont know how to implement it. Just my minds.
+
+
+[11/02/2021 2:12 PM] Dmitry Usov#0134
+as example I can simply create this raffle for scam https://beta.ergoraffle.com/raffle/87f18fdfbdd396c5cc3d4940f99be862458d880e143a44f6545b6ad69eb7bb4a
+
+{Embed}
+https://beta.ergoraffle.com/raffle/87f18fdfbdd396c5cc3d4940f99be862458d880e143a44f6545b6ad69eb7bb4a
+Ergo Raffle
+The fun way to fundraise
+
+
+[11/02/2021 4:07 PM] bk#4411
+@Dmitry Usov could you use an Oracle? Something like: CharityX could make a unique NFT and then publish the ID at a well known URI (ie, `charityx.org/ergo-identifier.txt`). Then an Oracle pool confirms the ID <==> `charityx.org` link).  Then you make sure the charity address of the raffle has the NFT?
+
+
+[11/02/2021 7:43 PM] Dmitry Usov#0134
+Cool idea
+
+
+[11/03/2021 12:47 AM] quokka#1273
+Any ETA on that UI update
+
+
+[11/03/2021 4:17 PM] quokka#1273
+cool 😎  https://discord.com/channels/668903786361651200/669989266478202917/905447817823264769
+
+
+[11/13/2021 4:09 PM] AboveSpec#5703
+Hey guys, when trying to create a raffle, I have an issue pasting my wallet address. I cannot even type in anything,  tried firefox and chrome...
+
+
+[11/14/2021 12:57 AM] nitram147#5106
+What it should be useful for?
+
+
+[11/14/2021 12:57 AM] nitram147#5106
+There's much more simple way for verification
+
+
+[11/14/2021 12:58 AM] nitram147#5106
+Each raffle attendee should decide whether the raffle is legit or not by his own reasoning.
+
+
+[11/14/2021 12:59 AM] nitram147#5106
+If the charity raffle want to make it more trustworthy it could do the following:
+
+
+[11/14/2021 12:59 AM] nitram147#5106
+1.) Post charity website into raffle description, ideally pointing into some article charity . xyz / article . php ? id = 123
+
+
+[11/14/2021 1:00 AM] nitram147#5106
+2.) Post raffle id (obtained from ergoraffle site), into this article
+
+
+[11/14/2021 1:02 AM] nitram147#5106
+User can now verify that when he opens website mentioned in raffle description he can see the same raffle id as the page on ergoraffle which has pointed him to the website. From this information he could be sure that the raffle owner had access to the charity website in the past (of course it could be also a bad hacker...). User have then to verify that this charity belongs to legit organization.
+
+
+[11/14/2021 1:04 AM] nitram147#5106
+This way is much more user friendly for the raffle creator and it doesn't require anything specific. Thanks to this vague specification it can be used even when for example user (charity employee) don't have access to create a file, but have access to make new article.
+
+
+[11/14/2021 1:05 AM] nitram147#5106
+Using oracle pool for such a things would be overkill and it would not introduce any advantages over the approach I mentioned here.
+
+{Reactions}
+👍 
+
+[12/03/2021 2:31 PM] lgd#5847
+ui looks so good 🤤
+
+
+[12/03/2021 2:50 PM] lgd#5847
+raffles don't load in firefox though
+
+
+[12/03/2021 4:12 PM] quokka#1273
+LOVE the new UI
+
+
+[12/03/2021 4:13 PM] quokka#1273
+The main issue is that it is super slow, and while creating a raffle there seems to be a character limit in the description but it doesnt say anywhere the amount
+
+
+[12/03/2021 4:41 PM] quokka#1273
+Also, I created a raffle and the mrkup language wasnt applied
+
+
+[12/03/2021 4:41 PM] quokka#1273
+https://ergoraffle.com/raffle/show/ad82a9b02b0c7141b8d20f72bc58cc2db72f61ce531c82b30373dccdc3758e05
+
+{Embed}
+https://ergoraffle.com/raffle/show/ad82a9b02b0c7141b8d20f72bc58cc2db72f61ce531c82b30373dccdc3758e05
+Default Title
+Ergo raffle is a crowdfunding system based on ergo contracts
+
+
+[12/03/2021 4:43 PM] quokka#1273
+Also, when buying a ticket it says "buy 10 ERG" instead of 10 tickets
+
+
+[12/03/2021 4:43 PM] quokka#1273
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880758096253816832/916369030535864410/ticket.PNG
+
+
+[12/03/2021 4:44 PM] quokka#1273
+@mhs_sam
+
+
+[12/03/2021 5:02 PM] mix#6733
+how anyone to be a winner??
+
+
+[12/03/2021 5:02 PM] quokka#1273
+i dont understand the question
+
+
+[12/03/2021 5:04 PM] mix#6733
+All you have to do is buy at least one ticket to this lottery and wait, as the smart contracts here will handle the rest.
+
+
+[12/03/2021 5:04 PM] mix#6733
+how i can win a that lottery??
+
+
+[12/03/2021 5:05 PM] quokka#1273
+You buy one ticket (each ticket is worth 0.5 ERG) and as soon as the deadline happens (in 15 days) then a random person with a ticket gets the winning pool. The more tickets you buy the higher chance you have. The lottery refunds everyone if the 319 ERG minimum isnt reached
+
+
+[12/03/2021 5:06 PM] mix#6733
+then how they get the random person??
+
+
+[12/03/2021 5:08 PM] quokka#1273
+They use some sort of math in the smart contracts to randomly select a winner
+
+
+[12/03/2021 6:30 PM] mhs_sam#1471
+Fixed!
+
+{Reactions}
+❤️ 
+
+[12/03/2021 6:43 PM] NoahErgo#4349
+@mhs_sam if you have not set the wallet address with the button in top right corner, you are not able to type anything into the wallet address. Since it asks "what is your wallet address?" it feels that it is asking me to type it in here. This seems unintuitive to me.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880758096253816832/916399135685509161/Screen_Shot_2021-12-03_at_10.41.56_AM.png
+
+
+[12/03/2021 6:56 PM] mhs_sam#1471
+It was supposed to set the address, Thanks for reporting!
+
+{Reactions}
+👍 
+
+[12/03/2021 11:10 PM] curbsideprophet#5083
+can we get a counter for `input text count / max 1000 char` ?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880758096253816832/916466449235705906/Screen_Shot_2021-12-03_at_3.09.54_PM.png
+
+{Reactions}
+👍 (3) 
+
+[12/03/2021 11:12 PM] curbsideprophet#5083
+other than that the new UI is lookin' 🙌
+
+
+[12/05/2021 2:44 AM] lxzybones#3159
+Is anyone familiar with personal crowdfunding laws in the US and how you'd have to report donations from a raffle? I'm just curious! I'm a broke math student currently stuck with a computer that isn't capable of running nodes. I want to participate more into this ecosystem and thought this might be a good opportunity to crowdsource for a new computer if I successfully ran a raffle with an NFT + part of the donation pool as a prize. However, I'm not exactly trying to break securities laws by just going for it without prior knowledge 😅
+
+
+[12/05/2021 10:08 PM] M. Zuiko#5537
+Got any friends in finance? Also my lenovo t430 is running an ergo full node rn.
+
+
+[12/06/2021 8:01 AM] mhs_sam#1471
+working on it. It's not easy though. Maybe I should change the editor
+
+{Reactions}
+🙌 
+
+[12/06/2021 8:03 AM] mhs_sam#1471
+idk if you chose a transparent ergo logo intentionally or by chance. Anyway the result was eye-catching for me
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880758096253816832/917325411724185660/photo_2021-12-06_11.33.09.jpeg
+
+
+[12/06/2021 10:25 PM] curbsideprophet#5083
+haha thanks and totally by chance! 🙂
+
+
+[12/08/2021 2:14 PM] Platypus#2410
+headsup @glasgowm on sigmaverse.io there's still the old link for the beta of the raffle
+
+{Reactions}
+👍 
+
+[12/11/2021 8:04 PM] curbsideprophet#5083
+question: how do i "cancel" a raffle so i can create a new one with a different amount and charity % ?
+
+
+[12/11/2021 8:18 PM] glasgowm#9381
+You can't, but can indicate on the new one that it's the primary one
+
+{Reactions}
+🙌 
+
+[12/13/2021 4:59 AM] wileyyy#7785
+https://tenor.com/view/aunty-donna-get-on-in-here-gif-8062176
+
+{Embed}
+https://tenor.com/view/aunty-donna-get-on-in-here-gif-8062176
+https://images-ext-1.discordapp.net/external/t_NOVnwcDTX2tfqwNSWFEmmfLuKUEOPcaIzlEdvnL3I/https/media.tenor.co/images/e49e3c840a744d7d4e16128194bd5ece/tenor.png
+
+
+[12/13/2021 4:59 AM] wileyyy#7785
+https://ergoraffle.com/raffle/show/d630ccef3cec1b14d4f0026feba37586e2ab0b6e76d284a90303e4c884669908
+
+{Embed}
+https://ergoraffle.com/raffle/show/d630ccef3cec1b14d4f0026feba37586e2ab0b6e76d284a90303e4c884669908
+Ergo Raffle
+Ergo raffle is a crowdfunding system based on ergo contracts
+
+
+[12/14/2021 12:45 PM] Art_28#6319
+Guys lets support one very important initiative:  https://ergoraffle.com/raffle/show/8acc987d477ec620b3d3359678808dcecf0310927782987b5b832a84ff2ed6e4
+
+{Embed}
+https://ergoraffle.com/raffle/show/8acc987d477ec620b3d3359678808dcecf0310927782987b5b832a84ff2ed6e4
+Ergo Raffle
+Ergo raffle is a crowdfunding system based on ergo contracts
+
+
+[12/14/2021 12:55 PM] Art_28#6319
+Hi! Is that you data scientist?
+
+
+[12/14/2021 1:06 PM] glasgowm#9381
+#ergo-watch
+
+
+[12/22/2021 3:34 PM] mhs_sam#1471
+you might need some tweets to attract donators. only 9 days to go.
+
+
+[12/22/2021 5:41 PM] curbsideprophet#5083
+I am letting this one run itself out then setting up new target and allocation
+
+
+[01/04/2022 12:48 PM] Deleted User#0000
+Can a quick fix be applied to 'Successful Stories' section of https://ergoraffle.com/ ? I see html or bb code errors on the main page in that area. I see it's fixed on beta but since it's a front end display i'd update that a.s.a.p.
+
+{Embed}
+https://ergoraffle.com/
+Ergo Raffle
+Ergo raffle is a crowdfunding system based on ergo contracts
+
+
+[01/05/2022 10:48 AM] Hamilton#4703
+So, I was trying to see the ergoraffle and...
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880758096253816832/928238455509614602/unknown.png
+
+
+[01/05/2022 10:48 AM] Hamilton#4703
+It is like this forever :[
+
+
+[01/09/2022 5:52 PM] Daniumy#5792
+Hey @mhs_sam , was trying to use ErgoRaffle, and I think I found a bug, I wrote the number 2 there, but I cant delete it.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880758096253816832/929794755905351810/2022-01-09_18-45-58.mp4
+
+{Reactions}
+👍 
+
+[01/09/2022 5:52 PM] Daniumy#5792
+I may be doing something wrong, who knows
+
+
+[01/12/2022 11:51 AM] Platypus#2410
+Who can i ping about this? The font on the dark mode is off
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880758096253816832/930791047766900766/unknown.png
+
+
+[01/12/2022 12:13 PM] glasgowm#9381
+@Raffle
+
+
+[01/12/2022 11:38 PM] mhs_sam#1471
+@glasgowm seems the raffle creator have done some style modifications indirectly (it is not allowed in the editor) which went wrong in the dark mode.
+
+{Reactions}
+👍 (2) 
+
+[01/19/2022 1:43 PM] Krasavice Blasen#4574
+Hey there, I was trying to learn some more about RNG on Ergo. I see Ergo raffle references Oracle Box Id which I see is supplied to the contract as a dataInput. I was wondering where this ID comes from? Is it from scanning the blockchain for any oracle it can find (how do you find oracles?).
+
+
+[01/27/2022 1:37 PM] Deleted User#0000
+Can someone fix the display errors in descriptions coming from commas and colons. They show on this list page and i wanted to make content showing it off - https://ergoraffle.com/raffle/list
+
+{Embed}
+https://ergoraffle.com/raffle/list
+Ergo Raffle
+Ergo raffle is a crowdfunding system based on ergo contracts
+
+
+[02/05/2022 2:22 PM] philip_nguyen#5088
+HI
+
+
+[02/05/2022 3:22 PM] TheStophe#8489
+Hello, with the recent events of the GoFundMe and Canadian Truckers, it made me wonder if (regardless of cause) it would be possible to have a private raffle, where the recipients paste in their address (truckers), and the people fundraising would put in erg, or maybe wrapped btc neta.  The funders would win the lottery (50% of pot), and the other 50% goes to say recipient addresses, 1 transaction to many.  This was instead of the traceability of bitcoin, it is private with erg. Perhaps on the other side, if they prefer bitcoin, it is automatically "unwrapped". Just some thoughts.
+
+
+[02/05/2022 3:22 PM] TheStophe#8489
+way*
+
+
+[02/13/2022 9:26 AM] mhs_sam#1471
+Hi, no need for a private raffle.
+However raffle only supports one winner and one charity address, It is still doable. The charity address can be any address, so one can use a P2S address which distributes the funds between several user addresses (a proxy contract). More interestingly, ergo contracts are composable. So you can send your funds directly to the ergo mixer and no one can trace the funds.
+
+
+[05/20/2022 2:53 PM] Gstoiti#2984
+https://ergoraffle.com/raffle/show/9ad6ccdd716e5d3027d9f8889b911f3f08776698979ba5917c43588f9390da66
+
+This raffle is scam and hasn't been created by Aberg. Is it possible to delete it from the website? @mhs_sam
+
+{Embed}
+https://ergoraffle.com/raffle/show/9ad6ccdd716e5d3027d9f8889b911f3f08776698979ba5917c43588f9390da66
+Ergo Raffle
+Ergo raffle is a crowdfunding system based on ergo contracts
+
+{Reactions}
+👍 
+
+[05/23/2022 11:25 AM] Gstoiti#2984
+Thanks 👍
+
+
+[05/23/2022 11:38 AM] glasgowm#9381
+Is there anyway we can get notifications when a new raffle is added?
+
+
+[05/23/2022 11:39 AM] glasgowm#9381
+A `Verification` field would be nice - it could point to an optional page (tweet, website, etc) that says 'The raffle #xxx is legit'
+
+
+[05/23/2022 11:46 AM] glasgowm#9381
+Also fake @mhs_sam 
+
+https://ergoraffle.com/raffle/show/1c041bf2f6ca641caef3a69b6cc4424fdca2f45cf7a4303bf22fe9718625ff6c
+
+{Embed}
+https://ergoraffle.com/raffle/show/1c041bf2f6ca641caef3a69b6cc4424fdca2f45cf7a4303bf22fe9718625ff6c
+Ergo Raffle
+Ergo raffle is a crowdfunding system based on ergo contracts
+
+{Reactions}
+👍 
+
+[05/23/2022 1:50 PM] glasgowm#9381
+and this : https://ergoraffle.com/raffle/show/08ff52d0776f91d1e635a7cfc6b6a0cf2377d48d4d57fff19d804df75fa61d4f
+
+{Embed}
+https://ergoraffle.com/raffle/show/08ff52d0776f91d1e635a7cfc6b6a0cf2377d48d4d57fff19d804df75fa61d4f
+Ergo Raffle
+Ergo raffle is a crowdfunding system based on ergo contracts
+
+
+[05/23/2022 2:18 PM] glasgowm#9381
+& https://ergoraffle.com/raffle/show/d89d6b4b9efcbf62169a5d2602ff529b9b1774472246fa57c26454376ea092a3
+
+{Embed}
+https://ergoraffle.com/raffle/show/d89d6b4b9efcbf62169a5d2602ff529b9b1774472246fa57c26454376ea092a3
+Ergo Raffle
+Ergo raffle is a crowdfunding system based on ergo contracts
+
+
+[05/23/2022 4:18 PM] curbsideprophet#5083
+this one too: https://ergoraffle.com/raffle/show/eee39c5f00f4ecc8db8f3f1ae82eceae9cfe406c785f31867012e0cb38512b0b
+
+cryptocream hasn't been active in awhile and i spoke with him couple weeks ago he's dealing with personal stuff
+
+{Embed}
+https://ergoraffle.com/raffle/show/eee39c5f00f4ecc8db8f3f1ae82eceae9cfe406c785f31867012e0cb38512b0b
+Ergo Raffle
+Ergo raffle is a crowdfunding system based on ergo contracts
+
+
+[05/23/2022 4:19 PM] curbsideprophet#5083
+"proof of messaging" lol
+
+{Attachments}
+https://cdn.discordapp.com/attachments/880758096253816832/978316191946907728/Screen_Shot_2022-05-23_at_08.19.09.png
+
+
+[08/13/2022 6:50 AM] bombibus#2765
+I am making a website to see the historic erg balance of an address : https://www.reddit.com/r/ergonauts/comments/wn6o9h/website_to_see_the_erg_balance_of_an_address_over/ please donate/upvote if you are interested 🙂
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/wn6o9h/website_to_see_the_erg_balance_of_an_address_over/
+r/ergonauts - Website to see the ERG balance of an address over time
+0 votes and 1 comment so far on Reddit
+https://images-ext-2.discordapp.net/external/8SW7IvLC6IdseBC3Jn97LYs0dp2Q8dhXnXA8hhw42w0/%3Fauto%3Dwebp%26s%3D07a78cf5561314dda1a87ce18c71302584ee946d/https/preview.redd.it/w3363pb24fh91.png
+
+
+[12/06/2022 3:53 PM] zargarzadehmoein#2928
+Update appkit to `v5.0.0` in `ErgoRaffle`.
+We had two locked donation due to `missing Unit support in Ergo compiler` , ErgoProtocol V5.0 just launched and we refunded them and it was successful :
+
+https://explorer.ergoplatform.com/en/transactions/0fdf0adbc25424270cb3be095f31e06326d28c60998a7de2d3734c61732a9e42
+
+https://explorer.ergoplatform.com/en/transactions/000c817066f153fe1445f1b0234411be0a5a70821bd8f25d4db3e51571376775
+
+
+==============================================================
+Exported 171 message(s)
+==============================================================

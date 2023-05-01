@@ -1,0 +1,82 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Infra 〙☰ / ergo-stats
+==============================================================
+
+[02/08/2023 1:11 PM] glasgowm#9381
+The goal of this project is to support DeFi on Ergo with providing useful information such as blockchain
+statistics – currently found on ergo.watch and tokenJay - in a compact form on a mobile device
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072867223162605639/1072867308940304454/ErgoStats-iOS-app.pdf
+
+{Reactions}
+👍 (8) 
+
+[02/21/2023 2:20 PM] alin#1301
+App build is finished, waiting for Apple AppStore to review it and publish it. In the meanwhile, I requested a TestFlight version so the ergonauts can test the app.
+The code is made available for public on Github: https://github.com/ach2swift/ErgoStats
+
+{Embed}
+https://github.com/ach2swift/ErgoStats
+GitHub - ach2swift/ErgoStats: iOS app for staying up to date with E...
+iOS app for staying up to date with ERGO blockchain statistics - GitHub - ach2swift/ErgoStats: iOS app for staying up to date with ERGO blockchain statistics
+https://images-ext-1.discordapp.net/external/RfU_kn_R_aOjSAcZyrcOKQc59oppr3FGWUdo5-4BYYU/https/opengraph.githubassets.com/ee8815208223a58e3d6996e42bb505d5c36741969efed372be72daa268d4825f/ach2swift/ErgoStats
+
+{Reactions}
+🔥 (10) 👍 
+
+[02/24/2023 9:22 PM] NoahErgo#4349
+@Nadi
+
+
+[02/26/2023 1:27 PM] Platypus#2410
+wonderful stuff guys, keep it up!!
+
+
+[02/26/2023 1:28 PM] Platypus#2410
+i was wondering, are you planning to expand the dashboards on ergo.watch and/or stats to include the data like on lookintobitcoin.com?
+
+
+[02/26/2023 1:28 PM] Platypus#2410
+or what backend stuff do we need before we can support additional on chain analytics?
+
+
+[02/27/2023 12:42 PM] alin#1301
+I am not the developer of ergo.watch, so I could not answer to that question 🙂 My app only uses the ergo.watch api to present the data
+
+{Reactions}
+👍 
+
+[02/28/2023 5:23 AM] alin#1301
+The app is available on AppStore! 🥳 https://apps.apple.com/ro/app/ergo-stats/id1672931450
+
+{Embed}
+https://apps.apple.com/ro/app/ergo-stats/id1672931450
+‎Ergo Stats
+‎App designed for ERGO blockchain. Stay up to date with the latest statistics.
+Features:
+
+Overview page:
+- a minimalistic chart to reflect the ERG price in the last 30 days
+- a summary from coingecko.com with market cap, volume, market cap, low and high
+
+Metrics page:
+- emission status
+- address metr…
+https://images-ext-1.discordapp.net/external/JoLKJg_-Kqth-D93SnNkIgojjRtZeIgIWrW4dHbKUGA/https/is2-ssl.mzstatic.com/image/thumb/Purple116/v4/d4/95/3d/d4953d89-a8d4-ad78-b63e-d9be55cde20d/AppIcon-1x_U007emarketing-0-7-0-85-220.png/1200x630wa.png
+
+{Reactions}
+😍 (4) 
+
+[04/03/2023 3:02 PM] cognito#7028
+Hi guys, I just finished building the Ergo Stats app for Android. Here is the public github link. https://github.com/sachindayl/ErgoStatsAndroid
+
+The App is submitted for review on beta testing track. Hope to see it in the play store very soon 🥳
+
+{Reactions}
+🔥 (6) ergo_orange2 (4) 
+
+==============================================================
+Exported 9 message(s)
+==============================================================

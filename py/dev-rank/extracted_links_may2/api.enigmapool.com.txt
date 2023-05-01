@@ -1,0 +1,6 @@
+https://api.enigmapool.com/workers/wallet
+https://api.enigmapool.com/workers/9er2RVWJuhXfu45hEhYdZpe3EdsvagBegAp66j9WLaahUVXacQF
+https://api.enigmapool.com/hashrate/wallet
+https://api.enigmapool.com/shares/wallet
+https://api.enigmapool.com/hashrate/9er2RVWJuhXfu45hEhYdZpe3EdsvagBegAp66j9WLaahUVXacQF
+https://api.enigmapool.com/shares/9er2RVWJuhXfu45hEhYdZpe3EdsvagBegAp66j9WLaahUVXacQF

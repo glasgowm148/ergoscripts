@@ -1,0 +1,2307 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / sigma-development
+==============================================================
+
+[01/21/2020 6:18 AM] mx#5165
+@greenhat @Ilya | Spectrum @Robert K
+
+
+[01/21/2020 6:20 AM] mx#5165
+channels should be visible now
+
+{Reactions}
+👍 (3) 
+
+[01/21/2020 4:54 PM] morphic#4133
+By the way, if Sigma core can be made free from the external Java dependencies, it can probably be compiled using ScalaJS to create the JS library, which can be used in a browser
+
+{Reactions}
+💯 (2) 
+
+[01/21/2020 4:58 PM] kushti#0978
+but that includes BouncyCastle?
+
+
+[01/21/2020 5:12 PM] morphic#4133
+No, but we can introduce interfaces to abstract from cryptography, then the most complex part of Sigma interpretation can be compiled to JS (hopefully 🙂
+
+
+[01/21/2020 7:02 PM] kushti#0978
+sorry, do not understand. Should we replace BC with a Scala lib ?
+
+
+[01/22/2020 6:13 AM] morphic#4133
+Yes, this may be one option, to have ScalaJS compatible scala lib for crypto. If not, we need to have JS libs that implement Blake, ECPoint and other classes which we use from bouncycastle. Then we can define JS interfaces and map (one to one) those interfaces to Scala interfaces (hope this is possible to do in ScalaJS). Then we can refactor Sigma to use new interfaces instead of directly using bouncycastle.
+
+
+[01/22/2020 7:34 AM] kushti#0978
+@morphic both options are not very good. BouncyCastle is solid library, #1 in the JVM world. It would be pretty risky and costly trying to rewrite it. JS libs quality are not so good
+
+
+[01/22/2020 7:40 AM] morphic#4133
+Well, if we want to run Sigma on JS we need JS libraries for crypto anyway. I just wanted to point out that Sigma interpreter maybe not a show-stopper here and actually an easy task. The root problem is crypto libraries on JS. (I just speculate, I have not even tried ScalaJS yet)
+
+
+[01/22/2020 7:57 AM] kushti#0978
+do we want to run sigma on JS in the first place ?
+
+
+[01/22/2020 8:00 AM] morphic#4133
+it depends on the definition of "we" 🙂
+
+
+[01/22/2020 8:02 AM] kushti#0978
+good point ) so lets formulate the goal exactly, especially as delivery will be pretty painful
+
+
+[01/22/2020 8:02 AM] kushti#0978
+I think we need to stick with making simpler descriptions of reduction algo
+
+
+[01/22/2020 8:03 AM] kushti#0978
+and then maybe some enthusiast will write a simpler reference implementation
+
+
+[01/22/2020 8:44 AM] morphic#4133
+Well, most of the complexity is due to costing, which is not necessary for application level proof generation. For such application side use cases there is a specification which is rather complete https://github.com/ScorexFoundation/sigmastate-interpreter/blob/b317b0810bdd8519b33cd67cb20f15cdcce40155/docs/spec/spec.pdf  where both the language (ErgoTree) and all operations are described. Anyone can challenge himself to come up with alternative implementation of the language, the spec should be enough for that. Knowing the details of existing implementation is not necessary, especially if one want to create something simpler. And I'm willing to support such endeavour by any means, once anyone rises his hand.
+Until then, I'm considering ways to run existing implementation on all key platforms.
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/blob/b317b0810bdd8519b33cd67cb20f15cdcce40155/docs/spec/spec.pdf
+ScorexFoundation/sigmastate-interpreter
+Interpreter of a Sigma-State language. Contribute to ScorexFoundation/sigmastate-interpreter development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[01/22/2020 8:49 AM] morphic#4133
+For the sake of completeness going to finish missing parts of spec once we finish with DEX.
+
+
+[01/22/2020 8:52 AM] kushti#0978
+@morphic well I can try to seduce some students or friends to make an alternative impl, say in C++, but entry barrier looks high to me
+
+
+[01/22/2020 8:53 AM] morphic#4133
+yes, it is not simple arithmetic calculator 🙂
+
+
+[01/22/2020 8:56 AM] morphic#4133
+If you find someone, I can help with this work.
+
+
+[01/22/2020 8:56 AM] kushti#0978
+how can I motivate a person ?
+
+
+[01/22/2020 8:57 AM] kushti#0978
+hey there's denotational semantics ?
+
+
+[01/22/2020 8:57 AM] kushti#0978
+I can try though
+
+
+[01/22/2020 8:57 AM] morphic#4133
+you cannot, the guy should like languages theory, compilers and the stuff
+
+
+[01/22/2020 8:58 AM] morphic#4133
+it means he should already have basic motivation on the topic.
+
+
+[01/22/2020 8:59 AM] morphic#4133
+This is good for an educational project, but the quality will be poor, or you need really talented student.
+
+
+[01/22/2020 9:04 AM] morphic#4133
+There are many independent sub-topics, such as Collections library, IR/Interpreter, Serializers, Cryptography, AvlTrees, etc.
+Each one can be independent project.
+
+
+[01/22/2020 9:07 AM] morphic#4133
+The candidates should be really good, otherwise it will be loss of time with unusable results (good for academy, bad for production)
+
+
+[01/22/2020 9:10 AM] kushti#0978
+shouldn't reduction algo be simple?
+
+
+[01/22/2020 9:10 AM] kushti#0978
+when I worked on sigma it was the case
+
+
+[01/22/2020 9:13 AM] morphic#4133
+the language has grown up, with many requirements
+
+
+[01/22/2020 9:14 AM] kushti#0978
+but reduction algo?
+
+
+[01/22/2020 9:14 AM] kushti#0978
+can I do it now with Kiama ?
+
+
+[01/22/2020 9:15 AM] morphic#4133
+I don't know, you can try. But we were taking about C++.
+
+
+[01/22/2020 9:16 AM] morphic#4133
+even if you can, doesn't means you should
+
+
+[01/22/2020 9:19 AM] morphic#4133
+And keep in mind performance.
+And BTW, evaluation (or as you call it reduction) is only in a single file, and it is larger than one screen because we have a lot of primitives.
+
+
+[01/22/2020 9:20 AM] morphic#4133
+And all other staff is not related to evaluation, as I mentioned above, many sub-topics.
+
+
+[01/22/2020 9:21 AM] morphic#4133
+We call all of them Sigma, but they may well be separated into independent modules. (should I plan this refactoring as well?)
+
+
+[01/22/2020 9:22 AM] kushti#0978
+as we discussed already, it is worth to split core (ErgoTree) and other parts(utils, ErgoScript)
+
+
+[01/22/2020 9:23 AM] kushti#0978
+and ideally core should be described in abstraction not linked to impl details (Scalan, Kiama etc)
+
+
+[01/22/2020 9:23 AM] kushti#0978
+then it should be much simpler to rewrite
+
+
+[01/22/2020 9:23 AM] kushti#0978
+in other langs
+
+
+[01/22/2020 9:39 AM] kushti#0978
+once protocol is done you should target simplicity IMHO
+
+
+[01/22/2020 9:40 AM] morphic#4133
+Ok, I didn't mean to provoke so many arguments by the original post. Will be careful next time 🙂
+
+
+[01/22/2020 9:41 AM] kushti#0978
+why? pretty good discussion
+
+
+[01/22/2020 9:43 AM] morphic#4133
+the timing is not right, I've got motivation to do what we discussed, but have to write DEX blog post. 🙂
+
+
+[01/22/2020 9:44 AM] kushti#0978
+sure
+
+
+[01/22/2020 9:44 AM] kushti#0978
+no rush, we're talking about perspective
+
+{Reactions}
+👍 
+
+[01/22/2020 9:51 AM] morphic#4133
+Hopefully these messages will not disappear as in Slack.
+
+
+[01/22/2020 3:47 PM] Robert K#0722
+As long as discord doesn't remove/ban this server, I believe the history should be safe. That is the on loss vector of relying on others to host your content, but I think we're not treading on anyone's toes so we should be fine.
+
+
+[01/22/2020 4:11 PM] mx#5165
+testing backup bot just in case 🙂
+
+{Reactions}
+💯 (3) 
+
+[01/22/2020 6:30 PM] mx#5165
+but it doesn`t copy messages, i found this one but someone will need to set it later https://github.com/Androz2091/discord-backup
+
+{Embed}
+https://github.com/Androz2091/discord-backup
+Androz2091/discord-backup
+📦 Complete framework to facilitate server backup using discord.js v12 - Androz2091/discord-backup
+https://images-ext-2.discordapp.net/external/t-2KaEQ-XrHyqdNdqqXwGh6gURSp5QmHWJY91WK61cM/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/42497995
+
+
+[01/24/2020 3:10 AM] scalahub#2618
+how do I get index of current box within ErgoScript?
+
+
+[01/24/2020 3:10 AM] scalahub#2618
+I want to ensure that current box is always at index 0
+
+
+[01/24/2020 3:11 AM] scalahub#2618
+@kushti @morphic
+
+
+[01/24/2020 3:33 AM] scalahub#2618
+Maybe SELF.id == INPUTS (0).id ?
+
+
+[01/24/2020 7:10 AM] morphic#4133
+> Maybe SELF.id == INPUTS (0).id ?
+@scalahub right
+
+
+[01/25/2020 1:19 PM] scalahub#2618
+@morphic https://github.com/aslesarenko/ergo-appkit/pull/21
+
+{Embed}
+https://github.com/aslesarenko/ergo-appkit/pull/21
+Update ProveDHTuple to use 4 parameters by scalahub · Pull Reques...
+https://images-ext-2.discordapp.net/external/elTY0f5IcgCYlqkyT633y2k4IrumfJoDn4Y5RCBNr0g/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/654077
+
+
+[01/25/2020 1:20 PM] scalahub#2618
+I removed the tests for Alice and Bob because they would not work in their original form; perhaps you can re-add them?
+
+
+[01/26/2020 1:58 AM] scalahub#2618
+@morphic @kushti need some help in a test failing for ergomix. Getting this error: `sigmastate.lang.exceptions.CosterException: Cannot find method isValid in object  ...`
+Not sure if its an issue with AppKit or Sigma. 
+branch: https://github.com/scalahub/ergo-appkit/tree/ergomix
+file: https://github.com/scalahub/ergo-appkit/blob/ergomix/appkit/src/test/scala/org/ergoplatform/appkit/ErgoMixSpec.scala
+full error here:  https://gist.github.com/scalahub/2940ce4b0e8725c1733c796bac3e50a2
+
+{Embed}
+https://github.com/scalahub/ergo-appkit/tree/ergomix
+scalahub/ergo-appkit
+Appkit: A Library for Polyglot Development of Ergo Applications using GraalVM - scalahub/ergo-appkit
+https://images-ext-1.discordapp.net/external/DAdK_RAt3sl4w2Xre1d-JjS00hkmEEtYYMon-8hHW7Y/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/23208922
+
+{Embed}
+https://github.com/scalahub/ergo-appkit/blob/ergomix/appkit/src/test/scala/org/ergoplatform/appkit/ErgoMixSpec.scala
+scalahub/ergo-appkit
+Appkit: A Library for Polyglot Development of Ergo Applications using GraalVM - scalahub/ergo-appkit
+https://images-ext-1.discordapp.net/external/DAdK_RAt3sl4w2Xre1d-JjS00hkmEEtYYMon-8hHW7Y/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/23208922
+
+{Embed}
+https://gist.github.com/scalahub/2940ce4b0e8725c1733c796bac3e50a2
+Error in ErgoMixSpec
+Error in ErgoMixSpec. GitHub Gist: instantly share code, notes, and snippets.
+https://images-ext-1.discordapp.net/external/v2ToTBFZ7zHPk2sQlBt80EaH2hhwBfD3Zdf1J_uxMxs/https/github.githubassets.com/images/modules/gists/gist-og-image.png
+
+
+[01/26/2020 8:28 AM] greenhat#6562
+@scalahub It's weird, I don't get why it ends up calling `SigmaAnd.isValid`. Let me take a closer look.
+
+{Reactions}
+👍 
+
+[01/26/2020 9:23 AM] greenhat#6562
+@scalahub Boolean expression have to be lifted into SigmaProp manually with `sigmaProp(boolExpr)`. @morphic BTW, why? In ErgoDsl we're doing it automatically. But in typer we're doing this - http://github.com/ScorexFoundation/sigmastate-interpreter/blob/346717a7d6af45c685b617ccea7babcf39d49939/sigmastate/src/main/scala/sigmastate/lang/SigmaTyper.scala#L326-L326
+
+{Embed}
+http://github.com/ScorexFoundation/sigmastate-interpreter/blob/346717a7d6af45c685b617ccea7babcf39d49939/sigmastate/src/main/scala/sigmastate/lang/SigmaTyper.scala
+ScorexFoundation/sigmastate-interpreter
+Interpreter of a Sigma-State language. Contribute to ScorexFoundation/sigmastate-interpreter development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[01/26/2020 9:24 AM] greenhat#6562
+@scalahub I cannot push into your repo, here is the patch:
+```
+Index: appkit/src/main/scala/org/ergoplatform/ergomix/ErgoMix.scala
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- appkit/src/main/scala/org/ergoplatform/ergomix/ErgoMix.scala    (revision 8ac195080bfb0f0b5149a74e3b3701e36cf29332)
++++ appkit/src/main/scala/org/ergoplatform/ergomix/ErgoMix.scala    (revision d0952fea2dd93cbca7fc5cd1a445b7d2776bdc0d)
+@@ -17,7 +17,7 @@
+       |  val c1 = OUTPUTS(0).R4[GroupElement].get
+       |  val c2 = OUTPUTS(0).R5[GroupElement].get
+       |
+-      |  OUTPUTS(0).value == SELF.value &&
++      |  sigmaProp(OUTPUTS(0).value == SELF.value &&
+       |  OUTPUTS(1).value == SELF.value &&
+       |  OUTPUTS(0).R6[GroupElement].get == gX &&
+       |  OUTPUTS(1).R6[GroupElement].get == gX &&
+@@ -25,11 +25,11 @@
+       |  blake2b256(OUTPUTS(1).propositionBytes) == fullMixScriptHash &&
+       |  OUTPUTS(1).R4[GroupElement].get == c2 &&
+       |  OUTPUTS(1).R5[GroupElement].get == c1 &&
++      |  SELF.id == INPUTS(0).id) &&
+       |  {
+       |    proveDHTuple(g, gX, c1, c2) ||
+       |    proveDHTuple(g, gX, c2, c1)
+-      |  } &&
+-      |  SELF.id == INPUTS(0).id
++      |  }
+       |}""".stripMargin
+ 
+   val fullMixScript =
+```
+
+
+[01/26/2020 11:28 AM] scalahub#2618
+@greenhat Thanks for the patch. Got the test to work.
+
+
+[01/26/2020 11:29 AM] scalahub#2618
+@kushti ErgoMix please refer to branch https://github.com/scalahub/ergo-appkit/tree/ergomix for current example of ErgoMix (need to separate the code from appkit and test in real world)
+
+{Embed}
+https://github.com/scalahub/ergo-appkit/tree/ergomix
+scalahub/ergo-appkit
+Appkit: A Library for Polyglot Development of Ergo Applications using GraalVM - scalahub/ergo-appkit
+https://images-ext-1.discordapp.net/external/DAdK_RAt3sl4w2Xre1d-JjS00hkmEEtYYMon-8hHW7Y/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/23208922
+
+
+[01/26/2020 12:59 PM] scalahub#2618
+proveDHTuple(g, g^x, g^y, g^xy) works for both secrets x and y. At least for sign method in appkit..Is this designed behavior? By works, the prover is able to sign with secret either x or y
+
+
+[01/26/2020 1:00 PM] scalahub#2618
+I would assume that proveDHTuple(g, g^x, g^y, g^xy) should not work for x and only for y. (For using x, the statement should be proveDHTuple(g, g^y, g^x, g^xy))
+
+
+[01/26/2020 2:42 PM] kushti#0978
+@morphic ^ bug in the appkit ?
+
+
+[01/26/2020 2:54 PM] scalahub#2618
+Let me post more details
+
+
+[01/26/2020 2:58 PM] scalahub#2618
+Code in two places that should throw error but does not
+
+
+[01/26/2020 2:58 PM] scalahub#2618
+https://github.com/scalahub/ergo-appkit/blob/a6ae88fce5819c2f86c071bf257f31497e35651d/appkit/src/test/scala/org/ergoplatform/appkit/AnonymousAccessSpec.scala#L87
+https://github.com/scalahub/ergo-appkit/blob/a6ae88fce5819c2f86c071bf257f31497e35651d/appkit/src/test/scala/org/ergoplatform/appkit/ErgoMixSpec.scala#L39
+
+{Embed}
+https://github.com/scalahub/ergo-appkit/blob/a6ae88fce5819c2f86c071bf257f31497e35651d/appkit/src/test/scala/org/ergoplatform/appkit/AnonymousAccessSpec.scala
+scalahub/ergo-appkit
+Appkit: A Library for Polyglot Development of Ergo Applications using GraalVM - scalahub/ergo-appkit
+https://images-ext-1.discordapp.net/external/DAdK_RAt3sl4w2Xre1d-JjS00hkmEEtYYMon-8hHW7Y/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/23208922
+
+{Embed}
+https://github.com/scalahub/ergo-appkit/blob/a6ae88fce5819c2f86c071bf257f31497e35651d/appkit/src/test/scala/org/ergoplatform/appkit/ErgoMixSpec.scala
+scalahub/ergo-appkit
+Appkit: A Library for Polyglot Development of Ergo Applications using GraalVM - scalahub/ergo-appkit
+https://images-ext-1.discordapp.net/external/DAdK_RAt3sl4w2Xre1d-JjS00hkmEEtYYMon-8hHW7Y/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/23208922
+
+
+[01/26/2020 2:59 PM] scalahub#2618
+In branch "ergomix" https://github.com/scalahub/ergo-appkit/tree/ergomix
+
+{Embed}
+https://github.com/scalahub/ergo-appkit/tree/ergomix
+scalahub/ergo-appkit
+Appkit: A Library for Polyglot Development of Ergo Applications using GraalVM - scalahub/ergo-appkit
+https://images-ext-1.discordapp.net/external/DAdK_RAt3sl4w2Xre1d-JjS00hkmEEtYYMon-8hHW7Y/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/23208922
+
+
+[01/26/2020 7:31 PM] morphic#4133
+> @morphic ^ bug in the appkit ?
+@kushti Which version of Appkit, the one that I did of with changes made by @scalahub into the prover construction?
+
+
+[01/26/2020 7:32 PM] kushti#0978
+@morphic why are you asking me ? @scalahub ^ ?
+
+
+[01/26/2020 7:33 PM] morphic#4133
+Oh, I just quoted the line.
+
+
+[01/26/2020 7:34 PM] morphic#4133
+It seems, this is after changes made by @scalahub, which I don't agree with BTW
+
+
+[01/26/2020 7:34 PM] morphic#4133
+🙂
+
+
+[01/26/2020 7:35 PM] kushti#0978
+sigma is okay, made a test specifically for this case, going to create a PR
+
+
+[01/26/2020 7:36 PM] morphic#4133
+@scalahub do we have many generators? Why we need to bother passing it as arguments of the methods?
+
+
+[01/26/2020 7:37 PM] scalahub#2618
+@morphic yes for prove DH tuple, we should allow arbitrary generator
+
+
+[01/26/2020 7:38 PM] scalahub#2618
+it could be something that is not default generator
+
+
+[01/26/2020 7:39 PM] scalahub#2618
+About the other comments; most are valid excapt a couple
+
+
+[01/26/2020 7:39 PM] scalahub#2618
+For instance, the secondSecret is not really a secret, its a public value (g^x or g^y). so the name seems misleading
+
+
+[01/26/2020 7:40 PM] scalahub#2618
+Unless I misunderstood, but in your original method, there was one group element called secret
+
+
+[01/26/2020 7:40 PM] scalahub#2618
+I'll send another PR with better crypto terminology plus your original explanation
+
+
+[01/26/2020 7:41 PM] scalahub#2618
+For the registers, could you do something as I could not figure out how to do it within Java 😛
+
+
+[01/26/2020 7:41 PM] scalahub#2618
+The idea is we always have prove DH tuple of type (g, g^a, g^b, g^ab)
+
+
+[01/26/2020 7:41 PM] morphic#4133
+Yes, secret here maybe misleading, but it is secret, and only difference it is expected to be uncovered.
+
+
+[01/26/2020 7:42 PM] morphic#4133
+so better terminology is wellcome
+
+
+[01/26/2020 7:42 PM] scalahub#2618
+(its not secret though, because in (for example) ergomix, its stored in register)
+
+
+[01/26/2020 7:42 PM] scalahub#2618
+Its a bit late now. Let me go through the comments in morning 🙂
+
+
+[01/26/2020 7:42 PM] morphic#4133
+sure
+
+
+[01/26/2020 7:43 PM] kushti#0978
+https://github.com/ScorexFoundation/sigmastate-interpreter/pull/636
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/pull/636
+Test for proveDHTuple(g, g^x, g^y, g^xy) should work for x and not...
+A new test added in regards with DH proving. Namely, the new test is checking that proveDHTuple(g, g^x, g^y, g^xy) should work for x and not y.
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[01/26/2020 7:43 PM] kushti#0978
+sigma test / showcase
+
+
+[01/26/2020 7:45 PM] scalahub#2618
+@kushti Not sure if Im wrong but in literature (example tutorial), we have (g, h, u, v) for x, where u = g^x
+So should it not be proveDHTuple(g, g^x, g^y, g^xy) sould work for y and not x ?
+
+
+[01/26/2020 7:47 PM] kushti#0978
+u = g^x
+
+
+[01/26/2020 7:47 PM] scalahub#2618
+but this way also works, as long as the examples dont break
+
+
+[01/26/2020 7:47 PM] kushti#0978
+confusing notation
+
+
+[01/26/2020 7:48 PM] kushti#0978
+proveDHTuple(g, g^x, g^y, g^xy) should work for y and not x - correct
+
+
+[01/26/2020 7:48 PM] kushti#0978
+the test of mine shows that
+
+
+[01/26/2020 7:48 PM] kushti#0978
+h = g^x
+
+
+[01/26/2020 7:48 PM] scalahub#2618
+ok perfect 🙂
+
+
+[01/26/2020 7:48 PM] kushti#0978
+and secret is y
+
+
+[01/26/2020 7:49 PM] kushti#0978
+so g^y and g^xy are DH tuple for generators g and h = g^x, accordingly
+
+
+[01/26/2020 7:49 PM] scalahub#2618
+yes and for any such proof, the prover would know only one of x or y and not both. Right? @kushti
+
+
+[01/26/2020 7:50 PM] scalahub#2618
+(in all our use cases)
+
+
+[01/26/2020 7:50 PM] kushti#0978
+for the Ergomix protocol you mean?
+
+
+[01/26/2020 7:50 PM] kushti#0978
+yes
+
+
+[01/26/2020 7:50 PM] scalahub#2618
+because knowing x and y is equivalent to proveDlog(g^xy)
+
+
+[01/26/2020 7:50 PM] scalahub#2618
+yes and for most protocols I can concieve
+
+
+[01/26/2020 7:51 PM] scalahub#2618
+basically 3 proveDlogs (g^x, g^y, g^xy)
+
+
+[01/26/2020 7:53 PM] scalahub#2618
+or even two (g^x, g^y)
+
+
+[01/26/2020 7:53 PM] kushti#0978
+well if you know both secrets x and y that means:
+1) you know secret dlog for generator h = g^x
+2) you also know DH tuple secret and able to prove it
+
+maybe it could be useful in some protocol but I can't recall any examples
+
+
+[01/26/2020 7:54 PM] scalahub#2618
+yes but the proof is still going to use one, so the proof won't help in proving knowledge of both
+
+
+[01/26/2020 7:55 PM] scalahub#2618
+for both, we need 2 proveDlogs
+
+
+[01/26/2020 7:58 PM] kushti#0978
+yes
+
+
+[01/26/2020 8:15 PM] kushti#0978
+so something is wrong in alice.spendFullMixBox(bobBox, endBox)
+
+
+[01/26/2020 10:13 PM] scalahub#2618
+@kushti can you figure out what is wrong in the above line? Two possibilities: (1) It is not able to create proof but still returning something that will not verify correctly (I am hoping), or (2) It is returning something and node will verify correctly (I hope not)
+
+
+[01/26/2020 10:14 PM] kushti#0978
+@scalahub where to take a look exactly ? but I'm off to sleep right now
+
+
+[01/26/2020 10:28 PM] scalahub#2618
+Me too but I was thinking if a way to verify the proof
+
+
+[01/26/2020 10:29 PM] scalahub#2618
+Perhaps one way would be to dig in how the proof is actually generated
+
+
+[01/27/2020 7:02 AM] kushti#0978
+@scalahub sorry do not understand. which code to review exactly ?
+
+
+[01/27/2020 9:04 AM] scalahub#2618
+I'll dig in and revert.
+
+
+[01/27/2020 11:50 AM] scalahub#2618
+There are two ways to approach this issue. First we could test if the proof is accepted by another node. Second we could step through the sign method and see why it doesn't throw exception. What do you suggest @kushti ?
+
+
+[01/27/2020 11:51 AM] kushti#0978
+the latter
+
+
+[01/27/2020 11:51 AM] kushti#0978
+something wrong inside your app or appkit
+
+
+[01/27/2020 2:41 PM] scalahub#2618
+@jasondavies I see that someone has spent one of the full-mix outputs 🙂
+
+
+[01/27/2020 2:43 PM] jasondavies#8712
+Yes, I wonder who it was 😉
+
+
+[01/27/2020 2:43 PM] scalahub#2618
+and that too in what appears another mix transaction?
+
+
+[01/27/2020 2:48 PM] jasondavies#8712
+I think so, yes
+
+
+[01/27/2020 4:57 PM] scalahub#2618
+@kushti @morphic I did some more digging and found a few more tests passing when they should fail. 
+https://github.com/scalahub/ergo-appkit/blob/6e108596b2f4ecee33b10c17c03aab992123ca3b/appkit/src/test/scala/org/ergoplatform/appkit/ErgoMixSpec.scala#L80 (Branch "ergomix")
+
+{Embed}
+https://github.com/scalahub/ergo-appkit/blob/6e108596b2f4ecee33b10c17c03aab992123ca3b/appkit/src/test/scala/org/ergoplatform/appkit/ErgoMixSpec.scala
+scalahub/ergo-appkit
+Appkit: A Library for Polyglot Development of Ergo Applications using GraalVM - scalahub/ergo-appkit
+https://images-ext-1.discordapp.net/external/DAdK_RAt3sl4w2Xre1d-JjS00hkmEEtYYMon-8hHW7Y/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/23208922
+
+
+[01/27/2020 4:58 PM] scalahub#2618
+Also the appkit prover eventually calls prove method in `sigmastate/interpreter/ProverInterpreter.scala` to create the proof
+
+
+[01/27/2020 6:20 PM] morphic#4133
+Yes, it calls, because Appkit is a wrapper around core objects in sigma
+
+
+[01/27/2020 6:25 PM] morphic#4133
+In my original implementation I reproduced the scenario from sigmastate https://github.com/ScorexFoundation/sigmastate-interpreter/blob/b3695bdb785c9b3a94545ffea506358ee3f8ed3d/sigmastate/src/test/scala/sigmastate/utxo/examples/DHTupleExampleSpecification.scala#L28 
+Is the scenario correct?
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/blob/b3695bdb785c9b3a94545ffea506358ee3f8ed3d/sigmastate/src/test/scala/sigmastate/utxo/examples/DHTupleExampleSpecification.scala
+ScorexFoundation/sigmastate-interpreter
+Interpreter of a Sigma-State language. Contribute to ScorexFoundation/sigmastate-interpreter development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[01/27/2020 6:43 PM] scalahub#2618
+@morphic yes that is one of the possible use-cases of proveDHTuple. 
+What I find strange is that either the prover should work in all bad cases or in none of them., Currently it works in some cases and in other it recognizes that tree root is not real
+
+
+[01/27/2020 6:45 PM] morphic#4133
+The test explicitly checks successful and unsuccessful cases, and it is there for a long time.
+
+
+[01/27/2020 6:45 PM] morphic#4133
+So if the test is correct, you just need to compare your new implementation with it.
+
+
+[01/27/2020 6:46 PM] scalahub#2618
+Can you comment on this line? 
+https://github.com/scalahub/ergo-appkit/blob/6e108596b2f4ecee33b10c17c03aab992123ca3b/appkit/src/test/scala/org/ergoplatform/appkit/ErgoMixSpec.scala#L80
+
+Here the secret is simply BigInt(1) and even then the prover works
+
+{Embed}
+https://github.com/scalahub/ergo-appkit/blob/6e108596b2f4ecee33b10c17c03aab992123ca3b/appkit/src/test/scala/org/ergoplatform/appkit/ErgoMixSpec.scala
+scalahub/ergo-appkit
+Appkit: A Library for Polyglot Development of Ergo Applications using GraalVM - scalahub/ergo-appkit
+https://images-ext-1.discordapp.net/external/DAdK_RAt3sl4w2Xre1d-JjS00hkmEEtYYMon-8hHW7Y/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/23208922
+
+
+[01/27/2020 6:48 PM] scalahub#2618
+so it cannot be correct proof
+
+
+[01/27/2020 6:49 PM] morphic#4133
+No, I cannot comment. I don't really understand what should work and what shouldn't. I just made an API in Appkit, which allows to repreduce the sigmastate scenario.
+
+
+[01/27/2020 6:49 PM] scalahub#2618
+BTW even the original has this https://github.com/ScorexFoundation/sigmastate-interpreter/blob/b3695bdb785c9b3a94545ffea506358ee3f8ed3d/sigmastate/src/test/scala/sigmastate/utxo/examples/DHTupleExampleSpecification.scala#L112
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/blob/b3695bdb785c9b3a94545ffea506358ee3f8ed3d/sigmastate/src/test/scala/sigmastate/utxo/examples/DHTupleExampleSpecification.scala
+ScorexFoundation/sigmastate-interpreter
+Interpreter of a Sigma-State language. Contribute to ScorexFoundation/sigmastate-interpreter development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[01/27/2020 6:51 PM] scalahub#2618
+original also allows proofs using bad secrets, just that it should not verify correctly.
+
+
+[01/27/2020 6:51 PM] morphic#4133
+You are constructing quite different tuples, which I don't understand at all, sorry 🙂
+
+
+[01/27/2020 6:51 PM] morphic#4133
+Then it is by design of prover.
+
+
+[01/27/2020 6:52 PM] scalahub#2618
+But the weird part is that for some cases it doesnt work
+
+
+[01/27/2020 6:53 PM] scalahub#2618
+BTW provedHtuple is essentially 4 group elements (g, h, u, v) and the prover is required to prove that he knows some secret, say x, such that u = g^x and v = h^x
+
+
+[01/27/2020 6:54 PM] scalahub#2618
+so (g, h, u, v) must be of the form (g, g^y, g^x, g^xy) for some x and y
+
+
+[01/27/2020 6:55 PM] morphic#4133
+I suggest you solve this question in sigmastate tests first. Maybe doing some additional experiments to better understand the behavior. Appkit is really just a wrapper.
+
+
+[01/27/2020 6:56 PM] scalahub#2618
+yes good idea, let me create some more tests for sigma
+
+{Reactions}
+👍 
+
+[01/28/2020 8:20 AM] kushti#0978
+I'm going to enhance my new test as well
+
+
+[01/28/2020 2:56 PM] scalahub#2618
+where is an example of `def` syntax in ErgoScript?
+
+
+[01/28/2020 3:53 PM] greenhat#6562
+> where is an example of `def` syntax in ErgoScript?
+@scalahub checkout the tests for parser for examples http://github.com/ScorexFoundation/sigmastate-interpreter/blob/42e55cbfd093252b8005e4607970764dd6610cbe/sigmastate/src/test/scala/sigmastate/lang/SigmaParserTest.scala#L430-L453
+
+{Embed}
+http://github.com/ScorexFoundation/sigmastate-interpreter/blob/42e55cbfd093252b8005e4607970764dd6610cbe/sigmastate/src/test/scala/sigmastate/lang/SigmaParserTest.scala
+ScorexFoundation/sigmastate-interpreter
+Interpreter of a Sigma-State language. Contribute to ScorexFoundation/sigmastate-interpreter development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[02/04/2020 10:37 AM] hir0#9158
+Can someone explain to me how Sigma proofs different from other smart contracts, e.g. on Ethereum?
+
+
+[02/04/2020 11:19 AM] morphic#4133
+This is a good topic for a blog post. Not sure there is a simple answer, because it seems to be  different in every aspect starting from crypto primitives and ending with how it is exposed in the ErgoScript language.
+
+
+[02/04/2020 11:20 AM] morphic#4133
+So very good question.
+
+
+[02/04/2020 11:23 AM] hir0#9158
+Yes 🙂 It's also extremely important for overall positioning
+
+{Reactions}
+💯 
+
+[02/04/2020 11:23 AM] hir0#9158
+I think this will be a significant element of our messaging
+
+
+[02/04/2020 11:24 AM] hir0#9158
+Perhaps it would be helpful for someone to compile a list of comparisons with other approaches/platforms, to give a sense of the range of ways it is different, and how
+
+
+[02/04/2020 2:24 PM] kushti#0978
+maybe some scheme ?
+
+
+[02/04/2020 2:25 PM] kushti#0978
+sigma protocols allows for a class of efficient zero-knowledge protocols
+
+
+[02/04/2020 2:26 PM] kushti#0978
+which leads to ring and threshold signatures out of box , as well as more complex crypto stuff which is not doable on top of Bitcoin and prohibitively expensive on top of Ethereum
+
+
+[02/04/2020 2:55 PM] hir0#9158
+Can you give a specific example use case? Like a dApp that does xyz
+
+
+[02/04/2020 2:55 PM] hir0#9158
+Impossible on Bitcoin, expensive/risky on Ethereum etc
+
+
+[02/04/2020 2:56 PM] hir0#9158
+"For example, let's say you want to ... yada yada"
+
+
+[02/04/2020 9:11 PM] hir0#9158
+@kushti
+
+
+[02/04/2020 9:26 PM] hir0#9158
+For example, is the following true:
+It's possible to build a privacy application on Ethereum that uses ring signatures, since it's Turing-complete, or a system of multi-party computation to generate a private key by many users. But - just like constructing a jet engine out of garage junk is possible but inefficient and risky - it's really not designed to do that. Ergo's Sigma protocols allow us to implement this safely and efficiently. While Monero also provides ring signature privacy, it does that one thing only, and is not versatile enough to develop more diverse applications with.
+
+
+[02/05/2020 5:32 AM] mx#5165
+https://twitter.com/chepurnoy/status/1218078668167286784
+
+{Embed}
+Alex Chepurnoy (@chepurnoy)
+https://twitter.com/chepurnoy/status/1218078668167286784
+Signatures in Ergo preserve zero-knowlegde, e.g. from a signature for "pubkey1 or pubkey2" it is not possible to get who actually signed it. This is a real ring signature. ZK is preserved for complex statements like "(pk1 or pk2) and (pk3 or pk4)" as well. #dailyergofact
+Twitter
+
+
+[02/05/2020 7:36 AM] morphic#4133
+> For example, is the following true:
+@hir0 sounds pretty much correct to me. However here is my notes on the topic https://github.com/ergoplatform/notes/issues/1
+
+{Embed}
+https://github.com/ergoplatform/notes/issues/1
+Ergo vs Ethereum · Issue #1 · ergoplatform/notes
+The problem of Ethereum is mostly has to do with imperative nature of its transaction model. You can write complex logic, but you will have to pay gas, so even if it is possible it may become impra...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/05/2020 8:11 AM] kushti#0978
+@morphic "which Alex has presented late 2017" - Spring 2017 actually. I made internal presentation on basic ideas behind sigma-state (name of the contractual approach back then) during IOHK meeting in early April, 2017 (Malta island)
+
+
+[02/05/2020 8:12 AM] kushti#0978
+@morphic reference protocol implementation (I mean core level of it, e.g. ErgoTree interpreter) is the protocol
+
+
+[02/05/2020 8:13 AM] morphic#4133
+Please make necessary changes directly in the text
+
+
+[02/05/2020 8:14 AM] morphic#4133
+I think someone should point Charles at this confusing fact, to avoid further confusions, unless it is the plan 🙂
+
+
+[02/05/2020 8:20 AM] kushti#0978
+@hir0 as the simplest case, consider the contract where you and me put money in and anyone of us can spend, but we're not willing to disclose who's spending to the outer world (so ring spending contract, let's name it so). Such contract is possible for ETH but would be expensive (especially with ring of, say, 10-20 members), with Bitcoin such a contract is simply not possible, in Ergo this is pretty feasible.
+
+
+[02/05/2020 8:21 AM] hir0#9158
+Thanks! That's helpful. Will go in the website content
+
+
+[02/05/2020 8:24 AM] morphic#4133
+> @morphic reference protocol implementation (I mean core level of it, e.g. ErgoTree interpreter) is the protocol
+@kushti no, the protocol is something which stays the same when we change the implementation.
+
+
+[02/05/2020 8:24 AM] kushti#0978
+@morphic "We should distinguish Ergo the Reference Implementation software and Ergo the Protocol" - you meant interfaces of the implementation ?
+
+
+[02/05/2020 8:25 AM] morphic#4133
+I mean the implementation can be different as long as the formats and communication protocol stays the same.
+
+
+[02/05/2020 8:27 AM] kushti#0978
+well, this protocol is defined by current implementation anyway, you don't have complete spec, or executable formal spec
+
+
+[02/05/2020 8:29 AM] morphic#4133
+The protocol is defined by the formats and their interpretation which is agreed upon by all implementations. We already have may versions running on the network, which have different DBs but agree on the formats and the semantics. So we already cannot talk about single reference implementation.
+
+
+[02/05/2020 8:30 AM] morphic#4133
+The spec is something we should have eventually.
+
+
+[02/05/2020 8:31 AM] kushti#0978
+then agree
+
+
+[02/05/2020 8:32 AM] kushti#0978
+and we're selling the protocol, not a concrete implementation.
+
+{Reactions}
+👍 
+
+[02/05/2020 8:32 AM] kushti#0978
+that's the standard in this space
+
+
+[02/05/2020 8:34 AM] kushti#0978
+@morphic you note is covering like 3 topics, not just Ergo vs Ethereum
+
+
+[02/05/2020 8:38 AM] morphic#4133
+They kind of interconnected.
+Since we already have the protocol running, we can talk about its features in present tense, as something we already have. Which is good for promotion. For implementation we can only talk about potential, something which is possible in future. And future is future.
+So talking about protocol, we may be both correct and have more solid and valuable claims.
+
+
+[02/05/2020 8:40 AM] morphic#4133
+> @morphic you note is covering like 3 topics, not just Ergo vs Ethereum
+@kushti You mean another is Protocol vs Implementation, will write a second note on this.
+
+
+[02/05/2020 8:44 AM] morphic#4133
+Not sure how useful those notes will be, but they are definitely more organized pieces than just messages here (which can easily be lost)
+
+
+[02/05/2020 8:44 AM] kushti#0978
+@morphic on Charles, probably the process of designing Cardano's extended UTXO approach was done by Manuel & his guys but let me get clarification from my peers in IOHK
+
+
+[02/05/2020 8:44 AM] kushti#0978
+@morphic maybe forum posts work better then
+
+
+[02/05/2020 8:44 AM] kushti#0978
+but up to you
+
+
+[02/05/2020 8:45 AM] kushti#0978
+dont' forget to tweet though ) every piece of content should be distributed these early days
+
+
+[02/05/2020 8:46 AM] morphic#4133
+Yes, I plan to do tweets later, as we agree on the content.
+
+
+[02/05/2020 8:47 AM] morphic#4133
+Maybe one note per day.
+
+{Reactions}
+💯 👍 
+
+[02/05/2020 9:16 AM] greenhat#6562
+We plan to extract ErgoScala compiler and certified(verified) contracts into separate repos - https://github.com/ScorexFoundation/sigmastate-interpreter/issues/642 . @morphic @kushti Please check the repo names.
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/issues/642
+Move certified contracts and ErgoScala compiler projects into a se...
+Motivation Lacking Scala 2.11 support (essential to use Sigma in Appkit); Implementation Move sigmaDslCompilerMacros(ErgoScala compiler), sigmaDslCompilerMacrosPlayground from #617 to a new repo er...
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[02/05/2020 9:20 AM] morphic#4133
+naming is good to me
+
+
+[02/05/2020 9:23 AM] kushti#0978
+to me as well
+
+
+[02/06/2020 7:41 AM] morphic#4133
+@kushti what is the first publication where transaction model of Ergo was first described. Something before Turing Machines paper?
+
+
+[02/06/2020 8:53 AM] kushti#0978
+@morphic FC'17 posters (April, 2017)
+
+
+[02/06/2020 8:54 AM] morphic#4133
+any url?
+
+
+[02/06/2020 8:55 AM] morphic#4133
+were they somehow published, I mean like officially?
+
+
+[02/06/2020 9:06 AM] kushti#0978
+yes, in FC 17 proceedings
+
+
+[02/06/2020 9:06 AM] kushti#0978
+you have them along with sources )
+
+
+[02/09/2020 10:53 AM] scalahub#2618
+Is the ordering of input in this transaction correct? https://explorer.ergoplatform.com/en/transactions/c9ef5ddcea3503e26831c492b89e1a30508887cd4f5733715bd050cb1c02f711
+Specfically the second input, which corresponds to the code
+
+``` val g = groupGenerator
+  val gX = SELF.R4[GroupElement].get
+
+  val c1 = OUTPUTS(0).R4[GroupElement].get
+  val c2 = OUTPUTS(0).R5[GroupElement].get
+
+  sigmaProp(OUTPUTS(0).value == SELF.value &&
+  OUTPUTS(1).value == SELF.value &&
+  blake2b256(OUTPUTS(0).propositionBytes) == fullMixScriptHash &&
+  blake2b256(OUTPUTS(1).propositionBytes) == fullMixScriptHash &&
+  OUTPUTS(1).R4[GroupElement].get == c2 &&
+  OUTPUTS(1).R5[GroupElement].get == c1 &&
+  SELF.id == INPUTS(0).id) && {
+    proveDHTuple(g, gX, c1, c2) ||
+    proveDHTuple(g, gX, c2, c1)
+  }
+```
+
+As per the code the output cannot be second due to the line `SELF.id == INPUTS(0).id`  So seems to be a bug in explorer mostly
+
+
+[02/09/2020 10:54 AM] scalahub#2618
+Here is the ergo tree ```100704000e200d4da2084d82ccdfbdd2102d92c6845e10da29b92548ddb7a6315aa0c27d8eb504020402040204020400d807d601b2a5730000d602c1a7d6037301d604e4c672010507d605e4c672010407d606db6a01ddd607e4c6a70407ea02d1edededededed93c17201720293c1b2a5730200720293cbc27201720393cbc2b2a5730300720393e4c6b2a57304000407720493e4c6b2a57305000507720593c5a7c5b2a4730600eb02ce7206720772057204ce7206720772047205```
+
+
+[02/09/2020 12:37 PM] kushti#0978
+@Ilya | Spectrum ^ ?
+
+
+[02/09/2020 12:41 PM] Ilya | Spectrum#0494
+Right, it differs from the ordering in the node response -- will consider adding input/output indexes to the new explorer
+
+{Reactions}
+👍 
+
+[02/09/2020 12:52 PM] Ilya | Spectrum#0494
+https://github.com/ergoplatform/explorer-backend/issues/15
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/issues/15
+Inputs/Outputs original indexing · Issue #15 · ergoplatform/explorer-b...
+Save indexes of the inputs/outputs in the transaction to the database.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+{Reactions}
+💯 
+
+[02/09/2020 1:12 PM] scalahub#2618
+yes even the outputs are not in the right order
+
+
+[02/17/2020 12:40 PM] morphic#4133
+@greenhat  https://github.com/ScorexFoundation/sigmastate-interpreter/pull/641 the ergo tests seems hanging
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/pull/641
+Poster sources by kushti · Pull Request #641 · ScorexFoundation/sig...
+This PR contains poster sources and posters in a separate folder. Old files remain untouched, as probably there're some external links for them.
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[02/17/2020 12:48 PM] greenhat#6562
+Yeah, https://jenkins.ergoplatform.com/job/sigmastate-blockchain-simulation-bench/673/  "Started 4 days 9 hr ago" hang our jenkins for good. Killed it.
+
+
+[02/25/2020 11:10 AM] greenhat#6562
+@morphic I rebased https://github.com/ScorexFoundation/sigmastate-interpreter/pull/631 . It somehow got lost since I made it.
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/pull/631
+Rename ErgoTree.root to template by greenhat · Pull Request #631 · ...
+Following the discussion in ergoplatform/explorer-back#230 (comment)
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[02/25/2020 11:21 AM] morphic#4133
+do you somehow rely on this. I looked at it again and now think instead of renaming it is better to add `template` as a public property. And leave `root` as private
+
+
+[02/25/2020 11:24 AM] greenhat#6562
+@morphic no, I’m not relying on it. Just found out that it still not merged. I agree with new property.
+
+
+[02/25/2020 12:11 PM] morphic#4133
+ok, let's close it then
+
+
+[02/26/2020 5:02 PM] morphic#4133
+ErgoTree specification draft. @kushti @greenhat appreciate your feedback. The corresponding PR https://github.com/ScorexFoundation/sigmastate-interpreter/pull/643
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668906150485426222/682271184724688958/spec.pdf
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/pull/643
+ErgoTree specification by aslesarenko · Pull Request #643 · ScorexF...
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+{Reactions}
+💯 (2) 
+
+[03/30/2020 9:36 AM] morphic#4133
+https://github.com/ScorexFoundation/sigmastate-interpreter/releases/tag/v3.2.1
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/releases/tag/v3.2.1
+ScorexFoundation/sigmastate-interpreter
+Interpreter of a Sigma-State language. Contribute to ScorexFoundation/sigmastate-interpreter development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[06/04/2020 9:00 AM] greenhat#6562
+@kushti @morphic Hi! I’m here.
+
+
+[06/04/2020 9:02 AM] kushti#0978
+Hi guys
+
+
+[06/04/2020 9:02 AM] morphic#4133
+Hi
+
+
+[06/04/2020 9:03 AM] kushti#0978
+So all the tasks towards 4.0 ? https://github.com/ScorexFoundation/sigmastate-interpreter/milestone/9
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/milestone/9
+ScorexFoundation/sigmastate-interpreter
+Interpreter of a Sigma-State language. Contribute to ScorexFoundation/sigmastate-interpreter development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[06/04/2020 9:03 AM] kushti#0978
+or something more you have in mind ?
+
+
+[06/04/2020 9:04 AM] morphic#4133
+Roughly, yes, I classified these tasks in Jan-Feb, didn't have a chance to look at then yesterday
+
+
+[06/04/2020 9:05 AM] greenhat#6562
+I have nothing to add, so yes, seems like all of them.
+
+
+[06/04/2020 9:06 AM] morphic#4133
+And those doesn't include new tasks which are required to implement JIT costing
+
+
+[06/04/2020 9:06 AM] kushti#0978
+> And those doesn't include new tasks which are required to imwplement JIT costing
+@morphic  what do you mean ?
+
+
+[06/04/2020 9:07 AM] kushti#0978
+https://github.com/ScorexFoundation/sigmastate-interpreter/pull/570 is it really belongs to 4.0 ?
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/pull/570
+Check CViewColl improvement compatibility by gostkin · Pull Request...
+scalan/special#34
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[06/04/2020 9:07 AM] kushti#0978
+https://github.com/ScorexFoundation/sigmastate-interpreter/pull/571
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/pull/571
+Check replication compatibility by gostkin · Pull Request #571 · Sc...
+scalan/special#40
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[06/04/2020 9:07 AM] kushti#0978
+also, spec update I guess
+
+
+[06/04/2020 9:07 AM] morphic#4133
+ErgoTreeEvaluator still requires finalisation. Some functions are not implemented and some are not properly costed
+
+
+[06/04/2020 9:08 AM] morphic#4133
+As I said yesterday, I need to prepare for this conversation, that is why I suggested tuesday
+
+
+[06/04/2020 9:08 AM] morphic#4133
+I cannot answer such questions now
+
+
+[06/04/2020 9:09 AM] morphic#4133
+Most probably yes, because I remember I did complete classification, so if the milestone is assigned, then it is correct
+
+
+[06/04/2020 9:11 AM] kushti#0978
+ok
+
+
+[06/04/2020 9:11 AM] morphic#4133
+And BTW, ErgoTreeEvaluator is PoC prototype, not a release candidate. That is why some implementation is missing.
+
+
+[06/04/2020 9:12 AM] morphic#4133
+For spec, it doesn't require update, but more should be added
+
+
+[06/04/2020 9:12 AM] kushti#0978
+> And BTW, ErgoTreeEvaluator is PoC prototype, not a release candidate. That is why some implementation is missing.
+@morphic and it should be rebased for 4.0 I guess ?
+
+
+[06/04/2020 9:13 AM] kushti#0978
+ok then what kind of help could be needed ?
+
+
+[06/04/2020 9:13 AM] kushti#0978
+let's spread the tasks
+
+
+[06/04/2020 9:13 AM] kushti#0978
+and discuss ETAs next
+
+
+[06/04/2020 9:13 AM] kushti#0978
+week
+
+
+[06/04/2020 9:13 AM] morphic#4133
+every possible help
+
+
+[06/04/2020 9:13 AM] kushti#0978
+Much more to get done in Sigma in comparison with Ergo I guess
+
+
+[06/04/2020 9:14 AM] morphic#4133
+There is a lot to do on Ergo side, if somebody can take care of all that, that would really help
+
+
+[06/04/2020 9:14 AM] kushti#0978
+> 
+> There is a lot to do on Ergo side, if somebody can take care of all that, that would really help
+> @morphic all that = ?
+
+
+[06/04/2020 9:15 AM] kushti#0978
+> every possible help
+@morphic I understand that you welcome ANY help, but maybe you have some concrete tasks in mind ?
+
+
+[06/04/2020 9:15 AM] kushti#0978
+I see that many tasks assigned to @greenhat
+
+
+[06/04/2020 9:16 AM] morphic#4133
+I suggest to follow this hard forking process, but it is discussable https://github.com/ergoplatform/eips/blob/3d38aef0d6cbfd31538c7ae71325159fe2ab9f87/eip-0008.md#implementation-of-the-hard-fork-on-ergo-network
+
+{Embed}
+https://github.com/ergoplatform/eips/blob/3d38aef0d6cbfd31538c7ae71325159fe2ab9f87/eip-0008.md
+ergoplatform/eips
+Ergo Improvement Proposals. Contribute to ergoplatform/eips development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[06/04/2020 9:18 AM] morphic#4133
+I think we should minimize the scope of 4.0 as much as possible, leaving most of the feature to subsequent soft-forks
+
+
+[06/04/2020 9:18 AM] kushti#0978
+agree
+
+
+[06/04/2020 9:18 AM] greenhat#6562
+I agree
+
+
+[06/04/2020 9:18 AM] kushti#0978
+well. let me think on activation protocol , I guess separate EIP should be on that
+
+
+[06/04/2020 9:19 AM] kushti#0978
+with deployment to testnet first
+
+
+[06/04/2020 9:19 AM] morphic#4133
+Then I will move some tasks from 4.0 to 4.x if possible.
+And we need to agree on activation protocol
+
+
+[06/04/2020 9:19 AM] kushti#0978
+@morphic so can you please assign the tasks ?
+
+{Reactions}
+👍 
+
+[06/04/2020 9:19 AM] kushti#0978
+For some trivial stuff I have a guy , maybe knizhnik may help also
+
+
+[06/04/2020 9:20 AM] kushti#0978
+I can contribute a bit also maybe
+
+
+[06/04/2020 9:20 AM] kushti#0978
+but not sure
+
+
+[06/04/2020 9:20 AM] morphic#4133
+@kushti you can take care of activation protocol
+
+
+[06/04/2020 9:21 AM] morphic#4133
+I will move my description to a new EIP, since I already wrote it.
+
+
+[06/04/2020 9:22 AM] kushti#0978
+ok
+
+
+[06/04/2020 9:23 AM] morphic#4133
+I suggest I focus on sigma side, mostly related to JITC, AOTC, CostModel part, Spec
+
+{Reactions}
+👍🏻 (2) 
+
+[06/04/2020 9:24 AM] kushti#0978
+suggest to postpone this https://github.com/ScorexFoundation/sigmastate-interpreter/issues/591
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/issues/591
+More flexible blake2b support · Issue #591 · ScorexFoundation/sigma...
+Motivation: Zcash likes to use custom personalisation parameters in their instantiations of blake2b, and so it isn&#39;t currently possible to verify their hashes in ErgoScript as ErgoScript on...
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[06/04/2020 9:25 AM] morphic#4133
+yes, for sure.
+The protocol should definitely be tested on testnet many times before release to mainnet. I feel like it will be comparable to a fresh launch
+
+
+[06/04/2020 9:25 AM] kushti#0978
+it shouldn't be
+
+
+[06/04/2020 9:26 AM] kushti#0978
+seamless forking is a must
+
+
+[06/04/2020 9:26 AM] kushti#0978
+as we have applications, exchanges, wallets and so on running
+
+
+[06/04/2020 9:26 AM] morphic#4133
+yes, I mean amount of preparations and work
+
+
+[06/04/2020 9:26 AM] kushti#0978
+well yes
+
+
+[06/04/2020 9:26 AM] kushti#0978
+that's why I'm worried about ETAs
+
+
+[06/04/2020 9:26 AM] kushti#0978
+after development
+
+
+[06/04/2020 9:26 AM] kushti#0978
+we'll need for audit / testing
+
+
+[06/04/2020 9:27 AM] kushti#0978
+that's even more time-consuming than development
+
+
+[06/04/2020 9:27 AM] kushti#0978
+new miners, exchanges updates etc
+
+
+[06/04/2020 9:27 AM] kushti#0978
+forks are painful
+
+
+[06/04/2020 9:29 AM] kushti#0978
+it seems most of the issues for 4.x are related to costing ?
+
+
+[06/04/2020 9:29 AM] morphic#4133
+yes, that is why I wrote JIT proposal in Dec - Jan, as soon as we found semantical problems with AOT 🙂
+
+
+[06/04/2020 9:29 AM] kushti#0978
+aside of https://github.com/ScorexFoundation/sigmastate-interpreter/issues/640 I guess ?
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/issues/640
+Fix xorOf · Issue #640 · ScorexFoundation/sigmastate-interpreter
+&quot;A chain of XORs—a XOR b XOR c XOR d (and so on)—is true whenever an odd number of the inputs are true and is false whenever an even number of inputs are true.&quot; https://en.wikiped...
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[06/04/2020 9:29 AM] morphic#4133
+there are plenty of not related, which I hope we can move to 4.x
+
+
+[06/04/2020 9:29 AM] kushti#0978
+and https://github.com/ScorexFoundation/sigmastate-interpreter/pull/511 ?
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/pull/511
+Implement SNumericType.toBytes and toBits (SNumericTypeCoster) by g...
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[06/04/2020 9:30 AM] kushti#0978
+@morphic so what @greenhat and other contributors may do ?
+
+
+[06/04/2020 9:32 AM] morphic#4133
+I will revise the issues and assign to me, you, @greenhat and `help-wanted` as a suggestions. Until tuesday, when we will be able to discuss it. Today I plan to focus on security issues.
+
+
+[06/04/2020 9:33 AM] morphic#4133
+Or, I can do it today, and security tomorrow.
+
+
+[06/04/2020 9:35 AM] kushti#0978
+In regards with security, we need to audit the whole serialization layer again
+
+
+[06/04/2020 9:35 AM] kushti#0978
+ok, so we're waiting for you then @morphic
+
+
+[06/04/2020 9:35 AM] kushti#0978
+have a good day!
+
+
+[06/04/2020 9:37 AM] morphic#4133
+ok, have a good day, guys!
+
+
+[06/04/2020 9:37 AM] greenhat#6562
+Have a good day guys!
+
+
+[06/10/2020 9:08 AM] kushti#0978
+@morphic you there ?
+
+
+[06/10/2020 9:09 AM] morphic#4133
+here
+
+
+[06/10/2020 9:22 AM] kushti#0978
+@morphic please feel free to start and lead discussions) as you proposed the chat
+
+
+[06/10/2020 9:25 AM] morphic#4133
+ok, if you've seen the issues and PRs please estimate ETA for the issues assigned to you
+
+
+[06/10/2020 9:26 AM] morphic#4133
+or if any questions let's discuss
+
+
+[06/10/2020 9:27 AM] kushti#0978
+oh I'm in the middle of the Emurgo-related marketing , promotion, exchanges mess
+
+
+[06/10/2020 9:27 AM] kushti#0978
+sec
+
+
+[06/10/2020 9:28 AM] kushti#0978
+I see only https://github.com/ScorexFoundation/sigmastate-interpreter/issues/638
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/issues/638
+Signing for DHT could work for improper secret  · Issue #638 · Scor...
+Currently for DHT secret prover can generate a proof for secret not really satisfying a statement to be proven. See new failing &quot;DH tuple - signing w. proper and improper secrets&quot;...
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[06/10/2020 9:28 AM] kushti#0978
+and duplicate #636
+
+
+[06/10/2020 9:29 AM] kushti#0978
+not HF-related actually
+
+
+[06/10/2020 9:29 AM] kushti#0978
+prover-side bug
+
+
+[06/10/2020 9:29 AM] greenhat#6562
+I did an estimation and came to ~2 weeks:
+Sigma v4.0 issues/PR:
+- 1 day - 640, 603, 602
+- 1 day - 608
+- 2 days - 605
+- unknown (1+ day each) - 612, 604, 601, 600, 511 = 5+ days
+
+Total: 9+ days => ~2 weeks
+
+
+[06/10/2020 9:30 AM] greenhat#6562
+I've assumed 100% of my time spent on these issues. If it's  shared with sigma-rust and DEX contracts it'd take more.
+
+
+[06/10/2020 9:30 AM] kushti#0978
+I need for like 2-4 hours
+
+
+[06/10/2020 9:31 AM] kushti#0978
+but a fix can be merged into 3.x
+
+
+[06/10/2020 9:32 AM] morphic#4133
+all fixes should be merged to develop. please see https://github.com/ScorexFoundation/sigmastate-interpreter/issues/660
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/issues/660
+[planning] Hard-fork Activation Support   · Issue #660 · ScorexFoun...
+Problem The hard-fork activation will be implemented according to EIP-9. To support activation protocol, sigma code should support both v1 and v2 versions at the same time. This means we cannot acc...
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[06/10/2020 9:33 AM] morphic#4133
+the 4.0 release should support 2 protocol versions
+
+
+[06/10/2020 9:33 AM] morphic#4133
+so, we cannot use separate branch
+
+
+[06/10/2020 9:36 AM] morphic#4133
+Ok, I would double the estimates keeping in mind PR reviews and other stuff
+I would take 1 month at least for my part in Sigma
+
+
+[06/10/2020 9:37 AM] morphic#4133
+@kushti there is also Ergo part of the HF activation protocol, which should implement EIP9
+
+
+[06/10/2020 9:40 AM] morphic#4133
+And also some testing harness should be implemented on Ergo side to test HF activation
+
+
+[06/10/2020 9:41 AM] morphic#4133
+So I doubt we can make it faster than in September
+
+{Reactions}
+👍 
+
+[06/10/2020 9:42 AM] kushti#0978
+well yes
+
+
+[06/10/2020 9:42 AM] kushti#0978
+so let's target September 1st ?
+
+
+[06/10/2020 9:43 AM] kushti#0978
+we need to announce precise plan in June
+
+
+[06/10/2020 9:43 AM] morphic#4133
+ok, let's call it our first ETA
+
+{Reactions}
+👍 
+
+[06/10/2020 9:44 AM] morphic#4133
+precise plan can be created once we have at least some kind of PoC
+
+
+[06/10/2020 9:44 AM] morphic#4133
+so, maybe in early July
+
+
+[06/10/2020 9:44 AM] morphic#4133
+We can anounce roadmap however
+
+
+[06/10/2020 9:45 AM] kushti#0978
+HF plan
+
+
+[06/10/2020 9:45 AM] kushti#0978
+should be announced before July, 1st
+
+
+[06/10/2020 9:45 AM] kushti#0978
+but its more or less finalized already
+
+
+[06/10/2020 9:46 AM] morphic#4133
+please read EIP9 and give your feedback, also extend it with PoW parts of HF
+
+
+[06/10/2020 9:46 AM] kushti#0978
+ok will do in my evening
+
+
+[06/10/2020 9:46 AM] kushti#0978
+@greenhat what's left for you in regards with DEX ?
+
+
+[06/10/2020 9:47 AM] morphic#4133
+@kushti  BTW, PoW HF parts should also be described as EIP I guess
+
+
+[06/10/2020 9:48 AM] kushti#0978
+@morphic yes, based on discussions already done
+
+
+[06/10/2020 9:48 AM] morphic#4133
+Ok, I will create an issue in eips repo for you
+
+
+[06/10/2020 9:49 AM] greenhat#6562
+@kushti To look for vulnerabilities and simplifications - https://github.com/ergoplatform/ergo-contracts/milestone/1
+Basic tests are done.
+
+{Embed}
+https://github.com/ergoplatform/ergo-contracts/milestone/1
+ergoplatform/ergo-contracts
+Contracts with verified properties. Contribute to ergoplatform/ergo-contracts development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[06/10/2020 9:49 AM] kushti#0978
+> Ok, I will create an issue in eips repo for you
+@morphic better ask if e.g. Jason can do that
+
+
+[06/10/2020 9:49 AM] kushti#0978
+see discussions, I did not participate even )
+
+
+[06/10/2020 9:50 AM] kushti#0978
+https://github.com/ergoplatform/ergo/issues/1100
+
+{Embed}
+https://github.com/ergoplatform/ergo/issues/1100
+[HF-4.0] Autolykos 2.0 implementation - memory hardness · Issue #11...
+Based on proposal by BigEvilSoloMiner Changes to the PoW whitepaper: Algorithm 1 - Block mining: Line 3: Change from H(j|M|pk|m|w) to H(j|pk|w|M|m) Line 6: Change from genIndexes(m|nonce) to genInd...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[06/10/2020 9:50 AM] kushti#0978
+HF plan had been developed by Jason + BigEvil
+
+
+[06/10/2020 9:50 AM] kushti#0978
+that's the inspiring power of the community )
+
+
+[06/10/2020 9:51 AM] morphic#4133
+ok, will create an issue and ask them about it
+
+
+[06/10/2020 10:04 AM] morphic#4133
+I guess the meeting is over, back to work?
+
+{Reactions}
+👍 (2) 
+
+[06/10/2020 10:05 AM] kushti#0978
+have a good day guys!
+
+
+[06/10/2020 10:25 AM] greenhat#6562
+Have a good one!
+
+
+[06/10/2020 12:46 PM] greenhat#6562
+@kushti @morphic How do you want me to split my time between DEX, sigma-rust and sigma v4.0? It looks like sigma v4.0 should take at least 1/3 of my time, to fit the deadline set for September 1st. So, 1/3 for sigma-rust and 1/3 for DEX would be my first choice. What do you think?
+
+
+[06/10/2020 1:52 PM] kushti#0978
+@greenhat but DEX will be finished soon right ?
+
+
+[06/10/2020 2:02 PM] greenhat#6562
+@kushti good point! Yes. I think in a week or two.
+
+
+[06/11/2020 11:54 AM] morphic#4133
+@greenhat I suggest a slightly different strategy. You can focus on DEX for a while and finish it (for a couple of weeks), while I also adding some HF activation support infrastructure.  
+Then you can focus on Sigma 4.0 and help me with refactorings to simplify JITC implementation as much as make sense and improve test coverage. (Also with sigma-rust in mind)
+Then you can continue sigma-rust backed by better JITC implementation understanding and experience
+
+
+[06/11/2020 11:55 AM] greenhat#6562
+@morphic sounds good!
+
+
+[06/11/2020 11:58 AM] morphic#4133
+We will leave existing AOTC code exactly unchanged, this will hopefully simplify things a lot.
+
+
+[06/11/2020 11:59 AM] morphic#4133
+Then we will remove it completely in v4.0.1 and will have simple and clean reference implementation
+
+
+[06/11/2020 12:00 PM] morphic#4133
+Please see more details in EIP9 (if you didn't already)
+
+{Reactions}
+👌 
+
+[10/16/2020 11:26 AM] Sebastien#0653
+@greenhat it looks like you've only published the node-js bindings for sigma-rust and not the browser bindings
+
+https://www.npmjs.com/package/ergo-lib-wasm
+
+Could you also publish the browser bindings 🙏 
+we do this for example with Cardano where we publish multiple NPM packages depending on the target
+
+```
+@emurgo/react-native-haskell-shelley
+@emurgo/cardano-serialization-lib-asmjs
+@emurgo/cardano-serialization-lib-nodejs
+@emurgo/cardano-serialization-lib-browser
+```
+
+we just need nodejs & browser for integration in the Yoroi Extension though
+
+
+[10/16/2020 11:50 AM] greenhat#6562
+@Sebastien my bad. I’m looking into it.
+
+
+[10/16/2020 11:51 AM] Sebastien#0653
+I noticed in your build scripts you have
+```
+"serve": "wasm-pack build --target browser && webpack-dev-server",
+
+"test": "wasm-pack build --target nodejs && mocha --require @babel/register --require @babel/polyfill 'tests/test*.js'",
+```
+so it looks like everything probably works on both nodejs & browser, but you just didn't publish the browser one
+
+
+[10/16/2020 11:53 AM] Sebastien#0653
+FYI that depending on which version of the tooling you use, you may run into an issue where publishing the browser package mysteriously doesn't include the `lib_bg.js` file in the package.json
+
+you may be interested in this tiny script I made for the Cardano wasm packages that fixes up the generated `package.json` https://github.com/Emurgo/cardano-serialization-lib/blob/master/scripts/publish-helper.js
+
+{Embed}
+https://github.com/Emurgo/cardano-serialization-lib/blob/master/scripts/publish-helper.js
+Emurgo/cardano-serialization-lib
+This is a library for serialization &amp; deserialization of data structures used in Cardano&#39;s Haskell implementation of Shelley along with useful utility functions. - Emurgo/cardano-se...
+https://images-ext-1.discordapp.net/external/Wg0j9L8NNKGNDKW0M1atW7IGSPDmoc7C0Qda8-8lmnY/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/36142236
+
+
+[10/16/2020 12:04 PM] greenhat#6562
+@Sebastien thank you for the tips. I’m total js noob. 🙂
+
+
+[01/15/2021 12:01 AM] Sebastien#0653
+@greenhat is it possible to include this in a release?
+https://github.com/ergoplatform/sigma-rust/pull/170
+
+we need it for a release of Yoroi
+
+{Embed}
+https://github.com/ergoplatform/sigma-rust/pull/170
+Added from_json to wasm bindigns for ErgoBox / UnsignedTransaction ...
+We needed this for the ergo dapp&lt;-&gt;wallet connector when users send entire unsigned txs over to the wallet which must then be re-parsed. JSON is the easiest way and is what the EIP-00...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[01/15/2021 8:34 AM] greenhat#6562
+Sure. I was planning the next release v0.5.0 to be in a week or so but I suppose you need it earlier. I'll push v0.4.5 release from `develop` later today.
+
+{Reactions}
+🙏 (3) 
+
+[01/15/2021 8:35 AM] greenhat#6562
+@Sebastien ^
+
+
+[03/22/2021 4:53 PM] greenhat#6562
+@morphic I'm struggling to understand the difference between `SType.typeCode` and `STypeCompanion.typeId` when they end up in the same class, like `SBox`.  They seem to have the same values (see `SBox`). Am I missing something?
+
+
+[03/22/2021 5:01 PM] greenhat#6562
+Oh, I think I got it. We still need type code when we have `STypeCompanion` and since it does not implement `SType` we need to define it again under a different name.
+
+
+[03/22/2021 7:11 PM] morphic#4133
+Yeah, STypeCompanion represent a notion of "type constructor" whereas SType represent type terms. The difference is most notable on Coll and Option types.
+
+
+[03/23/2021 11:36 AM] greenhat#6562
+Thanks! Got it.
+
+
+[04/22/2021 6:04 PM] Ilya | Spectrum#0494
+@greenhat, @morphic is `ErgoTree.bytes` in Scala equivalent to `ErgoBox.propositionBytes` in Sigma?
+
+
+[04/23/2021 6:00 AM] greenhat#6562
+I'm sure it is.  https://github.com/ScorexFoundation/sigmastate-interpreter/blob/6c51c13f7a494a191a7ea5645e56b04fb46a418d/sigmastate/src/main/scala/org/ergoplatform/ErgoBoxCandidate.scala#L50
+`  lazy val propositionBytes: Array[Byte] = ergoTree.bytes`
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/blob/6c51c13f7a494a191a7ea5645e56b04fb46a418d/sigmastate/src/main/scala/org/ergoplatform/ErgoBoxCandidate.scala
+ScorexFoundation/sigmastate-interpreter
+Interpreter of a Sigma-State language. Contribute to ScorexFoundation/sigmastate-interpreter development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/h4kzQpHgzkQs997m7fb18gXuIoGCvYiOIABlmHuGW14/https/opengraph.githubassets.com/65d3fb77205cba9b6f24fc8a34b695d16ded3586da86c3f0df07087b991ed6d2/ScorexFoundation/sigmastate-interpreter
+
+
+[04/23/2021 6:03 AM] greenhat#6562
+If by Sigma you mean ErgoScript, also yes. See the evaluation of `box.propositionBytes` in  https://github.com/ScorexFoundation/sigmastate-interpreter/blob/6c51c13f7a494a191a7ea5645e56b04fb46a418d/sigmastate/src/main/scala/sigmastate/eval/CostingDataContext.scala#L286
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/blob/6c51c13f7a494a191a7ea5645e56b04fb46a418d/sigmastate/src/main/scala/sigmastate/eval/CostingDataContext.scala
+ScorexFoundation/sigmastate-interpreter
+Interpreter of a Sigma-State language. Contribute to ScorexFoundation/sigmastate-interpreter development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/h4kzQpHgzkQs997m7fb18gXuIoGCvYiOIABlmHuGW14/https/opengraph.githubassets.com/65d3fb77205cba9b6f24fc8a34b695d16ded3586da86c3f0df07087b991ed6d2/ScorexFoundation/sigmastate-interpreter
+
+
+[04/23/2021 8:24 PM] Sebastien#0653
+@greenhat question from our dev
+
+> 
+> Hey, does anyone either:
+> 
+> Have some simple compiled smart contracts that involve checking the  environment like HEIGHT and also data inputs?
+> 
+> Know how to compile them?
+> 
+> I tried using the ergo_compiler crate in sigma-rust and while it says it supports comparators, when I tried compiling HEIGHT > 100 or other simple things it didn't work, but just HEIGHT on its own did. The one with comparators said it expected an ident, literal, +, /, etc to form an expression but not comparator operators.
+
+
+[04/24/2021 7:14 AM] greenhat#6562
+`ergo_compiler` crate does not support most of the ErgoScript and is mostly useless now. 
+I'm using https://wallet.plutomonkey.com/p2s/?source= to compile any contract to P2S address and then use it in rust like this - https://github.com/ergoplatform/sigma-rust/blob/fd197d0c0892cd24bbcb475e0a83243784700e32/ergotree-interpreter/src/contracts.rs#L159-L167
+This approach should work in JS/TS WASM bindings as well.
+
+{Embed}
+https://github.com/ergoplatform/sigma-rust/blob/fd197d0c0892cd24bbcb475e0a83243784700e32/ergotree-interpreter/src/contracts.rs
+ergoplatform/sigma-rust
+Alternative and simple implementation of ErgoTree interpreter - ergoplatform/sigma-rust
+https://images-ext-2.discordapp.net/external/xD-7g4XlpbkFKib2SsUJ2hTcjuyKht4jqMpK9p4V6-Q/https/opengraph.githubassets.com/0e0ec6539f4a373ac0d3169607e97debf70782f7543fcfaa8b41f3555549edce/ergoplatform/sigma-rust
+
+
+[05/17/2021 4:13 PM] Ilya | Spectrum#0494
+@greenhat , is it possible to specify ScriptEnv in sigma-rust just like in Scala sigmastate compiler `def compile(env: ScriptEnv, code: String)(implicit IR: IRContext): Value[SType]`?
+
+
+[05/17/2021 4:17 PM] greenhat#6562
+No. The compiler itself is like 0.1% ready. I mean the environment parameter is there but compiler is not ready.
+
+
+[05/17/2021 7:04 PM] Ilya | Spectrum#0494
+But it should handle DEX contracts compilation, right?
+
+
+[05/17/2021 7:10 PM] greenhat#6562
+No. Compilation is planned to be implemented when we are done with interpreter.
+
+
+[05/17/2021 8:40 PM] morphic#4133
+If dex  have node connection, then it can use node to compile script to ErgoTree bytes via API
+
+
+[05/17/2021 8:42 PM] morphic#4133
+I think rust compiler from ErgoScript to ErgoTree is not high priority, because it is only needed in off-line scenario (when there is no node connection). So in most cases the compiler of the node can be used via API. It is safe, because no secret is necessary for compilation.
+
+{Reactions}
+👍 
+
+[05/17/2021 8:48 PM] morphic#4133
+@Ilya | Spectrum I think for ErgoDEX, all the contracts can adopt EIP-5 specification. So basically, once the contracts are finalised, they can be compiled once, and then compiled template bytes can be used directly by the application.
+
+{Reactions}
+👍 
+
+[05/17/2021 9:00 PM] morphic#4133
+I see in many cases ErgoScript is used to represent contracts, this is useful for humans, but strictly speaking this is not correct for applications (programs). ErgoScript is not part of the protocol, and there is no strict connection between ErgoScript and the P2ScriptAddress. Addresses are defined using ErgoTree, and ErgoTree IS part of the protocol. 
+So, every application (ErgoDEX in particular) should fix specific ErgoTrees (actually Contract Templates as defined in EIP-5) and always use those trees to create transactions. 
+Normally, ErgoScript compiler should not be necessary during application runtime.
+Current practice, it seems, is to always use ErgoScript compiler, but this is architectural mistake (or weakness) because of dependence on unnecessary component (which is also quite non-trivial and not part of the protocol)
+
+
+[05/17/2021 10:03 PM] Ilya | Spectrum#0494
+Can we make a framework in rust to work with contract templates and constants?
+
+
+[05/18/2021 6:41 AM] greenhat#6562
+Do we have EIP-5 implemented in Scala ErgoScript compiler?
+
+
+[05/18/2021 6:45 AM] greenhat#6562
+I agree. I think that one of the attraction of using ErgoScript in apps is the ability to read/check contract code by a human.
+
+
+[05/18/2021 6:48 AM] greenhat#6562
+I'll try to draft something up ASAP. You need to read/change constant values in serialized ErgoTree, right?
+
+
+[05/18/2021 7:24 AM] greenhat#6562
+I assume you need it in WASM bindings, right?
+
+
+[05/18/2021 7:33 AM] Ilya | Spectrum#0494
+Right
+
+
+[05/18/2021 5:12 PM] morphic#4133
+No, I planned to implement EIP-5 in Appkit, but never did it. 
+It probably make sense to start EIP-5 support from creating API method on the node which will take ErgoScript and will output EIP-5 compliant Json with the compiled contract template. So basically in the rust you need to have a facade method to call the API and then decode the template into sigma-rust based ErgoTree. This way we will have ErgoScript compiler in rust and hence JS via bindings.
+
+
+[05/18/2021 5:26 PM] greenhat#6562
+There is no networking stuff at ergo-lib. Sounds like an addition to the existing rust node API wrapper. Although, it sounds like a compiler job (when it's ready).
+
+
+[05/18/2021 6:05 PM] morphic#4133
+Hm, it is kind of work around for the time being until full ErgoScript front-end is implemented in Rust. The only deficiency of the compiling via API approach is that is requires a node connection, but otherwise its is much easier to implement.
+
+
+[05/18/2021 6:09 PM] greenhat#6562
+I agree. That's what I meant by "compiler job(when it's ready)". Until then, yes, access it through the node API via a wrapper lib. IIRC Robert wrote one.
+
+{Reactions}
+👍 
+
+[05/18/2021 6:21 PM] morphic#4133
+@Ilya | Spectrum another important thing to keep in mind is that ErgoTrees for ErgoDEX should use version of ErgoTree > 0. This point is mostly overlooked in other apps (and I'm the one to blame here for not raising it before). 
+Why this is important? For ErgoTree v1 and above, the size of ErgoTree bytes is serialized so that the deserialization of the whole ErgoTree can be bypassed. This will be critical for scalability of ErgoDEX contracts. This will also work well in combination with contract templates and the new v5.0 interpreter, so 1000 of DEX transactions per block it pretty much secured.
+With ErgoTree v0, the deserialization my become a bottleneck.
+
+
+[05/18/2021 6:26 PM] Ilya | Spectrum#0494
+Ok. And where do I select ErgoTree version?
+
+
+[05/18/2021 6:27 PM] Ilya | Spectrum#0494
+I mean I just write a contract and compile it with SigmaCompiler. Where to specify ErgoTree version?
+
+
+[05/18/2021 6:45 PM] morphic#4133
+That is good question. Two alternatives:
+1) new versions of node will just use the most recent version of the protocol
+2) version is added as a parameter, so that the application can decide 
+If we change semantics of the existing API, then we may break other apps, who knows how they hack with ergo tree bytes (Coinbarn for example hacking bytes directly)
+
+
+[05/18/2021 6:47 PM] morphic#4133
+@Ilya | Spectrum I just raising the issue to solve, but I'm not designing API of Ergo node, so maybe @kushti should be involved, or he can delegate the solution to you
+
+
+[05/18/2021 6:49 PM] morphic#4133
+For DEX it probably has the highest benefit/efforts ratio, comparing to the other apps
+
+
+[05/18/2021 7:15 PM] Ilya | Spectrum#0494
+@morphic, node API is irrelevant to DEX, we don't interact with it directly. I use SigmaCompiler from Scala code, so I suppose I can just grab the latest sigma-state library version and get compiler API allowing to specify ErgoTree version explicitly, right?
+
+
+[05/18/2021 7:16 PM] Ilya | Spectrum#0494
+Also, can you point me to that place in code?
+
+
+[05/18/2021 7:27 PM] morphic#4133
+Ah, understand, then you need to make sure that ErgoTree which comes out of SigmaCompiler has correct version bits in the `header` field. You can use for example this method to create correct header byte https://github.com/ScorexFoundation/sigmastate-interpreter/blob/c11e29f7e7b4c0217d41219cf8228e6c58963929/sigmastate/src/main/scala/sigmastate/Values.scala#L1456
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/blob/c11e29f7e7b4c0217d41219cf8228e6c58963929/sigmastate/src/main/scala/sigmastate/Values.scala
+ScorexFoundation/sigmastate-interpreter
+Interpreter of a Sigma-State language. Contribute to ScorexFoundation/sigmastate-interpreter development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/gQpkUmFZ6Ful-NArrvh1YcfkQvfyRH8IUnBCZ3WFHUs/https/opengraph.githubassets.com/dae19fe121d65fdb3bf85afa9366a87a18f834e0061551441d6f573962c6dc92/ScorexFoundation/sigmastate-interpreter
+
+
+[05/18/2021 7:28 PM] morphic#4133
+But you still need to know the latest version of the protocol on the network. It can be obtained form the node.
+
+
+[05/19/2021 8:08 AM] greenhat#6562
+Hey! I finished the PR.  https://github.com/ergoplatform/sigma-rust/pull/262
+Does this API sound good? I'm ready to merge it and publish a release. 
+Here is a JS example - https://github.com/ergoplatform/sigma-rust/blob/a77acbca2211536c16ff296cebf7faf7a06563b3/bindings/ergo-lib-wasm/tests/test_ergo_tree.js#L8
+
+{Embed}
+https://github.com/ergoplatform/sigma-rust/pull/262
+add `ErgoTree::constants_len`, `get_constant`, `set_constant` by gr...
+Close #261
+https://images-ext-2.discordapp.net/external/4aqLAUa5aKdLE0IEP1VLwaaAdJyA2DvWveuTlhzTEMk/https/opengraph.githubassets.com/27b95b488b5673375d63b51ca527b666cdd61f2ae9a98c94ca953512f799134c/ergoplatform/sigma-rust/pull/262
+
+{Embed}
+https://github.com/ergoplatform/sigma-rust/blob/a77acbca2211536c16ff296cebf7faf7a06563b3/bindings/ergo-lib-wasm/tests/test_ergo_tree.js
+ergoplatform/sigma-rust
+Alternative and simple implementation of ErgoTree interpreter - ergoplatform/sigma-rust
+https://images-ext-2.discordapp.net/external/lNSKODRHoCYimMCVGtqmyfvlAiHC3f8KYe52gliobpc/https/opengraph.githubassets.com/65428d986d53f4e60521f512fa39dd11990fb54336d82fbd968c51b83d6cbd09/ergoplatform/sigma-rust
+
+
+[05/19/2021 8:09 AM] greenhat#6562
+@Ilya | Spectrum 👆
+
+
+[05/19/2021 9:13 AM] Ilya | Spectrum#0494
+Great! I think this API is pretty consistent with other pieces of sigma-rust, so for me it's totally ok. Looking forward to pull the latest version from npm)
+
+
+[05/19/2021 9:19 AM] greenhat#6562
+I'm preparing the release and will ping you when it's out.
+
+
+[05/20/2021 9:20 AM] Ilya | Spectrum#0494
+@morphic , well I'm getting ErgoTree version == 0 on `v4.0.7-5a5356d9-SNAPSHOT`. Should I update sigma-state (btw, what is the latest version compatible with the current protocol?) or update version in an ErgoTree manually using this https://github.com/ScorexFoundation/sigmastate-interpreter/blob/c11e29f7e7b4c0217d41219cf8228e6c58963929/sigmastate/src/main/scala/sigmastate/Values.scala#L1456 ?
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/blob/c11e29f7e7b4c0217d41219cf8228e6c58963929/sigmastate/src/main/scala/sigmastate/Values.scala
+ScorexFoundation/sigmastate-interpreter
+Interpreter of a Sigma-State language. Contribute to ScorexFoundation/sigmastate-interpreter development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/gQpkUmFZ6Ful-NArrvh1YcfkQvfyRH8IUnBCZ3WFHUs/https/opengraph.githubassets.com/dae19fe121d65fdb3bf85afa9366a87a18f834e0061551441d6f573962c6dc92/ScorexFoundation/sigmastate-interpreter
+
+
+[05/20/2021 9:42 AM] Ilya | Spectrum#0494
+https://github.com/ScorexFoundation/sigmastate-interpreter/blob/c11e29f7e7b4c0217d41219cf8228e6c58963929/sigmastate/src/main/scala/sigmastate/Values.scala#L1456
+
+This method produces a header without ConstantsSegregation flag, what results in `require(isConstantSegregation || constants.isEmpty)` requirement failure
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/blob/c11e29f7e7b4c0217d41219cf8228e6c58963929/sigmastate/src/main/scala/sigmastate/Values.scala
+ScorexFoundation/sigmastate-interpreter
+Interpreter of a Sigma-State language. Contribute to ScorexFoundation/sigmastate-interpreter development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/gQpkUmFZ6Ful-NArrvh1YcfkQvfyRH8IUnBCZ3WFHUs/https/opengraph.githubassets.com/dae19fe121d65fdb3bf85afa9366a87a18f834e0061551441d6f573962c6dc92/ScorexFoundation/sigmastate-interpreter
+
+
+[05/20/2021 10:57 AM] Ilya | Spectrum#0494
+@morphic, Also, why does this constant appears twice in constants?
+https://github.com/ergoplatform/ergo-dex-sdk-js/blob/71a48268ea5a3380a6c695a3c5ac890564480ca6/src/amm/contracts/arbPoolBoot.ts#L2
+
+6 and 14
+```
+{0} -> IntConstant(0)
+{1} -> IntConstant(0)
+{2} -> IntConstant(1)
+{3} -> IntConstant(2)
+{4} -> IntConstant(3)
+{5} -> IntConstant(1)
+{6} -> LongConstant(1000000000000000000)
+{7} -> LongConstant(1000)
+{8} -> LongConstant(750)
+{9} -> IntConstant(0)
+{10} -> LongConstant(1)
+{11} -> IntConstant(1)
+{12} -> IntConstant(2)
+{13} -> LongConstant(0)
+{14} -> LongConstant(1000000000000000000)
+{15} -> IntConstant(0)
+```
+
+{Embed}
+https://github.com/ergoplatform/ergo-dex-sdk-js/blob/71a48268ea5a3380a6c695a3c5ac890564480ca6/src/amm/contracts/arbPoolBoot.ts
+ergoplatform/ergo-dex-sdk-js
+JS Ergo DEX SDK. Contribute to ergoplatform/ergo-dex-sdk-js development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/GDziKfC3gLy836JtHcl6PujgdOUtNsnRuIck640zbh8/https/opengraph.githubassets.com/48f37ae7d271ab4ae4e68544fb2bf1edf406fdcea52a36d044c68948243b7371/ergoplatform/ergo-dex-sdk-js
+
+
+[05/20/2021 12:46 PM] morphic#4133
+to make sure compatibility use the latest released version of Ergo, it already uses the correct version of sigma (v4.0.3)
+
+
+[05/20/2021 12:51 PM] morphic#4133
+when ErgoTree is created with custom headers (which is your case) you need to take full control of its bits. So if constant segregation is necessary (which is your case) you can set the corresponding flag using bit `|` operation with the one of the declared flags (see ErgoTree class and companion)
+
+
+[05/20/2021 12:58 PM] morphic#4133
+This is how frontend compiles ErgoScript and segregates the constants. Each constant item in the array corresponds to one placeholder in the contract body. That is what I meant when was suggesting to fix binary representation of contract template and use it directly in the application (instead of ErgoScript text). This way you are in full control of the contract template and its parameters. Unfortunately, ErgoScript compiler doesn't give fine grain control of the resulting ErgoTree  (which is your case it seems). So you can either 1) leave with the duplication, or 2) you can manually fix ErgoTree to the way you like it. In the second case you can use SigmaPPrint to pretty-print ergo tree into Scala code (which reconstructs it). Then fix the Scala code, and use that code in the application. This is similar to how pre-defined contracts are declared in ErgoScriptPredef class of Sigma.
+
+
+[05/20/2021 1:07 PM] Ilya | Spectrum#0494
+Ok, I see, thanks
+
+
+[06/08/2021 2:29 PM] Ilya | Spectrum#0494
+@morphic, does sigma do deduplication for Coll[Byte] constants?
+
+
+[06/08/2021 2:29 PM] morphic#4133
+no, it cannot do it
+
+
+[06/08/2021 2:30 PM] Ilya | Spectrum#0494
+I have 2 `Coll[Byte]`  constants in my contract - `PoolScriptHash` and `QuoteId`:
+```
+val swapEnv = Map(
+    "Pk"             -> dummyPk,
+    "PoolScriptHash" -> Array.fill(32)(2.toByte),
+    "DexFeePerToken" -> 99L,
+    "MinQuoteAmount" -> 89L,
+    "QuoteId"        -> Array.fill(32)(2.toByte),
+    "FeeNum"         -> 998L
+  )
+```
+
+
+[06/08/2021 2:30 PM] Ilya | Spectrum#0494
+When they are equal I can see only one Coll[Byte] constant:
+```
+{0} -> ConstantNode(SigmaProp(ProveDlog(ECPoint(b14e30,afc548,...))),SSigmaProp)
+{1} -> IntConstant(0)
+{2} -> ConstantNode(Coll(2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2),Coll[SByte$])
+{3} -> IntConstant(2)
+{4} -> IntConstant(3)
+{5} -> IntConstant(0)
+{6} -> LongConstant(1)
+{7} -> IntConstant(1000)
+{8} -> LongConstant(998)
+{9} -> IntConstant(0)
+{10} -> LongConstant(89)
+{11} -> LongConstant(99)
+{12} -> ConstantNode(CBigInt(998),SBigInt$)
+{13} -> ConstantNode(CBigInt(998),SBigInt$)
+```
+
+
+[06/08/2021 2:31 PM] Ilya | Spectrum#0494
+But when I set them to different values:
+```
+  val swapEnv = Map(
+    "Pk"             -> dummyPk,
+    "PoolScriptHash" -> Array.fill(32)(1.toByte),
+    "DexFeePerToken" -> 99L,
+    "MinQuoteAmount" -> 89L,
+    "QuoteId"        -> Array.fill(32)(2.toByte),
+    "FeeNum"         -> 998L
+  )
+```
+
+
+[06/08/2021 2:31 PM] morphic#4133
+Ah, maybe I'm wrong, there is some unification of constants during ErgoScript compilation
+
+
+[06/08/2021 2:31 PM] Ilya | Spectrum#0494
+I'm getting
+```
+{0} -> ConstantNode(SigmaProp(ProveDlog(ECPoint(b14e30,afc548,...))),SSigmaProp)
+{1} -> IntConstant(0)
+{2} -> IntConstant(2)
+{3} -> ConstantNode(Coll(2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2),Coll[SByte$])
+{4} -> IntConstant(3)
+{5} -> IntConstant(0)
+{6} -> LongConstant(1)
+{7} -> IntConstant(1000)
+{8} -> LongConstant(998)
+{9} -> ConstantNode(Coll(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1),Coll[SByte$])
+{10} -> IntConstant(0)
+{11} -> LongConstant(89)
+{12} -> LongConstant(99)
+{13} -> ConstantNode(CBigInt(998),SBigInt$)
+{14} -> ConstantNode(CBigInt(998),SBigInt$)
+```
+
+
+[06/08/2021 2:32 PM] Ilya | Spectrum#0494
+Also, resulting ErgoTree's are different
+
+
+[06/08/2021 2:33 PM] morphic#4133
+Yes, ErgoScript compiler is doing unification. It is basically not designed to support ErgoTree templates.
+
+
+[06/08/2021 2:36 PM] Ilya | Spectrum#0494
+So it unifies collections but not scalars?
+
+
+[06/08/2021 2:36 PM] Ilya | Spectrum#0494
+@morphic
+
+
+[06/08/2021 2:40 PM] morphic#4133
+hm, it should also unify scalars, but I see IntConstant(0) is duplicated 🤔
+
+
+[08/03/2021 12:19 PM] greenhat#6562
+@morphic Hey! I'm puzzled by this script evaluation - https://github.com/ergolabs/ergo-dex/blob/master/contracts/amm/cfmm/t2t/Swap.sc Sigmastate evaluated `Pk` out of it. All other checks in block items were false (EDIT: failed on coll index, etc.). I suspect them (`validPoolInput` and other checks) were not evaluated at all.
+
+{Embed}
+https://github.com/ergolabs/ergo-dex/blob/master/contracts/amm/cfmm/t2t/Swap.sc
+ergo-dex/Swap.sc at master · ergolabs/ergo-dex
+An Automated Decentralized Exchange. Contribute to ergolabs/ergo-dex development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/jYznVO6NNVLTPbVVAcq9Eeba5KlfKpQnnL9aITcaMVE/https/opengraph.githubassets.com/15b0d678fdc3809245e12bb9b3d131b0ef1e483a4e546bc7854e74bb90f9dbdf/ergolabs/ergo-dex
+
+
+[08/03/2021 5:23 PM] morphic#4133
+We talked about this with @Ilya | Spectrum. This script requires all the necessary tokens and fails if some are missing. Ilya found a solution, which seems to work.
+
+
+[08/03/2021 5:24 PM] morphic#4133
+@greenhat The problem with constant indexing here is the same you stumble upon when you did DEX contracts in 2020
+
+
+[08/03/2021 5:29 PM] greenhat#6562
+@morphic I don't get it. I meant that it's evaluated as if everything up to `Pk` is lazily evaluated. Block statements should be evaluated before final expression, right? Thus, it should reduce the script to false. I don't see it happening here. It reduces to `Pk`.
+
+
+[08/03/2021 5:29 PM] Ilya | Spectrum#0494
+BTW, I've found out that non-toplevel `if` also works. 
+https://github.com/ergolabs/ergo-dex-backend/blob/123e2a1d336cea2103da9663b8cabb7b20c59e3b/modules/dex-core/src/test/scala/org/ergoplatform/dex/demo/contracts.scala#L82
+
+{Embed}
+https://github.com/ergolabs/ergo-dex-backend/blob/123e2a1d336cea2103da9663b8cabb7b20c59e3b/modules/dex-core/src/test/scala/org/ergoplatform/dex/demo/contracts.scala
+ergo-dex-backend/contracts.scala at 123e2a1d336cea2103da9663b8cabb7...
+ErgoDEX backend services including OrderBook matcher and AMM bots. - ergo-dex-backend/contracts.scala at 123e2a1d336cea2103da9663b8cabb7b20c59e3b · ergolabs/ergo-dex-backend
+https://images-ext-1.discordapp.net/external/J2pDuNJcS8l1sx0xvJHpBRtcD76lefpTH095XoL706I/https/opengraph.githubassets.com/00d83343fbcfc1302bc8cb9412c8752eaed2e1eb4b7cf85ab966ca50b962be96/ergolabs/ergo-dex-backend
+
+
+[08/03/2021 5:30 PM] Ilya | Spectrum#0494
+This solution is slightly more readable than the first one
+
+
+[08/03/2021 5:31 PM] Ilya | Spectrum#0494
+Denis, you've provided wrong contract version
+You're talking about this version actually
+https://github.com/ergolabs/ergo-dex-backend/blob/b12854faaa4e82956eb1485b789b8d93f065fade/modules/dex-core/src/test/scala/org/ergoplatform/dex/demo/contracts.scala#L82
+
+{Embed}
+https://github.com/ergolabs/ergo-dex-backend/blob/b12854faaa4e82956eb1485b789b8d93f065fade/modules/dex-core/src/test/scala/org/ergoplatform/dex/demo/contracts.scala
+ergo-dex-backend/contracts.scala at b12854faaa4e82956eb1485b789b8d9...
+ErgoDEX backend services including OrderBook matcher and AMM bots. - ergo-dex-backend/contracts.scala at b12854faaa4e82956eb1485b789b8d93f065fade · ergolabs/ergo-dex-backend
+https://images-ext-1.discordapp.net/external/J2pDuNJcS8l1sx0xvJHpBRtcD76lefpTH095XoL706I/https/opengraph.githubassets.com/00d83343fbcfc1302bc8cb9412c8752eaed2e1eb4b7cf85ab966ca50b962be96/ergolabs/ergo-dex-backend
+
+
+[08/03/2021 5:32 PM] Ilya | Spectrum#0494
+This one failed because of non-existent ByIndex
+
+
+[08/03/2021 5:33 PM] greenhat#6562
+@Ilya | Spectrum What was the contract that you were able to sign with PK in Scala in the afternoon? That was failing in Yoroi.
+
+
+[08/03/2021 5:34 PM] Ilya | Spectrum#0494
+This^
+
+
+[08/03/2021 5:35 PM] Ilya | Spectrum#0494
+As you can see there are workarounds to ByIndex issue
+`poolInput.tokens(min(2, poolTokensDefIx))` . So even in refund case all the computations above don't fail
+
+
+[08/03/2021 5:39 PM] greenhat#6562
+Oh. Ok, so `validTrade` and other checks evaluating to false?
+
+
+[08/03/2021 5:40 PM] Ilya | Spectrum#0494
+Right
+
+
+[08/03/2021 5:41 PM] greenhat#6562
+@Ilya | Spectrum And this exact contract was failing with an error in sigma-rust?
+
+
+[08/03/2021 5:48 PM] Ilya | Spectrum#0494
+As Ruslan reported, yes
+
+
+[08/03/2021 5:50 PM] greenhat#6562
+Weird. I don't see how a ByIndex(2) call happens here. With one input and one token.
+
+
+[08/03/2021 5:54 PM] Ilya | Spectrum#0494
+In case of refund `poolInput` == SELF, `poolInput.tokens.size == 1`. Thus `poolTokensDefIx = 0`, so all 3 subsequent `poolInput.tokens(x)` queries evaluate to `SELF.tokens(0)` which is defined.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668906150485426222/872160380162555954/unknown.png
+
+
+[08/03/2021 5:57 PM] greenhat#6562
+Yes, but with index 0, not 2 (in the error).
+
+
+[08/03/2021 5:58 PM] Ilya | Spectrum#0494
+Hm, that's really weird
+
+
+[08/03/2021 5:59 PM] Ilya | Spectrum#0494
+But it should (expectedly) evaluate to ByIndex(0) regardless to AOT and other aspects
+
+
+[08/03/2021 6:11 PM] greenhat#6562
+I agree. Where index 2 error is coming from then?
+
+
+==============================================================
+Exported 431 message(s)
+==============================================================

@@ -1,0 +1,5815 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / website
+==============================================================
+
+[01/22/2020 7:11 AM] morphic#4133
+We need to have a documentation portal which may look something like this https://developers.komodoplatform.com/
+This one specifically uses https://vuepress.vuejs.org/, but our site is based on React. 
+I wonder are there any examples of simiar frameworks in React?
+I like this one in particular because it is markdown-centric, means any one practicing markdown can write and add new pages. 
+It even have built-in "Suggest an improvement for this page" link which jumps directly to github page edit where you can fix the typos and submit a PR.
+
+
+[01/22/2020 9:52 AM] morphic#4133
+@Dmitry Usov what do you think?
+
+
+[01/22/2020 9:53 AM] morphic#4133
+I found https://www.gatsbyjs.org/ but it looks more complex
+
+{Embed}
+https://www.gatsbyjs.org/
+https://images-ext-2.discordapp.net/external/AyMBlpHbOM4Lny3pBRwXlCVJi3WLLyLWX5_eFPpJolg/https/www.gatsbyjs.org/static/gatsby-icon-4a9773549091c227cd2eb82ccd9c5e3a.png
+
+
+[01/22/2020 9:55 AM] morphic#4133
+I would like to be able to edit md file, commit to master and let GitHub Pages automatically publish it. And I also like "Suggest an improvement for this page" feature
+
+
+[01/22/2020 10:22 AM] Dmitry Usov#0134
+Our site ergoplatform.org based on gohugo.io
+
+
+[01/22/2020 10:23 AM] Dmitry Usov#0134
+I will give you my answer at the evening
+
+
+[01/22/2020 2:18 PM] Dmitry Usov#0134
+Ye. I think gatsbyjs will be good for us. One of the reasons, we use react everywhere
+
+
+[01/22/2020 2:20 PM] Dmitry Usov#0134
+And I also know that he’s really great
+
+
+[01/22/2020 2:21 PM] morphic#4133
+Could you please confirm it has the features I highlighted?
+
+
+[01/22/2020 2:24 PM] Dmitry Usov#0134
+Give me time, I will research this moment.
+
+
+[01/22/2020 2:25 PM] Dmitry Usov#0134
+Maybe I come back with a prototype 🙂
+
+
+[01/22/2020 2:26 PM] morphic#4133
+ok, that would be great.
+
+
+[01/22/2020 2:29 PM] Dmitry Usov#0134
+I will end task “add tags on blog” on the weekends, and after it I going to research, okay? Or you need ASAP?
+
+
+[01/22/2020 2:29 PM] morphic#4133
+ASAP, you can put tags on hold
+
+
+[01/22/2020 2:30 PM] Dmitry Usov#0134
+Okay
+
+
+[01/22/2020 7:24 PM] Dmitry Usov#0134
+https://www.docz.site/docs/getting-started
+
+{Embed}
+https://www.docz.site/docs/getting-started
+Docz
+It has never been so easy to document your things
+
+
+[01/22/2020 7:24 PM] Dmitry Usov#0134
+it is
+
+
+[01/22/2020 7:43 PM] Dmitry Usov#0134
+looks really awesome
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/669628142805057551/unknown.png
+
+{Reactions}
+💯 
+
+[01/23/2020 7:56 AM] mx#5165
+@Dmitry Usov can you add discord to social media on the website, thanks
+
+
+[01/23/2020 8:09 AM] Dmitry Usov#0134
+no problem
+
+
+[01/23/2020 9:32 AM] morphic#4133
+> https://www.docz.site/docs/getting-started
+@Dmitry Usov Looks cool, could you please setup the project with some sample pages, before switching to Order Book
+
+
+[01/23/2020 9:32 AM] morphic#4133
+Here https://github.com/ergoplatform/developer-docs
+
+{Embed}
+https://github.com/ergoplatform/developer-docs
+ergoplatform/developer-docs
+Documentation for developers . Contribute to ergoplatform/developer-docs development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[01/23/2020 11:35 AM] greenhat#6562
+@Dmitry Usov Can we have "foldable" sections when we render HTML out of markdown for blog post? I mean for
+```
+...
+really long code
+...
+```
+can we render it into a foldable section? 
+
+EDIT: so that it's folded by default and user can unfold it.
+
+
+[01/23/2020 3:10 PM] Dmitry Usov#0134
+I've research this moment
+
+
+[01/23/2020 3:11 PM] Dmitry Usov#0134
+@morphic okay, I will add today
+
+
+[01/23/2020 3:32 PM] morphic#4133
+Please clarify what you mean
+
+
+[01/23/2020 3:33 PM] morphic#4133
+Discord sucks without threads
+
+
+[01/23/2020 3:33 PM] morphic#4133
+I'm not sure what you are referring to
+
+
+[01/23/2020 6:35 PM] Dmitry Usov#0134
+https://www.docz.site/docs/getting-started
+@Dmitry Usov Looks cool, could you please setup the project with some sample pages, before switching to Order Book
+
+
+[01/23/2020 6:35 PM] Dmitry Usov#0134
+I will add you template to https://github.com/ergoplatform/developer-docs
+
+{Embed}
+https://github.com/ergoplatform/developer-docs
+ergoplatform/developer-docs
+Documentation for developers . Contribute to ergoplatform/developer-docs development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[01/23/2020 7:59 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2019_12_22_mining_for_fun/ code styles at markdown updated
+
+
+[01/27/2020 8:08 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/tools/ discord channel added
+
+{Reactions}
+👍 
+
+[01/27/2020 8:21 PM] morphic#4133
+Let's add it at the bottom of the page also
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/671449847907352586/unknown.png
+
+{Reactions}
+👍 (2) 
+
+[01/27/2020 9:03 PM] Dmitry Usov#0134
+good idea, thanks!
+
+
+[01/27/2020 9:03 PM] Dmitry Usov#0134
+also add at the top of landing
+
+
+[01/27/2020 9:04 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/671460448654327808/unknown.png
+
+
+[01/27/2020 9:12 PM] Dmitry Usov#0134
+https://ergoplatform.github.io/developer-docs/pages-app-kit-reference 👋
+
+{Embed}
+https://ergoplatform.github.io/developer-docs/pages-app-kit-reference
+AppKit Example
+My awesome app using docz
+
+
+[01/27/2020 9:22 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/ added discord channel
+
+{Reactions}
+👍 
+
+[01/30/2020 9:14 AM] Noah ~ 贺能#5674
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/672368982715531264/unknown.png
+
+
+[01/30/2020 9:14 AM] Noah ~ 贺能#5674
+Hi @Dmitry Usov , Chinese website, please change "Foundation" to "基金“。
+
+
+[01/30/2020 9:15 AM] Noah ~ 贺能#5674
+And here is the Chinese translation for Foundation section (from Gary):
+
+
+[01/30/2020 9:15 AM] Noah ~ 贺能#5674
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/672369222109757441/Ergo_Foundation_CN_20200124.docx
+
+
+[01/31/2020 7:31 AM] kushti#0978
+@Dmitry Usov https://ergoplatform.org/en/exchanges/
+...to update the Waves DEX link to: https://waves.exchange/
+
+{Embed}
+https://waves.exchange/
+https://images-ext-2.discordapp.net/external/R7NUSokLH_7ESLUa_0POh55Q1ZtO9gXg9yGoDwg8RDM/https/waves.exchange/img/landing/screenshot-exchange.png
+
+
+[01/31/2020 2:40 PM] Dmitry Usov#0134
+Ok, no problem
+
+
+[02/01/2020 12:17 PM] Dmitry Usov#0134
+updated https://ergoplatform.org/en/exchanges/
+
+
+[02/01/2020 2:03 PM] hir0#9158
+@Dmitry Usov Are you in charge of website?
+
+
+[02/01/2020 2:04 PM] hir0#9158
+Just trying to get a sense of who is responsible for what in Ergo 🙂
+
+
+[02/01/2020 3:17 PM] Dmitry Usov#0134
+Yes
+
+
+[02/01/2020 3:21 PM] Dmitry Usov#0134
+I support frontend explorer, website, ergo-js, developer-docs and ergo node interface
+
+
+[02/01/2020 3:21 PM] Dmitry Usov#0134
+Now
+
+
+[02/01/2020 9:09 PM] kushti#0978
+@Dmitry Usov can you please publish this in the blog?
+
+
+[02/01/2020 10:10 PM] kushti#0978
+roadmap-2020
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/673289015230988358/message.txt
+
+
+[02/02/2020 8:50 AM] Dmitry Usov#0134
+Ok
+
+
+[02/02/2020 12:00 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_02_02/ @kushti @mx
+
+
+[02/02/2020 12:00 PM] Dmitry Usov#0134
+At monday I will translate foundation page into Chinese
+
+{Reactions}
+👍 
+
+[02/03/2020 11:08 AM] kushti#0978
+@Dmitry Usov please publish on the blog
+
+
+[02/03/2020 11:08 AM] kushti#0978
+Ergo Platform Ecosystem Digest - January 2020
+---------------------------------------------
+
+* Ergo Foundation has been established (https://ergoplatform.org/en/foundation/)
+
+* Security audit of most critical parts of the reference protocol client is done, report is available (https://ergoplatform.org/en/blog/2020_01_12_security_audit/)
+
+* New paper is out, "Bypassing Non-Outsourceable Proof-of-Work Schemes Using Collateralized Smart Contracts" (https://eprint.iacr.org/2020/044.pdf). This paper describes how to build a pool 
+for Ergo based on smart contracts with collaterals.
+
+* Public Discord server has been created (https://discordapp.com/invite/gYrVrjS), please join!
+
+* Ergo Platform reference protocol client 3.2.0 released (https://github.com/ergoplatform/ergo/releases/tag/v3.2.0). Updates are coming reguralry!
+
+* CoinBarn wallet is still under review in ChromeStore, but released a desktop version (https://twitter.com/coinbarn/status/1211026427686064133). CoinBarn is the simplest wallet for Ergo, and it is supporting custom tokens!
+
+* Ergo now has a command-line wallet also, called ErgoTool. An introductory article on the ErgoTool: https://ergoplatform.org/en/blog/2019_12_31_ergo_tool/
+
+{Embed}
+https://discordapp.com/invite/gYrVrjS),
+Discord - Free voice and text chat for gamers
+Step up your game with a modern voice & text chat app. Crystal clear voice, multiple server and channel support, mobile apps, and more. Get your free server now!
+https://images-ext-2.discordapp.net/external/HfR2VUvbtgDrYRhtJYtbVRG8ptOUXl0szXSCAOAiC_8/https/discordapp.com/assets/ee7c382d9257652a88c8f7b7f22a994d.png
+
+{Reactions}
+👌 (2) 
+
+[02/03/2020 8:37 PM] kushti#0978
+@Dmitry Usov also :
+* ErgoCast #2 published: https://ergocast.io/
+
+{Embed}
+Robert Kornacki
+https://ergocast.io/
+Home - Ergo Cast
+The premier Ergo cryptocurrency podcast. Discover what Ergo is, how it aims to fulfill the original mission of bitcoin, and all the latest greatest news.
+https://images-ext-2.discordapp.net/external/pbmzWNpn7XEa9r5gRVLb4IhsDJ_KpJyh4JFKCEOoiYA/https/ergocast.io/wp-content/uploads/2019/11/Ergo_Cast_Logo_black_background-1024x273.png
+
+
+[02/04/2020 7:26 PM] Dmitry Usov#0134
+https://ergoplatform.org/cn/foundation/ translated
+
+
+[02/04/2020 7:57 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_02_04_january_digest/ added
+
+
+[02/05/2020 11:03 AM] hir0#9158
+@Dmitry Usov I'm trying to create a simple design for the website so I can present the text within that. Are you able to add a slider to the site, or one or two other effects? (Sorry if I've asked this already, I can't remember)
+
+
+[02/05/2020 11:04 AM] hir0#9158
+I think a scrolling one-page site would be good
+
+
+[02/05/2020 11:04 AM] hir0#9158
+Clean, lots of white space, simple but elegant layout
+
+
+[02/05/2020 1:01 PM] Dmitry Usov#0134
+Slider like at landing page ergoplatform.org 2019-2018 or what you mean?
+
+
+[02/05/2020 1:01 PM] Dmitry Usov#0134
+Like this ?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/674600580412473344/image0.png
+
+
+[02/05/2020 1:03 PM] Dmitry Usov#0134
+Maybe you have an example?
+
+
+[02/05/2020 1:17 PM] hir0#9158
+Let me find an example
+
+
+[02/05/2020 1:23 PM] hir0#9158
+Ah, I can't find a good one. But something like this: https://www.talktalk.co.uk/
+
+
+[02/05/2020 1:24 PM] hir0#9158
+Basically we just need to be able to cycle through different features within the same area of the site
+
+
+[02/05/2020 6:13 PM] Dmitry Usov#0134
+Oh
+
+
+[02/05/2020 6:13 PM] Dmitry Usov#0134
+yes of course
+
+
+[02/06/2020 10:57 AM] kushti#0978
+@Dmitry Usov how can we add working maillist on the website ?
+
+
+[02/06/2020 3:11 PM] hir0#9158
+That's cool. @Dmitry Usov I've got the text ready, but the other thing is it would be good to arrange it around the 8-sided logo, which is more of a graphical thing
+
+
+[02/06/2020 3:12 PM] hir0#9158
+Is that something you can do, or do we need a different approach for now?
+
+
+[02/06/2020 3:33 PM] Dmitry Usov#0134
+> @Dmitry Usov how can we add working maillist on the website ?
+
+
+@kushti I will research this
+
+{Reactions}
+💯 
+
+[02/06/2020 3:38 PM] Dmitry Usov#0134
+@hir0 I can put your text into polygon
+
+
+[02/06/2020 3:47 PM] Dmitry Usov#0134
+@hir0 can you please give me more information about what you want to do. You want to add new section on site or new website or what?
+
+
+[02/06/2020 3:48 PM] hir0#9158
+Yes, it's a new front page for now
+
+
+[02/06/2020 3:48 PM] hir0#9158
+I'll give some details when I'm back home
+
+
+[02/06/2020 4:25 PM] hir0#9158
+Ok @Dmitry Usov how would you like me to give you info? Step by step or all at once?
+
+
+[02/06/2020 4:28 PM] hir0#9158
+Basically we just want to redo the home page for now, with updated text and a couple of effects
+
+
+[02/06/2020 5:03 PM] Dmitry Usov#0134
+Do you want update design or not?
+
+
+[02/06/2020 5:03 PM] Dmitry Usov#0134
+colors/etc
+
+
+[02/06/2020 5:03 PM] Dmitry Usov#0134
+grid
+
+
+[02/06/2020 5:20 PM] hir0#9158
+Overall, no. Mostly new text, with a particular layout
+
+
+[02/06/2020 5:20 PM] hir0#9158
+Design changes may come later
+
+
+[02/06/2020 5:27 PM] hir0#9158
+I've got everything in the google doc. I'll put in a few notes, then you can ask me any questions you need
+
+
+[02/06/2020 5:29 PM] Dmitry Usov#0134
+ok
+
+
+[02/06/2020 5:33 PM] hir0#9158
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Keep  existing menu structure but include social media icons at top] [Please add the item ‘Smart paper’ to the menu, inking to a new page with ‘Coming soon’]  [Home page – this is all we are changing for now]  Welcome to Smart Money  Smart Money is...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[02/06/2020 5:33 PM] hir0#9158
+Here's the doc. You can see the first section is new text, with suggestions for layout in [brackets]
+
+
+[02/06/2020 5:33 PM] hir0#9158
+I don't know how much more information you will need, so feel free to ask anything
+
+
+[02/06/2020 5:34 PM] hir0#9158
+You can drop questions into the gdoc, and ask for anything else you need or that isn't clear
+
+
+[02/06/2020 8:40 PM] Dmitry Usov#0134
+i think this 3 sections need to stay at main page
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/675078318810464283/2020-02-06_23.39.37.png
+
+
+[02/06/2020 8:40 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/675078330898317312/2020-02-06_23.39.33.png
+
+
+[02/06/2020 8:40 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/675078334362812456/2020-02-06_23.39.26.png
+
+
+[02/06/2020 8:41 PM] hir0#9158
+You mean we should keep those?
+
+
+[02/06/2020 8:41 PM] Dmitry Usov#0134
+sorry, I have bad english, but think you understand me)
+
+
+[02/06/2020 8:41 PM] Dmitry Usov#0134
+yep
+
+
+[02/06/2020 8:41 PM] Dmitry Usov#0134
+keep
+
+
+[02/06/2020 8:41 PM] hir0#9158
+Ok
+
+
+[02/06/2020 8:42 PM] hir0#9158
+Well, lets start with the new text for now, we can keep those sections below for the meantime?
+
+
+[02/06/2020 8:42 PM] Dmitry Usov#0134
+ok
+
+
+[02/06/2020 8:43 PM] hir0#9158
+While we figure out wider design etc
+
+
+[02/06/2020 8:45 PM] Dmitry Usov#0134
+okay, for the first section we can use this: https://cloud.githubusercontent.com/assets/38172/24254063/d5e9c38c-0fd9-11e7-9b75-46dc00421cd7.gif
+
+{Embed}
+https://cloud.githubusercontent.com/assets/38172/24254063/d5e9c38c-0fd9-11e7-9b75-46dc00421cd7.gif
+https://images-ext-2.discordapp.net/external/RQTst0BjPug8xjhI7lvIUK6du677jXQYZ_lMyWkiQpc/https/cloud.githubusercontent.com/assets/38172/24254063/d5e9c38c-0fd9-11e7-9b75-46dc00421cd7.gif
+
+
+[02/06/2020 8:46 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/675079773852270622/unknown.png
+
+
+[02/06/2020 8:46 PM] Dmitry Usov#0134
+Smart Money is: Conservative/Ambitious/Lightweight/Versatile
+
+
+[02/06/2020 8:47 PM] Dmitry Usov#0134
+how you think?
+
+
+[02/06/2020 8:47 PM] hir0#9158
+Yes, I think so!
+
+
+[02/06/2020 8:47 PM] Dmitry Usov#0134
+👍
+
+
+[02/06/2020 8:47 PM] hir0#9158
+What is that?
+
+
+[02/06/2020 8:47 PM] Dmitry Usov#0134
+https://github.com/braposo/react-text-loop
+
+{Embed}
+https://github.com/braposo/react-text-loop
+braposo/react-text-loop
+Animate words in your headings. Contribute to braposo/react-text-loop development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/InKQH139CfVjP-pvMKBvnZCFgfgKHqOrCRKtWD0230I/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/38172
+
+
+[02/06/2020 8:48 PM] Dmitry Usov#0134
+just this)
+
+
+[02/06/2020 8:48 PM] hir0#9158
+Nice, good call
+
+
+[02/06/2020 8:49 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/675080641376682015/2020-02-06_23.49.09.png
+
+
+[02/06/2020 8:49 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/675080657113841684/2020-02-06_23.49.17.png
+
+
+[02/06/2020 8:49 PM] Dmitry Usov#0134
+we can put it to this section?
+
+
+[02/06/2020 8:49 PM] Dmitry Usov#0134
+just change
+
+
+[02/06/2020 8:51 PM] hir0#9158
+I guess... what do others think @kushti @morphic ?
+
+
+[02/06/2020 8:52 PM] hir0#9158
+Would be nice to have more graphics, but maybe not feasible yet?
+
+
+[02/06/2020 8:57 PM] hir0#9158
+I think the longer texts should go together below, linked from each summary statement
+
+
+[02/06/2020 8:57 PM] hir0#9158
+So we get better seo
+
+
+[02/06/2020 8:58 PM] hir0#9158
+And it's all there at a glance
+
+
+[02/06/2020 9:09 PM] hir0#9158
+Perhaps let's do one element at a time, see how it looks, make sure we're happy and go onto the next?
+
+
+[02/06/2020 9:35 PM] kushti#0978
+@hir0 agree,  let's iterate, and with no graphics as we do not have it now (but surely it is better to have it eventually!)
+
+{Reactions}
+👍 
+
+[02/06/2020 9:36 PM] hir0#9158
+Cool. Let's start with the rotating text @Dmitry Usov ?
+
+
+[02/07/2020 5:35 AM] Dmitry Usov#0134
+Ok
+
+
+[02/07/2020 5:40 AM] Dmitry Usov#0134
+I will give you link to prototype at Saturday.
+
+
+[02/07/2020 8:09 AM] hir0#9158
+Fantastic, thanks
+
+
+[02/08/2020 11:56 AM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/675671296880934914/unknown.png
+
+
+[02/08/2020 11:56 AM] Dmitry Usov#0134
+@hir0 what do you think?
+
+
+[02/08/2020 11:58 AM] Dmitry Usov#0134
+😞
+
+
+[02/08/2020 12:03 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/675672967799242787/unknown.png
+
+
+[02/08/2020 12:15 PM] Dmitry Usov#0134
+http://powerful-spire-67290.herokuapp.com/en/
+
+{Embed}
+http://powerful-spire-67290.herokuapp.com/en/
+Ergo
+Ergo is a resilient platform for contractual money
+
+
+[02/08/2020 12:24 PM] Dmitry Usov#0134
+http://powerful-spire-67290.herokuapp.com/en/
+
+{Embed}
+http://powerful-spire-67290.herokuapp.com/en/
+Ergo
+Ergo is a resilient platform for contractual money
+
+
+[02/08/2020 12:24 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/675678369974714369/unknown.png
+
+
+[02/08/2020 12:46 PM] hir0#9158
+I like the first one best. But the 3rd/4th links don't work for me, no formatting
+
+
+[02/08/2020 12:47 PM] hir0#9158
+But second has all the information, hmm
+
+
+[02/08/2020 12:48 PM] Dmitry Usov#0134
+can you please give me image
+
+
+[02/08/2020 12:48 PM] Dmitry Usov#0134
+what you like
+
+
+[02/08/2020 12:48 PM] hir0#9158
+Yep, we need some other guys in here to give feedback
+
+
+[02/08/2020 12:49 PM] Dmitry Usov#0134
+this https://cdn.discordapp.com/attachments/668913385622208514/675671296880934914/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/668913385622208514/675671296880934914/unknown.png
+https://media.discordapp.net/attachments/668913385622208514/675671296880934914/unknown.png
+
+
+[02/08/2020 12:49 PM] Dmitry Usov#0134
+?
+
+
+[02/08/2020 12:49 PM] Dmitry Usov#0134
+or this ?)
+
+
+[02/08/2020 12:49 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/675684750790492170/unknown.png
+
+
+[02/08/2020 12:50 PM] hir0#9158
+Well, if we could have the second one, with Welcome to Smart Money
+
+
+[02/08/2020 12:50 PM] hir0#9158
+Instead of Ergo platform
+
+
+[02/08/2020 12:50 PM] Dmitry Usov#0134
+okay one minute
+
+
+[02/08/2020 12:51 PM] hir0#9158
+And then on the right, the carousel with 'Smart money is...'
+
+
+[02/08/2020 12:51 PM] hir0#9158
+That would be cool
+
+
+[02/08/2020 12:51 PM] Dmitry Usov#0134
+"ergo builds ..." delete?
+
+
+[02/08/2020 12:52 PM] hir0#9158
+I don't see 'Ergo builds'
+
+
+[02/08/2020 12:52 PM] hir0#9158
+Oh sorry, yes
+
+
+[02/08/2020 12:52 PM] hir0#9158
+No, keep Ergo builds...
+
+
+[02/08/2020 12:52 PM] hir0#9158
+But on the right of the screen, maybe the slider/carousel with the Smart money is... rotating text
+
+
+[02/08/2020 12:53 PM] hir0#9158
+Your text animation with typing text was cool, maybe you could use that for the longer descriptions?
+
+
+[02/08/2020 12:54 PM] hir0#9158
+Like Smart money is: Conservative
+
+
+[02/08/2020 12:54 PM] hir0#9158
+Below: typing text, "Because smart doesn't take unnecessary risks"
+
+
+[02/08/2020 12:54 PM] Dmitry Usov#0134
+http://powerful-spire-67290.herokuapp.com/en/
+
+{Embed}
+http://powerful-spire-67290.herokuapp.com/en/
+Ergo
+Ergo is a resilient platform for contractual money
+
+
+[02/08/2020 12:55 PM] Dmitry Usov#0134
+update page
+
+
+[02/08/2020 12:56 PM] Dmitry Usov#0134
+without [Ergo build]
+
+
+[02/08/2020 12:56 PM] hir0#9158
+Yeah, I kind of like that
+
+
+[02/08/2020 12:56 PM] hir0#9158
+But the page is weirdly formatted for me
+
+
+[02/08/2020 12:56 PM] hir0#9158
+Like it's all text
+
+
+[02/08/2020 12:57 PM] Dmitry Usov#0134
+sec
+
+
+[02/08/2020 12:57 PM] Dmitry Usov#0134
+http://powerful-spire-67290.herokuapp.com/en/
+
+{Embed}
+http://powerful-spire-67290.herokuapp.com/en/
+Ergo
+Ergo is a resilient platform for contractual money
+
+
+[02/08/2020 12:57 PM] Dmitry Usov#0134
+ctrl + shift + r
+
+
+[02/08/2020 12:57 PM] Dmitry Usov#0134
+use
+
+
+[02/08/2020 12:57 PM] hir0#9158
+It's still white background, text
+
+
+[02/08/2020 12:57 PM] hir0#9158
+Weird
+
+
+[02/08/2020 12:58 PM] Dmitry Usov#0134
+?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/675686833337663520/unknown.png
+
+
+[02/08/2020 12:58 PM] hir0#9158
+No, doesn't look like that to me
+
+
+[02/08/2020 12:58 PM] Dmitry Usov#0134
+use ctrl + r
+
+
+[02/08/2020 12:58 PM] Dmitry Usov#0134
+styles cached i think
+
+
+[02/08/2020 12:58 PM] hir0#9158
+Hm
+
+
+[02/08/2020 12:58 PM] hir0#9158
+I'm using Brave, let me try Chrome
+
+
+[02/08/2020 12:58 PM] Dmitry Usov#0134
+cmd shift r
+
+
+[02/08/2020 12:58 PM] Dmitry Usov#0134
+in mac
+
+
+[02/08/2020 12:58 PM] hir0#9158
+No, Windows
+
+
+[02/08/2020 12:59 PM] Dmitry Usov#0134
+in chrome ctrl + shift + r updates cache
+
+
+[02/08/2020 12:59 PM] hir0#9158
+No, still bad
+
+
+[02/08/2020 12:59 PM] hir0#9158
+So weird. The regular webpage is fine
+
+
+[02/08/2020 1:00 PM] hir0#9158
+Anyone else here?
+
+
+[02/08/2020 1:00 PM] Dmitry Usov#0134
+http://powerful-spire-67290.herokuapp.com/en/
+
+{Embed}
+http://powerful-spire-67290.herokuapp.com/en/
+Ergo
+Ergo is a resilient platform for contractual money
+
+
+[02/08/2020 1:00 PM] Dmitry Usov#0134
+put it on the url
+
+
+[02/08/2020 1:00 PM] Dmitry Usov#0134
+http://
+
+
+[02/08/2020 1:00 PM] Dmitry Usov#0134
+not https://
+
+
+[02/08/2020 1:00 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/675687508683653128/unknown.png
+
+
+[02/08/2020 1:01 PM] Dmitry Usov#0134
+it https://
+
+
+[02/08/2020 1:01 PM] hir0#9158
+No 😦
+
+
+[02/08/2020 1:01 PM] Dmitry Usov#0134
+http://powerful-spire-67290.herokuapp.com/en/ you need http://
+
+{Embed}
+http://powerful-spire-67290.herokuapp.com/en/
+Ergo
+Ergo is a resilient platform for contractual money
+
+
+[02/08/2020 1:01 PM] Dmitry Usov#0134
+fck
+
+
+[02/08/2020 1:01 PM] Dmitry Usov#0134
+=/
+
+
+[02/08/2020 1:01 PM] hir0#9158
+Still no!
+
+
+[02/08/2020 1:01 PM] hir0#9158
+😦
+
+
+[02/08/2020 1:01 PM] Dmitry Usov#0134
+http://powerful-spire-67290.herokuapp.com/en/foundation/
+
+{Embed}
+http://powerful-spire-67290.herokuapp.com/en/foundation/
+Foundation | Ergo
+Ergo is a resilient platform for contractual money
+
+
+[02/08/2020 1:01 PM] Dmitry Usov#0134
+here?
+
+
+[02/08/2020 1:01 PM] hir0#9158
+Yes!!!
+
+
+[02/08/2020 1:02 PM] hir0#9158
+Chrome, finally
+
+
+[02/08/2020 1:02 PM] Dmitry Usov#0134
+tap to "Ergo logo"
+
+
+[02/08/2020 1:03 PM] hir0#9158
+Yes 🙂 That's looking nice
+
+
+[02/08/2020 1:03 PM] hir0#9158
+Thank you!
+
+
+[02/08/2020 1:03 PM] Dmitry Usov#0134
+okay is it all for the header-section?
+
+
+[02/08/2020 1:03 PM] hir0#9158
+Got to grab food with family - will take a proper look later and get feedback to you
+
+
+[02/08/2020 1:03 PM] hir0#9158
+I think so, but the longer texts push the rest down
+
+
+[02/08/2020 1:03 PM] hir0#9158
+When it scrolls onto the new line
+
+
+[02/08/2020 1:04 PM] hir0#9158
+But overall, it's nice 🙂
+
+
+[02/08/2020 1:04 PM] hir0#9158
+Back in a bit - @kushti and anyone else, do you have feedback?
+
+
+[02/08/2020 1:05 PM] Dmitry Usov#0134
+we have very strong text about us - "Ergo builds advanced cryptographic features and radically new DeFi functionality on the rock-solid foundations laid by a decade of blockchain theory and development. " need to add it
+
+
+[02/08/2020 1:07 PM] Dmitry Usov#0134
+but I don’t know in which section
+
+
+[02/08/2020 1:37 PM] hir0#9158
+Yes, you're right... So can we:
+Put that text under Welcome to Smart Money
+
+
+[02/08/2020 1:38 PM] hir0#9158
+Move the slider to the right side of the page?
+
+
+[02/08/2020 1:38 PM] hir0#9158
+Then the next section, I don't think we need the titles again since we have them in the menu on the left
+
+
+[02/08/2020 1:39 PM] hir0#9158
+And there are another couple of sections there, should be 8 in total
+
+
+[02/08/2020 1:51 PM] Dmitry Usov#0134
+animation takes all views of yourself
+
+
+[02/08/2020 1:52 PM] hir0#9158
+Sorry, don't understand
+
+
+[02/08/2020 1:52 PM] Dmitry Usov#0134
+i cant add slider + text
+
+
+[02/08/2020 1:52 PM] hir0#9158
+I mean there are 8 sections below, Research-led... etc
+
+
+[02/08/2020 1:52 PM] Dmitry Usov#0134
+because slider gets all views
+
+
+[02/08/2020 1:53 PM] Dmitry Usov#0134
+ye, its i understand))
+
+
+[02/08/2020 1:53 PM] hir0#9158
+Oh right
+
+
+[02/08/2020 1:53 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/675700652391006238/unknown.png
+
+
+[02/08/2020 1:53 PM] hir0#9158
+You mean people won't look at the text
+
+
+[02/08/2020 1:53 PM] Dmitry Usov#0134
+i about this
+
+
+[02/08/2020 1:53 PM] Dmitry Usov#0134
+yee
+
+
+[02/08/2020 1:53 PM] hir0#9158
+Hmm
+
+
+[02/08/2020 1:53 PM] Dmitry Usov#0134
+only slider or text
+
+
+[02/08/2020 1:54 PM] hir0#9158
+Well, there's a lot of unused space on that page. Maybe we can use it better
+
+
+[02/08/2020 1:54 PM] hir0#9158
+Like centre all text, put title at the top, then the description, then lower down where there's more space the slider
+
+
+[02/08/2020 1:55 PM] Dmitry Usov#0134
+maybe in another section we can put the text
+
+
+[02/08/2020 1:55 PM] Dmitry Usov#0134
+okay, one minute and your understand me)
+
+
+[02/08/2020 1:56 PM] Dmitry Usov#0134
+http://powerful-spire-67290.herokuapp.com/en/
+
+{Embed}
+http://powerful-spire-67290.herokuapp.com/en/
+Ergo
+Ergo is a resilient platform for contractual money
+
+
+[02/08/2020 1:56 PM] Dmitry Usov#0134
+slider + text, watch how it looks)
+
+
+[02/08/2020 1:57 PM] hir0#9158
+Hm, yeah, it's not great - the slider takes the attention
+
+
+[02/08/2020 1:57 PM] hir0#9158
+But what if the text was spaced more over the whole page?
+
+
+[02/08/2020 1:58 PM] Dmitry Usov#0134
+what do you mean?
+
+
+[02/08/2020 1:58 PM] hir0#9158
+> Like centre all text, put title at the top, then the description, then lower down where there's more space the slider
+@hir0
+
+
+[02/08/2020 1:58 PM] Dmitry Usov#0134
+one minute
+
+
+[02/08/2020 2:01 PM] Dmitry Usov#0134
+http://powerful-spire-67290.herokuapp.com/en/
+
+{Embed}
+http://powerful-spire-67290.herokuapp.com/en/
+Ergo
+Ergo is a resilient platform for contractual money
+
+
+[02/08/2020 2:03 PM] hir0#9158
+Yes! But let's space things out more so the slider doesn't detract from the text so much
+
+
+[02/08/2020 2:04 PM] hir0#9158
+Like, maybe the title nearer the top, more space between the text and the slider
+
+
+[02/08/2020 2:07 PM] hir0#9158
+Let's get some more suggestions here @kushti @morphic @mx before you do too much more, see what people think would look good
+
+
+[02/08/2020 2:10 PM] Dmitry Usov#0134
+http://powerful-spire-67290.herokuapp.com/en/
+
+{Embed}
+http://powerful-spire-67290.herokuapp.com/en/
+Ergo
+Ergo is a resilient platform for contractual money
+
+
+[02/08/2020 2:11 PM] Dmitry Usov#0134
+yes, i think so too
+
+
+[02/08/2020 2:12 PM] hir0#9158
+Cool, thanks for your work. Let's get some more feedback
+
+
+[02/08/2020 4:06 PM] mx#5165
+overall text is more accessible and better imo than previous version, slider is indeed a distraction, could there be maybe just one strong sentence?
+
+
+[02/08/2020 4:08 PM] mx#5165
+maybe - Smart money is: Ambitious. Because Smart isn’t afraid to try new ideas.
+
+
+[02/08/2020 4:10 PM] mx#5165
+without slider at all
+
+
+[02/08/2020 8:16 PM] hir0#9158
+Well, I'm keen we keep the slider in some form, with the different descriptions. I think it's important and is designed to draw the eye to give an overview!
+
+
+[02/09/2020 8:19 AM] morphic#4133
+I like the slider, but we need to increase the time interval twice.
+
+
+[02/09/2020 12:51 PM] hir0#9158
+Good call!
+
+
+[02/09/2020 12:51 PM] hir0#9158
+More visual and time spacing overall
+
+
+[02/09/2020 12:53 PM] kushti#0978
+reading texts carefully
+
+
+[02/09/2020 1:05 PM] kushti#0978
+@hir0 texts are looking good. I can argue about some sentences, but after my corrections they'll be too technical probably ) so let's go ahead with the texts
+
+
+[02/09/2020 1:05 PM] hir0#9158
+Haha, ok. We can iterate of course
+
+
+[02/09/2020 1:06 PM] hir0#9158
+Feel free to comment
+
+
+[02/09/2020 1:06 PM] kushti#0978
+later maybe )
+
+
+[02/09/2020 1:06 PM] kushti#0978
+let's see input on these texts
+
+
+[02/09/2020 1:06 PM] kushti#0978
+and then iterate with the input provided
+
+
+[02/09/2020 1:08 PM] kushti#0978
+for now looks good to me!
+
+
+[02/09/2020 1:41 PM] hir0#9158
+Great
+
+
+[02/10/2020 3:14 PM] kushti#0978
+@Dmitry Usov when can we update the website?
+
+
+[02/10/2020 3:52 PM] Dmitry Usov#0134
+When cassius approve my design
+
+
+[02/10/2020 7:07 PM] hir0#9158
+Sorry, waiting for other people to provide feedback!
+
+
+[02/10/2020 7:20 PM] hir0#9158
+Ok, so I have another couple of minor pieces of feedback. Other people can suggest things, but if not soon then I think we should update the site
+
+
+[02/10/2020 7:21 PM] hir0#9158
+Can we move the title up a line or so? Then the 'Ergo builds...' summary as we have it now
+
+
+[02/10/2020 7:21 PM] hir0#9158
+Then can we have static text, 'Smart money is:'
+
+
+[02/10/2020 7:22 PM] hir0#9158
+And then the four slider texts below that, but a little slower, and continuing to rotate back to the first one again
+
+
+[02/10/2020 7:22 PM] hir0#9158
+Does that all make sense?
+
+
+[02/10/2020 7:22 PM] hir0#9158
+It just spaces everything out a little more and makes it more readable
+
+
+[02/11/2020 4:09 PM] Dmitry Usov#0134
+Okay
+
+
+[02/11/2020 4:09 PM] Dmitry Usov#0134
+I will try now
+
+
+[02/11/2020 4:17 PM] hir0#9158
+Thanks
+
+
+[02/12/2020 7:08 AM] Dmitry Usov#0134
+Sorry, can’t do it yesterday. I will try it today
+
+
+[02/12/2020 9:55 AM] hir0#9158
+No worries, thanks
+
+
+[02/12/2020 3:36 PM] kushti#0978
+@Dmitry Usov can you please publish an article "Ergo: Welcome to Smart Money" in the blog ASAP? https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit# pg 6 and 7, before "Five undervalued crypto coins"
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Keep  existing menu structure but include social media icons at top] [Please add the item ‘Smart paper’ to the menu, linking to a new page with ‘Coming soon’]  [Home page – this is all we are changing for now] [I think a white background with lots of white sp...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[02/12/2020 3:43 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/677178037107818506/unknown.png
+
+
+[02/12/2020 3:44 PM] Dmitry Usov#0134
+@hir0 right?
+
+
+[02/12/2020 3:44 PM] Dmitry Usov#0134
+@kushti yes, no problem
+
+
+[02/12/2020 3:46 PM] hir0#9158
+@Dmitry Usov Yes, that looks good. Is that on the test site? http://powerful-spire-67290.herokuapp.com/en/ I don't see it updated
+
+{Embed}
+http://powerful-spire-67290.herokuapp.com/en/
+Ergo
+Ergo is a resilient platform for contractual money
+
+
+[02/12/2020 3:46 PM] Dmitry Usov#0134
+this is ok? 2 sigma protocols titles
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/677178807601332250/unknown.png
+
+
+[02/12/2020 3:47 PM] Dmitry Usov#0134
+@hir0 i will deploy, after add new blog post
+
+
+[02/12/2020 3:47 PM] hir0#9158
+But that's good, maybe move up the title and summary paragraph one more line, so there's more space before the slider, but it looks good to me
+
+
+[02/12/2020 3:47 PM] hir0#9158
+@kushti What do you think?
+
+
+[02/12/2020 3:48 PM] Dmitry Usov#0134
+@hir0 please tell me about 2 sigma protocols titles 🙂 at 6-7 pg
+
+
+[02/12/2020 3:48 PM] Dmitry Usov#0134
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Keep  existing menu structure but include social media icons at top] [Please add the item ‘Smart paper’ to the menu, linking to a new page with ‘Coming soon’]  [Home page – this is all we are changing for now] [I think a white background with lots of white sp...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[02/12/2020 3:48 PM] Dmitry Usov#0134
+it's okay?
+
+
+[02/12/2020 3:48 PM] hir0#9158
+Oh, bother, Bez asked me to change one 😦 Hold on
+
+
+[02/12/2020 3:49 PM] Dmitry Usov#0134
+thanks!
+
+
+[02/12/2020 3:59 PM] Dmitry Usov#0134
+@kushti https://ergoplatform.org/en/blog/2020_02_12_welcome_to_smart_money/
+
+
+[02/12/2020 4:01 PM] kushti#0978
+Nope, rename first one into "Powerful But Safe Contracts" @hir0 ok ?
+
+
+[02/12/2020 4:02 PM] hir0#9158
+Yep, one minute
+
+
+[02/12/2020 4:02 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_02_12_welcome_to_smart_money/ updated
+
+
+[02/12/2020 4:04 PM] hir0#9158
+Ok done
+
+
+[02/12/2020 4:04 PM] hir0#9158
+Oh, you did it directly on the website, cool
+
+
+[02/12/2020 4:35 PM] mx#5165
+good to go?
+
+
+[02/12/2020 4:47 PM] Dmitry Usov#0134
+http://powerful-spire-67290.herokuapp.com/en/
+
+{Embed}
+http://powerful-spire-67290.herokuapp.com/en/
+Ergo
+Ergo is a resilient platform for contractual money
+
+
+[02/12/2020 4:47 PM] Dmitry Usov#0134
+@hir0
+
+
+[02/12/2020 4:49 PM] hir0#9158
+@Dmitry Usov Seems like something is wrong, at least with my version
+
+
+[02/12/2020 4:49 PM] hir0#9158
+Smart money is: moves left as the other text unrolls - and I can't actually see the other text
+
+
+[02/12/2020 4:49 PM] hir0#9158
+Does anyone else have this issue?
+
+
+[02/12/2020 4:50 PM] hir0#9158
+'Smart money is:' should not be part of the slider any more. It's just another line of text
+
+
+[02/12/2020 4:52 PM] Dmitry Usov#0134
+need refresh
+
+
+[02/12/2020 4:52 PM] Dmitry Usov#0134
+ctrl + shift + r
+
+
+[02/12/2020 4:52 PM] Dmitry Usov#0134
+try
+
+
+[02/12/2020 5:04 PM] hir0#9158
+Oh yeah 🙂 That's looking pretty good now. Thank you 🙂
+
+
+[02/12/2020 5:04 PM] hir0#9158
+@kushti ?
+
+
+[02/12/2020 5:05 PM] hir0#9158
+In the next section @Dmitry Usov there should be 8 subheadings?
+
+
+[02/12/2020 5:06 PM] hir0#9158
+We're missing 5 and 7
+
+
+[02/12/2020 5:06 PM] hir0#9158
+Deflationary but economically sustainable
+
+
+[02/12/2020 5:07 PM] hir0#9158
+Consensus-led but readily adaptable
+
+
+[02/12/2020 6:08 PM] Dmitry Usov#0134
+Thanks
+
+
+[02/12/2020 6:08 PM] Dmitry Usov#0134
+I will add it lately
+
+
+[02/12/2020 6:08 PM] hir0#9158
+Cheers
+
+
+[02/12/2020 6:09 PM] hir0#9158
+Appreciate your work on it
+
+
+[02/12/2020 6:09 PM] Dmitry Usov#0134
+I will add next section, and mobile header section
+
+
+[02/12/2020 6:09 PM] Dmitry Usov#0134
+If kushti and you approve header)
+
+
+[02/12/2020 6:10 PM] Dmitry Usov#0134
+> Appreciate your work on it
+Thank you 😉
+
+
+[02/13/2020 3:21 AM] kushti#0978
+looks good!
+
+
+[02/13/2020 6:05 AM] Dmitry Usov#0134
+Ok, today I will release it
+
+
+[02/13/2020 5:44 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/677570772121944104/unknown.png
+
+
+[02/13/2020 5:44 PM] Dmitry Usov#0134
+keep this section or delete? @kushti  @hir0
+
+
+[02/13/2020 5:45 PM] Dmitry Usov#0134
+i think we can keep it
+
+
+[02/13/2020 5:45 PM] hir0#9158
+I would say that if those links can easily be found elsewhere, delete that section on the homepage - though it's lower down so it doesn't detract really from the look
+
+
+[02/13/2020 5:46 PM] Dmitry Usov#0134
+yep
+
+
+[02/13/2020 5:46 PM] Dmitry Usov#0134
+i agree
+
+
+[02/13/2020 5:46 PM] hir0#9158
+💭
+
+
+[02/13/2020 5:46 PM] hir0#9158
+Er what?
+
+
+[02/13/2020 5:46 PM] hir0#9158
+I mean 👍
+
+
+[02/13/2020 5:47 PM] Dmitry Usov#0134
+>  though it's lower down so it doesn't detract really from the look
+and this section give us good separator
+
+
+[02/13/2020 5:47 PM] Dmitry Usov#0134
+🙂
+
+
+[02/13/2020 5:50 PM] Dmitry Usov#0134
+My opinion, this section give us good separator and information which it keep is not unnecessary.
+
+
+[02/13/2020 5:51 PM] Dmitry Usov#0134
+let there be a lot of these links
+
+
+[02/13/2020 5:52 PM] Dmitry Usov#0134
+okay, now I release with that section
+
+
+[02/13/2020 5:56 PM] Dmitry Usov#0134
+you are welcome https://ergoplatform.org/en/
+
+
+[02/13/2020 5:58 PM] Dmitry Usov#0134
+@mx @kushti @hir0@morphic
+
+{Reactions}
+👍 (2) 
+
+[02/13/2020 6:49 PM] hir0#9158
+That's great! Looks good on mobile too
+
+
+[02/13/2020 6:49 PM] Dmitry Usov#0134
+😉
+
+
+[02/14/2020 12:54 AM] kushti#0978
+looks good!
+
+
+[02/15/2020 9:01 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/678345115768586240/unknown.png
+
+
+[02/15/2020 9:01 PM] Dmitry Usov#0134
+first look to tags
+
+
+[02/16/2020 9:04 AM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/678527007373656104/unknown.png
+
+
+[02/16/2020 9:43 AM] Dmitry Usov#0134
+@hir0 @mx guys, hello, maybe you can help me. I've added tags mechanism, now me need to add tags to all blog posts and I don’t know what tags in which post should be. Can any of you be able to write them for me? 
+https://github.com/ergoplatform/website/tree/master/content/en/blog all english blog posts.
+As an example:
+1. 2018_10_19-smart-contracts.md / tags - "ergo", "digest" ....
+
+{Embed}
+https://github.com/ergoplatform/website/tree/master/content/en/blog
+ergoplatform/website
+Sources of ergoplatform.org. Contribute to ergoplatform/website development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[02/16/2020 2:03 PM] hir0#9158
+Hmm, not sure about seo so much. We need to figure out what tags we want
+
+
+[02/16/2020 2:29 PM] NoneInParticular#6842
+Hey guys
+
+
+[02/16/2020 2:30 PM] NoneInParticular#6842
+We gotta tag crypto, bitcoin, Ethereum, Blockchain, etc. words with high search stats, I can find out and provide a list
+
+
+[02/16/2020 2:40 PM] NoneInParticular#6842
+@Dmitry Usov  can you verify ownership of the website with Google Search Console?
+
+
+[02/16/2020 2:41 PM] NoneInParticular#6842
+Maybe we could use some of the tools they offer
+
+
+[02/16/2020 4:00 PM] Dmitry Usov#0134
+It is not for seo
+
+
+[02/16/2020 4:01 PM] Dmitry Usov#0134
+It’s just increase user experience with blog
+
+
+[02/16/2020 4:25 PM] mx#5165
+i use these ones on twitter but probably these should include something like sigma protocols, more some tags from developers i think
+
+
+[02/16/2020 4:26 PM] mx#5165
+#Scorex #ZKProof #Cryptocurrency News #ErgoScript #Privacy #Blockchain #ProofOfWork $ERG
+
+
+[02/16/2020 4:28 PM] mx#5165
+scala, sigma etc
+
+
+[02/16/2020 4:37 PM] hir0#9158
+@NoneInParticular There you are
+
+
+[02/16/2020 4:38 PM] hir0#9158
+Got what you need?
+
+
+[02/16/2020 5:05 PM] Dmitry Usov#0134
+I think I can verify ownership if it need, yea
+
+
+[02/16/2020 5:05 PM] Dmitry Usov#0134
+@NoneInParticular
+
+
+[02/17/2020 3:10 AM] NoneInParticular#6842
+That'd be great even if is only to track/improve website coverage, thanks.
+
+
+[02/17/2020 3:13 AM] NoneInParticular#6842
+> Got what you need?
+@hir0 Hey Cass, yeah well i got entry! ) What did you guys have in mind that we could improve in the website via imagery? @Dmitry Usov @mx
+
+
+[02/17/2020 8:48 AM] hir0#9158
+Well, you're the designer @NoneInParticular 😛 What do you think?
+
+
+[02/17/2020 8:59 AM] NoneInParticular#6842
+The website looks a bit minimalist right now but I wouldn't say is bad or specifically ugly. Depending on what other things need to be done I would allocate time to this or whatever is higher in the importance heriarchy.
+
+
+[02/17/2020 9:31 AM] hir0#9158
+Yes, I was originally hoping it could be overhauled with new graphics, layout etc, but there was limited capacity
+
+
+[02/17/2020 12:58 PM] NoneInParticular#6842
+Ok maybe can coordinate with @Dmitry Usov  , what framework are you using?
+
+
+[02/17/2020 1:18 PM] Dmitry Usov#0134
+Js framework or site ?
+
+
+[02/17/2020 1:18 PM] Dmitry Usov#0134
+Js - no
+Site - https://gohugo.io
+
+{Embed}
+https://gohugo.io/
+The world’s fastest framework for building websites
+The world’s fastest framework for building websites
+https://images-ext-1.discordapp.net/external/hByWrY0U7S6rliwWDQASsSEGPLB_RrhSWaX0HralAFo/https/gohugo.io/images/gohugoio-card.png
+
+
+[02/19/2020 1:23 AM] Noah ~ 贺能#5674
+@Dmitry Usov I noticed the drop-down links are not working on the website4 FAQ page https://ergoplatform.org/en/faq/
+
+
+[02/19/2020 5:44 AM] Dmitry Usov#0134
+Thanks!
+
+
+[02/19/2020 9:46 AM] Dmitry Usov#0134
+Fixed
+
+{Reactions}
+👍 
+
+[02/27/2020 8:04 AM] kushti#0978
+@Dmitry Usov please put statistics tool script on the website, inside <head> </head> :
+
+<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101239081);</script>
+<script async src="//static.getclicky.com/js"></script>
+
+
+[02/27/2020 11:56 AM] Dmitry Usov#0134
+Ok
+
+
+[02/27/2020 1:09 PM] NoneInParticular#6842
+Hi @Dmitry Usov do you have the Lab Grotesque font files that are official for E
+
+
+[02/27/2020 1:09 PM] NoneInParticular#6842
+ERGO*
+
+
+[02/27/2020 1:09 PM] NoneInParticular#6842
+?
+
+
+[02/27/2020 1:09 PM] NoneInParticular#6842
+If so, please pass me the .otf's
+
+
+[02/29/2020 7:59 AM] Dmitry Usov#0134
+i have only woffs @NoneInParticular
+
+
+[02/29/2020 8:01 AM] Dmitry Usov#0134
+https://github.com/ergoplatform/website/blob/master/static/fonts/LabGrotesque-Regular.woff
+https://github.com/ergoplatform/website/blob/master/static/fonts/LabGrotesque-Mono.woff
+
+
+[02/29/2020 8:10 AM] Dmitry Usov#0134
+@kushti added getclicky
+
+{Reactions}
+💯 
+
+[03/03/2020 9:07 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_03_03_building_utxo/
+
+{Reactions}
+💯 
+
+[03/03/2020 9:07 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_03_03_digest/
+
+{Reactions}
+💯 
+
+[03/18/2020 1:18 PM] kushti#0978
+@Dmitry Usov please repost it into the blog https://cryptoinferno.org/analysis/building-ergo-sigma-protocols/
+
+{Embed}
+https://cryptoinferno.org/analysis/building-ergo-sigma-protocols/
+Building Ergo: Sigma protocols - Crypto inferno
+Ergo’s smart contracts and DeFi functionality are built on Sigma protocols – a powerful, flexible class of zero-knowledge proofs. Find out more about why they’re so important, and how they put Ergo head and shoulders above the competition.   Cryptography is a fascinating area,...
+https://images-ext-1.discordapp.net/external/adJFcvAdkd9DiGwagtQUwrt7zIBuXevzrLyQHKg2fuU/https/cryptoinferno.org/wp-content/uploads/Bez-imeni-1.jpg
+
+{Reactions}
+👌 
+
+[03/20/2020 12:39 PM] kushti#0978
+@Dmitry Usov please publish a new article, pic:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/690540010310467604/unknown.png
+
+
+[03/20/2020 12:44 PM] kushti#0978
+text:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/690541366345990184/ergo-mixer.md
+
+
+[03/20/2020 1:07 PM] Dmitry Usov#0134
+I will add today or tomorrow morning
+
+
+[03/22/2020 9:29 AM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_03_20_ergo_mixer/
+https://ergoplatform.org/en/blog/2020_03_16_ergo_sigma/ 
+sorry for delay
+
+{Reactions}
+🙂 💯 
+
+[03/27/2020 9:00 AM] kushti#0978
+@Dmitry Usov https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.meiipfc049f8 please publish the "Ergo use cases: safe, simple financial contracts" article in the blog
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Keep  existing menu structure but include social media icons at top] [Please add the item ‘Smart paper’ to the menu, linking to a new page with ‘Coming soon’]  [Home page – this is all we are changing for now] [I think a white background with lots of white sp...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[03/27/2020 9:39 AM] Dmitry Usov#0134
+Okay
+
+
+[03/27/2020 9:59 AM] morphic#4133
+@Dmitry Usov please put this file on the site in docs directory, so that it is available  by https://ergoplatform.org/docs/ErgoTree.pdf
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/693036583162740806/ErgoTree.pdf
+
+
+[03/29/2020 11:08 AM] Dmitry Usov#0134
+@morphic https://ergoplatform.org/docs/ErgoTree.pdf
+@kushti https://ergoplatform.org/en/blog/2020_03_29_ergo_use/
+
+{Reactions}
+👍 
+
+[04/02/2020 12:45 PM] hir0#9158
+@Dmitry Usov We're making a Use Cases section for the website
+
+
+[04/02/2020 12:48 PM] hir0#9158
+Can we create a new page for this? I think it will be about 500 words of text to begin with that will link to different blog posts
+
+
+[04/02/2020 12:48 PM] Dmitry Usov#0134
+Yes of course
+
+
+[04/02/2020 12:58 PM] hir0#9158
+Thanks!
+
+
+[04/02/2020 12:58 PM] hir0#9158
+Getting some text ready
+
+
+[04/02/2020 12:58 PM] hir0#9158
+Will drop it to you later
+
+
+[04/02/2020 12:58 PM] hir0#9158
+But just to ask that the section is ready to put it into 🙂
+
+
+[04/02/2020 2:21 PM] kushti#0978
+@Dmitry Usov please publish LETS article in the blog: https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.cq1i82orrtrl
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Keep  existing menu structure but include social media icons at top] [Please add the item ‘Smart paper’ to the menu, linking to a new page with ‘Coming soon’]  [Home page – this is all we are changing for now] [I think a white background with lots of white sp...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[04/02/2020 2:21 PM] kushti#0978
+and also hot potato money https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.zbw5kph2qtcd
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Keep  existing menu structure but include social media icons at top] [Please add the item ‘Smart paper’ to the menu, linking to a new page with ‘Coming soon’]  [Home page – this is all we are changing for now] [I think a white background with lots of white sp...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[04/02/2020 2:22 PM] kushti#0978
+author is Cassius @hir0
+
+
+[04/02/2020 2:23 PM] hir0#9158
+Thanks @Dmitry Usov Once these are published I can link to them in the summary Use Cases texts
+
+
+[04/02/2020 4:18 PM] Dmitry Usov#0134
+I will update site today, no problem 🙂
+
+
+[04/02/2020 8:22 PM] Dmitry Usov#0134
+Need write image optimizer for blog page because I loading all images at the page but can loading only in viewport.
+
+
+[04/02/2020 8:54 PM] Dmitry Usov#0134
+@hir0 can you give me your photo in order to post it on the blog?
+
+
+[04/02/2020 8:54 PM] hir0#9158
+Thanks, let me see what I can find
+
+
+[04/02/2020 8:57 PM] hir0#9158
+This is about the best I've got...
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/695361397319794798/GB_headshot.jpg
+
+
+[04/02/2020 9:01 PM] Dmitry Usov#0134
+You can give me real name or I can use "Cassius"? As you want
+
+
+[04/02/2020 9:01 PM] hir0#9158
+Hm, you can use my real name I guess. Guy Brandon.
+
+
+[04/02/2020 9:01 PM] hir0#9158
+People would be able to find it with an image search anyway
+
+
+[04/02/2020 9:03 PM] Dmitry Usov#0134
+I can also put you at the site at team seaction
+
+
+[04/02/2020 9:05 PM] Dmitry Usov#0134
+@hir0 what you think?
+
+
+[04/02/2020 9:05 PM] hir0#9158
+That would be cool, thanks, if everyone is happy with that
+
+
+[04/02/2020 9:09 PM] Dmitry Usov#0134
+I am happy 😄
+
+
+[04/02/2020 9:10 PM] hir0#9158
+👍
+
+
+[04/02/2020 9:15 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_04_02_use_hot_potato/
+
+
+[04/02/2020 9:16 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_04_02_use_cases/
+
+
+[04/02/2020 9:16 PM] hir0#9158
+Nice 🙂
+
+
+[04/02/2020 9:17 PM] hir0#9158
+I've just written one more for the blog, but we'll wait for @kushti to give feedback
+
+
+[04/02/2020 9:22 PM] kushti#0978
+made some comments in TG
+
+
+[04/02/2020 9:22 PM] kushti#0978
+otherwise fine
+
+
+[04/02/2020 9:22 PM] kushti#0978
+let's publish!
+
+
+[04/02/2020 9:47 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/team/ @hir0
+
+{Reactions}
+👍 
+
+[04/03/2020 10:44 AM] NoneInParticular#6842
+> This is about the best I've got...
+@hir0 
+Dude I made that one for you in like... 2016? Hahaa
+
+
+[04/03/2020 10:44 AM] hir0#9158
+Yes...
+
+
+[04/03/2020 10:44 AM] hir0#9158
+I am not photogenic
+
+
+[04/03/2020 10:44 AM] NoneInParticular#6842
+Okie guys so what imagery is needed on the new page? @Dmitry Usov can I get a link to it?
+
+
+[04/03/2020 10:45 AM] NoneInParticular#6842
+Well I'm not v much as well
+
+
+[04/03/2020 10:45 AM] hir0#9158
+Yeah but you're a graphic designer so can look however you want
+
+
+[04/03/2020 10:45 AM] NoneInParticular#6842
+You can send me any pic you have of you and I can try to improve it dear )
+
+
+[04/03/2020 10:46 AM] hir0#9158
+Best not. I'm rocking a Covid Chic look right now and there's only so much you can do with that
+
+
+[04/03/2020 10:47 AM] NoneInParticular#6842
+Haha ok roger that
+
+
+[04/03/2020 10:49 AM] hir0#9158
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/695570542199177236/IMG_20200403_104836.jpg
+
+
+[04/03/2020 10:49 AM] NoneInParticular#6842
+Ok I'll be on standby, once I get s feeling of what's needed I'll start working on it, Tuesday I'll be back in Bali prolly so things will go faster, in a quite limited laptop right now
+
+
+[04/03/2020 10:50 AM] NoneInParticular#6842
+Pass me your address in PM, sending you a shaver right now
+
+
+[04/03/2020 10:50 AM] NoneInParticular#6842
+For the BEARD!
+
+
+[04/03/2020 10:52 AM] hir0#9158
+What else would I shave?!
+
+
+[04/03/2020 10:52 AM] hir0#9158
+Actually, don't answer that
+
+
+[04/03/2020 11:30 AM] NoneInParticular#6842
+Hahah
+
+
+[04/03/2020 3:05 PM] hir0#9158
+@Dmitry Usov Here's the text for the list of use cases for the website page: https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.1rzy0uu0f5j
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Keep  existing menu structure but include social media icons at top] [Please add the item ‘Smart paper’ to the menu, linking to a new page with ‘Coming soon’]  [Home page – this is all we are changing for now] [I think a white background with lots of white sp...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[04/03/2020 3:05 PM] hir0#9158
+Thanks
+
+
+[04/03/2020 4:06 PM] kushti#0978
+@Dmitry Usov please fix examples in this article : https://ergoplatform.org/en/blog/2019_07_24_ergo_address/
+
+
+[04/03/2020 4:07 PM] kushti#0978
+proper ones :
+
+
+[04/03/2020 4:08 PM] kushti#0978
+* Address examples for testnet:
+  *
+  * 3   - P2PK (3WvsT2Gm4EpsM9Pg18PdY6XyhNNMqXDsvJTbbf6ihLvAmSb7u5RN)
+  * ?   - P2SH (rbcrmKEYduUvADj9Ts3dSVSG27h54pgrq5fPuwB)
+  * ?   - P2S (Ms7smJwLGbUAjuWQ)
+  *
+  * for mainnet:
+  *
+  * 9  - P2PK (9fRAWhdxEsTcdb8PhGNrZfwqa65zfkuYHAMmkQLcic1gdLSV5vA)
+  * ?  - P2SH (8UApt8czfFVuTgQmMwtsRBZ4nfWquNiSwCWUjMg)
+  * ?  - P2S (4MQyML64GnzMxZgm, BxKBaHkvrTvLZrDcZjcsxsF7aSsrN73ijeFZXtbj4CXZHHcvBtqSxQ)
+
+
+[04/05/2020 1:47 PM] Dmitry Usov#0134
+@kushti updated
+
+
+[04/05/2020 1:47 PM] Dmitry Usov#0134
+@kushti @hir0 https://ergoplatform.org/en/use_cases/
+
+
+[04/05/2020 2:06 PM] hir0#9158
+That looks nice!
+
+
+[04/05/2020 5:21 PM] kushti#0978
+@hir0 hot-potato money belongs to "alternative monetary systems" ?
+
+
+[04/05/2020 5:22 PM] hir0#9158
+Hm, not sure. It's not really an alternative system, just an interesting idea
+
+
+[04/05/2020 5:23 PM] kushti#0978
+@hir0 "alternative monetary systems and monetary experiments" ?
+
+
+[04/05/2020 5:26 PM] hir0#9158
+Sure!
+
+
+[04/05/2020 5:27 PM] hir0#9158
+Or Experimental Economics
+
+{Reactions}
+💯 
+
+[04/05/2020 6:34 PM] kushti#0978
+@Dmitry Usov please merge ^
+
+
+[04/05/2020 6:37 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/use_cases/
+
+
+[04/05/2020 6:37 PM] Dmitry Usov#0134
+done
+
+
+[04/07/2020 3:30 PM] gagarin55#2131
+Hi all, should this domain work too - http://ergoplatform.com/ ?
+
+
+[04/07/2020 3:32 PM] Dmitry Usov#0134
+no
+
+
+[04/07/2020 3:32 PM] Dmitry Usov#0134
+only .org
+
+
+[04/07/2020 3:33 PM] gagarin55#2131
+Users often use .com zone
+
+
+[04/07/2020 3:35 PM] gagarin55#2131
+cloudflare can show such stats i guess
+
+
+[04/07/2020 3:36 PM] Dmitry Usov#0134
+https://www.reg.ru/whois/?dname=ergoplatform.com it's unavailable
+
+
+[04/07/2020 4:18 PM] gagarin55#2131
+what do you mean?
+
+
+[04/07/2020 4:31 PM] Dmitry Usov#0134
+we don't have ergoplatform.com domain and this domain is busy, we can't buy it.
+
+
+[04/07/2020 4:34 PM] gagarin55#2131
+its our i think
+
+
+[04/07/2020 4:34 PM] gagarin55#2131
+I'm using https://api.ergoplatform.com
+
+
+[04/07/2020 4:36 PM] Dmitry Usov#0134
+oh, you are right
+
+
+[04/07/2020 4:38 PM] Dmitry Usov#0134
+@kushti can we make redirect from ergoplatform.com to ergoplatform.org?
+
+
+[04/07/2020 6:21 PM] kushti#0978
+@Dmitry Usov yes, noted
+
+
+[04/20/2020 4:22 PM] kushti#0978
+@Dmitry Usov please publish an article on storage rent : https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=kix.9j69i350alvb
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Keep  existing menu structure but include social media icons at top] [Please add the item ‘Smart paper’ to the menu, linking to a new page with ‘Coming soon’]  [Home page – this is all we are changing for now] [I think a white background with lots of white sp...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[04/20/2020 4:22 PM] kushti#0978
+in the blog
+
+
+[04/20/2020 4:22 PM] kushti#0978
+from Cassius
+
+
+[04/21/2020 6:33 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_04_21_ergo_positioning/
+
+
+[04/21/2020 6:33 PM] Dmitry Usov#0134
+@kushti @hir0 @mx
+
+
+[04/21/2020 6:54 PM] hir0#9158
+Thanks!
+
+
+[04/21/2020 6:58 PM] Robert K#0722
+Not that it matters much but there was an extra b added to `Robert` at the start of the article.
+
+
+[04/21/2020 7:11 PM] Dmitry Usov#0134
+@Robert K i will change it:)
+
+
+[04/21/2020 7:13 PM] Dmitry Usov#0134
+fixed
+
+
+[04/23/2020 11:51 AM] kushti#0978
+@Dmitry Usov please publish "Building Ergo: Oracles" article in the blog https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Keep  existing menu structure but include social media icons at top] [Please add the item ‘Smart paper’ to the menu, linking to a new page with ‘Coming soon’]  [Home page – this is all we are changing for now] [I think a white background with lots of white sp...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[04/23/2020 11:51 AM] kushti#0978
+author is Cassius @hir0
+
+
+[04/23/2020 12:02 PM] Dmitry Usov#0134
+okay
+
+
+[04/23/2020 1:08 PM] Dmitry Usov#0134
+@kushti @hir0 @mx https://ergoplatform.org/en/blog/2020_04_04_building_ergo_oracles/
+
+
+[04/23/2020 1:09 PM] hir0#9158
+Noice, thanks
+
+
+[04/23/2020 2:35 PM] Dmitry Usov#0134
+Hello guys! I have some good news from frontend.
+First. I've worked here 1 year 🙂 For this year I made website, ergo-js, ergo-node-interface and improve ergo-explorer. It is great working with you, guys :)
+
+Second. Recent months I've increasing my dev skills and now I want to share it with us. 
+
+I finally improved the deployment to the site, I didn’t have enough skills before that to understand how to put together all the routine commands that I carry out, together. For business - it will increase my speed to deploy new blog posts or news.
+
+Now I know how to improve my developer experience at node-interface. The problem is - CORS errors from backend, It is hurt develop and support node-interface with CORS. I will solve it open proxy at local machine. Next step is improve deploy:)) For business - more faster resolve issues for ergo-node-interface.
+
+Now I working on explorer-frontend. I want to improve developer experience on it - I will update explorer dependencies, they has not been updated for several years. For business - more faster resolve issues for explorer-frontend.
+
+I've also have experience with - https://svelte.dev/. What do you think if I create widget at main page on website with information about ergo-blockchain. How much blocks, how much hash rate, supply, transactions per day and the link to explorer? 🙂
+
+{Reactions}
+👍🏻 
+
+[04/23/2020 2:59 PM] morphic#4133
+@Dmitry Usov I'm not sure I've understood what you propose to create, please clarify
+
+
+[04/23/2020 3:00 PM] Dmitry Usov#0134
+I want make widget like https://explorer.ergoplatform.com/ header and integrate it at main page on website
+
+
+[04/23/2020 3:02 PM] Dmitry Usov#0134
+This widget we could integrate at all our sites, our friends pages on the web / etc
+
+
+[04/23/2020 3:05 PM] Dmitry Usov#0134
+I think it can improve our marketing?
+
+
+[04/23/2020 3:06 PM] morphic#4133
+Sounds good, but only widget is not enough. There should be some cache behind it to avoid overloading Explorer with this simple statictics requests.
+
+
+[04/23/2020 3:07 PM] Dmitry Usov#0134
+maybe @Ilya | Spectrum could made some method and cache it in new backend explorer
+
+
+[04/23/2020 3:09 PM] Dmitry Usov#0134
+it is not need now, maybe later
+
+
+[04/23/2020 3:11 PM] morphic#4133
+I think for this banner-like widget we can rely on CDN somehow.
+
+
+[04/23/2020 3:12 PM] morphic#4133
+Don't know how to use it, though.
+
+
+[04/23/2020 3:12 PM] Dmitry Usov#0134
+delivery widget - yes
+
+
+[04/23/2020 3:13 PM] morphic#4133
+So basically we need to avoid having traffic on our servers
+
+
+[04/23/2020 3:14 PM] morphic#4133
+Unless we want to count views
+
+
+[04/23/2020 3:14 PM] Dmitry Usov#0134
+We can count views add google analytic or etc
+
+
+[04/23/2020 3:14 PM] Dmitry Usov#0134
+I think
+
+
+[04/23/2020 3:19 PM] Dmitry Usov#0134
+I can do frontend but I have not backend experience. Think for data me need some server with demon which will be going to explorer and store info data one time per day and nginx which will deliver this data.
+
+
+[04/23/2020 3:20 PM] Dmitry Usov#0134
+think it is all me need at backend
+
+
+[04/23/2020 3:45 PM] kushti#0978
+@Dmitry Usov I would be happy to discuss panel development roadmap soon!
+
+{Reactions}
+👍 
+
+[04/23/2020 6:49 PM] kushti#0978
+@Dmitry Usov please publish "Building Ergo: Atomic Swaps" https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.9zavr0ko0ptd
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Keep  existing menu structure but include social media icons at top] [Please add the item ‘Smart paper’ to the menu, linking to a new page with ‘Coming soon’]  [Home page – this is all we are changing for now] [I think a white background with lots of white sp...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[04/23/2020 6:49 PM] kushti#0978
+author: Cassius @hir0  )
+
+
+[04/24/2020 2:25 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_04_24_atomic_swaps/
+
+
+[04/24/2020 2:25 PM] Dmitry Usov#0134
+@hir0 @kushti @mx
+
+
+[04/24/2020 2:27 PM] hir0#9158
+Thanks @Dmitry Usov that's looking good as ever
+
+
+[04/24/2020 4:39 PM] Robert K#0722
+Nice job on the constant posts as of late 👍
+
+
+[04/26/2020 10:07 PM] kushti#0978
+@Dmitry Usov not looking good https://explorer.ergoplatform.com/en/issued-tokens?limit=120
+
+
+[04/27/2020 4:14 PM] morphic#4133
+@kushti This is updated version for publication on the website https://github.com/ergoplatform/ergo-appkit/blob/9b798be02196904ca39f04154068ecd8fca603dc/docs/design-contracts/design-contracts.md
+
+
+[04/27/2020 9:10 PM] Dmitry Usov#0134
+@kushti Thanks, i will watch it tomorrow
+
+
+[04/28/2020 10:20 AM] morphic#4133
+@Robert K could you please proofread the text https://github.com/ergoplatform/ergo-appkit/blob/9b798be02196904ca39f04154068ecd8fca603dc/docs/design-contracts/design-contracts.md
+Here is the PR https://github.com/ergoplatform/ergo-appkit/pull/32
+
+
+[04/28/2020 2:50 PM] Robert K#0722
+I'll try to find some time today @morphic.
+
+
+[04/28/2020 5:21 PM] Dmitry Usov#0134
+> @Dmitry Usov not looking good https://explorer.ergoplatform.com/en/issued-tokens?limit=120
+@Ilya | Spectrum deploy please to mainnet
+
+
+[04/28/2020 10:50 PM] Robert K#0722
+@morphic https://github.com/ergoplatform/ergo-appkit/pull/53
+
+{Embed}
+https://github.com/ergoplatform/ergo-appkit/pull/53
+Edited FlowCard Document by robkorn · Pull Request #53 · ergoplatfo...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[04/28/2020 10:51 PM] Robert K#0722
+Oh yeah and quick question @morphic, do FlowCards allow for data inputs? I'm not sure what would even be a clean way to graphically display data inputs in a diagram that differentiates them clearly from normal inputs and keeps the diagrams easily readable/followable.
+
+
+[04/29/2020 8:57 AM] morphic#4133
+@Robert K DataInputs are regular boxes, so they can be shown the same way as any other boxes. The difference is in their relation to transaction. So in the diagram the relation can be visually differentiated using dashed arrows of a different (say blue, magenta etc) color.
+
+
+[04/29/2020 12:10 PM] morphic#4133
+> @morphic https://github.com/ergoplatform/ergo-appkit/pull/53
+@Robert K Thanks, merged.
+
+{Reactions}
+👍 
+
+[04/29/2020 12:10 PM] morphic#4133
+@Dmitry Usov please publish my new article in our blog https://github.com/ergoplatform/ergo-appkit/blob/develop/docs/design-contracts/design-contracts.md
+
+{Embed}
+https://github.com/ergoplatform/ergo-appkit/blob/develop/docs/design-contracts/design-contracts.md
+ergoplatform/ergo-appkit
+Appkit: A Library for Polyglot Development of Ergo Applications using GraalVM - ergoplatform/ergo-appkit
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+{Reactions}
+👌 
+
+[04/29/2020 3:12 PM] kushti#0978
+@Dmitry Usov please publish SPV security article https://new-explorer-ui.ergoplatform.com/en/addresses/9gZPigzM9ieRaCrzRC7YZ4ECFrKmrKuazUoT5U6fcnVoY6YbHN4
+
+
+[04/29/2020 3:12 PM] kushti#0978
+author: Cassius @hir0
+
+
+[04/29/2020 6:11 PM] Dmitry Usov#0134
+@kushti @mx https://ergoplatform.org/en/blog/2020_04_29_flow_cards/
+
+
+[04/29/2020 6:31 PM] Dmitry Usov#0134
+@kushti @hir0 @mx https://ergoplatform.org/en/blog/2020_04_29_spv_security/
+
+
+[04/29/2020 6:32 PM] hir0#9158
+Thanks!
+
+
+[04/29/2020 6:43 PM] Robert K#0722
+Sorry for butting in here, but maybe it could be a good idea to spread out the blog posts so you don't have 2 on the same day and so the content that comes out will feel like a constant flow which is easier for people to find time to read through & seems like more is going on.
+
+
+[04/29/2020 6:45 PM] Dmitry Usov#0134
+@Robert K you mean me need to delete one post and add it later, maybe tommorrow? or just change dates?
+
+
+[04/29/2020 6:45 PM] Robert K#0722
+Yeah delete/repost in a few days
+
+
+[04/29/2020 6:46 PM] Robert K#0722
+So then you can mention it in social media or other places too to get people interested
+
+
+[04/29/2020 6:46 PM] Dmitry Usov#0134
+Yes, I think same
+
+
+[04/29/2020 6:46 PM] Robert K#0722
+As 2 seperate posts on different days
+
+
+[04/29/2020 6:46 PM] Dmitry Usov#0134
+@hir0 @mx @kushti what do you think guys?
+
+
+[04/29/2020 6:47 PM] mx#5165
+yes, good idea
+
+
+[04/29/2020 6:48 PM] Dmitry Usov#0134
+@hir0 I delete your spv post and will add it at friday, okay?
+
+
+[04/29/2020 7:07 PM] hir0#9158
+Yes, good idea. I didn't realise there was already another one
+
+
+[04/30/2020 7:38 PM] Robert K#0722
+The `Teaser`  pdf on https://ergoplatform.org/en/documents/ is broken, would be good to get it fixed
+
+
+[04/30/2020 7:39 PM] Robert K#0722
+In other words, https://docs.ergoplatform.com/teaser.pdf doesn't exist
+
+
+[04/30/2020 8:33 PM] kushti#0978
+@Robert K docs.ergoplatform.com down atm , will be fixed soon
+
+{Reactions}
+👍 
+
+[04/30/2020 11:27 PM] kushti#0978
+@Robert K docs.ergoplatform.com  is up, sorry for inconvenience!
+
+
+[05/01/2020 3:07 AM] Robert K#0722
+No worries, thanks for getting it solved quickly
+
+
+[05/01/2020 12:20 PM] Dmitry Usov#0134
+@kushti @hir0 @mx https://ergoplatform.org/en/blog/2020_05_1_spv_security/
+
+
+[05/01/2020 1:06 PM] hir0#9158
+Thanks @Dmitry Usov !
+
+
+[05/05/2020 11:57 AM] hir0#9158
+@Dmitry Usov We have an article on stablecoins - please can you upload to the website? Thanks
+
+
+[05/05/2020 11:57 AM] hir0#9158
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.feju63tww2sh
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Keep  existing menu structure but include social media icons at top] [Please add the item ‘Smart paper’ to the menu, linking to a new page with ‘Coming soon’]  [Home page – this is all we are changing for now] [I think a white background with lots of white sp...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[05/05/2020 11:58 AM] Dmitry Usov#0134
+Ye, no problem
+
+
+[05/05/2020 11:58 AM] Dmitry Usov#0134
+Who author ? @hir0
+
+
+[05/05/2020 11:59 AM] hir0#9158
+Yes
+
+
+[05/05/2020 11:59 AM] hir0#9158
+Me
+
+
+[05/05/2020 12:20 PM] Dmitry Usov#0134
+@hir0 @mx https://ergoplatform.org/en/blog/2020_05_05_stablecoins/
+
+
+[05/05/2020 12:22 PM] hir0#9158
+Thanks, looks good!
+
+
+[05/07/2020 5:38 PM] hir0#9158
+@Dmitry Usov New article is ready to go: https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.97a6p6nng9x8
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Keep  existing menu structure but include social media icons at top] [Please add the item ‘Smart paper’ to the menu, linking to a new page with ‘Coming soon’]  [Home page – this is all we are changing for now] [I think a white background with lots of white sp...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[05/07/2020 5:38 PM] hir0#9158
+@kushti  has an image to go with it
+
+
+[05/07/2020 5:38 PM] Dmitry Usov#0134
+thanks
+
+
+[05/07/2020 5:39 PM] Dmitry Usov#0134
+will deploy later
+
+
+[05/07/2020 5:56 PM] filippounits#3593
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/707999271466696704/photo_2020-05-07_11-54-32.jpg
+
+
+[05/07/2020 5:56 PM] filippounits#3593
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/707999277225476126/photo_2020-05-07_11-54-24.jpg
+
+
+[05/07/2020 5:56 PM] filippounits#3593
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/707999279393931390/photo_2020-05-07_11-54-20.jpg
+
+
+[05/07/2020 5:56 PM] filippounits#3593
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/707999282665357343/photo_2020-05-07_11-54-16.jpg
+
+
+[05/07/2020 5:56 PM] filippounits#3593
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/707999285882519656/photo_2020-05-07_11-54-13.jpg
+
+
+[05/07/2020 5:56 PM] filippounits#3593
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/707999291293040710/photo_2020-05-07_11-54-07.jpg
+
+
+[05/07/2020 5:56 PM] filippounits#3593
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/707999293314826250/photo_2020-05-07_11-54-02.jpg
+
+
+[05/07/2020 5:56 PM] filippounits#3593
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/707999298285207572/photo_2020-05-07_11-53-57.jpg
+
+
+[05/07/2020 5:56 PM] filippounits#3593
+Here the photos @Dmitry Usov !
+
+
+[05/07/2020 5:56 PM] filippounits#3593
+I can't upload here the video
+
+
+[05/07/2020 5:57 PM] filippounits#3593
+if you need it I need to find another way to share it cause look like too big for discord
+
+
+[05/07/2020 6:35 PM] Dmitry Usov#0134
+@filippounits not understand:(
+
+
+[05/07/2020 6:36 PM] Dmitry Usov#0134
+You can upload into google disk and give me link
+
+
+[05/07/2020 6:47 PM] filippounits#3593
+https://drive.google.com/open?id=1WcnOyaSPnbZtDrQmHPl0ArEVDSqzP4h5
+
+
+[05/07/2020 7:20 PM] Dmitry Usov#0134
+what you want to say by this video?)))
+
+
+[05/07/2020 7:21 PM] Dmitry Usov#0134
+😦
+
+
+[05/07/2020 7:21 PM] Dmitry Usov#0134
+not understand:(
+
+
+[05/07/2020 7:22 PM] Dmitry Usov#0134
+you find bug?
+
+
+[05/07/2020 7:22 PM] Dmitry Usov#0134
+you up node interface by small computer
+
+
+[05/07/2020 7:24 PM] filippounits#3593
+Just to share all that I've. You can also not use it! 🙂
+
+
+[05/07/2020 7:28 PM] filippounits#3593
+> what you want to say by this video?)))
+@Dmitry Usov that the ERGO node over the raspy is running for more than 20 days without problems
+
+
+[05/07/2020 7:42 PM] Dmitry Usov#0134
+Oh, this is great!
+
+
+[05/07/2020 7:42 PM] Dmitry Usov#0134
+@mx I think can post some message to twitter
+
+
+[05/07/2020 7:42 PM] Dmitry Usov#0134
+🙂
+
+
+[05/07/2020 7:43 PM] filippounits#3593
+this was my tweet: https://twitter.com/FilippoUnits/status/1243610791577899008
+
+{Embed}
+Filippo Florián 🇮🇹 (@FilippoUnits)
+https://twitter.com/FilippoUnits/status/1243610791577899008
+@ergoplatformorg 3.2.2 pvt version light node was running smoothly for almost 22💣 days over the raspy w/ 1Gb RAM...till when...I had to stop it for run the 3.2.2 public version (with full UTXO set mode ATM)! $ERG 🔥
+https://images-ext-2.discordapp.net/external/txsggxV7ZIFOo9L_UCwKtZERyQkFpNxwZaUEJbtSdvU/https/pbs.twimg.com/media/EUIxa0gXsAAFHOG.jpg%3Alarge
+Twitter
+
+
+[05/07/2020 7:43 PM] filippounits#3593
+if needed I can upload that video in my youtube channel
+
+
+[05/07/2020 7:45 PM] filippounits#3593
+in any case there is no copyright, you can do whatever you want with it
+
+
+[05/07/2020 7:45 PM] filippounits#3593
+🙂
+
+
+[05/07/2020 7:46 PM] mx#5165
+looks good, @filippounits maybe just create new one with update about full node this time, second and six or seven photo with fog looks great!
+
+
+[05/07/2020 7:46 PM] mx#5165
+tweet
+
+
+[05/07/2020 7:47 PM] mx#5165
+i would even use only photo with fog
+
+
+[05/07/2020 7:47 PM] filippounits#3593
+I have never been able to sync the full node (with the full UTXO set)
+
+
+[05/07/2020 7:47 PM] mx#5165
+ah ok
+
+
+[05/07/2020 7:51 PM] mx#5165
+@filippounits were you using command to limit ram at start to for example 512?
+
+
+[05/07/2020 7:55 PM] mx#5165
+like
+
+
+[05/07/2020 7:55 PM] mx#5165
+java -jar -Xmx512M -Dlogback.stdout.level=INFO ergo-xxx.jar --mainnet -c settings.conf
+
+
+[05/07/2020 7:58 PM] filippounits#3593
+I don't have any image that show that command that include the RAM limitation with -Xmx512M
+
+
+[05/07/2020 7:59 PM] mx#5165
+how do you launch node on Rpi?
+
+
+[05/07/2020 8:01 PM] filippounits#3593
+with this command: java -jar -Xmx512m ergo-x.x.x.jar —mainnet -c ergo.conf 
+but as said, I haven't any image to prove it
+
+
+[05/07/2020 8:02 PM] mx#5165
+ah ok so you are using limitation already, maybe try to reduce logs additionally as above and then see if you can sync full node
+
+
+[05/07/2020 8:04 PM] mx#5165
+eventually you can experiment with increasing amount of 512 to for example to 768
+
+
+[05/07/2020 8:04 PM] filippounits#3593
+I've tried several times, with -Xmx512m and -Xmx256m too but the raspy is going out of memory
+
+
+[05/07/2020 8:05 PM] mx#5165
+with limiting for sure, try to go up
+
+
+[05/07/2020 8:05 PM] mx#5165
+and with logs reduced to info
+
+
+[05/07/2020 8:05 PM] filippounits#3593
+also with -Xmx1G
+
+
+[05/07/2020 8:05 PM] mx#5165
+1G is too much if you have max 1G on device
+
+
+[05/07/2020 8:06 PM] mx#5165
+i would try
+
+
+[05/07/2020 8:06 PM] filippounits#3593
+tbh never tried with -Xmx768m
+
+
+[05/07/2020 8:07 PM] mx#5165
+java -jar -Xmx768m -Dlogback.stdout.level=INFO x.x.x.jar —mainnet -c ergo.conf
+
+
+[05/07/2020 8:08 PM] mx#5165
+logs by default are in debug mode that consumes lots of memory
+
+
+[05/07/2020 8:08 PM] mx#5165
+you can also try later 512 with logs limited to info
+
+
+[05/07/2020 8:09 PM] filippounits#3593
+let me try. Only the headers need about 24h, then I estimate that it will take another 24h for the UTXO set
+
+{Reactions}
+👍 
+
+[05/07/2020 8:10 PM] mx#5165
+@kushti possibly we should organize bounty for additional testing
+
+{Reactions}
+👍 👍🏻 
+
+[05/07/2020 8:15 PM] mx#5165
+this should be end result 🙂 https://kauri.io/running-an-ethereum-full-node-on-a-raspberrypi-4-(model-b)/9695fcca217f46feb355245275835fc0/a
+
+{Embed}
+https://kauri.io/running-an-ethereum-full-node-on-a-raspberrypi-4-(model-b)/9695fcca217f46feb355245275835fc0/a
+Running an Ethereum Full Node on a RaspberryPi 4 (model B)
+Introduction My wife recently offered me the latest Raspberry Pi 4 (model B) 4GB. So I was really excited to try to sync an Ethereum Full Node on the numbe...
+https://images-ext-2.discordapp.net/external/shna7yR7Tb9cCKpamubWZ4tzzZv8GP2z6Y16QI0I69A/https/api.kauri.io/ipfs/QmYqK1cmTmUA29EUX39UY1n7PdQwXLkTXGyaNgPXmraVLc
+
+
+[05/07/2020 8:21 PM] filippounits#3593
+do you think is better the 3.2.2 or the alpha 3.3.0?
+
+
+[05/07/2020 8:22 PM] mx#5165
+maybe incoming 3.2.3
+
+
+[05/07/2020 8:23 PM] mx#5165
+should be out shortly
+
+
+[05/07/2020 8:23 PM] filippounits#3593
+ok, will wait then
+
+
+[05/07/2020 8:24 PM] mx#5165
+we could set potentially monthly reward till the guide is complete
+
+
+[05/07/2020 8:26 PM] mx#5165
+@filippounits eventually you can create proposal for grant
+
+
+[05/07/2020 11:43 PM] kushti#0978
+@mx @filippounits 3.3.0 will have significant performance improvements in the wallet, for UTXO set, we're currently investigating where memory consumed.
+So optimizations here will come after 3.3.0.  
+However, in the long term holding UTXO set along with other datastructures in 512 mb will not be realistic anyway, or sloow. Light-fullnode is the solution. 
+For headers, nipopow will be the answer once support for it  in the networking protocol will be done
+
+{Reactions}
+👍 (2) 
+
+[05/08/2020 5:00 AM] Dmitry Usov#0134
+@kushti can you give me photo for blog post
+
+
+[05/08/2020 2:01 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/ added tags into blog page @kushti @mx
+
+
+[05/08/2020 4:03 PM] kushti#0978
+@Dmitry Usov what photo ?
+
+
+[05/08/2020 4:04 PM] Dmitry Usov#0134
+> @Dmitry Usov New article is ready to go: https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.97a6p6nng9x8
+@kushti
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Keep  existing menu structure but include social media icons at top] [Please add the item ‘Smart paper’ to the menu, linking to a new page with ‘Coming soon’]  [Home page – this is all we are changing for now] [I think a white background with lots of white sp...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[05/08/2020 4:04 PM] Dmitry Usov#0134
+> @kushti  has an image to go with it
+
+
+[05/08/2020 4:06 PM] kushti#0978
+@Dmitry Usov ah, they above, in the Filippo's message )
+
+
+[05/08/2020 4:14 PM] Dmitry Usov#0134
+aaa
+
+
+[05/08/2020 4:15 PM] Dmitry Usov#0134
+okay
+
+
+[05/08/2020 9:14 PM] Dmitry Usov#0134
+@kushti @mx @filippounits @hir0
+
+
+[05/08/2020 9:14 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_05_08_lite_full_nodes/
+
+
+[05/08/2020 9:15 PM] hir0#9158
+Noice :)
+
+
+[05/09/2020 12:44 AM] filippounits#3593
+https://twitter.com/FilippoUnits/status/1258868294477545474
+
+{Embed}
+Filippo Florián 🇮🇹 (@FilippoUnits)
+https://twitter.com/FilippoUnits/status/1258868294477545474
+I'm working on a step-by-step guide (aimed at non-tech users) for install and run a Lite-Full-Node on a Raspberry Pi. Stay tuned!
+$ERG @ergoplatformorg https://t.co/UWjgUI2jhb
+Twitter
+
+{Reactions}
+🔥 
+
+[05/09/2020 10:27 AM] Dmitry Usov#0134
+huge update for blog page and blog posts https://ergoplatform.org/en/blog/
+
+
+[05/09/2020 10:29 AM] Dmitry Usov#0134
+now all images are lazy-loading. this greatly increased page loading speed 🔥
+
+
+[05/09/2020 10:31 AM] Dmitry Usov#0134
+now
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/708612031405621288/unknown.png
+
+
+[05/09/2020 10:31 AM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/708612131314204742/2020-05-09_11.25.01.png
+
+
+[05/09/2020 10:31 AM] Dmitry Usov#0134
+before i start 🙂
+
+
+[05/09/2020 2:39 PM] kushti#0978
+wow!
+
+
+[05/10/2020 9:49 AM] Dmitry Usov#0134
+woow
+
+
+[05/10/2020 9:49 AM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/708964020144701471/unknown.png
+
+
+[05/10/2020 9:50 AM] Dmitry Usov#0134
+0.25s site loading speed for first render
+
+
+[05/10/2020 9:51 AM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/
+
+
+[05/10/2020 9:54 AM] Dmitry Usov#0134
+next render 0.1s
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/708965252003266631/unknown.png
+
+
+[05/10/2020 9:54 AM] Dmitry Usov#0134
+🔥
+
+
+[05/10/2020 10:35 AM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/708975397101895710/unknown.png
+
+
+[05/10/2020 10:44 AM] Dmitry Usov#0134
+@mx think you can make post at twitter. Like “huge update for website, speed loading increased by 10times. Enjoy”:)
+
+{Reactions}
+👍 
+
+[05/11/2020 4:43 PM] hir0#9158
+Nice job
+
+{Reactions}
+🙂 
+
+[05/11/2020 6:19 PM] mx#5165
+@Dmitry Usov awesome work, let`s include it in some pages updates in near future
+
+
+[05/11/2020 6:20 PM] Dmitry Usov#0134
+Ye, okay:)
+
+
+[05/11/2020 7:12 PM] kushti#0978
+@Dmitry Usov let's replace "Team" with "Hall of Fame", which will be about two simple lists, no photos etc:
+
+{Reactions}
+👍 
+
+[05/11/2020 7:12 PM] kushti#0978
+"Hall of Fame"
+
+"Core and Ecosystem Development" 
+
+kushti (Alexander Chepurnoy)
+catena (Dmitry Meshkov)
+morphic (Alexander Slesarenko)
+Denys Zadorozhnyi
+Amitabh Saxena
+Dmitry Usov
+Ilya Oskin
+Vasily Kharin
+Mike Aksarin
+Sininen Taivas
+Andyceo
+Anon92048
+Robert Kornacki
+Jason Davies
+Big Evil Solo Miner
+Konstantin Knizhnik
+
+"Promotion and Community management"
+
+Guillermo Manzanares
+Justin Simpson
+Noah Hudson
+Martin Spodymek
+Filippo Florián
+Guy Brandon
+Carlos M Parada
+Bez
+Vsevolod
+Terri
+Antonio Madeira
+Sha Li
+
+
+[05/12/2020 8:14 PM] Dmitry Usov#0134
+I think also need to add discord channel at hall of fame page
+
+
+[05/12/2020 10:06 PM] kushti#0978
+yeah
+
+
+[05/13/2020 7:54 AM] Dmitry Usov#0134
+https://ergoplatform.org/en/hall_of_fame/
+
+
+[05/13/2020 3:53 PM] Robert K#0722
+Ah, the text on the tab still says "Team" @Dmitry Usov.
+
+
+[05/13/2020 3:54 PM] Dmitry Usov#0134
+which? can you screen?
+
+
+[05/13/2020 3:56 PM] Robert K#0722
+On the hall of fame the page title is still "Team".
+
+
+[05/13/2020 3:56 PM] Robert K#0722
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/710143417711329351/unknown.png
+
+
+[05/13/2020 3:56 PM] Dmitry Usov#0134
+oh, thank you!
+
+
+[05/13/2020 4:00 PM] Dmitry Usov#0134
+fixed
+
+
+[05/13/2020 4:26 PM] kushti#0978
+citex.io
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/710151068167962754/unknown.png
+
+
+[05/13/2020 4:26 PM] kushti#0978
+coinsbit.io
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/710151114518953994/unknown.png
+
+
+[05/13/2020 4:27 PM] Dmitry Usov#0134
+👍
+
+
+[05/13/2020 5:21 PM] Dmitry Usov#0134
+added
+
+
+[05/13/2020 5:21 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/exchanges/
+
+
+[05/13/2020 7:53 PM] filippounits#3593
+due to the white letters, the CoinsBit logo does not show well. Do they have a logo with dark letters?
+
+
+[05/13/2020 7:53 PM] filippounits#3593
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/710203152397369444/Screenshot_from_2020-05-13_13-51-13.png
+
+
+[05/13/2020 7:54 PM] Dmitry Usov#0134
+I've found only this logotype without letters
+
+
+[05/13/2020 7:56 PM] filippounits#3593
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/710203922324783225/0V2p5oFx-U736UfNc.png
+
+
+[05/13/2020 7:57 PM] Dmitry Usov#0134
+thanks!
+
+
+[05/13/2020 7:57 PM] filippounits#3593
+I've found this here: https://medium.com/@yaoviametepe/coinsbit-io-2000-cnb-tokens-airdrop-ee2c63de8f2b
+
+{Embed}
+https://medium.com/@yaoviametepe/coinsbit-io-2000-cnb-tokens-airdrop-ee2c63de8f2b
+Coinsbit.io 2000 CNB Tokens Airdrop
+coinsbit.io is a trading platform for cryptocurrencies. At the time this post is written, it is ranked 25th by volume on CoinMarketCap…
+https://images-ext-1.discordapp.net/external/9cDNPEjbHOivp1adAxBsNegf8_wzmaAd_o_vLWLXWJU/https/miro.medium.com/max/300/0%2AV2p5oFx-U736UfNc
+
+
+[05/13/2020 7:57 PM] filippounits#3593
+is .png
+
+
+[05/13/2020 7:57 PM] filippounits#3593
+should be good
+
+
+[05/13/2020 8:41 PM] Dmitry Usov#0134
+oh, I forgot what I can change logotypes :))
+
+
+[05/13/2020 8:43 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/exchanges/
+
+
+[05/14/2020 1:38 PM] hir0#9158
+@Dmitry Usov please can you publish this blog post: https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.77pb8iay8cn4
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Keep  existing menu structure but include social media icons at top] [Please add the item ‘Smart paper’ to the menu, linking to a new page with ‘Coming soon’]  [Home page – this is all we are changing for now] [I think a white background with lots of white sp...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[05/14/2020 1:38 PM] hir0#9158
+Thanks!
+
+
+[05/14/2020 2:53 PM] Dmitry Usov#0134
+Ye, sure
+
+
+[05/14/2020 4:58 PM] Dmitry Usov#0134
+@hir0 where is citex?
+
+
+[05/14/2020 4:59 PM] hir0#9158
+Citex? What do you mean?
+
+
+[05/14/2020 5:00 PM] Dmitry Usov#0134
+https://trade.citex.io/trade/ERG_BTC
+
+{Embed}
+https://trade.citex.io/trade/ERG_BTC
+ETH/BTC - CITEX Global | Global Digital Trading Platform
+ETH/BTC - CITEX Global | Global Digital Trading Platform
+
+
+[05/14/2020 5:02 PM] Dmitry Usov#0134
+ohj
+
+
+[05/14/2020 5:02 PM] Dmitry Usov#0134
+https://twitter.com/Citexofficial/status/1247470989627228160
+
+{Embed}
+CITEX (@Citexofficial)
+https://twitter.com/Citexofficial/status/1247470989627228160
+📢New listing: We are delighted to announce #ERG  
+@ergoplatformorg will be launched on our P Board!🎉
+
+Happy Trading!😍
+
+▶View more: https://t.co/5TjVRVxPeI
+
+#BTC  #Blockchain  #Crypto
+https://images-ext-2.discordapp.net/external/OIhDiIklMgk5_LmvUGSDCp_GnH4EFdrWdYWJu76m4ug/https/pbs.twimg.com/media/EU_n9R5VAAEz2Ne.jpg%3Alarge
+Twitter
+
+
+[05/14/2020 5:02 PM] Dmitry Usov#0134
+april 7
+
+
+[05/14/2020 5:03 PM] Dmitry Usov#0134
+I thought we also announced citex yesterday
+
+
+[05/14/2020 5:04 PM] Dmitry Usov#0134
+my bad
+
+
+[05/14/2020 5:07 PM] Dmitry Usov#0134
+@hir0 can you help me
+
+
+[05/14/2020 5:07 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/710523729641472083/unknown.png
+
+
+[05/14/2020 5:07 PM] Dmitry Usov#0134
+this also need to include at post?
+
+
+[05/14/2020 5:24 PM] kushti#0978
+nope
+
+
+[05/14/2020 5:24 PM] kushti#0978
+just announcement @Dmitry Usov
+
+
+[05/14/2020 5:24 PM] Dmitry Usov#0134
+yeah
+
+
+[05/14/2020 5:24 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_05_14_updates/
+
+
+[05/14/2020 5:27 PM] hir0#9158
+Sorry, just saw this. Thanks @Dmitry Usov
+
+
+[05/14/2020 5:30 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/
+
+
+[05/14/2020 5:30 PM] Dmitry Usov#0134
+add new tag 'Ergo Team'
+
+
+[05/14/2020 8:07 PM] mx#5165
+Ergo mining pool
+Lastly, we have Ergo’s first mining pool!
+
+This is a really interesting development, since Ergo includes protection against ordinary pools by design. This is a feature implemented to improve decentralisation and accessibility for smaller, regular miners.
+
+Jason, the pool owner, has created a decentralised pool using a smart contract that ensures miners who connect to the pool get paid. This is an intriguing example of smart contracts being used to bypass or change the consensus of a platform. It’s DeFi and community participation in action.
+
+You can find the pool at erg.ezpool.io. There are plans to implement the Stratum protocol and efficient mining software after the pool launches.
+
+If you’d like to find out more about the theory behind pool mining on Ergo, we have an academic paper that was presented at Financial Cryptography 2020.
+
+That’s all for now – but stay tuned, because we have more developments on the way!
+
+
+[05/14/2020 8:07 PM] mx#5165
+@kushti i think we should edit some that part
+
+
+[05/14/2020 8:10 PM] mx#5165
+erg.ezpool.io is actually pool that bypassed protection against ordinary pools design 🙂
+
+
+[05/14/2020 8:11 PM] mx#5165
+we should also change first mining pool to maybe censorship resistant pool with collaterals
+
+
+[05/14/2020 8:14 PM] mx#5165
+@Dmitry Usov please delete "You can find the pool at erg.ezpool.io."
+
+
+[05/14/2020 8:26 PM] Dmitry Usov#0134
+okay. but where users can find pool?
+
+
+[05/14/2020 8:27 PM] Dmitry Usov#0134
+deleted https://ergoplatform.org/en/blog/2020_05_14_updates/
+
+{Reactions}
+👍 
+
+[05/14/2020 8:27 PM] mx#5165
+"jasondaviesToday at 18:35
+pool?
+@qwep4ik Still fine-tuning adjustments. If you want to get involved with beta-testing, feel free to DM me, otherwise I will announce when it's open to the public."
+
+
+[05/14/2020 8:32 PM] mx#5165
+maybe edit "Lastly, we have Ergo’s first mining pool!"
+
+
+[05/14/2020 8:32 PM] mx#5165
+to "Lastly, we will have Ergo’s first censorhip resistant mining pool with collaterals!
+
+
+[05/14/2020 8:35 PM] mx#5165
+rest is ok i think
+
+
+[05/14/2020 8:37 PM] mx#5165
+"Ergo update, 14 May 2020: New exchange, wallet and first mining pool!" to "Ergo update, 14 May 2020: New exchange, wallet and first mining pool with collaterals!"
+
+
+[05/14/2020 8:47 PM] Dmitry Usov#0134
+updated
+
+{Reactions}
+👍 
+
+[05/15/2020 10:51 PM] mx#5165
+@Dmitry Usov we can update documents page with new paper and by this occassion we can mention that loading speed increased by 10times
+
+
+[05/15/2020 10:51 PM] mx#5165
+https://eprint.iacr.org/2020/560.pdf
+
+
+[05/15/2020 11:36 PM] mx#5165
+it also looks we need to add this somewhere on the website https://github.com/BPSAA/BPSAA-Branding/blob/master/BPSAA-Member_Light.png
+
+{Embed}
+https://github.com/BPSAA/BPSAA-Branding/blob/master/BPSAA-Member_Light.png
+BPSAA/BPSAA-Branding
+BPSAA Logos, Backgrounds, etc. Contribute to BPSAA/BPSAA-Branding development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/v9qVA3IgLieZGrgi9uuzhA7jcQW6EjRZw4R3vYzfcis/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/65089670
+
+
+[05/16/2020 10:10 AM] Dmitry Usov#0134
+https://ergoplatform.org/en/documents/
+
+
+[05/16/2020 10:53 AM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/711154399665192960/unknown.png
+
+
+[05/16/2020 10:54 AM] Dmitry Usov#0134
+maybe here? @mx what do you think?
+
+
+[05/16/2020 11:08 AM] Dmitry Usov#0134
+https://ergoplatform.org/en/documents/ footer
+
+
+[05/16/2020 2:59 PM] mx#5165
+looks nice 👍
+
+{Reactions}
+👍 
+
+[05/16/2020 7:29 PM] Dmitry Usov#0134
+Need update image on mobile version website
+
+
+[05/16/2020 8:29 PM] mx#5165
+@Dmitry Usov they ask to change link to https://bpsaa.vision for the image
+
+{Embed}
+bpsaalliance
+https://bpsaa.vision/
+Blockchain Privacy, Security & Adoption Alliance (BPSAA)
+BPSAA (Blockchain Privacy, Security & Adoption Alliance) is a collection of projects focused on protecting user privacy and financial security.
+https://images-ext-2.discordapp.net/external/nYNTh7xrn2Dksb09yOd_2F8kEL8h3-05goN9Z5Mu3QY/https/bpsaa.vision/wp-content/uploads/2020/01/BPSAA_H_C.png
+
+
+[05/16/2020 8:30 PM] Dmitry Usov#0134
+Yeah, okay
+
+
+[05/16/2020 11:05 PM] Dmitry Usov#0134
+updated link for bpsaa
+
+{Reactions}
+👍 
+
+[05/24/2020 5:16 PM] Dmitry Usov#0134
+Updated logo bpsaa for mobile, looks really good 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/714149718070132816/image0.png
+
+
+[05/26/2020 3:29 PM] Dmitry Usov#0134
+Now i am working on adding a site search. After it, I will add headless cms and @mx  can work with content at website. Adding news/blog posts, etc. I think.
+
+{Reactions}
+👍 
+
+[05/29/2020 6:57 PM] Dmitry Usov#0134
+🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/715987090289983538/unknown.png
+
+
+[05/29/2020 6:57 PM] Dmitry Usov#0134
+search coming soon
+
+
+[06/07/2020 9:31 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/719287397220876398/unknown.png
+
+
+[06/07/2020 9:31 PM] Dmitry Usov#0134
+added
+
+
+[06/08/2020 9:00 AM] morphic#4133
+@Dmitry Usov looks good, works really fast :)
+some questions:
+1) is it possible to autofocus cursor on the text box after clicking Search icon in the header?
+2) when I search for special names (like GraalVM) it shows the results, even though the name is present on the blog
+
+
+[06/08/2020 5:39 PM] Dmitry Usov#0134
+1) Yes
+2) Wrote to your dm
+
+
+[06/08/2020 8:00 PM] Dmitry Usov#0134
+> 2) when I search for special names (like GraalVM) it **DOESN'T ** shows the results, even though the name is present on the blog.
+@morphic I think you mean this
+
+
+[06/08/2020 8:01 PM] Dmitry Usov#0134
+@morphic updated https://ergoplatform.org/en/search/
+
+
+[06/08/2020 8:02 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/719627370339893388/unknown.png
+
+
+[06/09/2020 9:00 AM] morphic#4133
+Why two items in the result? Both refer to the same blog post.
+
+
+[06/09/2020 10:33 AM] Dmitry Usov#0134
+It is news and blog post
+
+
+[06/09/2020 10:33 AM] Dmitry Usov#0134
+I will add labels
+
+
+[06/09/2020 2:52 PM] kushti#0978
+@Dmitry Usov for now please be focused on the news )
+
+
+[06/09/2020 2:53 PM] kushti#0978
+@Dmitry Usov please publish https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.spt52wpydw7u
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Home page – this is all we are changing for now] [I think a white background with lots of white space would be good. Otherwise we don’t have to change any design stuff for now – colour schemes etc can be altered later]  Welcome to Smart Money  Smart Money is:...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[06/09/2020 2:53 PM] kushti#0978
+from Guy Brandon @hir0
+
+
+[06/09/2020 2:59 PM] hir0#9158
+Thanks 🙂
+
+
+[06/09/2020 4:02 PM] Dmitry Usov#0134
+Okay @kushti
+
+
+[06/09/2020 5:09 PM] Dmitry Usov#0134
+@hir0
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/719946257174626314/2020-06-09_19.08.51.png
+
+
+[06/09/2020 5:09 PM] Dmitry Usov#0134
+is it needed? 
+> For more information about Ergo, visit ergoplatform.org
+
+
+[06/09/2020 5:16 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_06_09_press_release/ @kushti @mx @hir0
+
+
+[06/09/2020 5:26 PM] hir0#9158
+Thanks. I guess the About Ergo section isn't needed for our blog, but it's useful if the post is republished elsewhere
+
+
+[06/09/2020 5:36 PM] Dmitry Usov#0134
+Haha, I've also made a banner :))
+
+
+[06/09/2020 5:36 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_06_09_press_release/
+
+
+[06/11/2020 9:39 AM] hir0#9158
+Hey @Dmitry Usov Please can you publish this blog post on Ergo/Emurgo partnership? Thanks https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.xhtebo40525r
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Home page – this is all we are changing for now] [I think a white background with lots of white space would be good. Otherwise we don’t have to change any design stuff for now – colour schemes etc can be altered later]  Welcome to Smart Money  Smart Money is:...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[06/11/2020 11:42 AM] Dmitry Usov#0134
+Yeah, okay
+
+
+[06/11/2020 5:26 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_06_11_emurgo_ergo/
+
+
+[06/11/2020 5:26 PM] Dmitry Usov#0134
+@hir0
+
+
+[06/11/2020 5:27 PM] hir0#9158
+Thank you!
+
+
+[06/11/2020 5:43 PM] Robert K#0722
+Could you please change `by Robert Kornacki (Cardano fellow at Emurgo)` to `by Robert Kornacki (R&D Engineer at Emurgo)` in the article.
+
+
+[06/11/2020 5:45 PM] hir0#9158
+@Dmitry Usov Please can you edit the article? ☝️
+
+
+[06/11/2020 5:45 PM] Robert K#0722
+Technically I am a Cardano Ambassador still (though haven't done much in the ecosystem for a number of months) but at Emurgo I'm technically not directly related to anything Cardano and I'm not a fellow at dLab anymore.
+
+
+[06/11/2020 5:45 PM] Robert K#0722
+Thanks.
+
+
+[06/11/2020 5:45 PM] hir0#9158
+Sorry, pulled that description off the web. Hopefully DeadIT can change it soon
+
+
+[06/11/2020 5:46 PM] Robert K#0722
+No worries, I've had a lot of flux in projects/employment/titles in the past year so not that easy to follow.
+
+
+[06/11/2020 5:47 PM] Dmitry Usov#0134
+Yes
+
+
+[06/11/2020 5:48 PM] Dmitry Usov#0134
+1 min
+
+
+[06/11/2020 5:53 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_06_11_emurgo_ergo/
+
+
+[06/11/2020 5:53 PM] Dmitry Usov#0134
+updated
+
+
+[06/11/2020 5:53 PM] Dmitry Usov#0134
+@hir0 @Robert K
+
+
+[06/11/2020 6:08 PM] mx#5165
+@Robert K good to go?
+
+
+[06/11/2020 6:16 PM] Robert K#0722
+Great thanks.
+
+
+[06/11/2020 6:22 PM] hir0#9158
+Thanks
+
+
+[06/25/2020 8:34 PM] Dmitry Usov#0134
+I add an interface which will help to create blog posts, news, etc, without my participation...
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/725796065823031316/unknown.png
+
+
+[06/25/2020 8:34 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/725796101344591953/unknown.png
+
+
+[06/25/2020 8:35 PM] Dmitry Usov#0134
+I hope soon it will available
+
+
+[06/25/2020 8:42 PM] Dmitry Usov#0134
+All what you will need is account on github with edit rights at ergoplatfrom/website
+
+
+[06/25/2020 8:43 PM] Dmitry Usov#0134
+And admin panel will available at https://ergoplatform.org/admin
+
+
+[06/30/2020 10:12 AM] Noah ~ 贺能#5674
+@Dmitry Usov I just noticed here...
+
+
+[06/30/2020 10:12 AM] Noah ~ 贺能#5674
+https://ergoplatform.org/cn/documents/
+
+
+[06/30/2020 10:13 AM] Noah ~ 贺能#5674
+...that the links are not working for the Chinese Whitepaper (白皮书I) and Teaser (尔格平台简介_中文版)
+
+
+[06/30/2020 10:15 AM] Noah ~ 贺能#5674
+In case you need them:
+
+
+[06/30/2020 10:15 AM] Noah ~ 贺能#5674
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/727452216864014377/whitepaper_Ergo_.pdf
+
+
+[06/30/2020 10:16 AM] Noah ~ 贺能#5674
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/727452596394262528/teaser_.pdf
+
+
+[06/30/2020 1:15 PM] kushti#0978
+@Noah ~ 贺能 thanks! will fix on Friday
+
+
+[06/30/2020 8:31 PM] hir0#9158
+@Dmitry Usov are you able to publish this blog post on the Oracles research? https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.v5izd1osrl2y
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Home page – this is all we are changing for now] [I think a white background with lots of white space would be good. Otherwise we don’t have to change any design stuff for now – colour schemes etc can be altered later]  Welcome to Smart Money  Smart Money is:...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[06/30/2020 8:31 PM] hir0#9158
+Thanks
+
+
+[06/30/2020 8:45 PM] Dmitry Usov#0134
+Yes
+
+
+[06/30/2020 9:50 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020_06_30_ergo_emurgo_oracles/
+
+
+[06/30/2020 9:50 PM] Dmitry Usov#0134
+@hir0
+
+
+[06/30/2020 9:50 PM] hir0#9158
+Thanks!
+
+
+[06/30/2020 9:50 PM] Dmitry Usov#0134
+all good?
+
+
+[06/30/2020 9:51 PM] hir0#9158
+Yes, appreciate it, thanks
+
+
+[06/30/2020 9:51 PM] Dmitry Usov#0134
+👍
+
+
+[06/30/2020 10:06 PM] Robert K#0722
+Nice post 👍
+
+
+[07/01/2020 7:07 AM] Dmitry Usov#0134
+@mx please, put this post at twitter
+
+
+[07/01/2020 9:40 AM] hir0#9158
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/727805818715766794/favicon.svg
+
+
+[07/01/2020 9:40 AM] hir0#9158
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/727805824503906314/logo_website_120x48.svg
+
+
+[07/01/2020 9:40 AM] hir0#9158
+Hey @Dmitry Usov Carlos wanted you to have these two images for the website
+
+
+[07/01/2020 10:21 AM] mx#5165
+@Dmitry Usov "Stablecoin When the new model" i think Stablecoin was to be headline here
+
+
+[07/01/2020 10:34 AM] hir0#9158
+Oops, yes, I missed that
+
+
+[07/01/2020 10:34 AM] hir0#9158
+"Stablecoin" is the subtitle
+
+
+[07/01/2020 10:37 AM] Dmitry Usov#0134
+Okay
+
+
+[07/01/2020 10:37 AM] Dmitry Usov#0134
+I will change
+
+
+[07/01/2020 10:38 AM] Dmitry Usov#0134
+Give me 30 min
+
+
+[07/01/2020 11:19 AM] Dmitry Usov#0134
+changed
+
+
+[07/02/2020 5:50 PM] hir0#9158
+Hey @Dmitry Usov Please can you also publish this one? Thanks https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.af855sfm88cn
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Home page – this is all we are changing for now] [I think a white background with lots of white space would be good. Otherwise we don’t have to change any design stuff for now – colour schemes etc can be altered later]  Welcome to Smart Money  Smart Money is:...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[07/02/2020 7:43 PM] kushti#0978
+@Dmitry Usov please update links for documents @ https://ergoplatform.org/en/documents/  : 
+English teaser: https://ergoplatform.org/docs/teaser.pdf
+Chinese teaser: https://ergoplatform.org/docs/teaser_cn.pdf
+Chinese whitepaper: https://ergoplatform.org/docs/whitepaper_Ergo_cn.pdf
+
+
+[07/02/2020 9:59 PM] Dmitry Usov#0134
+Okay
+
+
+[07/02/2020 10:12 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020-07-02-ergo-and-the-explosion-of-defi/ wow, this is the first blog post that I adding by CMS :)) And his looks very good
+https://github.com/ergoplatform/website/commit/d50391cc4dac083ecbd0b77594db416d983216df
+
+{Embed}
+https://github.com/ergoplatform/website/commit/d50391cc4dac083ecbd0b77594db416d983216df
+Create English Blog “2020-07-02-ergo-and-the-explosion-of-defi” · e...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[07/02/2020 10:12 PM] Dmitry Usov#0134
+@hir0
+
+
+[07/02/2020 10:13 PM] Dmitry Usov#0134
+hopefully soon i will give you guys this functionality 🙂
+
+
+[07/02/2020 10:16 PM] Dmitry Usov#0134
+@kushti documents updated
+
+
+[07/02/2020 10:23 PM] hir0#9158
+Awesome, thank you!
+
+
+[07/03/2020 3:46 PM] kushti#0978
+@Noah ~ 贺能 links fixed!
+
+{Reactions}
+👍 
+
+[07/09/2020 6:22 PM] kushti#0978
+https://ergoplatform.org/en/basics/ - @Dmitry Usov many links broken here
+
+
+[07/09/2020 6:22 PM] kushti#0978
+apograf
+
+
+[07/09/2020 6:23 PM] kushti#0978
+ErgoPoW is now at https://ergoplatform.org/docs/ErgoPow.pdf
+
+
+[07/09/2020 7:36 PM] Dmitry Usov#0134
+I will fix
+
+
+[07/09/2020 9:18 PM] Dmitry Usov#0134
+all links - docs.ergoplatform.com and apograf - are fixed.
+
+{Reactions}
+👍 (2) 
+
+[07/12/2020 5:17 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/731907174309036092/unknown.png
+
+
+[07/12/2020 5:17 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/731907197923229707/2020-07-12_19.16.40.png
+
+
+[07/12/2020 5:18 PM] Dmitry Usov#0134
+yeeees!!
+
+
+[07/12/2020 5:18 PM] Dmitry Usov#0134
+https://ergoplatform.org/admin
+
+
+[07/12/2020 5:23 PM] Dmitry Usov#0134
+@mx @hir0  and everyone who wants to add posts, (soon news) to website you need to create https://github.com account and tell @kushti your login, he will add you to the organization. If you have any question and problems, write me at DM.
+
+
+[07/12/2020 6:17 PM] hir0#9158
+Cool, thanks!
+
+
+[07/12/2020 7:31 PM] mx#5165
+ok
+
+
+[07/12/2020 7:32 PM] mx#5165
+https://github.com/martin-mx
+
+{Embed}
+https://github.com/martin-mx
+martin-mx - Overview
+GitHub is where martin-mx builds software.
+https://images-ext-1.discordapp.net/external/mWK9PXpVLV5doQ5dHoVu64kc1us_Pz6jcdaaAlZBhtg/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/40474952
+
+
+[07/13/2020 1:19 PM] Dmitry Usov#0134
+@mx check your email
+
+{Reactions}
+👍 
+
+[07/14/2020 9:26 PM] gagarin55#2131
+BTW, when we fix https://ergoplatform.com/ ? I bet we will get additional traffic !
+
+
+[07/14/2020 9:28 PM] gagarin55#2131
+@Dmitry Usov there https://ergoplatform.org/en/#tabs-7 broken link exists - Meet the Ergo team
+
+
+[07/14/2020 9:47 PM] kushti#0978
+> BTW, when we fix https://ergoplatform.com/ ? I bet we will get additional traffic !
+@gagarin55 you mean redirect to the website ?
+
+
+[07/15/2020 3:52 AM] Dmitry Usov#0134
+> @gagarin55 you mean redirect to the website ?
+@kushti  I think yes. Need to do 301 redirect. I will fix this.
+
+
+[07/15/2020 3:52 AM] Dmitry Usov#0134
+> @Dmitry Usov there https://ergoplatform.org/en/#tabs-7 broken link exists - Meet the Ergo team
+@gagarin55  thanks, will fix
+
+
+[07/15/2020 8:47 AM] Noah ~ 贺能#5674
+https://ergoplatform.org/en/hall_of_fame/
+
+
+[07/15/2020 8:47 AM] Noah ~ 贺能#5674
+I think it would be much better to include some information about the core devs like the team page had previously. And include links to their Linked in profiles and github, maybe not for everyone but at least the core devs.
+
+
+[07/15/2020 8:48 AM] Noah ~ 贺能#5674
+Especially when we have kushti and catena with excellent credentials and experience. A shame not to showcase that!
+
+
+[07/15/2020 8:51 AM] Noah ~ 贺能#5674
+for @kushti profile I suggest we have a link that goes to another separate page for his bio, which could be something like this (this is from last year so maybe a bit outdated):
+
+
+[07/15/2020 8:51 AM] Noah ~ 贺能#5674
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/732866945400963132/Alexander_Chepurnoy_Bio.pdf
+
+
+[07/15/2020 8:53 AM] Noah ~ 贺能#5674
+...maybe also for some of the other devs, depending on their experience. But if not a separate page for each dev at least links to their profile on some other platform such as Linked-in or Github.
+
+
+[07/15/2020 8:53 AM] Noah ~ 贺能#5674
+I think the strong background of the team is a core selling point. A shame not to be highlighting that.
+
+{Reactions}
+👍 
+
+[07/15/2020 8:55 AM] Noah ~ 贺能#5674
+Whenever I'm researching a new token or coin, I'm very interested in the team behind it.
+
+
+[07/15/2020 8:56 AM] Noah ~ 贺能#5674
+And for me its a big red flag when a team web-page doesn't have details about the core dev members, seems like they are trying to hide, in my view.
+
+
+[07/15/2020 2:48 PM] Robert K#0722
+I personally agree with Noah, that it would be a good idea to keep that strong background visible, at least until Ergo has become widely popular and it's less of an issue.
+
+
+[07/15/2020 2:53 PM] kushti#0978
+Okay I'm open to it
+
+
+[07/15/2020 2:53 PM] kushti#0978
+Would it be like text links after a name?
+
+
+[07/15/2020 2:53 PM] kushti#0978
+Like kushti (github linkedin ...)
+
+
+[07/16/2020 2:12 AM] Noah ~ 贺能#5674
+Yes, like it was in  the old team page last year with text links (github, linkedin, Twitter) and profile picture. No need for everyone to have pics, but at least the key devs.
+
+
+[07/16/2020 2:12 AM] Noah ~ 贺能#5674
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/733128922581172305/unknown.png
+
+
+[07/16/2020 2:14 AM] Noah ~ 贺能#5674
+I think the pics are important because it adds to the feeling that the platform is legit. The devs are open about exactly who they are, so less likely to  be scammers. Of course ok for anyone who does not want too many details disclosed.
+
+
+[07/16/2020 2:17 AM] Noah ~ 贺能#5674
+In addition to github, linkedin & Twitter links, I think for key people, especially @kushti  and probably also @Dmitry Meshkov , there should be an additional link which directs to his personal bio page (can link out to external page or to new sub page under ergoplatform.org).
+
+
+[07/18/2020 10:55 AM] Dmitry Usov#0134
+I will try to update with yours feedback. Return to you with result.
+
+
+[07/21/2020 11:22 AM] Dmitry Usov#0134
+@mx @kushti I think need to text into twitter about explorer
+
+
+[07/21/2020 11:24 AM] kushti#0978
+@Dmitry Usov what exactly ?
+
+
+[07/21/2020 11:27 AM] Dmitry Usov#0134
+"explorer under development. we think it will take --"
+
+
+[07/21/2020 11:28 AM] kushti#0978
+@Dmitry Usov it is working outside of RU & UA
+
+
+[07/21/2020 11:28 AM] Dmitry Usov#0134
+aaa, okey
+
+
+[07/21/2020 11:28 AM] Dmitry Usov#0134
+sorry:)
+
+
+[07/21/2020 11:30 AM] kushti#0978
+we can tweet this though
+
+
+[07/21/2020 11:32 AM] Dmitry Usov#0134
+yes, i think it is a good point
+
+
+[07/21/2020 12:01 PM] mx#5165
+"Access to explorer`s API is limited due to heavy bot-created load via multiple proxies from Russia and Ukraine and will be restored globally as soon as possible."
+
+
+[07/21/2020 12:01 PM] mx#5165
+something like that?
+
+
+[07/21/2020 1:27 PM] kushti#0978
+limited in Russia & Ukraine only
+
+
+[07/21/2020 1:32 PM] kushti#0978
+but now let's wait
+
+
+[07/21/2020 1:32 PM] kushti#0978
+likely access will be restored in 20 mins
+
+
+[07/21/2020 1:32 PM] kushti#0978
+a new explorer server is finishing syncing
+
+
+[07/21/2020 1:43 PM] mx#5165
+ok
+
+
+[07/24/2020 6:38 PM] mx#5165
+@Dmitry Usov i am getting this error on https://ergoplatform.org/admin "No Auth Provider Found"
+
+
+[07/24/2020 6:48 PM] mx#5165
+"Make sure you've configured the API credentials for Github from the Access part of your Netlify site dashboard."
+
+
+[07/24/2020 6:51 PM] mx#5165
+i see in Authorized OAuth Apps - Ergo Platform Website
+
+
+[07/24/2020 6:52 PM] mx#5165
+organization is linked
+
+
+[07/24/2020 9:26 PM] Dmitry Usov#0134
+Oh, something wrong
+
+
+[07/24/2020 9:26 PM] Dmitry Usov#0134
+I will check, sorry
+
+
+[07/24/2020 9:30 PM] mx#5165
+ok, will try post first article next
+
+
+[07/26/2020 4:01 PM] Dmitry Usov#0134
+I think need to rework top menu. Make it with sections. What do you think guys?
+
+
+[07/27/2020 1:12 AM] Noah ~ 贺能#5674
+> I think need to rework top menu. Make it with sections. What do you think guys?
+@Dmitry Usov Currently each item on the homepage top menu (About / Foundation / News / FAQ....) has no drop-down menu. Do you mean to make drop down menu (sub-items) for each main item (with also possibly changing the name of the top line items?
+
+
+[07/27/2020 1:12 AM] Noah ~ 贺能#5674
+I would agree with that.
+
+
+[07/27/2020 1:13 AM] Noah ~ 贺能#5674
+Also I think we should have the list of exchanges as a menu or sub-menu item so that it is easier to find. Right now it is not so intuitive to find under About / Get Ergo.
+
+
+[07/27/2020 9:06 AM] Dmitry Usov#0134
+Yees
+
+
+[07/27/2020 9:08 AM] Dmitry Usov#0134
+I also agree with you. Exchanges/explorer/ basics - it’s hard to find them now.
+
+
+[07/27/2020 10:36 AM] kushti#0978
+that's true
+
+
+[07/27/2020 9:15 PM] Dmitry Usov#0134
+@mx https://ergoplatform.org/admin/#/collections/en_blog fixed
+
+
+[07/27/2020 9:15 PM] Dmitry Usov#0134
+try it
+
+
+[07/27/2020 9:37 PM] mx#5165
+looks like working 👍 https://ergoplatform.org/en/blog/2020-07-27-ergo-foundation-new-members-and-contests/
+
+
+[07/27/2020 9:45 PM] Dmitry Usov#0134
+🔥
+
+
+[07/28/2020 2:58 PM] Robert K#0722
+@mx If we could get a bit more heads up about announcements/posts like this beforehand that would be very much appreciated.
+
+
+[07/28/2020 3:00 PM] Robert K#0722
+I've gotten little feedback about joining the EF and have barely heard anything, and this article just gets pushed out. We could have timed this with Emurgo marketing team to get a bit bigger of a public push as it's essentially building out the Emurgo partnership further.
+
+
+[07/28/2020 3:02 PM] Robert K#0722
+Instead this just got released without much attention, and it wasn't really used for it's full potential.
+
+
+[07/28/2020 3:05 PM] Robert K#0722
+If we want Ergo to grow we kind of need to work on how content is disseminated, as there's a lot of great content being released, but it seems that it tends not to be utilized the most effectively and reach is very limited.
+
+{Reactions}
+👍 
+
+[07/28/2020 3:15 PM] Robert K#0722
+The tweet has been retweeted by Emurgo, let's regroup on making a new announcement post and leave the current post.
+
+{Reactions}
+👍 
+
+[07/28/2020 6:43 PM] mx#5165
+@Robert K sorry, it was actually to be posted last friday after voting results of members were in, it was also nomination from the board so some coordination might look strange before voting results, as for marketing i also hope it will go as you say when possible, there is small group of supporters doing different activities, hopefully you will be connected with them shortly and hopefully we will have also some role of marketing coordinator soon, so far @kushti is fullfilling it in the meantime
+
+
+[07/28/2020 7:43 PM] kushti#0978
+Somehow ) but I'm overbusy already, and the load is growing quickly from all the directions )
+
+
+[07/28/2020 7:44 PM] kushti#0978
+@mx we've decided to have joint schedule with Emurgo on promoting joint activities
+
+{Reactions}
+👍 
+
+[07/28/2020 7:57 PM] scalahub#2618
+We should add some text to wiki https://github.com/ergoplatform/ergo/wiki
+
+{Embed}
+https://github.com/ergoplatform/ergo/wiki
+ergoplatform/ergo
+Ergo protocol description & reference client implementation - ergoplatform/ergo
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[07/28/2020 7:57 PM] scalahub#2618
+it links from our website
+
+
+[07/29/2020 6:42 PM] kushti#0978
+@Dmitry Usov please add coinex logo to the exchanges
+
+
+[07/29/2020 6:42 PM] kushti#0978
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/738089078083420241/unknown.png
+
+
+[07/29/2020 6:43 PM] kushti#0978
+and comment out Citex, P2PB2B and Bisq for now ( just comment out in HTML so we'll get them back after)
+
+
+[07/29/2020 6:57 PM] Dmitry Usov#0134
+Okay
+
+
+[07/29/2020 7:50 PM] mx#5165
+posting news also works @Dmitry Usov well done
+
+
+[07/29/2020 7:56 PM] Dmitry Usov#0134
+🤗
+
+
+[07/29/2020 7:56 PM] Dmitry Usov#0134
+Great!
+
+
+[07/29/2020 7:57 PM] Dmitry Usov#0134
+I think I will need to add also exchanges to cms)
+
+
+[07/29/2020 7:58 PM] Dmitry Usov#0134
+And if you have any idea about what you need at cms tell me
+
+
+[07/29/2020 7:58 PM] Dmitry Usov#0134
+@mx
+
+
+[07/30/2020 8:27 AM] Dmitry Usov#0134
+@kushti updated
+
+
+[07/30/2020 8:27 AM] Dmitry Usov#0134
+https://ergoplatform.org/en/exchanges/
+
+
+[07/31/2020 10:36 AM] kushti#0978
+@Dmitry Usov how to publish with your CMS ? @greenhat has an article )
+
+
+[07/31/2020 10:44 AM] Dmitry Usov#0134
+Go to https://ergoplatform.org/admin
+
+
+[07/31/2020 10:44 AM] Dmitry Usov#0134
+And login with github @greenhat
+
+
+[07/31/2020 10:46 AM] greenhat#6562
+@Dmitry Usov I'm in. I'm making "New English blog post".
+
+
+[07/31/2020 10:55 AM] greenhat#6562
+@Dmitry Usov Blog photo is required. 🙂 Should I hunt for it on the web, or we have some in stock?
+
+
+[07/31/2020 11:12 AM] greenhat#6562
+@Dmitry Usov @kushti  I found a CC0 image. I set it's status "in review". Here is the link - https://ergoplatform.org/admin/#/collections/en_blog/entries/2020-07-31-decentralized-exchange-contracts-on-ergo
+Should I just push publish?
+
+
+[07/31/2020 12:54 PM] Dmitry Usov#0134
+photo you can take from https://unsplash.com/
+
+
+[07/31/2020 12:55 PM] Dmitry Usov#0134
+@greenhat if blog post is ready, just push it, yes
+
+
+[07/31/2020 1:10 PM] greenhat#6562
+@Dmitry Usov I published. I don't see it yet on https://ergoplatform.org/en/blog/ . Do I need to do anything else, or just wait? 🙂
+
+{Embed}
+https://ergoplatform.org/en/blog/
+Blog | Ergo
+Ergo is a resilient platform for contractual money
+
+
+[07/31/2020 1:10 PM] Dmitry Usov#0134
+https://ergoplatform.org/en/blog/2020-07-31-decentralized-exchange-contracts-on-ergo/
+
+{Embed}
+https://ergoplatform.org/en/blog/2020-07-31-decentralized-exchange-contracts-on-ergo/
+Decentralized Exchange Contracts on Ergo
+Ergo has expressive smart …
+https://images-ext-2.discordapp.net/external/gsf51SD_y3kfWgn9bvkpxRjol8EuY6pbUeh3bOQPDOc/https/ergoplatform.org/img/uploads/pexels-pixabay-210607-1-.jpg
+
+
+[07/31/2020 1:10 PM] Dmitry Usov#0134
+neet to wait CI/CD:)
+
+
+[07/31/2020 1:10 PM] greenhat#6562
+@Dmitry Usov nevermind, I see it.
+
+
+[07/31/2020 1:12 PM] Dmitry Usov#0134
+need to enter language if you want to highlight code
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/738730762634788933/unknown.png
+
+
+[07/31/2020 1:12 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/738730772294402078/unknown.png
+
+
+[07/31/2020 1:12 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/738730815281692792/unknown.png
+
+
+[07/31/2020 1:12 PM] Dmitry Usov#0134
+top right icon
+
+
+[07/31/2020 1:14 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/738731238780698694/unknown.png
+
+
+[07/31/2020 1:14 PM] Dmitry Usov#0134
+i usually say java / scala
+
+
+[07/31/2020 1:14 PM] greenhat#6562
+@Dmitry Usov Oh, I see. I was in Markdown mode.
+
+
+[07/31/2020 1:15 PM] Dmitry Usov#0134
+wow
+
+
+[07/31/2020 1:15 PM] Dmitry Usov#0134
+I dont highlight scala code
+
+
+[07/31/2020 1:16 PM] Dmitry Usov#0134
+could you change scala to java? @greenhat
+
+
+[07/31/2020 1:16 PM] Dmitry Usov#0134
+I'll fix it this weekend
+
+
+[07/31/2020 1:17 PM] greenhat#6562
+sure
+
+
+[07/31/2020 1:43 PM] greenhat#6562
+Done.
+
+
+[08/03/2020 6:46 PM] Dmitry Usov#0134
+@mx hello! https://ergoplatform.org/admin/#/collections/exchanges I've added exchanges into cms
+
+
+[08/03/2020 6:46 PM] Dmitry Usov#0134
+but don't delete the empty block, please.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/739902091660886126/unknown.png
+
+
+[08/03/2020 6:48 PM] Dmitry Usov#0134
+@mx@Noah ~ 贺能 guys, could you please give me list of menu sections and items inside this sections?
+
+
+[08/03/2020 6:48 PM] mx#5165
+ok, great 👍
+
+
+[08/03/2020 6:48 PM] Dmitry Usov#0134
+I will make a drop-down menu
+
+
+[08/03/2020 6:49 PM] Dmitry Usov#0134
+but need help with content
+
+
+[08/03/2020 6:50 PM] Dmitry Usov#0134
+example:
+  About US
+     About - ergoplatform.org/en/about
+     Basics - ergoplatform.org/en/basics
+     Foundation - ergoplatform.org/en/foundation
+     etc
+  Content
+    Blog  - ergoplatform.org/en/blog
+    News   - ergoplatform.org/en/news
+
+
+[08/03/2020 6:53 PM] Dmitry Usov#0134
+@hir0 maybe you also can help with that?
+
+
+[08/03/2020 7:41 PM] hir0#9158
+Sure
+
+
+[08/13/2020 10:37 AM] hir0#9158
+@Dmitry Usov please can you upload this article, about Ergo's Vision for DeFi? Thanks. https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.ycn175qgglol
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Home page – this is all we are changing for now] [I think a white background with lots of white space would be good. Otherwise we don’t have to change any design stuff for now – colour schemes etc can be altered later]  Welcome to Smart Money  Smart Money is:...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[08/13/2020 11:04 AM] Dmitry Usov#0134
+@mx can you help? ^
+
+
+[08/13/2020 7:54 PM] mx#5165
+yes, will publish in about 30 minutes
+
+
+[08/13/2020 8:51 PM] mx#5165
+https://ergoplatform.org/en/blog/2020-08-13-building-ergo-our-vision-for-defi/
+
+{Embed}
+https://ergoplatform.org/en/blog/2020-08-13-building-ergo-our-vision-for-defi/
+Building Ergo: Our Vision for DeFi
+Everyone is talking about …
+https://images-ext-1.discordapp.net/external/wy8l-0EZWX0Jlwwx5nt_ra4flbZKcFJ3P0EtomP-spM/https/ergoplatform.org/img/uploads/joshua-earle-dwheufds6kq-unsplash.jpg
+
+{Reactions}
+👍 
+
+[08/13/2020 9:49 PM] Dmitry Usov#0134
+🔥
+
+
+[08/17/2020 2:41 PM] hir0#9158
+Hey guys, could someone post this one? https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit#bookmark=id.wexagza1eec1
+
+{Embed}
+https://docs.google.com/document/d/1bRARAmagGHHC5YrwAVLUR2P57fe6dV3Xwv5aLHjL_5A/edit
+Ergo Positioning
+New web content  [Home page – this is all we are changing for now] [I think a white background with lots of white space would be good. Otherwise we don’t have to change any design stuff for now – colour schemes etc can be altered later]  Welcome to Smart Money  Smart Money is:...
+https://images-ext-2.discordapp.net/external/9XaEsADYs8caSQ8BdMO8tWJwXOA-jgH54hmHBlSUYqE/https/lh5.googleusercontent.com/spi55VWqZKtxtjKwT1XLRIzRVY4HKoKn7IuC3td-hZK-r_HHeUF7WE1P4ChlAuzCUWRcgVza8g%3Dw1200-h630-p
+
+
+[08/17/2020 2:41 PM] hir0#9158
+Thanks
+
+
+[08/17/2020 2:41 PM] hir0#9158
+Ergo’s Vision for DeFi: Ergo vs CBDCs
+
+
+[08/17/2020 3:38 PM] Dmitry Usov#0134
+@mx, help us please
+
+
+[08/17/2020 8:09 PM] mx#5165
+https://ergoplatform.org/en/blog/2020-08-17-ergos-vision-for-defi-ergo-vs-cbdcs/
+
+{Embed}
+https://ergoplatform.org/en/blog/2020-08-17-ergos-vision-for-defi-ergo-vs-cbdcs/
+Ergo’s Vision for DeFi: Ergo vs CBDCs
+As blockchain technology gains …
+https://images-ext-2.discordapp.net/external/teZ-oAu2KgqxdOlrFe-krP2WW6lIrOnoQbIJFtn9fqA/https/ergoplatform.org/img/uploads/hussain-badshah-iggwojk97ky-unsplash.jpg
+
+
+[08/17/2020 8:52 PM] Dmitry Usov#0134
+@mx can you also compress the blog photos before put it? You can make it at this site https://tinyjpg.com
+
+{Embed}
+https://tinyjpg.com/
+TinyJPG – Compress JPEG images intelligently
+Make your website faster and save bandwidth. TinyJPG is the best automatic JPEG optimizer and compresses your JPEG images by 40-60%!
+https://images-ext-2.discordapp.net/external/k-1uR6-3cGW00FGnucvcAPj5DNCblMndZH6ubGISnQo/https/tinyjpg.com/images/social/website.jpg
+
+
+[08/17/2020 8:54 PM] mx#5165
+i can do it on puter, for now converting to 100% quality jpg, what size in kb are we talking about?
+
+
+[08/17/2020 9:01 PM] mx#5165
+ok i see, about 50%, will do
+
+
+[08/17/2020 9:04 PM] Dmitry Usov#0134
+Yeah, tinyjpg also gives 100% quality
+
+
+[08/17/2020 9:04 PM] Dmitry Usov#0134
+Good resource
+
+
+[08/26/2020 2:18 PM] Robert K#0722
+I was thinking on ergoplatform.org we could add a "Getting Started" page. This could be a good place to provide key links for anyone looking to jump right in
+
+Sections I was thinking would be a good idea:
+- Setting Up A Wallet (full node instructions/full node script/video, links to all wallets)
+- Writing Smart Contacts ( @scalahub's great new wiki page, the ergoscript papers, the ergoscript lang spec https://github.com/ScorexFoundation/sigmastate-interpreter/blob/develop/docs/LangSpec.md, ...)
+- Getting Started Mining (setup instructions, ...)
+
+
+[08/26/2020 2:20 PM] Robert K#0722
+It's kind of similar to the current "About" page, but it'd be more easy to find for newbies (idk how many people click on About pages first) and it would be a bit more detailed/be more up to date with latest docs/links that are useful.
+
+
+[08/26/2020 2:28 PM] morphic#4133
+I think Getting Started should start with simple things on top of the page and more complex towards the end. 
+- Select and setup wallet
+- Exchange and trading options
+- Setup a full node
+- Estimate mining profitability
+- Mining options and setup
+- Existing applications (Mixer, Multisig, etc)
+- Intro to Smart Contacts
+- Advanced Contracts (pools, etc)
+
+
+[08/26/2020 2:28 PM] scalahub#2618
+The current wiki home page is blank.. maybe we could do it there
+
+
+[08/26/2020 2:29 PM] Robert K#0722
+The problem is no one can find the wiki, most people aren't devs and it's not the simplest thing to click through in github.
+
+
+[08/26/2020 2:30 PM] Robert K#0722
+@morphic That's a fair way to organize it as well. I think we just need a page called Getting Started which we can link to for anyone to jump right in.
+
+
+[08/26/2020 2:33 PM] morphic#4133
+> @morphic That's a fair way to organize it as well. I think we just need a page called Getting Started which we can link to for anyone to jump right in.
+@Robert K looks like renaming About -> Getting Started will do most of the job
+
+
+[08/26/2020 2:34 PM] morphic#4133
+It already have 4 steps
+
+
+[08/26/2020 2:44 PM] Robert K#0722
+Ah yeah, and it's even called getting started on the home page.
+
+
+[08/26/2020 3:07 PM] morphic#4133
+@Dmitry Usov could you please rename About -> Getting Started (see discussion above)
+
+
+[08/26/2020 3:10 PM] Dmitry Usov#0134
+done
+
+
+[08/26/2020 3:11 PM] Dmitry Usov#0134
+I will improve top menu, will add dropdown menus after my current tasks guys. Now very busy, sorry for that 😦
+
+
+[08/26/2020 3:12 PM] Dmitry Usov#0134
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/748183063371972628/unknown.png
+
+
+[08/26/2020 3:12 PM] Dmitry Usov#0134
+how to you?
+
+
+[08/26/2020 3:14 PM] morphic#4133
+LGTM
+
+
+[08/26/2020 3:16 PM] Robert K#0722
+Looks good, thanks @Dmitry Usov
+
+
+[08/26/2020 6:09 PM] Robert K#0722
+On the wallets page I think it'd be good to change the link for the full node wallet to https://github.com/ergoplatform/ergo/wiki/Set-up-a-full-node @Dmitry Usov
+
+{Embed}
+https://github.com/ergoplatform/ergo/wiki/Set-up-a-full-node
+ergoplatform/ergo
+Ergo protocol description & reference client implementation - ergoplatform/ergo
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[08/26/2020 6:09 PM] Robert K#0722
+Currently it just links to an old blog post that isn't that helpful
+
+
+[08/26/2020 7:13 PM] Dmitry Usov#0134
+Thanks
+
+
+[08/26/2020 7:13 PM] Dmitry Usov#0134
+Okay
+
+
+[08/27/2020 7:34 PM] Dmitry Usov#0134
+Updated
+
+
+[09/03/2020 1:27 AM] Noah ~ 贺能#5674
+Should we add these 
+https://scholar.google.com/citations?user=AG_OSPgAAAAJ&hl=en&oi=ao 
+https://scholar.google.com/citations?user=IRXdin8AAAAJ&hl=en&oi=sra
+to https://ergoplatform.org/en/documents/?
+
+{Embed}
+https://scholar.google.com/citations?user=AG_OSPgAAAAJ&hl=en&oi=ao
+‪Alexander Chepurnoy‬ - ‪Google Scholar‬
+‪Ergo Platform and IOHK Research‬ - ‪Cited by 182‬ - ‪Blockchain‬ - ‪Cryptography‬ - ‪Distributed Systems‬
+https://images-ext-2.discordapp.net/external/VDxBvI1gYiI0pR-wwbsSAob49gaV2bVxxVYw0sE_n6k/https/scholar.google.com/citations/images/avatar_scholar_256.png
+
+{Embed}
+https://scholar.google.com/citations?user=IRXdin8AAAAJ&hl=en&oi=sra
+‪Dmitrii Meshkov‬ - ‪Google Scholar‬
+‪Unknown affiliation‬ - ‪Cited by 113‬ - ‪Blockchain‬ - ‪Cryptography‬ - ‪Distributed Systems‬
+https://images-ext-1.discordapp.net/external/QZR8yVtLBrSYx7m-qRtg40a5y88igSsM8fex2tzDlFU/%3Fview_op%3Dmedium_photo%26user%3DIRXdin8AAAAJ%26citpid%3D2/https/scholar.googleusercontent.com/citations
+
+{Embed}
+https://ergoplatform.org/en/documents/?
+Documents | Ergo
+
+
+[09/03/2020 1:27 AM] Noah ~ 贺能#5674
+@kushti @Dmitry Meshkov
+
+
+[09/03/2020 5:24 AM] Dmitry Meshkov#1652
+We already have relative papers in "foundation papers" section, don't think it makes sense to add Google scholar profiles
+
+
+[09/07/2020 3:16 PM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/752532851596984380/Ergo_article_CN_20200611.docx
+
+
+[09/07/2020 3:16 PM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/752532856286216203/Ergo_article_CN_20200630.docx
+
+
+[09/07/2020 3:17 PM] Justin1000#9555
+@Dmitry Usov hi! these are blog posts from June 30th and June 11th in Chinese translated by Gary. Please post them to the website as soon as possible. One more should be ready tomorrow. these three are the more important ones we thought.
+
+
+[09/07/2020 3:18 PM] Dmitry Usov#0134
+okay, no problem, I will put it now
+
+
+[09/07/2020 3:19 PM] Justin1000#9555
+@Noah ~ 贺能 please post the Chinese versions or somehow market them on our chinese channels. I recommend doing June 11th tomorrow and then doing June 30th on Wednesday and the other one thursday to space them out by a day. maybe relevant for getting some Chinese mindshare when talking to exchanges.
+
+{Reactions}
+👌 
+
+[09/07/2020 4:10 PM] Dmitry Usov#0134
+https://ergoplatform.org/cn/blog/2020-09-07-%E5%B0%94%E6%A0%BC-emurgo%E8%81%94%E6%89%8B%E7%9A%84%E6%9C%BA%E9%81%87/
+
+{Embed}
+https://ergoplatform.org/cn/blog/2020-09-07-%E5%B0%94%E6%A0%BC-emurgo%E8%81%94%E6%89%8B%E7%9A%84%E6%9C%BA%E9%81%87/
+尔格/Emurgo联手的机遇
+卡尔达诺和尔格在金融去中心化和区块链开发方面采取截然不容的方 …
+https://images-ext-1.discordapp.net/external/swcVTe-5BSAK_ye6q4SRe6MRkw0g_uFHehAsmFdD1bs/https/ergoplatform.org/img/uploads/ergo_emurgo_20200611.png
+
+
+[09/07/2020 4:11 PM] Dmitry Usov#0134
+@Justin1000
+
+
+[09/07/2020 9:02 PM] Dmitry Usov#0134
+https://ergoplatform.org/cn/blog/2020-09-07-%E5%B0%94%E6%A0%BC-emurgo%E8%81%94%E6%89%8B%E4%B8%BA%E9%A2%84%E8%A8%80%E6%9C%BA%E5%88%9B%E9%80%A0%E4%BA%86%E6%96%B0%E7%9A%84%E6%A8%A1%E5%BC%8F/
+
+{Embed}
+https://ergoplatform.org/cn/blog/2020-09-07-%E5%B0%94%E6%A0%BC-emurgo%E8%81%94%E6%89%8B%E4%B8%BA%E9%A2%84%E8%A8%80%E6%9C%BA%E5%88%9B%E9%80%A0%E4%BA%86%E6%96%B0%E7%9A%84%E6%A8%A1%E5%BC%8F/
+尔格-Emurgo联手为预言机创造了新的模式
+将在尔格稳定币项目中开展对预言机池的联合研究。
+预言机是金融 …
+https://images-ext-1.discordapp.net/external/ndqMKPA8EGbD_ei6MxYdVXdlXLL9jf9AfKeTKTaDpA0/https/ergoplatform.org/img/uploads/ergo_emurgo_oracles-1-.png
+
+
+[09/19/2020 6:25 AM] Noah ~ 贺能#5674
+Hi @Dmitry Usov , do we have this in editable form or some kind of document somewhere? We want to translate it into Chinese.
+
+
+[09/19/2020 6:25 AM] Noah ~ 贺能#5674
+https://explorer.ergoplatform.com/en/
+
+
+[09/19/2020 6:25 AM] Noah ~ 贺能#5674
+(and all of it's sub-pages)
+
+
+[09/19/2020 9:19 AM] Dmitry Usov#0134
+@Noah ~ 贺能 hmm. Some pages not translated. Need time for translate it. I can try do it at next week.
+
+
+[09/19/2020 9:19 AM] Dmitry Usov#0134
+I think now translated content ~60%
+
+
+[09/19/2020 9:31 AM] Noah ~ 贺能#5674
+We do not have Chinese translation for the explorer. We want to translate the explorer into Chinese. But first it we need to know where is the Github page for the explorer page? When we have that, we can use it to translate the English into Chinese.
+
+
+[09/19/2020 9:32 AM] Noah ~ 贺能#5674
+We need the English version of the explorer in a format that we can edit. Then we can make it in Chinese.
+
+
+[09/19/2020 11:22 AM] Dmitry Usov#0134
+I am about russian-english
+
+
+[09/19/2020 11:23 AM] Dmitry Usov#0134
+At explorer we have Russian / English translation. And not full.
+
+
+[09/19/2020 11:23 AM] Dmitry Usov#0134
+I am understand you.
+
+
+[09/19/2020 11:26 AM] Dmitry Usov#0134
+Translate process is not simple. Need give all phrases ids. Only 60% phrases now have ids. I can try to do 100% next week if it needed. @Noah ~ 贺能
+
+
+[09/19/2020 11:28 AM] Dmitry Usov#0134
+I need to choose carefully the text that I tell you, sorry.
+
+
+[09/19/2020 11:28 AM] Dmitry Usov#0134
+Tell me, you start from 60% ids, or you need 100% ids?
+
+
+[09/19/2020 11:29 AM] Dmitry Usov#0134
+https://github.com/ergoplatform/explorer-frontend/tree/master/src/locales
+
+{Embed}
+https://github.com/ergoplatform/explorer-frontend/tree/master/src/locales
+ergoplatform/explorer-frontend
+ERGO Explorer. Contribute to ergoplatform/explorer-frontend development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[09/19/2020 11:32 AM] Dmitry Usov#0134
+At this - https://github.com/ergoplatform/explorer-frontend/blob/master/src/locales/en/translations.json ids and English texts
+
+{Embed}
+https://github.com/ergoplatform/explorer-frontend/blob/master/src/locales/en/translations.json
+ergoplatform/explorer-frontend
+ERGO Explorer. Contribute to ergoplatform/explorer-frontend development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[09/19/2020 12:12 PM] Noah ~ 贺能#5674
+60% is enough. Don't need 100% now. Thanks!
+
+
+[09/19/2020 12:36 PM] Dmitry Usov#0134
+Okay:)
+
+
+[09/24/2020 3:40 PM] Justin1000#9555
+gary is saying need to wait to clarify somethign on that one i just uploaded. he's also going to send antoher one soon too
+
+
+[09/24/2020 3:51 PM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/758702075231469598/Announcing_the_ZK_Treasury_on_Ergo_20200904_Chi.docx
+
+
+[09/24/2020 3:51 PM] Justin1000#9555
+@Dmitry Usov @Noah ~ 贺能 here it is for posting to website and for @Noah ~ 贺能 to blast out on the Chines chats
+
+{Reactions}
+👌 
+
+[09/24/2020 4:50 PM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/758717123962601473/Ergo_Blog_DeFi_Finance_but_not_always_Decentralised_20200917_Chi.docx
+
+
+[09/24/2020 4:51 PM] Justin1000#9555
+@Dmitry Usov one more...  @Noah ~ 贺能 pls blast this out too but on a different day...
+
+{Reactions}
+👌 
+
+[09/24/2020 8:17 PM] Dmitry Usov#0134
+@mx Martin, hi! Can you support me^?
+
+
+[09/24/2020 8:52 PM] mx#5165
+ok
+
+
+[09/25/2020 1:26 PM] Dmitry Usov#0134
+@here guys do you like notion? I found this one - https://super.so/. We can up notion based site for documentation, if you want.
+
+{Embed}
+https://super.so/
+Super — Custom domains, fonts, and analytics for Notion.
+Host your Notion docs on your own custom URL, and use it as a standalone website with analytics, live chat, social meta tag customization, and more ⚡️
+https://images-ext-1.discordapp.net/external/mAUDcMc2l1eucTBZxGJKiaHL-xuQXvJvNe-GgdIsL4k/https/super.so/images/social-home.jpg
+
+
+[09/28/2020 1:10 PM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/760111184710991912/Ergos_Oracle_Pools_and_what_they_mean_20200831_Chi.docx
+
+
+[09/28/2020 1:10 PM] Justin1000#9555
+@Dmitry Usov the 8-31 blog post for upload in Chinese
+
+
+[09/28/2020 1:10 PM] Justin1000#9555
+@Noah ~ 贺能 hope you are blasting these out to the chinese channels!
+
+
+[09/28/2020 4:49 PM] mx#5165
+https://ergoplatform.org/cn/blog/2020-09-28-尔格的预言机池以及其对生态系统意味着什么/
+
+{Embed}
+https://ergoplatform.org/cn/blog/2020-09-28-%E5%B0%94%E6%A0%BC%E7%9A%84%E9%A2%84%E8%A8%80%E6%9C%BA%E6%B1%A0%E4%BB%A5%E5%8F%8A%E5%85%B6%E5%AF%B9%E7%94%9F%E6%80%81%E7%B3%BB%E7%BB%9F%E6%84%8F%E5%91%B3%E7%9D%80%E4%BB%80%E4%B9%88/
+尔格的预言机池以及其对生态系统意味着什么？
+通过Emurgo-尔格合作制定的新计划可以将预言机池 – 这 …
+https://images-ext-1.discordapp.net/external/uDdrVh0UP_PBe7c7XSCKJq_WWy3PhpVHTi4oZ7drG8g/https/ergoplatform.org/img/uploads/terry-p60cjqtbptw-unsplash.jpg
+
+
+[10/03/2020 3:31 AM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/761777434428178442/Oracle_Pools_-_A_New_Oracle_Model_-_June29_2020_CN.docx
+
+
+[10/03/2020 3:32 AM] Justin1000#9555
+@Dmitry Usov This was a forum post by Robert. But can you post it to the Chinese website under latest news or blog in Chinese (no need to have same in English website)? We think its great comparison of Chainlink vs Oracle Pools and good for the Chinese user to try and figure out what makes Ergo special.
+
+
+[10/03/2020 3:33 AM] Justin1000#9555
+@Noah ~ 贺能 can you blast this out as appropriate. also we need to be translating those monthly digests by @mx and blasting out every month for sure!
+
+{Reactions}
+👍 (2) 
+
+[10/03/2020 3:33 AM] Justin1000#9555
+i'll ask Gary to translate latest...
+
+
+[10/03/2020 3:35 AM] Justin1000#9555
+oh...maybe the monthly digests are more trouble than worth for now cuz they link to all English stuff. darn. will forego for now. let Gary translate other stuff...
+
+
+[10/03/2020 7:58 AM] mx#5165
+can post on blog, how is "Oracle Pools - A New Oracle Model" in Chinese?
+
+
+[10/03/2020 9:11 AM] Justin1000#9555
+预言机池 - 一个全新预言机模型
+
+
+[10/03/2020 11:50 AM] mx#5165
+https://ergoplatform.org/cn/blog/2020-10-03-预言机池-一个全新预言机模型/
+
+{Embed}
+https://ergoplatform.org/cn/blog/2020-10-03-%E9%A2%84%E8%A8%80%E6%9C%BA%E6%B1%A0-%E4%B8%80%E4%B8%AA%E5%85%A8%E6%96%B0%E9%A2%84%E8%A8%80%E6%9C%BA%E6%A8%A1%E5%9E%8B/
+预言机池 - 一个全新预言机模型
+作为Emurgo研究部以及Emurgo 与尔格基金会新合作的 …
+https://images-ext-1.discordapp.net/external/10LeqWqCvHuBLJFUzX2kwFEEdrweJjllAvYAgal1xMY/https/ergoplatform.org/img/uploads/poolsa.jpg
+
+{Reactions}
+👍 (2) 
+
+[10/03/2020 2:20 PM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/761940697103597588/NFTs_on_Ergo_Blog_Post_Sep_25_2020_CN.docx
+
+
+[10/03/2020 2:20 PM] Justin1000#9555
+@Dmitry Usov @mx @Noah ~ 贺能 NFTs!
+
+
+[10/03/2020 2:45 PM] mx#5165
+https://ergoplatform.org/cn/blog/2020-10-03-有关尔格的nfts/
+
+{Embed}
+https://ergoplatform.org/cn/blog/2020-10-03-%E6%9C%89%E5%85%B3%E5%B0%94%E6%A0%BC%E7%9A%84nfts/
+有关尔格的NFTs
+与DeFi的几乎所有其他领域一样，尔格平台对NFTs采用了一 …
+https://images-ext-2.discordapp.net/external/9gJRFHEZOK7X3vxdAV4Ac9ZaPztTBJ-dVkv33NCuvG8/https/ergoplatform.org/img/uploads/nick-karvounis-fmd8tikf8bo-unsplash.jpg
+
+
+[10/04/2020 8:56 AM] Dmitry Usov#0134
+I want to make new page at our website about ergo apps. Can anyone give me small summary about each app? Mixer, oracles etc
+
+
+[10/05/2020 9:13 AM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/762588340531757066/Our_Vision_for_DeFi_August_13_2020_Chi.docx
+
+
+[10/05/2020 9:14 AM] Justin1000#9555
+@Dmitry Usov @Noah ~ 贺能 our vision for defi. Looks good
+
+{Reactions}
+🤩 
+
+[10/06/2020 9:59 AM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/762962207381913660/Ergo_and_the_Explosion_of_DeFi_July_2_2020_CN.docx
+
+
+[10/06/2020 9:59 AM] Justin1000#9555
+@Dmitry Usov @Noah ~ 贺能 explosion of defi blog post from july
+
+{Reactions}
+👍 
+
+[10/06/2020 10:23 AM] mx#5165
+https://ergoplatform.org/cn/blog/2020-10-06-打造尔格我们对defi的愿景/
+
+{Embed}
+https://ergoplatform.org/cn/blog/2020-10-06-%E6%89%93%E9%80%A0%E5%B0%94%E6%A0%BC%E6%88%91%E4%BB%AC%E5%AF%B9defi%E7%9A%84%E6%84%BF%E6%99%AF/
+打造尔格：我们对DeFi的愿景
+每个人都在谈论DeFi。很少有人问DeFi到底应该是什么样 …
+https://images-ext-1.discordapp.net/external/wy8l-0EZWX0Jlwwx5nt_ra4flbZKcFJ3P0EtomP-spM/https/ergoplatform.org/img/uploads/joshua-earle-dwheufds6kq-unsplash.jpg
+
+
+[10/06/2020 10:24 AM] mx#5165
+https://ergoplatform.org/cn/blog/2020-10-06-尔格与defi的爆炸性增长/
+
+{Embed}
+https://ergoplatform.org/cn/blog/2020-10-06-%E5%B0%94%E6%A0%BC%E4%B8%8Edefi%E7%9A%84%E7%88%86%E7%82%B8%E6%80%A7%E5%A2%9E%E9%95%BF/
+尔格与DeFi的爆炸性增长
+DeFi是区块链技术的下一个主要前沿领域 – 但是，当前市场 …
+https://images-ext-1.discordapp.net/external/1i1l-aVYEyVX49qoA35j7iVavEYvYB9rfeHVyWeLTEM/https/ergoplatform.org/img/uploads/ergo_of_defi.png
+
+
+[10/08/2020 2:39 PM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/763757380139221002/Transcript_of_the_Oracle_Pools_QA_Blog_Post_August_28_2020_CN.docx
+
+
+[10/08/2020 4:54 PM] mx#5165
+https://ergoplatform.org/cn/blog/2020-10-08-robert-kornacki-关于预言机池问答环节文字稿/
+
+{Embed}
+https://ergoplatform.org/cn/blog/2020-10-08-robert-kornacki-%E5%85%B3%E4%BA%8E%E9%A2%84%E8%A8%80%E6%9C%BA%E6%B1%A0%E9%97%AE%E7%AD%94%E7%8E%AF%E8%8A%82%E6%96%87%E5%AD%97%E7%A8%BF/
+Robert Kornacki 关于预言机池问答环节文字稿
+Robert Kornacki
+我想正式宣布预言机池是有生命 …
+https://images-ext-2.discordapp.net/external/uEEiMbsnb4mZtEg5fOu7pLlUn-_BqcuArCNEbSV5S4U/https/ergoplatform.org/img/uploads/emily-morter-8xaa0f9yqne-unsplash.jpg
+
+
+[10/08/2020 4:58 PM] Justin1000#9555
+@Noah ~ 贺能 another one...
+
+{Reactions}
+😻 
+
+[10/09/2020 7:53 AM] gagarin55#2131
+Hi, I thought I saw ergo brand book somewhere on the website ?
+
+
+[10/10/2020 10:31 PM] kushti#0978
+Yes, also saw it somewhere @Dmitry Usov
+
+
+[10/10/2020 10:32 PM] kushti#0978
+@Dmitry Usov let's put Yoroi and gate.io on the website when you can
+
+
+[10/11/2020 8:46 AM] Dmitry Usov#0134
+Yeah. Will add it today
+
+
+[10/11/2020 8:48 AM] Dmitry Usov#0134
+@mx do you remember some brandbook?
+
+
+[10/11/2020 8:52 AM] mx#5165
+https://drive.google.com/file/d/1aqyytiWIIVZMN_NNisp_OtXZjo8W0v_e/view?usp=sharing
+
+{Embed}
+https://drive.google.com/file/d/1aqyytiWIIVZMN_NNisp_OtXZjo8W0v_e/view?usp=sharing
+Ergo_guidelines.pdf
+https://images-ext-1.discordapp.net/external/BeCj0BwWn7BoMb77XkrZJugDAXq0UQIiaYi2cOB9kpM/https/lh4.googleusercontent.com/VydoXM7T3Cer4ZzqemdH3XcBGi7FLoi3fVuJTel53UXdbzwx8QqVuqtkEkaKfMg%3Dw1200-h630-p
+
+
+[10/11/2020 9:32 AM] Dmitry Usov#0134
+@gagarin55 ^
+
+
+[11/12/2020 8:41 AM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/776365936282173470/First_steps_towards_interoperability_with_Cardano_oracles_CN.docx
+
+
+[11/12/2020 8:42 AM] Justin1000#9555
+@mx here is the Cardano interoperability post that got so much attention. Please upload
+
+
+[11/12/2020 8:43 AM] Justin1000#9555
+@Noah ~ 贺能 can you send serena the link to both this and kushti's   video on hard fork. The Cardano one got a lot of attention so should also post to china chats and put emphasis on it
+
+
+[11/26/2020 8:43 AM] Robert K#0722
+I believe the ergoforum is down
+
+
+[11/26/2020 1:41 PM] kushti#0978
+@Robert K sometimes giving some errors to me as well today. It is hosted on discourse servers.
+
+
+[12/09/2020 2:42 AM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/786060114255413298/Introducing_the_Ergonaut_CN.docx
+
+
+[12/09/2020 2:42 AM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/786060118403448840/Magnum_Wallet_Closing_CN.docx
+
+
+[12/09/2020 2:42 AM] Justin1000#9555
+couple more Chinese articles to upload...one more coming later...
+
+
+[12/09/2020 5:50 AM] mx#5165
+@Dmitry Usov new menu looks broken in Chinese version https://ergoplatform.org/cn/
+
+{Embed}
+https://ergoplatform.org/cn/
+Ergo
+Ergo is a resilient platform for contractual money
+
+
+[12/09/2020 6:19 AM] Dmitry Usov#0134
+@mx thanks, Martin!
+
+
+[12/09/2020 1:35 PM] mx#5165
+@Dmitry Usov do you know why twitter doesn`t show photos, titles etc from blogposts automatically?
+
+
+[12/09/2020 8:26 PM] Dmitry Usov#0134
+@mx I think settings not set
+
+
+[12/09/2020 8:27 PM] mx#5165
+looks like it has something to do with url shortener they use, then website doesn`t show details
+
+
+[12/10/2020 7:01 AM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/786487801607880724/Key_DAPP_Infrastructure_CN.docx
+
+{Reactions}
+❤️ 
+
+[12/10/2020 7:01 AM] Justin1000#9555
+one more post to add...
+
+
+[01/14/2021 7:44 AM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/799182229074739240/mmexport1610610100683.jpg
+
+
+[01/14/2021 7:46 AM] Justin1000#9555
+This guy Ray L is a mining pool who contacted us on we chat. But he doesn't know how to get verified on discord through the spam bot. I don't know either. What should he do to get verified?
+
+
+[01/14/2021 2:51 PM] Justin1000#9555
+Apparently he got in now...but used the app instead of web page...
+
+
+[01/18/2021 2:26 PM] Justin1000#9555
+@Dmitry Usov Hi! Can you give me the github link to logo again ?  I can never find it. Got a guy ready to make a new article or blast out the old one on a few more Chinese media platforms for free and needs the logo
+
+
+[01/18/2021 2:27 PM] Dmitry Usov#0134
+@Justin1000 hi! Sure - https://github.com/ergoplatform/website/tree/master/static/img
+
+{Embed}
+https://github.com/ergoplatform/website/tree/master/static/img
+ergoplatform/website
+Sources of ergoplatform.org. Contribute to ergoplatform/website development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[01/18/2021 2:27 PM] Dmitry Usov#0134
+we have many logotypes
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/800733113554042911/unknown.png
+
+
+[01/18/2021 2:27 PM] Dmitry Usov#0134
+this is standart black - https://github.com/ergoplatform/website/blob/master/static/img/logo_black.svg
+
+{Embed}
+https://github.com/ergoplatform/website/blob/master/static/img/logo_black.svg
+ergoplatform/website
+Sources of ergoplatform.org. Contribute to ergoplatform/website development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[01/18/2021 2:28 PM] Dmitry Usov#0134
+if you will have any questions, ask it to me, thanks!
+
+
+[01/18/2021 2:44 PM] Justin1000#9555
+Got it...thanks! Sent to him already. Damn making progress in China😀
+
+
+[01/20/2021 6:04 AM] Justin1000#9555
+https://explorer.ergoplatform.com/en/addresses/9efzqh12tDWZ4M9gSZ7u87cqYFMdriU4aoAExqKYyJ9f9Qk1bYK
+
+
+[01/20/2021 6:04 AM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/801331414334570526/mmexport1611122657469.jpg
+
+
+[01/20/2021 6:05 AM] Justin1000#9555
+@Dmitry Usov one of our chinese users says seems problem with explorer as cant load this. Thanks
+
+
+[01/20/2021 9:28 AM] kushti#0978
+@Justin1000 fixed!
+
+
+[01/22/2021 7:13 AM] kushti#0978
+@Dmitry Usov https://ergoplatform.org/en/tools
+
+
+[01/22/2021 7:13 AM] kushti#0978
+404
+
+
+[01/22/2021 7:13 AM] Dmitry Usov#0134
+We don’t have tools page anymore
+
+
+[01/22/2021 7:13 AM] Dmitry Usov#0134
+Where you find this one?
+
+
+[01/22/2021 7:13 AM] Dmitry Usov#0134
+Maybe need to do redirect...
+
+
+[01/22/2021 7:14 AM] Dmitry Usov#0134
+@kushti
+
+
+[01/22/2021 7:28 AM] kushti#0978
+@kushti got an email from user, so it's somehow reachable I guess
+
+
+[02/01/2021 12:05 PM] gagarin55#2131
+Hi there ! This page http://ergoplatform.org/en/about/ has a wrong link in 4th section "Write a Contract"
+
+{Embed}
+http://ergoplatform.org/en/about/
+About | Ergo
+
+{Reactions}
+👍 (2) 
+
+[03/12/2021 9:47 AM] Justin1000#9555
+https://ergoplatform.org/en/exchanges/
+
+{Embed}
+https://ergoplatform.org/en/exchanges/
+| Ergo
+Ergo is a resilient platform for contractual money
+
+
+[03/12/2021 9:48 AM] Justin1000#9555
+Exchange page needs to.be updated for new exchanges like biki, bitmart, trade ogre
+
+{Reactions}
+👍 
+
+[03/12/2021 10:21 AM] kushti#0978
+@Dmitry Usov ^
+
+
+[05/11/2021 5:54 PM] scalahub#2618
+Also in the FAQ on Ergo website, under "Mining" we have  https://ergoplatform.org/en/faq/
+```Ergo is based on Autolykos PoW puzzle, that is the first PoW puzzle that is memory-hard and pool-resistant. This means that you need a configured Ergo node and GPU with at least 4 Gb of memory (while 8 Gb is recommended for maximum efficiency). Use this guide to configure miner together with the node. Note, that you may employ many GPUs together on one Ergo node.```
+
+and 
+```Ergo was created with the idea to achieve maximum resiliency through decentralization. Autolykos consensus protocol plays an important role in the network's decentralization, as far as it does not allow mining pools. Check Autolykos specification for more details.```
+
+{Embed}
+https://ergoplatform.org/en/faq/
+Faq | Ergo
+
+
+[05/11/2021 5:54 PM] scalahub#2618
+This should bne updated
+
+
+[05/11/2021 5:55 PM] scalahub#2618
+Also not website related per se but I guess this is now outdated https://github.com/ergoplatform/Autolykos-GPU-miner
+
+{Embed}
+https://github.com/ergoplatform/Autolykos-GPU-miner
+ergoplatform/Autolykos-GPU-miner
+CUDA-based GPU miner for Ergo (Autolykos algorithm) - ergoplatform/Autolykos-GPU-miner
+https://images-ext-1.discordapp.net/external/iHmQnxpGgBvOqz8bT1-wiwraMwizU7kKRVGWQsF3koI/https/opengraph.githubassets.com/a1e4e867eead924ecac350ac9a6e8d2f9d40ebcd0f1555e5f29de6477ec02dfd/ergoplatform/Autolykos-GPU-miner
+
+
+[05/14/2021 11:51 PM] glasgowm#9381
+missing og img
+
+https://www.opengraph.xyz/url/https:%2F%2Fergoplatform.org%2Fen%2F/
+
+
+[05/16/2021 3:08 AM] Justin1000#9555
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/843309002376609802/Ergo.docx
+
+
+[05/16/2021 3:12 AM] Justin1000#9555
+@Dmitry Usov pls put above announcement in News section of Chinese website. Announcing this guy Tango as China Ambassador approved by Foundation. Just need Chinese announcement on website so he can show to people he is official
+
+
+[05/16/2021 4:37 AM] Justin1000#9555
+Is it possible for someone to add Eva Qing#8318 to this channel?
+
+
+[05/16/2021 4:39 AM] Justin1000#9555
+The Chinese website is in really dire shape right now. Probably people are super busy with other things that are much higher priority given not many people come to our Chinese website but would be good to update it anyway if have time. Sometimes I think some important people from exchanges, funds or pools might go to it...
+
+
+[05/16/2021 4:40 AM] Justin1000#9555
+Maybe Eva can put here the Chinese news, blog posts etc and say where it goes.
+
+
+[05/16/2021 4:41 AM] Justin1000#9555
+Also would be good to try and eliminate all English on the Chinese website (like menu drop downs etc) but I guess this could make things more time consuming.
+
+
+[05/16/2021 4:43 AM] Justin1000#9555
+not highest priority but to extent have time, i would recommend updating it...
+
+
+[05/16/2021 6:33 AM] Dmitry Usov#0134
+I don’t know who have the permission for add she(
+
+
+[05/16/2021 6:33 AM] Dmitry Usov#0134
+Will put, ok
+
+
+[05/16/2021 6:36 AM] Justin1000#9555
+Yeah I dunno eithr...maybe @mx
+
+
+[05/16/2021 7:22 AM] Dmitry Usov#0134
+news doesnt contain the photo, you know it?
+
+
+[05/16/2021 7:22 AM] Dmitry Usov#0134
+or put it on the blog?
+
+
+[05/16/2021 7:25 AM] Justin1000#9555
+We can include his photo if we post it as news though as well right? I see this one seems to have a photo or at least image: https://ergoplatform.org/cn/blog/2020_06_09_ergo_and_emurgo/
+
+{Embed}
+https://ergoplatform.org/cn/blog/2020_06_09_ergo_and_emurgo/
+卡尔达诺协议的创始成员EMURGO与尔格合作
+卡尔达诺协议的创始成员EMURGO与尔格合作，并且建立基于区 …
+https://images-ext-2.discordapp.net/external/V9qVqWULa5kr7gNO0B3b_zXFmtm9foDfipgWbBMuEuQ/https/ergoplatform.org/img/blog/featureImage.png
+
+
+[05/16/2021 7:25 AM] Dmitry Usov#0134
+it is blog
+
+
+[05/16/2021 7:25 AM] Dmitry Usov#0134
+no news 🙂
+
+
+[05/16/2021 7:25 AM] Dmitry Usov#0134
+https://ergoplatform.org/en/news/
+
+{Embed}
+https://ergoplatform.org/en/news/
+News | Ergo
+Ergo is a resilient platform for contractual money
+
+
+[05/16/2021 7:25 AM] Dmitry Usov#0134
+news -this
+
+
+[05/16/2021 7:25 AM] Justin1000#9555
+ohhhh i see
+
+
+[05/16/2021 7:26 AM] Justin1000#9555
+Okay can just do it as blog and also link from news. Main thing is it is on website and official...
+
+
+[05/16/2021 7:53 AM] Dmitry Usov#0134
+https://ergoplatform.org/cn/blog/2021-05-16-%E5%85%B3%E4%BA%8Eergo%E5%9F%BA%E9%87%91%E4%BC%9A%E4%BB%BB%E5%91%BD%E8%B0%AD%E5%A3%B0%E6%83%85%E5%85%88%E7%94%9F%E6%8B%85%E4%BB%BB%E4%B8%AD%E5%9B%BD%E5%8C%BA%E5%A4%A7%E4%BD%BF%E7%9A%84%E5%85%AC%E5%91%8A/
+
+{Embed}
+https://ergoplatform.org/cn/blog/2021-05-16-%E5%85%B3%E4%BA%8Eergo%E5%9F%BA%E9%87%91%E4%BC%9A%E4%BB%BB%E5%91%BD%E8%B0%AD%E5%A3%B0%E6%83%85%E5%85%88%E7%94%9F%E6%8B%85%E4%BB%BB%E4%B8%AD%E5%9B%BD%E5%8C%BA%E5%A4%A7%E4%BD%BF%E7%9A%84%E5%85%AC%E5%91%8A/
+关于Ergo基金会任命谭声情先生担任中国区大使的公告
+经Ergo基金会批准，现任命谭声情先生（英文名：Tango） …
+https://images-ext-2.discordapp.net/external/XTqFinoBz7l0AgpkKsfTxUrYn-SylNv0i6E4RlhvfH0/https/ergoplatform.org/img/uploads/frame-2-1-.png
+
+
+[05/16/2021 7:53 AM] Dmitry Usov#0134
+is it good ? @Justin1000
+
+
+[05/16/2021 7:53 AM] Dmitry Usov#0134
+please, check.
+
+
+[05/16/2021 7:54 AM] Justin1000#9555
+Looks good to me...thanks
+
+
+[05/16/2021 9:59 AM] mx#5165
+@Eva Qing
+
+
+[05/17/2021 9:37 AM] Eva Qing#8318
+Sorry. I am not familiar with the operations of this APP. I am wondering how to add DeadIT.
+
+
+[05/17/2021 9:42 AM] Justin1000#9555
+DeadIT is here
+
+
+[05/17/2021 9:42 AM] Justin1000#9555
+He is in charge of website updates. In the past what we did was just drop word version of Chinese translation of website news or blog post and he would update it
+
+
+[05/17/2021 9:43 AM] Justin1000#9555
+I think it would be good to take it a step further this time and get the menus translated and everything but I don't want to push too hard but people are busy on more important things
+
+
+[05/17/2021 9:44 AM] Justin1000#9555
+But in near future at least can get the news and blog posts translated and updated
+
+
+[05/17/2021 9:44 AM] Justin1000#9555
+And whitepapers...
+
+
+[05/17/2021 9:44 AM] Eva Qing#8318
+@Dmitry Usov Hi. DeadIT. Sorry. Recently, I have been busying with helping UP (our new Chinese community organizer who has collected approx. 900 people to  WeChat groups in the recent ten days, now he is organizing another new WeChat group which has 90 people already) push the ERG price go up again and again by collecting information and writing and publishing Chinese news or articles. I will try my best to post Chinese articles or news  here and request you to publish them whenever I am available.
+
+
+[05/17/2021 9:44 AM] Justin1000#9555
+Then can take care of rest...
+
+
+[05/17/2021 9:48 AM] Eva Qing#8318
+In my opinion, giving support for UP is the most important job I have to do now. Chinese people generally go to Jinse Finance to read articles about Ergo there. Many of them even don't read articles on Jinse but directly go to Gateio Exchange to buy ERGs after Up shares the information on Ergo with them.
+
+
+[05/17/2021 9:50 AM] Justin1000#9555
+We already discussed  all this.
+
+
+[05/17/2021 9:50 AM] Justin1000#9555
+The website should be updated.
+
+
+[05/17/2021 9:50 AM] Justin1000#9555
+Don't know why we are discussing it again
+
+
+[05/17/2021 9:53 AM] Eva Qing#8318
+I just made an explanation here why Chinese articles were not posted on Chinese website because I have placed my efforts on community promotion. I will post Chinese articles in future to publish them on the website.
+
+{Reactions}
+👍 
+
+[05/17/2021 9:55 AM] glasgowm#9381
+submitted a PR to remove the non-outsourceable stuff from the FAQ. Can tidy up the FAQ more in future but important to get this changed as people ask about it on a near daily basis
+
+https://github.com/ergoplatform/website/pull/337
+
+{Embed}
+https://github.com/ergoplatform/website/pull/337
+remove non-outsourceable puzzles by glasgowm148 · Pull Request #337...
+https://images-ext-2.discordapp.net/external/INXWB1TdCytzxSBDV4PBl7Rt2L8RmTToBPw4yNf0Qp4/https/opengraph.githubassets.com/d971986de60370ef729aab0e6b1ba12cbdd0ab719f330da13a4de6298f53316c/ergoplatform/website/pull/337
+
+{Reactions}
+🙏 
+
+[05/17/2021 10:04 AM] Justin1000#9555
+I think all news and blogs should be updated no later than end of June. Assuming DeadIT is okay the rest of website including menus and white papers should all be in Chinese and well maintained by end of July. Its important for Ergo's image so if you have to spend less time with Up in order to get it done, fine. If you need another person then you can write a short proposal to foundation after you find someone...thanks
+
+
+[05/17/2021 10:05 AM] Eva Qing#8318
+OK.
+
+
+[05/17/2021 10:07 AM] Eva Qing#8318
+I think our English website should be updated first. Actually, most of English blogs have been translated and published on Jinse. We just need to repost them on our website. I will prepare a list of articles to be published.
+
+
+[05/17/2021 11:19 AM] Dmitry Usov#0134
+@glasgowm thank you. very appreciate it!
+
+{Reactions}
+👌 
+
+[05/18/2021 3:13 PM] Eva Qing#8318
+Hi DeadIT. Here are No. 1 to No. 5 Articles to be published on Chinese Website, please post these articles from No. 1 to No. 5 in sequence. Thank you!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/844216148560314408/Articles_to_be_published_on_Chinese_Website_Articles_No._1_to_No._5.rar
+
+
+[05/18/2021 3:14 PM] Eva Qing#8318
+Hi DeadIT. Here are No. 6 to No. 10 Articles to be published on Chinese Website, please post these articles from No. 6 to No. 10 in sequence. Thank you!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/844216391648673802/Articles_to_be_published_on_Chinese_Website_Articles_No._1_to_No._5.rar
+
+
+[05/18/2021 3:16 PM] Eva Qing#8318
+Hi DeadIT. Here are No. 11 to No. 15 Articles to be published on Chinese Website, please post these articles from No. 11  to No. 15 in sequence. Thank you!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/844216810778001458/Articles_to_be_published_on_Chinese_Website_Articles_No._11_to_No._15.zip
+
+
+[05/18/2021 3:17 PM] Eva Qing#8318
+Hi DeadIT. Here are No. 16 to No. 22 Articles to be published on Chinese Website, please post these articles from No. 16 to No. 22 in sequence. Thank you!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/844217051517419590/Articles_to_be_published_on_Chinese_Website_Articles_No._16_to_No._22.zip
+
+
+[05/18/2021 5:20 PM] morphic#4133
+Hi, @Eva Qing, when you address the message to someone, you can use @ before the name, so that he gets notified (see how I used it before your name). Otherwise, chances are the messages get lost, because we have a lot of them in different channels these days.
+
+
+[05/19/2021 7:53 AM] Eva Qing#8318
+@morphic Thank you.
+
+
+[05/19/2021 7:54 AM] Eva Qing#8318
+@Dmitry Usov Hi DeadIT. Above listed are No. 1 to No. 22 Articles to be published on Chinese Website, please post these articles from No. 1 to No. 22 in sequence. Thank you!
+
+
+[05/19/2021 12:00 PM] Eva Qing#8318
+@Dmitry Usov This is No. 23 Article. Please post it to Ergo Chinese Website. Thank you!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/844529955962486824/No._23_ErgoGravity_ErgoETHBSC_-_.docx
+
+
+[05/21/2021 8:56 AM] glasgowm#9381
+@Eva Qing - Dmitry has asked me to do it. Few questions
+
+1- are these all for the blog section
+2-do you want these all uploaded at once? or staggered?
+
+
+[05/21/2021 8:59 AM] Eva Qing#8318
+@glasgowm most of them are for blog sections, some articles marked as news are for news section. You can upload them all at once based on the number of every article.
+
+
+[05/21/2021 9:12 AM] glasgowm#9381
+this is the wrong zip file, missing 6-10
+
+
+[05/21/2021 9:14 AM] Eva Qing#8318
+@glasgowm These articles are No. 6 to No. 10.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/845212975743893524/Articles_to_be_published_on_Chinese_Website_Artcles_No._6_to_No._10.zip
+
+
+[05/21/2021 9:14 AM] glasgowm#9381
+Think we need to get someone who speaks access on the CMS though. I can't tell if I'm breaking the formatting because it's in .docx and not markdown (.md)
+
+Also all the images are embedded in word, so would need to be extracted, reuploaded and relinked manually I think (I guess there might be a way to automate it)
+
+
+[05/21/2021 9:21 AM] glasgowm#9381
+ok I've got it extracting with pandoc. But would still need someone to fix up the formatting in the cms if possible. Might be ok though
+
+
+[05/21/2021 10:07 AM] Eva Qing#8318
+@glasgowm Please post this article with priority. Thank you!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/845226351379349514/No._24_Ergo_for_website_release.docx
+
+
+[05/21/2021 10:08 AM] Eva Qing#8318
+@glasgowm Kucoin will read this article.
+
+
+[05/21/2021 10:13 AM] glasgowm#9381
+Please see above @Eva Qing - you need someone who speaks Chinese on the CMS. I don't have the time to go through 50k words and fix the formatting in an unknown language. Heading up north right now and not back til Sunday when I can look more into automating it but you will still need someone to fix them up if I get them in as it's provided in the wrong format and wont translate exactly (lists, bullet points, etc)
+
+
+[05/27/2021 10:34 AM] Eva Qing#8318
+@glasgowm Sorry. I don't know how to solve the problem. Do you mean that I need to ask a Chinese developer for help?
+
+
+[05/27/2021 10:38 AM] glasgowm#9381
+You need someone who speaks Chinese and has 2FA. Doesn't need to be a developer, just needs needs to know Chinese. The system is very simple but I have no idea where a headline stops and ends, or how to fix any of the other formatting errors that will be introduced by trying to copy over such large amounts of text.
+
+
+[05/27/2021 10:48 AM] glasgowm#9381
+I think Authy works in China @Eva Qing  ?
+
+
+[05/27/2021 11:26 AM] glasgowm#9381
+There is also https://www.microsoft.com/en-us/account/authenticator
+
+{Embed}
+https://www.microsoft.com/en-us/account/authenticator
+Microsoft Authenticator – Securely Access & Manage Your Online Acco...
+The Microsoft Authenticator phone app gives you easy, secure access to online accounts, providing multi-factor authentication for an extra layer of security
+https://images-ext-1.discordapp.net/external/gwzFFHRYtZyn4TTM9mow6Dv6eb0U74cHRje2Zr2NI3I/%3Fver%3Dec28/https/img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWit7W
+
+
+[05/27/2021 11:37 AM] glasgowm#9381
+Aegis authenticator
+Free, open source, and if you have root it can import codes from other apps (including steam)
+Backup is just a json
+https://getaegis.app/
+
+
+[06/04/2021 7:11 AM] Eva Qing#8318
+@glasgowm Please post this announcement on Ergo Platform website. Thank you!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/850255490051211294/Ergo.docx
+
+{Reactions}
+✅ 
+
+[08/05/2021 1:48 PM] Eva Qing#8318
+@glasgowm
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/872823460840226827/unknown.png
+
+
+[08/05/2021 1:50 PM] Eva Qing#8318
+https://www.jinse.com/
+
+
+[08/05/2021 1:51 PM] Eva Qing#8318
+Please add this logo of Jinse Finance together with its website address in a form of a link to Ergo Platform website. Thanks.
+
+
+[08/05/2021 1:51 PM] Eva Qing#8318
+Please make reference to the practice of Deeper Network.
+
+
+[08/05/2021 1:52 PM] Eva Qing#8318
+https://deeper.network/
+
+{Embed}
+https://deeper.network/
+Deeper Network
+
+
+[08/05/2021 1:52 PM] Eva Qing#8318
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/872824344164831313/unknown.png
+
+
+[08/05/2021 1:53 PM] Eva Qing#8318
+Please add it as soon as possible.
+
+
+[08/05/2021 1:53 PM] Eva Qing#8318
+Thank you very much.
+
+
+[08/05/2021 4:08 PM] glasgowm#9381
+whereabouts should this go?
+
+
+[08/05/2021 4:10 PM] Eva Qing#8318
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/872859037765611550/unknown.png
+
+
+[08/05/2021 4:10 PM] Eva Qing#8318
+Partner & Media
+
+
+[08/05/2021 4:10 PM] Eva Qing#8318
+Partners & Media
+
+
+[08/05/2021 4:11 PM] Eva Qing#8318
+It's better to add Emurgo, Gravity, Waves and other partners including the list of exchanges.
+
+
+[08/06/2021 10:51 AM] Eva Qing#8318
+@glasgowm https://www.jinse.com/pages/projects/ergo
+
+
+[08/06/2021 10:51 AM] Eva Qing#8318
+Please use this link. This link contains the articles about Ergo.
+
+
+[08/06/2021 10:51 AM] Eva Qing#8318
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/873141194820034580/unknown.png
+
+{Reactions}
+👍 ✅ 
+
+[08/07/2021 9:00 AM] Justin1000#9555
+Thats really awesome Jinse did this for us! Think it should add to our profile in China. Please update the website for their logo when you can. Thanks!
+
+
+[08/09/2021 11:07 AM] morphic#4133
+@Dmitry Usov ^
+
+
+[08/09/2021 11:58 AM] Dmitry Usov#0134
+Yep, Glasgow said he will do it
+
+
+[08/09/2021 1:04 PM] glasgowm#9381
+Yep will do. Been busy with the influx and at a engagement photoshoot today.
+
+{Reactions}
+👍 
+
+[09/09/2021 11:41 AM] glasgowm#9381
+just fyi. Hope what he does it good and we can get him to do more 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/668913385622208514/885474986876354570/unknown.png
+
+{Reactions}
+👍 (2) 
+
+[09/10/2021 10:44 AM] glasgowm#9381
+```
+Hi ergoplatform.org,
+I have discovered another misconfiguaration, I detected that weak ciphers are enabled during secure communication (SSL) which allow users to be subjected to mitm attacks.
+
+Description
+Weak ciphers allow hackers to decrypt ssl communication between your server and visitors, You should allow only strong ciphers on your web server to protect secure communication with your visitors.
+
+Proof Of Concept
+A screenshot is attached
+
+Steps To Reproduce
+-Go to https://www.ssllabs.com/ssltest/index.html
+-Paste the domain's url
+
+Proof Of Concept
+A screenshot is attached.
+
+Remediation
+Configure your web server to disallow using weak ciphers.
+
+Impact
+Allows hackers to decrypt ssl traffic
+MITM Attacks
+
+Looking forward to your response
+
+Regards
+Zohaib
+```
+
+```
+ As you have not responded to any of my vulnerability reports I am assuming that your website and its user's security is not your priority. Please allow me to do write ups of these findings on my blog for educational purposes.
+
+Looking forward to your email
+
+Regards
+Zohaib
+```
+
+
+==============================================================
+Exported 1,155 message(s)
+==============================================================

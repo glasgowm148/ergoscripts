@@ -1,0 +1,175 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🗺  ・〘 Regional 〙☰ / 🇵🇱│polskie
+==============================================================
+
+[02/07/2021 4:45 AM] masterofskun#2311
+jest tu ktoś z polski ? 😄
+
+
+[02/07/2021 10:53 AM] tasmanx#4129
+tak
+
+
+[02/07/2021 11:02 AM] POLlCJA#7118
+macie maseczki?
+
+
+[02/22/2021 6:09 PM] guru_meditation0#6096
+siema 😉
+
+
+[03/02/2021 3:02 PM] george79#6437
+Cześć.
+
+
+[03/03/2021 4:36 PM] A_gora#8702
+Cześć
+
+
+[03/27/2021 12:11 PM] wojtess#0443
+siema siema
+
+
+[05/16/2021 8:59 PM] matty.pl#1850
+siemanko jakiego portfela uzywacie do ergo ????
+
+
+[05/18/2021 2:50 PM] guru_meditation0#6096
+Yoroi
+
+
+[05/18/2021 2:50 PM] guru_meditation0#6096
+btw. jakby co strona Ergo jest teraz dostepna po polsku (przetlumaczylem ja jakis czas temu)
+
+
+[05/27/2021 9:51 AM] Dindol#2070
+Sprawdź czy z Yoroi możesz wysłać Ergo, bo ja właśnie nie mogę … taki zonk
+
+
+[05/27/2021 1:07 PM] Melon#8712
+Sprawdz czy działa na najnowszej wersji yoroi 4.5.3
+
+
+[05/28/2021 5:40 PM] FYM#1988
+witam znalazłem sie na tej grupie, ponieważ zbieram informacje na temat kryptowaluty ergo, czy mógł by ktoś opisać jak powstała ta kryptowaluta oraz swoje własne informacje które bym mógł użyć do pracy?
+
+
+[05/28/2021 9:35 PM] Melon#8712
+https://ergoplatform.org/en/documents/
+
+{Embed}
+https://ergoplatform.org/en/documents/
+Documents | Ergo
+
+
+[05/29/2021 4:44 PM] matty.pl#1850
+witam kopie ktos Ergo przez HIVE OS ??? mam maly problem, wczesniej eth kopalem i chcialem przejsc na ergo jednak cos sie nie chce wlaczyc ???
+
+
+[05/31/2021 7:48 AM] wojtess#0443
+@matty.pl juz wyciagam moja kule i mowię ci co ci nie dziala
+
+{Reactions}
+🧠 
+
+[06/01/2021 1:50 PM] matty.pl#1850
+Wiesz co nie zawiodlem sie tak wsumie czytalem co napisalem i stwierdzilem ze polak od polaka nie dostanie raczej pomocy wiec doszlem sam do tego co bylo zle i zachowam to dla siebie pozdrawiam 🤓😁🦦🦦
+
+
+[06/01/2021 1:50 PM] wojtess#0443
+XDDDDDDDDDDDDD
+
+
+[06/01/2021 1:51 PM] wojtess#0443
+chętnie bym ci pomógł, gdybys napisal o co chodzi. To,ze nie dziala nie oznacza ze jest tego tylko jedna przyczyna
+
+
+[06/14/2021 9:04 PM] breku80#5390
+Witam probuje kopac ergo na herominers, ktos mi powie gdzie znajde miner IP address potrzebny do weryfikacji?
+
+
+[06/15/2021 7:45 AM] wojtess#0443
+zewnętrzny adres ip koparki, podlacz sie pod wifi pod którą jest podłączona koparka i wpisz `moje ip` w google
+
+{Reactions}
+👍 
+
+[08/20/2021 12:54 AM] breku80#5390
+Jest tu ktoś kto posiada gigabyte 3060 ti eagle lhr? I moze podać hash i temp?
+
+
+[08/26/2021 7:07 AM] Pipes#8588
+witam serdecznie
+
+
+[08/26/2021 11:57 AM] Pipes#8588
+Nie kopię, ale kupuję trochę. Myślę, że to mega waluta jeśli idzie o wzrost
+
+
+[09/22/2021 2:36 PM] Ciubaja#4430
+Hej
+
+
+[09/22/2021 2:36 PM] Ciubaja#4430
+Ja mam Gigabyte RTX 3060ti eagle LHR, na pamięciach samsunga, mam 136mh/s i 51 stopni przy 70% wentylatorach
+
+
+[09/22/2021 2:37 PM] Ciubaja#4430
+temperatura otoczenia to ok 19 stopni
+
+
+[09/23/2021 11:26 AM] Pipes#8588
+ile wychodzi Ci ergo na czysto na miesiąc?
+
+
+[09/23/2021 11:50 PM] Ciubaja#4430
+A to zalezy od kursu
+
+
+[09/24/2021 9:47 AM] Pipes#8588
+Tak mniej więcej? Ja po prostu kupuję co jakiś czas. Myślałem o kopaniu, ale żeby to miało sens musiałbym kupić sobie kompa do tego parę lat temu, bo teraz ceny GPU są z kosmosu
+
+
+[09/25/2021 12:17 PM] mikeez#4664
+Hej, kopie ktoś solo na swoj node?
+
+
+[10/06/2021 4:59 PM] Pipes#8588
+Ja tylko kupuję
+
+
+[03/23/2022 9:46 AM] red_zary#3465
+witam wszystkich. jestem tu od września, ale nie zwróciłem uwagi, że jest polski kanał 🙂
+
+
+[03/28/2022 3:54 PM] StoneFist85#0465
+Również witam, fajnie jakby ktoś kto siedzi tutaj często i jest na bieżąco mógłby podrzucić co jakiś czas świeże info, co się dzieje, jakie plany, itp
+
+
+[05/16/2022 6:35 PM] *SeTaB*#4022
+słuchajcie chłopy ergo solo ostatnio widziałem ze za blok jest 153 dolce pacjęt z nicehash walnoł 2 bloki w 24h ale miał moc 6 gh ja mam tylko na ergo 1gh moze trochę wiecej takie małe info moze bedzie ich wiecej na naszym polskim kanale miałem dziś isć to robić ale jestem zjebany po robocie
+
+
+[05/16/2022 6:36 PM] *SeTaB*#4022
+https://www.youtube.com/watch?v=RgnPNjt1Abg&t=302s
+
+{Embed}
+Crypto Mining Insider
+https://www.youtube.com/watch?v=RgnPNjt1Abg&start=302
+I Made Higher Profits SOLO Mining ERGO than Ethereum | Great Ethere...
+Are you prepared for Ethereum going POS ? Do you have a mining strategy or know what coin you plan to mine next ?
+I participated in The Great Ethereum Hashrate Migration and Made HIGHER PROFITS Mining Alt Coins than Mining Ethereum.
+Let me share my Lucky day with You !
+
+▶️ 𝐀𝐌𝐀𝐙𝐎𝐍 Link for Mining Gear and ALL Your Amazon Purchases - (it helps me ...
+https://images-ext-2.discordapp.net/external/Sej8Z73IvyESvP2IeXsjm5WeMWi5TFiJzwb4-8Cbisc/https/i.ytimg.com/vi/RgnPNjt1Abg/maxresdefault.jpg
+
+
+[09/13/2022 8:41 PM] TheAlpha#1548
+witam serdecznie
+
+
+==============================================================
+Exported 37 message(s)
+==============================================================

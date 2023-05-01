@@ -1,0 +1,2482 @@
+==============================================================
+Guild: Ergo Platform
+Channel: Σ  ・〘 Sigmanauts 〙☰ / 🗣│vote
+Topic: Voting on proposals - these can be proposed by anyone and must pass by unanimous majority. Please use the emoji's to vote (👍/down and/or the Sigmanaut icon).
+==============================================================
+
+[12/16/2021 3:01 PM] glasgowm#9381
+We have 90 candidates in total now. These are the 30 planned for first SIGCAN cohort. Let me know if there are any objections, you should be able to see this via the onboarding doc too. 
+
+Figure this is better than opening the floodgates straight away. Could also be reduced to a smaller number if preferable.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/921045762920570920/921054323226583070/unknown.png
+
+
+[12/16/2021 3:15 PM] DenAce#1197
+Couldn't find the list in the picture in the onboarding doc.
+
+
+[12/16/2021 3:16 PM] glasgowm#9381
+Go to 'Who's who' then 'Directory'
+
+
+[12/16/2021 3:17 PM] DenAce#1197
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/921045762920570920/921058407904071680/unknown.png
+
+
+[12/16/2021 3:18 PM] glasgowm#9381
+Oh I see, must be a permissions thing
+
+
+[12/16/2021 3:20 PM] glasgowm#9381
+https://docs.google.com/spreadsheets/d/1Zwd6tFPuE1fgylkjREHqdilGfCoH0jSJXr7B0H7IkC8/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1Zwd6tFPuE1fgylkjREHqdilGfCoH0jSJXr7B0H7IkC8/edit?usp=sharing
+SIGCAN COHORT 1
+Sheet1
+
+esot321c,Creator,Entrepreneurial experience only,9,it needs a mobile dapp browser asap
+Karim Essafi,Creator,Embassy,Translator,background in theoretical physics, programming in c++, python and mathematica, Fluent/native speaker in English, French and Swedish,9,More Oracle pools, short vid...
+https://images-ext-2.discordapp.net/external/kGoMz0L4hy973F7NLABUPu0kjKLldfm5kRh0CUz-GTc/https/lh4.googleusercontent.com/DS0BAOmnEMJcnGzWIdIPmfBuNr7nIa4H89BzTiPFzi6iyGO4xtBhlRL2bWICcm-RZJEcS5Xux2enXQ%3Dw1200-h630-p
+
+{Reactions}
+👍 (3) 
+
+[12/16/2021 3:20 PM] glasgowm#9381
+little bit broken but should make sense
+
+
+[12/20/2021 2:01 PM] glasgowm#9381
+@Sigmanauts please vote !
+
+**SIGCAN COHORT 1 PROPOSAL**
+
+**Proposal**: The following (33) people to be admitted to the training programme as 'sigmanaut candidates' (SIGCAN). They were added based on the time they able to commit, experience, and activity within the community. 
+
+**Voting**: Vote must be passed unanimously (no one disagrees) using the thumbs up/down emoji's on the comments contained within this thread. Everyone gets a tag/notification and then has 24 hours to respond (to allow for timezones, other commitments, etc). Please read the thread below, reply there with any concerns or additions.
+
+{Reactions}
+✅ 
+
+[12/20/2021 10:31 PM] glasgowm#9381
+Congrats @Sigmanauts  - your first vote that'll impact how Ergo operates. 
+
+**Proposal**: Should Lunadog get their own channel on Discord. (#lunadog)
+
+- Don't want to open the floodgates to every shitcoin. 
+- $COMET does have one, but I suppose at least @JOFLITO is doing a SC
+- They are on ErgoDex however. 
+
+**Voting:** Same rules as above. Please discuss in the nested thread - and use the emoji's to vote
+
+{Reactions}
+👍 👎 (11) ✅ 
+
+[01/14/2022 12:19 PM] glasgowm#9381
+I'm going to start setting up some votes to admit some @SigCan into the @Sigmanauts role then invite some more SIGCANs in. (Or we can leave them a bit longer - up for discussion)
+
+Please discuss in the thread for each person. (You should have perms to create one here). Use Emoji's to vote.  Will let this run til Monday to get enough votes
+
+
+[01/14/2022 12:19 PM] glasgowm#9381
+@cafebedouin
+> **Experience:** Worked at an ad agency doing market research
+> **Improvements**: Better docs 
+> **Activity**:  Been helping with ergonaut.space, branding copy, active on socials.
+> **Roles:** `Writer`, `Creator`, `Marketing`, `Embassy`
+> 
+*Promote to Sigmanaut*
+
+{Reactions}
+👍 (17) 👎 ✅ 
+
+[01/14/2022 12:21 PM] glasgowm#9381
+@HazeyOneKenobi
+> **Experience:** > Dev by trade
+> **Improvements**: Transaction finality speed
+> **Activity**:  Actively working with anetaBTC, active in #🗣│sig-chat 
+> **Roles:** `Writer`, `Creator`, `Marketing`, `Embassy`
+> 
+*Promote to Sigmanaut*
+
+{Reactions}
+👍 (16) 👎 ✅ 
+
+[01/14/2022 12:21 PM] glasgowm#9381
+@Gstoiti
+> **Experience:** I have a master's degree in financial and actuarial mathematics and experience in teaching and supervising university students. Hence, I think I would be able to help people to understand decentralized financial tools like SigUSD and SigRSV.
+> 
+> **Improvements:** Regarding the Ergo ecosystem, I think what definitely needs improvement is the light wallet situation for desktops. That could be either providing a new light wallet which does not depend on Emurgo or fixing Yoroi and making sure that Emurgo takes care of it. With respect to Ergo itself, the most urgent problem seems to be altering the emission schedule to guarantee long-term network stability.
+> 
+> **Roles:** `Moderator`, `Translator`, `Embassy`
+> **Activity: **
+> 
+*Promote to Sigmanaut*
+
+{Reactions}
+👍 (15) 👎 ✅ 
+
+[01/14/2022 12:21 PM] glasgowm#9381
+@crandano 
+> **Experience:** I helped create the Ergo NFT Discord channel. In my professional career I have been in the Service Industry for a little over ten years total including Client Engagement.
+> 
+> **Improvements:** I believe there's always a need for more information readily available for the non-tech savvy users. I think this has improved a lot over the years with Glasgow and Armeanio's help. I really enjoyed the ErgoCast format and I think a few more vodcasts in that vein could really help out. Overall, I'm really optimistic for the direction Ergo has been heading in, and I constantly see improvements.
+> 
+> **Activity**: Helping with #announcements channel, active on socials.
+> **Roles:** `Moderator`, `Embassy`
+> 
+*Promote to Sigmanaut*
+
+{Reactions}
+👍 (12) 👎 ✅ 
+
+[01/14/2022 12:21 PM] glasgowm#9381
+@KuantumWinter
+> background in theoretical physics, programming in c++, python and mathematica, Fluent/native speaker in English, French and Swedish
+> Improvements: More Oracle pools, short videos, education material (see Figment learn for example)
+> **Activity:** Made some amends to ergonaut.space, been active in #🗣│sig-chat
+> **Roles:** `Creator`
+> 
+*Promote to Sigmanaut*
+
+{Reactions}
+👍 (15) 👎 ✅ 
+
+[01/14/2022 12:28 PM] glasgowm#9381
+@BrothaChad
+> -Adaverse YT
+> -Ergo miner
+> -Cardano SPO
+> -Previous experience with financial markets + consulting
+> **Improvements**: Public exposure
+> **Roles**: `Creator` `Marketing`
+> **Activity**: https://discord.com/channels/668903786361651200/920637534046920744/927865455249596446
+> 
+*Promote to Sigmanaut*
+
+{Reactions}
+👍 (15) 👎 ✅ 
+
+[01/14/2022 12:29 PM] glasgowm#9381
+@Donalddd 
+> **Experience**: DevOps engineer
+> **Improvements**: I think more developers working on products that will bring more people to this community is important. Why would someone use Ergo instead of another L1 or Ethereum today? Ergo needs to find it's strong point and build on that to increase the community and developers working on it.
+> **Roles**: `Creator` `Translator` `Writer`
+
+*Promote to Sigmanaut*
+
+{Reactions}
+👍 (13) 👎 
+
+[01/14/2022 12:33 PM] glasgowm#9381
+@curbsideprophet
+> **Experience**: Data scientist & visualization at Uber
+> **Improvements**: Easier onramp for Ergo node setup it's too difficult for the normal user right now
+> **Roles**: `Creator`, `Moderator`
+> 
+*Promote to Sigmanaut*
+
+{Reactions}
+👍 (15) 👎 ✅ 
+
+[01/14/2022 1:11 PM] quokka#1273
+Started a thread.
+
+
+[01/14/2022 1:16 PM] glasgowm#9381
+@Marty (Marty)
+
+> Experience: Entrepreneurial experience only
+> Improvements: it needs a mobile dapp browser asap
+> Roles: `Creator`
+> Activity: ErgoPad
+
+*Promote to Sigmanaut*
+
+{Reactions}
+👍 (13) 👎 ✅ 
+
+[01/14/2022 2:53 PM] Luivatra#9076
+Started a thread.
+
+
+[01/14/2022 5:01 PM] Ergonaut_Alpha#1583
+Started a thread.
+
+
+[01/17/2022 10:04 AM] glasgowm#9381
+@Σotiris
+> **Experience:** Digital Marketing Specialist
+> **Improvements:** Community growth. People will fall in love with ERGO if they learn more about it.
+> **Activity:** some activity in support channels across discord, branding, sigcan
+> **Role**: `Marketing`
+> **psuedo**: [ `Reddit`, `RocknRo1la`] , [`Telegram`, `@sotiris_oiko`]
+
+*Promote to Sigmanaut*
+
+{Reactions}
+👍 (14) 👎 ✅ 
+
+[01/17/2022 10:07 AM] glasgowm#9381
+@cozycole 
+> **Experience**: College student studying CIS and member of Oregon Blockchain Group. I write articles on medium.
+> Improvements: I think I'd want there to be more literature bridging the gap between the highly technical whitepapers, and the short, hand-wavey articles posted on the Ergo website. We need to go more in depth with certain topics to show that there is value being provided.
+> **Improvements**: I think I'd want there to be more literature bridging the gap between the highly technical whitepapers, and the short, hand-wavey articles posted on the Ergo website. We need to go more in depth with certain topics to show that there is value being provided.
+> **Activity**: active in discussions, editorial
+> **Role**: `Writer`, `Marketing`
+> **psuedo**: [ `Reddit`, `cryptocozy1`] , [`Telegram`, `@cryptocozy1`]
+
+*Promote to Sigmanaut*
+
+{Reactions}
+👍 (13) 👎 ✅ 
+
+[01/24/2022 12:34 PM] glasgowm#9381
+SIGCAN Cohort 2 
+
+If anyone would like to nominate anyone the full spreadsheet is available here:
+https://docs.google.com/spreadsheets/d/1ZY6MFvC0WxNnOjrhvf9N2JQ3QqEx8vx-me8xUp8-lnQ/edit?usp=sharing
+
+
+[02/07/2022 12:34 PM] glasgowm#9381
+Reminder to vote on these two and the SIGCAN cohort 2 in the thread below @Sigmanauts
+
+{Reactions}
+👍 
+
+[02/08/2022 5:15 PM] glasgowm#9381
+@Vierolean / MaSter_vierolean / mrtn_vienna 🇦🇹
+> Improvements: Audio and Video qualities of AMAs
+> Experience: Economics
+> Roles: `Moderator`, `Translator`, `Embassy` , `Marketing`
+
+Didn't recognise his username at first so was missed. Active in community marketing chat/twitter, think he's a mod in the german group too. For this reason I propose he be let straight into the sigmanauts but will leave the vote open both ways
+
+- 🥚 - admit to sigcan
+- :sigmanaut: - admit to sigmanauts
+- 👎 - reject
+
+Please open a thread for any further discussions
+
+{Reactions}
+🥚 sigmanaut (21) 👎 ✅ 
+
+[02/08/2022 7:33 PM] NoahErgo#4349
+Hes a sigmanaut, no brainer
+
+
+[02/08/2022 7:33 PM] NoahErgo#4349
+Hes doing so much for the community
+
+{Reactions}
+👍 (5) 
+
+[02/08/2022 10:53 PM] Σotiris#3516
+agree
+
+
+[02/28/2022 1:17 PM] glasgowm#9381
+Another one missed during the initial setup because they were afk at the time.
+
+Please vote @Sigmanauts 
+
+Ile / @Vesi Hiisi
+
+Active on Telegram chats. Economics background 
+
+**Notable contributions**
+https://www.ergoforum.org/t/lessons-for-sigmausd-from-the-djed-paper/2345
+Discussions around SigmaUSD, #deleted-channel, DAOs, etc. 
+
+- 🥚 - admit to sigcan
+- :sigmanaut: - admit to sigmanauts
+- 👎 - reject
+
+{Embed}
+https://www.ergoforum.org/t/lessons-for-sigmausd-from-the-djed-paper/2345
+Lessons for sigmausd from the DJED paper
+Dear all,  DJED paper:   TLDR  minimal djed = sigmausd  Extended djed seeks to correct the following shortcomings: Reserve draining attack (read bearwhale), wholesale discount (buying in one tx is cheaper than the same amount with multiple tx, because the price changes in between), Zero equity (at 100% reserve ratio, reservecoin is worthless), r...
+https://images-ext-1.discordapp.net/external/FGOfvfyVZNj4VAIgX2mS-RWeiDwj6_IpDHPkt0qTyJk/https/aws1.discourse-cdn.com/standard14/uploads/ergoforum/original/1X/6ddaa9cd6102a55f417821b8ceece43dbe730113.jpeg
+
+{Reactions}
+sigmanaut (16) 🥚 (4) 👎 ✅ 
+
+[04/13/2022 9:03 PM] Typeform#0000
+New SIGCAN Applicant: abashai#1337
+Roles: 
+
+Experience: Network Engineer, Security Analyst, ERG Miner
+Improvements:Drive awareness and adoption & breaking down the tech into digestible parts the masses can understand.
+Twitter: abashai_
+Reddit: 
+Time: 8am-5pm est, Hours:4
+
+{Reactions}
+🥚 (7) 
+
+[04/13/2022 10:14 PM] Typeform#0000
+New SIGCAN Applicant: hq3r
+Roles: TranslatorCreator
+
+Experience: maketing
+Graphics designer
+Web Designer
+UI Design
+Improvements:i like the slow pace ergo develpoment
+Twitter: iamhasaniqbal
+Reddit: 
+Time: 11-11pm, Hours:7
+
+{Reactions}
+🥚 (5) sigmanaut 
+
+[04/19/2022 8:35 AM] Jεnniε D#1687
+I want to add something for those who maybe don't follow him asking to check him out before voting. I think he'd be a great asset. No "ergo maxi" vibes, sincere appreciation, killer threads (not daily, but to the point), twitter peppered with appreciation for other chains too (pro: utxo alliance ones, like ckb). (No idea why my name is pink, but I like it :1636happypepe: )
+
+
+[04/19/2022 11:05 AM] glasgowm#9381
+---
+**New SIGCAN Applicant**
+
+WilfordGrimley#0124    
+Embassy, Marketing, Writer, Creator, Moderator    
+(Time available/10): 10    
+"grass roots connections in my local community in Ottawa, Canada.
+
+Employed as an Assistant grocery store manager
+
+participated in Ergo's first hackathon on team SmartPool.
+
+Am active on Ergo's social media channels"    transparency in the planned and current spending of the Ergo Foundation treasury.    
+
+WilfordGrimley    
+wilfordgrimley@pm.me    
+@WilfordGrimley    
+1pm- 1am UTC
+
+{Reactions}
+🥚 (8) sigmanaut (7) ✅ 
+
+[04/19/2022 11:06 AM] glasgowm#9381
+---
+**New SIGCAN Applicant**
+
+Sisyphuspush    @sisyphuspush    
+Embassy, Moderator, Marketing    
+(Time available/10): 8    
+
+Marketing, sales, community organizer, customer service and support    
+
+Education and awareness    
+Ergonaut1    Sisyphuspush    
+sisyphuspush@outlook.com    1-9pm UTC
+
+{Reactions}
+🥚 (10) sigmanaut ✅ 
+
+[04/19/2022 11:07 AM] glasgowm#9381
+---
+**New SIGCAN Applicant**
+
+Veeno    @Veeno#8009    
+Creator, Translator    
+(Time available/10): 10    
+
+Front end developper    the community    
+@Veeno_Hz    
+sebastien.cloiseau@gmail.com    
+Veeno_Dev    
+9am - 6pm
+
+{Reactions}
+🥚 (10) sigmanaut 
+
+[04/19/2022 11:08 AM] glasgowm#9381
+---
+**New SIGCAN Applicant**
+
+MoronicNFTs    
+@keen_moron   
+Marketing, Writer, Moderator, Creator    
+(Time available/10): 8    
+
+Worked as a marketing guy for multiple small scale businesses & a frontend developer    Promote Ergo content on different platforms so that more people adopt the amazing tech Ergo offers    
+
+yateesh192@gmail.com        
+Throughout the day
+
+{Reactions}
+🥚 (11) sigmanaut ✅ 
+
+[04/19/2022 11:08 AM] glasgowm#9381
+---
+**New SIGCAN Applicant**
+
+ergotutorials    @Bryce    
+Creator, Marketing    
+(Time available/10): 4    
+
+Marketing, Graphic Design, and Video Content Creation    Social Media flare and Video/Audio quality   
+
+Ergotutorial    u/abcdefghijklmnop987    brycewatts28@gmail.com 
+4 pm - 10 pm EST
+
+{Reactions}
+🥚 (10) sigmanaut (3) 
+
+[04/19/2022 11:08 AM] glasgowm#9381
+---
+**New SIGCAN Applicant**
+
+@daskre  
+Translator    
+(Time available/10): 3    
+
+Bachelor's in German and English, Master's in interdisciplinary media sciences - 10 years of professional experience in educational technology and project management    Improve education content for more accessible and efficent DYOR. And maybe type up a new privacy policy for ergoplatform.org... because "We don’t store your data, period." is not how any of this works 😄    
+
+ErgoNoot    u/shabadarksharkshark    daskre.vodlund@gmail.com    @daskre    5-9 pm UTC
+
+{Reactions}
+🥚 (11) sigmanaut ✅ 
+
+[04/19/2022 11:08 AM] glasgowm#9381
+---
+**New SIGCAN Applicant**
+
+Michael @liquid_phase    
+liquid_phase    Marketing, Writer, Embassy, Creator    
+(Time available/10): 5    
+
+"CEO of Music Label (rights management/digital publishing) 
+ISO Quality System Manager Public-traded company
+Founder Digital Quality System Consultant Firm
+Experience with rapid growth industry(legal cannabis manufacturer blitz-skale 2 year period)
+Experience building apps
+experience building websites (html/php/css/laravel/etc)
+Experience with grey-market legality marketing and bridging high level concepts into marketing
+Experience building learning management system frameworks (learndash + zapier automation) and course curriculums
+https://linkedin.com/in/mike-belanger"    Better webcams for the community updates and more enterprise integration (supply chain, IoT, quality systems) dealings    
+
+liquidphaseNFT        mike@gcc-v.com        Mon-Fri 12am to 4am UTC | Sat-Sun 4PM-12am UTC
+
+{Reactions}
+🥚 (7) sigmanaut (6) ✅ 
+
+[04/19/2022 11:10 AM] glasgowm#9381
+---
+**New SIGCAN Applicant**
+
+JayDee12Thr33    
+@JayDee12Thr33    
+
+Writer, Embassy    
+(Time available/10): 6    
+
+I wrote some blog posts for a optritionist (?) I am a somewhat active community member on reddit.    
+
+Easily digestible information about the buzzwords that make Ergo so unique.    
+
+dee12Thr33    u/Jaydee12thr33    
+jesco.dechamps@gmail.com    
+JayDee12Thr33    
+UTC 12 am - 10 pm
+
+{Reactions}
+🥚 (10) sigmanaut ✅ 
+
+[04/19/2022 11:11 AM] glasgowm#9381
+---
+**New SIGCAN Applicant**
+
+Tahsin Mahbub    
+@Tahsin07#2876    
+Moderator, Marketing, Embassy    
+(Time available/10): 8    
+
+Yes    Publicity campaigns need to be stepped up.  And each country should have at least one community moderator.    
+
+Mahabul74771112    Independent5075/    mahbubofficiai24@gmail.com    @tahsin70    9 am to 5:30 pm UTC
+
+{Reactions}
+🥚 (9) sigmanaut 
+
+[04/19/2022 11:11 AM] glasgowm#9381
+---
+**New SIGCAN Applicant**
+
+Feldman1    @ATXpert    
+Translator, Embassy, Marketing    
+(Time available/10): 10 
+
+"Background in coding, I am a miner for sometime.
+
+Willing to help ergo grow in any way possible, even flying to United States if needed (joke but  serious)"    "I would make a non profit foundation for some problem in the world, and fund it by giving miners the option to give small cut of their profits towards it.
+
+Not only it will solve a problem, but it will raise awareness to the project/coin, and change people's minds about crypto as a whole."    
+
+FeldmanLiron    atxpert12    lironfeldman0@gmail.com    Feldman1
+
+{Reactions}
+🥚 (11) sigmanaut ✅ 
+
+[04/19/2022 11:12 AM] glasgowm#9381
+---
+**New SIGCAN Applicant**
+
+Shromel    @shromel    Moderator, Creator    
+(Time available/10): 3    
+
+Creator: 11 years in music production and audio engineering, 
+
+Moderator: community manager at Liqwid Finance & non-crypto related discords and communities    I could primarily help out with creating unique audio to go with any videos or marketing related. Also management and moderation aid in general!    
+
+Ergadalien.   usebye@protonmail.com    none    
+Very varied, usually *not* 12-17 UTC
+
+{Reactions}
+🥚 (10) sigmanaut ✅ 
+
+[04/19/2022 11:12 AM] glasgowm#9381
+---
+**New SIGCAN Applicant**
+
+Kevin    @happyDog44647    
+
+Moderator, Translator, Marketing, Writer, Embassy, Creator    
+(Time available/10): 10    
+
+EdTech Startup founder, English teacher, Government scholar, HR manager.    All Marketing- related activities:  social awareness (virality), VCs or whales attention, more partnerships with all related stakeholders, and a charismatic representative for Ergo on social media.    
+
+@happyDog44647    u/PossessionIcy5531    leeee.kevin@gmail.com    @happyDog44647
+
+{Reactions}
+🥚 (10) sigmanaut ✅ 
+
+[04/19/2022 3:46 PM] glasgowm#9381
+@Sigmanauts please vote on the above ~15 SIGCAN applicants.
+
+From now on any new applicants will be auto-posted here.
+
+The full applicant list is here if anyone wants to nominate - https://docs.google.com/spreadsheets/d/1Yv3EJcLsp8tY-E827BhdaQH9Io-QJizb5guHzmS6aZo/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1Yv3EJcLsp8tY-E827BhdaQH9Io-QJizb5guHzmS6aZo/edit?usp=sharing
+Sigmanaut Applicants
+Ambassador Programme
+
+Submitted At,Stage,Let's start with your* name.*,Discord username,What *ambassador role* are you interested in?,How much time can you dedicate to ergo.,Any relevant professional experience?,If you could improve one thing about Ergo today, what would it be?,Twitter handle,Red...
+https://images-ext-2.discordapp.net/external/TDRoMxCIx3Sczu41CUcxf0RFBDilQCysvBkz9iNsSLA/https/lh5.googleusercontent.com/kxO5UqwlE7nKUGhsI8ZGDeGKsZq1H4XZzPlrePO4SjEhZdwx4gQdDGCZJeDbb-6Ufo0AxOdXpmAuig%3Dw1200-h630-p
+
+
+[04/20/2022 10:51 AM] glasgowm#9381
+Moved to threads to keep it tidy / stop the votes getting lost in the scrollback.
+
+
+[04/30/2022 3:38 AM] JOFLITO#9983
+I love Kevin, but he hasn't been so active lately, I hope this sigcan role brings him back. My boy has a saint patience with Matt B and the gang lol
+
+
+[05/06/2022 5:05 AM] Typeform#0000
+New SIGCAN Applicant: Jumei#5536
+Roles: Creator
+
+Experience: solutions architect, backend dev in finance and hr analytics systems
+Improvements:S3 Ergnomes Sooner. :)
+Twitter: $jmeta
+Reddit: 
+Time: 2pm - 10pm utc, Hours:10
+
+{Reactions}
+🥚 (13) 👎 ✅ 
+
+[05/06/2022 10:11 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Rishabh#7490
+Roles: TranslatorCreatorModerator
+
+Experience: I have 1 year of experience as blockchain & cryptocurrency market news researcher from crypto news website, also i have a basic knowledge of SEO 
+
+And handling social media platform
+Improvements:Cross-chain interoperability
+Twitter: rprishabh7
+Reddit: u/Beautiful-Minute2842
+Time: 6am - 3pm UTC, Hours:10
+
+{Reactions}
+🥚 (10) 👎 ✅ 
+
+[05/06/2022 10:11 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Barry S
+Roles: 
+
+Experience: I'm a self-employed B2B copywriter, SEO content writer, editor, and proofreader.
+Improvements:Attempt to ensure absolute consistency in the written material released on the Ergo website, blog, etc. through a detailed community style guide regarding copy tone, language, etc.
+Twitter: 
+Reddit: 
+Time: 7-9am UTC, Hours:3
+
+{Reactions}
+🥚 (7) 👎 ✅ 
+
+[05/06/2022 10:11 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @sisyphuspush
+Roles: EmbassyCreatorModerator
+
+Experience: Community Organizer , Marketing, Sales
+Improvements:Organize the community and their passions, creating an avenue for regular people to find a place in the ecosystem outside of holding and trading.
+Twitter: @ergonauts1
+Reddit: sisyphuspush
+Time: 2pm-12am UTC, Hours:10
+
+{Reactions}
+🥚 (10) 👎 ✅ 
+
+[05/11/2022 1:31 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @phillipzack #7194
+Roles: 
+
+Experience: Marketing/ Buisness owner
+Improvements:Marketing strategies.
+Twitter: 
+Reddit: 
+Time: 12pm-4AM, Hours:10
+
+{Reactions}
+🥚 (5) 👎 (2) ❌ 
+
+[05/16/2022 11:39 AM] glasgowm#9381
+5 more applicants over the past 10 days @Sigmanauts. Please evaluate  vote & start threads with any comments.
+
+
+[05/16/2022 11:49 AM] Foeniculum#3278
+he's got great ideas, is very passionate about anything ERG and ADA and has been active on socials since I joined Ergo
+
+
+[05/16/2022 6:51 PM] Chris Ray#2713
+Before I vote yet more into the Sigcan program it seems like a good idea to reevaluate who is already a part of it and question whether or not they should remain in it at all or if they should be advanced forward, not a very lively bunch over there tbh (just consider me abstaining).
+
+{Reactions}
+kushti_thumbsup 
+
+[05/16/2022 9:02 PM] Ergonaut_Alpha#1583
+We definitely need freshies
+
+
+[05/17/2022 10:22 PM] glasgowm#9381 (pinned)
+I've labelled them all here
+
+https://docs.google.com/spreadsheets/d/1Yv3EJcLsp8tY-E827BhdaQH9Io-QJizb5guHzmS6aZo/edit#gid=1621253460
+
+32 total - There's a few active elsewhere that are probably due a sigmanauts promotion.
+
+- FathersFollly / AffableVillain (very active on the reddit moderation/answering Qs)
+- Alex Tuturescu - active in the community spaces, made up those romanian graphics
+- Sisyphuspush participating in ERGOHACK with an idea similar to the sigmanauts
+
+Then you have people like AllCloudy (GetBlok) illya (Sigmavalley), Edd Norris (Harmony One Ambassador?) who I'm thinking worthwhile promoting. I suppose it depends on how active we want people to be in the programme itself to get the promotion. 
+
+~10 I could trim for inactivity - but also a few I'd be prone to leave for SIGCANs a while longer to see if they do anything.
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1Yv3EJcLsp8tY-E827BhdaQH9Io-QJizb5guHzmS6aZo/edit
+Sigmanaut Applicants
+Ambassador Programme
+
+Submitted At,Field,Stage,Let's start with your* name.*,Discord username,What *ambassador role* are you interested in?,How much time can you dedicate to ergo.,Any relevant professional experience?,If you could improve one thing about Ergo today, what would it be?,Twitter hand...
+https://images-ext-2.discordapp.net/external/TDRoMxCIx3Sczu41CUcxf0RFBDilQCysvBkz9iNsSLA/https/lh5.googleusercontent.com/kxO5UqwlE7nKUGhsI8ZGDeGKsZq1H4XZzPlrePO4SjEhZdwx4gQdDGCZJeDbb-6Ufo0AxOdXpmAuig%3Dw1200-h630-p
+
+
+[05/17/2022 10:25 PM] glasgowm#9381
+**[PROPOSAL] Promotion to Sigmanaut**
+@Affable Villain
+
+~ 2 months of active moderation on r/ergonauts
+
+https://old.reddit.com/user/FathersFolly/
+
+**What would you improve**
+> I value Ergo for what it is. Being a very "grass roots" oriented project, it brings me joy to witness the brilliance and creativity of various Ergo developers, as well as Foundation and community members, in finding workarounds to problems that many other projects could and/or would simply throw money at until they went away. What I would like to see improved is the public understanding of what Ergo is, freed from recurring misconceptions, and to have a clarity brought to the visualization of what Ergo and it's blooming ecosystem could be.
+
+**Roles**
+Moderator, Writer
+
+{Embed}
+https://old.reddit.com/user/FathersFolly/
+FathersFolly (u/FathersFolly) - Reddit
+https://images-ext-1.discordapp.net/external/AH1DqT0dx2VWc76caCnkwZKfPYKwdOUGQQdErEMCoJQ/https/www.redditstatic.com/avatars/defaults/v2/avatar_default_5.png
+
+{Reactions}
+sigmanaut (10) 👎 
+
+[05/17/2022 10:27 PM] glasgowm#9381
+**[PROPOSAL] Promotion to Sigmanaut**
+@ilya | dappstep
+
+**Experience**
+Software engineer 7 years (full stack)
+
+**What they'd improve**
+"UX of existing tools  like mixer.
+The whole public language. Sometimes it sounds too technical and not friendly for non tech users"
+
+**Roles**
+Creator, Marketing
+
+{Reactions}
+sigmanaut (10) 👎 
+
+[05/17/2022 10:28 PM] glasgowm#9381
+**[PROPOSAL] Promotion to Sigmanaut**
+@AllCloudy | GetBlok.io
+
+**Experience**
+Information Technology and Cloud
+
+**What they'd improve**
+Access to public markets
+
+**Roles**
+Creator, Translator, Embassy, Marketing
+
+{Reactions}
+sigmanaut (11) 👎 
+
+[05/17/2022 11:03 PM] glasgowm#9381
+[PROPOSAL] Demote SIGCANs
+
+So these 7 selected I think can probably demote. They can always re-apply if they become more active. I'd give the 4 above a bit longer.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/921045762920570920/976243540654972978/unknown.png
+
+{Reactions}
+👍 (9) 👎 
+
+[05/17/2022 11:12 PM] Chris Ray#2713
+https://tenor.com/view/funny-cut-throat-black-and-white-im-gonna-kill-you-kill-you-gif-7390009
+
+{Embed}
+https://tenor.com/view/funny-cut-throat-black-and-white-im-gonna-kill-you-kill-you-gif-7390009
+https://images-ext-1.discordapp.net/external/s5aq2QGbNN9sin0jXN41-0XLOPX4EqO8v-Bz6SbrzVc/https/media.tenor.com/8E0ltL80xFkAAAAD/funny-cut-throat.png
+
+{Reactions}
+😂 (2) 
+
+[05/18/2022 2:56 AM] Ergonaut_Alpha#1583
+Seems like a fair split and the ones suggested are definitely deserved
+
+{Reactions}
+👍 (2) 
+
+[05/18/2022 5:38 AM] TypoDaPsycho#6307
+I'm wondering if most are even aware they're SigCans and where to go to get involved with the Sigmanaut program. I know it took me quite a while before I understood what was going on.
+
+
+[05/18/2022 11:08 PM] Chris Ray#2713
+Ya maybe we need to do proper introduction
+
+
+[05/19/2022 12:15 PM] glasgowm#9381
+Not to dissuade yous, but I think a good % of people forget about crypto when the price is down. The ones up on the chopping block I think that's the case. But can contact them individually and checkup.
+
+
+[05/19/2022 12:25 PM] glasgowm#9381
+Pinned a message.
+
+
+[05/19/2022 7:37 PM] Chris Ray#2713
+Ya we don't need to remove them, you are so correct, people get depressed when crypto is down and might stay away, or even take part at a lesser capacity.
+
+
+[05/23/2022 9:09 AM] TypoDaPsycho#6307
+Is our long term goal to onboard as many Sigmanauts into program as possible? I guess it'd be unwise to hard-cap admission numbers, but maybe it's possible to have too many Sigmanauts? Just curious, something I've been thinking about lately &  I'd appreciate hearing other opinions.  :)
+
+
+[05/23/2022 1:41 PM] glasgowm#9381
+Started a thread.
+
+
+[05/27/2022 8:33 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @ovr#2709
+Roles: Moderator
+
+Experience: Yes 
+I'm a digital marketer, content creator in Graphics design, Meme creation, Video editing and community moderation.
+Improvements:seriously i haven't seen a fault yet
+Twitter: @victor_robin19
+Reddit: OVROBIN
+Time: 11am-5pm UTC, Hours:6
+
+{Reactions}
+👍 👎 (7) 
+
+[05/27/2022 9:20 PM] glasgowm#9381
+Started a thread.
+
+
+[05/31/2022 2:07 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @T U L O#6385
+Roles: 
+
+Experience: Honours BA in Psychology. Bachelor of Education. Career as a teacher currently.
+Improvements:I would probably improve the marketing although I know that can be tricky due to the fair launch preventing Ergo from having a big marketing budget. I know Ergo is starting to improve it by hiring Dan and having the sigmanaut programme for example.
+Twitter: ErgoMinnow
+Reddit: SkepticalCryptoDude
+Time: Weekends mostly. After 7pm on weekdays., Hours:3
+
+{Reactions}
+👍 (11) 👎 
+
+[06/03/2022 8:41 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Attila#3944
+Roles: Embassy
+
+Experience: I am a software developer if that is relevant in this context.
+Improvements:The look presented towards non-technical people. I am pretty sure 99% of the community is here for the fundamentals but no widespread adoption will happen with grainy videos describing technical stuff. Ergo doesn't have to become Marques Brownlee but if Space Design Warehouse can do killer videos with barely any followers so can the Ergo Community imo. We have to appeal to people at any random bar, this is not happening now.
+Twitter: @stuffedkohlrabi
+Reddit: 
+Time: 4-9pm UTC, Hours:6
+
+{Reactions}
+👍 (10) 👎 
+
+[06/04/2022 11:06 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Rigatoni Sanchez#0914
+Roles: Moderator
+
+Experience: Founder of a 20KW Crypto Mining Operation
+Improvements:Node Incentivization to Increase Decentralization
+Twitter: @BlockMommy
+Reddit: 
+Time: 2-11PM UTC Weekdays, 24/7 Weekends., Hours:7
+
+{Reactions}
+👍 (3) 👎 (2) 
+
+[06/09/2022 5:32 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @BertusMaximus
+Roles: Moderator
+
+Experience: Professional history in marketing and team building
+Improvements:Ergo is developing well, and I wouldn't presume in that area.I would like to help people learn about Ergo. I love the project and am a community member. I have dedicated 2022 to telling people about Ergo, the vision, the team etc. i dont want anything for this, just want to know how i can help. i'm retired, and have the time.  Thanks
+Twitter: @maximus_bertus
+Reddit: 
+Time: 5AM UTC-2PM UTC, Hours:7
+
+{Reactions}
+👍 (13) 👎 
+
+[06/10/2022 5:45 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Equinox#0011
+Roles: EmbassyCreator
+
+Experience: Foundation at MintedWithLovelace
+5 years as a professional artist
+Improvements:The visual indicators of which projects have been officially endorsed by Ergo Foundation. (it could even be a uniquely-proven badge!)
+Twitter: @DigiDoodlz
+Reddit: One_Ad9838
+Time: 9AM-11PM UTC-5, Hours:10
+
+{Reactions}
+👍 (12) 👎 ✅ 
+
+[06/11/2022 7:54 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @MiloVentimiglia#6383
+Roles: Creator
+
+Experience: Developer (Scala/Akka)
+Improvements:Code base
+Twitter: @__Ventimiglia__
+Reddit: _MiloVentimiglia_
+Time: 8am-16pm UTC, Hours:7
+
+{Reactions}
+👍 (3) 👎 (3) 
+
+[06/22/2022 4:05 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @lemon0516
+Roles: Embassy
+
+Experience: no
+Improvements:no
+Twitter: linmeng01
+Reddit: 
+Time: Answer in UTC format. ie, 4-7pm UTC., Hours:3
+
+{Reactions}
+👍 👎 (12) 
+
+[06/22/2022 11:33 PM] crandano#8951
+Started a thread.
+
+
+[07/01/2022 1:49 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @abashai_1337
+Roles: Creator
+
+Experience: I mine ERG and have worked in the IT industry for 15 years. I'm a Cybersecurity professional, a network engineer, and systems admin.
+Improvements:Making the technology and use cases easy to understand.
+Twitter: abashai_
+Reddit: 
+Time: 8am-9pm, Hours:5
+
+{Reactions}
+👍 (13) 👎 
+
+[07/06/2022 6:52 PM] Chris Ray#2713
+Started a thread.
+
+
+[07/15/2022 5:01 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Telegram
+Roles: Moderator
+
+Experience: Moderator for different projects
+Improvements:The traffic on Twitter
+Twitter: AkitaNigeria
+Reddit: 
+Time: 9am-10pm, Hours:10
+
+{Reactions}
+Hmm 👍 👎 (3) 
+
+[07/17/2022 11:53 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Ak#7143
+Roles: CreatorModerator
+
+Experience: 
+Improvements:Promotion: More awareness need to given out.
+
+Education: Educating people about the life changing project such as the Ergo project.
+Twitter: @kpakoberry
+Reddit: u/Akwilson47
+Time: 8pm - 2am UTC, Hours:7
+
+{Reactions}
+👎 (6) 
+
+[07/26/2022 6:49 AM] TypoDaPsycho#6307
+Started a thread.
+
+
+[07/27/2022 10:22 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Kshot9000
+Roles: Moderator
+
+Experience: Sales & Marketing for PepsiCo for the past 12 years, current Ergo miner with 7.6Gh home farm, & eUTXO enthusiast utilizing Defi mostly in the Cardano and Ergo ecosystems.
+Improvements:Proof of Stake Layer 2 using mined ERG to stake and run the staking pools.
+Twitter: Kshot9000
+Reddit: Kshot9000
+Time: 6am-10pm, Hours:10
+
+{Reactions}
+👍 (8) 
+
+[07/30/2022 3:50 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Hollo#4855
+Roles: CreatorModerator
+
+Experience: 
+Improvements:A dapp connector for mobile wallet
+Twitter: @hollo1390
+Reddit: @hollo1390
+Time: 6-10, Hours:10
+
+{Reactions}
+👍 (13) ✅ 
+
+[07/30/2022 5:24 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Vladuzz#4143
+Roles: EmbassyTranslator
+
+Experience: Consultancy jobs in blockchain adoption, financial markets (commodities and stocks), diplomatic relationships management for an NGO
+Improvements:More DeFi apps! Derivatives, synthetics assets and DeXs !
+Twitter: @Marc__Vlad
+Reddit: 
+Time: 5-8pm UTC but flexible tbh, Hours:10
+
+{Reactions}
+👍 (5) 
+
+[07/30/2022 8:39 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Starky101
+Roles: Embassy
+
+Experience: Past Business Owner, board member, Investor, innovative
+Improvements:Mobile Products, Bridges
+Twitter: 
+Reddit: 
+Time: 4-10pm, Hours:8
+
+{Reactions}
+👍 (4) 
+
+[07/30/2022 11:52 PM] crandano#8951
+Started a thread.
+
+
+[07/31/2022 4:21 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Daniel • Σ
+Roles: EmbassyTranslatorModerator
+
+Experience: Software developer and actually IT Manager of a company.
+Improvements:Availability on biggest exchanges.
+Twitter: @OctopusShepherd
+Reddit: Octopus Shepherd
+Time: 19pm-2am, Hours:8
+
+{Reactions}
+👍 (9) 👎 🥚 
+
+[08/02/2022 12:45 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Fitz #4720
+Roles: EmbassyCreatorModerator
+
+Experience: 
+Improvements:move away from Discord being so prevalent in the ecosystem.  To something like Urbit instead
+Twitter: @fitzdoud
+Reddit: 
+Time: UTC -4, Hours:10
+
+{Reactions}
+hmmoh (2) 👍 (2) 
+
+[08/03/2022 11:43 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @fou-foo#2576
+Roles: EmbassyTranslatorCreatorModerator
+
+Experience: data scientist tech lead and manager
+Improvements:The math for improvement security and algorithms
+Twitter: I don't use twitter
+Reddit: neither
+Time: 10am-4pm, Hours:6
+
+{Reactions}
+👍 thonk 👎 (3) ❌ 
+
+[08/03/2022 6:31 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @CarnalCovin#5297
+Roles: EmbassyTranslatorCreatorModerator
+
+Experience: Social Media
+- Groupe leader and creator on multiple platforms.
+- Moderator on Redit and other platforms
+
+Crypto user for over 10 years
+Professional event organizer as large as 10 000 people.
+Improvements:Marketing.
+Twitter: CarnalCovin
+Reddit: CarnalCovin
+Time: 12pm UTC to 12am, Hours:4
+
+{Reactions}
+👎 (2) ❌ 
+
+[08/04/2022 5:09 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Martmcfly777#6185
+Roles: TranslatorCreatorModerator
+
+Experience: I worked for Seven Roots Venture Capital to help small environmentally friendly businesses get started on the blockchain. I also am currently mining Ergo.
+Improvements:I would improve the brand recognition and marketing of Ergo.
+Twitter: martinfoley123
+Reddit: 
+Time: I am available from 12pm- 4pm UTC, Hours:9
+
+{Reactions}
+👍 (2) 👎 (2) ❌ 📝 
+
+[08/05/2022 1:48 AM] CW#8500
+Promote Tulo/ErgoMinnow to Sigmanaut?
+
+:sigmanaut:  - Yes
+🥚  - Remain SigCan
+👎  - Demote
+
+{Reactions}
+sigmanaut (17) ✅ 
+
+[08/05/2022 1:55 AM] CW#8500
+Promote Rishabh to Sigmanaut?
+
+ :sigmanaut:  - Yes
+ 🥚  - Remain SigCan
+ 👎  - Demote
+
+{Reactions}
+sigmanaut (10) ✅ 
+
+[08/05/2022 1:57 AM] CW#8500
+Promote BertusMaximus to Sigmanaut?
+
+ :sigmanaut:  - Yes
+ 🥚  - Remain SigCan
+ 👎  - Demote
+
+{Reactions}
+sigmanaut (11) ✅ 
+
+[08/05/2022 2:03 AM] CW#8500
+Promote sisyphuspush to Sigmanaut?
+
+ :sigmanaut:  - Yes
+ 🥚  - Remain SigCan
+ 👎  - Demote
+
+{Reactions}
+sigmanaut (12) ✅ 
+
+[08/05/2022 2:16 AM] CW#8500
+Promote Koutelier straight through to Sigmanaut?
+
+ :sigmanaut:  - Yes
+ 🥚  - SigCan
+
+{Reactions}
+sigmanaut (17) ✅ (2) 
+
+[08/10/2022 7:52 AM] TypoDaPsycho#6307
+Started a thread.
+
+
+[08/10/2022 12:28 PM] glasgowm#9381
+@Sigmanauts please vote starting here
+
+{Reactions}
+ergo_orange (3) 
+
+[08/10/2022 1:15 PM] Gstoiti#2984
+Started a thread.
+
+
+[08/11/2022 8:33 PM] TypoDaPsycho#6307
+Started a thread.
+
+
+[08/13/2022 9:04 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Sigma Prism#0594
+Roles: EmbassyCreator
+
+Experience: Communications & Sales |
+(Real Estate & Solar Energy Consultancy) 
+
+8 Months Straight of Content / Active Community Engagement (Typically Twitter and Weekly YouTube)
+Improvements:Community Outreach to Foreign Blockchains for Further Cooperation and Ergo Exposure.
+
+That is and continues to be my goal for growing organic Ergo exposure for our Top 5 chain.
+Twitter: @SigmaPrism
+Reddit: u/ErgoPrism
+Time: 12am UTC - 4am UTC | 4pm UTC - 6pm UTC, Hours:5
+
+{Reactions}
+👍 (5) ✅ 
+
+[08/14/2022 1:33 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Patrick
+Roles: EmbassyTranslatorModerator
+
+Experience: Executive positions in Trading Houses, Brokerages, and Banks including Deputy CEO level at Swiss Bank with ownership of marketing, hiring, training/monitoring/mentoring and translations
+Improvements:Accessibly
+Twitter: 
+Reddit: 
+Time: 8am-8pm UTC, Hours:10
+
+{Reactions}
+🥚 👎 (2) 
+
+[08/14/2022 2:37 PM] glasgowm#9381
+Started a thread.
+
+
+[08/14/2022 11:42 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @rustinmyeye
+Roles: CreatorModerator
+
+Experience: Negative ghost rider
+Improvements:Make more podcasts available to cool people who like podcasts. Podcasts
+Twitter: rustinmyeye
+Reddit: SnooChocolates4265
+Time: 12-11pm UTC, Hours:5
+
+{Reactions}
+👍 (8) ✅ 
+
+[08/15/2022 9:38 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @PatrickM
+Roles: EmbassyTranslatorModerator
+
+Experience: senior level banking and brokerage
+Improvements:Accessibility
+Twitter: 
+Reddit: 
+Time: 8am-8pm UTC, Hours:8
+
+{Reactions}
+👍 (2) 📝 
+
+[08/17/2022 1:46 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @theta_decay#5677
+Roles: Moderator
+
+Experience: Ergopad Community Manager.
+Improvements:Attract more developers.
+Twitter: @decayitsreal
+Reddit: u/theta20
+Time: 1500-1900, Hours:5
+
+{Reactions}
+👍 (11) ergo_dark (6) ✅ 
+
+[08/18/2022 7:00 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @MasterNoise#5375
+Roles: EmbassyTranslatorCreatorModerator
+
+Experience: I have over 7 years of experience in sound engineering and sales consultancy.
+Improvements:Addable fields
+
+I would like to provide ergo payment integration with a plugin that can be easily integrated into game development platforms (unrealengine and unity)
+I would like to enable places like unrealengine marketplace to accept ergo payments.
+
+Developable areas
+
+Ergo still doesn't have a full wallet platform for windows this needs to be provided asap
+It would be very good for the user to develop software with interfaces that can be accessed to all ergo-connected platforms by being just a wallet.
+It's like downloading to windows and mac platforms and accessing all kinds of ergo content, including NightOwl.
+Twitter: @muratakartr
+Reddit: zenginmuhendis
+Time: 20:00 pm -6:00 am, Hours:8
+
+{Reactions}
+👎 (2) 🥚 (2) 
+
+[08/20/2022 1:33 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @@35thousandfeet2286
+Roles: Embassy
+
+Experience: airline pilot, blog writer
+Improvements:public knowledge about platform
+Twitter: @35thousandfeet
+Reddit: 
+Time: various..fly all over world, Hours:6
+
+{Reactions}
+👎 📝 👍 ❌ 
+
+[08/23/2022 6:07 PM] glasgowm#9381
+Promote @ErgoDesign (DarkKnight) 
+
+👍 - SigCan
+:ergo_dark: - Straight to Sigmanaut
+👎 - No
+
+{Reactions}
+sigmanaut (4) 👍 (10) ✅ 
+
+[08/24/2022 2:29 PM] glasgowm#9381
+Promote @liquid_phase to Sigmanaut
+
+Although maybe not explicitly doing much in the SIGCAN programme atm due to working on swamp.audio. Still think he deserves a seat at the table
+
+{Reactions}
+sigmanaut (12) 👍 (6) ✅ 
+
+[08/24/2022 2:57 PM] glasgowm#9381
+@ergonario#6966 - Luigi
+
+> Experience: I'm working as a social worker/teacher
+> Improvements: I would improve the informations for non tech people
+> Socials: ErGonario#6966, Luigggi, luigi_mara, UnderstandingFit229
+> Roles: Translator, Writer
+> Admit to @SigCan
+> 
+Didn't get enough votes (January), but more known in ecosystem now and programme is more open so I'm repurposing a few people I recognise that didn't get in. 
+
+Wouldn't be against straight to sigmanaut if others know him better
+
+{Reactions}
+sigmanaut (13) 🥚 (4) ✅ 
+
+[08/24/2022 2:59 PM] glasgowm#9381
+@lgd
+> Experience: I have worked as a java/web developer, worked on a design team building avionics, yearbook editor in highschool lol. Enrolled in the first Ergo-Learn program, and the third cohort of Plutus pioneer program. Also planning on joining ergohack3 with a team. Currently working on finishing my physics and cs degree part-time. Looking for a part-time job.
+
+> Socials: ldgaetano (tg), ldgaetano (twitter)
+> Roles: Writer
+
+Same as above
+
+{Reactions}
+sigmanaut (17) ✅ 
+
+[08/24/2022 4:54 PM] NoahErgo#4349
+Honestly feel SigmaPrism should go straight to sigmanaut with how much content he has done
+
+
+[08/24/2022 4:54 PM] NoahErgo#4349
+Maybe i replied too late haha
+
+
+[08/24/2022 5:19 PM] glasgowm#9381
+Yeah would need to revote anyway, will let him into sigcans and then anyone can nominate straight away.
+
+{Reactions}
+👍 (3) 
+
+[08/24/2022 5:25 PM] glasgowm#9381
+3 @SigCan added, and a few more #🗣│vote s up for yous @Sigmanauts
+
+
+[08/25/2022 9:27 PM] TypoDaPsycho#6307
+I'd like to nominate SigmaPrism to Sigmanaut from SigCAN. (Don't know if I'm doing this right?)
+
+Please vote for SigmaPrism: 
+
+ :sigmanaut: Sigmanaut 
+🥚 remain SigCAN
+
+{Reactions}
+sigmanaut (17) 🍿 
+
+[08/26/2022 2:02 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @koutelier#5178
+Roles: CreatorModerator
+
+Experience: 3d design, marketing , frontend “dev”, constructor builder and hotel manager
+Improvements:Marketing
+Twitter: @koutelier
+Reddit: __Geros__
+Time: 4-11pm Eet (from mid September the hours will change ), Hours:4
+
+{Reactions}
+comet (7) ✅ (2) 
+
+[08/30/2022 8:40 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @AlexisE#8696
+Roles: TranslatorModerator
+
+Experience: Marketing lead of ErgoPad and Paideia.
+Improvements:Marketing methods, use alternatives rather than what Ergo has been doing so far. Track those and look what works better.
+Twitter: AlexisEkici
+Reddit: u/Alexis-E1
+Time: 8:00 UTC - 22:00 UTC, Hours:10
+
+{Reactions}
+sigmanaut (12) ✅ 
+
+[08/31/2022 12:16 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Jhon_moio
+Roles: EmbassyModerator
+
+Experience: Internacional trade. Own business
+Improvements:Marketing. Most Pool dont know it. I am from a argentina and hete many people use crypto due to goverment bad monetary policy (100% inflation by year)
+Twitter: Jhonmo88
+Reddit: Dont have
+Time: Can adapt. My time is utc-3, Hours:7
+
+{Reactions}
+🥚 (6) sigmanaut 👎 ✅ 
+
+[09/06/2022 10:06 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Ronald#0557
+Roles: Moderator
+
+Experience: I'm currently working as a Crypto Research Analyst at Switcheo Labs, where i research on the latest trends / narratives in the crypto space. I would then recommend good projects to the company treasury to invest in and write articles on them as well. You can take a look at some of my articles on https://ronaldkohhh.substack.com.
+Improvements:
+Twitter: @ronaldkohhh
+Reddit: 
+Time: 1am - 8pm UTC, Hours:10
+
+{Embed}
+https://ronaldkohhh.substack.com./
+Substack - A new model for publishing
+With Substack, anyone can start a publication that combines a personal website, blog, and email newsletter or podcast. It's quick and simple, so you don't have to be tech savvy. Your audience can pay you directly through subscriptions, with no ads to get in the way. Writers and podcasters can own their intellectual property, keep their mailing l...
+https://images-ext-2.discordapp.net/external/yMIwekE0XA5y1O53pEUIJS5ud1WYlv8Nw3mpRyaOtfA/https/substack.com/img/home_page/og-homepage.png
+
+{Reactions}
+🥚 (7) sigmanaut 👎 
+
+[09/09/2022 11:48 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @7
+Roles: 
+
+Experience: 8
+Improvements:9
+Twitter: 7
+Reddit: 7
+Time: 7, Hours:4
+
+{Reactions}
+hmm (5) 
+
+[09/12/2022 3:58 AM] Chris Ray#2713
+@Sigmanauts I propose that we start using a super-majority vote that must reach a threshold of 90% to include new people into the Sigmanaut program, this should apply to active votes only and a vote *not present* should be an indication of abstaining or acquiesce,this 90% threshhold should include bringing people into the SigCan role and continue as people are promoted to Sigmanaut/ Captain and other roles that may come up in the future, I propose this so that no single person slows this program down.
+
+This proposal will run for one week and I will withdraw it if it gains any votes against it
+
+Please vote Below, this needs to be a unanimous decision or we just continue what we have been doing which has obvious problems when someone does not come online.
+
+ 👍  = In favor of 90% voting threshold.
+
+👎 = Not in favor of 90% threshold.
+
+{Reactions}
+👍 (17) 👎 
+
+[09/12/2022 3:32 PM] Jεnniε D#1687
+I want to add to this; I think a majority or super majority should vote for the vote to be valid 
+A quorum of 60% seems pretty doable
+
+{Reactions}
+👍 
+
+[09/12/2022 3:34 PM] Chris Ray#2713
+I think that would be good also, would be reason for someone who is proposing to promote someone to go ensure they get enough votes.
+
+
+[09/12/2022 9:45 PM] theta_decay#5677
+100% agree.
+
+
+[09/13/2022 7:51 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @Ibra_jber76#3628
+Roles: Translator
+
+Experience: 1-Translator of trading polices and agreements for a Fintech company from English to Arabic.
+2-FullStack developer (C#, TypeScript, C++, Java)
+Improvements:More live AMA videos to engage with the audience and multilingual documentation
+Twitter: @IbraJber76
+Reddit: N/A
+Time: 12AM - 3AM, Hours:5
+
+{Reactions}
+clearvtc 
+
+[09/18/2022 8:49 AM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @bubsandstonks
+Roles: Creator
+
+Experience: Academic with PhD in Chemistry (academic research writing/editing)
+Improvements:Ergo's tech is insanely good and sophisticated and there are some really incredible developers and probably jets coming out that will truly be revolutionary. However, one thing I would improve (and I understand this has to start at the grassroots level) is the fostering of RealFi projects. The manifesto talks about a blockchain for the People, so there should be projects that are approachable for non-tech people to still participants and stakeholders. Something that comes to mind is maybe a mining pool project that links to agriculture. Something that takes the act of mining and boot straps it to the securing of food production. Or simpler projects like getting local businesses to start accepting Ergo as payment (similar to the massive BCH following in North Queensland, Australia).
+Of course these ideas take devs to make them, but I think Ergo should start getting put into the hands of "regular" people as soon as possible.
+Twitter: @ErgoDingo
+Reddit: ErgoDingo
+Time: 6-9pm AEST, Hours:3
+
+{Reactions}
+👍 (12) sigmanaut ✅ 
+
+[09/18/2022 9:01 AM] CW#8500
+I suggest Dingo go straight through to Sigmanaut. He has written 3 articles which have been published on our blog under "Blockchain for Beginners" and has a few more in the pipeline. We need more writers for articles,  he is already in the contributors channel but recently changed name to ErgoDingo
+
+{Reactions}
+👍 (3) 
+
+[09/19/2022 5:17 AM] NoahErgo#4349
+good to know, gave him a thumbs up
+
+{Reactions}
+👍 (7) 
+
+[09/19/2022 10:57 AM] Jεnniε D#1687
+Same
+
+
+[09/21/2022 4:49 PM] T U L O (ErgoMinnow)#6385
+From a fellow writer, I too, gave a thumbs up.
+
+{Reactions}
+👍 (2) 
+
+[09/21/2022 4:50 PM] T U L O (ErgoMinnow)#6385
+I have 5 articles in the wings by the way @CW
+
+{Reactions}
+ergo_orange 
+
+[09/21/2022 4:50 PM] T U L O (ErgoMinnow)#6385
+Hopefully these can be published semi soon. 🙂
+
+
+[09/22/2022 2:54 PM] cafebedouin#9837
+Has Ergodesign been in the candidate tier and contributed enough to be promoted? I saw some commentary and since I don't know what they've been up to, I thought I'd ask.
+
+
+[09/23/2022 4:00 AM] koutelier#5178
+Yeah I believe we have to vote again he is doing a good job
+
+{Reactions}
+💯 
+
+[09/23/2022 6:42 AM] Jεnniε D#1687
+he is doing a *lot*
+I think he's a SigCan for now, but definitely merits Sigmanaut recognition imo
+
+{Reactions}
+💯 
+
+[09/23/2022 6:45 AM] Jεnniε D#1687
+@Sigmanauts
+Promote @ErgoDesign (DarkKnight) to Sigmanaut?
+(@iamhasaniqbal on twitter)
+
+
+:ergo_dark: - Yes, promote to Sigmanaut
+👎 - No
+
+{Reactions}
+ergo_dark (15) ✅ 
+
+[09/24/2022 5:44 AM] Chris Ray#2713
+Would like to make a note here, we do not have a timeframe for voting decided on as a procedure that we have voted in to be practiced, how long should the vote be available? We should really hammer down on this, should I make a proposal for a timeframe @Sigmanauts ?
+Or any one of you can also.
+Let's develop some operating procedures so we are all clear on how to move forward, otherwise we are just shooting from the hip making proposal's.
+
+
+[09/24/2022 8:11 AM] Jεnniε D#1687
+Yep. Some are left (involuntarily) is some limbo, others get done straight away
+
+
+[09/24/2022 8:13 AM] Jεnniε D#1687
+Started a thread.
+
+
+[09/24/2022 9:57 AM] Jεnniε D#1687
+I know you have a lot on your plate and will try to put something together this weekend
+I don't know how much time I will have either though
+
+
+[09/24/2022 4:38 PM] Chris Ray#2713
+Started a thread.
+
+
+[09/27/2022 12:58 PM] TypoDaPsycho#6307
+Should include in nomination or proposal thread: 
+
+ :sigmanaut: 🥚 👎
+
+{Reactions}
+👍 (2) 
+
+[09/27/2022 1:00 PM] TypoDaPsycho#6307
+Well I say that, but it may not be an actual rule lol IDK
+
+
+[10/06/2022 11:32 AM] glasgowm#9381
+Stuff getting lost in here so i've made #operational to replace it
+
+{Reactions}
+👍 ergo_orange dopamineduck 
+
+[11/07/2022 4:18 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @ZzSTEVENzZ#7744
+Roles: EmbassyTranslatorModerator
+
+Experience: Computer security engineer, and I have been in blockchian networks for more than 3 years
+Improvements:
+Twitter: 
+Reddit: 
+Time: 22-5PM UTC, Hours:4
+
+
+[11/12/2022 10:55 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @mjoe
+Roles: EmbassyTranslatorCreatorModerator
+
+Experience: Trader/Investor, SEO/Laborer for a local moving company, Insurance
+Improvements:Marketing
+Twitter: mjoe
+Reddit: mjoe
+Time: 12-10 PM, Hours:10
+
+
+[11/14/2022 2:43 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @wombo22 #5461
+Roles: EmbassyModerator
+
+Experience: 
+Improvements:honestly not sure
+Twitter: RealisticClock
+Reddit: w0mb022
+Time: 11- 12am, 9-1am utc, Hours:5
+
+
+[11/18/2022 5:26 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @shidi#9232
+Roles: EmbassyModerator
+
+Experience: Yes,iam a marketer with a degree in Commerce from Makerere University. Event organizer,speaker and mentor
+Improvements:I would focus more about awareness and marketing
+Twitter: @Gemini9220
+Reddit: N/A
+Time: 7pm-12pm, Hours:7
+
+
+[11/20/2022 2:49 PM] Typeform#0000
+@Sigmanauts - There is a new SIGCAN Applicant: @josemi#9181
+Roles: TranslatorCreator
+
+Experience: Software dev.
+Improvements:I would focus on the usage of decentralized mining pools and, on other hand, high level programming languages for facilitate the development.
+Twitter: https://twitter.com/_josemii___
+Reddit: 
+Time: 7-8pm UTC., Hours:2
+
+
+[11/21/2022 2:45 AM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: josemi
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=3
+
+
+[11/21/2022 6:20 AM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: shidi
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=4
+
+
+[11/21/2022 5:50 PM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: quirk220
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=5
+
+
+[11/24/2022 2:45 PM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+sigcan vote: josemi
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=3
+
+
+[11/24/2022 3:04 PM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: filippounits
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=6
+
+
+[11/24/2022 6:20 PM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+sigcan vote: shidi
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=4
+
+
+[11/25/2022 5:50 AM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+sigcan vote: quirk220
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=5
+
+
+[11/30/2022 4:22 PM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+sigcan vote: josemi
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=3
+
+
+[11/30/2022 4:22 PM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+sigcan vote: shidi
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=4
+
+
+[11/30/2022 4:22 PM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+sigcan vote: quirk220
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=5
+
+
+[11/30/2022 4:22 PM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+sigcan vote: filippounits
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=6
+
+
+[11/30/2022 4:25 PM] sigmavote#0000
+VOTE CLOSED
+
+{Embed}
+sigcan vote: josemi
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=3
+
+
+[11/30/2022 4:25 PM] sigmavote#0000
+VOTE CLOSED
+
+{Embed}
+sigcan vote: shidi
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=4
+
+
+[11/30/2022 4:25 PM] sigmavote#0000
+VOTE CLOSED
+
+{Embed}
+sigcan vote: quirk220
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=5
+
+
+[12/01/2022 3:00 PM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+sigcan vote: filippounits
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=6
+
+
+[12/02/2022 1:10 AM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: Cheese
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=8
+
+{Reactions}
+kushti_thumbsup 
+
+[12/10/2022 9:55 PM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: Xenon
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=9
+
+
+[12/13/2022 1:00 AM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+Applicant: alohaaki
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=10
+
+
+[12/14/2022 3:00 AM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+MISSION STATEMENT
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=11
+
+
+[12/14/2022 9:50 AM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+sigcan vote: Xenon
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=9
+
+
+[12/16/2022 12:40 PM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+Applicant: alohaaki
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=10
+
+
+[12/17/2022 3:00 PM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+MISSION STATEMENT
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=11
+
+
+[12/17/2022 9:50 PM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+sigcan vote: Xenon
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=9
+
+
+[12/18/2022 9:50 PM] sigmavote#0000
+VOTE CLOSED
+
+{Embed}
+sigcan vote: Xenon
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=9
+
+
+[12/21/2022 2:16 PM] sigmavote#0000
+LAST REMINDER @sigmanauts
+
+{Embed}
+Applicant: alohaaki
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=10
+
+
+[12/21/2022 2:16 PM] sigmavote#0000
+LAST REMINDER @sigmanauts
+
+{Embed}
+MISSION STATEMENT
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=11
+
+
+[12/21/2022 2:18 PM] sigmavote#0000
+VOTE CLOSED  - FAILED
+
+{Embed}
+Applicant: alohaaki
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=10
+
+
+[12/22/2022 3:00 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+MISSION STATEMENT
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=11
+
+
+[12/23/2022 4:20 AM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+Sigmanaut Promotion: Cheese
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=16
+
+
+[12/26/2022 4:20 PM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+Sigmanaut Promotion: Cheese
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=16
+
+
+[12/30/2022 4:20 AM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+Sigmanaut Promotion: Cheese
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=16
+
+
+[12/31/2022 4:20 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Sigmanaut Promotion: Cheese
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=16
+
+{Reactions}
+❤️ 
+
+[12/31/2022 9:10 PM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: Joshua Xavier Threatt
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=20
+
+
+[01/01/2023 12:10 PM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: RegEvNormGuy
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=22
+
+
+[01/04/2023 9:10 AM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+sigcan vote: Joshua Xavier Threatt
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=20
+
+
+[01/05/2023 12:10 AM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+sigcan vote: RegEvNormGuy
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=22
+
+
+[01/07/2023 9:10 PM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+sigcan vote: Joshua Xavier Threatt
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=20
+
+
+[01/08/2023 12:10 PM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+sigcan vote: RegEvNormGuy
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=22
+
+
+[01/08/2023 9:10 PM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Joshua Xavier Threatt
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=20
+
+
+[01/09/2023 2:50 AM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+Meeting recording, notes, and transcript
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=23
+
+
+[01/09/2023 12:10 PM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: RegEvNormGuy
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=22
+
+
+[01/09/2023 10:30 PM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: rustinmyeye
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=24
+
+
+[01/10/2023 6:40 PM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: Fred Clark Jr
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=25
+
+
+[01/11/2023 2:00 PM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+Promote Kill it with Coffee to Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=26
+
+
+[01/12/2023 2:50 PM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+Meeting recording, notes, and transcript
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=23
+
+
+[01/13/2023 10:30 AM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+sigcan vote: rustinmyeye
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=24
+
+
+[01/14/2023 6:40 AM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+sigcan vote: Fred Clark Jr
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=25
+
+
+[01/14/2023 6:18 PM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+Sigmanaut Vote: Krasavice Blasen
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=28
+
+
+[01/15/2023 2:00 AM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+Promote Kill it with Coffee to Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=26
+
+
+[01/15/2023 1:40 PM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: Ridgeman
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=29
+
+
+[01/16/2023 2:50 AM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+Meeting recording, notes, and transcript
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=23
+
+
+[01/16/2023 10:30 PM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+sigcan vote: rustinmyeye
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=24
+
+
+[01/17/2023 2:50 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Meeting recording, notes, and transcript
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=23
+
+
+[01/17/2023 6:40 PM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+sigcan vote: Fred Clark Jr
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=25
+
+
+[01/17/2023 10:30 PM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: rustinmyeye
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=24
+
+
+[01/18/2023 6:20 AM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+Sigmanaut Vote: Krasavice Blasen
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=28
+
+{Reactions}
+🔥 (2) 
+
+[01/18/2023 2:00 PM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+Promote Kill it with Coffee to Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=26
+
+{Reactions}
+🔥 (2) 
+
+[01/18/2023 6:40 PM] sigmavote#0000
+VOTE CLOSED  - FAILED
+
+{Embed}
+sigcan vote: Fred Clark Jr
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=25
+
+
+[01/19/2023 1:40 AM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+sigcan vote: Ridgeman
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=29
+
+
+[01/19/2023 2:00 PM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Promote Kill it with Coffee to Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=26
+
+{Reactions}
+🔥 
+
+[01/21/2023 6:20 PM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+Sigmanaut Vote: Krasavice Blasen
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=28
+
+{Reactions}
+❤️ 
+
+[01/22/2023 4:00 AM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: Jerry
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=41
+
+
+[01/22/2023 1:40 PM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+sigcan vote: Ridgeman
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=29
+
+
+[01/22/2023 6:20 PM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Sigmanaut Vote: Krasavice Blasen
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=28
+
+
+[01/22/2023 6:50 PM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: Reshad
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=43
+
+
+[01/22/2023 9:30 PM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: Karl Sanders
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=44
+
+
+[01/23/2023 1:40 PM] sigmavote#0000
+VOTE CLOSED  - FAILED
+
+{Embed}
+sigcan vote: Ridgeman
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=29
+
+
+[01/25/2023 4:00 PM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+sigcan vote: Jerry
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=41
+
+
+[01/25/2023 7:20 PM] sigmavote#0000
+NEW VOTE
+
+{Embed}
+sigcan vote: Fred Clark Jr
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=45
+
+
+[01/26/2023 6:50 AM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+sigcan vote: Reshad
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=43
+
+
+[01/26/2023 9:30 AM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+sigcan vote: Karl Sanders
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=44
+
+
+[01/29/2023 4:00 AM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+sigcan vote: Jerry
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=41
+
+
+[01/29/2023 7:20 AM] sigmavote#0000
+REMINDER VOTE
+
+{Embed}
+sigcan vote: Fred Clark Jr
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=45
+
+
+[01/29/2023 6:50 PM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+sigcan vote: Reshad
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=43
+
+
+[01/29/2023 9:30 PM] sigmavote#0000
+LAST REMINDER
+
+{Embed}
+sigcan vote: Karl Sanders
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=44
+
+
+[02/27/2023 1:58 PM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Jerry
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=41
+
+
+[02/27/2023 1:58 PM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Reshad
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=43
+
+
+[02/27/2023 1:58 PM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Karl Sanders
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=44
+
+
+[02/27/2023 1:58 PM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Fred Clark Jr
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=45
+
+
+[02/27/2023 1:58 PM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Eva Qing
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=46
+
+
+[02/27/2023 1:58 PM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: ladopixel
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=48
+
+
+[02/27/2023 1:58 PM] sigmavote#0000
+VOTE CLOSED  - HELD FOR REVIEW!
+
+{Embed}
+sigcan vote: Vitalii Ishchenko
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=49
+
+
+[02/27/2023 1:58 PM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Benjamin Larkey (ErgoBenjamin)
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=50
+
+
+[04/03/2023 3:04 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: ERGkleure
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=51
+
+
+[04/03/2023 3:04 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Evan Dawson
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=52
+
+
+[04/03/2023 3:04 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Zimulakra
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=53
+
+
+[04/03/2023 3:04 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Rustinmyeye for Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=55
+
+
+[04/03/2023 3:04 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Wombo for Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=56
+
+
+[04/03/2023 3:04 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Alan Bernard
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=57
+
+
+[04/03/2023 3:04 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Mikey Burton
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=59
+
+
+[04/03/2023 3:04 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Setvin
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=60
+
+
+[04/03/2023 3:04 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Ryan
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=62
+
+
+[05/01/2023 3:35 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Fred for Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=63
+
+
+[05/01/2023 3:35 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Danny
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=64
+
+
+[05/01/2023 3:35 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+sigcan vote: Singh An
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=65
+
+
+[05/01/2023 3:35 AM] sigmavote#0000
+VOTE CLOSED  - HELD FOR REVIEW!
+
+{Embed}
+Active Sigmanauts
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=67
+
+
+[05/01/2023 3:35 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Remove José from Sigmanaut program
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=68
+
+
+[05/01/2023 3:35 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Pulsarz for Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=69
+
+
+[05/01/2023 3:35 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Lexymon for Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=70
+
+
+[05/01/2023 3:35 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Chuck for Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=71
+
+
+[05/01/2023 3:35 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Joshua for Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=72
+
+
+[05/01/2023 3:35 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Mikey for Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=73
+
+
+[05/01/2023 3:35 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+ERGkleure for Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=74
+
+
+[05/01/2023 3:35 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Essaias for Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=75
+
+
+[05/01/2023 3:35 AM] sigmavote#0000
+VOTE CLOSED  - PASSED!
+
+{Embed}
+Ryan (Deathgripson) for Sigmanaut
+https://my.ergoport.dev/cgi-bin/ergo/cast_vote.pl?a=76
+
+
+==============================================================
+Exported 262 message(s)
+==============================================================

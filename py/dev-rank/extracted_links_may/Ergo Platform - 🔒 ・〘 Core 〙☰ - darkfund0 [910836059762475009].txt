@@ -1,0 +1,288 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🔒 ・〘 Core 〙☰ / darkfund0
+==============================================================
+
+[11/18/2021 10:23 AM] glasgowm#9381
+```
+Hi team,
+
+I plan to promote the mixer with an article + tool release. The article will be about understanding how transactions can be traced through the ergo blockchain, and the tool will have the ability to query an ergo wallet and visualize all the connected wallets, I have a preview:
+
+It will then further compare how the mixer can be used to prevent the wallets being linked and protect privacy.
+
+Thank you,
+Crypto Cream (@Hazana)
+```
+
+{Attachments}
+https://cdn.discordapp.com/attachments/910836059762475009/910837537776467990/image_1.png
+
+
+[11/18/2021 10:24 AM] glasgowm#9381
+filippounits — 16/11/2021
+https://twitter.com/1centarmy/status/1460354916216721411
+
+This could be an interesting idea
+
+{Embed}
+dreambeam (@1centarmy)
+https://twitter.com/1centarmy/status/1460354916216721411
+@chepurnoy when #monero bridge .
+Twitter
+
+
+[11/18/2021 10:25 AM] glasgowm#9381
+```
+Hello Ergo Team,
+
+I'm the president of M1 Technology and M1 Crypto. We run the EAGLE stake pool on the Cardano network and we are huge fans of the Ergo platform. We ran an Ergo giveaway to help introduce many of our delegators to Ergo.
+
+We are a team of 35 technologists - developers and testers predominantly. We have really solid experience in developing secure mobile applications and web sites.
+
+I saw Alex's tweet about the grant for Zero Knowledge Treasury proposals. We would LOVE to help build apps for the Ergo ecosystem, but we aren't sure how to best engage. We would LOVE to build the front end or mobile website for this. Please let us know if you're open to engaging on a way for us to receive a grant to support this.
+
+We mean that we would like to build a privacy-related app that would be usable as both a mobile app and website. Let us know if you have ideas for how we could engage to receive a grant to do this.  
+
+Here's an example of something that we built on top of the Cardano ecosystem called Pool Peek: https://play.google.com/store/apps/details?id=com.colorworkapps.poolPeek&hl=en_US&gl=US  
+
+This was a hobby project, so we didn't put a ton of time into it, but it gives you a feel for our capabilities.
+
+Thanks!
+
+Joe Frankiewicz
+President
+M1 Technology LLC
+(703) 507-9161
+joe@m1technology.com
+```
+
+
+[11/26/2021 12:51 PM] kushti#0978
+I like this proposal! How about you guys? @everyone
+
+{Reactions}
+👍 (2) 
+
+[11/26/2021 5:51 PM] anon_real#2768
+Mixer on mobile would be fire ))
+
+
+[11/26/2021 5:51 PM] anon_real#2768
+I am all for it
+
+
+[11/26/2021 6:10 PM] mx#5165
+i am fine with both ideas
+
+
+[11/28/2021 10:14 PM] Robert K#0722
+Both make sense, I'd probably be wary whether the M1 people can deliver based on their limited experience (from what I can tell)
+
+
+[11/28/2021 10:14 PM] Robert K#0722
+So probably payout in milestones imo
+
+
+[12/02/2021 8:46 AM] kushti#0978
+@everyone created proposal on the server, please vote !
+
+
+[12/02/2021 9:40 AM] mx#5165
+zkclient 0.2.1 is crashing when trying to access 127.0.0.1:9000
+
+
+[12/02/2021 9:40 AM] mx#5165
+play.api.UnexpectedException: Unexpected exception[RuntimeException: java.lang.UnsupportedClassVersionError: controllers/routes has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0]
+
+
+[12/02/2021 9:49 AM] glasgowm#9381
+Need to update your java
+
+
+[12/02/2021 9:50 AM] mx#5165
+it is updated, app is running fine itself
+
+
+[12/02/2021 10:32 AM] mx#5165
+fixed via environmental variables, approved proposal
+
+
+[12/02/2021 7:43 PM] kushti#0978
+Approved? On the server still pending
+
+
+[12/02/2021 7:43 PM] kushti#0978
+Do I need to vote now?
+
+
+[12/02/2021 7:53 PM] mx#5165
+two more approvals needed as far i remember before completing decision, so you and someone else
+
+
+[12/05/2021 5:38 PM] kushti#0978
+@anon_real I guess I've voted with improper node, any chance to re-vote ?
+
+
+[12/05/2021 5:39 PM] kushti#0978
+@DarkSideOfBrrrrr @filippounits please check new voting!
+
+
+[12/05/2021 6:44 PM] anon_real#2768
+If the signing fails then it won’t count your vote. What do you mean “improper”?
+
+
+[12/05/2021 7:52 PM] kushti#0978
+with other secret, but I generated commitment just, from logs, so maybe not a problem ?
+
+
+[12/06/2021 12:37 AM] anon_real#2768
+Oh I see. I guess in the actual signing stage, it will fail (
+
+
+[12/06/2021 12:42 AM] anon_real#2768
+@kushti I don't have my node with that secret. Please let me know if it is needed for me to sign - I can set it up quickly.
+
+
+[12/06/2021 8:15 AM] kushti#0978
+so for now best solution is maybe to reset the server state, then you, me and mx will approve ?
+
+
+[12/06/2021 8:15 AM] kushti#0978
+if you are in favor of the proposal
+
+
+[12/06/2021 5:56 PM] anon_real#2768
+@kushti let’s ignore the previous proposal. We can approve the new one. I’ll set up my node and approve in a while.
+
+
+[12/25/2021 10:32 PM] anon_real#2768
+@kushti are you planning to create a new proposal?
+
+
+[01/31/2022 11:45 PM] kushti#0978
+Yeah, lets do that. Paid from my wallet so can do a proposal on reimbursement
+
+
+[02/11/2022 11:08 AM] mx#5165
+hackathon products are usually very raw, maybe some of the funds can be used to continue the development of some new most privacy-focused project there? i guess standard mixer will fund itself from upcoming token sales
+
+
+[02/11/2022 12:28 PM] kushti#0978
+We can do special prize by darkfund0
+
+
+[02/11/2022 9:01 PM] kushti#0978
+@everyone ^
+
+
+[02/11/2022 9:39 PM] anon_real#2768
+Great idea!
+
+
+[02/11/2022 9:40 PM] anon_real#2768
+Also, please create this for reimbursement.
+
+
+[05/10/2022 1:11 PM] kushti#0978
+@everyone let's have a special DF0 prize for the ErgoHack Fest ?
+
+
+[05/10/2022 4:02 PM] filippounits#3593
+ok for me!
+
+
+[05/10/2022 7:14 PM] anon_real#2768
+Sure
+
+
+[05/15/2022 3:59 PM] kushti#0978
+1k sigusd?
+
+
+[05/18/2022 10:40 PM] filippounits#3593
+:ergo_orange:
+
+
+[05/18/2022 10:40 PM] filippounits#3593
+👍
+
+
+[06/01/2022 11:52 PM] kushti#0978
+https://twitter.com/chepurnoy/status/1532132631407640576
+
+
+[06/01/2022 11:52 PM] kushti#0978
+announced
+
+
+[07/15/2022 11:56 AM] kushti#0978
+@everyone so let's consider a winner from DF0 perspective )
+
+
+[07/15/2022 11:56 AM] kushti#0978
+Do you have a list of submissions , to start with ?
+
+
+[07/15/2022 11:57 AM] kushti#0978
+@mx are you still with us ?
+
+
+[07/15/2022 11:58 AM] anon_real#2768
+Here it is: https://docs.ergoplatform.com/events/ergohack/#ergohackfest
+
+
+[07/26/2022 12:44 AM] kushti#0978
+@everyone gentlemen, please cast your votes
+
+
+[07/26/2022 5:21 PM] anon_real#2768
+@kushti you @mx and I have approved
+
+
+[07/26/2022 5:21 PM] anon_real#2768
+It was 3 of 5 signature, right?
+
+
+[07/26/2022 5:30 PM] anon_real#2768
+@kushti your generated commitments seem wrong
+
+{Attachments}
+https://cdn.discordapp.com/attachments/910836059762475009/1001526942232744026/Screenshot_2022-07-26_at_9.30.01_AM.png
+
+
+[07/26/2022 5:30 PM] anon_real#2768
+Are you using the right node (with proper secrets related to your pk)?
+
+
+[07/27/2022 8:19 AM] kushti#0978
+I meant ErgoHack
+
+
+[07/27/2022 8:19 AM] kushti#0978
+For that voting, lets revote after
+
+
+[07/27/2022 8:19 AM] kushti#0978
+How will we vote for Ergohack?
+
+
+[07/27/2022 8:19 AM] kushti#0978
+@everyone
+
+
+[07/27/2022 5:29 PM] anon_real#2768
+@kushti We can list our top 3 projects. Then select the one with the highest point.
+
+
+[07/27/2022 5:36 PM] anon_real#2768
+Would that work?
+
+
+[09/01/2022 5:15 PM] kushti#0978
+Yes
+
+
+==============================================================
+Exported 58 message(s)
+==============================================================

@@ -1,0 +1,171 @@
+==============================================================
+Guild: Ergo Platform
+Channel: Σ  ・〘 Sigmanauts 〙☰ / 🏛│sig-treasury
+==============================================================
+
+[11/16/2022 2:45 PM] drehaf#0090
+@Sigmanauts any interested people here? We are pushing ahead on 2/3 groups pretty well, hoping for some interest here!
+
+
+[11/16/2022 3:22 PM] WilfordGrimley#0124
+I'm interested for sure.
+
+What do we know so far? Just what is written in the current onboaring documentation?
+
+Something I would love to have set up for our treasury is multisig wallet that uses the Sigmanaut NFTs as keys. (Obviously we'd need a contract to spit these NFTs out be associated with the multisig.) Should be able to allow spending with a percentage of all signatures, and should ideally allow us to remove signees with enough support also.
+
+It would be cool to have a contract that pays the treasury slowly overtime similarly to the early EF allotment. Perhaps the EF would be willing to fund it.
+
+
+[11/16/2022 4:26 PM] T U L O (ErgoMinnow)#6385
+Is this just handling the treasury? Or what is this group meant for?
+
+
+[11/16/2022 5:17 PM] Sisyphuspush#7967
+I like the idea of a multisig wallet to start if a DAO takes too long. I'm not sure how I feel about extending it to the entire group ATM, as we are still a bit disorganized. My 2 cents, keep it a smaller number (maybe 5?) with a 2 or 3 of those being held by EF members who are acting as facilitators for the program (CW, Mark, etc)...at least until a DOA is set up.
+
+
+[11/16/2022 5:17 PM] Sisyphuspush#7967
+For what my opinion is worth, lol
+
+
+[11/16/2022 5:19 PM] Sisyphuspush#7967
+This thread and eventual working group will play a large part in in that direction. Initially, we do need a way to fund initiatives and such, and rather on waiting on DAO to start, I think we are exploring options on how best to get the ball rolling.
+
+{Reactions}
+👍 
+
+[11/16/2022 5:23 PM] T U L O (ErgoMinnow)#6385
+I think making it as trustless as humanly possible is ideal. Would that mean a DAO would be better than a multi-sig wallets? Oddly enough ill be researching multi-sig wallets today for an article im writing lol.
+
+
+[11/16/2022 5:23 PM] T U L O (ErgoMinnow)#6385
+Yeah I need to try to be more active in these conversations. Im just so busy lately. >.<
+
+{Reactions}
+🔥 
+
+[11/22/2022 11:44 AM] glasgowm#9381
+Has been discussed, not opposed but would come with additional responsibilities too (taking on some of the 'bills' where appropriate) as the main priority is getting the treasury to last as long as possible which gets harder the lower the price goes.
+
+
+[11/22/2022 2:21 PM] WilfordGrimley#0124
+@ÅrÖhBê @AllCloudy | GetBlok.io Could GetBlok host a subpool for us that fundraises a modest percentage for the Sigmanaut treasury?
+
+
+[11/22/2022 2:22 PM] glasgowm#9381
+Oh also, kushti is planning to give profits from his Decentralised Grid Trading bots to sigmanauts
+
+{Reactions}
+🔥 (4) 
+
+[11/22/2022 2:32 PM] drehaf#0090
+interesting idea! we would have no bonus to give but i guess people would join to support the effort!
+
+{Reactions}
+💯 
+
+[11/22/2022 2:33 PM] drehaf#0090
+maybe we could make quarterly sig NFT's and distribute to those miners every so often.
+
+
+[11/22/2022 2:33 PM] WilfordGrimley#0124
+I'm mining to the default subpool but would be happy to switch to one that funds the treasury.
+
+
+[11/22/2022 2:33 PM] drehaf#0090
+same
+
+
+[11/22/2022 3:35 PM] hq3r#5569
+I like to see ideas popping up in here! Nice
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1041454871683018752/1044637262668890142/image0.gif
+
+
+[11/22/2022 3:57 PM] T U L O (ErgoMinnow)#6385
+I like the quarterly sig NFT idea a lot
+
+
+[11/22/2022 3:58 PM] T U L O (ErgoMinnow)#6385
+I’m also just a huge NFT fan 😂
+
+
+[11/22/2022 5:25 PM] WilfordGrimley#0124
+If GetBlok can create a subpool for us, would we like the treasury funds to be in SigUSD, but miners to be awarded ERG exclusively?
+
+I would be in favor of this, or perhaps miners are awarded ERG, treasury is awarded 75%SigUSD, 25% ERG.
+
+{Reactions}
+👍 
+
+[11/22/2022 6:45 PM] drehaf#0090
+lemme chat with them and see what he says
+
+
+[11/24/2022 6:39 PM] theta_decay#5677
+Paideia will be excellent for this. Trustless proposal approved treasury distributions.
+
+{Reactions}
+💯 
+
+[11/24/2022 7:57 PM] T U L O (ErgoMinnow)#6385
+My thinking too.
+
+
+[11/24/2022 9:15 PM] drehaf#0090
+positive response so far 🙂 they are very busy atm migrating, will get back in touch soon after they finish.
+
+{Reactions}
+ergo_love 
+
+[11/25/2022 11:17 PM] lgd#5847
+im working on a dapp plugin to integrate swaps with spectrum within dapps. it's for guapswap mainly but also so getblok can use it to make a sigusd mining pool. might be useful for this as well. once guapswap is done you could mine directly to the treasury wallet (send your rewards to it) and in the dapp config file choose how much of what you mine goes to the treasury and in what percentages.
+
+{Reactions}
+🔥 (3) 
+
+[11/26/2022 12:47 AM] drehaf#0090
+Can u talk more about this Sunday?
+
+
+[11/26/2022 7:53 AM] lgd#5847
+Yeah sorry I'm just really busy with homework/school. When are the meeting? I haven't been following.
+
+
+[11/26/2022 12:26 PM] drehaf#0090
+No prob! Will post agenda in a few. 2 pm utc tomorrow.
+
+{Reactions}
+👍 
+
+[11/27/2022 1:55 PM] WilfordGrimley#0124
+The meeting is in 5 minutes if you have time today. 🙂
+
+
+[11/27/2022 1:57 PM] lgd#5847
+Are there meeting minutes where I can write, I might not be able to make it unfortunately?
+
+
+[11/27/2022 1:57 PM] WilfordGrimley#0124
+https://docs.google.com/document/d/1GvrRFmHsqZqg5Da6DqUAJ0YBENSldFR9zTLFMFnK9do/edit
+
+If you don't have time, no worries. 🙂
+
+
+[11/27/2022 1:58 PM] lgd#5847
+Cool I'll I write it in here. Thanks
+
+
+[11/27/2022 5:36 PM] drehaf#0090
+Whatever u put here I’ll include in the notes when I post later today or tomorrow 🙂
+
+
+[12/02/2022 5:32 AM] theta_decay#5677
+This sounds awesome, Luca.
+
+
+==============================================================
+Exported 33 message(s)
+==============================================================

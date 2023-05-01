@@ -1,0 +1,254 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / ergo-dex-marketing
+==============================================================
+
+[01/22/2020 9:20 PM] morphic#4133
+Together with Denis we are finishing DEX implementation using ErgoTool CLI.
+Here is the road map https://github.com/aslesarenko/ergo-tool/issues/22
+This week we plan to finish commands implementation and have blog-post draft.
+Depending of review and testing somewhere next week we can publish this in the blog.
+In addition to that I think it make sense do additional marketing activities. 
+In particular we may do some price pumping, twitting campaign, etc.
+
+
+[01/22/2020 9:22 PM] mx#5165
+🙏
+
+
+[01/22/2020 9:25 PM] morphic#4133
+So this channel is to discuss this campain mostly.
+
+
+[01/22/2020 9:26 PM] morphic#4133
+Changed the name accordingly
+
+
+[01/22/2020 9:27 PM] mx#5165
+Blog post should focus strictly on real dex possibilities with Ergo
+
+
+[01/22/2020 9:28 PM] mx#5165
+This is very important in the whole cryptocurrency space
+
+
+[01/22/2020 9:30 PM] morphic#4133
+Yes, fully trustless based on atomic swap example in Sigma.
+also I'm in favor of extending the scope of this roadmap, to include also implementation of simple Web Page which shows current DEX order book. 
+This is easy to do, doesn't require any keys, and will be helpful to find orders and run CLI commands
+
+
+[01/22/2020 9:31 PM] morphic#4133
+We can ask Dmitry Usov to create such page
+
+{Reactions}
+👍 
+
+[01/22/2020 9:33 PM] mx#5165
+Yes, it should be marketed as one of the major Ergo products,  lots of people made a career with it in the last decade while having a trash product. We need to put focus on atomic exchange in the core and also on atomic exchange with different cryptocurrencies, there is offchain decentralized matching also i assume?
+
+
+[01/22/2020 9:34 PM] mx#5165
+We need to explain every single element in detail when it comes to Ergo DEX
+
+
+[01/22/2020 9:35 PM] mx#5165
+Then also people will start learning about other properties
+
+
+[01/22/2020 9:35 PM] morphic#4133
+Current implementation will be very basic, but hopefully useful. Other features may come later.
+
+
+[01/22/2020 9:36 PM] mx#5165
+Yes i know but we need to explain possibilities in details with first post
+
+
+[01/22/2020 9:37 PM] mx#5165
+web page with order book would be huge marketing stunt at the same time
+
+{Reactions}
+👍 
+
+[01/22/2020 9:38 PM] morphic#4133
+Yeah, that is the goal of this channel. I will create some draft ASAP, and share here.
+
+
+[01/22/2020 9:41 PM] mx#5165
+That`s how i think about it - Priceless, if it is a truly decentralized exchange where different protocols could be built on top of the atomic exchange with the possibility of transactions being sent off-chain and posted next on the blockchain along with the exchange transaction
+
+
+[01/22/2020 9:42 PM] mx#5165
+we need to put at the same time things like no bloat etc
+
+
+[01/22/2020 9:42 PM] mx#5165
+the problems most blockchains have problems while creating dex
+
+
+[01/22/2020 9:43 PM] mx#5165
+while having fully decentralized exchange
+
+
+[01/22/2020 9:44 PM] mx#5165
+no centralized gateways etc
+
+
+[01/22/2020 9:44 PM] mx#5165
+offchain protocols, this post needs to be superb
+
+
+[01/22/2020 9:45 PM] mx#5165
+and finished with single web page just made with some style
+
+
+[01/22/2020 9:48 PM] mx#5165
+more privacy sigma magic may be added to it also for sure
+
+
+[01/22/2020 9:48 PM] mx#5165
+we need to market whole platform through this post
+
+
+[01/22/2020 9:55 PM] mx#5165
+there will be coinall listing, we can possibly combine these two events in not long distance
+
+
+[01/23/2020 6:27 AM] morphic#4133
+Oh, I'm not sure we should try to put all this in the same post, I think it better fits into a series of posts, the first one is opening the topic and then we can come up with new ones in the sequel.
+
+
+[01/23/2020 6:32 AM] mx#5165
+we can by simple sentences, it will be explained next in the series of posts
+
+
+[01/23/2020 7:01 AM] mx#5165
+https://blockdx.com
+
+{Embed}
+https://blockdx.com
+Block DX | Block DX
+Block DX is the fastest, most secure, most reliable, and most decentralized exchange (DEX), utilizing cross-chain atomic swaps powered by the Blocknet Protocol.
+https://images-ext-1.discordapp.net/external/vys4E3DR2By-e6TPibZjh-Hd89Dk_Lbnu6ibx8Ztx3o/https/blockdx.com/assets/img/blockdx-preview.png
+
+
+[01/23/2020 7:02 AM] mx#5165
+Why Block DX
+Many exchanges claim to be decentralized while hiding the details of centralized components. Block DX is the only exchange that decentralizes every component.
+Decentralized. Trustless. Secure. Private. Open. Uncensored. Unstoppable.
+
+
+[01/23/2020 7:02 AM] mx#5165
+Decentralized Order Books
+Traders broadcast their orders over a peer-to-peer network and each trader compiles the orderbook locally themselves. Unlike on-chain order books which enable frontrunning, with Block DX no one can get orders faster than anyone else by being closer to the server, since there is no server.
+
+Decentralized Order Matching
+All order matching is performed locally. As an order is taken, Block DX automatically begins communicating with the counterparty over the peer-to-peer network to conduct the trade. No third parties control this, all action is self-sovereign.
+
+Non-custodial
+Trading occurs directly from your own wallets and your funds remain in your control throughout the entire trade process. This means there's no third-party control over your funds, no need to transfer funds to another account, no waiting for deposit or withdrawal confirmations, and no withdrawal limits.
+
+
+[01/23/2020 7:03 AM] mx#5165
+Trustless
+Block DX allows you to securely trade with no middlemen or intermediaries, keeping you in control of your funds throughout the entire trade process. All trading logic, operations, verifications, and checks are also performed locally.
+
+Private
+No accounts, KYC, AML, or registration process are required since trading is purely peer-to-peer. As a result, no legal responsibility is created that would require registration to use Block DX. This protects your personal privacy and gives you true financial freedom.
+
+Native Assets, On-chain
+No wrapped proxy tokens or coloured coins are used in place of native assets. Many "DEXes" give you a wrapped marker (e.g. wBTC) to represent your real funds (e.g. BTC). This removes your sovereignty over your funds and requires you to trust this entity, smart contract, or third-party chain.
+
+
+[01/23/2020 7:03 AM] mx#5165
+Instant Trades
+Trades on Block DX are extremely fast. Many people believe that atomic swaps means that the trades are slow, but that depends on implementation. With Block DX the trade times are independent of the block times of the assets being traded.
+
+Open Source
+Block DX is entirely open source, enabling the community to review, audit, and contribute to Block DX freely and transparently. As a result, you may subject the code to high levels of scrutiny to satisfy your need for security no matter how high your standards are.
+
+Uncensored
+Listings and access to the exchange are open and uncensored. There are no restrictions on what users or regions have access to the exchange since there are no accounts and trading is decentralized. Listings are also decentralized with no single party that controls what assets can be traded.
+
+
+[01/23/2020 7:03 AM] mx#5165
+Lower Fees
+On Block DX there are lower trading fees and no withdrawal fee since trades are conducted directly from your wallets. While there are network fees of the assets being traded, this is a fee that exists when sending funds to and from other exchange addresses.
+
+Unstoppable
+Block DX is always online since it doesn't require accounts or any central entity to function. The true peer-to-peer nature of the exchange makes it impossible to shut down, offers zero downtime, and built-in DoS protection.
+
+Atomic Swaps
+Trade settlement is decentralized through the use of atomic swaps. Atomic swaps control the exchange of funds between you and your counterparty and are completely "trustless", meaning that you can safely trade with anyone without having to trust their intentions.
+
+
+[01/23/2020 7:03 AM] mx#5165
+Fee Sharing
+Some protocols return profits to a company or developer team, but this is a rent-seeking activity that enriches a central actor and does not fairly distribute fees. With Block DX, 100% of trade fees are distributed among nodes on the network. No trade fees are paid to a central entity.
+
+Cross-chain
+There are no restrictions to only trading assets of a certain chain. You can trade between Bitcoin, Litecoin, Dash, Syscoin, Digibyte, and more than 100 other assets from different blockchains with complete trading pair freedom. Block DX aims to integrate all platforms and assets.
+
+Liquidity Network
+Block DX is powered by the Blocknet Protocol. All services using the Blocknet Protocol have a shared order book and contribute to the same liquidity pool, including Block DX. This creates a network effect for liquidity.
+
+
+[01/23/2020 8:32 AM] kushti#0978
+@morphic where the webpage will be hosted?
+
+
+[01/23/2020 8:33 AM] kushti#0978
+ah I see
+
+
+[01/23/2020 8:33 AM] morphic#4133
+I suggest In the explorer, see #deleted-channel for discussion
+
+
+[01/23/2020 8:33 AM] kushti#0978
+explorer
+
+
+[01/23/2020 8:33 AM] kushti#0978
+good
+
+
+[01/23/2020 10:28 AM] mx#5165
+probably first post should be something like POC and then we can say next stages are etc
+
+
+[01/23/2020 10:31 AM] kushti#0978
+should we sell formal verification a lot ?
+
+
+[01/23/2020 10:31 AM] kushti#0978
+any issues happened with DEX contracts ?
+
+
+[01/23/2020 10:31 AM] kushti#0978
+on Eth
+
+
+[01/23/2020 10:43 AM] mx#5165
+if i see correctly, they are doing formal verification but for ethereum 2.0 🙂
+
+
+[01/23/2020 10:44 AM] mx#5165
+so we should probably push formal verification for pow a lot
+
+
+[01/23/2020 10:50 AM] mx#5165
+ethereum will rather fall into waves category
+
+
+[01/23/2020 11:01 AM] kushti#0978
+maybe formal verif is covering more with our simple approach
+
+
+[01/23/2020 12:35 PM] mx#5165
+that`s for sure, i mean we should probably focus more on blockchains not switching to POS
+
+
+==============================================================
+Exported 48 message(s)
+==============================================================

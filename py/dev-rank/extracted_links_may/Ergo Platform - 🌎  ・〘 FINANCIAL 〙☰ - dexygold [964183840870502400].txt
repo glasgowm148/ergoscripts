@@ -1,0 +1,2752 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 FINANCIAL 〙☰ / dexygold
+==============================================================
+
+[05/22/2022 2:15 PM] glasgowm#9381
+https://www.ergoforum.org/t/dexy-usd-simplest-stablecoin-design/1430
+
+https://github.com/ergoplatform/eips/blob/eip30/eip-0030.md
+
+{Embed}
+https://www.ergoforum.org/t/dexy-usd-simplest-stablecoin-design/1430
+Dexy USD - Simplest Stablecoin Design
+SigmaUSD worked well during the recent cryptocurrency markets flash crash, however, with some shorters taking profit draining bank reserves. Other stablecoins were devalued, liquidations triggered etc. Thus still we are in search of stablecoin design resilient to market events.  Continuing the old topic with a simple but fuzzy and controversial ...
+
+{Embed}
+https://github.com/ergoplatform/eips/blob/eip30/eip-0030.md
+eips/eip-0030.md at eip30 · ergoplatform/eips
+Ergo Improvement Proposals. Contribute to ergoplatform/eips development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/nMwK7ESKpbY5_mRZ1vnNKj1zS553ueUtMGZuU9nROT0/https/opengraph.githubassets.com/d645147c8cc03fea996efcb2bf3b8b51b72084475540805eec93f1d03ef3aa9f/ergoplatform/eips
+
+
+[06/29/2022 10:16 PM] Vesi Hiisi#2550
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/991814512141414470/dexy_1.png
+
+{Reactions}
+🔥 
+
+[06/29/2022 10:18 PM] Vesi Hiisi#2550
+I sketched out the possible actions and rules to get a better overview for myself. Maybe others find it useful. Please let me know if something is incorrect.
+
+
+[06/30/2022 6:36 AM] Vesi Hiisi#2550
+*missing action that users can provide liquidity to the LP.
+
+
+[12/09/2022 8:32 PM] Sergey#0000
+(re @Armeanio : **) 
+ 
+ This one is perfect
+
+
+[12/09/2022 8:34 PM] Sergey#0000
+It is thick like a tractor wheel and is obviously going to space right from the golden dirt
+
+
+[12/09/2022 8:59 PM] Mynameisemil#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1050879333520117781/file_90870.webm
+
+
+[12/09/2022 10:05 PM] cometeer#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1050896092411207830/file_90887.jpg
+
+
+[12/09/2022 10:26 PM] cometeer#0000
+any free mason here, maybe give it an occult angle
+
+
+[12/09/2022 10:27 PM] cometeer#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1050901649603964968/file_90890.jpg
+
+
+[12/09/2022 10:32 PM] cometeer#0000
+seems legit
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1050902770338779227/file_90891.jpg
+
+
+[12/10/2022 6:45 AM] koutelier#0000
+(re @cometeer : *seems legit*) 
+ 
+ /t 100 comet
+
+
+[12/10/2022 10:08 AM] HQ3rr#0000
+Forwarded from ep_dream_bot:
+
+
+[12/10/2022 10:08 AM] HQ3rr#0000
+"potrait silver coin astronaut helmet engraved with golden details on border , , hypersonic, 8k, stunning quality, octane render, trending on artstation, sharp focus, studio photo, intricate details, highly detailed, by greg rutkowski, portrait"" (Seed: 5753)" (Seed: 695)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1051078042467975218/file_90909.jpg
+
+
+[12/10/2022 10:09 AM] HQ3rr#0000
+Forwarded from ep_dream_bot:
+
+
+[12/10/2022 10:09 AM] HQ3rr#0000
+"potrait silver coin astronaut helmet engraved with golden details on border , , hypersonic, 8k, stunning quality, octane render, trending on artstation, sharp focus, studio photo, intricate details, highly detailed, by greg rutkowski, portrait"" (Seed: 5753)" (Seed: 2533)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1051078209325776918/file_90910.jpg
+
+
+[12/10/2022 10:32 AM] velvia695#0000
+(re @cometeer : *seems legit*) 
+ 
+ There were octagon shaped coins in the past, no?
+
+
+[12/10/2022 10:32 AM] HQ3rr#0000
+Yup
+
+
+[12/10/2022 10:46 AM] velvia695#0000
+Would be cool to go with that
+
+
+[12/10/2022 10:47 AM] HQ3rr#0000
+I quit with AI on dexy matter, i already did some Photoshop logos which I like
+
+
+[12/10/2022 10:47 AM] HQ3rr#0000
+Forwarded from HQ3rr:
+
+
+[12/10/2022 10:47 AM] HQ3rr#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1051087813048807464/file_90913.jpg
+
+
+[12/10/2022 10:47 AM] HQ3rr#0000
+Forwarded from HQ3rr:
+
+
+[12/10/2022 10:47 AM] HQ3rr#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1051087815800270928/file_90914.jpg
+
+
+[12/10/2022 10:47 AM] HQ3rr#0000
+Forwarded from HQ3rr:
+
+
+[12/10/2022 10:47 AM] HQ3rr#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1051087818644008990/file_90915.jpg
+
+
+[12/10/2022 10:52 AM] velvia695#0000
+Tried with stable diffusion
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1051089044328685598/file_90916.jpg
+
+
+[12/10/2022 10:54 AM] HQ3rr#0000
+(re @velvia695 : *Tried with stable diffusion*) 
+ 
+ Just remember this, AI can creat a sample or idea of a product but not provide you with all the formats and files needed for branding
+
+
+[12/10/2022 10:54 AM] velvia695#0000
+yeah
+
+
+[12/10/2022 10:56 AM] HQ3rr#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1051089918539087902/file_90917.jpg
+
+
+[12/10/2022 10:56 AM] HQ3rr#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1051089920405557328/file_90918.jpg
+
+
+[12/10/2022 10:56 AM] HQ3rr#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1051089922079072347/file_90919.jpg
+
+
+[12/10/2022 10:56 AM] HQ3rr#0000
+Done in 5 seconds
+
+
+[12/10/2022 11:13 AM] MrStahlfelge#0000
+But what does it have to do with gold
+
+
+[12/10/2022 11:13 AM] velvia695#0000
+Gold colors 😅
+
+
+[12/10/2022 11:13 AM] velvia695#0000
+I tried having it create ingots, but couldn't get it to work
+
+
+[12/10/2022 11:14 AM] HQ3rr#0000
+As I said , dexy is too diverse for ai
+
+
+[12/10/2022 11:14 AM] velvia695#0000
+I think latest midjourney is the best, but stopped my subscription
+
+
+[12/10/2022 11:14 AM] HQ3rr#0000
+Because there will be variants
+
+
+[12/10/2022 11:14 AM] velvia695#0000
+Stable diffusion is free and open source
+
+
+[12/10/2022 11:14 AM] HQ3rr#0000
+(re @velvia695 : *I think latest midjourney is the best, but stopped my subscription*) 
+ 
+ I don't support that shit 😂
+
+
+[12/10/2022 11:14 AM] HQ3rr#0000
+It's too easy ....
+
+
+[12/10/2022 11:15 AM] velvia695#0000
+Will probably adopt midjourney's latest model at some point
+
+
+[12/10/2022 11:15 AM] velvia695#0000
+But yeah, best would be to get a real artist make it, and use ideas from this chat
+
+
+[12/10/2022 2:48 PM] itsnotaboutme69#0000
+is that made by openai
+
+
+[12/10/2022 3:03 PM] HQ3rr#0000
+Stable diffusion
+
+
+[12/16/2022 10:29 PM] kushti#0000
+Will provide an update tomorrow
+
+
+[12/16/2022 10:54 PM] N#0000
+(re @kushti_ru : *Will provide an update tomorrow*)
+
+
+[12/16/2022 10:54 PM] N#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1053445033895919677/file_91728.webp
+
+
+[12/17/2022 4:15 AM] Tbku_jdkr#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1053525764693311550/file_91906.webp
+
+
+[12/18/2022 7:09 AM] koutelier#0000
+(re @kushti_ru : *Will provide an update tomorrow*) 
+ 
+ /t 100 comet
+
+
+[12/18/2022 7:10 AM] koutelier#0000
+@Armeanio add tip bot sir
+
+
+[12/18/2022 7:10 AM] Tbku_jdkr#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1053932211130335242/file_91909.webp
+
+
+[12/18/2022 12:03 PM] stannn4#0000
+(re @kushti_ru : *Will provide an update tomorrow*)
+
+
+[12/18/2022 12:03 PM] stannn4#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1054005871014858802/100years-later-100years.mp4
+
+
+[12/18/2022 2:40 PM] fruittree#0000
+(re @stannn4 : **) 
+ 
+ https://www.youtube.com/watch?v=WvF-PRmwMlQ
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=WvF-PRmwMlQ
+Dev Update Dec 18, 2022 | Rosen Bridge, Fleet Plugins, Comet Lotter...
+CW and Armeanio return once again for another thrilling ride through the magical world of development on Ergo, bringing us up to speed on everything that has been worked on in the past week, by the amazing developer community.
+
+00:00 Intro
+07:41 MrStahlfelge - Wallet App 2.3.2225, Token Burn warning messages
+09:11 c8e4d2a - Bitmasks Breeding Com...
+https://images-ext-1.discordapp.net/external/LpE3IBkX3SBO2_RMxlSqWAM1v0nNBiov_CrwATWW41Y/https/i.ytimg.com/vi/WvF-PRmwMlQ/maxresdefault.jpg
+
+
+[12/18/2022 2:41 PM] fruittree#0000
+https://www.youtube.com/watch?v=WvF-PRmwMlQ
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=WvF-PRmwMlQ
+Dev Update Dec 18, 2022 | Rosen Bridge, Fleet Plugins, Comet Lotter...
+CW and Armeanio return once again for another thrilling ride through the magical world of development on Ergo, bringing us up to speed on everything that has been worked on in the past week, by the amazing developer community.
+
+00:00 Intro
+07:41 MrStahlfelge - Wallet App 2.3.2225, Token Burn warning messages
+09:11 c8e4d2a - Bitmasks Breeding Com...
+https://images-ext-1.discordapp.net/external/LpE3IBkX3SBO2_RMxlSqWAM1v0nNBiov_CrwATWW41Y/https/i.ytimg.com/vi/WvF-PRmwMlQ/maxresdefault.jpg
+
+
+[12/19/2022 11:01 PM] kushti#0000
+Sorry, jumped around chats around the weekend, but skipped this one in juggling :(
+
+
+[12/19/2022 11:02 PM] HQ3rr#0000
+You juggle too much!
+
+
+[12/19/2022 11:02 PM] HQ3rr#0000
+Give us the results
+
+
+[12/19/2022 11:16 PM] kushti#0000
+So current state:
+
+* made another round of review, Amitabh is doing fixes now and splitting huge LP contract into parts. Dexy could be most complex contract deployed
+* as you know, oracle pool 2.0 delivering gold price is launched on the testnet, testing is going good so far
+* we are starting testing contracts with real testnet transactions
+
+
+[12/21/2022 4:12 AM] Kill_It_With_Coffee#2653
+My idea for the possible Dexy logo, the Greek symbol Delta inside the ERGO octagon
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1054974634526769162/Possible_Dexy_Logo.png
+
+
+[12/22/2022 5:44 AM] NoahErgo#0000
+What do you guys think of this?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1055360115022237726/file_92465.jpg
+
+
+[12/22/2022 5:50 AM] NoahErgo#0000
+Thoughts on this?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1055361578024841296/file_92466.jpg
+
+
+[12/22/2022 5:50 AM] NoahErgo#0000
+idea is to have the icon simple enough and with enough contrast so that even at small sizes it is recognizable
+
+
+[12/22/2022 5:51 AM] NoahErgo#0000
+as an example
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1055361929700454490/file_92467.jpg
+
+
+[12/22/2022 5:53 AM] NoahErgo#0000
+@Armeanio what do you think better or worse than ai images lol
+
+
+[12/22/2022 5:55 AM] Armeanio#0000
+(re @NoahErgo : *@Armeanio what do you think better or worse than ai images lol*) 
+ 
+ Why ask me 😂 I have no skills here.
+
+
+[12/22/2022 6:03 AM] NoahErgo#0000
+mockup
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1055364893802512455/file_92468.jpg
+
+
+[12/22/2022 6:04 AM] itsnotaboutme69#0000
+Looks like bnb
+
+
+[12/22/2022 6:06 AM] NoahErgo#0000
+i think its different enough. when i made it i wasnt imagining bnb
+
+
+[12/22/2022 6:07 AM] GliTch_40#0000
+(re @NoahErgo : *i think its different enough. when i made it i wasnt imagining bnb*) 
+ 
+ make it into more of a gold bar less of a cube and its good
+
+
+[12/22/2022 6:07 AM] NoahErgo#0000
+Will try it
+
+
+[12/22/2022 6:09 AM] itsnotaboutme69#0000
+there was one here that I liked if you could make it more simple but that one was a cool logo
+
+
+[12/22/2022 6:09 AM] itsnotaboutme69#0000
+(re @Armeanio : **) 
+ 
+ this one just make it more simple
+
+
+[12/22/2022 6:12 AM] NoahErgo#0000
+was made using AI
+
+
+[12/22/2022 6:43 AM] NoahErgo#0000
+(re @GliTch_40 : *make it into more of a gold bar less of a cube and its good*) 
+ 
+ i cannot do it lol
+
+
+[12/22/2022 6:43 AM] NoahErgo#0000
+neanderthal level design skills
+
+
+[12/22/2022 6:57 AM] GliTch_40#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1055378550456320080/smiling-geicos-caveman.mp4
+
+
+[12/22/2022 7:16 AM] GliTch_40#0000
+lol
+
+
+[12/22/2022 7:16 AM] GliTch_40#0000
+like the coin one but maybe a gold rim vs having the black there have been a few that are great designs
+
+
+[12/22/2022 6:08 PM] NoahErgo#0000
+(re @HQ3rr : **) 
+ 
+ can you make top right but without text and image centered
+
+
+[12/22/2022 6:09 PM] HQ3rr#0000
+(re @NoahErgo : *can you make top right but without text and image centered*) 
+ 
+ Will do sir
+
+
+[12/22/2022 6:19 PM] koutelier#0000
+(re @NoahErgo : *Thoughts on this?*) 
+ 
+ Looks like a box 🤣
+
+
+[12/22/2022 6:22 PM] t_nadii#0000
+Reminder of these design options :)
+
+
+[12/22/2022 6:22 PM] t_nadii#0000
+Forwarded from t_nadii:
+
+
+[12/22/2022 6:22 PM] t_nadii#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1055550848178081933/IMG_3880.PNG
+
+
+[12/22/2022 6:22 PM] t_nadii#0000
+Forwarded from t_nadii:
+
+
+[12/22/2022 6:22 PM] t_nadii#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1055550851961331852/IMG_3881.PNG
+
+
+[12/22/2022 6:22 PM] t_nadii#0000
+Forwarded from t_nadii:
+
+
+[12/22/2022 6:22 PM] t_nadii#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1055550856969338890/IMG_4002.PNG
+
+
+[12/22/2022 7:02 PM] TIMRΣG7#0000
+(re @NoahErgo : *can you make top right but without text and image centered*) 
+ 
+ top right is my favorite as well.
+
+
+[12/22/2022 9:30 PM] gg#0000
+Is there any video explaining dexy gold?
+
+
+[12/22/2022 10:57 PM] kushti#0000
+For only whitepaper draft 😥
+
+
+[12/22/2022 10:58 PM] kushti#0000
+Thinking about doing forum posts
+
+
+[12/22/2022 11:02 PM] gg#0000
+An Armeanio video like the Rosen one would be nice ... That was a good video
+
+
+[12/22/2022 11:04 PM] Armeanio#0000
+(re @gg : *An Armeanio video like the Rosen one would be nice ... That was a good video*) 
+ 
+ Ok 👍
+
+
+[12/25/2022 10:57 PM] gg#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1056707298971635852/file_92795.jpg
+
+
+[12/25/2022 10:57 PM] gg#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1056707302180274206/file_92796.jpg
+
+
+[12/25/2022 10:57 PM] gg#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1056707305019818074/file_92797.jpg
+
+
+[12/25/2022 10:57 PM] gg#0000
+More Dexy ideas from dall-e
+
+
+[12/28/2022 4:06 PM] kushti#0000
+Updated whitepaper a bit, should I pin pdf here?
+
+
+[12/28/2022 4:20 PM] firbaxa71#0000
+(re @kushti_ru : *Updated whitepaper a bit, should I pin pdf here?*) 
+ 
+ Yes that would be great
+
+
+[12/29/2022 10:53 PM] kushti#0000
+Whitepaper
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1058155840743428106/dexy.pdf
+
+
+[12/29/2022 10:54 PM] kushti#0000
+Going to create a forum topic as well
+
+
+[12/29/2022 11:21 PM] kushti#0000
+And this is a raw draft still
+
+
+[12/29/2022 11:48 PM] RichiTP#0000
+(re @kushti_ru : *Whitepaper*) 
+ 
+ I hope first implementation will be upgradable. It is impossible to get such things right from the first time. An ability to iterate is essential.
+
+
+[12/30/2022 12:36 AM] TIMRΣG7#0000
+(re @kushti_ru : *Going to create a forum topic as well*) 
+ 
+ I love the idea of paying out excess funds to miners & LP holders
+
+
+[12/30/2022 12:37 AM] TIMRΣG7#0000
+I need to make a flowchart of this protocol to make sure I understand. Perhaps that will help others, too.
+
+
+[12/30/2022 6:29 PM] TIMRΣG7#0000
+Any misconceptions here? Before I add more detail/rules about each actor...
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1058451784558989383/image_2022-12-30_10-29-14.png
+
+
+[12/30/2022 6:30 PM] EPattt#0000
+(re @TIMRΣG7 : *Any misconceptions here? Before I add more detail/rules about each actor...*) 
+ 
+ What incentive does oracle have?
+
+
+[12/30/2022 6:32 PM] TIMRΣG7#0000
+(re @EPattt : *What incentive does oracle have?*) 
+ 
+ https://docs.ergoplatform.com/uses/oracles/
+
+
+[12/30/2022 6:32 PM] TIMRΣG7#0000
+v2 will be released soon
+
+
+[12/30/2022 6:40 PM] TIMRΣG7#0000
+(re @EPattt : *What incentive does oracle have?*) 
+ 
+ I am not so knowledgeable on oracles, so perhaps someone else would be better to respond. All I know is that we have two pools currently and they work fine for our stable coin
+
+
+[12/31/2022 11:11 AM] Sergey#0000
+Someone is releasing his funds to buy dexygold
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1058703826514874388/file_93400.jpg
+
+
+[12/31/2022 11:27 AM] Pulsarzz#0000
+(re @Sergey : *Someone is releasing his funds to buy dexygold*) 
+ 
+ need wBUSD/DGLD pool
+
+
+[01/06/2023 11:36 PM] kushti#0000
+(re @RichiTP : *I hope first implementation will be upgradable. It is impossible to get such things right from the first time. An ability to iterate is essential.*) 
+ 
+ We are discussing that
+
+
+[01/08/2023 1:04 AM] Haskell_plus#0000
+(re @kushti_ru : *And this is a raw draft still*) 
+ 
+ I noticed a Getblok pool mentioned to payout excessive reserve's, would it be better to utilize a smart contract rather than a community protocol to payout the excessive reserves?
+
+
+[01/08/2023 5:47 AM] Dan / ដេនញ៉ូ#0000
+(re @kushti_ru : *Whitepaper*) 
+ 
+ Page 7: "It would be desirable to remove excess reserves"
+Why? The more collateral the safer the stablecoin.
+
+
+[01/08/2023 6:01 AM] Dan / ដេនញ៉ូ#0000
+This design is simple and informative. I would make the whole logo a solid, bright gold color without shading. And write "DEXY GOLD". This would make the logo scalable, as in the future the logo could be changed to "DEXY COPPER" and the color changed to accordingly.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1061524987082715146/file_94370.jpg
+
+
+[01/08/2023 6:39 AM] Sergey#0000
+(re @Dan / ដេនញ៉ូ : *Page 7: "It would be desirable to remove excess reserves"
+Why? The more collateral the safer the stablecoin.*) 
+ 
+ It is a bit more complicated. Yes, more collateral is always good. But to get more collateral people have to be more interested.
+
+
+[01/08/2023 6:40 AM] Sergey#0000
+(re @Dan / ដេនញ៉ូ : *This design is simple and informative. I would make the whole logo a solid, bright gold color without shading. And write "DEXY GOLD". This would make the logo scalable, as in the future the logo could be changed to "DEXY COPPER" and the color changed to accordingly.*) 
+ 
+ It is overcomplicated by the filled area in the center, at least.
+
+
+[01/08/2023 4:33 PM] Haskell_plus#0000
+(re @Dan / ដេនញ៉ូ : *Page 7: "It would be desirable to remove excess reserves"
+Why? The more collateral the safer the stablecoin.*) 
+ 
+ I kind of looked at it like so: With ERG as the reserve it is possible to have a large amount locked into the stable coin algo which means it would become stagnant in some sense and a stagnant currency creates a stagnant economy, since Erg is the underlying currency of the network and the network economy,the impact of having too much of it locked up has some unknowns associated with creating the central bank algo that way.
+
+
+[01/08/2023 6:13 PM] Vesi Hiisi#0000
+(re @Dan / ដេនញ៉ូ : *Page 7: "It would be desirable to remove excess reserves"
+Why? The more collateral the safer the stablecoin.*) 
+ 
+ Paying out profits for dev work and initial liquidity is fine. Cant get around those, unless someone feels generous.
+
+That does not mean  it has to go on forever. Once a fair amount of profits are paid out, then the system could slowly shift the profits to support stability. (E.g. buying own LP tokens). 
+
+Over time, those protocol owned LP tokens would push out everyone else, because it becomes capitally inefficient. That is great for a stablecoin, because it pumps the collateral ratio higher than what competitors can afford.
+
+As Chris points out, it might be a problem if the POL accumulates indefinitely. Not so sure about the stagnant point, but a huge POL might increase an incentive for oracle price providers to collude.
+
+So maybe there should be some very high collateral ratio cap, after which fees approach zero, or excess is paid out. Supportive functions should maybe get a cut anyway (mining and oracle).
+
+
+[01/08/2023 6:51 PM] Vesi Hiisi#0000
+(re @Haskell_plus : *I kind of looked at it like so: With ERG as the reserve it is possible to have a large amount locked into the stable coin algo which means it would become stagnant in some sense and a stagnant currency creates a stagnant economy, since Erg is the underlying currency of the network and the network economy,the impact of having too much of it locked up has some unknowns associated with creating the central bank algo that way.*) 
+ 
+ How does that "stagnant currency creates a stagnant economy" argument fit Ergo?
+
+For fiat currencies, that is the argument for aiming to have low inflation. Ergo will not have inflation at some point. Same as bitcoin, they are somewhat stagnant by design.
+
+At the extreme, dexy would lock some huge amount of erg. That would push up erg price. Why is it a problem?
+
+
+[01/08/2023 7:36 PM] Haskell_plus#0000
+(re @Ile : *How does that "stagnant currency creates a stagnant economy" argument fit Ergo?
+
+For fiat currencies, that is the argument for aiming to have low inflation. Ergo will not have inflation at some point. Same as bitcoin, they are somewhat stagnant by design.
+
+At the extreme, dexy would lock some huge amount of erg. That would push up erg price. Why is it a problem?*) 
+ 
+ Maybe it does not fit ergo, might be no problems with ergs getting locked away in a algo, looking at how it could make price rise by indefinitely locking them into a treasury is an interesting thought.
+
+
+[01/08/2023 8:07 PM] fruittree#0000
+some people say the low liguidity on CEXs is a deterrent for big buyers. but it doesn't make a lot of sense to just look at one side. the other side is scarcity is an important part of a currency.
+
+
+[01/08/2023 8:58 PM] TIMRΣG7#0000
+(re @Haskell_plus : *Maybe it does not fit ergo, might be no problems with ergs getting locked away in a algo, looking at how it could make price rise by indefinitely locking them into a treasury is an interesting thought.*) 
+ 
+ I think locking them might limit liquidity problems if protocol use fluctuates. Like with sigusd, liquidity has to build up before it can really be useful. If the protocol use goes way down, it has to build itself back up again.
+
+
+[01/08/2023 11:12 PM] kushti#0000
+Overcollateralization is a sign of high price, and during that time the protocol should be prepared for dips coming, minting lp tokens is a good way to prepare for it.
+
+
+[01/08/2023 11:14 PM] kushti#0000
+And then eg half of lp tokens can be burnt, half can be paid out after long enough timelock, if stablecoin backing is still good.
+
+
+[01/11/2023 7:37 PM] NoahErgo#0000
+Forwarded from unknown: https://www.logoai.com/
+
+{Embed}
+https://www.logoai.com/
+Design A New Logo & Brand You Love! - LogoAi.com
+Let AI-powered logo maker generate your new logo, create matching stationery, and design a brand you love.
+https://images-ext-2.discordapp.net/external/3d0XHIlwokRewHagZLmitfvOtVasQJ4oecSeEHtyE3s/https/www.logoai.com/img/share/logoai.jpg
+
+
+[01/11/2023 8:07 PM] Sergey#0000
+(re @NoahErgo : *https://www.logoai.com/*) 
+ 
+ They have too bad logo. It seems that their ai is working bad
+
+
+[01/11/2023 8:08 PM] PlanDrip#0000
+(re @Sergey : *They have too bad logo. It seems that their ai is working bad*) 
+ 
+ True
+
+
+[01/11/2023 8:10 PM] Sergey#0000
+It looks like a man falling in a mouse trap
+
+
+[01/11/2023 9:07 PM] gg#0000
+Haha yeah it's a terrible logo
+
+
+[01/11/2023 9:09 PM] gg#0000
+Now Google Muse came to market... So many drawing AIs lately
+
+
+[01/12/2023 11:06 PM] kushti#0000
+Contracts are in the main repo now, as well as first 50 tests
+
+
+[01/12/2023 11:48 PM] kushti#0000
+Overcollateralization is a sign of high price, and during that time the protocol should be prepared for dips coming, minting lp tokens is a good way to prepare for it.
+
+
+[01/12/2023 11:48 PM] kushti#0000
+And then eg half of lp tokens can be burnt, half can be paid out after long enough timelock, if stablecoin backing is still good.
+
+
+[01/16/2023 12:18 AM] Dan / ដេនញ៉ូ#0000
+Where can I find information on the SPF token
+
+
+[01/16/2023 12:45 PM] Jesper#0000
+https://finbold.com/russia-and-iran-explore-launch-of-joint-cryptocurrency-backed-by-gold/
+
+{Embed}
+Jordan Major
+https://finbold.com/russia-and-iran-explore-launch-of-joint-cryptocurrency-backed-by-gold/
+Russia and Iran explore launch of joint cryptocurrency backed by gold
+In light of the advancements in digital assets, Russia and Iran are exploring the development of a joint stablecoin backed by gold.
+https://images-ext-2.discordapp.net/external/dlmPDwv6ngGjrlbajy5hn3fPdIw5Re03DT3W1E3gQXo/https/finbold.com/app/uploads/2023/01/Russia-and-Iran-explore-launch-of-joint-cryptocurrency-backed-by-gold.jpg
+
+
+[01/16/2023 2:18 PM] PlanDrip#0000
+Wow
+
+
+[01/16/2023 2:18 PM] Jesper#0000
+Dexy is a front runner 🤣
+
+
+[01/17/2023 2:33 AM] PlanDrip#0000
+How is dexygold different from sigusd
+
+
+[01/17/2023 2:40 AM] TIMRΣG7#0000
+(re @PlanDrip : *How is dexygold different from sigusd*) 
+ 
+ It's completely different. The white paper is pinned
+
+
+[01/18/2023 2:43 AM] Reqlez#6611
+One is USD, and the other is GOLD  😏
+
+
+[01/18/2023 3:10 AM] PlanDrip#0000
+(re  : *<Reqlez> One is USD, and the other is GOLD  😏*) 
+ 
+ But to me it sounds more like Luna UST
+
+
+[01/18/2023 3:24 AM] TIMRΣG7#0000
+Read the paper. One token, two protocols. Luna had two tokens and used seigniorage.
+
+
+[01/18/2023 3:24 AM] TIMRΣG7#0000
+(re @PlanDrip : *But to me it sounds more like Luna UST*) 
+ 
+ Definitely not Luna
+
+
+[01/18/2023 3:36 AM] cafebedouin#9837
+Name another token that maintains its peg through arbitrage.
+
+
+[01/18/2023 3:48 AM] PlanDrip#0000
+(re  : *<cafebedouin> Name another token that maintains its peg through arbitrage.*) 
+ 
+ Okay but that's how I thought Luna and ust worked by arbitrage. I guess I was wrong.
+
+
+[01/18/2023 4:11 AM] NoahErgo#0000
+(re  : *<cafebedouin> Name another token that maintains its peg through arbitrage.*) 
+ 
+ New curve stablecoin whitepaper has a kind of similar amm mechanism
+
+
+[01/18/2023 11:38 AM] cafebedouin#9837
+I'm not deep into stablecoin concepts, but I think the main difference is that Dexy is like SigmaUSD and tries to solve maintaining the peg through locks and incentives whereas curve tries to solve via smart contracts. When I think arbitrage, I am thinking of human in the loop, or automated bots that responding to those incentives rather than the protocol itself doing the arbitrage. But, entirely possible I don't understand either protocol very well. I generally have to use something to get a feel for how things work.
+
+
+[01/18/2023 3:00 PM] TIMRΣG7#0000
+(re @TIMRΣG7 : *Any misconceptions here? Before I add more detail/rules about each actor...*) 
+ 
+ My understanding is the same.
+
+
+[01/23/2023 1:41 AM] velvia695#0000
+Can dexy be tied to all metals? Like copper and lithium etc?
+
+
+[01/23/2023 2:23 AM] NoahErgo#0000
+(re @velvia695 : *Can dexy be tied to all metals? Like copper and lithium etc?*) 
+ 
+ Can be any asset i think
+
+
+[01/23/2023 2:34 AM] gg#0000
+It can be pegged to anything, it's just code. I think
+
+
+[01/23/2023 3:10 AM] cafebedouin#9837
+Needs a data source (or several) for an oracle though...
+
+
+[01/23/2023 3:11 AM] cafebedouin#9837
+No data for shrimp, for example
+
+
+[01/27/2023 10:21 AM] Pulsarz#0000
+Any updates on dexy?
+
+
+[01/27/2023 10:22 AM] hq3r#0000
+(re @Pulsarzz : *Any updates on dexy?*) 
+ 
+ March
+
+
+[01/27/2023 10:23 AM] GliTch_40#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1068476291109617695/pokemon-march.mp4
+
+
+[01/28/2023 4:55 PM] blackinsecure#3693
+this is actually scary
+
+
+[01/28/2023 4:55 PM] blackinsecure#3693
+when combined with this
+
+
+[02/17/2023 5:52 PM] Dan / ដេនញ៉ូ#0000
+(re  : *<cafebedouin> No data for shrimp, for example*) 
+ 
+ Bring back shrimpcoin
+
+
+[02/26/2023 2:11 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1079405370402951168/image_2023-02-26_15-11-32.png
+
+
+[02/26/2023 2:44 PM] hq3r#0000
+ok done
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1079413635698393128/image_2023-02-26_15-44-23.png
+
+
+[02/26/2023 2:58 PM] hq3r#0000
+ok, now i need rest :D
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1079417111031590973/image_2023-02-26_15-58-12.png
+
+
+[02/26/2023 2:58 PM] koutelier#0000
+(re @HQ3rr : *ok, now i need rest :D*)
+
+
+[02/26/2023 2:58 PM] koutelier#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1079417243361878046/good-boy-dog.mp4
+
+
+[02/26/2023 6:31 PM] fruittree#0000
+(re @HQ3rr : *March*) 
+ 
+ 3 day reminder of incoming wen
+
+
+[02/26/2023 6:32 PM] koutelier#0000
+(re @fruittree : *3 day reminder of incoming wen*) 
+ 
+ Did they say beginning of march?
+
+
+[02/26/2023 6:32 PM] koutelier#0000
+Or which year ? 🤣
+
+
+[02/26/2023 6:33 PM] fruittree#0000
+you have to read between the lines for these things
+
+
+[02/26/2023 6:36 PM] koutelier#0000
+(re @fruittree : *you have to read between the lines for these things*) 
+ 
+ Small letters
+
+
+[03/01/2023 3:26 PM] NoahErgo#0000
+Forwarded from ErgoBridgeBot: <yb> **🔁 Spectrum Finance on Ergo:**
+- Resolved Yield Farming bundle tokens naming;
+- Pushing on with signature aggregation (WIP);
+- Added SPF fee refunds to dev env;
+- Fixed SPF execution fee transaction parser behavior;
+- Replaced frontend calculations with backend methods for Yield Farming;
+- New history UI/UX still in progress (WIP);
+- Upgrading mempool sync with new changes from chain sync (WIP).
+
+** 📜Documentation**
+- Updated the tech Yield Farming paper; 
+- All Yield Farming guides are written, not published yet.
+
+**🧪 Testing with the closed community group:**
+- All the Yield Farming functionality;
+- SPF execution fee feature;
+- New UI improvements.
+
+---
+
+**🤖 Spectrum Finance on Cardano:**
+- Fixing orders parsing bug (WIP);
+- Preparing Cardano analytics backend for launch (WIP).
+
+---
+
+Also, we are developing UX/UI for the Dexy bank app with @Dmitry Usov 
+Oh, and check our Ergohack VI proposal if you didn't have a chance yet #explorer-ui
+
+
+[03/01/2023 3:26 PM] NoahErgo#0000
+Check last section
+
+
+[03/01/2023 9:58 PM] kushti#0000
+Yeah, so now we have formed team which is working on backend and frontend
+
+
+[03/01/2023 9:58 PM] kushti#0000
+In parallel, checking with greenhat what's left in pools 2.0 contracts and offchain part
+
+
+[03/09/2023 2:30 PM] yashablack#0000
+Hello everyone,
+It would be cool if you had time to check Dexy bank initial UX mockups and add you comments there.
+
+You need to login to Figma using your google email to add comments.
+
+Use this link: https://www.figma.com/file/6Hcec52oXE4JklvmmSoffn/Dexy-Bank-(Dark)?node-id=1%3A3&t=ctrZKOBPCl9ZVB4i-1
+
+{Embed}
+https://www.figma.com/file/6Hcec52oXE4JklvmmSoffn/Dexy-Bank-(Dark)?node-id=1%3A3&t=ctrZKOBPCl9ZVB4i-1
+Dexy Bank (Dark)
+Created with Figma
+https://images-ext-2.discordapp.net/external/_I3SLJhkI9DMz39FMt81b5c-ypnecwmLaqcbiicKiaY/%3Fver%3Dthumbnails%2F7be098ba-585c-45d4-97f0-90912763ce32/https/www.figma.com/file/6Hcec52oXE4JklvmmSoffn/thumbnail
+
+
+[03/09/2023 2:32 PM] yashablack#0000
+Know that this interface will be improved and extended to all Dexy future tokens. For now, it is implemented just for Gold
+
+
+[03/09/2023 2:40 PM] yashablack#0000
+For navigation use this button
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1083399003368083536/file_103900.jpg
+
+
+[03/09/2023 2:45 PM] hq3r#0000
+(re @HQ3rr : *ok, now i need rest :D*) 
+ 
+ These match with UI... Just saying 🤣
+
+
+[03/09/2023 2:45 PM] hq3r#0000
+(re @HQ3rr : *ok done*) 
+ 
+ These too
+
+
+[03/09/2023 2:46 PM] TIMRΣG7#0000
+Functionally, I like it. Everything makes sense and I would understand how to use it without having to ask gazza for help on telegram lmao. Feedback, perhaps it could have some branding. Logos or a banner would set it off. Then you could just differentiate those + color for each Dexy currency.
+
+
+[03/09/2023 2:48 PM] Gazza_SP#0000
+(re @TIMRΣG7 : *Functionally, I like it. Everything makes sense and I would understand how to use it without having to ask gazza for help on telegram lmao. Feedback, perhaps it could have some branding. Logos or a banner would set it off. Then you could just differentiate those + color for each Dexy currency.*) 
+ 
+ I'm always available anyway sir, annoy me as needed 😂
+
+
+[03/09/2023 3:31 PM] NoahErgo#0000
+Looks really nice, the green is sexy
+
+
+[03/09/2023 5:18 PM] yashablack#0000
+We need a logo for the Bank and DexyGold token. Do you have any suggestions?
+
+
+[03/09/2023 5:32 PM] fruittree#0000
+did we ever pick a winner
+
+
+[03/09/2023 5:41 PM] TIMRΣG7#0000
+The gold bars are my favorite
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1083444452712001586/photo_2023-03-09_09-41-24.jpg
+
+
+[03/09/2023 5:41 PM] TIMRΣG7#0000
+I don't think anyone made any bank logos
+
+
+[03/09/2023 5:42 PM] TIMRΣG7#0000
+(re @TIMRΣG7 : *Any misconceptions here? Before I add more detail/rules about each actor...*) 
+ 
+ Quick unrelated question. I started an explainer slide deck that could help dumb it down for people. Does this infographic make sense?
+
+
+[03/09/2023 5:58 PM] Vesi Hiisi#0000
+(re @TIMRΣG7 : *Quick unrelated question. I started an explainer slide deck that could help dumb it down for people. Does this infographic make sense?*) 
+ 
+ I think users can deal directly with the bank too.
+
+And feed go to amm too.
+
+
+[03/09/2023 8:11 PM] TIMRΣG7#0000
+(re @Ile : *I think users can deal directly with the bank too.
+
+And feed go to amm too.*) 
+ 
+ Hmm... Ok I will do some more reading then
+
+
+[03/09/2023 9:18 PM] yashablack#0000
+Maybe let’s create a landing page on the same domain as the app? So that people can read about dexy and use the protocol on the singe web site
+
+
+[03/10/2023 7:30 PM] yashablack#0000
+Content creation role is vacant, btw😁 so if someone wanna create content and landing page structure it is highly appreciated. Unfortunately, our team don’t have free hands for this task. I can help with review. I suppose @kushti_ru and Ile will be able to review too
+
+
+[03/11/2023 7:13 AM] NoahErgo#0000
+hi guys i took some inspiration from the figma mockup and tried to make a logo for the dexy bank
+
+
+[03/11/2023 7:14 AM] NoahErgo#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1084011347362201640/Dexy_Logo.png
+
+
+[03/11/2023 7:22 AM] NoahErgo#0000
+bigger size
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1084013443528536106/file_104327.jpg
+
+
+[03/11/2023 7:29 AM] Dan / ដេនញ៉ូ#0000
+I like it
+
+
+[03/11/2023 7:31 AM] NoahErgo#0000
+(re @NoahErgo : *bigger size*) 
+ 
+ @yashablack what do you think
+
+
+[03/11/2023 9:44 AM] NoahErgo#0000
+bigger size
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1084049090725281823/file_104327.jpg
+
+
+[03/11/2023 5:18 PM] koutelier#0000
+(re @yashablack : *Content creation role is vacant, btw😁 so if someone wanna create content and landing page structure it is highly appreciated. Unfortunately, our team don’t have free hands for this task. I can help with review. I suppose @kushti_ru and Ile will be able to review too*) 
+ 
+ Maybe @t_nadii if has the time?
+
+
+[03/11/2023 5:27 PM] t_nadii#0000
+@yashablack Can you give me more information?
+
+
+[03/11/2023 5:55 PM] yashablack#0000
+(re @NoahErgo : *@yashablack what do you think*) 
+ 
+ Maybe let’s do it without gradient?
+
+
+[03/11/2023 5:57 PM] hq3r#0000
+This time I am just going to lay around and see what ideas you guys come up with, because I think we miss one very important thing while selecting the logos, we "inside" people will recoginze the logo with for someone outside , a logo has to represent a meaning of a be a summary of what the product is related too... Sooo, suprise me hahah
+
+
+[03/11/2023 5:58 PM] yashablack#0000
+(re @t_nadii : *@yashablack Can you give me more information?*) 
+ 
+ I thought you are a designer, not copywriter..
+
+
+[03/11/2023 5:58 PM] hq3r#0000
+(re @yashablack : *I thought you are a designer, not copywriter..*) 
+ 
+ She need "inspiration" a hint , a clue to adapt too hahah
+
+
+[03/11/2023 6:02 PM] yashablack#0000
+I love this reference for a landind page
+https://app.uniswap.org/#/?intro=true
+
+{Embed}
+https://app.uniswap.org/
+Uniswap Interface
+Swap or provide liquidity on the Uniswap Protocol
+
+
+[03/11/2023 6:04 PM] t_nadii#0000
+(re @yashablack : *I thought you are a designer, not copywriter..*) 
+ 
+ @koutelier tagged me, so I asked for more information. If it's not design related, I can't help
+
+
+[03/11/2023 6:05 PM] hq3r#0000
+(re @t_nadii : *@koutelier tagged me, so I asked for more information. If it's not design related, I can't help*) 
+ 
+ Dexybank logo is required ...I saw you shared some logo for dexygold few months back
+
+
+[03/11/2023 6:13 PM] NoahErgo#0000
+(re @yashablack : *Maybe let’s do it without gradient?*) 
+ 
+ I can try it
+
+
+[03/11/2023 6:47 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1084185952349585491/image_2023-03-11_19-47-56.png
+
+
+[03/11/2023 6:49 PM] yashablack#0000
+AI generated?
+
+
+[03/11/2023 6:49 PM] hq3r#0000
+figma generated sir :)
+
+
+[03/11/2023 6:50 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1084186547777183824/image_2023-03-11_19-50-17.png
+
+
+[03/11/2023 6:54 PM] yashablack#0000
+I personally like this one
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1084187528627753100/file_104445.jpg
+
+
+[03/11/2023 6:57 PM] Pulsarz#0000
+Yep
+
+
+[03/11/2023 7:02 PM] crimsoncryptos#0000
+Why choose green?🤔 i think its better in gold colour, just my opinion
+
+
+[03/11/2023 7:04 PM] hq3r#0000
+(re @crimsoncryptos : *Why choose green?🤔 i think its better in gold colour, just my opinion*) 
+ 
+ Baseline for the Ui ux is green because it will be interesting and playable with other stuff too
+
+
+[03/11/2023 7:04 PM] hq3r#0000
+Such as token icons etc
+
+
+[03/11/2023 7:04 PM] hq3r#0000
+(re @HQ3rr : *ok, now i need rest :D*) 
+ 
+ These type
+
+
+[03/11/2023 7:05 PM] crimsoncryptos#0000
+I see, that makes sense
+
+
+[03/11/2023 7:27 PM] NoahErgo#0000
+(re @yashablack : *I personally like this one*) 
+ 
+ this is nice
+
+
+[03/11/2023 7:27 PM] NoahErgo#0000
+@HQ3rr great job
+
+
+[03/11/2023 9:35 PM] hq3r#0000
+ADDED GRADIENT AND CREATED FEW VARIATIONS
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1084228027103322292/image_2023-03-11_22-35-07.png
+
+
+[03/11/2023 9:49 PM] hq3r#0000
+done , now i will sit around and watch :D
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1084231630736076840/DexyBank.png
+
+
+[03/11/2023 9:53 PM] TIMRΣG7#0000
+🔥
+
+
+[03/11/2023 9:55 PM] hq3r#0000
+with token icons
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1084233052512858112/DEXYA.png
+
+
+[03/11/2023 9:58 PM] hq3r#0000
+(re @HQ3rr : *with token icons*) 
+ 
+ With icon we can do green gradient stroke and just use Inside text and BG bars color of mineral too
+
+
+[03/11/2023 9:58 PM] TIMRΣG7#0000
+Those icons weren't my favorite but they do match with that logo & color scheme
+
+
+[03/11/2023 9:59 PM] TIMRΣG7#0000
+Looks good
+
+
+[03/11/2023 10:03 PM] hq3r#0000
+(re @TIMRΣG7 : *Those icons weren't my favorite but they do match with that logo & color scheme*) 
+ 
+ I always try to dedicate time to stuff and think about future ser! 🤣
+
+
+[03/11/2023 10:15 PM] NoahErgo#0000
+(re @HQ3rr : *with token icons*) 
+ 
+ i like these but without gradient i think
+
+
+[03/11/2023 10:22 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1084239893657571438/file_104458.jpg
+
+
+[03/11/2023 10:26 PM] hq3r#0000
+if we dont want to loose the ergo identity
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1084240860478185552/image_2023-03-11_23-26-07.png
+
+
+[03/12/2023 12:22 AM] hq3r#0000
+done , now i will sit around and watch :D
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1084270214780309645/DexyBank.png
+
+
+[03/12/2023 5:55 AM] Vesi Hiisi#0000
+Is there some gold market open 24/7?
+
+
+[03/12/2023 5:55 AM] Vesi Hiisi#0000
+For the oracle I mean
+
+
+[03/12/2023 10:33 AM] Gazza_SP#0000
+(re @crimsoncryptos : *Why choose green?🤔 i think its better in gold colour, just my opinion*) 
+ 
+ It makes sense as dexy is a framework for lots of pegged assets, not just gold!
+
+
+[03/16/2023 1:43 AM] Bullskey#6363
+@cafebedouin what do you mean by first version will be pegged to gold ?
+
+
+[03/16/2023 1:44 AM] cafebedouin#9837
+See gazza's comment above.
+
+
+[03/16/2023 1:44 AM] Bullskey#6363
+so Dexy would be a basket of assets
+
+
+[03/16/2023 1:44 AM] Bullskey#6363
+wouldnt that just be an ETF
+
+
+[03/16/2023 1:45 AM] cafebedouin#9837
+No Dexy is designed to be pegged to a commodity, I believe.
+
+
+[03/16/2023 1:45 AM] Bullskey#6363
+"a" commodity or multiple
+
+
+[03/16/2023 1:45 AM] cafebedouin#9837
+But, you could then combine into another meta asset of a different design.
+
+
+[03/16/2023 1:45 AM] Bullskey#6363
+is there any paper on what dexygold is ?
+
+
+[03/16/2023 1:47 AM] cafebedouin#9837
+https://docs.ergoplatform.com/assets/pdf/dexy.pdf
+
+
+[03/16/2023 1:48 AM] Bullskey#6363
+damn, I hope I will have the time to read all that
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1085741424001167370/image.png
+
+
+[03/16/2023 2:05 AM] TIMRΣG7#0000
+(re  : *<Bullskey> so Dexy would be a basket of assets*) 
+ 
+ Dexy is just a protocol design, but there will be many versions that allow people to allocate their funds however they see fit
+
+
+[03/16/2023 6:46 PM] Bullskey#6363
+what is constant-product Automated Market Maker
+
+
+[03/16/2023 6:47 PM] Bullskey#6363
+is this valid ?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1085997886086578206/image.png
+
+
+[03/16/2023 6:50 PM] Gazza_SP#0000
+Yeah correct, I have written about it in more detail here if you are interested 😊
+
+https://docs.spectrum.fi/docs/protocol-overview/amm
+
+{Embed}
+https://docs.spectrum.fi/docs/protocol-overview/amm
+Automated market maker | Welcome to the Spectrum Finance Docs
+AMM DEX uses an automated market maker mechanism to provide instant feedback on rates and slippage. AMM DEX suits best for pairs with low liquidity.
+
+
+[03/16/2023 6:51 PM] Bullskey#6363
+wow a lot of experts here, thanks for the link 🙏
+
+
+[03/16/2023 6:51 PM] Gazza_SP#0000
+No problem 😊
+
+
+[03/16/2023 6:55 PM] Bullskey#0000
+(re @Gazza_SP : *No problem 😊*) 
+ 
+ Hey, is it okay I dm you ? I have some private questions I want to ask ?
+
+
+[03/16/2023 7:14 PM] Bullskey#6363
+I read the dexy whitepaper, to be honest it seems quite complicated but I am able to understand the basic concept behind it, is there any excel sheet to play with ?
+
+
+[03/16/2023 7:56 PM] sl_antonov#0000
+(re @crimsoncryptos : *Why choose green?🤔 i think its better in gold colour, just my opinion*) 
+ 
+ Green color is a generic choice for money because it looks calm, passive, like income
+
+
+[03/16/2023 7:57 PM] sl_antonov#0000
+Wen dexy?
+
+
+[03/16/2023 8:56 PM] fruittree#0000
+soon
+
+
+[03/16/2023 9:00 PM] kushti#0000
+(re @sl_antonov : *Wen dexy?*) 
+ 
+ Backend part is mostly ready reportedly, frontend in progress, I am now reworking fees and payout a bit, then testnet deployment
+
+
+[03/17/2023 8:25 AM] sl_antonov#0000
+It seems it will be ready before we step into 3erg/blk epoch
+
+
+[03/17/2023 2:20 PM] TIMRΣG7#0000
+The gold bars are my favorite
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1086293071429382184/photo_2023-03-09_09-41-24.jpg
+
+
+[03/17/2023 2:55 PM] Bullskey#6363
+can I reach out if I need designs ?
+
+
+[03/17/2023 2:57 PM] hq3r#5569
+Sure
+
+{Reactions}
+❤️ 
+
+[03/17/2023 6:07 PM] Dan / ដេនញ៉ូ#0000
+(re @sl_antonov : *It seems it will be ready before we step into 3erg/blk epoch*) 
+ 
+ Haha is this a roast? That's 3 years from now
+
+
+[03/17/2023 6:13 PM] sl_antonov#0000
+(re @Dan / ដេនញ៉ូ : *Haha is this a roast? That's 3 years from now*) 
+ 
+ Lets say, 2 years.
+
+
+[03/17/2023 6:15 PM] sl_antonov#0000
+Alex's ideas are brilliants. Brilliants have to be polished.
+
+
+[03/20/2023 1:59 PM] eilemust#0000
+(re @HQ3rr : *ADDED GRADIENT AND CREATED FEW VARIATIONS*) 
+ 
+ give me arhive please
+
+
+[03/20/2023 1:59 PM] hq3r#0000
+(re @eilemust : *give me arhive please*) 
+ 
+ Sizes please
+
+
+[03/20/2023 2:00 PM] eilemust#0000
+svg needed
+
+
+[03/20/2023 2:02 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087375712777940992/dexy.svg
+
+
+[03/20/2023 2:02 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087375714434691133/DexyBank1.svg
+
+
+[03/20/2023 2:03 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087375872870318192/dexylogo.svg
+
+
+[03/20/2023 2:04 PM] hq3r#0000
+font used : poppins
+
+
+[03/20/2023 2:14 PM] eilemust#0000
+♥️
+
+
+[03/20/2023 2:15 PM] eilemust#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087378822686576670/file_105757.jpg
+
+
+[03/20/2023 2:15 PM] eilemust#0000
+looks good
+
+
+[03/20/2023 2:15 PM] yashablack#0000
+(re @eilemust : **) 
+ 
+ I assume it should be DexyGold/ERG
+
+
+[03/20/2023 2:16 PM] yashablack#0000
+@kostek807 could you take the logo above and add to the app?
+
+
+[03/20/2023 2:17 PM] yashablack#0000
+(re @eilemust : **) 
+ 
+ Also, I propose to add “gold” icon to the pool in explorer, not “dexy app” icon
+
+
+[03/20/2023 2:17 PM] yashablack#0000
+According to your currently logic, icon represents asset, not an app
+
+
+[03/20/2023 2:19 PM] eilemust#0000
+(re @yashablack : *Also, I propose to add “gold” icon to the pool in explorer, not “dexy app” icon*) 
+ 
+ ?
+
+
+[03/20/2023 2:19 PM] eilemust#0000
+We have logo for dexygold or not yet?
+
+
+[03/20/2023 2:20 PM] yashablack#0000
+(re @eilemust : *We have logo for dexygold or not yet?*) 
+ 
+ I didn’t see final versions
+
+
+[03/20/2023 2:20 PM] hq3r#0000
+(re @eilemust : *We have logo for dexygold or not yet?*) 
+ 
+ "We have to hold a contest for that"
+
+
+[03/20/2023 2:20 PM] eilemust#0000
+(
+
+
+[03/20/2023 2:20 PM] eilemust#0000
+Ok, will use for now dexybank
+
+
+[03/20/2023 2:20 PM] eilemust#0000
+later will change
+
+
+[03/20/2023 2:21 PM] hq3r#0000
+Because there is bounty of 30 erg I think
+
+
+[03/20/2023 2:21 PM] yashablack#0000
+(re @HQ3rr : *Because there is bounty of 30 erg I think*) 
+ 
+ Add 100 more erg to speed up
+
+
+[03/20/2023 2:21 PM] yashablack#0000
+😂
+
+
+[03/20/2023 2:21 PM] hq3r#0000
+(re @yashablack : *Add 100 more erg to speed up*) 
+ 
+ I have already submitted my proposals
+
+
+[03/20/2023 2:21 PM] hq3r#0000
+Which looks decent with the ui
+
+
+[03/20/2023 2:22 PM] kostek807#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087380759859429456/file_105758.jpg
+
+
+[03/20/2023 2:23 PM] yashablack#0000
+(re @HQ3rr : *Which looks decent with the ui*) 
+ 
+ And when you will receive 30erg?
+
+
+[03/20/2023 2:24 PM] hq3r#0000
+(re @yashablack : *And when you will receive 30erg?*) 
+ 
+ I haven't won the contest lol
+
+
+[03/20/2023 2:24 PM] hq3r#0000
+@Armeanio
+
+
+[03/20/2023 2:24 PM] yashablack#0000
+Who is making decision? When the deadline of decision making?
+
+
+[03/20/2023 2:25 PM] yashablack#0000
+That dangling shit is for kids lol. Let’s work without that sheesh
+
+
+[03/20/2023 2:26 PM] yashablack#0000
+Or development will last forever
+
+
+[03/20/2023 2:26 PM] hq3r#0000
+I have no problem in sending you my icons
+
+
+[03/20/2023 2:26 PM] hq3r#0000
+I just don't want to cause any problems lol
+
+
+[03/20/2023 2:26 PM] hq3r#0000
+We have planned voting for dexy logo for while now
+
+
+[03/20/2023 2:28 PM] yashablack#0000
+(re @yashablack : *Who is making decision? When the deadline of decision making?*) 
+ 
+ So what? Do you know?
+
+
+[03/20/2023 2:30 PM] hq3r#0000
+(re @yashablack : *So what? Do you know?*) 
+ 
+ @Armeanio  @kushti_ru
+
+
+[03/20/2023 2:30 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087382641101246525/dexygold.png
+
+
+[03/20/2023 2:30 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087382643269697596/dexygold.svg
+
+
+[03/20/2023 2:31 PM] yashablack#0000
+(re @HQ3rr : **) 
+ 
+ @kostek807 could you add to the app to showcase?
+
+
+[03/20/2023 2:32 PM] yashablack#0000
+(re @HQ3rr : **) 
+ 
+ Check how it looks in a list of other assets. You can take cmc and gecko lists.
+Good practise
+
+
+[03/20/2023 2:33 PM] hq3r#0000
+(re @yashablack : *Check how it looks in a list of other assets. You can take cmc and gecko lists.
+Good practise*) 
+ 
+ i already did all that with swap page on spectrum , i like how they look :)
+
+
+[03/20/2023 2:35 PM] yashablack#0000
+(re @HQ3rr : *i already did all that with swap page on spectrum , i like how they look :)*) 
+ 
+ Spectrum has quite big logos. On other platforms it can be diluted by other colourful logos which would make it pale and inconspicuous against the rest
+
+
+[03/20/2023 2:41 PM] hq3r#0000
+(re @yashablack : *Spectrum has quite big logos. On other platforms it can be diluted by other colourful logos which would make it pale and inconspicuous against the rest*)
+
+
+[03/20/2023 2:41 PM] hq3r#0000
+just becuase of that reason i designed these in first place
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087385408700166184/image_2023-03-20_15-41-23.png
+
+
+[03/20/2023 2:41 PM] hq3r#0000
+but modified it to match the bank ui , but yeah makes sense to have variaty for future
+
+
+[03/20/2023 4:15 PM] Armeanio#0000
+(re @HQ3rr : *I haven't won the contest lol*) 
+ 
+ /t 30 erg
+
+
+[03/20/2023 5:14 PM] yashablack#0000
+(re @HQ3rr : **) 
+ 
+ @kostek807 up
+
+
+[03/20/2023 6:43 PM] hq3r#0000
+see which one suites better
+
+
+[03/20/2023 6:43 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087446425647988756/DEXYGOLD2.png
+
+
+[03/20/2023 6:43 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087446428101660832/Dgold3.png
+
+
+[03/20/2023 6:46 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087447110691069993/Dexy3.png
+
+
+[03/20/2023 6:46 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087447115967504444/dexy4.png
+
+
+[03/20/2023 8:34 PM] t_nadii#0000
+I will send again the options that I offered in December, maybe the community will like some of them
+
+
+[03/20/2023 8:34 PM] t_nadii#0000
+Forwarded from t_nadii:
+
+
+[03/20/2023 8:34 PM] t_nadii#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087474385817968700/IMG_3880.PNG
+
+
+[03/20/2023 8:34 PM] t_nadii#0000
+Forwarded from t_nadii:
+
+
+[03/20/2023 8:34 PM] t_nadii#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087474391417368627/IMG_3881.PNG
+
+
+[03/20/2023 8:34 PM] t_nadii#0000
+Forwarded from t_nadii:
+
+
+[03/20/2023 8:35 PM] t_nadii#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087474397830447315/IMG_4002.PNG
+
+
+[03/20/2023 8:44 PM] kushti#0000
+https://twitter.com/chepurnoy/status/1637917610762280962
+
+{Embed}
+Alex Chepurnoy (@chepurnoy)
+https://twitter.com/chepurnoy/status/1637917610762280962
+Testnet explorer now shows state of XAU oracle pool powered by oracle pools 2.0 https://t.co/TgOISBLZn4
+Twitter
+
+
+[03/21/2023 7:37 AM] kostek807#0000
+In my opinion, the green polygon looks best
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087641011456589835/file_105902.jpg
+
+
+[03/21/2023 7:37 AM] kostek807#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087641013532762152/file_105903.jpg
+
+
+[03/21/2023 7:37 AM] kostek807#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087641015625728080/file_105904.jpg
+
+
+[03/21/2023 7:37 AM] kostek807#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087641017651564564/file_105905.jpg
+
+
+[03/21/2023 7:37 AM] kostek807#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087641019677421638/file_105906.jpg
+
+
+[03/21/2023 7:39 AM] hq3r#0000
+Green one for the Ui looks nice but as yasha said, we need to sre how it will look with other tokens too, maybe add dexy text under it so people can see what and where it comes from?
+
+
+[03/21/2023 7:42 AM] kostek807#0000
+In my opinion, the green polygon looks best
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087642257492025374/file_105907.jpg
+
+
+[03/21/2023 7:42 AM] kostek807#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087642259442368592/file_105908.jpg
+
+
+[03/21/2023 7:42 AM] kostek807#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087642261480812604/file_105909.jpg
+
+
+[03/21/2023 7:42 AM] kostek807#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087642264542662698/file_105910.jpg
+
+
+[03/21/2023 7:42 AM] kostek807#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087642266774016000/file_105911.jpg
+
+
+[03/21/2023 7:26 PM] kostek807#0000
+In my opinion, the green polygon looks best
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1087819595542442001/file_105907.jpg
+
+
+[03/22/2023 11:08 PM] kushti#0000
+Minting contracts updated, now part of minting fee is going to oracles
+
+
+[03/22/2023 11:08 PM] kushti#0000
+Starting testnet bootstrapping
+
+
+[03/23/2023 7:15 AM] NoahErgo#0000
+https://vxtwitter.com/allenwu29331265/status/1638507336343117824?s=46&t=Vd31QFsknxwBFGgSq2DnPw
+
+{Embed}
+Twitter
+https://vxtwitter.com/allenwu29331265/status/1638507336343117824?s=46&t=Vd31QFsknxwBFGgSq2DnPw
+Allen Wu (@AllenWu29331265)
+1/n In theory, $DJED could have different currency-pegged stablecoins share the same collateral, then have an oracle-based DEX that requires no counterparty by allowing exchange of different stablecoins based on oracle-values. #Cardano
+
+💖 55 🔁 4
+https://images-ext-2.discordapp.net/external/0r9HoV2ZT1GpPTUhGCb1nVkJ_1D6_A1Ay3wUoOLCxRQ/http/pbs.twimg.com/profile_images/1626087091884150784/xTnNwW7I_normal.jpg
+
+
+[03/23/2023 7:15 AM] NoahErgo#0000
+he is describing dexy without realizing it
+
+
+[03/23/2023 7:18 AM] Vesi Hiisi#0000
+(re @NoahErgo : *he is describing dexy without realizing it*) 
+ 
+ Not really. The dex part yes, but different dexy implementations will not share same collateral
+
+
+[03/23/2023 7:18 AM] NoahErgo#0000
+Yes had same thought
+
+
+[03/28/2023 2:31 PM] kushti#0000
+Testnet deployment done (except of payout contract which will be reworked, testnet data https://github.com/kushti/dexy-stable/blob/master/spec/deployment.md
+
+{Embed}
+https://github.com/kushti/dexy-stable/blob/master/spec/deployment.md
+dexy-stable/deployment.md at master · kushti/dexy-stable
+Contracts and offchain part of DEXy stablecoin . Contribute to kushti/dexy-stable development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/1SPqmZuus3fGHcKx3MEuC7aEC3CMo8oEPfbPSJ3_Wq0/https/opengraph.githubassets.com/051814cba8b45043de1d2daa1abcce61142df6862d7d22befc8f6ecc4129eb1a/kushti/dexy-stable
+
+
+[03/28/2023 2:33 PM] hq3r#0000
+KUSHTI ,can grid bots used for native tokens too ? on spectrum Lp`s ¿
+
+
+[03/28/2023 2:46 PM] kushti#0000
+(re @HQ3rr : *KUSHTI ,can grid bots used for native tokens too ? on spectrum Lp`s ¿*) 
+ 
+ Native tokens?
+
+
+[03/28/2023 2:46 PM] kushti#0000
+Well, they work for any tokens
+
+
+[03/28/2023 2:46 PM] hq3r#0000
+SPF , ERGOPAD, COMET etc
+
+
+[03/28/2023 2:47 PM] kushti#0000
+Yeah
+
+
+[03/28/2023 2:48 PM] kushti#0000
+Thinking about launching erg/comet some weekend 😁
+
+
+[03/28/2023 2:54 PM] hq3r#0000
+(re @kushti_ru : *Thinking about launching erg/comet some weekend 😁*) 
+ 
+ @koutelier
+
+
+[03/28/2023 2:55 PM] koutelier#0000
+(re @kushti_ru : *Thinking about launching erg/comet some weekend 😁*) 
+ 
+ Degens will have one more way on getting rekt . You should make the bot in a way they lose comet 🤣
+
+
+[03/28/2023 2:56 PM] hq3r#0000
+(re @koutelier : *Degens will have one more way on getting rekt . You should make the bot in a way they lose comet 🤣*) 
+ 
+ thats idelogy is already applicated to comet lottery lol
+
+
+[03/28/2023 4:42 PM] NoahErgo#0000
+Do we know what will be fee percentage for minting and burning?
+
+
+[03/28/2023 9:24 PM] macifyy#0000
+(re @kushti_ru : *Whitepaper*) 
+ 
+ Is there an online linkable version of the whitepaper?
+
+
+[03/28/2023 9:28 PM] filippounits#0000
+@macifyy
+
+https://github.com/kushti/dexy-stable/blob/master/paper/dexy.pdf
+
+{Embed}
+https://github.com/kushti/dexy-stable/blob/master/paper/dexy.pdf
+dexy-stable/dexy.pdf at master · kushti/dexy-stable
+Contracts and offchain part of DEXy stablecoin . Contribute to kushti/dexy-stable development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/1SPqmZuus3fGHcKx3MEuC7aEC3CMo8oEPfbPSJ3_Wq0/https/opengraph.githubassets.com/051814cba8b45043de1d2daa1abcce61142df6862d7d22befc8f6ecc4129eb1a/kushti/dexy-stable
+
+
+[03/28/2023 9:29 PM] macifyy#0000
+Appreciate it
+
+
+[03/31/2023 10:11 AM] gg#0000
+DexyCHF ...fuck the USD
+
+
+[03/31/2023 10:11 AM] Pulsarz#0000
+DexyYUAN
+
+
+[03/31/2023 10:11 AM] Pulsarz#0000
+i'd rather have DexyBTC tbh
+
+
+[03/31/2023 10:11 AM] Pulsarz#0000
+put some DexyBTC and rsBTC in a LP..
+
+
+[03/31/2023 10:12 AM] Dan / ដេនញ៉ូ#0000
+What is the barrier to launching many instances of Sig (sigUSD, sigBTC, etc)?
+
+
+[03/31/2023 10:12 AM] Dan / ដេនញ៉ូ#0000
+Is it finding reliable oracles??
+
+
+[03/31/2023 10:12 AM] Dan / ដេនញ៉ូ#0000
+Seems like BTC should be quite easy for oracle.
+
+
+[03/31/2023 10:12 AM] Pulsarz#0000
+More likely liquidity
+
+
+[03/31/2023 10:12 AM] Dan / ដេនញ៉ូ#0000
+> (re @Pulsarzz : *More likely liquidity*)
+         
+        Please explain
+
+
+[03/31/2023 10:12 AM] filippounits#0000
+Could be valuable to create (and feasible to build) an inflation indexed bond?
+
+
+[03/31/2023 10:12 AM] filippounits#0000
+a decentralized one, of course
+
+
+[03/31/2023 10:12 AM] Dan / ដេនញ៉ូ#0000
+> (re @filippounits : *Could be valuable to create (and feasible to b...*)
+         
+        Yes, 100%. A bond that rewards holders and punishes sellers. Do you know HEX? Design is good, but 80-90% of supply is controlled by 1 address.
+
+
+[03/31/2023 10:12 AM] NoahErgo#0000
+> (re @Dan / ដេនញ៉ូ : *Yes, 100%. A bond that rewards holders and pun...*)
+         
+        i dont think thats what he meant lol
+
+
+[03/31/2023 10:12 AM] Pulsarz#0000
+> (re @Dan / ដេនញ៉ូ : *Yes, 100%. A bond that rewards holders and pun...*)
+         
+        Oh god, please no.
+
+
+[03/31/2023 10:12 AM] Dan / ដេនញ៉ូ#0000
+> (re @Pulsarzz : *Oh god, please no.*)
+         
+        We want to increase the value locked in smart contracts.
+
+
+[03/31/2023 10:12 AM] Pulsarz#0000
+> (re @Dan / ដេនញ៉ូ : *We want to increase the value locked in smart ...*)
+         
+        Sure, but hex is a scam.
+
+
+[03/31/2023 10:12 AM] Dan / ដេនញ៉ូ#0000
+> (re @Pulsarzz : *Sure, but hex is a scam.*)
+         
+        It's a scheme.
+
+
+[03/31/2023 10:12 AM] Dan / ដេនញ៉ូ#0000
+A money machine is a viable crypto project. Some projects are centralized, like HEX. Making a decentralized money machine is quite reasonable.
+
+
+[03/31/2023 10:12 AM] NoahErgo#0000
+sounds like a job for gcx @Pulsarzz
+
+
+[03/31/2023 10:12 AM] Dan / ដេនញ៉ូ#0000
+What's gcx?
+
+
+[03/31/2023 10:12 AM] NoahErgo#0000
+pointless token that somebody made
+
+
+[03/31/2023 10:12 AM] NoahErgo#0000
+trying to come up with shitcoin scheme that generates funds for community to direct to cex listing lmao
+
+
+[03/31/2023 10:12 AM] Dan / ដេនញ៉ូ#0000
+On Ergo?
+
+
+[03/31/2023 10:12 AM] NoahErgo#0000
+yes on ergo
+
+
+[03/31/2023 10:12 AM] Dan / ដេនញ៉ូ#0000
+> (re @NoahErgo : *trying to come up with shitcoin scheme that ge...*)
+         
+        Nice
+
+
+[03/31/2023 10:12 AM] NoahErgo#0000
+it is very dumb
+
+
+[03/31/2023 10:12 AM] Dan / ដេនញ៉ូ#0000
+Projects need strong leadership for people to care.
+
+
+[03/31/2023 10:12 AM] NoahErgo#0000
+gcx has no leaders
+
+
+[03/31/2023 10:12 AM] NoahErgo#0000
+blind leading the blind
+
+
+[03/31/2023 10:12 AM] Dan / ដេនញ៉ូ#0000
+A good money machine could use a DAO. The DAO takes a percentage of profits and directs that to marketing.
+
+
+[03/31/2023 10:12 AM] Dan / ដេនញ៉ូ#0000
+Anyways, I digress. There's a reason I'm an Ergonaut and not a Hexican.
+
+
+[03/31/2023 10:12 AM] NoahErgo#0000
+if we come up with some dumb shitcoin scheme i assue you you will be the first to know sir
+
+
+[03/31/2023 10:13 AM] Moonbear_in_the_BBH#0000
+> (re @NoahErgo : *trying to come up with shitcoin scheme that ge...*)
+         
+        Have any heard of Xen by Jack Levin the token is on 10 blockchains right now. To me I think it checks all the boxes for for upwards future potential and is bringing a lot of hexicans in.
+
+
+[03/31/2023 10:13 AM] Dan / ដេនញ៉ូ#0000
+Is this xen?
+
+
+[03/31/2023 10:13 AM] Dan / ដេនញ៉ូ#0000
+> (re @Moonbear_in_the_BBH : *Have any heard of Xen by Jack Levin the token ...*)
+
+
+[03/31/2023 10:13 AM] Dan / ដេនញ៉ូ#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1091289089728331838/file_107284.jpg
+
+
+[03/31/2023 2:25 PM] Moonbear_in_the_BBH#0000
+Yeah
+
+
+[04/01/2023 3:26 AM] Moonbear_in_the_BBH#0000
+Damn Xen ripping today see what I say
+
+
+[04/01/2023 4:45 AM] NoahErgo#0000
+I regret bringing up shitcoins as a joke
+
+
+[04/01/2023 4:45 AM] NoahErgo#0000
+this is not a shitcoin chat 😅
+
+
+[04/01/2023 6:17 AM] Moonbear_in_the_BBH#0000
+Xen is fair launch first principles though
+
+
+[04/01/2023 6:27 AM] TIMRΣG7#0000
+> (re @Moonbear_in_the_BBH : *Xen is fair launch first principles though*)
+         
+        Go to baseless plz they will love to hear about your gem
+
+
+[04/01/2023 8:27 AM] Pulsarz#0000
+> (re @TIMRΣG7 : *Go to baseless plz they will love to hear abou...*)
+
+
+[04/01/2023 8:27 AM] Pulsarz#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1091624868954521612/no-what-in-the-hell-is-wrong-with-you.mp4
+
+
+[04/01/2023 8:27 AM] Pulsarz#0000
+Straight to gulag.
+
+
+[04/07/2023 10:27 PM] hq3r#0000
+https://twitter.com/WatcherGuru/status/1644443869872889856?t=iCZeQZxsQFQFILaJkKaNGA&s=35
+
+{Embed}
+Watcher.Guru (@WatcherGuru)
+https://twitter.com/WatcherGuru/status/1644443869872889856?t=iCZeQZxsQFQFILaJkKaNGA&s=35
+JUST IN: 🇺🇸 Texas Senators propose bill to create a state-issued, gold-backed digital currency.
+Likes
+1747
+Retweets
+379
+Twitter
+
+
+[04/08/2023 8:44 PM] kushti#0000
+(re @HQ3rr : *https://twitter.com/WatcherGuru/status/1644443...*)
+        
+        Interesting times
+
+
+[04/08/2023 8:44 PM] kushti#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1094347094451560468/file_108412.jpg
+
+
+[04/08/2023 8:45 PM] kushti#0000
+Neural network output for "kushti writing dexy gold whitepaper"
+
+
+[04/08/2023 8:52 PM] NoahErgo#0000
+Lol nice hahaha
+
+
+[04/09/2023 5:57 PM] Dan / ដេនញ៉ូ#0000
+(re @kushti_ru : *Neural network output for "kushti writing dexy...*)
+        
+        Greek God kushti
+
+
+[04/09/2023 6:38 PM] Dan / ដេនញ៉ូ#0000
+@kushti_ru Where can I notify Ergonauts of an ErgoScript bounty? (A 1 time job to program something on Ergo)
+
+
+[04/09/2023 6:39 PM] hq3r#0000
+(re @Dan / ដេនញ៉ូ : *@kushti_ru Where can I notify Ergonauts of an ...*)
+        
+        Is it about the hex thingy?
+
+
+[04/09/2023 6:52 PM] Dan / ដេនញ៉ូ#0000
+(re @HQ3rr : *Is it about the hex thingy?*)
+        
+        Yes, but other bounties too.
+
+
+[04/09/2023 6:53 PM] Dan / ដេនញ៉ូ#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1094681420510802020/file_108536.oga.ogg
+
+
+[04/09/2023 6:55 PM] hq3r#0000
+Get to the main chat and share your ideas and u Will definetly find Someone :)
+
+
+[04/09/2023 6:57 PM] Dan / ដេនញ៉ូ#0000
+Can you link the main chat?
+
+
+[04/09/2023 6:58 PM] glasgowm#0000
+Find them via @Ergo_Chats
+
+
+[04/09/2023 7:03 PM] Dan / ដេនញ៉ូ#0000
+Which chat specifically?
+
+
+[04/09/2023 7:09 PM] Dan / ដេនញ៉ូ#0000
+I hope someone takes this offer. We need more defi degenerates on Ergo.
+
+
+[04/09/2023 7:19 PM] kushti#0000
+(re @Dan / ដេនញ៉ូ : *@kushti_ru Where can I notify Ergonauts of an ...*)
+        
+        Sure, no need to ask me about such things but I would be happy to take a look into your ideas
+
+
+[04/09/2023 7:21 PM] kushti#0000
+(re @Dan / ដេនញ៉ូ : *I hope someone takes this offer. We need more ...*)
+        
+        Sounds good, maybe we need for a community and developers chat on different token ideas. I know one cool degen idea by Bruno from Djed Alliance, and have some own ideas as well.
+
+
+[04/09/2023 7:46 PM] Dan / ដេនញ៉ូ#0000
+(re @kushti_ru : *Sure, no need to ask me about such things but ...*)
+        
+        My idea is to create a certificate of deposit (CD) on Ergo. The CD will inflate its native token a set percentage per year. Inflation is distributed to token holders via staking. Longer and bigger stakes get a higher percentage of the inflation. Every time a stake ends the amount of tokens required to capture the same amount of inflation increases.
+
+
+[04/09/2023 7:48 PM] Pulsarz#0000
+(re @Dan / ដេនញ៉ូ : *My idea is to create a certificate of deposit ...*)
+        
+        So, a ponzi?
+
+
+[04/09/2023 7:48 PM] hq3r#0000
+(re @Pulsarzz : *So, a ponzi?*)
+        
+        Kind of
+
+
+[04/09/2023 7:50 PM] velvia695#0000
+Like HEX
+
+
+[04/09/2023 7:52 PM] Dan / ដេនញ៉ូ#0000
+(re @Pulsarzz : *So, a ponzi?*)
+        
+        No founder allocation. No rugpull. Just the open market. Defi degens locking up funds. 
+
+Usually a ponzi relies on new investors or it will collapse. By what mechanism would this CD collapse?
+
+
+[04/09/2023 7:56 PM] TIMRΣG7#0000
+(re @Dan / ដេនញ៉ូ : *No founder allocation. No rugpull. Just the op...*)
+        
+        I think if you did it with 100% smart contracts and no back end keys, people would do it
+
+
+[04/09/2023 7:57 PM] Dan / ដេនញ៉ូ#0000
+(re @TIMRΣG7 : *I think if you did it with 100% smart contract...*)
+        
+        That's exactly what I want to do. 100% open source.
+
+
+[04/09/2023 7:57 PM] TIMRΣG7#0000
+I'd yeet a few ergs
+
+
+[04/09/2023 8:11 PM] Dozo#0000
+Kinda like that idea 👍
+
+
+[04/09/2023 8:17 PM] Dan / ដេនញ៉ូ#0000
+(re @Dozo : *Kinda like that idea 👍*)
+        
+        Spread the word. 1000 SigmaUSD bounty to write the smart contracts for this decentralized certificate of deposit on Ergo. The code must be open source.
+
+
+[04/09/2023 8:18 PM] Pulsarz#0000
+(re @Dan / ដេនញ៉ូ : *Spread the word. 1000 SigmaUSD bounty to write...*)
+        
+        You need more then just the guard scripts though
+
+
+[04/09/2023 8:19 PM] Dan / ដេនញ៉ូ#0000
+(re @Pulsarzz : *You need more then just the guard scripts thou...*)
+        
+        Can you explain? I am an engineer but not a developer.
+
+
+[04/09/2023 8:19 PM] Pulsarz#0000
+On EVM it's simpler and you can just call some functions of the deployed contract, on Ergo it's a bit more tedious
+
+
+[04/09/2023 8:20 PM] TIMRΣG7#0000
+I really agree. I've been building a mental model of ergo to help create positive feedback loops, and I've come to something like the time-value of ERG held as the key metric. We need protocols like this, like dexy, like sigusd, etc that encourage people to lock up their funds.
+
+
+[04/09/2023 8:20 PM] Pulsarz#0000
+Need to make an application (most likely web based) around it or nobody will be able to use it anyway
+
+
+[04/09/2023 8:20 PM] Pulsarz#0000
+But maybe we are discussing this in the wrong chat guys :)
+
+
+[04/09/2023 8:20 PM] Pulsarz#0000
+Better to move to the general channel I think
+
+
+[04/09/2023 8:20 PM] TIMRΣG7#0000
+Perhaps you're right. I'll forward it all to the main chat
+
+
+[04/09/2023 8:21 PM] Dan / ដេនញ៉ូ#0000
+(re @TIMRΣG7 : *I really agree. I've been building a mental mo...*)
+
+
+[04/09/2023 8:21 PM] Dan / ដេនញ៉ូ#0000
+This is a power flow analysis of money in crypto. I think you're right.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1094703698673930402/file_108557.jpg
+
+
+[04/09/2023 8:22 PM] Dan / ដេនញ៉ូ#0000
+(re @Pulsarzz : *Need to make an application (most likely web b...*)
+        
+        https://go.hex.com/stake/ 
+
+I want a carbon copy of this webpage for the decentralized certificate of deposit.
+
+
+[04/09/2023 8:22 PM] TIMRΣG7#0000
+Let's move to the main chat. I forwarded everything so others can see
+
+
+[04/09/2023 8:23 PM] Dan / ដេនញ៉ូ#0000
+(re @TIMRΣG7 : *Let's move to the main chat. I forwarded every...*)
+        
+        Sounds good. Thanks bro.
+
+
+[04/09/2023 10:07 PM] kushti#0000
+Going to the main as well
+
+
+[04/13/2023 6:31 PM] kushti#0000
+https://testnet.ergoplatform.com/en/transactions/a1c2f3361f580731d47b0b3ad587e335accafbf2d2d72c99587ad0c8856db613
+
+
+[04/13/2023 6:32 PM] kushti#0000
+First dexy testnet transaction after  deploying the contracts
+
+
+[04/13/2023 6:32 PM] hq3r#0000
+(re @kushti_ru : *First dexy testnet transaction after  deployin...*)
+        
+        @Pulsarzz add these too to twitter bot
+
+
+[04/13/2023 6:32 PM] hq3r#0000
+So people can see the progress!
+
+
+[04/13/2023 6:32 PM] NoahErgo#0000
+btw @HQ3rr do you have hi res png of dexy bank logo? Maybe @kushti_ru can add it to channel image
+
+
+[04/13/2023 6:33 PM] hq3r#0000
+(re @NoahErgo : *btw @HQ3rr do you have hi res png of dexy bank...*)
+        
+        I forwarded svg's will modify one Wen on pc and sent it
+
+
+[04/13/2023 6:33 PM] hq3r#0000
+Dexy gold of dexybank? 2 different things
+
+
+[04/13/2023 6:34 PM] NoahErgo#0000
+dexy bank i guess
+
+
+[04/14/2023 12:31 PM] hq3r#0000
+Ok, lets do this
+
+
+[04/14/2023 12:38 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1096399011281387602/dexypfp.jpg
+
+
+[04/14/2023 12:38 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1096399020114579476/drxypfp2.jpg
+
+
+[04/14/2023 12:44 PM] Gazza_SP#0000
+(re @HQ3rr : **)
+        
+        I love this
+
+
+[04/14/2023 3:14 PM] hq3r#0000
+Need some community members to pop some #Erfo in chats! Come on guys?!!!
+
+
+[04/14/2023 3:14 PM] hq3r#0000
+Forwarded from unknown: https://www.youtube.com/watch?v=-Wa-2Cw9Bfo
+
+{Embed}
+FluxLabs
+https://www.youtube.com/watch?v=-Wa-2Cw9Bfo
+Flux - Round Table with POW projects
+●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+⭐Links:
+💻Website: https://runonflux.io
+💻Website: https://zelcore.io
+●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+👨‍👩‍👧‍👦  Social:
+◆ Discord: https://discord.gg/F6VeCS4
+◆ Twitter: https://twitter.com/runonflux
+◆ Twitter: https://twitter.com/Zelcore_io
+◆ Medium: https://fluxofficial.medium.com/
+●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+
+👍Please like this video if y...
+https://images-ext-2.discordapp.net/external/nfuasVjhHEyf12GrM4m7yv9MFH2MHX_aYg4haSz6Q4A/https/i.ytimg.com/vi/-Wa-2Cw9Bfo/maxresdefault_live.jpg
+
+
+[04/20/2023 11:45 AM] kushti#0000
+Updates:
+
+* polished some contracts and made another contracts redeployment
+*  first version of backend deployed
+* a new version of SDK released according to latest changes of protocol
+* the first arbMint transaction was broadcasted in testnet! https://testnet.ergoplatform.com/en/transactions/3ec6d0ca29f93f1dbe2399b3f409619794d86b60778abbba99e30a5e0e999820
+
+{Reactions}
+ergo_orange (3) ❤️ (3) 
+
+[04/26/2023 7:17 PM] filippounits#0000
+https://www.zerohedge.com/markets/saudi-arabia-selling-oil-china-gold
+
+{Embed}
+https://www.zerohedge.com/markets/saudi-arabia-selling-oil-china-gold
+Is Saudi Arabia Selling Oil To China For Gold?
+Rumors are making rounds that Saudi Arabia is selling oil for yuan, which it converts into gold on the Shanghai International Gold Exchange (SGEI).
+https://images-ext-1.discordapp.net/external/5oa5Bi6-u9P99yKgEnllqZUY18rNPQLK-9pS3OeCCuE/%3Fitok%3D3y2D38Yh/https/assets.zerohedge.com/s3fs-public/styles/16_9_max_700/public/2023-04/china%2520saudi%2520teaser.jpg
+
+
+[04/27/2023 6:46 PM] filippounits#0000
++10K views! 🚀
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1101202666912223242/file_112505.jpg
+
+
+[04/27/2023 6:46 PM] NoahErgo#0000
+Forwarded from NoahErgo: follow sirs
+
+https://twitter.com/Dexy_Ergo
+
+
+[04/27/2023 6:47 PM] filippounits#0000
+followed just few seconds ago!
+
+
+[04/27/2023 6:47 PM] filippounits#0000
+followed liked retwitted eheh
+
+
+[04/27/2023 11:26 PM] filippounits#0000
++10K views! 🚀
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1101273097434312764/file_112505.jpg
+
+
+[04/27/2023 11:27 PM] Mbah#0000
+(re @NoahErgo : *follow sirs
+
+https://twitter.com/Dexy_Ergo*)
+        
+        Done..followed
+
+
+[04/28/2023 7:29 AM] NoahErgo#0000
+https://vxtwitter.com/Dexy_Ergo/status/1651835830057721856?s=20
+
+{Embed}
+Twitter
+https://vxtwitter.com/Dexy_Ergo/status/1651835830057721856?s=20
+Dexy Stablecoin | Coming soon to Ergo (@Dexy_Ergo)
+Dexy uses 1 token & 2 protocols 
+
+1⃣: On-chain AMM for trading Dexy against ERG 
+
+2⃣: Algorithmic bank that intervenes when market price differs from target price set by an oracle. The bank mints Dexy tokens by selling them for ERG and uses ERG reserves for intervention
+
+#ergo
+
+💖 1 🔁 1
+https://images-ext-2.discordapp.net/external/wV46DjJf2nQRW-yXdamhmWlrK1CIeB6aFAdZWsIHs8g/https/pbs.twimg.com/media/Fux_vDraAAEj4x5.jpg
+
+
+[04/28/2023 9:59 PM] kushti#0000
+Forwarded from kushti_ru: https://testnet.ergoplatform.com/en/addresses/3WwhifgHTu7ib5ggKKVFaN1J6jFim3u9siPspDRq9JnwcKfLuuxc
+
+
+[04/28/2023 10:00 PM] kushti#0000
+first swaps with LP done!
+
+
+[04/28/2023 10:01 PM] NoahErgo#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1101614240265142343/wen-swap-wen.mp4
+
+
+[04/28/2023 10:04 PM] SebasCardanoPunks#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964183840870502400/1101614955826004069/63.mp4
+
+
+[04/28/2023 11:28 PM] RichiTP#0000
+I’m excited with Dexy design. However I have a question:
+
+Is there a ratio: LP Dexy / (Total Dexy - Algo bank Dexy) ?
+
+I think Dexy in LP should keep a ratio to free Dexy or we will depeg during the bank run
+
+
+[04/30/2023 4:09 PM] kushti#0000
+Forwarded from unknown: minted all available tokens to freemint!
+
+https://testnet.ergoplatform.com/en/transactions/2fe3e8aac1618e69632145db6e16ed439fdd8dc8a391d715caeef370453da293
+
+
+[04/30/2023 4:09 PM] kushti#0000
+Free mint test transaction done!
+
+
+[04/30/2023 4:12 PM] TIMRΣG7#0000
+Exciting. I was just thinking that dexyGold will make nice collateral in sigmafi.
+
+
+[04/30/2023 4:15 PM] NoahErgo#0000
+(re @TIMRΣG7 : *Exciting. I was just thinking that dexyGold wi...*)
+        
+        Yep I think so too
+
+
+[04/30/2023 4:16 PM] NoahErgo#0000
+bit less volatility than erg
+
+
+[04/30/2023 4:29 PM] TIMRΣG7#0000
+(re @NoahErgo : *bit less volatility than erg*)
+        
+        Just a bit 😅 but plenty of upside. I think that and rBTC will be good middle ground for people
+
+
+[04/30/2023 7:14 PM] TIMRΣG7#0000
+Forwarded from TIMRΣG7: So I just watched a video on this gold storage company in Singapore. It made me think about using them to issue a token backed by physical gold.
+
+
+[04/30/2023 7:14 PM] TIMRΣG7#0000
+Forwarded from TIMRΣG7: https://youtu.be/xWzNfFGhXQY
+
+{Embed}
+CTO LARSSON
+https://www.youtube.com/watch?v=xWzNfFGhXQY
+Banks crashing! Bitcoin + Physical Gold/Silver instead
+Is Physical Gold WITHOUT counterparty risk even possible? In this video we interview Silver Bullion CEO Gregor Gregersen, who has perhaps the ONLY solution to this problem in the world. Life changing video! We discuss the gold price, silver stacking, digital gold vs physical gold, and how to ACTUALLY opt out of a crashing fiat system.
+
+Covered:
+...
+https://images-ext-2.discordapp.net/external/SKWDu3-s45HIJV6yEmrjrdVvT0Sar7auXi-aA5zvYhQ/https/i.ytimg.com/vi/xWzNfFGhXQY/maxresdefault.jpg
+
+
+[04/30/2023 7:15 PM] TIMRΣG7#0000
+Forwarded from TIMRΣG7: I mean... EF is in Singapore right 🤷‍♂️
+
+
+[04/30/2023 7:15 PM] TIMRΣG7#0000
+Not sure of the value of having a physically backed protocol in addition to algorithmic. Just different risks
+
+
+[04/30/2023 7:22 PM] fruittree#0000
+physical backing leads to having more for regulators to point at afaik. Also has more of a single point of possible failure / corruption.
+
+
+[04/30/2023 7:26 PM] TIMRΣG7#0000
+(re @fruittree : *physical backing leads to having more for regu...*)
+        
+        Yep. Check out that video. Guy gives a good interview about their vaults and how their business seeks to reduce counterparty risk as much as possible
+
+
+==============================================================
+Exported 489 message(s)
+==============================================================

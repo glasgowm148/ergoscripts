@@ -1,0 +1,480 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / ergopool
+Topic: Bypassing Non-Outsourceable Proof-of-Work Schemes Using Collateralized Smart Contracts https://eprint.iacr.org/2020/044.pdf
+==============================================================
+
+[01/21/2020 3:39 PM] kushti#0978
+ErgoPool is a pool in development by @mhs_sam  . Not related to Ergo core team or Ergo Foundation
+
+
+[01/30/2020 7:28 AM] mhs_sam#1471
+Dear Ergo Community, I would like to announce that the first mining pool for Ergo is coming in the following days. This pool is using collaterals and smart contracts, and it would be almost open-sourced. Technically, we do not have control over what you mine but as an arbiter collect the money and distribute it to the miners. So, the pool is censorship-resistant and somehow decentralized. We hope this step in Ergo mining at the beginning of 2020, mitigates the obstacles of Ergo mining for small/medium miners and spreads the words of Ergo. So please follow this thread for the news.
+
+
+[01/30/2020 7:34 AM] mhs_sam#1471
+to this end, both amd miner and nv miner are modified to support the pool mining.
+
+{Reactions}
+👍 
+
+[01/30/2020 10:42 AM] york you#0730
+👍
+
+
+[02/01/2020 9:06 PM] ICEman#9314
+where is the pool
+
+
+[02/01/2020 9:06 PM] ICEman#9314
+?
+
+
+[02/02/2020 10:23 AM] ICEman#9314
+@kushti
+
+
+[02/02/2020 10:24 AM] kushti#0978
+I'm not working on the pool. Please ask @mhs_sam
+
+
+[02/02/2020 10:38 AM] mhs_sam#1471
+> where is the pool
+@ICEman will be announced next week
+
+
+[02/09/2020 9:14 AM] Harry1#5414
+> @ICEman will be announced next week
+@mhs_sam said the same thing last week
+
+
+[02/09/2020 9:15 AM] Harry1#5414
+@mhs_samsaid the same thing last week
+
+
+[02/09/2020 9:16 AM] Harry1#5414
+haha
+
+
+[02/09/2020 9:16 AM] Harry1#5414
+where is the miner with 100Mh per 1 GPU?
+
+
+[02/09/2020 9:19 AM] Harry1#5414
+👀
+
+
+[02/09/2020 9:19 AM] Harry1#5414
+BigEvilSoloMiner ehooooo devel....
+
+
+[02/09/2020 9:20 AM] Harry1#5414
+where is the pool and NEW miner with 90-100Mh....?
+
+
+[02/09/2020 9:21 AM] Harry1#5414
+BigEvilSoloMiner
+
+
+[02/09/2020 9:22 AM] Harry1#5414
+@BigEvilSoloMiner
+
+
+[02/09/2020 9:35 AM] mhs_sam#1471
+hopefully, we will announce this week, the pool will be available at ergopool.io
+
+
+[02/09/2020 12:36 PM] BigEvilSoloMiner#1550
+@Harry1 Actually, mine will be launching on or before February 14, which is three weeks ahead of schedule.
+
+
+[02/13/2020 7:50 PM] ICEman#9314
+hello
+
+
+[02/13/2020 7:50 PM] ICEman#9314
+are the pool is ready
+
+
+[02/13/2020 7:50 PM] ICEman#9314
+?
+
+
+[02/14/2020 6:20 AM] mhs_sam#1471
+> are the pool is ready
+@ICEman working hard on it. Some last minute bugs are found in integration, we will deliver soon. Also, working on AMD miner at the same time to improve the hashrate.
+ So not far, maybe today I hope
+
+
+[02/18/2020 10:05 AM] ICEman#9314
+@BigEvilSoloMiner @kushti @mhs_sam where is new pool, and miner ???
+
+
+[02/18/2020 5:38 PM] Nof00d#7297
+on mining channel @BigEvilSoloMiner said 10PM EST launch
+
+
+[02/19/2020 12:42 AM] mhs_sam#1471
+ergopool.io is live now for tester!
+
+
+[02/19/2020 12:45 AM] mhs_sam#1471
+We are on testnet for a few days, if you want to contribute and test the pool plz send us your erg adrs on testnet, we'll send you some test ergs to start mining.
+Btw, ui is not complete yet and will be finalized in the following days.
+So let the journey begin!
+
+{Reactions}
+🍻 
+
+[02/19/2020 4:08 AM] steinsg8#0288
+Very nice :D
+
+
+[02/23/2020 9:17 AM] mhs_sam#1471
+ergopool announcement in bitcointalk: https://bitcointalk.org/index.php?topic=5227855.0
+
+{Embed}
+https://bitcointalk.org/index.php?topic=5227855.0
+ergopool.io ::: an "own your node" mining pool for a pool-resistant...
+ergopool.io ::: an "own your node" mining pool for a pool-resistant coin, ergo
+
+{Reactions}
+💯 (3) 
+
+[02/28/2020 1:26 PM] GatSu#9313
+Hi..
+
+
+[02/28/2020 5:58 PM] BigEvilSoloMiner#1550
+@mhs_sam When are you switching over to mainnet? Let's give you a competitive miner.
+
+
+[02/28/2020 6:17 PM] mhs_sam#1471
+> @mhs_sam When are you switching over to mainnet? Let's give you a competitive miner.
+@BigEvilSoloMiner oh thanks, till Tuesday I guess
+
+
+[02/28/2020 6:19 PM] BigEvilSoloMiner#1550
+I will work on the integration
+
+
+[03/03/2020 5:30 AM] papinkababel#8613
+hello admin ,
+
+
+[03/06/2020 7:13 PM] scalahub#2618
+Whats the current status of ErgoPool? Is it out of testet?
+
+
+[03/06/2020 7:13 PM] scalahub#2618
+I've a gpu ready and waiting to mine
+
+
+[03/06/2020 7:14 PM] mhs_sam#1471
+> I've a gpu ready and waiting to mine
+@scalahub we are offline due to migration, we'll be up in 2-3 days on mainnet
+
+
+[03/06/2020 7:15 PM] scalahub#2618
+is there a step-by-step guide?
+
+
+[03/06/2020 7:15 PM] scalahub#2618
+maybe also add steps on how to obtain ergs for initial collateral
+
+
+[03/06/2020 7:15 PM] mhs_sam#1471
+> is there a step-by-step guide?
+@scalahub yes, on how-to page
+
+
+[03/06/2020 7:16 PM] mhs_sam#1471
+> maybe also add steps on how to obtain ergs for initial collateral
+@scalahub I see, okay
+
+
+[03/06/2020 7:17 PM] scalahub#2618
+for testnet at least should be easy
+
+
+[03/06/2020 7:18 PM] scalahub#2618
+please keep testnet pool also running
+
+
+[04/07/2020 3:41 PM] qwep4ik#5404
+when pool start
+
+
+[04/07/2020 7:31 PM] mhs_sam#1471
+> when pool start
+@qwep4ik depends on incoming forks, it is ready
+
+
+[06/18/2020 9:37 AM] mhs_sam#1471
+Dear miners, the ergopool.io is going to be operational on mainnet in a few days, just after node 3.2.7 release.
+
+{Reactions}
+👍 (5) 
+
+[06/18/2020 9:39 AM] kushti#0978
+@mx ^
+
+
+[06/18/2020 10:01 AM] mx#5165
+good news
+
+
+[07/03/2020 7:47 PM] mhs_sam#1471
+now live on mainnet!
+
+
+[07/03/2020 7:48 PM] Robert K#0722
+Nice, exciting to hear @mhs_sam
+
+{Reactions}
+👍 
+
+[07/03/2020 7:49 PM] Robert K#0722
+Should post about it on Telegram too, more people asking about mining pools there.
+
+
+[07/03/2020 8:05 PM] mhs_sam#1471
+> Should post about it on Telegram too, more people asking about mining pools there.
+@Robert K sure, @mx just sent a message there.
+
+
+[07/04/2020 2:12 PM] scalahub#2618
+Does it support nvidia cards?
+
+{Reactions}
+👆 
+
+[08/18/2020 3:13 PM] mhs_sam#1471
+> Does it support nvidia cards?
+@scalahub now you can use nv miner to mine with ergopool. until it is merged with the official NV miner you can use my fork: https://github.com/mhssamadani/Autolykos-GPU-miner
+
+{Embed}
+https://github.com/mhssamadani/Autolykos-GPU-miner
+mhssamadani/Autolykos-GPU-miner
+CUDA-based GPU miner for Ergo (Autolykos algorithm) - mhssamadani/Autolykos-GPU-miner
+https://images-ext-2.discordapp.net/external/3yCgKI5m95A-vUMH6PdqYSfpE-ZExekZHojrk5M9_Cw/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/3817003
+
+{Reactions}
+❤️ 
+
+[09/21/2020 10:44 AM] ponte#8953
+hello! i got this issue with ergopool.io : proxy says it found shares but there are too many at the same time, and the shares counter on the localhost panel doesn't increase in number
+
+
+[09/21/2020 10:44 AM] ponte#8953
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669203592040808478/757537759991824434/Screenshot_2020-09-21_at_10.54.28.png
+
+
+[09/21/2020 10:45 AM] ponte#8953
+is it a problem on my side or a pool thing?
+
+
+[09/21/2020 11:03 AM] mehran#0528
+Hi @ponte, What is the current height of your node?
+
+
+[09/21/2020 11:05 AM] ponte#8953
+@mehran hi! oh i see it's 314370
+
+
+[09/21/2020 11:05 AM] ponte#8953
+so problem is in my node
+
+
+[09/21/2020 11:06 AM] mehran#0528
+Yeah, somehow your node is out of sync and your shares get rejected.
+
+
+[09/21/2020 11:06 AM] ponte#8953
+should i full resync? like from 0 ?
+
+
+[09/21/2020 11:07 AM] mehran#0528
+I'm not sure, maybe restarting the node solves the problem.
+If not, I think you should resync from scratch? @kushti
+
+
+[09/21/2020 11:07 AM] ponte#8953
+i already restarted couple of times...
+
+
+[09/21/2020 11:07 AM] mehran#0528
+Are you using docker?
+
+
+[09/21/2020 11:08 AM] ponte#8953
+no, just downloaded the jar
+
+
+[09/21/2020 11:09 AM] ponte#8953
+strange is that the node panel says "node is synced"
+
+
+[09/21/2020 11:09 AM] mehran#0528
+> no, just downloaded the jar
+@ponte I have experienced this in case of electricity outage or just force shut downing the node.
+
+
+[09/21/2020 11:10 AM] mehran#0528
+> 
+> strange is that the node panel says "node is synced"
+> @ponte Maybe check its peers in swagger?
+
+
+[09/21/2020 11:10 AM] mehran#0528
+maybe it can not connect to any other nodes.
+
+
+[09/21/2020 11:12 AM] ponte#8953
+@mehran i got lot of peers connected
+
+
+[09/21/2020 11:13 AM] ponte#8953
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669203592040808478/757545019379941446/message.txt
+
+
+[09/21/2020 11:14 AM] ponte#8953
+btw i'll try with a full resync
+
+
+[09/21/2020 11:15 AM] ponte#8953
+strange is that in my peers list there is me
+
+
+[09/21/2020 11:15 AM] ponte#8953
+or maybe not strange dunno 😄
+
+
+[09/21/2020 11:16 AM] mehran#0528
+I'm not sure )
+You can also try to connect it to other nodes in swagger. That helps sometimes.
+
+
+[09/21/2020 11:16 AM] mehran#0528
+for example to this one: http://88.198.13.202:9053/
+
+
+[09/21/2020 11:16 AM] ponte#8953
+ok, i'll try to add this to my peers
+
+
+[09/21/2020 11:17 AM] ponte#8953
+i'll do that later in couple hours and if it doesn't work i'll try resync
+
+
+[09/21/2020 11:18 AM] ponte#8953
+thanks @mehran i'll let you know
+
+
+[09/21/2020 11:18 AM] mehran#0528
+> thanks @mehran i'll let you know
+@ponte No problem.
+
+
+[09/21/2020 11:51 AM] kushti#0978
+@ponte restart helps, did you have connectivity issues ?
+
+
+[09/21/2020 12:06 PM] ponte#8953
+@kushti i tried restart even after rebooting but nothing changes... connectivity don't know, i mean my pc is online as i'm reaching it from remote... i'll try adding a peer in the list and if nothing change i'll resync from 0
+
+
+[09/21/2020 3:42 PM] kushti#0978
+@ponte can you send me logs please ?
+
+
+[09/21/2020 4:38 PM] ponte#8953
+@kushti sure lemme see if i can find the right day
+
+
+[09/21/2020 4:39 PM] ponte#8953
+'cos it happened couple weeks ago (didn't had the time to check before today)
+
+
+[09/21/2020 5:00 PM] ponte#8953
+mmm @kushti it's almost impossible to find in which day occurred, logs are hundreds Mb of text... i think better wait for my sync that's going and wait if it happens again
+
+
+[09/21/2020 5:01 PM] ponte#8953
+or maybe there's some trick to find that "happening" without ditching all the logs? can't cat and grep cos i'm on windows
+
+
+[09/21/2020 6:46 PM] kushti#0978
+> mmm @kushti it's almost impossible to find in which day occurred, logs are hundreds Mb of text... i think better wait for my sync that's going and wait if it happens again
+@ponte would be problematic without grep )
+
+
+[09/21/2020 6:53 PM] kushti#0978
+@ponte some (likely related ) improvements planned for 3.3.5
+
+
+[09/21/2020 6:54 PM] ponte#8953
+Cool! Will the ergopool work with 3.3.5 ? I'm stuck in 3.2.7 due to pool experiment
+
+
+[09/21/2020 7:24 PM] mehran#0528
+> Cool! Will the ergopool work with 3.3.5 ? I'm stuck in 3.2.7 due to pool experiment
+@ponte Hopefully in a few days.
+
+{Reactions}
+❤️ 
+
+[09/21/2020 7:35 PM] ponte#8953
+@mehran really appreciate your work!
+
+{Reactions}
+👍 (2) 
+
+[09/23/2020 11:16 AM] ponte#8953
+@mehran @kushti hi there, so my node had the issue again: node and pool stopped being in sync at block 323896 or 323895 so i think the log i'm sending contains the issue:
+
+
+[09/23/2020 11:17 AM] ponte#8953
+oh, can't send beacause it's 14 mb
+
+
+[09/23/2020 11:24 AM] ponte#8953
+https://drive.google.com/file/d/14NzOxUUcVhNpu2vIas0RyjaRxFx7nM1B/view?usp=sharing
+
+{Embed}
+https://drive.google.com/file/d/14NzOxUUcVhNpu2vIas0RyjaRxFx7nM1B/view?usp=sharing
+ergo.log
+https://images-ext-2.discordapp.net/external/fcpweVH0fIZ_AlF61imXWQKCjg32Dq3rNPa2vQKoYkM/https/lh5.googleusercontent.com/ZRPfGefX7SKTy1Hqr3gqX2nYktr6qGfm7bV0adTkFCmWUk69_UdUVewq7AfVBYM%3Dw1200-h630-p
+
+
+[09/23/2020 1:55 PM] kushti#0978
+@ponte thanks! Will check
+
+
+[10/27/2020 6:09 PM] scalahub#2618
+what is the simplest way to particpate in ergopool? should I use windows/linux and are there any precompiled binaries? The only restriction is I have nvidia cards
+
+
+[10/27/2020 6:10 PM] scalahub#2618
+and which node versions
+
+
+[10/29/2020 8:48 AM] zargarzadehmoein#2928
+> what is the simplest way to particpate in ergopool? should I use windows/linux and are there any precompiled binaries? The only restriction is I have nvidia cards
+@scalahub 
+
+now the simplest way is proxy docker image otherwise, use jar file, with node version 3.2.7, proxy yet not compatible with 3.3.x
+new version of the proxy that is currently being prepared is compatible with 3.3.x and is easier to work with.
+
+for nv miner you can using [https://github.com/mhssamadani/Autolykos-GPU-miner/tree/master]
+
+
+==============================================================
+Exported 101 message(s)
+==============================================================

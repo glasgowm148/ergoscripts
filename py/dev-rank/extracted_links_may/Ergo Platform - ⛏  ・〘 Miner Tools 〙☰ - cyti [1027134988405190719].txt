@@ -1,0 +1,921 @@
+==============================================================
+Guild: Ergo Platform
+Channel: ⛏  ・〘 Miner Tools 〙☰ / cyti
+==============================================================
+
+[10/05/2022 11:40 AM] haileypdll#3353
+CYTI stands for Choose Your Token ID, this is a "minable" smart contrat allowing to mint tokens with a given character sequence at the begining of the token ID.
+A token minter create a CITY request, miners tries to generates the proper token ID using the CITY miner software.
+When one of the miners succeed, it get the fee from the CYTI contract and the token with the right token ID is sent to the token minter.
+Depending on the length of the character sequence requested, the computation is more or less difficult, the miners will be able to set a minimal price for the request for the possible requested length.
+For example the following transaction has minted "cccccc" tokens from a CYTI request:
+https://explorer.ergoplatform.com/en/transactions/ade01d272825f8922fe8a428322feb5735d3d70627654b6972453ccc2aed7894
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1027134988405190719/1027168413359030312/mint_eip4_4char.drawio.png
+
+{Reactions}
+spicy (7) 
+
+[10/08/2022 8:39 PM] haileypdll#3353
+🔥 🔥 🔥  First release of CYTI is available 🔥 🔥 🔥 
+
+The github repository for the project is now created: https://github.com/ThierryM1212/cyti
+The front-end is deployed at: https://thierrym1212.github.io/cyti/index.html
+It can be used on desktop with 
+ - SAFEW, Nautilus
+ - Mosaic desktop wallet through Ergopay
+On mobile:
+ - Ergo wallet (android) or Terminus wallet (iOS) through Ergopay
+
+A first version of the CYTI miner software is released as executable for linux and windows: https://github.com/ThierryM1212/cyti/releases
+Or it can be ran from the sources with nodejs, pm2, or docker.
+
+Please let me know if you encouter issues.
+
+Enjoy minting tokens with ids starting with ... 666 ... 420 ... 696969 ... you'll find better than me.
+
+
+If you are Appkit developper and interested in making a more performant miner please contact me.
+
+{Reactions}
+🔥 (3) 
+
+[10/09/2022 4:25 AM] H7#4402
+So amazing
+
+
+[10/09/2022 5:08 PM] H7#4402
+@haileypdll this maybe a stupid question but I can mine/validate other contracts not just anything my address creates right?
+
+Essentially all I need to do is run the miner with a change in address which the fee will go and wait for someone to mint?
+
+
+[10/09/2022 6:02 PM] haileypdll#3353
+Currently you cannot filter and mine only the contract your address has created. (no selfish mining)
+The miner will pick random contracts that meet the minimal fee requirement. 
+In the configuration you can set a minimal fee depending on the length of the requirement for the first characters of the token id.
+This option could be implemented... Or maybe remove the minimal fee check if the address of the miner match the address that created the request.
+
+Yes, you can just let the miner runs in the background, it consumes very few resources if there is nothing to be mined.
+With default configuration it will check every 20s if there is a new request to be mined.
+
+I will lower the recommended fee as I made a mistake in my computation.
+
+
+[10/09/2022 6:03 PM] H7#4402
+Thanks for that, what is the recommended fee?
+
+
+[10/09/2022 6:08 PM] haileypdll#3353
+In the config.js file, in the same directory than the miner:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1027134988405190719/1028715678506688532/unknown.png
+
+
+[10/09/2022 6:11 PM] H7#4402
+ah, thank you
+
+
+[10/09/2022 6:12 PM] H7#4402
+Also, "Number of worker processes" is this threads?
+
+
+[10/09/2022 6:15 PM] haileypdll#3353
+technically, they are processes because it gave better performance, but yes they could be named threads. This is how much the miner will run in parallel and consume resources.
+
+
+[10/09/2022 6:16 PM] H7#4402
+Got it, but still same concept as cpu thread arguments right? So if I have 35 threads
+
+
+[10/09/2022 6:16 PM] H7#4402
+I can run up to 35 processes?
+
+
+[10/09/2022 6:18 PM] haileypdll#3353
+On my system, with 12c/24t, the best performance was for 20, but it make the computer laggy. 16 is a good value. 8 allow to use the computer without noticing.
+
+
+[10/09/2022 6:19 PM] H7#4402
+Thank you, just launched across a bunch of different systems
+
+
+[10/09/2022 6:19 PM] H7#4402
+Will report any bugs, issues etc. Will circle back once I hit some fees too
+
+
+[10/09/2022 6:19 PM] H7#4402
+thank you @haileypdll
+
+
+[10/09/2022 6:19 PM] haileypdll#3353
+Thanks
+
+
+[10/09/2022 6:21 PM] H7#4402
+Sorry last question, it’s normal to report 0 hash? Assume that will normalize once it solves a request
+
+
+[10/09/2022 6:23 PM] haileypdll#3353
+This gives the current hashrate, and report 0 when not mining. I take a note to replace it with a "-" or leave empty.
+
+
+[10/09/2022 6:25 PM] H7#4402
+Then my question is should it be mining right now? Is it just not mining because there are no available contracts to validate?
+
+
+[10/09/2022 6:27 PM] haileypdll#3353
+I think nobody created a contract. I will create a contract with 8 chars for 1 ERG now there is some computing power 😀
+
+
+[10/09/2022 6:30 PM] H7#4402
+Ok, got two servers running
+
+
+[10/09/2022 6:30 PM] haileypdll#3353
+you should see the miner in action now
+
+
+[10/09/2022 6:31 PM] H7#4402
+Oh we’re in business!!
+
+
+[10/09/2022 6:31 PM] H7#4402
+Amazing
+
+
+[10/09/2022 6:32 PM] haileypdll#3353
+(With my system alone I got an estimate in days... let's see how much it will require... never got to the end of a 8 long)
+
+
+[10/09/2022 6:41 PM] H7#4402
+Stepped away, I’ll let you know
+
+
+[10/09/2022 6:41 PM] H7#4402
+Running 25 processes
+
+
+[10/09/2022 7:33 PM] H7#4402
+Nice, validated a contract for 0.1
+
+
+[10/09/2022 7:33 PM] H7#4402
+Still working on what you launched for 1 erg
+
+
+[10/09/2022 7:34 PM] H7#4402
+Is there a way to pool hashrate together to validate
+
+
+[10/09/2022 7:34 PM] H7#4402
+If it’s localized or can be VPN’d on the same IP?
+
+
+[10/09/2022 7:56 PM] haileypdll#3353
+There is no check on IP or whatever. The first miner producing the replicated box with the right hash win the fee, so you can run several miners for the same address from different computers.
+
+
+[10/09/2022 7:57 PM] H7#4402
+Got it, but is this a possibility to aggregate that hash together
+
+
+[10/09/2022 7:57 PM] H7#4402
+Almost the same concept as pooling hash
+
+
+[10/09/2022 7:57 PM] H7#4402
+Vs solo mining
+
+
+[10/09/2022 7:58 PM] H7#4402
+If so there is also an interesting concept of smart contract mining either by individuals or traditional pools
+
+
+[10/09/2022 7:59 PM] haileypdll#3353
+There is no pooling implemented, only solo mining. It should be possible to mine to a smart contract distributing the fees to several address. But there is no counter that would distribute the gains depending on the contribution.
+
+{Reactions}
+👍 
+
+[10/09/2022 8:01 PM] H7#4402
+But it’s possible?
+
+
+[10/09/2022 8:04 PM] haileypdll#3353
+GetBlock is doing it... so it should be possible, but I have no idea how it works.
+
+{Reactions}
+👍 
+
+[10/10/2022 7:29 PM] H7#4402
+a day in still haven't solved the '88888888' pattern
+
+
+[10/10/2022 7:35 PM] Cheese Enthusiast#0548
+Yes, we can make snisps for pretty much any mining algorithm, including whatever is being used in these contracts. Here shares would be transactions, rather than block headers.
+
+
+[10/10/2022 10:48 PM] haileypdll#3353
+I had around 3500 H/s. Let say you have the same. There is 2^32 (4 billion) pattern like that. If we are average lucky, 2 billion to find the right one. => (2^31 /( 7000 * 3600 *24) then 3.5 days... we need more power 🙂
+
+
+[10/10/2022 10:49 PM] haileypdll#3353
+I will publish a more optimized version of the miner (nearly twice faster).
+
+
+[10/10/2022 10:53 PM] haileypdll#3353
+You would have some pointer on a document explaining how it works ?
+
+
+[10/10/2022 10:59 PM] H7#4402
+Awesome, hashrate is somewhat similar, my strongest cpu is doing 4500+ on a 5950x
+
+
+[10/10/2022 11:04 PM] haileypdll#3353
+ho, that beast, my 5900x was at 3300 H/s max with the released version. The next version will improve the things.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1027134988405190719/1029152377003049033/unknown.png
+
+{Reactions}
+🔥 💯 
+
+[10/10/2022 11:10 PM] haileypdll#3353
+I've just pushed the new code, if you are running from the source you could update to try.
+
+{Reactions}
+👍 
+
+[10/10/2022 11:13 PM] H7#4402
+Nice, running the 5950x on windows. Mind pushing a release?
+
+
+[10/10/2022 11:14 PM] H7#4402
+or a zip for windows?
+
+
+[10/10/2022 11:17 PM] Cheese Enthusiast#0548
+Will have a paper out when the hackathon ends. Though thinking again, this is not a standard PoW scheme (where  `H(w) < t`), but instead something more like `H(w) = t`. This makes things a bit more complicated, and I am not entirely sure the methods used for SNISPs may work here.
+
+
+[10/10/2022 11:17 PM] haileypdll#3353
+Ok, I'm pushing a release with windows zip.
+
+
+[10/10/2022 11:17 PM] H7#4402
+thank you @haileypdll
+
+
+[10/10/2022 11:18 PM] Cheese Enthusiast#0548
+For example, there is no real concept of super-shares (like super-blocks in NiPoPoWs) here, as we are now trying to satisfy an equation rather than an inequality. Maybe a similar construction could be made though.
+
+
+[10/10/2022 11:20 PM] haileypdll#3353
+I don't really get how the blockhain (contract) would know how much hashrate is involved by the miner.
+
+
+[10/10/2022 11:24 PM] Cheese Enthusiast#0548
+In our paper, we're setting up a sort of game with various parameters that ensure that the only option that a miner is incentivized to do inherently reveals their hashrate (or something close to it).
+
+
+[10/10/2022 11:25 PM] Cheese Enthusiast#0548
+We're also leveraging the fact that there is a real limit on the number of hashes a miner can produce, and that a set of hashes which satisfies the standard PoW equation represents a binomial distribution.
+
+
+[10/10/2022 11:25 PM] haileypdll#3353
+https://github.com/ThierryM1212/cyti/releases/tag/v1.1.0 (not well tested but seems to works fine)
+
+{Reactions}
+🙏 
+
+[10/10/2022 11:31 PM] haileypdll#3353
+I will need to read the paper, and probably more information on how standard mining is working.
+
+
+[10/11/2022 1:02 AM] H7#4402
+I’ll have to do more testing on the v1.1 not seeing much of a lift.
+
+
+[10/11/2022 1:02 AM] H7#4402
+I might be trying to force too many processes
+
+
+[10/11/2022 1:03 AM] H7#4402
+Or there are limits on the amount the miner can do in tandem?
+
+
+[10/11/2022 1:03 AM] H7#4402
+25 process on both miners are pretty stable in the 4.1-4.5k hash range
+
+
+[10/11/2022 8:00 AM] haileypdll#3353
+Each miner is limited by the number of vCPU.
+
+
+[10/11/2022 8:03 AM] haileypdll#3353
+Strange, I've not made tests running two miners in parallel. I cannot really explain, the workload seems CPU bound in my test... but maybe there is another contention... There is now 2 requests for 8 character patterns, we will need more miners !
+
+
+[10/11/2022 6:18 PM] haileypdll#3353
+I've pushed a new version of the front end and of the miner to address an issue with the hash of the media of the tokens. This is a breaking change as the old miner will fail to mint tokens that include a media and that were generated by the previous version.
+
+{Reactions}
+👍 (2) 
+
+[10/11/2022 6:19 PM] H7#4402
+I’ll have some more instances up today
+
+
+[10/11/2022 6:19 PM] H7#4402
+Got a Xeon workbench I need to do some OS work on
+
+
+[10/11/2022 6:19 PM] H7#4402
+But will be mining soon
+
+
+[10/11/2022 6:20 PM] haileypdll#3353
+if you have some numbers, I would be pleased to collect them to build a table of the performance encountered.
+
+
+[10/11/2022 8:19 PM] H7#4402
+Sure, and I must have made a mistake yesterday. Just downloaded the hotfix and it's mining at 7.5k hash now
+
+{Reactions}
+❤️ 
+
+[10/11/2022 8:20 PM] H7#4402
+25 processes on the 5950x
+
+
+[10/11/2022 8:20 PM] H7#4402
+I'll pull some benchmarks together
+
+
+[10/11/2022 11:58 PM] H7#4402
+lol
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1027134988405190719/1029528415809847326/Screenshot_2022-10-11_155759.png
+
+
+[10/11/2022 11:58 PM] H7#4402
+55.5 kh/s
+
+
+[10/12/2022 7:01 AM] haileypdll#3353
+Yes, at the very begining of a mining round, sometimes it shows big numbers. I will try to improve.
+
+
+[10/12/2022 12:45 PM] haileypdll#3353
+You got it ! https://explorer.ergoplatform.com/en/token/88888888ca4d0732a898594f28a22765e0a8e5f535e76362c39060e1ac0d9dc6
+
+
+[10/12/2022 4:33 PM] H7#4402
+Nice!!
+
+
+[10/12/2022 4:34 PM] H7#4402
+Took about 2 days
+
+
+[10/12/2022 7:26 PM] capt_nemo#3204
+Hey, @haileypdll! Awesome project you have here, congrats. I'm looking at your miner code and I think it can be greatly optimized if you use Fleet's `OutpuBuilder` for `boxId` calculation. BoxId calculation is not done yet, but I can do it relatively quick, if you want to give it a try.
+
+Basically you won't need to assemble to whole transaction and do tons of async calls to calculate the boxId, instead you can simply do something like:
+
+```ts
+const builder = outputBuilder.setRegisters({R9: encodedNonce});
+if(builder.calcBoxId().startsWith(requiredStartSequence) {
+  // assemble the transaction here
+  // ...
+}
+```
+
+
+[10/12/2022 7:38 PM] capt_nemo#3204
+Oh, I just saw that  `transactionId` is also required. It can take more time than I imagine 🤔
+
+
+[10/12/2022 8:28 PM] haileypdll#3353
+Thanks. Yes, and that's the biggest consumer curently.
+
+
+[10/14/2022 10:02 AM] haileypdll#3353
+It was clear that CYTI contracts allows to mint many tokens in a single transaction. Something I have discovered is that when the pattern requested is empty, the contracts resolve to True for any boxId, so the contract is already in the second state, "Mined". And this allows to process the token minting with the CYTI miner immediately.
+
+
+[10/14/2022 5:47 PM] haileypdll#3353
+30 tokens minted in one transaction: https://explorer.ergoplatform.com/en/transactions/1c6ae8c44c493f6356a0e49afb5f2137267db5deda60c7e74d0ebc8e416f3ba8 (18 of them starting by "aa05" for testing purpose)
+
+
+[10/14/2022 6:00 PM] haileypdll#3353
+and the clean up
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1027134988405190719/1030525595509084220/unknown.png
+
+
+[10/14/2022 6:13 PM] H7#4402
+Interesting I got flooded with requests about an hour ago
+
+
+[10/14/2022 6:13 PM] H7#4402
+7 processed
+
+
+[10/15/2022 12:38 AM] haileypdll#3353
+The flood continue, I've pushed 100 CYTI requests in one transaction.
+
+
+[10/15/2022 2:28 AM] H7#4402
+Holy crap
+
+
+[10/15/2022 2:28 AM] H7#4402
+What’s the point of doing that? Just testing?
+
+
+[10/15/2022 4:33 AM] drehaf#0090
+what a random place to phish with this...
+
+
+[10/15/2022 4:59 AM] H7#4402
+Already reported in #⛔│scam-reports
+
+{Reactions}
+👍🏻 
+
+[10/15/2022 8:49 AM] haileypdll#3353
+thx
+
+
+[10/15/2022 8:51 AM] haileypdll#3353
+Yes, testing the limits, the cost, the feature. 150 CYTI requests in one transaction  failed when there was and URL and a hash due to the transaction size.
+
+
+[10/15/2022 8:53 AM] haileypdll#3353
+For 0.63 ERG, I've minted 150 different tokens, in one transaction (and 0.15 ERG were refundded). They all have a tokenID starting by '1111'. It seems to me a good feature for NFT creators making collections. https://explorer.ergoplatform.com/en/transactions/2993dae1a1f02ebc33c0adaa62923a7530c1b1dc0bf9f045a33d7672c6bfb6b3. It tooks 26mn to mine them all and get the tokens.
+
+{Reactions}
+🔥 ergo_orange 
+
+[10/15/2022 4:07 PM] haileypdll#3353
+The new UI allowing **mass token minting** through CYTI contracts is deployed:
+🔥 https://thierrym1212.github.io/cyti/index.html 🔥 
+
+A new version of the miner is released, v1.2.0, slightly improving the UI:
+https://github.com/ThierryM1212/cyti/releases/tag/v1.2.0
+
+Please let me know your feedbacks.
+
+{Reactions}
+🔥 (2) 
+
+[10/15/2022 5:27 PM] H7#4402
+Oh thats epic
+
+
+[10/15/2022 5:27 PM] H7#4402
+and use case of NFTs is amazing
+
+
+[10/16/2022 11:04 AM] haileypdll#3353
+CYTI minter is now running on FLUX ! 🥳 
+https://cytiminter.app.runonflux.io/
+
+{Reactions}
+spicy (3) 
+
+[10/16/2022 4:02 PM] NoahErgo#4349
+hell yeah!!
+
+
+[10/16/2022 9:37 PM] Telefragged#8068
+Tried this out and the miner felt a bit slow so I spent the better part of today trying to improve it and this is the best I managed
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1027134988405190719/1031304960119419011/unknown.png
+
+
+[10/16/2022 9:38 PM] Telefragged#8068
+Thats 13 million guesses per second, slightly better than the ~10k I was getting with the node version 😅
+
+
+[10/16/2022 9:41 PM] H7#4402
+holy moly
+
+
+[10/16/2022 9:42 PM] H7#4402
+mind sharing the code/version?
+
+
+[10/16/2022 9:42 PM] Telefragged#8068
+https://github.com/Telefragged/ergo-cyti-miner
+
+{Embed}
+https://github.com/Telefragged/ergo-cyti-miner
+GitHub - Telefragged/ergo-cyti-miner
+Contribute to Telefragged/ergo-cyti-miner development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/V0HUnNyoM9uEkMa4tlqCJpupRT2abaXt_MKbdjxo7hk/https/opengraph.githubassets.com/ffcfc03c63ed8dee13bb1bcf8827d83c04e8967ed14632c8da232fbe2060ad65/Telefragged/ergo-cyti-miner
+
+
+[10/16/2022 9:42 PM] Telefragged#8068
+Everything is hardcoded atm
+
+
+[10/16/2022 9:42 PM] H7#4402
+nicely done man
+
+
+[10/16/2022 9:42 PM] Telefragged#8068
+thx
+
+
+[10/16/2022 9:42 PM] Telefragged#8068
+Since the code is a mess: The main solving loop is here https://github.com/Telefragged/ergo-cyti-miner/blob/master/src/main.rs#L255
+
+
+[10/16/2022 9:43 PM] H7#4402
+@haileypdll - see above
+
+
+[10/16/2022 9:44 PM] Telefragged#8068
+Basically just find and overwrite some bytes on known locations in the serialized transaction then calculate hash, repeat for serialized box with the newly calculated transaction id
+
+
+[10/16/2022 9:51 PM] haileypdll#3353
+Wow, that's great ! I was hoping someone will be able to do a fast miner. That soon, WOW.
+
+
+[10/16/2022 9:56 PM] haileypdll#3353
+Well, I'm also doing string replace to change the nonce... but the UnsignedTransaction build takes all the time. And I've not find a way to get the TransactionId by another mean.
+
+
+[10/16/2022 9:57 PM] haileypdll#3353
+Javascript miner... was funny... but will not run much...
+
+
+[10/16/2022 9:57 PM] Telefragged#8068
+I think the rust->wasm bindings are lacking in this regard anyways. Looks like you're converting to and from json just to recalculate IDs which is suboptimal hehe
+
+
+[10/16/2022 9:58 PM] haileypdll#3353
+With that... I can probably push to 10 char in the UI... and reduce again the fees
+
+
+[10/16/2022 9:58 PM] Telefragged#8068
+10 should be feasible, around 1 day I calculated earlier with just my cpu
+
+
+[10/16/2022 10:02 PM] haileypdll#3353
+Yes... for the ErgoBox... I could do better, with string manipulation instead of JSON. but most of the time is really in the UnsignedTransaction from js
+
+
+[10/16/2022 10:08 PM] haileypdll#3353
+Will try to build it and run it.
+
+
+[10/16/2022 10:10 PM] Telefragged#8068
+It only runs 1 iteration currently, so a request has to be pending for it to begin calculating
+
+
+[10/16/2022 10:10 PM] haileypdll#3353
+I feel dump you made 1000 times faster, 😢
+
+
+[10/16/2022 10:13 PM] Telefragged#8068
+But you can feel smart for coming up with a really good idea
+
+{Reactions}
+🎉 
+
+[10/16/2022 10:14 PM] haileypdll#3353
+Thanks.
+
+
+[10/16/2022 10:26 PM] haileypdll#3353
+It built without issue on windows, but it crashes on startup: (exit code: 0xc00000fd, STATUS_STACK_OVERFLOW). Trying on linux.
+
+
+[10/16/2022 10:27 PM] Telefragged#8068
+I will try running on windows too, was using WSL when testing
+
+
+[10/16/2022 10:30 PM] haileypdll#3353
+I cannot enable it easily as I'm running some VM with Virtual box.
+
+
+[10/16/2022 10:34 PM] haileypdll#3353
+It runs fine on linux, but don't print anything. I can see the CPU consumption
+
+
+[10/16/2022 10:35 PM] Telefragged#8068
+logging is configured via environment variable
+
+
+[10/16/2022 10:35 PM] Telefragged#8068
+try `export RUST_LOG="ergo_cyti_miner=info"`
+
+
+[10/16/2022 10:35 PM] Telefragged#8068
+Seems like it works on windows in release mode but not debug
+
+
+[10/16/2022 10:36 PM] haileypdll#3353
+👍 I can see the prints now
+
+{Reactions}
+👀 
+
+[10/16/2022 10:48 PM] haileypdll#3353
+"Only" 8M/s on my side 😀
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1027134988405190719/1031322681158672434/unknown.png
+
+
+[10/16/2022 10:48 PM] Telefragged#8068
+Nice
+
+
+[10/16/2022 10:49 PM] Telefragged#8068
+I will make some improvements over the coming week, head is pretty fried today from figuring this out lol
+
+
+[10/16/2022 10:49 PM] haileypdll#3353
+Great, thanks
+
+
+[10/16/2022 11:23 PM] haileypdll#3353
+ho, I got it, you manipulate the bytes of the transaction directly and recompute the hash. Well done.
+
+
+[10/16/2022 11:26 PM] H7#4402
+Can anyone compile for windows?
+
+
+[10/16/2022 11:33 PM] haileypdll#3353
+the windows exe worked for me
+
+
+[10/16/2022 11:33 PM] haileypdll#3353
+(with the --release flag)
+
+
+[10/16/2022 11:35 PM] haileypdll#3353
+https://dropmeafile.com/#21d314395d ... it is compiled with my address 😄
+
+{Reactions}
+👍 
+
+[10/17/2022 1:23 AM] H7#4402
+Will give it a try
+
+
+[10/17/2022 6:29 PM] haileypdll#3353
+**CYTI - progress for the Ergohack last days**
+   - Submission of the 2nd week interim report done.
+   - The code is released on Github with READMEs for the different parts of the project.
+         https://github.com/ThierryM1212/cyti
+   - The presentation document is on going.
+   - A demo video is in preparation. (if the time allow it)
+   - Bonus: Tell to the ERG miners there is money to make.
+
+{Reactions}
+🎉 (2) ⛏️ (2) 💸 (2) 
+
+[10/19/2022 7:39 AM] haileypdll#3353
+A demo video of CYTI minting a NFT collection in one transaction: https://youtu.be/xjAHZoT0L7A
+
+{Embed}
+Haileypdll
+https://www.youtube.com/watch?v=xjAHZoT0L7A
+CYTI demo - Mint a NFT collection
+Demonstration of usage of CYTI smart contracts on Ergo blockchain to mint a NFT collection in one transaction choosing the beginning of the token ID.
+Project done for the Ergohack V.
+https://images-ext-1.discordapp.net/external/jhqcPVr4fSXXlniLOCyAu6FgpIlkjcY-XvNLsho6JGo/https/i.ytimg.com/vi/xjAHZoT0L7A/maxresdefault.jpg
+
+{Reactions}
+🔥 
+
+[10/19/2022 7:55 AM] haileypdll#3353
+The CYTI ergohack report has just been made available on the google drive. Adding a copy here.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1027134988405190719/1032185232557871104/CYTI_Ergohack_V_report.pdf
+
+{Reactions}
+🔥 
+
+[10/20/2022 9:08 AM] kii#8888
+This is freaking fire. I watched the video and read the docs. Crazy achievement you've done in 2 weeks!
+
+
+[10/20/2022 9:29 AM] haileypdll#3353
+thanks, I had some amount of re-usable code, and took the project architechture from blobs-topia project... that speed up the things.
+
+
+[10/20/2022 9:30 AM] haileypdll#3353
+Some promising "little" improvement coming for the miner with the great help from Telefragged:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1027134988405190719/1032571485467967559/unknown.png
+
+
+[10/22/2022 5:15 AM] H7#4402
+dude when?!
+
+
+[10/22/2022 11:02 AM] haileypdll#3353
+today if eveything is fine
+
+
+[10/22/2022 3:32 PM] haileypdll#3353
+The new miner is available with the performance improved x700 using the ergo-cyti-wasm-nodejs library from Telefragged.
+https://github.com/ThierryM1212/cyti/releases/tag/v2.0.1
+
+
+[10/22/2022 3:54 PM] H7#4402
+Amazing!!
+
+
+[10/22/2022 3:54 PM] H7#4402
+Thank you!
+
+
+[10/22/2022 4:12 PM] H7#4402
+@haileypdll Seems like there is still an issue with retrying to solve/validate a contract if the miner fails to solve the first time?
+
+
+[10/22/2022 4:23 PM] haileypdll#3353
+There is a transaction stuck in the mempool (with 666666 and 2222 patterns) since few hours, it is processed but still apears and fails to be sent because the inputs are already spent. It is the issue ?
+
+
+[10/22/2022 6:15 PM] haileypdll#3353
+A medium article to present the CYTI contract is available: https://medium.com/@Haileypdll/cyti-choose-your-token-id-2f2cf8f0f73f
+
+
+[10/22/2022 6:18 PM] H7#4402
+I think so
+
+
+[10/22/2022 6:18 PM] H7#4402
+Maybe that’s why I’m not continuing to mine it?
+
+
+[10/22/2022 6:18 PM] H7#4402
+Or it continues to come up?
+
+
+[10/22/2022 6:50 PM] haileypdll#3353
+They are mined once each time you launch the miner... Until the transaction disappears from the mempool.
+
+{Reactions}
+👍 
+
+[10/26/2022 8:23 AM] haileypdll#3353
+First ten char token was created ! https://explorer.ergoplatform.com/en/token/000000000055cfe328776e984af7e0ab1bcf0cc73f706ca236a372641760e888
+
+
+[10/26/2022 5:51 PM] H7#4402
+Damn, was gunning for it 🙂
+
+
+[10/26/2022 5:51 PM] H7#4402
+But congratulations to whoever hit it!
+
+
+[10/26/2022 5:54 PM] capt_nemo#3204
+Awesome, how many days did it take to be found?
+
+
+[10/26/2022 6:57 PM] haileypdll#3353
+It tooks around 2.5 days. Not sure of the hashrate allocated, we might have been a bit unlucky.
+
+
+[10/26/2022 9:41 PM] H7#4402
+I have about 10-12 mh/s total and didn't solve it
+
+
+[10/26/2022 9:41 PM] H7#4402
+biggest cpu is 5950x with 64gb
+
+
+[10/26/2022 9:43 PM] H7#4402
+does 5-6 mh/s
+
+
+[10/27/2022 12:07 AM] haileypdll#3353
+I was running 6mh/s between two computers, but I did not get it.
+
+
+[10/27/2022 1:24 AM] fubinou#4628
+Hi there, quick question. when i run the cyti miner, i see it processed two boxes for earnings of 0.0084, but in the end no resolved box found. what does it mean here ?
+
+
+[10/27/2022 1:24 AM] fubinou#4628
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1027134988405190719/1034986029511360655/unknown.png
+
+
+[10/27/2022 2:18 AM] H7#4402
+Those two are stuck in the mempool
+
+
+[10/27/2022 2:18 AM] H7#4402
+For whatever reason
+
+
+[10/27/2022 7:49 AM] haileypdll#3353
+Hello, the transaction https://explorer.ergoplatform.com/en/transactions/8792de0f88ef59cbeacfb40d19203d6466117ef9076be8c266e3af8b2ef27853 is stuck in the mempool since several days and produces those two boxes. So the miner tries to mine them. The issue in the miner that should be fixed is that they should not be accounted in the earnings. I hope that somehow it will disappear from the mempool at some point...
+
+
+[11/17/2022 4:20 PM] haileypdll#3353
+WOW ! thanks ! CYTI winner ! I'm really happy you liked the project and I hope it will be useful to NFTs projects and dApps.
+
+
+[12/06/2022 10:05 PM] liquid_phase#4605
+Does cyti allow you to choose your own token identifier and then its YOURS? like no one else can choose the same one?
+
+
+[12/20/2022 1:58 PM] haileypdll#3353
+CYTI allows to choose the first characters of your token ID. But several people can create tokens starting with "0000" for example. Each token starting by 0000 will be unique.
+
+
+[12/20/2022 2:06 PM] liquid_phase#4605
+so it can't be said that a token identifier is specific to whoever claimed it first, since they can be re-claimed again and again, but the end of the strings would be different while the beginning was the same?
+
+
+[12/20/2022 2:07 PM] haileypdll#3353
+Yes exactly.
+
+
+[12/20/2022 2:08 PM] liquid_phase#4605
+might be pedantic, but couldnt that actually cause alot of false positives from first glances and people who don't put due diligence into research
+
+
+[12/20/2022 2:09 PM] liquid_phase#4605
+like, how would a noob to the ecosystem know if SWAMP05432wjiof90jfrenio was official and SWAMPntf3ir9enotf349j wasnt?
+
+
+[12/20/2022 2:12 PM] haileypdll#3353
+CYTI offers a feature, limited to the start of a token ID... it does not try to solve something else
+
+
+[12/20/2022 2:12 PM] liquid_phase#4605
+right i guess im just fussing about the word identifier when in reality its just a trade mark or brand stamp
+
+
+[12/20/2022 2:14 PM] liquid_phase#4605
+but, thats just me 🙂
+
+
+[12/20/2022 2:14 PM] haileypdll#3353
+Yes, you might mint a token with ID starting like SigUSD, and tries to scam people. It will be easier with CYTI.
+
+
+[12/20/2022 2:14 PM] liquid_phase#4605
+i personally wouldn't but i'm sure people will. I'm just wondering what is the intended use case for this?
+
+
+[12/20/2022 2:17 PM] haileypdll#3353
+For example, the following transaction generated with CYTI front-end has minted 150 tokens, all with ID starting by 1111. 
+https://explorer.ergoplatform.com/en/transactions/2993dae1a1f02ebc33c0adaa62923a7530c1b1dc0bf9f045a33d7672c6bfb6b3
+
+
+[12/20/2022 2:17 PM] liquid_phase#4605
+so identifying airdrops?
+
+
+[12/20/2022 2:17 PM] haileypdll#3353
+you can mint an NFt collection with all the same begining, or with a pattern numbered
+
+
+[12/20/2022 2:19 PM] haileypdll#3353
+A dApp could check that the token was issued by CYTI contract, yes, and find the address that got them
+
+
+[01/07/2023 3:16 PM] haileypdll#3353
+CYTI miner is updated for the node v5: https://github.com/ThierryM1212/cyti/releases/tag/v2.1.0
+
+{Embed}
+https://github.com/ThierryM1212/cyti/releases/tag/v2.1.0
+Release v2.1.0 fixes for node v5 · ThierryM1212/cyti
+fix the cyti-miner for node v5
+fix typos (thanks rustinmyeye)
+
+(MANDATORY update, previous miner versions are not working anymore)
+https://images-ext-2.discordapp.net/external/_cbe5kdIATJpbeLyS8boMG3PG0lAR8lWBQuY8Di-Z0M/https/opengraph.githubassets.com/77f01c40b83eb754cc8908f6ad0b47918ee06b29f03d014d16f583654456bcc8/ThierryM1212/cyti/releases/tag/v2.1.0
+
+{Reactions}
+👍 (2) 
+
+==============================================================
+Exported 190 message(s)
+==============================================================

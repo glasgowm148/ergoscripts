@@ -1,0 +1,5 @@
+http://ergo-status.net
+http://ergo-status.net/*)
+http://ergo-status.net/
+http://ergo-status.net/endpoints/ergodex_ergodex-homepage
+http://ergo-status.net/)

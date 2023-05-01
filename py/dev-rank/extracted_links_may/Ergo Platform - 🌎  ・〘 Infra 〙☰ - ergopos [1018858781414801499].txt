@@ -1,0 +1,829 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Infra 〙☰ / ergopos
+==============================================================
+
+[09/28/2022 9:40 PM] elazor#0115
+Yo anyone working on this still?
+
+
+[09/29/2022 5:41 PM] wombo22#5461
+https://twitter.com/myergopos?s=21&t=v1ANgmJ1-BCV05WEshU_1Q
+
+
+[09/30/2022 2:43 AM] elazor#0115
+Nice thanks
+
+
+[10/21/2022 1:50 PM] Aoinoikaz#0000
+No this project is never happening
+
+
+[10/21/2022 1:51 PM] glasgowm#9381
+https://discord.com/channels/668903786361651200/669989266478202917/1032331010056134716
+
+
+[10/21/2022 1:58 PM] Aoinoikaz#0000
+Ooo
+
+
+[12/20/2022 4:00 AM] T U L O (ErgoMinnow)#0000
+How’s the project coming along guys? Haven’t seen many updates
+
+
+[12/20/2022 4:04 AM] T U L O (ErgoMinnow)#0000
+Ooo your Twitter has a bunch disregard!
+
+
+[03/03/2023 6:36 PM] JohnnyKay#0000
+I see over on Medium, ErgoPos is still active in development.  Could you give me a short overall evaluation of their chances of producing a real product.  Thanks for the update
+
+
+[03/10/2023 11:09 AM] glasgowm#9381
+Tabby App
+Crypto coins plummeted today, so we had to release it quietly
+Google Play Store Link : https://play.google.com/store/apps/details?id=com.kolmentech.tabby
+
+A few simple statements are made here:
+
+1. This is only a test version, the ERG inside the app is also used for testing.
+
+2. Tabby is only an app for storing small amount of ERG (Pocket Money), it is not suitable for large amount of transactions.
+
+3. This test uses the lowest, cheapest server, so if there is slow or even down, you need to be patient. We will gradually improve the efficiency of the server.
+
+4. The main goal of this test is to test the stability of APP. 
+
+5. this test did not put security in the first place.
+
+6. Finally, I hope you can give a little advice gently.
+
+{Embed}
+https://play.google.com/store/apps/details?id=com.kolmentech.tabby
+Tabby App - Apps on Google Play
+Improve your payment experience with Tabby
+https://images-ext-1.discordapp.net/external/3JZkE0aQksW81pJuCTcgCCmCT0ffZyCmS-KkmdJECE8/https/play-lh.googleusercontent.com/6LMq1kuuFu7uhZf5XAaSiVxrENK5vQabBQm_6olADggkuObUyXiAAETOp8Y4a_H122CU
+
+
+[03/10/2023 11:39 AM] glasgowm#9381
+That's you added in :)
+
+
+[03/10/2023 11:43 AM] lkching7#0000
+(re  : *<Glasgow> That's you added in :)*) 
+ 
+ thank 👍
+
+
+[03/10/2023 11:52 AM] lkching7#0000
+(re @glasgowm : *What is ‘instant transfer’ and how does it work?*) 
+ 
+ No secret actually. Work concept like CEX. Deposit from ergo chain to ErgoPOS’s liquidity. Transaction work on our server, withdraw  from server back to ergo chain.
+
+
+[03/10/2023 12:02 PM] glasgowm#0000
+(re @lkching7 : *No secret actually. Work concept like CEX. Deposit from ergo chain to ErgoPOS’s liquidity. Transaction work on our server, withdraw  from server back to ergo chain.*) 
+ 
+ I see, is this settled instantly for the merchant?
+
+
+[03/10/2023 12:03 PM] lkching7#0000
+(re @glasgowm : *I see, is this settled instantly for the merchant?*) 
+ 
+ Ya.
+
+
+[03/10/2023 12:05 PM] glasgowm#0000
+nice
+
+
+[03/10/2023 1:27 PM] itsnotaboutme69#0000
+Great app. Now how to test it. I should send some of the test erg to someone. Problem is people don't want to dox themselves here.
+
+
+[03/10/2023 1:53 PM] lkching7#0000
+(re @slasherzx : *Great app. Now how to test it. I should send some of the test erg to someone. Problem is people don't want to dox themselves here.*) 
+ 
+ Actually the Target Audient of this APP is not from this community. This app is meant to attract people from outside, to get people who don't have much knowledge of blockchain to use it and get them into the ERGO world without even realising it. 
+
+Please give me a little more time while I prepare the whole business strategy, and then I will present it to you.
+
+So if you want to test it, try using two phones. Or you can send it to me (lkching7@gmail.com)
+
+
+[03/10/2023 1:56 PM] lkching7#0000
+(re @slasherzx : *Great app. Now how to test it. I should send some of the test erg to someone. Problem is people don't want to dox themselves here.*) 
+ 
+ The Tabby App is more like a membership app than a wallet. Merchants will credit points (ERG) to the user's Tabby App.
+
+
+[03/10/2023 2:01 PM] itsnotaboutme69#0000
+(re @lkching7 : *The Tabby App is more like a membership app than a wallet. Merchants will credit points (ERG) to the user's Tabby App.*) 
+ 
+ Thanks for the explanation. So far it looks great. Waiting for how it would be used.
+
+
+[03/15/2023 12:53 PM] lkching7#0000
+Hi ErgoPOS family, our weekly dev progress is updated. You can access the below link for further information 
+https://medium.com/@lkching7/ergopos-dev-update-15-mar-2023-6bf91f3093bd
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1085546310691733574/tabbycard.png
+
+{Embed}
+https://medium.com/@lkching7/ergopos-dev-update-15-mar-2023-6bf91f3093bd
+ErgoPOS Dev Update 15-MAR-2023
+The connection between the ErgoPOS and Tabby App accounts was completed this week. Next week we will add the function to view credit…
+https://images-ext-1.discordapp.net/external/vOmZ6T6RYdwhDI442gfsMtEmarVn9jsZyhciMTnkmeA/https/miro.medium.com/v2/resize%3Afit%3A1200/1%2AaIDbq-CMqCrpg-yzBTrojA.png
+
+
+[03/15/2023 12:53 PM] lkching7#0000
+Hi ErgoPOS family, our weekly dev progress is updated. You can access the below link for further information 
+https://medium.com/@lkching7/ergopos-dev-update-15-mar-2023-6bf91f3093bd
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1085546349698760754/file_105050.jpg
+
+{Embed}
+https://medium.com/@lkching7/ergopos-dev-update-15-mar-2023-6bf91f3093bd
+ErgoPOS Dev Update 15-MAR-2023
+The connection between the ErgoPOS and Tabby App accounts was completed this week. Next week we will add the function to view credit…
+https://images-ext-1.discordapp.net/external/vOmZ6T6RYdwhDI442gfsMtEmarVn9jsZyhciMTnkmeA/https/miro.medium.com/v2/resize%3Afit%3A1200/1%2AaIDbq-CMqCrpg-yzBTrojA.png
+
+
+[03/22/2023 1:01 PM] lkching7#0000
+Hi ErgoPOS family, our weekly dev progress is updated. You can access the below link for further information 
+https://medium.com/@lkching7/ergopos-dev-update-22-mar-2023-7a3c0fa9969f
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1088085031358042212/file_106031.jpg
+
+{Embed}
+https://medium.com/@lkching7/ergopos-dev-update-22-mar-2023-7a3c0fa9969f
+ErgoPOS Dev Update 22-MAR-2023
+Tabby iOS is in rapid development this week and at the current rate, we hope to start apply listing to the Apple Store next month.
+https://images-ext-2.discordapp.net/external/7XNM88LYF_I7sdIFe-eX-HT2J0-XmphHE4ohPDFo-us/https/miro.medium.com/v2/resize%3Afit%3A1200/1%2AiZQZauwIMtXQEOAi1-bHtg.png
+
+
+[03/23/2023 4:41 AM] lkching7#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1088321647095861349/file_106195.jpg
+
+
+[03/23/2023 2:00 PM] lkching7#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1088462232330965135/file_106195.jpg
+
+{Reactions}
+ergo_white 
+
+[03/29/2023 1:38 PM] lkching7#0000
+Hi ErgoPOS family, our weekly dev progress is updated. You can access the below link for further information 
+https://medium.com/@lkching7/ergopos-dev-update-29-mar-2023-ea019bbc4226
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1090616077203013733/file_106990.jpg
+
+{Embed}
+https://medium.com/@lkching7/ergopos-dev-update-29-mar-2023-ea019bbc4226
+ErgoPOS Dev Update 29-MAR-2023
+There are a few important things to report this week.
+1. we have found a better terminal and have been testing it for a week and so far it…
+https://images-ext-1.discordapp.net/external/WwmU--8MCp8GE1KBUVPumqRh1And5vCNAm997_ODLfY/https/miro.medium.com/v2/resize%3Afit%3A1200/1%2A6ACzUVHSb81zeJa1EyDXJg.jpeg
+
+
+[04/03/2023 4:32 AM] Wesley#0000
+i fell asleep because no projects gave updates on anything for quite a while....
+
+
+[04/03/2023 4:34 AM] Wesley#0000
+i had ergoPOS vesting and could see my value on ergopad.  Now, I cannnot.  I have my vesting key still but cannot find any info anywhere as too when they are "vested" an what I must do to attain the tkens
+
+
+[04/03/2023 4:44 AM] marty_ergopad#0000
+Did you redeem them?
+
+
+[04/03/2023 4:45 AM] marty_ergopad#0000
+You may have redeemed them all
+
+
+[04/03/2023 4:45 AM] marty_ergopad#0000
+This team does bi-weekly updates actually. And yield farming will start really soon
+
+
+[04/03/2023 4:53 AM] Wesley#0000
+how do i redeem them?
+
+
+[04/03/2023 4:53 AM] Wesley#0000
+i just have my vesting key in my wallet
+
+
+[04/03/2023 4:53 AM] Wesley#0000
+is t tooo llate?
+
+
+[04/03/2023 5:01 AM] Wesley#0000
+i know you're only worth 1.75653594 percent my original 2,500 dollar pre-vesting buy, but now you can't even show up for my 43 bucks?
+
+
+[04/03/2023 5:03 AM] Wesley#0000
+850 ergo when it was 2.80.  280 ergo down to 30ish
+
+
+[04/03/2023 5:05 AM] marty_ergopad#0000
+> (re @Wesley : *is t tooo llate?*)
+         
+        No, if you haven't redeemed them just use the ergopad dashboard
+
+
+[04/03/2023 5:05 AM] marty_ergopad#0000
+But if you have redeemed them that would be why your vesting key is visible in your wallet but not on the vesting panel
+
+
+[04/03/2023 5:08 AM] marty_ergopad#0000
+If that's not the case and it's an issue on our dashboard, you can contact @theta_decay and he can take a look at your wallet to see what's happening. If there's an issue on our end we'll get it fixed
+
+
+[04/03/2023 6:19 AM] lkching7#0000
+> (re @Wesley : *i fell asleep because no projects gave updates...*)
+         
+        hi Wesley. We do update report every week, Wednesday. You may follow egopos twitter also. @myergopos
+
+
+[04/03/2023 1:49 PM] theta_decay#0000
+> (re @Wesley : *how do i redeem them?*)
+         
+        Hi Wesley,  I'm happy to walk you through redeeming if you'd like. Please let me know, thanks.
+
+
+[04/03/2023 7:50 PM] Wesley#0000
+> (re @theta_decay : *Hi Wesley,  I'm happy to walk you through rede...*)
+         
+        I did not see the details on the dashboard on ergopad.  I will look more carefully tonight when I'm off work and have more time, and then I'll let you know  Thanks. 👍
+
+
+[04/03/2023 7:53 PM] theta_decay#0000
+> (re @Wesley : *I did not see the details on the dashboard on ...*)
+         
+        Sounds good, I'll keep an eye our for you later. Thanks Wesley.
+
+
+[04/05/2023 6:58 AM] theColz#0000
+First time I’ve seen these… QR code on a sim/internet connected soundbox that calls out confirmed payments to small business & market vendors in India
+
+https://restofworld.org/2023/india-sound-boxes-paytm-phonepe/
+
+{Embed}
+https://restofworld.org/2023/india-sound-boxes-paytm-phonepe/
+How tiny, cheap smart speakers unlocked the rise of digital payment...
+Vegetable carts, flower shops, mom-and-pop stores: Small speakers that read out digital payment receipts are making fintech companies big money.
+https://images-ext-2.discordapp.net/external/S-5-JmNEL6L5S3n-YI1qw2VTJKt7dOHzmykbBpxBhXk/https/149346090.v2.pressablecdn.com/wp-content/uploads/2023/04/cropped-speaker.jpg
+
+
+[04/05/2023 7:19 AM] theColz#0000
+Fraud and security concerns surrounding Sim based payment systems like Safaricom’s MPesa - estimates almost half of Kenyan’s have experienced issues
+
+https://restofworld.org/2023/mpesa-sim-swap-fraud/
+
+{Embed}
+https://restofworld.org/2023/mpesa-sim-swap-fraud/
+M-Pesa has been huge for Kenya’s economy — and for scammers
+Nearly half of the country that uses the ubiquitous mobile money service has fallen victim to fraud.
+https://images-ext-2.discordapp.net/external/SxbfOFULHpvZmZGqrAy87bVEGEtOXXu1ZDYawaUzbhg/https/149346090.v2.pressablecdn.com/wp-content/uploads/2023/03/20200618_100050_DSCF2031-scaled-1600x900-1.jpg
+
+
+[04/05/2023 7:21 AM] lkching7#0000
+> (re @theColz : *First time I’ve seen these… QR code on a sim/i...*)
+         
+        quite common in Asia 😆
+
+
+[04/05/2023 7:29 AM] theColz#0000
+Didn’t realise rates of theft etc. could be so high. Speaks a lot to the security vulnerabilities of sim based pmt methods
+
+
+[04/05/2023 7:30 AM] theColz#0000
+& more importantly centralized systems
+
+
+[04/05/2023 9:47 AM] lkching7#0000
+> (re @theColz : *Didn’t realise rates of theft etc. could be so...*)
+         
+        Agree
+
+
+[04/05/2023 4:16 PM] lkching7#0000
+Hi ErgoPOS family, our weekly dev progress is updated. You can access the below link for further information 
+https://medium.com/@lkching7/ergopos-dev-update-05-apr-2023-2458ca7553b4
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1093192396507971594/file_107993.jpg
+
+{Embed}
+https://medium.com/@lkching7/ergopos-dev-update-05-apr-2023-2458ca7553b4
+ErgoPOS Dev Update 05-APR-2023
+This week we launched a new official website. Although a lot of content work is still incomplete, we decided to launch it anyway.
+https://images-ext-1.discordapp.net/external/xwShWXWGCcVzxOu5HUcz0KcMPLZ3G63Vt3McrBn6juQ/https/miro.medium.com/v2/resize%3Afit%3A1200/1%2A7--Ae_B3BxfyFPQvhy4ubA.png
+
+
+[04/05/2023 10:17 PM] theColz#0000
+Will it be possible to integrate Dapps into this? Take Duckpools, where lending pools could offer reasonably priced credit to small businesses & retail > all they need to do is deposit Ergo ecosystem collateral
+
+
+[04/06/2023 12:19 AM] lkching7#0000
+> (re @theColz : *Will it be possible to integrate Dapps into th...*)
+         
+        Actually I often explore opportunities in this area.
+
+
+[04/06/2023 12:19 AM] lkching7#0000
+No clue yet
+
+
+[04/06/2023 3:34 PM] Thomas#0000
+Is there an updated roadmap? Do you still plan to implement other crypto as on the (old) roadmap?
+
+
+[04/06/2023 3:35 PM] Thomas#0000
+> (re @lkching7 : *Hi ErgoPOS family, our weekly dev progress is ...*)
+         
+        To me it seems a bit strange when clicking "Buy" button you get to the old site and old prices. I think it will appear strange to potential customers.
+
+
+[04/06/2023 3:36 PM] lkching7#0000
+> (re @Thomas : *To me it seems a bit strange when clicking "Bu...*)
+         
+        Ya. The website it not 100% completed.
+
+
+[04/06/2023 3:36 PM] lkching7#0000
+The old store will remove. New store will build in to ErgoPOS.io
+
+
+[04/06/2023 3:37 PM] lkching7#0000
+Sorry to make you confuse
+
+
+[04/06/2023 3:40 PM] Thomas#0000
+> (re @Thomas : *Is there an updated roadmap? Do you still plan...*)
+         
+        ?
+
+
+[04/06/2023 3:40 PM] lkching7#0000
+> (re @Thomas : *Is there an updated roadmap? Do you still plan...*)
+         
+        Yes. Still will implement other coin
+
+
+[04/06/2023 3:57 PM] Thomas#0000
+Thank you for answering some questions. How about Saturn Labs. Affiliations to this company? I can't find infos about Saturn Labs. A company in Malaysia?
+
+
+[04/06/2023 3:58 PM] Thomas#0000
+https://saturnlabs.org/
+
+{Embed}
+https://saturnlabs.org/
+Saturn Labs
+
+
+[04/06/2023 3:59 PM] NoahErgo#0000
+> (re @Thomas : *Thank you for answering some questions. How ab...*)
+         
+        Its run by anetabtc and ergopad guys i believe
+
+
+[04/06/2023 4:03 PM] lkching7#0000
+> (re @Thomas : *Thank you for answering some questions. How ab...*)
+         
+        First time I heard Saturn Labs.
+
+
+[04/07/2023 9:43 AM] lkching7#0000
+> (re @Thomas : *To me it seems a bit strange when clicking "Bu...*)
+         
+        To avoid confusion and misunderstandings, we have temporarily taken down the store page.
+
+
+[04/07/2023 9:43 AM] lkching7#0000
+Thank you for your feedback
+
+
+[04/07/2023 4:24 PM] marty_ergopad#0000
+Website progress is looking nice
+
+
+[04/10/2023 1:58 PM] Scheisuss#0000
+@admin kick Haruko.... Spam/scam pm me
+
+
+[04/10/2023 2:28 PM] Gazza_SP#0000
+(re @Scheisuss : *@admin kick Haruko.... Spam/scam pm me*)
+        
+        Me too
+
+
+[04/10/2023 2:37 PM] lkching7#0000
+(re @Scheisuss : *@admin kick Haruko.... Spam/scam pm me*)
+        
+        I already kick the scammer
+
+
+[04/11/2023 6:55 AM] Gazza_SP#0000
+Forwarded from Gazza_SP:
+
+
+[04/11/2023 6:55 AM] Gazza_SP#0000
+The public test of Yield Farming will begin tomorrow April 11th, at 6:00 PM UTC. 
+
+To make things even more exciting, we’ll be randomly selecting 10 participants to receive 1000 SPF tokens each for your help. 
+
+Join us! Instructions will be provided tomorrow.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1095225669555863653/file_108663.jpg
+
+
+[04/11/2023 3:23 PM] Gazza_SP#0000
+Forwarded from Gazza_SP:
+
+
+[04/11/2023 3:23 PM] Gazza_SP#0000
+🔨It’s almost time to test our Yield Farming protocol!
+
+To get test tokens, please go to https://ergofaucet.org
+
+You'll need to select the Spectrum Finance Farm Package from the drop-down menu, enter your wallet address and authenticate with discord to claim.
+
+Happy testing!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1095353545005469768/file_108876.jpg
+
+{Embed}
+https://ergofaucet.org/
+Ergo Faucet
+Ergo Faucet
+
+
+[04/11/2023 5:57 PM] Gazza_SP#0000
+Forwarded from Gazza_SP:
+
+
+[04/11/2023 5:57 PM] Gazza_SP#0000
+🔨It’s almost time to test our Yield Farming protocol!
+
+To get test tokens, please go to https://ergofaucet.org
+
+You'll need to select the Spectrum Finance Farm Package from the drop-down menu, enter your wallet address and authenticate with discord to claim.
+
+Happy testing!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1095392225791320244/file_108876.jpg
+
+{Embed}
+https://ergofaucet.org/
+Ergo Faucet
+Ergo Faucet
+
+
+[04/11/2023 7:37 PM] Mariettajane#0000
+(re @Gazza_SP : *The public test of Yield Farming will begin to...*)
+        
+        Is it on test net?? Or mainnet
+
+
+[04/11/2023 7:38 PM] Gazza_SP#0000
+Mainnet with test tokens at first!
+
+
+[04/11/2023 7:40 PM] Pulsarz#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1095418212356722779/the-office-steve-carell.mp4
+
+
+[04/11/2023 7:41 PM] marty_ergopad#0000
+What is this idiot
+
+
+[04/11/2023 8:12 PM] hq3r#0000
+(re @marty_ergopad : *What is this idiot*)
+        
+        Simon,Asian version
+
+
+[04/11/2023 8:41 PM] Gazza_SP#0000
+Forwarded from Gazza_SP: 🚨 Calling all farmers!
+The Yield Farming Public Test has officially launched. Check out our detailed article for everything you need to know to participate: 
+
+https://spectrumlabs.medium.com/yield-farming-public-test-a-guide-for-participants-8c5a01ac69d4
+
+{Embed}
+https://spectrumlabs.medium.com/yield-farming-public-test-a-guide-for-participants-8c5a01ac69d4
+Yield Farming Public Test: A Guide for Participants
+We’re delighted to announce that our Yield Farming public test is underway! In this material, we have prepared concise instructions on how…
+https://images-ext-1.discordapp.net/external/cQOJaTwwfmygIKzv7kaXr4LGhI5EvyXhPt0Bl2zVM2I/https/miro.medium.com/v2/resize%3Afit%3A1200/1%2Asy5gvVfFMczgvJzmUfitvQ.png
+
+
+[04/12/2023 2:48 AM] gutobmendes#0000
+@lkching7 can you ban haruko? He came back and is sending private mesages again.
+
+
+[04/12/2023 3:45 PM] lkching7#0000
+Hi ErgoPOS family, our weekly dev progress is updated. You can access the below link for further information 
+https://medium.com/@lkching7/ergopos-dev-update-12-apr-2023-9c0e9395bbf8
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1095721423709945977/file_109111.jpg
+
+{Embed}
+https://medium.com/@lkching7/ergopos-dev-update-12-apr-2023-9c0e9395bbf8
+ErgoPOS Dev Update 12-APR-2023
+This week, we merged the Web Store and official website together and improved the content of the packages. There is an important statement…
+https://images-ext-2.discordapp.net/external/dLTwyxoKg_GwOJAfd6yqsNx80EvjPp9WkSwmzg1hUZg/https/miro.medium.com/v2/resize%3Afit%3A1200/1%2Aa2MhstMXmsMvigGeuoWFpw.png
+
+
+[04/12/2023 3:57 PM] NoahErgo#0000
+(re @lkching7 : *Hi ErgoPOS family, our weekly dev progress is ...*)
+        
+        So epos team buys the tokens from spectrum for the purchaser of the package?
+
+
+[04/12/2023 3:58 PM] lkching7#0000
+(re @NoahErgo : *So epos team buys the tokens from spectrum for...*)
+        
+        correct
+
+
+[04/14/2023 3:14 PM] hq3r#0000
+Need some community members to pop some #Erfo in chats! Come on guys?!!!
+
+
+[04/14/2023 3:14 PM] hq3r#0000
+Forwarded from unknown: https://www.youtube.com/watch?v=-Wa-2Cw9Bfo
+
+{Embed}
+FluxLabs
+https://www.youtube.com/watch?v=-Wa-2Cw9Bfo
+Flux - Round Table with POW projects
+●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+⭐Links:
+💻Website: https://runonflux.io
+💻Website: https://zelcore.io
+●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+👨‍👩‍👧‍👦  Social:
+◆ Discord: https://discord.gg/F6VeCS4
+◆ Twitter: https://twitter.com/runonflux
+◆ Twitter: https://twitter.com/Zelcore_io
+◆ Medium: https://fluxofficial.medium.com/
+●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+
+👍Please like this video if y...
+https://images-ext-2.discordapp.net/external/nfuasVjhHEyf12GrM4m7yv9MFH2MHX_aYg4haSz6Q4A/https/i.ytimg.com/vi/-Wa-2Cw9Bfo/maxresdefault_live.jpg
+
+
+[04/17/2023 12:43 PM] lkching7#0000
+Hi ErgoPOS Family.
+To make our project more widely known and to integrate with other cryptocurrency chains, we plan to follow other projects by renaming our ErgoPOS to TabbyPOS, with a grey cat(tabby) as our logo. Therefore, we will be changing our website, Telegram, and Twitter logos to that of a grey cat(tabby). We apologize to any members of our community who may not be fond of cats, but we believe that this adorable tabby represents our project's friendly and dependable qualities.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1097487595275046993/file_110420.jpg
+
+
+[04/17/2023 12:44 PM] hq3r#0000
+(re @lkching7 : *Hi ErgoPOS Family.
+To make our project more wi...*)
+        
+        The token will still be Ergopos then?
+
+
+[04/17/2023 12:44 PM] lkching7#0000
+(re @HQ3rr : *The token will still be Ergopos then?*)
+        
+        Ya.
+
+
+[04/17/2023 12:48 PM] lkching7#0000
+Hi ErgoPOS Family.
+To make our project more widely known and to integrate with other cryptocurrency chains, we plan to follow other projects by renaming our ErgoPOS to TabbyPOS, with a grey cat(tabby) as our logo. Therefore, we will be changing our website, Telegram, and Twitter logos to that of a grey cat(tabby). The Token still remain $EPOS. We apologize to any members of our community who may not be fond of cats, but we believe that this adorable tabby represents our project's friendly and dependable qualities.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1097488754123485234/file_110420.jpg
+
+
+[04/17/2023 1:49 PM] Scheisuss#0000
+Miau miau
+
+
+[04/17/2023 1:52 PM] thecolj#0000
+Have you considered $TPOS? Tabby POS carrying $EPOS ticker doesn't align cleanly with the new rebrand & may actually prove confusing.
+
+
+[04/17/2023 1:53 PM] tefcek21#0000
+(re @thecolj : *Have you considered $TPOS? Tabby POS carrying ...*)
+        
+        Replacing the token would be extra work, wouldn’t do it
+
+
+[04/17/2023 1:54 PM] thecolj#0000
+Ah I see, ol' token name unswitcherooable 🙃
+
+
+[04/17/2023 1:55 PM] lkching7#0000
+(re @thecolj : *Have you considered $TPOS? Tabby POS carrying ...*)
+        
+        ya. Alexis is true
+
+
+[04/17/2023 2:00 PM] Gazza_SP#0000
+(re @thecolj : *Ah I see, ol' token name unswitcherooable 🙃*)
+        
+        Good old Immutable Blockchain ledger 😁
+
+
+[04/17/2023 2:00 PM] Gazza_SP#0000
+Don't want to make any mistakes as they are there forever! Like Gazza coin part 2...😂
+
+
+[04/17/2023 3:10 PM] NoahErgo#0000
+Great branding decision:)
+
+
+[04/17/2023 3:10 PM] NoahErgo#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1097524587815763978/file_110442.webp
+
+
+[04/17/2023 3:23 PM] lkching7#0000
+(re @NoahErgo : *Great branding decision:)*)
+        
+        😬Thank Bro
+
+
+[04/17/2023 5:30 PM] vidicmu2301#0000
+I love the new branding, broader and nice appearance! Congrats 🎉
+
+
+[04/18/2023 5:08 AM] NoahErgo#0000
+@lkching7 ping me when you update website with new branding
+
+
+[04/18/2023 5:08 AM] NoahErgo#0000
+i will update sigmaverse then
+
+
+[04/18/2023 5:11 AM] lkching7#0000
+(re @NoahErgo : *@lkching7 ping me when you update website with...*)
+        
+        noted. once completed inform to you
+
+
+[04/19/2023 2:23 PM] lkching7#0000
+Hi TabbyPOS family, our weekly dev progress is updated. You can access the below link for further information 
+https://medium.com/@lkching7/tabbypos-dev-update-19-apr-2023-bc45169a6928
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1098237511047852123/file_110870.jpg
+
+{Embed}
+https://medium.com/@lkching7/tabbypos-dev-update-19-apr-2023-bc45169a6928
+TabbyPOS Dev Update 19-APR-2023
+This week, we decided to rename ErgoPOS to TabbyPOS, so we didn’t invest too much time in research and development. We originally thought…
+https://images-ext-2.discordapp.net/external/NN7ffDqOmfQr8Y9KwicNaxafIfrouHi7t9h6RgvaNRA/https/miro.medium.com/v2/resize%3Afit%3A800/1%2AzJt-AQ3Jtu2I3cbYonlbHw.png
+
+
+[04/19/2023 2:24 PM] lkching7#0000
+(re @NoahErgo : *i will update sigmaverse then*)
+        
+        Hi Noah. Our new domain is : https://www.tabbylab.io
+
+{Embed}
+admin
+https://www.tabbylab.io/
+Home 1
+
+
+[04/22/2023 8:47 AM] lkching7#0000
+Just get a good news from Coingecko
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1099240015420203009/file_111513.jpg
+
+
+[04/22/2023 8:47 AM] lkching7#0000
+I hope to be able to successfully rank someday.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1099240108844138556/file_111514.jpg
+
+
+[04/22/2023 8:50 AM] lyndon_b#0000
+Isn't spf and ergopad doing some work at the moment to make some price api changes to conform to coingecko requirements?
+
+
+[04/22/2023 8:51 AM] lkching7#0000
+(re @lyndon_b : *Isn't spf and ergopad doing some work at the m...*)
+        
+        I heard also
+
+
+[04/22/2023 8:51 AM] hq3r#0000
+(re @lyndon_b : *Isn't spf and ergopad doing some work at the m...*)
+        
+        They have sevenseas API for that
+
+
+[04/22/2023 12:32 PM] Gazza_SP#0000
+(re @lyndon_b : *Isn't spf and ergopad doing some work at the m...*)
+        
+        Yes working on it at the moment!
+
+
+[04/24/2023 2:44 AM] Thirdstryker#0000
+What do I do with my ergoPOS tokens?
+
+
+[04/24/2023 3:06 AM] Zach | Picaro#5270
+Website has a number of typos that need to be cleared up.
+
+Here is one example..
+
+
+[04/24/2023 3:07 AM] Zach | Picaro#5270
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1018858781414801499/1099879239907561643/Screen_Shot_2023-04-24_at_12.04.05_pm.png
+
+
+[04/24/2023 3:09 AM] Zach | Picaro#5270
+Instant transfer alongside transfers that take a minute?
+Instant transfers are just that, instant.
+
+
+[04/24/2023 3:10 AM] Zach | Picaro#5270
+Also might be worth saying *what* is being transferred..
+
+
+[04/24/2023 3:15 AM] Thirdstryker#0000
+No transaction free lol 😆
+
+
+[04/24/2023 3:26 AM] lkching7#0000
+(re  : *<Zach | Picaro> Website has a number of typos ...*)
+        
+        Thank！ I Update it ASAP
+
+
+[04/24/2023 3:27 AM] lkching7#0000
+(re  : *<Zach | Picaro> 
+https://cdn.discordapp.com/at...*)
+        
+        actually is "second" typo.
+
+
+[04/24/2023 3:40 AM] lkching7#0000
+(re @Thirdstryker : *What do I do with my ergoPOS tokens?*)
+        
+        Initially, EPOS tokens were used to cover users' withdrawal fees, and transaction fees were free to attract more users. The strategy of implementing "transaction fees" would only be carried out after there were sufficient numbers of users.
+
+
+[04/24/2023 3:42 AM] lkching7#0000
+(re @Thirdstryker : *No transaction free lol 😆*)
+        
+        😬 Typo ... SOrry
+
+
+[04/24/2023 5:12 AM] Thirdstryker#0000
+(re @lkching7 : *😬 Typo ... SOrry*)
+        
+        It means the opposite lol
+
+
+[04/24/2023 5:13 AM] lkching7#0000
+(re @Thirdstryker : *It means the opposite lol*)
+        
+        Haha. by the way, the wrong info already be update.
+
+
+[04/24/2023 5:14 AM] lkching7#0000
+(re  : *<Zach | Picaro> Instant transfer alongside tra...*)
+        
+        Thank again your feedback. The Typo has been update.
+
+
+==============================================================
+Exported 127 message(s)
+==============================================================

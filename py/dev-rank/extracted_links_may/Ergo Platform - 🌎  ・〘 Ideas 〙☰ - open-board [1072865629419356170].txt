@@ -1,0 +1,49 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Ideas 〙☰ / open-board
+==============================================================
+
+[02/08/2023 1:08 PM] glasgowm#9381
+> OpenBoard's core idea is letting authors pin a few boxes of text, publicly available on the
+> blockchain, and uncensorable unless all Ergo node's IP addresses are blacklisted. It would
+> consist of an app fetching available pins from an Ergo node to display locally, and an easy
+> way to update one's own pins with a transaction.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072865629419356170/1072866589529100288/OpenBoard-an-ErgoHack-VI-proposal.pdf
+
+{Reactions}
+👍 (6) 
+
+[02/09/2023 12:27 AM] Porridge#8651
+The team is just me currently, I want to build this project as a learning experience and the ergohack provided me with the opportunity. The high level building blocks planned are:
+- function to put up a new pin on-chain. Remains to be seen if it will be in NFT standard format or simply registers attached to boxes
+- editing an existing pin's text on-chain. Basically just changing the content register's text.
+- fetch all on-chain pins to the local client
+Front end:
+- simple buttons to create and edit pins
+- display fetched pins
+
+Once this basic skeleton is set up, the front end can be improved (hopefully a more experienced UI/UX designer can help). Example features:
+- block pin/author address
+- Save pin as favourite, would easily see future edits by the author
+- export/import local block/favourite lists
+
+{Reactions}
+👍 (4) 
+
+[02/16/2023 12:05 AM] Porridge#8651
+So life got in the way and I'll be travelling during most of the ErgoHack. I'll definitely keep working on OpenBoard, but as a regular small project and not within this Ergohack's timeline.
+
+{Reactions}
+ergo_orange (4) ❤️ (6) 
+
+[02/16/2023 10:41 AM] glasgowm#9381
+Enjoy your travels mate! Glad you're sticking at it as I think it could be useful tool (especially with some voting system added).
+
+{Reactions}
+HOSKYSalute (2) 
+
+==============================================================
+Exported 4 message(s)
+==============================================================

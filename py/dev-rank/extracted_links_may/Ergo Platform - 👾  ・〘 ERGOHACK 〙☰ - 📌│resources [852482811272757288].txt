@@ -1,0 +1,129 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 👾  ・〘 ERGOHACK 〙☰ / 📌│resources
+==============================================================
+
+[01/27/2022 12:45 PM] glasgowm#9381
+Welcome to **ERGOHACK III**
+
+ErgoHack III will take place from February 11-13, 2022
+Registrations are open until January 31, 2022
+
+See these blog posts for more information
+- https://ergoplatform.org/en/blog/2022-01-20-ergohack-iii-building-tomorrows-privacy-and-security-tools/
+- https://ergoplatform.org/en/blog/2022-01-25-ergohack-iii-last-week-to-register/
+- https://ergoplatform.org/en/blog/2022-01-06-ergohack-iii-registration-information/
+
+Post in #🤝│i-need-a-team to get started and make sure to mark yourself as 'Interested' in the Event on Discord. 
+
+**Master resource pages**
+- https://ergohack.io
+- http://docs.ergoplatform.org/ - This is the most comprehensive resource and should contain all relevant links. 
+- https://github.com/scalahub/awesome-ergo
+
+**Ideas**
+- #🗣│idea-incubator 
+- https://www.ergoforum.org/t/what-apps-can-you-do-on-ergo/819
+http://docs.ergoplatform.org/uses/
+
+**Good Starting Points**
+- See this tutorial for Interacting with the Ergo blockchain using AppKit https://www.youtube.com/watch?v=Md5s-XV6-Hs
+
+{Attachments}
+https://cdn.discordapp.com/attachments/852482811272757288/936240486933475378/ERGO_HACK_3.png
+
+{Reactions}
+👍 feelsbadman 
+
+[02/12/2022 11:49 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/852482811272757288/942024599036641280/News_blog_33.png
+
+{Reactions}
+❤️ 
+
+[02/12/2022 11:49 AM] glasgowm#9381
+and make sure to check out all the videos posted during the hack in #📢│event-announcements
+
+
+[05/08/2022 9:56 AM] glasgowm#9381
+Welcome to **ERGOHACK FEST**
+
+ErgoHack III will take place during May
+Registrations are open until January 31, 2022
+
+
+Post in #🤝│i-need-a-team  to get started and make sure to mark yourself as 'Interested' in the Event on Discord. 
+
+**Master resource pages**
+- https://ergohack.io
+- http://docs.ergoplatform.org/ - This is the most comprehensive resource and should contain all relevant links. 
+
+**Ideas**
+- #🗣│idea-incubator 
+- https://www.ergoforum.org/t/what-apps-can-you-do-on-ergo/819
+http://docs.ergoplatform.org/uses/
+
+**Good Starting Points**
+- See this tutorial for Interacting with the Ergo blockchain using AppKit https://www.youtube.com/watch?v=Md5s-XV6-Hs
+
+https://www.youtube.com/watch?v=9tSWd5itmQU
+
+{Embed}
+ergoplatfrom
+https://ergohack.io/
+ERGOHACK FEST - ERGOHACK FEST
+Welcome to ErgoHack III! Ergo’s hackathons have become an incredibly important and identifying feature of the blockchain after two highly successful events in the last six months.
+https://images-ext-2.discordapp.net/external/NPLk0hiklnVsDh53kipRic3Zqk6aXWaNiSze43OCjvo/https/i0.wp.com/ergohack.io/wp-content/uploads/2022/04/Ergo_hack_fest-1.png
+
+{Embed}
+https://www.ergoforum.org/t/what-apps-can-you-do-on-ergo/819
+What apps can you do on Ergo
+Before the mainnet launch and during first months we made some contracts to understand possibilities of Ergo contracts (ErgoTree / ErgoScript), with no offchain parts and UIs developed. Now with the stablecoin launch, ergoauctions doing well, ErgoMixer going to tokenization of its income flow, it is good to remind about possibilities for develop...
+
+{Embed}
+Apex Theory
+https://www.youtube.com/watch?v=Md5s-XV6-Hs
+AppKit by Example
+Interacting with the Ergo blockchain using AppKit
+Clone the repository on Github: https://github.com/ApexTheory/appkit-by-example
+https://images-ext-2.discordapp.net/external/nWixLA9IxgdOziOru48X4ev9gs5qkZjJyrx0NqjRmcY/https/i.ytimg.com/vi/Md5s-XV6-Hs/maxresdefault.jpg
+
+
+[05/10/2022 2:53 PM] glasgowm#9381
+https://twitter.com/DeCoEducation/status/1523963349360209920
+
+{Embed}
+DeCo (@DeCoEducation)
+https://twitter.com/DeCoEducation/status/1523963349360209920
+If you need some educational materials for ErgoHack. We gotchu: https://t.co/UvRGt6WtbA
+Twitter
+
+
+[05/17/2022 9:45 PM] glasgowm#9381
+https://youtu.be/Nq4u11O6LF8
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=Nq4u11O6LF8
+ErgoHack Fest | ErgoPad Developer Environment Setup | Luca
+Luca from ErgoPad explains how to set up the developer environment.
+
+00:00 Intro
+01:12 Initial Setup
+02:34 ErgoPad Quicknode
+08:00 ErgoPad API
+24:36 Ergo Python Appkit Example
+
+--------------------------------------
+ERGOHACK FEST: https://ergohack.io
+
+For the next #ErgoHack, we are pleased to present a new format that will see the event take pla...
+https://images-ext-1.discordapp.net/external/nTb0599DX6PCNgwVqjJwkFeV9gMC78KQbJTruPFuB4A/https/i.ytimg.com/vi/Nq4u11O6LF8/maxresdefault.jpg
+
+
+==============================================================
+Exported 6 message(s)
+==============================================================

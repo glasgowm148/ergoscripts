@@ -1,0 +1,5 @@
+https://ergo-platform-cms-nvbpfiue6q-ez.a.run.app/admin/auth/register?registrationToken=0c5178650a035eed5bde360eab0851cd8cc05f85
+https://ergo-platform-cms-nvbpfiue6q-ez.a.run.app/admin/
+https://ergo-platform-cms-nvbpfiue6q-ez.a.run.app/admin/content-manager/collectionType/api::changing-the-world.changing-the-world?page=1&pageSize=10&sort=title:ASC&plugins[i18n][locale]=it
+https://ergo-platform-cms-nvbpfiue6q-ez.a.run.app/admin/content-manager/collectionType/api::post.post?page=1&pageSize=100&sort=date:DESC&plugins[i18n][locale]=en
+https://ergo-platform-cms-nvbpfiue6q-ez.a.run.app/admin/content-manager/collectionType/api::contact-request.contact-request?page=1&pageSize=10&sort=id:DESC

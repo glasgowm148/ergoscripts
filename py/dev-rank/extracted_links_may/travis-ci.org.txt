@@ -1,0 +1,6 @@
+https://travis-ci.org/github/ergoplatform/ergo/jobs/713624168
+https://travis-ci.org/github/ergoplatform/ergo-appkit/jobs/741110237
+https://travis-ci.org/github/ergoplatform/ergo-appkit/jobs/712531112
+https://travis-ci.org/github/ergoplatform/ergo-appkit/jobs/774365151
+https://travis-ci.org/github/ergoplatform/ergo/jobs/686218230
+https://travis-ci.org/github/scalahub/Kiosk/jobs/718751641

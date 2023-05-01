@@ -1,0 +1,86 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 👾  ・〘 ERGOHACK 〙☰ / explorer-ui
+==============================================================
+
+[02/11/2023 10:31 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1074095157772832840/1074095240945864764/Improved_Ergo_explorer_UXUI.pdf
+
+{Reactions}
+❤️ (5) ergo_orange (4) Spectrum_Logo 
+
+[02/12/2023 12:16 AM] Reqlez#6611
+😂  nice problem statement there 😁
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1074095157772832840/1074121802999148645/image.png
+
+
+[02/20/2023 4:34 AM] NoahErgo#4349
+@yb check dms thanks 🙂
+
+{Reactions}
+❤️ 
+
+[02/21/2023 11:40 AM] yb#3572
+An intermediate example. Will show the "Address" page today
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1074095157772832840/1077555301349339156/image.png
+
+{Reactions}
+ergo_orange (4) ergodex 👍 
+
+[02/21/2023 4:13 PM] yb#3572
+Here is an example of the "Address page" with simple scenarios:
+Frame 1: the "Address page" with a list of transactions and balance
+Frame 2: Detailed view of the transaction (simple UTXO view)
+Frame 3: View of tokens in the transaction
+Frame 4: View of tokens on the address.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1074095157772832840/1077624151357005854/Frame_1.jpg
+https://cdn.discordapp.com/attachments/1074095157772832840/1077624152225239080/Frame_2.jpg
+https://cdn.discordapp.com/attachments/1074095157772832840/1077624152703377540/Frame_3.jpg
+https://cdn.discordapp.com/attachments/1074095157772832840/1077624153089265714/Frame_4.jpg
+
+{Reactions}
+ergo_orange (4) ergodex (2) 
+
+[02/21/2023 4:21 PM] yb#3572
+@glasgowm where should we submit results?
+
+
+[02/21/2023 4:35 PM] yb#3572
+You can check people's reaction here: https://twitter.com/_yashablack/status/1628066492322312193
+
+{Embed}
+yb (@_yashablack)
+https://twitter.com/_yashablack/status/1628066492322312193
+Our team is participating in the Ergohack VI, and we prepared examples of a new explorer user interface for the #Ergo community! How do you feel about it?
+
+@Ergo_Platform
+https://images-ext-1.discordapp.net/external/4EeQLLAXbpDz4N59SmCKAgN6z2JqqGUrONc13N85pyo/https/pbs.twimg.com/media/FpgNqodXsAoKVZc.jpg
+https://images-ext-1.discordapp.net/external/-fSIqEIqVQ3zRRfGkMS3m6Eh6p9vavuoU6X-FTdYF6g/https/pbs.twimg.com/media/FpgNqohXgAUQaMJ.jpg
+https://images-ext-2.discordapp.net/external/ZVp_LlozvQ93ZVf-4FS8GIJXNoyIlrPBKXeFt2wWFTo/https/pbs.twimg.com/media/FpgNqohWIAET4oK.jpg
+https://images-ext-2.discordapp.net/external/W1bPnMVtJd2SMcTlwbj-7uLcGGVHYEOXbxqdLQS3urY/https/pbs.twimg.com/media/FpgNqoiXwAIN0UI.jpg
+Twitter
+
+{Reactions}
+ergo_orange k_thumbs_up 
+
+[02/22/2023 10:22 AM] yb#3572
+Reporting here as well
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1074095157772832840/1077898282552021042/Ergohack_VI_report.pdf
+
+{Reactions}
+ergo_orange (4) 🔥 (4) 
+
+==============================================================
+Exported 8 message(s)
+==============================================================

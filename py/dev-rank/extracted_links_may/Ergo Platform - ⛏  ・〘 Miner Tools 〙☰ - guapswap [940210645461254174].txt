@@ -1,0 +1,572 @@
+==============================================================
+Guild: Ergo Platform
+Channel: ⛏  ・〘 Miner Tools 〙☰ / guapswap
+Topic: We want to develop a profit swapping smart contract that can be used with any mining pool - smartpool or otherwise - to swap profits via ErgoDex. In this way, a miner is free from the burden of doing manual swaps and is saved from the additional taxable event.
+==============================================================
+
+[02/07/2022 2:27 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940210645461254174/940252432540262410/GuapSwap___Ergo_Decentralized_Miner_Profit_Swapping.pdf
+
+
+[02/08/2022 12:47 AM] lgd#5847
+Hello, here are some updates:
+
+1. Included are updated documents for the proposal and protocol spec, feel free to check them out and give feedback if you are interested.
+2. We have a UI layout but no front-end dev(s) yet. However, having a functional website is not our goal for the hackathon.
+3. Our goal for this hackathon is to have a CLI program with the essential functions. I will update what these are exactly before the hackathon begins.
+4. We have a twitter and github, feel free to follow if you want. Both are empty though. For the github, I will include a description later about how I want to organize/manage the repository to keep everything as organized as possible.
+
+Twitter: https://twitter.com/GuapSwapErgo
+Github: https://github.com/GuapSwap
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940210645461254174/940408366876999820/GuapSwap_-_Ergo_Decentralized_Miner_Profit_Swapping_Protocol_Proposal1.pdf
+https://cdn.discordapp.com/attachments/940210645461254174/940408367153807400/GuapSwap_Protocol_Spec1.pdf
+https://cdn.discordapp.com/attachments/940210645461254174/940408367543889920/guapswap-mock-ui.png
+
+{Embed}
+https://twitter.com/GuapSwapErgo
+GuapSwap (@GuapSwapErgo)
+Decentralized miner profit swapping for Ergo Platform.
+Tweets
+1
+Followers
+41
+https://images-ext-1.discordapp.net/external/41Tk-RJ7KlbJnoujd2t9XiA5zsmDV7HP-K7LTOV2Upo/https/pbs.twimg.com/profile_images/1490764147331637249/3lqRDaSv_normal.jpg
+Twitter
+
+{Embed}
+https://github.com/GuapSwap
+GuapSwap
+Decentralized miner profit swapping for Ergo Platform. - GuapSwap
+https://images-ext-2.discordapp.net/external/FIlTwHUBzfSHDL4X5a-SXdi_pKL_hIUhBuXWgGeAg18/%3Fs%3D280%26v%3D4/https/avatars.githubusercontent.com/u/97720502
+
+
+[02/08/2022 12:48 AM] lgd#5847
+@AggerGakker @Kern
+
+
+[02/08/2022 6:53 AM] Kern#1661
+YES!! It's all coming together!
+
+
+[02/08/2022 7:02 AM] lgd#5847
+Still long way to go haha
+
+
+[02/08/2022 7:21 AM] Kern#1661
+One step at a time :)
+
+
+[02/10/2022 8:02 AM] lgd#5847
+Here is the proxy contract for the ergodex swap, would appreciate any feedback:
+https://github.com/GuapSwap/guapswap/blob/v0.1.0/src/main/scala/contracts/GuapSwapErgoDexSwapSellProxyContract.scala
+
+{Embed}
+https://github.com/GuapSwap/guapswap/blob/v0.1.0/src/main/scala/contracts/GuapSwapErgoDexSwapSellProxyContract.scala
+guapswap/GuapSwapErgoDexSwapSellProxyContract.scala at v0.1.0 · Gua...
+GuapSwap CLI for the everyday Ergo miner. Contribute to GuapSwap/guapswap development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/HrTu15w0yoOONxnSSe_W9IGbncsZclH5FncCGKJQFe0/https/opengraph.githubassets.com/38536032e558009b6b5119e75c099a2d91a564e17b9f75e0f8683a80d4f0dffe/GuapSwap/guapswap
+
+
+[02/11/2022 12:20 PM] glasgowm#9381
+stuck some people in the @ergoscript role for quickness sake if anyone is able to review. Will set up some reaction-roles / dedicated space for this kinda stuff.
+
+
+[02/11/2022 12:28 PM] Luivatra#9076
+cool, havent seen getVar used much
+
+
+[02/11/2022 12:32 PM] kii#8888
+lgd is short form for Legend
+
+{Reactions}
+😆 (3) 
+
+[02/11/2022 12:34 PM] Luivatra#9076
+How do you set the context vars?
+
+
+[02/11/2022 12:59 PM] lgd#5847
+I need to create an Extended Input Box, which is composed of a Box and ContextVariables
+
+{Reactions}
+👌 
+
+[02/11/2022 1:07 PM] lgd#5847
+https://docs.google.com/document/d/1axKSSpL71o01EX12xVOwHJRS132F56ELTwj-iCas76M/edit?usp=drivesdk
+
+
+Go to Context Extension Variables section of document, the pictures describe what I need, though not 100% sure how to create/use them.
+
+{Embed}
+https://docs.google.com/document/d/1axKSSpL71o01EX12xVOwHJRS132F56ELTwj-iCas76M/edit?usp=drivesdk
+ErgoDex Settings
+ErgoDex Settings  ErgoDex SwapSell Contract The contract we need to perform the miner profit swap with ergodex is the swapSell contract. ErgoScript According to EIP-14 https://github.com/ergoplatform/eips/blob/eip14/eip-0014.md  Seems to be a more updated version of the ErgoScript contract provi...
+https://images-ext-1.discordapp.net/external/OXqXUH0r55cI3JF28enW4Doh6DeDieqSWqTaT4GVcZk/https/lh5.googleusercontent.com/2uqZzK6kv0fGh3xxJmC_gt4l-VAmG6-uE2GYLvhzvV25XiIB-55aYaZ-U8Vax1Jn8XPRXpiTLT6fLg%3Dw1200-h630-p
+
+
+[02/11/2022 1:07 PM] Luivatra#9076
+Thanks! How will you deal with swaps that get stuck due to slippage?
+
+
+[02/11/2022 1:10 PM] lgd#5847
+Not 100% sure, idk if I figured this out. I think I might have omitted this. I will need to access the pool box and calculate the necessary information before actually creating the swap, this is true to make sure I have the right price and token. So I guess it could be "checked" before sending. I'm not sure if this completely addresses the problem.
+
+
+[02/11/2022 1:13 PM] Luivatra#9076
+Fair enough 🙂 Think @Ilya | Spectrum would be best to verify your proxy contract
+
+
+[02/11/2022 1:15 PM] lgd#5847
+Yes, I posted in ErgoDex discord actually the other day. Was trying to understand part of their code. They add the same constant twice but at different index in ergotree.
+
+
+[02/11/2022 3:41 PM] Ilya | Spectrum#0494
+Constants duplication is a consequence of ErgoScript design. When translating source code from ErgoScript the compiler doesn’t know how to deduplicate some constants. The only way of fixing it is manual modification of ErgoTree.
+
+
+[02/11/2022 3:42 PM] Ilya | Spectrum#0494
+We have this task in backlog, but it’s not in priority
+
+
+[02/11/2022 4:47 PM] lgd#5847
+Thanks. 
+So in this picture:
+1. When you say duplicated, do you mean because you use the constant multiple times in the contract? If so, then why is BaseAmount only copied twice if used three times in the swapSell contract?
+2. What is the difference between SwapSellSample and SwapSellTemplate?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940210645461254174/941737195071496232/screenshot_swapsell_ergotree.png
+https://cdn.discordapp.com/attachments/940210645461254174/941737195457380392/Screen_Shot_2022-02-11_at_11.41.52_AM.png
+
+
+[02/11/2022 5:38 PM] lgd#5847
+More specific plan for ergohack:
+https://docs.google.com/document/d/170mcieRORP1utUwqR8XLqMTvBOFm1rRFnuMkIIL_DJk/edit#
+
+{Embed}
+https://docs.google.com/document/d/170mcieRORP1utUwqR8XLqMTvBOFm1rRFnuMkIIL_DJk/edit
+Ergohack 3 Plan/Todo List
+Ergohack 3 Plan/Todo List  List of GuapSwap CLI commands guapswap$ generate => generate proxy address from guapswap_setting.json guapswap$ swap  => perform swap with all utxo at this address guapswap$ refund  => refund all utxo at this address to miner guapswap$ list...
+https://images-ext-1.discordapp.net/external/0L_wCupzU_FZwDkF0LPBAiDhkeBQH3XAfmPuSaVWakI/https/lh3.googleusercontent.com/x1LRaiobgyhxVwkwnLR3n_1_0CqSinuDiWPJ0ENi4gN2eRBgoHjjjObrEWML8L4hmhSSSq5XFaCqbg%3Dw1200-h630-p
+
+
+[02/11/2022 5:44 PM] Ilya | Spectrum#0494
+1. That’s why I said “some constants”. Sometimes it knows how to deduplicate, sometimes it does not
+
+
+[02/11/2022 5:45 PM] Ilya | Spectrum#0494
+Depending on the place in code
+
+
+[02/11/2022 5:45 PM] lgd#5847
+oh okok, so it's like you're fixing a bug really
+
+
+[02/11/2022 5:47 PM] Ilya | Spectrum#0494
+2. Sample is a sample of an actual instantiated ErgoTree, while template is an ErgoTree where all the constants are replaced with placeholders
+
+{Reactions}
+👍 
+
+[02/11/2022 5:48 PM] Ilya | Spectrum#0494
+Not a bug, but non-optimal representation of ErgoTree
+
+{Reactions}
+👍 (2) 
+
+[02/11/2022 5:48 PM] lgd#5847
+Thanks
+
+
+[02/11/2022 6:15 PM] kushti#0978
+Any help needed ?
+
+
+[02/11/2022 6:26 PM] lgd#5847
+Would appreciate someone looking over the proxy contract though. For two of the constants in the script, I would like to hard code the ergotree, which I then use to check as propbytes of output box. How would I obtain this from the ergoscript contract?
+
+
+[02/11/2022 8:08 PM] Cheese Enthusiast#0548
+You can take the sample swapsell ergotree that ergodex provided, take the propositionBytes from the ergotree, then substitute and check if outputs has same propBytes.
+
+
+[02/11/2022 8:13 PM] Cheese Enthusiast#0548
+I think there are some ergoscript functions you can use to decode ergotree string into propBytes at compile time but not sure.
+
+
+[02/11/2022 8:14 PM] Cheese Enthusiast#0548
+If not you can always parse the ErgoTree off chain and then add the propBytes as a constant in the script.
+
+
+[02/11/2022 8:35 PM] lgd#5847
+Yeah I guess I thought it would be cool to swap the vars in the script itself. For the servicefeecontract, I would just compile that in the ergoscript playground for example and use the address as propbytes?
+
+
+[02/11/2022 8:43 PM] Cheese Enthusiast#0548
+Not entirely sure what is needed for that contract. Its just an address youre going to be sending the fees too?
+
+
+[02/11/2022 8:46 PM] lgd#5847
+yeah basically, but controlled by a contract bc there are three of us. i was just gonna wait until it's filled with some threshold amount and can be spent by any three of us but will only get 1/3 for example
+
+
+[02/11/2022 8:48 PM] lgd#5847
+What's in the contract doesn't really matter, it's just about getting the propbytes so I can use it as a condition in the proxy contract
+
+
+[02/11/2022 8:53 PM] root7Z#8699
+I hope the first day is going well. Please share a few notes as we are coming closer to the end of the day. Best regards, @guapswap
+
+
+[02/11/2022 9:03 PM] lgd#5847
+I'm in EST so it's still early for me, I will prob keep going until 11pm EST so like 4AM UTC
+done:
+- finished proxy contract
+- determined commands to be used for program
+- finished format of guapswap_config.json and proxy_addresses.json
+- working on config objects for storing user settings from json files
+will be done today:
+- contract for service fee
+- consolidating all the necessary pool and token constants
+- implementing the generate command
+
+{Reactions}
+ergo_orange (4) 
+
+[02/11/2022 10:41 PM] lgd#5847
+@kii or @Cheese Enthusiast  @anyone lol
+idk how to use a public node, but is an api key needed for this? in a config.json file, what would i need to put for the api key?
+
+
+[02/11/2022 10:42 PM] lgd#5847
+how to know what nodes are available and for which network type?
+
+
+[02/12/2022 5:37 AM] root7Z#8699
+Good morning team. I wish you good luck on the second day
+
+{Reactions}
+👍 (2) ergo_orange 
+
+[02/12/2022 5:38 AM] root7Z#8699
+@kushti please take a look
+
+
+[02/12/2022 5:48 AM] lgd#5847
+Lol I'm going to sleep now 😂. It's almost 1am.
+
+
+[02/12/2022 5:54 AM] root7Z#8699
+It's 7am here 😄 good nights then, get well rested and see you in the morning ✋
+
+
+[02/12/2022 1:28 PM] kushti#0978
+Api key is needed for protected methods only, eg wallet api
+
+{Reactions}
+👍 
+
+[02/12/2022 10:39 PM] root7Z#8699
+Hello @guapswap team, I hope the second day is going well for you.  As we are getting closer to the end of today, please provide  your updates regarding today's development. With best wishes
+
+
+[02/12/2022 11:12 PM] lgd#5847
+Didn't finish everything I wanted to yesterday, so today this was my plan. Again, I will go until 11 EST, day is not done for me yet 🙂
+**Done:**
+-Create constants: ErgoDex PoolIDs, TokenIDs, etc. 
+**Currently:**
+-Create math helper functions for ergodex parameter calculations 
+**Will do:**
+-Continue implementation of functionality for the different commands:
+   guapswap$ generate 
+   guapswap$ swap <proxy_address>
+
+
+[02/12/2022 11:27 PM] root7Z#8699
+thanks a lot, good luck on the rest of your day 😄
+
+
+[02/12/2022 11:40 PM] Kern#1661
+Yes we are the group of many time zones unfortunately, I am only 5 hours into this day and Agger is going to bed right now.
+
+
+[02/13/2022 12:25 AM] kii#8888
+hey do you still need help with this?
+
+
+[02/13/2022 12:25 AM] lgd#5847
+@Cheese Enthusiast I stored the poolId as strings, but when I retrieve them they are TokenId, but seems no way to convert both ways
+
+
+[02/13/2022 12:26 AM] lgd#5847
+@Cheese Enthusiast said he would lend me the getblok testnet node to use, but in general i don't know where to find this information
+
+
+[02/13/2022 12:26 AM] kii#8888
+To answer that, you dont need an api key. You can call the node and interact with it
+
+
+[02/13/2022 12:26 AM] kii#8888
+are you developing in scala
+
+
+[02/13/2022 12:27 AM] lgd#5847
+yeah, kushti answered that part of the question. but in general, where can we find ips for public nodes?
+
+
+[02/13/2022 12:28 AM] kii#8888
+the one that kushti has spinned up is pretty reliable: url = "http://213.239.193.208:9053/"
+
+
+[02/13/2022 12:28 AM] kii#8888
+but if you want you can spin up your own node. I dont think you'd need an api key to interact
+
+
+[02/13/2022 12:28 AM] kii#8888
+the api key is needed for private interactions
+
+
+[02/13/2022 12:28 AM] lgd#5847
+yeah i'm not even ready yet to start doing that though tbh
+
+
+[02/13/2022 12:29 AM] kii#8888
+I'm online, so let me know if you need any help
+
+
+[02/13/2022 12:29 AM] kii#8888
+if i dont reply, dm
+
+
+[02/13/2022 12:29 AM] lgd#5847
+can i ask now lol?
+
+
+[02/13/2022 12:29 AM] kii#8888
+yeah, we can hop on video if you want
+
+
+[02/13/2022 12:29 AM] kii#8888
+class room
+
+
+[02/13/2022 12:29 AM] lgd#5847
+sure
+
+
+[02/13/2022 12:51 AM] Cheese Enthusiast#0548
+They should essentially be the same thing, a collection of bytes. So parse the hex string into bytes, then use it as a context var with the input.
+
+
+[02/13/2022 7:21 AM] root7Z#8699
+Good morning @guapswap team, good luck on the last day!
+
+{Reactions}
+👍 (3) 
+
+[02/13/2022 2:48 PM] lgd#5847
+Can i submit at 12am EST ?
+
+
+[02/13/2022 3:26 PM] root7Z#8699
+Actually the if you mean today 24.00 UTC-5 , the final reports will be for Monday 12.00 UTC so for you it's tomorrow 07.00 UTC -5 I think. Would that work for you?
+
+
+[02/13/2022 5:08 PM] lgd#5847
+I meant 12AM EST (start of Monday). So 5AM UTC
+
+
+[02/13/2022 5:24 PM] root7Z#8699
+yes like I said, final reports are expected for tomorrow 12PM UTC so Monday 7 AM EST that   👍
+
+
+[02/13/2022 5:25 PM] lgd#5847
+Oh okok I misread the poster, I thought it said 12AM UTC
+
+
+[02/13/2022 5:25 PM] root7Z#8699
+lol global hours wit AM PM and day change kinda confusing 😄
+
+{Reactions}
+ergo_orange 
+
+[02/13/2022 7:26 PM] root7Z#8699
+So regarding with the format: you can make it video or text, whichever feels right for you
+
+{Reactions}
+👍 
+
+[02/14/2022 10:33 AM] root7Z#8699
+Hello @guapswap team, kindly reminder that you have about 90 min to send your final reports and documents. So please check-in on time. Thanks
+
+
+[02/14/2022 10:47 AM] AggerGakker#4449
+we are aware.. just finishing up
+
+{Reactions}
+👍 
+
+[02/14/2022 11:58 AM] lgd#5847
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940210645461254174/942751571777818664/GuapSwap_-_ErgoHack3_Project_Report.pdf
+
+
+[02/14/2022 11:58 AM] lgd#5847
+@AggerGakker @Kern @root7Z
+
+
+[02/14/2022 11:58 AM] AggerGakker#4449
+https://tenor.com/view/happy-dancing-celebrate-excited-gif-22624142
+
+{Embed}
+https://tenor.com/view/happy-dancing-celebrate-excited-gif-22624142
+https://images-ext-2.discordapp.net/external/XGkw9PxGKSpwOXm-QIrXEarB2dn3ym8ZXce5pX2imQM/https/media.tenor.co/images/33c7db06f52ebf635d19ba376c15288d/tenor.png
+
+
+[02/14/2022 11:59 AM] Kern#1661
+Right in time
+
+
+[02/14/2022 12:04 PM] lgd#5847
+Found a typo, please use this instead:
+@root7Z
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940210645461254174/942753102237425685/GuapSwap_-_ErgoHack3_Project_Report.pdf
+
+{Reactions}
+😍 ergo_orange (2) 
+
+[02/14/2022 12:04 PM] root7Z#8699
+thank you
+
+
+[02/25/2022 10:50 AM] lgd#5847
+https://twitter.com/GuapSwapErgo/status/1497067938309836802?s=20&t=FAh971QzJQTpLAPT3oMO6A
+
+{Embed}
+GuapSwap (@GuapSwapErgo)
+https://twitter.com/GuapSwapErgo/status/1497067938309836802?s=20&t=FAh971QzJQTpLAPT3oMO6A
+"and there was miner profit swapping on Ergo Platform."
+
+https://t.co/97maAhXZuR
+Twitter
+
+
+[02/27/2022 8:34 PM] Armeanio#0321
+I chose your group as one of my winners of 100$ in ERG. 
+
+Please send a donation address
+
+{Reactions}
+ergo_orange (6) 🔥 (4) 
+
+[02/28/2022 12:08 AM] lgd#5847
+Wow, thank you so much. Apologies for the late reply, we didn't get the notification. We will provide an address soon, when my partners are awake and off work.
+
+{Reactions}
+ergo_orange (2) 
+
+[02/28/2022 12:18 AM] lgd#5847
+also:
+https://github.com/GuapSwap/guapswap/releases/tag/v0.1.0-beta
+
+{Embed}
+https://github.com/GuapSwap/guapswap/releases/tag/v0.1.0-beta
+Release GuapSwap CLI v0.1.0-beta · GuapSwap/guapswap
+Features
+
+Generate a proxy address based on config settings
+Perform a onetime swap with a proxy address (ERG -> Token)
+Refund funds locked in proxy address to user PK
+Logs proxy address and onet...
+https://images-ext-2.discordapp.net/external/E25NoP7uaQ-DdI7yTtSedoaQL4VesxvITNSXiR4-y08/https/opengraph.githubassets.com/afa005b96af1a08106d8030a1c38a1de20eb856aaab54b948f725bfa653cba3b/GuapSwap/guapswap/releases/tag/v0.1.0-beta
+
+{Reactions}
+🎉 (2) 
+
+[02/28/2022 6:40 AM] lgd#5847
+@Armeanio 
+9f7cVKhAcGuTEKyCgPW35p9xda9cVKBViLn3v57rrSpqwrPD92u
+
+
+[03/01/2022 12:33 AM] lgd#5847
+https://twitter.com/GuapSwapErgo/status/1498454656028221445?s=20&t=py-Oo4nuoaw4TS3go-rB3w
+
+{Embed}
+GuapSwap (@GuapSwapErgo)
+https://twitter.com/GuapSwapErgo/status/1498454656028221445?s=20&t=py-Oo4nuoaw4TS3go-rB3w
+"Give the People what they want."
+
+GuapSwap CLI v0.1.0-beta Walkthrough:
+https://t.co/9jjLUm8QUW
+
+@ergoplatformorg @NautilusWallet #ergominers
+Twitter
+
+
+[03/05/2022 6:48 AM] lgd#5847
+https://github.com/GuapSwap/guapswap/releases/tag/v1.0.0-beta
+
+{Embed}
+https://github.com/GuapSwap/guapswap/releases/tag/v1.0.0-beta
+Release GuapSwap CLI v1.0.0-beta · GuapSwap/guapswap
+Guapswap release:
+New Features
+
+Enable automatic swap that queries Ergo blockchain in increments of 1 hour. Modify the "swapIntervalInHours" parameter in the config file.
+List all eUTXOs ...
+https://images-ext-1.discordapp.net/external/xXf1FujvBSTyE2mRIOmirL_hzxX2GohHbrB-mdwUFlg/https/opengraph.githubassets.com/f2bc667c2a4e12683f8ed558185e3a7b427e75dc936e705bf828d28b0cd181cf/GuapSwap/guapswap/releases/tag/v1.0.0-beta
+
+
+[03/13/2022 3:40 PM] lgd#5847
+https://github.com/GuapSwap/guapswap/releases/tag/v1.0.1-beta
+
+{Embed}
+https://github.com/GuapSwap/guapswap/releases/tag/v1.0.1-beta
+Release GuapSwap CLI v1.0.1-beta · GuapSwap/guapswap
+Guapswap release:
+New Features
+
+Added UTC timestamp in automatic swap mode for quick and easy reference instead of looking at the log.
+
+Fixes
+
+Fixed the calculation of the exFeePerToken variable, w...
+https://images-ext-1.discordapp.net/external/GfP2BWw6fdDVJKtigSCmGzS3yoRvl7GjyNoCYT7Z0Go/https/opengraph.githubassets.com/97e8a9990134072d05e48869da48ce2d59cd1df32625aa1af41429979118cf7d/GuapSwap/guapswap/releases/tag/v1.0.1-beta
+
+{Reactions}
+🔥 (2) 
+
+[03/13/2022 3:41 PM] lgd#5847
+https://discord.gg/UyH3uSM73K
+
+
+[03/24/2022 4:00 AM] Stacie#8189
+Hi guys, I have seen you request in Project updates to get a legal advise about DAO and to review your document. 
+
+I have sent the message to Alex and Joseph with the request to help you there.
+
+Thank you
+
+{Reactions}
+👍 
+
+[03/27/2022 11:43 AM] AggerGakker#4449
+Thx
+
+
+[04/29/2023 7:57 PM] lllllll#4485
+whats the status of this project? Can miners use it now?
+
+
+==============================================================
+Exported 94 message(s)
+==============================================================

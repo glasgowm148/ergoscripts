@@ -1,0 +1,1522 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 💳  ・〘 Wallets 〙☰ / 💳・safew
+Topic: The goal of the project is to improve the security and the privacy of dApps on Ergo blockchain by providing a Wallet that:
+
+allows to use your own node and explorer for the wallet inputs
+can sign any transactions from a browser, allowing dApps without any backend transaction, inputs and outputs are visible when the user signs the transaction
+adds the account level private derivation (EIP-3 BIP-32 BIP-44) to improve the privacy without using different wallets
+is open-sourced Ergo wallet with a simple architecture
+==============================================================
+
+[02/07/2022 2:27 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/940252456619745330/SAFEW.txt
+
+
+[02/10/2022 6:39 PM] haileypdll#3353
+Hello, the github repository of the project is : https://github.com/ThierryM1212/SAFEW
+The goal is to provide a simple and secure wallet built for ergo. 
+You could contribute if you like it by testing, reviewing, promoting, making pull requests...
+
+{Embed}
+https://github.com/ThierryM1212/SAFEW
+GitHub - ThierryM1212/SAFEW: Simple And Fast Ergo Wallet
+Simple And Fast Ergo Wallet. Contribute to ThierryM1212/SAFEW development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/lQykSsWUvubtdZVqo15HxVvhFrN90wrLVrepCkLkmWQ/https/opengraph.githubassets.com/15b0e35ac9ecff16c4183c635d87cf33b0167021c06feb4e2e017f7359165918/ThierryM1212/SAFEW
+
+
+[02/10/2022 6:43 PM] haileypdll#3353
+Last released version has a working dApp connector, and allows to sign with the wallet or using Ergopay.
+
+
+[02/10/2022 6:44 PM] haileypdll#3353
+Coming soon: ergopay improvement, ergomixer integration, ledger...
+
+{Reactions}
+👍 (2) 
+
+[02/11/2022 12:50 PM] root7Z#8699
+Hello @safew project team! How is it going with your development, would you provide updates?
+
+
+[02/11/2022 1:53 PM] haileypdll#3353
+Preparing a new release, to add few Ergopay wallets improvement and an interface for the ergomixer within the wallet, update of the dependencies . Will start to look at the ledger integration tomorrow (when i'll have a ledger).
+
+{Reactions}
+ergo_white (4) 
+
+[02/11/2022 8:51 PM] root7Z#8699
+I hope the first day is going well. Please share a few notes as we are coming closer to the end of the day. Best regards,
+
+
+[02/12/2022 12:00 AM] haileypdll#3353
+I tried to do a bit more with ErgoMixer, and just published a SAFEW_beta_0.3. https://github.com/ThierryM1212/SAFEW/releases/tag/beta_0.3
+
+{Embed}
+https://github.com/ThierryM1212/SAFEW/releases/tag/beta_0.3
+Release SAFEW 0.3 - ErgoMixer integration · ThierryM1212/SAFEW
+ErgoPay improvement: allow to delete mnemonic to convert a wallet to an ErgoPay wallet, add/remove addresses from Ergopay wallets, add ErgoPay button for mobile users
+ErgoMixer integration: Display...
+https://images-ext-2.discordapp.net/external/K5xe9Aq6cg2bv_qvM2qgJ-jFJwSWp8mCOy_zYV9AM8Y/https/opengraph.githubassets.com/ea5b1af3df82f5407d560eab66543176b7942245bbda419df7a161bfbdfc591e/ThierryM1212/SAFEW/releases/tag/beta_0.3
+
+{Reactions}
+ergo_orange (6) 
+
+[02/12/2022 12:20 AM] haileypdll#3353
+I'm not yet really happy with the Ergomixer part, but not sure where to go, i will listen the feedback 😀
+
+{Reactions}
+ergo_orange (2) 
+
+[02/12/2022 6:22 AM] root7Z#8699
+Good morning @safew , looks like you are implementing very fast. I wish you good luck on the second day!
+
+{Reactions}
+ergo_orange 
+
+[02/12/2022 6:23 AM] root7Z#8699
+@anon2020s they need help on the ErgoMixer integration, please provide feedback
+
+
+[02/12/2022 8:31 AM] root7Z#8699
+@anon_br
+
+{Reactions}
+ergo_orange 
+
+[02/12/2022 9:07 AM] anon2020s#6116
+I'll take a look in one hour
+
+
+[02/12/2022 12:47 PM] anon_br#2282
+Hey @haileypdll how is ledger integration going? I heard you are teaming with nemo for integration, I’m helping him
+
+
+[02/12/2022 12:48 PM] anon_br#2282
+Feel free to ping me whenever you need )
+
+
+[02/12/2022 12:55 PM] haileypdll#3353
+Thanks, it is planned I start today... Still travelling... First i'll to try to make your example works
+
+
+[02/12/2022 1:26 PM] anon_br#2282
+Nice, remember to use `sign-tx` branch for that
+
+
+[02/12/2022 2:03 PM] haileypdll#3353
+The ledger-app for ergo (from tesseract-one) needs to be built and installed. There is some guide on how to do that ?
+
+
+[02/12/2022 2:17 PM] anon_br#2282
+There is no need to build, you can get the binaries here: https://github.com/tesseract-one/ledger-app-ergo/actions/runs/1759354978
+
+And here is a guide on how to deploy it on the device (You can jump directly to **Installing apps into the device**): https://putukusuma.medium.com/build-an-app-for-ledger-nano-s-on-macbook-and-docker-46be51701206
+
+
+[02/12/2022 2:29 PM] haileypdll#3353
+thanks
+
+
+[02/12/2022 10:40 PM] root7Z#8699
+Hello @safew team, I hope the second day is going well for you.  As we are getting closer to the end of today, please provide your updates regarding today's development. With best wishes
+
+
+[02/12/2022 11:02 PM] haileypdll#3353
+Hi, currently working on the ledger integration. As of now, I'm able to connect and discover the addresses to build the wallet. Still working on UI/feature adjustment around the wallet management before starting the transaction signing (I hope tomorrow).
+
+{Reactions}
+ergo_orange (3) ergonaut 
+
+[02/12/2022 11:12 PM] root7Z#8699
+Thank you for the update, good luck 👍
+
+
+[02/13/2022 7:37 AM] root7Z#8699
+Good morning @safew team, good luck on the last day!
+
+
+[02/13/2022 7:17 PM] root7Z#8699
+Hello @safew team, a quick update regarding the submissions: You are expected to send your final reports by Monday 12.00 UTC noon, not tonight. So please make the best out of your time, good luck!
+
+
+[02/13/2022 8:04 PM] haileypdll#3353
+Hello, there is a suggested format for the final report? How it needs to be submitted ?
+
+
+[02/13/2022 9:09 PM] root7Z#8699
+You can submit as video or text, it's open format so make it as you feel right. You can drop here
+
+
+[02/14/2022 10:19 AM] haileypdll#3353
+Hello, please find the report here, let me know if you can open it without issue
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/942726699693527040/SAFEW_ergohack3_report.pdf
+
+{Reactions}
+ergo_orange (4) ✅ (2) 
+
+[02/14/2022 12:07 PM] root7Z#8699
+thank you, i can open
+
+
+[02/14/2022 12:16 PM] glasgowm#9381
+Could you give a quick summary of what you completed over the past few days (to give everyone else a fair chance 😅) or maybe what you already had before if it's easier
+
+dApp connector was already working so you've added Ledger support, tx history, and mixing? Why aren't you happy with the mixer part?
+
+
+[02/14/2022 1:36 PM] haileypdll#3353
+I've added the mixer part in the last few days, and the ledger integration.
+
+
+[02/14/2022 1:40 PM] haileypdll#3353
+The mixer part was done too quickly, it does not handle all the states of the mixes. The "Create new mix" would deserve to be integrated also. The Covert addresses are editable... but not for the token part and are not integrated in the other part of the wallet.
+
+
+[02/14/2022 1:42 PM] haileypdll#3353
+So it offers an integration of the ergomixer in the wallet, but incomplete, I hope it is still usable and not too buggy.
+
+
+[02/14/2022 1:48 PM] haileypdll#3353
+What I like in SAFEW, is the dApp connector commucation that I find cleanly done, and the different transactions balances displayed, computed from the transaction or unconfirmed transactions.
+
+
+[02/14/2022 1:50 PM] haileypdll#3353
+This gives some reliability to the displayed numbers (first displayed as input on the screen, then recomputed from the unsigned transaction, finally recomputed from the unconfirmed / confirmed transaction)
+
+{Reactions}
+🔥 (4) 👍 🎉 
+
+[02/14/2022 2:12 PM] glasgowm#9381
+awesome thanks for the clarifications - and great work! 🙂
+
+{Reactions}
+👍 
+
+[02/14/2022 4:09 PM] haileypdll#3353
+thanks
+
+
+[02/21/2022 6:32 PM] haileypdll#3353
+The transaction builder has just been added with the 0.4 release. It allows to build custom transactions with a UI.
+
+
+[02/22/2022 11:44 AM] MrStahlfelge#0042
+is it compatible with ErgoPay?
+
+
+[02/22/2022 12:02 PM] haileypdll#3353
+Yes, there is a button to generates the ErgoPay QR code, you can use it with a readonly/ErgoPay wallet
+
+{Reactions}
+👍 
+
+[02/25/2022 9:39 PM] haileypdll#3353
+SAFEW is now available for firefox: https://addons.mozilla.org/en-US/firefox/addon/safew/
+
+{Embed}
+https://addons.mozilla.org/en-US/firefox/addon/safew/
+Simple And Fast Ergo Wallet – Get this Extension for 🦊 Firefox (en-...
+Download Simple And Fast Ergo Wallet for Firefox. Wallet for Ergo blockchain with a dApp connector to interact with Ergo dApps
+https://images-ext-2.discordapp.net/external/jXMgz1LX8f4BP4HzIwOTlNN-pSEo8uxyHbiKFxt5HMg/%3Fmodified%3D1645728000/https/addons.mozilla.org/user-media/previews/full/266/266792.png
+
+{Reactions}
+ergo_orange (6) 
+
+[02/28/2022 9:07 PM] AngieHar#0865
+Congratulations SAFEW! Great work, thank you for participating in ErgoHack 3. We hope we’ve convinced you to continue to develop the Ergo Platform and ecosystem.  💪  
+Your participation was a vital component in making the next hackathons even better. And hope to hear from you for marketing collaborations. 
+
+Please provide me your wallet address so you can receive your prize.
+
+
+[03/01/2022 9:58 AM] haileypdll#3353
+Many thanks, I will try to keep improving it to provide a nice tool to Ergo users and developpers.
+
+{Reactions}
+ergo_orange (2) 
+
+[03/09/2022 8:27 AM] Dv#3650
+may I recommend for the transaction export, being able to export without first "loading all"
+
+
+[03/09/2022 8:27 AM] Dv#3650
+I have 532 transactions in this wallet and I'm not sure if it'll ever load.... lol
+
+
+[03/09/2022 8:31 AM] Dv#3650
+nvm
+
+
+[03/09/2022 8:32 AM] Dv#3650
+export is broken
+
+
+[03/09/2022 8:32 AM] Dv#3650
+even if the transactions are loaded it's only exporting the last 3 days
+
+
+[03/09/2022 8:32 AM] Dv#3650
+sigh
+
+
+[03/09/2022 2:15 PM] haileypdll#3353
+Thanks, yes, there is an issue, it currently loads only 10 transactions per address, I will fix in the next release.
+
+
+[03/09/2022 2:16 PM] haileypdll#3353
+Currently testing with 400+ transactions in the wallet and the performance seems still fine to me. The exported file is less than 100kb, I will keep it as "export all" for now.
+
+
+[03/09/2022 5:50 PM] haileypdll#3353
+A new version is available on github and Firefox addons store: https://github.com/ThierryM1212/SAFEW/releases/tag/0.4.3
+It allows to display NFT images in the wallet and addresses issues with csv export and sending of tokens
+
+{Embed}
+https://github.com/ThierryM1212/SAFEW/releases/tag/0.4.3
+Release Display NFT images, bug fixes · ThierryM1212/SAFEW
+Display NFT images
+fix csv transaction export
+fix send tokens that was failing to generate the transaction for some assets
+https://images-ext-2.discordapp.net/external/S1Llx6Cz6qUf6rw5Odxftjq8QCTRH7H7Zm0Ol7DJ4pQ/https/opengraph.githubassets.com/d13bb5bbd7ef6bc10e5ff222330e9721b6d8f6027b7e11fbece517b3b16d3dcb/ThierryM1212/SAFEW/releases/tag/0.4.3
+
+{Reactions}
+👍 (2) 
+
+[03/10/2022 6:46 AM] Dv#3650
+now it isn't exporting anything
+
+
+[03/10/2022 6:46 AM] Dv#3650
+only the headers
+
+
+[03/10/2022 6:46 AM] Dv#3650
+""transactionId","Date","Asset Name","Balance","tokenId""
+
+
+[03/10/2022 7:43 AM] haileypdll#3353
+hmm, I will need more inputs, because it is working properly for me now. With 0.4.3 version ? with which browser ? Are you using a ErgoPay read only wallet or a wallet with mnemonic ?
+
+
+[03/10/2022 7:56 AM] Dv#3650
+Yes latest version you linked, Chrome, mnemonic
+
+
+[03/10/2022 8:12 AM] Dv#3650
+just tried the latest version with brave as well same issue.
+
+
+[03/10/2022 8:25 AM] haileypdll#3353
+Thanks, could you try to launch "Search used addresses" in the wallet edit screen and retry the export ? (with a fresh install from the link in Brave it is still working for me)
+
+
+[03/10/2022 8:28 AM] Dv#3650
+do I need to wait for the wallet to load all the transactions before attempting to export?
+
+
+[03/10/2022 8:28 AM] Dv#3650
+same issue
+
+
+[03/10/2022 8:29 AM] Dv#3650
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/951396440029138944/ac0c02b759f2459045a24167df9c8692.png
+
+
+[03/10/2022 8:29 AM] haileypdll#3353
+You don't need to wait to load all the transactions, you can just click the export button after having opened the screen.
+
+
+[03/10/2022 8:30 AM] Dv#3650
+I thought so, just making sure
+
+
+[03/10/2022 8:30 AM] Dv#3650
+Yea I'm not sure what the deal is then
+
+
+[03/10/2022 8:30 AM] Dv#3650
+Is it because of the amount of transactions I have in this wallet? I use it for mining, and it gets 4-5 per day
+
+
+[03/10/2022 8:33 AM] haileypdll#3353
+hmm, yes, that should be related to "mining wallet"
+
+
+[03/10/2022 8:35 AM] haileypdll#3353
+I have a mining wallet with less transactions than other wallets and the export was stuck for 30s (but it finally produced the file)
+
+
+[03/10/2022 8:40 AM] haileypdll#3353
+Thanks, I've now reproduced. It seems to occurs with "mining wallet" after a first export. I will investigate.
+
+
+[03/10/2022 8:46 AM] Dv#3650
+No problem thanks for the hard work!
+
+
+[03/10/2022 8:49 AM] haileypdll#3353
+Thanks, so it occurs when the explorer request fails, and this occurs for my "mining address" ,sometimes, fetching the transactions, I will try to handle it properly
+
+
+[03/10/2022 8:51 AM] Dv#3650
+I'm glad I was able to help find some bugs lol
+
+
+[03/14/2022 6:05 PM] haileypdll#3353
+🖼️ 🔊 🎦 🔥   Safew 0.4.5 is released   🔥 🎦 🔊 🖼️
+https://addons.mozilla.org/en-US/firefox/addon/safew/
+https://github.com/ThierryM1212/SAFEW/releases/tag/v0.4.5
+
+- Display NFT Images (improved), Audio, Videos
+- Mint tokens, 🖼️, 🔊 and 🎦
+- 🔥 Burn tokens 🔥  
+- Bug fixes
+
+{Reactions}
+🎉 (2) 
+
+[03/19/2022 4:06 AM] Dv#3650
+thank you for the limited export feature, it's a god send for my mining wallet!
+
+
+[03/19/2022 7:01 AM] Dv#3650
+although could I recommend adding the ability to export in UTC?
+
+
+[03/19/2022 6:32 PM] haileypdll#3353
+thanks, yes, maybe only in UTC ?
+
+
+[03/20/2022 12:16 AM] Dv#3650
+That'd be fine as well, would it be possible, at least for the export to show the total amount of erg received? It currently only shows 4 decimal points
+
+
+[03/20/2022 6:17 AM] haileypdll#3353
+yes, that make sense at that place, thanks
+
+
+[03/20/2022 6:31 AM] Dv#3650
+Thank you for the wallet! It's been months since yorois export had worked, greatful for little developers like yourself!
+
+{Reactions}
+👍 
+
+[03/20/2022 8:54 PM] Jeff Martin#6014
+f
+
+
+[03/23/2022 6:06 PM] haileypdll#3353
+🔥 ⛓️ Safew 0.4.6 ⛓️ 🔥
+https://addons.mozilla.org/en-US/firefox/addon/safew/
+https://github.com/ThierryM1212/SAFEW/releases/tag/0.4.6
+
+ - Chained transactions support in wallet and with dApp connector (require reload of the page between transactions on Ergodex)
+ - Add caching for some explorer requests
+ - Improve csv export with UTC date and full ERG amount
+ - Added COMET and Mi Goreng verified tokens
+ - Bug fix
+
+
+[03/25/2022 2:17 AM] alexm#9328
+I like the wallet, will it be available as a brave browser extension?
+
+
+[03/25/2022 7:14 AM] Dv#3650
+It is
+
+
+[03/25/2022 7:14 AM] Dv#3650
+You can download the zip from GitHub and install it onto chrome or brave. I'm currently using it with brave
+
+{Reactions}
+🔥 
+
+[03/25/2022 12:48 PM] SoCool#6419
+🤞 will hopefully be able to get it on chrome store
+> soon
+
+To quote Gazza
+
+{Reactions}
+🔥 
+
+[03/30/2022 5:35 AM] Sarge#7074
+where is the download of safew?
+
+
+[03/30/2022 5:36 AM] Sarge#7074
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/958585421766459442/unknown.png
+
+
+[03/30/2022 5:36 AM] Sarge#7074
+this must be wrong file because i dont see an app to run or a wallet etc..
+
+
+[03/30/2022 5:36 AM] Sarge#7074
+sorry, new to this kinda thing
+
+
+[03/30/2022 12:34 PM] Dv#3650
+Install it into chrome or brave as an addon
+
+
+[03/31/2022 5:57 PM] haileypdll#3353
+Adding the nice presentation made on Ergoplatform, with detailled install instructions: https://ergoplatform.org/en/blog/2022-03-25-storing-ergo-safew/
+
+{Embed}
+https://ergoplatform.org/en/blog/2022-03-25-storing-ergo-safew/
+Storing Ergo: SAFEW
+In this article, we continue …
+https://images-ext-1.discordapp.net/external/6CDdTh-mh-C2IC4IQc1ONVNj16jk-P5tLEuQECL7NaU/https/ergoplatform.org/img/uploads/news-blog-41-1-.png
+
+{Reactions}
+👍 (3) 
+
+[04/06/2022 5:26 AM] Supremedacos#3817
+Getting this error message when trying to sign a transaction in safew, can anyone tell me why this is happening?
+```
+"Transaction signing error: Prover error (tx input index 1): Failed on step2(prover does not have enough witnesses to perform the proof)"
+```
+I built the transaction to match exactly how the transaction builder is doing it from the Web UI
+
+
+[04/06/2022 7:43 AM] Dv#3650
+@haileypdll would be the one to ask
+
+
+[04/06/2022 1:24 PM] haileypdll#3353
+This error means that the box is not yours: the script was evaluated to false when you tried to sign
+
+{Reactions}
+👍 (2) 
+
+[04/06/2022 1:24 PM] haileypdll#3353
+It can be a wrong wallet, or a wallet with not all the addresses trying to sign.
+
+
+[04/06/2022 1:43 PM] Supremedacos#3817
+Thank you
+
+
+[04/07/2022 6:32 PM] pgwada#0227
+how can i use safew firefox for testnet?
+
+
+[04/09/2022 9:05 AM] haileypdll#3353
+The testnet is currently not supported
+
+
+[04/09/2022 8:51 PM] pgwada#0227
+ok thanks
+
+
+[04/11/2022 3:52 AM] dashmunn#0001
+Hey @haileypdll , I'm currently updating the ergonauts subreddit banner and noticed SafeW didnt have a logo and created one for you if you needed one 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/962907907945537616/SafeW_Logo_1_Black.png
+https://cdn.discordapp.com/attachments/940227005381746718/962907908188827658/SafeW_Logo_1_Orange.png
+
+{Reactions}
+👍 (5) 
+
+[04/11/2022 4:08 AM] Dv#3650
+these look sick!
+
+{Reactions}
+🧡 
+
+[04/11/2022 4:12 AM] dashmunn#0001
+haha thankyou 🙂
+
+
+[04/11/2022 4:29 PM] haileypdll#3353
+They looks great, thanks !
+
+{Reactions}
+🧡 
+
+[04/15/2022 5:18 PM] curbsideprophet#5083
+question: i have the mixer running on a raspberrypi but same network. when i add the IP address to settings for the mixer address i still get a "mixer not found at http://ip-address:9000/". am i missing something ? (edit: this works i just had to restart the browser)
+
+
+[04/17/2022 11:23 AM] haileypdll#3353
+thanks for the report, I will try to update it real time 🙂
+
+{Reactions}
+❤️ 
+
+[04/17/2022 11:24 AM] haileypdll#3353
+Coming soon... if everything goes well...
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/965196074161684490/unknown.png
+
+{Reactions}
+🙌 ergo_orange (2) anetaThis 
+
+[04/22/2022 4:15 PM] glasgowm#9381
+https://docs.google.com/document/d/1jzIWxlThQCaK7IuEMRH68aOLDJcVHJXlYjuCyB7UjGA/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/document/d/1jzIWxlThQCaK7IuEMRH68aOLDJcVHJXlYjuCyB7UjGA/edit?usp=sharing
+Ergo Ledger App Protocol v7
+Ergo Ledger App Protocol Draft v7  Introduction Messaging protocol APDU message structure Command Response Ergo Protocol Instruction Codes 0x01-0x0F - General application status methods 0x10-0x1F - Public key / addresses related methods 0x20-0x2F - Signing methods 0xF0-0xFE - Debug methods Proto...
+https://images-ext-1.discordapp.net/external/AdmRR_bvOTA4vUFrO4VvcEJ6p5652s-1X6Q1a-238M4/https/lh5.googleusercontent.com/dugDFQrZGexdmyiIIwHgQS6Dgw2yHN5v8UIb8BXvI0CCnIR1qBaboDcN2X-bFW1WA7Pf2KWHvHt8qg%3Dw1200-h630-p
+
+
+[04/22/2022 5:26 PM] haileypdll#3353
+I've tried the new version from https://github.com/tesseract-one/ledger-app-ergo/actions/runs/2203348990, but I still get an invalid signature leading to an error posting the transaction to node:
+
+
+[04/22/2022 5:26 PM] haileypdll#3353
+"Malformed transaction: Scripts of all transaction inputs should pass verification. f056a5b820c439f25df650b50bcd348fb63688465c1969ee0890db5ebc58fa2d: #0 => Success((false,10141))"
+
+
+[04/22/2022 6:57 PM] glasgowm#9381
+better asking @capt_nemo but the API has been rewritten so I imagine you'll need to rewrite something on your end too?
+
+
+[04/23/2022 4:16 PM] haileypdll#3353
+Thanks, it seems there is still some development on going on the ergo-ledger-hw-app before the integration can be done.
+
+
+[04/23/2022 4:18 PM] haileypdll#3353
+🔥 https://chrome.google.com/webstore/detail/simple-and-fast-ergo-wall/fmpbldieijjehhalgjblbpgjmijencll/ 🔥
+
+{Embed}
+https://chrome.google.com/webstore/detail/simple-and-fast-ergo-wall/fmpbldieijjehhalgjblbpgjmijencll/
+Simple And Fast Ergo Wallet
+Wallet for ergo blockchain with dApp connector
+- Allow to add or restore Ergo wallets
+- View the content of the wallets
+- View…
+https://images-ext-1.discordapp.net/external/19GKPe3jsainuuPt7j3CDZX-sMi1kUA_QialbNodAoo/https/lh3.googleusercontent.com/a8j9GkbehVrIp7MGC-V58msFjy9SrRuPUcwq1_7nGBaS36QMhZYNUR1ukPU977FkpTUCubs0QGIBbY1sLqpIYd2lFw%3Dw128-h128-e365-rj-sc0x00ffffff
+
+
+[04/23/2022 4:19 PM] haileypdll#3353
+Now SAFEW is available on Chrome store ! (Greetings to @SoCool for the workaround on WebAssembly)
+
+{Reactions}
+👍 (3) 🙏 (2) ❤️ (3) 🔥 
+
+[04/24/2022 8:14 AM] TypoDaPsycho#6307
+Love the wallet!! 
+
+Recently found this typo which should be "Loading transactions..."
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/967684907948183562/IMG_20220424_020652369.jpg
+
+
+[04/24/2022 8:15 AM] TypoDaPsycho#6307
+obviously 😅
+
+
+[04/24/2022 11:18 AM] haileypdll#3353
+Thanks, it will be fixed in next release.
+
+
+[04/29/2022 1:36 PM] N3kurion#5318
+Hi safew professionals!
+
+
+[04/29/2022 1:37 PM] N3kurion#5318
+Is it possible to export all transactions from my address to csv with SAFEW wallet? There are over 2000 transactions received with this address.
+
+
+[04/29/2022 1:43 PM] N3kurion#5318
+When I want to export transactions to CSV it says: "Maximum number of transactions 500".
+
+
+[04/30/2022 11:36 AM] haileypdll#3353
+Hi, currently you can export only the last 500 of each address. But this is in my to do list to improve it.
+
+
+[05/01/2022 4:08 PM] Velvia#6830
+Trying to swap on ErgoDEX, but QR code won't show up
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/970340868668129290/unknown.png
+
+
+[05/03/2022 12:47 PM] N3kurion#5318
+Hi haileypdllz, thank you for the response. Can you give me a hint, where I can exctract the data from blockchain by myself? I have installed a full node on my PC. Is it possible to get the data by API with an address as input? Where can I find a API reference?
+
+
+[05/03/2022 7:59 PM] haileypdll#3353
+Hi @N3kurion , you would need to get the list from ergo explorer API. Using a offset for old transactions. https://api.ergoplatform.com/api/v1/docs/#operation/getApiV1AddressesP1Transactions
+
+
+[05/03/2022 10:13 PM] Velvia#6830
+I'm still getting this problem, trying to list NFTs on SkyHarbor now. Also when I try to burn tokens/NFTs.
+Sometimes it works, like when I just tried to mint a new NFT, but then it didn't work when I tried to list it.
+
+
+[05/04/2022 3:37 AM] JOFLITO#9983
+Hello sirs, I have been hearing good things about this wallet for a long time
+
+
+[05/04/2022 3:37 AM] JOFLITO#9983
+now I am finally going to install it
+
+{Reactions}
+🔥 
+
+[05/04/2022 1:05 PM] haileypdll#3353
+I'm adding the github reply here, it can provides workarounds.
+
+Thanks for reporting the issue.
+
+This occurs for me when the transaction is "too big", and the QR code fails to be generated.
+This is a limitation for transaction signed through QR code, around 4000 characters in the json of the transaction.
+I will try to add a proper error message.
+
+This may occurs because your wallet includes many unspent boxes.
+As a workaround, you could try to consolidate your wallet before the transaction, by issuing a transaction to yourself, with all the wallet content. This should reduce the size of the ergodex transaction enough so it can be encoded in the QR code.
+
+"Open wallet app": It works only to my knowledge on Android using SAFEW in Kiwi browser. It will open the Android Wallet to propose to sign the transaction. It could be used on Windows probably if a native wallet implement the feature.
+This could also workaround your transaction size issue as the transaction will be sent to Android Wallet without QR code.
+
+A future solution, will be the implementation of the second part of the Ergopay standard, with the "Ergopay payment request"...
+
+{Reactions}
+👍 
+
+[05/04/2022 7:21 PM] Velvia#6830
+I tried the second solution, but the android wallet wasn't able to build the transaction
+
+
+[05/04/2022 7:21 PM] Velvia#6830
+I don't know how to do it with a read only cold wallet
+
+
+[05/04/2022 7:22 PM] Velvia#6830
+I used yoroi back in the day to create the wallet in the first place, and it created additional addresses, so my ERG and tokens are all over
+
+
+[05/04/2022 8:00 PM] MrStahlfelge#0042
+what was the problem in building the transaction?
+
+
+[05/04/2022 8:58 PM] Velvia#6830
+I don't remember the exact error, but something with "more than 64" and "not multiples of 4"
+
+
+[05/04/2022 9:00 PM] MrStahlfelge#0042
+this sounds like wrong password
+
+
+[05/04/2022 9:11 PM] Velvia#6830
+it's not password protected, it's read only wallet
+
+
+[05/04/2022 9:11 PM] Velvia#6830
+use the cold wallet offline mobile to sign
+
+
+[05/04/2022 9:12 PM] MrStahlfelge#0042
+ah okay, and when did the mentioned error occur
+
+
+[05/04/2022 9:12 PM] Velvia#6830
+after I tried to send everything from the other addresses in my wallet to the main address
+
+
+[05/04/2022 9:13 PM] Velvia#6830
+I hit send, then it was loading, then the error
+
+
+[05/04/2022 9:25 PM] Velvia#6830
+Still getting this after consolidating, trying to list NFT on skyharbor
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/971507844954325042/unknown.png
+
+
+[05/04/2022 9:25 PM] Velvia#6830
+Is my wallet broken? 😅 😂
+
+
+[05/04/2022 9:26 PM] Velvia#6830
+Should I just start over with a new one?
+
+
+[05/05/2022 7:41 AM] Velvia#6830
+Can't even send a single token to another wallet etc anymore
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/971662850886098984/unknown.png
+
+
+[05/05/2022 7:41 AM] Velvia#6830
+stuck here forever
+
+
+[05/05/2022 7:42 PM] SoCool#6419
+Oh shit it's cinco de mayo! You're not supposed to send ergo, you're supposed to send cerveza!
+
+Really though, you have your recovery key for your wallet, right?
+
+
+[05/05/2022 7:45 PM] Velvia#6830
+lmao
+
+
+[05/05/2022 7:45 PM] Velvia#6830
+yeah
+
+
+[05/05/2022 7:45 PM] SoCool#6419
+Just restore that wallet in android mobile wallet, and the wallet is all good, no?
+
+
+[05/05/2022 7:45 PM] Velvia#6830
+have it restored in the android cold wallet, would prefer to keep it there
+
+
+[05/05/2022 7:45 PM] Velvia#6830
+yes, but I need SAFEW to interact with dapps, no?
+
+
+[05/05/2022 7:46 PM] SoCool#6419
+Yep! Regarding the SAFEW mobile link error you got - I have had the same thing too! I did not test that link well when I implemented it and I suspect I fucked up something about the link
+
+
+[05/05/2022 7:46 PM] SoCool#6419
+The image scanning works great though 👍 however it does not to my knowledge and I believe Hailey mentioned above, do the transaction downloading part of the ergopay standard
+
+
+[05/05/2022 7:46 PM] Velvia#6830
+Yeah, it works awesome when it works
+
+
+[05/05/2022 7:47 PM] Velvia#6830
+really like it
+
+
+[05/05/2022 7:47 PM] SoCool#6419
+So basically in Kiwi you're kinda screwed - or maybe the link *does* work and I *didn't* do a shit job implementing it
+
+
+[05/05/2022 7:47 PM] SoCool#6419
+Actually not screwed with Kiwi, I use it, just not with ErgoPay
+
+
+[05/05/2022 7:48 PM] SoCool#6419
+Yeah same, it's why I keep trying to improve it - I really like the interface and all the extra features it has
+
+{Reactions}
+👍 
+
+[05/05/2022 7:48 PM] Velvia#6830
+would a solution be to have it create several QR codes to utilize more than 4000 characters?
+
+
+[05/05/2022 7:48 PM] Velvia#6830
+like the android wallet?
+
+
+[05/05/2022 7:48 PM] Velvia#6830
+Had to scan 7 QR codes when I sent everything to myself though 😂 😅
+
+
+[05/05/2022 7:48 PM] SoCool#6419
+Hmm that's a strange thought but that would rely on a change to the ErgoPay spec to implement a continuation so it knew to continue reading more QRs
+
+
+[05/05/2022 7:49 PM] SoCool#6419
+Actually now that you mention it, I'm inclined to question if the issue with the ergopay link is a size limitation to the doms href, but I don't know what its limited at
+
+
+[05/05/2022 7:50 PM] SoCool#6419
+> The SGML Defines attributes with a limit set of 65k charecters, seen here
+So yeah the QR code isn't outstripping the DOM attribute limit
+
+
+[05/05/2022 7:51 PM] SoCool#6419
+I just fucked up however I put it in there; I probably didn't use safe base64 encoding where I should have, I thought the QR codes bytes already had that but I'm a dummy and it of course had raw bytes not base64
+
+{Reactions}
+🫂 
+
+[05/06/2022 12:33 AM] SoCool#6419
+I fixed it! Except that **I AM TERRIBLE AT TESTING AND VERIFYING MY OWN CODE** so while I was able to submit a TX using the link from Kiwi, who knows what kinda screwy stupid thing I did that may have made it work / not work / whatever.
+
+Don't expect the fix immediately available! I did however isolate the cause of the bug I believe and have a solution. Rely on the very talented Hailey to tell you if a fix makes it in or not and when heh
+
+
+[05/06/2022 12:34 AM] SoCool#6419
+basically it never worked because I didn't test it the first time. So that's about the level of quality you can expect from any time I say I did something 😄
+
+
+[05/08/2022 9:45 AM] haileypdll#3353
+Thanks, I'll look at them for the next version
+
+
+[05/08/2022 9:47 AM] haileypdll#3353
+Celebrating the first swap on Ergodex signed with Ledger Nano S and SAFEW
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/972781873333944320/tig_ledger.png
+
+{Reactions}
+😺 (2) ❤️ (3) 
+
+[05/10/2022 11:30 PM] haileypdll#3353
+For windows users, here a step by step doc to install the Ergo application on the ledger Nano S (That requires to not be afraid by command line...)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/973713556405104650/install_ledger_ergo_app_on_windows.pdf
+
+{Reactions}
+ergo_orange (2) 
+
+[05/13/2022 10:20 AM] haileypdll#3353
+The 0.6.0 version of SAFEW is available now on Chrome store: https://chrome.google.com/webstore/detail/simple-and-fast-ergo-wall/fmpbldieijjehhalgjblbpgjmijencll with ledger support (first version, with more to come)
+
+{Embed}
+https://chrome.google.com/webstore/detail/simple-and-fast-ergo-wall/fmpbldieijjehhalgjblbpgjmijencll
+Simple And Fast Ergo Wallet
+Wallet for ergo blockchain with dApp connector
+- Allow to add or restore Ergo wallets
+- View the content of the wallets
+- View…
+https://images-ext-1.discordapp.net/external/19GKPe3jsainuuPt7j3CDZX-sMi1kUA_QialbNodAoo/https/lh3.googleusercontent.com/a8j9GkbehVrIp7MGC-V58msFjy9SrRuPUcwq1_7nGBaS36QMhZYNUR1ukPU977FkpTUCubs0QGIBbY1sLqpIYd2lFw%3Dw128-h128-e365-rj-sc0x00ffffff
+
+{Reactions}
+ergo_orange (2) 
+
+[05/13/2022 10:24 AM] haileypdll#3353
+known limits for ledger wallets in this version: 
+ - not able to mint tokens or set register output boxes (will be fixed with the next version)
+ - limit on the the number of tokens that a boxe can hold (to be investigated)
+ - Ledger Nano S only (if someone can try with another ledger... it is welcome)
+Please use it carefully and report issues you are facing
+
+
+[05/13/2022 10:29 AM] MrStahlfelge#0042
+no one can try with nano x, the app has to be on the ledger store to be used
+
+
+[05/13/2022 10:30 AM] haileypdll#3353
+ho, I though it could be flashed by usb like Nano S, thanks
+
+
+[05/17/2022 2:24 PM] haileypdll#3353
+0.6.1 version is available with bug fixes for ledger and explorer links
+
+{Reactions}
+ergo_orange (4) 
+
+[05/23/2022 11:43 AM] glasgowm#9381
+Is this legit? @haileypdll 
+
+https://ergoraffle.com/raffle/show/08ff52d0776f91d1e635a7cfc6b6a0cf2377d48d4d57fff19d804df75fa61d4f
+
+{Embed}
+https://ergoraffle.com/raffle/show/08ff52d0776f91d1e635a7cfc6b6a0cf2377d48d4d57fff19d804df75fa61d4f
+Ergo Raffle
+Ergo raffle is a crowdfunding system based on ergo contracts
+
+
+[05/23/2022 1:49 PM] haileypdll#3353
+No, it is not
+
+{Reactions}
+👍 
+
+[05/23/2022 1:50 PM] haileypdll#3353
+the dApp is from me, but not the raffle
+
+{Reactions}
+👍 
+
+[06/12/2022 1:25 PM] Gstoiti#2984
+Is it possible to set different change addresses for each account?
+
+
+[06/12/2022 1:30 PM] Gstoiti#2984
+And when selecting input addresses in expert mode are addresses of the second account always displayed below all addresses of the first account?
+
+
+[06/14/2022 5:19 PM] NoahErgo#4349
+@haileypdll does SAFEW have a token burn warning on transaction signing window?
+
+
+[06/14/2022 5:21 PM] NoahErgo#4349
+similar to this: https://discord.com/channels/668903786361651200/940210065099591741/985302919597408336
+
+
+[06/15/2022 12:16 PM] SoCool#6419
+I gotta say, people don't know about it much, but running SAFEW in kiwi with ErgoPay wallet is awesome; I've done everything with it for about a month now, never bothering to get on my computer to bother with ergo things.
+
+Just bought SigRSV off sigmausd.io on mobile like that, yet to have a problem with any dApp using SAFEW in Kiwi with my ErgoPay wallet
+
+
+[06/15/2022 12:16 PM] SoCool#6419
+Not technically supported, but dang it works well
+
+
+[06/15/2022 1:32 PM] MrStahlfelge#0042
+pretty good for ErgoDex, but for buying SigRSV I pull the plug here and recommend TokenJay as you can use ErgoPay AND save a whole lot on fees 😉
+
+
+[06/15/2022 1:33 PM] MrStahlfelge#0042
+I agree that SAFEW is underrated
+
+
+[06/15/2022 1:37 PM] SoCool#6419
+I need to try tokenjay, haven't yet dug into it at all
+
+
+[06/24/2022 8:29 AM] haileypdll#3353
+Hey, guys, I'm working on the CSV export of the transactions in SAFEW and cannot decide a point, could you please give your point of view ?
+
+If you are exporting the transaction history for a specific address, do you expect the transaction balance computed only including that address ? Or including all the addresses of the wallet ?
+With another words, exporting for a single address, for an intra wallet transaction, you expect the balance of the transaction to be only the miner fee or the transaction amount + miner fee ?
+
+
+[06/24/2022 8:31 AM] haileypdll#3353
+The transaction builder will show a warning. For a normal transaction, there will be no specific warning but the balance of the transaction will display that the tokens are going out of your wallet.
+
+
+[06/30/2022 9:35 PM] morbes#6686
+I am a noob with this csv stuff but when I go to import the csv into Koinly it doesn't recognize it, any help?
+
+
+[06/30/2022 9:45 PM] morbes#6686
+Ah, I think it is the date format.  My CSV exports as Jun 30, 2022 when Koinly is looking for a YYYY-MM-DD HH:mm:ss in UTC
+
+
+[06/30/2022 9:48 PM] morbes#6686
+Is there a way we can change the formatting so I dont have to manually do every transaction?
+
+
+[07/02/2022 5:30 PM] haileypdll#3353
+Please check with the new 0.6.5 version just released. Several improvements for the csv export have been done, including the date format
+
+
+[07/03/2022 6:38 PM] morbes#6686
+Tried it again and am still getting an error importing it.  I am not too sure on what Koinly is looking for exactly but it directed me to this: https://help.koinly.io/en/articles/3662999-how-to-create-a-custom-csv-file-with-your-data
+
+{Embed}
+https://help.koinly.io/en/articles/3662999-how-to-create-a-custom-csv-file-with-your-data
+How to create a custom CSV file with your data
+https://images-ext-1.discordapp.net/external/fpDHmukQZV8a3ibOQv_HzWMq1Kz7V9TiBcLb7JNkECU/https/downloads.intercomcdn.com/i/o/319077/ac6cdbe21c44e90aee615a34/85a917bb5d50737715cc01491332b459.png
+
+
+[07/03/2022 6:40 PM] morbes#6686
+this is an example that yoroi uses and it works fine so idk.:
+
+
+[07/03/2022 6:40 PM] morbes#6686
+"Type (Trade, IN or OUT)","Buy Amount","Buy Cur.","Sell Amount","Sell Cur.","Fee Amount (optional)","Fee Cur. (optional)","Exchange (optional)","Trade Group (optional)","Comment (optional)","Date"
+"Deposit","1.069549438","ERG","","","","","","","","2022-04-09 14:49:55"
+
+
+[07/04/2022 11:04 AM] haileypdll#3353
+Yes, the Koinly format does not fit the Ergo transaction complexity... but the current report is closer to what they want. (A single transaction can send and/or receive many tokens...)
+
+
+[08/01/2022 6:50 AM] arkadias#4896
+@haileypdll  any plans on the ability to add a read only wallet from public key? that way it can get all the derived addresses.
+
+
+[08/01/2022 2:56 PM] haileypdll#3353
+There is no real plan to do it. I think that a Extended public key would be required, with its chain_code (probably empty) and the derivation path to get it from the public key. These information would allow to get all the addresses for an "Account" in SAFEW.
+
+
+[08/12/2022 2:47 PM] NoahErgo#4349
+@haileypdll may be worth considering removing the mixer frontend from safew unless you are ready to face potential arrest in the future. Mixer seems highly contentious thing to be involved in after recent tornado cash drama
+
+
+[08/12/2022 3:47 PM] haileypdll#3353
+Thanks for the warning, I will think about it. In first reaction I would wait for it to be illegal somewhere, explicitely, like Blender and now Tornado are banned by the US government.
+
+{Reactions}
+👍 (2) 
+
+[08/12/2022 4:05 PM] NoahErgo#4349
+So far no precedent set for this but who knows what will happen
+
+
+[08/15/2022 2:58 PM] MrStahlfelge#0042
+Hello @haileypdll sir, I felt free to open https://github.com/ThierryM1212/SAFEW/issues/20 describing ErgoPay support (to sign tx) in SAFEW. Would be great to have it so that Mosaik apps on the web would only need to implement ErgoPay to target all platforms. Thank you. 🙂
+
+
+[08/15/2022 10:37 PM] haileypdll#3353
+Hey, Thanks, I will look at it... but maybe not that soon. I need to forget how painful it will be to debug that connector... 🙂
+
+
+[08/15/2022 10:38 PM] MrStahlfelge#0042
+Ergopay will be far more easy to debug and implement than the other connector. It follows KISS principles 😉👍
+
+
+[08/17/2022 12:30 PM] capt_nemo#3204
+From my experience with Nautilus, too traumatic to forget sir 😅
+
+
+[08/17/2022 4:25 PM] theta_decay#5677
+@haileypdll Any issues with dapp connector? Not able to make a connection today.
+
+
+[08/18/2022 5:41 AM] haileypdll#3353
+It is working for me...
+You are facing an issue with which Browser, Safew version and dApp ?
+There was a slight change in the isConnected function of the connector in the recent v0.6.6 version, it now returns a Promise instead of a boolean in case the wallet is not connected (like Nautilus), this seems not a big change but maybe some dApp have an issue with that.
+
+
+[08/18/2022 3:27 PM] theta_decay#5677
+Thank you for the response. Using Brave browser, Safew Version 0.6.6, the dapp is Ergopad.
+
+
+[08/19/2022 8:12 AM] haileypdll#3353
+Thanks, ok, reproduced, I'll publish a v0.6.7 to address it soon. 
+As a workaround, you can connect "manually":
+ - Open the ergopad.io page
+ - Use F12 key to open the developper tools, select the "console" tab
+ - Run the following command in the console: ergoConnector.safew.connect()
+ - Click the ergopad "Connect with Nautilus or Safew" button
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/1010083946605842442/unknown.png
+
+{Reactions}
+🔥 
+
+[08/19/2022 9:17 AM] MrStahlfelge#0042
+is it because they made a workaround around the not-a-promise?
+
+
+[08/19/2022 9:46 AM] haileypdll#3353
+It seems they don't get the Promise.reject(), I will do like Nautilus, Promise.resolve(false)
+
+{Reactions}
+👍 
+
+[08/19/2022 11:34 AM] haileypdll#3353
+A alpha version of Blob's Topia is deployed, it will run until Monday. For those interested in joining the test, please PM me. There will be Oatmeal tokens rewards for the best testers !
+
+
+[08/19/2022 4:43 PM] theta_decay#5677
+Thank you kindly.
+
+
+[08/21/2022 10:21 AM] haileypdll#3353
+🔥 SAFEW v06.7 is released
+ - Support for chained transaction through the dApp connector
+ - Fix Ergopad connection
+It is already available for Firefox, usually 48h for the Chrome store.
+
+{Reactions}
+🔥 (3) 
+
+[10/19/2022 12:21 PM] HippiePyro#9777
+A big thanks to whoever decided to add the export csv feature to safew. You have saved me the monotony of hours of copy/paste. 🙏 🫂
+
+
+[11/18/2022 5:48 PM] haileypdll#3353
+**SAFEW v0.6.8 **is released !
+  - fix token media hash for minted tokens
+  - allow a bigger zoom for the Ergopay transaction QR codes, increase the error correction level
+  - fix delete key action when editing boxes in Transaction Builder
+  - fix typo in the README
+It is already available for Firefox, usually 48h for the Chrome store.
+
+
+[12/02/2022 2:58 AM] ambrose#5060
+would anyone be able to help me with SAFEW? trying to send ergo to another wallet, everything looks fine, sign with password, it spins for a bit and returns to the transaction list. but no new transaction ever shows up, balance doesn't change
+
+
+[12/02/2022 8:15 AM] haileypdll#3353
+When it fails sending the transaction, could you open the console developper tool in your browser ("Ctrl + Shift + J" on Chrome) to check if you can find an error there ?
+
+
+[12/02/2022 7:16 PM] ambrose#5060
+thanks i'll try that!
+
+
+[12/09/2022 4:06 AM] ambrose#5060
+@haileypdll looks like firefox was trying to enforce https-only mode and it broke the transaction
+
+
+[12/17/2022 11:08 AM] haileypdll#3353
+**SAFEW v0.6.9** is released !
+  - fix output creation height for v5.0
+  - fix signing with ledger recent test app
+It is already available for Firefox, usually 48h for the Chrome store.
+
+{Reactions}
+k_thumbs_up (2) 
+
+[01/30/2023 4:22 PM] chopchopSamir#1393
+hello i sent from this safew wallet    9gXVRBzn7rdh3tcRGVotbumzAYd74Wsb7JEdYANgxoLQMo3xGzY  to exchange but nothiing happens since hours
+
+
+[01/31/2023 7:28 AM] haileypdll#3353
+Hello, the last trasaction for this address is from the 22th January, somehow the transaction has not been validated.
+SAFEW "just" displays the information from the explorer. 
+At any time you can check your balance and the transactions directly in the explorer or using another wallet with the same mnemonic.
+https://explorer.ergoplatform.com/en/addresses/9gXVRBzn7rdh3tcRGVotbumzAYd74Wsb7JEdYANgxoLQMo3xGzY
+
+
+[01/31/2023 8:39 AM] chopchopSamir#1393
+OK but UTXO are spent
+
+
+[01/31/2023 8:39 AM] chopchopSamir#1393
+{"error":400,"reason":"bad.request","detail":"Double spending attempt"}
+
+
+[01/31/2023 9:05 AM] chopchopSamir#1393
+and they dont show up anywhere
+
+
+[01/31/2023 1:45 PM] haileypdll#3353
+The UTXOs are taken from: https://api.ergoplatform.com/api/v1/boxes/unspent/byAddress/9gXVRBzn7rdh3tcRGVotbumzAYd74Wsb7JEdYANgxoLQMo3xGzY  ... this double spending error can occurs sending several transactions in a row... but I've never saw it when all the transactions of the wallet are confirmed. Are you using a custom explorer or node URL ?
+
+
+[01/31/2023 1:47 PM] chopchopSamir#1393
+using chrome on an Imac
+
+
+[01/31/2023 1:49 PM] chopchopSamir#1393
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/1069977645737054369/Bildschirmfoto_2023-01-31_um_14.48.39.png
+
+
+[01/31/2023 1:50 PM] chopchopSamir#1393
+did i download a SCAM SafeW?
+
+
+[01/31/2023 1:55 PM] haileypdll#3353
+That looks like the right one.
+
+
+[01/31/2023 2:15 PM] haileypdll#3353
+You could try to change the explorer url in the configuration to use the one from anetaBTC: https://ergo-explorer.anetabtc.io/ Or try to restore the mnemonic in another wallet, Nautilus for example as a browser extension.
+
+
+[02/02/2023 4:39 AM] Marty#4039
+Devs, can you please check this issue
+https://discord.com/channels/668903786361651200/669989266478202917/1070331757993406575
+
+
+[02/02/2023 4:39 AM] Marty#4039
+When we log out on front-end, the user still needs to open SAFEW and remove dapp connector
+
+
+[02/02/2023 4:39 AM] Marty#4039
+Nautilus offers this solution `await ergoConnector.nautilus.disconnect()`
+
+
+[02/02/2023 10:08 AM] haileypdll#3353
+Hello, there is the same for SAFEW that seems to work for me: await ergoConnector.safew.disconnect()
+
+
+[02/02/2023 10:09 AM] haileypdll#3353
+Are you facing an issue with it ?
+
+
+[02/02/2023 3:56 PM] Marty#4039
+No I hadn't tried. I was told this wasn't standard. I will test, thank you!
+
+
+[02/02/2023 6:16 PM] chopchopSamir#1393
+i restore wallet on firefox browser now i try send again
+
+
+[02/02/2023 6:17 PM] chopchopSamir#1393
+i jaked up fee to 0,1 ERG
+
+
+[02/02/2023 6:24 PM] chopchopSamir#1393
+but still unconfirmed would asume with such high fee to be included in next few blocks but,...
+
+
+[02/02/2023 6:27 PM] chopchopSamir#1393
+https://explorer.ergoplatform.com/en/addresses/9fkbZJKHcTegEA8Jh8Q88K76CQdAdRLtyJfJZQ2eYMQuwQ6z2XQ
+
+
+[02/02/2023 6:29 PM] chopchopSamir#1393
+now transaction disapeard
+
+
+[02/02/2023 6:30 PM] chopchopSamir#1393
+now its back  ?? wtf
+
+
+[02/02/2023 6:30 PM] chopchopSamir#1393
+ergo sucks
+
+
+[02/02/2023 6:31 PM] chopchopSamir#1393
+now its gone again#
+
+
+[02/02/2023 7:13 PM] chopchopSamir#1393
+so its got cofirmed finally i am happy very
+
+
+[02/02/2023 9:21 PM] haileypdll#3353
+It seems there was an issue with the default node used by safew to send the transaction. That should be better now: https://discord.com/channels/668903786361651200/669989266478202917/1070779421461594252
+
+
+[03/06/2023 11:37 AM] c8e4d2a#9854
+Hey, trying to sign a tx with safew and get this errror:
+
+getting this Error:
+```
+[
+    "Transaction signing error: Prover error (tx input index 0): Failed on step2(prover does not have enough witnesses to perform the proof)"
+]
+```
+
+tx was created with created with @fleet-sdk/core:
+```
+{
+    "inputs": [
+        {
+            "boxId": "6d759c0252678600362619a18ebfe6ea2117a7a4d5b1e8c492e7bdaa8c2697a7",
+            "value": "8000000000",
+            "ergoTree": "0008cd02b7a462be3c5ae1004fa674a1928b53b96217c808c9fb72cfbde1f8d648b0fce1",
+            "creationHeight": 954414,
+            "assets": [],
+            "additionalRegisters": {},
+            "transactionId": "d51d632a07dda3eb76874b4761c14eabf5c4476b34c629e4f31e19060667d8f8",
+            "index": 0,
+            "extension": {}
+        }
+    ],
+    "dataInputs": [],
+    "outputs": [
+        {
+            "value": "6660000000",
+            "ergoTree": "0008cd0315a3a710c4e8d6ecad213636428c4d8d49ac73d248deaffb895730b37ddacc37",
+            "creationHeight": 954419,
+            "assets": [],
+            "additionalRegisters": {}
+        },
+        {
+            "value": "1100000",
+            "ergoTree": "1005040004000e36100204a00b08cd0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798ea02d192a39a8cc7a701730073011001020402d19683030193a38cc7b2a57300000193c2b2a57301007473027303830108cdeeac93b1a57304",
+            "creationHeight": 954419,
+            "assets": [],
+            "additionalRegisters": {}
+        },
+        {
+            "value": "1338900000",
+            "ergoTree": "0008cd02b7a462be3c5ae1004fa674a1928b53b96217c808c9fb72cfbde1f8d648b0fce1",
+            "creationHeight": 954419,
+            "assets": [],
+            "additionalRegisters": {}
+        }
+    ]
+}
+```
+
+any advice on the steps i can take to resolve it?
+
+
+[03/06/2023 12:15 PM] haileypdll#3353
+Hello, the error message says that the guard script of the inputs(0) replied "false" so the box cannot be spent. Basically it can be signing with wrong wallet. How the transaction is generated?
+
+
+[03/06/2023 12:31 PM] c8e4d2a#9854
+understood, have some weird nautilus/safew interference. Will try it again with a browser which has safew only installed. will take a while
+
+
+[03/06/2023 12:47 PM] cafebedouin#9837
+That might be your problem right there, only one extension. At a time or you'll get weird behavior.
+
+
+[03/06/2023 1:06 PM] haileypdll#3353
+Yes, you can just disable one of them, and keep both installed.
+
+
+[03/07/2023 1:39 PM] c8e4d2a#9854
+Now here is the funny part:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/1082658834578948136/image.png
+
+
+[03/07/2023 1:40 PM] c8e4d2a#9854
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/1082658946881421343/image.png
+
+
+[03/07/2023 1:40 PM] c8e4d2a#9854
+SAFEW enabled, Nautilus disabled.\
+
+
+[03/07/2023 1:40 PM] c8e4d2a#9854
+Website thinks that i am connected to nautilus when i am not.
+
+
+[03/07/2023 1:42 PM] c8e4d2a#9854
+The problem is with this line of code:
+```
+ergoConnector.nautilus.connect();
+```
+this connects to SAFEW, seems like a bug
+
+
+[03/07/2023 1:43 PM] c8e4d2a#9854
+it should not connect to safew, in what ever configuration.
+
+
+[03/07/2023 2:47 PM] haileypdll#3353
+It connects to SAFEW because Spectrum uses that function to connect and never merged the SAFEW support. I'll remove it when it will not be necessary anymore...
+
+
+[03/07/2023 2:50 PM] c8e4d2a#9854
+understood, we should ping spectrum. the current situation makes testing little challenging for devs
+
+
+[03/07/2023 5:43 PM] haileypdll#3353
+A beta version that does not use anymore explorer (only nodes 5.0.7+) is available for testing: https://github.com/ThierryM1212/SAFEW/releases/tag/0.7.0_beta
+
+{Embed}
+https://github.com/ThierryM1212/SAFEW/releases/tag/0.7.0_beta
+Release v0.7.0 beta - Explorer removal · ThierryM1212/SAFEW
+Beta version of SAFEW using only the configured node for fetching UTXOS and sending the transaction.
+Explorer API is kept only for fetching boxes by token ID in the transaction builder.
+With node 5...
+https://images-ext-1.discordapp.net/external/fUg1OaIrZFFmiENvQlC4XcV90Hlmu-C9cq1vjVhpQm8/https/opengraph.githubassets.com/664e58ca55025104fca2be4a898e1b11a1c873e0fcdeed5c4d1b56eb4b9df36a/ThierryM1212/SAFEW/releases/tag/0.7.0_beta
+
+{Reactions}
+🔥 (2) 
+
+[03/24/2023 5:38 PM] Ergo Tipper Bot[BETA]#0902
+rustinmyeye, the server returned an error so something went wrong, maybe try again later
+
+
+[04/06/2023 6:32 PM] haileypdll#3353
+New version of SAFEW is available, removing the dependency on the explorer. Improve your privacy running your own node for interacting with the blockchain ! https://github.com/ThierryM1212/SAFEW/releases/tag/0.7.0
+
+{Embed}
+https://github.com/ThierryM1212/SAFEW/releases/tag/0.7.0
+Release v0.7.0 - Explorer removal · ThierryM1212/SAFEW
+v0.7.0
+
+remove explorer dependency, use the configured node to fetch wallet content and send the transactions
+fix issues with big numbers of tokens (over js max number)
+update the verified token list
+https://images-ext-2.discordapp.net/external/hbXcP8Z5_Po09AQ_ksZZ5I3k3wjZgc9wQMrptpp2nlg/https/opengraph.githubassets.com/255cd815f9398f719e46d4227189edaf8ddf5dee66a43f970c9cc7e6f1eea65c/ThierryM1212/SAFEW/releases/tag/0.7.0
+
+{Reactions}
+🔥 (2) 
+
+[04/07/2023 12:24 AM] Bryce#8378
+Okay... so can anyone help me with this?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/1093677532735344731/Screen_Shot_2023-04-06_at_7.23.48_PM.png
+
+
+[04/07/2023 6:08 AM] haileypdll#3353
+Hello, 
+There is a demo of the SAFEW transaction builder usage if that can help. https://www.youtube.com/watch?v=3N7Qn2BgH0U 
+Looked at the messages in Nautilus thread but I'm not sure what's your issue.
+Neither how you would like to fix it.
+If you can share the failing transaction or you address in PM, I might be able to check.
+
+
+[04/07/2023 6:08 AM] openai_bot#6772
+Summary of the video:
+and see that the transaction is confirmed
+
+-Ergo is a cryptocurrency
+-You can send cryptocurrency to multiple people in one transaction using the transaction builder
+-The transaction builder creates an input, a minor fee, a first recipient box, a second recipient box, and a change box
+-The input is the amount of cryptocurrency being sent
+-The minor fee is the fee for the transaction
+-The first and second recipient boxes are for the people receiving the cryptocurrency
+-The change box is for any cryptocurrency not sent to the recipients
+
+
+[04/08/2023 5:38 AM] Bryce#8378
+Thank you. I’ll hold off for a little bit, but if I get too desperate, I’ll try it out and ask questions if I get stuck. Thank you so much!
+
+
+[04/10/2023 1:57 PM] Bryce#8378
+Looks like new new update to Nautilus worked-thank you Hailey!
+
+{Reactions}
+👍 ⚠️ 
+
+[04/11/2023 1:04 PM] haileypdll#3353
+⚠️ The 0.7.0 release using only the node is delayed, I've re-enabled the previous 0.6.9.1 version based on the explorer. It seems there are issues in the node indexes that are not always updated.
+
+
+[04/11/2023 1:04 PM] haileypdll#3353
+It is still available on github as beta version
+
+
+[04/22/2023 7:45 AM] haileypdll#3353
+SAFEW 0.7.1 is released (available for Firefox and in few days for Chrome)
+https://github.com/ThierryM1212/SAFEW/releases/tag/0.7.1
+
+{Embed}
+https://github.com/ThierryM1212/SAFEW/releases/tag/0.7.1
+Release v0.7.1 - Explorer removal · ThierryM1212/SAFEW
+v0.7.1
+
+remove explorer dependency, use the configured node to fetch wallet content and send the transactions
+fix issues with big numbers of tokens (over js max number)
+update the verified token li...
+https://images-ext-2.discordapp.net/external/QzN0VnIOYfHJ92nzpGC8Q7XosjJhxOFht7XlIxI7dqc/https/opengraph.githubassets.com/9b5fae3891c7ebc37464ccbfeba4182af9cca73446a93abb22eecc8a7970efa9/ThierryM1212/SAFEW/releases/tag/0.7.1
+
+{Reactions}
+safew 🔥 
+
+[04/22/2023 3:18 PM] error#5683
+looking good, performance is great and a bug I had with spectrum yf related to big numbers seems to be also fixed!
+
+{Reactions}
+👍 
+
+[04/24/2023 8:54 AM] error#5683
+having an issue with Firefox and Spectrum
+
+
+[04/24/2023 8:55 AM] error#5683
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940227005381746718/1099966779213762630/image.png
+
+
+[04/24/2023 8:55 AM] error#5683
+I can't tell if the issue is with Spectrum or with SAFEW
+
+
+[04/24/2023 4:52 PM] haileypdll#3353
+I've reproduced initially, but my transaction has more than 50 input boxes, after having consolidated the wallet it works... not sure were the issue is.
+
+
+[04/30/2023 11:30 AM] haileypdll#3353
+⚠️ Several node are stuck and the SAFEW transaction may fails. Currently https://ergo-node.zoomout.io/ is in a good shape and you could use it to fix the issue.
+
+
+==============================================================
+Exported 277 message(s)
+==============================================================

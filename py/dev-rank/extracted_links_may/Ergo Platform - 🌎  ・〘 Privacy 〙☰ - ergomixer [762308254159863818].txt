@@ -1,0 +1,4777 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Privacy 〙☰ / ergomixer
+==============================================================
+
+[10/04/2020 3:03 PM] anon2020s#6116
+ErgoMixer v3.0.0 is going to be released by October 6.
+
+This version includes a lot of new features including:
+    - Covet address
+    - Tor support
+    - Multiple node request distribution
+    - Backup/restore functionalities
+    - Data pruning for old finished mixes
+    - UI/UX improvements
+    - Backward compatibility from now on
+    - Security bug fix (not exploited ever; related post will be released)
+
+Also, starting from this version, ErgoMixer will be backward compatible; Meaning you won’t have to remove the mixer’s database and finish your mixes in order to start using a new version in the future.
+
+Using ErgoMixer v2, more than 56,000 ERG mixed successfully. Therefore, there are more than 110,000 ERG being mixed till now using the ErgoMixer.
+
+IMPORTANT: Please consider finishing your mixes by Monday and start using the new version.
+
+https://www.ergoforum.org/t/ergomixer-zerojoin-mixer-for-erg-and-tokens/318/5?u=anon2020s
+
+{Embed}
+https://www.ergoforum.org/t/ergomixer-zerojoin-mixer-for-erg-and-tokens/318/5?u=anon2020s
+ErgoMixer, ZeroJoin Mixer for ERG and Tokens
+ErgoMixer v3.0.0 is going to be released by October 6.  This version includes a lot of new features including:   Covet address Tor support Multiple node request distribution Backup/restore functionalities Data pruning for old finished mixes UI/UX improvements Backward compatib...
+
+
+[10/04/2020 3:03 PM] anon2020s#6116
+A **"covert address"** is an entry point to a mix. Any received erg/token on this address will automatically mixed after reaching a predefined threshold and can be withdrawn to any address later.
+
+
+[10/04/2020 3:04 PM] anon2020s#6116
+ErgoMixer donation address is the first ever covert address:
+9g1p6UU8XoAeU4yGPLpbTHYiG8aBHwfCFzQqJZrfzuLnmF3zb7P
+
+{Reactions}
+👍 (3) 
+
+[10/04/2020 3:12 PM] anon2020s#6116
+Any funds received at this address will be accumulated till it reaches ~252 ERG (about 2 ERG for fees). Then the mix starts automatically for 180 rounds and the final box of 250 ERG can be withdrawn to any address later (it can be set at the time of address creation or any time after).
+Here, we used the 250 ERG ring (1, 10, 100, and 250 rings are available) and set the mixing level to 180 rounds (30, 60, 90, and 180 rounds are supported). 
+So you can use a covert address as your regular address for receiving funds (ERG and tokens) and no one would be able to distinguish your final receiving point.
+
+{Reactions}
+👍 
+
+[10/04/2020 5:41 PM] kushti#0978
+@anon2020s in the Mixer 2.0, mixes with funds not being withdrawn but all the mixes being completed moved from active to history. Should be active I guess ?
+
+
+[10/04/2020 5:44 PM] anon2020a#8187
+@kushti Already done in v3.0.
+
+
+[10/04/2020 5:44 PM] kushti#0978
+@anon2020s nice!
+
+
+[10/05/2020 10:49 AM] kushti#0978
+https://explorer.ergoplatform.com/en/addresses/9g1p6UU8XoAeU4yGPLpbTHYiG8aBHwfCFzQqJZrfzuLnmF3zb7P 531 ergs there, why no mixing ?
+
+
+[10/05/2020 2:06 PM] anon2020s#6116
+> https://explorer.ergoplatform.com/en/addresses/9g1p6UU8XoAeU4yGPLpbTHYiG8aBHwfCFzQqJZrfzuLnmF3zb7P 531 ergs there, why no mixing ?
+@kushti since the mixer app is not running 🙂
+
+
+[10/05/2020 2:12 PM] anon2020s#6116
+https://explorer.ergoplatform.com/en/transactions/128d334f2b01995ad96ba9074e8b32112cadbdfe508c9207deff05daa973a9c3
+
+{Reactions}
+👍 (2) 
+
+[10/06/2020 9:35 PM] anon2020s#6116
+⚠️ IMPORTANT NOTE: v3 is not compatible with v2, So please make sure you withdraw all your mixes and remove/move v2 database located in ergoMixer directory in your home before using v3.⚠️
+
+{Reactions}
+💯 
+
+[10/06/2020 9:36 PM] anon2020s#6116
+ErgoMixer v3 is out!
+
+
+[10/06/2020 9:37 PM] anon2020s#6116
+https://github.com/ergoMixer/ergoMixBack/releases
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases
+Releases · ergoMixer/ergoMixBack
+Mix your ergs and tokens with ErgoMixer. Contribute to ergoMixer/ergoMixBack development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/iCErcupTZ53q5CI2h51S9ybIfiu65eWnbfTh7sEEAlA/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/66778097
+
+{Reactions}
+💯 🔥 
+
+[10/06/2020 9:45 PM] kushti#0978
+@anon2020s are scripts (so rings) the same ?
+
+
+[10/06/2020 9:47 PM] anon2020s#6116
+> @anon2020s are scripts (so rings) the same ?
+@kushti yes
+
+
+[10/06/2020 9:48 PM] kushti#0978
+@anon2020s good! Please do not forget to do forum post also )
+
+
+[10/06/2020 9:48 PM] kushti#0978
+we'll spread it
+
+
+[10/06/2020 9:49 PM] anon2020s#6116
+> @anon2020s good! Please do not forget to do forum post also )
+@kushti sure!
+
+
+[10/06/2020 10:01 PM] anon2020s#6116
+https://www.ergoforum.org/t/ergomixer-zerojoin-mixer-for-erg-and-tokens/318/8?u=anon2020s
+
+{Embed}
+https://www.ergoforum.org/t/ergomixer-zerojoin-mixer-for-erg-and-tokens/318/8?u=anon2020s
+ErgoMixer, ZeroJoin Mixer for ERG and Tokens
+ErgoMixer v3 is out!    ⚠   IMPORTANT NOTE: v3 is not compatible with v2, So please make sure you withdraw all your mixes and remove/move v2 database located in ergoMixer directory in your home before using v3. ⚠
+
+
+[10/07/2020 10:45 AM] kushti#0978
+@anon2020s no manual mixes anymore ?
+
+
+[10/07/2020 10:49 AM] anon_real#2768
+@kushti In Active Mixes, you can have specified mixes like before.
+
+
+[10/07/2020 10:50 AM] anon_real#2768
+It seems to be different than before though
+
+
+[10/07/2020 10:50 AM] anon2020s#6116
+> @kushti In Active Mixes, you can have specified mixes like before.
+@anon_real yes. there are some UI changes like this one
+
+
+[10/07/2020 10:51 AM] anon_real#2768
+@anon2020s But I can't see my active covert mixes in Active Mixes page
+
+
+[10/07/2020 10:52 AM] kushti#0978
+They considered to be different products I guess
+
+
+[10/07/2020 10:52 AM] anon2020s#6116
+> @anon2020s But I can't see my active covert mixes in Active Mixes page
+@anon_real since they are permanent mixes, they are in the covert address page and have their own history for each address
+
+
+[10/07/2020 10:57 AM] anon2020s#6116
+after creating a covert address, check the ALL ASSETS setting of that address. there you can set the RINGS.
+
+
+[10/07/2020 10:58 AM] anon2020s#6116
+please note that the 1 ERG Ring has a relatively high cost.
+
+
+[10/07/2020 11:00 AM] kushti#0978
+yes, so maybe default choice should be different ?
+
+
+[10/07/2020 11:02 AM] anon2020s#6116
+> yes, so maybe default choice should be different ?
+@kushti I'll consider that if it is an issue to most of the users. btw, this setting can be changed by the user at any moment
+
+
+[10/07/2020 11:56 AM] kushti#0978
+@anon2020s I've changed the ring but it seems old one is still being used ?
+
+
+[10/07/2020 12:15 PM] anon2020a#8187
+@kushti It will take effect for new deposits. In your case I'm seeing that your deposit was distributed for 1 ERG ring already.
+Everytime it detects some deposites, it distributes them based on the ring in that moment.
+
+
+[10/07/2020 1:02 PM] kushti#0978
+@anon2020a good, thanks! Hopefully, will get more donations )
+
+
+[10/07/2020 2:01 PM] scalahub#2618
+so what is a covert address? Is it different from stealth address? if so what is the script in it?
+
+
+[10/07/2020 2:02 PM] kushti#0978
+@scalahub ordinary P2PK address I guess, but behind it there's a mixer working
+
+
+[10/07/2020 2:02 PM] scalahub#2618
+I see
+
+
+[10/07/2020 2:06 PM] anon2020s#6116
+Second ErgoMix vulnerability blog post (fixed in latest release): https://blog.plutomonkey.com/2020/09/another-ergomix-vulnerability/
+
+{Embed}
+https://blog.plutomonkey.com/2020/09/another-ergomix-vulnerability/
+Another ErgoMix Vulnerability · PlutoMonkey
+
+
+[10/09/2020 2:41 PM] anon2020s#6116
+Ever wonder how the ErgoMixer clients receives Rings, Fees, Levels, etc.? Please see this forum post for some insights:
+https://www.ergoforum.org/t/ergomixer-zerojoin-mixer-for-erg-and-tokens/318/10?u=anon2020s
+
+{Embed}
+https://www.ergoforum.org/t/ergomixer-zerojoin-mixer-for-erg-and-tokens/318/10?u=anon2020s
+ErgoMixer, ZeroJoin Mixer for ERG and Tokens
+Starting from v3, we have an admin version of ErgoMixer which refills token and fee emission boxes automatically using mixer’s income.  Also, in the admin panel which me, @anon2020s, have access to, we can add/remove support for new tokens, add rings, change fee/byte, etc. All...
+
+{Reactions}
+👍 (3) 
+
+[10/26/2020 12:55 PM] anon2020s#6116
+Please update your mixer to version 3.0.1
+Changelog:
+
+- bug fix handle deposit for covert addresses. Improves the mixing process speed
+
+If you're using the mixer now, just run the new mixer. (Backup is not necessary but recommended)
+
+https://github.com/ergoMixer/ergoMixBack/releases
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases
+Releases · ergoMixer/ergoMixBack
+Mix your ergs and tokens with ErgoMixer. Contribute to ergoMixer/ergoMixBack development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/iCErcupTZ53q5CI2h51S9ybIfiu65eWnbfTh7sEEAlA/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/66778097
+
+{Reactions}
+👍 (3) 
+
+[10/29/2020 1:31 PM] filippounits#3593
+need some help with the mixer please
+
+
+[10/29/2020 1:32 PM] filippounits#3593
+in particular the .conf
+
+
+[10/29/2020 1:32 PM] filippounits#3593
+@anon2020s  are u here?
+
+
+[10/29/2020 1:54 PM] anon2020a#8187
+@filippounits yes.
+
+
+[10/29/2020 1:58 PM] filippounits#3593
+I will contact you via DM!
+
+
+[10/29/2020 2:47 PM] filippounits#3593
+problem solved, thanks again to @anon2020a !! ❤️
+
+{Reactions}
+😍 
+
+[10/29/2020 2:49 PM] anon2020a#8187
+👍
+
+
+[10/30/2020 6:30 PM] anon2020a#8187
+It is safer to stop your mixers until the explorer becomes stable again.
+
+
+[10/30/2020 7:20 PM] scalahub#2618
+Can you add a stop switch in the code?
+
+
+[10/30/2020 8:35 PM] kushti#0978
+@anon2020a explorer issue fixed (resyncing instance wasn't switched off in cloudflare balancer it seems)
+
+{Reactions}
+👍 
+
+[10/31/2020 8:15 AM] anon2020a#8187
+> Can you add a stop switch in the code?
+@scalahub sure, meanwhile there is a shutdown button in the UI.
+
+
+[11/01/2020 3:17 PM] Dmitry Usov#0134
+Explorer backend is down. We are fixing it. Summary will be later.
+
+
+[11/01/2020 3:41 PM] Dmitry Usov#0134
+Actually explorer backend is up and running. While one of two explorer nodes is re-syncing another one handles all the traffic, so some requests may timeout. Everything should be back to normal within 2 hours. We will draw conclusions about this situation.
+
+
+[11/14/2020 10:35 PM] anon2020s#6116
+good news for magnum wallet users!
+ErgoMixer will support your current magnum wallet's addresses. Your current ERG addresses will be imported into mixer and converted into covert addresses. so you can keep using your previous addresses, however as covert addresses.
+stay tuned! @mx @kushti
+
+{Reactions}
+😍 (6) 👍 (2) 
+
+[11/22/2020 7:04 PM] anon2020s#6116
+ErgoMixer v3.1.0 released.
+Import your current addresses (from Magnum for example),convert them to covert, and keep using them in the mixer.
+ 
+Changelog:
+- Change covert's default ring to 250 ERG
+- Add name for covert addresses for easier referencing
+- Import existing addresses from other wallets as covert address
+- Major refactoring for improving performance and future developments
+
+https://github.com/ergoMixer/ergoMixBack/releases/tag/3.1.0
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases/tag/3.1.0
+Release Mixer-3.1.0 · ergoMixer/ergoMixBack
+Change covert's default ring to 250 ERG
+Add name for covert addresses to easier referencing them
+Import existing addresses from other wallets as covert address
+Major refactoring for improving p...
+https://images-ext-1.discordapp.net/external/iCErcupTZ53q5CI2h51S9ybIfiu65eWnbfTh7sEEAlA/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/66778097
+
+{Reactions}
+👍 (6) 
+
+[12/07/2020 9:57 AM] anon2020s#6116
+A tutorial for importing magnum wallets (or any other wallet) into the ErgoMixer:
+https://www.ergoforum.org/t/magnum-wallet-closing-in-20-days/468/6
+
+{Embed}
+https://www.ergoforum.org/t/magnum-wallet-closing-in-20-days/468/6
+Magnum Wallet Closing in 20 days!
+It is safe and easy, just have your key for each magnum wallet and download the mixer v3.1.0.     Install and run the mixer.  navigate to Covert Address page and click the button NEW COVERT ADDRESS:     Optionally, choose a name for this address; for example: MyMagnumWallet. And, check the box I want to import an existing private key.  A new che...
+https://images-ext-1.discordapp.net/external/meSVzkkJ5UVwpkV09VQz2IvdCIiJBfDpKZdbd4raqds/https/discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/standard14/uploads/ergoforum/original/1X/5b7ae82243584e40a64927dc25e483ad44d0e35c.jpeg
+
+{Reactions}
+👍 (6) 
+
+[12/27/2020 4:35 PM] anon2020s#6116
+ErgoMixer v3.2.0 released.
+changelog:
+   - **API exposure with swagger.**
+   - Sorting option for the mix table.
+   - Some other minor UI improvements.
+   - Minor bug fix: deposit amount of covert addresses was lacking the very first miner fee which is fixed now.
+
+Isn't it lovely to have the very first **Programmable Mixer**?
+
+https://github.com/ergoMixer/ergoMixBack/releases/tag/3.2.0
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases/tag/3.2.0
+Release Mixer-3.2.0 · ergoMixer/ergoMixBack
+API exposure with swagger.
+Sorting option for the mix table.
+Some other minor UI improvements.
+Minor bug fix: deposit amount of covert addresses was lacking the very first miner fee which is fixed ...
+https://images-ext-1.discordapp.net/external/iCErcupTZ53q5CI2h51S9ybIfiu65eWnbfTh7sEEAlA/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/66778097
+
+{Reactions}
+👍 (6) 
+
+[12/30/2020 8:08 AM] kushti#0978
+https://www.youtube.com/watch?v=iIHLlIZ-47Q
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=iIHLlIZ-47Q
+ErgoMixer Tutorial - Windows, Mac, JVM & Docker - Version 3.0.1 & A...
+Welcome! Today's video will be a tutorial on the anonymity-preserving application ErgoMixer.
+
+Within this walkthrough we cover installation on Windows & Mac operating systems, through the Java Virtual machine, as well as containerising ErgoMixer through Docker - ordered respectively. Please ensure that your computer has JDK8+ installed for the a...
+https://images-ext-2.discordapp.net/external/h73xeIA5tEdqVMAMtuqTnIhS_zyIGO9qQpwx_1NGHbk/https/i.ytimg.com/vi/iIHLlIZ-47Q/maxresdefault.jpg
+
+
+[02/02/2021 6:59 AM] anon2020s#6116
+I recommend to stop your mixers till a day after fork.
+I do not see any problem but consider it as a precautionary measure
+
+
+[02/05/2021 3:18 AM] D4.#9289
+Hey @anon2020s might need your help with this mixer - I wasn’t following the Magnum stuff close enough and I still have my old private key from that wallet
+
+
+[02/05/2021 3:18 AM] D4.#9289
+A little confused by this mixing thing but I think it should be fine to figure out
+
+
+[02/05/2021 8:24 AM] kushti#0978
+@D4. I also would be happy to help you!
+
+
+[02/05/2021 1:33 PM] D4.#9289
+Thank you @kushti ! I will try in the next 2 hours I will ping you
+
+
+[02/05/2021 1:33 PM] D4.#9289
+Is anon’s message still applicable? Should i wait a bit longer?
+
+
+[02/05/2021 9:08 PM] kushti#0978
+@D4. mixing would be very slow now but you can abort it early
+
+
+[02/05/2021 11:21 PM] D4.#9289
+Is there another way?
+
+
+[02/05/2021 11:21 PM] D4.#9289
+How long would it take?
+
+
+[02/06/2021 5:14 AM] D4.#9289
+ok I'm set up with the app
+
+
+[02/06/2021 5:14 AM] D4.#9289
+only thing I don't have is teh firs node address conneted - the other 3 are no problem
+
+
+[02/06/2021 5:19 AM] D4.#9289
+so is it possible to have all the mix batches go to a single address I create in the Yoroi wallet?
+
+
+[02/06/2021 6:31 AM] anon_real#2768
+I believe that is no problem.
+
+
+[02/06/2021 6:31 AM] anon_real#2768
+Yes, there should be no problem.
+
+
+[02/06/2021 2:40 PM] D4.#9289
+and you can send to a single address multiple times?
+
+
+[02/07/2021 1:49 AM] D4.#9289
+hey @anon_real @kushti you there?
+
+
+[02/07/2021 1:51 AM] D4.#9289
+so I started the process and all of them are running - is the next step to click the 'withdraw now' and set the address?
+
+
+[02/07/2021 1:52 AM] D4.#9289
+I see my balance has gone down signifantly on the ergo explorer - why is that? That's part of the mixing?
+
+
+[02/07/2021 6:06 AM] anon_real#2768
+Yes, don't worry about it. Your funds are in mixing boxes.
+
+
+[02/07/2021 6:07 AM] anon_real#2768
+Yes, whenever you want, you can set address and withdraw them.
+
+
+[02/07/2021 4:26 PM] D4.#9289
+do I need my computer on/running or will it just run in the background/online?
+
+
+[02/07/2021 4:26 PM] D4.#9289
+it's been almost 12 hours and still running
+
+
+[02/07/2021 4:30 PM] anon_real#2768
+@D4. You don't need to wait for it to be finished. Withdraw them when you like.
+And yes, the computer that the mixer is running on should be on.
+
+
+[02/08/2021 3:51 AM] D4.#9289
+ok good
+
+
+[02/08/2021 3:51 AM] D4.#9289
+It's been about 12 hours - should it take this long? I don't have a very strong computer but tey are all still processing as 'running'
+
+
+[02/08/2021 6:58 AM] anon_real#2768
+Yes, mixing is not a very fast process. Also, currently there are some issues with block intervals which will be solved in the next epoch. So yeah, it is slow.
+
+
+[02/08/2021 12:20 PM] kushti#0978
+@D4. blocks are coming slow now, and also no active counterparties (due to block times as well I guess). You can withdraw ergs now btw.
+
+
+[02/08/2021 12:35 PM] D4.#9289
+how can i? the box is still disabled
+
+
+[02/08/2021 12:35 PM] D4.#9289
+ohhh I have to click it
+
+
+[02/08/2021 12:40 PM] D4.#9289
+ok it says they are withdrawing
+
+
+[02/08/2021 12:40 PM] D4.#9289
+weird though, Im getting an error when I check on block explorer for the addres i've sent them to
+
+
+[02/08/2021 12:40 PM] D4.#9289
+onder why tha is
+
+
+[02/08/2021 12:41 PM] D4.#9289
+"Unrecognized search pattern. Please try searching by entering address, block hash or transaction hash"
+
+
+[02/08/2021 1:10 PM] D4.#9289
+how long does it take for the transaction to generate? more than an hour?
+
+
+[02/08/2021 1:19 PM] anon_real#2768
+I don't think so. It should be generated in a few mins.
+
+
+[02/08/2021 2:19 PM] D4.#9289
+anyway someone can help me?
+
+
+[02/08/2021 2:19 PM] D4.#9289
+it's been over 2 hours and it's still stuck
+
+
+[02/08/2021 2:19 PM] D4.#9289
+really hope I didn't loose everything
+
+
+[02/08/2021 2:34 PM] Robert K#0722
+Your funds should be safe
+
+
+[02/08/2021 2:34 PM] Robert K#0722
+There's a chance the tx didn't get included in a block yet due to matters related to the hard fork
+
+
+[02/08/2021 2:37 PM] D4.#9289
+http://88.198.13.202:9053
+
+
+[02/08/2021 2:38 PM] D4.#9289
+is it possible an issue because one of the node addresses is offline?
+
+
+[02/08/2021 2:38 PM] Robert K#0722
+Yes that may indeed be the case
+
+
+[02/08/2021 2:38 PM] Robert K#0722
+@anon2020s Any input here?
+
+
+[02/08/2021 2:39 PM] D4.#9289
+how would I resolve that?
+
+
+[02/08/2021 2:39 PM] Robert K#0722
+I'm not particularly familiar with the implementation details of the mixer so hopefully anon will jump in here soon as he implemented it
+
+
+[02/08/2021 2:40 PM] Robert K#0722
+But your funds should be safe so don't worry too much about this
+
+
+[02/08/2021 2:50 PM] anon_real#2768
+@D4. I think you should send your log file to @anon2020s
+
+
+[02/08/2021 3:06 PM] D4.#9289
+where do I download it
+
+
+[02/08/2021 3:51 PM] anon2020s#6116
+Hi, please send me the logs in private or even some screenshots since I think you did not use mixer for privacy
+
+
+[02/08/2021 3:53 PM] anon2020s#6116
+Use the tray icon to find the mixer logs
+
+
+[02/08/2021 3:56 PM] anon2020s#6116
+Please check the mempool and find out if your tx is there.
+
+
+[02/08/2021 7:11 PM] xfly (σ, σ)#5520
+hi, i get a error 400 when i want to creare a covert adress from a magnum pk at the last step.
+
+
+[02/08/2021 7:11 PM] xfly (σ, σ)#5520
+any idea how to get this done?
+
+
+[02/08/2021 9:30 PM] xfly (σ, σ)#5520
+what to do now?
+
+
+[02/08/2021 9:31 PM] xfly (σ, σ)#5520
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/808449915440201788/Screenshot_2021-02-08_at_22.31.09.png
+
+
+[02/08/2021 9:31 PM] xfly (σ, σ)#5520
+i clicked on edit adresses and added 5 adresses from yoroi
+
+
+[02/08/2021 9:32 PM] xfly (σ, σ)#5520
+i got 1085 erg in my old wallet
+
+
+[02/08/2021 9:32 PM] xfly (σ, σ)#5520
+@anon2020s
+
+
+[02/08/2021 9:33 PM] xfly (σ, σ)#5520
+in the covert adress process i choosed "set later" for the adresses
+
+
+[02/08/2021 9:35 PM] anon2020s#6116
+You are done for now, it takes a few minutes to create mixing boxes. You can check them in history.
+Anytime after you can withdraw your boxes
+
+
+[02/08/2021 9:36 PM] anon2020s#6116
+It takes more than usual because of fork
+
+
+[02/08/2021 9:37 PM] xfly (σ, σ)#5520
+ok
+
+
+[02/08/2021 9:37 PM] xfly (σ, σ)#5520
+so i will get 1000 erg? the 86 aren't possible to withdraw?
+
+
+[02/08/2021 9:38 PM] anon2020s#6116
+About 80 erg will be stuck in this address, after withdrawing to yoroi send pending deposit amount to the shown address to free them
+
+
+[02/08/2021 9:39 PM] xfly (σ, σ)#5520
+and then i can withdraw 160 back to yoroi
+
+
+[02/08/2021 9:39 PM] xfly (σ, σ)#5520
+?
+
+
+[02/08/2021 9:41 PM] anon2020s#6116
+You can withdraw them all, but in 250 erg chunks. So first withdraw the first 1000, then redeposit to this address to create a new 250 erg box and finally withdraw them all
+
+
+[02/08/2021 9:41 PM] xfly (σ, σ)#5520
+perfect
+
+
+[02/08/2021 9:41 PM] xfly (σ, σ)#5520
+thank you very much for your help
+
+
+[02/08/2021 9:42 PM] anon2020s#6116
+NP
+
+
+[02/08/2021 9:44 PM] xfly (σ, σ)#5520
+one more question, can i turn of my computer or do it need to run for the mixing process?
+
+
+[02/08/2021 9:47 PM] kushti#0978
+@xfly (σ, σ) you need to be online, only your computer holds the secrets needed for mixing and so able to make progress with it
+
+
+[02/08/2021 9:50 PM] xfly (σ, σ)#5520
+ok
+
+
+[02/08/2021 9:58 PM] xfly (σ, σ)#5520
+can i interrupt it and it will continue tomorrow?
+
+
+[02/08/2021 9:58 PM] anon2020s#6116
+Yes, shutdown it
+
+
+[02/08/2021 9:58 PM] xfly (σ, σ)#5520
+thx
+
+
+[02/08/2021 9:59 PM] anon2020s#6116
+Backup is also recommended now
+
+
+[02/09/2021 9:01 AM] xfly (σ, σ)#5520
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/808623525753651200/Screenshot_2021-02-09_at_10.00.38.png
+
+
+[02/09/2021 9:01 AM] xfly (σ, σ)#5520
+hi @anon2020s i sent back 170.xxx erg to get a new box but can't withdraw now. any idea?
+
+
+[02/09/2021 9:12 AM] anon_real#2768
+@xfly (σ, σ) Maybe you should send a bit more (like 0.01 more ergs) just for the tx fee
+
+
+[02/09/2021 9:12 AM] anon_real#2768
+Not sure though
+
+
+[02/09/2021 9:22 AM] xfly (σ, σ)#5520
+will try
+
+
+[02/09/2021 9:30 AM] anon2020s#6116
+If using the latest mixer, it’s a matter of time. Just wait. Network is very slow these days due to hard fork. 
+If mixer v3.1, send a bit more, like 0.0015 for the very fist tx creation
+
+
+[02/13/2021 11:10 AM] glasgowm#9381
+could you elaborate on this `- integrating AgeUSD with mixer (mixing is already supported), i.e. buying stable and RC coins directly from the mixer, eliminating the need for any wallet in between`
+
+Will this purchase RC/SC from the sigmaUSD instance being set up?
+
+{Reactions}
+☝🏾 🤔 
+
+[02/16/2021 9:37 PM] ▲.#1802
+https://www.youtube.com/watch?v=Cc3n8CjaGPE
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=Cc3n8CjaGPE
+ErgoMixer Tutorial - Taking Fire - Version 3.0.1 & Above
+Interested in exercising your right to privacy?
+You've come to the right place.
+
+Anon2020s is back again with another demonstration of his web application, voiced by Ollie.
+Within this follow up for the installation episode, we endure another walkthrough down the road of prevailing privacy - tarmacked by ErgoMixer.
+
+Today's guide will explore ho...
+https://images-ext-1.discordapp.net/external/z-IKZPm9q-ZTvGLLTL0jKFzIm_VX2NLf5-WAjLuiWs4/https/i.ytimg.com/vi/Cc3n8CjaGPE/maxresdefault.jpg
+
+
+[02/16/2021 9:41 PM] ▲.#1802
+would be neat if there were more high privacy assumptions made in automating things like setting up withdrawal address(once wallet relationship established)  and amount of mixing rounds etc - three would greatly improve the user experience - privacy shouldn’t be a burden
+
+{Reactions}
+👍 
+
+[02/17/2021 8:32 AM] scalahub#2618
+https://www.ergoforum.org/t/provide-incentive-to-create-half-mix-boxes-in-ergomixer/678
+
+{Embed}
+https://www.ergoforum.org/t/provide-incentive-to-create-half-mix-boxes-in-ergomixer/678
+Provide incentive to create half-mix boxes in ErgoMixer
+The usability of ergomixer is dependent on the existence of half-mix boxes.  However, creating such boxes has the effect of waiting till someone uses such boxes.  In order to provide incentive to create half-mix boxes, we can use the idea of “stealth addresses” by @kushti  Recall that both half-mix box and stealth address rely on some g^x for se...
+
+{Reactions}
+😍 (2) 
+
+[02/18/2021 9:59 AM] anon2020s#6116
+working on it, I hope it will be ready at SigmaUSD launch
+
+{Reactions}
+😍 (3) 
+
+[02/21/2021 6:31 AM] scalahub#2618
+After thinking some more I realised it's not a good idea because it will leak information .. updated the forum post
+
+
+[02/23/2021 1:48 AM] badmex#5034
+Hello! I am using the mixer to remove my ergo from a magnum wallet! I was able to retrieve 75%. The test are just their! I did notice one of the nodes has a red x! Help please.
+
+
+[02/23/2021 4:52 AM] Pete#0894
+I attempted to send my mixer address the same amount pending, but it appears to be a never ending loop! Help please 💥
+
+
+[02/23/2021 7:46 AM] anon_real#2768
+I think you should send a bit more for the transaction fee. Like 0.01 more ERG.
+
+
+[02/23/2021 8:07 AM] anon2020z#0754
+Hi
+The red status of this node is not worrying, other nodes are active.
+
+Are you sure the amount of 25% is more than your choice ring?
+
+
+[02/23/2021 1:50 PM] Pete#0894
+I sent over more, .01 ergo and it’s not doing anything, it indicates pending deposit: 99.9125 ERG/deposited 0.95 ERG
+
+
+[02/23/2021 2:11 PM] Pete#0894
+Should I change the Ring?
+
+
+[02/23/2021 2:22 PM] anon_real#2768
+How much is in your address?
+
+
+[02/23/2021 6:26 PM] Pete#0894
+251
+
+
+[02/24/2021 10:11 AM] anon2020z#0754
+how much was in your address before insert into the mixer?
+which ring selected in the mixer?
+
+if you send me a screenshot of your covert address history or send the log file to me, I can help you better.
+
+
+[02/26/2021 5:00 PM] anon2020s#6116
+Congrats to @anon_real and others for successfully deploying SigmaUSD.
+From now on, you can MIX your SigUSD and SigRSV coins. 
+It may take a few minutes till your mixer recognizes the support. 
+No update needed. Just relaunch your mixer.
+
+{Reactions}
+🙌 (2) 
+
+[03/03/2021 3:22 AM] scalahub#2618
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/816510828986892288/Screenshot_20210303-085133__01.jpg
+
+
+[03/03/2021 3:22 AM] scalahub#2618
+Someone having issues in import
+
+
+[03/03/2021 5:44 AM] anon2020s#6116
+he must use the private key, not any other stuff like seed, public key, ....
+also, private key without 0x, it seems that Magnum export the private keys for a few users with 0x prefix.
+
+{Reactions}
+👍 
+
+[03/04/2021 6:52 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/817107321645432842/unknown.png
+
+
+[03/04/2021 6:52 PM] glasgowm#9381
+https://www.ergoforum.org/t/sigmausd-dao-bank-is-a-complex-beast/767/3
+
+{Embed}
+https://www.ergoforum.org/t/sigmausd-dao-bank-is-a-complex-beast/767/3
+SigmaUSD DAO bank is a complex beast
+My random thought.  SigmaUSD is currently the only mixable stablecoin I am aware of.  Most mixers have some time element involved. SigmaUSD offers the ability to prevent loss of market value in the underlying asset during mixing.  I think there is value/utility, in the ability to mix stable value. Not to mention the value is backed 4/8 by a rese...
+
+
+[03/05/2021 12:54 AM] Zimulakra#7908
+Is it possible or useful to take a portion of the ERG that are held in the Auction House or in the SigmaUSD contract and use those in the mixer while they are not being used?
+
+
+[03/05/2021 2:49 AM] Pete#0894
+I need some help💥the Ergo mixer guy doesn’t understand . I had a magnum wallet that I import to the mixer, with over 1000 ergo, I received all except 251💥he told me to watch a video, which does not explain anything about my situation.💥if I send 2 ergo, the mixer, which never finishes💥I have to sen the full amount in order to get the full amount out, leaving the same amount stuck 💥what can I do? This is getting me very frustrating, that the mixer specialist doesn’t know or can’t help💥help💥please and thank you 🙏🏻
+
+
+[03/05/2021 6:04 AM] anon_real#2768
+Please send me your address (covert address)
+
+
+[03/05/2021 2:29 PM] anon2020s#6116
+for a minute forget about the stuck amount in the covert address.
+go to history, set your yoroi address(s) and withdraw all boxes to yoroi.
+after a few minutes, when the funds appear in yoroi, 
+go back to your covert address; there are two amounts: deposited and pending deposit.
+send exactly the amount shown as "pending deposit", no more no less.
+wait a few minutes.
+go to history
+set your yoroi address again and withdraw the box.
+done.
+
+
+[03/05/2021 2:31 PM] anon2020s#6116
+in your situation, I think you are withdrawing mixed boxes to your covert address, which results in a loop
+
+
+[03/05/2021 2:44 PM] anon2020s#6116
+@Pete ^^^
+
+
+[03/08/2021 11:26 PM] Pete#0894
+I am lost! That’s why I sent the photos. The history in the covert address is empty?
+
+
+[03/08/2021 11:27 PM] Pete#0894
+How do I fix the problem? Which address to I send additional ERO?
+
+
+[03/08/2021 11:29 PM] Pete#0894
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/818626580074332182/image0.jpg
+
+
+[03/10/2021 9:36 PM] anon2020s#6116
+history will be pruned after withdrawal being confirmed 720 times, unless you change it in the config file. So don't worry. The mixed boxes are withdrawn to your yoroi(? or any withdraw address you have set). go to that wallet and send the "pending deposit" amount to the covert address.
+for example, if you send 9.414 Erg to "Lupeergo" address 9gCTeR... (in the picture see your mouse over that address), a new box mix box will be created, which can be withdrawn again to your yoroi wallet.
+
+
+[03/20/2021 12:58 PM] Pete#0894
+I did exactly you asked? What now? It’s a continuous loop.
+
+
+[03/20/2021 12:59 PM] anon2020s#6116
+send photos in private
+
+
+[03/21/2021 12:05 PM] Pete#0894
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/823165506949349386/image0.jpg
+
+
+[03/21/2021 12:06 PM] Pete#0894
+The mixer is updated, but nothing changed.
+
+
+[03/28/2021 2:32 PM] glasgowm#9381
+```bash
+curl -s "https://getmixer.ergonaut.space/install.sh" | bash
+```
+
+This installs sdkman, java8, sbt, graal v21 then builds appkit+frontend+backend and runs the jar. Tested on Ubuntu
+
+{Reactions}
+👍 (3) 
+
+[03/28/2021 9:04 PM] anon2020s#6116
+awesome!🤩
+
+
+[03/29/2021 9:08 AM] morphic#4133
+BTW, GraalVM is not strictly necessary to run Appkit. It is rather possibility than a requirement. Unless you really use Graal features like running JavaScript etc.
+
+
+[03/29/2021 10:55 AM] glasgowm#9381
+Oh cool, thanks. Probably leave that out then for the basic install? Why would you want to run JS with graal/the mixer anyway?
+
+
+[03/30/2021 9:58 AM] morphic#4133
+1) You may for some reason like JS and want to develop Ergo dApps using Node.js, then you can use Appkit from Node.js. 
+2) Or you have existing Node.js backend application and want it to seamlessly integrate with Ergo from the same Node.js process. Then you can run your entire Node.js under GraalVM (which is fully supported by the Graal team) and then just use Appkit from your legacy code directly
+3) You may have other use cases with other language in similar ways. I did some experiments here https://github.com/aslesarenko/ergo-appkit-examples
+
+{Embed}
+https://github.com/aslesarenko/ergo-appkit-examples
+aslesarenko/ergo-appkit-examples
+Examples of using Ergo Appkit for Polyglot Development of Ergo Applications - aslesarenko/ergo-appkit-examples
+https://images-ext-1.discordapp.net/external/5qRoFJKsvEZpPKf791Vc1IlXs_OQGLuMCs5UFfx0wAo/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/654077
+
+
+[03/30/2021 10:00 AM] morphic#4133
+GraalVM is quite powerful tech actually, and actively pushed by Oracle now.
+
+
+[03/31/2021 9:09 AM] glasgowm#9381
+Ty @morphic - I've just turned it off in the script for now but will have a read into it. Seems that'd be more if you were a dev who wanted to integrate the mixer into something?
+
+
+[03/31/2021 9:11 AM] glasgowm#9381
+Not sure how easy this would be @anon2020s - but could you generate a covert address that automatically converts into SigUSD?
+
+
+[03/31/2021 9:12 AM] glasgowm#9381
+So whenever erg are sent to that address, it buys SigUSD and mixes it
+
+
+[03/31/2021 11:50 AM] anon2020s#6116
+wow! great idea! looks easy since the only change is adding a retry option on buying failure.
+
+{Reactions}
+💯 (3) 
+
+[04/01/2021 4:21 PM] kushti#0978
+@anon2020s when release ? )
+
+
+[04/01/2021 7:01 PM] anon2020s#6116
+any moment
+
+
+[04/01/2021 7:43 PM] anon2020s#6116
+test is completed. 
+going to release in a few minutes.
+
+
+[04/01/2021 7:47 PM] anon2020s#6116
+https://explorer.ergoplatform.com/en/transactions/af893dde5dbd06f3c9bf60b091b8356318f69e102659bc59f353ab27ad558b98
+
+
+[04/01/2021 7:47 PM] anon2020s#6116
+https://explorer.ergoplatform.com/en/transactions/1c91a82535fbaee0bc769637b95eea5b1b2f86452aaa3cf79f94ba01b69b88aa
+
+
+[04/02/2021 7:06 AM] anon2020s#6116
+sorry, mixer was released a few hours ago, however something went wrong on release. will be release again in a few hours
+
+{Reactions}
+😍 
+
+[04/02/2021 11:12 PM] anon2020s#6116
+Mixer v3.3.0 is out.
+
+changelog:
+    SigUSD/RSV mixing
+    SigUSD/RSV direct mint
+    UI/UX improvement
+    Minor UI bug fix; pending deposit of tokens
+
+defect: not working with safari anymore.
+
+ergoforum: https://www.ergoforum.org/t/ergomixer-zerojoin-mixer-for-erg-and-tokens/318/17?u=anon2020s
+
+download: https://github.com/ergoMixer/ergoMixBack/releases/tag/3.3.0
+
+{Embed}
+https://www.ergoforum.org/t/ergomixer-zerojoin-mixer-for-erg-and-tokens/318/17?u=anon2020s
+ErgoMixer, ZeroJoin Mixer for ERG and Tokens
+Ergonauts,  That’s one small step for Ergo. One giant leap for Crypto.  Here we are, yet another First for Ergo, the first mixable stablecoin which mixing came out to be non-interactive and programmable.  ErgoMixer v3.3 is out:  Download  changelog:   SigUSD/RSV mixing SigUSD/RSV direct mint UI/UX improvement Minor UI bug fix; pending deposit of...
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases/tag/3.3.0
+Release Mixer-3.3.0 · ergoMixer/ergoMixBack
+changelog:
+
+SigUSD/RSV mixing
+SigUSD/RSV direct mint
+UI/UX improvement
+Minor UI bug fix; pending deposit of tokens
+
+NOTE: In order to buy SigTokens, you MUST NOT set addresses when creating new mix...
+https://images-ext-2.discordapp.net/external/np9DHC832AInmXmyMKfVaWP-NYHBRZ44KIFIKevhuic/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/66778097
+
+{Reactions}
+👨‍🔬 (2) 💯 (3) 
+
+[04/05/2021 9:28 PM] anon2020s#6116
+it seems there is a withdrawal issue in version 3.3.0
+fix is coming.
+please consider using the newer version 3.3.1.
+
+
+[04/05/2021 10:21 PM] anon2020s#6116
+ErgoMixer v3.3.1 is available.
+
+changelog:
+
+- minor bug fix: withdrawal issue in version 3.3.0
+- update swagger
+- also, the readme of repo is much better now (thanks to @glasgowm)
+
+https://github.com/ergoMixer/ergoMixBack/releases/tag/3.3.1
+
+{Reactions}
+😍 
+
+[04/11/2021 9:00 PM] Dergler#0451
+this happens whenever I click on RSV option before the mix is done. the page becomes stuck. running the .exe package from github with 3.3.1
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/830895031370907728/unknown.png
+
+
+[04/11/2021 9:01 PM] Dergler#0451
+I bet it will work if I open it up after mixing is done, but figured I'd put this somewhere. is this the right spot?
+
+
+[04/11/2021 9:08 PM] egorishek#5517
+@Dergler I'm getting the same behavior, and it's been over an hour and mixing still has not completed. This could certainly be user error on my part as this is the first time I'm using the mixer.
+
+
+[04/11/2021 9:09 PM] egorishek#5517
+Note - I was able to withdrawal the erg back to my yoroi wallet but was not successful getting sigRSV
+
+
+[04/11/2021 9:24 PM] Dergler#0451
+yea it's pretty slow running in windows. I wonder if there is a better config to run this or if it's limited by hardware. would be nice to have an expectation on how much time a mix would take, or maybe even just a general speed tips. when I'm only using it to try and get RSV this is pretty inconvenient.
+
+
+[04/12/2021 5:23 AM] Dergler#0451
+can't buy sigRSV from mixer after mixing completes either:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/831021791665324072/unknown.png
+
+
+[04/12/2021 5:47 AM] Dergler#0451
+suppose I'll have to try another way.
+
+
+[04/12/2021 7:37 AM] glasgowm#9381
+@anon2020s
+
+
+[04/12/2021 9:48 AM] anon2020s#6116
+investigating right now. click wait for now and see if it changes. 
+I'm not receiving any error but a large response time
+
+
+[04/13/2021 7:10 AM] anon2020s#6116
+Mixing process does not depend on your OS, hardware, ...
+It only depends on the other people's activity. If there are enough people mixing their coins at the time you are mixing, the process will not take long. Also consider that delays will benefit your privacy gains.
+
+
+[04/13/2021 7:11 AM] anon2020s#6116
+Issue with SigTokens looks to be the same as what sigmausd.io has right now, and I do not know what it is. There is some issues in the WASM we are using.
+
+
+[04/13/2021 9:41 AM] glasgowm#9381
+Hmm, strange how its only happening on Win though. I tried on mac and had no issues - but issues on sigmausd.io everytime
+
+
+[04/13/2021 9:42 AM] glasgowm#9381
+Found a workaround for sigma tho, if you paste the value in instead of typing it - it's slow but works
+
+
+[04/13/2021 9:42 AM] glasgowm#9381
+So a change to calculate after `x` seconds rather than dynamically could help
+
+
+[04/13/2021 9:51 AM] anon2020s#6116
+I do not have Win. anyway, I just tried on my linux for RSV, it shows 0 after a few seconds; I did not do anything for a minute, later it shows the correct RSV to be minted. Yes, strange. Let me dive in more
+
+
+[04/13/2021 10:02 AM] anon2020s#6116
+our computation is different from sigmausd.io but we use their WASM.
+the difference is, in sigmausd, you say how many USD/RSV you want to mint and it gives you the required amount in ERG.
+in mixer, you say how many ERG you have to be used for minting, we calculate how much USD/RSV can be minted with that amount of ERG. a tiny amount of ERG will be remain unused, which will be sent to the withdraw address as well.
+
+
+[04/19/2021 4:16 PM] anon2020s#6116
+📣 
+The recent update of explorer caused connectivity issue for the mixer. 
+Your funds are safe and we will fix this issue asap.
+
+{Reactions}
+🚀 
+
+[04/21/2021 5:15 PM] mhs_sam#1471
+we have the same issue with the explorer in our Gravity project. 
+there is a temporary solution:
+we are hosting a public explorer at https://explorer.ergopool.io
+I tested mixer with it and mixer works well. I will not update the explorer to the latest version. So, you can use it instead of the explorer right now, till the issue is addressed.
+
+{Reactions}
+💯 
+
+[04/22/2021 2:00 PM] yassassin#3364
+About this blogpost:
+https://ergoplatform.org/en/blog/2020_03_20_ergo_mixer/
+
+In context of 'marketing' and make more people warm for this awesome project, my personal opinion would be to change:
+"The project uses Ergo’s Sigma protocols to enable efficient, trustless mixing of funds, enabling a high degree of privacy while ensuring security is not compromised."
+to
+"The project uses Ergo’s Sigma protocols to enable efficient, trustless mixing of funds, enabling a high degree of privacy and security."
+
+{Embed}
+https://ergoplatform.org/en/blog/2020_03_20_ergo_mixer/
+Introducing Σ3 – ErgoMixer
+The project uses Ergo’s Sigma …
+https://images-ext-2.discordapp.net/external/Gzq_aJLQvtnwTql9ht-Q3YA9aMugKYpD1q88V5JzFuw/https/ergoplatform.org/img/blog/ergo_mixer.jpg
+
+
+[04/22/2021 2:01 PM] yassassin#3364
+This in context of discussions on Telegram Ergo Community Based Marketing chat searching for the correct 'one-liner' for Ergo (products)
+
+
+[04/22/2021 10:49 PM] anon2020s#6116
+ErgoMixer v3.3.2 is out!
+
+changelog:
+- Fix connectivity issue; connection issue with new explorer
+- Minor UI improvements
+- Minor bug fix; error handling in browsers which do not support -SigmaUSD (e.g. Safari and IE)
+- Minor bug fix; UI crash in SigmaUSD
+
+✅ The support for Safari and IE is back, however SigmaUSD/RSV minting is not available in these browsers.
+
+https://github.com/ergoMixer/ergoMixBack/releases/tag/3.3.2
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases/tag/3.3.2
+Release Mixer-3.3.2 · ergoMixer/ergoMixBack
+Fix connectivity issue; connection issue with new explorer
+Minor UI improvements
+Minor bug fix; error handling in browsers which do not support SigmaUSD (e.g. Safari and IE)
+Minor bug fix; UI crash...
+https://images-ext-1.discordapp.net/external/IGhK-YhUas08m6bJI7ll9KJybQ7sFb4FaTiV5LoJLDs/https/opengraph.githubassets.com/51c0fd089a59598c84e91bdafb7f685d3a35418cff702515ef503417a9334f8d/ergoMixer/ergoMixBack
+
+{Reactions}
+👍 (3) 
+
+[04/26/2021 2:21 PM] $aX#5658
+Can anyone help me get the Mixer working on Ubuntu 20.04? I get an error when running the .jar file. I've tried running the install script and I also tried compiling the .jar myself
+
+
+[04/26/2021 2:31 PM] anon2020s#6116
+May we go through it step by step? let's see what's the error when running the jar file first
+
+
+[04/26/2021 2:32 PM] anon2020s#6116
+you can send logs/photos here or in private
+
+
+[04/26/2021 2:34 PM] $aX#5658
+@anon2020s Yes please, let's do that. Do you want me to try to compile it or run the install script?
+
+
+[04/26/2021 2:34 PM] anon2020s#6116
+just run the mixer with the jar file first
+
+
+[04/26/2021 2:35 PM] anon2020s#6116
+be sure to use the 3.3.2 version
+
+
+[04/26/2021 2:37 PM] $aX#5658
+Ok running java -jar ergoMixer-3.3.2.jar
+
+
+[04/26/2021 2:38 PM] $aX#5658
+[error] h.TrayUtils - failed to create tray icon null
+
+
+[04/26/2021 2:38 PM] anon2020s#6116
+nothing important
+
+
+[04/26/2021 2:38 PM] $aX#5658
+And now it's continuing to run s.ScheduledJobs
+
+
+[04/26/2021 2:39 PM] $aX#5658
+How do I access the Front End?
+
+
+[04/26/2021 2:39 PM] anon2020s#6116
+localhost:9000
+
+
+[04/26/2021 2:40 PM] $aX#5658
+Thanks. Maybe I was just tired and thought that error was important
+
+
+[04/26/2021 2:40 PM] $aX#5658
+Do I need to have my node running before I Start New Mix?
+
+
+[04/26/2021 2:41 PM] anon2020s#6116
+did you see the UI?
+
+
+[04/26/2021 2:41 PM] $aX#5658
+I do
+
+
+[04/26/2021 2:41 PM] anon2020s#6116
+no Ergo node is needed
+
+
+[04/26/2021 2:42 PM] $aX#5658
+Do you have recommendations for the Ring settings?
+
+
+[04/26/2021 2:43 PM] anon2020s#6116
+no recom, choose them as you wish
+
+
+[04/26/2021 2:45 PM] anon2020s#6116
+this error is not important, it's about the tray icon.
+it happens when the host does not have any GUI or it's interface is not compatible with ours. 
+You can ignore it.
+
+
+[04/26/2021 2:46 PM] $aX#5658
+This is such a cool feature. Thank you!
+
+
+[04/26/2021 2:47 PM] mhs_sam#1471
+so there is no tray icon in Ubuntu?
+
+
+[04/26/2021 2:56 PM] anon2020s#6116
+it depends on your ubuntu GUI.
+anyway, if you receive this error on Ubuntu with GUI, you can try to build yourself. In most cases, the tray icon may work this way
+
+
+[04/29/2021 7:56 AM] NucaCola👨🚀#3711
+A Swedish-Russian citizen has been charged with operating a multi-million Bitcoin laundering service after authorities traced his crypto transactions from 2011.
+
+https://cointelegraph.com/news/alleged-366m-bitcoin-mixer-busted-after-analysis-of-10-years-of-blockchain-data
+
+{Embed}
+https://cointelegraph.com/news/alleged-366m-bitcoin-mixer-busted-after-analysis-of-10-years-of-blockchain-data
+Alleged $366M Bitcoin mixer busted after analysis of 10 years of bl...
+The operator of long-running crypto mixer, Bitcoin Fog, has been arrested after authorities were able to trace the alleged launderer’s crypto transactions from 2011.
+https://images-ext-1.discordapp.net/external/LBZjPGBENiX891TjbBbyCVe59zowKuTobFfjYYOaD_o/https/images.cointelegraph.com/images/1200_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjEtMDQvNDcxYTJmNjEtYzhhYy00YzhiLThmOGQtNWJhYTc2YWJlZDdjLmpwZw%3D%3D.jpg
+
+
+[04/29/2021 2:04 PM] Dergler#0451
+Something like this is hard to do on Ergo, right? the ergomixer is non-custodial, so that risk is eliminated, non-interactive, so humans aren't doing the mixing, and communication is done through Tor. as long as you also practice good info sec you should be in great shape? I swear there needs to be a guide on this.
+
+
+[04/29/2021 2:04 PM] Dergler#0451
+if no person is doing the mixing, then what gives>?
+
+
+[04/29/2021 5:08 PM] NucaCola👨🚀#3711
+Good to know Ham!
+
+
+[04/29/2021 5:09 PM] NucaCola👨🚀#3711
+Ergo looking to be a very capable defi enabler.
+
+
+[04/29/2021 5:09 PM] NucaCola👨🚀#3711
+One stop shop
+
+
+[04/29/2021 5:26 PM] Tupac#9235
+this is what i always wonder too lol
+
+
+[04/29/2021 5:26 PM] Tupac#9235
+education is the key to proper adoption
+
+
+[04/29/2021 10:43 PM] glasgowm#9381
+Yep this is correct. Article out in a few days
+
+
+[04/29/2021 10:45 PM] Dergler#0451
+strong selling point for ERGO. This is amazing. thanks for doing this work.
+
+{Reactions}
+💪 (4) 
+
+[05/01/2021 2:57 PM] $aX#5658
+Added a donation for you guys @anon2020s via over payment in the mixer. Thank you guys for your great work on this product
+
+
+[05/01/2021 2:58 PM] $aX#5658
+Is there a way to remove an Active Mix from the Front End display if you never send funds to the deposit address? I know it's not doing anything, but it's bothering me that I can't clear it out haha
+
+
+[05/01/2021 4:22 PM] anon2020s#6116
+I appreciate it!
+It is possible but I never recommend it. You can remove the record in db
+
+
+[05/03/2021 10:51 AM] glasgowm#9381
+What about something like this for ErgoMixer? @anon2020s 
+
+https://codepen.io/glasgowm/pen/qBRepbr
+
+(but a bit tidier, nicer logo, etc)
+
+{Reactions}
+👍 (3) 
+
+[05/03/2021 10:53 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/838714867992887306/unknown.png
+
+
+[05/03/2021 2:34 PM] $aX#5658
+Beautiful!
+
+
+[05/03/2021 2:36 PM] $aX#5658
+Is there a reason why the 1 ERG mixing is taking much more time @anon2020s? Is it because it is being used less? Could I speed this up by doing more of my own 1 ERG mixes? I'm just doing some testing on this stuff when I can
+
+
+[05/03/2021 2:42 PM] anon2020s#6116
+In the coming weeks, we need a website (hosted on github) as a one pager for mixer to introduce mixer, token economics, roadmap, etc.
+
+
+[05/03/2021 2:46 PM] anon2020s#6116
+Less people mixing in 1 ERG ring. You cannot speed up by adding to the running mixer. But, running another mixer will help.
+
+
+[05/03/2021 2:46 PM] $aX#5658
+Thanks man
+
+
+[05/03/2021 2:46 PM] $aX#5658
+Also, please note my comment in general about potential fake accounts using your name
+
+
+[05/03/2021 3:43 PM] Busata#9432
+I like how that says "linux instructions" vs just the OS name ;p "get your terminal ready, you got work to do!"
+
+
+[05/03/2021 4:39 PM] Deleted User#0000
+That's very good. Maybe even include a 5th button that says "Tutorial" or a smaller link somewhere else
+
+
+[05/05/2021 1:24 AM] Kaven#6681
+hey team, i am new here, big fan of the project. wanted to share an anecdote about using another mixer recently in case its helpful.
+
+
+[05/05/2021 1:25 AM] Kaven#6681
+so the contracts for the mixer were all audited and sound, working well. the frontend however did not anticipate a case where a user might have javascript turned off. the contract happily received the funds and the withdrawal key was never issued. the funds were unrecoverable.
+
+
+[05/05/2021 1:27 AM] Kaven#6681
+anyway sorry for crashing in here and preaching 😂  like i said, big fan, big ergonaut, haha, just figured i would share because i was not expecting the UI to be such a pain point, but in that case it was.
+
+
+[05/09/2021 7:08 AM] anon2020s#6116
+📣  Mandatory Update for ErgoMixer!
+ErgoMixer v3.3.3 is out!
+
+
+[05/09/2021 7:09 AM] anon2020s#6116
+changelog:
+bug fix: fix issue with scanning Half Boxes
+
+
+[05/09/2021 7:10 AM] anon2020s#6116
+https://github.com/ergoMixer/ergoMixBack/releases/tag/3.3.3
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases/tag/3.3.3
+Release Mixer-3.3.3 · ergoMixer/ergoMixBack
+Change log:
+
+Fix issue scan HalfMix boxes
+https://images-ext-1.discordapp.net/external/1kvkvBCGZmF4FvxkhiHN50tTG5jws8xh_H57_Z34wLg/https/opengraph.githubassets.com/2750d48ce40843f5d51df2d5df8d6a523bcc29a050af9f6a99696ef2f5bb4860/ergoMixer/ergoMixBack
+
+
+[05/11/2021 9:15 AM] glasgowm#9381
+How many rounds does the covert address do by default?
+
+
+[05/11/2021 11:31 AM] glasgowm#9381
+Also my SigRSV don't seem to be mixing - do I need to wait until other people use the rings?
+
+
+[05/11/2021 11:32 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/841623799132323860/unknown.png
+
+
+[05/11/2021 1:43 PM] anon2020z#0754
+In the second stage of making the covert, you can select the desired round. It is located on level 3 by default.
+
+
+[05/11/2021 1:45 PM] anon2020z#0754
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/841657311939264573/Screen_Shot.png
+
+
+[05/11/2021 1:55 PM] anon2020z#0754
+if your mixer is updated (3.3.3), yes you need to wait.
+
+{Reactions}
+😧 
+
+[05/11/2021 2:08 PM] glasgowm#9381
+ah, thanks. How many rounds per level?
+
+
+[05/11/2021 3:05 PM] anon2020z#0754
+there is the Approximate Mixes filed bottom of the screenshot (e.x in level 3: 90 rounds)
+
+
+[05/11/2021 3:28 PM] glasgowm#9381
+cool, cheers. Set it up a while ago so I'd forgotten heh
+
+{Reactions}
+👍 
+
+[05/13/2021 8:03 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/842295882837393439/unknown.png
+
+
+[05/13/2021 8:03 AM] glasgowm#9381
+https://www.reddit.com/r/ergonauts/comments/nasaax/the_ergomixer_is_the_first_noninteractive/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/nasaax/the_ergomixer_is_the_first_noninteractive/
+r/ergonauts - The Ergomixer is the first non-interactive, non-custo...
+70 votes and 10 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/79Mdzh7P0Z2yr2DcLJ0m5sRUxOUox7GZjkugg6EgDNM/%3Fauto%3Dwebp%26s%3Dc172a1188df26d1231397710199b47ddf8c69df5/https/external-preview.redd.it/gMNEyWkHpsRNnBA96wNI6Ed1v_XxGl-ergYgARDdx6Q.jpg
+
+
+[05/13/2021 8:03 AM] glasgowm#9381 (pinned)
+https://ergoplatform.org/en/blog/2021-05-12-ergomixer/
+
+{Embed}
+https://ergoplatform.org/en/blog/2021-05-12-ergomixer/
+ErgoMixer
+The Ergomixer is the first …
+https://images-ext-2.discordapp.net/external/e58zzCrc34fUlCkY9nPg-2FehEstx7OAo3oCcNS20OY/https/ergoplatform.org/img/uploads/ergomixnew.jpg
+
+
+[05/13/2021 8:03 AM] glasgowm#9381
+https://www.reddit.com/r/cardano/comments/nawihk/another_absolute_gem_from_ergo_article_about/
+
+{Embed}
+https://www.reddit.com/r/cardano/comments/nawihk/another_absolute_gem_from_ergo_article_about/
+r/cardano - Another absolute Gem from Ergo. Article about their mix...
+33 votes and 9 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/79Mdzh7P0Z2yr2DcLJ0m5sRUxOUox7GZjkugg6EgDNM/%3Fauto%3Dwebp%26s%3Dc172a1188df26d1231397710199b47ddf8c69df5/https/external-preview.redd.it/gMNEyWkHpsRNnBA96wNI6Ed1v_XxGl-ergYgARDdx6Q.jpg
+
+
+[05/13/2021 7:15 PM] Zimulakra#7908
+If you send an NFT to a covert address will that in anyway compromise the covertness?
+
+
+[05/17/2021 12:46 AM] Kaven#6681
+is ergomixer the way to have multiple wallets? or is this functionality intrinsic to the ergo node? thanks.
+
+
+[05/18/2021 12:07 PM] glasgowm#9381
+You can have multiple addresses on the node (I believe) - you can do covert addresses on the mixer
+
+
+[05/18/2021 12:07 PM] glasgowm#9381
+maybe? @anon2020s
+
+
+[05/18/2021 12:07 PM] glasgowm#9381
+https://dpaste.org/EM0v
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/844169395466403840/unknown.png
+
+
+[05/18/2021 1:25 PM] Notorious#3059
+Is there any other use case for a mixer except illicit transactions and tax evasion? Genuinely curious not trying to bash the project
+
+
+[05/18/2021 1:28 PM] Notorious#3059
+If the ergomixer is so efficient and secure that it becomes the main one for illicit use, is there a chance that the whole ergo ecosystem might get the wrong type of attention from authorities?
+
+
+[05/18/2021 1:35 PM] Doomelf#7740
+If youre paying for something and dont want them to know how much you hold
+
+
+[05/18/2021 1:35 PM] Doomelf#7740
+example bidding in an auction
+
+
+[05/18/2021 1:35 PM] Doomelf#7740
+or sending money to friends and family
+
+
+[05/18/2021 2:08 PM] andee#4722
+I see more legit use cases for it actually. I don't want people to be able to watch my wallets balance
+
+
+[05/18/2021 2:19 PM] Notorious#3059
+Alright yea that makes sense, if the future economic system is crypto that means more compliance and KYC. In that case I guess mixing becomes vital
+
+
+[05/18/2021 2:19 PM] Notorious#3059
+Thanks guys
+
+
+[05/18/2021 2:26 PM] anon2020s#6116
+Thanks for reporting, it's a minor bug which is already fixed but not released. I will publish the fix asap
+
+{Reactions}
+👏 
+
+[05/18/2021 2:41 PM] glasgowm#9381
+autonomy. You can pay your taxes without having your finances public.
+
+{Reactions}
+💯 (2) 
+
+[05/18/2021 3:54 PM] Dergler#0451
+don't want annoying relatives knowing how wealthy you are
+
+{Reactions}
+😂 (9) 👆 (7) 
+
+[05/20/2021 8:52 AM] glasgowm#9381 (pinned)
+https://ergoplatform.org/en/blog/2021-05-19-ergo-what-are-bitcoin-mixers/
+
+{Embed}
+https://ergoplatform.org/en/blog/2021-05-19-ergo-what-are-bitcoin-mixers/
+Ergo: What Are Bitcoin Mixers
+While cryptocurrency addresses …
+https://images-ext-1.discordapp.net/external/BR57JAP5_IsqwR0RtfjDewo5l_dVZm6vNgjt0eEhlzc/https/ergoplatform.org/img/uploads/privacy.jpg
+
+{Reactions}
+👍 (3) 
+
+[05/20/2021 8:52 AM] glasgowm#9381
+Pinned a message.
+
+
+[05/20/2021 7:01 PM] Xertz#7261
+why ERG is so strong? I'm mining ERG
+
+
+[05/20/2021 7:01 PM] Xertz#7261
+don't know sell it or keep it...hmm
+
+
+[05/20/2021 7:52 PM] anon_real#2768
+https://www.ergoforum.org/t/ergoutils-a-swiss-knife-for-ergo/522/5
+
+{Embed}
+https://www.ergoforum.org/t/ergoutils-a-swiss-knife-for-ergo/522/5
+ErgoUtils: A Swiss Knife for Ergo
+ErgoUtils now support obfuscating entry points for ErgoMixer (not sure what they are called actually 🙂).  Basically, when one withdraws his funds from the mixer to his wallet, it is obvious that that person has received some funds from the mixer and when he spends those boxes, it is also obvious that those boxes are from the mixer.  Those who ca...
+https://images-ext-2.discordapp.net/external/8BcISiwnATrSYUCPCpTwoc84j2kZGGyBDGwSA_xf4X0/https/aws1.discourse-cdn.com/standard14/uploads/ergoforum/optimized/1X/ef3de8abad36b2845aeb4c808ff63cabdff17539_2_1024x576.jpeg
+
+{Reactions}
+❤️ (3) 
+
+[05/21/2021 3:58 AM] $aX#5658
+^ Amazing. I need to play around with this.
+
+
+[05/22/2021 7:36 AM] anon2020s#6116
+multi-hop withdrawal is an amazing feature and it was in our feature list. Thank you!
+
+{Reactions}
+👍 (3) 
+
+[05/22/2021 7:38 AM] anon2020s#6116
+📣  ErgoMixer v3.3.4 is out!
+
+Changelog:
+- minor bug fix; issue with showing history in UI is fixed
+
+https://github.com/ergoMixer/ergoMixBack/releases/tag/3.3.4
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases/tag/3.3.4
+Release Mixer-3.3.4 · ergoMixer/ergoMixBack
+Change Log:
+
+Fixed issue show detail
+https://images-ext-2.discordapp.net/external/wIBvtwBHC_T_qOnKMRS3zp6lHdFcq6ezRKXZDKBXmMM/https/opengraph.githubassets.com/fcb3d1e187d0456bad82539caa4c8c5daf97c9d00bfb644ab43c56765c1489e0/ergoMixer/ergoMixBack
+
+
+[05/22/2021 3:08 PM] nitram147#5106
+Is it custodial service right? That we have to trust ergoutils servers to chain transaction through the hops?
+
+
+[05/22/2021 6:41 PM] anon_real#2768
+Nope, all secrets are being generated locally, all transactions are also signed locally in the browser. There are no server interactions invloved.
+
+{Reactions}
+😎 🤩 
+
+[05/22/2021 7:06 PM] nitram147#5106
+Great, are they are all made at once and then sent to some ergo relay? If so, then all of the new UTxOs will be created and spent int the same block (in case miner will include all constructed transactions into single block). Wouldn't that be suspicious looking? 🙂
+
+
+[05/22/2021 7:13 PM] anon_real#2768
+That is correct, txs will probably end up in the same block. It is not perfect but when someone is auditing your wallet (by looking into an address that knows is yours) will have a much harder time to tell that you've received funds from the mixer.
+
+
+[05/22/2021 7:16 PM] anon_real#2768
+Anyway, it is easy to wait some random time between each tx but that is not convenient imo since will take some time.
+
+
+[05/22/2021 7:21 PM] nitram147#5106
+Yeah, that was my idea, unfortunately it would mean that you has to keep your browser tab open
+
+
+[05/22/2021 7:22 PM] nitram147#5106
+Is anywhere the code of ergoutils site? (so I don't have to "reverse engineer" it by looking into CTRL+U and console)
+
+
+[05/22/2021 8:26 PM] anon_real#2768
+https://github.com/anon-real/ergoutils
+
+{Embed}
+https://github.com/anon-real/ergoutils
+anon-real/ErgoUtils
+An app that contains useful utilities to be used by any wallet - anon-real/ErgoUtils
+https://images-ext-2.discordapp.net/external/YQKbG3hGK7IiaH4LuGsOyqq_yPOXcDc_w8f5I3fUpQY/https/opengraph.githubassets.com/f8391784495ec8bb9dd8c1d38333e5833c3b55e58a93652385fe860d6031c5be/anon-real/ErgoUtils
+
+{Reactions}
+❤️ 
+
+[05/22/2021 8:27 PM] anon_real#2768
+https://github.com/anon-real/ErgoUtils/blob/master/src/utils/mixerHop.js
+
+{Embed}
+https://github.com/anon-real/ErgoUtils/blob/master/src/utils/mixerHop.js
+anon-real/ErgoUtils
+An app that contains useful utilities to be used by any wallet - anon-real/ErgoUtils
+https://images-ext-2.discordapp.net/external/YQKbG3hGK7IiaH4LuGsOyqq_yPOXcDc_w8f5I3fUpQY/https/opengraph.githubassets.com/f8391784495ec8bb9dd8c1d38333e5833c3b55e58a93652385fe860d6031c5be/anon-real/ErgoUtils
+
+
+[05/22/2021 10:23 PM] mx#5165
+should help a lot with not being able to be booted from the exchanges in the future 👍
+
+{Reactions}
+👍 
+
+[05/22/2021 11:59 PM] nitram147#5106
+Thank you 🙂 I had to be blind - I had literally scrolled over all of your repos before I asked the question and I did not see it 😄
+
+{Reactions}
+😅 
+
+[05/23/2021 12:00 AM] nitram147#5106
+(now I see it instantly, it's even pinned on your profile)
+
+
+[05/23/2021 8:41 PM] Gazza_SP#5835
+I know there is a planned staking operation for the mixer in the works for ERG. Will we also be able to stake sigUSD and sigRSV?
+
+
+[05/23/2021 8:41 PM] Gazza_SP#5835
+I'm 90% sigRSV and I'm locked into the contract for however long this crash goes on for so need to think of some contingency plan 😁😂
+
+
+[05/25/2021 2:09 PM] Phenotype Alpha#0001
+@anon2020s I asked in the development thread on how I could contribute to the Ergo project and @glasgowm suggested I could help with the ErgoMixer landing page. If you are interested Id be happy to try put something together for you depending on how quick you need something up. If you could guide me on what you are envisioning it would really help me get started.  You can DM me if you want.
+
+{Reactions}
+💯 
+
+[05/25/2021 2:14 PM] Phenotype Alpha#0001
+Given what I’ve read in this thread it seems that you are looking to educate people on how to use and understand the functioning of ErgoMixer, since Ive never used it myself, I might need a little primer on it and to know what you feel the main points to communicate are.
+
+
+[05/25/2021 2:55 PM] glasgowm#9381
+Pinned a message.
+
+
+[05/25/2021 3:00 PM] Phenotype Alpha#0001
+Thanks will read up
+
+
+[05/25/2021 3:03 PM] glasgowm#9381
+Pinned a message.
+
+
+[05/26/2021 11:48 AM] anon2020s#6116
+📣  ErgoMixer v3.3.5 is out.
+
+changelog: 
+- minor bug fix; in some situations the very first deposit had some issues, it is fixed now.
+
+https://github.com/ergoMixer/ergoMixBack/releases/tag/3.3.5
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases/tag/3.3.5
+Release Mixer-3.3.5 · ergoMixer/ergoMixBack
+Change Log:
+
+Fixed issue save data for initiate Mix
+
+
+[05/26/2021 11:49 AM] anon2020s#6116
+the staking protocol is rather different for mixer. it's part of holding mixer tokens and gaining the shared profit by staking your tokens. So, first of all you should buy mixer tokens and then stake them to gain profit.
+
+
+[05/26/2021 12:10 PM] glasgowm#9381
+do you have a rough timeline for when tokenisation will be up and running? Q2-4? 2022?
+
+
+[05/26/2021 12:18 PM] anon2020s#6116
+I'm working on the contracts and the roadmap. My estimation is tokenisation will be up in the next 2 months. Token sale might occur sooner.
+
+{Reactions}
+🤩 🥳 (4) 
+
+[05/26/2021 3:25 PM] Himmeth | 히매스#9387
+What's the use case of a mixer token?
+
+
+[05/27/2021 1:22 AM] glasgowm#9381
+https://www.ergoforum.org/t/a-solution-for-staking/1057
+
+{Embed}
+https://www.ergoforum.org/t/a-solution-for-staking/1057
+A solution for staking
+This topic proposes a solution for staking, which is not relying on data inputs and also scalable (can support thousands of tokens).  We consider the case of ErgoMixer, with profit from the mixer to be collected in a box associated with some “funding NFT” first. Then payments done periodically, in epochs (say, 1 epoch = 1,024 blocks). Epoch numb...
+
+
+[05/27/2021 1:23 AM] glasgowm#9381
+The comment you replied to has the use case?
+
+
+[05/27/2021 2:53 AM] Himmeth | 히매스#9387
+I lack the minimum number of brain cells to understand :D
+
+
+[05/27/2021 11:36 AM] glasgowm#9381
+It's a solution that allows you to 'stake' your ergs, and earn passive income by providing liquidity to the mixer. This would also improve the privacy level of the mixer itself.
+
+{Reactions}
+🤯 (3) 
+
+[05/27/2021 2:27 PM] Himmeth | 히매스#9387
+Ah so it's basically yield farming like with other defi platforms? I thought the term 'staking' was restricted to discussions of Proof of Stake
+
+
+[05/27/2021 2:52 PM] glasgowm#9381
+staking is when you help secure a blockchain network by improving its safety and yield farming usually has impermanent loss afaik
+
+
+[05/29/2021 10:22 AM] Gazza_SP#5835
+Thanks for the reply, my main question now is what is the relationship between erg tokens and the new mixer tokens? Can they be swapped somehow? Maybe on the DEX?
+
+
+[05/29/2021 2:39 PM] glasgowm#9381
+It sounds like just a way to tie a smart-contract to the erg I don't think the tokens themselves are significant
+
+
+[05/31/2021 5:15 AM] mconstant#4986
+https://tenor.com/view/drink-shot-glass-whiskey-pour-pouring-gif-15196770
+
+{Embed}
+https://tenor.com/view/drink-shot-glass-whiskey-pour-pouring-gif-15196770
+https://images-ext-2.discordapp.net/external/N4sDCk4k0rDWYVy_I6K2vX0uDap9TY7BxxW4ZA6iXrA/https/media.tenor.co/images/f02cc9975c6d6fad12d28bfe01a5bba7/tenor.png
+
+
+[05/31/2021 5:15 AM] mconstant#4986
+Try some of this .. cures what ails ya
+
+
+[06/01/2021 12:56 AM] roswald#9019
+will the ergomixer be available on the cardano blockchaing?
+
+
+[06/01/2021 11:58 AM] Platypus#2410
+No it won't be directly deployed I think, but you might be able to mint wrapped ADA on the ERGO blockchain, mix those, and then port it back over?
+
+
+[06/01/2021 11:59 AM] Platypus#2410
+Also, the extended UTxO could enable direct ADA mixing too i reckon?
+
+
+[06/01/2021 2:48 PM] nitram147#5106
+If there would be enough cryptographic primitives built in plutus language, I don't see a point why somebody couldn't rewrite it and deploy it on the cardano network
+
+
+[06/01/2021 2:49 PM] nitram147#5106
+In case they are not there, they can be programmed inside the smartcontract (plutus should be turing complete), but it can result in really long code which will be expensive to run
+
+
+[06/03/2021 1:39 AM] mconstant#4986
+There’s also Marlowe. What about that?
+
+
+[06/16/2021 8:24 PM] glasgowm#9381
+How is this different from tornado.cash @anon2020s ? they also seem to be advertising as non-custodial and non-interactive at a quick google
+
+
+[06/17/2021 11:31 AM] nitram147#5106
+One difference I know about, is that Tornado.Cash is using zk-SNARKs. It means that there had to be a "ceremony" for generation of parameters required by the zk-SNARKs algorithm itself. This used to be done in a Multi-party-computation way so it's enough if only one participant of the MPC setup was honest, all others can try to cheat and it will be secure anyway. However if all of the participant cheated and cooperate they will have the ability to generate fake proofs later and nobody will know about it.
+
+
+[06/17/2021 11:32 AM] nitram147#5106
+In the specific case of tornado cash it would mean that if all of the 1114 ceremony setup participants cheated (number of participant is available here https://tornado.cash/), they could generate fake proofs and drain money from the tornado.cash smartcontract.
+
+
+[06/17/2021 11:33 AM] nitram147#5106
+However if only one of them was honest, then it's secure for people to use.
+
+
+[06/17/2021 11:34 AM] nitram147#5106
+ErgoMixer don't require this "ceremony" setup, so in this way it's better than tornado.cash 🙂
+
+{Reactions}
+🤩 (4) 💯 
+
+[06/23/2021 8:16 AM] mav#0899
+Hey everyone, I’m new to Ergo. I was playing with the mixer and saw that by default the mixer connects to a few remote nodes, over http it appears. I tried setting the config so that it connects to my local node on localhost but somehow the mixer cannot start due to some accessibility issue with the node. Does anyone know what I’m doing wrong? I tried to look up on github but haven’t found anything related yet
+
+
+[06/25/2021 5:09 PM] Kaven#6681
+interested in this too. might try playing with custom config today. have you tried?
+
+
+[06/25/2021 10:44 PM] DD_Ruff#5856
+Can anyone help with the mixer? I have a shitload of ergs that I think might stuck there forever
+
+
+[06/25/2021 10:44 PM] DD_Ruff#5856
+I was told to seek out @anon2020s but anyone really
+
+
+[06/28/2021 4:20 PM] mav#0899
+Not yet. Any luck on your side?
+
+
+[06/29/2021 6:38 PM] Kaven#6681
+@mav i havent found the time to mess with it yet. ergs are just sitting on the backburner while i figure out some stuff with a different coin 😉
+
+
+[06/29/2021 6:38 PM] Kaven#6681
+@DD_Ruff what a nightmare if so, hopefully not, pls update us!
+
+
+[07/05/2021 10:31 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/861539688657190922/unknown.png
+
+
+[07/05/2021 10:31 AM] glasgowm#9381
+I have some tx stuck on 'queued' - any tips for kicking it back into action? Tried restarting/restoring
+
+
+[07/05/2021 4:28 PM] alisovsky#6009
+Hey, guys! Can I mix my ergs just by using Mixer Hops in https://ergoutils.org/#/others ?
+
+
+[07/05/2021 4:28 PM] alisovsky#6009
+I mean without ergo mixer on my local machine
+
+
+[07/05/2021 5:16 PM] glasgowm#9381
+This isn't a true mixer, it just hops it through a bunch of addresses to obfuscate it. It's still traceable this way but removes the obvious mixer withdrawal record on your wallet
+
+
+[07/05/2021 5:55 PM] alisovsky#6009
+There is a way find out how many fee I will pay for that?
+
+
+[07/08/2021 12:59 AM] Kaven#6681
+if you run the mixer on the same machine as a node, should/could you just put your local node as the only element of the nodes array
+
+
+[07/08/2021 3:11 PM] glasgowm#9381
+I imagine that'd make it less private
+
+
+[07/08/2021 3:12 PM] glasgowm#9381
+@anon2020s anyway to redeem all tokens? still stuck
+
+
+[07/08/2021 3:23 PM] Kaven#6681
+that had not occurred to me. a doc on maximizing privacy gains would be helpful. following the steps is tricky enough for the user, let alone knowing whats happening under the hood and how to leverage that for maximum privacy gains.
+
+
+[07/08/2021 3:24 PM] Kaven#6681
+i'm also not confident about hard coded ip addresses, is there a discovery mechanism i can use dynamically for this?
+
+
+[07/08/2021 5:24 PM] Kaven#6681
+thinking about this more, it would be concerning to me if privacy depended on a small handful of nodes. when is privacy achieved? 2 nodes? 4? 10?
+
+
+[07/08/2021 5:25 PM] Kaven#6681
+and going forward how are we to determine which nodes to use, their ip addresses, and in large enough amount to be functionally private
+
+
+[07/08/2021 8:16 PM] glasgowm#9381
+I was just guessing btw it could be equal and just simpler to not require a node installed - will need to wait for anon. I doubt any benefits could be gained from setting it to your own node (or it would've been a recommended option).
+
+
+[07/08/2021 10:31 PM] Kaven#6681
+i think the benefit is you know it and trust it and you are assured it is up and running instead of having to trust random ip's off the internet
+
+
+[07/09/2021 5:01 PM] Canberry#7404
+you don’t trust random people on the internet?
+
+
+[07/09/2021 5:01 PM] Canberry#7404
+https://tenor.com/view/arthur-internet-tell-lies-buster-lie-gif-4986649
+
+{Embed}
+https://tenor.com/view/arthur-internet-tell-lies-buster-lie-gif-4986649
+LIE?? ON THE INTERNET??
+https://images-ext-1.discordapp.net/external/0PlQgY_QT6T01Xi_HwlXwiB-4xBUJLjG8r7SkLW8eKI/https/media.tenor.co/images/2f5632981832cddd8b029a58e43840c2/raw
+
+
+[07/10/2021 11:25 AM] glasgowm#9381
+They were using an old version of the mixer, got their funds out by updating. Anon is just sorting mine out but they had withdrawn without me noticing - db had corrupted since my m1 is a drama queen and prone to a kernel panic.
+
+
+[07/21/2021 12:03 AM] kushti#0978
+Also, ceremonies are complex, and a single bug in a paper or its implementation can make the ceremony compromised.
+
+{Reactions}
+ergo_white (2) 👍 
+
+[07/22/2021 6:32 PM] Peppers#1111
+Hi everyone, we are releasing Merch of ErgoMixer so Ergonauts can show it around and tell their friends about it!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/867821530112327710/Ergomixer1.jpg
+
+
+[07/22/2021 6:32 PM] Peppers#1111
+This is the design we will go with.
+
+
+[07/22/2021 6:33 PM] Peppers#1111
+@anon2020s I hope you like this! 🙂
+
+
+[07/29/2021 9:13 AM] 7eVen#9599
+Pirate Chain uses zk-SNARKs and it’s privacy by default model is better than privacy Ergo has to offer. I love Ergo but this is just a weak argument.  There are many ways to generate “fake coins.” It isn’t exclusive to a trusted setup. Which can be viewed and watch and as you pointed all it would take is 1 person to be honest.
+
+
+[07/29/2021 3:18 PM] glasgowm#9381
+Better is subjective here. Rich contracts and simplicity are the priority in Ergo, and smart-contracts make privacy a lot harder. There's also strong arguments for optional privacy for adoption. 
+
+Privacy by default could be enabled for every transaction in Ergo. Maybe the community will do it someday or maybe integrating mix-nets becomes common-place instead.
+
+
+[07/30/2021 7:23 PM] Dergler#0451
+I like the idea of using covert addresses for every box received
+
+
+[07/31/2021 5:57 AM] 7eVen#9599
+I do not get the arguments in favor of the optional privacy models. Mixers are being attacked by governments and alphabet agencies just as mucho as privacy by default coins. They won’t even let people buy and hold Monero in a transparent address. Also, my rights aren’t optional and therefore not up for negotiation or for the sake that it gets adopted. Also, If it isn’t default from the start then it’s pretty much too late. I love the project. Been big on Ergo since just about the start but we know that it isn’t as private and secure as Pirate Chain and that’s fine for many. They all have their uses. I’ll be back each project that puts privacy as a priority. Love Ergo. Love the developers. Love the community.
+
+
+[07/31/2021 5:59 AM] 7eVen#9599
+Even Bitcoin gets a bad wrap for “private unknown transactions in the scary dark web” and it has a public ledger. They want to see all transactions and the wallets of everyone. They will not compromise. We should not compromise either.
+
+
+[07/31/2021 11:11 AM] glasgowm#9381
+It's not a compromise ARRR has to make as it doesn't have smart-contracts though? I believe with enough pool participants ergomixer may rival it on privacy too. But Ergo is more meant as a base-layer, other (private) chains will be able to utilise things like ergomixer from ergo, and private-by-default applications and chains can be built ontop (such integrating the mixer into a wallet)
+
+
+[08/01/2021 9:08 AM] 7eVen#9599
+It is a compromise if you go the optional privacy route because you want adoption.
+
+
+[08/01/2021 9:09 AM] 7eVen#9599
+I understand the differences. That’s fine. Each has its use.
+
+
+[08/01/2021 9:12 AM] 7eVen#9599
+Integrating the mixer into the wallets would be nice.
+
+
+[08/01/2021 9:13 AM] 7eVen#9599
+The more projects that focus and prioritize privacy the better.
+
+
+[08/01/2021 9:14 AM] 7eVen#9599
+In my opinion these coins are in a league of their own and thus should be held to the highest standards.
+
+
+[08/01/2021 10:32 AM] glasgowm#9381
+It's mostly for smart contracts tho afaik. There's just strong arguments for adoption too.
+
+
+[08/01/2021 10:33 AM] glasgowm#9381
+Also a new related group on tg: @cryptoprivacyagora
+
+
+[08/02/2021 11:37 AM] nitram147#5106
+That's true, however I forgot to mention another HIGHLY dangerous thing. The computer where MPC ceremony hold place should also be secure and destroyed after the ceremony - otherwise it could leak keys which can be used for construction of fake proofs. There's really strong game theoric incentive to integrate some backdoor to the software or even hardware of MPC computer. There were even attacks (not on MPC computer but on some computer somewhere), where malware transferred private keys out of the device by extremely fast blinking of led diodes on notebook (people couldn't see it, but the high fps camera could). You can even use high frequency audio output or even "esoteric" hard to detect things like high frequency RF noise. You would be surprised what's possible. You could listen to the people communication by pointing hight fps camera through the telescope to the bag of chips behind the window in the 100meters away building (and it's working, there are PoC videos on youtube). Or you can stalk your neighbours through the wifi signal (you can build "wifi" camera, which uses signal strenght of wifi to determine objects behind the wall). There are tons of these "unreal" scifi spy looking examples....
+
+{Reactions}
+🇹 🇷 🇺 🇪 ergo_white 
+
+[08/02/2021 11:39 AM] nitram147#5106
+And now imagine that you are building a mixer which will hold billions of dollars and if you are clever enough you can introduce some genius backdoor as I mentioned and drain mixer step by step in a clever way that nobody will know about it. You can became a billionaire. So there's huge game theoric incentive for you to do it. Same goes for the authors of the cryptographic protocol itself and etc.
+
+
+[08/02/2021 11:43 AM] nitram147#5106
+With that amount of money, you can literally change the world if you want. People do various things for much smaller amounts of money. So in this scenario it's almost 100% probable that somebody tried to exploit the MPC ceremony in some way...
+
+
+[08/02/2021 2:36 PM] danandbeard#2312
+There are plenty of reasons to want optional privacy - transparent ledgers are a feature for many use-cases.  e.g. charities  that want everyone to have full access to the flow of funds.  The ability to operate with privacy or with transparency is a feature, I'm not sure why anyone would want fewer options.
+
+
+[08/06/2021 6:44 AM] 7eVen#9599
+Well because it can compromise the privacy and security of others.
+
+
+[08/08/2021 10:35 PM] MGpai#4313
+How  long does mixing take does anyone know?
+
+
+[08/08/2021 11:01 PM] glasgowm#9381
+depends how many rounds you set. couple hours anyway
+
+
+[08/08/2021 11:27 PM] MGpai#4313
+I set 3
+
+
+[08/08/2021 11:28 PM] glasgowm#9381
+You can go in and see how many mixes it's done and withdraw at anytime
+
+
+[08/09/2021 12:15 AM] MGpai#4313
+ok thanks
+
+
+[08/09/2021 12:45 AM] MGpai#4313
+Is this happening correctly?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/874075944401375242/unknown.png
+
+
+[08/09/2021 12:46 AM] MGpai#4313
+I been waiting for 3 hours
+
+
+[08/09/2021 12:47 AM] MGpai#4313
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/874076292436344842/unknown.png
+
+
+[08/09/2021 12:47 AM] MGpai#4313
+this is what the progress looks like
+
+
+[08/09/2021 5:57 AM] Gazza_SP#5835
+If it says running it should be fine, it takes quite awhile. Might be over 24 hours with a number of mixes.
+
+
+[08/09/2021 8:29 AM] glasgowm#9381
+yep, but will be longer with 1erg probably as no one is using that ring
+
+
+[08/09/2021 4:56 PM] MGpai#4313
+If someone has the time can you explain how these mixes work?
+
+
+[08/09/2021 5:18 PM] Gazza_SP#5835
+https://ergoplatform.org/en/blog/2021-05-12-ergomixer/
+
+{Embed}
+https://ergoplatform.org/en/blog/2021-05-12-ergomixer/
+ErgoMixer
+The Ergomixer is the first …
+https://images-ext-2.discordapp.net/external/e58zzCrc34fUlCkY9nPg-2FehEstx7OAo3oCcNS20OY/https/ergoplatform.org/img/uploads/ergomixnew.jpg
+
+
+[08/09/2021 5:18 PM] Gazza_SP#5835
+Here's everything you need!
+
+
+[08/09/2021 5:18 PM] MGpai#4313
+Thanks!
+
+
+[08/12/2021 10:56 PM] Doomelf#7740
+is there a good how to guide for the mixer? i have yet to use it
+
+
+[08/13/2021 11:29 PM] glasgowm#9381
+There's one on ergonaut.space and the git.
+
+
+[08/22/2021 6:32 PM] Kaven#6681
+does number of mixes factor out the variable of how many other addresses are mixing with? in other words, it wouldnt matter how many addresses are mixing at a given point in time because your mix will take as long as needed to meet the required number of mixes you set?
+
+
+[08/22/2021 6:35 PM] Kaven#6681
+second question, does achieving good privacy with a mixer require sending funds from one to many addresses? i.e. if i send 19.234 erg and receive 19.234 erg in another addy, then this could be a strong enough indicator to deduce source addy? corollary to this -- would withdrawing arbitrary amounts _over time_ be a good privacy enhancing solution?
+
+
+[08/22/2021 6:36 PM] Kaven#6681
+and whats better splitting withdrawals across addresses, across time, or a mix of both
+
+
+[08/22/2021 6:36 PM] Kaven#6681
+having these privacy considerations broken down into practical advice for the lay person would be super helpful.
+
+
+[08/22/2021 6:38 PM] Kaven#6681
+it seems like chain analysis could do wonders in checking for permutations of original balance that fit the exact number of tokens across other addresses, unless a very complex scheme of recipient addresses is used, and withdrawals from the mixer are spread over a long period of time?
+
+
+[08/22/2021 8:17 PM] Kaven#6681
+i mean should the user just put their entire balance in the mixer and let it run indefinitely and then pay out from there to a temp wallet as needed?
+
+
+[08/22/2021 8:56 PM] glasgowm#9381
+There's rings in the mixer so you can't withdraw exact amounts like that
+
+
+[08/22/2021 8:57 PM] glasgowm#9381
+You can setup a covert address to receive, it'll mix whenever you have the app open and withdraw when done.
+
+
+[08/22/2021 11:33 PM] Kaven#6681
+i mean i can just figure out how to use it, i just feel like i need a checklist of privacy maximizing steps and recommendations
+
+
+[08/22/2021 11:34 PM] Kaven#6681
+same way you can have a vpn and it can be completely worthless because you're browsing around authenticated to a google account or whatever
+
+
+[08/22/2021 11:34 PM] Kaven#6681
+just because you use the mixer doesnt mean you're private right?
+
+
+[08/23/2021 12:36 AM] 777even | AgoraNodes#2624
+Is it operational at the moment?
+
+
+[08/23/2021 12:37 AM] Kaven#6681
+appears so. got v3.3.5 running here.
+
+
+[08/23/2021 12:38 AM] 777even | AgoraNodes#2624
+Nice.
+
+
+[08/23/2021 12:41 AM] Kaven#6681
+i just think there is probably very advanced chain analysis going on, probably ML-assisted even, wondering if the mixer is up to the task and if so, what steps do i need to take to maximize privacy.
+
+
+[08/23/2021 12:42 AM] Kaven#6681
+just seems like, "heres a mixer, heres what the ui controls do, godspeed"
+
+
+[08/23/2021 2:22 AM] 777even | AgoraNodes#2624
+They have some ambitious idea regarding the mixer and privacy features
+
+
+[08/23/2021 2:23 AM] 777even | AgoraNodes#2624
+Although it’s an optional privacy model they could (in theory if it works as planned) rival many privacy coins.
+
+
+[08/23/2021 2:24 AM] 777even | AgoraNodes#2624
+Aside from Pirate Chain, I think Ergo might be able to do a better job of it than  many of the others.
+
+
+[08/23/2021 3:30 AM] Kaven#6681
+my understanding is the privacy features of ergo are superior but exposed as optional primitives. those primitives can then be used to implement superior privacy features. the problem i have is, i'm given too much leeway and and not enough instruction on how to use them. as a newbie, i would want a clear path forward for something as important as the privacy preserving features. i think as it is, a newbie couldnt even use the mixer, and even someone technical like myself could probably botch it and expose originating/source address connections. see my point?
+
+
+[08/23/2021 4:43 AM] 777even | AgoraNodes#2624
+100 percent agree.
+
+
+[08/23/2021 4:43 AM] 777even | AgoraNodes#2624
+I’ve pointed some people towards Ergo and the Ergo mixer and they are having issues. They are also not new to crypto.
+
+
+[08/23/2021 6:55 AM] glasgowm#9381
+There's zk treasury for exactly this purpose called darkfund0
+
+
+[08/23/2021 6:57 AM] glasgowm#9381
+Mixer is a black box afaik. The higher the settings the better the mix. It's about making the coins anonymous rather than the user.
+
+{Reactions}
+ergo_white ergo_orange ergo_black 
+
+[08/23/2021 7:52 AM] 777even | AgoraNodes#2624
+Does Beta have test coins?
+
+
+[08/23/2021 7:52 AM] 777even | AgoraNodes#2624
+@glasgowm
+
+
+[08/23/2021 11:46 AM] CyberFelix#1521
+Cool
+
+
+[08/23/2021 5:16 PM] Kaven#6681
+@777even | AgoraNodes sounds like you're referring to ergodex?
+
+
+[08/23/2021 9:18 PM] 777even | AgoraNodes#2624
+Yes
+
+
+[08/23/2021 9:19 PM] 777even | AgoraNodes#2624
+Thought I was in the DEX folder lol
+
+
+[08/24/2021 8:50 PM] texas_miner#9831
+So if the users adress is not anonymous lets say erg gets listed to coinbase or you send ur coins from ur ur kucoin account to ur wallet, then to the mixer, they still see ur coins?
+
+
+[08/24/2021 8:50 PM] texas_miner#9831
+Ot tech savvy what so every
+
+
+[08/24/2021 8:50 PM] texas_miner#9831
+Trying to understand bc if you think ur private and ur not your exposing urself
+
+
+[08/24/2021 9:16 PM] mx#5165
+You have to look more into the base at the moment to see future possibilities, at the base you have multisig with no signers disclosure, then new features like covert address, multi hop withdrawals discovered slowly thanks to contracts possibilities, mixer can be just run locally at the same time. You can build Monero on top of Ergo, will it have better privacy guarantees? it is yet to be discovered. But you can think of private order books for example at the same time, similar to a simple and interesting payment network. I think that combining these things with NYM in the future can have more sense for scalable privacy.
+
+{Reactions}
+ergo_white 
+
+[08/25/2021 8:25 AM] texas_miner#9831
+So I can count on it to be private currently or not?
+
+{Reactions}
+🤦‍♂️ 
+
+[08/25/2021 9:56 AM] 777even | AgoraNodes#2624
+Yes. As time goes on and more users it’ll become “even more private” to put it simply.
+
+
+[08/25/2021 9:56 AM] 777even | AgoraNodes#2624
+It is an amazing feature.
+
+
+[08/25/2021 9:56 AM] 777even | AgoraNodes#2624
+You also can use other assets.
+
+
+[08/25/2021 9:57 AM] 777even | AgoraNodes#2624
+Absolutely it does.
+
+
+[08/27/2021 3:41 PM] t-right-on#0657
+Is it possible for the ergo mixer to be integrated to ErgoDex ?  So you could deposit into the mixer, let them chill and contribute, then when you wish to swap erg you can pull directly from the mixer into a swap, then receive into a supported ergo wallet. Is that a thing?
+
+{Reactions}
+👍 (6) 
+
+[08/29/2021 6:45 AM] Antares#2805
+A Dex with privacy features would be absolutely massive...I wonder if this is possible as well.
+
+{Reactions}
+👀 (2) 
+
+[08/30/2021 9:44 PM] texas_miner#9831
+Thanks @777even | AgoraNodes
+
+
+[09/01/2021 8:01 PM] Deleted User#0000
+im new into crypto, started 3 months ago,  just followed steps of this official video https://www.youtube.com/watch?v=03_2HH82Plw took me less than 30 min to understand and try, im mixing 10 ergs by now https://vvcap.com/img/0HmAsZt8h.png .  Super easy, amazing feature, amazing work.
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=03_2HH82Plw
+Introduction to Ergo Mixer - How to set up and configure mixer on W...
+Additional notes: https://ergoplatform.org/en/blog/2020_03_20_ergo_mixer/
+
+Another great video made by a community member Kst!
+https://images-ext-1.discordapp.net/external/BQbh83-wqYV4EV7WhdP4D5lA7n8ZNIwh20uvahG9mHg/https/i.ytimg.com/vi/03_2HH82Plw/sddefault.jpg
+
+{Embed}
+https://vvcap.com/img/0HmAsZt8h.png
+VVCap Image
+Image captured with VVCap
+
+{Reactions}
+ergo_orange (2) 💯 
+
+[09/08/2021 6:02 PM] AggerGakker#4449
+I have a question on providing liquidity on ErgoDex. Do you have to provide for both ends of a pair ( say ADA - ERG for example ) or can I just lock up my ERG sole if I wanted?
+
+
+[09/08/2021 6:10 PM] glasgowm#9381
+both sides
+
+
+[09/08/2021 6:13 PM] AggerGakker#4449
+Do we know what tokens will be listed at launch? Expecting ERG, ADA and SigmaUSD
+
+
+[09/08/2021 6:15 PM] glasgowm#9381
+SigmaUSD/SigmaRSV/ERG are already live. Think custom pools are next.
+
+{Reactions}
+💪 
+
+[09/08/2021 7:19 PM] Kaven#6681
+is the anonymity set for ergomixer the boxes actively mixed, or all boxes
+
+
+[09/08/2021 7:19 PM] Kaven#6681
+related - if there are no other mixes, does that negatively impact the anonymity or is that not a variable that matters
+
+
+[09/08/2021 7:50 PM] glasgowm#9381
+Not sure what your first question means. But yes on the second. Or at least the anonymity increasers with pool participation. If there are no other mixes it just won't mix though. Needs something to mix with.
+
+
+[09/08/2021 8:27 PM] Kaven#6681
+got ya, so anonymity set is only mixer participants
+
+
+[09/08/2021 8:28 PM] Kaven#6681
+i notice there are several mixing levels that correspond to 30/60/90 mixes, is there any way to benchmark the security each level provides? i dont know what context to put these numbers in.
+
+
+[09/08/2021 8:31 PM] glasgowm#9381
+the probability of guessing the original box after n mixes is 1/2^n
+
+
+[09/08/2021 8:31 PM] glasgowm#9381
+https://eprint.iacr.org/2020/560.pdf
+
+
+[09/08/2021 8:31 PM] Kaven#6681
+thanks sir, i will try to absorb this doc 👍
+
+
+[09/08/2021 8:31 PM] glasgowm#9381
+https://ergoplatform.org/docs/CBT_2020_ZeroJoin_Combining_Zerocoin_and_CoinJoin_v3.pdf
+
+
+[09/08/2021 8:35 PM] Kaven#6681
+when you say 1/2^n the n corresponds to the 30/60/90 of the levels?
+
+
+[09/08/2021 9:45 PM] glasgowm#9381
+yeh
+
+
+[09/08/2021 9:48 PM] glasgowm#9381
+boxes are indistinguishable from the outside. So you have a 50/50 shot at guessing each box it goes through - so guessing the original box after it's went through `n` mixes has a probability of `1/2^n`
+
+
+[09/08/2021 10:05 PM] Kaven#6681
+so level 1 at 30 mixes is already a 1 in 9.3E-10 odds of identifying box
+
+
+[09/08/2021 10:06 PM] Kaven#6681
+or ^10 i guess since i phrased it as inverse, but yeah
+
+
+[09/08/2021 10:08 PM] Kaven#6681
+level one is 1 in a billion chance
+
+
+[09/08/2021 10:08 PM] Kaven#6681
+level 2 is 1 in a quintillion chance
+
+
+[09/08/2021 10:11 PM] Kaven#6681
+aaaaaand level 3 would be 1 in 1.2 octillion
+
+
+[09/08/2021 10:12 PM] Kaven#6681
+but you know.... that only addresses the probability of "cracking" the mix right. like straight up brute force guessing the boxes. i think chain analysis is much subtler than that and likely uses ML to track down your exit boxes
+
+
+[09/08/2021 10:12 PM] Kaven#6681
+i'm guessing with low utilization of the mixer, i.e. low anonymity set, proper chain analysis can unmask your Tx easily, no?
+
+
+[09/08/2021 10:25 PM] glasgowm#9381
+How would it track them down? There's a 50% probability it'll be sent to either one. It uses half-mix boxes that allow 2 deposits from separate people and output to 2. 
+
+Not sure though as I've only skimmed the paper and it describes a couple different implementations. Paying the mixing fee externally seems to break privacy so I'm not sure how it's handled atm
+
+
+[09/08/2021 10:41 PM] Kaven#6681
+i understand that for 1 mix session there is a vanishingly small chance of being provably linked to a withdrawal address. i'm thinking more like, over time, your patterns of tokens sent from source wallet and possible withdrawal addy's could be correlated strongly enough to identify you perhaps.
+
+
+[09/08/2021 10:42 PM] Kaven#6681
+seems like you only get full benefit if you use a different wallet address for each withdrawal box, and thus sort of an 'entropy' of your tokens scattered across more and more withdrawal addresses
+
+
+[09/08/2021 10:43 PM] Kaven#6681
+because if you reuse the same withdrawal addy's over time, like you would in real life for friends, vendors, exchanges, or whatever. it seems like that activity could be correlated no?
+
+
+[09/08/2021 11:03 PM] anon2020s#6116
+there are different aspects to discuss. 
+- for sure, if you send 1000 Erg to mixer and after millions of rounds withdraw all of them to one single address, the security gain will be ruined. It is very important to withdraw carefully, to several addresses and with some time intervals.
+- This mixer is non-interactive with no middle man. you only work on your side and interact with blockchain.
+assume the mixing as a series of mini-mixes (rounds). At each round, you simply mix with one available box from another user. note that there is no interaction with that user. You simply fetch the available boxes, choose one of them, create a tx spending your box and that box and creating two 50-50 boxes. Only you and the other party will know the mapping, and no one else will distinguish the mapping.
+- in theory each round's distinguishability is 2^-1 for any observer but 100% for each participant.
+therefor, in theory the final distinguishability is 2^(-rounds).
+- in the worst case practice this distinguishability can be 100%. consider there are only you and an attacker mixing the boxes. in each step he knows the mapping, so he knows the final mapping as well. Here comes the pool size, if there are more people in the mixing pool, at least some of the boxes will be mixed with other people's, resulting in more indistinguishability.
+
+{Reactions}
+👍 (3) 
+
+[09/08/2021 11:39 PM] Kaven#6681
+does the backend contain any logic that uses the count of unique mix participants? or will it happily run all 30 or 60 mixing rounds with the same party?
+
+
+[09/09/2021 10:42 AM] nitram147#5106
+You cannot find whether is somebody an unique participant - that's simply unpossible in anonymous/pseudonymous systems.
+
+
+[09/09/2021 11:10 AM] anon2020s#6116
+- there is no way to differentiate between boxes in the pool, your mixer only knows yours and the mapping of last mixed boxes with others. also, it is not interactive, so you do not have any kind of interaction with others to avoid them.
+
+- Mixer fetches the available boxes and picks one randomly. 
+Note that there is some delays between mixes and it is configurable, so the whole mixing parties are working asynchronously. 
+
+- you can configure your mixer to mix every 10 minutes or every 10 days. 
+the idea is if there are more than two parties in the mixing pool at any time during your mixing period, suddenly some of the boxes will be picked from a parties which is not the attacker.
+
+- for sure, if you consider the whole system is only mixing by you and attacker, or if all other parties are corrupted and colluding with the attacker, the security is gain is zero. 
+
+- Simply, it is a non-interactive multi party protocol in which the colluding parties should not be ALL other parties. So, if at least one honest party is mixing in the pool, the resulting map will be indistinguishable to some degree to the attacker.
+
+
+[09/09/2021 4:15 PM] Kaven#6681
+sorry to be tedious, but how do "there is no way to differentiate between boxes in the pool" and "in the worst case practice this distinguishability can be 100%" coexist?
+
+
+[09/10/2021 7:59 AM] anon2020s#6116
+read the full sentence:
+" there is no way to differentiate between boxes in the pool, your mixer only knows yours and the mapping of last mixed boxes with others."
+
+you only know about the mappings of your boxes. 
+
+consider the case that only you and me are mixing and no one else, so there are no boxes in the pool that me and you do not know the mapping of. however, the mapping is not known to an outside observer.
+
+if someone else joins the pool, there will be some boxes of mine and him which you do not know the mapping with more that 50% guess. same for me about yours and his.
+
+
+[09/10/2021 10:51 PM] Kaven#6681
+got it
+
+{Reactions}
+ergo_orange 
+
+[09/10/2021 11:19 PM] anon2020s#6116
+Ergonauts, choose one of these meme tokens to be officially added into ErgoMixer:
+
+🇩 Erdoge
+🇰 Kushti
+🇪 WT_ERG
+🇦 WT_ADA
+
+{Reactions}
+🇩 (11) 🇰 (24) 🇪 🇦 (3) 
+
+[09/10/2021 11:20 PM] anon2020s#6116
+@deleted-role
+
+
+[09/12/2021 1:24 AM] Deleted User#0000
+Hi, Have a queued mix waiting for me to send the tokens, was a try mix i made when was learning and im not going to send the tokens, cant find how to delete/cancel it, if its possible
+
+
+[09/12/2021 5:27 AM] Chris Ray#2713
+Curious as to what your  intention of adding a meme coin to the mixer is, would it be educational like I am assuming? If someone holds the meme coins and they can easily use the mixer wit low risk then maybe more people would use it I am guessing
+
+
+[09/12/2021 10:18 AM] anon2020s#6116
+exactly, for educational purpose. It will make the use of mixer risk free for beginners. 
+as you may know any token is mixable by mixer. I only can add a new token to the dashboard and make some default pools for it. All other tokens are mixable too through custom token option.
+
+
+[09/12/2021 5:13 PM] Chris Ray#2713
+Cool, I sent kushtis through the mixer after I saw Glasgow had mixed them, became familiar with sending custom tokens after messing up first, mostly people want an easy route, and honestly setting policy for a custom token threw me off for some reason, looking forward to it
+
+
+[09/12/2021 7:04 PM] Kaven#6681
+is there a faucet for kushtis?
+
+
+[09/12/2021 8:18 PM] anon2020s#6116
+idk
+
+
+[09/12/2021 8:19 PM] anon2020s#6116
+@glasgowm
+
+
+[09/12/2021 8:26 PM] anon2020s#6116
+or @mhs_sam
+
+
+[09/12/2021 8:29 PM] mhs_sam#1471
+No, there is no faucet for kushtis, but easy. I'm not aware of its distribution policy. If we have enough tokens, I can deploy its faucet in a few hours.
+
+{Reactions}
+♥️ 
+
+[09/12/2021 11:00 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/886733131024072714/unknown.png
+
+
+[09/13/2021 12:35 AM] Kaven#6681
+LOL
+
+
+[09/13/2021 4:42 AM] Chris Ray#2713
+There is no formal policy, I did some big giveaways to spread them out, lately I have been sending out 10k at a time to users so that distribution does have a far reach, I absolutely would love to load up a faucet so there is an option for our community to get them as they need them and also they will be capable of sharing the mixer with friends at a low cost to test.
+
+
+[09/13/2021 6:16 AM] Kaven#6681
+saw a youtube video just now where sebastien guillimot claims ergomixer is not a good privacy solution because it taints coins and you'll get blacklisted. is this true?
+
+
+[09/13/2021 6:17 AM] Kaven#6681
+i mean, i realize "blacklisting" depends on the exchange of course. i guess i'm just wondering about tainting coins. does being non-custodial remove this issue?
+
+
+[09/13/2021 6:39 AM] tflynn#6411
+Decentralised exchanges cant ban your coins.
+
+
+[09/13/2021 6:40 AM] Kaven#6681
+dont wanna get sidetracked on the blacklist aspect of this
+
+
+[09/13/2021 6:40 AM] tflynn#6411
+And it would be incredibly stupid for centralised onedls to try
+
+
+[09/13/2021 6:40 AM] Kaven#6681
+more wondering the technical side of ergomixer tainting coins or not
+
+
+[09/13/2021 6:44 AM] tflynn#6411
+Oh if people are trying to track illegal activity through specific coins an ergo mixer would make that impossible. Therefore tracking would be pointless. That also means labeling some coins as tainted would be pointless as after that point anyone could have them. So no not taintable
+
+
+[09/13/2021 6:52 AM] Kaven#6681
+ok so i guess i just mean, once a coin goes thru ergomixer, is there any way to know that it was mixed
+
+
+[09/13/2021 6:54 AM] Kaven#6681
+if i understand correctly its a simple matter of knowing the addresses for the mixer contracts on eth/bsc, or the wallet addresses of the mixer service for btc
+
+
+[09/13/2021 6:55 AM] Kaven#6681
+wondering how "tainting" works with ergomixer, if at all.
+
+
+[09/13/2021 10:31 AM] glasgowm#9381
+Yes you can tell it's mixed, because it's only traceable back to the mixer.
+
+
+[09/13/2021 10:31 AM] glasgowm#9381
+I think both CEXs and "DEXs" already do this to an extent. Not for mixed coins, but using tradeogre can do it
+
+
+[09/13/2021 12:22 PM] anon2020s#6116
+it's true for any mixed coin on almost any ledger I know. You can tell if a coin is mixed or not due to its history and contract address. 
+But, when you withdraw the mixed coins (during the mix or after), you can regularly  move them around since they are regular boxes with regular contracts (like other coins in the network). this will eliminated the tainting issue to some degree. you can do this manually or using multi-hop withdrawal (available at https://ergoutils.org/#/others).
+this feature will be integrated into mixer in the future.
+"Your mixer withdrawal will go through a bunch of random addresses and you will receive them from an ordinary address" -ergoutils
+
+There are rummer that some exchanges care about mixed coins like btc,... AFAIK they care about custodial laundering services (e.g on dark web) and do not care about Samourai wallet for example. Also, there is a maximum depth of history to be monitored, which multi-hop will address this problem in most cases.
+
+
+[09/13/2021 4:54 PM] Kaven#6681
+gotcha thanks for the clarification
+
+
+[09/16/2021 7:02 AM] Zeiezee#0876
+testing out ergomixer, 1 out of the 4 "Used Node Addresses" are crossed so can i still test mixing? Or do i need all 4 addresses to be ticked?
+
+
+[09/21/2021 8:31 PM] mhs_sam#1471
+yes, any node available is okay
+
+
+[09/21/2021 8:32 PM] mhs_sam#1471
+@anon2020s seems you added kushti token to the mixer. let's provide the kushti faucet. which domain is suitable?
+
+
+[09/22/2021 1:40 AM] Chris Ray#2713
+Let me know how that goes, there has been some interest in using the k tokens to get familiar with the mixer 🙂 have had several people reach out to me for them.
+
+
+[09/24/2021 9:56 PM] Armeanio#0321
+https://www.reddit.com/r/ergonauts/comments/pusash/community_content_bounty/?utm_medium=android_app&utm_source=share
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/pusash/community_content_bounty/?utm_medium=android_app&utm_source=share
+r/ergonauts - Community Content Bounty
+0 votes and 0 comments so far on Reddit
+
+
+[09/24/2021 11:51 PM] ! Raul#4559
+https://www.reddit.com/r/ergonauts/comments/pusash/comment/he5ajd4/?utm_source=share&utm_medium=web2x&context=3 
+
+Upvotes are appreciated
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/pusash/comment/he5ajd4/?utm_source=share&utm_medium=web2x&context=3
+r/ergonauts - Comment by u/TheRaul5677070 on ”Community Content Bou...
+36 votes and 3 comments so far on Reddit
+
+
+[09/26/2021 12:37 AM] 777even | AgoraNodes#2624
+Is the mixer fully operational now?
+
+
+[09/26/2021 4:23 PM] glasgowm#9381
+yes
+
+
+[09/27/2021 3:24 AM] 777even | AgoraNodes#2624
+Where would I get the test tokens to try out the mixer?
+
+
+[09/27/2021 3:25 AM] 777even | AgoraNodes#2624
+Also, can I mix bitcoin, monero, BNB, ETH and other coins as well?
+
+
+[09/27/2021 3:22 PM] Deleted User#0000
+The more i see mixer info the more i wanna mix everything I own and break the chain back to me.
+
+
+[09/27/2021 3:22 PM] glasgowm#9381
+I can send you some
+
+
+[09/27/2021 3:23 PM] glasgowm#9381
+You can mix any native erg tokens - so you could mix wrapped bitcoin, xmr, bnb, eth, etc.
+
+
+[09/27/2021 3:23 PM] glasgowm#9381
+I think ergomixer is the first to allow that
+
+
+[09/29/2021 5:08 AM] 777even | AgoraNodes#2624
+They have to be wrapped versions?
+
+
+[09/29/2021 5:08 AM] 777even | AgoraNodes#2624
+Also where would one hold the test tokens like ErDoge, Kushti, WT_ADA?
+
+
+[09/29/2021 5:13 AM] 777even | AgoraNodes#2624
+Also I am seeing different versions of the mixer on GitHub. Can I get a link to the latest fully operational Ergo Mixer?
+
+
+[09/29/2021 6:02 AM] CW#8500
+https://github.com/ergoMixer/ergoMixBack/releases
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases
+Releases · ergoMixer/ergoMixBack
+Mix your ergs and tokens with ErgoMixer. Contribute to ergoMixer/ergoMixBack development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/h_FKeFfNSeI4vIxjzhUbWaYK4fcC7G8dYnELc4Ke6Xw/https/opengraph.githubassets.com/f9ea9d90f5abd993427a34200face3e10255fde630048f69a1d0669a09fc3093/ergoMixer/ergoMixBack
+
+{Reactions}
+👍 
+
+[09/29/2021 8:01 AM] glasgowm#9381
+Of course yes, they're different blockchains.
+
+
+[09/29/2021 8:01 AM] glasgowm#9381
+Your wallet
+
+
+[09/29/2021 6:23 PM] glasgowm#9381
+https://cardmix.io/whitepaper.pdf
+
+
+[09/29/2021 8:03 PM] riceandbeans#8213
+How much of this is done?
+
+
+[09/29/2021 9:16 PM] glasgowm#9381
+of what sorry?
+
+
+[09/29/2021 9:17 PM] riceandbeans#8213
+The mixer
+
+
+[09/29/2021 9:20 PM] glasgowm#9381
+yeh ik but I posted a link to an ADA mixer directly before you. If you mean ErgoMixer it's been done since last year.
+
+
+[09/29/2021 9:21 PM] glasgowm#9381
+tokenisation is happening now
+
+{Reactions}
+👍 (2) 
+
+[09/30/2021 10:31 PM] Peeved#0730
+that Cardano Mixer has to be custodial because Cardano doesn't have sigma protocols right?
+
+
+[10/02/2021 9:27 AM] mhs_sam#1471
+That's interesting to me. I will take a look in a few days. anyway the website indicates "Trusted setup ceremony and mainnet release". So it needs a trusted setup at least.
+
+
+[10/02/2021 9:29 AM] mhs_sam#1471
+@anon2020s please look at this wp
+
+
+[10/02/2021 9:30 AM] mhs_sam#1471
+also, ergofaucet is almost ready. I'm waiting for some UI changes.
+
+
+[10/04/2021 12:31 PM] vegycslol#1714
+In mixer it says `distribute erg in different rings automatically or manually`, what do you need to click for this to be done automatically? That part is not intuitive to me
+
+
+[10/04/2021 1:02 PM] glasgowm#9381
+a covert address will automatically place into rings based on your settings when creating the address. I'd assume there's a default setting for the normal mixing method too.
+
+
+[10/04/2021 1:38 PM] vegycslol#1714
+I just want to see the procedure how my grandma would mix the coins (preferably it would be a 1 click for mostly good enough privacy or have a security guarantee slider or smth), i wouldn't even let her see those advanced options, they're mostly needed by maybe 1% of the users imo (if many users are using the mixer)
+
+
+[11/01/2021 10:51 AM] misosoup#3130
+Hello, when using the ergomixer on the ergoutils website, I was trying to send some NFTs out of my wallet with a super small amount of ERG, which I think was not enough to cover the mixer fee.  How can i resolve this?
+
+
+[11/01/2021 10:53 AM] misosoup#3130
+https://explorer.ergoplatform.com/en/transactions/28931134528b0b13c5f5de327e09c0882f2cd1d871e85726005180c18f894454
+
+
+[11/01/2021 10:54 AM] misosoup#3130
+This is my hop deposit address: 9g3q8PQJQZkCM6Pk8beWV4hSicPXp4fampoubekaKPnGVHgEdQX
+
+
+[11/01/2021 10:56 AM] misosoup#3130
+I sent another transaction through the hop after doing this with an amount of 1 ERG, and that transactions went through fine, but this one is still stuck
+
+
+[11/01/2021 10:57 AM] glasgowm#9381
+There's nothing for your NFTs to mix with is the problem. I believe @anon2020s picking them out your database is the only way to get them back.
+
+
+[11/01/2021 10:57 AM] misosoup#3130
+Should i message him directly?
+
+
+[11/01/2021 10:58 AM] glasgowm#9381
+sure
+
+
+[11/01/2021 11:00 AM] misosoup#3130
+Got it, thanks man
+
+
+[11/10/2021 8:46 AM] Crypto Cream#4657
+how long does the mixer normally take? Mines been in progress for almost 24 hours now
+
+
+[11/10/2021 8:51 AM] glasgowm#9381
+Depends on how many rounds, you can stop and withdraw at any time too
+
+
+[11/10/2021 9:26 AM] Crypto Cream#4657
+🤔
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/907924149551386684/unknown.png
+
+
+[11/10/2021 9:29 AM] Crypto Cream#4657
+addresses hidden ofc
+
+
+[11/10/2021 9:35 AM] glasgowm#9381
+what are you trying to mix?
+
+
+[11/10/2021 9:56 AM] Crypto Cream#4657
+Just Erg
+
+
+[11/10/2021 10:18 AM] glasgowm#9381
+and its been displayed the running status the past 24hrs?
+
+
+[11/10/2021 10:18 AM] glasgowm#9381
+Does it say you're connected? VPN/Firewall conflict maybe?
+
+
+[11/10/2021 10:30 AM] Crypto Cream#4657
+yeah
+
+
+[11/10/2021 10:30 AM] Crypto Cream#4657
+connected fine, I'll withdraw and try again
+
+
+[11/10/2021 11:24 AM] Crypto Cream#4657
+ah I was only mixing 2 Ergs for some testing, I guess under 10 there's not enough to mix with?
+
+
+[11/11/2021 7:37 PM] anon2020s#6116
+yes, mixing is a collaboration with others through the blockchain. If no one is present in the selected mixing pool (1ERG in your example) your mixer waits and waits. Before starting a mix, you can see the Ring Status in the mixer to find out if other/enough users are mixing in the desired ring.
+
+
+[12/05/2021 9:08 AM] anon2020s#6116
+Please update your config file. In the node section of config file update the ports of these two nodes:
+165.227.26.175:16042
+159.89.116.15:11088
+
+In some versions of Windows, the tray icon may not work to open the config file. The config file is located at: C:\Program Files\ergoMixer\app\conf\application.conf
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/916979218196357150/mixerconfigupdate_-_Copy.jpg
+
+
+[12/05/2021 9:19 AM] anon2020s#6116
+📢  
+'COMET' token is officially added to ergomixer.
+
+{Reactions}
+ergo_orange (3) 
+
+[12/12/2021 8:39 PM] Kaven#6681
+anyone ever build the mixer on openbsd?
+
+
+[12/12/2021 8:40 PM] Kaven#6681
+getting stuck on dependencies, installing sbt is confusing for example
+
+
+[12/13/2021 12:14 AM] lxzybones#3159
+no experience on openbsd, but building with the jar file is pretty seamless
+
+
+[12/13/2021 6:27 PM] Kaven#6681
+yeah i figure once i'm able to get graalvm and sbt on there it should build fine, theres just no clear instructions i can find for installing those
+
+
+[12/13/2021 7:47 PM] Kaven#6681
+btw i noticed that samouri wallet's implementation of coinjoin makes additional mixes after a certain point free to the user. i assume to encourage a larger anonymity set for everyone. is there any possibility of incentivizing this type of behavior on ergomixer? basically incentivize users to leave their tokens in the mixer for arbitrarily long period?
+
+{Reactions}
+👍🏻 
+
+[12/13/2021 8:01 PM] anon2020s#6116
+while working separately on implementing the profit sharing dapp, I'm researching some possibilities for liquidity pooling for the mixer. Simply the mixer should incentives users to mix large amount of tokens for a long time in order to receive some rewards. These users will make the rings bigger resulting in larger anonymity sets. 
+There are some technical and privacy concerns to be addressed.
+
+{Reactions}
+🙏 
+
+[12/13/2021 8:08 PM] Kaven#6681
+what if there is a threshold where the mix fee is positive, and then it declines with each mix, eventually going negative i.e. accruing small fees from the new entrants? sorry i know thats pretty non-technical haha
+
+
+[12/13/2021 8:09 PM] Kaven#6681
+anyway great to hear you're looking at incentivizing mixer liquidity! 🙌
+
+
+[12/29/2021 5:58 PM] nitram147#5106
+Currently mixer works by spending mixing fee tokens in exchange for paying fee in erg (If you're mixing two 10erg boxes, you want to have also two 10erg boxes on the output of the mixing transaction, however fees have to payed from somewhere - there are boxes containing ergs which you can use as the another input to the mixing transaction and pay erg fee from them - however you have to burn some mixing tokens in order to do so and also recreate the boxes on the same smartcontract address with new amount of erg equal to old amount minus fees. You can buy these tokens before mixing from another box).
+
+
+[12/29/2021 6:01 PM] nitram147#5106
+That's the current scheme based from my observation (if I remeber correctly there wasn't any detailed specification of this process (it's current implementation) in the ergomixer whitepaper).
+
+
+[01/01/2022 7:34 PM] Galim81#0252
+Hi There, 
+I have a few questions on the mixer. I am looking at transaction privacy and see the Mixer as being an option. I’m average at best from a technical point of view so apologies if some of these questions aren’t relevant. 
+1)    In an ideal scenario (sufficient participants and no network issues), is there an average time to complete a mixer request or a maximum theoretical time it could take. What is the fastest time it could be completed?
+2)    Is there an upper maximum to the number of mixer requests that can be processed through the mixer dapp?
+3)    Is there an upper maximum to the number of tokens that can be submitted at one time? 
+4)    Is there a minimum value to the token that can be submitted?
+5)     On a test mix I did the fee for a 10 erg mix was 0.4erg. Can the fee scale up and down dynamically? Can thresholds be set where, for instance, mixes of under 10 erg are free, then put in % bands depending on the value being mixed and finally adding a maximum cap to the fee. 
+6)    In a Trader/consume transaction. Is there a way of using the Mixer at the centre of a 2 party transaction. Person buying goods, funds go into the mixer to hide the senders details (consumers), funds move to the trader in a way to hide their receiving address. (issue to a covert address). End result is that neither the sender or received can see the other persons wallet address. 
+Sorry for all the questions and I appreciate any input people can provide. 
+Cheers
+
+
+[01/02/2022 5:55 AM] nox071218#1778
+I would provide liq for the mixer. I hope this happens!
+
+
+[01/02/2022 7:02 AM] nox071218#1778
+Integrate with ergo-wallet please
+
+
+[01/06/2022 11:32 AM] punksnotdead#7072
+https://discord.com/channels/668903786361651200/852478885744345118/928607598406684672
+
+
+[01/13/2022 6:02 AM] nox071218#1778
+can anyone tell me a easy way to grab address off my ergo mobile wallet? i want to add a bunch of them to a covert address but copying one by one could end up with me messing something up. i was able to load a bunch of address using the node wallet, but would like to do the same with my mobile wallet.
+
+
+[01/16/2022 8:35 PM] nox071218#1778
+what the longest someone has waited for ergo mixer to pay out after pressing the withdraw button when using covert address? going on a day for me now
+
+
+[01/16/2022 11:29 PM] glasgowm#9381
+Are you sure it didn't come through? Sometimes you can get one that hangs in the UI but has actually paid out
+
+
+[01/16/2022 11:34 PM] nox071218#1778
+yes i have it paying out to my node wallet and when i go to look it doesnt show the money. additionally i cant go into the ergo explorer and see any transactions posted to the address listed.
+
+
+[01/16/2022 11:34 PM] nox071218#1778
+I see the following when i go into my covert history for all withdraws
+
+
+[01/16/2022 11:34 PM] nox071218#1778
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/932417684052774922/unknown.png
+
+
+[01/16/2022 11:35 PM] nox071218#1778
+been that way for about a day now
+
+
+[01/16/2022 11:36 PM] glasgowm#9381
+@anon2020s
+
+
+[01/16/2022 11:37 PM] nox071218#1778
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/932418298094686279/unknown.png
+
+
+[01/16/2022 11:37 PM] nox071218#1778
+thanks
+
+
+[01/17/2022 8:08 AM] anon2020s#6116
+what's the version of your mixer?
+open the log file and see if there is an error in the logs
+
+
+[01/17/2022 6:15 PM] nox071218#1778
+i sent you the log file; but i'm starting to see money come through now. no idea why it took so long; this morning i safely quit ergo mixer and started it back up and it was sent.
+
+
+[01/17/2022 7:16 PM] anon2020s#6116
+There was not boxes in the pool until morning, so it's possible that this was the case. I see a few boxes right now. I will see the logs just in case.
+
+
+[01/17/2022 7:37 PM] nox071218#1778
+Thank i got paid out; not sure what i did to make it take so long usually when i withdraw i get my deposit within a day. i was never worried about losing any money more so wondering why its taken so long. maybe i did something wrong
+
+
+[01/24/2022 4:21 AM] Deleted User#0000
+Ergomixer doesn't have a token right?
+
+
+[01/24/2022 4:22 AM] Deleted User#0000
+I couldn't find any info about it
+
+
+[01/24/2022 4:24 AM] Deleted User#0000
+Reason I'm asking is cause the only mixer being developed on Cardano is cardmix which needs to use a MIX token
+
+
+[01/24/2022 4:24 AM] Deleted User#0000
+which is a bit annoying to say the least
+
+
+[01/24/2022 9:21 AM] glasgowm#9381
+It's being tokenised at the moment.
+
+
+[01/24/2022 9:22 AM] Deleted User#0000
+Ah I see, where can I read more about it?
+
+
+[01/24/2022 9:22 AM] glasgowm#9381
+probably searching this server is best. Using this
+
+https://github.com/mhssamadani/ErgoProfitSharingDapp
+
+{Embed}
+https://github.com/mhssamadani/ErgoProfitSharingDapp
+GitHub - mhssamadani/ErgoProfitSharingDapp
+Contribute to mhssamadani/ErgoProfitSharingDapp development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/29-qF9rgNW9i9ZXVLu9zGDlcLg7i4ON0yzAMrHca-O4/https/opengraph.githubassets.com/e91e905193bd26386e3fd1400caa1176cb2649d1eb0d6055ffcedfa8d8d39805/mhssamadani/ErgoProfitSharingDapp
+
+
+[01/24/2022 9:23 AM] glasgowm#9381
+This service will provide a way for dapps to distribute gains among the dapps’ token holders.
+
+The first implementation of this will tokenise ErgoMixer, then subsequently Ergo Auction House, and Ergo Raffle.
+
+The ErgoMixer income (in ERG and other tokens) is currently received by its creator (‘anon2020s’), since it has only one stakeholder at the moment. He has announced that he is willing to create and sell some tokens in the near future to obtain more stakeholders; let’s call this token $MIX. Later, anyone with these $MIX tokens can stake them in the Profit Sharing contract and obtain the mixer’s incomes proportional to their staked tokens.
+
+So, it will not be way a way to ‘stake’ ERG at first. However in the future it could be used in some creative services to provide ERG-staking.
+
+https://www.ergoforum.org/t/a-solution-for-staking/1057
+
+{Embed}
+https://www.ergoforum.org/t/a-solution-for-staking/1057
+A solution for staking
+This topic proposes a solution for staking, which is not relying on data inputs and also scalable (can support thousands of tokens).  We consider the case of ErgoMixer, with profit from the mixer to be collected in a box associated with some “funding NFT” first. Then payments done periodically, in epochs (say, 1 epoch = 1,024 blocks). Epoch numb...
+
+
+[01/27/2022 7:33 PM] curbsideprophet#5083
+Doesn’t ErgoMixer (or at least the option) fall under here as well? https://www.reddit.com/r/CryptoCurrency/comments/sdzd23/are_any_cryptos_still_untraceable/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+{Embed}
+https://www.reddit.com/r/CryptoCurrency/comments/sdzd23/are_any_cryptos_still_untraceable/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+r/CryptoCurrency - Are any cryptos still “untraceable”
+88 votes and 221 comments so far on Reddit
+
+
+[01/27/2022 10:13 PM] Deleted User#0000
+do we have a fully working mixer already?
+
+
+[01/28/2022 10:54 PM] $aX#5658
+@Deleted User Yes. It's the channel you are in, ErgoMixer
+
+
+[02/11/2022 1:16 PM] anon2020s#6116
+I minted a new token 'FEMX', Future ErgoMixer Token.
+Token Id: 83c473e4ad477b1921023f61ab5bd1550a242c287475ff1c804f029d97672ae7
+
+It does not have any estimated value right now, maybe zero. I will airdrop and distribute this token in the next weeks. Holders of this token are eligible to receive ErgoMixer's token when it is ready.
+
+The tokenomics of the final token is not clear yet, but whatever it comes to be, some percentage of the tokens will be airdropped to community members, privacy and mixer related dapps, related tutorials, dapps and wallets integrating with the mixer, appkit development, ergo DAO, etc.
+
+{Reactions}
+👀 (17) ergo_white (7) 🔥 (3) ♥️ 
+
+[02/11/2022 1:28 PM] anon2020s#6116
+For starter, I will award Hackathon's participants as follows:
+- Every participant team: 1k
+- Every successful team: 1k
+- First Place: 10k
+- Second Place: 5k
+ - Third place: 2.5k
+- Every Mentor: 2k
+- Selected Community, NFT creators, NFT buyers, privacy advocates, article writers, twitter and discord users: 500-1k per selected user
+- Each dapp/projects/wallet/etc integrating with or contributing to ErgoMixer during the Hack: 5k
+
+{Reactions}
+🙌 (33) ergo_orange (19) ergonaut (7) 👀 (7) 🔥 (3) 😀 (2) ♥️ 
+
+[02/11/2022 1:31 PM] glasgowm#9381
+@Community Developer
+
+
+[02/11/2022 2:47 PM] mhs_sam#1471
+please add it to hack's announcements
+
+
+[02/11/2022 4:17 PM] Rob3#6008
+How does one qualify for the airdrop?
+
+
+[02/11/2022 5:41 PM] Doomelf#7740
+Thats awesome, look forward to more info!!! Wish i could help
+
+
+[02/11/2022 6:02 PM] Andrew P#6277
+He seems to have laid it out above, he will randomly pick people from community and the ergohack participants
+
+
+[02/11/2022 7:40 PM] anon2020s#6116 (pinned)
+Some clarifications:
+- Ergomixer is not OWNed by me, it belongs to the community. It is open source without any reserved rights, so anyone can improve it, fork it, or deploy it as soon as the result is open source too.
+- Ergomixer is programmable (through APIs) and you can build on top of it
+- I have an admin panel and I only can add OFFICIAL token support, define the rings and rounds, and set the maximum tx fee, nothing else. However, any token is mixable even if it is not added officially. 
+- This governance power will be handed to the community too.
+
+
+[02/11/2022 7:40 PM] anon2020s#6116
+According the FEMX token:
+- Ergomixer will be tokenized this year. I'm developing the so called Profitsharingdapp while still investigating other options like liquidity mining. 
+- By any means it get tokenized, I believe it belongs to these folks:
+-- users
+-- liquidity providers (making pools bigger and available)
+-- wallet developers 
+-- dapps using it
+-- peoples contributing to it by any means (writing or translating articles, people who brings privacy awareness to the community, vloggers, youtubers,...)
+-- security guys who spend time auditing the mixer or comparing it to other privacy tools
+-- Bounty hunters and white hackers (making it robust and secure)
+-- Bridges (opening the ergo's privacy tooling to other chains)
+-- Ergo as a whole (probably through to be built DAO)
+-- Ergo hodlers
+-- probably others whom I did not mentioned here
+
+Therefore, I needed a tool to account for the contributions before the mixer is being tokenized. FEMX is just a tool for me to track the contributions. 
+So the total supply and related stuffs are not meaningful here. The whole supply may or may not be used.
+I will send this token to anyone the community feels his/her efforts makes the ergo's privacy and security stronger and widespread.
+
+All the above will be airdropped by mixer's token when its time arrives. What percentage of mixer's token will be airdropped? idk now. Probably all of it, putting aside a percentage for future development and privacy DAO.
+
+{Reactions}
+ergo_orange (16) 👍 (5) ergo_white (3) 
+
+[02/12/2022 12:10 AM] glasgowm#9381
+Consolidating some info here. PRs welcome :) 
+
+https://docs.ergoplatform.com/uses/mixer/
+
+
+[02/12/2022 4:54 PM] Eysteinh (NBX) | ANP#2862
+Are miners part of these contribution?
+
+
+[02/12/2022 5:00 PM] anon2020s#6116
+Idk how, but probably yes. Do you have any idea?
+
+
+[02/12/2022 5:13 PM] Aberrans#4582
+Can’t wait for the mixer to be more widely used, it’s one of the most interesting thing being developed on the ecosystem tbh, some competition to Monero
+
+
+[02/12/2022 5:30 PM] anon2020s#6116
+just thinking of it right now, I can allocate some portions to miners/mining pools disregarding their hash rate. This way low hash rate pools get more to distribute between fewer miners. Maybe a way to incentivize more distributed hash rate? More investigation is needed tbh
+
+{Reactions}
+💡 (7) 
+
+[02/12/2022 6:36 PM] Eysteinh (NBX) | ANP#2862
+I think small and wide distribution is good. Preferably claimed by miners with interest in ecosystem
+
+{Reactions}
+👍🏻 
+
+[02/12/2022 6:37 PM] Eysteinh (NBX) | ANP#2862
+We want miners interested in governance.
+
+
+[02/12/2022 7:34 PM] curbsideprophet#5083
++1 and I personally like the idea of factoring mining uptime to the network rather than those who jump around
+
+{Reactions}
+👍🏻 
+
+[02/12/2022 7:43 PM] arkadias#4896
+personally mixer is my favorite
+
+{Reactions}
+👍🏻 
+
+[02/12/2022 9:08 PM] Cheese Enthusiast#0548
+Does mixing require a P2PK address? I wonder if miners would be interested in auto-mixed subpools that contribute liquidity to the mixer while holding payouts. Would be a win-win for miners who want private funds and other mixer users who need liquidity. But this would require compatibility with P2S addresses.
+
+{Reactions}
+👍🏻 
+
+[02/12/2022 9:33 PM] anon2020s#6116
+p2pk is needed, but the idea is cool. let's see what's possible with ergo's pow
+
+
+[02/12/2022 9:53 PM] siapaaku#5343
+@anon2020s sir how to participants for airdrop?
+
+
+[02/12/2022 9:54 PM] anon2020s#6116
+https://ptb.discord.com/channels/668903786361651200/762308254159863818/941780809122189333
+
+
+[02/12/2022 10:00 PM] Cheese Enthusiast#0548
+Would it be possible to support using propBytes instead of checking for public key? Haven't gotten the chance to look into mixer too much so not sure if that's possible. If not, subpools support P2S outputs, so maybe the subpool could ensure that its outputs are under the mixing contract and have the pk of the recipient miner coded in somehow.
+
+
+[02/12/2022 10:02 PM] siapaaku#5343
+@anon2020s Has the airdrop started?
+
+
+[02/12/2022 10:11 PM] anon2020s#6116
+I think you're not paying enough attention. Or is it really unclear?
+
+
+[02/12/2022 10:12 PM] siapaaku#5343
+@anon2020s I'm from Indonesia, sir, so I don't really understand, sorry😔
+
+
+[02/12/2022 10:20 PM] anon2020s#6116
+no worries sir, I will airdrop to anyone who contributes to the privacy and security of ergo. I will take into account what have been done from day one, so it includes any prior contributions. Therefore, yes the airdrop is started and will continue till the mixer is finally tokenized.
+
+
+[02/12/2022 10:25 PM] siapaaku#5343
+@anon2020s How does one qualify for the airdrop?
+
+
+[02/12/2022 10:27 PM] anon2020s#6116
+contribute by any means you can to the privacy and security of ergo platform in general and the ergomixer. See the mentioned categories above. There might be others which I did not thought of.
+
+
+[02/12/2022 10:34 PM] siapaaku#5343
+@anon2020s invite people?
+is it included?
+
+
+[02/12/2022 10:35 PM] siapaaku#5343
+@anon2020s I have a community of 1k people
+
+
+[02/12/2022 10:41 PM] anon2020s#6116
+why not? Translate ergo mixer and ergo privacy articles in the blog, let them know about ergo.
+
+
+[02/12/2022 10:56 PM] anon2020s#6116
+📢  new version of the mixer will be released tomorrow
+
+{Reactions}
+🧙‍♂️ (3) 
+
+[02/12/2022 11:56 PM] arkadias#4896
+Anything major?
+
+
+[02/13/2022 12:43 AM] anon2020s#6116
+completely refactored backend, custom appkit removed and using the official appkit, different database and atomic transactions for more robustness.
+On the UI/UX there is not much, a few more options and features like withdraw tokens (useful for stuck tokens), export private keys.
+
+
+[02/13/2022 9:37 AM] Aberrans#4582
+How can I help with translation ? On the GitHub or ?
+
+
+[02/13/2022 4:39 PM] abdulmuhsin#6048
+hi @anon2020s, why windows defender block ergomixer.exe?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/942460072917880853/unknown.png
+
+
+[02/13/2022 4:59 PM] anon2020s#6116
+It is not code-signed.
+Should you trust? No, you can build the code and compare the executables.
+
+
+[02/13/2022 5:00 PM] abdulmuhsin#6048
+ok i will try
+
+
+[02/13/2022 5:02 PM] anon2020s#6116
+If you want to run it anyway, you can click on More info.
+
+
+[02/13/2022 5:05 PM] abdulmuhsin#6048
+No run button..
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/942466512604762133/unknown.png
+
+
+[02/13/2022 5:15 PM] anon2020s#6116
+You've probably set the setting of Defender to "Warn and prevent bypass". You can change this setting in App & browser control
+
+
+[02/14/2022 11:30 AM] no1smove#0177
+Possibly a look at all the wallets that participated in Getblok vote would be a start? Would only scratch the surface in terms of miners interested in governance though..
+
+
+[02/14/2022 2:26 PM] anon2020s#6116
+📢  ErgoMixer 4.0.0 is released!
+
+Changelog:
+
+- Database migration to SLICK
+- New APIs for exporting private keys and withdrawing assets
+- Replacing custom AppKit with the official AppKit
+- More unit tests
+- Adding github actions
+- Fix for sigusd/sigrsv actions (due to a bug in wasm)
+- New features: withdraw assets, export private keys
+
+
+Note 1: Shutdown the mixer if you have a running mixer. It should run smoothly but make sure to backup prior to upgrade.
+
+Note 2: As a new feature in this version, you can export the private keys of your covert addresses, one by one or all at once. It is a good practice to export and save them in a safe place.
+
+https://github.com/ergoMixer/ergoMixBack/releases/tag/4.0.0
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases/tag/4.0.0
+Release Mixer-4.0.0 · ergoMixer/ergoMixBack
+Changelog:
+
+Database migration to SLICK
+New APIs for exporting private keys and withdrawing assets
+Replacing custom AppKit with the official AppKit
+More unit tests
+Adding github actions
+Fix for sig...
+https://images-ext-1.discordapp.net/external/OQitjJvCGgZnXProfOaUYXDgC66GcMdMCiEmTKthpfI/https/opengraph.githubassets.com/0cd179abf0c50683124f375be4ab2c346e5a7545aabf95fc3b5b3a136cc19e87/ergoMixer/ergoMixBack/releases/tag/4.0.0
+
+{Reactions}
+👍 ergo_orange (2) 
+
+[02/14/2022 3:53 PM] glasgowm#9381
+Getting this with the .dmg
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/942810705592193094/unknown.png
+
+
+[02/14/2022 10:21 PM] anon2020s#6116
+when source is web, mac becomes silly. If you download the same file in the terminal in the mac, the issue must be resolved.
+https://stackoverflow.com/questions/37791355/gatekeeper-quarantine-issue-with-certificate
+
+{Embed}
+https://stackoverflow.com/questions/37791355/gatekeeper-quarantine-issue-with-certificate
+Gatekeeper quarantine issue with certificate
+Our app has been code signed. Our Apple certificate is up to date. Previous versions of our app have run just fine.
+
+However, when the DMG is downloaded by the users, on some Macs the application is
+https://images-ext-1.discordapp.net/external/VbfwnzN2MM794XNccNxDzrB1YeuPrxR53y11bwRfflY/%3Fv%3D73d79a89bded/https/cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon%402.png
+
+
+[02/14/2022 10:21 PM] anon2020s#6116
+also, a quick fix:
+sudo xattr -r -d com.apple.quarantine /Applications/ergoMixer.app
+
+{Reactions}
+👍 (3) 
+
+[02/18/2022 12:38 AM] $aX#5658
+@anon2020s Are you still buidling this with node 12? Is that why I'm having to use npm install --force?
+
+
+[02/18/2022 12:39 AM] $aX#5658
+for the front end
+
+
+[02/18/2022 12:58 AM] $aX#5658
+getting error resolving ergomix@0.1.0 finding @material-ui/core@4.12.3 and it's finding @material-ui/core@"^4.11.0" from the root project
+
+
+[02/18/2022 1:05 PM] anon2020s#6116
+yes, i'm using node 12, but I'm not sure the error is due to node version.
+Maybe due to --force, without it there are some warnings that are not important. 
+I'm using an available template using MUI 4 that is deprecated.
+
+
+[02/18/2022 9:47 PM] $aX#5658
+@anon2020s I had tried with --force as well and the FrontEnd still would not compiile
+
+
+[02/18/2022 9:48 PM] $aX#5658
+If you are around to help me try some things that would be much appreciated
+
+
+[02/18/2022 9:48 PM] $aX#5658
+I had built this before on last release so I'm not sure what the issue happens to be
+
+
+[02/18/2022 10:03 PM] $aX#5658
+I'm on Ubuntu 20.04
+
+
+[02/18/2022 10:14 PM] anon2020s#6116
+Please try in without --force
+
+
+[02/18/2022 10:14 PM] anon2020s#6116
+I'll be around tomorrow
+
+
+[02/18/2022 11:05 PM] $aX#5658
+I tried both ways and always received the error above. I appreciate any help when you have time
+
+
+[02/19/2022 1:38 AM] $aX#5658
+Works when using npm install --legacy-peer-deps
+
+{Reactions}
+👍🏻 
+
+[02/19/2022 1:39 AM] $aX#5658
+Although there are many vulnerabilities, some high and one critical
+
+
+[02/19/2022 2:19 AM] $aX#5658
+Now BackEnd compiling confusion... The build instructions need to be updated @anon2020s The folders listed are incorrect
+
+
+[02/19/2022 3:05 AM] $aX#5658
+I would help improve instructions and help with compiling the mixer on Linux and other OS and maybe I could get some FEMX for that?
+
+
+[02/19/2022 10:35 AM] anon2020s#6116
+yeah, your help is appreciated. go ahead!
+
+
+[02/20/2022 1:52 AM] SoCool#6419
+I need to actually use the mixer.. also, if it's got a JS (Typescript?) Frontend perhaps I'll take a stab at improving it a bit, especially if it's on deprecated MUI
+
+
+[02/22/2022 9:15 AM] Velvia#6830
+How long does it usually take for ERG to go through the mixer? Used 6 hops.
+Mixer says it was successfully obfuscated ~10 hours ago, but the transaction has not appeared in the explorer yet.
+It's still stuck in the deposit address.
+https://explorer.ergoplatform.com/en/transactions/c28184c1f98d0a0e303e76d5b358c4f98d039f3a8426c8bd4780f868f9471191
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/945609717479272480/unknown.png
+
+
+[02/22/2022 7:12 PM] cafebedouin#9837
+I was using the mixer and tried the hops utility from ergoutils.org. It looks like it is stuck in the withdrawal (from mixer) or deposit (for hops) address. What should I do now? I think this probably a hops question, but I'm not sure. https://explorer.ergoplatform.com/en/transactions/c6005f64c167b7d90faed162f91b7e8bbf2d6751766bb4ac6a055a242351974f
+
+
+[02/23/2022 12:05 PM] glasgowm#9381
+@anon_real
+
+
+[02/23/2022 4:40 PM] SoCool#6419
+Would there be opposition to me trying to get the ergo mixer frontend out of react app rewired into a basic minimal webpack build? react app rewired is terribly slow compared to straight webpack, and it's less well supported these days (various features it locks away such as watch which people still haven't gotten working well with react-app-rewired)
+
+Also I understand it's on a deprecated version of MUI? I'd be willing to take a stab at updating it to latest, I've fair bit of experience with MUI
+
+
+[02/23/2022 4:42 PM] SoCool#6419
+also any reason for it to be on node 12 vs. upgrading to LTS? 12 is pretty old now, and it's just for the compilation steps regardless - not used at runtime given it runs in browser
+
+
+[02/23/2022 9:30 PM] anon_real#2768
+Please DM me to provide help.
+
+
+[02/23/2022 9:33 PM] NoahErgo#4349
+https://news.bitcoin.com/de-mixing-wasabi-coinjoin-transactions-a-deep-dive-into-chainalysis-deanonymizing-claims/
+
+{Embed}
+https://news.bitcoin.com/de-mixing-wasabi-coinjoin-transactions-a-deep-dive-into-chainalysis-deanonymizing-claims/
+De-Mixing Wasabi Coinjoin Transactions: A Deep Dive Into Chainalysi...
+One of the biggest eye-openers was the blockchain analysis methods leveraged, and that Chainalysis allegedly “de-mixed” Wasabi transactions.
+https://images-ext-1.discordapp.net/external/bnesg2nohxGpZox7sJgu0MrtQwSig5Yu34Ud2e1y38o/https/static.news.bitcoin.com/wp-content/uploads/2022/02/ccccc-1.jpg
+
+
+[02/23/2022 9:56 PM] Velvia#6830
+I also have ERG stuck in mixer
+
+
+[02/23/2022 9:56 PM] anon_real#2768
+If it is stuck in the ergoutils, DM me.
+
+
+[02/23/2022 10:33 PM] Velvia#6830
+I sent a friend request.
+
+
+[02/23/2022 11:43 PM] cafebedouin#9837
+I tried setting up the Ergodex bots together in a Docker container, and it looks like Kafka Manager and Mixer both use port 9000 on localhost. I'm not very familiar with the process of setting Docker containers up. Do you just change the ports when you do something like: docker run -p 127.0.0.1:9001:9001 --restart=always -v D:\ergoMixer -d ergomixer/mixer:latest? Or is there another solution?
+
+
+[02/24/2022 12:05 AM] bk#4411
+Is there currently a way to provide liquidity to the mixer?
+
+
+[02/24/2022 12:10 AM] SoCool#6419
+unless someone tells me I shouldn't, I think I'll take a stab at updating ergo mixer frontend to latest node / webpack / mui and get a PR together
+
+{Reactions}
+👍 
+
+[02/24/2022 1:56 AM] Kenial#1852
+Hello friends! I'm a writer by trade, and bilingual to boot, so I'll be looking to translate docs from English to French in the medium future (working on some docs for NETA ATM, it's how I got introduced to the eco-system). I was wondering if Ergo-mixer was already in multiple languages, and if French was already done? Thanks!
+
+
+[02/24/2022 6:10 PM] SoCool#6419
+I got everything building without errors with all the latest fancies 👍 however now I need to have a backend to point at. Is there a public ergomixer backend? I just need to see how completely jacked up the UI is so I can start the laborious task of fiddling with CSS that plays different now and the react router changes et al
+
+
+[02/24/2022 6:23 PM] SoCool#6419
+n/m I'm building the docker image then I'll just toss up a compose file to get the mount and ports et al
+
+
+[02/24/2022 10:26 PM] $aX#5658
+@SoCool Thanks for doing this work. The backend is in the same Github as the frontend, but it sounds like you found what you needed
+
+
+[02/24/2022 10:29 PM] SoCool#6419
+Yep! Thanks! Just got sidetracked working out why some TX weren't working and found out a main node is not syncing, now I'm back on the case of why the footer is stopping things from rendering.. wee, troubleshooting.
+
+So far I'm not getting compiler errors out of switching to the new mui stuff, mostly had to change import paths and it seems ok?
+
+Router on the other hand is mad as shit and had some pretty big API breaking changes so I'll have to rejigger that. Being in webpack though is quite nice
+
+
+[02/24/2022 11:01 PM] SoCool#6419
+Yay, got it rendering - just had to tweak the svg loader a bit, this is definitely what it's supposed to look like, right? 😄
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/946542328481460244/unknown.png
+
+
+[02/24/2022 11:53 PM] SoCool#6419
+Closer...
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/946555449900154910/unknown.png
+
+
+[02/25/2022 3:11 AM] SoCool#6419
+Looks basically right now
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/946605235210715176/unknown.png
+
+
+[02/25/2022 3:12 AM] SoCool#6419
+Committed here https://github.com/JimmyHoffa/ergoMixFront/commit/fbbedb7a5499520f91da399b4cc1c4473029a864 will spend time tomorrow testing and finding functional behaviour stuff to work out but it looks like it picked up most everything just had those few breaking changes with mui and the router and I had to make the webpack config happy
+
+{Embed}
+https://github.com/JimmyHoffa/ergoMixFront/commit/fbbedb7a5499520f91da399b4cc1c4473029a864
+Updating all the things to latest and building with webpack for mor...
+…performance
+https://images-ext-2.discordapp.net/external/1adsJVApgxtalEFTI72jauxnuq2QeuiJi-Oabyh3EfM/https/opengraph.githubassets.com/0037513449d40c6049836169fe292e0738b8ea44e1e13da237d7c1fcdc3489e6/JimmyHoffa/ergoMixFront/commit/fbbedb7a5499520f91da399b4cc1c4473029a864
+
+
+[02/25/2022 3:17 AM] SoCool#6419
+Using node lts 16 for it
+
+
+[02/25/2022 4:53 PM] SoCool#6419
+Ok so who can help me with how to test this? I'm going through various forms and fixed up everything I've found, as well as resolving all of the react router API breaking changes; UIs look the same now etc.
+
+Now I need to functionally send something to mix and I've created a bunch of covert addresses and selected rings etc as I was testing forms - but don't know how to actually *use the mixer*
+
+
+[02/25/2022 4:54 PM] SoCool#6419
+I'm ready to actually send stuff to it, what do I do? Just send something to one of the covert addresses I created?
+
+
+[02/25/2022 4:57 PM] SoCool#6419
+..maybe I RTFM? 😄 I'm so bad at reading docs, I always just go straight into the code and try to figure it out from the inside out..
+
+
+[02/25/2022 5:26 PM] glasgowm#9381
+Yeah I just use the covert address option
+
+
+[02/25/2022 5:26 PM] glasgowm#9381
+Create a covert address, get the address it sends you. Coins will be sent there + mixed. Then you can select a withdrawal address.
+
+
+[02/25/2022 5:27 PM] SoCool#6419
+Aye, I send an erg and kushti to a covert address after configuring its ring as such - and was greeted with a nice error in the statdetail after it tried rendering actual results showing up in the address so 👍 heh
+
+
+[02/25/2022 5:28 PM] SoCool#6419
+Tracking that down... then maybe I'll find another when I try to withdrawal it heh
+
+
+[02/25/2022 6:16 PM] SoCool#6419
+I sent the amount of erg and kushti it was requesting - I can follow some of the TXs and see the kushti and erg floating around but it thinks the kushti didn't get deposited at all
+
+
+[02/25/2022 6:17 PM] SoCool#6419
+though history shows the kushti status as "running" so is it still executing mixing transactions?
+
+
+[02/25/2022 6:18 PM] SoCool#6419
+Ah yeah, it says "Kushti: 0 completed, Mixing: 1000 kushti"
+
+
+[02/25/2022 6:18 PM] SoCool#6419
+How long does it take to finish mixing? I sent it like over a half hour ago
+
+
+[02/25/2022 6:21 PM] SoCool#6419
+Huh I see the kushti got popped out to some address where Explorer shows it having 43k ergs and zero TX, perhaps I shouldn't just willy nilly send stuff to these covert addresses from the docker images default config but rather I should be editing that config before I test around much..
+
+
+[02/25/2022 6:21 PM] SoCool#6419
+(and 3k kushti heh)
+
+
+[02/25/2022 6:33 PM] SoCool#6419
+https://github.com/ergoMixer/ergoMixFront/pull/1
+
+{Embed}
+https://github.com/ergoMixer/ergoMixFront/pull/1
+Updating all libs and moving to webpack from react-app-rewired for ...
+https://images-ext-1.discordapp.net/external/SE90Jx1tAJyhxTua_vOAmvVV016D0mmUBQ27Jxzo7Jw/https/opengraph.githubassets.com/a0237634106bfc93ac426a459502105e52bd4dace8e158767f56a1708ee53c36/ergoMixer/ergoMixFront/pull/1
+
+
+[02/25/2022 6:35 PM] SoCool#6419
+It appears to all be working and well - need someone else to do more testing and or review on this please. It's a ton of changes but all just for lib updates etc. As I'm going through testing stuff myself I'm seeing no more errors but I'll continue to complete this one mix and withdrawal and otherwise I think someone who knows *more* of the functions will have to either give me some testcases or do some testing on their own - with node lts 16 it's easy to get up and running `npm run start` and it will try to use the mixer at `http://localhost:9000`
+
+
+[02/25/2022 7:39 PM] SoCool#6419
+Welp I guess I can't get that 1 erg back - stuff keeps showing up and when I try to withdraw it says "Transaction being generated" but nothing happens. It did actually create the withdrawal tx for the 1000 kushti so I got that back heh
+
+
+[02/25/2022 9:50 PM] SoCool#6419
+Watching a youtube video on this it shows the history listing things going from queued to running, I have a bunch of things that all just sit their in queued forever; only the kushti seemed to actually move to running and let me withdraw it
+
+
+[02/25/2022 10:02 PM] SoCool#6419
+After letting it eat a couple ergs and going through all the different UI's I could to try and get them back, I think I've seen all the different UI's functioning and well (or rather, and fixing little bugs in them as I went) - so I'll leave that PR in your hands to test in more depth and await any feedback. Think I'm done with it now. Everything is updated and latest 👍
+
+
+[02/26/2022 7:30 AM] SoCool#6419
+@anon2020s  when you get a chance, I'm guessing you're the dev who needs to look at the PR
+
+
+[02/28/2022 2:38 PM] glasgowm#9381
+tagging @Community Developer for visibility. Remember there's $FEMX tokens up for grabs 😉 
+
+https://discord.com/channels/668903786361651200/762308254159863818/941684208068362300
+
+{Reactions}
+ergo_orange (6) 
+
+[03/01/2022 11:04 AM] mhs_sam#1471
+anon reported some issues accessing his discord account and trying to gain access again. if not, he will create a new one.
+
+{Reactions}
+👍 
+
+[03/02/2022 2:04 PM] SoCool#6419
+@anon2020s I recognize your concern about purpose and impact of the updates, definitely legitimate! I'm heading out for my run but I'll talk through some rationale and benefits when I get back!
+
+
+[03/02/2022 4:00 PM] SoCool#6419
+Sent in a DM, hope that's alright - didn't want to wall-of-text the channel 😄 maybe I should have put it in the PR notes but I'm not the sharpest tool in the shed
+
+
+[03/08/2022 9:22 PM] Aberrans#4582
+I can’t code, but if you need any help with translation, I am a native French speaker and I would like to help
+
+
+[03/12/2022 4:57 PM] liquid_phase#4605
+Ergomixer.dmg won't open on Mac Monterey M1
+
+
+[03/12/2022 4:57 PM] liquid_phase#4605
+says corrupted
+
+
+[03/12/2022 5:03 PM] glasgowm#9381
+working here  on mac montery m1
+
+
+[03/12/2022 5:23 PM] liquid_phase#4605
+what version you running?
+
+
+[03/12/2022 5:23 PM] liquid_phase#4605
+i tried latest from github
+
+
+[03/12/2022 5:25 PM] glasgowm#9381
+latest dmg from github I believe
+
+
+[03/12/2022 5:26 PM] liquid_phase#4605
+hm. only thing i can think of is i had ergomixer working on my last mac, performed time machine backup to new mac m1, upon trying mixer it is corrupted, removed it entirely and reinstalled dmg, still corrupted
+
+
+[03/12/2022 5:28 PM] glasgowm#9381
+I think you maybe just need to go into security and privacy and allow it
+
+
+[03/12/2022 5:28 PM] liquid_phase#4605
+no i tried that, as im used to having to do it
+
+
+[03/12/2022 5:28 PM] liquid_phase#4605
+but it doesnt show up in security prefs, just says its corrupted, not an unidentified dev
+
+
+[03/12/2022 5:29 PM] glasgowm#9381 (pinned)
+do `xattr -r -d com.apple.quarantine <path to file or app>`
+
+{Reactions}
+🤝 
+
+[03/12/2022 5:29 PM] glasgowm#9381
+can show as corrupted due to security prefs too
+
+
+[03/12/2022 5:31 PM] liquid_phase#4605
+thanks sir, that fixed it right up
+
+{Reactions}
+👍 
+
+[03/25/2022 8:22 AM] arkadias#4896
+Hey anyone free to answer a couple of questions about the mixer?
+
+
+[03/25/2022 9:45 AM] glasgowm#9381
+https://dontasktoask.com/
+
+{Embed}
+https://dontasktoask.com/
+Don't ask to ask, just ask
+https://images-ext-2.discordapp.net/external/QcrXZ9NR5XJ2gLI_f0x3PogdLbRRLsid_X6j6Qk4exc/https/dontasktoask.com/favicon.png
+
+{Reactions}
+🤣 (2) 
+
+[03/25/2022 10:38 AM] arkadias#4896
+hahaha
+
+
+[03/25/2022 10:43 AM] arkadias#4896
+well I wanted to know since mixer is slow from not a lot of use would an acceptable way to break the link from one wallet to another be to use a non kyc exchange as a middle man and withdraw from it into a covert address possibly withdrawing the boxes early? And a follow up to that is can I have a covert address connected to a node or something so that each box is withdrawn is to a different derived wallet
+
+
+[03/25/2022 10:43 AM] arkadias#4896
+I probably worded that horribly
+
+
+[03/25/2022 10:48 AM] arkadias#4896
+at a minimum if I were to send a few boxes through the covert address, is it possible to have mixer automatically change the withdraw address each time a new box is finished mixing
+
+
+[03/25/2022 10:48 AM] arkadias#4896
+sort of like a set and forget setup
+
+
+[03/25/2022 11:02 AM] glasgowm#9381
+You can set tons of withdraw addresses in the mixer, just derive them on the node and set them as the withdrawal addresses in the covert address bit.
+
+Not sure what you mean withdrawing to a non-kyc address but if you withdraw it early it won't be mixed? Mixer's speed depends on how many rounds you set - the anonymity set is limited by it's use but not it's speed (unless there is no one to mix with - but for ERG generally it's fine ime)
+
+
+[03/25/2022 11:27 AM] arkadias#4896
+*"Not sure what you mean withdrawing to a non-kyc address"* Specifically using an exchange as a first step since withdraws from an exchange like kucoin all typically come from one address.
+
+
+[03/25/2022 11:28 AM] arkadias#4896
+*"but if you withdraw it early it won't be mixed?"* what I mean by this is generally its set for 30 rounds. Currently I have a box in the mixer that is on round 3 after 24 hours, presumably if I withdrew it now its still partially mixed
+
+
+[03/25/2022 11:29 AM] arkadias#4896
+*"You can set tons of withdraw addresses in the mixer, just derive them on the node and set them as the withdrawal addresses in the covert address bit."* Is it possible to automate this though? or is it simpler to just derive them and add them all manually?
+
+
+[03/25/2022 11:33 AM] arkadias#4896
+And a follow up question regarding covert addresses specifically the deposit is set to 250 erg if in theory one sent 2000 erg to it does it just start 4 mixes?
+
+
+[03/25/2022 11:33 AM] glasgowm#9381
+Sure you could if you wrote a script for it
+
+
+[03/25/2022 11:33 AM] glasgowm#9381
+yep - you can withdraw at anytime
+
+
+[03/25/2022 11:33 AM] glasgowm#9381
+8 you mean?
+
+
+[03/25/2022 11:34 AM] arkadias#4896
+haha yes bad math
+
+
+[03/25/2022 11:34 AM] glasgowm#9381
+Then yes
+
+
+[03/25/2022 11:34 AM] arkadias#4896
+https://tenor.com/view/war-dogs-war-dogs-movie-stressed-facepalm-jesus-help-me-gif-16017210
+
+{Embed}
+https://tenor.com/view/war-dogs-war-dogs-movie-stressed-facepalm-jesus-help-me-gif-16017210
+https://images-ext-2.discordapp.net/external/Kz86l--XdN3q6TvJ3PcJb0oajCQc--uoCqPU6Tu1maY/%3Fc%3DVjFfZGlzY29yZA/https/media.tenor.com/2eHycBtTddQAAAAD/war-dogs-war-dogs-movie.png
+
+
+[03/25/2022 11:34 AM] arkadias#4896
+ok thanks for taking the time to indulge me @glasgowm
+
+{Reactions}
+kushti_thumbsup 
+
+[04/11/2022 3:21 PM] Dmitry Usov#0134
+@anon2020s
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/963081340843098112/unknown.png
+
+
+[04/11/2022 3:21 PM] Dmitry Usov#0134
+.dmg image
+
+
+[04/11/2022 3:35 PM] glasgowm#9381
+Pinned a message.
+
+
+[04/11/2022 3:35 PM] glasgowm#9381
+Try the command pinned
+
+
+[04/12/2022 6:51 AM] curbsideprophet#5083
+i just used the mixer for the first time (connected to rpi4) and it is pretty smooth...thank you!
+
+{Reactions}
+👍 (2) 
+
+[04/13/2022 11:53 PM] error#5683
+@anon2020s thanks for the new release! I had a stuck half box at round 30. Unfortunately it's still stuck, but at least there is an error that one box was already spent.. Is there any way I can troubleshoot this further?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/963935041115811880/unknown.png
+
+{Reactions}
+ergo_orange 
+
+[04/14/2022 1:43 PM] anon2020s#6116
+New version (4.1.0) of ergomixer is released!
+
+changelog:
+- Add Hop feature
+- Improve Rescan process
+- Add Hop recovery to Rescan process
+- Fix covert withdraw address serializer
+- Support Nautilus dapp connector for setting withdraw addresses
+- Update qrcode serializer (Value and Address encoded)
+- More unit-tests
+- Bug fix: finished mixes was not shown in the history
+
+https://github.com/ergoMixer/ergoMixBack/releases/tag/4.1.0
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases/tag/4.1.0
+Release Mixer-4.1.0 · ergoMixer/ergoMixBack
+Add Hop feature
+Improve Rescan process
+Add Hop recovery to Rescan process
+Fix covert withdraw address serializer
+Support Nautilus dapp connector for setting withdraw addresses
+Update qrcode seriali...
+
+
+[04/14/2022 1:45 PM] anon2020s#6116
+please run the new mixer for a while, if not solved DM me
+
+
+[04/14/2022 11:57 PM] $aX#5658
+@anon2020s Does the most recent release contain the PR for the changes above from SoCool updating to latest node / webpack /mui ?
+
+
+[04/15/2022 12:00 AM] anon2020s#6116
+No. I'm still working on a good solution. Maybe in v5 version (after stealth address)
+
+
+[04/15/2022 12:00 AM] $aX#5658
+@anon2020s Thank you for confirming. Would help compilation for myself. Also, wondering what will happen when I have to migrate Ubuntu versions with new LTS release soon
+
+
+[04/15/2022 1:05 AM] anon2020s#6116
+just found a bug in the new release. In some cases, when you withdraw the mixer may encounter "hopRound is required" error and crashes.
+a quick fix is to add "hopRounds = 0" to the config file. 
+hotfix is incoming.
+
+
+[04/15/2022 8:22 PM] anon2020s#6116
+https://github.com/ergoMixer/ergoMixBack/releases/tag/4.1.1
+Minor fix: fixed config reader function
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases/tag/4.1.1
+Release Mixer-4.1.1 · ergoMixer/ergoMixBack
+Change log:
+
+Minor fix: fixed config reader function
+https://images-ext-1.discordapp.net/external/6P9IP-feaFe28Wysv7Et57s_YJO_xnLjnsWkDpRcurc/https/opengraph.githubassets.com/0c4a385928ca3e05299df8cbe200e97d1c61c496c76b773cbde7c3f263367f0b/ergoMixer/ergoMixBack/releases/tag/4.1.1
+
+
+[04/15/2022 9:13 PM] curbsideprophet#5083
+Thank you!
+
+
+[04/21/2022 12:39 AM] $aX#5658
+@anon2020s Can you look into the build instructions and update the part for moving ergoFrontMix into ergoBackMix?
+
+
+[04/21/2022 12:40 AM] $aX#5658
+Also, current npm install gets angry and I have to force legacy dependencies with a flag -legacy-peer-deps
+
+
+[04/21/2022 12:41 AM] $aX#5658
+ergoBackMix also seems to want Java 8 rather than 11 that I typically use
+
+
+[04/21/2022 4:03 PM] anon2020s#6116
+sure, also I'm going to merge the updates by @SoCool in the next release along with the stealth address.
+
+
+[04/23/2022 10:02 AM] bombibus#2765
+Is there any way to get paid to provide ergs in the mixer ? I don't need to mix my coins, but I suppose I could help the mixing for a fee.
+
+
+[04/23/2022 10:14 AM] curbsideprophet#5083
+not yet but here is overview for what's to come: https://discord.com/channels/668903786361651200/762308254159863818/941780809122189333
+
+
+[04/24/2022 9:10 PM] Aberrans#4582
+https://www.ergoforum.org/t/how-to-mix-tokens-with-ergomixer/3543
+
+{Embed}
+https://www.ergoforum.org/t/how-to-mix-tokens-with-ergomixer/3543
+How to mix tokens with ErgoMixer
+Tutorial 3 - How to mix tokens with ErgoMixer ErgoTutorials.com In this tutorial we are going to see how to download ErgoMixer from Github to make a mix with the Kushti token and send it to another wallet.  The screenshots of this tutorial have been taken from the video, I recommend that you do not use the Yoroi wallet, there are other options: ...
+https://images-ext-2.discordapp.net/external/7bTZ0ggGMuuQdmYkjDx09gON44dAw9dklaFrtvLGFqM/https/aws1.discourse-cdn.com/standard14/uploads/ergoforum/original/2X/2/22c5510ecd3e6a35b725f45b807b9cb0a9f525d5.png
+
+
+[04/24/2022 9:10 PM] Aberrans#4582
+For anyone interested in trying it
+
+
+[04/30/2022 12:07 PM] Ulmo#5367
+@anon2020s please check DM
+
+
+[05/03/2022 10:46 PM] IFTTT#6211
+Ergomixer Tokens Airdrop
+I read that Ergomixer is about to launch its token and that they will airdrop some percentage of the tokens to community members. If I interact my wallet with Ergomixer, will I be airdropped the Ergomixer tokens when they are launched ??
+
+Submitted May 03, 2022 at 06:12PM by Famous_Leader5887 https://ift.tt/EcW1sKU
+via /r/ergonauts
+
+{Embed}
+Ergomixer Tokens Airdrop
+Ergomixer Tokens Airdrop
+I read that Ergomixer is about to launch its token and that they will airdrop some percentage of the tokens to community members. If I interact my wallet with Ergomixer, will I be airdropped the Ergomixer tokens when they are launched ??
+
+Submitted May 03, 2022 at 06:12PM by Famous_Leader5887 https://ift.tt/EcW1sKU
+via /r/ergonauts
+https://images-ext-2.discordapp.net/external/0T-ciiI89r6MZasvnvzXFs-o7mutSbWRuj2S95rO8Yg/https/ifttt.com/images/no_image_card.png
+Ergomixer Tokens Airdrop via /r/ergonauts https://ift.tt/EcW1sKU
+
+
+[05/13/2022 10:20 PM] $aX#5658
+Any updates on these updates?
+
+
+[05/15/2022 11:52 PM] TheSentientNFT#0744
+I like airdrops
+
+
+[05/21/2022 11:48 PM] $aX#5658
+Don't leave us hanging mate. It's a pain to compile right now haha
+
+
+[05/22/2022 7:52 PM] anon2020s#6116
+Sorry. I'm working on it and will update soon
+
+{Reactions}
+🔥 ❤️ 
+
+[05/31/2022 7:03 AM] Ulmo#5367
+Trying to normalize the use of mixer with the Ergo Nation hackathon project:
+
+
+[05/31/2022 7:03 AM] Ulmo#5367
+.
+
+
+[05/31/2022 7:03 AM] Ulmo#5367
+Get your Ergo Nation ID now!
+
+Step 1. Create ID
+- Create a new Ergo wallet address. This address is your anonymous ID. Do not reveal it to anyone. 
+- Use the mixer to send 1 ERG into it. The mixing process may take some time. Start it right away to be ready for the verification event.
+- All funds going in and out of the ID address must go through the mixer to preserve anonymity. 
+
+Step 2. Verify ID
+- Join the first monthly ID verification event on 7.6.2022 at 20.00 UTC for instructions. The event itself will start 20.15 UTC, and end 20.30 UTC.
+- Participants will play a short game. If successful, they will be able to verify the ID on-chain.
+
+Step 3. Use ID
+- Ergo projects can engage the ID holders in governance, testing, whitelist, rewards, tasks, etc.
+- The IDs will gather reputation through actions in the ecosystem. We encourage projects to engage those IDs that actively support decentralization, anonymity and the spirit of Ergo (see Ergo Manifesto).
+
+For further event and Ergo Nation information, please join:
+https://t.me/+9Q22gjQI5Go1ZDUy
+
+{Embed}
+https://t.me/+9Q22gjQI5Go1ZDUy
+Ergo Nation community
+https://images-ext-2.discordapp.net/external/MjIN6Ezvf93w3yuPp4tOqVViGr8L2_-JmJeLuBPw8RM/https/cdn4.telegram-cdn.org/file/JTjckw-jM7RaLJREMPzbHJeBLqVQRl0YGivMkUpP67g6bseOWcwmVy-kuQtrM4aT8AMjJXQdwKEr68MrWglXoOBj7Aa4gz6vftOXritdddzOz3EHjJcdFWJmQh63eivl77VgNsa8NwzHvehzel02q8rKyiOwZ6OJCdr5Thhn9BeL8yDEV0HLW5wNaorGEH0DGuNx7R29YZhw0qXXU--bYNwkodNKGQ5KdGRBB-kHXhN-59DuCnXuXx983o3qgx7NTRnmtY6QhBHWYL_JEuL2D5k-0JMPMCTtfdzunvfsrn08Pt5_z7EWgJg0J11hzB-7FjCKG2NldEisBDxQyuUnoQ.jpg
+
+
+[06/07/2022 11:53 PM] $aX#5658
+Any updates on this? I want to mixxxxxxxxxxxx 8)
+
+
+[06/25/2022 4:04 PM] $aX#5658
+Any updates mate?
+
+
+[06/29/2022 1:24 AM] Kaven#6681
+should we be running 4.0.0 for now?
+
+
+[06/29/2022 1:29 AM] $aX#5658
+@Kaven You can use 4.1.1
+
+
+[06/29/2022 1:29 AM] $aX#5658
+We had been talking about some other improvements in the build and updating the build instructions for those who like to compile from source code.
+
+
+[06/29/2022 4:10 AM] Kaven#6681
+ok cool thanks. any drawbacks to just going the docker route? i've compiled the source before but kinda just feel like pulling the image haha
+
+
+[06/29/2022 4:20 PM] Kaven#6681
+a few other questions.
+
+1. what is the play.http.secret.key on line 1 of the config. 
+2. would it increase my privacy to use a different explorer/api or is that irrelevant
+3. does using -only- my own node increase or decrease my privacy in any way
+4. when you configure the mixer to add hops to withdrawal is there anyway to add delays and jitter to the hops? if its just a quick series of equal spaced hops, it might have obvious 'mixer withdrawal' signature
+
+thanks in advance for any help on these
+
+
+[06/29/2022 7:53 PM] Kaven#6681
+hmm there are 2 reference.conf's and a application.conf in the 4.1.1 release, all differ a little
+
+
+[06/29/2022 9:51 PM] Kaven#6681
+got a "Malformed transaction: Every input of the transaction should be in UTXO." from mixer 4.1.1
+
+
+[06/29/2022 9:51 PM] Kaven#6681
+i see @anon2020s talking about this back in feb
+
+
+[06/30/2022 3:46 PM] Kaven#6681
+@$aX hello sir, are you available to chat about mixer anytime today?
+
+
+[06/30/2022 4:04 PM] mhs_sam#1471
+It's okay, mixer is just trying to spend an already spent box. It shows this log in the newer version of the mixer. It will update the status and resolve it in a few minutes.
+@anon2020s any comments?
+
+{Reactions}
+👍🏻 
+
+[06/30/2022 5:01 PM] Kaven#6681
+i honestly cant believe how good ergo platform is getting. thank you guys for building.
+
+
+[06/30/2022 8:58 PM] anon2020s#6116
+- Docker is being built from the repo code, very easy to use. Go ahead and try.
+- play.http.secret.key: since the mixer is running locally on your system and there are no Cookie and CSRF problems, changing it does not increase/decrease your security. 
+- your own node only and different explorer: I do not recommend using your node only. Your node might get out of sync or down. Also, using only one node might have some privacy issues. Depends however on your adversarial assumptions and if someone is monitoring node traffics. 
+Using a different explorer is fine if enough people are using it, due to traffic monitoring issues.
+- Hops: hop delay is not random (maybe should be but it's not atm). The required confirmations between hops is configureable in the config. 
+- independent of the mixer version, default values are set in reference.conf. Any values set in application.conf will override the values in reference.conf.
+
+
+[06/30/2022 9:29 PM] Kaven#6681
+thank you that is helpful.  so if i have active mix, can i stop mixer, change node values and restart?
+
+
+[06/30/2022 10:56 PM] anon2020s#6116
+np, yes you can.
+
+{Reactions}
+🙌 
+
+[07/04/2022 1:43 AM] Kaven#6681
+hi everyone! legit question actually - when token? 😆
+
+{Reactions}
+soon 
+
+[07/04/2022 5:05 PM] Kaven#6681
+better question -- is there a token in the works to incentivize liquidity provision
+
+
+[07/04/2022 5:11 PM] curbsideprophet#5083
+Yup it’s in the works: https://discord.com/channels/668903786361651200/762308254159863818/941780809122189333
+
+
+[07/04/2022 5:30 PM] Kaven#6681
+interesting, not sure i understand the FEMX part.
+
+
+[07/04/2022 5:30 PM] Kaven#6681
+this is something that exists now..? what is it?
+
+
+[07/04/2022 5:32 PM] curbsideprophet#5083
+also see: https://discord.com/channels/668903786361651200/762308254159863818/941684208068362300
+
+
+[07/04/2022 5:38 PM] Kaven#6681
+ah, and this was airdropped back in feb?
+
+
+[07/04/2022 5:39 PM] Kaven#6681
+looking to get more involved going forward, not seeing femx on ergodex, any other way to participate
+
+
+[07/04/2022 8:22 PM] glasgowm#9381
+Has not been airdropped yet AFAIK
+
+
+[07/05/2022 5:37 PM] Kaven#6681
+so i guess.. any way to make sure i'm in line for that? if not cool, just wanting to maximize my expose to and support of this project.
+
+
+[07/05/2022 5:43 PM] glasgowm#9381
+Just by following anon's comments and contributing in someway. Spread the world, make a tutorial, reddit post; go bug cryptographers on Twitter until one takes an interest; whatever AFAIK
+
+
+[07/07/2022 1:19 AM] $aX#5658
+💯
+
+
+[07/08/2022 4:27 AM] mattam#8988
+Running my first mix -- that pinned `com.apple.quarantine` message helped 🙌
+
+
+[07/08/2022 5:35 PM] mattam#8988
+My mix is stuck; anything I can do? I tried shutting down and restarting ergo mixer.
+
+
+[07/08/2022 6:14 PM] curbsideprophet#5083
+It takes time to complete the mix because it’s contingent upon how many other people are using it. The more the merrier (faster). 
+
+One time it took a whole month for me to mix 250 erg. The latest was only 3 days for the same amount
+
+{Reactions}
+🙌 
+
+[07/08/2022 7:05 PM] mattam#8988
+Ahh, makes sense! The last activity time stamp hasn’t updated for > 12hr though status says running, so I guess it’s not actually stuck then.
+
+
+[07/08/2022 7:18 PM] curbsideprophet#5083
+No sir not stuck! Just need more adoption right now haha
+
+
+[07/08/2022 7:20 PM] mattam#8988
+Haha gotcha, thanks for filling me in!
+
+{Reactions}
+❤️ 
+
+[07/10/2022 5:13 PM] Kaven#6681
+unless there is liquidity incentive, best bet is to promote mixer use on ergo socials
+
+
+[07/13/2022 6:18 AM] docminex#2968
+I've played around with the mixer the last couple of days and it seems quite intuitive. Can covert addresses handle receipt of any Ergo asset or just the ones that already have mixer integration (e.g. sigRSV, COMET, etc.)?
+
+
+[07/13/2022 9:18 AM] glasgowm#9381
+Any asset, there's a button to withdraw them.
+
+
+[07/14/2022 7:20 AM] docminex#2968
+thanks
+
+
+[07/15/2022 12:34 AM] $aX#5658
+@anon2020s Any update on next release please? 🙏
+
+
+[07/15/2022 12:35 AM] $aX#5658
+Let me know how I can help test or anything
+
+{Reactions}
+ergo_white (3) 
+
+[07/19/2022 2:34 PM] anon2020s#6116
+really soon. the update by @SoCool resulted in some style problems. I'm solving them and integrating the stealth address at the same time.
+
+{Reactions}
+💪 🙏 
+
+[07/24/2022 6:59 PM] Kaven#6681
+Just wanted to raise this project to everyone's attn.
+
+https://nymtech.net/
+https://github.com/nymtech/nym
+
+They do a L0 mixnet like Tor, but its token incentivized. They seem to be open source and fit with Ergo values. Currently seem to be working to integrate with popular BTC wallets. I think definitely worth a look.
+
+{Embed}
+https://nymtech.net/
+Nym | Building the next generation of privacy infrastructure
+Join our testnet today!
+https://images-ext-1.discordapp.net/external/8Yf0LdZP1Hy6gXGl7VxWK4nmTJpD6ryDV6sONsriLTQ/https/nymtech.net/images/social/logo-icon.png
+
+{Embed}
+https://github.com/nymtech/nym
+GitHub - nymtech/nym: Nym provides strong network-level privacy aga...
+Nym provides strong network-level privacy against sophisticated end-to-end attackers, and anonymous transactions using blinded, re-randomizable, decentralized credentials. - GitHub - nymtech/nym: N...
+https://images-ext-1.discordapp.net/external/4l5nE7_Hkb3UO_HrQ2LA0Ew9mg8EZ9NSg8h3HUoZw8g/https/opengraph.githubassets.com/d74a8b6ffa27144d54b3b54edb601981f071166bad5ac830ff03e9137a191f5e/nymtech/nym
+
+
+[07/25/2022 3:26 AM] Kaven#6681
+let me know if this is more appropriate for wallet channels?
+
+
+[08/03/2022 2:59 AM] docminex#2968
+Just looking to confirm that on the Ergo Mixer's the "Ring Statistics" tab that the "Available Half Boxes" and the "Ring Activity"  global statistics are for all users of ErgoMixer? Or are these just those associated with the local users mixes?
+
+
+[08/03/2022 3:00 AM] docminex#2968
+Also is there any benefit for specifying a local node in the config or is it better to use the public nodes?
+
+
+[08/04/2022 7:13 PM] curbsideprophet#5083
+yeah, from what i understand those are global stats to give you an idea of how long it might/could take you to finish mixing
+
+
+[08/07/2022 10:10 PM] theta_decay#5677
+https://discord.com/channels/668903786361651200/762308254159863818/992157232856834048
+
+
+[08/09/2022 3:12 AM] docminex#2968
+Thanks, that's quite helpful
+
+{Reactions}
+🍻 
+
+[08/09/2022 3:12 AM] docminex#2968
+Thanks for the response. That's quite helpful.
+
+
+[08/09/2022 9:21 PM] glasgowm#9381
+Pinned a message.
+
+
+[08/15/2022 5:02 PM] theta_decay#5677
+Is it common to set a mix for 180 rounds and have it complete after 45 rounds?
+
+
+[08/16/2022 3:21 AM] IFTTT#6211
+ErgoMixer over-time feature
+I just started using ErgoMixer and first off, what an easy to use tool I would've not imagined it to be this simple. Think the most difficult part was to navigate through GitHub to find the release, but after that the mixer front end itself is so easy to use.Is there a way to mix over a certain time period so not everything happens simultaneously?
+
+Submitted August 16, 2022 at 02:47AM by tcapllc https://ift.tt/RosutWv
+via /r/ergonauts
+
+{Embed}
+ErgoMixer over-time feature
+ErgoMixer over-time feature
+I just started using ErgoMixer and first off, what an easy to use tool I would've not imagined it to be this simple. Think the most difficult part was to navigate through GitHub to find the release, but after that the mixer front end itself is so easy to use.Is there a way to mix over a certain time period so not everything happens simultaneously?
+
+Submitted August 16, 2022 at 02:47AM by tcapllc https://ift.tt/RosutWv
+via /r/ergonauts
+https://images-ext-2.discordapp.net/external/0T-ciiI89r6MZasvnvzXFs-o7mutSbWRuj2S95rO8Yg/https/ifttt.com/images/no_image_card.png
+ErgoMixer over-time feature via /r/ergonauts https://ift.tt/RosutWv
+
+
+[08/16/2022 5:27 PM] Chris Horticulturalist#2573
+How to solve 'Getting the message Ergomixer is damaged & can't be opened.' For MacOXX 4.1.1 install?
+
+
+[08/16/2022 5:29 PM] Chris Horticulturalist#2573
+Have tried running the following as suggested in ergodocs mixing:
+           do xattr -r -d com.apple.quarantine /Applications/ergoMixer.app
+
+this gives - zsh: parse error near `do'
+
+
+[08/16/2022 7:57 PM] glasgowm#9381
+run it in bash
+
+
+[08/16/2022 8:58 PM] Chris Horticulturalist#2573
+changed to bash , closed & reopened terminal - still getting "ergoMixer" is damaged...
+Ran
+ do xattr -r -d com.apple.quarantine /Applications/ergoMixer.app
+gives the following
+-bash: syntax error near unexpected token `do'
+
+
+[08/16/2022 9:26 PM] Chris Horticulturalist#2573
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/1009196525894770848/Screenshot_2022-08-16_at_22.21.42.png
+
+
+[08/16/2022 11:11 PM] anon2020s#6116
+sudo, not do sir
+
+
+[08/16/2022 11:11 PM] anon2020s#6116
+sudo xattr -r -d com.apple.quarantine /Applications/ergoMixer.app
+
+
+[08/16/2022 11:16 PM] anon2020s#6116
+Yes. When other parties are using shorter rings.
+In each round, the tokens in the two mixing boxes are divided equally between the two output boxes (apparently for privacy reasons). 
+On average if you choose bigger rings you get more rounds but the exact number of rounds cannot be guaranteed.
+
+
+[08/17/2022 1:46 AM] theta_decay#5677
+Understood, thank you.
+
+
+[08/17/2022 2:15 PM] Chris Horticulturalist#2573
+Mixer is working away, thanks!
+
+
+[08/23/2022 12:10 AM] $aX#5658
+Do you have a current update on progress? It's been a month since this and I really want to mix some ERG with the new updates 😄
+
+
+[08/25/2022 8:07 AM] navip#4838
+Anyone knows if I can set multiple addresses for manual withdrawal? Is this even possible?
+
+
+[08/25/2022 8:10 AM] navip#4838
+Tried loading from json, but it picks only first address
+
+
+[08/25/2022 8:14 AM] navip#4838
+Ah, I misunderstood that I can split what I mixed and withdraw to multiple addresses.
+
+
+[08/26/2022 9:37 PM] navip#4838
+@anon2020s I think there is a "bug" in mixer. Since my sigrsv mix is stuck for days in Building mix boxes I tried running another mixer on different system and adding same amount of sigrsv to mix with myself, but from both terminals I see there is error Not enough nanoergs to create 1 change box.
+Is this something I f'ed up?
+
+
+[08/26/2022 9:39 PM] navip#4838
+Or someone needs to sprinkle little ergo dust somewhere for box build process to begin
+
+
+[08/26/2022 9:41 PM] anon2020s#6116
+I'll investigate soon, thanks for reporting.
+
+
+[08/26/2022 9:43 PM] anon2020s#6116
+sorry sorry, I was stuck in progress with SigUSD wasm's issue, but just found out that Minotaur wallet has a proper implementation. On it and will update soon.
+
+
+[08/30/2022 4:35 PM] anon2020s#6116
+could you send me the logs please? DM.
+
+
+[08/30/2022 4:58 PM] navip#4838
+Sent you a DM, I cut the part from logs that are showing error. If you want I can send you log from other server where I tried adding another mixing box as well
+
+
+[09/16/2022 10:46 PM] $aX#5658
+Any updates on this mate? Thanks!
+
+
+[09/19/2022 4:19 PM] NoahErgo#4349
+https://github.com/ergoMixer/ergoMixBack/commit/473d8e06491598951633a9628c006ae15b8db5a2
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/commit/473d8e06491598951633a9628c006ae15b8db5a2
+Add release 4.2.0 · ergoMixer/ergoMixBack@473d8e0
+https://images-ext-1.discordapp.net/external/Q6aqS26JE99Bk2F5eV8OB4y9dQXFYXpWicSt_m0Idng/https/opengraph.githubassets.com/b6b6592ff1fd4cf94f2947fae0a4d36768c4a90915626c9f578d9cc7a2a0493a/ergoMixer/ergoMixBack/commit/473d8e06491598951633a9628c006ae15b8db5a2
+
+
+[09/19/2022 4:19 PM] NoahErgo#4349
+https://tenor.com/view/hooray-letsgo-lets-go-gif-18410791
+
+{Embed}
+https://tenor.com/view/hooray-letsgo-lets-go-gif-18410791
+https://images-ext-2.discordapp.net/external/6VPHvt_y_L40mowIKYX7R_J_JAhrqtKBfLakRKENq3E/https/media.tenor.com/I4d1QyAghmUAAAAD/hooray-letsgo.png
+
+
+[09/19/2022 4:27 PM] anon2020s#6116
+sorry buddy, I'm doing my best but I still have some problems with WASMs. 
+I have already found a frontend dev that will help me with this issues. So, we're close.
+
+{Reactions}
+💪 
+
+[09/20/2022 2:58 PM] anon2020s#6116
+📢  ErgoMixer v4.2.0 is out! Please update.
+Changelog:
+- Add log rotation
+- Add dynamic path for backups
+- Fix backup and restore problem
+- Improve the structure of controllers
+- Minor changes in deprecated functions
+- Add more tests
+- Update prune db service for HopMix
+- Fix bug for token mixing
+https://github.com/ergoMixer/ergoMixBack/releases/tag/4.2.0
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases/tag/4.2.0
+Release Mixer-4.2.0 · ergoMixer/ergoMixBack
+Change log:
+
+Add log rotation
+Add dynamic path for backups
+Fix backup and restore problem
+Improve the structure of controllers
+Minor changes in deprecated functions
+Add more tests
+Update prune db s...
+https://images-ext-1.discordapp.net/external/4MpLgJaIeKgIX1JcdixIpsQ6qB7Yi6K8He31H4rHEKc/https/opengraph.githubassets.com/6dbe529395884740c8970210dd69bd5164ca927835547eae88caffc2943bd594/ergoMixer/ergoMixBack/releases/tag/4.2.0
+
+{Reactions}
+🤝 (4) ergo_orange (3) 💪 
+
+[09/24/2022 11:09 PM] $aX#5658
+Thank you @anon2020s for the Backend release! If you do not end up re-writing the build instructions, I will see if I can help and add a pull request. Sounds like you have help with updating Frontend part of mixer
+
+
+[09/26/2022 9:03 PM] Pulsarz#9208
+Is there a reason the max ring for sigusd is 250? Seems a little low when compared to 250 ERG ring no?
+
+
+[09/28/2022 10:20 AM] anon2020s#6116
+any ring that community want can be added.
+
+
+[09/28/2022 10:32 AM] anon2020s#6116
+📢  ErgoMixer and EIP37 Hardfork
+ErgoMixer is able to handle Hard Forks, however:
+- in case of fork, you may see a lot of errors in the log indicating txn failures, double spending,.... That's normal and will calm down after a few hours.
+- make sure your mixer is connecting to upgraded nodes. The list of nodes is available in "Configuration" tab and is editable via config file. 
+- If you're using your local node, make sure to upgrade it.
+- stopping mixer during the upgrade is **not necessary but strongly recommended**.
+- if you're an expert, you can change and increase the confirmation requirement and the time intervals in the config file.
+- if you're a normal user, please stop the mixer before the fork and turn it on a few hours after the fork.
+
+
+[09/28/2022 11:37 AM] Pulsarz#9208
+Although sigusd ring activity is very low as far as I can see, adding a 500 and/or 1000 ring might be interesting. 250sigusd is just too little I think, 250 erg ring is 2.5x that value. But I unddrstand too many rings will divide the available fund too much between rings I suppose.
+
+
+[10/16/2022 12:43 AM] $aX#5658
+@anon2020s Any luck with instructions? I still can't compile lately with a fresh build
+
+
+[11/05/2022 2:19 PM] $aX#5658
+A PR was submitted for changes to fix the java issue during compilation. Can now compile with those changes
+
+
+[11/16/2022 10:24 AM] R C#4349
+hello sir, how do I withdraw from the covert address if I selected manually withdraw? at the top next to 'set address' is the 'withdraw now' option, but it's unclickable for me. status is also complete
+
+
+[11/16/2022 10:24 AM] glasgowm#9381
+You need to set the address(es) first.
+
+{Reactions}
+🤝 ergo_orange 
+
+[01/12/2023 1:19 AM] $aX#5658
+@anon2020s Any plan to push the PR change on the Front End?
+
+{Reactions}
+👍🏻 
+
+[01/17/2023 10:08 AM] anon2020s#6116
+:ErgoMixer: ErgoMixer v4.3.0 is out!
+
+Change log:
+
+- Update Appkit to 5.0.0
+- Fix bug for covert mixing with tokens and remove redundant mixing requests due to this bug
+- Improve admin version and merge it with main code base of Mixer
+- Update swagger and split admin and main swagger
+- Update frontend:
+   -- Update Create-react-app to version 5 (thanks to @minotaur-ergo)
+   -- Update MUI to latest version
+   -- Improve UI
+   -- Update to node version 16
+- Update SigmaUSD scenario and remove old WASM
+- Fix the shutdown problem
+- Fix installation script (java version, nvm installation)
+- Minor improvement (clean code and remove redundant functions, improve logs)
+- Add connection timeout config
+Contributors: @JimmyHoffa, @Reqlez, @minotaur-ergo, @anon2020s
+
+https://github.com/ergoMixer/ergoMixBack/releases/tag/4.3.0
+
+{Embed}
+https://github.com/ergoMixer/ergoMixBack/releases/tag/4.3.0
+Release Mixer-4.3.0 · ergoMixer/ergoMixBack
+Change log:
+
+Update Appkit to 5.0.0
+Fix bug for covert mixing with tokens and remove redundant mixing requests due to this bug
+Improve admin version and merge it with main code base of Mixer
+Update...
+https://images-ext-2.discordapp.net/external/89VcywrAhk2obt__1Dgr5puOPWgApw_qpjVtrzGcFKs/https/opengraph.githubassets.com/f4bc90732d175a99aba3dfc3802169fe1bf31649c206238dffb9e17648d6e56a/ergoMixer/ergoMixBack/releases/tag/4.3.0
+
+
+[01/17/2023 10:16 AM] anon2020s#6116
+focusing now on delivering the stealth address feature
+
+{Reactions}
+Cheers (3) 👍 (3) 
+
+[01/21/2023 5:34 PM] timreg7#6732
+I thought I'd ask for feedback here. For the ergohack, i am creating a course that teaches users how to maintain privacy and security while using crypto. Below is a rough outline of things I'd like to cover, but I am interested in feedback anyone has:
+
+{Reactions}
+❤️ 
+
+[01/21/2023 5:35 PM] timreg7#6732
+1. Why is privacy important? 
+
+2. General Privacy Preserving Practices
+Creating Secure Passwords
+Enabling Two-Factor Authentication
+Setting Up a VPN
+Protecting Your Machine
+Maintaining Private Online Communications
+Tor & Web Browsing
+
+3. Privacy on the Blockchain
+Setting Up the Mixer
+Creating a Private Wallet
+Sending and Receiving Funds Privately
+Cold Wallets
+Protecting Your Seed Phrases
+
+4. Avoiding Privacy Leaks: A Not-To-Do List
+Associating Known Wallets
+Personally Identifiable Information
+Account Sharing
+Untrusted Applications
+Public Wi-Fi
+Ad Personalization
+
+
+[01/21/2023 5:37 PM] timreg7#6732
+It's hard bc new things are emerging all the time (stealth addresses, etc) but I think it would be good to establish a baseline and teach people the principles of maintaining privacy
+
+
+[02/12/2023 1:41 PM] Pulsarz#9208
+@anon2020s my first test mix just finished but when I go to mixing history I get a blank page now every time, running latest release, seen this before?
+
+
+[02/12/2023 10:17 PM] $aX#5658
+Same bug for me also w/ latest code
+
+
+[02/14/2023 8:06 AM] anon2020s#6116
+@$aX what do you see exactly? a blank page or a page saying nothing to show?
+Can you send the logs of this event? The logs when you open this tab.
+
+
+[02/14/2023 8:08 AM] Pulsarz#9208
+nothing in the application log itself
+
+{Attachments}
+https://cdn.discordapp.com/attachments/762308254159863818/1074965419603017798/image.png
+https://cdn.discordapp.com/attachments/762308254159863818/1074965419829502032/image.png
+
+
+[02/14/2023 8:09 AM] Pulsarz#9208
+was fine before the mix finished
+
+
+[02/14/2023 8:09 AM] Pulsarz#9208
+tried adding a new mix to see if it helped but alas
+
+
+[02/14/2023 8:11 AM] anon2020s#6116
+thanks, I'll check. while the mix is not finished AND is not fully withdrawn, the mix will not be shown in history page. 
+I have to check the issue with finished mixes in history page.
+
+
+[02/14/2023 8:12 AM] Pulsarz#9208
+Oh sorry, it's not withdrawn yet afaik
+
+
+[02/14/2023 8:12 AM] Pulsarz#9208
+but it's not on the active mixes either, unless i'm missing something
+
+
+[02/14/2023 8:14 AM] anon2020s#6116
+did you set the withdraw address or not?
+
+
+[02/14/2023 8:15 AM] Pulsarz#9208
+it's been months since I started a 1 erg mix so my memory may be failing me, but I don't think so
+
+
+[02/14/2023 8:15 AM] Pulsarz#9208
+I will double check my derived addresses in my other wallets (it was just a test)
+
+
+[02/14/2023 8:15 AM] Pulsarz#9208
+hah
+
+
+[02/14/2023 8:15 AM] Pulsarz#9208
+yes I got it in a new wallet indeed, sorry
+
+
+[02/14/2023 8:16 AM] Pulsarz#9208
+so yes history not showing but mix went fine
+
+
+[02/14/2023 8:16 AM] anon2020s#6116
+okay good
+
+
+[02/14/2023 8:16 AM] anon2020s#6116
+and please check a config for me, "prunedb" is false or ture?
+
+
+[02/14/2023 8:17 AM] Pulsarz#9208
+false
+
+
+[02/14/2023 8:18 AM] Pulsarz#9208
+but okay, it's only a small issue, funny I even forgot to check the test wallet if it received anything
+
+
+[02/14/2023 8:19 AM] anon2020s#6116
+fine, thanks for the report. I'll check.
+
+
+[04/07/2023 1:56 PM] $aX#5658
+Been working on any new updates lately @anon2020s ?
+
+
+[04/08/2023 7:26 PM] Glasgow#0000
+test
+
+
+[04/08/2023 7:27 PM] Glasgow#0000
+Now bridged with: https://matrix.to/#/#ergo-platform:matrix.org
+
+{Embed}
+https://matrix.to/
+Matrix - Decentralised and secure communication
+You're invited to talk on Matrix. If you don't already have a client this link will help you pick one, and join the conversation. If you already have one, this link will help you join the conversation
+https://images-ext-1.discordapp.net/external/3yPmfN-_U_7Xn8hLSG77nY9IvdtITH0GPrB6OX3JjEI/https/matrix.org/blog/img/matrix-logo.png
+
+
+[04/17/2023 3:56 AM] Zach | Picaro#5270
+When allocating mixed erg to multiple withdrawal addresses, does this generally mean, separate wallets or separate 'receive' addresses within the same wallet?
+
+
+[04/17/2023 10:15 AM] glasgowm#9381
+whatever you specify
+
+
+[04/17/2023 10:37 AM] Zach | Picaro#5270
+Regarding privacy: does it make that much of a difference from the outside looking in?
+
+
+[04/17/2023 11:16 AM] glasgowm#9381
+I wouldn't think so.
+
+{Reactions}
+👍 
+
+==============================================================
+Exported 906 message(s)
+==============================================================

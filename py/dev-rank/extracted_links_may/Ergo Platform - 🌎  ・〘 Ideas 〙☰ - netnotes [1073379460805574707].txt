@@ -1,0 +1,46 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Ideas 〙☰ / netnotes
+==============================================================
+
+[02/09/2023 11:07 PM] glasgowm#9381
+networkspore — Today at 02:28
+Whitepaper for my ergohack submission. 
+https://github.com/networkspore/Netnotes
+
+"The Chinese character for “enemy” means to be similar to or to answer — Don’t answer the machine — Shut if off —"
+-William S. Burroughs
+
+"Our natural bias is to accept the new gimmick as a thing that can be accommodated in the old ethical order...
+[However] It is the art of the interval, rather than the art of the connection, (which is not only medieval but Oriental); above all, it is the art mode of instant electric culture.
+-Marshall McLuhan
+
+{Embed}
+https://github.com/networkspore/Netnotes
+GitHub - networkspore/Netnotes: The official netnotes.io repository
+The official netnotes.io repository. Contribute to networkspore/Netnotes development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/GHq6cpUPVqIP56XR_69DF1cGKVOxfR08kOGdJDgihtw/https/opengraph.githubassets.com/2a7d8520640297a86118a3808b2ec8ee3e13c6e44779f42ef3dca456f1523b13/networkspore/Netnotes
+
+{Reactions}
+👍 (2) 
+
+[02/14/2023 1:38 AM] networkspore#4282
+Steps I went through to get started building an app-kit project
+https://github.com/networkspore/Netnotes/blob/main/Getting-started.md
+
+{Embed}
+https://github.com/networkspore/Netnotes/blob/main/Getting-started.md
+Netnotes/Getting-started.md at main · networkspore/Netnotes
+The official netnotes.io repository. Contribute to networkspore/Netnotes development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/GHq6cpUPVqIP56XR_69DF1cGKVOxfR08kOGdJDgihtw/https/opengraph.githubassets.com/2a7d8520640297a86118a3808b2ec8ee3e13c6e44779f42ef3dca456f1523b13/networkspore/Netnotes
+
+
+[02/20/2023 4:30 AM] NoahErgo#4349
+Hello @networkspore I tried dming but realized you had blocked me 😆 
+
+I am assisting Ergo Foundation with the ergohack and they are gathering participants to see if people would be able to create a video presentation on the project each person has created. Ideally would need to have a video back 2 weeks or so following the hackathon. The videos will be shared publicly on the Ergo youtube channel as a way to share what the community has put together during the event! Would you be able/intersted? If not interested that is okay, and wish you best of luck with the rest of the hackathon
+
+
+==============================================================
+Exported 3 message(s)
+==============================================================

@@ -1,0 +1,1866 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / autolykos
+==============================================================
+
+[05/23/2021 11:47 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845975964932112384/845976190988714014/unknown.png
+
+
+[05/23/2021 11:47 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845975964932112384/845976251751596092/unknown.png
+
+
+[05/23/2021 11:47 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845975964932112384/845976314410434560/unknown.png
+
+
+[05/31/2021 9:07 PM] Wolf9466#6211
+This is correct, but also, difficulty algorithms (all of them) try to keep block time constant.
+
+
+[05/31/2021 9:07 PM] Wolf9466#6211
+They just vary in how good they are at it.
+
+
+[06/01/2021 8:12 AM] nosynq#1900
+Just read this on DAG file. And got the questions.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845975964932112384/849183679745359912/image0.png
+
+
+[06/01/2021 8:15 AM] nosynq#1900
+How it could be N fixed at 2143944600? If one multiply it by 31 byte, it would be roughly 66 gb of memory required for the table. Where am I wrong?
+
+
+[06/01/2021 3:52 PM] nitram147#5106
+You are highly probably simply not wrong.
+4200000÷(30×24)÷365 = 15,981735159817
+
+
+[06/01/2021 3:53 PM] nitram147#5106
+Count of block / (blocks per hour * hours in day) / days in year
+
+
+[06/01/2021 3:54 PM] nitram147#5106
+It means that the size of 66GB as you calculated will be reached 16 years after the genesis block was mined.
+
+
+[06/01/2021 3:54 PM] nitram147#5106
+(That should be about 14 years from now)
+
+
+[06/01/2021 3:55 PM] nitram147#5106
+If you assume the moore law, nowadays have GPUs 25GB of memory, so 66GB shouldn't be a problem in 2035 🙂
+
+{Reactions}
+😍 (3) 
+
+[06/05/2021 10:06 PM] nosynq#1900
+I don’t really think that such memory size will be available in gpu even in 15 years. It’s quite risky to rely on tech which is not yet exist. So strange approach for me.
+
+
+[06/05/2021 10:49 PM] timoh#9775
+amd just released professional card with 32GB vram and 48gb models exist... 66GB is farfetched but half of that possible... tech tends to get cheaper over time
+
+
+[06/05/2021 11:36 PM] andee#4722
+@nosynq soft fork a new limit, community vote, problem solved?
+
+
+[06/06/2021 7:46 AM] nosynq#1900
+Maybe. IDK.
+
+
+[06/06/2021 9:22 AM] andee#4722
+I'm just thinking loud, 66GB in 14 years is a lot
+
+
+[06/07/2021 4:09 PM] kushti#0978
+Well, we didn't  have (and I still not have) anything smarter than hardcoded increase. Hard to say how hardware will adopt.
+
+
+[06/07/2021 4:09 PM] kushti#0978
+But as rules are defined, it somehow will.
+
+
+[06/08/2021 5:55 AM] Kaven#6681
+@kushti have you ever written anything about leaving PoS behind, so to speak
+
+
+[06/08/2021 5:56 AM] Kaven#6681
+or the specifics of the decision to make Ergo a PoW chain
+
+
+[06/08/2021 5:59 AM] Kaven#6681
+does it all boil down to the security problem when defi yield is greater than staking reward?
+
+
+[06/08/2021 12:57 PM] kushti#0978
+@Kaven not just, PoW is also about (fair) distribution, for PoS currency you need to make huge ICO for fair distribution. Also, PoW is about simpler security assumptions and protocols like NiPoPoWs.
+
+
+[06/08/2021 3:47 PM] Kaven#6681
+makes sense 🙂
+
+
+[06/11/2021 1:34 PM] danandbeard#3509
+https://eprint.iacr.org/2020/044.pdf
+
+I've been reading this and trying to conceptualize what a decentralized "pool" would look like - this paper may already answer the question and I'm just not fully understanding it yet, but with block generation is there a way to verify that the puzzle solving happened using some identifying information?
+
+The use-case (which doesn't appear to be unique, I just want to understand it) is that I want individual miners to attempt to mine blocks, but upon mining a block I want to verify those same miners send the rewards to a "pool" rather than themselves.  Therefore in order to join this pool you put up collateral the size of a block reward so a contract can then use that collateral to pay-out the pool if the miner decides to keep the reward rather than pay towards the "pool"
+
+
+[06/11/2021 1:37 PM] danandbeard#3509
+I believe the paper describes this type of system as a Type 1 non-outsourcable PoW scheme by making miners use a private key as part of the puzzle solution such that anyone else can verify the block was indeed solved using that unique identity (and thus the contract can spend the collateral if the miner doesn't send the pool reward to the pool address)
+
+
+[06/11/2021 1:40 PM] danandbeard#3509
+so the smart contract would effectively just hold some data identifying the pool participants and then the contract would also watch block generation to make sure any blocks mined by participants resulted in a corresponding "pool" payment
+
+
+[06/16/2021 1:21 PM] ASCiiDiTY#3647
+I assume you've looked at p2pool in the past?
+
+If not: https://en.bitcoin.it/wiki/P2Pool
+
+{Embed}
+https://en.bitcoin.it/wiki/P2Pool
+P2Pool
+
+
+[06/16/2021 1:22 PM] danandbeard#3509
+I have, the most interesting paper is actually the ethereum smartpool paper
+
+
+[06/16/2021 1:22 PM] danandbeard#3509
+p2pool requires a sidechain which ideally could be avoided, but I need to learn more about state machines in ergo's sigma protocols
+
+
+[06/16/2021 1:25 PM] ASCiiDiTY#3647
+Interesting. I'll give the above a read later. I find the idea interesting but feel it's not as efficient as a regular centralised pool, with the p2poool method. I setup a p2pool node for VTC to test it, but it's probably not something I would mine on myself, the rewards never seemed to add up for me.
+
+
+[06/16/2021 1:26 PM] danandbeard#3509
+presuming state machines in ergos sigma protocols aren't prohibitively expensive it really doesn't require many transitions
+
+
+[06/16/2021 1:27 PM] ASCiiDiTY#3647
+I'd love to setup some kind of pool for ERG but am still in the learning phase. I've been playing about with some pool scripts/servers, and it's not too hard, but gets confusing when it's for coins not supported by default for me.
+
+
+[06/16/2021 1:27 PM] danandbeard#3509
+effectively you bundle up your shares and send them to the smart contract in large bundles - the contract validates only some subset meaning a contract spend to transition state could happen very infrequently and then the pool payout could be delayed by some 20 blocks or so such that if you bundle up your shares during that time period you'll get fair rewards
+
+
+[06/16/2021 1:28 PM] ASCiiDiTY#3647
+I like the idea but would need to test it.
+
+
+[06/16/2021 1:28 PM] danandbeard#3509
+smartpool is conceptually quite simple, although implementation without stateful account models like in ETH is likely far more complex
+
+
+[06/16/2021 1:29 PM] ASCiiDiTY#3647
+The deal breaker for me with any decentralised pool solution is simply if we get what we should in the long run.
+
+
+[06/16/2021 1:30 PM] ASCiiDiTY#3647
+I felt even after a long p2pool was giving me much less.. 20-30% less. Possibly extremely bad luck but I think not.
+
+
+[06/16/2021 1:30 PM] ASCiiDiTY#3647
+*long trial
+
+
+[06/16/2021 1:31 PM] danandbeard#3509
+interesting, losses that big are either crazy bad luck or perhaps someone was exploiting a flaw
+
+
+[06/16/2021 1:36 PM] ASCiiDiTY#3647
+The network was always getting stale shares and such, some people claimed it didn't matter too much as long as my node was not having loads.. but I setup this http://acidpool.xyz:9171/ and between four of us with quite a lot of hashrate, over 21 days we all got consistently lower amounts of coin than if we were to use a normal pool. One thing that might of made it worse, at the time there was one node that had hundreds of users and was producing loads more bad shares.. but other kept telling me it didn't matter as long as my node and miners were performing well, which they were. That overloaded node has vanished now, so I may try again at some point.
+
+{Embed}
+http://acidpool.xyz:9171/
+ACiDPOOL.XYZ:9171 - P2Pool
+ASCiiDiTY's Vertcoin P2Pool
+
+
+[06/16/2021 1:37 PM] danandbeard#3509
+oh yeah huge stale shares can absolutely matter if they were divvying up rewards and counting stale shares
+
+
+[06/16/2021 1:39 PM] ASCiiDiTY#3647
+People who were advocating p2pool told me it didn't matter, but my results seems consistent. We felt like we were being punished for other people's poor setups/nodes/miners. while we had gone to the effort of putting the pool up on a fast fibre line, and all mining from a close location to it.
+
+
+[06/16/2021 1:40 PM] ASCiiDiTY#3647
+In an effort to improve this a p2pool list was made to direct people too, that orders the list by ping to the person viewing.
+
+
+[06/16/2021 1:40 PM] danandbeard#3509
+well that all depends on if stale shares counted towards prize distribution - it may not have mattered
+
+
+[06/16/2021 1:41 PM] ASCiiDiTY#3647
+That's my issue, I don't fully understand the inner workings of it so had to take people's word for it.
+
+
+[06/16/2021 1:41 PM] danandbeard#3509
+yeah, fair enough
+
+
+[06/16/2021 1:42 PM] ASCiiDiTY#3647
+It seemed like the busy node, one which was driving traffic to it for profit, was causing some issue on the network. Our guess was just hundreds of users with bad ping to the node etc..
+
+
+[06/16/2021 1:43 PM] ASCiiDiTY#3647
+We noticed some miners on that node were also just giving 100% rejected shares, so maybe a farm that has left something setup badly.
+
+
+[06/16/2021 1:44 PM] danandbeard#3509
+yeah I'm not terribly familiar with the economics behind pools - I somewhat understand the implementation
+
+
+[06/16/2021 1:44 PM] danandbeard#3509
+naively I would presume paying out for stale/rejected shares wouldn't happen
+
+
+[06/16/2021 1:44 PM] danandbeard#3509
+but there may be certain attack vectors introduced by not accepting some/all of those "bad" shares
+
+
+[06/16/2021 1:45 PM] danandbeard#3509
+definitely something I'll need to learn a lot more about before I ever market an ERG smartpool
+
+
+[06/16/2021 1:46 PM] ASCiiDiTY#3647
+I'm still very much learning. I have a lot of similar website and tech experience but I'm slightly out of my comfort zone with pools. I do plan to have a public pool with some GPU mineable coins and XMR eventually though, so am just setting up pools locally and testing them with friends etc.. until I'm comfortable that I can handle any situation in production.
+
+
+[06/16/2021 1:47 PM] danandbeard#3509
+very cool, hopefully you'll be in a position to answer my questions when I get to that point
+
+
+[06/16/2021 1:50 PM] ASCiiDiTY#3647
+A big worry for me was security, but upon looking at some popular pool apps/scripts, a lot of them are very well equipped to deal with attacks of various kinds.
+
+
+[06/16/2021 1:52 PM] ASCiiDiTY#3647
+I think keeping auto withdraws forced with a variable limit that doesn't go too high, and have the pool rewards pay to another address, keeping the wallet as slim as possible, should help it from becoming a huge target in the first place.
+
+
+[06/16/2021 1:53 PM] ASCiiDiTY#3647
+I really don't like the idea of the wallet being sat on a rented server, but I guess there is no other option really.
+
+
+[06/16/2021 1:55 PM] Nythain#6769
+Man, you get an erg pool going and you get my 27mh lol.
+
+
+[06/16/2021 1:56 PM] ASCiiDiTY#3647
+Is that a 1050 Ti?
+
+
+[06/16/2021 3:17 PM] Nythain#6769
+Yeah with locked memclock
+
+
+[06/18/2021 3:13 AM] marcioglaser#3380
+Goodnight.
+I need help, I'm trying to create a pool, but I'm having some difficulties.
+
+I think about creating a pool to mine with friends now, and it would be a test run to create an open pool in Brazil for ERGO miners.
+Now, 3 friends and I have already mined together in a single wallet, we mining at Herominers.
+The initial tests I'm doing here on a single machine, even IP running the StratumServer and the miner.
+Mining is already enabled in my node settings.
+
+
+[06/18/2021 3:15 AM] marcioglaser#3380
+ERGO NODE OK
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845975964932112384/855269564043231282/ERGO_NODE_OK.jpg
+
+
+[06/18/2021 3:16 AM] marcioglaser#3380
+STRATUM SERVER + PROXY OK
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845975964932112384/855269624055332884/STRATUM_SERVER__PROXY.jpg
+
+
+[06/18/2021 3:16 AM] marcioglaser#3380
+TEST NB MINER (ULTRA HI DIFF - NO SHARES)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845975964932112384/855269730265202698/TRY_NB_MINER_HI_DIFF_-_NO_SHARES.jpg
+
+
+[06/18/2021 3:16 AM] marcioglaser#3380
+TEST NV_MINER (MANY ERRORS)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845975964932112384/855269815295148072/TRY_NV_MINER_MANY_ERROS_ON_MINER_AND_POOL_-_NO_SHARES.jpg
+
+
+[06/18/2021 5:02 AM] arokace#8057
+When you're solo mining on your own node that's just how it is I'm pretty sure.  Any share submitted that is lower than the network difficulty isn't gonna net you a solution to get a block.  This is why it isn't recommended to solo mine unless you have a decent amount of hash, like personally I'd say at least 10 GH but probably more honestly.
+
+NVMiner, not sure if that's been kept up-to-date with the times honestly.
+
+
+[06/18/2021 5:05 AM] marcioglaser#3380
+Tanks.
+We hav 8.5 Gh/s, this hash power is for my personal computer. 
+My final project is a pool to many miners, but i need tests and works fine first.
+
+
+[06/18/2021 5:06 AM] arokace#8057
+ah gotcha.  my b.  Thats awesome though, we can definitely use more pool (not sure if you are planning for it to be a public one though)
+
+
+[06/18/2021 5:07 AM] marcioglaser#3380
+Yes, I want to make a public pool
+
+
+[06/18/2021 5:07 AM] arokace#8057
+nice!
+
+
+[06/18/2021 5:10 AM] arokace#8057
+I don't know much about ergo development or its pools.  But I do have there basic... very basic pool setup guide in front of me and I see there is suppose to be a method for setting the mining difficulty
+
+mining.set_difficulty
+
+
+[06/18/2021 5:30 AM] marcioglaser#3380
+Thanks.
+
+I would very much like to meet someone here who has already developed a pool project and who can offer me help, or even a contracted service.
+
+
+[06/18/2021 9:08 AM] glasgowm#9381
+see #🛠│host-a-pool
+
+
+[06/18/2021 1:57 PM] Nythain#6769
+Where do we see this channel. Its not in my list?
+
+
+[06/18/2021 7:11 PM] glasgowm#9381
+oh mb, should be you now
+
+
+[06/18/2021 7:12 PM] Nythain#6769
+Thanks :)
+
+
+[06/20/2021 12:56 PM] marcioglaser#3380
+you could have created #pool inside - Development -.  Where it was created in - Mining - the conversation has already become unproductive, with silly complaints that are already dealt with in other conversations.  Now I saw a huge discussion about a 76 mh guy complaining about the pool calculator.  And our attempt to create a new pool is getting lost in the middle of irrelevant issues.  If it's possible to put #pool inside - Development - that would be great.  (or building pool, creating pool, etc.)
+
+
+[06/21/2021 3:51 AM] marcioglaser#3380
+Friends, Sam recommended me not to use NB Miner in the pool tests here for now (pool I'm trying to create), because there are some issues. I just thought that today my 7.5 GHs are mining solo on Herominers and all workers are running NB Miner. Could this affect my block found?
+
+
+[06/21/2021 11:04 AM] nitram147#5106
+How many GPUs do you have - just out of my curiosity, 7.5GHs sounds like a lot.
+
+
+[06/21/2021 1:15 PM] marcioglaser#3380
+It's me plus 3 friends together.
+I have 17 GPUs. (2.2 GH/s)
+Friend 1 + (1.6 GH/s)
+Friend 2 + (2.85 GH/s)
+Friend 3+ (880 MH/s)
+
+Total 7.53 GH/s
+
+
+[06/21/2021 1:31 PM] nitram147#5106
+Phuuuh, that's a lot. 17 GPUs, so you are probably not a "hobby" miner 😄 What's the electricity cost where you live? In my home country it's like 0.2€/kWh, so everytime it's better to just buy crypto than to mine it.
+
+
+[06/21/2021 5:20 PM] marcioglaser#3380
+Here it is too expensive, Brazil is too bad for that.
+
+My energy bill is around R$2,500.00 which would be about $500 but mining is still profitable enough to make good profits. My GPUs are all new and most are RTX 3070 which is very efficient. Among them 3080s and some 1660s but they are equally efficient.
+
+
+[06/21/2021 5:25 PM] Jerry_slush#5579
+i spend around 700 a month electric for my 3.5 gh here in the states
+
+
+[06/21/2021 5:27 PM] Jerry_slush#5579
+i am also working on a mining pool... just started working on it as a matter of fact.. Glad to see someone else taking the plunge
+
+
+[06/21/2021 6:21 PM] marcioglaser#3380
+Good to know there's one more in this project. Join me at #pool right here.
+I just got promising results here, in fact mining in my pool, more than 500 shares accepted. But only with NV_Miner (open source). It works as expected, and sets the diff as configured in the pool. At Nanominer and NB Miner there was no satisfactory result. The diff does not decrease.
+
+
+[06/21/2021 6:23 PM] Jerry_slush#5579
+headed there right now
+
+
+[06/24/2021 9:51 AM] HaychAU#7544
+Nicehash just added autolykos 😦
+
+
+[06/24/2021 9:51 AM] HaychAU#7544
+https://www.nicehash.com/algorithm/autolykos
+
+
+[06/26/2021 11:09 PM] Licklobster#5542
+Fork difficulty to update at 256 or 512 blocks, instead of the current 1024. The long difficulty update time opens windows to abuse, which we're already starting to see with nicehash power on the network.
+
+
+[06/27/2021 2:44 AM] arokace#8057
+This has been a concern of mine too.  But as for NH doing anything yet, not sure what you're talking about.  I don't see anything odd going on yet.
+
+
+[06/27/2021 6:00 PM] johntheripp3r#9591
+While I am happy to see more traction, it's gonna increase difficulty
+
+
+[06/28/2021 2:36 AM] HaychAU#7544
+Yup, it's not a good thing in a way lol
+
+
+[06/30/2021 5:16 PM] Licklobster#5542
+Block time presently at 3mins because the alg cant correct itself quickly enough. lol... this needs to happen.
+
+
+[07/03/2021 10:37 PM] pragmaxim#0778
+I'd like to hear your opinions regarding block size as currently there is a lot of blocks with just a coinbase tx. This is caused by node generating a block candidate from (often empty) mempool immediately after a new block is applied. The reason is that miners are polling for new block candidate in a tight loop so the node generates new candidate asap for them. In fact it does so by itself as miner would grab it asap anyway.
+ - One solution to this might be to generate block candidates one after another (the later ones would have smaller chance of being empty) however question is what is the probability of miners grabbing the first, empty candidate or the following candidates. It still might reduce amount of empty blocks though.
+
+
+[07/05/2021 4:55 AM] Wolf9466#6211
+Changing work takes time, and we don't like wasting time.
+
+
+[07/05/2021 4:56 AM] Wolf9466#6211
+My solution would be the node keeping track of candidate transactions in the mempool, and puts them in all blocks generated
+
+
+[07/06/2021 12:41 PM] pragmaxim#0778
+each candidate for the same Height would have all TXs from the mempool, imagine we would be generating candidates every 20 seconds, the first one would be most likely empty and ideally not grabbed by miners ... it is still better than now when we generate just one candidate for the same Height right after previous block was applied ... that leads to many transactions being included into the next block
+
+
+[07/07/2021 2:48 AM] Wolf9466#6211
+yeah, true
+
+
+[07/12/2021 8:36 PM] Darkdemon#1648
+What about having the difficulty update every 512 blocks and let the difficulty be determined based on the last 16 blocks
+
+
+[07/12/2021 8:36 PM] Darkdemon#1648
+Instead of 8
+
+
+[07/16/2021 9:01 AM] pragmaxim#0778
+@kushti ^^^ I'm thinking we could grab last xx blocks from history, average the block mining time and number of transactions and make the candidate generation proportional to these averages, with reasonable defaults/boundaries ... this way it would be adaptive to the network throughput, difficulty, etc.
+
+
+[07/17/2021 9:30 PM] pragmaxim#0778
+count of block candidates for given height is important as miner immediately stops mining current block candidate if new one is available ... so in order to not waste miners time, we should generate just 2 block candidates for given height: one right after height changes (to avoid mining obsolete block candidate), timing of the second candidate generation would be driven by avg count of TXs in past xx blocks and average mining time ... ie. let's make a candidate that contains avg count of txs => this way TXs would be evenly distributed within blocks
+
+{Reactions}
+🤯 
+
+[07/20/2021 10:24 AM] Wolf9466#6211
+_grumbles about Autolykos2 having 32-byte reads_
+
+
+[07/20/2021 10:24 AM] Wolf9466#6211
+You know, it'd be better for DRAM if they were wider.
+
+
+[07/20/2021 10:25 AM] Wolf9466#6211
+VII might exceed 300MH/s
+
+{Reactions}
+miilkiSee 
+
+[07/20/2021 11:50 PM] kushti#0978
+This means HF though
+
+
+[07/20/2021 11:51 PM] kushti#0978
+Sounds good, if not too complex
+
+
+[07/20/2021 11:51 PM] kushti#0978
+Sounds good!
+
+
+[07/21/2021 9:59 AM] Wolf9466#6211
+It's kind of needed. If a HF is gonna be done, I vote for making the memory accesses in Autolykos2 wider.
+
+
+[07/30/2021 4:16 PM] Reggerriee#5482
+Can anyone make an ergo pool? For how many dollars? Anyone who might be interested please write in a private message. Thx
+
+
+[07/30/2021 7:08 PM] ProSavage#7131
+I made an ergo pool, but, you're gonna need to write a lot of code
+
+
+[07/30/2021 7:08 PM] ProSavage#7131
+or wait for CoinFoundry to opensource miningcore's ergo branch
+
+
+[07/30/2021 7:44 PM] Reggerriee#5482
+Can you add a branch of miningcore ergo?
+
+
+[07/31/2021 2:17 PM] Canberry#7404
+he isn’t coinfoundry
+
+
+[07/31/2021 3:38 PM] Jerry_slush#5579
+can you post it on github
+
+
+[07/31/2021 3:39 PM] ProSavage#7131
+Eventually.
+
+
+[07/31/2021 6:42 PM] Reggerriee#5482
+Pls give me github link
+
+
+[07/31/2021 6:42 PM] ProSavage#7131
+My stack will be OS when it’s ready
+
+
+[07/31/2021 6:42 PM] ProSavage#7131
+Ur gonna be waiting a while.
+
+
+[07/31/2021 6:43 PM] ProSavage#7131
+I have a lot to do
+
+
+[07/31/2021 6:43 PM] ProSavage#7131
+https://enigmapool.com 
+
+You can join and track progress, we will tell people when it’s open.
+
+
+[07/31/2021 7:02 PM] Wolf9466#6211
+Please don't.
+
+
+[07/31/2021 7:02 PM] ProSavage#7131
+what?
+
+
+[07/31/2021 7:02 PM] ProSavage#7131
+oh I know why
+
+
+[07/31/2021 7:02 PM] Wolf9466#6211
+Yes you do.
+
+
+[07/31/2021 7:02 PM] ProSavage#7131
+U kinda right tbh 😂
+
+
+[07/31/2021 8:23 PM] Reggerriee#5482
+ok
+
+
+[07/31/2021 9:23 PM] Canberry#7404
+just curious, why not?
+
+
+[07/31/2021 11:12 PM] ProSavage#7131
+Wolf's belief that people who run mining pools should actually care and know how it actually works.
+
+
+[07/31/2021 11:13 PM] ProSavage#7131
+I think its possible to give still, but would like need a lot of documentation on the specifics
+
+
+[07/31/2021 11:13 PM] ProSavage#7131
+like a damn crashcourse on the whole system and how it even works
+
+
+[08/01/2021 6:29 AM] Canberry#7404
+man this really do be where I can see closed source being a good thing
+
+
+[08/01/2021 6:59 AM] ProSavage#7131
+mine with ur FPGA on my pool wen ready :kekw:
+
+
+[08/01/2021 2:31 PM] Nythain#6769
+There are people who care and are fully capable of understanding how things work without the talent/time to crreate from scratch. I am on the fence with you opening up your pool, on one hand it could lead to some less qualified pool operators (though i believe the understanding and administration would be enough to turn away most of them), but on the other hand it could lead to more quality pools and exposure. Also a great learning tool for those just interested in the whole shebang.
+
+
+[08/01/2021 2:32 PM] Nythain#6769
+Maybe make one part of it crazy hard to implement, sort of a test/gate lol
+
+
+[08/01/2021 3:03 PM] ProSavage#7131
+yeah I think the OP strategy is to provide literally all the info in a single guide
+
+
+[08/01/2021 3:03 PM] ProSavage#7131
+like I had to wireshark miners to figure out how they work for some parts of protocol
+
+
+[08/01/2021 3:03 PM] ProSavage#7131
+So basically I can provide all the info you need, now u just write the code
+
+
+[08/01/2021 4:43 PM] Nythain#6769
+Thats a good idea actually. Way to contribute without blowing up the ecosystem lol.
+
+
+[08/01/2021 4:51 PM] Wolf9466#6211
+I agree.
+
+
+[08/08/2021 5:07 AM] Ivanoe#5462
+Is there any documentation to do a comparison between Eth an Autolykos memory access pattern? Would love to throw a wrench in the LHR gear...
+
+
+[08/08/2021 11:54 PM] Marty#4039
+Do you plan to share that data at some point? I'd be interested to see what you found
+
+
+[08/09/2021 6:41 PM] andee#4722
+just connect with the different miners to a pool and use wireshark to capture the traffic
+
+
+[08/11/2021 7:14 AM] BuzzLiteBeer#8676
+Hey folks, got my guide video up for setting up a node and stratum server then mining to your node in windows.
+
+{Reactions}
+ergo_white (3) 👍 (3) 
+
+[08/11/2021 7:14 AM] BuzzLiteBeer#8676
+https://youtu.be/ubov4oweA20
+
+{Embed}
+ErgoNaumics
+https://www.youtube.com/watch?v=ubov4oweA20
+Mine Ergo From Your Own Node, Zero Pool Fees
+Follow along in this video to get a node going on your local network, followed by a stratum server, then mine to it! Avoid pool fees and help to further decentralize Ergo. This was all done on a fresh install of windows 10 pro that was fully updated.
+https://images-ext-1.discordapp.net/external/7SP81eVsmgzDSCRgTkjF_0inJ2spdCP7Wm6wpJysWfc/https/i.ytimg.com/vi/ubov4oweA20/hqdefault.jpg
+
+{Reactions}
+❤️ (2) meltstake 
+
+[08/16/2021 10:36 PM] Serotonina#2676
+i got a question bout this, can anybody help me? most of the pools have fees of 1.0%-0.9%, is really recommended to have an own node? i mean cost-benefit
+
+
+[08/16/2021 10:38 PM] Serotonina#2676
+or its better to continue mining on a public pool, anyone here got an own node for mining?
+
+
+[08/17/2021 2:33 AM] BuzzLiteBeer#8676
+If you are patient your own node will be cheaper than a pool over the course of a year of mining.
+
+
+[08/17/2021 4:24 PM] Serotonina#2676
+how much RAM is the minium required to get the node working with no problems, and how many MBs/GBs it takes in the hard drive?
+
+
+[08/17/2021 4:32 PM] BuzzLiteBeer#8676
+8gb min ram. Im not sure on space requirements.
+
+
+[08/17/2021 4:35 PM] Serotonina#2676
+wow, thx ill keep it in mind, if i run it on a PC with 4 GB of RAM u think will be problems? i already tried it, in a VM with 2 GB of RAM too, but just to make a few tests, not to have a stable running node
+
+
+[08/17/2021 4:36 PM] BuzzLiteBeer#8676
+no it wont be stable. i tried and it crashed.
+
+{Reactions}
+ergo_white 
+
+[08/18/2021 3:49 PM] kushti#0978
+what do you mean by "making the memory accesses in Autolykos2 wider." ?
+
+
+[08/20/2021 2:32 AM] shinaolord#6633
+@kushti I would harbor a guess to resolve issues like this 
+> 
+> This algo accesses mem in 32 byte chunks. This means that RDNA
+> generation gpus (Navi, Big Navi) will not perform well. Their 128 byte
+> cacheline size means that 128 bytes are read for every 32 byte
+> request, effectively halving the available memory bandwidth compared
+> to GCN (which uses 64 byte cachelines).
+
+
+[08/21/2021 11:37 PM] Wolf9466#6211
+correct
+
+
+[08/23/2021 5:46 PM] Nythain#6769
+only really affects navi and big navi... not sure how increasing the chunk size would impact every other card if at all
+
+
+[08/25/2021 2:50 AM] shinaolord#6633
+I would think it'd make vegas EVEN faster, since there's no wasted bandwidth then?
+
+
+[08/25/2021 2:50 AM] shinaolord#6633
+Or is having double not affect performance, only >2x?
+
+
+[08/25/2021 7:20 PM] Wolf9466#6211
+It'd make the memory turnaround faster, yeah - if we read more at a time
+
+
+[08/30/2021 8:04 PM] HelixEvo#2120
+Anyone know why ERGO went from AKv1 to AKv2 and allowed pools? Was it to help include smaller miners get something from POW?
+
+
+[08/30/2021 8:05 PM] andee#4722
+to get better decentralization
+
+
+[08/30/2021 8:06 PM] HelixEvo#2120
+But your giving central power to big pools now though right?
+
+
+[08/30/2021 8:06 PM] andee#4722
+as long as the number of pools keeps increasing and people spread out I see no problem with that. there is also #🧠│smartpools in the works
+
+
+[08/30/2021 8:07 PM] HelixEvo#2120
+Like nano was at 51% not so long ago
+
+
+[08/30/2021 8:07 PM] HelixEvo#2120
+Smart pools.. Sounds interesting
+
+
+[08/30/2021 8:08 PM] andee#4722
+a solution is also being worked on for monero to decentralize pools, https://www.reddit.com/r/Monero/comments/p9apyd/psa_monero_decentralized_mining_pool_p2pool/
+
+{Embed}
+https://www.reddit.com/r/Monero/comments/p9apyd/psa_monero_decentralized_mining_pool_p2pool/
+r/Monero - PSA: Monero decentralized mining pool (p2pool)
+281 votes and 101 comments so far on Reddit
+
+
+[08/30/2021 8:08 PM] andee#4722
+I think we will see some innovation within the next years 🙂
+
+
+[08/30/2021 8:16 PM] HelixEvo#2120
+Wow, that sounds like a great solution.. So people still get rewarded for their work load, but its also decentralised, no pool custody and possibly will improve block times.
+
+
+[08/30/2021 9:44 PM] glasgowm#9381
+couldnt they implement non-outsourceability since no smart contracts?
+
+
+[08/30/2021 9:57 PM] andee#4722
+the advantage of this approach is that you will get regular rewards just like at a pool but without any centralization and zero fees
+
+
+[09/04/2021 7:42 PM] bbot#6878
+Do the ergo developers care about energy efficiency when it comes to designing autolykos? Is there any way of implementing functionality that incorporates it?
+
+
+[09/04/2021 7:43 PM] bbot#6878
+Seems like a lot of people seem to bash bitcoin and ethereum due to their high energy usage. Curious to know how PoW can combat that stigma of using tons of electricity
+
+
+[09/04/2021 8:47 PM] andee#4722
+in the end transaction throughput will be what determines this. bitcoin gets bashed because it uses a ton of electricity for ~5TPS
+
+
+[09/05/2021 3:10 AM] Wolf9466#6211
+You can't make an "efficient" algorithm without doing something dumb, like making it slow. An efficient algorithm actually means it's well-implemented, and that will use more power.
+
+
+[09/05/2021 3:10 AM] Wolf9466#6211
+The reason is, you're not just doing x amount of hashes and then you're done. You want to do as many as possible, as fast as possible.
+
+
+[09/05/2021 3:31 AM] bbot#6878
+Are you able to block older/less inefficient cards by doing something like increasing the minimum memory size?
+
+
+[09/05/2021 3:32 AM] Wolf9466#6211
+PoW is always going to use massive amounts of energy, it's inherent in the design. You could increase the min needed memory size, but that doesn't stop less efficient cards, just cheaper ones.
+
+{Reactions}
+👍 
+
+[09/05/2021 3:33 AM] bbot#6878
+Gotcha. Thanks for the info!
+
+
+[09/05/2021 3:33 AM] Wolf9466#6211
+Not a problem.
+
+
+[09/08/2021 11:11 AM] Wolf9466#6211
+I got an opinion on Autolykos2 from a career ASIC dev. He's really good.
+```
+Wolf9466 — Today at 7:54 PM
+Hey, I want your opinion on something.
+[7:54 PM]
+Switch to ASIC mode for a second
+[7:54 PM]
+If you were implementing this on a decently modern process, would you say it'd be reasonable to generate the indices (that is, do 64 Blake compresses) on-the-fly?
+[7:55 PM]
+To me, it's balancing on the edge of "fuck it, we can do it on the fly" were I making an ASIC, but you know far more than I.
+
+*censored* — Today at 7:56 PM
+my gut says "yeah do it on the fly" just cuz the FPGA's HBM is not that different from what you'd get on an ASIC, while ASIC gates are 10X better than FPGA.
+
+Wolf9466 — Today at 7:56 PM
+I was feeling the same.
+
+*censored* — Today at 7:58 PM
+but it would also be interesting to think of other weird approaches to the memory problem.  Like doing a lot of 16-bit wide DDR4 chips.  Such a narrow channel would be good at 32B random reads, and DDR4 is so cheap you could put 64GB and have 32 copies of the table in there, so you could keep flipping between banks like crazy
+```
+
+
+[09/08/2021 3:45 PM] kushti#0978
+@Wolf9466 so, in short, efficient ASIC is possible ?
+
+
+[09/08/2021 3:46 PM] Wolf9466#6211
+Oh, certainly. I thought that was sort of the point.
+
+
+[09/08/2021 3:46 PM] Wolf9466#6211
+For ASIC to eventually show up
+
+
+[09/08/2021 4:02 PM] kushti#0978
+ETH has ASICs also, but still GPUs are mining. What can be for ERG ?
+
+
+[09/08/2021 4:12 PM] andee#4722
+@Wolf9466 do you have any thoughts about how efficient an autolykos miner could be? I think the most efficient ethash miner is around 1MH per 1.25W
+
+
+[09/08/2021 4:13 PM] Wolf9466#6211
+I'm not certain on how much extra area it'd take up
+
+
+[09/08/2021 4:13 PM] Wolf9466#6211
+BUT
+
+
+[09/08/2021 4:13 PM] Wolf9466#6211
+It's like this:
+
+
+[09/08/2021 4:13 PM] Wolf9466#6211
+@andee Ethash perf is so shitty because they HAVE to include RAM
+
+
+[09/08/2021 4:13 PM] Wolf9466#6211
+They are also bottlenecked by it.
+
+
+[09/08/2021 4:14 PM] Wolf9466#6211
+For an ASIC which does it on the fly, it could conceivably pump out one hash per cycle.
+
+
+[09/08/2021 4:14 PM] Wolf9466#6211
+Then it becomes a question of "how many cores of this can we fit on a chip"
+
+
+[09/08/2021 4:32 PM] Wolf9466#6211
+This also neatly sidesteps the issue of needing more memory - as it wouldn't use memory in the first place.
+
+
+[09/08/2021 6:07 PM] morphic#4133
+Hi, you mean recomputing the hashes may be more power efficient than accessing them in memory?
+
+
+[09/08/2021 6:07 PM] Wolf9466#6211
+Of course.
+
+
+[09/08/2021 6:08 PM] Wolf9466#6211
+I mean, it's only 64 Blake compresses, and since we're pipelining it, we have many hashes being computed in parallel.
+
+{Reactions}
+👍 
+
+[09/08/2021 6:08 PM] Wolf9466#6211
+My Blake2B for hardware, for example, is 48 stages - so there's 48 hashes in the pipeline.
+
+
+[09/08/2021 6:15 PM] morphic#4133
+So, you can feed in a series of random data blocks (one per cycle) to the input of the pipeline and after 48 cycles you can get one hash per cycle on the output?
+
+
+[09/08/2021 9:50 PM] Wolf9466#6211
+Yup.
+
+
+[09/08/2021 9:50 PM] Wolf9466#6211
+I break it into quarter-rounds for timing.
+
+
+[09/09/2021 10:18 AM] morphic#4133
+@Wolf9466 Interesting. So, once it is possible technically, it is just a matter of time and profitability of the additional spendings to produce ASICs. At some point we might see ASICs for Ergo.
+
+
+[09/09/2021 4:03 PM] SolReaper#7892
+why Ergo markets itself as asic resistant then?
+
+
+[09/09/2021 4:24 PM] Wolf9466#6211
+They did not know.
+
+
+[09/09/2021 4:53 PM] morphic#4133
+It yet to be proven that the ASIC design (like the above) is economically profitable in a long term (i.e. not only for the first adopters). You often can trade storage for computation, but at what cost? If the power advantage of recomputation is not high enough, then ASICs may be unprofitable (while possible).
+
+
+[09/09/2021 11:25 PM] Wolf9466#6211
+It's definitely high enough. Blake is rather small in hardware. Sixty-four instantiations, if it was 16, for example, you could fit that on FPGA
+
+
+[09/09/2021 11:26 PM] Wolf9466#6211
+So 4x the amount is *no* issue for ASIC.
+
+
+[09/09/2021 11:26 PM] Wolf9466#6211
+This TMTO is valid, just only on ASIC hardware.
+
+
+[09/13/2021 3:53 AM] Wolf9466#6211
+ETH doesn't have this TMTO, by the way
+
+
+[09/15/2021 7:44 PM] AggerGakker#4449
+Have there been any proposals the increase the speed of difficulty adjustments ?
+
+
+[09/15/2021 7:45 PM] AggerGakker#4449
+For example now we are running the chain with 140s blocktimes even though hashrate has dropped again
+
+
+[09/15/2021 7:45 PM] AggerGakker#4449
+Is it really needed to wait 11 days?
+
+
+[09/15/2021 7:47 PM] glasgowm#9381
+https://discord.com/channels/668903786361651200/845975964932112384/865503404998656020
+
+
+[09/15/2021 7:48 PM] glasgowm#9381
+oh that was for blocks, sure someone proposed one for diff. adjustments too. The current setup is to avoid coin-hopping attacks
+
+
+[09/15/2021 7:57 PM] AggerGakker#4449
+Not quite sure i like that it would be super efficient to make an asic
+
+
+[09/15/2021 7:57 PM] AggerGakker#4449
+🤣
+
+
+[09/15/2021 7:58 PM] AggerGakker#4449
+That would be another thing I would HAVE to get
+
+
+[09/16/2021 8:44 AM] AggerGakker#4449
+Also
+
+
+[09/16/2021 8:44 AM] AggerGakker#4449
+Has there been made some calculations on what happens to the network when ETH hits the merge?
+
+
+[09/16/2021 8:45 AM] AggerGakker#4449
+I know a lot of miners really interested in switching to ERGO
+
+
+[09/16/2021 8:45 AM] AggerGakker#4449
+I foresee crazy block times in between difficulty adjustment so
+
+
+[09/16/2021 10:38 AM] glasgowm#9381
+I'm not really sure that's something you can calculate. Up I'd guess.
+
+
+[09/18/2021 9:12 PM] Marty#4039
+How much would it cost to build a prototype and test this
+
+
+[09/20/2021 2:19 AM] Wolf9466#6211
+You'd need to build a lot of them to get any fab time, basically.
+
+
+[09/20/2021 2:19 AM] Wolf9466#6211
+I don't know how much, but a lot, and it'd probably be 2023 or something
+
+
+[09/20/2021 2:19 AM] Marty#4039
+by then they may have discovered a way to patch it
+
+
+[09/20/2021 2:48 AM] Wolf9466#6211
+This is true.
+
+
+[09/20/2021 3:54 AM] Marty#4039
+Its good you are thinking about stuff like this. Maybe the team would be interested to hear about this vulnerability.
+
+
+[09/20/2021 3:54 AM] Marty#4039
+Since the goal is to be 100% asic resistant
+
+
+[09/22/2021 6:32 PM] DreamsMoney#1427
+Hello all.  Im attempting to implement Autolykos solution verification and Im in the process of testing my implementation.   I was wondering if it would be viable to use the ergo explorer to test? - I.e. is it possible to obtain a passing: message, nonce, boundary, and height from the Ergo explorer?  In particular, what fields would be the message and the boundary?
+
+
+[09/28/2021 4:44 AM] Wolf9466#6211
+Hey.
+
+
+[09/28/2021 4:44 AM] Wolf9466#6211
+I got you.
+
+
+[09/28/2021 4:45 AM] Wolf9466#6211 (pinned)
+```
+Test Vectors - Ergo:
+
+Height = 569806 (0x8B1CE)
+Item count = 67108864 (0x4000000)
+Prehash Item KAT:
+
+Item index 0          : 0x00596fe417902d8fe61763deb06286d3bf787f3c8ea2cc3063724dd307993caa
+Item index 4          : 0x00832cba40f67d525e9c449f17f46e3bfcdb663427d4289e35bc8e04b0c97765
+Item index 255        : 0x003f44309d54120e5d41b36a245fea4098948f7e8c5c052247922b74a6c8e7b9
+Item index 67108863    : 0x000701c3dd5db987aab0bb57f6e89ea9dbdc1dd88ffcac698bfde407d95063ce
+
+
+Message = 0x9b8cb36a9b738fa3678521d00c938631e1a192bc1919f004d2cbabdaa33835b4
+Nonce = 0x5d340003e9c460dc
+
+Blake #1: 0xbd54dc777dc062c63b2f8cdd4d56f4f57b64d648420f62ef0e6f3935b0046fc99e7ea07b167ccadeaf2cd396504477697f5123e72887f61333358b5edbd5aa66
+
+Blake #2: 0x6dbc710c2fb6e975d93af456686617b97595a0cec9dd22d57b8a7176d3f470b175eccfc1f97cecc13207fb68358c608930e5d7cfcdd0b3a4da8b9acb508e3248
+
+Result = 0x0c3b54f29c8ac1a407f83cd09f3d61bc32996a3d58a7d9fe9fe0e0a08572e367f96b164cc3254ce5379622e007de97c76b1232030d899e0da83bc82e00000000
+```
+
+
+[09/28/2021 4:45 AM] Wolf9466#6211
+Let me know if you find it useful.
+
+{Reactions}
+ergo_orange 
+
+[09/28/2021 11:03 AM] VertErgo#5544
+If hashrate continues to drop, maybe we'll never have a difficulty adjustment.  Ergo is too new and volatile for its current difficulty adjustment mechanism.   It causes a positive feedback loop within each epoch.  Positive feedback loops, in which a change in a given direction causes additional change in the same direction.
+
+{Reactions}
+😫 
+
+[09/28/2021 11:07 AM] glasgowm#9381
+no need to spam across channels. 
+
+Here's your original comment - more via search
+
+```
+Please revisit Ergo's difficulty adjustment mechanism.  It unintentionally encourages pool hopping to the point that it can cripple Ergo.  High difficulty & low hashrate = increased block times = delay in difficulty adjustment = feedback loop that pushes more miners out increasing divergence between difficulty and hashrate further delaying difficulty adjustment.  My confidence in Ergo is waning specifically because of the difficulty adjustment mechanism.  Makes me wonder what else was overlooked.  Please do not ignore this!!  Thanks for listening.
+```
+
+{Reactions}
+😫 
+
+[09/28/2021 11:08 AM] VertErgo#5544
+Thanks, I wasn't sure where to post
+
+{Reactions}
+😫 
+
+[09/28/2021 12:58 PM] VertErgo#5544
+After reading a little more about it, I understand the reasoning behind how ergo adjusts difficulty,  but there has to be a better way to balance usability and security.  Perhaps by introducing some "circuit breakers" when pre-determined conditions are met, it triggers the "circuit breaker" that readjusts difficulty earlier than typical
+
+
+[09/28/2021 1:29 PM] AggerGakker#4449
+Very obvious that's one coin hoppers came over here
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845975964932112384/892387488419708948/image0.png
+
+
+[09/28/2021 1:41 PM] Fir3#0726
+Would be good if there was a way to reward constant miners
+
+
+[09/28/2021 1:42 PM] Fir3#0726
+Would incentivise the big hoppers to stay and stabilize the hashrate
+
+
+[09/28/2021 1:42 PM] Fir3#0726
+But I guess nothing can be done until the prices start moving up again
+
+
+[09/28/2021 4:07 PM] AggerGakker#4449
+More and more miners are talking about this on Reddit
+
+
+[09/28/2021 4:07 PM] AggerGakker#4449
+https://www.reddit.com/r/erg_miners/comments/pws2b1/what_is_this/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+{Embed}
+https://www.reddit.com/r/erg_miners/comments/pws2b1/what_is_this/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+r/erg_miners - What is this?
+16 votes and 17 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/tZva9E-YvCDucrvaybjA9kxnUMkAhjHJF-AJXuZT7tQ/%3Fauto%3Dwebp%26s%3Dc8db65a26273135fa8ab9703db8f471b68e3d9a3/https/preview.redd.it/qcvu0cl2f4q71.png
+
+
+[09/28/2021 5:09 PM] glasgowm#9381
+Discussions up here
+
+https://www.reddit.com/r/erg_miners/comments/px3gts/ergos_difficulty_adjustment_algorithm/
+
+https://www.reddit.com/r/ergonauts/comments/pwprp9/difficulty_lag_a_risk/
+
+{Embed}
+https://www.reddit.com/r/erg_miners/comments/px3gts/ergos_difficulty_adjustment_algorithm/
+r/erg_miners - Ergo's difficulty adjustment algorithm.
+19 votes and 30 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/TcLvPUnu3bVHFWSOtsw7T1mRarsC8Mz6GNSNA5JNnaQ/%3Fauto%3Dwebp%26s%3Ded19767f77fedb4af0403e3acaf1d4929b7d4e31/https/external-preview.redd.it/PoFS-q8kW7nkNomvxZrc0pXKUSqbTUWryd4VWDunLgE.png
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/pwprp9/difficulty_lag_a_risk/
+r/ergonauts - Difficulty lag - a risk?
+25 votes and 27 comments so far on Reddit
+
+
+[09/28/2021 5:10 PM] glasgowm#9381
+There's a few suggestions in here and throughout if you search. The issue is that it would require a HF and it's not clear (to me at least) if the pros outweight the cons.
+
+
+[09/28/2021 5:11 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845975964932112384/892443504222023690/unknown.png
+
+
+[09/28/2021 5:12 PM] glasgowm#9381 (pinned)
+"Hardforking policy
+Ergo is trying to avoid hard-forks. Emission, proof-of-work, basics of transactional model and other core things should not be changed at all as any change about core parts of design means another chain. However, developers may propose hard-forks within first 12 months if (and only if):
+
+a hard-fork is about security fixes only. The only exception is about making cost of particular instructions adjustable via miners voting, which was planned but not delivered in the current mainnet.
+a hard-fork is supported by 90+% of miners.
+a hard-fork is not breaking old contracts, freezing or moving any funds."
+
+
+“In the old generation of POW, hard forks usually lead to community splits. In Ergo, miners can change parameters on the fly in their configs and 50%+ of blocks mined within 1024 blocks epoch need to be for raising/lowering the limit of some parameter, then it will be changed by 1% in next epoch. It can be block size, computational cost, storage fee factor and many more. Above comment for the old generation doesn't mention that core developers are 3rd party also. With Ergo`s design, when all basic assumptions are correct, network should adapt in time to changing environment without the intervention of any trusted parties.” - mx
+
+
+[09/28/2021 5:12 PM] glasgowm#9381
+Pinned a message.
+
+
+[09/28/2021 5:34 PM] VertErgo#5544
+Right, this would not necessarily be a security issue, as security is currently higher than needed. Though, it is definitely a usability and viability issue, as being stuck at a high difficulty for prolonged times will drive up block wait times to the point that the blockchain may no longer be usable.  If there is a hard fork in the future, this issue should be included for resolution.
+
+
+[09/28/2021 5:37 PM] VertErgo#5544
+The only positive I see in the current state is that it increases ERG scarcity which may help increase the price to the point this problem resolves itself.  So, one can see these circumstances (high difficulty - low hashrate) as a buying opportunity!! Positive spin... 😀
+
+{Reactions}
+😆 
+
+[09/28/2021 5:44 PM] glasgowm#9381
+well, diff drop in 30 anyway. 
+
+The positive in its current state is that it'll be useful later on - and whether 1 or 2 HFs to remove and re-add it would be better than a few days of slow-blocks when we're small.
+
+
+[09/28/2021 7:55 PM] glasgowm#9381
+```I would like to point out that, there are mathematical way of preventing a feedback loop with delays, that would only kick in if such a loop was observed.
+
+the current issue is not a feedback loop, it is a delay in reaction time of the DA to an extent it is protecting the network at the expense of the individual miner/farmer.
+
+at least it is not as bad as BTC with a 2 week adjustment, but an epoch should be shorter than it is. This would still prevent a feedback loop. A loop is inevitable, like rolling hills, until the network is much larger, but the length of those hills should be shortened until then.```
+
+
+[09/28/2021 10:36 PM] VertErgo#5544
+I was expecting a bigger drop 😕  This is going to exacerbate the problem, those holding out for the difficulty adjustment will start hopping away.
+
+{Reactions}
+ergo_orange (4) 
+
+[09/30/2021 11:21 PM] Deleted User#0000
+"Later on" you are just assuming that ERG will get BIG one day, right? But this problem right now is for real, its affecting the network. Its bothering miners. And this is happening for 2-3 months already. Please, consider a fix for this. Miners are crucial for the project success.
+
+
+[09/30/2021 11:26 PM] Deleted User#0000
+Ergo lost more than 50% of its hashpower in less than 4 days. We are sitting at just 18TH/s now. IDK, the situation is just not looking good.
+
+
+[09/30/2021 11:39 PM] Supreme_Destroyer#5046
+Indeed. I agree with that. Devs are assuming there will be a "later on". The issue is real, it's happening right now. Small miners are being punished really hard by it.
+
+
+[09/30/2021 11:39 PM] Supreme_Destroyer#5046
+When diff drops enough, whales will jump back in for sure and eat most of the epoch
+
+
+[09/30/2021 11:40 PM] Supreme_Destroyer#5046
+Then small miners will be asked to eat the cost of holding the network with high difficulty
+
+
+[09/30/2021 11:42 PM] Supreme_Destroyer#5046
+Right now, the algorithm claims decentralization, but the profits are concentrated in the farms that  jump in every week out of four
+
+{Reactions}
+ergo_black 
+
+[09/30/2021 11:43 PM] Supreme_Destroyer#5046
+We support the network. Please don't turn a blind eye on this.
+
+
+[09/30/2021 11:50 PM] Deleted User#0000
+Thats it.
+
+
+[09/30/2021 11:51 PM] glasgowm#9381
+What farms? The # of miners has reduced about as much too
+
+
+[09/30/2021 11:54 PM] Deleted User#0000
+Actually, it didn't about as much. It was about 50k and now its 38k. Less than 25%. And we lost about 50% hash.
+
+
+[09/30/2021 11:54 PM] Supreme_Destroyer#5046
+Just look at the difficulty and hashrate graphs and you will find them
+
+
+[09/30/2021 11:55 PM] glasgowm#9381
+See HF policy above - if you can get pools/90%+ of miners to agree then it's up to the community to shape it. Devs don't think this issue warrants a HF afaik - vote with your hash and leave. Why do the farms have an advantage here?
+
+
+[09/30/2021 11:55 PM] Supreme_Destroyer#5046
+Between 15 and 26 of September. Low difficulty, hashrate goes up, high difficulty, hash down, repeat
+
+
+[09/30/2021 11:55 PM] glasgowm#9381
+I seen it pretty close to 60, so not far off
+
+
+[09/30/2021 11:55 PM] Deleted User#0000
+What is close to 60?
+
+
+[09/30/2021 11:56 PM] glasgowm#9381
+the price also peaked
+
+
+[09/30/2021 11:56 PM] glasgowm#9381
+nr of miners was at 57k something
+
+
+[09/30/2021 11:56 PM] Deleted User#0000
+No, I considering the same window... It was about 51k when the hash was 45 Th/s
+
+
+[09/30/2021 11:57 PM] Supreme_Destroyer#5046
+Don't worry, people will. Difficulty graph looks like a sine function and devs don't see anything wrong with it? That's bad
+
+
+[09/30/2021 11:59 PM] glasgowm#9381
+the price went 18>12>16>10
+
+
+[09/30/2021 11:59 PM] Deleted User#0000
+so its up to US, small miners, do that? Not the devs, the foundation or whatever? Ur seeing a lot of ppl here and on reddit complaining, but do we have the "power" to do that? Maybe this is your duty, not?
+
+
+[10/01/2021 12:00 AM] glasgowm#9381
+Nope I don't know much about mining. Would be the pool operators I guess and any prominent miners
+
+
+[10/01/2021 12:00 AM] Supreme_Destroyer#5046
+I hope you're right, and I hope we won't see it happening again in the following days with the price (kinda) low
+
+
+[10/01/2021 12:00 AM] Deleted User#0000
+What's kushti opinion on this? Disregarding the HF issue.
+
+
+[10/01/2021 12:03 AM] Deleted User#0000
+Did you guys, that works directly with the project... did you agree that we have a problem, right? And that's a serious one. Imagine a spike on the network usage when a new dApp is released, while this situation persists... IDK, can the network handle that?
+
+
+[10/01/2021 12:05 AM] Deleted User#0000
+I mean, Autolykos is great, its the best. But this diff system is killing us right now. Its seems to even affect transfers between wallets
+
+
+[10/01/2021 12:06 AM] glasgowm#9381
+Not particularly, as this shouldn't happen with a steady hash which should probably come pretty soon with an influx of miners. Network would be a bit congested but fine.
+
+
+[10/01/2021 12:08 AM] Deleted User#0000
+Well, unless you guys are preparing something that we are not expecting at all, it seems we are not getting a steady hash anytime soon.
+
+
+[10/01/2021 12:12 AM] VertErgo#5544
+This can be a nightmare scenario... if hashrate keeps dropping, we'll never get out of this epoch.  Only thing that can fix this in the short-term is a large  price increase.
+
+
+[10/01/2021 12:14 AM] Deleted User#0000
+Anyway, thanks for your attention and patience Glasgow. I don't know if the big guys up there are aware of the issue, they are probably busy, as always. But maybe this issue needs a closer look from them.
+
+
+[10/01/2021 12:15 AM] VertErgo#5544
+I just put my my miners back on Ergo... hopefully I can help a little
+
+
+[10/01/2021 12:15 AM] Wolf9466#6211
+>should come pretty soon
+State your reasoning?
+
+
+[10/01/2021 12:16 AM] VertErgo#5544
+Thanks Glasgow!  I believe in Ergo, that's why I'm vocal.  Want it to succeed
+
+
+[10/01/2021 12:17 AM] glasgowm#9381
+Not much else to mine, lotta spare hash
+
+
+[10/01/2021 12:17 AM] Wolf9466#6211
+ETH & RVN for AMD, and all the shitcoins which are awesome on Nvidia for those cards?
+
+
+[10/01/2021 12:17 AM] glasgowm#9381
+After eth I mean
+
+
+[10/01/2021 12:18 AM] Wolf9466#6211
+That... could be a while.
+
+
+[10/01/2021 12:18 AM] glasgowm#9381
+Jan1st I think it's coded into the epoch
+
+
+[10/01/2021 12:18 AM] Deleted User#0000
+Yes, we can't count on ETH. It could take even more than a year.
+
+
+[10/01/2021 12:18 AM] Wolf9466#6211
+[citation needed]
+
+
+[10/01/2021 12:18 AM] glasgowm#9381
+On mobile, what they were saying on an eth miners thread today
+
+
+[10/01/2021 12:18 AM] glasgowm#9381
+Update Oct 28th too but not sure how it impacts rewards
+
+
+[10/01/2021 12:19 AM] Wolf9466#6211
+ah, k. Well, when you can.
+
+
+[10/01/2021 12:20 AM] Supreme_Destroyer#5046
+So just gotta be hopeful that ergo is going to be good enough when no other options are available?
+
+Why not grow now?
+
+
+[10/01/2021 12:21 AM] Deleted User#0000
+ETH will likely be still mineable for months. Ppl on their community don't believe that the final transiction will occur before 2022 Q2 or Q3, maybe even Q4.
+
+
+[10/01/2021 12:22 AM] glasgowm#9381
+https://www.reddit.com/r/EtherMining/comments/pu9elq/total_mining_profit_until_20_chart_update/he3r36g
+
+{Embed}
+https://www.reddit.com/r/EtherMining/comments/pu9elq/total_mining_profit_until_20_chart_update/he3r36g
+r/EtherMining - Comment by u/timbeiko on ”Total Mining Profit until...
+252 votes and 148 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/YXxMiywKS0Bm9dd-SWORtnL2sCT06WJfPYYklYBh6A8/%3Fauto%3Dwebp%26s%3Dc7a213cd06e6da3006435737fe7656b486f7e563/https/external-preview.redd.it/u3uQmENp2qu96xXB0dSAqew2urSkcfY0l2r7ScqzhP0.jpg
+
+
+[10/01/2021 12:23 AM] glasgowm#9381
+We are growing now? If BTC would behave
+
+
+[10/01/2021 12:28 AM] Deleted User#0000
+233 seconds is the current average time for the last 64 blocks... almost the double of the expected
+
+
+[10/01/2021 12:28 AM] Deleted User#0000
+current epoch expected duration more than 2 days =/
+
+
+[10/01/2021 12:32 AM] Deleted User#0000
+it will not surprise me if we see, next week, an ultra fast epoch with 60 seconds average block time...
+
+
+[10/01/2021 12:33 AM] Supreme_Destroyer#5046
+I'm expecting it. If it repeats, I'm out unfortunately
+
+
+[10/01/2021 1:02 AM] VertErgo#5544
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/845975964932112384/893286819750350848/unknown.jpeg
+
+{Reactions}
+clownworld 👍 
+
+[10/01/2021 2:05 AM] Deleted User#0000
+Well, I love ERG but I'm done mining it for this epoch, lets see the next diff. I can't disrespect my money... if this is the game, let's play it. Better to mine ETH, sell it, buy ERG (if you want to hold).
+
+{Reactions}
+MonkaChrist 
+
+[10/01/2021 6:38 AM] Canberry#7404
+what on earth
+
+
+[10/01/2021 6:38 AM] Canberry#7404
+what’s up with the ‘ergo is in a downward spiral diff change will kill us all!!’ thing
+
+
+[10/01/2021 6:39 AM] Wolf9466#6211
+@Canberry The current diff adjustment algorithm is very much not suitable for the current situation, causing long periods of unintended high difficulty and long block times, and also reducing profitability for miners.
+
+{Reactions}
+👍 
+
+[10/01/2021 6:40 AM] Canberry#7404
+oh yeah I agree
+
+
+[10/01/2021 6:40 AM] Canberry#7404
+this tho
+
+
+[10/01/2021 6:40 AM] Canberry#7404
+and this
+
+
+[10/01/2021 6:40 AM] Canberry#7404
+I just don’t see the thought train
+
+
+[10/01/2021 6:40 AM] Wolf9466#6211
+@Canberry He doesn't know what he's on about
+
+
+[10/01/2021 6:41 AM] Wolf9466#6211
+there's enough hash to ensure diff won't be *stuck* high -- it'll just be a while
+
+
+[10/01/2021 6:41 AM] Wolf9466#6211
+@VertErgo is just making a mountain out of a molehill here.
+
+
+[10/01/2021 6:41 AM] Canberry#7404
+just another cycle
+
+
+[10/01/2021 6:41 AM] Wolf9466#6211
+Yup.
+
+
+[10/01/2021 6:41 AM] Canberry#7404
+I just mine through them and bask in the low blonk times after
+
+
+[10/01/2021 6:41 AM] Canberry#7404
+on the down cycle
+
+
+[10/01/2021 6:42 AM] Wolf9466#6211
+Same, I just leave Artica, my basement machine, on Ergo.
+
+
+[10/01/2021 6:43 AM] Canberry#7404
+:o I didn’t know you mined ergo
+
+
+[10/01/2021 6:43 AM] Wolf9466#6211
+... for fucking real?
+
+
+[10/01/2021 6:43 AM] Wolf9466#6211
+I used to mine using my own GPU code on Ergo. 😛
+
+
+[10/01/2021 6:43 AM] Wolf9466#6211
+I also contributed the new prehash kernel to the reference OpenCL miner
+
+
+[10/01/2021 6:43 AM] Wolf9466#6211
+And am writing another Ergo impl. 😛
+
+
+[10/01/2021 6:44 AM] Canberry#7404
+lol fr, I know you’re working on that current project, didn’t know you worked on the base openCL one
+
+
+[10/01/2021 6:44 AM] Canberry#7404
+how much hash does artica do?
+
+
+[10/01/2021 6:44 AM] Wolf9466#6211
+yeah, for myself, then I later contributed a bit
+
+
+[10/01/2021 6:45 AM] Wolf9466#6211
+Just around 320 - 330MH/s right now
+
+
+[10/01/2021 6:45 AM] Canberry#7404
+hey that’s solid tho
+
+
+[10/01/2021 6:45 AM] Wolf9466#6211
+don't have many GPUs in her
+
+
+[10/01/2021 6:45 AM] Canberry#7404
+more than me lol, my 3060 is humming away at 113MH
+
+
+[10/01/2021 11:51 AM] VertErgo#5544
+I hope you're right.  I was being alarmist...
+
+
+[10/03/2021 8:11 PM] WilfordGrimley#0124
+Have you read the ErgoSmartPools paper from the last Hackathon? 
+
+And the one on Logarithmic mining?
+
+
+[10/03/2021 8:53 PM] Wolf9466#6211
+nope
+
+
+[10/06/2021 3:16 PM] chad NIETZSCHE#0912
+Any benefit of creating ergo node
+
+
+[10/08/2021 6:55 AM] gnuion#3794
+Hello guys! Came across this project, and I find the idea of multiple mining algorithms interesting! Also the idea of solo mining without having to set up a node is interesting! And maybe there is a way to implement a smart contract between miners so they can have continuous  rewards. Like a decentralized pool... We usually use smart contracts to eliminate 3rd parties. Isn't a mining pool a 3rd party we can eliminate?
+
+
+[10/08/2021 6:55 AM] gnuion#3794
+https://github.com/QuarkChain/pyquarkchain/wiki/Introduction-of-Mining-Algorithms
+
+{Embed}
+https://github.com/QuarkChain/pyquarkchain/wiki/Introduction-of-Mining-Algorithms
+Introduction of Mining Algorithms · QuarkChain/pyquarkchain Wiki
+Python implementation of QuarkChain. Contribute to QuarkChain/pyquarkchain development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/qn7dnbBW-pSOwES7ntuBzofjMCBEJUasEv9xRYs-K4o/https/opengraph.githubassets.com/eb6230ca7660387d866740e2adf2f70cfdc641e5cf4ad128067a6d3f6933a7ae/QuarkChain/pyquarkchain
+
+
+[10/17/2021 11:45 PM] callie#3352
+wonder too, if it's benefit for entire ecosystem. I will run 1 node.
+
+
+[10/18/2021 8:38 AM] glasgowm#9381
+#node - All the node does is confirm transactions, it's good for decentralisation and running your own full wallet
+
+
+[10/25/2021 12:55 PM] nearozero#8852
+where is the best information to learn about autolykos?
+
+
+[10/26/2021 10:29 AM] Wolf9466#6211
+Can I get this pinned, btw?
+
+
+[10/26/2021 10:30 AM] Wolf9466#6211
+I think it's a great resource for people trying to implement it on their own.
+
+
+[10/26/2021 12:44 PM] glasgowm#9381
+Pinned a message.
+
+
+[10/26/2021 1:40 PM] Wolf9466#6211
+Thanks, @glasgowm :3
+
+
+[10/27/2021 10:15 AM] AggerGakker#4449
+I have question pertaining to the difficulty/ block time thing.
+In a situation where there's a big influx of hashpower and the block time decreases significantly.
+Does that theoretically mean that transactions are settled quicker?
+
+
+[10/27/2021 10:41 AM] apexpool#3878
+yes.
+
+
+[11/02/2021 10:29 PM] Tyra#9992
+How come Nvidia RTX 3070 is so darn efficient mining Ergo?
+
+
+[11/03/2021 6:39 AM] apexpool#3878
+the non-LHR version?
+
+
+[11/03/2021 8:42 AM] Tyra#9992
+Both of them are very efficient
+
+
+[11/04/2021 6:12 AM] Dv#3650
+is it possible to make an algorithm that adjusts difficulty on an hourly basis? and if so, would that be a good thing or bad thing?
+
+
+[11/04/2021 6:13 AM] Wolf9466#6211
+that would be terrible.
+
+{Reactions}
+💯 
+
+[11/04/2021 6:13 AM] Dv#3650
+Why?
+
+
+[11/04/2021 6:14 AM] Dv#3650
+seems like it'd be the best way to assure the most blocks are completed at the correct block time
+
+
+[11/04/2021 6:14 AM] Wolf9466#6211
+because you want an AVERAGE, so that the block time tends toward the target based on difficulty
+
+
+[11/04/2021 6:14 AM] Wolf9466#6211
+Changing it every hour also allows for attacks
+
+
+[11/04/2021 6:14 AM] Dv#3650
+yes, but with ergo I've noticed a huge lag when difficulty drops and or raises
+
+
+[11/04/2021 6:14 AM] Wolf9466#6211
+YES, and this is a major issue
+
+
+[11/04/2021 6:15 AM] Wolf9466#6211
+Which, IMO, the diff adjustment period should be less - but an hour would be too small.
+
+
+[11/04/2021 6:25 AM] Dv#3650
+well, it seems like it's small right now compared to something like btc as least
+
+
+[11/04/2021 6:53 AM] Canberry#7404
+btc nethash doesnt double and half in the span of a few days on a semi-regular basis
+
+{Reactions}
+👍 
+
+[11/04/2021 10:00 AM] StonedPenguin#3483
+I believe an 8-10 hour diff adjust could potentially work
+
+
+[11/04/2021 10:47 AM] FlyingPig#2854
+Rvncoin adjusts at every block. In an interview Tron stated that they originally had a few days lag but that miners jumping on and off affected the blocktime too much. Hence they did a hardfork to ensure consistent 2 minute blocks. The more use cases a Blockchain has the more I believe blocktime should be as predictable as possible so that end users know what to expect.
+
+
+[11/04/2021 2:07 PM] AggerGakker#4449
+with Nethash stabilizing it will be less of a problem
+
+
+[11/04/2021 2:07 PM] Wolf9466#6211
+this is true
+
+
+[11/04/2021 2:07 PM] AggerGakker#4449
+when ETH goes POS i think it will be a non issue
+
+
+[11/04/2021 2:07 PM] AggerGakker#4449
+i mean after the initial crush XD
+
+
+[11/04/2021 2:08 PM] Wolf9466#6211
+yeah, but we'll be waiting a long time for that shit to happen lol
+
+{Reactions}
+😂 (6) 🥲 
+
+[11/04/2021 4:58 PM] AggerGakker#4449
+This is true
+
+
+[11/04/2021 8:22 PM] weirdhousenoisesat837pmeveryday#4778
+I could be wrong but also Herominers pool being PROP (rather than PPLNS) and having a sizeable share of total hash also makes it easier for hashrate to jump on/off
+
+
+[11/09/2021 9:43 AM] Siegfried#2220
+Will Ergo implement a CPU mining algorithm like XMR or NXS?
+
+
+[11/09/2021 9:47 AM] apexpool#3878
+no.
+
+
+[11/09/2021 11:18 AM] AggerGakker#4449
+You Can CPU mine ergo on SRB miner
+
+
+[11/09/2021 11:18 AM] AggerGakker#4449
+It's not super efficient though
+
+
+[11/09/2021 11:34 AM] apexpool#3878
+the electricity will be much more expensive than what you mine.
+
+
+[11/09/2021 11:34 AM] AggerGakker#4449
+Yup
+
+
+[11/09/2021 1:02 PM] glasgowm#9381
+cpu mining is over-run with botnets
+
+
+[11/09/2021 1:08 PM] apexpool#3878
+most of the people are securing the network without knowing it 😂
+
+
+[11/10/2021 3:34 AM] Deleted User#0000
+a lot more decentralized than bitcoin
+
+
+[11/10/2021 4:24 AM] Wolf9466#6211
+No, he's not saying that's bad. That's *good*. Botnets are indeed decentralized - unless you think one person/group owns ALL infected machines.
+
+
+[11/10/2021 4:25 AM] Wolf9466#6211
+They're securing the network just like anyone else - for the purposes of the coin, there's nothing wrong here.
+
+
+[11/15/2021 2:22 AM] bsod#0067
+hi dear devs !
+i am BSOD, a new dev [ not yet ocntributed to the platform but yeah :blobgrimacing: ] and i am working on my very own crypto currency !
+i would love to know how to implement autolykos algorithm into it as far as i have seen, [ being a miner myself ], autolykos is very gpu friendly !
+
+
+[11/15/2021 2:24 AM] bsod#0067
+please ping upon reply :SarahPray:
+
+
+[12/10/2021 6:42 AM] gnuion#3794
+i wonder if ddr5 memory would help in cpu mining?
+
+
+[12/10/2021 8:32 PM] liquid_phase#4605
+If you want to utilize the autolykos algorithm at the same time as support the blockchain of those who developed it you could mint your crypto as a token on top of ergo blockchain and just go that route
+
+{Reactions}
+this (3) 
+
+[12/11/2021 12:56 AM] Wolf9466#6211
+no
+
+{Reactions}
+🥺 (2) 
+
+[12/11/2021 4:51 PM] AggerGakker#4449
+@Wolf9466 have you looked into the efficiency of the SRB cpu miner for autolykos?
+
+
+[12/11/2021 6:39 PM] apexpool#3878
+he does not need to. cpu mining ergo does not make sense.
+
+
+[12/11/2021 6:39 PM] AggerGakker#4449
+That's not what i asked
+
+
+[12/11/2021 6:39 PM] AggerGakker#4449
+I asked what the efficiency was
+
+
+[12/11/2021 6:40 PM] AggerGakker#4449
+I know it doesn't make sense
+
+
+[12/11/2021 6:40 PM] AggerGakker#4449
+I was just curious
+
+
+[12/11/2021 6:41 PM] AggerGakker#4449
+I heard that doctor mad some progress on second gen ryzen
+
+
+[12/13/2021 3:44 PM] andee#4722
+@AggerGakker I might check it out later, desktop is running r5 3600. its a little undervolted so I might lose some hash
+
+
+[12/16/2021 4:06 PM] Asura#7863
+cause the 3070 is overall a very efficient card
+
+
+[01/06/2022 5:52 PM] digdug#5494
+3070 is a swiss army knife. Not the best at any one algo, but pretty damn good across the board on all of them
+
+
+[01/07/2022 6:06 AM] Keppo#4625
+Hi
+
+
+[01/07/2022 6:06 AM] Keppo#4625
+i have an error
+
+
+[01/07/2022 6:06 AM] Keppo#4625
+i need help please
+
+
+[01/07/2022 6:06 AM] Keppo#4625
+20220107 03:06:07 WARN: conn2: failed to stratum-authorize on us.ergo.herominers.com:1180: Invalid address
+20220107 03:06:07 ERROR: No connection with us.ergo.herominers.com:1180, retry after 10 seconds
+
+
+[01/07/2022 6:06 AM] Keppo#4625
+what should i do
+
+
+[01/13/2022 5:48 PM] glasgowm#9381
+#❓│mining-support
+
+
+==============================================================
+Exported 404 message(s)
+==============================================================

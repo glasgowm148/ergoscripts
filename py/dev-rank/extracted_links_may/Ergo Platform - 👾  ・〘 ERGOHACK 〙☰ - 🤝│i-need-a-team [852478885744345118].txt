@@ -1,0 +1,2440 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 👾  ・〘 ERGOHACK 〙☰ / 🤝│i-need-a-team
+Topic: Looking to find a team or project to work on? List any skills/experience/ideas/etc here
+==============================================================
+
+[06/10/2021 10:51 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/852478885744345118/852485169793466368/unknown.png
+
+
+[06/10/2021 10:51 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/852478885744345118/852485228160352266/unknown.png
+
+
+[06/10/2021 10:52 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/852478885744345118/852485363427835964/unknown.png
+
+
+[06/10/2021 10:52 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/852478885744345118/852485430561210378/unknown.png
+
+
+[06/10/2021 10:53 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/852478885744345118/852485491378356224/unknown.png
+
+
+[06/10/2021 11:06 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/852478885744345118/852488828395847690/unknown.png
+
+
+[06/10/2021 2:45 PM] WilfordGrimley#0124
+Hey all, as my comment says here I am working on smart contract mining pools. The goal is to have them be shardable, with a global saturation function  to financially encourage decentralization.
+
+To make this possible, the project will need developers with (or a willingness to learn) ergoscript. Scala and Haskell knowledge would likely also be an asset.
+
+I have a day off work, so I will put together a presentation including all of my research and reasoning for the different tiers of smart contracts, and how this project could expand.
+
+{Reactions}
+🌠 
+
+[06/10/2021 2:54 PM] danandbeard#3509
+let me know if anyone can use my skillset - sr. software dev that works mostly with distributed systems
+can do GUI stuff but mainly backend dev - no experience with smart contracts, but I can figure them out
+
+
+[06/10/2021 3:17 PM] WilfordGrimley#0124
+ErgoScript is very simple. (Scala based I think, someone correct me if I'm wrong.)
+
+You (and anyone honestly would be welcome to join my team if you like, but if you have gui experience there are other projects that are looking for GUI devs. (including the Ergo team itself, I think.) I wouldn't want to pull a GUI dev to learn other stuff when there are teams in Ergo looking for ya! 🙂
+
+
+[06/10/2021 3:19 PM] danandbeard#3509
+I'll check out your presentation and see if I fit in - I can do GUI work, but that's not my expertise by any means
+
+{Reactions}
+👍 
+
+[06/10/2021 3:19 PM] danandbeard#3509
+although I do enjoy phoenix liveview - which is a pretty cool take on soft real-time GUIs without javascript :p
+
+
+[06/10/2021 3:50 PM] Gazza_SP#5835
+I'd be happy to join if you don't mind, I've only started with ERGO script and SCALA, I have a background in an automation language similar to assembly so havent used high level languages in years.
+
+
+[06/10/2021 3:52 PM] WilfordGrimley#0124
+Awesome! @glasgowm can you hook us up?
+
+
+[06/10/2021 3:52 PM] Gazza_SP#5835
+I think I can do it, 2 minutes, just became a mod!
+
+{Reactions}
+💪 (3) 
+
+[06/10/2021 3:54 PM] Gazza_SP#5835
+Ok the 3 of are set, if anyone else here wants to join in let me know!
+
+
+[06/10/2021 5:40 PM] Reed#7093
+https://tenor.com/view/john-travolta-well-where-is-it-looking-for-something-gif-5291661
+
+{Embed}
+https://tenor.com/view/john-travolta-well-where-is-it-looking-for-something-gif-5291661
+https://images-ext-1.discordapp.net/external/dpeLmW0iRbH9woFNiXAqfnJezgIBuKIGvmpm3pf-KU8/https/media.tenor.co/images/7aa78f2c3125aeeab9a32098e9aefc5a/raw
+
+
+[06/10/2021 5:40 PM] Reed#7093
+Teams?
+
+
+[06/10/2021 6:02 PM] WilfordGrimley#0124
+@danandbeard , @Gazza_SP and I are designing Smart Contract Pools using existing resources and tools available to Ergo. Wanna join us?
+
+
+[06/10/2021 6:04 PM] Reed#7093
+Like pooled mining?
+
+
+[06/10/2021 6:10 PM] Gazza_SP#5835
+Pooled mining but not in the traditional sense, an approach that used decentralized pool mining and attempts to stop larger pools with huge hash power. Very interesting idea!
+
+
+[06/10/2021 6:11 PM] Reed#7093
+Is this related? https://eprint.iacr.org/2020/044.pdf
+
+
+[06/10/2021 6:11 PM] WilfordGrimley#0124
+It is 🙂
+
+
+[06/10/2021 6:14 PM] Reed#7093
+Yea this seems great. I feel comfortable helping with front end or documentation. I've never worked with smart contracts as a developer.
+
+
+[06/10/2021 6:15 PM] Reed#7093
+I do have a basic understanding of how they work though 😏
+
+{Reactions}
+❤️ 
+
+[06/10/2021 6:17 PM] Gazza_SP#5835
+I'll add you to the group now! 😄
+
+
+[06/10/2021 6:19 PM] Reed#7093
+Thanks, let me know if there is anything I should try and read before the weekend.
+
+
+[06/10/2021 6:19 PM] Gazza_SP#5835
+You should be able to see us now!
+
+
+[06/11/2021 5:29 AM] Enhacker#5176
+Hey all, complete beginner all things ErgoScript and dApp related but have some  experience with multiple languages (C++, Python, Ruby, Scala, Java). Will focus primarily learning about ErgoScript, writing tutorials and extending https://github.com/ergoplatform/ergoscript-by-example 
+
+Happy to team up with anyone doing something similar 🙂
+
+{Embed}
+https://github.com/ergoplatform/ergoscript-by-example
+ergoplatform/ergoscript-by-example
+Learn ErgoScript by reading example smart contracts powered by Ergo Playground. - ergoplatform/ergoscript-by-example
+https://images-ext-1.discordapp.net/external/PG1xx4twiJzH_Zc9h4YzhPDC_zqwWwyGOYTVMbh8XIQ/https/opengraph.githubassets.com/da01c7cbc7913d5aeaec9824fe178a376bccf9b15cf6f58d74673049abd2eb40/ergoplatform/ergoscript-by-example
+
+{Reactions}
+😍 👍 
+
+[06/11/2021 9:55 AM] kushti#0978
+Do you have ideas for examples ?
+
+
+[06/11/2021 11:15 AM] glasgowm#9381
+@gnuion  — 06/06/2021
+Hello buddies! I am a recent flutter developer. For the hackathon I hope to build a chat app, similar to signal, but utilizing blockchain and IPFS, making it a truly decentralized app.  Disclaimer: I have no idea what I am talking about.
+
+@jozinek  — 08/06/2021
+Hey guys, I would like to participate in hackathon but have no own idea. Is there a team who would need help? I am quite new to blockchain, but have experience with Haskell and Scala.
+
+@quokka  — 22/05/2021
+I’d like to participate in the hackathon! I do front end work with React and have plenty of NodeJS backend experience. 
+
+Would love to team with a backend dev who wants to learn blockchain dev!
+
+@Enhacker  — Today at 05:29
+Hey all, complete beginner all things ErgoScript and dApp related but have some  experience with multiple languages (C++, Python, Ruby, Scala, Java). Will focus primarily learning about ErgoScript, writing tutorials and extending https://github.com/ergoplatform/ergoscript-by-example 
+
+Happy to team up with anyone doing something similar
+
+
+
+----
+
+Feel like yous could get a team between yous? Other @Hackathon - Spare please state your hopes and desires to be matched
+
+{Embed}
+https://github.com/ergoplatform/ergoscript-by-example
+ergoplatform/ergoscript-by-example
+Learn ErgoScript by reading example smart contracts powered by Ergo Playground. - ergoplatform/ergoscript-by-example
+https://images-ext-1.discordapp.net/external/PG1xx4twiJzH_Zc9h4YzhPDC_zqwWwyGOYTVMbh8XIQ/https/opengraph.githubassets.com/da01c7cbc7913d5aeaec9824fe178a376bccf9b15cf6f58d74673049abd2eb40/ergoplatform/ergoscript-by-example
+
+{Reactions}
+👍 
+
+[06/11/2021 11:43 AM] WilfordGrimley#0124
+@Enhacker @jozinek you are welcome to join the SmartPools team if you like. 🙂
+
+{Reactions}
+👍 
+
+[06/11/2021 11:53 AM] Gazza_SP#5835
+Just added you guys @jozinek, @Enhacker and @quokka
+
+{Reactions}
+🔥 
+
+[06/11/2021 12:02 PM] Deleted User#0000
+@glasgowm I will work with
+
+
+[06/11/2021 12:02 PM] Deleted User#0000
+@sepehr2discord
+
+
+[06/11/2021 12:03 PM] Deleted User#0000
+I dont know why I cant add him here
+
+
+[06/11/2021 12:03 PM] Deleted User#0000
+We will build some nice graphics for trading using the existing APIs on ergo
+
+
+[06/11/2021 12:05 PM] Deleted User#0000
+@quokka or any react js developer can join too
+
+{Reactions}
+👍 
+
+[06/11/2021 12:27 PM] Gazza_SP#5835
+If people want to be assigned to different roles they can just let me know! 😃
+
+
+[06/11/2021 12:52 PM] Enhacker#5176
+Stone, paper, scissors game with bets. Know I've seen a tutorial in Solidity like that.
+
+Perhaps a simple dice game depending on if ergoscript can provide random number generation?
+
+Regarding intermediate tutorials I'm thinking a betting system underneath common card games where funds are held in an address/contract for a certain amount of games/time. Maybe "Ergo poker" :yum:
+
+{Reactions}
+👍 
+
+[06/11/2021 12:52 PM] Deleted User#0000
+@Gazza_SP please add me and @sepehr to a new team (Chain viz team)
+
+
+[06/11/2021 12:52 PM] Deleted User#0000
+or whatever name you like 😄
+
+
+[06/11/2021 12:52 PM] Enhacker#5176
+Do we have a team group chat anywhere? :)
+
+
+[06/11/2021 1:27 PM] Gazza_SP#5835
+Ya it should be on the left, its called team-smartpools!
+
+{Reactions}
+🔥 
+
+[06/11/2021 1:31 PM] Gazza_SP#5835
+I think thats you guys added, let me know if theres any issues, not sure of how to setup things on discord! 😅
+
+{Reactions}
+💯 
+
+[06/11/2021 2:10 PM] kushti#0978
+There's a contract example for such a game in https://ergoplatform.org/docs/AdvancedErgoScriptTutorial.pdf (section 3.2) if you can do Ergo Platgrounds based example for the repo that would be great!
+
+{Reactions}
+👍 (4) 
+
+[06/11/2021 2:36 PM] kushti#0978
+Who is still looking for a team or an idea?
+
+
+[06/11/2021 2:44 PM] glasgowm#9381
+```
+We are more or less complete. We are planning to build a tool for data notarization
+
+But if there will be somebody frontend (webdesign) oriented who will not have any team, we have no problem and would welcome him in our team. We are mainly backend (@nitram147, @zas_henten ) developpers and one frontend [javascript] developper (@Pavol Hejny). But we are lacking any webdesign guy/girl.```
+
+@deleted-role is looking for a frontend dev - @Hackathon - Spare
+
+
+[06/11/2021 2:53 PM] Gazza_SP#5835
+@glasgowm can you create a channel for these guys? I have created a role and added them to it, but I dont seem to have permission to add a new channel. I could be wrong though, I am not familiar with discord.
+
+
+[06/11/2021 2:54 PM] glasgowm#9381
+Yep have done, cheers
+
+{Reactions}
+👍 (2) 
+
+[06/12/2021 10:58 AM] gnuion#3794
+Hello, I think I can't manage to create a chat app alone, so I think I want to contribute towards one of the projects that needs UI/UX design. As stated, I am a recent flutter developer and I am currently learning React. I have some experience with UI/UX when I did work with Wordpress (I know shame on me) and have experimented with 3Dsoftware in the past (mostly Blender)
+
+
+[09/03/2021 8:50 PM] danshrout#2644
+Hello everyone! I'm a React and React Native developer looking to join a team.
+
+{Reactions}
+🔥 
+
+[09/04/2021 5:01 AM] ProSavage#7131
+Hello I am a react and react native developer looking to build a team!
+
+
+[09/04/2021 5:02 AM] ProSavage#7131
+I recently built a ergo mining pool, looking to build a ergo wallet in react-native + react web next...
+
+
+[09/05/2021 6:52 AM] MGpai#4313
+Looking to build a nft website for our own unique nfts
+
+
+[09/05/2021 6:53 AM] MGpai#4313
+I am new to coding so I probably need a competent dev
+
+
+[09/05/2021 6:53 AM] MGpai#4313
+Already have an artist
+
+
+[09/05/2021 6:53 AM] MGpai#4313
+DM me for more info
+
+
+[09/08/2021 1:34 AM] JKleinne#7947 (pinned)
+Hey, react/nodejs dev here looking for a team! (Not as proficient in react but had professional experience in the past), also doing solidity atm
+
+{Reactions}
+👍 
+
+[09/08/2021 3:16 AM] jahnreektor#4775
+Looks like everyone's a React dev
+
+{Reactions}
+😅 (3) 
+
+[09/08/2021 4:58 AM] yashvant#2966 (pinned)
+hey I got some experience in node and react
+
+{Reactions}
+👍 
+
+[09/08/2021 8:26 AM] kii#8888
+Hey guys,  I'm Keith and I'm pretty new to this.
+I've been developing in Python, C#, Nodejs, RN, and React. Would be able to work on something backend and frontend, though I'm most interested to get my hands dirty in crypto coding. 
+
+I'm chill and enjoy being on a discord server, working while grabbing pizza, or making food. Have occasional breaks and also play games to relax. I play Dota. I'd also get intoxicated and smoked too.
+
+Let me know if you have an idea, and need my skills, and also enjoy the same chill vibe! 🙂
+
+{Reactions}
+ergo_orange (4) 
+
+[09/08/2021 5:18 PM] JKleinne#7947
+I wouldn’t mind teaming up!
+
+
+[09/08/2021 6:25 PM] yashvant#2966
+okay can we talk more in detail
+
+
+[09/08/2021 6:51 PM] glasgowm#9381
+Feel free to discuss ideas in #🗣│idea-incubator and I can make yous a private channel once your team is fully formed :)
+
+
+[09/11/2021 8:36 PM] Barun#6835 (pinned)
+Me too, c#, any teams up?
+
+
+[09/14/2021 10:27 AM] glasgowm#9381
+Someone was making something for c# - Not sure anythings ready yet though. Will ask.
+
+
+[09/14/2021 10:28 AM] Barun#6835
+Okess thanks @glasgowm
+
+
+[09/14/2021 3:04 PM] GreenEggsAndSam#7091 (pinned)
+Hi y'all! I'm a dev with experience in go and typescript (angular) who would like to get my feet wet. Happy to join a team or shadow someone
+
+
+[09/14/2021 8:06 PM] Cheese Enthusiast#0548
+Hey guys, I have experience in Java, Javascript, and am currently trying to learn ErgoScript and Haskell. Looking to join a team!
+
+
+[09/15/2021 7:35 AM] Leif Erickson#8939
+Any pythonistas need another? Or, looking for a group? Also, if a group just needs an old admin/dev with ai/ml/nn experience lmk... Just looking to learn some stuff and have some fun!
+
+
+[09/15/2021 8:54 PM] kii#8888
+@ProSavage , I'm still interested in joining your team if you're taking members
+
+
+[09/15/2021 9:25 PM] kii#8888
+Also, anyone interested to hangout and do some ergoscript dev learning together/findings. We can organize a noob chat somewhere/somehow
+
+{Reactions}
+ergo_orange 
+
+[09/15/2021 10:42 PM] glasgowm#9381
+Feel free to use the voice channel I just setup!
+
+
+[09/16/2021 12:53 AM] kii#8888
+Do you mean regional? It might just be me, but I dont see any voice channel
+
+
+[09/16/2021 12:49 PM] MarcelRig21#7948 (pinned)
+Hi everyone.. I've finished the course Spider Python... Just tell me how I can help anyway
+
+
+[09/16/2021 3:56 PM] glasgowm#9381
+hmm, I made it mobile so the perms might've been messed up. See it now?
+
+
+[09/16/2021 6:35 PM] kii#8888
+Yup. See it. It says voice, with a lock on it. Maybe I odnt have permission yet
+
+
+[09/16/2021 6:51 PM] glasgowm#9381
+ah, should be you now
+
+
+[09/16/2021 6:52 PM] kii#8888
+yay it works
+
+
+[09/16/2021 10:47 PM] juliassant#9603 (pinned)
+I need a time
+
+
+[09/16/2021 10:47 PM] juliassant#9603
+Anyone without?
+
+
+[09/16/2021 11:06 PM] irshad#7497
+Hey,
+
+I am Irshad. A developer from Sri Lanka. I have participated in couple of blockchain hackathons before and have won one. 🙂
+
+Super interested to learn more about Ergo. I thought i might as well partipate in the upcoming hackathon and learn in the process. 
+
+I don't have a team yet. If anyone is interested in partnering up with me, please let me know.
+
+Thanks
+
+{Reactions}
+ergo_orange 
+
+[09/16/2021 11:16 PM] isomorpheric#2800
+Hey there! Web developer and UI/UX Designer here - looking for a team to make our dApp beautiful and user friendly. Willing (and itching) to learn more about crypto development - so I'll pull my own weight.
+
+Any teams looking? Hit me up! 🤟 
+
+I'm comfortable with Javascript, Typescript and lately been dabble'ing in Golang.
+
+
+[09/16/2021 11:38 PM] potatojack#4944
+Hey hi! Looking for a team, I have experience and comfortable with TypeScript (Nodejs and React) and focus mainly on the Web.
+
+
+[09/16/2021 11:52 PM] irshad#7497
+I think we will fit right in. I can handle crypto coding stuff and do some react stuff too. But i suck at making things beautiful.
+
+
+[09/16/2021 11:53 PM] irshad#7497
+@isomorpheric  sending you a pm
+
+
+[09/17/2021 1:24 AM] isomorpheric#2800
+@irshad pm'ing!
+
+
+[09/17/2021 2:01 AM] Marty#4039
+If anyone is still looking for team members, I can help with front-end dev, or write documentation.
+I'd like to build a yield aggregator and dashboard for erg/ada based tokens
+
+
+[09/17/2021 2:04 AM] Marty#4039
+open to whatever ideas you might have, since I think the yield aggregator won't happen until after ergodex is out of beta
+
+
+[09/17/2021 3:33 AM] lgd#5847
+Hello, I'm a physics and cs student from Montreal. I'm new to Ergo and Cardano, I don't have any experience developing for either, but I am currently learning Haskell. I have some experience with Java, Python, C, and basic web development, I'm a good writer as well. I am looking for a team to join to help out in any way I can.
+
+
+[09/17/2021 12:30 PM] sam.gno#9005
+Hey there!, I'm looking for a team,  I've experience with C++, JavaScript, TypeScript, Node, Python, ErgoScript, flutter, React and Vue also some UI. Tello me how i can help anyway
+
+
+[09/18/2021 1:33 AM] kii#8888
+Hey guys. I have an idea that I'm interested in exploring. 
+
+A decentralized gallery.
+
+I'm not sure if it even makes sense or if it's even possible. But if you're interested in working on it together, lets talk and form a team together
+
+
+[09/18/2021 2:43 AM] MGpai#4313
+Working on an NFT platform...DMed
+
+
+[09/18/2021 7:47 AM] Marty#4039
+to display your NFTs?
+
+
+[09/18/2021 7:48 AM] kii#8888
+to showcase
+
+
+[09/18/2021 11:23 PM] Chris Ray#2713
+I want to be a part of the hackathon so dang bad, I have an idea on idea-incubator and if anyone wants to contribute to it and build a proof of concept I have been working towards this idea for 3 years and I will execute the PoC with my network.
+Ergoscript will need to be utilized, frontend U/I and a documentation writer, maybe more I am not sure.
+
+{Reactions}
+🔥 (2) 
+
+[09/19/2021 8:53 AM] kii#8888
+messaged you
+
+
+[09/19/2021 2:40 PM] sam.gno#9005
+I'm interest Let me know, message
+
+
+[09/20/2021 12:55 AM] quokka#1273
+love this idea, ergo nft's are gaining more and more popularity and theres nowhere to show off the ones you have
+
+
+[09/20/2021 12:59 AM] kii#8888
+Hey. Thanks for your compliment. I think its definitely an idea worth pursuing. For this Hackathon imma join @Chris Ray's team to help his idea succeed. But i'm definitely interested in talking more about that one soon/after
+
+
+[09/20/2021 1:00 AM] quokka#1273
+Def understandable Chris Ray's idea seems like a great choice. Most likely this decentralized gallery will be built one day eventually
+
+
+[09/20/2021 5:46 AM] jahnreektor#4775
+what's a "decentralized gallery"?
+
+
+[09/20/2021 8:16 AM] vegycslol#1714
+It would probably be good to have some standard for nfts, eg: collection has: category, subcategory, rarity etc so that you could filter them, eg. Show all mtg cards, filter by rarity etc
+
+
+[09/20/2021 7:18 PM] kii#8888
+Imagine a museum that is not owned by a centralized institution, but is functioning through the participation of Rare NFT holders
+
+
+[09/20/2021 9:46 PM] A_gora#8702
+Hello, I am Adrian. I am using React + Typescript, React Query as state manager tool , Material UI and Storybook to document custom component. I have 1 year work experience, we are working on financial app. If you need help, I will be happy to help.
+
+
+[09/21/2021 3:31 PM] creativebon#0805 (pinned)
+Hi I am profoundly deaf from birth, I am website admin to manage an charity websites, i can’t do pure coding like C++ etc I am good at feedback if there is tutorial. Multi media computing (graphic) video editing (depends) have got few GPUs to mine with. I have spoken to @glasgowm . Best of luck 🤞
+
+
+[09/22/2021 9:21 AM] Adoo#5093 (pinned)
+Hi All. I am a Strategy & Ops Manager working in a FinTech Unicorn. I have 5 years experience in coding (worked as a developer till 2017 - JS, Java, Scala, Python, ASP.NET, Shell Scripts, etc). I am looking for 1-2 people to work on solving a business problem using Ergo's toolkit (which I honestly believe is comprehensive and powerful). I am hoping for people who have some understanding of Ergo's toolkit (at the very least - have setup your own Ergo node and gone through the Swagger API; good to have - experience in Ergoscript, Rust, ZK Proofs, NiPoPoW).
+
+I have a few ideas which can increase Ergo's utility for users. I am open to discussions and we will be shortlisting a project based on a framework approach. Once done, we can work over the Hackathon on developing a PoC and then decide whether the project warrants further efforts for a scalable solution.
+
+Please feel free to ping me to form a team.
+
+
+[09/22/2021 10:16 AM] CryptoIsFreedom#3477 (pinned)
+Hello, I'm new to coding and crypto. I don't have any programming experience. Buh am a lover of freedom and I love what crypto and ERGO in particular, represent. Just took my first lesson in python this week. Am a good writer and a constructive critic. So am just here to  help in any way I can, in any field that one may need an extra hand or idea or even to help research on something. Just here as a volunteer willing to support the success of Ergo. Cheers people. U guys rock!!!
+
+
+[09/25/2021 3:43 AM] abchris#8522
+Hey there. I'd love to commit a whole weekend to this event, but life is too busy 🙂 However, happy to share some brainpower if there are tough nuts to crack. Other than c++, python and js, I do a lot of db management and (spatial) data analysis. Good luck everyone!
+
+{Reactions}
+👍 
+
+[09/29/2021 6:25 AM] GreenEggsAndSam#7091
+There seems to be quite a few people (including myself) who are looking for exploratory work and not necessarily committing to a submission for the hackathon. Is this by design or are there other resources that should be utilized?
+
+
+[09/29/2021 6:44 AM] torchTheMall#9228
+@kii hey I hear you need a front end dev
+
+
+[09/29/2021 6:44 AM] kii#8888
+yes
+
+
+[09/29/2021 6:44 AM] kii#8888
+I was about to post lol
+
+
+[09/29/2021 6:44 AM] torchTheMall#9228
+cool, well nice to meet you
+
+
+[09/29/2021 6:44 AM] torchTheMall#9228
+this is my linked in - https://www.linkedin.com/in/lommaj/
+
+
+[09/29/2021 6:44 AM] kii#8888
+Hey guys, me and @Chris Ray are working on a credit-lend platform where we will be focusing on building a platform for lending. We're in need of a frontend dev
+
+
+[09/29/2021 6:45 AM] kii#8888
+oh thats cool
+
+
+[09/29/2021 6:45 AM] kii#8888
+i'm assuming you do frontend?
+
+
+[09/29/2021 6:45 AM] torchTheMall#9228
+cool, sounds fun.  yeah I typically work in nextjs and tailwind
+
+
+[09/29/2021 6:45 AM] kii#8888
+going through your linkedin now
+
+
+[09/29/2021 6:45 AM] kii#8888
+Thats perfect. If you're willing to commit, we'd love to have you
+
+
+[09/29/2021 6:46 AM] torchTheMall#9228
+sure thing.  im in
+
+
+[09/29/2021 6:46 AM] kii#8888
+Sweet. let me let glasgow know
+
+
+[09/29/2021 10:13 AM] glasgowm#9381
+I'm not sure what you mean - what about the design makes you look for that? #🧠│smartpools submitted a research paper last time
+
+
+[09/29/2021 3:31 PM] GreenEggsAndSam#7091
+Typical remote hackathon problems. Just want to make sure I find a path to be productive even if there isn't necessarily a final product since there will be a learning curve
+
+
+[09/29/2021 5:13 PM] glasgowm#9381
+I'm going to set up channels for seed projects with mentors so you can just jump into one you fancy
+
+
+[09/29/2021 5:24 PM] GreenEggsAndSam#7091
+Awesome, thanks!
+
+
+[09/29/2021 5:36 PM] Kirato#1879
+Im searching a develeoper or a team for my nft project/idea... i'm a artist with some ideas :)
+
+
+[09/29/2021 5:40 PM] Kirato#1879
+Have you a hint which channel is the best for this question?
+
+
+[09/29/2021 5:54 PM] glasgowm#9381
+Lots of NFT ideas submitted #🏞│nft-projects is where they'll be discussed and teams will form out that
+
+
+[09/29/2021 5:58 PM] glasgowm#9381
+Check out the following channels for seed projects @ERGOHACK II Participants 
+
+Discuss the ideas here and form teams. Leave a note saying 'interested' if it's something you'd want to participant in. 
+
+I can tag people based on skillsets if needed too based on what they filled out in the form. More will be added based on the poll once I clarify the suitability of each.  
+
+#deleted-channel 
+#deleted-channel 
+#deleted-channel 
+#deleted-channel 
+#stealth-addresses 
+and #🏞│nft-projects 
+
+Or if you'd rather your own channel for a idea you have just @ me and I can make one up.
+
+{Reactions}
+👍 (2) 
+
+[09/30/2021 7:42 PM] minotaur#0852
+@glasgowm Im working on a wallet which supports EIP-0019.
+this wallet supports android, IOS and desktop.
+
+
+[09/30/2021 7:48 PM] glasgowm#9381
+using what platform? Is this for the hackathon?
+
+
+[10/01/2021 5:20 AM] minotaur#0852
+yes. Its for hackathon. 
+javascript and sigma-rust.
+
+
+[10/01/2021 5:24 AM] TimL#0815
+Hey @minotaur  I've been contributing code to `sigma-rust` recently. Any chance I can help you out?
+
+
+[10/01/2021 5:35 AM] minotaur#0852
+Thanks @TimL . Im reading sigma-rust codes and try to write some sample codes with it.  I hope to get your help wherever I need.
+
+
+[10/03/2021 2:33 PM] Berni#6233 (pinned)
+Hi, I'm looking to broaden my blockchain - ergo knowledge. I'm an experienced scala developer with a tiny bit of ergoscript fooling around.
+Anyone interested in signing me in for the hackathon?
+
+
+[10/03/2021 6:58 PM] WilfordGrimley#0124
+Hello all. Last Hackathon my team submitted SmartPools, an early decentralized mining solution. 
+
+This team my team will be aiming to produce an on chain music streaming/ library platform where artists can share  their audio NFTs, while (ideally) remaining in possession of the NFTs, and listeners can donate to the artists if they so choose, while building their own music library. 
+
+The project is inspired by FunkWhale, an open source federated music streaming platform for Creative Commons licensed music. 
+
+For the Hackathon I aim to produce a whitepaper and ideally function smart contracts (this should be relatively easy, as the auction house contracts can be adapted). 
+
+In the future, light clients can be constructed that allow listeners to download their library from blockchain. 
+
+It would be lovely to merge my team with any others, or have others join my team. 😃
+
+
+[10/03/2021 6:58 PM] WilfordGrimley#0124
+If you don’t have a team, you are welcome to join mine, see my post above. 🙂
+
+
+[10/06/2021 1:15 PM] Cheese Enthusiast#0548
+@glasgowm I’m currently working on a scala application that allows groups of people to send their mining pool rewards to a single smart contract which automatically distributes rewards back to the miners in a way that is proportional to their hashrate. 
+
+The goal is to create subpools of low hashrate miners that can pool together their hashrates without a third party controlling the rewards. 
+
+I’m just wondering if I could submit this project for the hackathon?
+
+
+[10/06/2021 1:21 PM] glasgowm#9381
+of course! I presume you've read through #🧠│smartpools who done the foundation for this the last ergohack right?
+
+
+[10/06/2021 1:24 PM] Cheese Enthusiast#0548
+Yeah I was inspired by that project and my own need for a smart contract based solution for this problem. I don’t think I’m well versed enough to help contribute to smartpools just yet, but I see this as a first step.
+
+
+[10/06/2021 1:27 PM] glasgowm#9381
+cool just checking 🙂 got a name in mind?
+
+
+[10/06/2021 1:28 PM] Cheese Enthusiast#0548
+ergo-subpooling is what I thought of.
+
+
+[10/06/2021 8:28 PM] loophe#6342 (pinned)
+Hi all ! Just quit from Nervos hackathon2. Unfortunately we don’t accomplish the target of  building a landing/borrowing platform with some sort of creation due to team reason and immature skills.                      I just setuped a full node of ergo and start mining. Maybe establish a mining pool later.                                        I don’t familiar with Java and so ergoscript. But I know some JavaScript and Python instead.                            I have learned that the importance of team so hope cooperate with people who can take responsibility to lead the project to the end and take it easy as well. In this course we all can benefit from each other ✌️
+
+
+[10/06/2021 11:12 PM] WilfordGrimley#0124
+This is great! What you are describing is an essential component of SmartPools functioning!
+
+I look forward to seeing your project develop and mining to its contracts in the future!
+
+
+[10/07/2021 1:22 AM] Aristofanis Chionis#1833
+Hi!
+I am a MSc student in CS from Denmark's Technical University!
+I have some full stack web developer experience and I don't have a team.
+If you have a cool idea and need one more programmer feel free to DM me to team up 😉
+
+
+[10/07/2021 7:20 AM] catalyst244#7869
+Hi
+I have 3 years of backend development experience also I learned Scala and ErgoScript over the past few weeks 
+if you need another dev hit me up
+
+{Reactions}
+👍 
+
+[10/07/2021 11:32 AM] glasgowm#9381
+@catalyst244 @Aristofanis Chionis @Berni @A_gora @creativebon  @potatojack @JKleinne @Aristofanis Chionis @yashvant @danshrout @jahnreektor @GreenEggsAndSam 
+
+See the Teams category and pick a team you think you'd be a good fit for. 
+
+#ergofund needs a couple more across the board
+#deleted-channel has a UX designer on it but needs devs - think this would be a great project and the faucet could be utilised so would be mostly front-end
+#deleted-channel has one Junior dev but could be doing with some more
+#🐟│getblok if you want to help contribute to decentralised mining 
+
+@Adoo any further on which PoC you want to proceed with?
+
+@ProSavage maybe #deleted-channel would be of interest?  or #🐟│getblok 
+
+@loophe maybe #ergolend ?
+
+@Barun Csharp stuff is on the way - but not sure anything ready to work on by tomorrow. (https://discordapp.com/channels/668903786361651200/669989266478202917/895295190519132210)
+
+Anyone else I've missed do the same - @ or DM me with any questions or concerns! @ERGOHACK II Participants
+
+{Reactions}
+🚀 
+
+[10/07/2021 4:41 PM] MGpai#4313
+How can I join a team?
+
+
+[10/07/2021 4:54 PM] glasgowm#9381
+Are you a dev? Looks like from your comment history you're trying to make a NFT series and need devs? If so I can make you a channel and then you'd need to convince some people to build it.
+
+
+[10/07/2021 5:05 PM] troyl4#1317
+Hello everyone, I'm a backend developer full time who is interested in learning more about ergoscript and Scala. Let me know if anyone would be interested in my help on a team.
+
+{Reactions}
+ergo_orange (2) 
+
+[10/07/2021 5:23 PM] MGpai#4313
+That would be great!
+
+
+[10/07/2021 6:28 PM] loophe#6342
+I would be interested ✌️
+
+
+[10/07/2021 6:29 PM] loophe#6342
+Will DM you
+
+
+[10/08/2021 10:13 AM] glasgowm#9381
+Pinned a message.
+
+
+[10/08/2021 4:02 PM] RobertLucian#5498 (pinned)
+Anyone needing someone on their team? I'm a full-time ML infra engineer, lots of experience on distributed systems (i.e. k8s on aws/gcp) - not sure how much this helps in the blockchain world. Started reading about blockchains (the technical docs) and Cardano/Ergo for about a month now. I'm basically interested in learning more about Ergo. Available for this weekend.
+
+{Reactions}
+ergo_orange 👍 
+
+[10/08/2021 4:08 PM] glasgowm#9381
+Have a look through the channels on the side and see if any are a good fit! There's also people pinned messages in here with others still looking for a team. 
+
+This may be of interest? https://discordapp.com/channels/668903786361651200/849660327377240074/893042190299856919
+
+
+[10/08/2021 4:08 PM] glasgowm#9381
+Pinned a message.
+
+
+[10/08/2021 5:31 PM] Barun#6835
+Hi guyz, i am c# programmer or amy (oop). I used to work in illuvium (nft game) as junior aws backend developer.
+
+I just want to take this hackathon as learning opportunity. You can say i am newbie but i know i can be helpful.
+
+If anyone have a room for me, please dm. Thank you!
+
+{Reactions}
+ergo_orange (3) 👍 
+
+[10/13/2021 12:45 PM] Ravi Bhojani#5276
+@glasgowm I can help you with UI/UX designs or front-end development. ping me as soon as you available to discuss.
+
+
+[10/28/2021 2:27 PM] sankRian#7431
+I'm writing a contract and almost done, but I'm getting trouble when I want to test it on ergo playground, maybe there is someone can help me to build this, or interested to develop it together please dm me for the detail.. thanks... 😁👍
+
+
+[10/28/2021 2:33 PM] glasgowm#9381
+might have more luck in #❓│dev-support or #❓│ergoscript-support What is the issue?
+
+
+[10/28/2021 2:50 PM] sankRian#7431
+Ok thanks for the suggestion,. I think the issue not from the play ground side but it's hard for me the noob using simulation sequence,😁
+
+
+[11/12/2021 8:00 PM] Khaikaa#9509
+hi! java backend developer here! any cool project looking for some help?
+
+
+[11/15/2021 5:12 AM] sankRian#7431
+cek DM bro
+
+
+[11/30/2021 6:01 PM] aamiirzaa#7361
+Hello, I'm a fullstack developer. Is there any team or task that I can help with? (Go,Vue.js)
+
+
+[12/02/2021 4:05 AM] ds199966#3007
+Hey guys, I'm a full stack developer working on understanding how a wallet app generates wallets and stores them for mobile phones. I use Cordova for development and am trying to implement it in JavaScript html and css. I have a node but from my understanding, a node only allows you to have one wallet, so would each phone be its own node?
+
+
+[12/02/2021 5:07 AM] soysor#6001
+I believe you're right about a node only supporting one wallet. If you use your mobile app to manage the wallet keys instead of the node you can support multiple wallets on each phone
+
+#❓│dev-support might get some more answers, lots of helpful peeps there 🙂
+
+
+[12/12/2021 8:19 PM] Beka#1059
+Hello everyone. I am Junior Angular, .Net Developer. Please write me if you have some interesting project for me
+
+
+[12/13/2021 12:59 AM] AllCloudy | GetBlok.io#1273
+How’s your .net core?
+
+
+[12/13/2021 7:18 PM] Beka#1059
+I would describe myself as good junior
+
+
+[12/14/2021 3:38 AM] davidcodes#2138
+👋hello everyone I am a scala /python dev, currently learning rust  . Mostly I’ve worked in ds and data engineering . I am trying to understand the concepts behind blockchain tech. I am looking for ways to contribute .
+
+{Reactions}
+ergo_orange (5) 👍🏻 (3) 
+
+[12/15/2021 1:38 PM] kushti#0978
+have you found something in sigma-rust ?
+
+
+[12/15/2021 1:38 PM] kushti#0978
+we have Scala issues to resolve also )
+
+
+[12/29/2021 5:30 PM] quokka#1273
+Hello everyone!
+
+
+[12/29/2021 5:53 PM] quokka#1273
+I'm looking for someone to work on a project with me for the hackathon. This project will be long-term but we can probably create a decent MVP by the end of the hackathon. I'm looking for someone who can help me write the ErgoScript contracts and set up-deploy the contracts/backend, I can do the front-end with React and have experience building the front-end for a headless dApp (ergosaurs.io - hdapp for auction house). I also have experience building backends so I can help with that if needed. 
+
+I want to create an NFT marketplace where people can list their NFT's, with approved projects. I think this is needed for Ergo NFT's because people don't like that hassle of having to do an auction every time they want to sell something. While the auction house brought in a lot of artists, I think this marketplace would bring in a lot of traders. Since Ergo NFT's also have royalties I think this would be great for the artists in this space as well. I think this is required to make the ENFT space flourish.
+
+The project would be a variation of the current open-source contracts of the auction house. I've already written a *very* rough draft of the ErgoScript and I'm taking the hackathon as an opportunity to find someone who also thinks this would be good for the space, as well as take advantage of the mentors available.
+
+If you're interested just lmk!
+
+{Reactions}
+ergo_orange (9) 💯 (2) 
+
+[01/03/2022 6:16 PM] J - The Ergod#0899
+hey guys - i am looking for devs to work with on a casino project. Can make it part of ergo hack too, but doing it regardless. I drafted it up an initial plan here. Will pay nicely for dev work -  looking for those who would like to be long term team members. Let me know if interested. Additional info attached:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/852478885744345118/927626424351866921/Night_Owl_-_Initial_Plan.pdf
+
+{Reactions}
+🎲 
+
+[01/03/2022 7:36 PM] AggerGakker#4449
+Hi all. I'm looking for a team for the following project
+
+
+[01/03/2022 7:36 PM] AggerGakker#4449
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/852478885744345118/927646513126051860/Screenshot_20211223-142453.jpg
+
+
+[01/03/2022 7:36 PM] AggerGakker#4449
+I'm already talking to ErgoDex and GetBlok about it. Who's up ?🙋‍♂️
+
+{Reactions}
+ergo_orange (2) 
+
+[01/03/2022 8:15 PM] glasgowm#9381
+Be sure to get involved in ERGOHACK III @Community Developer 
+
+https://twitter.com/ergoplatformorg/status/1478083492701483008
+
+{Embed}
+Ergo (@ergoplatformorg)
+https://twitter.com/ergoplatformorg/status/1478083492701483008
+Applications open tomorrow for Ergohack III!
+
+#Developers, #coders and anyone interested in participating in our next #Ergohack can start applying tomorrow. Details at https://t.co/XLqVm8gBiG and in our blog post:
+
+https://t.co/I7GXXRqNYE
+
+#DeFi #crypto #blockchain #Ergo $ERG
+https://images-ext-2.discordapp.net/external/bc-I0LgqdSLTTZlX5vFM1unGRkTOfP5l_hqn5f1mNh8/%3Fformat%3Dpng%26name%3D600x314/https/pbs.twimg.com/card_img/1473677652041076747/bRxCaBPM
+Twitter
+
+
+[01/04/2022 12:11 AM] TheStophe#8489
+Hello All, I am interested in signing up for the Hackathon but not sure if i'd be useful.  
+
+I am proficient with python data analysis (core python, pandas, numpy, scripting), dataviz, systems thinking, researching, and technical writing. I have been in crypto since 2017, primarily Bitcoin, Cardano, and Erg since Ergo Summit '21.  I am pretty entrenched in uxto blockchain tech.  My background is a mechanical turn software engineer working on flight controls for 10 years.  Let me know, and i'll sign up.  Thanks! 
+
+twitter: @thestophe | https://github.com/ccgarant
+
+{Embed}
+https://github.com/ccgarant
+ccgarant - Overview
+Mechanical design engineer interested in coding and physical system modeling.  Perpetually learning Python.  Proficient in MATLAB. - ccgarant
+https://images-ext-1.discordapp.net/external/kUTb7uyesRAp1esIEazU9_8nRlYCn98LOtya6LJaaPo/%3Fv%3D4%3Fs%3D400/https/avatars.githubusercontent.com/u/25705528
+
+
+[01/04/2022 7:23 AM] Chris Ray#2713
+Seems to me like you have a transferable experience that could be utilized for many projects that might have a need for data analysis, researching, and/or system thinking, as the focus of the hackathon is on Privacy and Security I could see your skillset very useful to a team that has an ambition to win and with you on board they could have a very well written analyzed write up to submit for the final submission - I wish you had been around for ErgoHack II cause I was forced to write up our final submission and I think I am very lucky to have won cause that was like pulling teeth for me to properly submit my teams proposal.
+
+
+[01/04/2022 7:29 AM] Chris Ray#2713
+Would it be ok for me to DM?
+
+
+[01/04/2022 7:33 AM] Chris Ray#2713
+I hope you find a team for this I really do, it is inline with privacy and should not go unnoticed, not to mention if you can pull it off the automatic switching you are looking to build would open up so many routes of development through a Dex as wrapped assets become available, looking forward to this Hack for sure.
+
+
+[01/04/2022 7:57 AM] AggerGakker#4449
+We are discussing in our ErgoLearn group about signing up. We've had one other who was interested, so that would technically make us four people already. As is the usual dilemma, most of us have limited coding experience, but we all have the same mindset that this is more about just learning. I've been looking into the ErgoDex SDK and have begun to deconstruct things. I believe it's doable. Let's see where things go 🤷🏻‍♂️
+
+
+[01/04/2022 9:18 AM] Cheese Enthusiast#0548
+Can't wait to see what you guys end up making. This is such a crucial ability for miners to have, and doing it in a smart contract environment really goes to show that traditional mining pools could become a thing of the past.
+
+{Reactions}
+👌 
+
+[01/04/2022 9:22 AM] Cheese Enthusiast#0548
+Hope you figure out the ErgoDex side of things, that's gonna be a tough but satisfying learning experience for yall.
+
+
+[01/04/2022 1:03 PM] TheStophe#8489
+Thanks @Chris Ray , shoot the funny thing is I almost did sign up! I would be pretty useful for that, presentations, reports, and specs is part of my “PowerPoint Engineering” skills now ha. Oh well.
+
+
+[01/04/2022 2:09 PM] J - The Ergod#0899
+yes!
+
+
+[01/06/2022 9:43 AM] davidcodes#2138
+@quokka I am interested !
+
+{Reactions}
+🔥 
+
+[01/06/2022 11:15 AM] punksnotdead#7072
+hi guys! is anybody working on a mixing yield platform? Would be awesome to build one that incentivizes mixing. Meaning, users could take their LP's (Ergodex for now) and then stake them (mix) in "tumble finance' or whatever you wanna name it. We could incentivize the whole thing with a '$Tumble' token for example. Mixing of ERGO or SigUS, AnetaBTC etc could be incentivized as well with that mechanic. If we want to make private defi a thing - this is my idea 🙂 
+Considering that cross-chain bridges are being build, would that not be the one service that money from other chains would "need" from ergo?
+
+{Reactions}
+❤️ 
+
+[01/06/2022 5:23 PM] Gazza_SP#5835
+Yes this is happening right now, the mixer is being updated to perform like a sort of staking platform.
+
+https://github.com/mhssamadani/ErgoProfitSharingDapp
+
+{Embed}
+https://github.com/mhssamadani/ErgoProfitSharingDapp
+GitHub - mhssamadani/ErgoProfitSharingDapp
+Contribute to mhssamadani/ErgoProfitSharingDapp development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/29-qF9rgNW9i9ZXVLu9zGDlcLg7i4ON0yzAMrHca-O4/https/opengraph.githubassets.com/e91e905193bd26386e3fd1400caa1176cb2649d1eb0d6055ffcedfa8d8d39805/mhssamadani/ErgoProfitSharingDapp
+
+
+[01/06/2022 7:35 PM] havealoha#9128
+I don't need a team but I have an idea. How about developing an ipsec vpn or Tor client as a dapp to the wallet? The wallets public key or an nft could be used for authentication. The server side VPN could be stood up by a users provided cloud server through Algo (https://github.com/trailofbits/algo) or a public\paid hosted choice. Of course it would be called ErgoTunnel.
+
+{Embed}
+https://github.com/trailofbits/algo
+GitHub - trailofbits/algo: Set up a personal VPN in the cloud
+Set up a personal VPN in the cloud. Contribute to trailofbits/algo development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/gdo5jnMKCNu9FeXXRBycYo3pZMiR6KylE4LVuSpHfBI/https/repository-images.githubusercontent.com/58842707/1ee0c800-614b-11e9-961a-a52b540efde2
+
+
+[01/06/2022 7:39 PM] havealoha#9128
+It would be cool if the wallet could store key pairs besides its own, like a password keeper. Or an nft could store metadata like encrypted key pairs that are decrypted by the wallets private key.
+
+
+[01/07/2022 7:54 AM] NoahErgo#4349
+Hi guys! I have an idea for hackathon but I am not a dev. Would be happy to share the idea in depth if anybody is interested. Basically, it would be a kind of liquidity pool that dynamically provides liquidity to ergodex or the ergomixer so that when people are trying to mix there is good liquidity, and when people arent mixing the tokens are locked in ergodex generating profits off of fees
+
+{Reactions}
+💡 (3) 
+
+[01/07/2022 6:28 PM] DMNDMINE#6815
+Hi Ergonauts!
+
+I have a proposal for ErgoHack III and I’m in need of developers!
+
+My proposal draws inspiration from Umbrel (Twitter: @getumbrel) which allows users to “run a personal server with a bitcoin and lightning node in your home and self-host open source apps” all on a Raspberry Pi using Umbrel OS.
+
+I believe the value proposition for this idea on Ergo is that users will be able to easily support the network by having their own node, while also having the ability to safely and securely access both already available open source applications (e.g. password managers, photo vaults) and the applications/utility that will continue to emerge from the Ergo ecosystem (i.e. DeFi Platforms, NFT Markets, Mixers, Bots, etc.) via an open source Ergo dApp store self-hosted on a Raspberry Pi. 
+
+I’m confident that there are many market participants (investors, speculators, hobbyists) that will find value in a low barrier method to participate in a blockchain like Ergo, that has solid fundamentals, high assurance, and innovative utility.
+
+If you’re interested or can offer any constructive feedback I would greatly appreciate it! Good luck to all the teams involved!
+
+
+[01/07/2022 6:36 PM] curbsideprophet#5083
+@Gazza_SP @Luivatra @Crypto Cream and myself are interested in this concept as well where we have a small group going here: https://discord.gg/4uVFFwdpHw. Would love to pick this back up again!
+
+{Reactions}
+👍 
+
+[01/07/2022 6:40 PM] DMNDMINE#6815
+Great!
+
+
+[01/07/2022 9:37 PM] Donalddd#2998
+I like this idea, go for it. I am a devops (some bash scripting and kubernetes mostly) so in case you need someone like me I can join 😉
+
+I was also interested in buying a Pi and playing around with it, still considering if it is worth it. In case you have any guides on creating nodes on Pi, please share.
+
+{Reactions}
+👍 
+
+[01/07/2022 10:15 PM] DMNDMINE#6815
+Awesome! Join the ErgoPi chat if you're interested: https://discord.gg/ezp4cAf9. (Credit to @curbsideprophet @Luivatra @Crypto Cream). I've only run Cardano nodes on Pi's so far, but here's a video for Ergo: https://www.youtube.com/watch?v=yDqhlgz0244.
+
+{Embed}
+https://discord.gg/ezp4cAf9.
+Discord | Your Place to Talk and Hang Out
+Discord is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.
+https://images-ext-2.discordapp.net/external/pL0w57uLXr8vYKityoLlH1CVuGCs0fB5xnrWKO8Fqoo/https/discord.com/assets/652f40427e1f5186ad54836074898279.png
+
+{Embed}
+ErgoNaumics
+https://www.youtube.com/watch?v=yDqhlgz0244
+How to setup an Ergo node on a Raspberry Pi
+Mute if you dont want to hear my vega64’s breathing in the background. I made this because the official one contains some errors and leaves out some useful information. If you follow along and do as I did, you will have a fully running node, it will take some time for it to fully sync the node on your pi. This process is nearly identical for set...
+https://images-ext-2.discordapp.net/external/X_7TNJolgopNw4PK8x44pIUFl3Uqcgt3YwP4fRwE9N8/https/i.ytimg.com/vi/yDqhlgz0244/hqdefault.jpg
+
+{Reactions}
+ergo_orange (3) 
+
+[01/07/2022 10:17 PM] Donalddd#2998
+Thanks! I will take a look on what you have there ;)
+
+
+[01/07/2022 10:24 PM] Donalddd#2998
+I've seen this video. Do we know who this guy is? He put his path wrong in the conf file and I'm surprised how this thing worked. Damn I need to try it myself
+
+
+[01/10/2022 2:51 AM] soysor#6001
+Hey, I'm looking to work on a stealth address library for ergo hack if anyone is interested (https://www.ergoforum.org/t/stealth-address-contract/255)
+
+Implemented in Rust (likely making heavy use of `sigma-rust`), breakdown of functionality:
+
+- Sharable public key generation (merchant)
+- Buyer key + shared secret generation (buyer)
+- Box creation (buyer)
+- Box checking (merchant - is box at script address spendable)
+- Probably other stuff I don't know of yet
+
+Extra stuff if there's time - library is the priority but if that looks good then wallet-x integrations:
+
+(React/TypeScript/Rust)
+
+- wasm bindings
+- Add wasm lib to wallet-x (https://github.com/ross-weir/wallet-x)
+- Add UI to wallet-x for displaying & generating sharable public addresses
+- Other integrations (merchant monitoring spendable boxes, etc)
+
+{Reactions}
+ergo_orange (2) 👍 (2) 
+
+[01/10/2022 10:19 PM] abchris#8522
+**"Oracel Pool Hub"**
+
+A platform to match oracle operators with pool creators whilst enhancing security through transparency and documentation. Actual name TBD.
+
+Objectives:
+- Lowering the technical threshold to onboard oracle operators by providing scripts and or installers.
+- Providing a web based interface to configure and launch new pools.
+- Maintaining a register of (aspiring) operators to facilitate matching with pool creators.
+- Tracking reliability of oracle operators through on-chain monitoring and optional verification levels.
+- Build documentation and infographics to educate and raise awareness
+
+Contributes to security, at a higher level, by:
+- Facilitating decentralisation of oracle operators
+- Making it easier to "background check" oracle pools and oracle operators
+- Empowering the broader community (KYA)
+
+More info:
+- <https://github.com/abchrisxyz/OraclePoolHub/blob/main/README.md>
+- <https://github.com/abchrisxyz/OraclePoolHub/wiki>
+
+If you feel like contributing and can help with frontend, backend, devops, graphics or rust, hit me up 🙂
+
+{Reactions}
+ergo_orange (8) 
+
+[01/11/2022 7:14 AM] NoahErgo#4349
+This sounds really really good!
+
+{Reactions}
+🤞 
+
+[01/11/2022 8:34 AM] Luivatra#9076
+This is wild, I had this exact idea while setting up the eth-usd pool, but never took the time to articulate it. I don't know whether I will have time during the hack, but if I can support in any way I am game
+
+
+[01/11/2022 8:37 AM] abchris#8522
+Awesome! Was secretly hoping you'd want to help 😉 We sure could use your experience.
+
+
+[01/11/2022 8:41 AM] Luivatra#9076
+There is so many cool things we could with this that will be great for the ecosystem. As a project being able to browse existing pools, post requests etc. A reputation system. The sky is the limit. But what will be the MVP?
+
+
+[01/11/2022 8:48 AM] abchris#8522
+mvp tbd tbh (gotta love internet language) I just wanted to get this thing started and piggy back on ErgoHack. I'll put some more thoughts down in the wiki this week and we can drill down as a team. Will add you to the repo.
+
+
+[01/11/2022 9:53 AM] alexandru#0679
+Hello, I want someone to modify the Auction House " 2% of the final bid will go to the Ergo Auction House" into a 5% and also to add a new fee of 5% that would go to another address which I own, or just add a new fee of 5% to another address if it’s too difficult to do both. Thank you 🙏🏻
+
+
+[01/13/2022 3:00 PM] J - The Ergod#0899
+If anyone is still looking for a team, Night Owl (Ergo Casino), is getting ramped up! Reach out.
+
+
+[01/15/2022 4:55 PM] error#5683
+hey @abchris this looks interesting, would be happy to contribute to some of the backend/devops stuff
+
+{Reactions}
+ergo_orange (3) 
+
+[01/15/2022 6:02 PM] abchris#8522
+Happy to have you! I’ll set up a group chat soon with the others  so we can organise a few things
+
+
+[01/17/2022 8:49 AM] davidcodes#2138
+@abchris I am interested. I am Learning Rust at the moment,  but I can help with backend and Devops .
+
+
+[01/17/2022 8:50 AM] abchris#8522
+I'll dm you in a minute 🙂
+
+{Reactions}
+👍 
+
+[01/17/2022 3:38 PM] Frosty#7344
+If you'd like to build with anetaBTC send me a DM or fill this out 🙂
+
+{Reactions}
+❤️ 
+
+[01/17/2022 3:38 PM] Frosty#7344
+https://docs.google.com/forms/d/e/1FAIpQLSePTfWdO1MsY7hc-Y-ATvm5hR-aMo7y_1-cw2RuKSHa5vcblg/viewform?usp=sf_link
+
+{Embed}
+https://docs.google.com/forms/d/e/1FAIpQLSePTfWdO1MsY7hc-Y-ATvm5hR-aMo7y_1-cw2RuKSHa5vcblg/viewform?usp=sf_link
+anetaBTC ErgoHack III
+Hello, thank you for your interest in building with us at ErgoHack III.
+https://images-ext-2.discordapp.net/external/iNJLtD8y4-9wdwuezz8w7ZqUSc_PrLBOyKIdk9giMys/https/lh3.googleusercontent.com/84h_DeIinGr30Yir2wTP9MzWgtHanT9wYDU2HAK6YImqv9FZOGcz9XJlITuwOZ79orWhl5oyxgk%3Dw1200-h630-p
+
+
+[01/17/2022 3:39 PM] Frosty#7344
+The form may be easier as DMs are harder to track but either way should be fine, have a good day everyone 💪
+
+
+[01/18/2022 9:58 PM] Kurikun#6941
+Question is: what do you want to build?  Not sure I can answer whether I want to build with aneta if I'm not sure of the project.
+
+{Reactions}
+👀 
+
+[01/22/2022 6:24 AM] Rikz#9184
+Hey I'm a MERN Stack developer who wants to learn solidity(eth) or rust (solana) development during this hackathon.
+If any team has open requirement for a frontend or full stack developer, consider me!
+
+
+[01/24/2022 2:58 PM] _jd_#3179
+Hi all, I DM'd @soysor  on creating a stealth wallet but I got no response. If anyone else wants to work on this, lmk I'm down.
+
+I've got no web3 background but I can also dedicate full 40 hours a week to the hackathon. I'm clearly using this project to learn the tech (see his post for a good break down of the tech we'd probably use).
+
+
+[01/24/2022 7:05 PM] soysor#6001
+Apologies, I've been super busy IRL so don't think I'll have time 
+
+Goodluck! 👍
+
+
+[01/24/2022 8:33 PM] _jd_#3179
+Sounds good, thanks for the response, idea and breakdown! Hopefully next time you'll have the time.
+
+{Reactions}
+ergo_orange (2) 
+
+[01/26/2022 4:10 AM] Lgmeister#4538
+Hey all. Super interested but have very little experience coding on Blockchain. I've done stuff with python and python like languages. Built a very low level smart contract on Ethereum. All self taught so might have some learning gaps. I'm not really selling myself well here haha. Worth trying to do hackathon? Any teams looking for someone to fetch them coffee while I quietly learn in the back?
+
+
+[01/26/2022 4:16 PM] andyceo#3095
+Hello, are there some ideas with trading or exchanges maybe?
+
+
+[01/27/2022 7:40 AM] iandebeer#7827
+Hope I am not too late to the ErgoHack 3 party. 
+
+I am proposing a project that uses Petri Nets as a tool to define and validate Smart Contract Protocol specifications (EIP-0006), for creation of headless dApps.
+Formally, a Petri Net is a state transition graph that maps Places (circles) to Transitions (rectangles) and Transitions to Places via Arcs (arrows).
+It is well suited for describing the flow of concurrent processes. This maps perfectly to the of Stages (Places) and Actions (Transitions)
+
+Petri Nets are more concise than other process flow descriptions (like UML or BPMN) in that they have an exact mathematical definition of their execution semantics, with a well-developed mathematical theory for process analysis. Bounded Petri Nets exhibits Categorical Semantics in the way that concatenable processes, as strict Monoidal categories, model Net computations.
+
+Because of its Markov property - states depend only on the current marking -  Stochastic Petri Nets are also used for validating and testing the Liveness, Boundedness and Reachability of distributed networks.
+
+I have done previous work on Petri Nets using Scala, and I am looking for a team to help extend it  for use in specifying dApps for the Ergo Platform.
+
+{Reactions}
+👍 (5) 🧠 (3) 
+
+[01/30/2022 11:52 PM] J - The Ergod#0899
+reach out to me if anyone is interested in helping on the Night Owl casino (ergos first casino) https://discord.gg/GyxWyFzm - litepaper in our discord server
+
+
+[01/31/2022 2:56 PM] cbvenkat#6835
+I am trying to form a Decentralised Employment solution, were employers stake for the payment period (daily/weekly/monthly) which gets credited to the employee based on the approval of timesheets raised.
+
+Helps get work done  for ERGO/SigmaUSD without Fiat variation of the country of business/residence. Crypto for Payroll is where I would like to focus. 
+
+Staked salary on a public blockchain keeps everyone secure, especially in a all-remote workplace.
+
+I am looking to build this with a team. Please let me know your interest.
+
+{Reactions}
+👍 (2) 
+
+[02/03/2022 5:21 AM] therealestmf#0782
+i'm a full stack web dev with professional dev experience (3+ years) working for a big tech company. very new to ergo and blockchain but quickly learning. i'm pretty good with react in particular. if anyone has any need for me, please dm me
+
+
+[02/03/2022 4:17 PM] J - The Ergod#0899
+dmd
+
+
+[02/04/2022 8:40 PM] Mr.Pixel#2557
+Hey all! I'm looking for an ErgoScript developers to help with development of our upcoming game - 2d open-world pixel P2E game featured in a futuristic/cyberpunk city. 
+ - We are currently working on game functionality and styling - The design of the map is completed
+
+    WE NEED: A developer familiar with ErgoScript to work with our game in order to help us to connect rewards system/staking into our game. (with smart contracts)
+If you are interested please reach me out in my dms for further discussions, thank you!
+
+
+[02/04/2022 9:51 PM] NoahErgo#4349
+Maybe apply for ergopad
+
+https://ergopad.io/apply
+
+{Reactions}
+👍 (2) 
+
+[02/05/2022 5:01 PM] liquid_phase#4605
+I have a great business model which could theoretically change the adoption of crypto into corporate systems ... i need a dev team
+
+
+[02/05/2022 9:59 PM] ÅrÖhBê#8289
+Shoot me a DM let’s talk
+
+{Reactions}
+🙌 
+
+[02/11/2022 10:57 AM] root7Z#8699
+" @J - The Ergod   : anyone without a team feel free to join night owl discord to contribute! were discussing now"
+
+{Reactions}
+👍 
+
+[05/05/2022 12:55 AM] C&D Cardboard Games#9820
+Hi Everyone. I am new to Ergo and any sort of blockchain development. This is  my first hackathon. I am looking for a team to join as I feel this would be an interesting experience for me to try out.  I have done C++, Javascript, HTML 5, CSS, Python, SQL etc. If there are any teams looking for someone I am available and am interested to learn and try out this new experience.
+
+
+[05/06/2022 7:45 PM] Ulmo#5367
+Hi. I am looking for people to join working on this decentralized ID and governance project. Non-profit with full commitment to Ergo ideals. Please let me know, if you are interested.  https://www.ergoforum.org/t/ergo-nation-identity-and-governance/3560
+
+{Embed}
+https://www.ergoforum.org/t/ergo-nation-identity-and-governance/3560
+Ergo Nation: Identity and Governance
+TLDR for Ergohack  Ergo nation enables decentralized on-chain governance by a community that shares the ideals in the Ergo manifesto.  Currently the default governance token models in crypto do not align with the ideals because they lead to governance by the wealthy. This is problematic for any project that would like to have decentralized gover...
+
+
+[05/07/2022 8:27 PM] Sisyphuspush#7967
+Hello everyone! I am looking to build a team for my hackathon proposal aimed at building community engagement in the development of the ecosystem. Looking for a team that is passionate about further enhancing and empowering this amazing community. Let me know if interested.
+
+
+[05/07/2022 8:27 PM] Sisyphuspush#7967
+https://medium.com/@sisyphuspush79/ergo-family-banners-42ba6fea6c37
+
+{Embed}
+https://medium.com/@sisyphuspush79/ergo-family-banners-42ba6fea6c37
+Ergo Family Banners
+Ergo Hackathon Proposal
+
+
+[05/08/2022 5:31 AM] liquid_phase#4605
+Currently also looking for a few more team members to help 🙂 
+
+Attached is our medium article outlining our mission and goals for ergohack : https://medium.com/@swampmusic.usa/swamp-audio-layer-2-musician-launchpad-a7027338941f
+
+{Embed}
+https://medium.com/@swampmusic.usa/swamp-audio-layer-2-musician-launchpad-a7027338941f
+SWAMP.AUDIO — LAYER 2 MUSICIAN LAUNCHPAD
+ABSTRACT
+
+
+[05/09/2022 11:19 AM] zuli#3361
+Hey Hey, I am looking for team members that are interested in building derivative contracts as part of a DeFi project. @ralf and me are DeCo students that formed a team there. Here is a prototype of a Litepaper that we are currently working:
+
+
+[05/09/2022 11:19 AM] zuli#3361
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/852478885744345118/973167420007149568/Tensile___Litepaper_V0_1.pdf
+
+
+[05/09/2022 11:22 AM] zuli#3361
+An example of a derivative contract could be a covered call option that was part of a DeCo-homework:
+
+
+[05/09/2022 11:22 AM] zuli#3361
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/852478885744345118/973168004617613312/unknown.png
+
+{Reactions}
+🔥 
+
+[05/09/2022 11:23 AM] zuli#3361
+Make sure to contact us if that sparked your interest ^^
+
+
+[05/09/2022 11:44 AM] glasgowm#9381
+Set yous a channel up #deleted-channel
+
+
+[05/09/2022 11:48 AM] ralf#9965
+I am looking for a team to participate. I am currently taking the Deco Layman course and would like to learn ERGO. I am an experienced developer and could bring knowledge in Typescript, React and test automation. 
+I would greatly appreciate it if anyone is interested in getting assistance in these areas.
+
+{Reactions}
+🔥 (2) 
+
+[05/09/2022 4:16 PM] Louis Berlin#1315
+Hi all,
+I'm looking developing a minimum viable smart contract and a front end for a new project i'm working on: ColivingDAO.
+
+Take a look at the paper here: https://www.docdroid.net/RaWKLJV/colivingdao-whitepaper-v131-pdf
+
+Looking for a developer who is interested in this and sees a future in it to join!
+
+{Embed}
+https://www.docdroid.net/RaWKLJV/colivingdao-whitepaper-v131-pdf
+ColivingDAO whitepaper v1.3.1.pdf
+COLIVINGDAO Whitepaper Prepared by: Daniel Aprea, Gareth Thompson & Louis Pohl 20 April 2022 Image: "Modern apartment building" by DennisM2 is licensed under CC BY-NC-ND 2.0". Page 1 of 27. KEY INFORMATION ColivingDAO is a Fair Shares Commons incorporated company powered by the blockchain and a DAO ...
+https://images-ext-2.discordapp.net/external/SoewLlMOGj5RhUBCaIg0i47SQet4hbXcJk_jgg90cAY/https/www.docdroid.net/thumbnail/RaWKLJV/1500%2C750/colivingdao-whitepaper-v131-pdf.jpg
+
+
+[05/09/2022 8:31 PM] ilya | dappstep#9261
+Hey! I'm SigmaValley dev. 
+In this hackathon I'm working on interactive tutorials for dapp developers with nodejs/javascript stack exclusevely  - dAppstep
+
+Javascript is the most popular language in web development with the most active ecosystem across the internet. 
+Lowering the entry barrier for the army of javascript developers to create products on Ergo is my mission.  This is how we make Ergo dApps scene bloom! 
+
+Most dApps don't need servers and dockers. We want to show what can be achieved with some javascript, react, and minimum serverless lambda backend.
+
+My goal is to build a series of interactive editable dApp tutorials with open code that allows developers to learn any aspect of dApp development on Ergo:
+1. Smart contracts with ErgoScript: debugging/developing circle, cheatsheet, 
+2. Transaction assembling: send funds, send funds to a smart contract, mint token, release token from SC
+3.  Interaction with Nautilus wallet API: Wallet login, list tokens, sign tx
+4. Interaction with Explorer API.
+
+Most tutorials will have fully functional dApps utilizing javascript tools only that users can interact with and modify in the browser.
+Open code will allow devs to copy chunks of ready-to-use code to their dApps.
+In browser ErgoScript editor with syntax highlighting and compilation errors.
+
+*Looking for a FE dev*
+I'm looking for a FE dev for a specific task at the moment - a react component for a transaction visualizer. For educational purposes, I want to visualize transactions used in dApps to lock tokens in SC, release tokens, and other things. If you feel like you have what it takes and ready to grab some prizes - DM me!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/852478885744345118/973306240413335582/unknown.png
+https://cdn.discordapp.com/attachments/852478885744345118/973306240685989968/unknown.png
+
+{Reactions}
+spicy (2) 🔥 (2) 
+
+[05/10/2022 5:33 PM] digdug#5494
+**Idea:** Magellan Nodes
+
+**Problem: **Public Ergo Explorer does not have the bandwidth to support the growing number of dApps. As a result, dApps need to run their own instance of Explorer.  This can be time consuming, cumbersome, and delay potentially-promising dApps.
+There is also a shortage of public Full Nodes on Ergo’s network.
+
+
+[05/10/2022 5:34 PM] digdug#5494
+**Solution:** Magellan Nodes.  A Magellan Node is a dockerized image of prebuilt Ergo Explorer and/or Full Node that can be pointed at to support network load for airdrops, mints, etc. 
+In order to run a node, node operators will be required to stake ERG to a smart contract that in turn activates a license to operate the node.
+
+
+[05/10/2022 5:35 PM] digdug#5494
+**Tokenomics:** MAGE tokens will be distributed daily to Node Operators who meet the required uptime. The longer a node is online, the more MAGE can be earned (up to a certain percent of the daily distro.)
+
+
+[05/10/2022 5:35 PM] digdug#5494
+**Future plan:** Magellan Nodes will be free to use for the community, including dApp developers.  To support large projects or major events, Devs can reserve X amount of Magellan Nodes for their project in exchange for a pre-specified amount of MAGE.
+
+{Reactions}
+spicy (2) ergo_orange (2) 
+
+[05/10/2022 5:56 PM] NoahErgo#4349
+what is the use case of MAGE? Why does there need to be a token?
+
+
+[05/10/2022 6:00 PM] digdug#5494
+Good question, this was one of the main debate points in my mind for quite a while.
+The conclusion I reached: Running a node, whether virtually or locally, costs money. In order to incentivize the node network to provide reliable service, the token "MAGE" is used. It also allows for future scaling operations should the demand for Magellan Nodes ever grow beyond the current natural rate of adoption.
+
+
+[05/10/2022 6:01 PM] NoahErgo#4349
+where will MAGE get its value though, you can't just say it has value haha
+
+
+[05/10/2022 6:02 PM] NoahErgo#4349
+If that is the model you want to adopt, there needs to be some external component that creates incentive for ownership of MAGE
+
+
+[05/10/2022 6:03 PM] NoahErgo#4349
+and pls dont say staking
+
+
+[05/10/2022 6:06 PM] digdug#5494
+The future use cases of the node network; in my mind, this is supporting DEXs and large airdrop projects. MAGE can be purchased and redeemed in exchange for "commercial" use cases of the node network.  The immediate timeframe would of course require that usage of the Magellan Nodes would be free for everyone, though.
+
+
+[05/10/2022 6:09 PM] NoahErgo#4349
+Interesting. Maybe write up a paper detailing how you see this working. I would expect in time this kind of infrastructure will be open source for everyone so there would need to be some edge that magellan nodes would provide to make people wantto buy in
+
+
+[05/10/2022 6:12 PM] digdug#5494
+For sure. I dont see how the node-as-a-service could work without a token, though I could be thinking too narrow.
+When looking at the current space, Ergo itself has a major lack of public nodes and only one Public API Explorer.  People wanting to launch projects all must point to that API or build the Explorer on their own and hope their hardware is enough to scale to their project's demands.
+Outside of Ergo, other blockchains usually rely on 3rd party websites that are swamped with ads, since the service they offer is "free" to the end-user
+
+
+[05/10/2022 6:42 PM] curbsideprophet#5083
+reminds me of this: https://www.allnodes.com/ (edit: and would be awesome to hear your pov on magellan as their competitor or collaborator)
+
+{Embed}
+https://www.allnodes.com/
+Allnodes - Masternodes, Full Nodes, Staking Services
+Non-custodial platform, which allows you to host nodes, stake coins and monitor blockchain addresses in a few clicks. Secure automated process, great prices, free trial!
+https://images-ext-1.discordapp.net/external/GU-S3-MUJu8Zqrt5HueHEO_jzeDNdnLIMpQkTYlAjbc/%3Fv%3D2/https/www.allnodes.com/img/thumbnails/allnodes-4.jpg
+
+{Reactions}
+🧐 
+
+[05/12/2022 3:07 AM] MGpai#4313
+Hey guys
+
+
+[05/12/2022 3:08 AM] MGpai#4313
+@Arkan and I are planning on working on LETS for ergohack
+
+{Reactions}
+ergo_white 
+
+[05/12/2022 3:08 AM] MGpai#4313
+https://docs.ergoplatform.com/uses/lets/
+
+
+[05/12/2022 3:08 AM] MGpai#4313
+essentially its a  local exchange trading system
+
+
+[05/12/2022 3:09 AM] MGpai#4313
+but check out the link for more info
+
+
+[05/12/2022 3:10 AM] MGpai#4313
+I have experience with mostly backends in python and java (little java)
+
+
+[05/12/2022 3:10 AM] MGpai#4313
+I am the dev of ErgoSapiens (NFT project) as well
+
+
+[05/12/2022 3:40 AM] TheSentientNFT#0744
+This looks like a really awesome project
+
+
+[05/12/2022 3:40 AM] Arkan#9488
+Yeah, my experience is also mostly in backend and I'm learning Ergoscript. Also, we're both taking DeCo Layman and Ergoscript course.
+
+
+[05/12/2022 3:41 AM] TheSentientNFT#0744
+I have python and js back ground started learning scala recently
+
+
+[05/12/2022 3:41 AM] TheSentientNFT#0744
+I wanted to do like a proof of work dex/bridge to evm
+
+
+[05/12/2022 3:42 AM] TheSentientNFT#0744
+I have a pretty good back ground in evm dev and I was thinking the easiest way would be a burn contract that sends “wrapped” or another version of the token that’s minted on evm chains
+
+
+[05/12/2022 3:43 AM] TheSentientNFT#0744
+It’ll allow ergos ecosystem more access to deep liquidity
+
+
+[05/12/2022 3:43 AM] TheSentientNFT#0744
+Also a good way to introduce the platform to people who may not know about it
+
+
+[05/12/2022 3:44 AM] TheSentientNFT#0744
+I’d say most people have heard of eth or btc
+
+
+[05/12/2022 3:44 AM] TheSentientNFT#0744
+It could even be like doge/ltc mining
+
+
+[05/12/2022 3:44 AM] TheSentientNFT#0744
+Same algo
+
+
+[05/12/2022 3:44 AM] TheSentientNFT#0744
+Just a double check that the books are straight so it’s not another terra ster
+
+
+[05/12/2022 3:44 AM] TheSentientNFT#0744
+https://tenor.com/view/brian-baumgartner-badumtss-the-office-kevin-joke-gif-15818642
+
+{Embed}
+https://tenor.com/view/brian-baumgartner-badumtss-the-office-kevin-joke-gif-15818642
+https://images-ext-1.discordapp.net/external/IF51NLKunNmjbk2WRVBwllAegFIwMkOBTGFDzFXeWRA/https/media.tenor.com/uRENbx5Ekw8AAAAD/brian-baumgartner-badumtss.png
+
+
+[05/12/2022 3:46 AM] TheSentientNFT#0744
+Would also incentive miners
+
+
+[05/12/2022 3:47 AM] TheSentientNFT#0744
+It’d be another token that complimentary to ergo
+
+
+[05/12/2022 3:47 AM] TheSentientNFT#0744
+Like how uniswap has uni and pancake has cake and spooky has boo
+
+
+[05/12/2022 3:54 AM] TheSentientNFT#0744
+https://github.com/SpaceSwapio
+
+{Embed}
+https://github.com/SpaceSwapio
+SentientSwap
+DEX Located In The Depths Of Space. SentientSwap has one repository available. Follow their code on GitHub.
+https://images-ext-2.discordapp.net/external/K4UhgmvgHl_LzlGsmhA5OhFcQUO-m2EWOencAggu6cE/%3Fs%3D280%26v%3D4/https/avatars.githubusercontent.com/u/104040090
+
+
+[05/12/2022 3:54 AM] TheSentientNFT#0744
+https://tenor.com/view/say-what-dunno-shrug-john-krasinski-idk-gif-16557956
+
+{Embed}
+https://tenor.com/view/say-what-dunno-shrug-john-krasinski-idk-gif-16557956
+https://images-ext-2.discordapp.net/external/_6zxoAG05CmCD8f9eZkX-to0c5QTdXgMeUoI50pYgTk/https/media.tenor.com/BY6ybMD548sAAAAD/say-what-dunno.png
+
+
+[05/12/2022 4:20 AM] Cheese Enthusiast#0548
+What's meant by a PoW dex here? Just a dex on a PoW chain, i.e Ergo? Or is it a dex whose token is distributed via PoW?
+
+
+[05/12/2022 4:22 AM] TheSentientNFT#0744
+I was thinking the issues with worm holes and bridges and they are transfer points security wise. So if you isolated a dex that was a bridge and it’s transactions were on like a forked chain
+
+
+[05/12/2022 4:22 AM] TheSentientNFT#0744
+Mining ergo could also give you the other token
+
+
+[05/12/2022 4:22 AM] TheSentientNFT#0744
+Like when you script mine ltc doge
+
+
+[05/12/2022 4:23 AM] TheSentientNFT#0744
+But the dex token has actual utility
+
+
+[05/12/2022 4:23 AM] TheSentientNFT#0744
+It been a you participated in the validation that the bridging of the assets was successful
+
+
+[05/12/2022 4:23 AM] TheSentientNFT#0744
+Then you add other utility’s ancillary
+
+
+[05/12/2022 4:24 AM] TheSentientNFT#0744
+Like staking farming ect
+
+
+[05/12/2022 4:24 AM] TheSentientNFT#0744
+Entertainment like lottery system and predictions
+
+
+[05/12/2022 4:25 AM] TheSentientNFT#0744
+But like genosis predictions
+
+
+[05/12/2022 4:27 AM] Cheese Enthusiast#0548
+So the dex would be on its own PoW chain and would act as a bridge between other chains like ETH? Along with the other utilities you mentioned ofc
+
+
+[05/12/2022 4:29 AM] C&D Cardboard Games#9820
+Would you be able to mine the token to exchange for other coins?
+
+
+[05/12/2022 4:31 AM] TheSentientNFT#0744
+Yea
+
+
+[05/12/2022 4:32 AM] C&D Cardboard Games#9820
+🤔🤔🤔 that sounds sooo cool
+
+
+[05/12/2022 4:32 AM] TheSentientNFT#0744
+And maybe to mitigate centralization with pools you give the benefits to solo miners
+
+
+[05/12/2022 4:33 AM] TheSentientNFT#0744
+So the mining reward now is like 63 ergo per block right so you give like 5 dex tokens as well for the bridge chain
+
+
+[05/12/2022 4:33 AM] TheSentientNFT#0744
+It’s like a simplified version of harmony with all there shards
+
+
+[05/12/2022 4:34 AM] C&D Cardboard Games#9820
+Right.
+
+
+[05/12/2022 4:34 AM] C&D Cardboard Games#9820
+That seems really interesting. Would be really cool to have an idea like that.
+
+
+[05/12/2022 4:34 AM] TheSentientNFT#0744
+You could even do cross chain NFTs and make it gasless to the user in a sense
+
+
+[05/12/2022 4:35 AM] TheSentientNFT#0744
+I need to learn more scala but I’ve been brainstorming some ideas
+
+
+[05/12/2022 4:35 AM] TheSentientNFT#0744
+Just based on general flaws I see in defi
+
+
+[05/12/2022 4:35 AM] C&D Cardboard Games#9820
+Yea.
+
+
+[05/12/2022 4:36 AM] C&D Cardboard Games#9820
+I been interested in making a coin or token. So I would be down to help possibly I am super new to block chain dev.
+
+
+[05/12/2022 4:36 AM] TheSentientNFT#0744
+I’m new to ergo so we can learn together
+
+
+[05/12/2022 4:36 AM] TheSentientNFT#0744
+I’m good at solidity cause it’s just js with more predefined functions lol
+
+
+[05/12/2022 4:37 AM] C&D Cardboard Games#9820
+I mean I have set up the full node and a mining pool didn’t code the mining pool but ya. It was mining core. And ya I have seen solidity it kinda reminds me of c++ lol
+
+{Reactions}
+😂 
+
+[05/12/2022 4:38 AM] TheSentientNFT#0744
+Lol reminds me of cpp but golang 😂
+
+
+[05/12/2022 4:38 AM] TheSentientNFT#0744
+Go is one I really wanna learn
+
+
+[05/12/2022 4:38 AM] TheSentientNFT#0744
+So fast
+
+
+[05/12/2022 4:38 AM] C&D Cardboard Games#9820
+LOL. Yea there is a lot of good languages.
+
+
+[05/12/2022 4:38 AM] TheSentientNFT#0744
+Damn multi thread langs
+
+
+[05/12/2022 4:38 AM] TheSentientNFT#0744
+😂
+
+
+[05/12/2022 4:38 AM] C&D Cardboard Games#9820
+Soo much I wanna learn as well. Since I’ll be out of a program for school for software dev.
+
+
+[05/12/2022 4:39 AM] C&D Cardboard Games#9820
+😂
+
+
+[05/12/2022 4:39 AM] TheSentientNFT#0744
+I’m good with python js and that jazz. I know some cpp and c #
+
+
+[05/12/2022 4:39 AM] TheSentientNFT#0744
+I did a little rust but I don’t get the decay time stuff
+
+
+[05/12/2022 4:39 AM] TheSentientNFT#0744
+And Ruby on Rails
+
+
+[05/12/2022 4:39 AM] TheSentientNFT#0744
+I’m a little adhd so im kind of all over
+
+
+[05/12/2022 4:39 AM] TheSentientNFT#0744
+Lol
+
+
+[05/12/2022 4:40 AM] C&D Cardboard Games#9820
+I have done c++, I have a bit of python experience. Have done js and Java and html and I feel ya
+
+
+[05/12/2022 4:40 AM] TheSentientNFT#0744
+There’s just so much cool stuff out there lol
+
+
+[05/12/2022 4:40 AM] TheSentientNFT#0744
+If you want we could meet and formalize some ideas on figma tomorrow
+
+
+[05/12/2022 4:41 AM] TheSentientNFT#0744
+I’ve already have some ideas to start
+
+
+[05/12/2022 4:41 AM] TheSentientNFT#0744
+I was thinking about doing this but other way around but not to ergo
+
+
+[05/12/2022 4:41 AM] TheSentientNFT#0744
+I have a ton of amm and dex info in that git hub check it out
+
+
+[05/12/2022 4:41 AM] Cheese Enthusiast#0548
+If you guys have any questions during the ergoscript + scala learning process don't be afraid to shoot me a question. Too busy to participate but I signed up as a mentor and always appreciate PoW based projects 🙂
+
+{Reactions}
+🙏 (4) 
+
+[05/12/2022 4:42 AM] TheSentientNFT#0744
+Thanks I got the udemy course
+
+
+[05/12/2022 4:42 AM] TheSentientNFT#0744
+It’s like a Java vm
+
+
+[05/12/2022 4:42 AM] C&D Cardboard Games#9820
+Sure I would be down. Just shoot me a time and we can do it I got classes for college though.
+
+
+[05/12/2022 4:42 AM] TheSentientNFT#0744
+I’ve only done a few hours of it
+
+
+[05/12/2022 4:42 AM] TheSentientNFT#0744
+Still super super new
+
+
+[05/12/2022 4:43 AM] TheSentientNFT#0744
+Can use all the help I can get
+
+
+[05/12/2022 4:43 AM] Cheese Enthusiast#0548
+Also check out DeCo for learning ErgoScript, me and a few others teach classes going over the eUTXO model and ErgoScript. Videos are available for free online.
+
+{Reactions}
+🔥 (3) 
+
+[05/12/2022 4:43 AM] TheSentientNFT#0744
+Nice almost done right 🔥
+
+
+[05/12/2022 4:43 AM] C&D Cardboard Games#9820
+Plus why not join ya while we are both new. Been scared to join any other teams cause my lack of knowledge.
+
+
+[05/12/2022 4:43 AM] TheSentientNFT#0744
+I’m on est coast
+
+
+[05/12/2022 4:43 AM] TheSentientNFT#0744
+I’m down to help out however I can
+
+
+[05/12/2022 4:43 AM] C&D Cardboard Games#9820
+Same dude I am in my last college semester thank god.
+
+
+[05/12/2022 4:44 AM] TheSentientNFT#0744
+Is this a discord channel?
+
+
+[05/12/2022 4:44 AM] TheSentientNFT#0744
+https://tenor.com/view/yup-yep-yes-excited-gif-24387991
+
+{Embed}
+https://tenor.com/view/yup-yep-yes-excited-gif-24387991
+https://images-ext-2.discordapp.net/external/o9UepIdiCeNzB1CON7Q1uEJ_4I8o8PBJgBQ_JIDp3Cs/https/media.tenor.com/82DRNqbGlkwAAAAD/yup-yep.png
+
+
+[05/12/2022 4:45 AM] Cheese Enthusiast#0548
+It's a decentralized school teaching Ergo based knowledge. Current semester is full already but videos can be found here: 
+https://www.youtube.com/channel/UCyOIxD7YSHN5QwLIulOWrew
+
+{Embed}
+https://www.youtube.com/channel/UCyOIxD7YSHN5QwLIulOWrew
+DeCo Education
+DeCo: Decentralized Collaboration
+DeCo Education provides an interactive educational course to community members of Ergo Blockchain to prepare them for DApp development on the Ergo Blockchain. We aim to build and establish a community of learners and contributors as a learning hub within the Ergo ecosystem. We look forward to providing recording...
+https://images-ext-2.discordapp.net/external/bcME-PTZfme9P2-XYvAaDxh_9u_n8Whcp0bWHOESVGU/https/yt3.ggpht.com/0m5PGjupk5lxlQ5U99EP7ySoA-GDiCbsJxzrlkLhAsOwOPaL7P99UiNPd97TRwPNfP8jaD1sIA%3Ds900-c-k-c0x00ffffff-no-rj
+
+{Reactions}
+🔥 (6) ergo_orange (3) ❤️ (2) 
+
+[05/12/2022 4:45 AM] TheSentientNFT#0744
+Congrats man🤙 finishing school was a big step for me. You should be excited for all there to come
+
+
+[05/12/2022 4:46 AM] C&D Cardboard Games#9820
+Lol yea. But let me add you on discord here.
+
+{Reactions}
+💯 
+
+[05/12/2022 4:46 AM] TheSentientNFT#0744
+I subscribed I’ll definitely watch these thanks 🙏
+
+
+[05/12/2022 4:47 AM] TheSentientNFT#0744
+Oh yea I have a lot of learning to do still 😂
+
+
+[05/12/2022 4:47 AM] C&D Cardboard Games#9820
+Cause ya I would love to get into a pow exchange. Sounds super interesting and really down to learn the dev side of this stuff as I mentioned before.
+
+
+[05/12/2022 4:47 AM] C&D Cardboard Games#9820
+Feels lol
+
+
+[05/12/2022 4:47 AM] TheSentientNFT#0744
+Lol this is cool though I like that it’s jvm scala felt a lot like python to me
+
+
+[05/12/2022 4:48 AM] TheSentientNFT#0744
+Like I wasn’t surfer year but I was boogie boarding lol
+
+
+[05/12/2022 4:48 AM] TheSentientNFT#0744
+Yet*
+
+
+[05/12/2022 4:49 AM] Cheese Enthusiast#0548
+It's quite a bit when you're first jumping in. If this is your first time looking at eUTXO I would suggest looking over the laymens course classes and then going through the ErgoScript ones. As I said earlier, can always help out with any particular questions, just tag me or shoot me a dm.
+
+{Reactions}
+👍 (3) 
+
+[05/12/2022 4:51 AM] TheSentientNFT#0744
+Thanks again will do
+
+{Reactions}
+🔥 
+
+[05/12/2022 4:52 AM] TheSentientNFT#0744
+I’m about to crash out I’ll catch up with y’all tomorrow
+
+
+[05/12/2022 4:52 AM] TheSentientNFT#0744
+Thanks again
+
+
+[05/12/2022 4:52 AM] C&D Cardboard Games#9820
+Same here I’ll shoot you a DM some time tomorrow as well.
+
+
+[05/12/2022 10:11 AM] glasgowm#9381
+awesome! I've moved the #deleted-channel channel into this category feel free to use that.
+
+{Reactions}
+👍 (3) 
+
+[05/12/2022 10:17 AM] glasgowm#9381
+This is something I've been thinking about too & think it'd needed. Also checkout #ergosphere
+
+
+[05/12/2022 5:38 PM] TheSentientNFT#0744
+Is there a way we can group stream in the discord so if anyone wanted to jump in or comment they could. Like through a voice chat channel @Cheese Enthusiast
+
+
+[05/12/2022 5:38 PM] TheSentientNFT#0744
+I’m going to listen in on the stable coin discussion then I’m free to do some work
+
+
+[05/12/2022 5:41 PM] C&D Cardboard Games#9820
+I am currently in class but I could join after and yea I might join in on that.
+
+
+[05/12/2022 6:08 PM] Cheese Enthusiast#0548
+Don't think there's any voice chats here, will probably have to organize one by yourself
+
+
+[05/12/2022 6:09 PM] C&D Cardboard Games#9820
+Yea would be nice to have the voice chats here tbh.
+
+
+[05/12/2022 6:11 PM] TheSentientNFT#0744
+Yea I mean crypto devs does a good job utilizing the voice chats to be educational and collaborative channels cause you can share screen and if anyone has a probably coding they can just throw up their screen and be like this is my code and this is my error
+
+
+[05/12/2022 6:12 PM] C&D Cardboard Games#9820
+That's true. Plus isn't there the discord community stage
+
+
+[05/12/2022 6:12 PM] C&D Cardboard Games#9820
+Like that's so useful as well.
+
+
+[05/12/2022 6:12 PM] C&D Cardboard Games#9820
+If you don't want 50 people trying to fight to speak.
+
+
+[05/12/2022 6:16 PM] TheSentientNFT#0744
+Agreed just trying to think of things ive seen work well in the space
+
+{Reactions}
+✅ 
+
+[05/12/2022 7:38 PM] lgd#5847
+i think this would be a good idea, at least for the duration of the hackathon
+
+{Reactions}
+✅ (2) 
+
+[05/12/2022 9:08 PM] glasgowm#9381
+Happy to add voice chats, they've went unused before.
+
+
+[05/12/2022 9:09 PM] glasgowm#9381
+added
+
+
+[05/13/2022 2:15 AM] lgd#5847
+Well now they better use it 😂
+
+
+[06/29/2022 12:19 AM] liquid_phase#4605
+Does anyone know who made the ergo inheritance thingy?
+
+
+[07/05/2022 6:00 PM] NoahErgo#4349
+@nitram147 did
+
+
+[07/06/2022 1:27 PM] nitram147#5106
+Feel free to ask any question. However the project is still underdevelopment (I have a long thing of things to do). Main idea is completely implemented however there will come a few security fixes to smartcontract and the "holiday protector" offchain bot will be completed. I was waiting for the testnet explorer to work with new testnet, so since it's ready again I can continue with the development 🙂
+
+
+[07/06/2022 2:00 PM] liquid_phase#4605
+@nitram147 please get in contact with me via DM since i can't DM you
+
+
+[07/06/2022 2:32 PM] nitram147#5106
+Sent you a friend request (you need to accept it in order for DMs to work 😉 )
+
+
+[07/07/2022 6:25 PM] ilya | dappstep#9261
+What's ergo inheritance, I want to hear 🙂
+
+
+[09/20/2022 6:41 PM] Pyro ₳Σ#7275
+Hey everyone
+
+
+[09/20/2022 6:42 PM] Pyro ₳Σ#7275
+I want to participate in ergohack and need a team.
+
+
+[09/20/2022 6:43 PM] Pyro ₳Σ#7275
+I dont know code, I can market and help anyway I can. I understand the how eutxo works, and can communicate well with others. I would be a great PM
+
+
+[09/20/2022 6:43 PM] Pyro ₳Σ#7275
+also just want to be part of the experience.
+
+
+[09/22/2022 6:24 PM] PTOliveira#7846
+Hello everyone,
+I´ve low experience in Python and Scala but I´ve the will of many 😇 
+If you have a small team or just an idea, I would like to help you building it into a project 
+Thank you!
+
+
+[09/22/2022 8:01 PM] MGpai#4313
+Check out ergpy
+
+{Reactions}
+🫂 
+
+[09/24/2022 6:54 PM] NoahErgo#4349
+Any frontend devs here? I have an idea for a miner governance playground simulator similar to the ageusd playground. @abchris would you be interested? Basically could have the different miner governance parameters, 10 (arbitrary amount) different mining pool nodes each with adjustable hashrate and each with their own gov parameters. Can run a simulation of an epoch and then at the end you can see outcome based on which pool minted which blocks over the epoch
+
+Like the ageusd simulator: https://sigusd.abchris.xyz/
+
+{Embed}
+https://sigusd.abchris.xyz/
+AgeUSD Demo
+SigmaUSD stats and tools
+
+
+[09/24/2022 6:57 PM] NoahErgo#4349
+@ilya | dappstep @quokka i know you guys do frontend stuff too either of you interested in this ^ ?
+
+
+[09/24/2022 6:58 PM] NoahErgo#4349
+wouldnt have any on chain/backend stuff really, just a simple frontend simulator tool
+
+
+[09/24/2022 8:24 PM] abchris#8522
+Hey @NoahErgo , neat idea, great for education/showcasing. Happy to be your fallback option if you don't find anyone else but keep looking, am sure there are actual frontend devs out there.
+
+
+[09/24/2022 9:39 PM] NoahErgo#4349
+Awesome sounds good Chris
+
+
+[09/24/2022 11:05 PM] WilfordGrimley#0124
+Noah, I love your idea!!!
+
+I have no dev experience, but would love to drop my ideas on you regarding miner governance, and potentially join forces for the ErgoHack if your team is not full. 
+
+My idea is very similar/ perhaps identical to yours and I want to help see it built. 🙂
+
+
+[09/25/2022 2:47 AM] NoahErgo#4349
+Awesome, what is your idea? Im still trying to assemble team cause I also have no dev experience 😅
+
+
+[09/25/2022 5:09 AM] WilfordGrimley#0124
+I want to find the best way to give each individual miner a vote on any peramiter that could be changed on chain even if the miner is participating in a traditional stratum pool, or in a collateralized smart pool.
+
+My current thinking on the best way to implement this is an EIP that allows nodes to submit 'partial' votes. (For example: a pool could mine a block with 70% support in favor of a change to the network) 
+
+This would remove one of the largest downsides to disabling non-outsourcability: pool majority censoring a true super majority.
+
+If pools had a way to track how their miners want to vote on any given issue (GetBlok attempted this with EIP 27) and were enabled to directly report how their miners are voting we would make the chain more democratic, and give further power to miners. 
+  
+An end goal of such a change would be an easy to use front-end where miners could choose any number of perameters to support (up to the maximum allowed currently) and be shown any pools (stratum, plasma, collaterized smartpool or other) that vote similarly to the way that they do on those issues such that consensuses can be reached, and sidechains and velvet forks can happen intuitively. 
+
+Such a front end could even be tied to a full or light node, and enable solo miners to create their own collateral pools if no one on the network is yet voting the way they intend to.
+
+
+[09/25/2022 5:09 AM] WilfordGrimley#0124
+@NoahErgo
+
+
+[09/25/2022 5:53 AM] NoahErgo#4349
+@WilfordGrimley my idea is much simpler it is just a simulator to educate people
+
+{Reactions}
+❤️ 
+
+[09/25/2022 5:53 AM] NoahErgo#4349
+Not actually tied to any governance
+
+
+[09/25/2022 5:54 AM] NoahErgo#4349
+Your idea is good though
+
+
+[09/28/2022 9:02 PM] 🍀TheZik🇯🇲#5382
+Hi all.  I am a designer working in the field of ui/ux, branding and illustration.  Some of you might know me as a UI designer of satergo wallet. If someone needs a designer to the team, write me, I will be glad to be of help.
+
+{Reactions}
+👍 (2) 
+
+[10/02/2022 10:28 PM] A_gora#8702
+@NoahErgo  I will be happy to help you.
+
+
+[10/03/2022 3:54 PM] NoahErgo#4349
+Hey! There is a team that i think could use your help i will dm you
+
+
+[10/03/2022 11:24 PM] NoahErgo#4349
+Hi! I have found a person to help but maybe you can help too, what are your skills?
+
+
+[10/09/2022 12:17 PM] hq3r#5569
+Hi guys, I am looking for Dev who can help me with subpooling of dapps limited hashrate pools with extra rewards and lottery mechanism for nfts artists ... Can specify more in DM , @getblok team has offered any kind of help regarding subpooling ❤️
+
+
+[10/09/2022 12:18 PM] Cheese Enthusiast#0548
+Will try to help out when I'm done with my paper
+
+{Reactions}
+❤️ 
+
+[10/09/2022 12:54 PM] A_gora#8702
+mainly frontend, I use react with typescript on a daily basis
+
+
+[10/11/2022 6:14 AM] NoahErgo#4349
+Hey @A_gora I think @Chris Ray was looking for some frontend on his project if you are interested. Not related to the hackathon though
+
+
+[10/11/2022 6:42 AM] Chris Ray#2713
+Definitely looking for some front-end work familiar with Ergo, and as at @NoahErgo said not Hackathon related, however, it is tied to previous Hackathon of the past, backend of the project is ready for public testing and needs UI to come online, and the Exle social network is ready to start using the UI, we have had a couple hurdles lately and we need to get past them.
+
+
+[01/19/2023 10:19 PM] Foeniculum#3278
+Hey guys!
+
+I have some ideas for the upcoming Hackathon, very on-theme
+
+Front-end and back-end help would be needed 🙌
+
+OR if you're an existing team: I can help with branding, marketing and socials
+
+
+[01/20/2023 1:31 AM] cannon#3541
+Good evening. I'm a reformed finance guy... done big5 audit, corp accounting, s&p500 c-suite finance, raised funds for startups, formed companies, run small biz, etc... would like to connect with another small group to develop a great concept
+
+
+[01/20/2023 2:55 AM] Kill_It_With_Coffee#2653
+@Foeniculum and @cannon I need a team to try and get a great concept off the ground, you gentlemen interested in helping?
+
+
+[01/20/2023 2:56 AM] Kill_It_With_Coffee#2653
+Also anyone else here that would be willing to put in front end and backend dev work
+
+
+[01/20/2023 2:59 AM] Kill_It_With_Coffee#2653
+@Cheese Enthusiast I've heard you're a man who can get things done, you possibly interested in joining a team I'm trying to get together?
+
+
+[01/20/2023 9:25 AM] Foeniculum#3278
+He's not a man he's a wizard 🧙‍♂️
+
+{Reactions}
+💯 (2) 
+
+[01/20/2023 9:26 AM] Foeniculum#3278
+I might have found enough people to create a solid team sir, just waiting for some of them to confirm 🙏
+
+
+[01/20/2023 11:07 AM] Kill_It_With_Coffee#2653
+Good stuff man, I can't wait to see what ideas you have
+
+
+[01/21/2023 7:33 AM] cannon#3541
+Looking for a few folks to help on a SC/DAO idea. I've laid out some basic info in hack chat. Look forward to working on this.
+
+
+[01/21/2023 7:51 PM] Kill_It_With_Coffee#2653
+Hey @MrStahlfelge, @Chris Ray, and @MGpai I know you guys are busy doing your own thing, but I'm looking for a team for the ergohack. Any of you guys willing to lend your expertise?
+
+
+[01/21/2023 8:04 PM] MGpai#4313
+Hey sorry but I am busy with another team and projects. If you have any questions feel free to reach out
+
+
+[01/21/2023 8:13 PM] Kill_It_With_Coffee#2653
+Sounds good bro, thanks for the response 💪
+
+
+[01/21/2023 8:21 PM] Chris Ray#2713
+Hit me up in Dm's, I have some bandwidth to lend to this hackathons projects, if there is anyone else seeking expertise in my area tag me here first 🙂
+
+{Reactions}
+❤️ 🔥 
+
+[01/21/2023 8:22 PM] Kill_It_With_Coffee#2653
+You're awesome brother thank you!!
+
+
+[02/02/2023 10:25 PM] lexton#4994
+I'm looking to join a team. I thought the hackathon starts on the 8th but it starts on the 18th, correct?
+
+
+[02/02/2023 10:29 PM] lexton#4994
+I am working on a crypto wallet app with the Node/Vue/Electron framework. I also use Python, Java, Kotlin, and Flutter. I like to work on security related issues, authentication and privacy.
+
+
+[02/02/2023 10:57 PM] lexton#4994
+I also mine ERGO and I am reverse engineering the open source Ergo Wallet App on github.com, I'm looking to add features for miners
+
+{Reactions}
+🔥 
+
+[02/04/2023 1:43 PM] anon_br#2282
+Hey, it's nice to see another Vue dev around :). Nemo does a lot of cool stuff with Vue, including Nautilus wallet, you may want to take a look at his repos: https://github.com/capt-nemo429
+
+{Embed}
+https://github.com/capt-nemo429
+capt-nemo429 - Overview
+capt-nemo429 has 7 repositories available. Follow their code on GitHub.
+https://images-ext-2.discordapp.net/external/QmhkZ63WvCfi9yPaSq-3IQmBwD8J5Sy2sSaCVyo6GCU/%3Fv%3D4%3Fs%3D400/https/avatars.githubusercontent.com/u/96133754
+
+{Reactions}
+👍🏿 
+
+[02/05/2023 9:15 PM] lllllll#4485
+if anyone wants to take me under their wing to build something like Patreon on Ergo, please let me know!
+
+{Reactions}
+🔥 (2) 
+
+[02/08/2023 12:41 AM] lexton#4994
+@lllllll I've been thinking about a project similar to yours.  I do livestreams about crypto and I'm looking for a way to receive crypto donations.  How many people do we need to form a team? Anyone else interested?
+
+
+[02/08/2023 9:18 AM] zultotti#6314
+hi guys
+
+
+[02/08/2023 4:12 PM] Jerry_slush#5579
+hi guys
+
+
+[02/08/2023 4:17 PM] Jerry_slush#5579
+if anyone is looking for help with smart contracts let me know... we have our own project we are working on at the moment but would like to help anybody if needed.. also i can give a hand with javascript and python
+
+
+[02/08/2023 4:20 PM] Jerry_slush#5579
+Hi Chris... Finally made it to a hackathon... Thanks for all your help in the past
+
+
+[02/08/2023 11:38 PM] lexton#4994
+@lllllll can I DM you? I'm interested in building the Patreon model with Ergo project. @Jerry_slush would you be interested in meeting about this project.  Is there a voice channel on this Discord where people can meet?  I'd like to put together a roadmap for the project, overall objectives and what frameworks/languages will be used.
+
+
+[02/08/2023 11:48 PM] wombo22#5461
+had a voice channel last ergohack. im sure glasgow can open one up if needed
+
+
+[02/09/2023 12:21 AM] lexton#4994
+Can we use Google Meet? that's what I use for my dev meetings but it would be nice to keep meetings on this discord. Can we use a separate text channel or maybe a new thread inside this channel?
+
+
+[02/09/2023 12:06 PM] Jerry_slush#5579
+i would be interested in helping you guys out... just give me a heads up on what you guys need
+
+
+[02/09/2023 11:08 PM] glasgowm#9381
+#ergohack-voice
+
+(can't seem to link voice channels :/) 
+
+https://discord.com/channels/668903786361651200/1073379731791167568
+
+
+[02/10/2023 12:47 AM] Chris Ray#2713
+I will send you a reply in our tg convo 🙂 Finally made it! Party time! :dopamineduck:
+
+
+[02/10/2023 6:56 PM] lgd#5847
+Hello, we are looking for a UI designer/dev for our hackathon project. You can read our proposal in #lilium and DM me if you are interested 🙂
+
+
+[02/10/2023 7:06 PM] NoahErgo#4349
+@Nico UX-UI you interested?
+
+
+[02/10/2023 7:06 PM] NoahErgo#4349
+Or @Grand Gambit maybe
+
+
+[02/10/2023 7:32 PM] Grand Gambit#5886
+I am sorry I dont think I have the time for it
+
+{Reactions}
+👍 
+
+[02/13/2023 7:20 PM] cannon#3541
+I'd be happy to help with some financials or modeling for any project in the hackathon
+
+
+[02/15/2023 3:03 PM] inspiredude#6199
+looking to help a team if someone needs a product designer / UX/UI Designer feel free to ping me!
+
+
+[02/15/2023 4:13 PM] NoahErgo#4349
+@lgd was looking for this kind of help i think
+
+{Reactions}
+👍 
+
+[02/15/2023 6:51 PM] deathgripson#2395
+if anyone can help debug some error outputs from ergpy / appkit please let me know, message in #❓│dev-support
+
+
+[02/15/2023 7:47 PM] MGpai#4313
+@glasgowm when do we submit updates?
+
+
+[02/16/2023 9:08 AM] glasgowm#9381
+end of week
+
+
+[03/03/2023 3:52 AM] liquid_phase#4605
+really need some js/front end help on the thz team
+
+
+[04/08/2023 1:24 AM] 0xMagic#0819
+I can help you
+
+{Reactions}
+💯 (2) 
+
+[04/08/2023 10:23 AM] wombo22#5461
+Liquid is in the #thz-fm channel if he doesn’t see this response
+
+
+==============================================================
+Exported 456 message(s)
+==============================================================

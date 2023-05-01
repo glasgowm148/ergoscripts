@@ -1,0 +1,8 @@
+http://api.spectrum.fi/)
+https://api.spectrum.fi/v1/docs/
+https://api.spectrum.fi/v1/amm/platform/stats?from=1653075262280
+https://api.spectrum.fi/v1/amm/pool/7f1759300b19287adbbcd03c877eae6c6de60f4c2962b1fc5ae2c6e2a684220c/stats?*from=*_0_*&to=**0*
+https://api.spectrum.fi/v1/amm/markets?from=1653075262280*)
+https://api.spectrum.fi/v1/amm/markets?from=1653075262280
+https://api.spectrum.fi/v1/amm/pools/summary
+https://api.spectrum.fi/v1/amm/pool/7d2e28431063cbb1e9e14468facc47b984d962532c19b0b14f74d0ce9ed459be/chart?from=1658000000000>

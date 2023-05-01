@@ -1,0 +1,7 @@
+https://ergo-explorer.getblok.io/
+https://ergo-explorer.getblok.io/graphql
+https://ergo-explorer.getblok.io/graphql/
+https://ergo-explorer.getblok.io/api/
+https://ergo-explorer.getblok.io/graphql/*)
+https://ergo-explorer.getblok.io/en/transactions/273c73525273fe94a2ac685a8b035921f3deea1d36426ca4a409635de4d8e093
+https://ergo-explorer.getblok.io/api/*)

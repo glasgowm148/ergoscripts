@@ -1,0 +1,209 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 👾  ・〘 ERGOHACK 〙☰ / lilium
+==============================================================
+
+[02/08/2023 1:06 PM] glasgowm#9381
+Lilium is a decentralized NFT sale platform for Ergo blockchain. We aim to be an infrastructure service for any business seeking an easy way to mint and distribute tokens, integrating seamlessly within their products and applications
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864882208292895/1072866032185778267/Lilium---ErgoHack-6-Proposoal.pdf
+
+{Reactions}
+👍 (8) 
+
+[02/17/2023 10:16 AM] inspiredude#6199
+Hi @lgd I've read in the channel #🤝│i-need-a-team that you were looking for a UI Designer, is it still the case ? I could help if needed 🙂 let me know !
+
+
+[02/17/2023 11:04 AM] lgd#5847
+Thanks for reaching out, we are ok for now actually, sorry.
+
+{Reactions}
+👍 
+
+[02/18/2023 9:17 PM] MGpai#4313
+Update:
+- Contracts complete and audited
+- Transaction Tests complete
+- UI design is mostly complete
+- Frontend is implementing UI
+- Play Scala API is in progress
+- off-chain bot to manage ALL NFT collections is in progress
+
+{Reactions}
+ergo_orange (5) 👍 (4) 
+
+[02/20/2023 2:43 PM] MGpai#4313
+Update:
+- API for frontend interaction is complete 
+- UI Design is complete
+- Frontend implementation in progress
+- Off-chain bot is in progress
+
+{Reactions}
+ergo_orange (5) 👍 (5) 
+
+[02/23/2023 12:08 AM] lgd#5847
+we uploaded to drive, but putting here as well in case others want to read
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864882208292895/1078106148479176784/Lilium_-_ErgoHack6_Final_Report.pdf
+
+{Reactions}
+ergo_orange (5) 👍 (5) spicy (5) 
+
+[02/23/2023 12:22 AM] MGpai#4313
+Update:
+- Off-chain bot is complete
+- Frontend could not be completed in time, it should be ready in the next few days
+
+
+[02/23/2023 12:23 AM] Cheese Enthusiast#0548
+Nice work! 🙂
+
+{Reactions}
+😘 (5) 
+
+[02/23/2023 12:33 AM] lgd#5847
+thnx!
+
+
+[02/28/2023 5:36 AM] MGpai#4313
+https://github.com/LiliumErgo/offchain-bot
+
+
+[02/28/2023 5:36 AM] MGpai#4313
+Updated documentation thanks to @lgd
+
+{Reactions}
+👍 
+
+[02/28/2023 7:18 PM] MGpai#4313
+10k NFTs minted flawlessly with lilium
+
+
+[02/28/2023 7:18 PM] MGpai#4313
+https://tinyurl.com/lilium-10k
+
+{Reactions}
+spicy (3) 
+
+[02/28/2023 7:40 PM] Cheese Enthusiast#0548
+Is this doing “on-demand” minting?
+
+
+[02/28/2023 7:41 PM] MGpai#4313
+correct, I also generated and funded 10k different wallets
+
+{Reactions}
+😁 
+
+[02/28/2023 7:41 PM] Cheese Enthusiast#0548
+How are nfts selected when purchased?
+
+
+[02/28/2023 7:42 PM] MGpai#4313
+its sequential
+
+{Reactions}
+👍 
+
+[02/28/2023 7:42 PM] MGpai#4313
+#1 #2...
+
+
+[02/28/2023 7:42 PM] MGpai#4313
+there is an index in register that must update by one each time the contract box is recreated
+
+
+[02/28/2023 7:43 PM] MGpai#4313
+then this index is used to access avl data
+
+
+[02/28/2023 7:43 PM] Cheese Enthusiast#0548
+Maybe a cool next step would be to try doing a random selection
+
+
+[02/28/2023 7:44 PM] MGpai#4313
+yes luca has this planned out
+
+{Reactions}
+🔥 
+
+[02/28/2023 7:44 PM] Cheese Enthusiast#0548
+Regardless, this is great work. Nice job on it
+
+
+[02/28/2023 7:44 PM] MGpai#4313
+thank you ❤️
+
+
+[03/06/2023 1:36 AM] lgd#5847
+https://discord.gg/eNYQgKjT8T
+
+
+[03/08/2023 5:33 PM] MGpai#4313
+Business Model and Fee Structure:
+https://drive.google.com/file/d/1LeF7bAyToXwOtdDz4cjCq9bj4BEoLNaW/view
+
+{Embed}
+https://drive.google.com/file/d/1LeF7bAyToXwOtdDz4cjCq9bj4BEoLNaW/view
+lilium_business_model.pdf
+https://images-ext-2.discordapp.net/external/Y5J35BEkETS46kwhmLTyLRVqPjE2gzKbo6JE2SxHDbc/https/lh4.googleusercontent.com/RVEAosXCzCWAuR-iBF3jkQayro3dYfx-6H5oonxSmeK-OpVfDRmlZpZsopTeV8Z0rAk%3Dw1200-h630-p
+
+
+[03/08/2023 5:33 PM] MGpai#4313
+ErgoHack 6 Lilium Summit Video:
+https://drive.google.com/file/d/1qxsBC5Ro-JL-OBfWznocx_rPls9lo2Iv/view?usp=sharing
+
+{Embed}
+https://drive.google.com/file/d/1qxsBC5Ro-JL-OBfWznocx_rPls9lo2Iv/view?usp=sharing
+Lilium_ErgoHack_6.mkv
+https://images-ext-1.discordapp.net/external/uNA8gPRr1PWe4NSWP7gLcyqT3_tmDqJA70nRqjfuRe0/https/lh5.googleusercontent.com/TLjLtFr4q2c-951w2A7Dd4O-b-ZnnYIn0AF_mZBooc0RjnBIWqz8L4R8tu9tE4LKI-E%3Dw1200-h630-p
+
+
+[03/08/2023 5:34 PM] MGpai#4313
+End to end demo starts at 17:20
+
+
+[03/24/2023 8:14 PM] glasgowm#9381
+https://twitter.com/ERG_Glasgow/status/1637112959653535746
+
+{Embed}
+Glasgow (@ERG_Glasgow)
+https://twitter.com/ERG_Glasgow/status/1637112959653535746
+🔁1/ Another project from the recent #ERGOHACK, #Lilium, aims to revolutionize the way businesses mint & distribute tokens within their apps & products. #ErgoSummit #DiscoverErgo #Crypto #DeFi #ergonauts
+
+Some key points below 👇🧵
+https://images-ext-2.discordapp.net/external/d2S0x0gmZlKSpOpdSEfmZ_ERe3vgLJUZrxIAp__eLys/https/pbs.twimg.com/media/FrgQXtQWcAAthUG.png
+Twitter
+
+
+[03/24/2023 8:14 PM] glasgowm#9381
+https://www.youtube.com/watch?v=7bHCB1pQvVM&feature=youtu.be
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=7bHCB1pQvVM
+Lilium | Ergo Summit - Cypherpunk Finance
+A presentation showcasing the Lilium Ergo Hack VI project, by MGPai and LGD.
+
+Twitter: https://twitter.com/LiliumErgo
+
+--------------------------------------
+Website https://ergoplatform.org/
+Whitepaper https://ergoplatform.org/en/documents/
+Ergonaut Handbook: https://ergonaut.space/en/home
+Block Explorer https://explorer.ergoplatform.com/
+Githu...
+https://images-ext-1.discordapp.net/external/AOmllqoKd2Xr3VhQo2DELy0RNn1G33Nq_RQljqCvyng/https/i.ytimg.com/vi/7bHCB1pQvVM/maxresdefault.jpg
+
+
+[03/24/2023 8:49 PM] MGpai#4313
+ty @glasgowm
+
+
+==============================================================
+Exported 31 message(s)
+==============================================================

@@ -1,0 +1,270 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / grants
+==============================================================
+
+[11/04/2021 8:39 PM] glasgowm#9381
+Proposal for the good whale grant. Very amateur/not sure if appropriate 
+
+```
+Dear Ergo Team
+
+Please find Our project Proposal as attached,
+We had already start this project around 2 months ago, and whit big hope you want to read and explore the project capabilities on Ergo environment
+
+Our Bet to WIN project is the Betting dApps that run on ergo Blockchain and our aim to make decentralise betting apps so every player can make the betting pool and while other can lock ERG on our dApps for liquidity provider 
+
+I hope you can accept my proposal well and sorry for my limited in English because it is no my nattive language
+
+Thanks and best regards
+
+Rian
+```
+
+{Attachments}
+https://cdn.discordapp.com/attachments/905918860132237443/905919129750470716/Bet_To_WIN_Proposal.pdf
+
+
+[11/07/2021 12:57 PM] glasgowm#9381
+```
+Dear Ergo Platform Team and Good Whale,
+
+I would like to propose an idea for the Good Whale Grant Fund that would allow for tradable option contracts built on Ergo. The proposal paper has been attached to this email as a PDF. I appreciate any time given for reading and understanding the project. 
+
+From,
+Kirat Singh
+```
+
+{Attachments}
+https://cdn.discordapp.com/attachments/905918860132237443/906890188926623774/XOT_Protocol.pdf
+
+
+[11/08/2021 7:37 PM] Armeanio#0321
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/905918860132237443/907353176146071612/Proposal_for_ERGO_Launchpad_1.pdf
+
+{Reactions}
+👍 
+
+[11/27/2021 11:54 AM] glasgowm#9381
+```
+Hi team at Ergo,
+
+I have two good ideas for the ergo good whale fund.
+
+- The first is an idea for a release mechanism for the LETS. This is a system for volunteers performing environmental and social labor in community projects. This is a project I have already done a great deal of thinking about and links in with a proposal that posted on ergo research on discord. 
+
+-The second idea is to create a new system of land and housing ownership to position ergo as a first mover in the area of proptech. This is to provide a way of owning land that is different from the renting heavy system, rather to invent liberates us and allows us to create and fund housing systems that change our daily lives. Systems more related to the native values of the blockchain. You can see my thoughts on this here. 
+
+https://louiskoseda.medium.com/new-architecture-and-land-ownership-systems-on-third-generation-blockchains-ef73e3009c29
+
+Sending you this email to hear your thoughts,
+What system would you be most interested in look at funding a prototype for? 
+
+Warmest,
+Louis
+```
+
+
+[12/14/2021 8:10 PM] glasgowm#9381
+```
+I’ve been exploring the Ergo platform for some time.  I’m active in the Discord channel under the screen name “CloudScope”.
+
+ 
+
+While I have several proposals that I think are interesting, the first that I would like to propose is “ErgoNode Spyder”.
+
+ 
+
+My background is in development of analytics and reporting applications, so this fits within my scope of expertise, and is relatively straightforward.
+
+ 
+
+Summary:
+
+A server-based application collects information from all deployed nodes on a regular basis. The application collects data about nodes including IP addresses, version information and other data.  A web-based application is available to show viewers summary information including nodes by geography, nodes by version, node count over time and other metrics.
+
+ 
+
+Detail:
+
+A purpose-built server app in .Net 6.0 interacts with other nodes using node P2P messaging including Handshake and GetPeers/Peers messages.  This is important because not all nodes consistently expose an accessible http-based API. By connecting to each node and then their reported peers using P2P, a relatively complete view of Ergo nodes can be assembled.
+
+ 
+
+Data will be stored in a relational database to support reporting and analytics.  While the reporting framework has not been chosen, I have extensive experience with Microsoft Power BI as well as Javascript-based reporting frameworks.
+
+ 
+
+While this information will be interesting to the overall user community, I believe it will also be helpful to the Ergo core team and foundation.  These groups can use the data to encourage older nodes to upgrade to later versions, and potentially encourage deployment of nodes in under-served geographies.
+
+ 
+
+The spyder server application will be open-sourced, and will also provide a useful reference for .Net development of Ergo apps.
+
+ 
+
+ 
+
+ 
+
+I look forward to your questions and consideration.
+
+ 
+
+Chris Williams
+```
+
+
+[12/15/2021 8:09 AM] morphic#4133
+It is better be done within ergo.watch, more chances to be maintained long-term.
+
+
+[12/15/2021 11:55 PM] glasgowm#9381
+```
+Hello,
+
+I’m the founder and CEO of NFT-MAKER.IO - the largest NFT minting & backend tool on Cardano. We’re Currently looking into supporting other chains and of course Ergo is one of the first picks because of its close relationship to Cardano.
+
+In general, are there grants available for this kind of cross-chain development?
+
+Have a great day
+```
+
+
+[12/16/2021 5:14 PM] glasgowm#9381
+```
+Hi Ergo Platform team,
+
+I'm very impressed by the Ergo platform and I see its potential.
+
+I'm working on a Communal Monetary System (the project name is ComMonSys), where I create a platform for communities to learn about the monetary system and for them to launch their own coin. I've identified a possible first market (niche: Japanese school teachers) and their needs through user research, and am ready to work on an MVP.
+
+With that said, what are you looking for in order to give a grant? I don't mind expanding more on my project, but I wanted to be sure you're interested.
+
+I apologize, I should've introduced myself:
+My name is JD. I worked at Google for the past five years in Mountain View and Tokyo. I decided to leave Google to work on crypto projects with an emphasis on real world impact.
+
+Thank you for your time and I look forward to hearing from you!
+
+-JD
+
+```
+
+
+[12/29/2021 9:38 PM] glasgowm#9381
+```
+Hello Team!
+
+I am one of the strong believers in what can be achieved and principles in ERGO and what it is ought to do. I have a proposal as attached to build Marketplace on ERGO.
+
+While facilitating the trade between businesses and consumers on ZenShreni, it will help businesses to build an unique value to their online store through VISH NFT, and consumers will be rewarded with NEU token which has various use cases within the platform. Details are provided in the attachment.
+
+Looking forward to hear from you
+
+Regards
+
+Phani Grandhisila
+
+CEO/Founder
+
+E: phanig@zenshreni.com
+C: +1 (614) 377 5377
+O: +1 (469) 459 1357
+ZenShreni
+www.zenshreni.com
+
+```
+
+{Attachments}
+https://cdn.discordapp.com/attachments/905918860132237443/925865474561032243/ZenShreni_Pitch_122921_1.docx
+
+
+[01/17/2022 1:17 PM] kushti#0978
+Sounds good, let have a vote? But how much asked?
+
+
+[01/17/2022 1:26 PM] kushti#0978
+First one is good to chat about for starters
+
+
+[01/17/2022 1:29 PM] kushti#0978
+I guess so, but we need for more details
+
+
+[01/17/2022 1:31 PM] kushti#0978
+Would be happy to chat about with JD
+
+
+[01/17/2022 1:57 PM] glasgowm#9381
+Requested more details. This one was for the good whale's fund should I just stick them on the forum in future? Or maybe a new category on the forum to keep them organised?
+
+
+[01/17/2022 1:59 PM] glasgowm#9381
+Responded and invited to #deleted-channel
+
+
+[01/17/2022 2:31 PM] glasgowm#9381
+contacted other two also
+
+
+[01/19/2022 9:01 AM] glasgowm#9381
+Interesting proposal from @timreg7
+
+Given it wouldn't be til June - if we're in a bull then and have money to spend I think it'd be a great thing to support. $50p/h initially seemed high but seems to be inline with USC salaries. ($88k for 11mo). Will recommend he start a Raffle for now.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/905918860132237443/933285115067498516/message.txt
+
+
+[02/12/2022 8:03 AM] Justin1000#9555
+Seems interesting. I would think we would probably want to support it. However might 1) want a higher ERG price than today which hopefully will be higher by June (i suppose we could consider it even if price still low) and 2) good if he can accept payment in ERG.
+
+{Reactions}
+👍 
+
+[05/20/2022 5:22 PM] glasgowm#9381
+> Hello Ergo team,
+
+> My name is Chris but more commonly known as CurbsideProphet on various Ergo Discord servers.
+
+> I am building a UTXO blockchain intelligence platform called Azorus (https://github.com/gsblabsio/azorus) where customers can access blockchain data straight from their browser using their favorite programming language. It is geared primarily for data scientists and machine learning practitioners to usher in a new generation of blockchain analysts. Although we are starting on Ergo, the end goal is to have this service live on top of all UTXO blockchains.
+
+> We have plans to launch with ErgoPad in July for an IDO which will be very exciting. However, given the recent market downturn, we are not sure if our funding goals will be met to ensure a stable development cycle and get an MVP out the door before the end of the year.
+
+> Thus, we are looking to hedge our bets a little and seek additional funding outside of the ErgoPad platform. Is there anyone on the team we can connect with to start this conversation?
+
+> Thank you in advance!
+
+> -Chris
+
+> p.s. we are participating in ErgoHack Fest! Find us in the #azorus channel for news and updates 🙂
+
+
+[06/11/2022 3:35 PM] glasgowm#9381
+handshake.institute
+
+
+[06/21/2022 8:44 PM] kushti#0978
+guapswap grant paid (by GoodWhale fund and me)
+
+
+[06/29/2022 1:37 PM] glasgowm#9381
+Started a thread.
+
+
+[06/29/2022 1:38 PM] glasgowm#9381
+Started a thread.
+
+
+[07/13/2022 11:02 AM] glasgowm#9381
+Started a thread.
+
+{Reactions}
+👎 
+
+==============================================================
+Exported 24 message(s)
+==============================================================

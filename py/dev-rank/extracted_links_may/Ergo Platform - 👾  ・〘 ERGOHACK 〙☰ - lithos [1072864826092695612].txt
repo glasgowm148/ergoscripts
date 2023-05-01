@@ -1,0 +1,170 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 👾  ・〘 ERGOHACK 〙☰ / lithos
+==============================================================
+
+[02/08/2023 1:05 PM] glasgowm#9381
+The Lithos team will use ErgoHack VI to show off work done on the collateralization
+side of the Lithos Protocol. Given that the topic of this Hackathon is CypherPunk Finance, we hope to showcase a safe, effective way to gain yield on ERG while also helping to decentralize the Ergo blockchain. 
+
+Our goal is to create the contracts necessary to allow for collateralized mining pools which interface with the rest of the Lithos protocol. In addition, we plan to show a mockup UI which will allow for lenders to collateralize their ERG. Collateralized mining pools serve as the first half of the Lithos protocol, and are essential in allowing for completely decentralized block production on the Ergo blockchain. 
+
+Moreover, collateralization is a safe way to gain yield on ERG with minimal risk involved. We hope that our work on collateralized mining pools will allow for greater participation in Ergo’s DeFi ecosystem, while also helping the blockchain itself.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864826092695612/1072865842280288376/Lithos-Paper.pdf
+
+{Reactions}
+👍 (5) 
+
+[02/18/2023 7:12 AM] Cheese Enthusiast#0548
+We successfully simulated a collateral payment to a mining pool, which includes fee payments to the lender along with modifications to the coinbase transaction (and inclusion of the emission box as a data input)
+
+```json
+{
+  "id": "6423b8e9ea1f28e7e01dd149f40329ee5bb4592617e432283bc76386cbde5986",
+  "inputs": [
+    {
+      "boxId": "ad760ce72a1a95a4b3004d350e8fbb7df841e95c0e1f2a3605bdbfeb7cfa43de",
+      "spendingProof": {
+        "proofBytes": "",
+        "extension": {}
+      }
+    }
+  ],
+  "dataInputs": [
+    {
+      "boxId": "27738e819c3d05310f4d1d347b856f8aa164f5f55d5105b79a59aac18a62fec5"
+    }
+  ],
+  "outputs": [
+    {
+      "boxId": "6a9419a0f8af05143ef8c1345c22ac29fed5e42c175c0bb7241d4ebe36c95539",
+      "value": 67399000000,
+      "ergoTree": "ErgoTree(16,WrappedArray(TrueLeaf),Right(BoolToSigmaProp(ConstantPlaceholder(0,SBoolean))),184,[B@10f19647,Some(false))",
+      "creationHeight": 295520,
+      "assets": [],
+      "additionalRegisters": {
+        "R4": "0e20ad760ce72a1a95a4b3004d350e8fbb7df841e95c0e1f2a3605bdbfeb7cfa43de"
+      },
+      "transactionId": "6423b8e9ea1f28e7e01dd149f40329ee5bb4592617e432283bc76386cbde5986",
+      "index": 0
+    },
+    {
+      "boxId": "a9a62fe4cc853e34c085ff84a714312bee10e900d4ff107b5e52e9557ef6f70d",
+      "value": 1000000,
+      "ergoTree": "ErgoTree(16,WrappedArray(IntConstant(0), IntConstant(0), ... EQ(ExtractScriptBytes(ByIndex(Outputs$(165),ConstantPlaceholder(1,SInt$),None)),SubstConstants(ConstantPlaceholder(2,Coll[SByte$]),ConstantPlaceholder(3,Coll[SInt$]),ConcreteCollection(WrappedArray(CreateProveDlog(DecodePoint(MinerPubkey$(172)))),SSigmaProp))), EQ(SizeOf(Outputs$(165)),ConstantPlaceholder(4,SInt$))),SBoolean)))),4836,[B@102efc59,Some(false))",
+      "creationHeight": 295520,
+      "assets": [],
+      "additionalRegisters": {},
+      "transactionId": "6423b8e9ea1f28e7e01dd149f40329ee5bb4592617e432283bc76386cbde5986",
+      "index": 1
+    }
+  ]
+}
+```
+
+
+[02/18/2023 7:13 AM] Cheese Enthusiast#0548
+Our next goal is to implement a live transaction using Ergo's testnet, which will include the collateral transaction directly within the block.
+
+
+[02/18/2023 7:19 AM] Cheese Enthusiast#0548
+The collateral contract may be viewed here:
+https://github.com/Lithos-Protocol/Lithos/blob/master/src/main/resources/contracts/collateral/Collateral.ergo
+
+{Embed}
+https://github.com/Lithos-Protocol/Lithos/blob/master/src/main/resources/contracts/collateral/Collateral.ergo
+Lithos/Collateral.ergo at master · Lithos-Protocol/Lithos
+Lithos Reference Client. Contribute to Lithos-Protocol/Lithos development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/tgnLGLKXKqpai_UTKsxPWmJcsFHpFyd3loICVBmVpKE/https/opengraph.githubassets.com/88620080b52b13bea5d9af59e18f3c50a71109c21034264f0f4ae4afa7f67a3b/Lithos-Protocol/Lithos
+
+{Reactions}
+ergo_orange (4) 🔥 (3) 🧀 (3) 🧙‍♂️ (3) 
+
+[02/19/2023 9:50 AM] Cheese Enthusiast#0548
+Successfully modified the coinbase transaction on testnet to have a register on the outputted emission box. R4 of the new emission box now contains a random hexadecimal value. This will soon become the id of the collateral box as per the contract above.
+
+https://tn-ergo-explorer.anetabtc.io/en/transactions/5ed9cbf2f15c4fb26e8be2ac6dadb0749ec864545b60262bc6085dc84fda815a
+
+{Reactions}
+ergo_orange (6) 🧀 (7) 
+
+[02/20/2023 9:50 AM] Cheese Enthusiast#0548
+We were able to insert a collateral payment transaction directly into a block (visible by the lack of transaction fees), this was essentially the most important and hardest hurdle for us to get through. The transaction takes the modified emission box (created in the same block) as a data input, and then uses it to verify that only one collateral payment can happen per block.
+
+https://tn-ergo-explorer.anetabtc.io/en/transactions/7efbc232622a0db6c602042a20a2022486a3b757e22fd1cc5fecb0ba98680f21
+
+We'll be using the rest of the hackathon to refine this process, look into it's current viability for FIMOs, and create a demo UI to show the lender's side of things.
+
+{Reactions}
+ergo_orange (3) 🧀 (4) sigmanaut (2) 
+
+[02/20/2023 2:31 PM] MGpai#4313
+Cheesy what does this mean? How can you make a tx without fees?
+
+
+[02/20/2023 3:12 PM] Cheese Enthusiast#0548
+The tx was created locally by the miner and directly placed into the block (not into the mempool). Since the tx is made by the miner, there is no need for them to pay tx fees, as they would just be paying themself.
+
+{Reactions}
+🔥 (4) 🧙‍♂️ (3) 
+
+[02/20/2023 3:13 PM] Cheese Enthusiast#0548
+I believe in the general case, tx fees are not necessary for a tx to be valid. But no miner will accept a mempool tx which is not paying them tx fees.
+
+
+[02/20/2023 4:04 PM] MGpai#4313
+This is a good idea
+
+
+[02/22/2023 11:14 PM] Cheese Enthusiast#0548
+https://github.com/Lithos-Protocol/Lithos/blob/ErgoHack/documents/ErgoHack.MD
+
+{Embed}
+https://github.com/Lithos-Protocol/Lithos/blob/ErgoHack/documents/ErgoHack.MD
+Lithos/ErgoHack.MD at ErgoHack · Lithos-Protocol/Lithos
+Lithos Reference Client. Contribute to Lithos-Protocol/Lithos development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/jLhsVnREljWcPsq8k1hgu1df2Y-JNanUIrve66RCeHY/https/opengraph.githubassets.com/fcece090168e5bf7820f918bba6c0b35ff15ed124eb9931b3e4cfe5e0d9a8e21/Lithos-Protocol/Lithos
+
+{Reactions}
+ergo_orange (8) 🧀 (8) 
+
+[03/24/2023 8:06 PM] glasgowm#9381
+https://twitter.com/ERG_Glasgow/status/1637468026642612225
+
+{Embed}
+Glasgow (@ERG_Glasgow)
+https://twitter.com/ERG_Glasgow/status/1637468026642612225
+1/ 🧵 #ErgoSummit: Lithos Protocol - Revolutionizing decentralized mining pool infrastructure. Creating low-risk opportunities for lenders to earn yield on their ERG by providing collateral to mining pools, promoting decentralized block production. #ergonauts #DiscoverErgo #DeFi
+https://images-ext-1.discordapp.net/external/93ZPU2vcPgvTyerNDmhj1VUjQAOHxOAUOyJZzYlgF7s/https/pbs.twimg.com/media/FrlZ9sVXoAYlVWp.png
+Twitter
+
+
+[03/24/2023 8:07 PM] glasgowm#9381
+https://www.youtube.com/watch?v=PFdZAWxpwJM&feature=youtu.be
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=PFdZAWxpwJM
+Collateralised Mining Pools in PoW | Ergo Summit - Cypherpunk Finance
+A presentation by Kirat, otherwise known as Cheese Enthusiast, on their ErgoHack VI project: Collateralised Mining Pools (CMPs) in PoW; a way to decentralize block production.
+
+--------------------------------------
+Website https://ergoplatform.org/
+Whitepaper https://ergoplatform.org/en/documents/
+Ergonaut Handbook: https://ergonaut.space/en/ho...
+https://images-ext-1.discordapp.net/external/fLG3PJNWw5mVBCWoTAdBR_HIGNhZ1qpEdkiLPr8i8zA/https/i.ytimg.com/vi/PFdZAWxpwJM/maxresdefault.jpg
+
+
+[03/24/2023 8:07 PM] openai_bot#6772
+Summary of the video:
+-Collateralized mining pools (CMPs) are pools in which miners set aside some collateral and pay it out to the pool whenever they mine a block.
+-CMPs were used to break non-outsourceability in the past in Autologous One, but today they can still be used in order to allow for local block production in an outsourceable setting.
+-The reason for this is that CMP smart contracts allow for the block reward to be sent to a smart contract-based pool, which then eventually distributes the reward accordingly to the work that each miner put in.
+-CMPs encourage D5 and they can be made in such a way that miners can participate in the pool without
+
+
+==============================================================
+Exported 14 message(s)
+==============================================================

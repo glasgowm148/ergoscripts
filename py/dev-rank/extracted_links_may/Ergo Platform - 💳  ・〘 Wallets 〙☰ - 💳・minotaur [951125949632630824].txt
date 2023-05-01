@@ -1,0 +1,560 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 💳  ・〘 Wallets 〙☰ / 💳・minotaur
+Topic: https://github.com/minotaur-ergo/minotaur-wallet
+==============================================================
+
+[03/09/2022 2:35 PM] glasgowm#9381
+here you go @mhs_sam
+
+{Reactions}
+🎉 (2) 
+
+[03/09/2022 2:35 PM] vorujack#1729
+Hi.
+please make it public
+
+
+[03/09/2022 2:36 PM] glasgowm#9381
+it is public
+
+
+[03/09/2022 3:06 PM] MrStahlfelge#0042
+Why does it have a lock icon?
+
+
+[03/09/2022 3:33 PM] glasgowm#9381
+inhered the `verified` role but not needed anymore
+
+
+[03/09/2022 3:34 PM] NoahErgo#4349
+Gonna do a post on sigmaverse twitter about this today
+
+
+[03/09/2022 3:36 PM] glasgowm#9381
+tested and working great on my mac 🙌
+
+
+[03/09/2022 3:37 PM] NoahErgo#4349
+https://github.com/minotaur-ergo/minotaur-wallet
+
+{Embed}
+https://github.com/minotaur-ergo/minotaur-wallet
+GitHub - minotaur-ergo/minotaur-wallet: Ergo wallet for android and...
+Ergo wallet for android and IOS. Contribute to minotaur-ergo/minotaur-wallet development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/tnGHJgwbkFoNnzUC-IIlJ-fyjCFwDOTQg9jRMYqppWM/https/opengraph.githubassets.com/de3b918e0c71ebdc3f0d2461501aef46c8c2dfac1fa49c698876ccf5d3774909/minotaur-ergo/minotaur-wallet
+
+
+[03/09/2022 3:37 PM] NoahErgo#4349
+For those who stumble upon the channel
+
+
+[03/10/2022 3:25 AM] Rob3#6008
+Does Minotaur Wallet have a dapp connector?
+
+
+[03/10/2022 4:55 AM] vorujack#1729
+Not now, But wr are working on supporting ergo pay.
+
+
+[03/17/2022 12:53 PM] vorujack#1729
+Minotaur wallet 1.0.4 released.
+
+* Added Ergopay support
+* Share your extended public key.
+* Create read-only wallet using extended public key
+* Load paged transaction in wallet page.
+* Some miner bug fixes.
+
+{Reactions}
+⭐ (2) 
+
+[03/17/2022 1:00 PM] vorujack#1729
+If you want to use extended public key in nautilus you must convert it from base58 to hex.
+Its a great tool for that.
+In future releases, hex display of extended public key will be added.
+
+
+[03/17/2022 1:11 PM] MrStahlfelge#0042
+That would be great, Android wallet also uses hex
+ErgoPay: Does the wallet register for ergopay: uri scheme like Android wallet or does it show qr codes like safew?
+
+
+[03/17/2022 1:19 PM] vorujack#1729
+We used url scheme like ergo wallet app
+
+{Reactions}
+👍 
+
+[03/17/2022 1:48 PM] MrStahlfelge#0042
+does it work for the desktop version as well?
+
+
+[03/17/2022 2:08 PM] vorujack#1729
+All versions of minotaur has same functionality.
+So this feature also available in desktop version
+
+
+[03/17/2022 2:08 PM] MrStahlfelge#0042
+nice, have to try it
+
+
+[04/08/2022 4:11 PM] liquid_phase#4605
+possible to build the iOS version of minotaur as a safari extension you think?
+
+
+[04/08/2022 7:04 PM] vorujack#1729
+Hi. Minotaur created to run as application not browser extension. But it can
+
+
+[05/20/2022 4:10 AM] vorujack#1729
+https://github.com/minotaur-ergo/minotaur-wallet/releases/tag/v1.0.5
+New release.
+
+{Embed}
+https://github.com/minotaur-ergo/minotaur-wallet/releases/tag/v1.0.5
+Release v1.0.5 · minotaur-ergo/minotaur-wallet
+Update packages and dependencies
+Display notification on desktop version
+Create wallet and restore wallet get 12 - 15 - 18 - 21 - 24 word mnemonics.
+Simple and Advanced details view.
+Share extended...
+https://images-ext-2.discordapp.net/external/vYZdnustWd4Ej6LZmK59E96B0n7VXRE5HNUY57tOWAM/https/opengraph.githubassets.com/ba91ed864dd16442f3f12b5ec6fdef29a3ebcfb8306fad898feb4b449afeff3c/minotaur-ergo/minotaur-wallet/releases/tag/v1.0.5
+
+{Reactions}
+👍 (4) 
+
+[06/14/2022 5:21 PM] NoahErgo#4349
+HI @vorujack when dapp connector becomes integrated can you be sure to include a warning if native assets are going to be burned in the signed transaction? Similar to this: https://discord.com/channels/668903786361651200/940210065099591741/985302919597408336
+
+
+[06/14/2022 5:25 PM] vorujack#1729
+Hi.
+In minotaur-wallet we do this another way.
+User can see whole transaction. all inputs and outputs of transaction then sign it.
+But it can be done to display burning tokens.
+
+
+[06/14/2022 5:26 PM] NoahErgo#4349
+Great, as long as some warning or visibility is present. But yes I think a warning might also be good if the user does not full understand how to read inputs and outputs
+
+
+[06/14/2022 5:27 PM] NoahErgo#4349
+I accidentally burned large amount of funds and am looking for ways to create safety nets for users in all our community wallets
+
+
+[06/14/2022 5:28 PM] vorujack#1729
+Minotaur DappConnector completed and we are doing final tests.
+Due to other active projects, development process of minotaur-wallet is slow.
+But I think DappConnector released in about 2 or 3 weeks.
+
+
+[06/14/2022 5:30 PM] vorujack#1729
+It is a great idea to show the burned tokens to the user in a different way
+
+
+[06/14/2022 5:43 PM] NoahErgo#4349
+Great thank you very much!
+
+
+[06/24/2022 4:35 AM] vorujack#1729
+Minotaur wallet 1.0.7 released.
+In this release:
+* Show updating wallet
+* Fix a bug cause lost tracking of all tokens.
+After update to this version wallet resynced to blockchain.
+
+
+[10/15/2022 11:47 PM] H7#4402
+Has anyone else have issues with sending to the mintoaur wallet? Sent funds from mobile wallet to desktop minotaur and confirmed on the block explorer but nothing on the wallet
+addresses are correct
+
+https://explorer.ergoplatform.com/en/addresses/9fhYPFsMgjVJNv6GADG3NL1k8pVkdvLuJJgqnCoXhxmLZHa4wPy
+
+
+[10/15/2022 11:48 PM] H7#4402
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/951125949632630824/1030975429814788157/Screenshot_2022-10-15_154800.png
+
+
+[10/15/2022 11:49 PM] H7#4402
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/951125949632630824/1030975763371020358/Screenshot_2022-10-15_154915.png
+
+
+[10/16/2022 12:11 AM] H7#4402
+@vorujack
+
+
+[10/16/2022 4:27 AM] vorujack#1729
+Hi. We have some sync issue on minotaur and it will be fixed soon.
+
+
+[10/16/2022 4:38 AM] H7#4402
+Thank you, in the meantime, can I use the same seed from Minotaur into satergo?
+
+
+[10/16/2022 4:38 AM] vorujack#1729
+Yes.
+
+{Reactions}
+👍 
+
+[10/16/2022 12:40 PM] H7#4402
+And my seed didn't even recover the funds from minotaur lol
+
+
+[10/16/2022 12:41 PM] H7#4402
+@vorujack Are there quite a few issues with this wallet? Concerning as its listed on the ergo discord, website, etc. for people to use
+
+
+[10/16/2022 12:53 PM] glasgowm#9381
+Seed shouldn't be impacted, guessing either your previous tx went through (to a diff wallet?) Or you need to derive additional addresses
+
+
+[10/16/2022 2:12 PM] vorujack#1729
+No. This wallet has a known issue in syncing with blockchain. we working on it and it will be fixed soon.
+
+
+[10/16/2022 3:50 PM] H7#4402
+Not sure how either of these scenarios are even possible. I guess I need to do some additional digging today to figure out what is happening
+
+
+[10/16/2022 5:02 PM] glasgowm#9381
+Well the addresses are derived from the seed which just lets you spend your boxes on the blockchain. Seems the issue is minotaur-mobile syncing, in which case the seed used in minotaur will still work elsewhere and should show your funds. The only reason this wouldn’t happen is if you sent the funds to a derived address as some wallets only generate the first one when you restore (and then you’ll need to generate more manually).
+
+
+[10/16/2022 5:23 PM] H7#4402
+That makes total sense actually, I did send funds to a dervived address on Minotaur.
+
+
+[10/16/2022 5:25 PM] H7#4402
+So based on me doing that, I’m assuming I just need to wait for the syncing issue to be fixed in minotaur
+
+
+[11/13/2022 3:44 PM] vorujack#1729
+Ergo got its first multi-sig wallet.
+https://github.com/minotaur-ergo/minotaur-wallet/releases/tag/v1.1.0
+
+{Embed}
+https://github.com/minotaur-ergo/minotaur-wallet/releases/tag/v1.1.0
+Release v1.1.0 · minotaur-ergo/minotaur-wallet
+Added multi-sig wallet.
+Verify wallet boxes after syncing. If one or more address does not synced correctly retry sync it from begining.
+Some minor bug fixes.
+https://images-ext-1.discordapp.net/external/02I3TFF-NUMFWIXnWyts_-QfECUu0vItxkflCWD1VHc/https/opengraph.githubassets.com/8cab6ac2f87374610985fe073fcc98d391307013d49cd8666e8b389e355fbdeb/minotaur-ergo/minotaur-wallet/releases/tag/v1.1.0
+
+
+[11/13/2022 3:45 PM] vorujack#1729
+This bug fixed in minotaur v1.1.0
+
+
+[11/14/2022 3:42 PM] H7#4402
+Works thank you!!!
+
+{Reactions}
+👍 
+
+[12/01/2022 8:33 PM] wombo22#5461
+https://discord.com/channels/668903786361651200/668903786902847502/1047966132595863642
+
+
+[12/01/2022 8:35 PM] DaℵiΣl#1671
+Hi! Trying to send 1 ERG with miltisig 2/2 (the two are on Android). But I "Copy data to clipboard" on first wallet, then on the second wallet I go to "Multi-sig communication page" and click on the "Clipboard" button. Nothing happens, and that's all, I get stuck there... Can I get some help?
+
+
+[12/02/2022 10:06 AM] vorujack#1729
+Hi. Are you see any error on any change in page?
+If you click on ClipBoard button it must show you password screen.
+
+
+[12/02/2022 11:54 AM] DaℵiΣl#1671
+No, when I click the button it does nothing.. Stays on the same screen without any error message or anything..
+
+
+[12/02/2022 12:59 PM] DaℵiΣl#1671
+Now I've tried on Linux. The same.. Aftre click on CREATE COMMITMENT nothing happens. No error, nothing.
+
+
+[12/02/2022 3:54 PM] vorujack#1729
+In Linux version please click on view menu ->  Developer option. then send me any error available in Console tab of new window.
+
+
+[12/07/2022 6:26 PM] DaℵiΣl#1671
+Finally I been able to finish the tx. With two Linux wallets. On Android I couldn't do it.
+
+
+[12/07/2022 6:30 PM] DaℵiΣl#1671
+It would be great to add QR for communication between android devices, the clipboard system is complicated. I love the multisig feature, but implemented like this is complicated for daily use.
+I'll come back when this feature matures (QR😉).
+
+
+[12/08/2022 10:44 AM] vorujack#1729
+We working on QRCode communication. I hope to release it soon.
+
+{Reactions}
+k_thumbs_up (2) 
+
+[01/08/2023 6:15 PM] Chris Ray#2713
+I was trying to install on windows, twice I get to the next button after entering password and then I go to a blank screen, any idea why?
+
+
+[01/11/2023 12:33 PM] vorujack#1729
+can you send me console log of your wallet?
+
+
+[01/27/2023 2:46 PM] morphic#4133
+I have built it for Macos M1 as suggested in readme. 
+npm run build
+npm run electron:pack
+npm run electron:make
+Then found a newly created mintaur-wallet.app in `electron/dist/mac-arm64` directory.
+Then created a new wallet got this screen
+
+{Attachments}
+https://cdn.discordapp.com/attachments/951125949632630824/1068542565911113818/image.png
+
+
+[01/27/2023 2:47 PM] morphic#4133
+after reload the wallet have disappeared
+
+
+[01/28/2023 4:52 AM] vorujack#1729
+in `electron/src/setup.ts` comment line 146 `this.MainWindow.setMenu(null);` and build it again
+then open `View/Toggle Developer Tools` 
+then process setup multisig wallet again 
+send me  logs to track problem.
+
+
+[01/28/2023 7:51 PM] morphic#4133
+should I somehow install the app after it is built? And how to run it? How can I check it has a connection to the blockchain?
+
+
+[01/28/2023 9:48 PM] vorujack#1729
+no installation is required. 
+to build project only run 
+`npm i && npm run sync` in project directory then run
+`npm run electron:make` in electron directory
+then executable file avalable in `electron/dist` directory.
+connection to blockchain does not displayed in UI. you can see requests in Developer Tools window.
+
+
+[01/28/2023 9:54 PM] morphic#4133
+When I restore the wallet using given words I get this
+
+{Attachments}
+https://cdn.discordapp.com/attachments/951125949632630824/1069012666254884876/image.png
+
+
+[01/29/2023 4:42 AM] vorujack#1729
+double check your mnemonic words.
+
+
+[01/30/2023 9:14 AM] morphic#4133
+Does it look up the chain for existence of some boxes?
+
+
+[01/30/2023 9:16 AM] vorujack#1729
+Minotaur scan path from /m/.../1 to find old used addresses
+
+
+[01/30/2023 9:33 AM] morphic#4133
+So I cannot choose the mnemonic myself for a new wallet?
+
+
+[01/30/2023 9:34 AM] morphic#4133
+after applying the fix you suggested, tried to create a new wallet. The same empty screen. Should it work on Mac M1 at all?
+
+
+[01/30/2023 9:36 AM] morphic#4133
+All the steps work ok, but the final operation fails somehow.
+
+
+[01/30/2023 9:36 AM] morphic#4133
+Where can I find the logs?
+
+
+[01/30/2023 9:37 AM] morphic#4133
+The body is like this
+<body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body>
+
+
+[01/30/2023 9:38 AM] vorujack#1729
+From menubar choose `edit -> Toggle Developer Tools`
+
+
+[01/30/2023 9:38 AM] morphic#4133
+And then?
+
+
+[01/30/2023 9:40 AM] vorujack#1729
+Open Console tab
+
+
+[01/30/2023 9:40 AM] vorujack#1729
+You can view logs in this page.
+
+
+[01/30/2023 9:40 AM] vorujack#1729
+Send any Error displayed in this page.
+
+
+[01/30/2023 9:44 AM] vorujack#1729
+You can create new wallet or enter your own mnemonic to restore a new wallet. Scanning process used to find derived address if exists
+
+
+[01/30/2023 9:44 AM] vorujack#1729
+Do you select Network type?
+
+
+[01/30/2023 9:44 AM] morphic#4133
+yes, mainnet
+
+
+[01/30/2023 9:46 AM] vorujack#1729
+Let me check it. It seems network type not selected to create new wallet.
+
+
+[01/30/2023 9:46 AM] vorujack#1729
+Please Delete this log.
+
+
+[01/30/2023 9:48 AM] morphic#4133
+Can I create a new wallet with the words I already written out?
+
+
+[01/30/2023 9:51 AM] vorujack#1729
+Yes, you can. But words must be a valid mnemonic phrase
+
+
+[01/30/2023 10:17 AM] morphic#4133
+what you mean "valid"? any words are valid. Mnemonic is just a string.
+
+
+[01/30/2023 10:30 AM] vorujack#1729
+Do you create a mnemonic using 15 random word or create mnemonic using a wallet.
+
+
+[01/30/2023 10:44 AM] vorujack#1729
+As you can see in 
+https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki#user-content-Generating_the_mnemonic
+Last 4/8 bits on generated Entropy is checksum.
+
+{Embed}
+https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
+bips/bip-0039.mediawiki at master · bitcoin/bips
+Bitcoin Improvement Proposals. Contribute to bitcoin/bips development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/ynZxJ63rHL2poYRMFbaEvP91YhuXM8xN8Wo5FZsyz7E/https/opengraph.githubassets.com/bc293ece69f56cac15fe331592db595af7f2428ac1e12491bd997e508f8f1ae1/bitcoin/bips
+
+
+[02/25/2023 4:39 AM] Rishabh#7490
+Hello everyone can i use 2-3 minotaur wallet app in 1 screen like in this video, i have to make a youtube video of multi-sig feature
+
+{Attachments}
+https://cdn.discordapp.com/attachments/951125949632630824/1078899076357181480/Untitled_4.mp4
+
+
+[02/26/2023 4:24 AM] CushtyCrypto#6164
+Im having the same issues when it comes to the multi sig communication page
+
+
+[02/26/2023 4:25 AM] CushtyCrypto#6164
+i just keep getting error messages.
+
+
+[02/26/2023 4:28 AM] CushtyCrypto#6164
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/951125949632630824/1079258665208516609/Screenshot_2023-02-26_at_12.28.03.png
+
+
+[02/27/2023 5:14 AM] vorujack#1729
+It is a browser based version. This version jas a series of limitation such as database size can not exceed 5 MB. Currently you can't run minotaur app multiple time on same system.
+
+
+[02/27/2023 5:17 AM] vorujack#1729
+This is a multi-signature wallet. First, one of the signers must create a transaction and give it to you. Then you pass it to wallet to continue signing process.
+
+
+[02/28/2023 6:43 AM] Rishabh#7490
+Hello everyone 👋🏻 I just posted a video about minotaur multi signature wallet. Check this out, if you find it informative give it a like & subscribe 
+ https://youtu.be/2mqQSW-Fu80
+
+Background music - Audio NFT by CyberVerse
+
+https://twitter.com/rprishabh7/status/1630448124652290048?t=RIrOFJgp6iZ8nN_2GPYKaA&s=19
+
+{Embed}
+Ergo Verse
+https://www.youtube.com/watch?v=2mqQSW-Fu80
+Ergo Minotaur Multi - Signature Feature on windows & Ubuntu
+A guide on how to download and install minotaur wallet in windows 11 / Ubuntu and how to use Multi Signature feature and what are Multi Signature crypto wallet.  
+
+Timestamp 
+00:00 Minotaur wallet (windows)
+02:37 Minotaur wallet (ubuntu)
+05:27 how to create Multi-sig wallet 
+10:40 Multi signature transaction 
+16:07 What are Multi Signature walle...
+https://images-ext-2.discordapp.net/external/SK-k7xmlEkYJLpW4Ke1uawvJfv2ed65neqLO7Z7FgPU/https/i.ytimg.com/vi/2mqQSW-Fu80/maxresdefault.jpg
+
+{Embed}
+Rishabh Pandey 👾 (@rprishabh7)
+https://twitter.com/rprishabh7/status/1630448124652290048?t=RIrOFJgp6iZ8nN_2GPYKaA&s=19
+Hello everyone 👋🏻 new video is out on Minotaur multi - Signature feature on Windows and Ubuntu check this out 🔥
+
+This time new audio NFT by @CyberVerse_io Neon XMAS & cybergstein is used. 
+
+#Ergo #Ergo2top10 #DiscoverErgo 
+
+https://t.co/tkAGcshVZj
+Twitter
+
+{Reactions}
+👍 
+
+[02/28/2023 4:22 PM] Nadi#5654
+Hello! I made a small clip for the contest. If the community chooses my concept, I will finish the video 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/951125949632630824/1080163012721250407/video0.mov
+
+
+[02/28/2023 7:12 PM] Rishabh#7490
+Nice concept ❤️ but contest last submission date is 28 feb
+
+
+[02/28/2023 7:14 PM] Rishabh#7490
+Stay connected on twitter every week there is a contest by someone
+
+
+[02/28/2023 7:14 PM] Nadi#5654
+@Rishabh thank you! Today is February 28th where I’m right now
+
+
+[02/28/2023 7:15 PM] Rishabh#7490
+I'm from india
+
+
+[02/28/2023 7:18 PM] Nadi#5654
+I PMed Chis Ray yesterday February 27th and he told me to send the video to the community chat 🙂
+
+
+[03/01/2023 4:45 PM] vorujack#1729
+Hi. I see your video. There some hints about it.
+1- video time is two long
+2- you made 2-of-3 signature. So the signing process is done with the participation of two wallets. No need to send data to third wallet.
+
+
+[03/01/2023 6:52 PM] Rishabh#7490
+Yaa i know and i said that to that signing of 2 wallet is sufficient in video btw thanks for the feedback 🙂
+
+
+==============================================================
+Exported 102 message(s)
+==============================================================

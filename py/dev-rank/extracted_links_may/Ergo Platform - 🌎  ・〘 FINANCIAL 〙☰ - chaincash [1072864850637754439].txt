@@ -1,0 +1,140 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 FINANCIAL 〙☰ / chaincash
+==============================================================
+
+[02/08/2023 1:06 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1072864850637754439/1072865911918317579/chaincash.pdf
+
+{Reactions}
+👍 (7) 
+
+[02/14/2023 11:21 PM] kushti#0978
+Unfortunately, scalahub is not participating due to health issues, so I am doing ChainCash alone for now. Progress:
+* note and reserve ErgoScript contracts done 
+* started Kiosk-based tests
+* paper updated but just a bit, I think will put implementation details after tests 
+
+Then tracking part and acceptance logic. I also think to sketch rollup design to run ChainCash on L2
+
+{Reactions}
+ergo_orange (6) 👍 (4) 
+
+[02/15/2023 1:19 PM] kushti#0978
+First test is passing now, few fixes in contracts done also
+
+{Reactions}
+ergo_orange (4) 👍 (2) 
+
+[02/15/2023 7:45 PM] MGpai#4313
+W
+
+
+[02/15/2023 10:18 PM] kushti#0978
+Both tests for spending and redemption of notes are passing now
+
+{Reactions}
+ergo_orange (4) 👍 (2) 
+
+[02/17/2023 10:16 PM] kushti#0978
+Made first successful onchain transactions  creating reserves https://explorer.ergoplatform.com/en/addresses/2yJgWs3wJGHYECtp9p4kzg4DUxpY283jvsRLgfUs5QFYSqnQZctqBYpZr4khWY3t6kURo3mbYJBPgPW3UqJQ9zpLN4fQcSWayjPrQUtD5iGD6e4oS8JWFn57ovg9Sh8V1q4Nfr3aazA9mszLt57cEAMfxRznENG1jUFdrUqtjG9C2h8bmwP2iEoKCGYnEnh87M9jPk7QgdjPQvydczCxeEu4aX6wck6Cv7RYwYC5E89qzVH6R7EteHvfy3AuLWuR1z1VsUB6DWP4Egn6k7AyXtZT18PVP7RfroPmSAGBE7AJcFbH8ZEgKd8F4ztL6hf1sxLoZQbw6pVH212HhwjiXBQdEnNTjqcXdC3X2iqWm5Fojmr9q1mAuySozFX82v4UR2zdqbNCbg2bRJaKiZBDKkQoL1eHPwK85Ag , tracking rules for the node work
+
+{Reactions}
+k_thumbs_up (2) 
+
+[02/17/2023 11:10 PM] MGpai#4313
+kushti doesn't even bother with testnet 🤣
+
+{Reactions}
+lmao (3) 
+
+[02/17/2023 11:11 PM] MGpai#4313
+btw with this explorer you can see the ergoTreeScript
+
+
+[02/17/2023 11:11 PM] MGpai#4313
+https://ergo-explorer.anetabtc.io/en/transactions/0df5c120eaa3a9e3a4b5b55fe6ad901e494994fc0a555ed6dc0e6cb7b46b7aee
+
+{Reactions}
+👀 
+
+[02/18/2023 10:16 PM] kushti#0978
+Testing in prod yeah ))
+
+
+[02/18/2023 10:17 PM] kushti#0978
+First note issued https://explorer.ergoplatform.com/en/addresses/QfHohuFF4u3mRHnxqCcwPFMB8fqgseztg7jfKy4VivdgW2vCGNHLANAcPXhJLC6941BNnqhf14eLPoiDuYQRheJu6s8SMZRJjAmWQqgra4awgHWXybKNyrST1XqZMZb9BdFmfmq3cnyYULGxqnyhWCxeW95c19PWwaUWuaDYx4YXa1WJnTkzusM5ks6Ku1SFbHZ9kZd8JaKR5CW7BS7mxkYfWew5HNCQo2QuJaoXupdUdWtHHkKrJ3iYRkfESsGHVV7xGQ2PSChisVBpdBsuiaeAEFF619ELGMfct4ihWc785ozS8oAfkoiyx7eDBN8iQcEbNeat8K2gJmuKZUspWXcKRVVDn4zgbBQfpSSavui7VEKB5TM4opraHg6uvPPB15eS98EQkAMnVqY9Y2
+
+{Reactions}
+k_thumbs_up (2) 
+
+[02/20/2023 4:22 AM] NoahErgo#4349
+@kushti check dm, thanks!
+
+{Reactions}
+👍🏻 
+
+[02/21/2023 5:46 PM] kushti#0978
+The first note spent!  https://explorer.ergoplatform.com/en/transactions/307696f33cc8b03ac731616f025cb33555f854ddb3ab58cfd8af884c59225cd1
+
+
+[02/21/2023 5:46 PM] kushti#0978
+Now jumping on finishing paper and ErgoHack report
+
+{Reactions}
+k_thumbs_up (6) 
+
+[02/21/2023 6:52 PM] kushti#0978
+Will update a couple of ErgoForum topics with knowledge obtained also )
+
+
+[02/22/2023 8:21 PM] kushti#0978
+https://github.com/kushti/chaincash
+
+{Embed}
+https://github.com/kushti/chaincash
+GitHub - kushti/chaincash: ChainCash - elastic peer-to-peer money c...
+ChainCash - elastic peer-to-peer money collectively backed by blockchain assets and trust - GitHub - kushti/chaincash: ChainCash - elastic peer-to-peer money collectively backed by blockchain asset...
+https://images-ext-1.discordapp.net/external/06t-y5AodlZJI_06HDculmEDT8-5mRX5DmGJp7g-kGI/https/opengraph.githubassets.com/ca682de6c20b3e3c34f1f3ffb31261e3ceec705d9c40d1e6800381fe90cc0d07/kushti/chaincash
+
+{Reactions}
+ergo_orange (7) k_thumbs_up (5) 
+
+[03/24/2023 8:14 PM] glasgowm#9381
+https://twitter.com/ERG_Glasgow/status/1637093318612992002
+
+{Embed}
+Glasgow (@ERG_Glasgow)
+https://twitter.com/ERG_Glasgow/status/1637093318612992002
+🎉 Dense video from kushti at the #ErgoSummit on #ChainCash, a decentralized monetary system designed to enhance the crypto space and global finance. Let’s dive into the key takeaways. 🧵 (1/7)
+https://images-ext-2.discordapp.net/external/5DtwzyTTjiEUAw55NlQ9uQNHviAmeBQKYe4nwuB_qK0/https/pbs.twimg.com/media/FrfnKNVWAA0rJKy.png
+Twitter
+
+
+[03/24/2023 8:15 PM] glasgowm#9381
+https://www.youtube.com/watch?v=NxIlIpO6ZVI&feature=youtu.be
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=NxIlIpO6ZVI
+Chaincash | Ergo Summit - Cypherpunk Finance
+A presentation showcasing the Chaincash ErgoHack VI project, by Alex Chepurnoy, also known as Kushti.
+
+https://ergoplatform.org
+https://twitter.com/chepurnoy
+https://t.me/ergoplatform
+https://github.com/kushti/chaincash
+
+--------------------------------------
+Website https://ergoplatform.org/
+Whitepaper https://ergoplatform.org/en/documents/
+Erg...
+https://images-ext-1.discordapp.net/external/prBhuj0UN7595xuGIEqzPs-KSXzFFKGjSwiN6illzuc/https/i.ytimg.com/vi/NxIlIpO6ZVI/maxresdefault.jpg
+
+
+==============================================================
+Exported 18 message(s)
+==============================================================

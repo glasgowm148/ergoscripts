@@ -1,0 +1,469 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Interop 〙☰ / rosen
+Topic: https://beta.rosen.tech/#/bridge
+==============================================================
+
+[05/21/2022 7:47 PM] NoahErgo#4349
+@glasgowm can you refresh me on what Ronan is?
+
+
+[05/21/2022 7:55 PM] glasgowm#9381
+A typo, should be Rosen 😅
+
+{Reactions}
+ergo_orange (2) 😂 
+
+[05/21/2022 9:58 PM] NoahErgo#4349
+https://github.com/rosen-bridge
+
+{Embed}
+https://github.com/rosen-bridge
+rosen-bridge
+rosen-bridge has 3 repositories available. Follow their code on GitHub.
+https://images-ext-2.discordapp.net/external/0E_AxzeyIC4gPDFxBMv40jxtps6Ns6jsc_LYJHhlBmc/%3Fs%3D280%26v%3D4/https/avatars.githubusercontent.com/u/105315198
+
+
+[05/21/2022 9:58 PM] NoahErgo#4349
+https://youtu.be/Xsiy-yPJQ6w
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=Xsiy-yPJQ6w
+Dev Update March 29 | ROSEN BRIDGE | New Bridge Framework Explained
+Ergo Business Manager Joseph Armeanio talks us though the new bridge framework - Rosen Bridge. In this first video in the new series of Dev Updates, Armeanio goes into more detail on a single 'core' feature of ergo. We hope you like it and find it educational. Let us know your feedback in the comments!
+
+00:00 Intro
+01:36 Transferring tokens from...
+https://images-ext-2.discordapp.net/external/m3VZCl4H9n--WfuCbyrCO2VSJZPuhTq_vzSrxTyAzAk/https/i.ytimg.com/vi/Xsiy-yPJQ6w/maxresdefault.jpg
+
+
+[05/23/2022 4:17 AM] TheSentientNFT#0744
+Like Nathan Rosen.. pretty solid name for a crypto wormhole
+
+
+[05/23/2022 4:38 AM] TheSentientNFT#0744
+https://en.wikipedia.org/wiki/Nathan_Rosen
+
+{Embed}
+https://en.wikipedia.org/wiki/Nathan_Rosen
+Nathan Rosen
+Nathan Rosen (Hebrew: נתן רוזן; March 22, 1909 – December 18, 1995) was an American-Israeli physicist noted for his study on the structure of the hydrogen atom and his work with Albert Einstein and Boris Podolsky on entangled wave functions and the EPR paradox. The Einstein–Rosen bridge, later named the wormhole, was a theory of Nathan Rosen.
+https://images-ext-2.discordapp.net/external/WhfKvSeSLrLwqQJlstRj9K1psiwK3r4f_GCa7BPUVxE/https/upload.wikimedia.org/wikipedia/en/d/d7/NathanRosen.jpg
+
+
+[06/06/2022 12:21 PM] SoCool#6419
+Rosen have it's own discord or telegram? Where y'all at? I was thinking of trying to build a guard or watcher - didn't know if you guys have an effective one of either yet as example to help me make sure I understand correctly the concepts
+
+
+[06/07/2022 5:04 PM] glasgowm#9381
+@mhs_sam
+
+
+[06/11/2022 1:32 PM] mhs_sam#1471
+DM me on telegram or here.
+
+
+[06/12/2022 9:32 AM] Kaufi#6036
+When will the first bridge based on rosen go live?
+
+
+[06/17/2022 5:08 PM] NoahErgo#4349
+From june 15th:
+
+On Rosen we are about 2-3 weeks behind our planned schedule. The bridge development needs to be very meticulous.
+- implementation of unit tests took much more time than anticipated, however now almost all necessary parts of the system have unit tests.
+- based on the initial tests, also, we found a few bugs and issues in txn creation on Ergo and Cardano side which took another week to be resolved.
+- it will be on testnets in less than a month
+
+{Reactions}
+👍 (3) 
+
+[11/11/2022 3:45 PM] liquid_phase#4605
+Where can i get soem rosen test tokens for the public soft launch test
+
+
+[11/11/2022 11:58 PM] wombo22#5461
+https://twitter.com/mhs_sam/status/1590939118036725760?s=20&t=RVyAfVzXBpGRs0CKDI6erw
+
+{Embed}
+mhs_sam (@mhs_sam)
+https://twitter.com/mhs_sam/status/1590939118036725760?s=20&t=RVyAfVzXBpGRs0CKDI6erw
+@TheeBonzo when we've finished our private tests, we'll distribute test tokens for public tests.
+Twitter
+
+{Reactions}
+🤝 
+
+[12/18/2022 4:45 AM] blackinsecure#3693
+What are the vulnerabilities with this bridge?
+
+
+[12/20/2022 2:56 PM] JPav3333#2480
+Just wondering if there was an estimated date for launch.
+
+
+[12/21/2022 3:48 AM] Kill_It_With_Coffee#2653
+I don't believe any formal announcements have been made yet, just gotta keep your eyes peeled
+
+
+[12/21/2022 4:07 AM] JPav3333#2480
+Will do. Thanks.
+
+{Reactions}
+k_thumbs_up Cheers 
+
+[12/21/2022 4:14 AM] Kill_It_With_Coffee#2653
+No problem
+
+
+[12/21/2022 1:31 PM] glasgowm#9381
+https://discord.com/channels/668903786361651200/669989266478202917/1055112788214820914
+
+
+[01/01/2023 1:26 PM] 🍀TheZik🇯🇲#5382
+Is it technically possible to create smth like “RsERG staking on Cardano chain”?
+
+
+[02/05/2023 4:37 PM] hoskydex#9112
+We at finish line @mhs_sam ?
+
+{Reactions}
+soon (2) 
+
+[02/19/2023 8:32 PM] hoskydex#9112
+?
+
+{Reactions}
+soon 
+
+[02/22/2023 3:35 PM] Zimulakra#7908
+mhs_sam — Today at 5:47 AM
+Rosen Bridge:
+- finally the bridge is working smoothly under a lot of txns per minute on both side. 
+- During the stress test we discovered a few race conditions and bottlenecks. Almost all of them are resolved currently.
+- We'll let the bridge work under pressure for a few days.
+
+- We almost minimized the use of Koios due to its bugs, latency, and being out-of-sync issues, and now we mostly use Ogmios. However, it is important for us to have multiple channels, so we'll keep it in the code for a while till a better option is available.
+- first draft of tokenomics is ready and I'm working with a few experts to finalize it.
+
+
+[03/24/2023 8:11 PM] glasgowm#9381
+https://twitter.com/RosenBridge_erg/status/1637202684636983297
+
+{Embed}
+Rosen Bridge (@RosenBridge_erg)
+https://twitter.com/RosenBridge_erg/status/1637202684636983297
+The Rosen design allows for transfer between any 2 supported chains.
+
+Ergo, Cardano, Bitcoin, Binance Smart Chain, Ethereum, etc. 
+
+2022 saw bridges fail because they were poorly made and overmarketed.
+
+It is time for a new standard. Built on clear assumptions. @Ergo_Platform
+Likes
+397
+Retweets
+163
+https://images-ext-1.discordapp.net/external/TolFyfhornJF_Nz_l7kmmkVypTiBEoO8sLrDrEwPN_Y/https/pbs.twimg.com/media/FriCK3VaEAEMFVt.jpg
+Twitter
+
+
+[03/24/2023 8:12 PM] glasgowm#9381
+https://medium.com/@rosenbridgeerg/introducing-the-rosen-bridge-a-distributed-network-for-cross-chain-settlement-92b577bd8a27
+
+{Embed}
+https://medium.com/@rosenbridgeerg/introducing-the-rosen-bridge-a-distributed-network-for-cross-chain-settlement-92b577bd8a27
+Introducing The Rosen Bridge: A Distributed Network for Cross-Chain...
+Bridging Post 2022 Failures
+
+
+[04/06/2023 4:54 PM] Porridge#8651
+Who are going to be the watchers for rosen?
+
+
+[04/06/2023 5:14 PM] glasgowm#9381
+> Each chain has its own set of watchers, so we have Ergo watchers and Cardano watchers now. Being a watcher is as easy as running the watcher code and then you need some reporting permits. With a reporting permit you are allowed to report one event from the chain you're watching. If the report is finalized, your permit token will be returned to you and you can use it again. In order to report more events simultaneously you can obtain more reporting permits. Reporting permits can be obtained by locking Rosen's token. reporting is a two step process, first you commit to the event, then a watcher will report and reveal the related commitments when enough commitments are there. This will force each watcher to report itself not by viewing other reports and replaying them.
+
+{Reactions}
+👍 
+
+[04/07/2023 1:46 AM] Porridge#8651
+Can raspberry pis run the code?
+
+
+[04/07/2023 3:13 PM] blackinsecure#3693
+more interesting question is who are the guards
+
+
+[04/09/2023 1:53 PM] janerik#7676
+As the focus if Rosen will be on security rather then speed, I would be interested in what magnitude we should expect for transfer times.  Should we expect seconds, minutes, hours or even days? Also how well is Rosen expected to scale with the number of transactions?
+
+
+[04/09/2023 5:13 PM] blackinsecure#3693
+great question
+
+
+[04/20/2023 1:54 AM] MeeksKy VOTEs - SEND IT!#0269
+how can we join beta test
+
+
+[04/26/2023 6:54 PM] ∑kmekarasi#8392
+Hello guys. I've send some erg to my cardano adress and didn't recieve them. Who should i send my tx to check for it? I know they were probably lost but you may collect some info like i was using  single adress mode at my etrnl wallet. thanks..
+
+
+[04/26/2023 8:13 PM] ∑kmekarasi#8392
+They just arrived.
+
+{Reactions}
+k_thumbs_up (2) 
+
+[04/27/2023 6:41 AM] havealoha#9128
+Is it supposed to take an hour and a half to send each way?
+
+
+[04/27/2023 2:02 PM] wombo22#5461
+Not sure if the exact timeframe but yep it’s not meant to be fast for security purposes if I’m not mistaken
+
+{Reactions}
+👍 
+
+[04/27/2023 9:11 PM] havealoha#9128
+Am I seeing this right? I got back 3 more ADA than I started with?
+
+
+[04/27/2023 9:13 PM] wombo22#5461
+https://discord.com/channels/668903786361651200/668903786902847502/1100896497647763516
+
+
+[04/27/2023 9:14 PM] wombo22#5461
+Yup
+
+{Reactions}
+🔥 
+
+[04/29/2023 6:29 AM] Reqlez#6611
+whoever earned 150,000,000 HOSKY from me. I hope u are happy with ur loot :lmao:   https://cardanoscan.io/transaction/b59004267fc1084d799628d0f634e5b07507520da6853c390ab29e0341f8e0cc?tab=metadata
+
+{Reactions}
+spicy 
+
+[04/29/2023 6:38 AM] Reqlez#6611
+@Porridge 👀  nice to see u here! Did u get some tests going yet?
+
+
+[04/29/2023 6:40 AM] Reqlez#6611
+Probably @mhs_sam and team? or maybe some Ergonauts, who knows 😅    i'm assuming the devs would probably want to be first guards to get logs etc during testing phase.
+
+
+[04/29/2023 4:42 PM] koutelier#0000
+I can write that down for you Glasgow 🤣
+
+
+[04/29/2023 5:52 PM] abashai#9101
+How do we become a tester?
+
+
+[04/29/2023 5:53 PM] glasgowm#9381
+It's public! :) https://beta.rosen.tech/#/bridge
+
+{Embed}
+https://beta.rosen.tech/
+Rosen Bridge
+A bridge to transfer token between blockchains.
+
+
+[04/29/2023 5:53 PM] abashai#9101
+thanks!
+
+
+[04/29/2023 5:53 PM] koutelier#0000
+Forwarded from mhs_sam: https://beta.rosen.tech/#/bridge
+
+public test is open now!
+
+{Embed}
+https://beta.rosen.tech/
+Rosen Bridge
+A bridge to transfer token between blockchains.
+
+
+[04/29/2023 5:53 PM] koutelier#0000
+(re  : *<Glasgow> It's public! :) https://beta.rosen.t...*)
+        
+        maybe pin?
+
+
+[04/29/2023 7:55 PM] koutelier#0000
+Welcome sirs
+
+
+[04/29/2023 8:44 PM] LycanN79#0000
+👋
+
+
+[04/29/2023 8:50 PM] qx()#0000
+Welcome!!!
+
+
+[04/29/2023 8:51 PM] LycanN79#0000
+Thank you. Have to be honest and say, I havent tested yet, but I am stoked from what Ive seen come by so far 😁
+
+
+[04/30/2023 8:58 PM] qx()#0000
+Lol @HoskyToken
+
+
+[04/30/2023 8:58 PM] qx()#0000
+Classic rug
+
+
+[04/30/2023 8:58 PM] hq3r#0000
+That was quick end lol
+
+
+[04/30/2023 9:00 PM] qx()#0000
+U held a nice space bud. Ergo thanks u.
+
+
+[04/30/2023 9:00 PM] HoskyToken#0000
+I ❤️ ERGO!
+
+
+[04/30/2023 9:00 PM] HoskyToken#0000
+Glad it went well
+
+
+[04/30/2023 9:01 PM] koutelier#0000
+(re @HoskyToken : *I ❤️ ERGO!*)
+        
+        Ergo ❤️ $COMET
+
+
+[04/30/2023 9:01 PM] koutelier#0000
+sorry
+
+
+[04/30/2023 9:01 PM] HoskyToken#0000
+Well Cardano 💩$HOSKY so its all good
+
+
+[04/30/2023 9:02 PM] koutelier#0000
+(re @HoskyToken : *Well Cardano 💩$HOSKY so its all good*)
+        
+        /t 100 comet
+
+
+[04/30/2023 9:02 PM] HoskyToken#0000
+Gross
+
+
+[04/30/2023 9:02 PM] koutelier#0000
+(re @HoskyToken : *Well Cardano 💩$HOSKY so its all good*)
+        
+        We both know that we lying
+
+
+[04/30/2023 9:03 PM] HoskyToken#0000
+Alright, heading out! That was great!
+
+
+[04/30/2023 9:03 PM] HoskyToken#0000
+I am not lying
+
+
+[04/30/2023 9:03 PM] koutelier#0000
+(re @HoskyToken : *Gross*)
+        
+        You have more than me on your tip wallet lol
+
+
+[04/30/2023 9:03 PM] koutelier#0000
+(re @HoskyToken : *Alright, heading out! That was great!*)
+        
+        Have fun
+
+
+[04/30/2023 9:03 PM] HoskyToken#0000
+why else did we hand out what people value at $20k worth of HOSKY at the last 2 conferences... because i believe it to be wothless!
+
+
+[04/30/2023 10:18 PM] hq3r#0000
+PLANS IS TO KEEP IT SIMPLE AND STRAIGH FORWARD! thoughts ?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964131671609860126/1102343256496418866/image_2023-04-30_23-18-30.png
+
+
+[04/30/2023 10:38 PM] NoahErgo#0000
+(re @HQ3rr : *PLANS IS TO KEEP IT SIMPLE AND STRAIGH FORWARD...*)
+        
+        I think this design would not look good with something like BTC tho, for example
+
+
+[04/30/2023 10:39 PM] hq3r#0000
+Forwarded from HQ3rr:
+
+
+[04/30/2023 10:39 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964131671609860126/1102348456665813002/Group_230018.png
+
+
+[04/30/2023 10:39 PM] hq3r#0000
+Forwarded from HQ3rr:
+
+
+[04/30/2023 10:39 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964131671609860126/1102348459765411871/Group_230019.png
+
+
+[04/30/2023 10:39 PM] hq3r#0000
+Though behinf the coloring Is = ergo color orange...blue of ada... Every single Chaín has it's our palletes
+
+
+[04/30/2023 10:41 PM] hq3r#0000
+So ...everychain Will have it's own "identify" and the tought proceed behind keeping the ergo look Is to highlight More ergo ..
+
+
+[04/30/2023 10:41 PM] hq3r#0000
+Now, i Will sit down like a nice puppy and listen hahahah
+
+
+[04/30/2023 11:04 PM] HoskyToken#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/964131671609860126/1102354731457851542/file_113243.jpg
+
+
+[04/30/2023 11:04 PM] HoskyToken#0000
+This can’t be right
+
+
+[04/30/2023 11:32 PM] qx()#0000
+(re @HoskyToken : **)
+        
+        it counts people that have listened since and unique people that came and left during.
+
+
+[04/30/2023 11:32 PM] HoskyToken#0000
+Still crazy
+
+
+[04/30/2023 11:32 PM] qx()#0000
+yeah, look at you mr popular.
+
+
+[04/30/2023 11:33 PM] HoskyToken#0000
+🤷‍♂️
+
+
+==============================================================
+Exported 84 message(s)
+==============================================================

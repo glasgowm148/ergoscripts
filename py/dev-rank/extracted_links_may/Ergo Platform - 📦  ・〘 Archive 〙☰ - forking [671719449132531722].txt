@@ -1,0 +1,1184 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / forking
+==============================================================
+
+[01/28/2020 2:15 PM] jz#9459
+@kushti yeah, i propose to tweak a bit around coinbase. 😀
+
+
+[01/28/2020 2:20 PM] scalahub#2618
+Personally, I feel that the idea of a pool that does not have 51% attack capability is interesting, despite the drawback of collateral
+
+
+[01/28/2020 2:21 PM] scalahub#2618
+But I guess this channel is not the right place 🙂
+
+
+[01/28/2020 2:22 PM] kushti#0978
+@jz ok let me take a look how it could be achieved with minimal changes
+
+
+[01/28/2020 2:23 PM] kushti#0978
+@scalahub I think motivation for a fork fits perfectly for this channel
+
+
+[01/28/2020 2:23 PM] scalahub#2618
+yes but my opnion is anti-fork 🙂
+
+
+[01/28/2020 2:24 PM] scalahub#2618
+(regarding pool)
+
+
+[01/28/2020 2:25 PM] jz#9459
+If ergo pool is not complex to build and easy to maintain, there will be more pools, hashrate will be distributed among those pools.
+
+
+[01/28/2020 2:27 PM] jz#9459
+Now mining ergo for many miners is not easy, most miners even don't know how to setup a node.
+
+
+[01/28/2020 2:29 PM] kushti#0978
+@jz well if miners will put collateral to mine then no problems anymore ?
+
+
+[01/28/2020 2:33 PM] jz#9459
+@kushti mining with collateral isn't a good way. IMHO, tweak a bit around coinbase is the best way.
+
+
+[01/28/2020 2:34 PM] kushti#0978
+why colalterals are not that good ?
+
+
+[01/28/2020 2:36 PM] jz#9459
+`collateral` for miners it's a burden, for pool operators it's not easy to develop.
+
+
+[01/28/2020 2:37 PM] jz#9459
+Ergo is a gem, so keep mining it simple.
+
+
+[01/28/2020 2:38 PM] kushti#0978
+well if miners are not setting up the nodes even how would they uncovering the gem )
+
+
+[01/28/2020 2:42 PM] jz#9459
+yeah, despite some miners know how to setup the nodes, mining in this way is not efficient, and the node can't handle too many mining clients, and they have to setup a proxy, and they have to monitor the nodes and rigs and finally they want to build a pool for it with full functions. 😅
+
+
+[01/28/2020 2:43 PM] jz#9459
+So leave professional matters to professionals.😅
+
+
+[01/28/2020 2:44 PM] jz#9459
+I strongly suppose a HF to make pool mining easier, and i will build a professional pool for it.
+
+
+[01/28/2020 2:45 PM] kushti#0978
+@jz do you have any pool already ?
+
+
+[01/28/2020 2:45 PM] jz#9459
+@kushti yeah, https://poolflare.com/coin/kda/pool 😅
+
+
+[01/28/2020 3:27 PM] kushti#0978
+@jz I personally not in favor of such fork atm, but anyway let me take a look into its implementation details and consequences
+
+{Reactions}
+❤️ 
+
+[01/28/2020 3:49 PM] Robert K#0722
+Unless there is serious backing for such a fork, I would lean to just making the collatoralized pools very user-friendly and easy to set up rather than forking.
+
+{Reactions}
+👍🏻 
+
+[01/28/2020 3:51 PM] Robert K#0722
+Plus from a very foundational level, it just won't be good or look good historically if 6 months after mainnet launch with a goal to fork as little as possible, that we end up throwing away this "social contract" because a few people are slightly burdened and would find it easier to change the protocol at it's core.
+
+
+[01/28/2020 3:55 PM] Robert K#0722
+There's no reason why "professional pools" can't be built with the new model, it simply will take a bit of learning on all sides and a bit more work to get it integrated with current pool software/adapted.
+
+{Reactions}
+👍 (2) 🙏🏻 
+
+[01/28/2020 3:59 PM] BigEvilSoloMiner#1550
+Well-said.
+
+
+[01/29/2020 9:02 AM] kushti#0978
+@jz are you mining btw ?
+
+
+[01/29/2020 9:16 AM] jz#9459
+@kushti i'm a pool developer, don't have mining rigs 😅
+
+
+[01/29/2020 3:40 PM] kushti#0978
+@jz @york you so if you want to add some new inputs to "coinbase" transaction, that requires changes in the emission contract. Please note that there are no special transactions or outputs in Ergo, no money created out of thin air, and Erg tokens can not disappear. Thus emission is done via a contract living from the pre-genesis state. This contract sets concrete requirements for a spending transaction (2 outputs, 1 is for emission contract, second is for the miner, proper scripts and amounts for both etc). 
+
+Changing the contract on the fly would be very ugly in my opinion.
+
+
+[01/29/2020 3:52 PM] jz#9459
+@kushti got it, thanks! I withdraw my proposal 😀
+
+
+[01/29/2020 3:53 PM] kushti#0978
+@jz well, if you have ideas on how to do things in more elegant ways, lets discuss )
+
+
+[01/29/2020 3:53 PM] kushti#0978
+it is always better to discuss choices we're making
+
+{Reactions}
+❤️ 
+
+[01/31/2020 11:42 AM] kushti#0978
+on soft-forking ideas, we can more or less easily add new sigma-protocols, such as Pedersen commitment preimage proof-of-knowledge protocol
+
+
+[02/03/2020 9:48 PM] kushti#0978
+@jz @york you checked PoW validation again, it seems the easiest option to fork around non-outsourceability is to just remove x and sk from both proving and verification. This makes PoW a variant of Equihash (demanding much more memory though)
+
+
+[02/04/2020 2:32 AM] york you#0730
+> @jz @york you checked PoW validation again, it seems the easiest option to fork around non-outsourceability is to just remove x and sk from both proving and verification. This makes PoW a variant of Equihash (demanding much more memory though)
+@kushti Is there a way to soft fork?
+
+
+[02/04/2020 7:56 AM] kushti#0978
+@york you no, hard-fork is needed
+
+
+[02/04/2020 8:28 AM] york you#0730
+> @york you no, hard-fork is needed
+@kushti So whether to perform a hard fork?
+
+
+[02/04/2020 8:35 AM] kushti#0978
+yes, but as pools are coming, no reason for that ?
+
+
+[02/04/2020 9:23 AM] BigEvilSoloMiner#1550
+No reason to change what's working
+
+
+[02/26/2020 2:06 PM] kushti#0978
+So let me bring more forking ideas for which there were hot discussions in the #⛏│mining channel:
+1) Change indexes calculation formula in PoW from H(j||M||pk||m||w) to H(j|pk|w|M|m) in order to have memory-hard PoW (as with the current formula miners can do optimizations based on hash midstate)
+2) Turn off non-outsourceability along with (1)
+
+both changes are about HF. Let's discuss!
+
+
+[02/26/2020 2:56 PM] york you#0730
+Both agree and want to know when the new agreement can be implemented
+
+
+[02/26/2020 6:05 PM] mx#5165
+@kushti is it possible to vote at the same time for 1 or 2 or 1+2? 🙂
+
+
+[02/26/2020 6:34 PM] BigEvilSoloMiner#1550
+@kushti [https://ergoplatform.org/en/blog/2019_07_09_after_launch/] If the section on Hardforking policy is still valid, then it might be very difficult for 90+% of miners to agree on anything. Which means that the default is not to hardfork. How do you determine who is a miner and how do they cast their vote?
+
+
+[02/26/2020 6:39 PM] mx#5165
+It is valid till July, 1st 2020
+
+
+[02/26/2020 6:42 PM] mx#5165
+I believe it means 90+% of mining power on new client
+
+
+[02/26/2020 6:43 PM] BigEvilSoloMiner#1550
+Cool, thanks
+
+
+[02/26/2020 6:48 PM] mx#5165
+There is an idea for privacy-preserving voting for community but rather not before 2022 🙂
+
+
+[02/26/2020 7:02 PM] mx#5165
+if we want to include making cost of particular instructions adjustable via miners voting by this occasion it will possibly take more time also, right @kushti ?
+
+
+[02/26/2020 7:26 PM] mx#5165
+so we would need something like 1+3, 2+3. 1+2+3 options, otherwise HF will be more likely cancelled by miners
+
+
+[02/27/2020 5:15 AM] york you#0730
+How does voting work? Does it take 4 months to determine if it will take effect?
+
+
+[02/27/2020 8:35 AM] kushti#0978
+there could be more things to be included into fork, e.g. some fixes in sigma and ergo which are possible via soft-fork but a HF is cleaner
+
+
+[02/27/2020 8:35 AM] kushti#0978
+@morphic can provide some details on this
+
+
+[02/27/2020 9:04 AM] morphic#4133
+Yes, if we plan to do HF, then it make sense to roll out many protocol updates which improve language capabilities,  cost estimation and performance, fix bugs etc.
+There is a branch in sigma https://github.com/ScorexFoundation/sigmastate-interpreter/pull/568 with some work already done, and also issues collected into milestone https://github.com/ScorexFoundation/sigmastate-interpreter/milestone/9.
+Also, I'm finishing a proposal (EIP) to switch from AOT costing to JIT costing, which is more accurate, can be done in our extended UTXO model, a lot faster and simpler, and will allow us to put 10x more transactions in a block. JIT costing will require some changes on Ergo node side as well. 
+So, if the community decides to do a HF, then this work can be intensified and rolled out together with PoW changes.
+
+{Embed}
+https://github.com/ScorexFoundation/sigmastate-interpreter/pull/568
+v4.0 by aslesarenko · Pull Request #568 · ScorexFoundation/sigmasta...
+This PR is to accumulate all the changes that cannot be done in 3.x series because require hard-fork.
+https://images-ext-2.discordapp.net/external/YpBER9jxoC4piVA-OFwYuv0LT48G70XEXqXD46lUmgg/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/20186710
+
+
+[02/27/2020 6:42 PM] mx#5165
+If this HF happens at all, it will be great success with all these things included at the same time, can be also huge waste of time in case non of POW changes is accepted
+
+
+[02/27/2020 6:57 PM] mx#5165
+As far I can see there will be two separate HFs proposals needed
+
+
+[02/27/2020 9:26 PM] kushti#0978
+on non-outsourceability, switching it off will kill ezpool and ergopool maybe, eventually at least, the landscape will be dominated by some big multi-coin pools. Is it good or bad? especially for @BigEvilSoloMiner and @mhs_sam
+
+
+[02/27/2020 9:31 PM] kushti#0978
+however, big pools will bring armies of miners, good for promotion
+
+
+[02/27/2020 10:51 PM] BigEvilSoloMiner#1550
+@kushti Miners and speculators are both chasing profitability, so forking doesn’t matter if it brings profitability to either group. But what I do not understand is, why were the claims of non-outsourceability and memory hardness important before and not now?
+
+
+[02/27/2020 11:18 PM] kushti#0978
+Memory hardness important now as well I guess ?
+
+
+[02/27/2020 11:19 PM] kushti#0978
+For non-outsourceability, it seems it is possible to bypass it anyway
+
+
+[02/27/2020 11:19 PM] kushti#0978
+not sure what to do with it
+
+
+[02/27/2020 11:25 PM] BigEvilSoloMiner#1550
+@kushti I am actually in favor of getting rid of it, so those who do not have a deep understanding of finite field arithmetic can create their own public pools.
+
+
+[02/27/2020 11:29 PM] BigEvilSoloMiner#1550
+Memory hardness is important, but non-outsourceability only favors big farm centralization
+
+
+[02/28/2020 3:00 AM] york you#0730
+> @kushti I am actually in favor of getting rid of it, so those who do not have a deep understanding of finite field arithmetic can create their own public pools.
+@BigEvilSoloMiner I feel that since you have solved the non-outsourcing feature, there is no need to insist on maintaining such features. Wouldn't it be better if everyone could build their own pool, and let all miners simply participate? Unless no one can do it
+
+
+[02/28/2020 5:07 AM] york you#0730
+BTW.I think the necessity of memory is very important, otherwise FPGA will get some non-public benefits
+
+
+[02/28/2020 5:35 AM] BigEvilSoloMiner#1550
+I have some ideas how to optimize the software to reach ~420 MH/s with basic overclocking on an RTX 2080 Ti while still keeping the power consumption under 165 watts. With memory hardness restored, FPGAs will have an edge in power consumption but not so much in hashrate $ for $. Also an FPGA based miner isn’t going to beat a Radeon VII in hashrate with memory hardness restored.
+
+
+[02/28/2020 6:44 AM] mx#5165
+> Memory hardness is important, but non-outsourceability only favors big farm centralization
+@BigEvilSoloMiner in case of working non-outsourceability it is more about not relying on few pools in total, their users also usually follow their leaders as for different ideas, but above working scheme we would need all people on earth mining with their GPUs i guess to make it happen, and maybe it would be still not enough
+
+
+[02/28/2020 7:24 AM] mx#5165
+additionally non-outsourceability is broken by the team, only censorship resistant part left, looks like quarrel of different designers while they were both outsmarted in the meantime 🙂
+
+
+[02/28/2020 7:57 AM] mx#5165
+My first HF proposal 1. Change POW parameters 2. Disable non-outsourceability, 3. 1+2
+
+
+[02/28/2020 7:58 AM] mx#5165
+then some ann about what is broken, what is fixed so far eventually, then another HF proposal with other tech changes
+
+
+[02/28/2020 7:58 AM] york you#0730
+I think 1 + 2 is best achieved at the same time. It is the right course to make it easier for more pools and miners to join the ergo network.
+
+
+[02/28/2020 8:04 AM] mx#5165
+I am for not limiting voting options even if some may looks as obivous choice, maybe they are not, let`s find out
+
+
+[02/28/2020 8:04 AM] york you#0730
+When will voting start? When will the voting result be implemented?
+
+
+[02/28/2020 8:05 AM] mx#5165
+@kushti how much time more or less would only POW voting require to be implemented?
+
+
+[02/28/2020 9:47 AM] kushti#0978
+will take a look on technical aspects of switching off non-outsourceability during the weekend
+
+{Reactions}
+👍 
+
+[02/28/2020 1:49 PM] morphic#4133
+I thought non-outsourcability is the feature of Ergo. Why it is a bad idea now? Why ergopool solution is not enough for small miners? Ergo is  cheap ATM so having a collateral shouldn't be a problem.
+
+
+[02/28/2020 1:56 PM] BigEvilSoloMiner#1550
+I still don’t understand what non-outsourceability was trying to accomplish, we can work with that reasoning and see if it met its goals.
+
+
+[02/28/2020 2:10 PM] morphic#4133
+From whitepaper "... The second known threat to a PoW network decentralization is that even big miners tend to unite in mining pools, leading to a situation when just a few pool operators (5 in Bitcoin, 2 in Ethereum at the time of writing) control more than 51% of computational power.  Although the problem has already been discussed in the community, no practical solutions have been implemented before Ergo...."
+
+
+[02/28/2020 2:15 PM] kushti#0978
+is centralization worse with pools or without them
+
+
+[02/28/2020 2:15 PM] kushti#0978
+that's the question
+
+
+[02/28/2020 2:22 PM] morphic#4133
+That is what I don't understand, why it became the question? Profitability of the big miners is based on optimizations of software. Small miners now can join ergopool.
+
+
+[02/28/2020 2:25 PM] BigEvilSoloMiner#1550
+By default, the very nature of mining leads to mining centralization; it’s the 80/20 rule. What’s going on with ERGO is that, there’s no reason for big farms with optimized mining software to share it publicly, which makes sense from a profitability standpoint. Why do people hate ASICs when they are usually the most efficient at mining?
+
+
+[02/28/2020 2:51 PM] morphic#4133
+Nobody likes competition I guess, which boils down to hash/Watt ratio of mining software+hardware solution. Big farms are not incentivised to share their solution, but collateralised pools are.
+
+
+[02/28/2020 3:36 PM] mx#5165
+@morphic small miners can now join @BigEvilSoloMiner pool, with optimized miner, no collateral and no trouble with setup, so non-outsourceability is not a feature anymore
+
+
+[02/28/2020 3:38 PM] mx#5165
+it became a feature for pool maker
+
+
+[02/28/2020 3:42 PM] mx#5165
+additionally this pool maker is "officially" the only one with optimized miner
+
+
+[02/28/2020 3:46 PM] mx#5165
+and he is not sharing private key with his miners, the scheme is broken and became trouble maker
+
+
+[02/28/2020 3:51 PM] mx#5165
+HF or not makes no difference for him I believe while others are blocked from creating pools, don`t know to wait or to work on pool with collaterals at the moment, probably they will join his pool in the meantime
+
+
+[02/28/2020 4:09 PM] morphic#4133
+Ok, got it, so the current situation is not healthy.
+I see three options: 
+1) try to fix the non-outsourceability (which I have not idea how), stick to the original goal and in particular support ergopool kind of work or 
+2) get rid of non-outsourceability (which is easy), thus -1 differentiator from other coins, discourage ergopool kind of stuff and 
+3) the trick is published by @BigEvilSoloMiner and we leave PoW as is, except improving memory hardness. In this case both kinds of pools are possible with their own trade-offs.
+
+
+[02/28/2020 4:10 PM] morphic#4133
+And it seems sofware optimization and memory hardness are independent questions.
+
+
+[02/28/2020 4:13 PM] mx#5165
+He will lose the part of the model that is incentivising him additionally, ergopool to compete needs optimized miner, we are talking here about x4 or bigger hashrate for single card
+
+
+[02/28/2020 4:17 PM] morphic#4133
+Often it is enough to know that something is possible to do that. And I think optimization is orthogonal to other tasks and will impove over time as long as there exist at least on pool model (standard, collateralised, of via the trick)
+
+
+[02/28/2020 4:23 PM] mx#5165
+For now other pool makers disagree and don`t know if further work has sense on some model without miners
+
+
+[02/28/2020 4:26 PM] mx#5165
+Another exceptional situation in Ergo is that existence of optimized miner is known publicly 🙂
+
+
+[02/28/2020 4:28 PM] mx#5165
+It is like ASIC manufacturer would release pool with latest optimizations for people
+
+
+[02/28/2020 4:30 PM] morphic#4133
+I thought bitmain has always had a pool, not?
+
+
+[02/28/2020 4:32 PM] mx#5165
+Autolykos was to hate ASICs because latest optimizations are not available to the public for the very long time, comparing its efficiency to GPU additionally
+
+
+[02/28/2020 4:36 PM] mx#5165
+Things happening in Ergo deserve some article for sure
+
+{Reactions}
+💯 (2) 
+
+[02/28/2020 4:40 PM] morphic#4133
+For "the trick" I believe there is some trade-off also. How much security of operator is lost? How it scales with hashrate? Can it be broken with FPGA or ASIC? If yes, then we can go back to non-outsourceability. Which brings us back to the original question, is it good or not, which I still don't have clear answer.
+
+
+[02/28/2020 4:44 PM] mx#5165
+Without HF yes it will be broken by FPGA and ASIC, point 1 in proposal is to fix it, well even if ASIC manufacturer laughs hard on the other side now, there has to be big chance to save at least part of Autolykos i think with many exceptional things ongoing here
+
+
+[02/28/2020 5:34 PM] BigEvilSoloMiner#1550
+@mx @morphic @kushti We can make this really interesting. I can integrate the optimizations to the open source NVidia miner and give it away to the community. But keep the AMD optimizations as I have a lot of ISA code in it. As a result, ergopool can compete right away and the playing field will be leveled quite a bit. I am officially on a week of vacation starting after I get off work today. I would rather switch gears to FPGA development for ERGO mining and have someone else continue with GPU optimizations. Your thoughts?
+
+{Reactions}
+👍 💯 
+
+[02/28/2020 5:44 PM] mx#5165
+Sounds interesting to me, hard to say about ergopool creator @mhs_sam
+
+
+[02/28/2020 5:47 PM] mx#5165
+Even with HF, FPGAs will still work with limitations but they will be more on GPU level as for hashrate
+
+
+[02/28/2020 5:51 PM] BigEvilSoloMiner#1550
+Yes, but more efficient at the wall, at least 2x. I would like to find out the exact number for the most efficient FPGA implementation against an RTX 2080 Ti and a Radeon VII
+
+{Reactions}
+👍 
+
+[02/28/2020 5:55 PM] mx#5165
+This way also we could keep censorship resistant pools in Ergo, there is even a chance they could be totally p2p in the future
+
+
+[02/28/2020 5:56 PM] BigEvilSoloMiner#1550
+Sounds good, I'm all for it
+
+
+[02/28/2020 6:27 PM] mx#5165
+@rsmmnt looks like your nvidia solo miner is getting a boost
+
+
+[02/28/2020 8:16 PM] jasondavies#8712
+@BigEvilSoloMiner which FPGAs will you be targeting?
+
+
+[02/28/2020 8:23 PM] mx#5165
+FPGAs with high bandwidth memory
+
+
+[02/28/2020 8:31 PM] BigEvilSoloMiner#1550
+@jasondavies The one below and its more powerful brother:
+
+
+[02/28/2020 8:31 PM] BigEvilSoloMiner#1550
+http://squirrelsresearch.com/forest-kitten-33/
+
+{Embed}
+http://squirrelsresearch.com/forest-kitten-33/
+Forest Kitten 33 | SQRL
+FK33 is a single chip VU33P HBM2 board that is low power (approx 155W) and low heat signature. They are designed to operate like a GPU and target memory intensive algorithms. Sporting the new Samsung memory stacks capable of 600GB/s FK33 crunches memory reliant algorithms like...
+
+
+[02/29/2020 11:15 AM] york you#0730
+What is the significance of non-outsourcing? Even if the miner is mortgaged, the final private key is still in the hands of the mining pool. I don't understand what it means. I think that hashrate distributed is absolutely impossible. From the perspective of controlling the network with more than 51% hashrate, non-outsourcing is also meaningless, as long as I have enough hashrate, it is completely feasible for me to use the same private key for POW. If the meaning is to enable all miners to express independent decisions on the ergo platform, then the mining pool can provide a button that allows miners to vote according to the hashrate ratio. Professionalism is that things should be done by professional people, not by miners to run independent nodes. Some miners don't even know what the blockchain is. They only need to hashrate and contribute to network security. They should get coinbase reward
+
+
+[02/29/2020 11:17 AM] york you#0730
+In the current cryptocurrency ecosystem, miners are the largest users. I think that the promotion of POW currency requires the miners to pay attention, so POOL is the top priority.
+
+
+[02/29/2020 11:17 AM] york you#0730
+Only by lowering the threshold of the pool and miner can more miners participate in the ecology of ergo
+
+
+[02/29/2020 11:18 AM] york you#0730
+We should not make meaningless designs.
+
+
+[02/29/2020 3:32 PM] mx#5165
+The end game with non-outsourcing development was about reducing risk of losing funds to 0 while being part of such p2p pool(we are not there yet) and reducing some attacks by miner on the pool by collateral, reducing potential of transaction censorship as much as possible and attacks on the network in case of pool takeover, now it is partially meaningless but some things can be still achieved even when it is broken. For many miners it for sure looks strange, especially to honest miners. Similar with design of most components in Ergo I believe to majority of cryptocurrency users. I hope all differences in opinions will be sorted by majority of miners securing the network
+
+
+[02/29/2020 3:46 PM] york you#0730
+> The end game with non-outsourcing development was about reducing risk of losing funds to 0 while being part of such p2p pool(we are not there yet) and reducing some attacks by miner on the pool by collateral, reducing potential of transaction censorship as much as possible and attacks on the network in case of pool takeover, now it is partially meaningless but some things can be still achieved even when it is broken. For many miners it for sure looks strange, especially to honest miners. Similar with design of most components in Ergo I believe to majority of cryptocurrency users. I hope all differences in opinions will be sorted by majority of miners securing the network
+@mx You are right, there are mining pools without mortgages, so this design will be meaningless. I don't think there is a reason to insist. For pow's currency, the acceptance of miners is too important. If you lose the eyes of the miner and the mining pool for some meaningless design, it is an act of putting the cart before the horse.
+
+{Reactions}
+💯 
+
+[02/29/2020 3:52 PM] mx#5165
+I don`t insist on anything, I see different things that are possible when network is huge, not now. Starting from centralized design is easy in cryptocurrency, no matter it is about POW, POS or some feature, I hope there are some miners who think the same in Ergo
+
+
+[02/29/2020 3:57 PM] mx#5165
+I even would like to see Ergo`s POW contributors releasing open source mining pool scheme for everyone at the moment instead of proposing switching to Monero
+
+
+[02/29/2020 5:03 PM] BigEvilSoloMiner#1550
+There’s no right or wrong answer, sometimes you have to run experiments and analyze the results, then adjust appropriately to meet your objectives. About a month ago, I had a couple of miners with decent size farms, 1200+ GPUs (RTX 2080 Ti/GTX 1080 Ti) between the two of  them, that were willing to hop on ERGO. What changed, profitability. For now, ERGO mining is just as profitable when compared to what they are currently mining, with the exception that ERGO’ exchange rate is trending downwards while it’s difficulty is trending upwards, not a good combination to generate excitement.
+
+The potential for profitability is why investors will hop on your coin, then you hope that they stay and grow the community. To fork or not to fork for non-outsourceability doesn’t matter much if investors don’t see the potential for generating a profit with your coin.
+
+
+[02/29/2020 5:54 PM] Harry1#5414
+👍
+
+
+[02/29/2020 5:56 PM] Harry1#5414
+very well said
+
+
+[02/29/2020 8:29 PM] kushti#0978
+As core developer, I would like to be neutral ) 
+It seems aside of non-outsourceability and memory-hardness of PoW, other features proposed, like switching from AOT to JIT costing (which gives significant speedup in ordinary transactions verification) , which is understandable )
+
+
+[03/01/2020 2:40 AM] york you#0730
+> There’s no right or wrong answer, sometimes you have to run experiments and analyze the results, then adjust appropriately to meet your objectives. About a month ago, I had a couple of miners with decent size farms, 1200+ GPUs (RTX 2080 Ti/GTX 1080 Ti) between the two of  them, that were willing to hop on ERGO. What changed, profitability. For now, ERGO mining is just as profitable when compared to what they are currently mining, with the exception that ERGO’ exchange rate is trending downwards while it’s difficulty is trending upwards, not a good combination to generate excitement.
+> 
+> The potential for profitability is why investors will hop on your coin, then you hope that they stay and grow the community. To fork or not to fork for non-outsourceability doesn’t matter much if investors don’t see the potential for generating a profit with your coin.
+@BigEvilSoloMiner From a miner's perspective, profiting from ergo requires several additional considerations.
+1. Operation and maintenance costs:
+At the current stage, because there is no unified standard, it is very difficult to build your own pool and miner. The pool needs a certain understanding of computers and nodes. At the same time, the efficiency of open source miners is not high. And will not put attention on ergo
+2.The rate of the pool's miner
+Because there is no standardization, the fee levels of pool and miner are not uniform. Will also stop miners from ergo ecology
+
+
+[03/01/2020 2:42 AM] york you#0730
+I mean, the current design, apart from increasing their cost, is not meaningful to miners, which is equivalent to reducing their profit space
+
+
+[03/01/2020 8:22 AM] mx#5165
+So the big farm mining from the start won`t want any changes, it already kicked out whole small miners community gathered through ~2 years at launch
+
+
+[03/01/2020 7:09 PM] BigEvilSoloMiner#1550
+Yes, the last thing that the big farm dominating ERGO mining wants is competition
+
+
+[03/01/2020 7:25 PM] mx#5165
+Solo mining is at least about reality, not always about profitability, at least in Ergo some optimizations went public, lots of small miners from the community at launch misunderstood that Autolykos is about lowering power of a big farm though or they were just hoping that big farm won`t be interested
+
+
+[03/01/2020 7:41 PM] BigEvilSoloMiner#1550
+The solo mining concept works in theory, but not in practice if there are great mining power disparities among miners. The network mining power for ERGO is ~10,000 GTX 1080 Tis. If one or two mining farms control almost all that mining power, then the miner with an equivalent of 8 GTX 1080 Tis loses interest in solo mining because of the great variance between mined blocks.
+
+
+[03/01/2020 7:47 PM] mx#5165
+So officially without additional knowledge it was much bigger number of cards and people were still trying with open source miners, optimizations play pretty important role in fair launch
+
+
+[03/01/2020 7:56 PM] BigEvilSoloMiner#1550
+Yes, you can even cut that number in half, because the 2080 Ti is now a little over 2x faster than the 1080 Ti for the next public release. So if measuring the network’s mining power in terms of the 2080 Ti, it would be ~4,750, or ~2925 with Radeon VII GPUs. The playing field is more level when everyone has access to optimized mining software.
+
+
+[03/01/2020 7:59 PM] mx#5165
+And there goes excitment of many people with hundreds of cards back then, will try to contact them again
+
+
+[03/01/2020 8:26 PM] kushti#0978
+The idea behind non-outsourceability was that there are hundreds of thousands of not so professional but still relatively big farmers with 100-1000 GPUs and they will mine Ergo , and the hashpower will be distributed
+
+
+[03/01/2020 8:27 PM] kushti#0978
+But we were devs, not miners, so not sure that expectation could be realistic in the long-term
+
+
+[03/01/2020 8:36 PM] mx#5165
+Nothing lost, can see new lessons for cryptocurrency space, will be interesting to see how standard schemes will play in the long term in the non standard Ergo
+
+
+[03/01/2020 8:48 PM] kushti#0978
+@mx @BigEvilSoloMiner Btw we can check what current miners think about proposals with voting for some parameter which they will unlikely change otherwise (any parameter now then aside of max block cost which some miners try to increase following the devs recommendations).  For example, if a miner votes for increasing max block size, it means that the miner in favor of forking memory-hardness. In the same way we may collect signals for non-outsourceability
+
+
+[03/01/2020 8:52 PM] mx#5165
+Whatever takes less time for sorting this, is fine with me, there are much more important things to work on
+
+
+[03/01/2020 8:58 PM] BigEvilSoloMiner#1550
+I am ready to vote
+
+
+[03/01/2020 9:08 PM] kushti#0978
+> Whatever takes less time for sorting this, is fine with me, there are much more important things to work on
+@mx but with optimized miner we have some time , right, @BigEvilSoloMiner ?
+
+
+[03/01/2020 9:09 PM] mx#5165
+Yes, @BigEvilSoloMiner sorted pretty much POW HF already, whether it happens or not
+
+
+[03/01/2020 9:13 PM] mx#5165
+We can put basically 50% chance on big farm fairness in case of ASIC resistant POW, launch didn`t have anything in common with fairness though
+
+
+[03/04/2020 9:22 AM] kushti#0978
+@BigEvilSoloMiner can you please write short text about memory-hardness HF motivation? Will post voting proposal on the forum today
+
+
+[03/04/2020 10:55 AM] mhs_sam#1471
+According to Ergo’s WP, memory-harness (fpga and asic resistance) and non-outsourceability (pool resistance) are two core properties of ergo. There are lots of statements in WP and other papers, blog posts, tweets bolding these two features. These are core features and makes ergo different and interesting.
+I know that, some economics which could not be predicted before launch is against these two features, but we cannot predict the future. Giving up at this early stage makes other claims in doubt too.
+I am a fan of ergo since the first time I heard about it because of its novel and revolutionary features, it was a new and different chain. It was the most distributed and decentralized protocol I’ve ever seen. I mean it, even the development of ergo is not centralized, consider me, rsmmt, Bigevil, york as a few examples.
+I saw in the discussions that it is possible to fork only of security features. I see these two features beyond security. These are the philosophy of ergo, the nature of it. Without these features ergo is like many other blockchains with less and more features. Ergo claimed something and these claims are broken somehow, so what is the action? I see the only option is to insist and fix them. These core features and maybe others may have flaws in the future again and should be fixed again and again.
+
+
+[03/04/2020 10:56 AM] mhs_sam#1471
+Regarding technical discussions, I think it is not hard to maintain memory hardness with some modifications in the prehash computation and its parameters. Also, the bigevil’s magic works due to predictable output of the signature function, It could be avoided easily by replacing the signature<d with hash(signature)<d.
+I would like to thanks BigEvil at the end, since he could stay in silent and keep ergo community in darkness. I really appreciate his contribution to the ergo community however a lot of my money is at stake due to ergopool development costs. I see however the competition more in the miner side not the pool side. Now, we cannot compete because of slower miner, since if the miner is competitive ergopool and ezpool can coexist together at current situation providing two options of “own your node” and “rely on pool’s node” at the same time which encourage two kinds of miners to join ergo mining and making it profitable, secure, and decentralized at the same time. So I would appreciate his offer to open his optimization for NV miner, and we can make this optimizations to work for AMD too. It is a generous offer which is very benefitable for the ergo community.
+At the end, I would like to insist again on the fixing of flawed features, as soon as possible. Also, I can see that maybe in the future a new coin emerges based on ergo with these two features, like what happened to zcash/zclassic about founder rewards (however unsuccessful there).
+
+
+[03/04/2020 10:57 AM] mhs_sam#1471
+so in short, I propose a new proposal #4 which is fix memory-hardness flaw and fix non-outsourceablity flaw together
+
+
+[03/04/2020 10:58 AM] mhs_sam#1471
+the question is how to fix non-outsourceabilty flaw? my answer is:
+
+
+[03/04/2020 10:58 AM] mhs_sam#1471
+There should be a non-predictable output compared to d. 
+Simply, hash of something<d
+Evil magic works since a.b-sk is predictable compared to a.b result so if for example h(a.b-sk) is used it cannot be predicted by choosing proper sk
+
+
+[03/04/2020 12:39 PM] mx#5165
+If it is possible then it should be added to voting, however HF policy expires on July, 1st, 2020 no matter what as for "These core features and maybe others may have flaws in the future again and should be fixed again and again", then only community proposals left for new coin or whatever
+
+
+[03/04/2020 1:10 PM] mx#5165
+So far both fixes are proposed by community, it may be totally community coin sooner than expected
+
+
+[03/04/2020 2:40 PM] kushti#0978
+@mhs_sam how to do hash(signature) exactly ?
+
+
+[03/04/2020 2:41 PM] kushti#0978
+I mean verification is about
+
+
+[03/04/2020 2:41 PM] kushti#0978
+w^f = g^d * pk
+
+
+[03/04/2020 2:41 PM] kushti#0978
+where to put hash ?
+
+
+[03/04/2020 3:38 PM] mhs_sam#1471
+> @mhs_sam how to do hash(signature) exactly ?
+@kushti let me think about it
+
+
+[03/04/2020 4:11 PM] vorujack#1729
+I think in Solution verification (Algorithm 2 in white paper) line 2 must change to (blake2b(d) < b)
+and other steps are same as before
+
+
+[03/04/2020 4:26 PM] kushti#0978
+@BigEvilSoloMiner and others: https://www.ergoforum.org/t/voting-proposal-opinion-on-memory-hardness-hard-fork/189
+
+{Embed}
+https://www.ergoforum.org/t/voting-proposal-opinion-on-memory-hardness-hard-fork/189
+[Voting Proposal] Opinion on Memory-Hardness hard-fork
+Dear miners,  please express your opinion on whether Ergo PoW function should be tweaked for better non-outsourceability  The tweak is simple:  “Change indexes calculation formula in PoW from H(j | M | pk | m | w) to H(j | pk|w|M|m) in order to have memory-hard PoW (as with th...
+
+
+[03/04/2020 4:51 PM] mhs_sam#1471
+> I mean verification is about
+@kushti in Algorithm 1: computing d (line 7) is as before, line 8: if H(d)<b is the only change. In algorithm 2 (verification) line 2 changes to: require H(d)<b, anything else remains unchanged
+
+
+[03/04/2020 4:54 PM] mhs_sam#1471
+About forking for memory hardness, I guess we need a more Prospective idea. I mean rather than this simple modification we need a parametrized solution. In the future, if any changes to memory harness is required the only thing to change is some parameters. These parameter can also be voted by miners in the future for example.
+
+
+[03/05/2020 2:39 AM] york you#0730
+@kushti voting {
+     3 = 700000
+   }
+Does this configuration currently support hard forks that modify the hash algorithm? Where is the vote on non-outsourcing?
+
+
+[03/05/2020 7:51 AM] kushti#0978
+> @kushti voting {
+>      3 = 700000
+>    }
+> Does this configuration currently support hard forks that modify the hash algorithm? Where is the vote on non-outsourcing?
+@york you no support for hard-fork in the node, and no forking will happen after this vote, this is just indicative voting to know miners opinion, and also to get estimations for FPGAs (and optimized private miners? ) 
+Voting is looking interesting, it seems most of miners are in favor of MH-fork. That means most of miners are not using optimized miners even? @BigEvilSoloMiner 
+
+Voting for NO fork will be announced a bit later, as now there are few proposals:
+1) Leave NO as is
+2) Switch it off completely 
+3) Fix it as proposed by @mhs_sam (more discussions needed here probably)
+
+
+[03/05/2020 8:08 AM] mx#5165
+new FPGAs with high bandwidth memory will be able to mine Ergo, the difference is that if HF happens then GPUs will be able to compete with them still so one of core properties as for limiting advantage of one hardware over another would be kept
+
+
+[03/05/2020 8:35 AM] mx#5165
+if this is achieved then Ergo will be unique in the space, by looking at Eth, Rvn and many others
+
+
+[03/05/2020 8:40 AM] mx#5165
+the more other projects will care less about GPUs and some core properties the more of its hashrate will be pointed to Ergo
+
+{Reactions}
+💯 
+
+[03/05/2020 8:42 AM] mx#5165
+additionally when miners community is focused on one common goal, then less HFs, splits etc in the future
+
+{Reactions}
+💯 
+
+[03/05/2020 1:53 PM] BigEvilSoloMiner#1550
+@kushti How are you reaching that conclusion?
+
+
+[03/05/2020 1:55 PM] kushti#0978
+@BigEvilSoloMiner because most of mining power is voting for switching optimization possibilities off ?
+
+
+[03/05/2020 1:56 PM] BigEvilSoloMiner#1550
+That should make sense because most mining power is coming from GPUs
+
+
+[03/11/2020 11:58 AM] kushti#0978
+https://www.ergoforum.org/t/voting-proposal-remove-or-improve-pool-resistance/192
+
+{Embed}
+https://www.ergoforum.org/t/voting-proposal-remove-or-improve-pool-resistance/192
+[Voting Proposal] Remove or improve pool-resistance
+Dear miners,  Most of the mining hashrate supported memory-hardness hard-fork it seems, and in regards with mining there are also voices in the community (mining and trading channels in discord) in regards with non-outsourceability (aka pool-resistance).  The motivation for po...
+
+
+[03/11/2020 10:31 PM] mx#5165
+"The motivation for pool-resistance was to avoid dominance and possible censorship by big pools. However, with pool-resistance the mining seems to be dominated by large farms and maybe private pools."
+
+Who has more power, big farm or pool operator? Who is easy target and bigger threat to the network, big farm or pool operator? Both models can work, it depends on the scale of operation and from what power each miner holds, in Ergo`s case also on optimizations availability from the start as for "dominated by large farms"
+
+
+[03/11/2020 10:51 PM] mx#5165
+Till we have totally p2p pools what would be the best showcase of non-outsourcing, we will always be at the crossroads i guess
+
+
+[03/12/2020 7:33 AM] kushti#0978
+with pools, power shared between miners and pools somehow
+
+
+[03/12/2020 7:34 AM] kushti#0978
+miners can change pools at least
+
+
+[03/12/2020 11:40 AM] mx#5165
+standard pools existence depends usually from big farms, big farms are usually standard pools, with them small miners can mine anything at all and be part of voting, but pools in Ergo are to be created by small miners so hard to say about their future in any scenario till competition with big farm is possible, for that we need memory-hardness hard-fork first
+
+
+[03/12/2020 11:52 AM] mx#5165
+while designer of 90/10 voting probably had something different on mind, it fits greatly the fact that crypto mining in 90+% is dominated by big farms 🙂
+
+
+[03/16/2020 3:08 PM] BigEvilSoloMiner#1550
+@kushti When do you plan to schedule the hard fork for MH?
+
+
+[03/16/2020 3:58 PM] kushti#0978
+@BigEvilSoloMiner we still discussing what to include. The aim is to have only one HF (in the best case at least )
+
+
+[03/16/2020 5:29 PM] BigEvilSoloMiner#1550
+Thanks for the update
+
+
+[04/02/2020 8:32 AM] kushti#0978
+Well another idea for fork is to reduce demurrage period. Currently it is 4 years, but in case of not enough load on the first day of year four, miners will get into trouble after emission is done. 
+
+So I propose to reduce it to 2 years or even 1 year. the reduction can be made on Year Two or Year Four.
+
+
+[04/02/2020 8:39 AM] kushti#0978
+Then let's go ahead "Endurance" HF? Plan is following:
+1) Switching off NO? Still to be discussed
+2) PoW memory-hardness
+3) Simplified sigma-interpreter with JIT costing
+4) Reduced demurrage period for more flexible monetary control
+5) some security fixes )
+
+
+[04/02/2020 6:41 PM] mx#5165
+@kushti 2 years sounds more safe as first year`s end is approaching quickly
+
+
+[04/02/2020 7:51 PM] mx#5165
+we should have some demurrage period notifier later for the people, with existing gateways for Ergo on different blockchains, exchanges, it is even more complicated
+
+
+[04/02/2020 8:40 PM] kushti#0978
+well, 2 years is okay
+
+{Reactions}
+👍 (2) 
+
+[04/06/2020 9:49 PM] kushti#0978
+@mx could be 2 years with activation on Year four
+
+
+[05/25/2020 10:48 PM] kushti#0978
+So after a lot of discussions the following HF plan could be discussed:
+1) memory-hardness fix (proposed and discussed by @BigEvilSoloMiner , @jasondavies  , @mx )
+2) JIT costing ( @morphic )
+3) Reducing storage rent period to 2 years (starting from year four)  ( @kushti )
+4) A couple of security fixes. Doable without HF though, but could be cleaner with HF.
+
+Let's discuss HF on Wed in general community chat ?
+
+{Reactions}
+👍 (2) 
+
+[05/25/2020 10:54 PM] BigEvilSoloMiner#1550
+Sounds good
+
+
+[05/26/2020 12:35 AM] Robert K#0722
+Sounds good indeed. One thing to consider about reducing storage rent period will be how we deal with DeFi contracts that users may want to last for a long duration of time (ex CDP). I guess we just need to encode a general spending path in most long-lasting contracts which allows the user to (or maybe anyone? but that could result in spam attacks where someone takes over your UTXO every block however unlikely that is) to respend the UTXO to prevent being garbage collected.
+
+
+[05/27/2020 2:56 PM] kushti#0978
+@Robert K well, the box after charging the storage rent will be the same, just with reduced amount and different id . So long-living contracts should not rely on SELF.id or check SELF.value for strict equality
+
+
+[05/27/2020 3:09 PM] Robert K#0722
+Right, but if you have a box primarily holding non-Erg tokens/data they can get wiped instantly.
+
+
+[05/27/2020 3:10 PM] Robert K#0722
+And to be clear, when they charge storage rent, it refreshes the period to another 4 years (or 2 after hf)?
+
+
+[05/27/2020 3:11 PM] jasondavies#8712
+No, collecting storage rent requires that all registers (which includes tokens) remain the same in the new box
+
+
+[05/27/2020 3:11 PM] kushti#0978
+yes, after charging a box is staying for another 2(4) years before the next charge
+
+
+[05/27/2020 3:11 PM] kushti#0978
+and yes, all the box contents should be there
+
+
+[05/27/2020 3:12 PM] jasondavies#8712
+The only time a box would be wiped is presumably if it cannot pay the rent. Then the value is fully garbage collected. Otherwise, a new box is created with a smaller value and all registers remaining the same.
+
+
+[05/27/2020 3:13 PM] jasondavies#8712
+So I guess storage rent has two aims: 1) reduce "dust" outputs because they get completely consumed when rent is due. 2) incur a real cost for long-term storage of data (paid to miners who have to store UTXOs to perform full validation).
+
+{Reactions}
+👍🏻 
+
+[05/27/2020 3:15 PM] Robert K#0722
+Makes sense. In that case for long-lasting boxes/contracts would simply include some extra Erg as a "buffer" in case they need to exist for longer as a general design pattern.
+
+
+[05/27/2020 3:15 PM] jasondavies#8712
+This confused me when I first read about it - I thought boxes would be fully consumed if they were not refreshed!
+
+{Reactions}
+💯 
+
+[05/27/2020 3:16 PM] Robert K#0722
+Yeah, the material did confuse me slightly as well initially
+
+
+[05/27/2020 3:16 PM] jasondavies#8712
+> Makes sense. In that case for long-lasting boxes/contracts would simply include some extra Erg as a "buffer" in case they need to exist for longer as a general design pattern.
+@Robert K Exactly. And I suppose the storage rent multiplier (which can be voted up/down) is something that can be used to calculate how large a buffer should be needed. Not sure if there is a maximum storage rent multiplier at the moment.
+
+
+[05/27/2020 3:18 PM] kushti#0978
+> @Robert K Exactly. And I suppose the storage rent multiplier (which can be voted up/down) is something that can be used to calculate how large a buffer should be needed. Not sure if there is a maximum storage rent multiplier at the moment.
+@jasondavies yes, there's an upper-bound
+
+
+[05/27/2020 3:19 PM] kushti#0978
+for long-lasting contracts maybe its worth also to add a possibility to top up at any moment
+
+
+[05/27/2020 3:19 PM] Robert K#0722
+But "topping-up" is the equivilant of just respending it really, right?
+
+
+[05/27/2020 3:20 PM] Robert K#0722
+So I guess each "top-up" refreshes the storage-rent timer for the box + has the potential to add extra Erg for future storage-rent costs.
+
+
+[05/27/2020 3:20 PM] jasondavies#8712
+Yep
+
+
+[05/27/2020 3:20 PM] Robert K#0722
+I assume for like data-storage that would be useful.
+
+
+[05/27/2020 3:21 PM] jasondavies#8712
+I think @kushti means the contract should be sure to allow top-ups as sometimes they might have restrictions that would otherwise prevent top ups
+
+
+[05/27/2020 3:23 PM] Robert K#0722
+Yeah, I thought about this previously where I think it might be good to essentially write up a default spending path condition which we can throw into most contracts that is in essence this "topping-up" where all data/coins must be equivilant in new box, but can include extra input boxes which add to Erg total.
+
+
+[05/27/2020 3:28 PM] morphic#4133
+In addition to box id and value, also reference register will change (creatingHeight, txId, and outputIndex) after demurrage
+
+{Reactions}
+👍🏻 
+
+[05/27/2020 3:29 PM] kushti#0978
+so topping-up could be a design pattern for long-living contracts I imagine ? )
+
+
+[05/27/2020 3:30 PM] Robert K#0722
+Yeah @kushti I just added it to the forum post: https://www.ergoforum.org/t/ergoscript-design-patterns/222/4
+
+{Embed}
+https://www.ergoforum.org/t/ergoscript-design-patterns/222/4
+ErgoScript Design patterns
+More so meta design-patterns which pertains to the blockchain context (storage rent), rather than just ErgoScript, but:    When bootstrapping a box/contract that is expected to live on-chain for a long duration of time, it makes sense to include an extra “buffer” of Erg held b...
+
+{Reactions}
+👍 (2) ❤️ (2) 
+
+[05/27/2020 3:30 PM] Robert K#0722
+As well as the buffer bootstrap idea.
+
+
+[06/02/2020 3:38 PM] Dmitry Meshkov#1652
+What is the idea behind storage rent period? Looks like I've missed something..
+
+
+[06/02/2020 3:41 PM] Dmitry Meshkov#1652
+There is already a storage rent parameter that may be changed via voting, making these payments flexible enough. What happened that you've desided to change it via hard-fork?
+
+
+[06/02/2020 3:43 PM] Dmitry Meshkov#1652
+Separate question: what is the hard-fork protocol? Any miners/community voting? Can it be accepted partially, or is it all changes or nothing?
+
+
+[06/02/2020 3:45 PM] kushti#0978
+@Dmitry Meshkov I will do a forum post , on Thu likely. A concern with 4-years storage period and 8-years emission schedule is that you can get big variance in rewards around end of emission
+
+
+[06/02/2020 3:45 PM] kushti#0978
+@Dmitry Meshkov there were couple of votings already around miners, and a lot of discussions around mining and development channels
+
+
+[06/02/2020 3:46 PM] kushti#0978
+still , the decision is not finalized I guess
+
+
+[06/02/2020 4:04 PM] Dmitry Meshkov#1652
+Hm, I read mining and dev channels probably missed it. Anyway clean description of the hardfork should be good.
+
+
+[06/02/2020 4:06 PM] kushti#0978
+@Dmitry Meshkov well, you participated in one of the earliest discussions on PoW change, current state: https://github.com/ergoplatform/ergo/issues/1100
+
+{Embed}
+https://github.com/ergoplatform/ergo/issues/1100
+[HF-4.0] Autolykos 2.0 implementation - memory hardness · Issue #11...
+Based on proposal by BigEvilSoloMiner Changes to the PoW whitepaper: Algorithm 1 - Block mining: Line 3: Change from H(j|M|pk|m|w) to H(j|pk|w|M|m) Line 6: Change from genIndexes(m|nonce) to genInd...
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[06/02/2020 4:07 PM] Dmitry Meshkov#1652
+Regarding big variance in rewards around and of emission - I don't see how will 2-year period change it. Anyway a miner receives a raward from a boxes created a concrete block some period of time (2 years or 4 years)
+
+
+[06/02/2020 4:07 PM] kushti#0978
+@Dmitry Meshkov for AOT -> JIT, there's EIP draft and a lot of discussions around it in development
+
+
+[06/02/2020 4:08 PM] kushti#0978
+@Dmitry Meshkov miner is collecting from more boxes if period is being reduced
+
+
+[06/02/2020 4:08 PM] Dmitry Meshkov#1652
+why?
+
+
+[06/02/2020 4:09 PM] kushti#0978
+so on year 8, miner is collecting from years (0,4) or (0,2,4,6) with storage rent periods of 4 and 2 years respectively
+
+
+[06/02/2020 4:09 PM] Dmitry Meshkov#1652
+And also it looks like a monetary policy changes, and thus violates the social contract
+
+
+[06/02/2020 4:10 PM] kushti#0978
+@Dmitry Meshkov yes, that's the concern, so first 4 years with no fee
+
+
+[06/02/2020 4:16 PM] Dmitry Meshkov#1652
+> so on year 8, miner is collecting from years (0,4) or (0,2,4,6) with storage rent periods of 4 and 2 years respectively
+@kushti got it. Still not sure whether it is important enough to be hard-forked though)
+In the long term  it changes nothing, so it looks like a local fix for period around the end of the emission. As an alternative I may propose to consider to dedicate some ERGs from the treasury (this storage rent fee is quite small, so I guess  1K ERGS should be enough) and to create boxes that will create additional rewards for blocks that will have have a gap in mining reward (this can be predicted at the year 4)
+
+
+[06/02/2020 4:17 PM] Dmitry Meshkov#1652
+following the social contract in a strict way may provide more value to miners at the year 8)
+
+
+[06/02/2020 4:18 PM] kushti#0978
+not sure 1K ergs will change anything
+
+
+[06/02/2020 4:19 PM] kushti#0978
+and yes, currently hard to predict how things will go
+
+
+[06/02/2020 4:19 PM] kushti#0978
+around year 4 we'll know much more
+
+
+[06/10/2020 9:59 AM] morphic#4133
+@jasondavies what do you think of https://github.com/ergoplatform/eips/issues/15. Can you take care of it?
+
+
+[06/10/2020 10:08 AM] jasondavies#8712
+@morphic OK
+
+{Reactions}
+👍 
+
+[06/22/2020 11:58 AM] kushti#0978
+https://www.ergoforum.org/t/storage-rent-details/256
+
+{Embed}
+https://www.ergoforum.org/t/storage-rent-details/256
+Storage rent details
+In this post I am going to reveal some details about storage rent.  Ergo has pretty aggressive emission curve with all the ergs being emitted in just 8 years. To provide stability after the emission being done, Ergo is introducing storage rent, which is pretty flexible and sop...
+
+
+[06/22/2020 11:58 AM] kushti#0978
+so let's discuss whether to change storage rent period
+
+
+[06/27/2020 3:54 PM] kushti#0978
+@morphic @jasondavies @Robert K @mx @Dmitry Meshkov 3 years for storage rent is okay  ?
+
+
+[06/27/2020 4:33 PM] Robert K#0722
+I think 3 years is reasonable enough to me.
+
+
+[06/27/2020 4:56 PM] Dmitry Meshkov#1652
+I'm still against the idea to change this parameter via a hard-fork. It will create a bad precedent of changing monetary policy via hard-fork and will singificantly reduce the Ergo value.
+My second idea is that it is a local fix for the short period after the emission end and does not change anything in the long term (if miner will make storage rent fee 4/3 times higher via voting). 
+Finally, 3 year period does not make any sense, as far as at the year 8 miners will only be able to collect storage rent from 2 creation times (years 5 and 2), which is the same, as if we have 4 years storage rent, where miners will collect fees from boxes created at year 0 and 4.
+
+{Reactions}
+👍 
+
+[06/27/2020 4:59 PM] Dmitry Meshkov#1652
+As an alternative approach, I propose to fix this local issue without a hard-fork, e.g. by creating a smart-contract that will subsidize miners unable to collect enough fees. Storage rent fee is actually relatively small, so the community and foundation donations should be enough to fix this issue.
+
+
+[06/27/2020 5:06 PM] Dmitry Meshkov#1652
+Also as far as I remember, the transaction fee contract is not hardcoded and may be defined by users. It might be a good option to change the default transaction fee contract, that this fee will be distributed between miners within some period of time (instead of just going to a current miner like now). This will also smooth the reward curve for miners, ensuring that every block contains some reward. This transaction fee part is almost negligible for miners right now, so I guess they would be ok to share part of it with the miners in the future
+
+
+[06/27/2020 5:12 PM] Robert K#0722
+I'd personally be fine with a local fix if that approach can end up working. I mentioned something similar in the forum about community subsidy, and I think that is a decent approach, but it is a question whether it will be enough.
+
+My biggest worry personally is from a UX perspective for dApps for storage rent to go below 3 years, but 4 is definitely better to keep it at that. I'm generally undecided either way besides that.
+
+
+[06/27/2020 8:46 PM] mx#5165
+community-driven contracts sound ok, otherwise miners will rather support 2 years period
+
+
+[06/27/2020 9:30 PM] Dmitry Meshkov#1652
+If we're to change this parameter, it makes sense to choose its length from 8/3, 8/4, ... , 8/8 to maximize the miners` profit at year 8. So we're to choose the number X (which is 2 now) that determines amount of the block heights in the past, which boxes allow miners to collect the reward at year 8.
+
+
+[06/27/2020 9:52 PM] mx#5165
+8 years is very long time in cryptocurrency, even during 4 years supply can change a lot, if i was concerned miner and had a choice, i would vote even for period lower than 2 years to see the new economy model working before emission ends, not mentioning changes that may happen in standard economy during that time as for maximizing profits
+
+
+[06/27/2020 10:26 PM] Cheng Wang#1571
+In my opinion, 3 years is not very different from 4 years. By definition, every utxo could choose to do one transaction to save it from a storage fee. Assume that the tx fee is 0.01 Ergo and there are 1M utxos in total, then the storage rent mechanism will incentivize at most 10K Ergo for miners during one storage period. If half of the utxos will be used anyway, then 5k Ergo will be extracted by miners. Divide this by 3 years or 4 years will not change too much.
+
+{Reactions}
+👍 (2) 
+
+[06/27/2020 10:27 PM] Cheng Wang#1571
+If I misunderstood any details, please correct me
+
+
+[06/29/2020 12:32 PM] kushti#0978
+@Dmitry Meshkov collecting from years 0 and 4 is not the same as 2 and 5, as there will be more UTXOs created around year 2 than around year 0 (also, before year 8 you have 2 periods instead of 1). 
+Also, EF should incentivize applications storing data on-chain likely, to be actively used from year 2 and on. 
+No reason to do HF to change storage rent, but HF will be done anyway, so why not to play around storage rent if there's a chance.
+
+
+[06/29/2020 12:33 PM] kushti#0978
+@Cheng Wang there're also lost UTXOs , and with default parameters UTXO of "standard" size pays ~0.13 ergs / period (and miners can double it)
+
+
+[06/29/2020 12:34 PM] kushti#0978
+I'm okay with reworking fee contracts, but a concrete proposal to be considered.
+
+
+[06/30/2020 2:51 PM] kushti#0978
+@morphic well actually a fork can be accelerated if we'll prepare for costing soft-fork in the hard-fork , then costing will be done via a soft-fork
+
+{Reactions}
+👍 (2) 
+
+[07/01/2020 10:30 AM] morphic#4133
+@kushti the version 4.0 of Sigma will support both the current (Ergo Protocol v1) and the new (Ergo Protocol v2) versions at the same time depending on the parameters passed as part of context. Please see HFVoted, HFVotedBlock, HFBlock in EIP9 here https://github.com/ergoplatform/eips/blob/20e99a6f0c252a1f618bb9afa127ddefa3c4180f/eip-0009.md#phase-1-release-v400. 
+Which version to use depends entirely on the activation protocol implemented on Ergo node side. So if you think it can be done as a SF later, that is a good news, I have only partial knowledge of how SF is implemented in Ergo node.
+I'm currently working on complete executable specification which: 
+1) cover the whole language 
+2) test both v1 and v2 versions of Sigma
+3) tests backward compatibility of v2 with v1
+Once I finish with spec, I will resume implementation of missing parts of v2 version (for now they are postponed).
+This is a lot of work ahead, so I will not be able to do anything on Ergo node side. 
+But, keeping in mind that Sigma 4.0 will support both versions of Ergo Protocol (v1 and v2) the Ergo node activation protocol implementation can be done in parallel.
+
+{Embed}
+https://github.com/ergoplatform/eips/blob/20e99a6f0c252a1f618bb9afa127ddefa3c4180f/eip-0009.md
+ergoplatform/eips
+Ergo Improvement Proposals. Contribute to ergoplatform/eips development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/7ow6w19rs4z17zegDBdf-Ioan6Q9DfyYbxg1vtgnJk4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/27490654
+
+
+[08/03/2020 4:20 PM] kushti#0978
+https://github.com/ergoplatform/eips/pull/22/files
+
+{Embed}
+https://github.com/ergoplatform/eips/pull/22/files
+EIP-0010: Autolykos v.2  by kushti · Pull Request #22 · ergoplatfor...
+This EIP defines Autolykos v.2 Proof-of-Work scheme
+https://images-ext-2.discordapp.net/external/15pJnTckcsshWEUYvvkjCf0TMtuAX6VRek2aeEVd9-o/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/1972441
+
+
+==============================================================
+Exported 250 message(s)
+==============================================================

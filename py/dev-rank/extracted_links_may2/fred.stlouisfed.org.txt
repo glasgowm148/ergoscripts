@@ -1,0 +1,8 @@
+https://fred.stlouisfed.org/series/WPS1321
+https://fred.stlouisfed.org/series/MANMM101USQ189S
+https://fred.stlouisfed.org/series/FEDFUNDS
+https://fred.stlouisfed.org/series/WALCL
+https://fred.stlouisfed.org/series/WALCL*)
+https://fred.stlouisfed.org/series/CPIAUCSL
+https://fred.stlouisfed.org/series/CBBTCUSD
+https://fred.stlouisfed.org/series/CPIAUCSL*)

@@ -1,0 +1,55 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🏠  ・〘 INFORMATION 〙☰ / rules
+==============================================================
+
+[04/14/2022 1:32 PM] ProBot ✨#5803
+
+
+{Embed}
+Rules
+1. **No advertising**
+
+2. **No NSFW/NSFL/GORE**
+
+3. **No harassment**
+Don't go out of your way to annoy someone. If you act weird towards someone, and they tell you to stop it, you should do so.
+
+4. **Be respectful**
+We are all people here, and we don't expect you to write a formal letter for every message, however being disrespectful won't be accepted.
+
+5. **Don't attempt to evade punishments**
+This includes alts or messaging other people to say something on your behalf, or anything else that allows you to get past your punishment. This is another easy way to get a permanent ban.
+
+6. **Don't cause drama**
+If you have a personal conflict with someone, talk it out in DMs. If someone broke a rule, you are free to message a moderator about it.
+
+7. **Use the correct channels**
+Don't ask for help in general. Assign yourself roles in the channels marked with `🚧`
+
+8. **Don't challenge mod actions**
+If you think a moderator is being unjust, you can ask them on their reasoning, but you shouldn't cause drama or be disrespectful. If you are sure they are being unreasonable, you can message a superior staff member about it, but don't just start screaming in the chat and tagging people. Alternatively you can contact team@ergoplatform.org
+
+9. **Use common sense**
+Just because it isn't in the rules does not mean you are free to do it. If you are unsure if something is allowed, message a moderator. If you are told to stop doing something, stop it.
+
+10. **Follow ToS**
+This includes our own ToS and Discord's ToS and any other applicable document.
+👉│start-here
+Read through the [👉│start-here](https://discord.com/channels/668903786361651200/967838949039013908) channel for an overview of some key resources and tips.
+🚧 │Assign Roles
+To access channels please assign yourself roles from the channels marked with the `🚧` symbol. This is done by selecting the corresponding emoji under each message. 
+
+- [🚧│general](https://discord.com/channels/668903786361651200/844874658561130506)
+- [🚧│development](https://discord.com/channels/668903786361651200/964145064190296094)
+- [🚧│mining](https://discord.com/channels/668903786361651200/963967961801052180)
+- [🚧│wallets](https://discord.com/channels/668903786361651200/963964513596624896)
+- [🚧│ecosystem](https://discord.com/channels/668903786361651200/963958005114761226)
+- [🚧│regional-channels](https://discord.com/channels/668903786361651200/964134908505235516)
+
+{Reactions}
+👍 (412) 
+
+==============================================================
+Exported 1 message(s)
+==============================================================

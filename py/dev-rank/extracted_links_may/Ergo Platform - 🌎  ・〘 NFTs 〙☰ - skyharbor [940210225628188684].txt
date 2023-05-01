@@ -1,0 +1,1135 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 NFTs 〙☰ / skyharbor
+Topic: SkyHarbor will be the primary place to quickly buy and sell NFT’s on the Ergo blockchain using Ergo Smart Contracts. Connect your dApp connector and immediately put your NFT up for sale for the price you’re looking for, or buy an NFT from our verified collections (ERGnomes, Ergosaurs, Space Farmers, etc...). It will also be fast and efficient, making it super easy and simple to interact with the blockchain, using databases and the latest infrastructure to make the website blazing fast.
+==============================================================
+
+[02/07/2022 2:27 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940210225628188684/940252496788594748/SigMart.pdf
+
+
+[02/08/2022 1:16 PM] MGpai#4313
+Will NFTs be mintable as it is on Eth during drops?
+
+{Reactions}
+💙 
+
+[02/10/2022 3:48 PM] tdj#1676
+hoping skyharbor team will make this "alike" on ergo landingpage-pro.nft-maker.io/pro its like easy-to-use, advanced, all-in-one nft maker
+
+
+[02/11/2022 12:48 PM] root7Z#8699
+Hello @skyharbor project team! How is it going with your development, would you provide updates?
+
+
+[02/11/2022 2:20 PM] quokka#1273
+Yeah sure! We just got the putting an NFT up for sale smart contract done and working super easily with nautilus wallet. 
+
+We are now working on retrieving the NFT’s and displaying them. This will probably get done in an hour or two and then we will work on implementing the buying function
+
+{Reactions}
+😍 (3) ergo_orange (4) 
+
+[02/11/2022 3:20 PM] quokka#1273
+We will implement a minting functionality in the future but it will most likely be a choice on the artist of if we can directly sell on sky harbor
+
+
+[02/11/2022 3:20 PM] quokka#1273
+For now we're focusing on the ability to buy and sell, we will be expanding on minting in the near future
+
+
+[02/11/2022 4:37 PM] quokka#1273
+Just got done displaying the NFT’s. Working on the buy functionality. Should be done soon. And then it’s cleaning up the UI and working on the database to make the website faster
+
+{Reactions}
+👍 (2) 
+
+[02/11/2022 8:57 PM] root7Z#8699
+I hope the first day is going well Quokka. Please share a few notes from today as we are coming closer to the end of the day. Best regards,
+
+
+[02/11/2022 9:41 PM] quokka#1273
+Hey root, we made some great progress today
+
+Notes:
+- Today we had a group call solidifying the best way to deal with blockchain data with db
+- @Krasavice Blasen  finished the ERG sales contract and tested NFT buying and selling
+- I implemented the buying UI and with help from krasavice, built the selling tx on frontend using nautilus wallet. Putting an nft for sale worked like a charm. 
+- implemented displaying the for sale NFT’s. 
+
+Getting the buy functionality to work currently. Once that is done it will pretty much be a fully functioning marketplace run by smart contracts. We want to make the site run at a tolerable pace so we are waiting until we implement our db to release. We will be working on that Saturday and Sunday with @HazeyOneKenobi
+
+{Reactions}
+ergo_white (3) ergo_orange (5) 
+
+[02/12/2022 6:13 AM] root7Z#8699
+Good morning @skyharbor ! Seems you are getting pretty close to launch. I wish you good luck and collaboration on the second day, reach out if you have any questions ✋
+
+{Reactions}
+ergo_orange (3) 👍 (2) 
+
+[02/12/2022 7:45 PM] quokka#1273
+Forgot to say here but buying, selling, and cancelling sales on the blockchain are now done. More error testing and then we move onto speeding up the website
+
+{Reactions}
+👏 (5) 🔥 
+
+[02/12/2022 10:19 PM] root7Z#8699
+Thank you for the updates, I hope the second day went well for you.  As we are getting closer to the end of today, please share if you have any other updates or questions regarding today's development. @skyharbor with best wishes
+
+
+[02/13/2022 6:56 AM] root7Z#8699
+Good morning @quokka @Krasavice Blasen @HazeyOneKenobi , good luck on the last day!
+
+{Reactions}
+❤️ (3) 
+
+[02/13/2022 2:02 PM] quokka#1273
+Thanks! When does the last day technically end?
+
+
+[02/13/2022 3:10 PM] root7Z#8699
+Monday 12.00 UTC is the final date for sending the reports
+
+
+[02/13/2022 7:31 PM] root7Z#8699
+@skyharbor about the format, it's open you can provide in video or text as you feel right 👍
+
+
+[02/13/2022 7:49 PM] quokka#1273
+Format for what? The updates?
+
+
+[02/13/2022 8:02 PM] root7Z#8699
+Format for the final report of the ErgoHack III
+
+{Reactions}
+👍 
+
+[02/13/2022 8:02 PM] root7Z#8699
+And the project presentation
+
+
+[02/13/2022 8:02 PM] quokka#1273
+Ooh okay!
+
+{Reactions}
+🙂 
+
+[02/13/2022 9:09 PM] quokka#1273
+@root7Z hey, Glasgow said the hackathon is over and winners will be announced soon, is the deadline still Monday 12utc?
+
+
+[02/13/2022 9:10 PM] quokka#1273
+Oooh it says *prizes* not winners my bad
+
+{Reactions}
+👍 
+
+[02/13/2022 9:12 PM] root7Z#8699
+Yes no worries, submission is 12.00 UTC Monday . The announce was referring to closing day video
+
+{Reactions}
+❤️ 
+
+[02/14/2022 10:31 AM] root7Z#8699
+Hello @skyharbor team, kindly reminder that you have about 90 min to send your final reports and documents. So please check-in on time. Thanks
+
+
+[02/14/2022 11:14 AM] HazeyOneKenobi#2091
+Morning Rootz! Still working away
+
+
+[02/14/2022 11:41 AM] quokka#1273
+Gm. God it’s so early
+
+
+[02/14/2022 11:45 AM] quokka#1273
+We’re gonna be submitting a video in a second
+
+
+[02/14/2022 11:55 AM] quokka#1273
+Ok well we had an error come up last second on the buying and selling of NFT’s and we’re trying to fix last second
+
+
+[02/14/2022 11:55 AM] quokka#1273
+@root7Z any way we can submit a lil late?
+
+
+[02/14/2022 11:58 AM] root7Z#8699
+I can't say no of course you've made a lot of work but there are multiple teams in the ErgoHack competition so please send it as soon as possible
+
+
+[02/14/2022 11:59 AM] quokka#1273
+of course. we think its a get_utxos issue with is with the wallet
+
+
+[02/14/2022 12:17 PM] quokka#1273
+Smh it was all working before I went to bed but there are inconsistent results coming from the dapp connector. I will talk to capn nemo about them as soon as i get the chance
+
+{Reactions}
+👍 
+
+[02/14/2022 12:45 PM] quokka#1273
+ignore my nasally voice im a little sick today
+
+
+[02/14/2022 12:45 PM] quokka#1273
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940210225628188684/942763577599746068/mkplace.mp4
+
+{Reactions}
+👏 
+
+[02/14/2022 12:47 PM] quokka#1273
+But heres a video of the functionality of our website currently. we've gotten a lot done on the backend db part to make the loading of the site faster, but we couldnt get enough done to showcase it today. 
+
+Anyways, here's buying and selling NFT's on Ergo! You can cancel the sale too of course. No countdowns or bidding steps... just buy and go on with ur life!
+
+
+[02/14/2022 12:47 PM] quokka#1273
+@root7Z
+
+
+[02/14/2022 12:48 PM] glasgowm#9381
+May want to tweet it so I can link it ? Also a little blurb for here unless you're happy with what's there already 
+
+https://docs.ergoplatform.com/events/ergohack/#ergohack-iii
+
+
+[02/14/2022 12:49 PM] quokka#1273
+ok tweeting right now, will write something up for you as well
+
+{Reactions}
+❤️ (2) 
+
+[02/14/2022 12:57 PM] root7Z#8699
+Thanks a lot! Would you please share the github repository too
+
+
+[02/14/2022 1:01 PM] quokka#1273
+blurb: 
+Sky Harbor will be the primary place to quickly buy and sell NFT’s on the Ergo blockchain using Ergo Smart Contracts. Connect your wallet and immediately put your NFT up for sale for the price you’re looking for, or buy an NFT from our verified collections. It will also be fast and efficient, making it super easy and simple to interact with the blockchain, using databases and the latest infrastructure to make the website blazing fast.
+
+Current features:
+- Buy and sell NFT's, cancel sales
+
+Features in progress:
+- DB setup to speed up retrieval of blockchain data
+- Previous sales, volume and floor price of collections
+
+
+[02/14/2022 1:11 PM] quokka#1273
+sorry the video wont upload to twitter, trying to compress rn
+
+
+[02/14/2022 1:18 PM] quokka#1273
+https://twitter.com/SkyHarbor_io/status/1493212843642085376
+
+here! theres also a youtube link you can use if you want!
+
+{Embed}
+SkyHarbor.io (@SkyHarbor_io)
+https://twitter.com/SkyHarbor_io/status/1493212843642085376
+Ignore my sick nasally voice but here is our presentation for ErgoHack III. We got work done speeding the site but not enough to showcase today, we will continue to work and release once that is done. 
+
+For now, here's buying, selling, and canceling sales
+
+https://t.co/kGF8PshL4W
+Twitter
+
+
+[02/14/2022 1:39 PM] quokka#1273
+@glasgowm sent u a dm
+
+
+[02/14/2022 2:25 PM] quokka#1273
+Here’s some info about our submission:
+
+Sky Harbor NFT marketplace was built to allow ERGO NFT enthusiasts somewhere to trade and browse NFTs, and is intended to become a community hub where new entrants into the ENFT space can enjoy a welcoming and secure platform to begin their collecting! We also aim to give our existing ergo artists a space to increase their visibility and help bring lasting value to their projects.
+
+Sky Harbor aims to help secure and improve the image of the ENFT space by restricting sales to only collections which are pre-approved by the site administrators, though in future we will be adding some form of unverified collections. We also plan to add lasting value to the ENFT space by tracking metrics on sales such as sales prices over time, volumes traded, etc. and making this data freely available via API for anyone to use.
+
+{Reactions}
+ergo_orange (4) ergonaut 
+
+[02/17/2022 8:02 PM] morphic#4133
+Hi, @skyharbor, any source code available?
+
+
+[02/17/2022 8:04 PM] quokka#1273
+We’re staying closed source for now but might go open source in the future. We are sharing our code with Ergo for the hackathon though.
+
+
+[02/17/2022 8:05 PM] quokka#1273
+So if you need to see the code for judging I can invite you to the repo
+
+
+[02/17/2022 8:05 PM] morphic#4133
+ah, I see, please invite then
+
+
+[02/17/2022 8:06 PM] quokka#1273
+What’s your GitHub username?
+
+
+[02/17/2022 8:07 PM] morphic#4133
+aslesarenko
+
+
+[02/17/2022 8:12 PM] quokka#1273
+Ok just added you
+
+
+[02/18/2022 2:42 PM] quokka#1273
+@morphic lmk if you want to see the smart contracts
+
+
+[02/28/2022 9:08 PM] AngieHar#0865
+Congratulations Skyharbor! Great work, thank you for participating in ErgoHack 3. We hope we’ve convinced you to continue to develop the Ergo Platform and ecosystem.  💪  
+Your participation was a vital component in making the next hackathons even better. And hope to hear from you for marketing collaborations. 
+
+Please send me your wallet address so you can receive your prize.
+
+{Reactions}
+💪 (2) 
+
+[03/02/2022 12:51 PM] HelixEvo#2120
+Hey all… Thought of bolting on a general auction place also along side the NFTs? I have this eBay on the blockchain idea which I think would just catch on. People starting to not like eBay because of fees. Payments using escrow smart contracts. What’s your thoughts?
+
+
+[03/06/2022 4:52 PM] EddNorris | FishFight.app DEV#1111
+@HazeyOneKenobi @quokka is there a sky harbor discord? Can I help with some testing/QA before the next beta launch?
+
+
+[03/06/2022 4:53 PM] quokka#1273
+Haha nice timing! Opening one today for the beta that will be open soon, you’ll be the first to get an invite!
+
+{Reactions}
+wobble (2) loveit 
+
+[03/06/2022 5:02 PM] quokka#1273
+@EddNorris | FishFight.app DEV Here's the discord! You're literally the first person getting it lol. Gonna start sharing on twitter
+
+
+[03/06/2022 5:02 PM] quokka#1273
+https://discord.gg/N6b4fyH9pq
+
+
+[03/06/2022 5:03 PM] EddNorris | FishFight.app DEV#1111
+I want some kind of fun discord role: like Airship-Support-Mechanic!
+But seriously, I would recommend having a few roles for whom shows up early! “Maiden-Voyagers”
+Or “Air-Pirates”
+Or “Dirigible-Artist
+Or “Verified-Dirigible Artist”
+
+
+[03/06/2022 5:03 PM] quokka#1273
+Great idea! I wanna make it themed like tortuga from pirates of the Caribbean except in the sky
+
+{Reactions}
+👏 
+
+[03/06/2022 5:03 PM] EddNorris | FishFight.app DEV#1111
+We tried this out with fish fight and now everyone wants to be an “OG Fish fight sailor”
+
+{Reactions}
+😂 (2) 
+
+[03/06/2022 5:03 PM] EddNorris | FishFight.app DEV#1111
+Humans are fun
+
+
+[03/06/2022 5:04 PM] quokka#1273
+thats genius
+
+
+[03/15/2022 10:39 AM] HazeyOneKenobi#2091
+@Stacie could skyHarbor get its own incubator channel? We're adding a ton of features to the site and we're pretty close to launch
+
+
+[03/15/2022 10:41 AM] Stacie#8189
+Hi @HazeyOneKenobi, I will check with Mark and get back to you. But I believe that it’s possible
+
+
+[03/15/2022 2:52 PM] HazeyOneKenobi#2091
+Thanks!
+
+
+[04/10/2022 7:54 PM] liquid_phase#4605
+does skyharbor allow the minting of NFTs for artists which have been accepted to the platform or is it required to use a third party tool to mint
+
+
+[04/20/2022 4:43 AM] liquid_phase#4605
+Can anyone at sky harbor provide the standards by which projects are judged upon and vetted against? Or is it an insider secret that no one gets to know except the skyharbor team
+
+
+[04/20/2022 4:43 AM] liquid_phase#4605
+Follow up question: are all projects judged by the same standards, or does skyharbor play favorites to specific projects?
+
+
+[04/20/2022 4:44 AM] liquid_phase#4605
+Would love some transparency here if you are to become a big player in the space
+
+
+[04/20/2022 4:49 AM] liquid_phase#4605
+@Krasavice Blasen - the quokka in charge  told me he needs my project to have more volume or be better known by the community - can you tell him we worked together on Ergohack for nightOwl and that i've been active on discord both helping around and promoting my NFTs ? 
+
+If he wants a specific volume traded or selling floor , i need to know that specific volume so i can set a goal.
+
+
+[04/20/2022 8:44 AM] HazeyOneKenobi#2091
+We ask for original art that isn't offensive, stolen, etc. Surprised quokka mentioned volume, its too easily faked for me to be content with using it for listing approvals.
+
+All projects are judged by the same standards - though those standards aren't just about metrics on volume, etc. It's also how a project goes about marketing / shilling, their approach to longevity in the space and not just making a quick buck, etc.
+
+There's a lot that goes into it, but our priorities lie with building a great platform with amazing content, protecting buyers and helping artists.
+
+{Reactions}
+🔥 
+
+[04/20/2022 11:19 AM] Krasavice Blasen#4574
+You are certainly an active member of the community.
+Also to add to what Hazey has already said; we take precautions to ensure collections listed on SkyHarbor consist of original work.
+One such precaution is that verified collections do not consist of duplicate works from any chain.  
+All verified collections need to satisfy this rule, which is why your collection application was rejected.
+If you could burn/take down your listings on opensea then you would satisfy this rule.
+Furthermore, whilst I trust the art is your own work - even if we allowed for duplicates cross-chain, since your Ergo collection is of a younger age you would still need to prove you are indeed the owner of your opensea collection and at that point you may as well take the listings off if you plan to appeal to Ergo only? 
+
+The SkyHarbor review process is set up to be objective and thorough and we always welcome community scrutiny over the process, so that we can grow to become the big player you speak of 🙂
+
+
+[04/20/2022 2:34 PM] liquid_phase#4605
+Great, i'll get my old computer back from the ex girlfriend and hopefully she hasnt formatted it so my firefox saved login to opensea is still there
+
+
+[04/20/2022 2:35 PM] liquid_phase#4605
+as mentioned to quokka, since these were lazy minted they dont exist inside a wallet and cant be burned
+
+
+[04/20/2022 2:35 PM] liquid_phase#4605
+the only way to get rid of them is to login to opensea and delete the collection, which again was taken down for sale last year and never put back up for sale (it's essentially just a photo gallery)
+
+
+[04/20/2022 2:39 PM] liquid_phase#4605
+You need to allow artists to sign up as artists and not just as a collection then - in my opinion. My ARTIST name is liquid phase(i make graphics AND music under this name) and the series is a debut series under the name. now you're essentially forcing me to change my entire artist persona and get rid of an entire series of art if i want to be listed on your site. That's not a fair ask. What is a fair ask is asking me to prove ownership or take down other works, which i am doing diligence on now.
+
+
+[04/20/2022 2:47 PM] liquid_phase#4605
+Adding a section to the form: "Any work on other chains? Link them here and reasons why." may be beneficial for your team - as would a section separating artist information from proposed collection info
+
+
+[04/20/2022 2:54 PM] liquid_phase#4605
+It is original, and one cant steal from themselves. He mentioned volume because he was trying to shut me up.
+
+
+[04/20/2022 2:55 PM] liquid_phase#4605
+Would still like to see your teams standards in writing and on your website, so its transparent for all creators and not just ones who have a problem
+
+
+[04/20/2022 3:24 PM] HazeyOneKenobi#2091
+We thought it would be pretty obvious to be honest. Work on other chains doesn't concern us. Reminting the same nfts without ANY disclaimer does.
+
+
+[04/20/2022 3:27 PM] HazeyOneKenobi#2091
+We do allow this. Your collection would simply be your artist name. You applied with 'liquid phase - 4d gods' so that's your collection under your artist name but separated. We aren't forcing you to change anything about 'liquid phase'. It seems like you're more intent on being annoyed we saw your eth art (very valid concern any buyer would have, do you not care about buyers?) than you are intent on actually getting your art listed responsibly.
+
+
+[04/20/2022 3:47 PM] liquid_phase#4605
+again, not minted - lazy minted. technicalities are important with intellectual property rights.
+
+
+[04/20/2022 3:48 PM] liquid_phase#4605
+You could have saved both mine and all of yours time by pre emptively putting a secion on the form to explain work on other chains
+
+
+[04/20/2022 3:49 PM] liquid_phase#4605
+because I actually do read the FAQs, and yours are sparse
+
+
+[04/20/2022 3:49 PM] liquid_phase#4605
+Yeah thats a mistake for a company, to assume their user base is any sort of competent or will use the product as designed
+
+
+[04/20/2022 3:50 PM] liquid_phase#4605
+I say this as a music publisher with over 42 releases on multiple platforms. If you do due diligence to a a point but not past that point you're no better than Spotify - which you may see as a good thing due to their size, but any musician in the industry hates spotify for their policies and would rather publish elsewhere if it were an option with similar reach
+
+
+[04/20/2022 3:56 PM] liquid_phase#4605
+I am actually just trying to help you -  i see your company as fledgling and this is a good opportunity to cause conflict and bring about a resolution from it - I feel that you should make changes to your application form to make sure others like me (artists who are just learning about crypto, not crypto kids who make art) don't bring about similar conflict in the future.
+
+You can be offended or annoyed, that's fine - it's actually my intent. I don't care if you like me -  i am here to make change.
+
+
+[04/20/2022 3:57 PM] HazeyOneKenobi#2091
+I agree, thanks for your input
+
+
+[04/20/2022 3:59 PM] liquid_phase#4605
+always happy to provide it 🙂
+
+
+[04/29/2022 7:25 PM] Sarib4n#5962
+Hi, I'm a 3D artist (https://instagram.com/sarib4n) do you guys think that it would be cool to have a 3D Collection on Skyharbor ?
+
+{Reactions}
+spicy 
+
+[04/30/2022 3:18 PM] glasgowm#9381
+main image isn't loading anymore btw
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940210225628188684/969966002509086770/unknown.png
+
+
+[05/01/2022 3:22 AM] Krasavice Blasen#4574
+Yeah, thanks for that - the new main image seems to be larger or something. I preferred the quokka anyway. Ill let quokka know!
+
+
+[05/01/2022 3:23 AM] Krasavice Blasen#4574
+Also, is it possible to pin our discord in this channel? I cant post a link to it and wed probably be a little more responsive there 🙂
+
+
+[05/01/2022 3:24 AM] Krasavice Blasen#4574
+It would certainly be cool! Im not sure if it is currently supported but if not we plan to support 3D works. Feel free to share this in our discord. Ill also get quokka to join this channel, he may have a better response for you
+
+
+[05/01/2022 3:27 AM] quokka#1273
+Ah okay. Will optimize the image. It is larger as Kras says
+
+
+[05/01/2022 11:04 AM] maritsaart#9875
+https://twitter.com/maritsaart/status/1520656476213239808
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1520656476213239808
+🌕 Space crypto #05/#06. 2000x2000 px
+https://t.co/U9aSXjEdbk
+
+@SkyHarbor_io
+$ERG #Ergo #ENFT #ErgoNFT #Ergonauts #Ergo2Top10 #cryptocurrency #ThisIsERG #nftart #NFT
+https://images-ext-2.discordapp.net/external/hBImuF5bgqhXhsKhFOMkBP0V7ReltGN8H22tenejbbU/https/pbs.twimg.com/media/FRp0jSYXIAACHb7.jpg
+Twitter
+
+
+[05/01/2022 5:02 PM] Sarib4n#5962
+Awesome ! I will share you some of my work 😉 but when I say 3D I’m speaking of Render type, but it will be .PNG 😉
+
+
+[05/02/2022 7:35 AM] maritsaart#9875
+https://twitter.com/maritsaart/status/1521007838289698817
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1521007838289698817
+🧙‍♀️ Guru #1/#2/#3/#4/#5/#6. 3000x3000 px
+https://t.co/U9aSXjEdbk
+
+@SkyHarbor_io
+
+$ERG #Ergo #ENFT #ErgoNFT #Ergonauts #Ergo2Top10 #cryptocurrency #ThisIsERG #nftart #NFT
+https://images-ext-2.discordapp.net/external/FIIpoV12qsGIU809Iwuy19mFoPKxW45SaSBQOOzUPrY/https/pbs.twimg.com/media/FRuzjq4XwAARI4e.jpg
+Twitter
+
+
+[05/02/2022 11:08 AM] Sarib4n#5962
+Hey @Krasavice Blasen since SkyHarbor is a really selective platform do you also now if there’s specific event when a project is about to drop ? Like NiftyGateway or SuperRare ?
+
+
+[05/02/2022 11:33 AM] Krasavice Blasen#4574
+Yeah its something that can be done and would be a lovely feature to build hype 🙂
+
+
+[05/02/2022 12:09 PM] Sarib4n#5962
+Wonderful, I’m pretty sure my community will also love to see my work feature on this platform ! Who can I contact regarding this ?
+
+
+[05/04/2022 7:43 AM] maritsaart#9875
+https://twitter.com/maritsaart/status/1521738848086147077
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1521738848086147077
+😉 Hash Sneakers #04. Yellow. 500x500 px
+https://t.co/tuuQOIRN9C
+👉 NFT on the ERGO blockchain.
+@SkyHarbor_io
+@ErgoFoundation
+$ERG #Ergo #ENFT #ErgoNFT #Ergonauts #Ergo2Top10 #cryptocurrency #ThisIsERG #nftart #NFT
+https://images-ext-1.discordapp.net/external/KZ3ngfjrlXIt1IaH-XpHcpANbh9nVeuENEpcQtB_w90/https/pbs.twimg.com/tweet_video_thumb/FR5NaRdXoAAbmFM.jpg
+Twitter
+
+
+[05/04/2022 1:16 PM] Krasavice Blasen#4574
+Sorry we are much more active on our discord:
+https://discord.com/channels/668903786361651200/940210225628188684/950076024178245664
+
+
+[05/04/2022 1:16 PM] Sarib4n#5962
+All good thanks !
+
+
+[05/04/2022 1:17 PM] Krasavice Blasen#4574
+You can reach out to any of us, Quokka, Hazey and I have our DMs open
+
+
+[05/06/2022 9:37 AM] tdj#1676
+[💎 GIVEAWAY] i know i am no good at marketing, so ergonauts please help me doin marketing ;))
+
+https://twitter.com/ERGYOROI/status/1522493961004548096
+
+{Embed}
+ERGYOROI | 大鎧 (@ERGYOROI)
+https://twitter.com/ERGYOROI/status/1522493961004548096
+💎GIVEAWAY
+
+Dear ergonauts
+
+pls help me "marketize" and have a chance winning an Aneta Angels [Tier 5] by:
+
+Like This Post,
+Retweet,
+& Follow -optional
+
+Winner announced This Month
+
+another Angels[Tier?] will also be given to #139 buyer at @SkyHarbor_io / https://t.co/exeVAFB609
+https://images-ext-2.discordapp.net/external/XQf2xM0U5ykDgClaEoWY4ByG3xd4XN1oXMn_UcPNCc0/https/pbs.twimg.com/media/FSD6wcFaIAAwUYY.jpg
+Twitter
+
+
+[05/20/2022 2:13 PM] maritsaart#9875
+https://twitter.com/maritsaart/status/1527637051134427139
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1527637051134427139
+🍔 Fast food #01. Burger. 2000x2000 px
+https://t.co/tuuQOIRN9C
+
+@SkyHarbor_io
+$ERG #Ergo #ENFT #ErgoNFT #Ergonauts #Ergo2Top10 #cryptocurrency #ThisIsERG #nftart #NFT #cryptoart #NFTCommunity
+https://images-ext-1.discordapp.net/external/qfd0DLdSDVQFHA2ErOZGxl4X2VQdWRnL_4O56LzGMw0/https/pbs.twimg.com/media/FTNBOdCXEAEvMZd.jpg
+Twitter
+
+
+[05/21/2022 9:38 AM] maritsaart#9875
+https://twitter.com/maritsaart/status/1527929499039457281
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1527929499039457281
+⭐️ Characters series ⭐️
+https://t.co/tuuQOIRN9C
+https://t.co/EIa57Bb8nh
+
+@SkyHarbor_io
+@ErgoAuction
+@ErgoFoundation
+$ERG #Ergo #ENFT #ErgoNFT #Ergonauts #Ergo2Top10 #cryptocurrency #ThisIsERG #nftart #NFT #cryptoart #NFTCommunity
+https://images-ext-1.discordapp.net/external/tuHl--NArBqkohkDMDYX65MB0m16erq4RnbFuTcBkoM/https/pbs.twimg.com/media/FTRJ8EfXEAARwFO.jpg
+Twitter
+
+
+[05/30/2022 10:12 AM] maritsaart#9875
+https://twitter.com/maritsaart/status/1531195988752359425
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1531195988752359425
+🦊 Animal pop art #23. Fox. 2000x2000 px
+https://t.co/vtnmHiB84I
+🍀🍀🍀
+@SkyHarbor_io
+$ERG #Ergo #ENFT #ErgoNFT #Ergonauts #Ergo2Top10 #cryptocurrency #ThisIsERG #nftart #NFT
+https://images-ext-1.discordapp.net/external/Wb0FsJrOa17p9pv8n2cTrOF36X9V8Ykq0Uanfm87sNw/https/pbs.twimg.com/media/FT_l2tgWUAUICPn.png
+Twitter
+
+
+[06/02/2022 7:36 AM] NorellyRain#0564
+https://twitter.com/norellyrain/status/1532246600650788864
+
+{Embed}
+norellyrain (@norellyrain)
+https://twitter.com/norellyrain/status/1532246600650788864
+🧚‍♀️ Elf girl 1/1 ✨
+https://t.co/x6L9GkY4P7
+💜
+@SkyHarbor_io
+@ErgoFoundation
+#ErgoNFT $ERG #Ergo #nftart #NFT #Ergonauts #Ergo2Top10 #ThisIsERG
+https://images-ext-2.discordapp.net/external/lqchz3V4HpHnf9rCQQ456nxe3tlLcjqwizHkOe7g2Rg/https/pbs.twimg.com/media/FUOhm5aWYAADES3.jpg
+Twitter
+
+
+[06/04/2022 1:05 PM] maritsaart#9875
+https://twitter.com/maritsaart/status/1533053849111564288
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1533053849111564288
+I am very happy to present you my new collection of only 9 NFTs on @ergoplatformorg 🧡🧡🧡
+👉Monsters series 🥳
+https://t.co/vtnmHiB84I
+🧡
+@SkyHarbor_io
+$ERG #Ergo #ENFT #ErgoNFT #Ergonauts #Ergo2Top10 #cryptocurrency #ThisIsERG #nftart #NFT #CNFT #CNFTs #CardanoCommunity
+https://images-ext-2.discordapp.net/external/Eh88ZrfUkzK7NHc5m7NmNjbvKXx9p0we69ubvMU550U/https/pbs.twimg.com/media/FUZ87yvXwAE2Oxk.jpg
+Twitter
+
+
+[06/10/2022 8:49 AM] maritsaart#9875
+https://twitter.com/maritsaart/status/1535163932293447681
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1535163932293447681
+Character #15. Ergo person wearing respirator. 1500x2000 px
+https://t.co/U9aSXjEdbk
+✨✨✨
+@SkyHarbor_io
+$ERG #Ergo #ENFT #ErgoNFT #Ergonauts #Ergo2Top10 #cryptocurrency #ThisIsERG #nftart #NFT
+https://images-ext-1.discordapp.net/external/6JZZQWg57_LVCqxgqZxHsX7y1OTOGS4FBjEq6LCISMU/https/pbs.twimg.com/media/FU3---uWQAEooEP.jpg
+Twitter
+
+
+[06/14/2022 3:24 PM] NorellyRain#0564
+https://twitter.com/norellyrain/status/1536715052144902145
+
+{Embed}
+norellyrain (@norellyrain)
+https://twitter.com/norellyrain/status/1536715052144902145
+🐺 Werewolf 1/1 🌕
+https://t.co/x6L9GkY4P7
+
+@SkyHarbor_io
+@ErgoFoundation
+#ErgoNFT $ERG #Ergo #nftart #NFT #Ergonauts #Ergo2Top10 #ThisIsERG
+https://images-ext-1.discordapp.net/external/t2_J4Ts9Dl2HIOoIHzME3ODNqiiy71Cn3OerjXGfA_Y/https/pbs.twimg.com/media/FVOBmtmWAAA93mg.jpg
+Twitter
+
+
+[06/14/2022 7:23 PM] maritsaart#9875
+https://twitter.com/maritsaart/status/1536773468712214529
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1536773468712214529
+Animal cards #9. Monkey 🐒. 2000x2000 px
+https://t.co/vtnmHiB84I
+🐵🐵🐵🐵🐵
+@SkyHarbor_io
+$ERG #Ergo #ENFT #ErgoNFT #Ergonauts #Ergo2Top10 #cryptocurrency #ThisIsERG #nftart #NFT
+https://images-ext-1.discordapp.net/external/YbbY_lrNfGThAs4uIRe7q0-bkRHmLZ27N8KYh1rZl5c/https/pbs.twimg.com/media/FVO2tCuXoAI0qDv.png
+Twitter
+
+
+[06/27/2022 3:31 PM] NorellyRain#0564
+https://twitter.com/norellyrain/status/1541428692232151040
+
+{Embed}
+norellyrain (@norellyrain)
+https://twitter.com/norellyrain/status/1541428692232151040
+Scan art 🎨 Watercolor 🗝️ Key keeper 1/1 
+https://t.co/x6L9GkY4P7
+🍄🌼🍂
+@SkyHarbor_io
+@ErgoFoundation
+#ErgoNFT $ERG #Ergo #nftart #NFT #Ergonauts #Ergo2Top10 #ThisIsERG
+https://images-ext-1.discordapp.net/external/hLCjDGl2AK7r6xyvr6ZVWHWgNiQS9MjTsSTk9NGj57o/https/pbs.twimg.com/media/FWQ_-nTXoAEF4Wq.jpg
+Twitter
+
+
+[06/28/2022 12:33 PM] maritsaart#9875
+https://twitter.com/maritsaart/status/1541745752485109760
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1541745752485109760
+🪷🪷🪷🪷🪷🪷🪷🪷🪷🪷🪷🪷🪷🪷
+Girl with bouquet #2. 1250x2000 px
+https://t.co/U9aSXjEdbk
+
+$ERG #Ergo #ENFT #ErgoNFT #Ergonauts #Ergo2Top10 #cryptocurrency #ThisIsERG #nftart #NFTProject #NFT
+https://images-ext-2.discordapp.net/external/qGFaTaHdFytLEajUAEUJ1nTYRjTYD88pz2Ahf4q2ucA/https/pbs.twimg.com/media/FWVg916WYAYngdj.jpg
+Twitter
+
+
+[06/28/2022 4:51 PM] maritsaart#9875
+https://twitter.com/maritsaart/status/1541810218652389376
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1541810218652389376
+⭐️ Characters series ⭐️
+https://t.co/U9aSXjEdbk
+
+$ERG #Ergo #ENFT #ErgoNFT #Ergonauts #Ergo2Top10 #cryptocurrency #ThisIsERG #nftart #NFTProject #NFT
+https://images-ext-1.discordapp.net/external/h21LdZ2MJ-sh99BOLb5ljtFQUTqniO5tZUm0wRqcT_Y/https/pbs.twimg.com/media/FWWbj2DXoAAlIqc.jpg
+Twitter
+
+
+[07/12/2022 5:14 PM] ErgClay#6735
+https://twitter.com/cryotokg/status/1546890513172910080?t=UH5FzoHSfMnQjoM6mj1DCg&s=19
+
+{Embed}
+ClayTale (@cryotokg)
+https://twitter.com/cryotokg/status/1546890513172910080?t=UH5FzoHSfMnQjoM6mj1DCg&s=19
+Hey y'all ✋ 💙
+
+Wishing you all an Inspiring day 🙏
+
+Love to own Clay Artwork #Clayton Check Original Characters 🧑‍🎨 @ergoplatformorg
+
+Keep Safe & Stay Awesome 😎 🧙 
+👉 Collection Link : https://t.co/8ZCBJ7C0bb 
+
+#CNFT $ADA #ERG #ErgoNFT #ENFT #Ergonauts #ThisIsErgo #NFTs
+https://images-ext-1.discordapp.net/external/UNbqHY5AXbMRXqe5KQ26ebPNyL7d26f_tHDXp-9o1k0/https/pbs.twimg.com/media/FXeosCXXgAcyyap.jpg
+https://images-ext-1.discordapp.net/external/-kdztz08SonpRkt96aeLzNwxlQRAn79Hk0UaMOBRmIQ/https/pbs.twimg.com/media/FXeoszfWYAMbuEw.jpg
+https://images-ext-1.discordapp.net/external/X2LJSbCK0vsvQtO9sWTZyGdqQLuxMFri13bCc5MEe3w/https/pbs.twimg.com/media/FXeotnkWAAIUzzw.jpg
+https://images-ext-2.discordapp.net/external/9emNXZWs3flBQQY9GQD0SgTnfZG15lK_3sXqvLnj3ZA/https/pbs.twimg.com/media/FXeouROWYAMjK5Y.jpg
+Twitter
+
+
+[07/13/2022 11:20 AM] maritsaart#9875
+https://twitter.com/maritsaart/status/1547161988589125632
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1547161988589125632
+🔥 Animal pop art #25 🦝 Raccoon. 2000x2000 px
+https://t.co/vtnmHiB84I
+@SkyHarbor_io
+
+$ERG #Ergo #ENFT #ErgoNFT #Ergonauts #Ergo2Top10 #cryptocurrency #ThisIsERG #nftart #NFTProject #NFT
+https://images-ext-2.discordapp.net/external/m5Wxsl5QsE4jf-k5J2i9pekc555rJa8NyLctOILE7C8/https/pbs.twimg.com/media/FXifEqiX0A4Rfbb.jpg
+Twitter
+
+
+[07/14/2022 8:45 AM] NorellyRain#0564
+https://twitter.com/norellyrain/status/1547487043667763200
+
+{Embed}
+norellyrain (@norellyrain)
+https://twitter.com/norellyrain/status/1547487043667763200
+🍂 Magic dance 1/1 🧚‍♂️
+https://t.co/9Dcaf1QeUS
+
+@SkyHarbor_io
+@ErgoFoundation
+#ErgoNFT $ERG #Ergo #nftart #NFT #Ergonauts #Ergo2Top10 #ThisIsERG
+https://images-ext-2.discordapp.net/external/Pl2yaZABd8R4cFxbTg_cHESr_Pb16_CuTQ3HMYjFSyc/https/pbs.twimg.com/media/FXnG6LaWQAAeI8G.jpg
+Twitter
+
+
+[07/30/2022 1:07 AM] wombo22#5461
+https://www.reddit.com/r/ergonauts/comments/wbhi5i/how_do_i_change_wallets_on_skyharbor/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/wbhi5i/how_do_i_change_wallets_on_skyharbor/
+r/ergonauts - How do I change wallets on SkyHarbor?
+0 votes and 4 comments so far on Reddit
+
+
+[08/13/2022 1:14 AM] tdj#1676
+https://twitter.com/ERGYOROI/status/1558242194783612928
+
+{Embed}
+ERGYOROI | 大鎧 (@ERGYOROI)
+https://twitter.com/ERGYOROI/status/1558242194783612928
+a Legendary ergy' spotted on skyharbor
+
+❓ #ERGYOROI101
+Did you know?
+
+The first 3 "Legendary" ergy'
+is inspired from the "4 Symbols" or "4 Gods"
+
+1. Byakko The White Tiger (Element: Metal)
+2. Seiryu The Azure Dragon (Element: Wood)
+3. Suzaku The Vermilion Bird (Element: Fire)
+https://images-ext-2.discordapp.net/external/ufcxtZ_rAKrwZ_rNEj-968JyKjpfrEgbf2OjdiG5W6M/https/pbs.twimg.com/media/FZ_7l4PakAAsgk6.jpg
+https://images-ext-1.discordapp.net/external/hAuNjFbonX1EqN81GrDH5-2AWg73AFLWVMWTCAtUr5g/https/pbs.twimg.com/media/FZ_85EDaAAEduFk.png
+Twitter
+
+
+[08/16/2022 9:22 PM] NorellyRain#0564
+https://twitter.com/norellyrain/status/1559625820523593728
+
+{Embed}
+norellyrain (@norellyrain)
+https://twitter.com/norellyrain/status/1559625820523593728
+🥰 🫶 Hi! I present to you my new NFT series 🐾Ergo Cats🐾 on the ERGO blockchain! 🥳
+https://t.co/9Dcaf1QeUS
+💜🐱🎉
+@SkyHarbor_io
+@ErgoFoundation
+#ErgoNFT $ERG #Ergo #nftart #NFT #Ergonauts #Ergo2Top10 #ThisIsERG
+https://images-ext-2.discordapp.net/external/TdTpMavhS64S1hipkMXdgEsyaWFgYF0myZUmCexk4ks/https/pbs.twimg.com/media/FaTlfvFWAAE_IqI.jpg
+Twitter
+
+
+[09/03/2022 1:04 PM] NorellyRain#0564
+https://twitter.com/norellyrain/status/1566033115155505159
+
+{Embed}
+norellyrain (@norellyrain)
+https://twitter.com/norellyrain/status/1566033115155505159
+My NFT series 🐾Ergo Cats🐾
+https://t.co/9Dcaf1QeUS
+💜🐱🎉
+@ergoplatformorg
+@SkyHarbor_io
+@ErgoFoundation
+#ErgoNFT $ERG #Ergo #nftart #NFT #Ergonauts #Ergo2Top10 #ThisIsERG
+https://images-ext-2.discordapp.net/external/yi-hy7JbZYTWoIgNE3gogoDSQc3KMAhdeKElujJLPLc/https/pbs.twimg.com/media/FbuqDELWIAAKfy2.jpg
+Twitter
+
+
+[09/05/2022 6:47 PM] ErgClay#6735
+https://twitter.com/cryotokg/status/1566844893594517511?s=20&t=KBumTR-WW_QENG6fQVLLPA
+
+{Embed}
+ErgClay (@cryotokg)
+https://twitter.com/cryotokg/status/1566844893594517511?s=20&t=KBumTR-WW_QENG6fQVLLPA
+📯 20 Whitelist Spots on 20 ClayTale Cards 📯
+
+🃏 Catch ClayTale Card #005 "Mr Finest" #NFT 🧙‍♀️
+🃏 Mystery Mind and Whitelist Spot 🔮 
+
+👉Token Page : https://t.co/yzUVzlMrC2
+#CNFT $ADA #Ergo #nftcollectors #nftarti̇sts #NFTCommunity #NFTs #ENFT #Ergonauts #nftart
+https://images-ext-2.discordapp.net/external/kyBX9H6kJZdxB-ILsRpMIg_ob7XmMznebSH7_0qhYzo/https/pbs.twimg.com/media/Fb6M6SpXwAE1KkA.jpg
+Twitter
+
+
+[09/05/2022 7:19 PM] Refigo#9206
+How many of each clay figure have you made?
+
+
+[09/05/2022 8:29 PM] ErgClay#6735
+I done from the start till now like 16 original clay figure
+
+
+[09/05/2022 8:30 PM] ErgClay#6735
+what do you think about my clay artwork ?
+
+
+[09/06/2022 8:25 PM] Refigo#9206
+They look really really good, How many nfts is it of each clay figure? 1?
+
+
+[09/13/2022 2:12 PM] maritsaart#9875
+https://twitter.com/maritsaart/status/1569673601887895553
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1569673601887895553
+Character #26. Tribal Chief. 1500x2000 px
+https://t.co/vtnmHiB84I
+@ergoplatformorg
+@ErgoFoundation
+@SkyHarbor_io
+$ERG #Ergo  #ErgoNFT #Ergonauts #Ergo2Top10 #cryptocurrency #ThisIsERG #nftart #NFTProject #NFT #NFTartists
+https://images-ext-2.discordapp.net/external/gHXOKUDN2spzqDgSbQeiYnBoluSIwnnejB4kbEjh6Q0/https/pbs.twimg.com/media/FciZwqNWAAAFY2c.jpg
+Twitter
+
+
+[09/17/2022 6:21 PM] 6directions#1089
+Hey there 👋🏼 have noticed sky harbor shows a collection's mint address or addresses.
+
+Are mint addresses the artist identity described by EIP-24?
+https://github.com/ergoplatform/eips/blob/master/eip-0024.md#artist-identity
+
+{Embed}
+https://github.com/ergoplatform/eips/blob/master/eip-0024.md
+eips/eip-0024.md at master · ergoplatform/eips
+Ergo Improvement Proposals. Contribute to ergoplatform/eips development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/3mGOjNdestZnNKcI02WqtZGj-X2Ugm-bewG3Ql0pLkk/https/opengraph.githubassets.com/0d327ef861f83c29d96d1828acfddba96d1bf61cba218ce338a6af968f56de25/ergoplatform/eips
+
+
+[09/19/2022 6:52 PM] maritsaart#9875
+https://twitter.com/maritsaart/status/1571919311752634369
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1571919311752634369
+🥳🧐🧐🧐👉
+Spirit #7. 4500x6000 px
+https://t.co/U9aSXjEdbk
+💜 @ergoplatformorg
+💜 @ErgoFoundation
+💜 @SkyHarbor_io
+
+$ERG #Ergo #ENFT #ErgoNFT #Ergonauts #Ergo2Top10 #cryptocurrency #ThisIsERG #nftart #NFT #cryptoart #NFTCommunity #NFTProject
+https://images-ext-2.discordapp.net/external/0R4d92pXPYG-q-oXwLzPlqsR7utVjwAAaDoxpTSNj4k/https/pbs.twimg.com/media/FdCTBYkXEAMhl8a.jpg
+Twitter
+
+
+[09/20/2022 2:36 AM] quokka#1273
+yes
+
+{Reactions}
+👍 
+
+[10/11/2022 6:44 PM] NorellyRain#0564
+https://twitter.com/norellyrain/status/1579889766765854720
+
+{Embed}
+norellyrain (@norellyrain)
+https://twitter.com/norellyrain/status/1579889766765854720
+🧌 Goblin 1/1 🍄🍂
+https://t.co/x6L9GkYCEF
+💚
+@ergoplatformorg
+@SkyHarbor_io
+#ErgoNFT $ERG #Ergo #nftart #NFT #NFTProject #Ergonauts #Ergo2Top10 #ThisIsERG #NFTartists
+https://images-ext-1.discordapp.net/external/IsnzSfb2TmcxMRA8nF_rIYfEMjyOIdAr5e0Q9J81XP0/https/pbs.twimg.com/media/FezjmdfXEB0nDG3.jpg
+Twitter
+
+
+[10/28/2022 6:54 PM] maritsaart#9875
+https://twitter.com/maritsaart/status/1586047850760515584
+
+
+[11/14/2022 7:57 PM] quokka#1273
+Hey! If you guys are new to Ergo and SkyHarbor, make sure to follow us on twitter for all the updates! https://twitter.com/skyharbor_io
+
+
+[11/28/2022 12:22 PM] maritsaart#9875
+https://twitter.com/maritsaart/status/1597160038350868480
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1597160038350868480
+💜 DISCOUNT 🥳💰🧐
+🪄Tokenart. On-chain artworks 🧐
+ASCIIart+Pixelart technique. All art data are in Ergo blockchain (as text), external storage like imgbb/ipfs not used.
+https://t.co/b2gCmpTiU6
+
+@Ergo_Platform
+@auction_house_
+$ERG #Ergo #ErgoNFT #Ergonauts #Ergo2Top10  
+(1/2) 👇
+https://images-ext-1.discordapp.net/external/k8hMbgcf_1PO_vGT06HI3Fi0hXf__kimSaijI6wxvqQ/https/pbs.twimg.com/media/FipAkkQXEAAACBQ.jpg
+https://images-ext-2.discordapp.net/external/k7jxv_Lq8P91uXtMLdrSJZE0tsVJh2ftq-OIFWU3_mQ/https/pbs.twimg.com/media/FipAkkVXkAECCEH.jpg
+https://images-ext-2.discordapp.net/external/E2aEV-vJhEpHR3ZEAoTsyemZ46iwp_10wx3A4r5vXdk/https/pbs.twimg.com/media/FipAkkOXEAA89rF.png
+Twitter
+
+
+[11/30/2022 8:16 PM] NorellyRain#0564
+https://twitter.com/norellyrain/status/1598047579241123851
+
+{Embed}
+norellyrain (@norellyrain)
+https://twitter.com/norellyrain/status/1598047579241123851
+💚🥳🎉SALE🎉🥰💚
+https://t.co/x6L9GkY4P7
+💚👀👀👀
+@ergoplatformorg
+@SkyHarbor_io
+@ErgoFoundation
+#ErgoNFT $ERG #Ergo #nftart #NFT #Ergonauts #Ergo2Top10 #ThisIsERG
+https://images-ext-1.discordapp.net/external/kWrhmAepDy4pm8-lvKlvvkMSiueyw8gDJpYhF8e0WKM/https/pbs.twimg.com/media/Fi1nEvYXECAxjWv.jpg
+Twitter
+
+
+[01/25/2023 4:01 PM] maritsaart#9875
+https://twitter.com/maritsaart/status/1618274704103735300
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1618274704103735300
+Blockchain bear #3 🥳 2000x2000 px
+👉 https://t.co/vtnmHiBFUg
+🫶 @SkyHarbor_io
+$ERG #Ergo  #ErgoNFT #Ergonauts #nftart #NFTProject #NFT #NFTartists
+https://images-ext-1.discordapp.net/external/e0GZP2CsOVqIcJyUPtGviFbho3w9dLhKCSRHiqw1KWs/https/pbs.twimg.com/media/FnVEE7MX0AAp7Il.jpg
+Twitter
+
+
+[03/21/2023 11:47 PM] wombo22#5461
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940210225628188684/1087885139008311416/Screen_Shot_2023-03-21_at_7.45.46_PM.png
+
+
+[03/21/2023 11:48 PM] wombo22#5461
+just a thought, for the background behind a collections, maybe it would be cool to allow the artists to pick a banner or something to fill it out if they didnt want to leave it blank/default
+
+
+[03/21/2023 11:49 PM] wombo22#5461
+not sure if its possible but you know like the banners on twitter and such, just another little customizable thing for the artist
+
+
+[03/21/2023 11:51 PM] wombo22#5461
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940210225628188684/1087886147587420190/Screen_Shot_2023-03-21_at_7.50.55_PM.png
+
+
+[03/21/2023 11:59 PM] wombo22#5461
+o lol nvm guess everyone does that opensea and jpgstore
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940210225628188684/1087888334786936952/Screen_Shot_2023-03-21_at_7.59.01_PM.png
+
+
+[04/08/2023 5:22 PM] maritsaart#9875
+https://twitter.com/maritsaart/status/1644640182790963210
+
+{Embed}
+Maritsa Art (@maritsaart)
+https://twitter.com/maritsaart/status/1644640182790963210
+🥳 Animal pop art #27. Squirrel
+👉https://t.co/tuuQOIRN9C
+💚💚@SkyHarbor_io
+$ERG #Ergo #ErgoNFT #Ergonauts #ErgoArtists #cryptocur #nftart #NFT #cryptoart
+https://images-ext-2.discordapp.net/external/1iOqwEhmXqpWeORd4lGSfZnmXI8MOPLLaQ6fXC25bM8/https/pbs.twimg.com/media/FtLuvAvWIAA00rT.png
+Twitter
+
+
+[04/16/2023 6:33 PM] NorellyRain#0564
+https://twitter.com/norellyrain/status/1647650296712028160
+
+{Embed}
+norellyrain (@norellyrain)
+https://twitter.com/norellyrain/status/1647650296712028160
+🦄 Unicorn 1/1 🌥️
+https://t.co/x6L9GkY4P7
+✨✨✨
+@skyharbor_io 
+@Ergo_Platform
+#ErgoNFT $ERG #Ergo #nftart #Ergonauts
+https://images-ext-2.discordapp.net/external/PsFL-xe5Vc9QFD81AaN6rM4CELCJwemzBIMggcQhntQ/https/pbs.twimg.com/media/Ft2f13YXoAUTQPb.jpg
+Twitter
+
+
+[04/18/2023 8:09 PM] NorellyRain#0564
+https://twitter.com/norellyrain/status/1648401563793145857
+
+{Embed}
+norellyrain (@norellyrain)
+https://twitter.com/norellyrain/status/1648401563793145857
+🤍🥳🔥
+👋 I present to you my new NFT collection 🦉Owls🦉! 
+https://t.co/m7TsWnmqUz 
+🤍🤍🤍
+@skyharbor_io
+#ErgoNFT $ERG #Ergo #nftart #Ergonauts
+https://images-ext-2.discordapp.net/external/bZ97rG6tBg8UwER9tmJw66mnWcjEe3CeGvh3qikMUhU/https/pbs.twimg.com/media/FuBKoHcWAAUTVdA.jpg
+Twitter
+
+
+==============================================================
+Exported 149 message(s)
+==============================================================

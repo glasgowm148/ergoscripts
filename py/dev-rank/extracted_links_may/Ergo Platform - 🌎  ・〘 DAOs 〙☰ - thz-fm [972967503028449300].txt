@@ -1,0 +1,2790 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 DAOs 〙☰ / thz-fm
+==============================================================
+
+[05/08/2022 10:19 PM] glasgowm#9381
+https://medium.com/@swampmusic.usa/swamp-audio-layer-2-musician-launchpad-a7027338941f
+
+{Embed}
+https://medium.com/@swampmusic.usa/swamp-audio-layer-2-musician-launchpad-a7027338941f
+SWAMP.AUDIO — LAYER 2 MUSICIAN LAUNCHPAD
+ABSTRACT
+
+{Reactions}
+🛠️ (2) 
+
+[05/08/2022 10:44 PM] liquid_phase#4605
+Cheers!
+
+
+[05/08/2022 11:40 PM] NoahErgo#4349
+not sure if you have seen these guys, they haven't been very active but maybe theres some room for collaboration
+
+https://www.hopiumrecords.io/
+https://twitter.com/hopiumrecords
+
+{Embed}
+https://www.hopiumrecords.io/
+Hopium Records | NFT Record Label
+Hopium Records is an art project/NFT record label.
+
+{Embed}
+https://twitter.com/hopiumrecords
+Hopium Records (@HopiumRecords)
+NFT record label. Exploring the new musical, artistic and societal possibilities arising from decentralised blockchain technology and NFTs. Powered by $ERG
+Followers
+1235
+Tweets
+29
+https://images-ext-2.discordapp.net/external/RpcNf3W31eNn90v8dH8Ut6O5pGzV9H708HNlGd0TdOA/https/pbs.twimg.com/profile_images/1463259052515938321/sVjfDQVF_400x400.jpg
+Twitter
+
+{Reactions}
+👍 
+
+[05/09/2022 12:07 AM] liquid_phase#4605
+Will def hit them up!
+
+
+[05/09/2022 6:54 PM] Ergonaut_Alpha#1583
+awesome. glad to be here and looking forward to the fun this month has instore!
+
+
+[05/09/2022 8:25 PM] lgd#5847
+I know there is a project on Cardano called Newm, maybe they have some ideas you can share
+
+{Reactions}
+👍 
+
+[05/09/2022 9:37 PM] liquid_phase#4605
+^ that project does seem more in alignment with my goals, but i am not sure i get a good vibe from their delivery - it's heavy on the marketing / hype. If you know anyone involved in the project whom i can connect with i'd be happy to shoot them an email seeing the potential for collaboration... i was considering utilizing cardano bridge to ergo as an easy on and off ramp for users to get fiat into the erg ecosystem
+
+
+[05/09/2022 9:47 PM] liquid_phase#4605
+So i hope for the best and that their team is actually in it for the right reasons! No competition if we're all developing solutions which enhance the experience of the artist
+
+
+[05/09/2022 9:49 PM] lgd#5847
+good luck, anything that makes life better for artists is a plus
+
+{Reactions}
+👍 
+
+[05/09/2022 9:52 PM] liquid_phase#4605
+ty sir 🙂 some big things in the works
+
+
+[05/10/2022 6:07 PM] Σϱγonario#6966
+Hi guys! I'm just a spectator but I made a post on your proposal in italian on my blog, i really love your objective. I was wondering what kind of new collaboration are you looking for? I collaborate off line with a reharsal room, kinda regular studio for registering, a pretty nice one. But no dev/technical skills. I could speak with some of the bands and maybe let them register something for the project. What do you think?
+
+{Reactions}
+👍 (2) 
+
+[05/11/2022 1:24 AM] liquid_phase#4605
+thanks for doing that repost! super happy that you are in alignment with our goals 🙂
+
+For right now, i am not sure if we are at the scale or ready yet to work with anyone outside the existing label (swamp music) roster who are going to beta test everything and provide their feedback on the technicals and how to better build features in the future plans. Our roadmap is still being built out as well for overall product/service offering - so I'm not sure if we're mature enough to approach anyone external - atleast not until ergohack has completed probably!
+
+I do think that what you can do in the meanwhile is begin the discussion with them: "What is the value you put into your music?"
+
+I want artists to begin having realistic discussions among themselves about the value of their craft and the hours and struggle that went into it (and the gear, of course) 
+
+It is important to begin these discussions and then bridge them into exploratory idea-spaces involving new ways to generate the value which the music/art/artist is actually worth - such as crypto, NFTs, and web 3.0. 
+
+Our platform does plan on providing several tools for artists to utilize, but it also aims to teach artists to be their own manager and distributor in the new space. So that doesnt need our website to be built out to start on, education and integration into the knowledge base of how things work in a decentralized way can start now or any time. 
+
+I will continually be posting updates with the tools and methodologies that the team uncovers and how the tools we build for our own use can be utilized by others in the future.
+
+
+[05/11/2022 7:53 PM] liquid_phase#4605
+I am also drawing out another flow for the artists entering a smart contract for royalties distribution, which will take place after each track has been minted but before the release is minted - so the smart contract would contain the track IDs, and then release would contain the smart contract ID in a field like royalty_conditions
+
+
+[05/11/2022 7:55 PM] liquid_phase#4605
+The whole process for a pack with many files would be tedious, so the plan is to offer a 'centralized' layer 2 solution for our own roster but then provide this solution as a sass platform for other galleries/labels/content resellers which handles the bulk of the logic re: relational data
+
+
+[05/11/2022 7:55 PM] liquid_phase#4605
+the sass solution would be provided either as a fee model for managed by us or available as an open source DIY thing on github
+
+
+[05/11/2022 7:59 PM] liquid_phase#4605
+We can potentially then build out an oracle which consistently watches smart for royalty_conditions: to interact with the sale/distribution of the release... currently model is there is a set price per track, but oracle data could shift the price of the track in relevancy to the market, or the royalties agreement (royalty conditions could possibly contain functions like :
+```'if erg price is lower than $3, raise royalty by 5% --if erg price is greater than $10, reduce royalty by 1.5%'```
+
+
+[05/11/2022 7:59 PM] liquid_phase#4605
+All very conceptual at this point as far as the smart contract side, we're still looking for some more help with ergoscript as well
+
+
+[05/12/2022 12:43 AM] liquid_phase#4605
+STEP ONE: MINT SOLO ASSET FILES
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/974094323773755482/Drawing.png
+
+
+[05/12/2022 12:43 AM] liquid_phase#4605
+STEP 2: ENTER AND MINT RELEASE AGREEMENT CONTRACT
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/974094419529719818/Drawing-2.png
+
+
+[05/12/2022 12:44 AM] liquid_phase#4605
+STEP 3: SMART CONTRACT DISTRIBUTES NFT TO BUYERS AND PAYOUT TO CONTRACT OWNERS
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/974094584546226196/Drawing-3.png
+
+
+[05/12/2022 12:44 AM] liquid_phase#4605
+OPTIONAL: utilize oracle data to update price of release OR royalty payout conditions
+
+
+[05/13/2022 3:02 AM] liquid_phase#4605
+Recorded our first podcast interview today!
+
+
+[05/13/2022 3:14 AM] liquid_phase#4605
+@capt_nemo - how feasible would it be for something like nautilus wallet to recognize  an NFT which is minted as a markup language file (YAML, JSON, etc) which referenced ownership of other assets (ie, the markup file is an 'album' referencing individual 'songs' being owned when the whole album is owned) - and then subsequently group them together or out them in a 'folder' in the NFT viewer of the wallet?
+
+If you look at my flow charts above it might explain to you better what my goals are
+
+
+[05/14/2022 2:42 AM] liquid_phase#4605
+some front end work i did today to make the Album/Release page appear more like an actual vinyl/album/CD appearance while listening to the music
+
+
+[05/14/2022 3:00 AM] liquid_phase#4605
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/974853617553133639/unknown.png
+
+
+[05/14/2022 5:51 AM] liquid_phase#4605
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/974896601518706748/Screen_Shot_2022-05-13_at_9.50.13_PM.png
+
+
+[05/14/2022 10:26 PM] liquid_phase#4605
+Update: all existing label roster has been inputted and uploaded into the new website infrastructure, and the backend and frontend are working very nicely together.
+
+Going to setup download routes/access for purchasers  and integrate fiat payment method (snipcart) as well as crypto (ergo)
+
+
+[05/14/2022 10:26 PM] liquid_phase#4605
+Now that frontend and relational data is done i will be focussed on the ergo side
+
+
+[05/16/2022 4:09 AM] liquid_phase#4605
+**Who: **Liquid phase core developer, ergonaut alpha core smart contracts, looking for front end JS dev & others
+
+**What: **swamp.audio / podcast / publisher / ergo launchpad for musicians and creative projects to learn about and integrate with Ergo
+
+**When: **Ergohack is laying the foundation for the project and starting the development of the smart contracts for Utilizing NFTs in new ways, but the project will continue developing the Musical NFT space.
+
+**Why: **to attempt to give music a better presence in the NFT space and provide more value and wealth generation to the people that make it and to open-source any discovered solutions to the community
+
+**Where: **https://swamp.audio/ is wherethe Ergopay integration will first show up with the ability to purchase a high-res album of music using ergo (Not yet a pack NFT, just a normal archive paid for with ergo)
+
+{Embed}
+https://swamp.audio/
+Home
+A deep dive into the primordial soup of the soul.
+
+
+[05/16/2022 4:13 PM] liquid_phase#4605
+who will use swamp smart contracts and why
+
+musician A mints their song, its an infividual Audio File mp3/wav. 
+
+
+musician B mints her song, an individual audio file mp3/wav. 
+
+
+Now both musicians have a single track NFT and want to release them together in a compilation.
+
+---
+OR
+---
+
+Musician A makes an 'album' of 10 individual songs wavs and 1 cover art jpg. 
+Musician mints one song at a time and one cover art. 
+Now musician has 10 individual NFT audio and 1 NFT image, with no relationship to eachother in a wallet.
+How does musician A distribute their album of music in the NFT format?
+
+--
+
+Framework proposed would be introduced for musicians and artists for collaborative efforts and group/pack NFT releases.
+This framework can be expanded upon to create novel new types of NFT content such as in-game treasure chests or in-game houses filled with content, where the house is also property and not infrastructure like a wallet
+
+
+[05/17/2022 12:42 AM] capt_nemo#3204
+Hey, I'm sorry for the delay
+
+Well it's pretty possible from wallet side. I would suggest you to open a PR for EIP-4 and add a new asset type to make it easy to detect and open for other devs to implement the same pattern.
+
+{Reactions}
+❤️ 
+
+[05/17/2022 2:08 AM] liquid_phase#4605
+yay! Ergopad has already filed the PR for the utility token type so we are hoping it gets merged asap
+
+
+[05/17/2022 5:28 AM] liquid_phase#4605
+Dont know if Ergopad's utility token will quite do it, if it does great, if not here is my PR!
+https://github.com/ergoplatform/eips/pull/67
+
+{Embed}
+https://github.com/ergoplatform/eips/pull/67
+Introduce 'Asset Pack' NFT type by nn-dmt · Pull Request #67 · ergo...
+Add new token type for "Asset Pack" which is proposed to be superscript language (YAML) referencing the ownership of other NFT objects in a hierarchy/pack.
+Allows for native organization ...
+https://images-ext-1.discordapp.net/external/Ii-0h4e7lTGIp-f1l3SZbXcNRkX3RFvD4UuRw0Bl9Ss/https/opengraph.githubassets.com/085ece889b1b1a79af05d9fb8209754d11f521fed02c971f0963bd56f7197af9/ergoplatform/eips/pull/67
+
+{Reactions}
+❤️ (2) spicy 
+
+[05/17/2022 2:45 PM] Ergonaut_Alpha#1583
+The next generation of Ergo NFTs is BRIGHT!
+
+{Reactions}
+❤️ 
+
+[05/17/2022 3:47 PM] liquid_phase#4605
+Here is a chart on how we can potentially utilize DMT.PUB (my other project for ergo node) as a layer2 in between ergo and the web CMS using @capt_nemo  new graphQL ergo explorer (laravel and graphQL go together like butter and toast)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/976133924055052298/Drawing2.png
+
+{Reactions}
+ergo_orange 
+
+[05/17/2022 5:09 PM] NoahErgo#4349
+Can you ELI5 what this does?
+
+
+[05/17/2022 5:14 PM] liquid_phase#4605
+just allows my record label CMS to use a native graphQL API tie in via laravel to potentially tie to my other server, the node and larger project
+
+
+[05/17/2022 5:15 PM] liquid_phase#4605
+its a theoretical mockup flowchart just high level concept
+
+
+[05/17/2022 5:15 PM] liquid_phase#4605
+The node server logs the blocks in a local DB and graphQL can query that instead of the actual blockchain, a layer two explorer specific for our dapp
+
+
+[05/18/2022 7:07 AM] liquid_phase#4605
+https://www.youtube.com/watch?v=qxEJdomC-hw
+
+I forgot to mention in this video,
+
+My site aims to take something like bandcamp and an artists own website and patreon and combine them into one. When I finish building swamp out, the platform will be made available open source* for anyone else who wants to fork it and run their own publishing site and crypto pad for their own project(s)
+
+*open source asterisk because currently I am using paid composer plugins to speed development and which ease the onboarding experience for non-technical users
+
+{Embed}
+Laser Waves
+https://www.youtube.com/watch?v=qxEJdomC-hw
+swamp.audio ERGOHACK update -- Front End site and user interface goals
+https://images-ext-2.discordapp.net/external/F0BvkukX-tSDVgyWBhEHrSK7gBvgvbOF-EORLQzCBhQ/https/i.ytimg.com/vi/qxEJdomC-hw/sddefault.jpg
+
+
+[05/18/2022 7:07 AM] liquid_phase#4605
+https://www.youtube.com/watch?v=XW3uxXw6bn8
+
+{Embed}
+Laser Waves
+https://www.youtube.com/watch?v=XW3uxXw6bn8
+swamp.audio ERGOHACK update -- Asset Pack NFTs proposal
+https://images-ext-2.discordapp.net/external/NpW6snAUyBSjcDIR2vRvm_9X0Y8MUBfWHd--e41lwUI/https/i.ytimg.com/vi/XW3uxXw6bn8/maxresdefault.jpg
+
+{Reactions}
+gucci_sauce ergo_orange 
+
+[05/22/2022 12:27 AM] liquid_phase#4605
+Made progress on the fiat integration using snipcart (much recommend for easy fiat stuff)
+
+added a buy button for fiat with IF conditions which state if fiat price of album/track is above 0, buy button will display - if no price is entered the buttons will not show.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/977714381645283389/unknown.png
+
+{Reactions}
+ergo_orange (3) 
+
+[05/22/2022 12:27 AM] liquid_phase#4605
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/977714396505727046/unknown.png
+
+
+[05/22/2022 12:29 AM] liquid_phase#4605
+full fiat cart functionality is working now, just required re-uploading each releases as a zip archive over at snipcart's dashboard and then linking the UID into the tags on the frontend - easy just need to spend more time uploading now
+
+
+[05/22/2022 3:10 AM] liquid_phase#4605
+I was able to successfully use the ergopay dropin from thierryM to "purchase" an album with erg, though there is not yet a good workflow for validating the purchase and sending the zip file to the user using this methodology. The next step to attempt to run the ergopay dapp within our own stack so that we can fully customize some of the parameters to include PHP for better validation
+
+
+[05/22/2022 3:13 AM] liquid_phase#4605
+added an area in the backend to enter an artists ergo address and paypal address to automate into URLs using variables/tags
+
+
+[05/22/2022 3:13 AM] liquid_phase#4605
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/977756011895070770/Screen_Shot_2022-05-21_at_7.12.46_PM.png
+
+
+[05/22/2022 3:19 AM] liquid_phase#4605
+will do something like this to start using a swamp community account to track all sales which happen at first on ergo until each artist has an individual wallet either from automatic node setup on my end or artist entering their own:
+```
+<a href="/paymentportal/pay.html?address={{ artist }}{{ if ergo_address===true }}{{ ergo_address }}{{ else }}{{ swamp_ergo_address }}{{ /if }}{{ /artist }}&currency=ERG&amount={{ price_ergo }}&ref={{ title }}-{{ csrf_token }}-{{ now format="Ymdhs" }}">Buy with Ergo</a>
+```
+
+
+[05/22/2022 3:21 AM] liquid_phase#4605
+^this is sort of a lazy 'validator' to identify purchased unique to cookie session, title of work purchased, and timestamp of purchase as a string in the memo
+
+
+[05/22/2022 3:04 PM] liquid_phase#4605
+It is worth noting that NFT smart contract technology in its present state does not quite hold up under US copyright law.
+
+Using the SWAMP.AUDIO asset pack minting scheme, assignment provision happens inside the YAML file which tells the smart contract what to do, and the smart contract operates as the trust which carries out the will of the contract holders.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/977935063293493289/Screen_Shot_2022-05-22_at_7.02.57_AM.png
+
+
+[05/23/2022 3:49 AM] liquid_phase#4605
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/978127603699437588/Screen_Shot_2022-05-22_at_7.49.19_PM.png
+
+
+[05/23/2022 3:52 PM] liquid_phase#4605
+https://www.youtube.com/watch?v=NcYMGxBYQ_I
+
+{Embed}
+Laser Waves
+https://www.youtube.com/watch?v=NcYMGxBYQ_I
+swamp.audio fiat / ergo purchasing preview
+THIS IS A WORKFLOW TO MAKE PURCHASES OF DIGITAL GOODS USING ERGO OR FIAT.
+
+THIS IS NOT A WORKFLOW TO PURCHASE OR CREATE NFT ALBUMS, WHICH IS ALSO A MAJOR GOAL OF SWAMP.AUDIO
+https://images-ext-2.discordapp.net/external/uwzXmS0ViAHF_l-cpGUAakcZF4l5rW0zHfQP4ZM0qwA/https/i.ytimg.com/vi/NcYMGxBYQ_I/maxresdefault.jpg
+
+{Reactions}
+🔥 (3) 
+
+[05/27/2022 7:34 AM] liquid_phase#4605
+Very happy to say that we have gotten our 'middleware' purchasing workflow with ergo working before the end of ergohack!
+https://www.youtube.com/watch?v=0kBcyzFwjIg
+
+{Embed}
+Laser Waves
+https://www.youtube.com/watch?v=0kBcyzFwjIg
+Buying digital music with Ergo on swamp.audio !
+one of our final deliverables for this ergohack was a succesful workflow for purchasing NON-NFT digital goods using Ergo in an anonymous/decentralized way. We are very proud to deliver on this goal
+https://images-ext-2.discordapp.net/external/ED3WXV6OGbq-AtJgQ07rwhKCtj_qLSlEo_TIaBvLWRA/https/i.ytimg.com/vi/0kBcyzFwjIg/sddefault.jpg
+
+{Reactions}
+👍 (4) ergo_orange (2) 
+
+[05/28/2022 11:05 AM] abchris#8522
+Very nice 👍
+
+{Reactions}
+🤝 
+
+[05/29/2022 4:01 AM] liquid_phase#4605
+https://docs.google.com/document/d/1ARevOdDiUkqYLzJ3WjjsRNNkgChJebbhcxh8SSANzio/
+
+{Embed}
+https://docs.google.com/document/d/1ARevOdDiUkqYLzJ3WjjsRNNkgChJebbhcxh8SSANzio/
+swamp.audio ergohack final report & summary
+Swamp.audio ErgoHack IV End Summary / Report
+https://images-ext-2.discordapp.net/external/xKhWio-PJ6aDsB--Yg0hHFLfdhYD0ukj6NCZyPXbz8s/https/lh3.googleusercontent.com/lxK7sRAt5-1SSrRv6GBH2ZYBOV9J6AuJqqvPdE5SYaBs4wNsS8iZItY4M65Fo_hg-hDSffRcbg8p7g%3Dw1200-h630-p
+
+{Reactions}
+ergo_white 
+
+[05/30/2022 6:45 PM] liquid_phase#4605
+Performing stress testing on our current server configuration. 
+
+We are able to handle 10 thousand clients connections over the course of 1 minute while never surpassing 10% CPU load on server. Need to set up kuber clusters for network scaling on demand when bandwidth needs call for it.
+
+We are presently able to handle 1000 requests per second (max the test allowed) without any performance loss.
+
+ Our average response time across all tests is 23ms.
+
+Cloudflare speed test shows our site actually loading faster without their caching enabled (their cache says it will save 2% time, probably for mobile assets loading)
+
+Speed rank from google dev tools shows desktop site at 98% efficiency rating, mobile site at 69 (need to do mobile optimization)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/980889654674985072/Screen_Shot_2022-05-30_at_10.41.56_AM.png
+https://cdn.discordapp.com/attachments/972967503028449300/980889654901481532/Screen_Shot_2022-05-30_at_10.44.14_AM.png
+https://cdn.discordapp.com/attachments/972967503028449300/980889655178313728/Screen_Shot_2022-05-30_at_10.45.03_AM.png
+
+{Reactions}
+ergo_orange (2) 🔥 
+
+[05/30/2022 9:52 PM] rxart#6096
+The asset pack NFT type sounds super interesting.  I think Cardania is doing something similar on Cardano with their resource distributions so I imagine it should be possible on Ergo as well.
+
+
+[05/30/2022 9:52 PM] rxart#6096
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/980936718389755904/unknown.png
+
+
+[05/30/2022 9:52 PM] rxart#6096
+the energy pack includes other resources in it
+
+
+[05/30/2022 9:52 PM] rxart#6096
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/980936849818267688/unknown.png
+
+
+[05/30/2022 9:53 PM] liquid_phase#4605
+is that layer 1 or layer 2?
+
+
+[05/30/2022 9:53 PM] rxart#6096
+not sure
+
+
+[05/30/2022 9:53 PM] liquid_phase#4605
+its really easy to arrange things on a layer two - an asset pack on the layer 1 has pretty large implications for blockchain and nft development if possible
+
+
+[05/30/2022 9:54 PM] liquid_phase#4605
+either way it is nice to know that the NFT space in general is moving this direction
+
+
+[05/30/2022 9:55 PM] rxart#6096
+indeed....I've also seen an html implementation of NFT album from one the Dripdropz team members.  here's link for reference:
+
+https://pool.pm/asset1ep4pzge6f4nvnfl8tlxkn63twkwaczv564f0aj
+
+{Embed}
+https://pool.pm/asset1ep4pzge6f4nvnfl8tlxkn63twkwaczv564f0aj
+Traverse by Necksmile [00026]
+https://images-ext-2.discordapp.net/external/E11EF4U7tdyHJatckJOnmcjeDodnoqdwiPrsf4KpzZY/https/cnft.pm/img/J_PH8WD1oJC49r045aC4k4IW_1c93uVcwSEkR2jh_sI/mw%3A300/mh%3A157/q%3A90/bg%3A0%3A0%3A0/g%3Ace/rs%3Afit%3A1200%3A628%3A0/aHR0cHM6Ly9pbmZ1cmEtaXBmcy5pby9pcGZzL1FtU2NOQmpuSjdTRjd6QmY5NURYQzFScEVUQm1COWk3MXRTZ0F3emtNM2pyakQ.jpg
+
+
+[05/30/2022 9:55 PM] liquid_phase#4605
+that is a very nice implementation of the idea!
+
+
+[05/30/2022 9:56 PM] rxart#6096
+unfortunately I think he is using some proprietary tooling that needs to be licensed
+
+
+[05/30/2022 9:56 PM] liquid_phase#4605
+we are going for something similar just at a slightly different trajectory with indexes themselves being an NFT of other NFT objects
+
+
+[05/30/2022 9:56 PM] rxart#6096
+my buddy is working on an implementation that is open source using amplitude.js
+
+
+[05/30/2022 9:56 PM] liquid_phase#4605
+We propose a new form of NFT which is YAML files, which is an extremely versatile data serialization language that lends itself to software, web, and hardware based systems. As a superset of JSON it can call and arrange JSON objects in hierarchies with other object types. Combining this with flat file content management systems and blockchain and you enable some pretty incredible things, such as hierarchical NFTs on the layer one, server provisioning scripts which are parsed anonymously from blockchain, albums of multiple works, content packs of resources to be used in other intellectual property, on chain royalties tracking for multiple chains of ownership native to layer one.. the list goes on.
+
+
+[05/30/2022 9:56 PM] rxart#6096
+@sudo_scientist care to chime in?
+
+
+[05/30/2022 9:57 PM] liquid_phase#4605
+JS would be layer 2 - smart contracts and NFTs are native to ERGs layer one
+
+
+[05/30/2022 9:58 PM] liquid_phase#4605
+unless you could mint the JS file, in which case, it woulde be the same framework as minting YAML, and YAML is superior in terms of serialization between languages IMHO..
+
+
+[05/30/2022 9:58 PM] liquid_phase#4605
+yaml NFTs could interact with web content systems or with things like MrStahfelge's new ergo wallet json plugin system for dapps
+
+
+[05/30/2022 9:59 PM] liquid_phase#4605
+it could also parse rudimentary language into smart contract conditions, as the ergo script language and yaml seem to have similar dexterity
+
+
+[05/30/2022 10:00 PM] rxart#6096
+yeah the ergo side of things seems much more complex since there isn't as much development happening there but I'm all for it.  Ergo is the 1st place I've ever minted an audio NFT and have been looking forward to something like Swamp Audio for a long time.  you are doing a great service here!!
+
+
+[05/30/2022 10:01 PM] liquid_phase#4605
+thank you 🙂 we welcome community input and will continue to unfold the concepts here - as they are sort of new to the space. We are developers but also rights management specialists and so developing specific frameworks within NFT minting for tracking of ownership and royalties is a very big deal
+
+
+[05/30/2022 10:01 PM] liquid_phase#4605
+you cant have heirarchies or packs without some form of layer two, unless we enact something like what we are proposing
+
+
+[05/30/2022 10:01 PM] liquid_phase#4605
+the NFT space as it is now would tell musicians "better learn to make music videos to get albums heard!"
+
+
+[05/30/2022 10:01 PM] liquid_phase#4605
+lol
+
+
+[05/30/2022 10:02 PM] liquid_phase#4605
+which i dont want to discourage some dope music videos being made, but still, sometimes tools need to take a step back in their evolution to see who they're serving
+
+
+[05/30/2022 10:02 PM] liquid_phase#4605
+ecosystem in development for crypto serves predominantly crypto
+
+
+[05/30/2022 10:03 PM] rxart#6096
+definitely looking forward to what you have in store.  If I remember correctly, I believe the whitepaper also said something about a sort of "pay per play" type royalty system being implemented.  This would be incredible as that's how the industry works right now with spotify, pandora, etc.  The whole Ergo auctionhouse style royalty kickback upon sales is cool but as a musician I have always dreamed of a pay per play type royalty kickback
+
+
+[05/30/2022 10:04 PM] rxart#6096
+obviously cdbaby and those types of services are just taking advantage of artists
+
+
+[05/30/2022 10:05 PM] liquid_phase#4605
+yes as a label for almost 10 years we have seen everything from the label side and from the artist side and from the distribution side and there is so much profits being taken out of the artist hands that it makes me sick personally but as a business professional I understand the infrastructure necessary to run a huge system like that and so the only way that we can do it is to decentralize it and put it in the community's hands
+
+
+[05/30/2022 10:06 PM] liquid_phase#4605
+but there's inherent risk and decentralization and so that's why we wanted to step in to make sure that it happens properly for music and audio
+
+
+[05/30/2022 10:07 PM] rxart#6096
+like you said in one of the messages above, having a centralized layer 2 would help optimize certain things but making it open source for artists to fork and help manage themselves is about as decentralized as we can hope for right now until new methodologies and tools are developed
+
+
+[05/30/2022 10:08 PM] liquid_phase#4605
+so our plan is to be a " layer2" but a decentralized autonomous organization that open source is the tools so that anyone can do what we do and run their own DIY layer2 if they want to not opt into any profit models or community pools
+
+
+[05/30/2022 10:09 PM] liquid_phase#4605
+we're going to keep adding value for our stakeholders by continually developing tools for our system to make the platform more enticing for both artists and fans like to onboard while focusin on maximizing value delivery from the media consumer to the media producer
+
+
+[05/30/2022 10:09 PM] rxart#6096
+i'm loving the ideas so far
+
+
+[05/30/2022 10:10 PM] rxart#6096
+i don't know if you ever messed with musicoin?  it has since been shutdown but around 2017 it was pretty popular even reached 11 cents per play but the infrastructure being build on ethereum was ultimately their downfall
+
+
+[05/30/2022 10:11 PM] liquid_phase#4605
+I saw that and several other things rise and fall and you never know what's gonna happen that's why we like ergo after much much research & many years in the space we think if anyone coin has a shot to really make artist lives better it's this one
+
+
+[05/30/2022 10:12 PM] liquid_phase#4605
+being said as a developer we're going to continue to explore solutions and options and have community input and it's not to say that we can't ever be cross chain because that's the beauty of a layer2 that's well designed and run by the community (though there are absolutely no plans to do so in the present)
+
+
+[06/02/2022 5:40 AM] liquid_phase#4605
+Here is Episode 2 of our new podcast featuring Liv from Cardio Party music. We talk about streaming audio services, making the best of a bad situation (covid), the skepticism facing crypto from the music scene, the benefits of Ergo and its potential for the music scene, being a trans musician/streamer, and so much more. This was an amazing conversation and we're so grateful to Liv for joining us and blessing us with her music and her mission of spreading positivity!
+
+https://swamp.audio/the-green-room/being-a-light-in-the-darkness
+
+{Embed}
+https://swamp.audio/the-green-room/being-a-light-in-the-darkness
+Being a Light In The Darkness
+Featuring Liv from Cardio Party
+
+
+[06/03/2022 10:06 AM] brollo#7407
+Hello guys this project sound like a bit complicated to me to understand really well, could you please explain to a beginner what is it about exactly and how all of this will work?
+
+
+[06/03/2022 2:22 PM] liquid_phase#4605
+The easiest I can explain it is that we want to replicate the same abilities of something like Spotify mixed with something like SoundCloud but make it decentralized
+
+
+[06/03/2022 2:23 PM] liquid_phase#4605
+If you aren’t familiar with those two services then I recommend researching what they are
+
+
+[06/03/2022 2:23 PM] liquid_phase#4605
+we seek to connect musicians and their fans directly using ergo
+
+
+[06/03/2022 2:30 PM] brollo#7407
+yeah seems great! I'm using spotify indeed
+
+
+[06/03/2022 4:57 PM] NoahErgo#4349
+Hey @liquid_phase my best buddy is an electronic producer and DJ in the New England scene, shoot me a DM if you are interested in working with him. I haven't asked if he is interested yet, wanted to hear from you and see what your pitch was first
+
+
+[06/03/2022 4:58 PM] liquid_phase#4605
+I was born n raised in New England  and know quite a bit of producers/DJs over there 🙂 Def link them up!
+
+
+[06/03/2022 4:58 PM] NoahErgo#4349
+Hell ya bro!
+
+
+[06/03/2022 4:58 PM] NoahErgo#4349
+Will shoot you a DM
+
+
+[06/05/2022 7:27 PM] liquid_phase#4605
+in 2016 The Berklee college of Music started the Open Music Initiative. Their goals (which are our in alignment with ours) seek to create an open metadata layer for artist royalties tracking.
+
+In this article and linked research paper, written in 2019, they propose a theoretical model of this idea. 
+
+Upon looking at this, you might be able to see the similarities between their theory and the proposed workflow from swamp.audio for creating indexer NFTs to sit alongside the media itself.
+
+Having had prior knowledge of the OMI, but not knowing of this paper, it's very reassuring to see that they came to a similar conclusion as we did when it comes to using distributed ledger technology.
+
+https://open-music.org/blog/2019/11/7/towards-an-open-and-scalable-music-metadata-layer
+
+{Embed}
+https://open-music.org/blog/2019/11/7/towards-an-open-and-scalable-music-metadata-layer
+Toward an Open and Scalable Music Metadata Layer — Open Music Initi...
+One of the significant issues in the music supply chain today is the lack of consistent, complete and authoritative information or metadata regarding the creation of a given musical work. In many cases multiple entities in the music supply chain have each created their own version of the metadata fo
+https://images-ext-1.discordapp.net/external/JB6pVA-HgjZpQR3DJ_SlmvVzCAcGn_EbR-AO49d6Awo/%3Fformat%3D1500w/http/static1.squarespace.com/static/56d5e44060b5e9e20a94b16c/56d5e6249f7266400e47dc41/5dc4f336dbe4777086c9f1e9/1574378061897/Screen%2525252BShot%2525252B2019-11-08%2525252Bat%2525252B12.06.55%2525252BAM.jpg
+
+
+[06/05/2022 7:30 PM] liquid_phase#4605
+Swamp.Audio is now proudly an official member of OMI, the Open Music Initiative
+
+
+[06/08/2022 4:47 PM] liquid_phase#4605
+we are very excited to get our existing catalog of releases moved to our new system 🙂 some really amazing stuff is in the works
+
+
+[06/17/2022 11:59 PM] liquid_phase#4605
+@glasgowm we got put into exchanges but i wouldnt really consider us one... doing the DAO thing and moreso geared towards NFTs but not entirely
+
+{Reactions}
+👍 
+
+[06/19/2022 9:26 PM] liquid_phase#4605
+Started a thread.
+
+
+[06/20/2022 8:47 AM] DjGorgo#1186
+Heyyy, new member here! Lately I have been looking to tokenise/nft-nise my music as well! I'm a dj/producer from Belgium and would love to participate in doing so! Looking really forward on the unfolding of swamp.audio! I read some stuff on the ergopad website, but is there any way to read even more about the what's and hows? This is something amazing I want to be part in, so basically all my upcoming music could be databased on the chain fully decentralised!
+
+
+[06/20/2022 2:32 PM] liquid_phase#4605
+Hey welcome welcome! We're excited to see others excited about this !
+
+We have our whitepaper on github: https://github.com/nn-dmt/swamp_ergo/blob/main/white-paper.md
+
+We are following the roadmap laid out there, and will be releasing source code for CMS and smart contracts during Q3 - 
+
+right now, we aren't at the stage yet where we're ready to have people log in.
+
+If you want a basic overview of how this type of smart contract flow works, check out the Open Music Initiative's research paper on blockchain royalties tracking. Their paper mentions ethereum in a theoretical fashion, but our flow follows their model almost entirely utilizing ergo instead and slightly changed to be in accordance with copyright law
+
+{Embed}
+https://github.com/nn-dmt/swamp_ergo/blob/main/white-paper.md
+swamp_ergo/white-paper.md at main · nn-dmt/swamp_ergo
+Contribute to nn-dmt/swamp_ergo development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/CVTdGk-VXpQIBgW53xYLtTPvdvqBD4lr6rfWmSdft2A/https/opengraph.githubassets.com/1ae9f17c827293a7cc3f56066add619a568f9565f9ca1c274d03100617d7d45a/nn-dmt/swamp_ergo
+
+{Reactions}
+💯 
+
+[06/20/2022 5:25 PM] liquid_phase#4605
+We have been in constant contact over the past couple years with audio projects in the decentralized space, trying to see about potential ways to work together instead of against eachother since the mission is so similar across the board. When it comes down to it, if the mission is the same, we should all work together - that's our opinion.
+
+One of the companies we are talking to is Beatcoin (altcoin project on eth), founded by Fer Isella ( http://ferisella.com/ ) and with support from Brian Eno. 
+
+Fer has built some big projects in the digital space for music, and we're excited to say that we have scored a meeting with him and his team on this upcoming Wednesday.
+
+After telling their team about Terahertz and Ergo, they expressed that their vision and mission is 1million% in alignment with our own - so we are open to seeing where the conversation goes and excited to share the technology behind ergo with other projects! Where so many businesses have invested into ETH at its all time high and now lost so much, many need to start looking at other options
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/988479635740323860/Screen_Shot_2022-06-20_at_9.16.57_AM.png
+
+{Embed}
+http://ferisella.com/
+FΞR
+Fer Isella
+https://images-ext-2.discordapp.net/external/uI8mlPpBk-g8zTONhuFd7VYOMVB0NpaU2It8gjNETbI/%3Fv%3D65c0ea1e/https/ferisella.com/assets/images/card.jpg
+
+{Reactions}
+💯 (2) 
+
+[06/21/2022 12:16 AM] DjGorgo#1186
+That is amazing, it’s always such a good idea working together instead of working against each other. I’ll be doing some reading on this and hopefully will be able to fully understand it! I’ll be on the sidelines watching you guys closely develop this amazing idea.
+
+It would be amazing to hear some results from the meeting as well, that will be so interesting!
+
+
+[06/22/2022 9:35 PM] liquid_phase#4605
+https://twitter.com/SwampOfLife/status/1539707717832413184
+
+{Embed}
+Swamp Music (@SwampOfLife)
+https://twitter.com/SwampOfLife/status/1539707717832413184
+A little preview of album editing on the https://t.co/wv9NGhv85l backend. Audio people - what do you think compared to album management dashboards you're familiar with?
+
+#ergo #laravel #swampaudio #eNFT #decentralization #intellectualproperty #web3 #opensource #audio #defi
+https://images-ext-2.discordapp.net/external/oKM70AJd-l0DUndaYG-JhOrtDh9O_jzha_x65zk3SU0/https/pbs.twimg.com/ext_tw_video_thumb/1539707233348399104/pu/img/L5oasFGKOEnLLzzZ.jpg
+Twitter
+
+
+[06/25/2022 3:45 PM] liquid_phase#4605
+https://twitter.com/SwampOfLife/status/1540707226414829568
+
+{Embed}
+Swamp Music (@SwampOfLife)
+https://twitter.com/SwampOfLife/status/1540707226414829568
+Being personal users of both Bitwig and u-he plugins, we are very excited to see the two intellectual giants collaborate on this new open-source audio plugin language standard - CLever Audio Plug-in API (CLAP)
+
+https://t.co/lYB7ati6sN
+
+#opensource #audio #VST #AAX #AU #bitwig
+Twitter
+
+
+[06/25/2022 6:42 PM] liquid_phase#4605
+We have now published the ALPHA version of our web CMS front-end to github for open-source collaboration and review.
+
+https://github.com/nn-dmt/terahertz-starter
+
+{Embed}
+https://github.com/nn-dmt/terahertz-starter
+GitHub - nn-dmt/terahertz-starter
+Contribute to nn-dmt/terahertz-starter development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/DjVMmQ1wPabxcZ4PN8g6FpeyoNFFyEUTwbf2iZLhBrI/https/opengraph.githubassets.com/e16d28749ec38554ef0663018ffaf9c9a1d706141f21dd18bce4dfe247f95b7e/nn-dmt/terahertz-starter
+
+
+[06/25/2022 9:40 PM] liquid_phase#4605
+https://twitter.com/SwampOfLife/status/1540797108810240003
+
+{Embed}
+Swamp Music (@SwampOfLife)
+https://twitter.com/SwampOfLife/status/1540797108810240003
+Installing the Terahertz starter-kit from SwampAudio
+
+Be your own publisher.
+
+https://t.co/RpoXVagus7
+
+#DIY #DYOR #OpenSource #Ergo #Laravel #Statamic #music #audio #publishing #decentralization #takebackthepower #youareincontrol
+Twitter
+
+
+[06/27/2022 2:53 PM] liquid_phase#4605
+Album display comparison from the current standard for labels/musicians to swamp.audio's new standard
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/990978175314046986/unknown.png
+
+{Reactions}
+bogs (2) 
+
+[07/02/2022 12:40 AM] liquid_phase#4605
+I just had a meeting with one of the co founders of AudioDesignDesk( https://add.app ), a software which has recently been in talks with apple about including in their suite for creative professionals. The software is used for sync timing audio to video or game media.
+He is also the previous founder of ADSRsounds as well as the Pyramind online institute for audio producers.
+We are excited to start working together in some capacity, we havent finalized how yet but their goals with blockchain are 100% in alignment with ours and now we have a couple of weeks worth of ergo teaching to do before any big decisions get made, but it looks like they are smart enough to realize why we are on ergo 😉 and that they dont want to reinvent the wheel if its been built right
+
+{Embed}
+https://add.app/
+Audio Design Desk
+Audio Design Desk is the only DAW built for video. Work faster and better than ever before with over 50,000 royalty free sounds & music cues.
+
+{Reactions}
+🔥 
+
+[07/02/2022 12:41 AM] liquid_phase#4605
+They cultivate sample pack collections and are specialists on one major place tht is crucial: the metadata layer
+
+
+[07/02/2022 7:31 PM] liquid_phase#4605
+Thanks to ergo prism for having us on! 
+
+https://m.youtube.com/watch?v=xjszGnOJO-g
+
+{Embed}
+Ergo Prism
+https://www.youtube.com/watch?v=xjszGnOJO-g
+Music Publishers on the Blockchain! Meet Swamp Audio.
+Today, we sat down with the co-founder of Swamp Audio. Swamp Audio is a music publishing company and music label representing hundreds of artists with over 40 releases since 2013. They've now ventured into the blockchain industry in search of values that would aid music business such as transparency and decentralization. They've chosen to build ...
+https://images-ext-2.discordapp.net/external/eAk0YyuTX2CoIipb-Y3Jwt505p95N9nJ5Nq2A9VNl3w/https/i.ytimg.com/vi/xjszGnOJO-g/maxresdefault.jpg
+
+
+[07/11/2022 10:50 PM] liquid_phase#4605
+https://twitter.com/SwampOfLife/status/1546611300481912832
+
+{Embed}
+Swamp Music (@SwampOfLife)
+https://twitter.com/SwampOfLife/status/1546611300481912832
+Ethereum is to Ergo like Garageband is to Ableton.
+
+They can both do the same things with a talented enough developer/producer - but at the end of the day one of the two is much more bloated & resource intensive.
+
+Lots started on garageband and upgraded eventually. 
+
+Similarities
+Twitter
+
+
+[07/15/2022 3:23 AM] liquid_phase#4605
+The Green Room podcast Episode 3 -The value of open source financeFeaturing Joseph Armeanio (@CuriaCrypto) from the Ergo Foundation (@ergoplatformorg)https://swamp.audio/the-green-room/the-value-of-open-source-finance #ergo #defi #swamp #audio #nft #blockchain #opensource #finance #fintech #music #royalties
+
+{Embed}
+https://swamp.audio/the-green-room/the-value-of-open-source-finance
+The Value of Open Source Finance
+Featuring Joseph Armeanio - Head of Business Development at the Ergo Foundation
+
+
+[07/16/2022 5:30 AM] liquid_phase#4605
+This is the kind of struggle we face with musicians. They are so skeptical about this scene because of the shitshow ethereum cultivated that they are almost magnetically repulsed from this stuff.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/997721965127278592/IMG_1414.png
+
+
+[07/17/2022 3:54 AM] liquid_phase#4605
+https://twitter.com/SwampOfLife/status/1548501294968475649
+
+{Embed}
+Swamp Music (@SwampOfLife)
+https://twitter.com/SwampOfLife/status/1548501294968475649
+We are happy to add @KrasaviceBlasen to the SwampAudio DAO team as our lead smart contract developer.
+
+Krasavice has his hands in numerous ergo-ecosystem projects including @SkyHarbor_io and @NightOwlCasino 
+
+Welcome to the team!
+
+#ergo #DAO #NFT #swamp #audio #defi #blockchain
+Twitter
+
+
+[07/17/2022 3:34 PM] liquid_phase#4605
+@koutelier i want to make a swamp wallet for mainly NFTs. can you help
+
+
+[07/17/2022 3:34 PM] koutelier#5178
+Well it depends , what do you need ?
+
+
+[07/17/2022 3:35 PM] liquid_phase#4605
+nautilus but swamp, and then potentially removing the main funds tab and just keeping the NFT tab but displaying erg balance at bottom
+
+
+[07/17/2022 3:35 PM] liquid_phase#4605
+basically an 'audio NFT' wallet
+
+
+[07/17/2022 3:35 PM] koutelier#5178
+show just show nfts there?
+
+
+[07/17/2022 3:36 PM] liquid_phase#4605
+yes just the NFTs, but it still needs to display erg balance somewhere
+
+
+[07/17/2022 3:36 PM] koutelier#5178
+audio nfts doesn't appear in the nft section though
+
+
+[07/17/2022 3:36 PM] koutelier#5178
+right?
+
+
+[07/17/2022 3:36 PM] liquid_phase#4605
+they dont?
+
+
+[07/17/2022 3:36 PM] koutelier#5178
+i think not. we need the new eip there.
+
+
+[07/17/2022 3:36 PM] koutelier#5178
+do you have audio nfts ?
+
+
+[07/17/2022 3:37 PM] liquid_phase#4605
+I am going to mint one now just to check
+
+
+[07/17/2022 3:37 PM] koutelier#5178
+is it an html file with multiple songs, like album ?
+
+
+[07/17/2022 3:37 PM] liquid_phase#4605
+we are doing something really unique. we talked to nemo about it and he said its very possible.
+
+we are doing an 'indexer' nft which is markdown or yaml, which we want wallet to recognize as a 'file folder' containing the NFT's referenced inside the indexer that also exist in the same wallet
+
+
+[07/17/2022 3:38 PM] liquid_phase#4605
+BTW yes, audio NFTs are possible on ergo since the beginning
+
+
+[07/17/2022 3:38 PM] liquid_phase#4605
+i just am not sure if nautilus displays them as NFTs now
+
+
+[07/17/2022 3:38 PM] koutelier#5178
+i know they are possible but the nft tab doesn't shows them i believe
+
+
+[07/17/2022 3:39 PM] liquid_phase#4605
+im about to find out. please hold
+
+
+[07/17/2022 3:39 PM] koutelier#5178
+sure
+
+
+[07/17/2022 3:39 PM] liquid_phase#4605
+regardless though, how long does it take to clone nautilus and change it to your own branding
+
+
+[07/17/2022 3:40 PM] koutelier#5178
+clone and customize not much , but removing the tokens tab maybe is trickier because if it's "connected" with another files you could "break" nautilus
+
+
+[07/17/2022 3:41 PM] koutelier#5178
+i mean if the tab page is connected to something else inside nautilus , connected in a way you need it in order to make nautilus functional then it may be harder . we can find out lol
+
+
+[07/17/2022 3:43 PM] liquid_phase#4605
+doesnt need to be 'removed' just hidden with UI'
+
+
+[07/17/2022 3:45 PM] liquid_phase#4605
+like i know his app is just CSS and HTML and JS.
+
+can remove the CSS include for that tab and theoretically it will visually dissapear
+
+
+[07/17/2022 3:45 PM] liquid_phase#4605
+but the functionality still remain
+
+
+[07/17/2022 3:46 PM] koutelier#5178
+yeah can work that way.
+
+
+[07/17/2022 3:46 PM] koutelier#5178
+you want to show only audio nfts or all kind of nfts ?
+
+
+[07/17/2022 3:46 PM] liquid_phase#4605
+maybe it s a bit too difficult
+
+
+[07/17/2022 3:47 PM] koutelier#5178
+to show only audio ?
+
+
+[07/17/2022 3:47 PM] liquid_phase#4605
+maybe the whole project 😛
+
+
+[07/17/2022 3:47 PM] koutelier#5178
+the whole project no
+
+
+[07/17/2022 3:47 PM] koutelier#5178
+showing just audio nfts yeah lol
+
+
+[07/17/2022 3:48 PM] liquid_phase#4605
+well, see there are two major things i want to do.
+
+1) refactor visual aspects of wallet (i think you could do this)
+
+2) refactor displaying parts of wallet to handle NFTs differently (i think maybe i need to ask Nemo for help here)
+
+
+[07/17/2022 3:49 PM] liquid_phase#4605
+would you be interested in helping us out at all? could pay some erg for your time
+
+
+[07/17/2022 3:49 PM] koutelier#5178
+yeah sure. need to aks nemo about his permission though . i know it's open source but i always ask
+
+
+[07/17/2022 3:49 PM] liquid_phase#4605
+we also need some help in the marketing department
+
+
+[07/17/2022 3:50 PM] koutelier#5178
+i am better at this i think lol
+
+
+[07/17/2022 3:50 PM] liquid_phase#4605
+i already did ask nemo yes, he advised that i make a PR for ergo for the type of NFT i want and i already did
+
+{Reactions}
+🔥 
+
+[07/17/2022 3:50 PM] liquid_phase#4605
+nemo seems supportive of this idea
+
+
+[07/17/2022 3:50 PM] koutelier#5178
+yeah he is a cool guy , and helps a lot
+
+
+[07/17/2022 3:50 PM] koutelier#5178
+well i think you can donate to nemo
+
+
+[07/17/2022 3:50 PM] koutelier#5178
+it's his work
+
+
+[07/17/2022 3:51 PM] koutelier#5178
+changing few things doesn't make that my work
+
+
+[07/17/2022 3:51 PM] liquid_phase#4605
+my PR wasnt aproved, but Krasavice (our smart contract lead) made a PR about any file extension whicxh was approved - so that will allow for YAML or MD nft attachments
+
+
+[07/17/2022 3:51 PM] koutelier#5178
+the eip004?
+
+
+[07/17/2022 3:51 PM] koutelier#5178
+Kras is beast lol
+
+
+[07/17/2022 3:52 PM] liquid_phase#4605
+the yaml / md file is like a table of contents.
+
+if the file contains a list of NFTs, and those NFT are also in the wallet next to the list, the yaml/md file will act as an 'indexer' to organize those NFTs natively on layer 1
+
+
+[07/17/2022 3:52 PM] liquid_phase#4605
+so i want the wallet to recognize an indexer as a 'file folder' (which is still a single NFT file) which contains NFTs in it's heirarchy
+
+
+[07/17/2022 3:53 PM] liquid_phase#4605
+the end result being grouped worked native to layer 1, albums, content packs, treasure chest heirarchies, etc.
+
+
+[07/17/2022 3:54 PM] liquid_phase#4605
+YAML NFTs also allow you to create things like anisble playbooks to provision servers, so in theory someone could provision a server entirely anonymously through a mixer by purchasing or transfering an NFT
+
+
+[07/17/2022 3:54 PM] liquid_phase#4605
+in any case, the PR was approved and now people just need to realize what can be done with heirarchical and index based NFT utilities
+
+
+[07/17/2022 3:54 PM] liquid_phase#4605
+we are starting by creating 'albums' of music
+
+
+[07/17/2022 3:55 PM] liquid_phase#4605
+we are excited to see what he can deliver on the smart contract front
+
+
+[07/17/2022 3:55 PM] liquid_phase#4605
+you were right, it does not display properly in nautilus
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/998241656560173156/Screenshot_2022-07-17_at_7.55.36_AM.png
+
+
+[07/17/2022 3:56 PM] koutelier#5178
+Yeah because Nemo didn’t add the new eip to nautilus yet
+
+
+[07/17/2022 3:56 PM] koutelier#5178
+But he is working on it
+
+
+[07/17/2022 3:56 PM] liquid_phase#4605
+got it
+
+
+[07/17/2022 3:56 PM] koutelier#5178
+I thing there was an issue with Eip29 that’s why .
+
+
+[07/17/2022 3:56 PM] koutelier#5178
+After that it will show there
+
+
+[07/17/2022 3:56 PM] koutelier#5178
+But maybe you won’t be able to hear it
+
+
+[07/17/2022 3:56 PM] koutelier#5178
+For security reasons .
+
+
+[07/17/2022 3:56 PM] liquid_phase#4605
+its fine if it can not embed due to CORS or whatever
+
+
+[07/17/2022 3:57 PM] koutelier#5178
+So adding an image there could do the work
+
+
+[07/17/2022 3:57 PM] koutelier#5178
+Even now
+
+
+[07/17/2022 3:57 PM] liquid_phase#4605
+yeah, the auction house allows for artwork alongside the audio
+
+
+[07/17/2022 3:57 PM] liquid_phase#4605
+but in theory, how an album works on classic distribution, each track can have its own artowkr independewnt of the album itself having an artwoerk
+
+
+[07/17/2022 3:58 PM] koutelier#5178
+Yeah I got it . I have done something similar to another blockchain but with html . Whole album in one nft
+
+
+[07/17/2022 3:58 PM] liquid_phase#4605
+so our yaml/md file NFT idea has a lot of potential, nemo and others seem to like the idea
+
+
+[07/17/2022 3:58 PM] koutelier#5178
+I mean I got the idea on how this will appear . Not how it’s work to be honest
+
+
+[07/17/2022 3:58 PM] liquid_phase#4605
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/998242404190666772/Drawing.png
+
+
+[07/17/2022 3:59 PM] koutelier#5178
+I haven’t dive into swap to be honest yet . Summer time here and work is crazy in real life
+
+
+[07/17/2022 3:59 PM] liquid_phase#4605
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/998242438143541389/Drawing-2.png
+
+
+[07/17/2022 3:59 PM] liquid_phase#4605
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/998242479109312592/Drawing-3.png
+
+
+[07/17/2022 4:00 PM] liquid_phase#4605
+enjoy your summer 🙂 its summer here too but a bit hot to be outside much unless at the beach or in the mountains
+
+
+[07/17/2022 4:01 PM] koutelier#5178
+I work as a constructor builder I am 8-9 hours in the sun lol
+
+
+[07/17/2022 4:01 PM] liquid_phase#4605
+sir, i hope you are wearing UV protection
+
+
+[07/17/2022 4:02 PM] koutelier#5178
+we can make it work when nautilus add the new eip standards there . I could start working on the visuals though and hiding the assets tab this week
+
+
+[07/17/2022 4:02 PM] koutelier#5178
+Sometimes…
+
+
+[07/17/2022 4:03 PM] liquid_phase#4605
+what is your ergo address sir, i want to send you an NFT.
+
+
+[07/17/2022 4:03 PM] liquid_phase#4605
+someon tipped me 10 comet once and now i want to pay it forward/backward
+
+
+[07/17/2022 4:03 PM] koutelier#5178
+9fDpdpCjW22fibo7dQWa7aFDQvQ6zDpwGU6x6DG9sRoNkwEwcR2
+
+
+[07/17/2022 4:04 PM] koutelier#5178
+you use ka-ching ? lol
+
+
+[07/17/2022 4:04 PM] liquid_phase#4605
+i do
+
+
+[07/17/2022 4:04 PM] koutelier#5178
+ilya is doing comet airdrops i got 10 comet lol
+
+
+[07/17/2022 4:04 PM] liquid_phase#4605
+ah okay
+
+
+[07/17/2022 4:04 PM] liquid_phase#4605
+if you could describe your favorite color or scenery in a few words what would they be
+
+
+[07/17/2022 4:06 PM] koutelier#5178
+sunset but with sea view, so blue and redish  ? i am not good with naming colours sir lol
+
+
+[07/17/2022 4:06 PM] liquid_phase#4605
+hmm, i dont have any made in that exact color scheme, but i do have one which is like the beach or desert at sunset
+
+
+[07/17/2022 4:06 PM] liquid_phase#4605
+its a very special one too
+
+
+[07/17/2022 4:07 PM] koutelier#5178
+😮
+
+
+[07/17/2022 4:07 PM] liquid_phase#4605
+one of my favorite of my own
+
+
+[07/17/2022 4:07 PM] liquid_phase#4605
+enjoy 🙂
+
+
+[07/17/2022 4:07 PM] liquid_phase#4605
+1/1
+
+
+[07/17/2022 4:07 PM] koutelier#5178
+thank you sir ❤️
+
+
+[07/17/2022 4:08 PM] liquid_phase#4605
+https://explorer.ergoplatform.com/en/transactions/6007036f4cef1fe967e1ce94989af217c1d25aa50c21fa200ae62a0f304b403e
+
+{Reactions}
+❤️ 
+
+[07/17/2022 4:08 PM] koutelier#5178
+thank you sir, sent you a friend request , maybe we could chat about the wallet at some point . i will need few pics and more infos
+
+
+[07/17/2022 4:09 PM] liquid_phase#4605
+yup 🙂
+
+
+[07/17/2022 4:09 PM] liquid_phase#4605
+welcome to the swamp
+
+{Reactions}
+❤️ 
+
+[07/17/2022 4:09 PM] liquid_phase#4605
+what kind of music do you enjoy
+
+
+[07/17/2022 4:10 PM] liquid_phase#4605
+oh it looks like i accidentally sent you TWO nfts. lol
+
+
+[07/17/2022 4:10 PM] koutelier#5178
+i enjoy listenting to almost everything , it depends the mood i have , i ussually listen to greek traditional music.
+
+
+[07/17/2022 4:10 PM] koutelier#5178
+lol , which one should i sent back ?
+
+
+[07/17/2022 4:10 PM] liquid_phase#4605
+keep both of them, but the one i intended for you to have was the golden on
+
+
+[07/17/2022 4:11 PM] koutelier#5178
+thank you sir , appreciate it
+
+
+[07/17/2022 4:11 PM] liquid_phase#4605
+thats what i get for not wearing my glasses in the morning when the suns not out yet
+
+
+[07/17/2022 4:11 PM] liquid_phase#4605
+lol
+
+
+[07/17/2022 4:11 PM] liquid_phase#4605
+Also, i love to give away art, so its no big deal 🙂
+
+{Reactions}
+❤️ 
+
+[07/17/2022 4:12 PM] koutelier#5178
+greek traditional music when i want to dance lol , rap, rock  and techno when i work in the computer mostly
+
+
+[07/17/2022 4:13 PM] liquid_phase#4605
+psychedelic rap/hiphop:
+https://swamp.audio/music/album/standing-here-in-time
+
+{Embed}
+https://swamp.audio/music/album/standing-here-in-time
+Standing Here In Time
+A deep dive into the primordial soup of the soul.
+
+{Reactions}
+🔥 
+
+[07/17/2022 4:13 PM] liquid_phase#4605
+techno:
+https://swamp.audio/music/album/spirit-quest
+
+{Embed}
+https://swamp.audio/music/album/spirit-quest
+Spirit Quest
+A deep dive into the primordial soup of the soul.
+
+{Reactions}
+🔥 
+
+[07/17/2022 4:13 PM] liquid_phase#4605
+dubstep:
+https://swamp.audio/music/album/distance-over-time
+
+{Embed}
+https://swamp.audio/music/album/distance-over-time
+Distance Over Time
+A deep dive into the primordial soup of the soul.
+
+{Reactions}
+🔥 
+
+[07/17/2022 4:13 PM] liquid_phase#4605
+rock & roll:
+https://swamp.audio/music/track/blue-stone
+
+{Embed}
+https://swamp.audio/music/track/blue-stone
+Blue Stone
+A deep dive into the primordial soup of the soul.
+
+{Reactions}
+🔥 
+
+[07/17/2022 4:14 PM] koutelier#5178
+the art work is yours ?
+
+
+[07/17/2022 4:14 PM] liquid_phase#4605
+glitch hop:
+https://swamp.audio/music/track/purple
+
+{Embed}
+https://swamp.audio/music/track/purple
+Purple
+A deep dive into the primordial soup of the soul.
+
+
+[07/17/2022 4:14 PM] koutelier#5178
+in the albums
+
+
+[07/17/2022 4:14 PM] liquid_phase#4605
+I made some of the artworks but not all of them
+
+
+[07/17/2022 4:14 PM] liquid_phase#4605
+it will says Artwork: liquid_phase on the bottom if i did
+
+
+[07/17/2022 4:14 PM] liquid_phase#4605
+i made the website though 🙂
+
+
+[07/17/2022 4:14 PM] koutelier#5178
+oh gotcha
+
+
+[07/17/2022 4:15 PM] liquid_phase#4605
+the spirit quest album is my artwork
+
+
+[07/17/2022 4:15 PM] koutelier#5178
+nice work sir, i am checking now lol
+
+
+[07/17/2022 4:16 PM] koutelier#5178
+dope, i like the spinning animation
+
+
+[07/17/2022 4:16 PM] liquid_phase#4605
+thank you 🙂 im eventually going to make a version of the player where it auto spins when the music is playing
+
+
+[07/17/2022 4:16 PM] liquid_phase#4605
+like a record
+
+
+[07/17/2022 4:18 PM] koutelier#5178
+that would be awesome, also not that hard. one if command could do the trick i believe
+
+
+[07/17/2022 4:19 PM] liquid_phase#4605
+yeah its not difficult but im not the best at javascript. ive got a team mate doing some of that stuff to help
+
+
+[07/17/2022 4:19 PM] liquid_phase#4605
+its adding some sort of button _onclick method
+
+
+[07/17/2022 4:19 PM] liquid_phase#4605
+i just dont have time to research it and implement it when someone else can do it for me 😛
+
+
+[07/17/2022 4:19 PM] koutelier#5178
+lmao
+
+
+[07/17/2022 4:20 PM] liquid_phase#4605
+im an old man apparently coming from the world of PHP into the new fangled comp-sci driven javascript land
+
+
+[07/17/2022 4:20 PM] koutelier#5178
+yeah i can feel you. finding time is hard for me as well atm lol
+
+
+[07/17/2022 4:21 PM] liquid_phase#4605
+PHP is industrial engineering where javascript is industrial chemistry. Sometimes one works better than the other when you're talking about scaling...
+
+
+[07/17/2022 4:21 PM] liquid_phase#4605
+^a metaphor, before anyone tries to rip my brains out for saying
+
+
+[07/17/2022 4:22 PM] liquid_phase#4605
+in any case, we are refactoring our front end to javascript because its defacto the best way to parse the _front end_
+
+
+[07/17/2022 4:22 PM] liquid_phase#4605
+but the backend having php framework is quite powerful
+
+
+[07/17/2022 4:23 PM] koutelier#5178
+yeah there are people that use javascript for backend though but most people say it's not that good for backend. i am not a dev i recently started learning javascript so i don't know much to be honest
+
+
+[07/17/2022 4:24 PM] liquid_phase#4605
+its very good for back end. the difficult part is having back end talk to front end and then having that scale
+
+
+[07/17/2022 4:24 PM] liquid_phase#4605
+i'm of the persuasion that 100% flat file using eloquent models, within static context, is better than API delivery
+
+
+[07/17/2022 4:25 PM] liquid_phase#4605
+so no database, no API, just file permissions and yaml hierarchical indexes referencing md files
+
+
+[07/17/2022 4:28 PM] liquid_phase#4605
+the other difficult part with javascript is, it seems like it's very easy to write it badly. 
+
+so for someon trying to push through a project, it forces you to stop and do things 'the right way' for the entirety of it, lest you trap yourself into something like having an inefficient API to your front end, or a front end that loads like crap on mobile. thats a good thing in the long run, but the bad thing is it can turn sometimes a short run into a long run on custom made applications/sites
+
+But, the benefits of javascript when done properly are huge - I just don't see it as a defacto replacement for the model view controller thing - but something which should be weighed at how and when to integrate or make primary.
+
+
+[07/17/2022 4:34 PM] koutelier#5178
+i know you are right in one thing for sure , JavaScript allow you to write it badly. i know that from experience lol also yeah if you know how to code javascript you can do a lot of cool things.
+
+
+[07/17/2022 4:35 PM] koutelier#5178
+i was shocked when i learned that valley is written in javascript  and it's mobile compatible .
+
+
+[07/17/2022 4:35 PM] koutelier#5178
+i though javascript was good only static FE and the backend wasn't good enough for big projects
+
+
+[07/17/2022 4:36 PM] liquid_phase#4605
+javascript is a programming language which can also make web sites.
+
+
+[07/17/2022 4:36 PM] liquid_phase#4605
+you can make an entirely command line interface game with javascript
+
+
+[07/17/2022 4:36 PM] liquid_phase#4605
+or a web browser
+
+
+[07/17/2022 4:36 PM] liquid_phase#4605
+it can do anything, but you need to write it well
+
+
+[07/17/2022 4:37 PM] koutelier#5178
+i will get there at some point . i need to do some more research about yalm and md at some point
+
+
+[07/17/2022 4:38 PM] liquid_phase#4605
+Big projects is defined differently depending on who you talk to.
+
+I would not call sigmavalley big yet. It may have a large code base and lots of complexity, but seeing if it can scale to thousands, hundredsthousands, millions is a different story not just from performance but also cost to compute
+
+
+[07/17/2022 4:38 PM] koutelier#5178
+decentraland is build with js
+
+
+[07/17/2022 4:38 PM] koutelier#5178
+babylon js
+
+
+[07/17/2022 4:39 PM] liquid_phase#4605
+to give you an example,
+
+in our website an album is defined as a yaml file called album.yaml - which contains a structure for containing a title, artwork, song list & associated files, etc.
+
+it is then with the MD files that individual objects/assets have their own descriptive properties
+
+
+[07/17/2022 4:40 PM] koutelier#5178
+so you can store data in yaml ? is it a database ?
+
+
+[07/17/2022 4:40 PM] liquid_phase#4605
+YAML is a text file
+
+
+[07/17/2022 4:40 PM] liquid_phase#4605
+its used for lots of applications because its a serialization language
+
+
+[07/17/2022 4:40 PM] liquid_phase#4605
+designed to structure and format other languages
+
+
+[07/17/2022 4:41 PM] liquid_phase#4605
+its a superset of JSON as well so can call and arrange json heirarchies along with other data sets
+
+
+[07/17/2022 4:41 PM] liquid_phase#4605
+where MD is simple descriptive data (markdown) about a specific object in the orientation
+
+
+[07/17/2022 4:42 PM] koutelier#5178
+oh i see
+
+
+[07/17/2022 4:42 PM] liquid_phase#4605
+think of markdown as metadata for a specific track or album, and the yaml as the CD case where the CD and booklet go
+
+
+[07/17/2022 4:42 PM] liquid_phase#4605
+so the yaml doesnt act as a database, just an indexer/structurer
+
+
+[07/17/2022 4:42 PM] liquid_phase#4605
+the "database" is just a bunch of individual MD files
+
+
+[07/17/2022 4:43 PM] liquid_phase#4605
+which are accessed via webserver file permission levels
+
+
+[07/17/2022 4:43 PM] liquid_phase#4605
+so there is no mysql database running
+
+
+[07/17/2022 4:44 PM] koutelier#5178
+yeah i think i understand what they do
+
+
+[07/17/2022 4:44 PM] liquid_phase#4605
+so now imagine a website which didnt host any content on a server, but rather simply called NFTs it owned from the blockchain
+
+
+[07/17/2022 4:45 PM] liquid_phase#4605
+and the blockchain/IPFS is now your database, structured on your front end to look and be a website
+
+
+[07/17/2022 4:46 PM] liquid_phase#4605
+for instance, if i uploaded album.yaml, frogslemonade.md, frogslemonade.wav, frogslemonadeart.jpg all to IPFS as NFTs, and owned them on the node wallet my server ran - my server could display them through the front end exactly as they look right now, without having to host the content or run a DB
+
+
+[07/17/2022 4:48 PM] liquid_phase#4605
+in my opinion, that is a very scalable solution and will only get more dynamic as NFT encryption is enhanced
+
+
+[07/17/2022 4:49 PM] liquid_phase#4605
+yes but how much does it cost them?
+
+decentraland is operating ontop of ethereum so they have fee models built into their business which support their infrastructure.
+
+
+[07/17/2022 4:49 PM] liquid_phase#4605
+im not saying js is wrong im just questioning how its implemented in most instances
+
+
+[07/17/2022 4:49 PM] koutelier#5178
+probably a lot . also the performance is an issue there
+
+
+[07/17/2022 4:50 PM] koutelier#5178
+everything running through a browser is impressive but really power demanding
+
+
+[07/17/2022 4:50 PM] koutelier#5178
+so instead of a database you only use a server for you node?
+
+
+[07/17/2022 4:52 PM] liquid_phase#4605
+in theory, the server would only be a web server like apache or nginx with php so it could display a front end. it could also be react or something - whatever you wanted to use as long as it could recognize eloquent models - im not sure if react/javascript support eloquent out of the box
+
+
+[07/17/2022 4:52 PM] liquid_phase#4605
+a web server ontop of a node wallet
+
+
+[07/17/2022 4:52 PM] liquid_phase#4605
+you make localhost authentication calls between the web server and the node wallet underneath
+
+
+[07/17/2022 4:52 PM] koutelier#5178
+probably a library will exist
+
+
+[07/17/2022 4:52 PM] liquid_phase#4605
+and the node wallet just owns content on the blockchain
+
+
+[07/17/2022 4:54 PM] liquid_phase#4605
+probably WebGL better than javascript for something like this
+
+
+[07/17/2022 4:54 PM] liquid_phase#4605
+but not sure about interactive nature of it
+
+
+[07/17/2022 4:54 PM] koutelier#5178
+hmm not sure
+
+
+[07/17/2022 4:55 PM] koutelier#5178
+unity in general yeah , webgl has limitations as well . also it's heavy as well because it loads everything n your browser as well
+
+
+[07/17/2022 4:55 PM] liquid_phase#4605
+browser load on the user is better than server load on your company
+
+
+[07/17/2022 4:55 PM] liquid_phase#4605
+if you're talking about scaling
+
+
+[07/17/2022 4:56 PM] liquid_phase#4605
+you cant build a product which will work for 100%, so you build one thats good for 80+% and forget the other people (old computers & phones)
+
+
+[07/17/2022 4:58 PM] koutelier#5178
+well it depends what you are building to be honest. some projects doesn't make any sense to be on mobile for example . for some others is a must
+
+
+[07/17/2022 4:58 PM] liquid_phase#4605
+in any case, i dont know enough about JS or webgl to make any poignant comments.
+
+
+[07/17/2022 4:59 PM] koutelier#5178
+but you are right you want to be available for everyone
+
+
+[07/17/2022 4:59 PM] koutelier#5178
+you want to make your product available to everyone
+
+
+[07/17/2022 4:59 PM] liquid_phase#4605
+@koutelier true but most users will be visiting for the first time from a mobile device. so considering needs to atleast be taken to create an onramp from mobile to desktop via UI/UX, because alot of devs pretty much just say 'does not work on mobile' and thats not an attractive or usable solution
+
+
+[07/17/2022 5:01 PM] liquid_phase#4605
+wants, needs, and reality are things which must be kept in balance.
+
+
+[07/17/2022 5:01 PM] koutelier#5178
+i know sir, most people don't even use pc those days . most things are possible from a mobile devices
+
+
+[07/19/2022 1:28 AM] liquid_phase#4605
+https://twitter.com/SwampOfLife/status/1549188969547517952
+
+{Embed}
+Swamp Music (@SwampOfLife)
+https://twitter.com/SwampOfLife/status/1549188969547517952
+Episode 4 - Cultivating a Community ft @TrevorAlanGomes, 88BitMusic
+
+Trevor is a pro streamer. 
+In this episode we talk about his history in the music industry, his charity fundraising efforts for St. Jude Children's research hospital, and more!
+
+https://t.co/IGT0oM2tGq
+
+#podcast
+https://images-ext-1.discordapp.net/external/mOuI3u4R6buq5dz_zxmo5veQ414smA8y61SA6ThT-38/https/pbs.twimg.com/media/FX_TIt9VsAADYBx.jpg
+Twitter
+
+
+[07/21/2022 10:38 PM] liquid_phase#4605
+We just established a connection with MobileCoin via their marketing manager - they are a privacy oriented "custom blockchain" (more info on this as i learn about it) which is used as the p2p payment system for Signal Messenger.
+
+They are based out of our town, and heavily involved in the music/arts - and do radio DJ shows. They are interested in learning about Ergo and our project, as well as music based collaborations in the future. We're going to grab lunch soon.
+
+
+[07/22/2022 5:47 PM] liquid_phase#4605
+We just signed contract with our dev contractors!
+
+We are excited to bring this stellar team of 3 web dev professionals who absolutely crush it with what they do.
+
+They have designed sites and webapps like:
+
+BlueOrigin - Main website & admin portal
+Bank of Hawaii - Main website & customer portal app
+SpaceAngels (angel investors for space companies) - Main website & investor portal app
+Outpost.Space (sustainable investment in space) - Main website & admin portal
+
+Deposit sent, our first meeting is next Tuesday and we will meet 3 times a week to maintain steam on the project and get minimum viable product (including blockchain, dapp, etc) ready by beginning of Q4 or by next ergohack maybe!
+
+
+[07/25/2022 7:41 PM] liquid_phase#4605
+https://twitter.com/SwampOfLife/status/1551637450786648064
+
+{Embed}
+Swamp Music (@SwampOfLife)
+https://twitter.com/SwampOfLife/status/1551637450786648064
+a surprise update!!!
+
+You can find a hidden word for the @sigmavalley treasure hunt in our website 🤠👽🤖
+
+Is it a song , is it a album or a lyric? 
+
+Enjoy listening 🎶 🎧
+Twitter
+
+
+[07/25/2022 7:41 PM] liquid_phase#4605
+https://twitter.com/SwampOfLife/status/1551630306876485632
+
+{Embed}
+Swamp Music (@SwampOfLife)
+https://twitter.com/SwampOfLife/status/1551630306876485632
+the swamp HQ in the metaverse lives!!!
+
+#ergo #metaverse #nft #sigmavalley #treasurehunt
+https://images-ext-2.discordapp.net/external/xsRWJCRQ64uqPzHyh3__9BJRbwNLAvHyIkc0ciq8DJg/https/pbs.twimg.com/media/FYhuaOEXoAEyTM3.jpg
+Twitter
+
+{Reactions}
+🔥 
+
+[07/27/2022 4:35 PM] koutelier#5178
+what a nice building . who did this ? 🤣
+
+
+[07/27/2022 4:37 PM] liquid_phase#4605
+i think he must be a meme in human form 😛
+
+{Reactions}
+🤣 
+
+[07/29/2022 6:00 PM] liquid_phase#4605
+https://www.youtube.com/watch?v=GA7tbdvMGOg
+
+{Embed}
+Swamp Music
+https://www.youtube.com/watch?v=GA7tbdvMGOg
+Development update for swamp.audio
+https://images-ext-2.discordapp.net/external/pFN7yh5mDS-Xyr54HQoddL_2vJjmFW1BaTrQtNwcSuY/https/i.ytimg.com/vi/GA7tbdvMGOg/maxresdefault.jpg
+
+
+[08/06/2022 5:57 PM] liquid_phase#4605
+Swamp update:
+• Ergo nautilus dApp connector laravel package is working! 
+
+More testing and polishing being done for displaying content like balance/NFTs in wallet. Hoping to release the package next week.  A lot of websites like exchanges and mining pools actually use laravel as a framework for its robust full stack capabilities - so hopefully this tool will enable more independent DEXs and trading platforms for ergo on-chain content!
+
+• Phase 1 on-chain tests of 'Release of works agreement' smart contract are working. We are still on schedule to deliver the contract by end of Q3/beginning of Q4.
+
+{Reactions}
+🔥 (2) 
+
+[08/19/2022 1:09 AM] liquid_phase#4605
+just met with our lead laravel developer, and he showed me in video chat the laravel dapp connector working fully as intended. I asked him to record a screencast to share here, so hoping he gets that to me this evening and i'll post it.
+
+We talked through security assumptions for our own user system and roles - and his main concerns had more to do with how users either are or arent created in a local database when they're interacting via dapp connector.
+
+So dapp connector is in the final polishing stages now, created as a vanilla php plugin which can be installed into any php system including wordpress via composer.
+
+
+[08/19/2022 7:29 PM] liquid_phase#4605
+Here is the screengrab demo of the Dapp connector login working with Laravel and nautilus!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1010254290985685114/Terahertz_login_with_Nautilus.mov
+
+{Reactions}
+🔥 (4) 
+
+[08/24/2022 3:50 PM] wombo22#5461
+Hey there! Just an FYI just threw out the idea of having the blitz team having there music on swamp audio
+
+
+[08/24/2022 3:50 PM] wombo22#5461
+they said that they be interested:
+
+
+[08/24/2022 3:50 PM] wombo22#5461
+"Yeah, I'd be interested in that for sure. Always happy to help expand the ecosystem.
+I'd expect around 8-10 tracks for release, so basically an album"
+
+
+[08/24/2022 6:29 PM] liquid_phase#4605
+Awesome! our album release smart contract is looking really solid and we should have it ready soon!
+
+
+[08/24/2022 6:30 PM] liquid_phase#4605
+@wombo22 here is our first major on chain test of the contract being successful. just need to iron out some extra functionality - but it should be ready soon 🙂
+
+https://explorer.ergoplatform.com/en/transactions/cb82934f2d33665fe3def41afc71888e471e4bda22722a5eb2624605c1436d14
+(the top output is the contract, the next 5 are royalties sent to artist, the next is the buyer receiving the assets, then mining fee and change box)
+
+{Reactions}
+spicy 
+
+[08/29/2022 3:52 AM] NoahErgo#4349
+Curious if you guys have talked to hopium records guys as at all
+
+
+[08/29/2022 3:52 AM] NoahErgo#4349
+Talked to them they are getting active again soon
+
+
+[08/29/2022 4:37 AM] liquid_phase#4605
+@NoahErgo i honestly don't remember if i reached out or not when you mentioned them before . We just got all our dapp stuff working with laravel and our smart contract is nearing completion for albums but nothing really there yet - so right now it's probably not worth reaching out - there's nothing for anyone to log into yet. Once we launch the user dashboard area / dapp connector, labels like hopium will be able to sign up and release albums
+
+
+[08/29/2022 4:37 AM] liquid_phase#4605
+they could, in theory, use our existing starter kit for laravel based on statamic, which is more than adequate if they want to continue building hopium into a netlabel
+
+
+[08/29/2022 4:37 AM] liquid_phase#4605
+but that kit is changing drastically in the next update
+
+
+[08/29/2022 4:38 AM] liquid_phase#4605
+so probably wisest to wait until the version with the ergo connector and nft minting built in - since they're operating strictly on ergo
+
+
+[08/29/2022 4:44 AM] liquid_phase#4605
+from a marketing perspective, i believe we are going to do some sort of promotional thing once the smart contract is ready to show it off. that could be within the ecosystem to cross promote. Wombo mentioned blitz has an album, and hopium too - so it might be interesting to talk with them about that, but i think we're about a month away from that atleast
+
+
+[08/29/2022 4:46 AM] liquid_phase#4605
+sooner if Kras levels up to his final form 😛
+
+
+[08/31/2022 3:11 AM] NoahErgo#4349
+are you telling me Krasavice is helping you guys develop too lol
+
+
+[08/31/2022 4:29 AM] liquid_phase#4605
+hah, we announced a while back that we hired krasavice for smart contract dev work.
+
+
+[09/03/2022 2:17 PM] hq3r#5569
+Any plans about staking on ergopad?
+
+
+[09/03/2022 3:11 PM] liquid_phase#4605
+Our plans are to move forward with getblok subpooling once they get back to us with their terms
+
+Staking THz will be done on our own site once ready, where you can stake to a community pool or to individual artists/projects.
+
+{Reactions}
+k_thumbs_up 
+
+[09/07/2022 7:32 PM] liquid_phase#4605
+•Alpha version of ergo dapp connector for composer/php is now live on github: https://github.com/TremendouslyHighFrequency/ErgoDappConnector-PHP
+
+This connector proposes a novel solution to php systems not running JS backends by utilizing Lambda to run sigma rust arguments, and also utilizes AlpineJS to persist session storage for dapp connected participants on the front end. It authenticates as either a simple dapp connected user session, or further into a web2 authenticated session within laravel's user area dashboard.
+
+{Embed}
+https://github.com/TremendouslyHighFrequency/ErgoDappConnector-PHP
+GitHub - TremendouslyHighFrequency/ErgoDappConnector-PHP
+Contribute to TremendouslyHighFrequency/ErgoDappConnector-PHP development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/P6rVHAy8HW4JqkpQhLaLS6wafXqa8_hoE261m2T3PEw/https/opengraph.githubassets.com/49bece8fd6f55d6300b4806e8ec3bc5979d042c7285b3e61652bd7c13fef1aa6/TremendouslyHighFrequency/ErgoDappConnector-PHP
+
+
+[09/07/2022 8:09 PM] liquid_phase#4605
+Initial publish of laravel app (blank, no content) including functional nautilus login/authentication:
+https://github.com/TremendouslyHighFrequency/Terahertz-Starter
+
+{Embed}
+https://github.com/TremendouslyHighFrequency/Terahertz-Starter
+GitHub - TremendouslyHighFrequency/Terahertz-Starter
+Contribute to TremendouslyHighFrequency/Terahertz-Starter development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/raw0ybWHzTgVCv6vhojZ7IRsy13pqcIMozMjekjXiE0/https/opengraph.githubassets.com/d0c23f9192214c77b108e0e778af00ae780bcdd4c774308deba427a89e8e8f8b/TremendouslyHighFrequency/Terahertz-Starter
+
+
+[09/16/2022 1:58 AM] Lourde#1973
+Hey quick question... I have someone in Cardano that distros music NFTs he wants to get involved with ERGO can you give him any info on how to start? He runs a stake pool over there too ...
+
+
+[09/16/2022 1:58 AM] Lourde#1973
+I was told to ask for you
+
+
+[09/16/2022 1:58 AM] Lourde#1973
+By wambo22
+
+
+[09/16/2022 2:12 AM] liquid_phase#4605
+we are building the first music publisher on ergo, but our platform is not ready just yet. keep checking up through the next ergohack for major progress
+
+
+[09/26/2022 8:55 PM] liquid_phase#4605
+https://github.com/TremendouslyHighFrequency/SmartContracts
+
+{Embed}
+https://github.com/TremendouslyHighFrequency/SmartContracts
+GitHub - TremendouslyHighFrequency/SmartContracts
+Contribute to TremendouslyHighFrequency/SmartContracts development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/vus-7cz-5yq9f2RsonTXolQ3bMikyVjDNbo-9WLvVS4/https/opengraph.githubassets.com/bbfc2385ff3863d1f5f0b97d531b3e452201eae1ffba0eb43cbdd1996af79ada/TremendouslyHighFrequency/SmartContracts
+
+
+[10/11/2022 1:56 AM] liquid_phase#4605
+https://swamp.audio/the-green-room/music-is-the-breath-of-life-ft-ohmlab
+
+{Embed}
+https://swamp.audio/the-green-room/music-is-the-breath-of-life-ft-ohmlab
+Music is the Breath of Life ft. OhmLab
+Featuring Chris Gear - Sonic Sorcerer @ OhmLab & AudioDesignDesk
+
+{Reactions}
+ergo_orange 
+
+[10/30/2022 4:36 PM] liquid_phase#4605
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1036317568547438682/Screen_Recording_2022-10-30_at_9.30.50_AM.mov
+
+
+[10/30/2022 7:00 PM] liquid_phase#4605
+Alpha preview of staking dashboard
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1036353943971823626/Screenshot_2022-10-30_at_11.55.14_AM.png
+
+
+[10/30/2022 8:31 PM] Ma11#0000
+Looking good!
+
+
+[11/08/2022 4:15 PM] liquid_phase#4605
+Some UI updates. front end should be at MVP soon ready for middleware to integrate to ergo backends
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1039573919344111696/IMAGE_2022-11-08_081436.jpg
+https://cdn.discordapp.com/attachments/972967503028449300/1039573919524470826/IMAGE_2022-11-08_081440.jpg
+https://cdn.discordapp.com/attachments/972967503028449300/1039573919738368040/IMAGE_2022-11-08_081442.jpg
+https://cdn.discordapp.com/attachments/972967503028449300/1039573919922925568/IMAGE_2022-11-08_081445.jpg
+https://cdn.discordapp.com/attachments/972967503028449300/1039573920141033532/IMAGE_2022-11-08_081447.jpg
+https://cdn.discordapp.com/attachments/972967503028449300/1039573920367513711/Screenshot_2022-11-08_at_8.13.12_AM.png
+https://cdn.discordapp.com/attachments/972967503028449300/1039573920736620614/IMAGE_2022-11-08_081509.jpg
+https://cdn.discordapp.com/attachments/972967503028449300/1039573920988282901/IMAGE_2022-11-08_081516.jpg
+
+
+[11/10/2022 3:43 PM] liquid_phase#4605
+some UI updates have been pushed to live site: https://swamp.audio
+
+{Embed}
+https://swamp.audio/
+Home
+A deep dive into the primordial soup of the soul.
+
+{Reactions}
+❤️ 
+
+[11/14/2022 7:31 AM] alexandru#0679
+good job, looks awesome
+
+{Reactions}
+🤝 
+
+[11/21/2022 8:47 PM] theta_decay#0000
+@digdug, you can see some recent updates above.
+
+
+[11/23/2022 4:21 AM] theta_decay#0000
+The site search bar is searching the correct content collection indexes now, and i'm now working on an automatic model update middleware to automatically update the search index batch queue when a collection item is saved (ie; user submits a song or album)
+
+styling of search bar will try to be really functional by genre, tags, artist, etc - i want to model it around bandcamp's search bar which i've always really liked
+
+
+[11/23/2022 4:21 AM] theta_decay#0000
+Swamp.Audio Dev Update
+
+Front-end:
+• Implemented search bar in local/dev site, working very fast - now working to filter and display results using CSS
+• Fixed some persistence issues with album art / artist name displaying in the media player
+• Fixed various bugs in new front-end design after community input/testing - still working out more of them
+
+TODO list for dev work:
+• Finish search bar implementation
+• Fix audio player JS to loop through playlist of audio files instead of stopping after each track
+• Implement NFT, Song, Album, etc. submission forms
+• Finish label/artist dashboard area 
+   -charts for distribution / sale statistics
+   -forms (create release, create artist, create label, create event, etc)
+   -lists of content (artists, releases, songs, etc)
+• Add to fiat cart button on album & song cards
+• Buy with dAppConnector button on album & song cards
+• Add to favorites button on album cards (if user logged in)
+• Favorites dashboard area (non-artist/non-label users)
+• Smart contract integration / finalization
+   - Artist mutual release agreement contract [Contract complete, front-end integration in progress]
+   - Staking Contract [Will utilize ergopad / Paideia contracts]
+   - NFT sale Contract for non release asset / classic NFTs [Will utilize Skyharbor 'Vending Machine' contract]
+   - NFT collection cross-posting [Skyharbor API]
+• Daneides instance for explorer calls
+• Update front-page to be content-ful with user-submitted content
+
+Ecosystem collabs / promotion:
+• Planning NFT series of 'pack' releases to promote smart contract utility
+• Planned cross-posting audio/video NFT collections to SkyHarbor via API
+• Artist sign-up form for beta
+
+Hoping to open our doors with all functionality working by EOY !
+
+
+[11/23/2022 4:23 AM] theta_decay#0000
+From Luquid_Phase 👆
+
+
+[11/25/2022 2:40 AM] liquid_phase#4605
+surprise feature addition 😉 Swamp.Audio WebDAW - for online content creators to record and create audio samples entirely in their browser with no software required to install
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1045529367729688656/Screenshot_2022-11-24_at_6.35.46_PM.png
+https://cdn.discordapp.com/attachments/972967503028449300/1045529368203640904/Screenshot_2022-11-24_at_6.36.05_PM.png
+https://cdn.discordapp.com/attachments/972967503028449300/1045529368534995024/Screenshot_2022-11-24_at_6.36.51_PM.png
+https://cdn.discordapp.com/attachments/972967503028449300/1045529369063473202/Screenshot_2022-11-24_at_6.37.01_PM.png
+https://cdn.discordapp.com/attachments/972967503028449300/1045529369440944198/Screenshot_2022-11-24_at_6.37.11_PM.png
+https://cdn.discordapp.com/attachments/972967503028449300/1045529369801674752/Screenshot_2022-11-24_at_6.38.25_PM.png
+https://cdn.discordapp.com/attachments/972967503028449300/1045529370133020742/Screenshot_2022-11-24_at_6.38.50_PM.png
+
+
+[11/25/2022 5:57 AM] Ma11#0000
+This is cool!
+
+
+[11/25/2022 5:37 PM] liquid_phase#4605
+🤝
+
+
+[11/27/2022 6:44 PM] liquid_phase#4605
+https://daw.swamp.audio
+
+you can all try out the new webDAW now on this subdomain before official launch!
+
+{Embed}
+https://daw.swamp.audio/
+Swamp.Audio
+Swamp.Audio WebDAW is a free full-featured web-based audio & waveform editing tool
+https://images-ext-1.discordapp.net/external/IYLqxCkQNlyv4c2pTFv5peOzLs47t5bOG-DdSbnnu5E/https/audiomass.co/icon.jpg
+
+
+[11/27/2022 6:51 PM] liquid_phase#4605
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1046498502571737188/PXL_20221127_184715034.TS.mp4
+
+
+[11/28/2022 3:32 AM] liquid_phase#4605
+Alpha version of search bar is now live on production site!
+
+page designed and launched for WebDAW:
+https://swamp.audio/daw
+
+{Embed}
+https://swamp.audio/daw
+DAW
+A deep dive into the primordial soup of the soul.
+
+
+[11/28/2022 9:12 PM] liquid_phase#4605
+OAUTH authentication working!
+
+Social networks we will have logins with: Discord, Discogs, Reddit, Twitter, Apple, Google, Instagram, VK, Binance, Soundcloud, Spotify
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1046896301788381194/Screen_Recording_2022-11-28_at_1.08.16_PM.mov
+
+
+[12/02/2022 5:39 PM] liquid_phase#4605
+With the help of Capt Nemo and Sepehr, we are making huge progress on getting transactions working in nautilus from the front end!
+
+still some bugs we're working out, but should be ready soon!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1048292394979823626/telegram-cloud-photo-size-1-4924814165831428759-y.jpg
+
+
+[12/02/2022 6:50 PM] liquid_phase#4605
+https://explorer.ergoplatform.com/en/transactions/a6cc718df664f41004c67bc9bc066841e800d8fac445efe0f30fa9cfed980f8c
+
+Succesful transaction!
+
+Need to fix utxo creation time, and have some error/success stuff pop up to let people know if it worked or not. It's also not yet working with ledger, but i think thats probably just some code i need to add. - ledger is unsupported still anyway so if its not an easy fix i won't focus on it until later
+
+
+[12/05/2022 6:39 PM] liquid_phase#4605
+https://www.youtube.com/watch?v=-eM61_JzhkA
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=-eM61_JzhkA
+Ergo Pulse Episode 11 - Swamp Audio / Terahertz
+Dan Friedman and Joseph Armeanio return for another exciting episode of Ergo Pulse! In this episode they are joined by Liquid_Phase, also known as Mike, who is the man behind Swamp.Audio (his record label) and Terahertz (a DAO based on Ergo, centered around the music industry and providing tools for artists and music fans).
+
+https://swamp.audio/...
+https://images-ext-2.discordapp.net/external/i5C6WcmXFaVkCoAg29FBZs8wENENyOps76dWQNbZ1Ms/https/i.ytimg.com/vi/-eM61_JzhkA/maxresdefault.jpg
+
+{Reactions}
+ergo_black 
+
+[12/07/2022 10:49 AM] liquid_phase#4605
+spent the day writing a custom payment monitor for our front end to tie into our download system / scalable asset storage container
+
+its not quite there yet, but it's a success
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1050001209416753152/image.png
+
+{Reactions}
+ergo_black (2) 
+
+[12/12/2022 11:17 PM] SwampAudio#0000
+Workin on the audio playlist functionality. Making some progress. 
+
+So far, i modified the existing player so that it understands what a playlist is and what previous/next do... currently im having an issue with it properly recognizing the array of audio files being fed to it... but, i think it's something simple that i'm missing and i hope i can get it working soon 🙂 it would be great to get that going
+
+
+[12/12/2022 11:18 PM] SwampAudio#0000
+if anyone in the thread here is a javascript expert, feel free to get in touch! I could use a little help, and there is some THz in it for you 🙂
+
+
+[12/16/2022 9:47 PM] SwampAudio#0000
+In the ergo discord developer chat there is currently a discussion taking place about NFT 'file attachments'. The implementation of how this is done could be done in several different ways, and during ergohack IV I submitted a PR on one specific way it could be achieved which I felt was the most malleable and dynamic while being both safe and effective for existing use cases as well as new ones. 
+
+During the discussion today I asked Kushti if the PR i suggested would be an acceptable solution, as it seems like the other solutions were being turned down for security purposes, and he replied yes and that standardizing the attachment type makes sense. Huzzah!
+
+This is awesome because if this is the method which gets adopted as a standard, it will make things like albums of individual songs that much easier to accomplish on layer one. Some other use cases for this type of utility NFT are 'indexers / TOC' for multiple NFTs in the same box, 'extended terms & references' to send to a smart contract, and honestly probably alot more uses i can't even imagine.
+
+{Reactions}
+🔥 
+
+[12/20/2022 10:56 PM] cafebedouin#9837
+Perhaps of interest: https://ciechanow.ski/sound/
+
+{Embed}
+https://ciechanow.ski/sound/
+Sound – Bartosz Ciechanowski
+Interactive article explaining how sound works.
+https://images-ext-1.discordapp.net/external/Iuyv_2IEYNCFETpC8ZzzWa4iVGxuFQcV5IOb4RmLGOo/https/ciechanow.ski/images/og/sound.png
+
+
+[12/20/2022 10:58 PM] SwampAudio#0000
+it is using Tone.JS to perform the actions with keyboard interactivity. I have explored the library a little and have plans on how to implement it into the webDAW
+
+
+[12/20/2022 10:58 PM] SwampAudio#0000
+the particle simulator is cool
+
+
+[12/20/2022 10:58 PM] SwampAudio#0000
+not sure if thats toneJS itself or utilizing another library ontop
+
+
+[12/20/2022 10:59 PM] SwampAudio#0000
+```
+const synth = new Tone.Synth().toDestination();
+
+document.addEventListener('keydown', function(event) {
+    synth.triggerAttackRelease('C4', '8n');
+    }
+);```
+
+
+[12/22/2022 2:40 PM] SwampAudio#0000
+Just wishing a happy holidays and winter solstice to everyone out there!
+
+{Reactions}
+🔥 
+
+[12/22/2022 2:41 PM] Gazza_SP#0000
+(re @SwampAudio : *Just wishing a happy holidays and winter solstice to everyone out there!*) 
+ 
+ Same to you bud! 😁
+
+
+[12/22/2022 3:54 PM] cafebedouin#9837
+Happy holidays to you as well.
+
+
+[12/26/2022 2:52 PM] SwampAudio#0000
+hope everyone had a nice holiday - i'll be pushing hard this final week of december to get MVP up by the new year hopefully, but running slightly behind projected schedule because I failed to account for taking holiday time off the project.
+
+{Reactions}
+👍 ergo_black (2) 
+
+[01/11/2023 4:58 PM] NoahErgo#0000
+Hi swamp sirs
+
+
+[01/11/2023 4:59 PM] NoahErgo#0000
+How are things @SwampAudio
+
+
+[01/11/2023 5:02 PM] SwampAudio#0000
+Hey @NoahErgo - super busy away from desk today but I’ll be posting a community update this evening when I’m home.
+
+
+[01/11/2023 10:52 PM] SwampAudio#0000
+Some Major form and function are still being coded. The holidays were very unproductive for me with the project, which is unfortunate.
+As swamp is not the front of the DAO project, i've had to migrate the swamp collection items from the main user to its own label user, so that when the project launches official swamp is just another label on the platform using it.
+
+
+[01/11/2023 10:53 PM] SwampAudio#0000
+right now ergo purchasing works fully, but staking and NFT minting and stuff doesnt, so thats the big focus is getting NFT minting/collections and Dao staking mechanism contracts up
+
+
+[01/11/2023 10:54 PM] SwampAudio#0000
+kushti was asked to review our main smart contracts, ive pinged him but he's very busy so he hasnt had the chance to respond yet.
+
+
+[01/11/2023 10:54 PM] SwampAudio#0000
+I don't plan on going live with the full NFT album contract functionality until we get verification or more testing has been done
+
+
+[01/11/2023 10:54 PM] SwampAudio#0000
+because it sure would stink to have alot of people start using the contract only to find a major flaw/vulnerability
+
+
+[01/11/2023 10:55 PM] SwampAudio#0000
+So right now i'm shooting for end of January as the adjusted soft launch where people can login
+
+
+[01/11/2023 10:55 PM] SwampAudio#0000
+user system is working but right now user dashboard doesnt do anything except basic profile editing, so working on getting playlists, etc all working
+
+{Reactions}
+🔥 
+
+[01/11/2023 11:05 PM] theta_decay#0000
+(re @SwampAudio : *I don't plan on going live with the full NFT album contract functionality until we get verification or more testing has been done*) 
+ 
+ Do you believe inviting the community to do some testing would be helpful? Or too early for that?
+
+
+[01/11/2023 11:12 PM] SwampAudio#0000
+the stuff im currently working on like user area and forms to upload content are pretty mission critical to users using the system
+
+
+[01/11/2023 11:12 PM] SwampAudio#0000
+testing will need to be done on minting NFTs, posting them for sale, etc
+
+
+[01/11/2023 11:12 PM] SwampAudio#0000
+so im focused on that now
+
+
+[02/04/2023 10:28 AM] vidicmu2301#0000
+@SwampAudio, any development update that you can share? It has been quiet for weeks. Thanks
+
+
+[02/04/2023 3:50 PM] SwampAudio#0000
+Hi, I’d rather not share my personal life the internet at large but I’ve been going thru some stuff which has been very stressful and I haven’t been at my desk much. At the same time, we’re waiting for Kushti to come back with our smart contract audit, which has been several weeks (months) of waiting. We can’t launch MVP without that contract, and I’m not going to potentially waste a bunch of my time by pushing forward on implementing the invalidated contract because we don’t know if it’s safe to the standards we need them to be. 
+
+We know it functions, we don’t know if there are any strange vulnerabilities and so we are very much relying on the ergo-script experts to come back and say that it either does or doesn’t function as intended. If it does, great - that’s actually the hardest part of the entire thing (decentralized collaboration and royalties distribution) and it’s done. If there is some vulnerability with it, we may need to scrap the entire contract and start over. I don’t think that will be the case, but again, I am not going to spend a lot of my time implementing something that’s not fully tested. That’s how wallets, bridges, etc get hacked and exploited.
+
+I’m not going to push myself to the point of insanity or depression to finish a project based on other people’s hopeful timelines, when the fundamental contract we created hasn’t been validated yet. In the shifting market people want instantaneous reactions to market movements as if that’s going to solve the problem of the ticker going down.
+
+
+[02/04/2023 3:52 PM] SwampAudio#0000
+At the same time, updates and movements are definitely needed to keep interest and su-port, so let me know if there is something we can be doing for social engagement during this time when we are laying in wait
+
+
+[02/04/2023 4:00 PM] vidicmu2301#0000
+Thanks for the update. Dont get me wrong about the market movements as THz is a tiny portion of my portfolio. My asking is because there were a lot of updates before xmas. Regarding Kushti review, can you advise the process if its ok to share? Hopefully he is aware and respond that he can review when his time allowed. Any friendly reminder to him needed?
+
+
+[02/04/2023 4:00 PM] vidicmu2301#0000
+I also hope your personal matters getting better now
+
+
+[02/04/2023 4:13 PM] NoahErgo#0000
+(re @SwampAudio : *Hi, I’d rather not share my personal life the internet at large but I’ve been going thru some stuff which has been very stressful and I haven’t been at my desk much. At the same time, we’re waiting for Kushti to come back with our smart contract audit, which has been several weeks (months) of waiting. We can’t launch MVP without that contract, and I’m not going to potentially waste a bunch of my time by pushing forward on implementing the invalidated contract because we don’t know if it’s safe t...*) 
+ 
+ I wonder if other competent developers could take a look so dont have to wait for kushti
+
+
+[02/04/2023 4:13 PM] SwampAudio#0000
+(re @NoahErgo : *I wonder if other competent developers could take a look so dont have to wait for kushti*) 
+ 
+ Armeanio has been in contact with me about it. I have pinged other devs as well, such as morphic,unfortunately no one has had the time yet.
+
+
+[02/04/2023 4:14 PM] NoahErgo#0000
+I see. Ill ask around too
+
+
+[02/04/2023 4:14 PM] SwampAudio#0000
+(re @vidicmu2301 : *Thanks for the update. Dont get me wrong about the market movements as THz is a tiny portion of my portfolio. My asking is because there were a lot of updates before xmas. Regarding Kushti review, can you advise the process if its ok to share? Hopefully he is aware and respond that he can review when his time allowed. Any friendly reminder to him needed?*) 
+ 
+ The audit process is just literally asking the devs to look at the code. There is nothing formal about it really
+
+
+[02/04/2023 4:14 PM] NoahErgo#0000
+maybe Cheese could look
+
+
+[02/04/2023 4:15 PM] SwampAudio#0000
+Cheese Is getblok right?
+Been waiting on them for a while to do sub pooling before they shut it down entirely, so not sure if he has more or less time now
+I’ll ask
+
+
+[02/04/2023 4:15 PM] NoahErgo#0000
+(re @SwampAudio : *Cheese Is getblok right?
+Been waiting on them for a while to do sub pooling before they shut it down entirely, so not sure if he has more or less time now
+I’ll ask*) 
+ 
+ They started new project that wont be so costly
+
+
+[02/04/2023 4:15 PM] NoahErgo#0000
+called Lithos Protocol
+
+
+[02/04/2023 4:16 PM] SwampAudio#0000
+Oh, see I haven’t even been on socials in a couple weeks. Which - I apologize for anyone whose been following closely enough to be impacted by that
+
+
+[02/04/2023 4:16 PM] NoahErgo#0000
+Ill ping him for ya
+
+
+[02/04/2023 4:16 PM] NoahErgo#0000
+hes super talented
+
+
+[02/04/2023 4:17 PM] SwampAudio#0000
+Awesome Ty
+Not to slight the work krasavice has done for us with the contract, he’s just very busy and it’s a dynamic af contract so, just covering all bases making sure he didn’t miss anything by having another someone(more skilled than he) audit
+
+
+[02/04/2023 4:18 PM] NoahErgo#0000
+more eyes is always better anyway haha
+
+
+[02/07/2023 8:19 AM] cafebedouin#0000
+Even kushti has other people look at his work. Many eyes make bugs shallow, or so the saying goes. 
+
+Three thoughts. One, we can see if we can get a better contract review process in place. So, contracts can be reviewed in a timely manner. Maybe sonething to raise in the sigmanaut grouo. Two, Ergohack might be a good opportunity to get people to review, since it has to be judged and devs try to make themselves available for it. Three, might be good to see if maybe others can help you push it forward. I'll ask around and see if I can get any leads...
+
+
+[02/07/2023 8:31 AM] theta_decay#0000
+These are great thoughts.
+
+
+[02/07/2023 2:23 PM] SwampAudio#0000
+Thankfully Kushti seems to be reviewing the contract now, he was asking questions about it yesterday
+
+
+[02/07/2023 2:25 PM] SwampAudio#0000
+Armeanio has been pinging him to remind him about it - so thanks to armeanio
+
+
+[02/07/2023 3:03 PM] SwampAudio#0000
+(re  : *<cafebedouin> [reply]: Even kushti has other people look at his work. Many eyes make bugs shallow, or so the saying goes. 
+
+Three thoughts. One, we can see if we can get a better contract review process in place. So, contracts can be reviewed in a timely manner. Maybe sonething to raise in the sigmanaut grouo. Two, Ergohack might be a good opportunity to get people to review, since it has to be judged and devs try to make themselves available for it. Three, might be good to see if maybe others c...*) 
+ 
+ I agree with this, the unfortunate part being I think even during ergohack the judges are still sometimes too busy. This contract version 1 was completed back during ergohack 4 and was submitted as part of our team project, but I don’t think anyone ever got to looking at it.
+
+
+[02/07/2023 3:10 PM] SwampAudio#0000
+Something like ergoscript playground mixed with something like scratch from MIT would be a great tool for new ergoscript developers - visual learning with puzzle pieces that either do or don’t fit together based on codeblocks. But making something like that would require someone/team with a full encyclopedic knowledge of ergoscript to spend xxx hours developing and implementing it, then upkeeping it. Doesn’t seem like something even remotely on the radar. I do think a middle ground where the ergoscript ‘encyclopedia’ should be made available in some form… but easier said than done, as ergoscript already has a lot of assumptions prebuilt in the language from other types of programming logic/code, where it’s almost like someone needs to go through the entire gamut of programming and cryptography basic to intermediate, before understanding ergoscript dynamics
+
+
+[02/07/2023 3:11 PM] SwampAudio#0000
+Which is probably a good thing at the end of the day, because it builds in expertise to people who are developing on ergo
+
+
+[02/07/2023 4:09 PM] cafebedouin#0000
+There are some tools, since Ergoscript is a subset of Scala, that can be used. I think Ilya posted an example of a library he is using to check Spectrum contracts that might help. But, right, nothing like scratch.
+
+
+[02/11/2023 8:56 PM] SwampAudio#0000
+(re  : *<cafebedouin> [reply]: Even kushti has other people look at his work. Many eyes make bugs shallow, or so the saying goes. 
+
+Three thoughts. One, we can see if we can get a better contract review process in place. So, contracts can be reviewed in a timely manner. Maybe sonething to raise in the sigmanaut grouo. Two, Ergohack might be a good opportunity to get people to review, since it has to be judged and devs try to make themselves available for it. Three, might be good to see if maybe others c...*) 
+ 
+ I agree with this, the unfortunate part being I think even during ergohack the judges are still sometimes too busy. This contract version 1 was completed back during ergohack 4 and was submitted as part of our team project, but I don’t think anyone ever got to looking at it.
+
+
+[02/11/2023 8:56 PM] Armeanio#0000
+(re @SwampAudio : *Armeanio has been pinging him to remind him about it - so thanks to armeanio*) 
+ 
+ It's on his to do list not sure where though.
+
+
+[02/11/2023 11:00 PM] Armeanio#0000
+(re @SwampAudio : *At the same time, updates and movements are definitely needed to keep interest and su-port, so let me know if there is something we can be doing for social engagement during this time when we are laying in wait*) 
+ 
+ I think its best to start working together as a community to figure out a way to onboard new musicians.
+
+
+[02/11/2023 11:01 PM] Armeanio#0000
+A lot of potential ideas contests, competitions, schemes to pay for the initial upload etc.
+
+
+[02/12/2023 12:06 AM] SwampAudio#0000
+The first thing planned is a compilation album of several different artists/tracks using the smart contract as a proof of concept.
+
+I have also pondered the idea of doing a remix competition, with a thz/ergo prize for the winners. For well established musicians to be interested in doing that, generally the stems/originating artist song needs to be well known / famous / or just really good. I'm sure we could get alot of people though, if it was marketed correctly. It does align with the site and the ability to upload stems as well as tracks.
+
+
+[02/12/2023 12:11 AM] SwampAudio#0000
+the cmpilation is already in the works, i have atleast 5 tracks for it from different artists already
+
+
+[02/12/2023 12:12 AM] SwampAudio#0000
+perhaps i could combine the two ideas here, and create a competition where the winners go on the first smart contract album
+
+
+[02/12/2023 12:13 AM] SwampAudio#0000
+Another thing I have been planning is monthly artist meetups, as a hybrid online/real world streaming event which takes place monthly to establish the entity as an artist connection hub and music  entertainment provider - spread the word through producers playing music and meeting eachother in person and connecting directly with fans online from the green room before/after sets. I've seen this work well for establishing rosters at labels and production companies - and there is lots of room to interact with THz and ergo from a vending perspective
+
+
+[02/12/2023 12:18 AM] SwampAudio#0000
+What would everyone like to see? Is the remix competition something worth pursuing in the short term?
+
+
+[02/12/2023 12:19 AM] SwampAudio#0000
+In theory, the whole thing could be run through soundcloud - an existing social network with huge musical presence.
+
+
+[02/12/2023 12:20 AM] SwampAudio#0000
+hopefully that way would get some conversions as well
+
+
+[02/12/2023 12:21 AM] SwampAudio#0000
+or could just pretty up those sections of our own website and open it up as a limited beta for those who are entering the competition - that might run the risk of less users because people are adverse to  what is unfamiliar -
+
+
+[02/12/2023 12:22 AM] SwampAudio#0000
+it also runs the risk of breaking during what is essentially a production beta with live audience, not the best look if something does go wrong while a competition is running, etc
+
+
+[02/12/2023 12:22 AM] SwampAudio#0000
+these are my thoughts on it - im open to input
+
+
+[02/12/2023 12:28 AM] SwampAudio#0000
+i could also open up a limited beta of the artist signup, just in general - where features are a bit limited but the artists or labels could create/edit profiles, claim their url slug, etc, and some other stuff. right now the user interface workflow could use some work - so it would be good to get feedback on it from people but at the same time i don't want to create a bad impression to users
+
+
+[02/12/2023 12:56 AM] theta_decay#0000
+(re @SwampAudio : *In theory, the whole thing could be run through soundcloud - an existing social network with huge musical presence.*) 
+ 
+ Sounds like a cool idea. Worth pursuing imo.
+
+
+[02/22/2023 7:56 AM] Sonicchemist#6523
+I'm a producer, artist, from family of professional musicians and I hope this will help with some direction for swampaudio. There's needs to be something like an IMDB set up but for musicians. A place where anybody can see the web and background information seemlesssly flowing from one section to the next but provides ease in sharing upcoming details of shows,events, albums or maybe even gives behind the scenes content for music/videos to thrive? Doing a multi rating for performers from studio to live for authentic validation could be a fun option or some sort of peer reviews on artists.  Swampaudio needs to get basic music users to navigate here easily and have shit straight forward and fair. If you have that so many more people will come build albums here. 
+
+If Swampaudio builds a better broadcast foundation platform than say Spotify but then sets a newer bar and tempo for ease of digital distributions presented in slick way with maneuverabile audio libraries both on and offline like soundcloud. It could be amazing.. you should probably consider providing generic or custom royalties structures within smart contracts ready to go on here cause that could be big and help things move faster. Last would be having the storage engine necessary to power the whole repository and that's what SoundCloud does do well but is not impossible to top. my advice would be setup the space for the artist being the highlighted users, personal music goals to keep users focused so I'd look into bandcamp and their structure 1st then keep incorporating the best ideas moving from engine to engine.The trick will be to see how easily you can set this up for those on boarding music who know Jack shit and just need a quick and clean process that won't take them 2 hours to upload all the necessary paperwork.
+
+
+[02/22/2023 2:53 PM] SwampAudio#0000
+Hi there, thanks for joining and the input. I think the website you suggest already exists called discogs which keeps historical information about all albums released using UPC and ISRC codes. But, it would be interesting to expand upon that idea if they had an open api which we could utilize and tie into releases released on blockchain
+
+
+[02/22/2023 2:54 PM] SwampAudio#0000
+The name of the project is Terahertz, and swamp.audio is just the label that started it out. Swamp.audio is retiring to be ‘just another on the platform’ among others
+
+
+[02/22/2023 2:54 PM] SwampAudio#0000
+I have a new domain name ready, which I’m getting set up; THZ.FM
+
+
+[02/22/2023 2:55 PM] SwampAudio#0000
+The short domain will make it a more attractive site to use for people hosting their catalogs and portfolios
+
+
+[02/22/2023 2:56 PM] SwampAudio#0000
+Creating a platform like Spotify from a purely streaming perspective is fairly simple, just plug the link to the IPFS file into the source of the player and it plays like any other audio file. The tricky part is the royalty distribution
+
+
+[02/22/2023 2:56 PM] SwampAudio#0000
+We have developed a smart contract which may or may not handle the royalties management for streaming audio, it hasn’t been tested for that - mainly it is for artists to collaborate together on albums and songs using NFT parts or individual objects
+
+
+[02/22/2023 2:57 PM] SwampAudio#0000
+It is on our radar in the future to become a decentralized streaming platform, but there is a long road ahead there - we are focused currently on deliving the `mVP which is the social network for artists and fans,
+
+
+[02/22/2023 2:57 PM] SwampAudio#0000
+The mvp will allow for people to buy and sell music using ergo/THz
+
+
+[02/22/2023 2:58 PM] SwampAudio#0000
+But for streaming, where someone pays a feee and then that’s paid out to whoever they listened too, it’s tricky.
+
+
+[02/22/2023 2:58 PM] SwampAudio#0000
+To verify a transaction every single new song that comes in, what’s the point of listening to music if there’s. 2 min break to verify the next song can be listened to
+
+
+[02/22/2023 2:59 PM] SwampAudio#0000
+So we have been thinking of ways around this. By utiilizing ‘stream pools’ invidivual to the person contributing, where the tx is handled with THz on layer 2 and on layer 1 with ergo in batch processes… also by utilizing paid playlists where you buy access to the playlist once to listen to it without interruption in entirety
+
+
+[02/22/2023 3:00 PM] SwampAudio#0000
+But again, lots of stuff to deliver here and have to work on things in a linear fashion because the team is very very small.
+
+I welcome anyone to the team who wishes to help with front end UI(tailwind), because most of the front end as well as back end is is being done by me.
+
+
+[02/22/2023 4:23 PM] cafebedouin#9837
+Sounds, in part, like you are talking about Allmusic.com.
+
+
+[02/22/2023 6:36 PM] Sonicchemist#6523
+No no, Allmusic.com gives me more of like a I'm shoping at Walmart vibe.. I'm talking more industrial, customizable and more in depth. We need more of artistic expressionon when they view the user.  A digital areana so to speak with you being able to set the stage witb a variation in vibrancy. as users give their own user impression getting the proper space to display correctly their artistry in the proper lights. I wanna feel their genres come through the framework
+
+
+[02/22/2023 6:37 PM] SwampAudio#0000
+That’s a very unique interpretation. Do you mind providing some more detailed examples of services that provide similar offerings to what you’re looking for?
+
+
+[02/22/2023 6:37 PM] SwampAudio#0000
+Also, is anyone getting his messages three times or is it just me?
+
+
+[02/22/2023 6:57 PM] glasgowm#9381
+Seems to be re-sending edits instead of editing the original, will have a look
+
+
+[02/22/2023 6:57 PM] Sonicchemist#6523
+There's no engine that I know of that provides what I'm talking about...yet..because it would be a music revolution if there was 1.All of these other engines are kinda senseless & 2 dimensional when it comes to user interaction. There's no real organization, or care to for the user to bridge people connections, or challengr their own knowledge within music history, theory, or connections with similar music allies out here. This just needs to be like a Multi room portal for a user to jump into the mix of marketplace, create virtual events, host battle of the bands, meeting others at intersections. Merge gaming with music
+
+
+[02/22/2023 6:58 PM] SwampAudio#0000
+What you just suggested is exactly what we aim to facilitate.
+
+
+[02/22/2023 6:59 PM] SwampAudio#0000
+It’s just a long and currently lonesome road
+
+
+[02/22/2023 6:59 PM] Sonicchemist#6523
+I'm here for you guys and would love to help you all in any ways that I can
+
+
+[02/22/2023 7:00 PM] SwampAudio#0000
+Really need help in the UI area as far as development goes but you seem passionate about what you’d like to see and in my eyes that’s super useful in marketing, I’ll be in touch to see if we can work together in some capacity
+
+
+[02/22/2023 7:05 PM] Sonicchemist#6523
+by doing what we are doing we can reset the bar for music stsndards because just like in crypto there are whales in this industry that don't want this to be built cause it deflates their whole game so don't give up! I know its a  lonely road but the pathways are always gonna be hard where there is no road.
+
+
+[02/22/2023 7:07 PM] Sonicchemist#6523
+I'm coming with you though with a machete to clear out the way
+
+
+[02/22/2023 7:11 PM] Sonicchemist#6523
+Don't be too hard on yourselves & just keep asking those good questions and the solutions will come. Sometimes it takes decades to get right my friends
+
+
+[02/23/2023 3:02 AM] cafebedouin#9837
+AllMusic was a reference work that was adapted to the web from print. So, it was designed to mimic the print, back in the 1990s. No one really did that for music because the information has a lot more variability than film/TV. For an example of the difficulty, check out this guide to electronic music. 
+https://music.ishkur.com/#
+
+But, it does make sense to take IMDB and tie that all into the functionality of paying for digital music, chat app / forum with music reviews and write-ups. But, maybe focus on doing a band camp clone to start?
+
+
+[03/03/2023 2:02 AM] SwampAudio#0000
+Hi everyone. Im really sorry for a lack of updates. I've been pushing myself to get the front end polished and the bugs worked out for the user / label dashboard area. I was originally intending to code our own NFT minting functionality for tracks, but to save time and get the MVP out sooner im going to do whatskyharbor did where they said mint the NFT through another site - in this case, ladopixel has the audio section for ergonfts and so we can use that to get started.
+
+Currently im working out bugs with the user registration and login forms, but recently solved a big bug in the 'Add an artist' form - and now that is working as it should. As artists are a collection item on the backend , as is merch and labels and many other things, fixing this bug means i can get those other add/update/delete forms working now too for that content.
+
+I've been working with a couple groups, musicians, event promoters, etc - essentially they are ready to start utilizing the platform for things such as ticket sales, event pages, music collaboration, etc. as soon as its available - we plan on using consistent events in real world spaces and combining them with digital attendance and goods.
+
+There's  still alot of work to do but im feeling like myself much moreso and pushing myself to get it done.
+
+Still waiting on smart contract audit - im not sure if it will be done by the time i'm ready to integrate the contract into the front end. that integration process is kinda complex, because i need to find and utilize some js libraries for encrypting things for the ergoscript - and if i cant do so then will need to do a different workflow involving a node
+
+{Reactions}
+🍻 (2) 
+
+[03/03/2023 2:06 AM] SwampAudio#0000
+ill do a screen recording later tonight to show the site, where its at, and go over the short term goals list to get MVP launched. Its close, but theres also some major hurdles im working through to ensure the site is safe to use and that there arent any bugs which could be show stopping
+
+{Reactions}
+👍 (2) 
+
+[03/07/2023 1:05 AM] SwampAudio#0000
+user dashboard area is shaping up nicely - fixing out the last few bugs and then im excited to launch the MVP as soon as we can!
+
+{Reactions}
+👍 
+
+[03/07/2023 1:07 AM] liquid_phase#4605
+@glasgowm can we change channel name to THZ.FM
+
+
+[03/07/2023 1:55 AM] SwampAudio#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1082481569157091348/file_103636.jpg
+
+
+[03/07/2023 1:55 AM] SwampAudio#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1082481571094868028/file_103637.jpg
+
+
+[03/07/2023 1:55 AM] SwampAudio#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1082481574618071140/file_103638.jpg
+
+
+[03/07/2023 1:55 AM] SwampAudio#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1082481582968930314/file_103639.jpg
+
+
+[03/07/2023 1:55 AM] SwampAudio#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1082481586693484544/file_103640.jpg
+
+
+[03/07/2023 1:55 AM] SwampAudio#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1082481590820671569/file_103641.jpg
+
+
+[03/07/2023 2:56 AM] SwampAudio#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/972967503028449300/1082496892228862032/file_103646.jpg
+
+{Reactions}
+spicy swamp 
+
+[03/07/2023 2:58 AM] SwampAudio#0000
+integrating the login form into the navigation as a popup modal
+
+
+[03/07/2023 12:55 PM] glasgowm#9381
+No `.` allowed, thzfm suit?
+
+
+[03/07/2023 2:55 PM] SwampAudio#0000
+Sure or THZ FM
+
+
+[03/08/2023 5:51 AM] SwampAudio#0000
+Taking suggestions for the Home Page/ Front page - what kind of content would you like to see displayed up front and foremost? Should we utilize it as a revenue model, by charging the artists and events who want to be there... or do we utilize a data driven model and allow the most viral/popular stuff to be displayed
+
+
+[03/08/2023 6:14 AM] ChrisHobotnica#0000
+Wondering who the site will have most traction with initially?
+
+
+[03/08/2023 6:17 AM] NoahErgo#0000
+(re @SwampAudio : *Taking suggestions for the Home Page/ Front page - what kind of content would you like to see displayed up front and foremost? Should we utilize it as a revenue model, by charging the artists and events who want to be there... or do we utilize a data driven model and allow the most viral/popular stuff to be displayed*) 
+ 
+ I think probably popularity initially
+
+
+[03/08/2023 6:17 AM] NoahErgo#0000
+Maybe once the platform gains some traction could expand monetization
+
+
+[03/08/2023 6:18 AM] SwampAudio#0000
+(re @ChrisHobotnica : *Wondering who the site will have most traction with initially?*) 
+ 
+ if artists are on the platform theres ways to monetize some of their activity. Its not neccesarily targeting them as a primary stream, but moreso just opening up the discussion about how to run something which is technically the DAOs decision
+
+
+[03/08/2023 6:20 AM] SwampAudio#0000
+Just like moving from a vanity URL to a custom domain - every site charges to do that since theres domain registrar infrastructure automation thast needs to be build - bandcamp charges 10$ a month to get that and other features. my thought was we could offer packages where one included vanity URL and another maybe Vanity URL and front page features
+
+
+[03/08/2023 6:21 AM] SwampAudio#0000
+if the site operates well enough, someone will use it as their primary site/domain name because its two birds with one stone foer someone who probably doesnt wanna maintain a catalog on a website ontop of social networks
+
+
+[03/08/2023 6:21 AM] SwampAudio#0000
+bandcamp is used by many musicians in this way, and im looking to copy the model with some niche changes
+
+
+[03/08/2023 6:22 AM] SwampAudio#0000
+(re @ChrisHobotnica : *Wondering who the site will have most traction with initially?*) 
+ 
+ most likely artists/musicians, because without them there is no content - no content means no listeners/collectors.
+
+
+[03/08/2023 6:26 AM] SwampAudio#0000
+initial launch likely will be minimal and wont have things like custom domain and featured packages. you are right that it could come off too bling off the bat, which we dont want to appear as a direct clone of the competitors
+
+
+[03/08/2023 6:45 AM] ChrisHobotnica#0000
+Sounds like genuine artist utility &  data volume later..like Costner's Field of Dreams line "If you build it, they(he) will come." 🤞
+
+
+==============================================================
+Exported 494 message(s)
+==============================================================

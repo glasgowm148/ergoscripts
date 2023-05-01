@@ -1,0 +1,3089 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 FINANCIAL 〙☰ / sigmafi
+Topic: https://sigmafi.app/#/
+==============================================================
+
+[02/11/2023 10:50 PM] glasgowm#9381
+https://sigmafi.app/#/
+
+
+[03/13/2023 11:59 AM] kushti#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1084807904563048498/file_104657.jpg
+
+
+[03/13/2023 11:59 AM] kushti#0000
+Issued the bond just )
+
+
+[03/15/2023 6:49 PM] Pulsarz#0000
+@ca3
+
+
+[03/15/2023 6:49 PM] Pulsarz#0000
+@nemo429 any plans for a small explanation / quick start page?
+
+
+[03/15/2023 6:50 PM] Pulsarz#0000
+I myself now have the question in what the interest is paid in, in the token that is lent right? But for a noob it's not really clear just from looking at the site imo
+
+
+[03/15/2023 7:02 PM] NoahErgo#0000
+(re @Pulsarzz : *@nemo429 any plans for a small explanation / quick start page?*) 
+ 
+ I wrote some extensive documentation, just has not been implemented yet
+
+
+[03/15/2023 7:02 PM] NoahErgo#0000
+might be outdated now tho
+
+
+[03/15/2023 7:02 PM] Pulsarz#0000
+(re @NoahErgo : *I wrote some extensive documentation, just has not been implemented yet*) 
+ 
+ Awesome!
+
+
+[03/15/2023 7:03 PM] NoahErgo#0000
+Forwarded from NoahErgo:
+
+
+[03/15/2023 7:03 PM] NoahErgo#0000
+normally i wouldnt share a pdf through telegram but here is the user guide documentation @nemo429
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1085639358201200660/sigmafi_guides.pdf
+
+
+[03/15/2023 7:03 PM] NoahErgo#0000
+@Pulsarzz ^
+
+
+[03/15/2023 7:32 PM] cafebedouin#9837
+Paid in the token borrowed.
+
+
+[03/15/2023 7:32 PM] cafebedouin#9837
+Person loaning has to pay UI fee.
+
+
+[03/16/2023 2:45 PM] kushti#0000
+Forwarded from kushti_ru: Congratulations to sigmafi.app ! TVL passed $10K ! $1K / day growth on average in last few days.
+
+
+[03/16/2023 5:06 PM] nemo429#0000
+(re @kushti_ru : *Congratulations to sigmafi.app ! TVL passed $10K ! $1K / day growth on average in last few days.*) 
+ 
+ Thank you so much sir, it’s great to see it getting traction )
+
+
+[03/16/2023 5:07 PM] Sisyphuspush#0000
+Just tried it out for 1st time!
+
+
+[03/16/2023 5:07 PM] Sisyphuspush#0000
+https://twitter.com/sisyphuspush/status/1636409723171000323
+
+{Embed}
+Sisyphuspush (@sisyphuspush)
+https://twitter.com/sisyphuspush/status/1636409723171000323
+Finally getting a chance to try out @Sigmafi_app. 
+
+Used 2 #ErgoNFTs (an @enigmaNFTs and a @maritsaart)  as collateral for a 7-day 50 $ERG loan @ 5% interest.
+
+Really neat that NFTs can be used as collateral on this lending app.
+
+#Ergo $ERG #DeFi #Crypto
+https://images-ext-2.discordapp.net/external/cdlEvrq8Mm90EhWiwcRk0loUTX2A4Wgq2gwzwtiYYNk/https/pbs.twimg.com/media/FrWx2LdXwBsNs0c.jpg
+https://images-ext-1.discordapp.net/external/KlEbUaCzCK55ct6L7NkjsUoeWclG70eKevumVxYYHlI/https/pbs.twimg.com/media/FrWx2LfXwA4WTaj.jpg
+https://images-ext-1.discordapp.net/external/T4tmBhATaGy5U5u8Zdsb1yL4eDH-b7nscKRkixAQLnw/https/pbs.twimg.com/media/FrWx5AjXwAQURT4.png
+Twitter
+
+
+[03/16/2023 5:07 PM] Sisyphuspush#0000
+Super cool that just NFTs can be used as collateral
+
+
+[03/16/2023 5:09 PM] nemo429#0000
+(re @sisyphuspush : *Super cool that just NFTs can be used as collateral*) 
+ 
+ Yeah! I’m working to make a better UX for NFTs
+
+
+[03/16/2023 5:11 PM] NoahErgo#0000
+Forwarded from nemo429:
+
+
+[03/16/2023 5:11 PM] NoahErgo#0000
+👀
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1085973683593552022/file_105226.jpg
+
+
+[03/16/2023 5:11 PM] NoahErgo#0000
+@sisyphuspush check this out
+
+
+[03/16/2023 5:12 PM] Sisyphuspush#0000
+I'm actually geeking out over this
+
+
+[03/16/2023 5:12 PM] NoahErgo#0000
+:)
+
+
+[03/16/2023 5:12 PM] NoahErgo#0000
+Pretty slick right?
+
+
+[03/16/2023 5:12 PM] Sisyphuspush#0000
+Such a cool option to have for the NFT community
+
+
+[03/16/2023 5:13 PM] nemo429#0000
+I just need a way to make sure the NFTs are legit to push to forward
+
+
+[03/16/2023 5:13 PM] Sisyphuspush#0000
+(re @nemo429 : *I just need a way to make sure the NFTs are legit to push to forward*) 
+ 
+ Does Sky Harbor have an API for verified addresses?
+
+
+[03/16/2023 5:13 PM] NoahErgo#0000
+(re @sisyphuspush : *Such a cool option to have for the NFT community*) 
+ 
+ Would be cool to see somebody fork the platform specifically for nft lending
+
+
+[03/16/2023 5:15 PM] nemo429#0000
+(re @sisyphuspush : *Does Sky Harbor have an API for verified addresses?*) 
+ 
+ They are revamping their backend and it should be available soon.
+
+Btw, @cryptoquokka wen API sir?
+
+
+[03/16/2023 5:16 PM] cryptoquokka#0000
+(re @nemo429 : *They are revamping their backend and it should be available soon.
+
+Btw, @cryptoquokka wen API sir?*) 
+ 
+ I’ve been really busy lately with my job 😭 sorry. Gotta pay the skyharbor bills somehow. I’ll be working on this this weekend
+
+
+[03/16/2023 5:17 PM] cryptoquokka#0000
+There is one way you can get it without us implementing an API. We have a GraphQL endpoint that you can literally do everything with lol
+
+
+[03/16/2023 5:17 PM] nemo429#0000
+(re @cryptoquokka : *I’ve been really busy lately with my job 😭 sorry. Gotta pay the skyharbor bills somehow. I’ll be working on this this weekend*) 
+ 
+ Oh, no problem. On your time, sir
+
+
+[03/16/2023 5:17 PM] cryptoquokka#0000
+If you don’t want to wait a couple weeks I can get on a call and show it
+
+
+[03/16/2023 5:18 PM] Sisyphuspush#0000
+Minnow fullfilled the loan request. Very clean dashboard that makes it easy to see whats what
+
+
+[03/16/2023 5:19 PM] Sisyphuspush#0000
+But yes, trust is the biggest roadblock to larger adoption using NFTs
+
+
+[03/16/2023 5:19 PM] nemo429#0000
+(re @cryptoquokka : *If you don’t want to wait a couple weeks I can get on a call and show it*) 
+ 
+ I can handle that, just show me the path )
+
+
+[03/16/2023 5:19 PM] Sisyphuspush#0000
+Nonetheless....very cool feature
+
+
+[03/16/2023 5:21 PM] cryptoquokka#0000
+(re @nemo429 : *I can handle that, just show me the path )*) 
+ 
+ https://hasura.skyharbor.io/v1/graphql
+
+
+[03/16/2023 5:22 PM] cryptoquokka#0000
+I know u know ur graphql stuff. go ham
+
+
+[03/16/2023 5:22 PM] cryptoquokka#0000
+if you have any questions lmk
+
+
+[03/16/2023 5:28 PM] nemo429#0000
+(re @cryptoquokka : *https://hasura.skyharbor.io/v1/graphql*) 
+ 
+ So, are verified minting addresses under `mint_addresses`?
+
+
+[03/16/2023 6:32 PM] cryptoquokka#0000
+(re @nemo429 : *So, are verified minting addresses under mint_addresses?*) 
+ 
+ Best way to get verified mint addresses is to call via collections, mint_addresses just stores all address, even unverified
+
+
+[03/16/2023 6:33 PM] cryptoquokka#0000
+You could get all mint addresses and filter out all p2pk collection names
+
+
+[03/16/2023 6:33 PM] cryptoquokka#0000
+but this is the best way I think:
+query verifiedMintAddresses {
+  collections(where:{verified: {_eq:true}}) {
+    name
+    mint_addresses{
+      address
+    }
+  }
+}
+
+
+[03/16/2023 6:34 PM] cryptoquokka#0000
+Or you can query the address directly, one sec while I make a query for that
+
+
+[03/16/2023 6:36 PM] cryptoquokka#0000
+here:
+
+```
+query verifiedMintAddresses {
+  collections(where: {_and: {verified: {_eq: true}, mint_addresses: {address: {_eq: mintAddress}}}}) {
+    name
+    mint_addresses {
+      address
+    }
+  }
+}```
+
+
+[03/16/2023 6:36 PM] cryptoquokka#0000
+If it returns anything then it is verified :)
+
+
+[03/16/2023 6:36 PM] cryptoquokka#0000
+Actually, using Hasura I could probably make an API endpoints for this that doesn't require graphql. I'll get back to you on that
+
+
+[03/16/2023 6:44 PM] cryptoquokka#0000
+Lol this is sick, I didn't think it would be that easy. The reason I didn't want to do this is so we have one API root URL (https://skyharbor-server.net)
+
+But I'm way better at graphql so I might just have to do a mix of both
+Here's the API endpoint for mint address: https://hasura.skyharbor.io/api/rest/verified/address/:mintaddress
+
+
+[03/16/2023 6:44 PM] cryptoquokka#0000
+Example with Cybercitizen: https://hasura.skyharbor.io/api/rest/verified/address/9hfNCyqJsCSku8HXrV17Y6AaQciCAwkwx4M49imdWjRaTX22Mvz
+
+
+[03/16/2023 6:48 PM] cryptoquokka#0000
+I guess I could just return the name, not the mint address, thats all the proof needed to know its verified. One good thing about not using gql is that we can edit what we return.
+
+Anyways, if you want me to add more to the endpoint lmk. I'm assuming you're going to stick with graphql bc you're a beast at that, so pls dont let me stop you
+
+
+[03/16/2023 6:59 PM] hq3r#0000
+(re @cryptoquokka : *Lol this is sick, I didn't think it would be that easy. The reason I didn't want to do this is so we have one API root URL (https://skyharbor-server.net)
+
+But I'm way better at graphql so I might just have to do a mix of both
+Here's the API endpoint for mint address: https://hasura.skyharbor.io/api/rest/verified/address/:mintaddress*) 
+ 
+ Such a show off! Quoka Is aliveeeeeeee🔥
+
+
+[03/16/2023 7:09 PM] cryptoquokka#0000
+(re @HQ3rr : *Such a show off! Quoka Is aliveeeeeeee🔥*) 
+ 
+ Lol I ain’t shit. The real beauty is the scanner that Hazey built
+
+
+[03/16/2023 7:09 PM] hq3r#0000
+(re @cryptoquokka : *Lol I ain’t shit. The real beauty is the scanner that Hazey built*) 
+ 
+ True that, hazey beats us all hahahahah
+
+
+[03/16/2023 7:09 PM] hq3r#0000
+(re @cryptoquokka : *Lol I ain’t shit. The real beauty is the scanner that Hazey built*) 
+ 
+ Hope you are happy with free marketing and nice utility of your api hahah
+
+
+[03/16/2023 7:13 PM] cryptoquokka#0000
+Lol the api was meant to be our marketing 😉
+
+
+[03/17/2023 8:07 AM] kushti#0000
+Tvl $12k
+
+
+[03/20/2023 4:48 AM] manhtunguyen73#0000
+hi, the interest here is for 1 month or 3 months ? Thanks
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1087236115523702804/file_105718.jpg
+
+
+[03/20/2023 4:50 AM] NoahErgo#0000
+(re @manhtunguyen73 : *hi, the interest here is for 1 month or 3 months ? Thanks*) 
+ 
+ why would it be 1 month?
+
+
+[03/20/2023 4:52 AM] manhtunguyen73#0000
+you mean i need to pay 2.4% x3 x amount of borrowing  ?
+
+
+[03/20/2023 4:52 AM] manhtunguyen73#0000
+its not clear for me
+
+
+[03/20/2023 4:52 AM] NoahErgo#0000
+what? No, the 2.4% just means that 2.4% of the term length has been completed
+
+
+[03/20/2023 4:53 AM] NoahErgo#0000
+interest is included in the shown repayment amount
+
+
+[03/20/2023 4:54 AM] NoahErgo#0000
+@manhtunguyen73 does that make sense?
+
+
+[03/20/2023 4:57 AM] manhtunguyen73#0000
+ah ok. thanks
+
+
+[03/20/2023 4:58 AM] manhtunguyen73#0000
+For this, where is the APR ?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1087238773068279908/file_105719.jpg
+
+
+[03/20/2023 4:59 AM] NoahErgo#0000
+(re @manhtunguyen73 : *For this, where is the APR ?*) 
+ 
+ it was displayed prior to accepting the loan
+
+
+[03/20/2023 5:00 AM] NoahErgo#0000
+take the repayment amount and subtract the amount you lendt and that is your interest amount
+
+
+[03/20/2023 5:00 AM] NoahErgo#0000
+do the math on the term length
+
+
+[03/20/2023 5:02 AM] manhtunguyen73#0000
+i am just curious to see at what APR people is lending/borrowing. i  can see the APR in Loan request, but not in Ongoing loan Tab
+
+
+[03/20/2023 5:36 AM] cafebedouin#9837
+Initial loan: $1,100
+Return: $1,155
+Term: 3 months, use three months from today
+Return: 21.36% / annualized
+
+https://www.calculator.net/roi-calculator.html?beginbalance=1100&endbalance=1155&investmenttime=date&investmentlength=2.5&beginbalanceday=03%2F20%2F2023&endbalanceday=06%2F20%2F2023&ctype=1&x=88&y=12
+
+{Embed}
+https://www.calculator.net/roi-calculator.html?beginbalance=1100&endbalance=1155&investmenttime=date&investmentlength=2.5&beginbalanceday=03%2F20%2F2023&endbalanceday=06%2F20%2F2023&ctype=1&x=88&y=12
+Return on Investment (ROI) Calculator
+Free return on investment (ROI) calculator that returns total ROI rate and annualized ROI using either actual dates of investment or simply investment length.
+
+
+[03/20/2023 5:41 PM] cryptoquokka#0000
+@nemo429 let me know when you use the verified mint address API. Would be a cool feature IMO since I'm seeing more NFTs show up on SigmaFi, and would be good promo for our API. 
+
+It's funny bc I had a Cardano project tell me they could make an NFT p2p lending system on Ergo for $50k funding, when it was already built (SigmaFi) but not advertised for NFTs 😂
+
+
+[03/20/2023 5:41 PM] NoahErgo#0000
+(re @cryptoquokka : *@nemo429 let me know when you use the verified mint address API. Would be a cool feature IMO since I'm seeing more NFTs show up on SigmaFi, and would be good promo for our API. 
+
+It's funny bc I had a Cardano project tell me they could make an NFT p2p lending system on Ergo for $50k funding, when it was already built (SigmaFi) but not advertised for NFTs 😂*) 
+ 
+ Currently not able to lend nfts, can only use them as collateral
+
+
+[03/20/2023 5:41 PM] NoahErgo#0000
+i think?
+
+
+[03/20/2023 5:42 PM] NoahErgo#0000
+Yeah only a few tokens possible to make loan requests
+
+
+[03/20/2023 5:44 PM] cryptoquokka#0000
+Ah gotcha. Still the ability to use as collateral is still impressive
+
+
+[03/20/2023 5:44 PM] Sisyphuspush#0000
+(re @cryptoquokka : *Ah gotcha. Still the ability to use as collateral is still impressive*) 
+ 
+ Agreed! I love it!
+
+
+[03/20/2023 5:45 PM] qx()#0000
+(re @cryptoquokka : *Ah gotcha. Still the ability to use as collateral is still impressive*) 
+ 
+ isn't there a p2p swap app that's working that just came out of ergohack?
+
+
+[03/20/2023 5:45 PM] NoahErgo#0000
+(re @cryptoquokka : *Ah gotcha. Still the ability to use as collateral is still impressive*) 
+ 
+ i think it could probably be forked and an nft lending platform created
+
+
+[03/20/2023 5:45 PM] qx()#0000
+all tokens, fungible and non fungible.
+
+
+[03/20/2023 5:46 PM] hq3r#0000
+I am working on that!
+
+
+[03/20/2023 5:46 PM] qx()#0000
+(re @HQ3rr : *I am working on that!*) 
+ 
+ link plz?
+
+
+[03/20/2023 5:46 PM] hq3r#0000
+Let me finish the hq version of how single tx
+
+
+[03/20/2023 5:46 PM] hq3r#0000
+Can be used
+
+
+[03/20/2023 5:46 PM] hq3r#0000
+Single swap tx
+
+
+[03/20/2023 5:46 PM] hq3r#0000
+Let's test it out qx
+
+
+[03/20/2023 5:46 PM] qx()#0000
+(re @HQ3rr : *Let's test it out qx*) 
+ 
+ let's do it
+
+
+[03/20/2023 5:46 PM] NoahErgo#0000
+(re @HQ3rr : *Single swap tx*) 
+ 
+ how is yours different from danza
+
+
+[03/20/2023 5:47 PM] hq3r#0000
+(re @NoahErgo : *how is yours different from danza*) 
+ 
+ not different , i am desiging some "ideas " on how it can be used for
+
+
+[03/20/2023 5:47 PM] hq3r#0000
+you can setup a marketplace with it
+
+
+[03/20/2023 5:47 PM] hq3r#0000
+also, lend , borrow stuff
+
+
+[03/20/2023 5:48 PM] hq3r#0000
+which , if community likes the option, they can be easily added
+
+
+[03/20/2023 5:49 PM] qx()#0000
+https://www.single-tx-swap.com/
+
+
+[03/20/2023 5:49 PM] cryptoquokka#0000
+(re @dadreboi : *isn't there a p2p swap app that's working that just came out of ergohack?*) 
+ 
+ Yes there is. Didn’t know hq was on that. We wanted to add a sumdomain to skyharbor for p2p lending as well but we saw someone else was doing it and we don’t wanna be spread thin
+
+
+[03/20/2023 5:56 PM] hq3r#0000
+(re @cryptoquokka : *Yes there is. Didn’t know hq was on that. We wanted to add a sumdomain to skyharbor for p2p lending as well but we saw someone else was doing it and we don’t wanna be spread thin*) 
+ 
+ I m just designing on what that can be used for , not working ...will forward the article to danza and see what he think and if community likes it :)
+
+
+[03/21/2023 3:52 PM] K#0000
+(re @NoahErgo : *Currently not able to lend nfts, can only use them as collateral*) 
+ 
+ NFT loans coming soon, first getting the loan offer contracts reviewed by Kushti
+
+
+[03/21/2023 3:53 PM] K#0000
+Then will make a special order/offer type for NFTs specifically
+
+
+[03/21/2023 3:54 PM] K#0000
+Are there any other features at the smart contract / utility level that people are interested in?
+
+
+[03/21/2023 4:03 PM] NoahErgo#0000
+(re @K : *Are there any other features at the smart contract / utility level that people are interested in?*) 
+ 
+ Auto liquidation probably not possible on chain right?
+
+
+[03/21/2023 4:04 PM] NoahErgo#0000
+Or liquidation below certain health ratio
+
+
+[03/21/2023 4:04 PM] Sisyphuspush#0000
+Imagine thats near impossible with NFTs
+
+
+[03/21/2023 4:05 PM] NoahErgo#0000
+Maybe could be an optional toggle setting in creating the loan
+
+
+[03/21/2023 4:05 PM] NoahErgo#0000
+makes it more attractive to lender
+
+
+[03/21/2023 4:05 PM] hq3r#0000
+Forwarded from HQ3rr:
+
+
+[03/21/2023 4:05 PM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1087768884418969720/image_2023-02-22_13-51-14.png
+
+
+[03/21/2023 4:05 PM] NoahErgo#0000
+Potentially
+
+
+[03/21/2023 4:05 PM] hq3r#0000
+I shared these with nemo
+
+
+[03/21/2023 4:05 PM] K#0000
+(re @NoahErgo : *Auto liquidation probably not possible on chain right?*) 
+ 
+ Should be possible with off-chain bots even now. I might just make one, there is no actual reward for it but it would clean up the address of free boxes.
+
+
+[03/21/2023 4:05 PM] hq3r#0000
+A collapsable of nfts listed as collateral
+
+
+[03/21/2023 4:05 PM] hq3r#0000
+Would be nice to have
+
+
+[03/21/2023 4:05 PM] K#0000
+(re @NoahErgo : *Or liquidation below certain health ratio*) 
+ 
+ Possible for tokens on Spectrum, framework is already made for it actually.
+
+
+[03/21/2023 4:07 PM] NoahErgo#0000
+Maybe loans of multiple token types?
+
+
+[03/21/2023 4:07 PM] Sisyphuspush#0000
+Possible to keep track of wallets that have defaulted on loans?
+
+
+[03/21/2023 4:07 PM] NoahErgo#0000
+K maybe i want to borrow equal amounts of erg and sigusd so i can deposit lp
+
+
+[03/21/2023 4:08 PM] K#0000
+(re @sisyphuspush : *Possible to keep track of wallets that have defaulted on loans?*) 
+ 
+ Probably doable, but useless since anybody can just make a new wallet address
+
+
+[03/21/2023 4:08 PM] Sisyphuspush#0000
+(re @K : *Probably doable, but useless since anybody can just make a new wallet address*) 
+ 
+ True, but could also keep track of those that have fulfilled obligations to create a trust factor
+
+
+[03/21/2023 4:09 PM] NoahErgo#0000
+so you mean some kind of credit score
+
+
+[03/21/2023 4:09 PM] Sisyphuspush#0000
+Possibly
+
+
+[03/21/2023 4:09 PM] K#0000
+(re @NoahErgo : *K maybe i want to borrow equal amounts of erg and sigusd so i can deposit lp*) 
+ 
+ This is a good idea, it will likely come in a later and bigger update though since it requires changes to the actual bond contracts.
+
+
+[03/21/2023 4:09 PM] K#0000
+(re @sisyphuspush : *True, but could also keep track of those that have fulfilled obligations to create a trust factor*) 
+ 
+ I was hoping for ErgoNames to come out for something like a credit score to be allowed.
+
+
+[03/21/2023 4:10 PM] NoahErgo#0000
+they have been very delayed
+
+
+[03/21/2023 4:10 PM] NoahErgo#0000
+That is the erg way 😅
+
+
+[03/21/2023 4:10 PM] Sisyphuspush#0000
+Wouldn't have it any other way
+
+
+[03/21/2023 4:12 PM] K#0000
+(re @NoahErgo : *they have been very delayed*) 
+ 
+ Partly my fault, they were very close to mvp but I recommended they go for an AVL Tree design which was more decentralized than what they originally had. Likely delayed them a little bit 😅
+
+
+[03/21/2023 4:12 PM] NoahErgo#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1087770822602666064/file_105958.webp
+
+
+[03/21/2023 4:12 PM] NoahErgo#0000
+Heh :)
+
+
+[03/21/2023 9:36 PM] nemo429#0000
+(re @cryptoquokka : *@nemo429 let me know when you use the verified mint address API. Would be a cool feature IMO since I'm seeing more NFTs show up on SigmaFi, and would be good promo for our API. 
+
+It's funny bc I had a Cardano project tell me they could make an NFT p2p lending system on Ergo for $50k funding, when it was already built (SigmaFi) but not advertised for NFTs 😂*) 
+ 
+ Sure! Jumping on it )
+
+
+[03/21/2023 10:24 PM] nemo429#0000
+Damn, getting the minting address is really inefficient, will try to optimize that on graphql side
+
+
+[03/21/2023 10:40 PM] nemo429#0000
+Just pushed NFT preview background, now working on an optimized way to fetch the minting address to add skyharbor verification
+
+
+[03/22/2023 2:00 AM] Sisyphuspush#0000
+(re @nemo429 : *Just pushed NFT preview background, now working on an optimized way to fetch the minting address to add skyharbor verification*) 
+ 
+ Preview background look nice. Will it only work if there is 1 NFT as collateral?
+
+
+[03/24/2023 8:12 PM] glasgowm#9381
+https://twitter.com/ERG_Glasgow/status/1637172949898723330
+
+{Embed}
+Glasgow (@ERG_Glasgow)
+https://twitter.com/ERG_Glasgow/status/1637172949898723330
+1/ 🚀 Discover #SigmaFi, a cutting-edge decentralized loan platform on #Ergo! Explore its powerful features and dive into the P2P lending revolution. A tweet thread for you! 🧵👇 #DeFi #Crypto #ergonauts #DiscoverErgo
+Twitter
+
+{Reactions}
+👍 
+
+[03/28/2023 11:37 AM] bennyk2#0000
+Hey can anyone confirm for me answers to these questions? @NoahErgo maybe?
+
+1) under what conditions can the lender claim the collateral?
+
+2)What happens if the collateral ratio drops below 100%? Can they claim it early?
+
+3) after the term expires, can the lender liquidate/claim all of the collateral (even if it’s >100%?), or is only up to 100% of the loan + interest owing?
+
+TY!
+
+
+[03/28/2023 11:56 AM] qx()#0000
+(re @bennykonan : *Hey can anyone confirm for me answers to these questions? @NoahErgo maybe?
+
+1) under what conditions can the lender claim the collateral?
+
+2)What happens if the collateral ratio drops below 100%? Can they claim it early?
+
+3) after the term expires, can the lender liquidate/claim all of the collateral (even if it’s >100%?), or is only up to 100% of the loan + interest owing?
+
+TY!*) 
+ 
+ 1 - if loan payback time has passed and the borrower has not paid it back. 
+2 - nope, unlike duckpools it doesn’t matter. Only trigger for enabling liquidation is expiry time. 
+3- for liquidation, lender gets whatever was presented as collateral in beginning. For payback option, lender gets original back plus interest.
+
+
+[03/28/2023 2:37 PM] gg#0000
+About 1) , how much time after the expiration lender can claim the collateral?
+
+
+[03/28/2023 2:59 PM] qx()#0000
+i believe as aoon as it reaches/passes the block height that is designated as the timer it will allow you to hit that liquidate button.
+
+
+[03/28/2023 2:59 PM] qx()#0000
+but i'm not 100% sure of that
+
+
+[03/28/2023 3:21 PM] Sisyphuspush#0000
+Is it possible for the borrower to have option to pay the interest into SC at time of loan request, essentially providing more collateral incentive for lender?
+
+
+[03/28/2023 4:14 PM] qx()#0000
+(re @sisyphuspush : *Is it possible for the borrower to have option to pay the interest into SC at time of loan request, essentially providing more collateral incentive for lender?*) 
+ 
+ Yes, but I think in your case example there is now opportunity if you repay the loan early you are only charged the partial interest of time of the actual loan, that’s why it’s collected during repayment. Whoever is awake feel free to correct but I’m sure that would be the next push/request.
+
+
+[03/28/2023 4:23 PM] Sisyphuspush#0000
+(re @dadreboi : *Yes, but I think in this case if you repay the loan early you are only charged the partial interest of time of the actual loan, that’s why it’s collected during repayment. Whoever is awake feel free to correct.*) 
+ 
+ From my testing, it charged full interest even if paid back early
+
+
+[03/28/2023 4:23 PM] NoahErgo#0000
+(re @sisyphuspush : *From my testing, it charged full interest even if paid back early*) 
+ 
+ Thats what he is saying
+
+
+[03/28/2023 4:24 PM] NoahErgo#0000
+He is saying if changed to your proposal that is how it would work
+
+
+[03/28/2023 4:24 PM] Sisyphuspush#0000
+I see...read that wrong
+
+
+[03/28/2023 4:24 PM] Sisyphuspush#0000
+But why only pay partial interest if default is full, regardless of how early its paid back?
+
+
+[03/28/2023 4:25 PM] qx()#0000
+No interest on default
+
+
+[03/28/2023 4:25 PM] Sisyphuspush#0000
+True..but assuming it is paid back
+
+
+[03/28/2023 4:25 PM] Sisyphuspush#0000
+Full interest is charged regardless if its early or not, correct?
+
+
+[03/28/2023 4:26 PM] qx()#0000
+Collecting interest at beginning could mean less leverage for borrower.
+
+
+[03/28/2023 4:26 PM] qx()#0000
+Idk why capt decided that way so I’m speculating
+
+
+[03/28/2023 4:27 PM] NoahErgo#0000
+Prob a question for cheese
+
+
+[03/28/2023 4:27 PM] qx()#0000
+Oh right duh sorry lol
+
+
+[03/28/2023 4:27 PM] qx()#0000
+The man behind the curtían
+
+
+[03/28/2023 4:27 PM] Sisyphuspush#0000
+Indeed, but having it as an option could for borrower who intends to repay could help incentivize the loan
+
+
+[03/28/2023 4:27 PM] qx()#0000
+(re @sisyphuspush : *Indeed, but having it as an option could for borrower who intends to repay could help incentivize the loan*) 
+ 
+ Makes it riskier to lend imho
+
+
+[03/28/2023 4:27 PM] Sisyphuspush#0000
+Especially if collateral is something like NFTs
+
+
+[03/28/2023 4:27 PM] Sisyphuspush#0000
+(re @dadreboi : *Makes it riskier to lend imho*) 
+ 
+ Howso?
+
+
+[03/28/2023 4:28 PM] qx()#0000
+Means u would jump out during small fluxes in price when ur payback is less than the interest accrued so far.
+
+
+[03/28/2023 4:29 PM] qx()#0000
+Eventually lenders would be pissed getting not full term interest
+
+
+[03/28/2023 4:29 PM] qx()#0000
+And just stop lending
+
+
+[03/28/2023 4:30 PM] Sisyphuspush#0000
+Lets assume interest is paid in full based on loan request timeline, as I'm still assuming this is currently the case, and its more of a guarantee like the collateral.
+
+
+[03/28/2023 4:30 PM] NoahErgo#0000
+I think would have to work like this:
+
+Interest is put up in full at loan creation. If person repays loan early, percentage of interest is taken based on interval of time. The rest remains on sigmafi to be claimed back by loan requester
+
+
+[03/28/2023 4:31 PM] NoahErgo#0000
+I suppose if this is a possibility then there should be an option for minimum duration beyond which early repayment is possible
+
+
+[03/28/2023 4:32 PM] NoahErgo#0000
+Otherwise makes taking a loan less attractive
+
+
+[03/28/2023 4:32 PM] Sisyphuspush#0000
+(re @NoahErgo : *I think would have to work like this:
+
+Interest is put up in full at loan creation. If person repays loan early, percentage of interest is taken based on interval of time. The rest remains on sigmafi to be claimed back by loan requester*) 
+ 
+ Makes sense...could even see it similar to mortgage where interest is frontloaded and not distributed equally along timeframe
+
+
+[03/28/2023 4:32 PM] qx()#0000
+Contract only allows persons to send to others if im not mistaken? As in, the borrower can only send payment and interest at once, the lender can only liquidate and take collateral. As Noah said, if interest was also collected at first, during liquidation the borrower would also have to come back to collect the interest
+
+
+[03/28/2023 4:33 PM] Sisyphuspush#0000
+Maybe I need another coffee...
+
+
+[03/28/2023 4:33 PM] Sisyphuspush#0000
+So q...
+
+
+[03/28/2023 4:33 PM] qx()#0000
+Prob just cleaner this way tbh
+
+
+[03/28/2023 4:34 PM] NoahErgo#0000
+I think an option for minimum duration before repayment is essential if this is inplemented
+
+
+[03/28/2023 4:34 PM] Sisyphuspush#0000
+In my test, I paid back early...but was charged full interest
+
+
+[03/28/2023 4:34 PM] NoahErgo#0000
+So lets say 2 month loan. minimum 1 month and then second month can be repaid at any time.
+
+
+[03/28/2023 4:34 PM] Sisyphuspush#0000
+Thats is how its currently set up to work, correct?
+
+
+[03/28/2023 4:34 PM] NoahErgo#0000
+(re @sisyphuspush : *Thats is how its currently set up to work, correct?*) 
+ 
+ Yes you pay back all of the interest you specified at loan creation
+
+
+[03/28/2023 4:34 PM] Sisyphuspush#0000
+Okay...good...not completely lost here
+
+
+[03/28/2023 4:35 PM] Sisyphuspush#0000
+So why does that change if paid ahead of time?
+
+
+[03/28/2023 4:35 PM] NoahErgo#0000
+it changes the way the contracts need to work
+
+
+[03/28/2023 4:35 PM] qx()#0000
+Yah would need a contract modification
+
+
+[03/28/2023 4:35 PM] qx()#0000
+More moving parts to it
+
+
+[03/28/2023 4:36 PM] Sisyphuspush#0000
+I see....well beyond my knowledge
+
+
+[03/28/2023 4:36 PM] cafebedouin#9837
+Personally, I'm happy to pay full interest to close out the loan. The person offering the loan is locked in. The person taking it has a lot of flexibility, and that flexibility should cone with a cost.
+
+
+[03/28/2023 4:36 PM] qx()#0000
+think of it in access rights
+
+
+[03/28/2023 4:36 PM] qx()#0000
+If i put up collateral i no longer can sign that tax
+
+
+[03/28/2023 4:36 PM] qx()#0000
+Only the lender can
+
+
+[03/28/2023 4:36 PM] NoahErgo#0000
+(re  : *<cafebedouin> Personally, I'm happy to pay full interest to close out the loan. The person offering the loan is locked in. The person taking it has a lot of flexibility, and that flexibility should cone with a cost.*) 
+ 
+ agree
+
+
+[03/28/2023 4:37 PM] qx()#0000
+(re  : *<cafebedouin> Personally, I'm happy to pay full interest to close out the loan. The person offering the loan is locked in. The person taking it has a lot of flexibility, and that flexibility should cone with a cost.*) 
+ 
+ Yah great point
+
+
+[03/28/2023 4:37 PM] NoahErgo#0000
+but i do think having it as an option could be useful if implemented with minimum term before repayment, beyond which early repayment is possible
+
+
+[03/28/2023 4:37 PM] qx()#0000
+(re @dadreboi : *Only the lender can*) 
+ 
+ Lender can’t sign the repayment/interest tax either only borrower
+
+
+[03/28/2023 4:37 PM] cafebedouin#9837
+Complexity has a cost too.
+
+
+[03/28/2023 4:37 PM] cafebedouin#9837
+More options, more likely people won't use it.
+
+
+[03/28/2023 4:38 PM] qx()#0000
+So at the end, if interest is collected first….the lender has to sign he liquidate tx, and NOW the borrower has to sign the get back the interest tx
+
+
+[03/28/2023 4:38 PM] cafebedouin#9837
+Until the lending and borrowing pools are larger, at any rate.
+
+
+[03/28/2023 4:38 PM] qx()#0000
+In current method that doesn’t need to happen and is cleaner
+
+
+[03/28/2023 4:38 PM] cafebedouin#9837
+I wouldn't take a loan with interest front loaded.
+
+
+[03/28/2023 4:38 PM] qx()#0000
+Plus, borrower can leverage the interest payment until it’s time to repay
+
+
+[03/28/2023 4:38 PM] qx()#0000
+Benefit for borrower
+
+
+[03/28/2023 4:39 PM] cafebedouin#9837
+The whole point of sigmafi for me comes down to 2 plays, in my mind.
+
+
+[03/28/2023 4:39 PM] qx()#0000
+(re  : *<cafebedouin> I wouldn't take a loan with interest front loaded.*) 
+ 
+ In fairness most people won’t notice the difference
+
+
+[03/28/2023 4:39 PM] cafebedouin#9837
+1) Safety. You get guaranteed return on your Erg and token and don't think about the market.
+
+
+[03/28/2023 4:40 PM] Sisyphuspush#0000
+My questions come from a place of ignorance on the nuances of DeFi...so thanks for bearing with me
+
+
+[03/28/2023 4:40 PM] NoahErgo#0000
+(re  : *<cafebedouin> 1) Safety. You get guaranteed return on your Erg and token and don't think about the market.*) 
+ 
+ And hedging
+
+
+[03/28/2023 4:41 PM] cafebedouin#9837
+2) You think the market is going to roll a certain way, and you think that if you borrow something now, change it, you'll be able to pay back, cheaper, later when price is lower and cover the interest rate.
+
+
+[03/28/2023 4:41 PM] Sisyphuspush#0000
+As a potential lender knowing interest isn't guaranteed makes me pause...I guess that's where it comes from
+
+
+[03/28/2023 4:41 PM] cafebedouin#9837
+Add in front loaded interest really cuts down the appeal of 2)
+
+
+[03/28/2023 4:41 PM] qx()#0000
+(re @sisyphuspush : *As a potential lender knowing interest isn't guaranteed makes me pause...I guess that's where it comes from*) 
+ 
+ Correct, always need to be ok with the collateral
+
+
+[03/28/2023 4:41 PM] qx()#0000
+Just like any other loan
+
+
+[03/28/2023 4:43 PM] cafebedouin#9837
+It's a great tool. For example, right now I'm writing loans so I can add to the AHT/Erg liquidity pool. I borrow the erg change some to AHT and dump in pool. I can keep the SigUSD, used as collateral, and likely, I'll be able to pay back the Erg more cheaply in a few months.
+
+
+[03/28/2023 4:44 PM] cafebedouin#9837
+On the other end, they don't have to take all that risk. Guaranteed 3% or 4%.
+
+
+[03/28/2023 4:44 PM] cafebedouin#9837
+I'm happy to pay that, particularly if it plays the way I think it will.
+
+
+[03/28/2023 4:45 PM] Sisyphuspush#0000
+Makes sense. Appreciate the explanations
+
+
+[03/28/2023 4:45 PM] Sisyphuspush#0000
+Will have to learn more before going into Defi..
+
+
+[03/28/2023 4:45 PM] NoahErgo#0000
+(re @sisyphuspush : *Makes sense. Appreciate the explanations*) 
+ 
+ Personally i think nft collateralized loans are riskiest option and will not touch them
+
+
+[03/28/2023 4:46 PM] NoahErgo#0000
+i know u love your nfts haha
+
+
+[03/28/2023 4:46 PM] NoahErgo#0000
+But they are not very liquid and makes it sketchy to me
+
+
+[03/28/2023 4:46 PM] Sisyphuspush#0000
+I do
+
+
+[03/28/2023 4:46 PM] cafebedouin#9837
+NFTs are the fucking wild west of defi.
+
+
+[03/28/2023 4:46 PM] cafebedouin#9837
+I treat it like any other art I buy, I buy it because I like it.
+
+
+[03/28/2023 4:47 PM] Sisyphuspush#0000
+Yeah, its a much more speculative market, but good upside when taking into account passion behind a lot of projects
+
+
+[03/28/2023 4:47 PM] cafebedouin#9837
+Although, I did buy a bunch of Neta angels when they were minting and made same chump change on them.
+
+
+[03/28/2023 4:47 PM] NoahErgo#0000
+If we had collection offers to create constant buy pressure at a minimum floor price i would feel a bit differently about it
+
+
+[03/28/2023 4:47 PM] NoahErgo#0000
+(re  : *<cafebedouin> Although, I did buy a bunch of Neta angels when they were minting and made same chump change on them.*) 
+ 
+ i made a lot of erg from that
+
+
+[03/28/2023 4:48 PM] NoahErgo#0000
+now they are so cheap
+
+
+[03/28/2023 4:48 PM] Sisyphuspush#0000
+(re @NoahErgo : *If we had collection offers to create constant buy pressure at a minimum floor price i would feel a bit differently about it*) 
+ 
+ Soon
+
+
+[03/28/2023 4:48 PM] cafebedouin#9837
+The only NFT project on Erg where it made obvious financial sense to buy them, if you sold them fast enough.
+
+
+[03/28/2023 4:49 PM] Sisyphuspush#0000
+Yeah, with the airdrops
+
+
+[03/28/2023 4:49 PM] NoahErgo#0000
+Airdrop isnt where the money was made imo u sell em cause people thought they would make money with the airdrops
+
+
+[03/28/2023 4:49 PM] cafebedouin#9837
+The airdrops weren't the problem with Neta, the mining rewards were.
+
+
+[03/28/2023 4:49 PM] cafebedouin#9837
+Or at least, that was when price started to cave.
+
+
+[03/28/2023 4:50 PM] cafebedouin#9837
+I sold everything I had Neta related as soon as I understood what mining rewards were doing.
+
+
+[03/28/2023 4:50 PM] NoahErgo#0000
+Yeah i called it day 1 as well
+
+
+[03/28/2023 4:50 PM] Sisyphuspush#0000
+I minted one just to support project, but never got into them much
+
+
+[03/28/2023 4:50 PM] NoahErgo#0000
+nobody on aneta team listened to me about it lol
+
+
+[03/28/2023 4:50 PM] Sisyphuspush#0000
+(re @NoahErgo : *nobody on aneta team listened to me about it lol*) 
+ 
+ I hear that a lot
+
+
+[03/28/2023 4:51 PM] NoahErgo#0000
+I used to be involved there not anymore got fed up
+
+
+[03/28/2023 5:22 PM] qx()#0000
+I had a few for miming rewards back when I mined. That was a cool concept.
+
+
+[03/28/2023 5:22 PM] qx()#0000
+Wish that would happen again with nfts
+
+
+[03/28/2023 5:24 PM] NoahErgo#0000
+(re @dadreboi : *I had a few for miming rewards back when I mined. That was a cool concept.*) 
+ 
+ Good for miners shit for everyone else
+
+
+[03/28/2023 5:24 PM] NoahErgo#0000
+would be different if it was a fimo
+
+
+[03/28/2023 7:53 PM] K#0000
+(re @sisyphuspush : *Is it possible for the borrower to have option to pay the interest into SC at time of loan request, essentially providing more collateral incentive for lender?*) 
+ 
+ Keep in mind a few things:
+
+- On the UI, 100% collateralization means the collateral covers the loan AND the interest.
+- The goal of the SigmaFi contracts in general is to be simple as possible, so I am trying to avoid unnecessary changes.
+- I may be misunderstanding, but isn't this already possible by simply adding more collateral?
+
+
+[03/28/2023 7:54 PM] qx()#0000
+(re @K : *Keep in mind a few things:
+
+- On the UI, 100% collateralization means the collateral covers the loan AND the interest.
+- The goal of the SigmaFi contracts in general is to be simple as possible, so I am trying to avoid unnecessary changes.
+- I may be misunderstanding, but isn't this already possible by simply adding more collateral?*) 
+ 
+ ooo ty, that clears up part of that for me i was not clear on...so no matter what, you get the interest.
+
+
+[03/28/2023 7:55 PM] K#0000
+(re @dadreboi : *ooo ty, that clears up part of that for me i was not clear on...so no matter what, you get the interest.*) 
+ 
+ Yep, in general the collateral should cover both the loan and interest if it is > 100% collateralization
+
+
+[03/28/2023 7:57 PM] K#0000
+I do find it rather funny how complex the mechanics of these loans have become, when the original goal was to keep them simple. I believe cafebedouin mentioned earlier that the strategies behind them can become rather high-level.
+
+
+[03/28/2023 7:58 PM] K#0000
+When I see you guys talking about all the things you can do with these bonds, I end up getting confused 😅
+
+
+[03/28/2023 7:58 PM] qx()#0000
+yes! 🙂
+
+
+[03/28/2023 8:06 PM] qx()#0000
+so for clarity in sissy's sake
+
+
+[03/28/2023 8:06 PM] qx()#0000
+insterest is collected at the time of collateral with the collateral...then, insterest is also collected at time of repayment, where you collect your collarteral.
+
+
+[03/28/2023 8:07 PM] qx()#0000
+insterest is collected at the time of collateral with the collateral...then, insterest is also collected at time of repayment, where you collect your collarteral and that original interest.
+
+
+[03/28/2023 8:08 PM] qx()#0000
+the smart contract would be more difficult if you had a single pot of interest floating around that either went to the lender or borrower depending on liquid or repayment K ?
+
+
+[03/28/2023 8:35 PM] qx()#0000
+(re @K : *Keep in mind a few things:
+
+- On the UI, 100% collateralization means the collateral covers the loan AND the interest.
+- The goal of the SigmaFi contracts in general is to be simple as possible, so I am trying to avoid unnecessary changes.
+- I may be misunderstanding, but isn't this already possible by simply adding more collateral?*) 
+ 
+ ooo ty, that clears up part of that for me i THOUGHT i was clear on...so no matter what, you get the interest.
+
+
+[03/28/2023 8:35 PM] qx()#0000
+@sisyphuspush looks like no matter what you get the interest
+
+
+[03/28/2023 8:35 PM] qx()#0000
+interest is also taken during collarteral
+
+
+[03/28/2023 10:22 PM] K#0000
+(re @dadreboi : *the smart contract would be more difficult if you had a single pot of interest floating around that either went to the lender or borrower depending on liquid or repayment K ?*) 
+ 
+ Maybe the better way of stating is that the collateral (assuming >= 100%) covers the interest payment. So if the loan never ends up being repaid, you are not losing out on the total value of the interest + loan.
+
+
+[03/28/2023 10:30 PM] qx()#0000
+(re @K : *Maybe the better way of stating is that the collateral (assuming >= 100%) covers the interest payment. So if the loan never ends up being repaid, you are not losing out on the total value of the interest + loan.*) 
+ 
+ But if loan is repaid, interest comes out of a new interest payment.
+
+
+[03/28/2023 10:30 PM] qx()#0000
+Included with repayment as one payment
+
+
+[03/28/2023 10:34 PM] bennyk2#0000
+(re @K : *Maybe the better way of stating is that the collateral (assuming >= 100%) covers the interest payment. So if the loan never ends up being repaid, you are not losing out on the total value of the interest + loan.*) 
+ 
+ … at the time the loan is taken out.
+
+This doesn’t account for change in asset value / exchange rate over the term though, so the lender can still be caught short.
+
+This should incentivise lenders to preferentially accept stable-assets as collateral.
+
+
+[03/28/2023 10:43 PM] qx()#0000
+Interesting. Could offset as a borrower by providing collateral in erg and then interest in sigusd to make it more enticing to be picked up. But goes the other way too if erg price rises. But in that loan if erg prices go up I’m gonna default on purpose anyway.
+
+
+[03/28/2023 10:43 PM] qx()#0000
+Lots of nuances lol
+
+
+[03/29/2023 9:20 AM] hq3r#0000
+Hi @t_nadii  can you share the logo svg and backgrounds please :)
+
+
+[03/29/2023 2:49 PM] K#0000
+(re @bennykonan : *… at the time the loan is taken out.
+
+This doesn’t account for change in asset value / exchange rate over the term though, so the lender can still be caught short.
+
+This should incentivise lenders to preferentially accept stable-assets as collateral.*) 
+ 
+ Yes, this is assuming value of everything remains stable for simplicity purposes. If value changes, then it gets more complicated.
+
+
+[03/30/2023 11:42 AM] BiBibouxx#0000
+Hello,
+I have a problem with a bond purchased on the SigmaFi site.
+Or should I escalate my issue?
+Thanks
+
+
+[03/30/2023 11:48 AM] hq3r#0000
+Hello, what's the issue?
+
+
+[03/30/2023 11:52 AM] BiBibouxx#0000
+Since I moved tokens to my wallet some time ago, the bond no longer appears on the dashboard. Moreover, I believe that the bond was due to expire on March 22 and I did not see anything on my wallet.
+Sorry if bad English because I am French and I use the automatic translator.
+
+
+[03/30/2023 12:11 PM] qx()#0000
+> (re @BiBibouxx : *Since I moved tokens to my wallet some time ago, the bond no longer appears on the dashboard. Moreover, I believe that the bond was due to expire on March 22 and I did not see anything on my wallet.
+Sorry if bad English because I am French and I use the automatic translator.*)
+         
+        If you missed the expiration then the lender probably liquidated it and you won’t see anything now on dashboard
+
+
+[03/30/2023 12:11 PM] qx()#0000
+You have to pay back before expiration.
+
+
+[03/30/2023 12:12 PM] BiBibouxx#0000
+I was the lender
+
+
+[03/30/2023 12:12 PM] qx()#0000
+Oh!!
+
+
+[03/30/2023 12:12 PM] qx()#0000
+And you didn’t see your funds come back?
+
+
+[03/30/2023 12:12 PM] qx()#0000
+If they paid back you’ll see a tx in your wallet with that original lent amount plus interest.
+
+
+[03/30/2023 12:12 PM] BiBibouxx#0000
+No, still not and I believe that the duration of the obligation was 1 month. But I can't check it now because I don't see anything on the dashboard
+
+
+[03/30/2023 12:12 PM] BiBibouxx#0000
+> (re @dadreboi : *If they paid back you’ll see a tx in your wallet with that original lent amount plus interest.*)
+         
+        Always nothing
+
+
+[03/30/2023 12:12 PM] qx()#0000
+The contracts use wallet address so moving tokens shouldn’t matter. You’re using nautilus? What’s the address?
+
+
+[03/30/2023 12:13 PM] BiBibouxx#0000
+A moins d'avoir mal vu sur ergoexplorer... C'est pas evident pour les novises. J'utilise Nautilus mon adresse est 9fkeYFLgSE2mSN3zh921ZAWga5tr9tqggZdjdryAgtwvN6TkHUt
+
+
+[03/30/2023 12:13 PM] BiBibouxx#0000
+Unless you saw the wrong thing on ergoexplorer... It's not easy for novices. I use Nautilus my address is 9fkeYFLgSE2mSN3zh921ZAWga5tr9tqggZdjdryAgtwvN6TkHUt Sorry^^
+
+
+[03/30/2023 12:15 PM] BiBibouxx#0000
+The initial transaction on ergo explorer is b7f8f4804241113c638e0c6b5d82ae35e5b568c2b65faba64a5e370718c31a3f
+
+
+[03/30/2023 12:17 PM] qx()#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1090957857509343272/file_107140.jpg
+
+
+[03/30/2023 12:17 PM] qx()#0000
+it was paid back with interest in this tx
+
+
+[03/30/2023 12:17 PM] qx()#0000
+2500 rsv lent, 2625 received
+
+
+[03/30/2023 12:19 PM] BiBibouxx#0000
+Oh so much for me. Reassure to see that it works. I'm going to do a test again. Thank you so much. Sorry to bother you.
+
+
+[03/30/2023 12:19 PM] qx()#0000
+You have to pay back before they liquidate.
+
+
+[03/30/2023 12:19 PM] qx()#0000
+> (re @BiBibouxx : *Oh so much for me. Reassure to see that it wor...*)
+         
+        no worries! glad it all worked 🙂
+
+
+[03/30/2023 12:19 PM] BiBibouxx#0000
+👍
+
+
+[03/30/2023 12:20 PM] qx()#0000
+@nemo429 can you pay stuff back after expiry if it hasn't been liquidated yet?
+
+
+[03/30/2023 12:39 PM] RichiTP#0000
+I can’t lend it says something like dapp connector error
+
+
+[03/30/2023 12:39 PM] RichiTP#0000
+I wonder what’s the issue
+
+
+[03/30/2023 12:46 PM] kushti#0000
+@nemo429 got unknown error yesterday as well
+
+
+[03/31/2023 12:58 PM] kushti#0000
+> (re @kushti_ru : *@nemo429 got unknown error yesterday as well*)
+         
+        with SafeW
+
+
+[03/31/2023 12:58 PM] kushti#0000
+"unknown error"
+
+
+[03/31/2023 1:09 PM] nemo429#0000
+> (re @dadreboi : *@nemo429 can you pay stuff back after expiry i...*)
+         
+        No, you can’t the contract prevents that
+
+
+[03/31/2023 1:10 PM] qx()#0000
+> (re @nemo429 : *No, you can’t the contract prevents that*)
+         
+        Okies. Ty for clearing that up :)
+
+
+[03/31/2023 1:13 PM] nemo429#0000
+> (re @kushti_ru : *with SafeW*)
+         
+        SAFEW has an issue with big integers, already pinged the dev, see: https://discord.com/channels/668903786361651200/669989266478202917/1072117812962787388
+
+
+[03/31/2023 1:14 PM] nemo429#0000
+It uses regular `number` type instead of `bigint` or something else
+
+
+[03/31/2023 1:16 PM] kushti#0000
+is unknown error about that ?
+
+
+[03/31/2023 1:17 PM] kushti#0000
+previously safew worked
+
+
+[03/31/2023 1:18 PM] Pulsarz#0000
+> (re @dadreboi : *The contracts use wallet address so moving tok...*)
+         
+        might be interesting to mint a lender/borrower nft so that people can still move wallets
+
+
+[03/31/2023 1:18 PM] Pulsarz#0000
+or was this by design?
+
+
+[03/31/2023 1:24 PM] qx()#0000
+So allow any key to sign it as long as originating nft is in that wallet? Would also allow for selling the loan easier, which they have talked about.
+
+
+[03/31/2023 1:53 PM] nemo429#0000
+> (re @kushti_ru : *is unknown error about that ?*)
+         
+        It’s possible, it’s the only know issue with SAFEW dApp connector. When you get this error again, can you hit F12 and see what’s going on in the browser log?
+
+
+[03/31/2023 1:54 PM] nemo429#0000
+> (re @Pulsarzz : *might be interesting to mint a lender/borrower...*)
+         
+        That’s interesting, K sir, what do you think about that? Feasible?
+
+
+[03/31/2023 1:54 PM] Pulsarz#0000
+not sure if it's possible for the lender tbh since they automatically get the amount paid back by the borrower
+
+
+[03/31/2023 1:55 PM] nemo429#0000
+> (re @Pulsarzz : *not sure if it's possible for the lender tbh s...*)
+         
+        It can go the the NFT holder as well
+
+
+[03/31/2023 1:56 PM] Pulsarz#0000
+> (re @nemo429 : *It can go the the NFT holder as well*)
+         
+        yeah but then the nft doesn't get burned
+
+
+[03/31/2023 1:56 PM] Pulsarz#0000
+not that it matters, butr not as organized
+
+
+[03/31/2023 1:56 PM] Pulsarz#0000
+the nft the borrower had would be burned when repaying the loan, makes sense
+
+
+[03/31/2023 1:56 PM] Pulsarz#0000
+also extra reminder he has outstanding loans to pay
+
+
+[03/31/2023 1:59 PM] Pulsarz#0000
+this would basically enable leverage if you think about it
+
+
+[03/31/2023 1:59 PM] Pulsarz#0000
+since you could use the nft's as collateral on a new loan
+
+
+[03/31/2023 2:00 PM] nemo429#0000
+> (re @kushti_ru : *is unknown error about that ?*)
+         
+        Also, it works well until you have a box with big enough amounts.
+
+
+[03/31/2023 5:31 PM] gg#0000
+I get an error while trying to make a loan
+
+
+[03/31/2023 5:32 PM] gg#0000
+Daap connector: transaction signing error......
+
+
+[03/31/2023 5:32 PM] nemo429#0000
+> (re @gg : *I get an error while trying to make a loan*)
+         
+        Can you please provide more context?
+
+
+[03/31/2023 5:38 PM] gg#0000
+Dapp Connector: transaction signing error: Prover error ( tx index input 0): script reduced to False
+
+
+[03/31/2023 5:55 PM] K#0000
+> (re @nemo429 : *That’s interesting, K sir, what do you think a...*)
+         
+        Possible and the current contracts should support it already. It is in the plans after loan requests are out.
+
+
+[03/31/2023 6:20 PM] nemo429#0000
+> (re @gg : *Dapp Connector: transaction signing error: Pro...*)
+         
+        Explorer issues, going to replace the instance
+
+
+[03/31/2023 6:33 PM] nemo429#0000
+> (re @nemo429 : *Explorer issues, going to replace the instance*)
+         
+        Done, @kushti_ru can you please try again? Explorer instance was out of sync
+
+
+[03/31/2023 6:35 PM] RichiTP#0000
+> (re @nemo429 : *Explorer issues, going to replace the instance*)
+         
+        Already worked 👍
+
+
+[03/31/2023 6:38 PM] RichiTP#0000
+> (re @RichiTP : *Already worked 👍*)
+         
+        TVL takes time to update. It should have jumped
+
+
+[03/31/2023 6:39 PM] RichiTP#0000
+Or maybe it goes up upon new loan requests only. Not sure
+
+
+[03/31/2023 6:41 PM] nemo429#0000
+TVL is the sum of all assets locked into open orders and ongoing loans
+
+
+[03/31/2023 6:42 PM] RichiTP#0000
+Yes, I thought it should have gone up for a sec, but of course it makes sense now
+
+
+[04/02/2023 9:11 AM] hq3r#0000
+Sirs , do we have api documentation ? Want to add sigmafi offerings on Ergcube :)
+
+
+[04/02/2023 3:23 PM] qx()#0000
+I’ve been sending a tx from ergo to cardano each day. So far so good! Need to buy some ada to go other way now :)
+
+
+[04/02/2023 3:24 PM] hq3r#0000
+> (re @dadreboi : *I’ve been sending a tx from ergo to cardano ea...*)
+         
+        Wrong chat qx
+
+
+[04/02/2023 3:33 PM] qx()#0000
+Lol
+
+
+[04/02/2023 3:33 PM] qx()#0000
+I need a nap
+
+
+[04/02/2023 3:34 PM] qx()#0000
+Cw is right. I’m getting old.
+
+
+[04/09/2023 11:56 AM] Rokurota#0000
+Hi! I am trying to get a loan from sigmafi, but it keeps saying "insuffient inputs". My collateral - loan ratio is 170%, is the problem the interest rate or what?
+
+
+[04/09/2023 12:01 PM] Rokurota#0573
+Lol my mistake
+
+
+[04/10/2023 5:34 PM] BiBibouxx#0000
+Oh so much for me. Reassure to see that it works. I'm going to do a test again. Thank you so much. Sorry to bother you.
+
+
+[04/10/2023 5:48 PM] NoahErgo#0000
+I am creating a gitbook for sigmafi documentation. Please DM if you would like to be added as a contributor!
+
+
+[04/10/2023 6:09 PM] NoahErgo#0000
+Docs in progress: https://sigmafi.gitbook.io/sigmafi-docs/market
+
+Please contribute!
+
+{Embed}
+https://sigmafi.gitbook.io/sigmafi-docs/market
+Market
+An overview of the SigmaFi Market
+https://images-ext-2.discordapp.net/external/z-wM2yGVtSOzng2__tnttspZUGbZZqHCsRJk-AEltF4/%3Fcolor%3D%26logo%3D%26theme%3D/https/app.gitbook.com/share/space/thumbnail/q4onQFx5FnEqQkswG7uh/page/M2FtGAtlM7W5v6Tg02jN.png
+
+
+[04/10/2023 10:11 PM] nemo429#0000
+(re @NoahErgo : *Docs in progress: https://sigmafi.gitbook.io/s...*)
+        
+        Wow, that’s pretty amazing!
+
+
+[04/10/2023 10:12 PM] nemo429#0000
+Let me know when I can add a link to this  on the dApp 🥰❤️
+
+
+[04/10/2023 10:13 PM] nemo429#0000
+I really appreciate your work 🙏🏼
+
+
+[04/10/2023 10:14 PM] NoahErgo#0000
+(re @nemo429 : *Let me know when I can add a link to this  on ...*)
+        
+        You are free to do it now! It will probably be a living doc with changes being made for a bit
+
+
+[04/10/2023 10:14 PM] NoahErgo#0000
+I want to make a quick start guide that is simpler
+
+
+[04/10/2023 10:18 PM] nemo429#0000
+(re @NoahErgo : *You are free to do it now! It will probably be...*)
+        
+        Great! Will do it in a few hours
+
+
+[04/12/2023 12:45 AM] nemo429#0000
+(re @NoahErgo : *Docs in progress: https://sigmafi.gitbook.io/s...*)
+        
+        Added!
+
+
+[04/12/2023 8:22 PM] lyndon_b#0000
+Looks like there's an issue on the app with pulling prices for SigUSD & SigRSV assets. Other Spectrum tokens appear to be fine eg. SPF, NETA
+
+
+[04/12/2023 11:35 PM] bennyk2#0000
+(re @lyndon_b : *Looks like there's an issue on the app with pu...*)
+        
+        Is that why the TVL suddenly dropped maybe?
+
+
+[04/12/2023 11:46 PM] nemo429#0000
+(re @lyndon_b : *Looks like there's an issue on the app with pu...*)
+        
+        That’s weird, probably some issue with Spectrum API, will check
+
+
+[04/12/2023 11:47 PM] bennyk2#0000
+They had an update in the last day or two so maybe something changed
+
+
+[04/12/2023 11:47 PM] hq3r#0000
+(re @nemo429 : *That’s weird, probably some issue with Spectru...*)
+        
+        Spectrum ends are working fine for me
+
+
+[04/12/2023 11:49 PM] qx()#0000
+(re @lyndon_b : *Looks like there's an issue on the app with pu...*)
+        
+        Oracle may have sneezed?
+
+
+[04/13/2023 12:37 AM] nemo429#0000
+(re @HQ3rr : *Spectrum ends are working fine for me*)
+        
+        I was using summary endpoint to get only verified pools, but it is returning only SPF and AHT pools, see: https://api.spectrum.fi/v1/amm/pools/summary
+
+
+[04/13/2023 12:38 AM] nemo429#0000
+(re @nemo429 : *That’s weird, probably some issue with Spectru...*)
+        
+        Fixed
+
+
+[04/13/2023 12:40 AM] hq3r#0000
+(re @nemo429 : *I was using summary endpoint to get only verif...*)
+        
+        https://api.spectrum.fi/v1/amm/markets I use markets :)
+
+
+[04/13/2023 12:41 AM] qx()#0000
+Yah. More people should use markets so Tim doesn’t close it down on me and HQ  :)
+
+
+[04/13/2023 12:51 AM] nemo429#0000
+(re @HQ3rr : *https://api.spectrum.fi/v1/amm/markets I use m...*)
+        
+        Yeah, I’m using that one now, and filtering by high liquidity assets
+
+
+[04/13/2023 2:50 AM] velvia695#0000
+wen token
+
+
+[04/13/2023 2:51 AM] velvia695#0000
+(pls don't ban me)
+
+
+[04/13/2023 3:05 AM] gg#0000
+(re @velvia695 : *wen token*)
+        
+        The token is Erg
+
+
+[04/13/2023 3:15 AM] qx()#0000
+u guys didn't get the HMS_SigmaFi token?
+
+
+[04/13/2023 3:16 AM] qx()#0000
+were you not part of the testing group?
+
+
+[04/13/2023 4:47 AM] gg#0000
+Uhh nop...
+
+
+[04/13/2023 4:49 AM] gg#0000
+I wasn't part of the beta unless we're still in beta
+
+
+[04/13/2023 4:55 AM] hq3r#0000
+(re @gg : *I wasn't part of the beta unless we're still i...*)
+        
+        He is joking ser
+
+
+[04/13/2023 4:58 AM] gg#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1095921042985324627/disappointed-simpsons.mp4
+
+
+[04/14/2023 12:40 PM] kushti#0000
+@nemo429 "Unknown error" again when lending with SafeW
+
+
+[04/14/2023 12:52 PM] nemo429#0000
+(re @kushti_ru : *@nemo429 "Unknown error" again when lending wi...*)
+        
+        I definitely need to improve error messages lol, can you hit F12 see what’s happening in browser log?
+
+
+[04/14/2023 12:57 PM] kushti#0000
+(re @nemo429 : *I definitely need to improve error messages lo...*)
+        
+        Transaction signing error: Prover error (tx input index 0): Script reduced to false
+
+
+[04/14/2023 12:57 PM] kushti#0000
+So on SafeW side I guess
+
+
+[04/14/2023 1:00 PM] nemo429#0000
+(re @kushti_ru : *Transaction signing error: Prover error (tx in...*)
+        
+        Hmm, probably.
+
+
+[04/14/2023 1:03 PM] nemo429#0000
+(re @nemo429 : *Hmm, probably.*)
+        
+        Or not 🤔, input 0 is the order input, so it doesn’t need a signature. Will do some investigation
+
+
+[04/14/2023 1:22 PM] nemo429#0000
+(re @kushti_ru : *Transaction signing error: Prover error (tx in...*)
+        
+        Everything seems to be working fine with Nautilus.
+
+
+[04/14/2023 3:14 PM] hq3r#0000
+Need some community members to pop some #Erfo in chats! Come on guys?!!!
+
+
+[04/14/2023 3:14 PM] hq3r#0000
+Forwarded from unknown: https://www.youtube.com/watch?v=-Wa-2Cw9Bfo
+
+{Embed}
+FluxLabs
+https://www.youtube.com/watch?v=-Wa-2Cw9Bfo
+Flux - Round Table with POW projects
+●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+⭐Links:
+💻Website: https://runonflux.io
+💻Website: https://zelcore.io
+●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+👨‍👩‍👧‍👦  Social:
+◆ Discord: https://discord.gg/F6VeCS4
+◆ Twitter: https://twitter.com/runonflux
+◆ Twitter: https://twitter.com/Zelcore_io
+◆ Medium: https://fluxofficial.medium.com/
+●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+
+👍Please like this video if y...
+https://images-ext-2.discordapp.net/external/nfuasVjhHEyf12GrM4m7yv9MFH2MHX_aYg4haSz6Q4A/https/i.ytimg.com/vi/-Wa-2Cw9Bfo/maxresdefault_live.jpg
+
+
+[04/16/2023 9:43 PM] NoahErgo#0000
+Sigmafi TVL now above 20k
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1097260999335235674/file_110284.jpg
+
+
+[04/16/2023 10:55 PM] NoahErgo#0000
+@nemo429 quick start guides added to docs
+
+
+[04/17/2023 6:42 PM] Pulsarz#0000
+@nemo429 sorry for the ping, but is there a way to have a direct link to an order on the site? I'd like to provide a direct link for my SigmaFi x ErgoMonitor integration but as far as I can see it's not possible right now right?
+
+
+[04/17/2023 7:11 PM] NoahErgo#0000
+docs repo can be found here, if you wish to add some changes full free to fork and submit a PR:
+
+https://github.com/NoahErgo/SigmaFi-Docs
+
+{Embed}
+https://github.com/NoahErgo/SigmaFi-Docs
+GitHub - NoahErgo/SigmaFi-Docs
+Contribute to NoahErgo/SigmaFi-Docs development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/4f2zo5mzujtRIAb9Dln_Re_mTMVgTQaZa-FL3oXGIA0/https/opengraph.githubassets.com/3cca5287954365b4573fc625264965bdca5c0d8d756a4802ab81b6bdec9450ae/NoahErgo/SigmaFi-Docs
+
+
+[04/17/2023 7:11 PM] NoahErgo#0000
+i can review the pr in gitbook and approve or change
+
+
+[04/17/2023 8:35 PM] cometeer#0000
+i couldn't get loan request to confirm with nautilus on firefox or brave, but safeW actually work
+
+
+[04/17/2023 9:04 PM] cometeer#0000
+In another platform I used, the lender have the option to cease the collateral if it is under 100%, but it can be malicious, especially with unreliable price oracle or flash loan attacks.
+
+
+[04/18/2023 7:07 PM] Pulsarz#0000
+SigmaFi tracking added to ErgoMonitor. If there is interest I could post all new overcollaterized loan requests to this channel if @ErgoMonitor_bot gets added. Makes more sense here then a separate channel imo.
+
+
+[04/18/2023 7:07 PM] Pulsarz#0000
+Forwarded from ErgoMonitor_bot: *New SigmaFi loan request!*
+
+Amount requested: 1 ERG (~1.92 USD)
+Collateral: 250069 COMET (~3.39 USD)
+Collateralization ratio: 171.42%
+Interest: 10% (0.1 ERG)
+APR: 1216.667%
+Term: 3 days (2160 blocks)
+
+
+[04/18/2023 7:07 PM] Pulsarz#0000
+Will add it to our twitter account in a bit, still need to determine what thresholds are good enough.
+
+
+[04/18/2023 10:07 PM] theta_decay#0000
+(re @Pulsarzz : *New SigmaFi loan request!
+
+Amount requested: 1...*)
+        
+        Nice job, I agree, would be great to have in this chat.
+
+
+[04/19/2023 11:07 PM] bennyk2#0000
+Hey question- 
+
+How important is it to use a cold wallet for using sigmafi?
+
+
+[04/20/2023 12:40 PM] cafebedouin#9837
+Depends on your preferences. A cold wallet is more secure, but Sigmafi is more convenient with Nautilus. In fact, I think a cold wallet with Sigmafi would require SafeW, and doing a tx would be rather convoluted.
+
+
+[04/20/2023 12:59 PM] bennyk2#0000
+(re  : *<cafebedouin> Depends on your preferences. A c...*)
+        
+        Okay. Can do ledger with nautilus though right?
+
+
+[04/20/2023 6:52 PM] Pulsarz#0000
+Reminder to possibly add ErgoMonitor_bot here.. :)
+
+
+[04/20/2023 6:52 PM] Pulsarz#0000
+Forwarded from ErgoMonitor_bot: *New SigmaFi loan request!*
+
+Amount requested: 200 SigUSD (~199.72 USD)
+Collateral: 24069420 COMET (~342.3 USD)
+Collateralization ratio: 161.39%
+Interest: 10% (20 SigUSD)
+APR: 173.81%
+Term: 21 days (15120 blocks)
+
+
+[04/20/2023 7:08 PM] NoahErgo#0000
+@Pulsarzz possible to get loan fulfillment notifications as well?
+
+
+[04/20/2023 7:09 PM] NoahErgo#0000
+like if somebody funds a request
+
+
+[04/20/2023 7:13 PM] Pulsarz#0000
+Think so yes, will look into it.
+
+
+[04/20/2023 7:14 PM] Pulsarz#0000
+But i was thinking on adding that functionality to the DM section so that you get notified when your requests get filled. Not sure if its usefull in a public setting.
+
+
+[04/20/2023 7:17 PM] Pulsarz#0000
+Although might be interesting in this channel context I suppose.
+
+
+[04/20/2023 7:39 PM] cafebedouin#9837
+Yes.
+
+
+[04/20/2023 8:25 PM] NoahErgo#0000
+@Pulsarzz possible to make defillama adaptor for tvl?
+
+
+[04/20/2023 10:55 PM] hq3r#0000
+(re @NoahErgo : *@Pulsarzz possible to make defillama adaptor f...*)
+        
+        Having a tvl api end already and not having tokenomics, adaptor should be Easy.... Not like ergopad o spf which have "staking" vesting " "lp" ... My 2 cents haha
+
+
+[04/20/2023 11:03 PM] Pulsarz#0000
+Spent my evening implementing a full SigmaType deserializer so no time yet 😁
+
+
+[04/20/2023 11:03 PM] gg#0000
+Is there any calculator for all the possibilities on sigmaFI?, while the math behind is not complex is really intricate with so many different scenarios and just  2 assets
+
+
+[04/20/2023 11:04 PM] gg#0000
+Trying to make one in python but I'm just a beginner
+
+
+[04/20/2023 11:04 PM] hq3r#0000
+(re @gg : *Trying to make one in python but I'm just a be...*)
+        
+        Then, you learn and build it! U can do it!
+
+
+[04/20/2023 11:07 PM] gg#0000
+Yeah just don't want to start something that maybe was already done
+
+
+[04/20/2023 11:08 PM] NoahErgo#0000
+(re @HQ3rr : *Having a tvl api end already and not having to...*)
+        
+        Yes should be pretty easy
+
+
+[04/21/2023 8:22 AM] Gazza_SP#0000
+(re @Pulsarzz : *Spent my evening implementing a full SigmaType...*)
+        
+        You are really getting into the weeds sir 😂
+
+
+[04/21/2023 8:23 AM] Pulsarz#0000
+(re @Gazza_SP : *You are really getting into the weeds sir 😂*)
+
+
+[04/21/2023 8:23 AM] Pulsarz#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1098871528612962404/yeah-right.mp4
+
+
+[04/21/2023 8:23 AM] Pulsarz#0000
+I know I've set the bar low with all my activity in baseless
+
+
+[04/21/2023 8:23 AM] Pulsarz#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1098871639820730388/andy-office.mp4
+
+
+[04/21/2023 8:34 AM] Pulsarz#0000
+Okay now moving my SigmaFi code to separate lib first
+
+
+[04/21/2023 8:37 AM] Gazza_SP#0000
+(re @Pulsarzz : *I know I've set the bar low with all my activi...*)
+        
+        Baseless is like therapy for stressful times, I fully understand sir, I've been known to dabble there also
+
+
+[04/21/2023 10:19 AM] Foeniculum#0000
+(re @Pulsarzz : *I know I've set the bar low with all my activi...*)
+        
+        You raised it back up with your pfp don't worry
+
+
+[04/21/2023 6:27 PM] kushti#0000
+Oh wow tvl above 40k
+
+
+[04/21/2023 6:35 PM] Pulsarz#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1099025647801745510/andy-office.mp4
+
+
+[04/21/2023 9:50 PM] Pulsarz#0000
+Forwarded from ErgoMonitor_bot: *New SigmaFi loan request!*
+
+Amount requested: 10000 SigUSD (~9706.4 USD)
+Borrower: 9hNoLPSycHCNZNvhtsKxpEYtMsBQL5bqwRbtMdmCtW4XeEPiBMV
+Collateral: 7000 erg (~11550 USD)
+Collateralization ratio: 103.99%
+Interest: 15% (1500 SigUSD)
+APR: 12.167%
+Term: 15 months (324000 blocks)
+
+
+[04/21/2023 9:50 PM] Pulsarz#0000
+(re @kushti_ru : *Oh wow tvl above 40k*)
+        
+        when tx confirms above 50k
+
+
+[04/21/2023 9:52 PM] Pulsarz#0000
+53k now
+
+
+[04/21/2023 9:52 PM] velvia695#0000
+kinda want to go full degen an do a loan like that
+
+
+[04/21/2023 9:53 PM] Pulsarz#0000
+(re @velvia695 : *kinda want to go full degen an do a loan like ...*)
+
+
+[04/21/2023 9:53 PM] Pulsarz#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1099075496161054730/control-freak-control.mp4
+
+
+[04/21/2023 10:02 PM] Armeanio#0000
+(re @Pulsarzz : *New SigmaFi loan request!
+
+Amount requested: 1...*)
+
+
+[04/21/2023 10:02 PM] Armeanio#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1099077610467762236/mr-bean-wait-a-minute.mp4
+
+
+[04/21/2023 10:23 PM] qx()#0000
+WOWIE
+
+
+[04/21/2023 10:30 PM] Foeniculum#0000
+(re @Pulsarzz : *New SigmaFi loan request!
+
+Amount requested: 1...*)
+        
+        The anti-Sergej has risen
+
+
+[04/21/2023 10:54 PM] NoahErgo#0000
+(re @Pulsarzz : *New SigmaFi loan request!
+
+Amount requested: 1...*)
+        
+        bro
+
+
+[04/21/2023 10:59 PM] RichiTP#0000
+Who’s Ergomonitor 🤖 dev? How do I add SigmaFi?
+
+
+[04/21/2023 11:01 PM] CW#0000
+(re @RichiTP : *Who’s Ergomonitor 🤖 dev? How do I add SigmaFi?*)
+        
+        @Pulsarzz
+
+
+[04/21/2023 11:03 PM] K#0000
+Was busy for the last week, when did we get to 50k TVL? 😁
+
+
+[04/21/2023 11:25 PM] Pulsarz#0000
+(re @K : *Was busy for the last week, when did we get to...*)
+        
+        today
+
+
+[04/21/2023 11:28 PM] qx()#0000
+(re @K : *Was busy for the last week, when did we get to...*)
+        
+        pay yourself a bonus 🙂
+
+
+[04/21/2023 11:50 PM] NoahErgo#0000
+(re @K : *Was busy for the last week, when did we get to...*)
+        
+        sigmafi is a gem you should be proud sir
+
+
+[04/21/2023 11:51 PM] Gazza_SP#0000
+(re @K : *Was busy for the last week, when did we get to...*)
+        
+        Nice to see some adoption sir 😁
+
+
+[04/21/2023 11:53 PM] K#0000
+(re @NoahErgo : *sigmafi is a gem you should be proud sir*)
+        
+        I made it in 2 days sir 😁. I definitely feel Nemo deserves a lot of credit for keeping the UI updated all the time.
+
+
+[04/21/2023 11:53 PM] Gazza_SP#0000
+(re @K : *I made it in 2 days sir 😁. I definitely feel N...*)
+        
+        Nemo is a legend
+
+{Reactions}
+🔥 
+
+[04/21/2023 11:54 PM] K#0000
+Time is freeing up for me again, and kushti has finished reviewing the new loan offering contracts I created. Will be doing a final checkup later this week, then it can be launched whenever Nemo gets the chance to add it in.
+
+
+[04/21/2023 11:54 PM] Gazza_SP#0000
+Literally saved ergo DeFi by creating nautilus and dapp connector that wasn't the yoroi potato
+
+
+[04/22/2023 8:15 AM] Pulsarz#0000
+(re @Gazza_SP : *Literally saved ergo DeFi by creating nautilus...*)
+
+
+[04/22/2023 8:15 AM] Pulsarz#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1099232061870592040/vietnam-flashback.mp4
+
+
+[04/22/2023 8:15 AM] Pulsarz#0000
+Yoroi..
+
+
+[04/22/2023 8:16 AM] Pulsarz#0000
+Pain
+
+
+[04/22/2023 10:21 AM] velvia695#0000
+Also, 63k TVL
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1099263809761333339/file_111552.jpg
+
+
+[04/22/2023 2:11 PM] Vesi Hiisi#0000
+Can a loan be repaid at any time?
+
+
+[04/22/2023 2:33 PM] theta_decay#0000
+(re @Ile : *Can a loan be repaid at any time?*)
+        
+        Yes.
+
+
+[04/22/2023 2:34 PM] theta_decay#0000
+(re @Ile : *Can a loan be repaid at any time?*)
+        
+        But full interest is charged regardless.
+
+
+[04/22/2023 4:21 PM] velvia695#0000
+When can I connect with mobile cold wallet? Like on Ergopad?
+
+
+[04/22/2023 4:22 PM] velvia695#0000
+Ergopay always fails to generate the QR code, and I don't know how to set it up so that it doesn't.
+
+
+[04/22/2023 10:35 PM] velvia695#0000
+73
+
+
+[04/23/2023 12:15 AM] cafebedouin#9837
+Capt isn't keen on Ergo pay, because it requires a centralized back end. If you want to use Ergo pay with Sigmafi, I think the choice would be SafeW, scan QR with hot wallet, sign with cold. I haven't tried it with Sigmafi, but I would suspect that's how it could be done.
+
+
+[04/23/2023 12:16 AM] velvia695#0000
+(re  : *<cafebedouin> Capt isn't keen on Ergo pay, bec...*)
+        
+        That's what I try to do (SAFEW + QR), but it fails to generate it
+
+
+[04/23/2023 12:16 AM] velvia695#0000
+I know the SAFEW dev made a solution, but no clear instructions on how to do it
+
+
+[04/23/2023 12:17 AM] cafebedouin#9837
+Then, the problem is the QR code. There are constraints on QR size and it isn't enough for Sigmafi transactions.
+
+
+[04/23/2023 12:17 AM] cafebedouin#9837
+You can click on the QR and it will display a larger one.
+
+
+[04/23/2023 12:18 AM] velvia695#0000
+Not if it fails to generate
+
+
+[04/23/2023 12:18 AM] cafebedouin#9837
+But, in this case, it isn't displaying because it Bork's on the initial construction.
+
+
+[04/23/2023 12:18 AM] velvia695#0000
+Yeah
+
+
+[04/23/2023 12:20 AM] cafebedouin#9837
+Yeah, I think I talked to capt about this issue during beta testing. This is exactly the problem Ergopay is designed to solve. The QR points to the Ergopay back end, which then builds the tx and not the QR itself.
+
+
+[04/23/2023 2:10 PM] Pulsarz#0000
+Almost 80k tvl
+
+
+[04/23/2023 2:10 PM] Pulsarz#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1099683820556525608/surprised-sorprendido.mp4
+
+
+[04/23/2023 2:11 PM] Foeniculum#0000
+(re @Pulsarzz : *Almost 80k tvl*)
+        
+        How much was it 1 week ago?
+
+
+[04/23/2023 2:11 PM] Pulsarz#0000
+Below 40 I think
+
+
+[04/23/2023 2:11 PM] Foeniculum#0000
+(re @NoahErgo : *Sigmafi TVL now above 20k*)
+        
+        it was only 20k!
+
+
+[04/23/2023 2:12 PM] Pulsarz#0000
+But not a lot of loan requests get filled tho.. so tvl yes but not locked up yet
+
+
+[04/23/2023 2:12 PM] Foeniculum#0000
+aah that makes sense
+
+
+[04/23/2023 2:13 PM] Pulsarz#0000
+Will be interesting once we get loan offers
+
+
+[04/23/2023 2:15 PM] qx()#0000
+Need some sigusd whales to bite :)
+
+
+[04/25/2023 3:42 PM] HelixEvo#0000
+(re @Pulsarzz : *The SigmaFi alerts have been moved to a separa...*)
+        
+        What does Sigmafi Bond mean
+
+
+[04/25/2023 3:43 PM] HelixEvo#0000
+Is that a loan that’s been completed?
+
+
+[04/25/2023 3:46 PM] hq3r#0000
+(re @HelixEvo : *Is that a loan that’s been completed?*)
+        
+        New loans , and repaid loans , there are multiple alerts
+
+
+[04/25/2023 3:48 PM] HelixEvo#0000
+So when it says “bond” that’s a completed loan?
+
+
+[04/25/2023 3:52 PM] glasgowm#0000
+(re @HelixEvo : *So when it says “bond” that’s a completed loan...*)
+        
+        One that’s been agreed to, only ‘completed’ after the time period.
+
+
+[04/25/2023 4:20 PM] gg#0000
+(re @HelixEvo : *So when it says “bond” that’s a completed loan...*)
+        
+        It's when a loan gets a match
+
+
+[04/25/2023 4:22 PM] gg#0000
+Also any plan to add liquidations in the future? I think is necessary as lots of people are saying
+
+
+[04/25/2023 5:18 PM] qx()#0000
+(re @gg : *Also any plan to add liquidations in the futur...*)
+        
+        i would think duckpools would fill that gap with pooled lending and auto liquidation.
+
+
+[04/25/2023 5:26 PM] qx()#0000
+plus smart contract would have to have an oracle feed of the price of any possible token
+
+
+[04/25/2023 5:27 PM] qx()#0000
+and if those oracles went down in many years, ability to liquidate or not might be affected
+
+
+[04/25/2023 5:27 PM] qx()#0000
+really, that's the beauty of these bonds, simple, on chain just sitting there all by their lonesome.
+
+
+[04/26/2023 6:45 PM] Car953#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1100840202278285342/dogs-door.mp4
+
+
+[04/26/2023 6:52 PM] NoahErgo#0000
+(re @Car953 : **)
+        
+        forgot about this gif, ty sir
+
+
+[04/26/2023 9:24 PM] qx()#0000
+people testing the interest rates for others to bite!
+
+
+[04/26/2023 9:24 PM] qx()#0000
+a few 2k at 35%!
+
+
+[04/26/2023 9:24 PM] qx()#0000
+suprised they didn't get picked up
+
+
+[04/26/2023 9:25 PM] qx()#0000
+people must REALLY believe in ergo going up a lot in the next year
+
+
+[04/26/2023 9:25 PM] qx()#0000
+should be an advertisement lol
+
+
+[04/26/2023 9:42 PM] gg#0000
+It's and hedge if Erg price goes down too
+
+
+[04/26/2023 9:44 PM] qx()#0000
+well, at 35% just buy sigusd from bank.
+
+
+[04/26/2023 9:44 PM] qx()#0000
+but yea
+
+
+[04/27/2023 8:11 PM] jozinek#0918
+Hey, where can I find more info about liquidation conditions?
+
+
+[04/27/2023 8:14 PM] qx()#0000
+(re  : *<jozinek> Hey, where can I find more info abou...*)
+        
+        they are super simple
+
+
+[04/27/2023 8:14 PM] qx()#0000
+if you don't pay back in time, the lender (individual) will liquidate...that's it...no early liquidation because of market.
+
+
+[04/27/2023 8:15 PM] jozinek#0918
+oh, that's straightforward, thanks!
+
+
+[04/29/2023 2:27 AM] gg#0000
+TVL pumping again
+
+
+[04/29/2023 2:55 AM] bennyk2#0000
+(re @gg : *TVL pumping again*)
+        
+        Erg price also bucking the trend…
+
+
+[04/29/2023 8:31 AM] Foeniculum#0000
+(re @dadreboi : *suprised they didn't get picked up*)
+        
+        hard to get a lot of SigUSD w/o paying hefty fees, slippage on Spectrum is almost 3% for "only" 5k SigUSD
+
+
+[04/29/2023 8:32 AM] Foeniculum#0000
+looking forward to Dexy, hopefully it won't be as tricky to mint as SigUSD-RSV
+
+
+[04/29/2023 8:46 AM] muffinator#5168
+Have you looked into tokenjay that's how I've usually got my sigusd
+
+
+[04/29/2023 8:50 AM] muffinator#5168
+Or I think you can do it directly on the sigmausd site
+
+
+[04/29/2023 10:56 AM] Foeniculum#0000
+(re  : *<muffinator> Have you looked into tokenjay tha...*)
+        
+        Yep minting 5000 SigUSD is 1 ERG cheaper on Tokenjay
+
+
+[04/29/2023 10:57 AM] Foeniculum#0000
+(re  : *<muffinator> Or I think you can do it directly...*)
+        
+        sure but whales can easily lock people out of minting any more till someone apes into RSV, which is a bit risky
+
+
+[04/29/2023 10:58 AM] Foeniculum#0000
+👀 reserve above 400% again 🔥
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1101809670647185448/file_112796.jpg
+
+
+[04/29/2023 11:02 AM] Gazza_SP#0000
+(re @FoeniculumNFTs : *hard to get a lot of SigUSD w/o paying hefty f...*)
+        
+        It's really shit, I'm hoping yield farming will give us a decent boost in liquidity but being completely real here, the only way to solve the issue is for ERG to go up in price, if ERG does a 10x that price impact is 0.3% which is a whole lot better
+
+
+[04/29/2023 11:03 AM] Foeniculum#0000
+(re @Gazza_SP : *It's really shit, I'm hoping yield farming wil...*)
+        
+        That's very true, let's see if Rosen + YF shake things up :) 🚀
+
+
+[04/29/2023 11:03 AM] Gazza_SP#0000
+This is probably not exactly how it would play out realistically with people selling for profit and all that but it's clear that ERG price going up is what is really need to make the current liquidity worth more rather than relying on new injections of liquidity which is difficult to predict
+
+
+[04/29/2023 11:04 AM] Gazza_SP#0000
+Ergo has to have the most expansive DeFi with so low liquidity, it's criminal
+
+
+[04/29/2023 11:13 AM] Foeniculum#0000
+So the TLDR is
+
+
+[04/29/2023 11:13 AM] Foeniculum#0000
+wen Binance
+
+
+[04/29/2023 12:20 PM] cafebedouin#9837
+We need to think bigger. Wen Spectrum > Binance, @Gazza_SP ?
+
+
+[04/29/2023 1:44 PM] velvia695#0000
+(re @Gazza_SP : *It's really shit, I'm hoping yield farming wil...*)
+        
+        Incentivize SigRSV minting more?
+
+
+[04/29/2023 1:44 PM] Gazza_SP#0000
+(re @velvia695 : *Incentivize SigRSV minting more?*)
+        
+        Hopefully
+
+
+[04/29/2023 1:44 PM] velvia695#0000
+Give RSV YF more allocation than USD
+
+
+[04/29/2023 1:52 PM] cafebedouin#9837
+Strangely, SigRSV returns are a function of SigUSD. If you incentivize SigUSD that should roll into SigRSV as a secondary effect.
+
+
+[04/29/2023 1:53 PM] cafebedouin#9837
+Still need price increase, but the more SigUSD minted at these prices, the better it will be for SigRSV holders.
+
+
+[04/29/2023 1:53 PM] velvia695#0000
+(re  : *<cafebedouin> Still need price increase, but t...*)
+        
+        They can't mint if reserve ratio is bad, no?
+
+
+[04/29/2023 3:37 PM] cafebedouin#9837
+Right. Either need increase in price or increase of SigRSV, when ratio is below 400%.
+
+
+[04/29/2023 3:37 PM] glasgowm#0000
+(re @velvia695 : *They can't mint if reserve ratio is bad, no?*)
+        
+        You can usually buy on spectrum at a reasonable ratio, but an increase in demand will lead to more minting when it’s above RR
+
+
+[04/29/2023 3:38 PM] glasgowm#0000
+TVL approaching $100k 🔥
+
+
+[04/29/2023 3:40 PM] hq3r#0000
+https://ergcube.com/index.php?do=static&page=main2 if u guys want to have a peek on all open and closed orders all one place ... Will finish the liquitable bonds section in few hours
+
+{Embed}
+https://ergcube.com/index.php?do=static&page=main2
+asas
+asas
+
+
+[04/29/2023 4:53 PM] glasgowm#0000
+Was someone working on an adaptor for defillamma?
+
+
+[04/29/2023 4:59 PM] hq3r#0000
+(re @glasgowm : *Was someone working on an adaptor for defillam...*)
+        
+        @NoahErgo
+
+
+[04/29/2023 5:27 PM] Pulsarz#0000
+I made the api but was not enough afaik
+
+
+[04/29/2023 5:37 PM] wombo22#5461
+ya they dont seem to accept adaptors using api calls
+
+
+[04/29/2023 5:38 PM] wombo22#5461
+they said "I suggest submitting the PR and making your case there. Perhaps you could even help us discover a method to track the TVL on-chain for Ergo"
+
+
+[04/29/2023 5:38 PM] wombo22#5461
+not sure if Noah submitted it or not
+
+
+[04/29/2023 5:57 PM] NoahErgo#0000
+I did not maybe should just give it a shot
+
+
+[04/29/2023 6:15 PM] hq3r#0000
+https://ergcube.com/index.php?do=static&page=sigmafi-dashboard
+
+{Embed}
+https://ergcube.com/index.php?do=static&page=sigmafi-dashboard
+sigmafi
+aasigmafi
+
+
+[04/29/2023 6:15 PM] hq3r#0000
+before spamiing, any changes ?
+
+
+[04/29/2023 9:49 PM] NoahErgo#0000
+(re @glasgowm : *Was someone working on an adaptor for defillam...*)
+        
+        i went into discord of defillama as they are no longer accepting new api adaptors, they want integrated sdk adaptors. They told me maybe try submitting an API one anyway since ergo is not part of their sdk
+
+
+[04/29/2023 9:49 PM] NoahErgo#0000
+havent gotten around to it
+
+
+[04/30/2023 12:10 AM] Pulsarz#0000
+@nemo429 not sure if you saw my question on if it would be possible to direct link to an order/bond on the site? would be nice if I could simply provide the boxid and the correct popup opens or something
+
+
+[04/30/2023 12:11 AM] Pulsarz#0000
+telegram alert -> insta open sigmafi popup and accept the order for example
+
+
+[04/30/2023 12:11 AM] qx()#0000
+makes for faster sniping in the future too
+
+
+[04/30/2023 12:11 AM] hq3r#0000
+Before u say something ...can we add tvl of active orders ,ongoing bonds , liquidated and liquidable ones? In tvl Endpoint?
+
+
+[04/30/2023 12:12 AM] Pulsarz#0000
+(re @HQ3rr : *Before u say something ...can we add tvl of ac...*)
+        
+        I can, but liquidated tvl doesn't really make sense to me
+
+
+[04/30/2023 12:12 AM] Pulsarz#0000
+well it kinda doers but that will be an intensive one in the future
+
+
+[04/30/2023 12:12 AM] hq3r#0000
+(re @Pulsarzz : *I can, but liquidated tvl doesn't really make ...*)
+        
+        People like numbers
+
+
+[04/30/2023 12:13 AM] qx()#0000
+erg price is from spectrum here isn't it...1.61 not 1.69 as in CMC....
+
+
+[04/30/2023 12:13 AM] hq3r#0000
+(re @Pulsarzz : *@nemo429 not sure if you saw my question on if...*)
+        
+        All the registers on each orders are unique right?
+
+
+[04/30/2023 12:13 AM] qx()#0000
+no, nvm, it's showing CMC prices
+
+
+[04/30/2023 12:14 AM] hq3r#0000
+We could trigure that... To indentify the order but sigmafi has to implement into a frontend too
+
+
+[04/30/2023 12:14 AM] Pulsarz#0000
+(re @HQ3rr : *All the registers on each orders are unique ri...*)
+        
+        need boxid
+
+
+[04/30/2023 12:15 AM] Pulsarz#0000
+UI uses boxid internally as well
+
+
+[04/30/2023 12:15 AM] qx()#0000
+no, it's ageusd bank or oracle price
+
+
+[04/30/2023 12:15 AM] qx()#0000
+smart nemo, real smart.
+
+
+[04/30/2023 12:15 AM] Pulsarz#0000
+(re @dadreboi : *no, it's ageusd bank or oracle price*)
+        
+        the site or what?
+
+
+[04/30/2023 12:15 AM] Pulsarz#0000
+when I wass testing tvl matches very close to my api tvl that uses coingecko pricing
+
+
+[04/30/2023 12:15 AM] qx()#0000
+yeah the site...as erg price changes loans will fall out of collateral before being picked up
+
+
+[04/30/2023 12:16 AM] qx()#0000
+it's nemo, i'll bet 1 erg it's oracle or whatever tokenj is using
+
+
+[04/30/2023 12:17 AM] Pulsarz#0000
+(re @dadreboi : *it's nemo, i'll bet 1 erg it's oracle or whate...*)
+        
+        nope
+
+
+[04/30/2023 12:17 AM] Pulsarz#0000
+https://github.com/capt-nemo429/sigmafi-ui/blob/c42118ab1e7a3b41ab0e575313ac4e373fc51b66/src/services/coinGeckoService.ts
+
+{Embed}
+https://github.com/capt-nemo429/sigmafi-ui/blob/c42118ab1e7a3b41ab0e575313ac4e373fc51b66/src/services/coinGeckoService.ts
+sigmafi-ui/coinGeckoService.ts at c42118ab1e7a3b41ab0e575313ac4e373...
+SigmaFinance UI. Contribute to capt-nemo429/sigmafi-ui development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/LQOp8i2v3eqbRX9ioLJc1EDR1Ju9nd56OR4j6qCsx-A/https/opengraph.githubassets.com/1242e7d7f2c6f74e69676722b51412a04979c899764d030259f3a412880bfebd/capt-nemo429/sigmafi-ui
+
+
+[04/30/2023 12:17 AM] Pulsarz#0000
+see, I told you
+
+
+[04/30/2023 12:17 AM] qx()#0000
+fuck
+
+
+[04/30/2023 12:17 AM] Pulsarz#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1102010863201829014/royals-royal-family.mp4
+
+
+[04/30/2023 12:18 AM] Pulsarz#0000
+but coingecko price is a moving average btw
+
+
+[04/30/2023 12:18 AM] qx()#0000
+i paid up
+
+
+[04/30/2023 12:18 AM] Pulsarz#0000
+it's smoothed out
+
+
+[04/30/2023 12:18 AM] qx()#0000
+in main chat
+
+
+[04/30/2023 12:18 AM] qx()#0000
+no backup pricing in there?
+
+
+[04/30/2023 12:18 AM] qx()#0000
+guess it doesn't matter as nothing liquidates based on price
+
+
+[04/30/2023 12:18 AM] qx()#0000
+so who cares
+
+
+[04/30/2023 12:18 AM] Pulsarz#0000
+@HQ3rr api is ~10x as fast now
+
+
+[04/30/2023 12:19 AM] hq3r#0000
+(re @Pulsarzz : *@HQ3rr api is ~10x as fast now*)
+        
+        https://ergcube.com/index.php?do=static&page=sigmafi-dashboard
+
+{Embed}
+https://ergcube.com/index.php?do=static&page=sigmafi-dashboard
+sigmafi
+aasigmafi
+
+
+[04/30/2023 12:19 AM] Pulsarz#0000
+(re @dadreboi : *guess it doesn't matter as nothing liquidates ...*)
+        
+        yeah exactly
+
+
+[04/30/2023 12:19 AM] qx()#0000
+gets verified assets from spectrum too
+
+
+[04/30/2023 12:19 AM] hq3r#0000
+This Is what i have done so far with it
+
+
+[04/30/2023 12:19 AM] Pulsarz#0000
+(re @Pulsarzz : *@HQ3rr api is ~10x as fast now*)
+        
+        well for uncached results (2min cache)
+
+
+[04/30/2023 12:19 AM] qx()#0000
+he needs to do skyharbor next for verified!
+
+
+[04/30/2023 12:20 AM] hq3r#0000
+Tommorow Will see if i can get usdvalue of total amount lended by top 10 lenders and borrowers
+
+
+[04/30/2023 12:20 AM] qx()#0000
+is curb capturing this stuff too?
+
+
+[04/30/2023 12:21 AM] qx()#0000
+in azorus?
+
+
+[04/30/2023 12:21 AM] hq3r#0000
+We can find curb in Spectrum chats
+
+
+[04/30/2023 12:21 AM] hq3r#0000
+Other then that, i dont find him anywhere hahah
+
+
+[04/30/2023 12:23 AM] hq3r#0000
+let borrowerCount = {};
+
+data.forEach(item => {
+  let borrower = item['borrower'];
+
+  if (borrowerCount[borrower]) {
+    borrowerCount[borrower].count++;
+    borrowerCount[borrower].total += item.requested.amountWithDecimals;
+  } else {
+    borrowerCount[borrower] = {
+      count: 1,
+      total: item.requested.amountWithDecimals
+    };
+  }
+});
+
+console.log(borrowerCount);
+
+
+[04/30/2023 12:23 AM] hq3r#0000
+I think this should work for total borrowed
+
+
+[04/30/2023 1:16 AM] cafebedouin#9837
+Curb has a less than one year old at home. Also, less focused on Ergo and more on cross chain. I haven't talked to him in a month, but I'm planning on doing some updates to sigmabot, so I'll talk with him when I push the PR. If you don't reach out direct, anything you want me to mention?
+
+
+[04/30/2023 3:01 AM] bennyk2#0000
+$134k… now we’re cooking!
+
+
+[04/30/2023 4:59 AM] qx()#0000
+hey capt, can the ongoing loans page show the APY?
+
+
+[04/30/2023 8:53 PM] Murdoch#8913
+Is it a known issue that trying to offer a loan using a offline Android wallet to sign the transaction via SAFEW fails due to QR code generated from sigmafi side being too large? Is it possible to generate multiple QR codes similar to Ergo Wallet, or output the non-image output to transfer to the read only wallet manually?
+
+Also when using browser debugger to extract the ergopay payload that was being used for QR code generation and pasting that data into Ergo Wallet for signing, the inputs and outputs in the boxes look correct but signing fails due to the script output reducing to false.
+
+Any known workarounds to providing a loan while using an offline wallet?
+
+
+[05/01/2023 1:44 AM] cafebedouin#9837
+You could use web browser with SafeW, hot read only Android wallet and a cold off-line android wallet.
+
+
+[05/01/2023 2:03 AM] Murdoch#8913
+I think that's what I was trying which resulted in the failure.
+
+I installed SafeW and added in the hot read only address. Connected the wallet to Sigmafi and then attempted to provide a loan.
+
+It resulted in an error that the QR code is too large, so the hot read only wallet had nothing to read.
+
+I tried to pass in the raw data to the hot read only wallet using Chrome debugger to see if that would be a successful workaround. The hot wallet transaction looked valid, seemed to have all the loan/borrow details, etc. Theb I scanned the transaction from hot wallet into the cold wallet.
+
+Cold wallet then failed signing the transaction, stating that the script reduced to false.
+
+
+[05/01/2023 2:29 AM] cafebedouin#9837
+Right. I forget that these transactions are too large for the signing QR. This is the problem Ergopay is designed to solve.
+
+
+[05/01/2023 2:55 AM] Murdoch#8913
+Ah ok, thanks - maybe I will just experiment with a pure hot wallet on much smaller loan amounts then until it's fixed
+
+
+[05/01/2023 3:43 AM] NoahErgo#0000
+something seems suspicious about the last few loans
+
+
+[05/01/2023 3:43 AM] NoahErgo#0000
+all request by the same person and all filled by the same person
+
+
+[05/01/2023 3:43 AM] NoahErgo#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1102425089615613972/file_113258.jpg
+
+
+[05/01/2023 3:50 AM] qx()#0000
+certainly interesting amounts x3
+
+
+[05/01/2023 3:53 AM] NoahErgo#0000
+is it possible the ui is incorrect? Looking at the borrower wallet i think they only received 3200 sigusd total
+
+
+[05/01/2023 3:54 AM] NoahErgo#0000
+https://explorer.ergoplatform.com/addresses/9eozEGmbJCvUoPsE4HY8w7ZMftd9r5f8yh5nsPs9Y5DXuqMhpfV
+
+
+[05/01/2023 4:24 AM] Murdoch#8913
+The loans were 1600 with 40% interest for 1600 Erg collateral. Repayment in UI shows principal plus interest
+
+
+[05/01/2023 4:25 AM] velvia695#0000
+(re  : *<cafebedouin> Right. I forget that these trans...*)
+        
+        Will SigmaFi add Ergopay?
+
+
+[05/01/2023 4:29 AM] qx()#0000
+(re  : *<Murdoch> The loans were 1600 with 40% interes...*)
+        
+        Oh right. Forgot it adds it up in ongoing tab.
+
+
+[05/01/2023 4:30 AM] qx()#0000
+Still interesting that ask and give r same peeps for three different. Could be simply one person helping another and using sigmafi to facilitate it.
+
+
+[05/01/2023 4:32 AM] K#0000
+(re @NoahErgo : *is it possible the ui is incorrect? Looking at...*)
+        
+        Looks to me like the first loan was received, swapped into ERG on spectrum for around ~975 ERG, then used in conjunction with additional ERG to collateralize the second order. The 2nd and 3rd loans (3200 SIGUSD) have remained untouched since being received.
+
+
+[05/01/2023 4:33 AM] qx()#0000
+(re @K : *Looks to me like the first loan was received, ...*)
+        
+        Oo ty for digging. :)
+
+
+[05/01/2023 4:33 AM] qx()#0000
+(re @K : *Looks to me like the first loan was received, ...*)
+        
+        Do u get payout during creation or repayment/liquidation?
+
+
+[05/01/2023 4:34 AM] qx()#0000
+Oh nvm. I saw the txs.
+
+
+[05/01/2023 4:34 AM] K#0000
+(re @dadreboi : *Do u get payout during creation or repayment/l...*)
+        
+        During creation of the bond
+
+
+[05/01/2023 4:34 AM] qx()#0000
+U get them right at creation no?
+
+
+[05/01/2023 4:34 AM] qx()#0000
+Good :)
+
+
+[05/01/2023 4:35 AM] qx()#0000
+U two did so well. Dream team ;)
+
+
+[05/01/2023 5:19 AM] cafebedouin#9837
+Ergopay requires a centralized server, which Nemo doesn't much like and is not eager to set one up.
+
+
+[05/01/2023 6:31 AM] NoahErgo#0000
+(re @K : *Looks to me like the first loan was received, ...*)
+        
+        ah nice i mustve missed it then
+
+
+[05/01/2023 6:58 AM] hq3r#0000
+(re @NoahErgo : **)
+
+
+[05/01/2023 6:58 AM] hq3r#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1102474080491409469/file_113264.jpg
+
+
+[05/01/2023 8:06 AM] velvia695#0000
+(re  : *<cafebedouin> Ergopay requires a centralized s...*)
+        
+        Is there another way to solve this issue?
+
+
+[05/01/2023 8:09 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1102492036847894641/image.png
+
+
+[05/01/2023 8:25 AM] CW#0000
+Is sigmafi on defillama?
+
+
+[05/01/2023 8:25 AM] glasgowm#0000
+(re @glasgowm : *Was someone working on an adaptor for defillam...*)
+        
+        ^
+
+
+[05/01/2023 8:26 AM] CW#0000
+(re  : *<Glasgow> 
+https://cdn.discordapp.com/attachme...*)
+        
+        Woah!
+
+
+[05/01/2023 8:26 AM] CW#0000
+(re @glasgowm : *^*)
+        
+        Ah right
+
+
+[05/01/2023 8:30 AM] CW#0000
+Stating the obvious again, needing sigusd bank to open
+
+
+[05/01/2023 8:46 AM] hq3r#0000
+Wen dexygold????
+
+
+[05/01/2023 9:18 AM] Gazza_SP#0000
+(re @HQ3rr : *Wen dexygold????*)
+        
+        Last update is that it's running on testnet I think? Probably need oracle pools V2 on mainnet before release!
+
+
+[05/01/2023 10:04 AM] HelixEvo#0000
+Could this Sigmafi be looked at as some sort of gambling bet?
+
+
+[05/01/2023 10:05 AM] HelixEvo#0000
+If someone lends 1000SigUSD for collateral of 1.5k ERG. If ERG bombs, then the borrower just defaults on the loan.
+
+
+[05/01/2023 10:06 AM] HelixEvo#0000
+Then they pick up their 1.5k ERG for say 200 SigUSD on the market
+
+
+[05/01/2023 11:11 AM] velvia695#0000
+That's a possibility
+
+
+[05/01/2023 12:54 PM] velvia695#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1064130660027080824/1102563721412350003/file_113312.jpg
+
+
+==============================================================
+Exported 608 message(s)
+==============================================================

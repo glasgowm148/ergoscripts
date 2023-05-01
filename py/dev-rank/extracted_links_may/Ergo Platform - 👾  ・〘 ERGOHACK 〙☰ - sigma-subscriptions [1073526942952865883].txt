@@ -1,0 +1,183 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 👾  ・〘 ERGOHACK 〙☰ / sigma-subscriptions
+==============================================================
+
+[02/10/2023 8:52 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1073526942952865883/1073526978692526131/ErgoHack-VI-Project-Proposal.pdf
+
+
+[02/10/2023 8:53 AM] glasgowm#9381
+Sigma Subscriptions
+Discord Username: cornbelt#7268
+Summary
+I will be attempting to create a framework for anyone to easily run a subscription service on Ergo.
+Goals
+1. Proof of concept
+2. Create a plugin for Fleet SDK
+3. Launch site where users can create and manage their subscription services
+
+{Reactions}
+ergo_orange (5) 👍 (5) 
+
+[02/16/2023 10:34 AM] glasgowm#9381
+How's it going @cornbelt ?
+
+Also some previous discussions here #deleted-channel
+
+
+[02/16/2023 2:18 PM] cornbelt#7268
+@glasgowm Making good progress
+- Contracts are finished 
+- Fleet plugin is rough but working
+- Made a simple front end for testing and things appear to be working
+- Started working on a flow diagram and documentation
+
+{Reactions}
+ergo_orange 🌽 (2) 
+
+[02/16/2023 2:29 PM] glasgowm#9381
+Nice one! dev is active in #deleted-channel if you get stuck
+
+{Reactions}
+👍 
+
+[02/16/2023 10:37 PM] capt_nemo#3204
+Hey, I'm glad to know you are writing a Fleet plugin, please pint me if you need some help or clarifications with that )
+
+
+[02/17/2023 5:43 PM] yb#3572
+@cornbelt please provide with the link to the repo
+
+
+[02/17/2023 5:45 PM] cornbelt#7268
+Don't have it in a repo yet but I will share when it is.
+
+
+[02/17/2023 5:46 PM] yb#3572
+Awesome, thx! We are very interested in your solution!
+
+
+[02/17/2023 5:46 PM] yb#3572
+If you'll need any technical or other help, don't hesitate to contact me.
+
+
+[02/17/2023 5:50 PM] cornbelt#7268
+Thank you will do
+
+
+[02/18/2023 4:17 PM] cornbelt#7268
+repo: https://github.com/cornbelt-dev/sigma-subscriptions
+
+
+[02/18/2023 4:25 PM] cornbelt#7268
+Up next
+- Setup tests
+- Implement a front end manager
+
+{Reactions}
+ergo_orange (3) 👍 (3) 
+
+[02/18/2023 4:27 PM] cornbelt#7268
+Look forward to feedback and any questions
+
+
+[02/19/2023 6:23 AM] NoahErgo#4349
+@yb pinging you so you see it
+
+{Reactions}
+❤️ 
+
+[02/20/2023 4:32 AM] NoahErgo#4349
+Hello @cornbelt tried dming you but was not able to
+
+I am assisting Ergo Foundation with the ergohack and they are gathering participants to see if people would be able to create a video presentation on the project each person has created. Ideally would need to have a video back 2 weeks or so following the hackathon. The videos will be shared publicly on the Ergo youtube channel as a way to share what the community has put together during the event! Would you be able/interested?
+
+
+[02/20/2023 5:05 AM] cornbelt#7268
+Ill dm you
+
+
+[02/22/2023 2:25 PM] cornbelt#7268
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1073526942952865883/1077959307737436210/Ergohack_VI_-_Final_Submission.pdf
+
+{Reactions}
+ergo_orange (2) 🔥 (2) 
+
+[02/23/2023 11:25 PM] yb#3572
+@cornbelt sorry for my laziness, I will dive deeper into papers later. Let me ask for now: does your solution provide to a project to set payment in ERG and a TOKEN?
+
+
+[02/24/2023 2:46 AM] cornbelt#7268
+@yb for the hackathon I just focused on getting a proof of concept so it will only enforce ERG as the payment currently. It should take just a slight modification to allow for tokens as well so I do plan to add that.
+
+{Reactions}
+❤️ 
+
+[03/01/2023 4:02 PM] cornbelt#7268
+Making good progress on the front end manager
+
+
+[03/01/2023 4:02 PM] cornbelt#7268
+https://github.com/cornbelt-dev/sigma-subscriptions-manager
+
+{Reactions}
+ergo_orange 👍 
+
+[03/03/2023 6:44 PM] cornbelt#7268
+Slideshow I used for the video
+
+
+[03/03/2023 6:44 PM] cornbelt#7268
+https://docs.google.com/presentation/d/1vwn5nYbTg_HErv-TrXfCnWU9RRDNQ6hbNlBIxHMmMlA/edit?usp=sharing
+
+{Reactions}
+❤️ 
+
+[03/24/2023 8:05 PM] glasgowm#9381
+https://twitter.com/ERG_Glasgow/status/1639271127187857411
+
+{Embed}
+Glasgow (@ERG_Glasgow)
+https://twitter.com/ERG_Glasgow/status/1639271127187857411
+🧵1/ Introducing 𝗦𝗶𝗴𝗺𝗮 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻𝘀, a revolutionary #P2P #DeFi app from our latest #ErgoHack! 🚀 Think Patreon, minus the middlemen. Ready to explore its innovative features? Let’s dive in! 🌊 #Ergo #Blockchain #cryptocurrency
+https://images-ext-1.discordapp.net/external/JEN3Mu3QtA1Z-Q_vy-_U8vgGNB2U7B4-FqFFzpjvq30/https/pbs.twimg.com/media/Frkwwn3WAAA7hF3.png
+Twitter
+
+
+[03/24/2023 8:05 PM] glasgowm#9381
+https://www.youtube.com/watch?v=JwOHBDan6ys&feature=youtu.be
+
+{Embed}
+Ergo Platform
+https://www.youtube.com/watch?v=JwOHBDan6ys
+Sigma Subscriptions | Ergo Summit - Cypherpunk Finance
+A presentation showcasing the Sigma Subscriptions Ergo Hack VI project, by cornbelt#7268.
+
+Github: https://github.com/cornbelt-dev/sigma-subscriptions
+
+--------------------------------------
+Website https://ergoplatform.org/
+Whitepaper https://ergoplatform.org/en/documents/
+Ergonaut Handbook: https://ergonaut.space/en/home
+Block Explorer https:/...
+https://images-ext-2.discordapp.net/external/rbQAjYOWu9MbGG98-x5UI9iXnAY_aIr-ic5Afv0fa4k/https/i.ytimg.com/vi/JwOHBDan6ys/maxresdefault.jpg
+
+
+[03/29/2023 12:59 PM] yb#3572
+I love this project!
+
+
+[03/29/2023 1:42 PM] cornbelt#7268
+Thank you
+
+
+==============================================================
+Exported 28 message(s)
+==============================================================

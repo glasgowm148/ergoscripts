@@ -1,0 +1,2725 @@
+==============================================================
+Guild: Ergo Platform
+Channel: Σ  ・〘 Sigmanauts 〙☰ / faq
+Topic: https://github.com/Eeysirhc/sigmabot
+==============================================================
+
+[08/23/2022 6:10 PM] glasgowm#9381
+@koutelier
+
+
+[08/23/2022 6:11 PM] koutelier#5178
+thank you. tomorrow i will write few things
+
+
+[08/23/2022 10:05 PM] koutelier#5178
+@curbsideprophet
+
+
+[08/23/2022 10:05 PM] koutelier#5178
+we can use this one
+
+
+[08/23/2022 10:07 PM] curbsideprophet#5083
+Very nice thanks man cc: @glasgowm too
+
+
+[08/23/2022 10:10 PM] koutelier#5178
+i am thinking about two bots.
+
+
+[08/23/2022 10:10 PM] koutelier#5178
+one for prices and one for faq
+
+
+[08/23/2022 10:10 PM] koutelier#5178
+keep things clean
+
+
+[08/23/2022 10:10 PM] koutelier#5178
+wdyt ?
+
+
+[08/23/2022 10:11 PM] curbsideprophet#5083
+That’s fine with me to keep things lean
+
+
+[08/23/2022 10:11 PM] curbsideprophet#5083
+I can create separate repo but will look to you for more creative name @koutelier lol
+
+
+[08/23/2022 10:12 PM] curbsideprophet#5083
+It is an easy fork for existing sigmabot for me
+
+
+[08/23/2022 10:13 PM] koutelier#5178
+i am only good for funny names lol. we can vote for that later.
+
+
+[08/23/2022 10:13 PM] koutelier#5178
+sigmabot for prices and something else for faq
+
+
+[08/23/2022 10:13 PM] curbsideprophet#5083
+Easier to manage restrictions anyway
+
+{Reactions}
+👍 
+
+[08/23/2022 10:13 PM] koutelier#5178
+glasgow will allow sigmabot only in baseless and trading channel . will make our work easier as well
+
+
+[08/23/2022 10:14 PM] curbsideprophet#5083
+Maybe sigmabot remove all .spf function and make that a separate spectrumbot instead
+
+
+[08/23/2022 10:14 PM] koutelier#5178
+yeah
+
+
+[08/23/2022 10:14 PM] koutelier#5178
+.price comet could work etc
+
+
+[08/23/2022 10:15 PM] curbsideprophet#5083
+Ok I’ll have to rework some code not a problem then easy peasy
+
+
+[08/23/2022 10:15 PM] koutelier#5178
+the sigmabot is perfect. just rebrand lol (add help)
+
+
+[08/23/2022 10:16 PM] koutelier#5178
+for the faqbot we need to add multiple informations to save us a lot of time from anwsering the same question over and over again
+
+
+[08/23/2022 10:16 PM] koutelier#5178
+it could auto respond but maybe will be a mess .
+
+
+[08/23/2022 10:18 PM] curbsideprophet#5083
+We can improve over time
+
+
+[08/23/2022 10:18 PM] curbsideprophet#5083
+v1 train sigmanauts and frequent ergo users how to use
+
+
+[08/23/2022 10:19 PM] koutelier#5178
+yeah could make a command . secret command lol
+
+
+[08/23/2022 10:19 PM] koutelier#5178
+.welpnauts
+
+{Reactions}
+🤣 
+
+[08/23/2022 10:19 PM] koutelier#5178
+with all the commands and explanations
+
+
+[08/23/2022 10:20 PM] koutelier#5178
+will take some time to build it properly but we have time until listing lol
+
+
+[08/23/2022 10:20 PM] curbsideprophet#5083
+I just need help mapping out commands and answers
+
+
+[08/23/2022 10:20 PM] curbsideprophet#5083
+Expected response
+
+
+[08/23/2022 10:24 PM] koutelier#5178
+i will make a google sheet/form and share it here. and we can work our way there
+
+
+[08/23/2022 10:25 PM] koutelier#5178
+but tomorrow evening
+
+
+[08/23/2022 10:25 PM] koutelier#5178
+or morning if it rains here lol
+
+
+[08/23/2022 10:27 PM] curbsideprophet#5083
+No rush I’m on road trip
+
+{Reactions}
+🔥 
+
+[08/23/2022 10:27 PM] koutelier#5178
+enjoy your time mate
+
+{Reactions}
+👍 
+
+[08/24/2022 6:25 PM] koutelier#5178
+.welcome 
+-https://youtu.be/CzGqYAlQRWQ
+
+{Embed}
+Hash it Out w/CW
+https://www.youtube.com/watch?v=CzGqYAlQRWQ
+What is Ergo? Explore this powerhouse cryptocurrency!
+What is Ergo? Ergo Platform is a blockchain protocol unlike any other. 
+
+Mining? GPU minable Proof of Work blockchain offering eUTXO, oracles, NIPoPoWs, optional privacy and more! 
+
+Let's explore this crypto powerhouse further!
+
+00:00  Intro
+00:36  Launch
+02:16  Mining
+03:30  Technology
+03:58  eUTXO Model
+05:08  Benefits of eUTXO
+06:10  Scalabil...
+https://images-ext-1.discordapp.net/external/3mxlU9X5_hscviBJg_5ZDfrQbB9XN257RjbraOAC3GE/https/i.ytimg.com/vi/CzGqYAlQRWQ/maxresdefault.jpg
+
+
+[08/24/2022 6:35 PM] curbsideprophet#5083
+logged: https://github.com/Eeysirhc/sigmabot/issues/11
+
+
+[08/24/2022 6:35 PM] koutelier#5178
+soon google sheet
+
+
+[08/24/2022 6:36 PM] curbsideprophet#5083
+what about `.addy`? keep or move off as well?
+
+
+[08/24/2022 6:36 PM] koutelier#5178
+https://docs.google.com/spreadsheets/d/1rWDL82gzMdodpOu7EMkN0DWQZGKofwmSAipis5LCwa8/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1rWDL82gzMdodpOu7EMkN0DWQZGKofwmSAipis5LCwa8/edit?usp=sharing
+ergo discord bot
+Φύλλο1
+
+Ergo Discord BOT,dis=discord
+tg=telegram
+Commnads,Replies
+.welcome,-https://youtu.be/CzGqYAlQRWQ
+.wallets dis,- #🚧│wallets 
+.wallets tg,- @NautilusWallet
+- @ErgoWalletApp
+- @SatergoWallet
+https://images-ext-1.discordapp.net/external/5mmzzpoOUBFFJB5jSkXaoC61FhA9AH62R_oQW5vDJXg/https/lh4.googleusercontent.com/HRrZVZwfagn0u1BeWwX2YYJ0vXVVfWwqfKsEKpRbP4xhR-NdSyD2-YkzOFpSxx9baR7WK_dHEbR4wg%3Dw1200-h630-p
+
+
+[08/24/2022 6:36 PM] koutelier#5178
+make sense like that @curbsideprophet
+
+
+[08/24/2022 6:36 PM] koutelier#5178
+move
+
+
+[08/24/2022 6:36 PM] koutelier#5178
+whatever has to do with wallets and funds needs to be on the other bot
+
+
+[08/24/2022 6:41 PM] curbsideprophet#5083
+ok keeping track here: https://github.com/Eeysirhc/sigmabot/issues/12
+
+
+[08/24/2022 6:42 PM] koutelier#5178
+okay will do
+
+
+[08/24/2022 6:42 PM] koutelier#5178
+i think for tg we shouldn't add all tokens tg channel links
+
+
+[08/24/2022 6:42 PM] koutelier#5178
+just add a command for tokens and the bot will reply with @ergochats
+
+
+[08/24/2022 6:42 PM] koutelier#5178
+if anyone asks about tokens
+
+
+[08/24/2022 6:43 PM] koutelier#5178
+this is not a faq question though so not important imo
+
+
+[08/24/2022 6:43 PM] curbsideprophet#5083
+sounds good
+
+
+[08/24/2022 9:46 PM] koutelier#5178
+We need more people to help in different areas.
+
+
+[08/24/2022 9:51 PM] curbsideprophet#5083
+I requested doc access. Needs a little more granularity
+
+
+[08/24/2022 10:01 PM] koutelier#5178
+oh isn't open
+
+
+[08/24/2022 10:01 PM] koutelier#5178
+lol
+
+
+[08/24/2022 10:01 PM] koutelier#5178 (pinned)
+https://docs.google.com/spreadsheets/d/1rWDL82gzMdodpOu7EMkN0DWQZGKofwmSAipis5LCwa8/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1rWDL82gzMdodpOu7EMkN0DWQZGKofwmSAipis5LCwa8/edit?usp=sharing
+ergo discord bot
+Φύλλο1
+
+Ergo Discord BOT,dis=discord
+tg=telegram
+Commnads,Replies
+.welcome,-https://youtu.be/CzGqYAlQRWQ
+.wallets dis,- #🚧│wallets 
+.wallets tg,- @NautilusWallet
+- @ErgoWalletApp
+- @SatergoWallet
+.mining dis,- #🚧│mining 
+.mining tg,- @Ergo_Mining
+- @GetBlok
+- @GuapSwapCommunity
+.cold storage ,-...
+https://images-ext-1.discordapp.net/external/5mmzzpoOUBFFJB5jSkXaoC61FhA9AH62R_oQW5vDJXg/https/lh4.googleusercontent.com/HRrZVZwfagn0u1BeWwX2YYJ0vXVVfWwqfKsEKpRbP4xhR-NdSyD2-YkzOFpSxx9baR7WK_dHEbR4wg%3Dw1200-h630-p
+
+
+[08/24/2022 10:01 PM] koutelier#5178
+@curbsideprophet  check now
+
+
+[08/25/2022 6:57 AM] curbsideprophet#5083
+added comments in "notes" category
+
+
+[08/25/2022 7:01 AM] koutelier#5178
+Need to figure out how to give you access after work
+
+
+[08/25/2022 7:04 AM] curbsideprophet#5083
+i can edit it no problem. just asking you to take a look on direction
+
+
+[08/25/2022 8:41 AM] koutelier#5178
+Oh okay. I will in few hours
+
+
+[08/25/2022 5:27 PM] koutelier#5178
+@curbsideprophet saw your notes
+
+
+[08/25/2022 5:27 PM] koutelier#5178
+agree. didn't get the sigmaverse
+
+
+[08/25/2022 5:28 PM] curbsideprophet#5083
+`.sigmaverse` just gives you link to website. 
+`.sigmaverse tools` would list out all the websites under the tools category on sigmaverse
+
+
+[08/25/2022 5:28 PM] curbsideprophet#5083
+`.sigmaverse dapps` would do the same as above but dapps
+
+
+[08/25/2022 5:28 PM] curbsideprophet#5083
+etc
+
+
+[08/25/2022 5:28 PM] koutelier#5178
+hhmm i think too complicated
+
+
+[08/25/2022 5:29 PM] koutelier#5178
+we should focus on tutorials mainly
+
+
+[08/25/2022 5:29 PM] koutelier#5178
+nodes, wallets , and how to buy erg
+
+
+[08/25/2022 5:29 PM] koutelier#5178
+this things mostly imo
+
+
+[08/25/2022 5:29 PM] curbsideprophet#5083
+then remove `sigmaverse` altogether?
+
+
+[08/25/2022 5:29 PM] koutelier#5178
+at least at the beginning .
+
+
+[08/25/2022 5:30 PM] koutelier#5178
+nope. because there they can do their research . so if anyone comes and asks what projects ergo has
+
+
+[08/25/2022 5:30 PM] koutelier#5178
+.sigmaverse
+
+
+[08/25/2022 5:30 PM] koutelier#5178
+and they can find out
+
+
+[08/25/2022 5:30 PM] koutelier#5178
+we can put some text there as well, before the link
+
+
+[08/25/2022 5:30 PM] curbsideprophet#5083
+ok if it's easy to do i'll add it anyway
+
+
+[08/25/2022 5:31 PM] koutelier#5178
+okay sir. ergopixely has great tutorials
+
+
+[08/25/2022 5:31 PM] koutelier#5178
+we need to add these as well
+
+
+[08/25/2022 5:57 PM] curbsideprophet#5083
+@koutelier for `.wallets` - what about default option? should we link to ergoplatform wallets page?
+
+
+[08/25/2022 5:57 PM] curbsideprophet#5083
+i think it would be good because right now it just returns an error
+
+
+[08/25/2022 5:58 PM] koutelier#5178
+error?
+
+
+[08/25/2022 5:58 PM] koutelier#5178
+why
+
+
+[08/25/2022 5:58 PM] curbsideprophet#5083
+3 modifiers: `.wallets dis`, `.wallets tg`, `.wallets cold`
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1011683906451415100/1012405591219638372/Screen_Shot_2022-08-25_at_9.58.13_AM.png
+
+
+[08/25/2022 5:58 PM] curbsideprophet#5083
+but what would `.wallets` go to?
+
+
+[08/25/2022 5:59 PM] curbsideprophet#5083
+my vote: https://ergoplatform.org/en/get-erg/#Wallets
+
+
+[08/25/2022 6:15 PM] koutelier#5178
+lol tag me when i need to see something lol
+
+
+[08/25/2022 6:16 PM] koutelier#5178
+yeah agree
+
+
+[08/25/2022 6:20 PM] curbsideprophet#5083
+
+
+{Stickers}
+https://cdn.discordapp.com/stickers/928485445950652438.png
+
+
+[08/26/2022 7:11 PM] koutelier#5178
+i wanted to say lado pixel . i don't know why i said pixely
+
+{Reactions}
+🤣 
+
+[08/26/2022 11:15 PM] curbsideprophet#5083
+@koutelier left a few comments in g docs please check ser
+
+
+[08/26/2022 11:25 PM] koutelier#5178
+1:30 am here Ser
+
+
+[08/26/2022 11:25 PM] koutelier#5178
+I only shit post at this time 🤣🤣
+
+
+[08/26/2022 11:26 PM] koutelier#5178
+Good job sir .
+
+
+[08/26/2022 11:27 PM] curbsideprophet#5083
+Whenever you get to it
+
+
+[08/26/2022 11:27 PM] curbsideprophet#5083
+And maybe verify the exchanges information I think changelly is no longer available ?
+
+
+[08/26/2022 11:27 PM] koutelier#5178
+Tomorrow I will try to find some time to finish to finish the tutorial about ledger and then find few more tutorials that are helpful
+
+
+[08/26/2022 11:27 PM] koutelier#5178
+@glasgowm could help with that
+
+
+[08/26/2022 11:27 PM] koutelier#5178
+Maybe providing a new one as well 👀👀
+
+
+[08/26/2022 11:27 PM] koutelier#5178
+🤣🤣🤣
+
+
+[08/26/2022 11:27 PM] curbsideprophet#5083
+I’m just taking what you have in sheets and dumping in there
+
+{Reactions}
+😂 
+
+[08/26/2022 11:28 PM] curbsideprophet#5083
+Easter egg 😉
+
+
+[08/26/2022 11:28 PM] koutelier#5178
+Yeah yeah
+
+
+[08/26/2022 11:28 PM] koutelier#5178
+Also can we hide a word there for the hunt?
+
+
+[08/26/2022 11:28 PM] koutelier#5178
+In a command 🤣
+
+
+[08/26/2022 11:29 PM] curbsideprophet#5083
+Of course
+
+
+[08/26/2022 11:30 PM] koutelier#5178
+Noice
+
+
+[08/26/2022 11:30 PM] koutelier#5178
+Will add more tomorrow
+
+
+[08/26/2022 11:30 PM] koutelier#5178
+Gn mate
+
+{Reactions}
+👍 
+
+[08/26/2022 11:48 PM] glasgowm#9381
+https://changelly.com/exchange/erg
+
+{Embed}
+https://changelly.com/exchange/erg
+Exchange Ergo (ERG) with Lowest Fees
+Change ERG and more than 400 tokens on the Changelly site at fair rates and with low  commissions. One might quickly change ERG online on our site or in our app. Thanks to an intuitive  interface, you can make transactions choosing favorable rates amongst available offers, even if you have no experience with  complicated trading processes. Benef...
+https://images-ext-1.discordapp.net/external/Ye6ZVMDG-JsPnhxVUKR70ybn8dpFQbnzsVLEOUUGx1c/https/changelly.com/static/seo-pages/twitter_image.jpg
+
+
+[08/26/2022 11:53 PM] glasgowm#9381
+Not better using slash commands?
+
+
+[08/27/2022 12:08 AM] koutelier#5178
+Maybe it’s confusing with other bots
+
+
+[08/27/2022 12:08 AM] koutelier#5178
+Better having something unique
+
+
+[08/28/2022 9:09 PM] curbsideprophet#5083
+i have no preference
+
+
+[09/01/2022 9:17 AM] koutelier#5178
+Should we add the sideload guides for ledger . The one I made and the existed ones ?
+
+
+[09/01/2022 10:01 AM] curbsideprophet#5083
+of course!
+
+
+[09/01/2022 4:28 PM] curbsideprophet#5083
+future idea: encode this sheet data into bot responses https://docs.google.com/spreadsheets/d/1NsuoDB27EwCo_BlSjCP3GMLfTSJRPIWIBsL-wPTllUg/edit#gid=1675061291
+
+
+[09/01/2022 7:26 PM] koutelier#5178
+Would be cool
+
+
+[09/01/2022 11:14 PM] curbsideprophet#5083
+@glasgowm up to you which channels you want this bot to live under (maybe #🗣│general at a minimum?) but I think right now its only #sigmanauts-archive 
+
+Then @koutelier and I can start using in the wild to answer FAQ
+
+{Reactions}
+🔥 
+
+[09/03/2022 6:33 PM] koutelier#5178
+@curbsideprophet we need to add why ergo pump
+
+
+[09/03/2022 6:33 PM] koutelier#5178
+/whypump function
+
+
+[09/03/2022 6:33 PM] koutelier#5178
+why all foundation members are out. tier 1 things to do? lol
+
+{Reactions}
+hmm 
+
+[09/03/2022 6:38 PM] curbsideprophet#5083
+Sure add to doc or file as an issue in the GitHub
+
+
+[09/03/2022 6:38 PM] koutelier#5178
+will do after i stop watching the charts
+
+{Reactions}
+gribbles_dance 
+
+[09/04/2022 8:31 AM] koutelier#5178
+@curbsideprophet ser i added few things
+
+
+[09/04/2022 2:02 PM] koutelier#5178
+Pinned a message.
+
+
+[09/04/2022 2:40 PM] koutelier#5178
+.help
+
+
+[09/04/2022 2:41 PM] koutelier#5178
+.help
+
+
+[09/04/2022 2:41 PM] koutelier#5178
+/halp
+
+
+[09/04/2022 2:41 PM] koutelier#5178
+.halp
+
+
+[09/05/2022 9:41 AM] curbsideprophet#5083
+.genesis
+
+
+[09/05/2022 1:17 PM] glasgowm#9381
+https://discord.com/blog/welcome-to-the-new-era-of-discord-apps/?ref=message_content_notification
+
+{Embed}
+https://discord.com/blog/welcome-to-the-new-era-of-discord-apps/?ref=message_content_notification
+Welcome to the New Era of Discord Apps
+The Future is Soon — Your favorite Discord apps and bots are nearly done switching to Slash Commands: the new and improved way to interact with apps. Check out all the new things you can do today!
+https://images-ext-1.discordapp.net/external/-W0-y-4-TuP2MPtkpC80hJ5IEWyDD2yj4KNnHEgrwqk/https/assets-global.website-files.com/5f9072399b2640f14d6a2bf4/625489cc18bfe0b12a83e4a2_202201010_PM_CommandPermissionsBlog_JJ_v04.jpg
+
+
+[09/05/2022 2:52 PM] curbsideprophet#5083
+Very nice did not know about this guess “/“ is discord standard now to use all those features
+
+
+[09/05/2022 5:10 PM] curbsideprophet#5083
+~~switched from `.` to the standardized `/` command~~ reverted back for now since it doesn't allow TG bridge bot to Discord interactions
+
+
+[09/05/2022 9:50 PM] curbsideprophet#5083
+new commands added from doc
+
+{Reactions}
+🔥 
+
+[09/06/2022 9:08 AM] koutelier#5178
+.docs
+
+
+[09/06/2022 3:44 PM] curbsideprophet#5083
+test: @cafebedouin are you in here?
+
+
+[09/06/2022 3:48 PM] cafebedouin#9837
+Yeah, surprisingly.
+
+
+[09/06/2022 3:55 PM] curbsideprophet#5083
+lmao. we can use this channel for sigmabot work and testing
+
+
+[09/06/2022 3:55 PM] cafebedouin#9837
+Sounds good.
+
+
+[09/06/2022 4:01 PM] curbsideprophet#5083
+your PR i left a code review comment but this is one discussion point
+```re: faq.py line #91: Or, each string can be personalized to the exchange.
+
+Might be harder to maintain but I am opening up to the idea of having more specific calls for each dapp/project/etc.
+
+For example: instead of .listing coinbase .listing kraken it would just be .coinbase .kraken.
+Another example: .projects ergopad .projects skyharbor .projects azorus it would just be .ergopad .skyharbor .azorus
+
+Pro: easier to remember, good for mobile
+Con: could get messy if we need to edit two files faq.py and sigmabot.py...especially if we add modifiers```
+
+
+[09/06/2022 4:05 PM] cafebedouin#9837
+The problem we will have with this bot is the information is like a directory, it's going to require frequent up-dating as a matter of course.
+
+
+[09/06/2022 4:07 PM] cafebedouin#9837
+Modifiers is good programming practice, so just plugging in a variable for name and using the same language is easy to code, but the problem with that in this case is that the information may not led itself to it. Also, if the purpose is to be easy, easier to do /binance than /listing binance
+
+
+[09/06/2022 4:08 PM] cafebedouin#9837
+So trade-offs. I think the main metric is use. If people are using it to answer the common questions, then it's a success. If not, then we should rethink the organization until they do.
+
+
+[09/06/2022 4:10 PM] curbsideprophet#5083
+maybe for v3.0 we pipe in from sigmaverse structure heh
+
+
+[09/06/2022 4:11 PM] cafebedouin#9837
+That was a thought too, we don't want to recreate that. I do like the idea of a / command with links, since most people cannot post them.
+
+
+[09/06/2022 4:12 PM] cafebedouin#9837
+.tps
+
+
+[09/06/2022 4:13 PM] curbsideprophet#5083
+.admin
+
+
+[09/06/2022 4:13 PM] sigmabot#9505
+For technical support please join @ErgoSupport
+For marketing queries please email angie@ergoplatform.org
+
+
+[09/06/2022 4:13 PM] cafebedouin#9837
+.tps
+
+
+[09/06/2022 4:14 PM] curbsideprophet#5083
+rip lol
+
+
+[09/06/2022 4:14 PM] curbsideprophet#5083
+your updated version has not been pushed to prod i left a code review comment to fix
+
+
+[09/06/2022 4:14 PM] cafebedouin#9837
+huh, so wick thinks that explanation is too long, and may be right.
+
+
+[09/06/2022 4:14 PM] cafebedouin#9837
+Still getting the spacing tab problems?
+
+
+[09/06/2022 4:15 PM] curbsideprophet#5083
+depends how complicated we want to get. for example `.projects azorus token` is a lot of arguments. but `.azorus token` is easier for the end user but could get messy on back end
+
+
+[09/06/2022 4:15 PM] curbsideprophet#5083
+https://github.com/Eeysirhc/sigmabot/pull/18#discussion_r963798512
+
+
+[09/06/2022 4:23 PM] cafebedouin#9837
+Think I fixed it? I'm more into strings, I'm just copy/pasting the python, man!
+
+
+[09/06/2022 4:23 PM] cafebedouin#9837
+I had originally planned to just make that a no modifer one, then realized that the discord/tg dichotomy was in play.
+
+
+[09/06/2022 5:02 PM] curbsideprophet#5083
+HAHA! all good i will merge thank you 🙂
+
+
+[09/06/2022 5:19 PM] curbsideprophet#5083
+i am using sublime text and found an option to convert everything to tabs - works fine now and pushed to prod
+
+
+[09/06/2022 5:20 PM] curbsideprophet#5083
+it looks like the bot gets put into timeout though for using discord invite links with `.nfts`
+
+
+[09/06/2022 5:23 PM] cafebedouin#9837
+Mentioned in sigmanauts it might make sense to have an nft channel on platform. Might be the way around thta one.
+
+
+[09/06/2022 5:29 PM] curbsideprophet#5083
+.nfts
+
+
+[09/06/2022 5:29 PM] curbsideprophet#5083
+rip lol
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1011683906451415100/1016746964907462766/Screen_Shot_2022-09-06_at_09.29.10.png
+
+
+[09/08/2022 1:59 AM] curbsideprophet#5083
+@cafebedouin do we need a command for “.lambo” ? 😅
+
+
+[09/08/2022 2:04 AM] cafebedouin#9837
+Need no. But will we absolutely have one? I think so. Probably also need .yacht ⛵ or .yacht-party 😀
+
+
+[09/08/2022 2:05 AM] curbsideprophet#5083
+Haha yeah those can be Easter eggs low priority cc: @koutelier
+
+{Reactions}
+😂 
+
+[09/08/2022 2:08 AM] cafebedouin#9837
+Do you try to do any technical analysis for trading? For instance, it would be super interesting to have a probability table for price impact on listing announcement over some series: day, week month, quarter, and year. For today, what is the probability price will get to $15 from start of trade to 30 days out, any time.
+
+
+[09/08/2022 2:10 AM] curbsideprophet#5083
+Yes I have a bunch of stochastic models living on local computer just for fun. What’s up?
+
+
+[09/08/2022 2:11 AM] curbsideprophet#5083
+For something like this I also tried survival analysis I would need to dig up legacy code
+
+
+[09/08/2022 2:11 AM] curbsideprophet#5083
+Sort of a “time to pamp since listing” metric
+
+
+[09/08/2022 2:12 AM] cafebedouin#9837
+I do geopolitical forecasting as a sideline. So, the Huobi listing strikes me as a similar type of question. I was using the KuCoin listing as a point of comparison, but be better if there was a cross-chain model/data for that sort of thing.
+
+
+[09/08/2022 2:13 AM] cafebedouin#9837
+There was also that study about Coinbase listing I posted on Reddit. Let me find.
+
+
+[09/08/2022 2:14 AM] cafebedouin#9837
+https://www.reddit.com/r/ergonauts/comments/s6c81j/the_coinbase_curse/
+
+{Embed}
+https://www.reddit.com/r/ergonauts/comments/s6c81j/the_coinbase_curse/
+r/ergonauts - The Coinbase Curse
+40 votes and 59 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/UK4w7OugK5mhxclQ_1oJLDQ40AvA4T42T9WO0YMpFM0/%3Fauto%3Dwebp%26s%3D4c18b6f2a8184dbfcb1d9b5b8cbf89a2c7234787/https/external-preview.redd.it/6hGtsyyWOaQJGUl-INeWY5sADvAqLTt_khR4xbHgMIU.jpg
+
+
+[09/08/2022 2:14 AM] cafebedouin#9837
+Same idea, but a year out.
+
+
+[09/08/2022 2:15 AM] curbsideprophet#5083
+I had not seen this thanks for sharing! I did something similar here too lol: https://twitter.com/eeysirhc/status/1413174374857797633?s=46&t=TeS9m5njzEGs9f6FddKGow
+
+{Embed}
+Christopher Yee (@Eeysirhc)
+https://twitter.com/eeysirhc/status/1413174374857797633?s=46&t=TeS9m5njzEGs9f6FddKGow
+Plotting the @coinbase effect for the March 2021 cohort 100+ days after their exchange listing (source: @MessariCrypto)
+
+$ADA and $MATIC showing their true colors as reliable horses in this race
+
+$ANKR $SKL $STORJ $SUSHI have all tapered off since their initial run on the CEX
+https://images-ext-1.discordapp.net/external/NI33jwxH69sZmGvFd0CiTsvLGw_zbKIfstttRSIXvsU/https/pbs.twimg.com/media/E5yZAEkVIAIlb3j.jpg
+Twitter
+
+
+[09/08/2022 2:15 AM] curbsideprophet#5083
+Perhaps a side project we can work on together if time permits I know you are a busy man 😉
+
+
+[09/08/2022 2:18 AM] cafebedouin#9837
+I'd guess you have enough on your plate as it is, but something to keep in mind. Nice use of ggplot2 BTW.
+
+{Reactions}
+❤️ 
+
+[09/08/2022 2:20 AM] curbsideprophet#5083
+It’ll be one of those “everything is in a good spot let me take a break” type thing haha
+
+{Reactions}
+😀 
+
+[09/08/2022 2:21 AM] curbsideprophet#5083
+Also: ggplot2 is the best.
+
+
+[09/08/2022 3:43 PM] koutelier#5178
+@curbsideprophet @cafebedouin should we add the grow ergo repo? for the new dev guys we keep having /
+
+
+[09/08/2022 3:43 PM] koutelier#5178
+?
+
+
+[09/08/2022 4:13 PM] glasgowm#9381
+You can just link https://docs.ergoplatform.com/contribute/
+
+
+[09/08/2022 4:13 PM] glasgowm#9381
+But anyone who has 'Dev' in their name is some sort of scam I think.
+
+
+[09/08/2022 4:22 PM] curbsideprophet#5083
+Nice sounds good 
+@koutelier proposed command ?
+
+
+[09/08/2022 6:24 PM] curbsideprophet#5083
+For “.cex”: classify KYC vs non-KYC exchanges
+
+
+[09/08/2022 6:25 PM] koutelier#5178
+yeah most of them
+
+
+[09/08/2022 6:25 PM] koutelier#5178
+so ".contribute" ??
+
+{Reactions}
+👍 
+
+[09/08/2022 6:26 PM] koutelier#5178
+hhmm i only know kucoin and coinex don't need kyc
+
+
+[09/08/2022 6:26 PM] curbsideprophet#5083
+Yeah good to ID them when evoking that command
+
+
+[09/08/2022 6:36 PM] koutelier#5178
+so it will be like .cex no kyc and .cex kyc ? and another command for just .cex?
+
+
+[09/08/2022 6:36 PM] koutelier#5178
+i think it's better to leave one command but categories them on the bot reply
+
+
+[09/08/2022 6:36 PM] koutelier#5178
+easier to use
+
+
+[09/08/2022 9:34 PM] curbsideprophet#5083
+No just .cex but add extra spacing in response between KYC and none
+
+
+[09/09/2022 12:33 AM] TypoDaPsycho#6307
+the official landing page that's linked for .cex (instead of  previous ergoforum link ) https://ergoplatform.org/en/get-erg/#Exchanges , I added it to document I think
+
+
+[09/09/2022 12:50 AM] curbsideprophet#5083
+Thanks! Will update 😄
+
+{Reactions}
+👍 
+
+[09/09/2022 2:24 AM] theta_decay#5677
+This is dope guys, great work.
+
+{Reactions}
+🥰 
+
+[09/09/2022 2:24 AM] theta_decay#5677
+Anywhere I can see a list of all commands?
+
+
+[09/09/2022 2:50 AM] theta_decay#5677
+Found it, thanks.
+
+
+[09/10/2022 8:02 PM] koutelier#5178
+another command
+
+
+[09/10/2022 8:02 PM] koutelier#5178
+.install tip bot
+
+
+[09/10/2022 8:02 PM] koutelier#5178
+or something like that
+
+
+[09/10/2022 8:02 PM] koutelier#5178
+.tipbot
+
+
+[09/10/2022 8:11 PM] curbsideprophet#5083
+what is expected response? tutorial on how to fire it up?
+
+
+[09/10/2022 8:11 PM] curbsideprophet#5083
+are there different steps between discord and tg?
+
+
+[09/11/2022 8:40 AM] koutelier#5178
+Also .nodelist
+
+
+[09/11/2022 8:40 AM] koutelier#5178
+I will find some time to write the replies
+
+
+[09/11/2022 8:40 AM] koutelier#5178
+I am sick at and working so I don’t have much free time or energy to do other stuff 🙄
+
+
+[09/11/2022 5:17 PM] koutelier#5178
+we need to clarify what is what
+
+
+[09/11/2022 5:18 PM] koutelier#5178
+@NautilusWallet browser dapp
+@ErgoWalletApp mobile wallet
+@SatergoWallet full node desktop wallet
+
+{Reactions}
+👍 
+
+[09/11/2022 5:22 PM] cafebedouin#9837
+@curbsideprophet having an anniversary weekend, I'll work a bit on the bot next week.
+
+
+[09/11/2022 5:22 PM] koutelier#5178
+congrats sir
+
+
+[09/11/2022 5:23 PM] curbsideprophet#5083
+Don’t worry about us I just tag it as reminders and enjoy the anniversary weekend !
+
+
+[09/11/2022 5:41 PM] curbsideprophet#5083
+what is the expected response for this?
+
+
+[09/11/2022 5:42 PM] koutelier#5178
+there is a  link i think
+
+
+[09/11/2022 5:42 PM] koutelier#5178
+@glasgowm drops it all the time
+
+
+[09/11/2022 5:42 PM] koutelier#5178
+that shows all available nodes
+
+
+[09/11/2022 5:45 PM] curbsideprophet#5083
+updated but not pushed to prod yet
+
+
+[09/11/2022 6:25 PM] cafebedouin#9837
+Met my wife 20 years ago today. Still seems weird anyone would want to put up with my shit for that long.
+
+{Reactions}
+🤣 (2) 🔥 (2) kekwlick (2) 🚀 (2) aaw_yeah (2) 
+
+[09/11/2022 6:26 PM] koutelier#5178
+lmao
+
+
+[09/11/2022 6:26 PM] curbsideprophet#5083
+6 years with my wife next month and i think the same thing 🤣
+
+
+[09/11/2022 6:28 PM] koutelier#5178
+you have to unlock the 10 years achievement first
+
+
+[09/11/2022 6:29 PM] curbsideprophet#5083
+ser time is linear but marriage not so much
+
+
+[09/11/2022 9:55 PM] curbsideprophet#5083
+Anyone sigmanauts here with this PR? https://github.com/Eeysirhc/sigmabot/pull/29
+
+
+[09/12/2022 6:08 PM] koutelier#5178
+sir your bot is the best
+
+
+[09/12/2022 8:37 PM] curbsideprophet#5083
+With a few small tweaks can be used by any project because let’s be real: no one reads the pinned messages lol
+
+
+[09/12/2022 8:37 PM] koutelier#5178
+Hahahaha
+
+
+[09/12/2022 8:38 PM] koutelier#5178
+This could help gazza so much while the Ada test net
+
+
+[09/12/2022 8:39 PM] curbsideprophet#5083
+Yup. He/mods just need to use it enough that the community takes over to answer questions by calling bot commands (what we see now with sigmabot)
+
+
+[09/12/2022 8:45 PM] koutelier#5178
+Yeah best bot eveeerrrr
+
+
+[09/12/2022 8:45 PM] koutelier#5178
+Great job
+
+
+[09/12/2022 8:54 PM] curbsideprophet#5083
+wen token ?
+
+
+[09/12/2022 9:11 PM] koutelier#5178
+Azorus token ? 👀
+
+{Reactions}
+👀 
+
+[09/14/2022 4:07 PM] curbsideprophet#5083
+@cafebedouin made comments to your PR: https://github.com/Eeysirhc/sigmabot/pull/30
+
+{Embed}
+https://github.com/Eeysirhc/sigmabot/pull/30
+Added .gulag, .pouw, and .rent. by cafebedouin · Pull Request #30 ·...
+https://images-ext-1.discordapp.net/external/cLNGIYt6DI2vGuGFYadh1Nw2vrNQ1hajVgqggnWmD2I/https/opengraph.githubassets.com/eceb0ffb401f1b0cd2f6ff0cfa42820648bb42a5c699179a22f967a88b15fa4f/Eeysirhc/sigmabot/pull/30
+
+
+[09/14/2022 4:16 PM] cafebedouin#9837
+.gulag
+
+
+[09/14/2022 4:21 PM] cafebedouin#9837
+Done.
+
+
+[09/14/2022 4:30 PM] curbsideprophet#5083
+there is a merge conflict because i think you didn't do a `git pull` before making changes.
+main repo last updated 2022-09-11: https://github.com/Eeysirhc/sigmabot/blob/main/faq.py
+your repo last updated 2022-09-05: https://github.com/cafebedouin/sigmabot/blob/main/faq.py
+
+
+[09/14/2022 4:31 PM] curbsideprophet#5083
+side note: also need to update your local branch before you can do the `git pull`
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1011683906451415100/1019631480034558003/Screen_Shot_2022-09-14_at_08.30.58.png
+
+
+[09/14/2022 6:36 PM] cafebedouin#9837
+I did. But maybe I need to update in the github interface first, which I didn't do.
+
+
+[09/14/2022 6:53 PM] curbsideprophet#5083
+.help @cafebedouin
+
+
+[09/14/2022 6:53 PM] sigmabot#9505
+No command called "@invalid" found.
+
+
+[09/14/2022 6:53 PM] curbsideprophet#5083
+.help
+
+
+[09/14/2022 6:53 PM] sigmabot#9505
+```
+​No Category:
+  admin      
+  binance    
+  bridge     
+  cex        
+  contribute 
+  dex        
+  docs       
+  drama      
+  genesis    
+  geterg     
+  help       Shows this message
+  lambo      
+  ledger     
+  listing    
+  manifesto  
+  marketcap  
+  mining     
+  nfts       
+  node       
+  projects   
+  staking    
+  tokenjay   
+  tps        
+  wallets    
+  welcome    
+  yacht      
+  yoroi      
+
+Type .help command for more info on a command.
+You can also type .help category for more info on a category.
+```
+
+
+[09/14/2022 6:55 PM] cafebedouin#9837
+I was trying in DMs, as the post said.
+
+
+[09/14/2022 6:55 PM] cafebedouin#9837
+Not how it works?
+
+
+[09/14/2022 6:55 PM] curbsideprophet#5083
+it should work if you DM it since you're also in ergo discord server
+
+
+[09/14/2022 6:56 PM] curbsideprophet#5083
+or maybe you have DM disabled?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1011683906451415100/1019668010132316221/Screen_Shot_2022-09-14_at_10.56.33.png
+
+
+[09/14/2022 6:57 PM] cafebedouin#9837
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+
+
+[09/14/2022 6:57 PM] cafebedouin#9837
+Also, what does this mean. I synced using github, then fetched, pulled and tried merge.
+
+
+[09/14/2022 6:57 PM] cafebedouin#9837
+from the command line
+
+
+[09/14/2022 7:00 PM] cafebedouin#9837
+That was it. Set tht early and forgot about it - cause I don't use Discord. Don't like to get messages from randoms regardless.
+
+
+[09/14/2022 7:14 PM] cafebedouin#9837
+Ok, I think I updated? If not, I'll just delete the directory and make the changes again.
+
+
+[09/14/2022 7:23 PM] curbsideprophet#5083
+It should say in GitHub interface that you’re on the latest commit if done correctly before you git pull again
+
+
+[09/14/2022 7:46 PM] cafebedouin#9837
+Yeah, that's where I munged it the first time.
+
+
+[09/14/2022 7:50 PM] cafebedouin#9837
+Tried PR again. I think this one will work. Sorry about the trouble with this basic stuff. Learning.
+
+
+[09/14/2022 7:54 PM] curbsideprophet#5083
+ser don't fret we all started somewhere ❤️
+
+
+[09/14/2022 8:01 PM] curbsideprophet#5083
+@cafebedouin moved to prod. thank you!
+
+
+[09/14/2022 8:02 PM] curbsideprophet#5083
+.pouw
+
+
+[09/14/2022 8:02 PM] sigmabot#9505
+While Proof of Useful Work is an interesting idea, it is still in its research phase. Ergo is open to implementing new ideas. But, a radical change to its concensus mechanism that requires a hard fork would likely be outside the scope and resources of Ergo's small core development team and limited budget.
+
+
+[09/14/2022 8:11 PM] cafebedouin#9837
+Yeah, this one is going to keep coming up.
+
+
+[09/14/2022 8:11 PM] cafebedouin#9837
+.gulag
+
+
+[09/14/2022 8:11 PM] sigmabot#9505
+This chat is for serious discussion. If you want to troll users and share your spicy opinions, please join our community of Ergo edgelords in @ErgoGulag in Telegram or #🚧│random in Discord.
+
+
+[09/14/2022 8:11 PM] cafebedouin#9837
+That's funny.
+
+{Reactions}
+😂 
+
+[09/14/2022 8:14 PM] cafebedouin#9837
+.rent
+
+
+[09/14/2022 8:14 PM] sigmabot#9505
+https://ergoplatform.org/en/blog/2022-02-18-ergo-explainer-storage-rent/
+
+
+[09/15/2022 9:38 AM] curbsideprophet#5083
+.cex
+
+
+[09/15/2022 9:38 AM] sigmabot#9505
+[KYC]
+Huobi: https://www.huobi.com/exchange/erg_usdt/
+GateIO: https://www.gate.io/trade/ERG_USDT
+Indodax: https://indodax.com/market/ERGIDR
+HotBit: https://www.hotbit.io/exchange?symbol=ERG_BTC
+FMFW: https://fmfw.io/erg-to-btc
+Changelly: https://changelly.com/exchange/erg
+swopfi: https://swop.fi/info/3PGVJvV8Ep1u7qMkvUs1DYhRyfvArdRbMsD
+
+[non-KYC]
+KuCoin: https://www.kucoin.com/trade/ERG-USDT
+CoinEx: https://www.coinex.com/exchange?currency=usdt&dest=erg
+TradeOgre: https://tradeogre.com/exchange/BTC-ERG
+
+
+[09/15/2022 9:38 AM] curbsideprophet#5083
+fixed tradeogre to be non-kyc category
+
+
+[09/15/2022 3:42 PM] koutelier#5178
+@curbsideprophet we have a getblok command ?
+
+
+[09/15/2022 3:42 PM] koutelier#5178
+I feel like we should shill getblok to new people
+
+
+[09/15/2022 3:42 PM] koutelier#5178
+Sub pools and plasma is 🔥
+
+
+[09/15/2022 3:44 PM] curbsideprophet#5083
+I can add it if you give me an output response
+
+
+[09/15/2022 3:44 PM] koutelier#5178
+.help
+
+
+[09/15/2022 3:44 PM] sigmabot#9505
+```
+​No Category:
+  admin      
+  binance    
+  bridge     
+  cex        
+  contribute 
+  dex        
+  docs       
+  drama      
+  genesis    
+  geterg     
+  gulag      
+  help       Shows this message
+  lambo      
+  ledger     
+  listing    
+  manifesto  
+  marketcap  
+  mining     
+  nfts       
+  node       
+  pouw       
+  projects   
+  rent       
+  staking    
+  tokenjay   
+  tps        
+  wallets    
+  welcome    
+  yacht      
+  yoroi      
+
+Type .help command for more info on a command.
+You can also type .help category for more info on a category.
+```
+
+
+[09/15/2022 3:44 PM] koutelier#5178
+.mininf
+
+
+[09/15/2022 3:44 PM] koutelier#5178
+.mining
+
+
+[09/15/2022 3:44 PM] sigmabot#9505
+https://ergoplatform.org/en/get-erg/#Mining
+
+Modifiers: dis, tg
+
+
+[09/15/2022 3:57 PM] koutelier#5178
+Ergo mining pools: 
+
+https://ergoplatform.org/en/get-erg/#Mining
+
+GetBlok.io mining pool (Support Subpools):
+
+https://Getblok.io
+
+{Embed}
+https://getblok.io/
+Getblok.io - Empowering humanity through Blockchain
+Empowering humanity through Blockchain GetBlok.io delivers the industry’s first Smart-contract based solutions enabling transparency and trust in a trustless environment. DEVELOPMENT We develop curated capabilities leveraging Blockchain Smart Contracts. SMARTBLOK SOLUTIONS Smart Contract-enabled SmartMining, SmartPools, SmartDEX, and SmartMarket...
+https://images-ext-1.discordapp.net/external/WXZGCY2RmczNFeNlj90ND55cFClZW6vXLL5ZM7kRZTI/https/www.getblok.io/wp-content/uploads/2022/02/GETBLOKIO-FINAL-OR-01.png
+
+
+[09/15/2022 3:57 PM] koutelier#5178
+what do you think ?
+
+
+[09/15/2022 4:00 PM] curbsideprophet#5083
+There’s already a link to getblok on that ergo link. Maybe a separate call just for getblok
+
+
+[09/15/2022 4:01 PM] curbsideprophet#5083
+Input: .getblok
+Output: blurb + website link
+
+
+[09/15/2022 4:23 PM] koutelier#5178
+but in that way people will have to do two different commands for the same reason
+
+
+[09/15/2022 4:23 PM] koutelier#5178
+.mining
+
+
+[09/15/2022 4:23 PM] sigmabot#9505
+https://ergoplatform.org/en/get-erg/#Mining
+
+Modifiers: dis, tg
+
+
+[09/15/2022 4:23 PM] koutelier#5178
+.getblok
+
+
+[09/15/2022 4:23 PM] koutelier#5178
+so why not all together ?
+
+
+[09/15/2022 4:32 PM] curbsideprophet#5083
+Why does Getblok get a call out in a broader mining command? Seems like we should refine what we want to show then since it also includes modifiers to channels
+
+
+[09/15/2022 4:35 PM] curbsideprophet#5083
+Or .mining should just link all mining pools instead similar to .cex command
+
+
+[09/16/2022 12:18 AM] cafebedouin#9837
+Probably need .wallets trust
+
+
+[09/16/2022 12:22 AM] glasgowm#9381
+.cex
+
+
+[09/16/2022 12:22 AM] sigmabot#9505
+[KYC]
+Huobi: https://www.huobi.com/exchange/erg_usdt/
+GateIO: https://www.gate.io/trade/ERG_USDT
+Indodax: https://indodax.com/market/ERGIDR
+HotBit: https://www.hotbit.io/exchange?symbol=ERG_BTC
+FMFW: https://fmfw.io/erg-to-btc
+Changelly: https://changelly.com/exchange/erg
+swopfi: https://swop.fi/info/3PGVJvV8Ep1u7qMkvUs1DYhRyfvArdRbMsD
+
+[non-KYC]
+KuCoin: https://www.kucoin.com/trade/ERG-USDT
+CoinEx: https://www.coinex.com/exchange?currency=usdt&dest=erg
+TradeOgre: https://tradeogre.com/exchange/BTC-ERG
+
+{Embed}
+https://www.huobi.com/exchange/erg_usdt/
+{upper{symbol}} Spot Exchange ({coinName{sBase}} to {coinName{sQuot...
+Trade {coinName{sBase}}/{coinName{sQuote}} with Huobi Global spot exchange. Learn the basics of {coinName{sBase}}/{coinName{sQuote}} trading, market movements, and today's {coinName{sBase}}/{coinName{sQuote}} price trends on Huobi Global.
+
+{Embed}
+https://www.gate.io/trade/ERG_USDT
+4.5734 ERG USDT · ERG/USDT | Gate.io
+ERG USDT trading, charts and order book. 24h High 5.2507, Low 4.5538. ERG to USDT. Trade ERG/USDT safely with Gate.io Exchange now!
+https://images-ext-2.discordapp.net/external/4HDnG4hTfQjpFCl2BdY08l11Et8tkSHp5-7pvwBVvus/https/www.gate.io/images/gate.io_logo.png
+
+{Embed}
+https://indodax.com/market/ERGIDR
+Harga Ergo Hari ini ERG to IDR - Indodax
+Harga ERGO terbaru hari ini 70,001 IDR dengan volume perdagangan 5706.75098286. Jual beli ERG to IDR di Indodax sekarang!
+
+{Embed}
+https://fmfw.io/erg-to-btc
+Ergo ERG to Bitcoin Core BTC Exchange / Buy & Sell Bitcoin / FMFW.io
+Сurrent  Ergo / Bitcoin Core exchange rate, Real-time market data: buy & sell rate, charts, order book
+
+
+[09/16/2022 12:25 AM] glasgowm#9381
+bot is spamming me :[
+
+
+[09/16/2022 12:25 AM] curbsideprophet#5083
+Where?
+
+
+[09/16/2022 12:26 AM] glasgowm#9381
+#🗣│general
+
+
+[09/16/2022 12:26 AM] glasgowm#9381
+i deleted, I typed .cex 3x no response
+
+
+[09/16/2022 12:26 AM] glasgowm#9381
+then it sent 6-10
+
+
+[09/16/2022 12:26 AM] curbsideprophet#5083
+From discord or TG?
+
+
+[09/16/2022 12:27 AM] glasgowm#9381
+discord
+
+
+[09/16/2022 12:27 AM] curbsideprophet#5083
+Ok I’ll check the logs sorry about that @glasgowm
+
+
+[09/16/2022 12:27 AM] glasgowm#9381
+no worries, stopped now thought it was going to keep going 😦
+
+{Reactions}
+🤣 
+
+[09/16/2022 12:28 AM] curbsideprophet#5083
+That would be funny :p
+
+
+[09/16/2022 2:13 AM] curbsideprophet#5083
+FYI @cafebedouin  @koutelier @liquid_phase I’m going to rewrite some code.
+New “.wen” function with a modifier for Binance, coinbase, lambo, bridge, top10, etc to capture all when questions (it would remove and streamline some redundant code)
+
+
+[09/16/2022 7:10 AM] curbsideprophet#5083
+.mining
+
+
+[09/16/2022 7:10 AM] sigmabot#9505
+Welcome new miners! Remember to spread out the hashrate to support decentralization.
+
+[Mining Pools]
+GetBlok: https://ergo.getblok.io/
+2Miners: https://2miners.com/erg-mining-pool
+Nanopool: https://ergo.nanopool.org/
+HeroMiners: https://ergo.herominers.com/
+WoolyPooly:https://woolypooly.com/en/coin/erg
+
+Learn more at https://ergoplatform.org/en/get-erg/#Mining
+
+Modifiers: dis, tg, red
+
+
+[09/16/2022 9:31 AM] koutelier#5178
+Remove 2miners
+
+
+[09/16/2022 9:31 AM] koutelier#5178
+I think it’s not good for miners
+
+
+[09/16/2022 9:58 AM] curbsideprophet#5083
+it's on the website though
+
+
+[09/16/2022 10:04 AM] curbsideprophet#5083
+imo we should separate personal preferences and statement of facts which in this case 2miners is an ergo mining pool. so unless that gets delisted from the website then my vote is we leave it on (but can move it lower on the order)
+
+
+[09/16/2022 1:07 PM] koutelier#5178
+@glasgowm what was the deal with 2miners?
+
+
+[09/16/2022 1:07 PM] koutelier#5178
+It’s not personal Kushti mentioned that get block is better . Also getblok is the only one with sub pools
+
+
+[09/16/2022 1:08 PM] glasgowm#9381
+cut them but doubt it'll do much. Seems most miners dont check chats
+
+
+[09/16/2022 1:08 PM] koutelier#5178
+Or we should promote getblok more
+
+
+[09/16/2022 1:08 PM] koutelier#5178
+What about getblok should we shill it to miners more like kushti said?
+
+
+[09/16/2022 1:12 PM] glasgowm#9381
+yep - and subpooling, etc
+
+
+[09/16/2022 1:20 PM] koutelier#5178
+So @curbsideprophet let’s promote getblok with that “.mining” command let’s give the docs plus  getblok
+
+
+[09/16/2022 3:24 PM] curbsideprophet#5083
+Provide expected response
+
+
+[09/16/2022 3:24 PM] koutelier#5178
+.mining
+
+
+[09/16/2022 3:24 PM] sigmabot#9505
+Welcome new miners! Remember to spread out the hashrate to support decentralization.
+
+[Mining Pools]
+GetBlok: https://ergo.getblok.io/
+2Miners: https://2miners.com/erg-mining-pool
+Nanopool: https://ergo.nanopool.org/
+HeroMiners: https://ergo.herominers.com/
+WoolyPooly:https://woolypooly.com/en/coin/erg
+
+Learn more at https://ergoplatform.org/en/get-erg/#Mining
+
+Modifiers: dis, tg, red
+
+{Embed}
+https://2miners.com/erg-mining-pool
+Best Ergo ERG Mining Pool - 2Miners
+The most profitable Ergo mining pool for GPU and ASIC. Regular payments, tutorials, reliable servers, rig monitoring bot. Fully compatible with Nicehash.
+https://images-ext-2.discordapp.net/external/ACyconcwHprJcEBpOBt3ueQAWwExaeO2mOrI0QDhkfk/https/static-l.2miners.com/i/og.png
+
+{Embed}
+https://ergo.nanopool.org/
+Nanopool | Ergo
+Stable, anonymous, user-friendy ERGO pool with great user interface. 1 hour PPLNS, 1% commission, regular payouts, min payout 1 ERG
+
+{Embed}
+https://ergo.herominers.com/
+ERGO ERG Mining Pool - HeroMiners
+HeroMiners is the best and most profitable ERGO MINING POOL. We support ERGO ERG POOL and SOLO mining with servers located around the world.
+https://images-ext-2.discordapp.net/external/fZrA0CyhiMUzCntBXBpmzlZhXcC8_hMEalQtBIbazoA/https/ergo.herominers.com/favicon/apple-icon-180x180.png
+
+{Embed}
+https://woolypooly.com/en/coin/erg
+Ergo Mining Pool. Mine ERG with Low Fees
+https://images-ext-2.discordapp.net/external/t8Zu6EbGCwvWjcKeZlZGfDg88bq_HMnslhNUwnfcRq0/https/woolypooly.com/content/banners/ogbanner.jpg
+
+
+[09/16/2022 3:26 PM] koutelier#5178
+Welcome new miners! Remember to spread out the hashrate to support decentralization.
+
+
+Learn more at https://ergoplatform.org/en/get-erg/#Mining
+
+[Sub-Mining Pools]
+With Getblok you can mine Ergo Coin or Native Tokens of ergo such us. (Neta, Ergopad, Comet) 
+
+GetBlok: https://ergo.getblok.io/
+
+
+[09/16/2022 3:26 PM] koutelier#5178
+wdyt ?
+
+
+[09/16/2022 3:26 PM] koutelier#5178
+@glasgowm  @curbsideprophet
+
+
+[09/16/2022 3:28 PM] curbsideprophet#5083
+lgtm will load to prod in a bit
+
+
+[09/16/2022 3:45 PM] curbsideprophet#5083
+.mining
+
+{Reactions}
+evo3 
+
+[09/16/2022 3:45 PM] sigmabot#9505
+Welcome new miners! Remember to spread out the hashrate to support decentralization.
+
+Learn more at https://ergoplatform.org/en/get-erg/#Mining
+
+[Sub-Mining Pools]
+With GetBlok you can mine Ergo or native tokens such as Neta, Ergopad or Comet: https://ergo.getblok.io/
+
+Modifiers: dis, tg, red
+
+
+[09/16/2022 4:04 PM] liquid_phase#4605
+I spent a good 5 minutes on the repo on my ipad adding a bridge command before i realized that there already was one -_-
+
+{Reactions}
+🤣 
+
+[09/16/2022 4:04 PM] liquid_phase#4605
+good job @curbsideprophet you have thought of it all
+
+
+[09/16/2022 4:13 PM] curbsideprophet#5083
+I replaced it for a wen command but could use a better response imo (was from another community dev)
+
+
+[09/16/2022 4:14 PM] curbsideprophet#5083
+.wen bridge
+
+
+[09/16/2022 4:14 PM] sigmabot#9505
+An einstein rosen bridge?" More like a "Rainbow Bridge"!
+
+
+[09/16/2022 4:16 PM] liquid_phase#4605
+@curbsideprophet  i wanted one for the bots
+
+
+[09/16/2022 4:17 PM] liquid_phase#4605
+"what are all the bots in here?!?"
+.bots
+"Beep Boop - don't worry, Human.. the robots are just Discord<->TG carrier pidgeons."
+
+
+[09/16/2022 4:22 PM] curbsideprophet#5083
+open a PR 🙂
+
+
+[09/16/2022 4:23 PM] liquid_phase#4605
+will do, looks like i should have kept editing and just named it .bots 😛 i guess i didnt read what the .bridge one said
+
+
+[09/16/2022 5:39 PM] curbsideprophet#5083
+merged PR and pushed to prod - thanks!
+
+
+[09/17/2022 9:11 AM] curbsideprophet#5083
+.wallets
+
+
+[09/17/2022 9:11 AM] sigmabot#9505
+[Team Wallets]
+Ergo Node: <https://docs.ergoplatform.com/node/install/>
+Ergo Mobile: <https://ergoplatform.org/en/mobile-wallets/>
+Paper Wallet: <https://ergopaperwallet.org/>
+
+[Other Wallets]
+Minotaur (Multi Platform): <https://github.com/minotaur-ergo/minotaur-wallet>
+Nautilus (Web): <https://github.com/capt-nemo429/nautilus-wallet>
+Satergo (Desktop): <https://satergo.com/>
+SAFEW (Web): <https://github.com/ThierryM1212/SAFEW>
+
+Learn more at <https://ergoplatform.org/en/get-erg/#Wallets>
+
+Modifiers: `dis`, `tg`, `cold`
+
+
+[09/17/2022 9:12 AM] curbsideprophet#5083
+Should we replace “ergo mobile” with “terminus” instead? (I’m thinking yes)
+
+
+[09/17/2022 3:28 PM] koutelier#5178
+Yeah probably
+
+
+[09/20/2022 1:55 PM] TypoDaPsycho#6307
+Recently saw something that made it  seem like Terminus is only the iOS version name, so we should get confirmation on that if you haven't already
+
+
+[09/20/2022 2:05 PM] TypoDaPsycho#6307
+https://discord.com/channels/668903786361651200/860527298292613151/1020552548173750373
+
+>  (re @odiseus_me : *Ergo Wallet 
+> (Terminus is the new name)*) 
+
+> On Apple. Not android....yet.
+ 
+Quoting cafebedouin#9837 here
+
+
+[09/20/2022 3:49 PM] theta_decay#5677
+This is true. IOS is terminus, Android is ergo mobile wallet.
+
+{Reactions}
+👍 
+
+[09/20/2022 4:49 PM] theta_decay#5677
+What do you think about a .difficulty command?
+
+
+[09/20/2022 4:49 PM] theta_decay#5677
+`Ergo uses the linear least square method to calculate difficulty. This function is based on the past eight epochs (8192 blocks) described in this paper https://eprint.iacr.org/2017/731.pdf to obtain a target block interval of 120s (2 minutes), on average, during steady-hash.`
+
+
+[09/20/2022 4:49 PM] theta_decay#5677
+I took this from Glasgow's tweet.
+
+
+[09/20/2022 4:54 PM] curbsideprophet#5083
+Wrote this one yesterday so I think great idea: https://github.com/Eeysirhc/sigmabot/issues/42 😛
+
+{Reactions}
+🔥 
+
+[09/20/2022 4:55 PM] curbsideprophet#5083
+Still accepting bot responses though
+
+
+[09/20/2022 4:56 PM] curbsideprophet#5083
+Good point! Thanks
+
+{Reactions}
+👍 
+
+[09/20/2022 6:06 PM] curbsideprophet#5083
+@cafebedouin this one
+
+
+[09/20/2022 6:07 PM] cafebedouin#9837
+I assume this is talking about a rebranding. They are both the same software, but what do you call them?
+
+
+[09/20/2022 6:07 PM] curbsideprophet#5083
+.wallets is current response
+
+
+[09/20/2022 6:07 PM] sigmabot#9505
+[Team Wallets]
+Ergo Node: <https://docs.ergoplatform.com/node/install/>
+Ergo Mobile: <https://ergoplatform.org/en/mobile-wallets/>
+Paper Wallet: <https://ergopaperwallet.org/>
+
+[Other Wallets]
+Minotaur (Multi Platform): <https://github.com/minotaur-ergo/minotaur-wallet>
+Nautilus (Web): <https://github.com/capt-nemo429/nautilus-wallet>
+Satergo (Desktop): <https://satergo.com/>
+SAFEW (Web): <https://github.com/ThierryM1212/SAFEW>
+
+Learn more at <https://ergoplatform.org/en/get-erg/#Wallets>
+
+Modifiers: `dis`, `tg`, `cold`
+
+
+[09/20/2022 6:08 PM] cafebedouin#9837
+From a branding perspective, it makes sense to call them the same thing, but I'm not sure how that happens in Google Play. MrS said he'd leave it up to the Foundation to decide whether to rename the wallet in Android.
+
+
+[09/20/2022 6:09 PM] cafebedouin#9837
+This seems fine to me.
+
+{Reactions}
+👍 
+
+[09/20/2022 6:58 PM] curbsideprophet#5083
+.difficulty
+
+
+[09/20/2022 6:58 PM] sigmabot#9505
+Ergo's difficulty algorithm was designed to reduce the incentive to perform coin-hopping and improve stability of inter-block delays. Coin-hopping is defined as an adversarial miner switching from mining one coin to another in the beginning of an epoch then switching back in the beginning of next epoch when difficulty becomes lower. Difficulty in Ergo is adjusted using the least squares method, which adjusts roughly every two weeks using the past eight epochs to obtain a target block interval of 120 seconds or 2 minutes, on average.
+
+	For more details: 
+	https://eprint.iacr.org/2017/731.pdf
+
+
+[09/20/2022 6:58 PM] curbsideprophet#5083
+.seed
+
+
+[09/20/2022 6:58 PM] sigmabot#9505
+Never give your seed phrase to anyone. You can restore your seed in any wallet, even multiple wallets. With the correct seed, you (and anyone else) can access your assets on the Ergo blockchain."
+
+
+[09/20/2022 7:21 PM] curbsideprophet#5083
+we can also link to this: https://www.ergoforum.org/t/diff-adjustment-potential-design-tradeoffs/3875
+
+{Embed}
+https://www.ergoforum.org/t/diff-adjustment-potential-design-tradeoffs/3875
+Diff Adjustment (Potential Design/Tradeoffs)
+This is a thread to start a community discussion. Also potentially education about diff adjustments in general.
+
+
+[09/20/2022 7:37 PM] TypoDaPsycho#6307
+Adjusts roughly every two weeks? I think we're accidentally using Bitcoin timeframes here
+
+
+[09/20/2022 7:39 PM] curbsideprophet#5083
+8 epochs = roughly 8192 blocks = ~720 blocks/day = 11.38 days
+
+more than happy to revise the wording if you can paste it here (edit: this was from @cafebedouin PR)
+
+
+[09/20/2022 7:55 PM] TypoDaPsycho#6307
+Well it adjusts based on the last 8 epochs, ⁓11 days. But, the adjustment itself occurs every epoch, ⁓34 hours (with ideal conditions). So..."Difficulty in Ergo is adjusted using the least squares method, which adjusts roughly every 34 hrs using the past eight epochs (8 epochs=⁓11 days), to obtain the target block interval of 120 seconds or 2 minutes, on average."
+
+
+[09/20/2022 8:00 PM] curbsideprophet#5083
+nice! will update and load to prod after lunch 🙂
+
+
+[09/20/2022 8:21 PM] cafebedouin#9837
+Appreciate the correction.
+
+
+[09/20/2022 8:21 PM] TypoDaPsycho#6307
+No problem glad I could help!
+
+{Reactions}
+🔥 
+
+[09/20/2022 8:23 PM] curbsideprophet#5083
+.difficulty
+
+
+[09/20/2022 8:23 PM] sigmabot#9505
+Ergo's difficulty algorithm was designed to reduce the incentive to perform coin-hopping and improve stability of inter-block delays. Coin-hopping is defined as an adversarial miner switching from mining one coin to another in the beginning of an epoch then switching back in the beginning of next epoch when difficulty becomes lower. Difficulty in Ergo is adjusted using the least squares method, which adjusts roughly every 34 hrs using the past eight epochs (8 epochs=⁓11 days), to obtain the target block interval of 120 seconds or 2 minutes, on average.
+
+Learn more at: <https://eprint.iacr.org/2017/731.pdf>
+For community discussions: <https://www.ergoforum.org/t/diff-adjustment-potential-design-tradeoffs/3875>
+
+
+[09/20/2022 10:02 PM] theta_decay#5677
+Nice job gang!
+
+{Reactions}
+🔥 
+
+[09/21/2022 4:25 AM] cafebedouin#9837
+.wen binance
+
+
+[09/21/2022 4:25 AM] sigmabot#9505
+Ergo will be listed on Binance when enough of its customers want it. Additionally, the team can never give specifics about a listing until the exchange announces it. Listings are covered by a Non-Disclosure Agreement (NDA) and leaks put the listing itself at risk. Just keep your eyes on social media for the announcements.
+
+
+[09/21/2022 4:25 AM] cafebedouin#9837
+.seed
+
+
+[09/21/2022 4:25 AM] sigmabot#9505
+Never give your seed phrase to anyone. You can restore your seed in any wallet, even multiple wallets. With the correct seed, you (and anyone else) can access your assets on the Ergo blockchain."
+
+
+[09/21/2022 4:26 AM] cafebedouin#9837
+Need to get rid of that closing "
+
+
+[09/21/2022 4:28 AM] curbsideprophet#5083
+.wen binance @cafebedouin loaded to prod
+
+{Reactions}
+🎉 
+
+[09/21/2022 4:28 AM] sigmabot#9505
+"Binance is a good recipe to be a King for a day, fool for a lifetime. Ergo is not grin, ravencoin etc it has ecosystem, unique tools, vibrant community with proper vision." -kushti
+
+{Reactions}
+👏 (2) 
+
+[09/21/2022 4:28 AM] curbsideprophet#5083
+.seed
+
+
+[09/21/2022 4:28 AM] sigmabot#9505
+Never give your seed phrase to anyone. You can restore your seed in any wallet, even multiple wallets. With the correct seed, you (and anyone else) can access your assets on the Ergo blockchain."
+
+
+[09/21/2022 4:34 AM] curbsideprophet#5083
+@cafebedouin merged your latest PR and moved to prod
+
+
+[09/21/2022 4:56 AM] cafebedouin#9837
+Thanks!
+
+
+[09/21/2022 4:43 PM] curbsideprophet#5083
+Good one to add for later as “mcalc”: https://discord.com/channels/668903786361651200/670288337747312646/1022137364270817330 (seen Glasgow link a few times)
+
+
+[09/21/2022 4:45 PM] curbsideprophet#5083
+.contribute add ergohack info (or maybe its own separate call)
+
+
+[09/21/2022 4:45 PM] sigmabot#9505
+<https://docs.ergoplatform.com/contribute/>
+
+
+[09/21/2022 4:48 PM] curbsideprophet#5083
+Future: add modifiers for various discussions going on…. Difficulty (link to forum discussion), eip voting, etc
+
+
+[09/21/2022 6:00 PM] koutelier#5178
+@curbsideprophet i have a question . is it possible to make the bot create new commands on discord
+
+
+[09/21/2022 6:00 PM] koutelier#5178
+i think it is
+
+
+[09/21/2022 6:00 PM] koutelier#5178
+for example only moderators and admins of ergo platform could do
+
+
+[09/21/2022 6:01 PM] koutelier#5178
+.createreply
+
+
+[09/21/2022 6:01 PM] koutelier#5178
+this will trigger the bot and the bot will ask for
+
+
+[09/21/2022 6:02 PM] koutelier#5178
+command: 
+reply:
+
+
+[09/21/2022 6:02 PM] koutelier#5178
+in that way anyone who wants to add something he will be able and you will not have to work so much all the time on the bot lol
+
+
+[09/21/2022 6:03 PM] koutelier#5178
+maybe could ask for modifiers as well but only optional.
+
+
+[09/21/2022 6:44 PM] curbsideprophet#5083
+Well anything is possible it just depends on what you want to do. 
+
+If it’s server content delivery and moderation then yeah there are already 1000 and 1 discord bots that can do what you are asking.
+
+Sigmabot is a fork of curbsideBOT which was meant for me to learn and have fun in spectrum discord for bots and devops. Additional benefit and can’t speak for @cafebedouin but seems like there was others who learned more about open source coding and collaboration.
+
+So yeah I can code it but if we think we need something more versatile and this has out lived its usefulness then yeah we can definitely scrap it for something else
+
+cc: @koutelier
+
+
+[09/21/2022 9:15 PM] cafebedouin#9837
+As someone barely functional with git, I appreciate the desire to want to make it easier to add content. On the other end of it, as someone who made his living putting together information for people, the more you open it up, the more you have to have formal structure. If it's three people who get along, no worries. Add in more then you have group dynamics that need to be managed, issues about what "the voice" of sigma-bot should be, etc. Personally, I think the solution is to point people not conversant with git to the issue tracking page in the github repo. Github already has all the formal management built-in, and it would probably be best just to use it, rather than go the not invented here route. My $0.02.
+
+{Reactions}
+👍 
+
+[09/21/2022 9:16 PM] cafebedouin#9837
+I guess I should tag people @curbsideprophet. @koutelier, above.
+
+
+[09/21/2022 9:21 PM] cafebedouin#9837
+Of course, I'm sure there are bots out there that have more functionality for this kind of thing, but another question is: do we need it? Who will manage it? Etc. I think sigma-bot is a huge help for all the repeat questions we get. I think it can probably adequately meet that need. But, maybe I'm missing something?
+
+{Reactions}
+👍 
+
+[09/21/2022 9:22 PM] cafebedouin#9837
+https://github.com/Eeysirhc/sigmabot/issues
+
+{Embed}
+https://github.com/Eeysirhc/sigmabot/issues
+Issues · Eeysirhc/sigmabot
+Discord bot for frequently asked questions about the Ergo platform. - Issues · Eeysirhc/sigmabot
+https://images-ext-2.discordapp.net/external/UFTFN-_SGuCIpiTRyL7dHOY1FxrXNN2MrXSpYxpNcBM/https/opengraph.githubassets.com/e47b6481c32293ee2ea8859e5eb7615b795d8677d6fd545a8328944b3a296a56/Eeysirhc/sigmabot
+
+
+[09/21/2022 9:57 PM] cafebedouin#9837
+Also, noticed the open issue of logo and made something simple. If you want something more involved. Let me know what. I'm not an artist, but this is something I can do.
+
+
+[09/21/2022 10:11 PM] koutelier#5178
+no way the bot has out lived its usefulness i just proposed that because i though such a function could help people with no dev skills add commands and replies without interrupting you so often lol the bot is very usefull the way it is and you made it so it answers all faq
+
+{Reactions}
+👍 
+
+[09/21/2022 10:11 PM] koutelier#5178
+that proposal was just so you don't have to work on that forever or every time something new occurs like the difficulty for example
+
+{Reactions}
+👍 
+
+[09/21/2022 11:10 PM] curbsideprophet#5083
+hehe yeah i know where you are coming from and it's a good break from normal work for me. i think a decent proposal to solve for this could be: 
+1) deploy github CI/CD: https://github.com/Eeysirhc/sigmabot/issues/47
+2) make @koutelier @cafebedouin github collaborators (and anyone else we think should have it as a sigmanaut/ergonaut) that way you can commit to repo without needing me to approve PRs but also you can approve PRs from others
+3) then any PR that gets approved and pushed to repo the bot would auto update to latest version
+
+
+[09/21/2022 11:37 PM] curbsideprophet#5083
+and LMAO i realize i didnt even answer your question @koutelier: the answer is yes.
+right now the bot is a ridiculously simple script but what you are suggesting would require permissions management, workflow management (input from discord > push to github > then load changes), etc. i can add as a to-do in the issues backlog
+
+
+[09/22/2022 12:25 AM] cafebedouin#9837
+This ladies and gents is how I'll break this bot.      .🤣.
+
+{Reactions}
+kekwlick (2) 
+
+[09/22/2022 2:28 AM] curbsideprophet#5083
+Ok perhaps not you then 😛
+
+{Reactions}
+🙃 
+
+[09/22/2022 5:20 PM] cafebedouin#9837
+Added .forum
+
+
+[09/22/2022 5:20 PM] cafebedouin#9837
+Telegram and Discord are for informal discussion. Ergo's Community Forum is preferred for formal discussion of ecosystem development, hard forks (such as a mining difficulty adjustment) and soft forks (emission retargeting), and so forth. The Forum provides a means for the community to develop and comment on ideas that can be turned into Ergo Improvement Proposals (EIPs). EIPs are voted upon by the larger community before being implemented. Anyone can contribute to the forum or submit an EIP, and the Ergo community is open to ideas from anyone.
+
+Links
+https://www.ergoforum.org/
+https://github.com/ergoplatform/eips
+
+{Embed}
+https://www.ergoforum.org/
+Ergo Community Forum
+Ergo Platform core and ecosystem community
+
+{Embed}
+https://github.com/ergoplatform/eips
+GitHub - ergoplatform/eips: Ergo Improvement Proposals
+Ergo Improvement Proposals. Contribute to ergoplatform/eips development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/3mGOjNdestZnNKcI02WqtZGj-X2Ugm-bewG3Ql0pLkk/https/opengraph.githubassets.com/0d327ef861f83c29d96d1828acfddba96d1bf61cba218ce338a6af968f56de25/ergoplatform/eips
+
+
+[09/22/2022 5:21 PM] cafebedouin#9837
+I'm not sure things work in exactly this way, so I thought I'd post it here to make sure.
+
+
+[09/22/2022 6:10 PM] curbsideprophet#5083
+added comments to https://github.com/Eeysirhc/sigmabot/pull/49. need fix to them before can merge and load to prod env
+
+
+[09/22/2022 6:30 PM] cafebedouin#9837
+Think I fixed. Sorry about the muff up here. I was trying to cut and paste to show it here and mg did something weird after I justified it that I didnt catch. I probably need to figure out how to run it before pushing, so I can see the runtime errors myself.
+
+
+[09/22/2022 6:32 PM] curbsideprophet#5083
+no worries! 😄 
+to run locally you'll need a discord bot account: https://discordpy.readthedocs.io/en/stable/discord.html
+
+
+[09/22/2022 6:35 PM] cafebedouin#9837
+I'll see if I can figure it out.
+
+
+[09/22/2022 7:27 PM] curbsideprophet#5083
+.forum
+
+
+[09/22/2022 7:27 PM] sigmabot#9505
+Telegram and Discord are for informal discussion. Ergo's Community Forum is preferred for formal discussion of ecosystem development, hard forks (such as a mining difficulty adjustment) and soft forks (emission retargeting), and so forth. The Forum provides a means for the community to develop and comment on ideas that can be turned into Ergo Improvement Proposals (EIPs). EIPs are voted upon by the larger community before being implemented. Anyone can contribute to the forum or submit an EIP, and the Ergo community is open to ideas from anyone.
+
+Links
+<https://www.ergoforum.org/>
+<https://github.com/ergoplatform/eips>
+
+
+[09/22/2022 7:33 PM] cafebedouin#9837
+Looks good to me.
+
+
+[09/22/2022 7:34 PM] cafebedouin#9837
+I'll do it in main and see if anyone has suggestions.
+
+
+[09/22/2022 7:39 PM] cafebedouin#9837
+Passed without comment. Fine for now then.
+
+{Reactions}
+👍 
+
+[09/22/2022 8:42 PM] curbsideprophet#5083
+.wallets @koutelier @cafebedouin
+
+{Reactions}
+🔥 
+
+[09/22/2022 8:42 PM] sigmabot#9505
+[Team Wallets]
+Ergo Node: <https://docs.ergoplatform.com/node/install/>
+Ergo Mobile: <https://ergoplatform.org/en/mobile-wallets/>
+Paper Wallet: <https://ergopaperwallet.org/>
+
+[Other Wallets]
+Minotaur (Multi Platform): <https://github.com/minotaur-ergo/minotaur-wallet>
+Nautilus (Web): <https://github.com/capt-nemo429/nautilus-wallet>
+Satergo (Desktop): <https://satergo.com/>
+SAFEW (Web): <https://github.com/ThierryM1212/SAFEW>
+Zelcore (Multi Platform): <https://zelcore.io/>
+
+Learn more at <https://ergoplatform.org/en/get-erg/#Wallets>
+
+Modifiers: `dis`, `tg`, `cold`
+
+
+[09/22/2022 8:44 PM] koutelier#5178
+lol i am so burned out .
+
+
+[09/22/2022 8:45 PM] curbsideprophet#5083
+we will still be here go get some sunlight ser
+
+
+[09/22/2022 8:45 PM] koutelier#5178
+i am at hospital currently i would put myself there atm . i need a serious break from all crypto related stuff tbh can't take more responsibilities atm
+
+{Reactions}
+👍 
+
+[09/22/2022 8:47 PM] cafebedouin#9837
+Just pass it to me. it'll be fine. No reason to stress about any of this stuff.
+
+
+[09/22/2022 8:48 PM] koutelier#5178
+i don't get stressed i just need some time off to do some hobbies or personal stuff lol
+
+
+[09/22/2022 8:48 PM] cafebedouin#9837
+Know what you mean. Started running again in May. Find it helpful.
+
+
+[09/22/2022 8:50 PM] koutelier#5178
+yeah i need to find a hobby. bought a 3d printer and i barely used it. i will create few RC models.
+
+
+[09/22/2022 8:52 PM] cafebedouin#9837
+Sounds fun. Got to balance it out. Life is long.
+
+
+[09/22/2022 8:53 PM] koutelier#5178
+yeah i am trying that now .
+
+{Reactions}
+👍 
+
+[09/22/2022 9:53 PM] cafebedouin#9837
+Got it to work. Updated Quick Start instructions and did a PR.
+
+
+[09/22/2022 9:56 PM] curbsideprophet#5083
+merged. thanks 🙂
+
+{Reactions}
+👍 
+
+[09/23/2022 7:40 PM] curbsideprophet#5083
+.eip 37
+
+
+[09/23/2022 7:40 PM] sigmabot#9505
+[Tweaking Difficulty Adjustment Algorithm]
+The Ergo's algorithm works well in most cases, inluding huge price drops, 100x initial difficulty misestimation during mainnet launch, and so on. However, current simplified and limitless version of algorithm is bumpy. Big influx of mining hashrate over multiple epochs, especially with super-linear hashrate growth over time may result in huge spike of difficulty. Similarly, few slow epochs may cause huge drop. Also, for dapps and other applications it would be desirable to make difficulty readjustment more reactive (currently, readjustment takes place every 1024 blocks, and 8 epochs, so about two weeks normally, are considered).   
+
+Read more of the initial draft: <https://github.com/ergoplatform/eips/pull/79/files>
+For EIP-37 discussions: <https://github.com/ergoplatform/eips/pull/79>
+
+Broader conversations about difficulty adjustments: <https://www.ergoforum.org/t/diff-adjustment-potential-design-tradeoffs/3875>
+
+
+[09/23/2022 8:23 PM] cafebedouin#9837
+No, was thinking of adding the EIP-37 discussions link to .difficulty
+
+
+[09/23/2022 8:24 PM] cafebedouin#9837
+Also, now that I can test that the changes work, I may be able to competently merge changes into the main repo.
+
+
+[09/23/2022 8:24 PM] cafebedouin#9837
+Of course, since I've never done it before, it remains to be seen.
+
+
+[09/23/2022 8:25 PM] cafebedouin#9837
+@curbsideprophet
+
+
+[09/23/2022 8:27 PM] curbsideprophet#5083
+Oh to include in there yeah good idea actually
+
+
+[09/23/2022 8:27 PM] curbsideprophet#5083
+One is problem info other is solution info
+
+
+[09/23/2022 9:32 PM] cafebedouin#9837
+@curbsideprophet It's nice to be able to see run time errors. Now, I can see all the problems with spacing / tabs that my editor introduces before passing to you. So, I can go back to using normal emacs. Added a PR, works for me.
+
+{Reactions}
+🔥 
+
+[09/23/2022 9:34 PM] cafebedouin#9837
+Also, I was thinking that we should pile the faq functions into a function directory, where sigmabot/main/functions/wen.py can sit and we can just create a new file when adding a new function.
+
+
+[09/23/2022 9:35 PM] cafebedouin#9837
+That's a design choice, and completely up to you. Also, I don't know python well enugh to know what would need to change to make that happen.
+
+
+[09/23/2022 9:36 PM] curbsideprophet#5083
+I like this idea to break them out into separate files. Originally thought about consolidating into single file for everything (see .eip) but it’s looking pretty messy
+
+
+[09/23/2022 9:36 PM] curbsideprophet#5083
+I also have an issue where I am talking to myself about it but I think what you mentioned is also a cleaner solution
+
+
+[09/23/2022 9:37 PM] curbsideprophet#5083
+I will have to review implementation
+
+
+[09/23/2022 9:37 PM] cafebedouin#9837
+More your area. I could try to do it, but I would have to learn more about Python that you already know.
+
+
+[09/23/2022 9:38 PM] cafebedouin#9837
+Also, I liked your changes to readme, much cleaner.
+
+{Reactions}
+❤️ 
+
+[09/23/2022 9:38 PM] curbsideprophet#5083
+Yeah talking out loud hehe
+
+{Reactions}
+👍 
+
+[09/23/2022 10:12 PM] cafebedouin#9837
+Also, when you figure out how to do it, just do one as an example in a branch that I can use as a template, and I am happy to do the scut work of doing copy paste into separate files.
+
+{Reactions}
+👍 
+
+[09/23/2022 10:12 PM] cafebedouin#9837
+@curbsideprophet
+
+
+[09/24/2022 12:21 AM] curbsideprophet#5083
+.why pow @cafebedouin
+
+
+[09/24/2022 12:21 AM] sigmabot#9505
+Every blockchain solution requires a careful consideration of costs, benefits and risks. Blockchains are a big tent. There is room for everyone. However, PoW NIPoPows and chain-specific features like storage rent offers unique functionality that can be worth the extra energy expenditure of PoW for some blockchain uses.
+		
+Learn more at <https://ergoplatform.org/en/blog/2022-03-29-proof-of-work-energy-and-ergo/>
+
+
+[09/24/2022 12:22 AM] cafebedouin#9837
+Yeah, better mine had an extra tab in there and I wasn't sure why.
+
+
+[09/24/2022 12:22 AM] cafebedouin#9837
+.partnerships
+
+
+[09/24/2022 12:22 AM] sigmabot#9505
+The Ergo team welcomes partnerships. However, it is helpful to see and have Ergo's engineers understand partner code first. Projects without code are hard to distinquish from mere marketing. Ergo's focus is on engineering. Please contact team@ergoplatform.org when you are ready to share your code with Ergo's developers.
+
+
+[09/24/2022 12:23 AM] curbsideprophet#5083
+python cares a lot about indentations here is one example of a break: https://github.com/Eeysirhc/sigmabot/commit/14037f215aa2e2524d530b0ace6d41f8ec3371e7
+
+
+[09/24/2022 12:24 AM] curbsideprophet#5083
+not a big deal but something to watch out for 😉
+
+
+[09/24/2022 12:25 AM] cafebedouin#9837
+Is this where I say something cool like, "Why can't python have parenthesis like common lisp?" 😉
+
+{Reactions}
+🤣 
+
+[09/24/2022 12:30 AM] cafebedouin#9837
+Also, I ran that code and it worked. Does it show an error somewhere? I think these errors come from me just copy and pasting and windows does something weird to the formatting. Or the editor does.
+
+
+[09/24/2022 12:36 AM] curbsideprophet#5083
+yeah indent error. when i run sigmabot on prod it doesnt give a response until i fix it. so somewhere along the way it adds an extra indent
+
+
+[09/24/2022 12:42 AM] curbsideprophet#5083
+idk what text editor you use but mine is sublime text: https://www.sublimetext.com/
+
+
+[09/26/2022 4:02 PM] glasgowm#9381
+maybe been linked here before but there's a couple FAQs to pull from 
+
+https://ergonaut.space/en/Ergo/FAQ
+https://docs.ergoplatform.com/faq/general/
+
+{Embed}
+https://ergonaut.space/en/Ergo/FAQ
+FAQ
+
+
+[09/26/2022 6:45 PM] curbsideprophet#5083
+Very nice! Will add
+
+
+[09/28/2022 6:44 PM] cafebedouin#9837
+@curbsideprophet Looks like the bot is borked. Doesn't work in channel. Doesn't work when I try to run current version myself.
+
+
+[09/28/2022 6:44 PM] cafebedouin#9837
+well, it works in the sense it connects.
+
+
+[09/28/2022 6:44 PM] cafebedouin#9837
+But doesn't give responses to .dot commands.
+
+
+[09/28/2022 6:46 PM] curbsideprophet#5083
+.help
+
+
+[09/28/2022 6:46 PM] sigmabot#9505
+```
+DevTemplate:
+  roast        
+  toast        
+EIProposals:
+  eip          
+EasterEggs:
+  drama        
+  gulag        
+  wen          
+  why          
+Ecosystem:
+  graphql      
+  nfts         
+  node         
+  nodelist     
+  projects     
+  tokenjay     
+Exchanges:
+  cex          
+  dex          
+FrequentQuestions:
+  admin        
+  bots         
+  contribute   
+  docs         
+  forum        
+  manifesto    
+  marketcap    
+  partnerships 
+  tps          
+  welcome      
+Mining:
+  difficulty   
+  mining       
+Protocol:
+  genesis      
+  pouw         
+  rent         
+  staking      
+Wallets:
+  ledger       
+  seed         
+  tipbot       
+  wallets      
+  yoroi        
+​No Category:
+  help         Shows this message
+
+Type .help command for more info on a command.
+You can also type .help category for more info on a category.
+```
+
+
+[09/28/2022 6:46 PM] curbsideprophet#5083
+.manifesto
+
+
+[09/28/2022 6:46 PM] sigmabot#9505
+The Ergo Manifesto hopes to educate and offer a vision of what blockchain technology can achieve. We hope to build society through horizontal cooperation through production under the division of labor, trade and exchange, and solidarity and mutual aid. Learn more at <https://ergoplatform.org/en/blog/2021-04-26-the-ergo-manifesto/>
+
+
+[09/28/2022 6:47 PM] curbsideprophet#5083
+which channel?
+
+
+[09/28/2022 8:23 PM] cafebedouin#9837
+Someone tried .wallets in main. But, I just tried it in Discord and it worked. So, maybe there was an error, like .wallet or something I missed
+
+
+[09/28/2022 8:41 PM] curbsideprophet#5083
+yeah either that or if they are doing it in TG not possible to respond to a thread like you would in discord
+
+
+[09/28/2022 8:43 PM] curbsideprophet#5083
+the TG bridge bot brings in all "reply threads" as one text chunk. so sigmabot just thinks it's a normal message and doesn't see the command later in the text
+
+
+[09/28/2022 8:43 PM] curbsideprophet#5083
+.rent for example i can do this in discord but not TG
+
+
+[09/28/2022 8:43 PM] sigmabot#9505
+Storage rent is a fee for long term storage on the Ergo blockchain. Four years from your last transaction, you will be charged ~0.14 ERG and a transaction fee to pay for the costs of storing your digital information. Learn more at <https://ergoplatform.org/en/blog/2022-02-18-ergo-explainer-storage-rent/> and <https://docs.ergoplatform.com/mining/rent/>
+
+
+[10/01/2022 6:39 AM] cafebedouin#9837
+.help
+
+
+[10/01/2022 6:39 AM] sigmabot#9505
+```
+DevTemplate:
+  roast        
+  toast        
+EIProposals:
+  eip          
+EasterEggs:
+  drama        
+  gulag        
+  wen          
+  why          
+Ecosystem:
+  graphql      
+  nfts         
+  node         
+  nodelist     
+  projects     
+  tokenjay     
+Exchanges:
+  cex          
+  dex          
+FrequentQuestions:
+  admin        
+  bots         
+  contribute   
+  docs         
+  forum        
+  manifesto    
+  marketcap    
+  partnerships 
+  tps          
+  welcome      
+Mining:
+  difficulty   
+  mining       
+Protocol:
+  genesis      
+  pouw         
+  rent         
+  staking      
+Wallets:
+  ledger       
+  seed         
+  tipbot       
+  wallets      
+  yoroi        
+​No Category:
+  help         Shows this message
+
+Type .help command for more info on a command.
+You can also type .help category for more info on a category.
+```
+
+
+[10/01/2022 6:40 AM] cafebedouin#9837
+.cex binance
+
+
+[10/01/2022 6:40 AM] sigmabot#9505
+[KYC]
+Huobi: <https://www.huobi.com/exchange/erg_usdt/>
+GateIO: <https://www.gate.io/trade/ERG_USDT>
+Indodax: <https://indodax.com/market/ERGIDR>
+HotBit: <https://www.hotbit.io/exchange?symbol=ERG_BTC>
+FMFW: <https://fmfw.io/erg-to-btc>
+Changelly: <https://changelly.com/exchange/erg>
+swopfi: <https://swop.fi/info/3PGVJvV8Ep1u7qMkvUs1DYhRyfvArdRbMsD>
+
+[non-KYC]
+KuCoin: <https://www.kucoin.com/trade/ERG-USDT>
+CoinEx: <https://www.coinex.com/exchange?currency=usdt&dest=erg>
+TradeOgre: <https://tradeogre.com/exchange/BTC-ERG>
+
+
+[10/01/2022 6:40 AM] cafebedouin#9837
+.wen exchange
+
+
+[10/01/2022 6:40 AM] sigmabot#9505
+Modifiers: `coinbase`, `binance`, `kraken`, `ftx`, `tier1`, `lambo`, `yacht`, `bridge`
+
+
+[10/01/2022 6:40 AM] cafebedouin#9837
+.wen
+
+
+[10/01/2022 6:40 AM] sigmabot#9505
+Modifiers: `coinbase`, `binance`, `kraken`, `ftx`, `tier1`, `lambo`, `yacht`, `bridge`
+
+
+[10/01/2022 6:41 AM] cafebedouin#9837
+.wen tier1
+
+
+[10/01/2022 6:41 AM] sigmabot#9505
+Armeanio is already in contact with most exchanges. Listing agents are in the chat every day. The only information that can be provided is that there are ongoing discussions, and announcements will be made by the exchanges themselves. If you just want listing for price pump, better to keep discussions in @ErgoTrading.
+
+
+[10/04/2022 4:34 PM] curbsideprophet#5083
+.tipbot
+
+
+[10/04/2022 4:34 PM] sigmabot#9505
+Ergo's Tipper Bot can be setup on Discord, Reddit, Telegram and Twitter. You can initialize a tip wallet by messaging the tipbot on each platform.
+
+Platform | Message | Bot Name
+=============================
+Discord  | /start  | @Ergo Tipper Bot[BETA]#0902
+Reddit   | !start  | ErgoTipperBot
+Telegram | /start  | @ergotipperbot
+Twitter  | !start  | @ErgoTipperBot
+
+Pro-Tip: If you restore the same wallet into each service, you can use the same tip wallet across platforms.
+
+Modifiers: `dis`, `reddit`, `tg`, `twitter`
+
+
+[10/05/2022 11:29 AM] glasgowm#9381
+Combined and updated FAQs here
+
+https://docs.ergoplatform.com/faq/general/
+
+
+[10/05/2022 11:29 AM] glasgowm#9381
+Going to move this channel to the marketing category and will also add a bot spam channel for yous
+
+
+[10/15/2022 4:41 AM] dashmunn#0001
+.wallets
+
+
+[10/15/2022 4:41 AM] sigmabot#9505
+[Team Wallets]
+Ergo Node: <https://docs.ergoplatform.com/node/install/>
+Ergo Mobile: <https://ergoplatform.org/en/mobile-wallets/>
+Paper Wallet: <https://ergopaperwallet.org/>
+
+[Other Wallets]
+Minotaur (Multi Platform): <https://github.com/minotaur-ergo/minotaur-wallet>
+Nautilus (Web): <https://github.com/capt-nemo429/nautilus-wallet>
+Satergo (Desktop): <https://satergo.com/>
+SAFEW (Web): <https://github.com/ThierryM1212/SAFEW>
+Zelcore (Multi Platform): <https://zelcore.io/>
+
+Learn more at <https://ergoplatform.org/en/get-erg/#Wallets>
+
+Modifiers: `dis`, `tg`, `cold`
+
+
+[10/16/2022 11:45 PM] curbsideprophet#5083
+.bridge
+
+
+[10/16/2022 11:45 PM] sigmabot#9505
+In cryptocurrencies, bridges move assets from one cryptocurrency blockchain to another. The two most frequently discussed on Ergo are Rosen Bridge and AnetaBTC.
+
+Rosen Bridge video: <https://www.youtube.com/watch?v=Xsiy-yPJQ6w>
+
+Rosen Bridge compared to Interlay bridges: <https://medium.com/@anetaBTC/rosen-bridge-vs-interlay-an-analysis-on-wrapping-bitcoin-c9ae84da0e9d>
+
+
+[10/16/2022 11:45 PM] curbsideprophet#5083
+.nfts
+
+
+[10/16/2022 11:45 PM] sigmabot#9505
+[Marketplaces]
+Ergo Auction House: <https://ergoauctions.org>
+SkyHarbor: <https://www.skyharbor.io/>
+
+[Socials]
+Telegram: @ErgoNFTs
+Discord: (add DISCORD).gg/gYZxq38pJn
+
+Modifiers: `dis`, `tg`, `watches`
+
+
+[12/20/2022 12:24 AM] cafebedouin#9837
+.help
+
+
+[12/20/2022 12:24 AM] sigmabot#9505
+```
+DevTemplate:
+  roast        
+  toast        
+EIProposals:
+  eip          
+EasterEggs:
+  drama        
+  gulag        
+  wen          
+  why          
+Ecosystem:
+  graphql      
+  nfts         
+  node         
+  nodelist     
+  projects     
+  tokenjay     
+Exchanges:
+  cex          
+  dex          
+FrequentQuestions:
+  admin        
+  bots         
+  bridge       
+  contribute   
+  docs         
+  forum        
+  manifesto    
+  marketcap    
+  partnerships 
+  socials      
+  tps          
+  welcome      
+Mining:
+  difficulty   
+  mining       
+Protocol:
+  genesis      
+  pouw         
+  rent         
+  staking      
+Wallets:
+  ledger       
+  seed         
+  tipbot       
+  wallets      
+  yoroi        
+​No Category:
+  help         Shows this message
+
+Type .help command for more info on a command.
+You can also type .help category for more info on a category.
+```
+
+
+[12/20/2022 12:24 AM] cafebedouin#9837
+.marketcap
+
+
+[12/20/2022 12:24 AM] sigmabot#9505
+Ergo Explorer displays circulating supply and max supply (97,739,924 ERG). Multiply these amounts by current price to get Ergo's market capitalization. Do not rely on Coinmarketcap data. ERGs value derives from the popularity and utility of the platform + the cost of mining erg.
+
+	https://explorer.ergoplatform.com/
+
+
+==============================================================
+Exported 496 message(s)
+==============================================================

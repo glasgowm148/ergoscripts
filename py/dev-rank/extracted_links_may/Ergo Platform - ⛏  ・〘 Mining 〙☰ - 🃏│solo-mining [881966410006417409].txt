@@ -1,0 +1,5567 @@
+==============================================================
+Guild: Ergo Platform
+Channel: ⛏  ・〘 Mining 〙☰ / 🃏│solo-mining
+Topic: Start Solo Mining. See the documentation for more information. https://docs.ergoplatform.com/mining/setup/solo/
+==============================================================
+
+[08/30/2021 7:21 PM] geezar#8187 (pinned)
+Good link for anyone looking into solo via your node 
+https://www.youtube.com/watch?v=ubov4oweA20
+
+{Embed}
+ErgoNaumics
+https://www.youtube.com/watch?v=ubov4oweA20
+Mine Ergo From Your Own Node, Zero Pool Fees
+Follow along in this video to get a node going on your local network, followed by a stratum server, then mine to it! Avoid pool fees and help to further decentralize Ergo. This was all done on a fresh install of windows 10 pro that was fully updated.
+https://images-ext-1.discordapp.net/external/7SP81eVsmgzDSCRgTkjF_0inJ2spdCP7Wm6wpJysWfc/https/i.ytimg.com/vi/ubov4oweA20/hqdefault.jpg
+
+
+[08/30/2021 7:22 PM] geezar#8187
+Pinned a message.
+
+
+[09/08/2021 3:36 AM] Drew514#7096
+With 1 gh u think will be any good ?
+
+
+[09/08/2021 7:01 AM] andee#4722
+if you are patient
+
+
+[09/08/2021 12:58 PM] Drew514#7096
+Ya eh though so lol
+
+
+[09/08/2021 2:48 PM] stinkybuttguy#4677
+I followed the process to mine Solo Here: https://github.com/ergoplatform/ergo/wiki/Mining-Ergo-after-The-Hardening-Upgrade And when I run NVMiner I get
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/885159666231951420/unknown.png
+
+{Embed}
+https://github.com/ergoplatform/ergo/wiki/Mining-Ergo-after-The-Hardening-Upgrade
+Mining Ergo after The Hardening Upgrade · ergoplatform/ergo Wiki
+Ergo protocol description & reference client implementation - Mining Ergo after The Hardening Upgrade · ergoplatform/ergo Wiki
+https://images-ext-1.discordapp.net/external/poukpZ4i8fZD2b4EkZQYrQfbrCYGQ4e6lrqCJE1Fzx4/https/opengraph.githubassets.com/04e9a1b44d781e81b25bae17f537c4327417f6bc70e54d0a9678a5585ee5921f/ergoplatform/ergo
+
+
+[09/08/2021 2:48 PM] stinkybuttguy#4677
+Any suggestions?
+
+
+[09/08/2021 3:42 PM] andee#4722
+you should be connecting to the proxy, not directly to the node
+
+
+[09/10/2021 10:22 PM] CollegeKids#3993
+Guys is there a step by step guide on how to mine this for newbies ??!!
+
+
+[09/11/2021 1:26 AM] howard#4394
+I think the easiest way will be nanopool https://github.com/nanopool/nanominer
+
+
+[09/11/2021 1:27 AM] howard#4394
+just setup your wallet then start miner
+
+
+[09/11/2021 6:39 AM] Doomelf#7740
+dont do nanopool. That is the last place you want to mine
+
+
+[09/11/2021 6:40 AM] Doomelf#7740
+Any other pools are ok. Can still use nanominer program if you wish or others
+
+
+[09/11/2021 6:40 AM] Doomelf#7740
+nano just has to much hash over there
+
+
+[09/11/2021 9:31 PM] shinyumbreon#2454
+Can you setup a node and mine solo on hive os?
+
+
+[09/11/2021 9:33 PM] andee#4722
+yes, but I wouldn't run the node on hiveos
+
+
+[09/11/2021 9:34 PM] shinyumbreon#2454
+So setup the node on windows and mine on a separate rig?
+
+
+[09/11/2021 9:37 PM] andee#4722
+if you know how to get windows to not reboot because of updates etc, sure
+
+
+[09/11/2021 9:38 PM] andee#4722
+I wouldn't trust any mnemonics on hiveos
+
+
+[09/11/2021 9:39 PM] shinyumbreon#2454
+How should I attempt this then ?
+
+
+[09/11/2021 9:39 PM] shinyumbreon#2454
+Or are you saying I should just solo mine on a pool?
+
+
+[09/11/2021 9:41 PM] andee#4722
+please stick to one channel when you are asking questions, if someone knows the answer you will get it
+
+
+[09/11/2021 9:41 PM] andee#4722
+node on computer 1, mining on computer 2
+
+
+[09/11/2021 9:42 PM] andee#4722
+if you're not familiar with solo mining with your own node I would just stick to a pool
+
+
+[09/11/2021 9:42 PM] shinyumbreon#2454
+What os do you recommend for the solo node
+
+
+[09/11/2021 9:42 PM] andee#4722
+https://github.com/mhssamadani/ErgoStratumServer
+
+
+[09/11/2021 9:43 PM] andee#4722
+I only use windows very rarely for gaming, so my only rec. is Linux
+
+
+[09/11/2021 9:43 PM] shinyumbreon#2454
+Gotcha. Thanks for the info
+
+
+[09/11/2021 9:46 PM] andee#4722
+linux wont reboot by itself, its just a lot easier for stuff that should be running 24/7
+
+
+[09/11/2021 9:46 PM] andee#4722
+someone made a guide for running the node on a raspberry pi, that might work as a mining node
+
+
+[09/12/2021 5:20 AM] BuzzLiteBeer#8676
+Hey shoot me a DM with your questions and I can try to help you, I made the pi guide and the windows one. Now that I know a lot more about solo mining I do not recommend it to anyone with less than 10GH.
+
+
+[09/13/2021 10:23 PM] Admin (Fairhash.org)#6766
+on our pool there are not many miners yet, almost solo! 🙂
+
+
+[09/15/2021 7:07 PM] howard#4394
+so any other pool to recommand?
+
+
+[09/15/2021 7:21 PM] Doomelf#7740
+@howard i like Wooly and Enigma
+
+
+[09/15/2021 7:22 PM] howard#4394
+Just curious, what's the difference between Wooly and Nano?
+
+
+[09/16/2021 12:55 AM] Peeved#0730
+Nanopool has like 48% of hashrate, if it goes to 51% they can hurt the network, other than that basically nothing but I recommend flypool as it's also the same but has no fees for the next 2 weeks or so
+
+
+[09/16/2021 11:06 AM] 0xAdam#8754
+i have a 2080 ti and a ryzen 9 3950x do you think that will do ?
+
+
+[09/16/2021 11:07 AM] 0xAdam#8754
+does anyone know if i can run one of these on a VM ?
+
+
+[09/16/2021 3:07 PM] BuzzLiteBeer#8676
+Its just the GPU that can mine ergo, and yeah the 2080TI should be fine.
+
+
+[09/16/2021 3:14 PM] pieter#3957
+Is solo mining without a pool?
+
+
+[09/16/2021 3:16 PM] robot🤖armpits💪#2919
+mining your own node or pool
+
+
+[09/16/2021 3:17 PM] pieter#3957
+Is that even profitable?
+
+
+[09/16/2021 3:17 PM] pieter#3957
+Or are you running huge farm?
+
+
+[09/16/2021 3:22 PM] robot🤖armpits💪#2919
+small operations what is 2%?  If you're a huge farm, 2% is significant.
+
+
+[09/16/2021 5:23 PM] BuzzLiteBeer#8676
+Small Operations should not solo mine. I wouldn't try it with less than 10gh.
+
+
+[09/17/2021 3:45 PM] boomer#0823
+Yeah, to share some "back of the napkin math" for solo mining, take your hashrate (in TH) and divide that by the total mining power of ERGO (about 41 TH atm) and that's your chance at mining any individual block at THIS specific moment in time. For a single GPU, it's something like 1 in 500,000 which means it'd take about 3 years (at 2 mins/block) to mine one. This math also assumes the difficulty and the total hashrate does not increase during that time frame (which is does, meaning your chances continue to decrease over time and it's likely you'll never mine a block). Of course, you could get lucky but don't count on it. 10GHs is a good number to start with. 🙂
+
+
+[09/17/2021 3:59 PM] apexpool#3878
+I believe you are wrong. the current hashrate is 30.58 TH/s, so with 1 GH/s you should get 1 block in about 42 days in average.
+
+
+[09/17/2021 4:01 PM] boomer#0823
+I was going off of what I saw yesterday on this site. https://ergoplatform.org/en/mining/ Is there somewhere else I should be looking at the network hashrate?
+
+{Embed}
+https://ergoplatform.org/en/mining/
+Mining | Ergo
+Ergo is a resilient platform for contractual money
+
+
+[09/17/2021 5:14 PM] boomer#0823
+I see on Minerstat the network hashrate is showing about 30TH/s. I'm not sure which is the better source but either way, it's still very unlikely to mine a block if you're solo mining with a single 2080TI getting 100MH/s. 🙂
+
+
+[09/18/2021 4:11 PM] -[Art e fakt]-#3785
+is this solo mining on node now? what GH do you prefer? ty
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/888804312501858424/unknown.png
+
+
+[09/18/2021 8:41 PM] boomer#0823
+A good target is to set it so your difficulty so your miner is sending shares to your node every 15 seconds on average. From there, you can tweak that setting up or down to use more or free up network bandwidth. If you notice that your miner is constantly needing to reconnect, try lowering the difficulty so your miner sends shares more frequently. As for my preferred hashrate, the higher the better (without damaging your hardware). Also, see the comments above about the chances of getting any rewards at all as a SOLO miner with only 100Mh/s. You might have better luck jumping in a pool while you build out your rig.
+
+
+[09/18/2021 8:51 PM] -[Art e fakt]-#3785
+Oh thanks a lot. I mean this is just a test card. I mine on ergo Pool With 3,5 Gh atm. I Hope to increase my luck in Solo mining on my own node.
+
+
+[09/18/2021 9:11 PM] -[Art e fakt]-#3785
+Bit What do you mean? How do i know my difficult? Can u explain me how to calculate my difficult?
+
+
+[09/18/2021 9:32 PM] boomer#0823
+The first yellow circle from your picture is the difficulty. I haven't tried to set difficulty on just the node before but if you install the Ergo Stratum Server, you can set it in the config (start.js) and mine to that stratum server with a miner like t-rex or NBMiner.
+
+
+[09/18/2021 9:32 PM] boomer#0823
+The one that says 29GH
+
+
+[09/18/2021 9:34 PM] boomer#0823
+Good luck with your solo mining!
+
+
+[09/19/2021 10:07 AM] -[Art e fakt]-#3785
+hi. need help. my difficult is changing his self after 5 min. is this a special setting or whats wrong here? ty
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/889075246005649458/unknown.png
+
+
+[09/19/2021 10:08 AM] -[Art e fakt]-#3785
+started with 9GH
+
+
+[09/19/2021 10:08 AM] -[Art e fakt]-#3785
+i think there is some problem in min and max diff
+
+
+[09/19/2021 10:13 AM] andee#4722
+use static diff instead
+
+
+[09/19/2021 9:32 PM] Admin (Fairhash.org)#6766
+join us, we are small pool, for you will be almost solo! 🙂 ergo.fairhash.org . From your logs one see that you submit the share every second, that is not good - estimate the diff to be such that you submit share every 30 sec, not more often. If you will find the block you will anyway submit it
+
+
+[09/20/2021 1:00 PM] -[Art e fakt]-#3785
+ty guy´s
+
+
+[09/20/2021 5:00 PM] darpydon#0007
+Hey guys i'm new here and just started a project to mine ergo... I really like the project and would like to mine ergo and just hodl for the next five years... So I have a lot of questions, but for now lets just get the basic stuff out of the way: 1- Is it a good Idea to buy 10 GeForce RTX 3080 Ti at the same time or Is it better to start things off with 5 and then build from there?
+
+
+[09/20/2021 5:01 PM] darpydon#0007
+2- what pool would you guys recommend me for solo mining.
+
+
+[09/20/2021 5:02 PM] Herk#6019
+there's a good pool on #⛏│mining
+
+
+[09/20/2021 5:02 PM] darpydon#0007
+3- Other than the GPU's what would be a good set up (motherboards, Ram, etc) for this specific Graphic card?
+
+
+[09/20/2021 5:03 PM] darpydon#0007
+oh thanks!
+
+
+[09/20/2021 5:03 PM] Herk#6019
+as for the rest, if you've never done it before
+
+
+[09/20/2021 5:03 PM] Herk#6019
+it's best to start with 1
+
+
+[09/20/2021 5:04 PM] darpydon#0007
+I'm planning on setting this up on EU and this is my first time mining
+
+
+[09/20/2021 5:04 PM] darpydon#0007
+I have a whole room to do this and the electricity is not a problem
+
+
+[09/20/2021 5:05 PM] Herk#6019
+plenty of options when it comes to this, if you need some help you'll be better off working out something by yourself and then asking for advice around here imo
+
+
+[09/20/2021 5:06 PM] darpydon#0007
+my goal is to reach over 2K mh/s
+
+
+[09/20/2021 5:06 PM] Herk#6019
+:pepethumbsup:
+
+
+[09/20/2021 5:06 PM] darpydon#0007
+got it
+
+
+[09/20/2021 5:06 PM] darpydon#0007
+one last question!
+
+
+[09/20/2021 5:07 PM] darpydon#0007
+what is the diff between those 2?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/889543368718307379/Solo_Ergo_ERG_Mining_Pool_-_2Miners_9-20-2021_11-53-53_AM.png
+
+
+[09/20/2021 5:08 PM] darpydon#0007
+These server are for SOLO mining btw
+
+
+[09/20/2021 5:09 PM] darpydon#0007
+wait are those the total amount of gpu's in  each server?
+
+
+[09/20/2021 5:10 PM] Jeff9610#8088
+My total hash is 1.9G and will it be good for solo mining?
+
+
+[09/20/2021 5:10 PM] Herk#6019
+it's the difficulty
+
+
+[09/20/2021 5:11 PM] Herk#6019
+don't worry about that now
+
+
+[09/20/2021 5:12 PM] darpydon#0007
+I see, the less difficulty the better right? or does it pays more rewards depending on what difficulty you're mining in?
+
+
+[09/20/2021 5:13 PM] darpydon#0007
+I know most of those question I can find on google, just being lazy sorry LOL
+
+
+[09/20/2021 5:14 PM] Herk#6019
+that doesn't affect rewards
+
+
+[09/20/2021 5:14 PM] Herk#6019
+I believe 2miners explains it if you feel like learning more about it
+
+
+[09/20/2021 5:14 PM] Herk#6019
+https://2miners.com/blog/what-is-share-and-the-share-difficulty-when-you-are-mining-at-the-pool/
+
+{Embed}
+Darek Piotrowski
+https://2miners.com/blog/what-is-share-and-the-share-difficulty-when-you-are-mining-at-the-pool/
+What is Share and the Share Difficulty When You Are Mining at the Pool
+In this article, we will explain what a share and a share difficulty mean, how a share is different from a block solution and why you shouldn’t confuse them. We strongly recommend that you read our post What is Mining and Mining Luck? before you start with this one. Let’s take a look at the...
+https://images-ext-1.discordapp.net/external/g7OW9_t_wUFrw3PT7sc2ijSue5I5QRQReP1llclbQbw/https/2miners.com/blog/wp-content/uploads/2018/03/Frame-22.png
+
+
+[09/20/2021 5:14 PM] darpydon#0007
+I will!
+
+
+[09/20/2021 5:15 PM] darpydon#0007
+oh thanks, I'll do that now
+
+
+[09/23/2021 6:50 AM] XG multani#8464
+Hi Guys, My Question is ..... what happens if my mining rig restart in Solo mining ? In my country there is a lot of electricity shortfall . So when my rig restart should i be able to continue from where i left ? Thanks
+
+
+[09/23/2021 7:14 AM] andee#4722
+solo mining is not a progressing process
+
+
+[09/23/2021 2:33 PM] Kricket#5460
+Your “Current Solo Effort” percentage will pick up right where you left off, if that’s what you’re asking.  You can even stop for a couple of days and that percentage will remain when you log back in as a solo miner.
+
+
+[09/24/2021 5:40 AM] Driss#0598
+Solo mining is probabilistic, doesn't depend on progress, more on luck and submitting the share to win the block
+
+
+[09/24/2021 10:07 AM] XG multani#8464
+Means if i left at 10% and logged back then it will start from where i left ? Or it will pick another block ?
+
+
+[09/24/2021 12:00 PM] andee#4722
+you are always hashing to get the current block, there is no progress. effort is just an indicator to see if you found it earlier or later
+
+
+[09/24/2021 12:01 PM] andee#4722
+depending on hashrate you can go 6 months without a block or find 5 on the same day
+
+
+[09/24/2021 1:52 PM] mikeez#4664
+Hi Guys, can somebody give me a hint where i made mistake? I would like to try to solo mining but with my node so i have installed node, ErgoStartumServer and proxy
+
+
+[09/24/2021 1:53 PM] mikeez#4664
+Node is synched Stratumserver & proxy are working
+
+
+[09/24/2021 1:53 PM] mikeez#4664
+I can authorize with my miner but I do not find any shares at all
+
+
+[09/24/2021 2:05 PM] andee#4722
+adjust share diff. you are most likely mining at netdiff, so your miner will submit a share if it finds the solution for a block
+
+
+[09/24/2021 2:05 PM] mikeez#4664
+what figures I am looking for?
+
+
+[09/24/2021 2:06 PM] andee#4722
+its under "ports"
+
+
+[09/24/2021 2:11 PM] mikeez#4664
+I was thnking this value will be passed from the network difficulty
+
+
+[09/24/2021 2:12 PM] mikeez#4664
+I found it, "diff": 1643198652874752. How I should know which diff will fit for now?
+
+
+[09/24/2021 2:16 PM] Kricket#5460
+Holy crap I mined a block overnight!
+
+
+[09/24/2021 2:17 PM] mikeez#4664
+congrats
+
+
+[09/24/2021 2:20 PM] mikeez#4664
+andee from my understanding if my value is lower than that it will take net diff
+
+
+[09/24/2021 2:21 PM] andee#4722
+lower diff shares are used by pools to be able to estimate the miners hashrate so they get paid fairly
+
+
+[09/24/2021 2:21 PM] mikeez#4664
+got you
+
+
+[09/24/2021 2:21 PM] andee#4722
+use static diff and play with the setting
+
+
+[09/24/2021 2:21 PM] mikeez#4664
+for what numer I am looking?
+
+
+[09/24/2021 2:22 PM] mikeez#4664
+*number
+
+
+[09/24/2021 2:22 PM] andee#4722
+```        "3256": { //Another port for your miners to connect to, this port does not use varDiff
+            "diff": 256 //The pool difficulty
+        }```
+
+
+[09/24/2021 2:23 PM] andee#4722
+set diff to 1 and take it from there
+
+
+[09/24/2021 2:23 PM] andee#4722
+if you get kicked out because of too many low diff shares, increase
+
+
+[09/24/2021 2:24 PM] andee#4722
+what is meant by the explanation is that if your maxdiff is higher than netdiff, netdiff will be used
+
+
+[09/24/2021 2:31 PM] mikeez#4664
+Just did the change and same thing
+
+
+[09/24/2021 2:35 PM] mikeez#4664
+I can see miner is working MHS is visible but no shares at all
+
+
+[09/24/2021 2:52 PM] mikeez#4664
+did I miss something?
+
+
+[09/24/2021 3:08 PM] andee#4722
+did you connect to the port you edited?
+
+
+[09/24/2021 3:09 PM] andee#4722
+most miners show the share diff
+
+
+[09/24/2021 3:10 PM] mikeez#4664
+yes I did
+
+
+[09/24/2021 3:54 PM] mikeez#4664
+Could be that possible that I try to connect directly to stratum port instead of proxy?
+
+
+[09/24/2021 4:25 PM] mikeez#4664
+humm
+
+
+[09/24/2021 5:00 PM] mikeez#4664
+I think It was related to this diff i changed it again and it works
+
+
+[09/24/2021 5:06 PM] mikeez#4664
+just to make sure I am on right track
+
+
+[09/24/2021 5:12 PM] mikeez#4664
+stratum server shows me valid shares which equals miner stats however proxy shows me Accepted shares: 0
+
+
+[09/24/2021 5:13 PM] mikeez#4664
+is this right?
+
+
+[09/24/2021 5:32 PM] andee#4722
+proxy is only for the open source miners
+
+
+[09/24/2021 5:39 PM] mikeez#4664
+I first time mine to my pool and in my opinion i see quickness and more shares maybe I am wrong is there any way that I could browse some statistics like on solo "comercial" pools?
+
+
+[09/24/2021 9:27 PM] mikeez#4664
+How I can figure out how much accepted/rejects shares i have mining to own node?
+
+
+[09/24/2021 10:07 PM] andee#4722
+all miners report this
+
+
+[09/24/2021 10:07 PM] mikeez#4664
+so can relay only on miners stats?
+
+
+[09/24/2021 10:07 PM] mikeez#4664
+I can*
+
+
+[09/24/2021 10:08 PM] andee#4722
+stratum server tells miner if a share is accepted or not
+
+
+[09/24/2021 10:09 PM] mikeez#4664
+yeah it is clear for me but I was asking if I can somehow track it to have general overview?
+
+
+[09/24/2021 10:09 PM] mikeez#4664
+like some kind of statistics?
+
+
+[09/24/2021 10:13 PM] andee#4722
+check your miners docs, most of them can serve a local webpage with stats
+
+
+[09/24/2021 10:13 PM] mikeez#4664
+when I was mining solo in pool my hashrate from miner was different than pool's one
+
+
+[09/24/2021 10:15 PM] mikeez#4664
+I was thkinking about save stratum server log into file and grep valid shares but there is not timestamp
+
+
+[09/24/2021 10:25 PM] andee#4722
+when looking at pool hashrate you need 6/12/24 hour average, and it is still only an indicator
+
+
+[09/24/2021 10:26 PM] andee#4722
+if you compare shares between pools you also need to take share difficulty into consideration
+
+
+[09/25/2021 9:18 AM] mikeez#4664
+Andee, how I may know if i setup this diff correct? I mean everything is working but just to make sure I am not mining the air?
+
+
+[09/25/2021 9:21 AM] andee#4722
+as long as your shares are not rejected you should be good to go
+
+
+[09/25/2021 9:24 AM] mikeez#4664
+93k accetped shares 56rejected
+
+
+[09/25/2021 9:24 AM] mikeez#4664
+so I guess now need to wait for a luck?
+
+
+[09/25/2021 9:57 AM] andee#4722
+there is no point in having so low diff that you spam the server
+
+
+[09/25/2021 9:57 AM] andee#4722
+more shares != bigger chance of block
+
+
+[09/25/2021 10:11 AM] mikeez#4664
+thats why I asked
+
+
+[09/25/2021 10:13 AM] mikeez#4664
+what would be recommendation then?
+
+
+[09/25/2021 10:16 AM] mikeez#4664
+maybe I should add this are accepted shares are from yesterday when i started mining
+
+
+[09/25/2021 10:50 AM] andee#4722
+personal preference, I would have mined at netdiff so 1 share = 1 block
+
+
+[09/25/2021 11:00 AM] mikeez#4664
+this would be default setup right?
+
+
+[09/25/2021 11:01 AM] andee#4722
+yes
+
+
+[09/25/2021 11:03 AM] mikeez#4664
+so means that I only will see valid share if this will be the right one
+
+
+[09/25/2021 11:30 AM] mikeez#4664
+i have changed as it was to defaut and now i got low diffucility share msg
+
+
+[09/25/2021 11:30 AM] mikeez#4664
+I am puzzled now
+
+
+[09/25/2021 11:41 AM] mikeez#4664
+I had to lower max diff so netdiff would be applied, correct?
+
+
+[09/25/2021 11:48 AM] mikeez#4664
+Andee, can you confirm if i will mine to 3256 port it will work as you said?
+
+
+[09/25/2021 12:34 PM] andee#4722
+that depends on your config. setting diff lower than netdiff will not result in netdiff shares
+
+
+[09/26/2021 12:06 PM] Boldimore#5357
+How big of a farm do you have? The hash power you are using for solo mining
+
+
+[09/26/2021 12:07 PM] mikeez#4664
+7.5gh
+
+
+[09/26/2021 12:07 PM] mikeez#4664
+ahh sorry I was thkinking you asked me
+
+
+[09/26/2021 12:08 PM] Boldimore#5357
+Did you hit any blocks?
+
+
+[09/26/2021 12:09 PM] Boldimore#5357
+I got 3.88 gh
+
+
+[09/26/2021 12:34 PM] mikeez#4664
+where do you mine?
+
+
+[09/26/2021 5:32 PM] darpydon#0007
+you guys know where I can get 3080 ti under $2K, looking to buy 6 of em
+
+
+[09/26/2021 6:34 PM] Kricket#5460
+I’m right above 3 GH
+
+
+[09/26/2021 6:36 PM] Kricket#5460
+I switched to conflux to test the waters there and scoop up some of those coins, but I’ll be switching back to ERG in a few days - maybe a week.  The block afforded me some time to experiment.
+
+
+[09/26/2021 6:37 PM] Kricket#5460
+I’m going to switch back to ETH shortly after though - ride that wave til I can’t anymore.
+
+
+[09/26/2021 6:43 PM] Boldimore#5357
+Didn't mine, was thinking about trying on herominers
+
+
+[09/26/2021 6:44 PM] Boldimore#5357
+How was your luck? Did it take long to hit the block?
+
+
+[09/26/2021 6:46 PM] Kricket#5460
+I think my luck was 37% or something - it was definitely low.  The night I pointed the rigs at the solo address, the difficulty dropped down a LOT.  I mined it my first night solo mining.
+
+
+[09/26/2021 6:48 PM] Kricket#5460
+I’ll definitely try the solo route again.  Maybe I’ll give it a week or two and then go back to ETH.
+
+{Reactions}
+👍 
+
+[09/26/2021 6:51 PM] Kricket#5460
+Not 37 - 17%
+
+
+[09/27/2021 3:06 AM] yangzhupi#4397
+How to set up mine pool difficulty ah?
+
+
+[09/27/2021 4:56 AM] yangzhupi#4397
+@andeeHave you solved your problem
+
+
+[09/27/2021 5:14 AM] yangzhupi#4397
+There is a problem with this, I found
+
+
+[09/27/2021 7:14 AM] mikeez#4664
+yangzhupi, can you share some more details?
+
+
+[09/27/2021 7:45 AM] yangzhupi#4397
+I don't know what the difficulty level is
+
+
+[09/27/2021 9:28 AM] Peeved#0730
+4.96 right now, might go down later http://cds.oette.info/ergo_diff.htm
+
+
+[09/27/2021 6:43 PM] mikeez#4664
+is anyone mining to own pool?
+
+
+[09/28/2021 2:18 AM] yangzhupi#4397
+Do I have to change the configuration every time the difficulty changes?
+
+
+[09/28/2021 2:19 AM] Peeved#0730
+nope, nothing you can do when the difficulty changes, you just get less ergo the higher it is
+
+
+[09/28/2021 2:21 AM] yangzhupi#4397
+Can you tell me what kind of pool you use?
+
+
+[09/28/2021 2:21 AM] Peeved#0730
+flypool
+
+
+[09/28/2021 2:23 AM] yangzhupi#4397
+thank you
+
+{Reactions}
+👍 
+
+[09/28/2021 2:24 AM] Peeved#0730
+oh this is the solo mining thread lmao you'll probably want to use woolypooly if youre going solo flypool doesn't allow solo
+
+
+[09/28/2021 2:29 AM] Peeved#0730
+but i would only recommend solo if you have 5+ ghs
+
+
+[09/28/2021 3:19 AM] yangzhupi#4397
+I have 5 + GHS
+
+
+[09/28/2021 3:20 AM] Peeved#0730
+sweet! may the block finding gods be with you 🙏
+
+
+[09/28/2021 3:01 PM] oblast63#8763
+Greetings. Can you please tell me someone to mine solo on their node? If so, can you find out in more detail how?
+
+
+[09/29/2021 4:54 PM] mikeez#4664
+node+ stratum server
+
+
+[09/29/2021 4:55 PM] mikeez#4664
+this is not difficult, but I found out configuration and setting proper diff is hard and i gave up
+
+
+[09/30/2021 7:44 AM] yangzhupi#4397
+ME TOO
+
+
+[09/30/2021 9:07 AM] oblast63#8763
+The settings may be complex, but I think I can handle it, they just indicate that I can connect
+ErgoStratumProxy, but when installing it, errors occur, and the developer  https://github.com/mhssamadani/ErgoStratumProxy does not want to answer the issue. Then why specify it in the official FAQ?
+
+
+[09/30/2021 9:33 AM] andee#4722
+the proxy is for miners without a stratum client implemented, the open source ones
+
+
+[09/30/2021 9:34 AM] andee#4722
+the best way to get help is not to just say "error occur", include your error and someone might be able to help you
+
+
+[09/30/2021 9:35 AM] andee#4722
+and what guide did you follow?
+
+
+[09/30/2021 10:04 AM] oblast63#8763
+An error occurs when connecting to ErgoStratumProxy. I wanted to ask a question to the developer, but I saw that a question about the exact same error had already been asked and there was no answer to it. https://github.com/mhssamadani/ErgoStratumProxy/issues/22
+
+
+[09/30/2021 10:05 AM] andee#4722
+do you have a stratum server running?
+
+
+[09/30/2021 10:06 AM] andee#4722
+the cmd used in that issue does not even specify the server or port to connect to
+
+
+[09/30/2021 10:07 AM] andee#4722
+could you also link the guide you used for solo mining?
+
+
+[09/30/2021 10:10 AM] oblast63#8763
+This is not my question there, but the errors are lonely. I connect like this to my synchronized node ./ErgoStratumProxy_Linux -s 127.0.0.1 -p 9053 -u test
+
+
+[09/30/2021 10:14 AM] andee#4722
+the node is not running a stratum server
+
+
+[09/30/2021 10:14 AM] andee#4722
+can you link the solo mining guide you followed?
+
+
+[09/30/2021 10:57 AM] oblast63#8763
+I can’t start ErgoStratumProxy itself in any way. I downloaded it to the same local server where there is a synchronized node and mining is allowed in it. After that, as written here https://github.com/mhssamadani/ErgoStratumProxy I try to run it. But I get errors about which I wrote above. I tried to run and so ./ErgoStratumProxy_Linux -s 127.0.0.1 -p 9053 -u test and so ./ErgoStratumProxy_Linux -s 192.168.3.66 -p 9053 -u test but the errors persist.  ([CONNECTION] Connected to server.
+Unexpected token H in JSON at position 0
+Unexpected token S in JSON at position 0
+Unexpected token D in JSON at position 0
+Unexpected token C in JSON at position 0
+Unexpected token C in JSON at position 0
+Unexpected token C in JSON at position 0
+Unexpected token U in JSON at position 0
+[CONNECTION] Disconnected from server.)
+
+
+[09/30/2021 10:59 AM] andee#4722
+because you need to run a stratum server
+
+
+[09/30/2021 10:59 AM] andee#4722
+its not made for direct connection to the node, its a stratum client for connecting to pools running a stratum server
+
+
+[09/30/2021 11:01 AM] andee#4722
+I keep repeating the same things but you never answer what I am asking you
+
+
+[09/30/2021 11:04 AM] oblast63#8763
+Didn't understand which stratum server? How does it start? Or you need to download it from here https://github.com/mhssamadani/ErgoStratumServer. Are you saying that for solo mining I need a synchronized node + ErgoStratumProxy + ErgoStratumServer? But the solo mining manual doesn't say that. This is what is written in the solo mining guide here https://github.com/ergoplatform/ergo/wiki/Mining-Ergo-after-The-Hardening-Upgrade
+
+
+[09/30/2021 11:05 AM] andee#4722
+if you are using the open source miners and will be mining to your node, you connect the miner directly to the node
+
+
+[09/30/2021 11:05 AM] andee#4722
+this guide is for the open source miners, the guide clearly states that the proxy is for pool mining
+
+
+[09/30/2021 11:07 AM] andee#4722
+if you are using any of the closed source miners you have to run a stratum server, no proxy
+
+
+[09/30/2021 11:07 AM] andee#4722
+https://github.com/mhssamadani/ErgoStratumServer
+
+
+[09/30/2021 11:10 AM] oblast63#8763
+I'm sorry, but I use google translator, maybe that's why I don't fully understand you. But I do not understand how to start this stratum server for me. I do everything as it is written in the official manual. I don't use closed source miners, but how then can I change the difficulty of the share so that I can solo mine without a proxy? Can I install ErgoStratumServer to mine as a miner without a pool on my node and reduce the difficulty of the miner's share?
+
+
+[09/30/2021 11:12 AM] andee#4722
+you need the stratum server to change share diff. but why do you even care about share diff if you are solo mining? mine at netdiff
+
+
+[09/30/2021 11:43 AM] oblast63#8763
+I just think that by reducing the complexity of the ball, you can find more solutions and the probability of finding the right solution increases several times. And if you mine with the entire complexity of the network, then there will be much fewer solutions, that is, it will be the same and correct. Why else would the pools reduce the difficulty of the share?
+
+
+[09/30/2021 11:46 AM] oblast63#8763
+Now I installed ErgoStratumServer + ErgoStratumProxy and the miner started working. There you can reduce the complexity of the ball, it remains only to understand if my setup is working correctly. It seems to be writing in the terminal that the balls are valid, but for now I think if this is so before starting to mine. Suddenly, I configured something wrong and the mining time will be wasted. I do not have a lot of capacities, so it will be a pity to waste time
+
+
+[09/30/2021 11:59 AM] andee#4722
+pools reduce the share difficulty so they are able to show you stats about how fast you are hashing and for something like PPLNS, PROP etc, calculate your payment. lower share diff does not give you a higher chance of finding a block
+
+
+[09/30/2021 12:45 PM] oblast63#8763
+Yes, I think so too. But now there are solo pools. You can solo mine there. Then why do they reduce the difficulty of the ball? For what purpose? If the pool is simple, it is clear, there it is necessary to divide the block into all and show who sent how many solutions to the pool to solve the block, but why are they doing solo pools in the same way? It turns out that it does not matter to me how many solutions I send them, the one thing that matters to me is the correct block solution.
+
+
+[09/30/2021 12:49 PM] andee#4722
+for statistics. people want to see their worker as online and what their poolside hashrate is
+
+
+[09/30/2021 12:49 PM] andee#4722
+without smaller diff shares they would have no way of knowing if the worker is online and hashing, no way to estimate hashrate
+
+
+[10/10/2021 8:34 PM] sgtcasey#2160
+Good afternoon everyone.  I'm wondering if anyone has a decent guide on how to solo mine directly from the Ergo node I have synced up and running on my Windows machine using NBMiner.  I've done quite a bit of searching and am coming up blank on how to get NBMiner to connect to the node and begin mining.  Thank you!
+
+
+[10/10/2021 8:52 PM] andee#4722
+hey, check this out https://github.com/mhssamadani/ErgoStratumServer
+
+{Embed}
+https://github.com/mhssamadani/ErgoStratumServer
+GitHub - mhssamadani/ErgoStratumServer: Stratum pool server for ERG...
+Stratum pool server for ERGO in Node.js. Contribute to mhssamadani/ErgoStratumServer development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/cmlKxxRiusc7R8qY6hUqvtMhftjvDuQtNTVOcW3TyCI/https/opengraph.githubassets.com/a84bc614fd07b94da0de6d43124984bbbae74a7ba5f7e0a68cfd654bf3007312/mhssamadani/ErgoStratumServer
+
+{Reactions}
+👍 (2) 
+
+[10/10/2021 8:53 PM] sgtcasey#2160
+Okay, I saw that but wasn't sure if I needed it.  I'll get it sorted out with that.  Thank you!
+
+{Reactions}
+👍 
+
+[10/11/2021 9:11 AM] mutenroshi#9701
+is there a way to get multiple block-candidates for the same height? i know there is `/mining/candidateWithTxs`, but is this the only way to get multiple different candidates? maybe there is a way to insert a comment into the block?
+
+
+[10/11/2021 9:59 AM] andee#4722
+why would you want that?
+
+
+[10/11/2021 10:39 AM] mutenroshi#9701
+to have a bigger range of nonces
+
+
+[10/11/2021 10:39 AM] mutenroshi#9701
+with ergo the nonce is only 8 bytes
+
+
+[10/17/2021 8:55 PM] Admin (Fairhash.org)#6766
+you can use several nodes for this
+
+
+[10/18/2021 7:52 PM] CH#6305
+Is anyone in a party solo mine?
+
+
+[10/18/2021 8:51 PM] Aquaritek#9015
+What kind of GH are you SOLOing with?
+
+
+[10/20/2021 12:48 PM] CollegeKids#3993
+can i mine ERG on a raspi? lol
+
+
+[10/20/2021 1:11 PM] apexpool#3878
+if you can mount a GPU on that raspi, sure 😂
+
+
+[10/20/2021 1:11 PM] apexpool#3878
+so: no.
+
+
+[10/20/2021 1:14 PM] CollegeKids#3993
+Lmaooo I see. How much is a gpu? Mining newbie here and I just learned how to build nodes. Trying to learn. Do I simply buy a GPU, install software with a vps and plug n play ?
+
+
+[10/20/2021 1:14 PM] apexpool#3878
+no VPS, on a PC.
+
+
+[10/20/2021 1:14 PM] CollegeKids#3993
+I need to mine this now before the eventual 50x- 100x by next bull lol everyone is sleeping on ERG.
+
+
+[10/20/2021 1:15 PM] apexpool#3878
+you buy a GPU and then you buy a PC for that GPU, so to speak, because the GPU is the most expensive.
+
+
+[10/20/2021 1:15 PM] CollegeKids#3993
+Understood. Average price for gpu?
+
+
+[10/20/2021 1:16 PM] apexpool#3878
+it depends where you are. for a nvidia 30 series, it could be from 600$ to 3000$ I guess.
+
+
+[10/20/2021 1:16 PM] apexpool#3878
+(and depending on model, of course)
+
+
+[10/20/2021 1:16 PM] apexpool#3878
+what's your budget?
+
+
+[10/20/2021 1:17 PM] CollegeKids#3993
+Understood. What are you using? My budget is 2k limit
+
+
+[10/20/2021 1:17 PM] apexpool#3878
+then I would recommend 3060ti cards.
+
+
+[10/20/2021 1:17 PM] apexpool#3878
+with Samsung memory
+
+
+[10/20/2021 1:17 PM] apexpool#3878
+very important.
+
+
+[10/20/2021 1:18 PM] CollegeKids#3993
+Got it and I need a computer on top huh ? Can't use my personal computer like a node and vps model right?
+
+
+[10/20/2021 1:18 PM] CollegeKids#3993
+BTW thank you !!!
+
+{Reactions}
+👍 
+
+[10/20/2021 1:19 PM] apexpool#3878
+you can put it in your PC, of course, if you only buy one.
+
+
+[10/20/2021 1:19 PM] apexpool#3878
+I am using 8 cards right now in a custom PC.
+
+
+[10/20/2021 1:20 PM] apexpool#3878
+you can take a look in #📸│showoffyourrig for inspiration 😂
+
+
+[10/20/2021 1:28 PM] CollegeKids#3993
+Dude you are INSANE  lol
+
+
+[10/20/2021 1:29 PM] CollegeKids#3993
+Is there a way to offset the computing power needed on personal pc like a vps? Sorry for all the noob questions. Still information gathering  lol
+
+
+[10/20/2021 1:29 PM] CollegeKids#3993
+Also what's the profitability range ?
+
+
+[10/20/2021 1:29 PM] CollegeKids#3993
+At current prices
+
+
+[10/20/2021 1:29 PM] apexpool#3878
+https://whattomine.com/gpus
+
+{Embed}
+https://whattomine.com/gpus
+GPU profitability ranking - WhatToMine
+Most profitable GPUs currently on the market and soon to be released.
+
+
+[10/20/2021 1:30 PM] apexpool#3878
+have fun!
+
+
+[10/20/2021 1:57 PM] CollegeKids#3993
+Thanks dude !!!
+
+
+[10/20/2021 1:58 PM] apexpool#3878
+you are welcome!
+
+
+[10/23/2021 11:01 PM] netocanastra#3619
+Is there a minimum ideal hash rate to solo mine?1gh?3gh? 400mh??
+
+
+[10/23/2021 11:30 PM] apexpool#3878
+minimum 5-10 GH/s probably
+
+{Reactions}
+👍 (2) 
+
+[10/26/2021 5:07 PM] Jubag#1342
+how much you earn if you lucky with 5gh?
+
+
+[10/26/2021 11:33 PM] robot🤖armpits💪#2919
+A block or 2 a week
+
+
+[10/28/2021 10:13 PM] Kretenba#9287
+greetings
+
+
+[10/28/2021 10:13 PM] Kretenba#9287
+anyone who can help me please?
+
+
+[10/28/2021 10:13 PM] Kretenba#9287
+so i want to solo mine on herominers and i'm little bit confused with the tutorials
+
+
+[10/28/2021 10:14 PM] Kretenba#9287
+I'm using nanominer
+
+where excatly to put prefix "SOLO:"
+
+
+[10/28/2021 10:14 PM] Kretenba#9287
+QUOTE
+
+You can do solo mining using any port of the pool.
+Just use this prefix before the wallet address.
+solo:ADDRESS
+
+
+[10/28/2021 10:15 PM] Kretenba#9287
+so I put solo:walletadressetc192irASfjjfsas310dskSK
+
+
+[10/28/2021 10:15 PM] Kretenba#9287
+and thats it?
+
+
+[10/28/2021 10:30 PM] weewhiskydram#7767
+yes, solo:youraddress
+
+
+[10/28/2021 10:31 PM] weewhiskydram#7767
+you will see that its working when you start the batch file and check on herominers website and see your solo effort
+
+
+[10/28/2021 10:42 PM] Kretenba#9287
+I guess 30mh/s isnt likely to find a block in 3 months at least?
+
+
+[10/29/2021 12:02 PM] weewhiskydram#7767
+not much chance, but a slim chance all the same. Better off in a pool really
+
+
+[11/17/2021 9:18 PM] PL2W#0040
+Greetings
+With 2.2GH is it worth solo mining or pool?
+
+
+[11/17/2021 9:39 PM] andee#4722
+would you be able to handle a 500% effort block?
+
+
+[11/17/2021 9:40 PM] PL2W#0040
+Wow i never saw 500% effort block
+
+
+[11/18/2021 6:10 PM] Attila#3944
+What does this mean?
+
+
+[11/18/2021 7:13 PM] andee#4722
+just a simple question, since 500% effort blocks happens all the time on pools. I think its worth mentioning when people ask if its worth solo mining, even if you will end up earning about the same as pool mining as long as you do it for long enough
+
+
+[11/18/2021 7:15 PM] Attila#3944
+I mean I don’t know what a 500% block means
+
+
+[11/18/2021 7:22 PM] andee#4722
+aah, 100% effort means that you found a block at the expected time for your hashrate.
+
+
+[11/18/2021 7:22 PM] Attila#3944
+Ah okay, thanks
+
+
+[11/18/2021 7:23 PM] Attila#3944
+So 500% means you take 5x time
+
+
+[11/18/2021 7:23 PM] andee#4722
+so anything under 100% is good, but over time it averages out to +- 100%
+
+{Reactions}
+💪🏻 
+
+[11/18/2021 7:23 PM] Attila#3944
+Got it, wasn’t familiar with the terminology
+
+
+[11/18/2021 7:24 PM] Attila#3944
+I find potentially waiting for a block for fucking ever very offputting in solo mining. Different story when you have a killer hashrate
+
+
+[11/26/2021 4:48 PM] Raul Banea#6094
+Hello
+
+
+[11/26/2021 4:48 PM] Raul Banea#6094
+With 6gh can you solo mine ergo ?
+
+
+[11/26/2021 4:58 PM] ÅrÖhBê#8289
+Its possible.  Could take a few days to find a block could take a month.  With the diff where it is there is a better chance but lotto for sure
+
+
+[11/26/2021 5:00 PM] ÅrÖhBê#8289
+There was this calculator created, not a perfect science though https://docs.google.com/forms/d/e/1FAIpQLScBFv3mxpu5Erv55zvfFuIo2NnaWht3cc70xZoRo-3c58Cv0A/viewform
+
+{Embed}
+https://docs.google.com/forms/d/e/1FAIpQLScBFv3mxpu5Erv55zvfFuIo2NnaWht3cc70xZoRo-3c58Cv0A/viewform
+Can I solo mine?
+Put in these values and check for yourself
+https://images-ext-1.discordapp.net/external/tmEKk9Jc5TuAnP9xnP6dI4RhPJ-_Ti3qidAgfCXuNLI/https/lh5.googleusercontent.com/g_WOCCdvs4vggFmZETEApXY053s-T3yFRVv2KwwkAFi5vb8mHqViXKbigkJSgZTv-gwV42JU2oQ%3Dw1200-h630-p
+
+
+[11/26/2021 8:40 PM] ProSavage#7131
+https://enigmapool.com/tools/calculator
+
+
+[11/26/2021 8:41 PM] ProSavage#7131
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/913892122539733062/unknown.png
+
+
+[11/28/2021 8:49 PM] HelixEvo#2120
+Think the calcs are a bit off. Get weird - values.
+
+
+[11/28/2021 8:49 PM] ProSavage#7131
+can I get a test case
+
+
+[11/28/2021 8:49 PM] ProSavage#7131
+oh no
+
+
+[11/28/2021 8:50 PM] ProSavage#7131
+I see it seems to be broken right now
+
+
+[11/28/2021 8:50 PM] ProSavage#7131
+it was working lol
+
+
+[11/28/2021 8:50 PM] ProSavage#7131
+I forgot, I updated the api for multi coin
+
+
+[11/28/2021 8:50 PM] HelixEvo#2120
+Thats 2 beers you owe me now ;-p
+
+
+[11/28/2021 8:51 PM] ProSavage#7131
+doing homework but I made a quik fix to the endpoints
+
+
+[11/28/2021 8:51 PM] ProSavage#7131
+multi coin means our api changed, and all the endpoints slightly change lol
+
+
+[11/28/2021 8:52 PM] HelixEvo#2120
+WTF is that coded in
+
+
+[11/28/2021 8:52 PM] ProSavage#7131
+typescript.
+
+
+[11/28/2021 8:52 PM] HelixEvo#2120
+Im old man. Im a Turbo Pascl kind of guy :-p
+
+
+[11/28/2021 8:53 PM] ProSavage#7131
+kekw
+
+
+[11/28/2021 8:53 PM] ProSavage#7131
+my frontend is React + TypeScript
+
+
+[11/28/2021 8:53 PM] ProSavage#7131
+https://www.toptal.com/developers/hastebin/cuqudakadu.js
+
+
+[11/28/2021 8:53 PM] ProSavage#7131
+have a read if u want
+
+
+[11/28/2021 8:55 PM] ProSavage#7131
+looking at it now getUnitHashrateMultiplier could be less dumb
+
+
+[11/28/2021 8:55 PM] ProSavage#7131
+and my select mapping could be an enum
+
+
+[11/28/2021 8:55 PM] ProSavage#7131
+:KEKW:
+
+
+[11/28/2021 8:55 PM] HelixEvo#2120
+You young un's.. No comments in there at all 🙂
+
+
+[11/29/2021 9:53 AM] andee#4722
+new algos coming?
+
+
+[11/29/2021 1:46 PM] Attila#3944
+Could be an enum with 10e3,10e6 etc. Unnecessary multiplications imo
+
+
+[11/29/2021 3:05 PM] ProSavage#7131
+Yah
+
+
+[11/29/2021 3:05 PM] ProSavage#7131
+Yep added equihash flux
+
+
+[01/09/2022 10:19 PM] sudo_scientist#4060
+is there someone here that can assist me in connecting multiple mining rigs to a stratum server?  I seem to have things working locally, but want to create a pool
+
+
+[01/10/2022 12:30 AM] andee#4722
+Please stay in one channel. #🛠│host-a-pool would have been the appropriate channel for asking this question, once
+
+
+[01/18/2022 8:51 PM] Deleted User#0000
+Hello! What is the required amount of hashpower to consistently or occasionally mint a block on your own right now with current network difficulty? A ballpark number. Thanks!
+
+
+[01/18/2022 10:35 PM] MarantzCube#4825
+https://solo-erg.2miners.com/account/9ew8v7HKtj1AGWbeNUowdezF89N7quACijCeexoTpZch5r3P7a2  2 Gh (about 20x 2080 Ti) 2 Blocks Last 30 days 😵‍💫 
+Or https://2cryptocalc.com/erg-mining-calculator scroll down to solo calc
+
+{Embed}
+https://solo-erg.2miners.com/account/9ew8v7HKtj1AGWbeNUowdezF89N7quACijCeexoTpZch5r3P7a2
+Miner Statistics - Solo Ergo ERG Mining Pool - 2Miners
+Low fee Ergo SOLO mining pool for GPU, ASIC and Nicehash. Fast payments, reliable servers, new block monitoring.
+https://images-ext-2.discordapp.net/external/G8yn1pOk4OeNesg1WOiwjisIYfe7JjUqBM5Fpp_U1_Q/https/static-d.2miners.com/img/og.png
+
+{Embed}
+https://2cryptocalc.com/erg-mining-calculator
+Ergo (ERG) Mining Profitability Calculator - for Pools and Solo
+Calculate the ERG mining profit for your GPU’s (video cards) in real time. The calculator uses your mining hardware hashrate, network difficulty, and coin price.
+https://images-ext-2.discordapp.net/external/a_C-CIl79LXwgl5fN4wGf9D8RcbcT-elYfcOuYZBYl8/https/2cryptocalc.com/favicons/apple-icon-180x180.png
+
+
+[01/18/2022 10:38 PM] Deleted User#0000
+Thank you, love.
+
+
+[01/18/2022 10:40 PM] MarantzCube#4825
+1 Th - solo block  3 min ago, 10 Gh - 2 days ago, 1 Gh - no block last 11 days (miningpoolstats.stream/ergo)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/933128810403086356/unknown.png
+
+
+[01/21/2022 11:26 AM] Strider#6512
+Guys, how feasible is it to rent about 800ghs to mine ergo?
+
+
+[01/21/2022 11:31 AM] blackinsecure#3693
+https://www.nicehash.com/pricing
+
+Autolykos
+
+min. price: 0.2995 BTC/TH/day
+avg. price: 0.3149 BTC/TH/day
+
+
+[01/21/2022 11:43 AM] Strider#6512
+Thank you. So according to this, it doesn't seem to be profitable at all. I would be running a net loss daily...
+
+
+[01/21/2022 12:51 PM] blackinsecure#3693
+depends on why you're mining
+
+
+[01/21/2022 12:51 PM] blackinsecure#3693
+if you need profitability every single day, yes
+
+
+[01/21/2022 1:27 PM] Strider#6512
+Well I am curious really. There is an entity mining at nearly 1ths which by my reckoning is nearing 10% of the network hashrate and given the renting costs, selling ergo at a net loss which puzzles me.
+
+
+[01/21/2022 2:27 PM] blackinsecure#3693
+more like 6.7%
+
+
+[01/21/2022 2:27 PM] blackinsecure#3693
+are they really selling though? maybe just hodling
+
+
+[01/21/2022 2:28 PM] Strider#6512
+Yeh the wallet is selling high volume.
+
+
+[01/21/2022 2:28 PM] blackinsecure#3693
+weird
+
+
+[01/21/2022 2:29 PM] Strider#6512
+Exactly what I thought... its so strange that it doesn't make sense.
+
+
+[01/21/2022 2:31 PM] blackinsecure#3693
+maybe it's an insider providing liquidity?
+
+
+[01/21/2022 2:33 PM] Strider#6512
+what would that entail, I mean, who counts as an insider and isn't that contrary to the open market principle of ergo?
+
+
+[01/21/2022 2:34 PM] blackinsecure#3693
+idk I'm just speed balling here
+
+
+[01/21/2022 2:37 PM] LordBeggar#5654
+How can Ergo stop people abusing the network with high hashrate?
+
+
+[01/21/2022 2:37 PM] Strider#6512
+You can't stop people from using the network.
+
+
+[01/21/2022 2:45 PM] LordBeggar#5654
+https://solo-erg.2miners.com/account/9hS4V6J2Ci49wxRuRiXxQfAFSaG6sQ3tDecrZxXsSamYbi1io9U
+
+{Embed}
+https://solo-erg.2miners.com/account/9hS4V6J2Ci49wxRuRiXxQfAFSaG6sQ3tDecrZxXsSamYbi1io9U
+Miner Statistics - Solo Ergo ERG Mining Pool - 2Miners
+Low fee Ergo SOLO mining pool for GPU, ASIC and Nicehash. Fast payments, reliable servers, new block monitoring.
+https://images-ext-2.discordapp.net/external/G8yn1pOk4OeNesg1WOiwjisIYfe7JjUqBM5Fpp_U1_Q/https/static-d.2miners.com/img/og.png
+
+
+[01/21/2022 2:45 PM] LordBeggar#5654
+This is the person who is abusing the network with high hashrate
+
+
+[01/21/2022 2:45 PM] LordBeggar#5654
+Can we do something about this? He is stealing everyones block
+
+
+[01/21/2022 2:46 PM] LordBeggar#5654
+It's impossible to find a block as long as he is solo mining
+
+
+[01/21/2022 2:48 PM] Strider#6512
+Same guy I was talking about! He runs 800+ghs every day and its odd.
+
+
+[01/21/2022 3:06 PM] blackinsecure#3693
+But do we know this hashrate is rented?
+
+
+[01/21/2022 3:07 PM] blackinsecure#3693
+Maybe a ETH farm already moved some of its HR before ETH 2.0
+
+
+[01/21/2022 3:07 PM] blackinsecure#3693
+then it wouldn't be running on a loss because the hardware would be already paid for
+
+
+[01/21/2022 6:56 PM] Strider#6512
+Its pretty clear to me that it is rented. I am sure there is shady business going on by nicehash but people seem less convinced.
+
+
+[01/23/2022 8:00 PM] DishBrain#1197
+I spent a few hours the other day setting up a node and stratum server. 
+
+I have T-Rex currently mining to it and getting valid shares, at least on the T-Rex console window.
+
+If T-Rex shows valid shares, does that verify that everything is working as intended? or is there a way to verify on the Node, or Server console windows that things are correctly working?
+
+
+[01/23/2022 8:00 PM] DishBrain#1197
+I think I just realized one thing, that I was working with the varDiff, and trying to dial in the difficulty so that I was seeing shares being submitted successfully.  
+
+But I should just be using the standard difficulty port so that it just uses the network difficulty. Then all I would see in the console is when a block is found, I would assume?
+
+
+[01/23/2022 8:01 PM] DishBrain#1197
+I get this when a worker connects though, not sure if it's anything to be concerned about:
+```Authorize <walletaddresshere>.worker1:@::ffff:192.168.1.222
+debug: [Unknown stratum method from walletaddresshere.worker1 [::ffff:192.168.1.222]: mining.extranonce.subscribe] undefined```
+
+
+[01/26/2022 11:25 PM] cryptosafe#2323
+I wouldnt be suprised if nice hash was using eth to pay out eth miners while using there gpu power to mine ergo or something to stock pile
+
+
+[01/26/2022 11:50 PM] cryptosafe#2323
+I found this to be very confusing
+
+
+[02/02/2022 9:02 PM] Strider#6512
+Got your stratum up?
+
+
+[03/07/2022 11:36 AM] Andrius 11G#2333
+Still early but I need some more luck to find a block 🙂
+
+
+[03/23/2022 9:08 PM] Salu#0001
+day 17 of solo mining....with my 700mhs....effort approaching 50%..still no block..looks like my solo venture was a blunder. please god. just one block is all i ask
+
+
+[03/23/2022 9:25 PM] oocp#3531
+Hard to get a solo block right now and your HR is low.  I sniped a dozen at 10GH over a week.  I do see LHR rigs getting blocks, however, the force multiplier is your ping!  Check to see what your delay looks like between the rig and the solo pool.
+
+
+[03/23/2022 9:44 PM] Salu#0001
+wait really!??
+
+
+[03/23/2022 9:44 PM] Salu#0001
+my pings like 120ms
+
+
+[03/23/2022 9:45 PM] Salu#0001
+might just switch pools cause of this and give it another few percent
+
+
+[03/23/2022 9:49 PM] oocp#3531
+120 is not great
+
+
+[03/23/2022 9:49 PM] Salu#0001
+nvm my rig is at 60ms
+
+
+[03/23/2022 9:49 PM] oocp#3531
+2 miners solo and pool are pining from 24 ms
+
+
+[03/23/2022 9:49 PM] Salu#0001
+my desktop is at 100
+
+
+[03/23/2022 9:49 PM] Salu#0001
+yeah im using 2miners
+
+
+[03/23/2022 9:49 PM] oocp#3531
+you need to get closer
+
+
+[03/23/2022 9:50 PM] Salu#0001
+im in Ontario tho
+
+
+[03/23/2022 9:50 PM] Salu#0001
+would hero be a better bet?
+
+
+[03/23/2022 9:50 PM] oocp#3531
+Maybe
+
+
+[03/23/2022 9:50 PM] oocp#3531
+check your ping
+
+
+[03/23/2022 9:51 PM] Salu#0001
+do i just ping the sever in cmd?
+
+
+[03/23/2022 9:52 PM] oocp#3531
+2miners has a US solo pool:  us-solo-erg.2miners.com:9999
+
+
+[03/23/2022 9:52 PM] oocp#3531
+try that
+
+
+[03/23/2022 9:52 PM] oocp#3531
+yes
+
+
+[03/23/2022 9:52 PM] oocp#3531
+use the ping cmd from a cmd line on the server
+
+
+[03/23/2022 9:52 PM] oocp#3531
+if you are using HiveOS - just open a terminal
+
+
+[03/23/2022 9:53 PM] Salu#0001
+im gonna get my other gpus on it and have a total of 1ghz
+
+
+[03/23/2022 9:53 PM] oocp#3531
+that will help
+
+
+[03/23/2022 9:53 PM] Salu#0001
+and try it for a week
+
+
+[03/23/2022 9:53 PM] Salu#0001
+if not then fuck it back to eth i guess
+
+
+[03/23/2022 9:53 PM] oocp#3531
+check the ping
+
+
+[03/23/2022 9:53 PM] oocp#3531
+that delay will kill your chances
+
+
+[03/23/2022 9:53 PM] Salu#0001
+damn it man
+
+
+[03/23/2022 9:54 PM] Salu#0001
+alright what range is acceptable?
+
+
+[03/23/2022 9:54 PM] oocp#3531
+Awesome: 20's. Great: 30's. Everything else:  adding additional variable to winning a block.
+
+
+[03/23/2022 9:56 PM] oocp#3531
+I started on ERG only this month.  I had to figure out the network variables to understand if I could solo mine.  I ultimately mined from a rented rig at a constant rate at the same time from in the region that seemed to have the best ping.
+
+
+[03/23/2022 9:56 PM] oocp#3531
+That said, brute force method:  find a port that is close enough, or setup your own node (like @DishBrainle was saying - I think he left).
+
+
+[03/23/2022 9:59 PM] Salu#0001
+damn setting up my own node would be sick
+
+
+[03/23/2022 9:59 PM] Salu#0001
+but yeah might just rent some hash at this rate
+
+
+[03/23/2022 9:59 PM] Salu#0001
+tried pining hero
+
+
+[03/23/2022 9:59 PM] Salu#0001
+aaaand
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/956311271765053490/unknown.png
+
+
+[03/23/2022 10:00 PM] oocp#3531
+Try this: 2miners has a US solo pool:  us-solo-erg.2miners.com
+
+
+[03/23/2022 10:00 PM] Salu#0001
+im getting like 57..
+
+
+[03/23/2022 10:00 PM] Salu#0001
+but my hive rig get 68
+
+
+[03/23/2022 10:00 PM] Salu#0001
+this is for 2miners
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/956311567790637116/unknown.png
+
+
+[03/23/2022 10:01 PM] oocp#3531
+Not great. Right now, the deep pockets are mining solo. I’ve been fighting hash wars with guys who push up the rate to hold 400-600 GH
+
+
+[03/23/2022 10:01 PM] Salu#0001
+yeah i saw
+
+
+[03/23/2022 10:01 PM] oocp#3531
+But. I found some soft spots
+
+
+[03/23/2022 10:01 PM] oocp#3531
+Gotta be strategic.
+
+
+[03/23/2022 10:02 PM] oocp#3531
+Hint:  multiple wallets.
+
+
+[03/23/2022 10:02 PM] Salu#0001
+go on...
+
+
+[03/23/2022 10:02 PM] oocp#3531
+On multiple regions.
+
+
+[03/23/2022 10:02 PM] oocp#3531
+At slightly different rates.
+
+
+[03/23/2022 10:02 PM] Salu#0001
+interesting. what advantage does that add?
+
+
+[03/23/2022 10:02 PM] oocp#3531
+You are still aggregating hash. Even if you split it up
+
+
+[03/23/2022 10:02 PM] oocp#3531
+So…
+
+
+[03/23/2022 10:02 PM] Salu#0001
+wait wait if the network is all on the same block what differnce does it make
+
+
+[03/23/2022 10:03 PM] Salu#0001
+pool or solo everyones competing for one solution
+
+
+[03/23/2022 10:03 PM] oocp#3531
+You are still competing
+
+
+[03/23/2022 10:03 PM] oocp#3531
+Yes.
+
+
+[03/23/2022 10:03 PM] oocp#3531
+But you are competing against the big buys
+
+
+[03/23/2022 10:03 PM] Salu#0001
+alright good was wondering if my understanding was off
+
+
+[03/23/2022 10:04 PM] oocp#3531
+If you can slide in and hold across various regions on the same port, you may win. It works. Sometimes. It fails often. Lol
+
+
+[03/23/2022 10:04 PM] Salu#0001
+man leave me alone and let ya boi hit just one...fucking...block
+
+
+[03/23/2022 10:04 PM] Salu#0001
+ill research into this
+
+
+[03/23/2022 10:04 PM] Salu#0001
+but using diff ports all your doing is sending your shares to different pool addresses
+
+
+[03/23/2022 10:04 PM] oocp#3531
+You should. The whale are aggregating ergo. May be best to get on a pool.
+
+
+[03/23/2022 10:04 PM] Salu#0001
+brute forcing the same amount of shares hoping..that is the solution
+
+
+[03/23/2022 10:04 PM] oocp#3531
+No. Same pool.
+
+
+[03/23/2022 10:05 PM] oocp#3531
+Different wallets. Same pool.
+
+
+[03/23/2022 10:05 PM] Salu#0001
+yeah i suppose
+
+
+[03/23/2022 10:05 PM] Salu#0001
+at anyrate im gonna try and cut my latency thanks for that
+
+
+[03/23/2022 10:05 PM] Salu#0001
+and max it to 1ghs for a week
+
+
+[03/23/2022 10:05 PM] oocp#3531
+Also.
+
+
+[03/23/2022 10:05 PM] oocp#3531
+Check out CLO
+
+
+[03/23/2022 10:06 PM] Salu#0001
+if not back to eth i need to padd some roi even tho im far from it
+
+
+[03/23/2022 10:06 PM] oocp#3531
+You can grab 50 blocks a day
+
+
+[03/23/2022 10:06 PM] Salu#0001
+that a coin?
+
+
+[03/23/2022 10:06 PM] Salu#0001
+wtf..
+
+
+[03/23/2022 10:06 PM] oocp#3531
+Yup
+
+
+[03/23/2022 10:06 PM] oocp#3531
+callisto
+
+
+[03/23/2022 10:06 PM] oocp#3531
+It’s not that new but is growing
+
+
+[03/23/2022 10:06 PM] oocp#3531
+It is at .007. Was at .006. And is growing
+
+
+[03/23/2022 10:06 PM] oocp#3531
+Really fast chain.
+
+
+[03/23/2022 10:07 PM] oocp#3531
+Guys who built ETC designed it.
+
+
+[03/23/2022 10:07 PM] Salu#0001
+i could just dump a 100$ into it and see what happens
+
+
+[03/23/2022 10:07 PM] Salu#0001
+interesting
+
+
+[03/23/2022 10:07 PM] oocp#3531
+That’s what I did.
+
+
+[03/23/2022 10:07 PM] Salu#0001
+hows the algo run
+
+
+[03/23/2022 10:07 PM] oocp#3531
+Then I mined it.
+
+
+[03/23/2022 10:07 PM] oocp#3531
+It’s the same as Eth
+
+
+[03/23/2022 10:07 PM] Salu#0001
+like eth hash or auto?
+
+
+[03/23/2022 10:07 PM] oocp#3531
+Eth
+
+
+[03/23/2022 10:07 PM] Salu#0001
+i see
+
+
+[03/23/2022 10:07 PM] oocp#3531
+Dagger works.
+
+
+[03/23/2022 10:07 PM] oocp#3531
+2 miners supports it.
+
+
+[03/23/2022 10:07 PM] oocp#3531
+Or. You could go to ETC.
+
+
+[03/23/2022 10:07 PM] Salu#0001
+fuck it...reason for losing 100$ this month dude name @oocp said so. works for me
+
+{Reactions}
+878781398566195210 
+
+[03/23/2022 10:07 PM] oocp#3531
+That’s hot.
+
+
+[03/23/2022 10:08 PM] Salu#0001
+hot for now
+
+
+[03/23/2022 10:08 PM] Salu#0001
+my love is with ergo
+
+
+[03/23/2022 10:08 PM] Salu#0001
+once eth pos
+
+
+[03/23/2022 10:08 PM] oocp#3531
+No doubt.
+
+
+[03/23/2022 10:08 PM] Salu#0001
+im gonna mine ergo at a loss, fuck it
+
+
+[03/23/2022 10:08 PM] oocp#3531
+That’s the spirit.
+
+{Reactions}
+pogcat 
+
+[03/23/2022 10:08 PM] oocp#3531
+Better stack. For sure.
+
+
+[03/23/2022 10:08 PM] oocp#3531
+It’s gonna get out of reach.
+
+
+[03/23/2022 10:08 PM] Salu#0001
+i suppose we found the bottom at 3$
+
+{Reactions}
+🚀 
+
+[03/23/2022 10:09 PM] oocp#3531
+My first solo was on Ergo. Snapped it
+
+
+[03/23/2022 10:09 PM] Salu#0001
+im just worried its gonna snap back down and be annoying again
+
+
+[03/23/2022 10:09 PM] Salu#0001
+stupid btc just crash already so we can DCA heavy
+
+
+[03/23/2022 10:09 PM] oocp#3531
+It should and will as ppl accumulate
+
+
+[03/23/2022 10:09 PM] Salu#0001
+fair enough its still below my AC
+
+
+[03/23/2022 10:09 PM] oocp#3531
+Rig rentals gonna skyrocket
+
+
+[03/23/2022 10:09 PM] oocp#3531
+Nice.
+
+
+[03/23/2022 10:10 PM] Salu#0001
+wait so your saying to rent a rig aswell?
+
+
+[03/23/2022 10:10 PM] oocp#3531
+I mine Eth from home. Running 2GH
+
+
+[03/23/2022 10:10 PM] Salu#0001
+i was thinking just throw a market order in and call it a week
+
+
+[03/23/2022 10:10 PM] Salu#0001
+daaamn full mini farm op
+
+
+[03/23/2022 10:10 PM] Salu#0001
+how many gpus?
+
+
+[03/23/2022 10:10 PM] oocp#3531
+32. (Mostly 3070’s, plus some 3080’s)
+
+
+[03/23/2022 10:11 PM] Salu#0001
+roi fuck knows gang same but i got in bed with overpriced vegas
+
+{Reactions}
+😂 
+
+[03/23/2022 10:11 PM] Salu#0001
+3 vegas my 2080ti 2070super a friends 3080ti and cutie mc crash the entire rig rx570 i got for free
+
+
+[03/23/2022 10:12 PM] oocp#3531
+Thats part of it.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/956314556244824074/IMG_9097.jpg
+
+
+[03/23/2022 10:13 PM] Salu#0001
+thats a nice space heater
+
+
+[03/23/2022 10:13 PM] Salu#0001
+whats you $kwh?
+
+
+[03/23/2022 10:13 PM] oocp#3531
+Lol. 4.3Kw
+
+
+[03/23/2022 10:13 PM] oocp#3531
+.10
+
+
+[03/23/2022 10:13 PM] Salu#0001
+my god
+
+
+[03/23/2022 10:13 PM] Salu#0001
+not bad not bad
+
+
+[03/23/2022 10:13 PM] Salu#0001
+Callisto only on pancake swap
+
+
+[03/23/2022 10:14 PM] Salu#0001
+ew eth gas fees please god no
+
+
+[03/23/2022 10:14 PM] oocp#3531
+And direct. They have a bridge.
+
+
+[03/23/2022 10:14 PM] oocp#3531
+Works perfectly.
+
+
+[03/23/2022 10:14 PM] oocp#3531
+I used ETH to get it.
+
+
+[03/23/2022 10:14 PM] Salu#0001
+direct to what, forgive my ignorance
+
+
+[03/23/2022 10:14 PM] oocp#3531
+And is native with Meta Mask
+
+
+[03/23/2022 10:14 PM] oocp#3531
+From their website.
+
+
+[03/23/2022 10:14 PM] Salu#0001
+can swap for tether or usdc?
+
+
+[03/23/2022 10:14 PM] oocp#3531
+I think so.
+
+
+[03/23/2022 10:14 PM] oocp#3531
+Go to
+
+
+[03/23/2022 10:15 PM] oocp#3531
+https://wallet.callisto.network
+
+{Embed}
+https://wallet.callisto.network/
+Callisto Wallet
+Callisto Wallet is a free, open-source, client-side interface for generating Ethereum wallets & more. Interact with the Ethereum blockchain easily & securely. Double-check the URL before unlocking your wallet.
+https://images-ext-2.discordapp.net/external/-AwHhw5ll9e-yA8Z74iLTXSyjdrWj6Oi-hJsaNrsY_w/https/wallet.callisto.network/images/logo-myetherwallet.png
+
+
+[03/23/2022 10:17 PM] Salu#0001
+thanks gonna check this out, cheers my dude, happy hashing!
+
+
+[03/23/2022 10:27 PM] oocp#3531
+You too!!
+
+
+[03/24/2022 1:20 PM] Deleted User#0000
+damn price per TH mooned, to be expected tho.  i was gonna go for a solo shot but now nethash above 17th
+
+
+[03/25/2022 12:35 PM] oocp#3531
+It is crazy high - ergo is no longer a hidden project.
+
+
+[04/12/2022 1:13 AM] J𝖆𝖈Kington#8981
+any hero stories about single card solo mining and actually getting blocks?
+
+
+[04/13/2022 9:56 AM] flocki#0712
+I found an ergo block with a RX6700xt
+
+
+[04/13/2022 9:57 AM] flocki#0712
+with in a couple of hours, it was less than 1% effort
+
+
+[04/13/2022 10:05 AM] flocki#0712
+i was testing out solo mining on a pool, so it was surprise it popped up so quick, I had to double check it was real.
+
+
+[04/13/2022 2:32 PM] AvatarOne#8905
+just a quick question, does solo mining with 509mh/s make any sense, or should I just stick to a pool?
+
+
+[04/13/2022 2:32 PM] AvatarOne#8905
+thanks in advance!
+
+
+[04/14/2022 3:28 AM] blackinsecure#3693
+unless we're talking about tens of GHs, it's best to stick to pools
+
+
+[04/14/2022 3:28 AM] blackinsecure#3693
+my opinion
+
+
+[04/14/2022 9:34 AM] AvatarOne#8905
+Thank you for answering! 🙂
+
+
+[04/15/2022 4:27 AM] coltrain#5970
+I dunno I think it's personal preference. It'll be the same over a long enough timeline. My first 3 blocks have been 1%, 1%, 9% so I'm hooked on the solo
+
+
+[04/15/2022 9:26 PM] RulezZzOr#2883
+miner? latency? which pool is best
+
+
+[04/16/2022 1:23 AM] coltrain#5970
+I use newest Trex miner and woolypooly but haven't tried other pools yet, 2.3 ghs
+
+
+[04/16/2022 9:22 AM] RulezZzOr#2883
+wooly seems to be stuck somehow now, 1 block per 24h yes.
+
+
+[04/16/2022 9:23 AM] RulezZzOr#2883
+i quit that after 10days of nothing on herominers, they s*ck
+
+
+[04/16/2022 2:01 PM] flocki#0712
+yer I ran on Hero for a few weeks with 1gh after the initial find, but got jack then, so i gave up
+
+
+[04/16/2022 4:36 PM] RulezZzOr#2883
+too too
+
+
+[04/16/2022 4:36 PM] RulezZzOr#2883
+that luck system is shitty
+
+
+[04/16/2022 10:18 PM] bonfiggy#3939
+im over 250% on herominers as well
+
+
+[04/16/2022 10:19 PM] bonfiggy#3939
+seems rigged no?
+
+
+[04/16/2022 10:27 PM] flocki#0712
+not sure its the pool doing anything wrong, it most likely a latency issue. for me HeroM was the lowest ping @ 100ms
+
+
+[04/16/2022 10:27 PM] bonfiggy#3939
+i get 20ms
+
+
+[04/16/2022 10:30 PM] flocki#0712
+I spun up a local node and strat server, just haven't got a round to moving the rigs to it yet.
+
+
+[04/17/2022 6:29 PM] GPU STR DSTRYR#2445
+Started solo on Friday and got my first block in less than 24 hours at 9% effort!  This is my baby, and already learned a lot from this channel!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/965302961540575322/BC990A00-7782-4700-AD79-E31239A1F961.jpg
+
+{Reactions}
+🚀 (2) 
+
+[04/17/2022 7:57 PM] bonfiggy#3939
+what pool
+
+
+[04/18/2022 5:09 AM] GPU STR DSTRYR#2445
+Woolypooly
+
+
+[04/18/2022 5:14 AM] GPU STR DSTRYR#2445
+The mem temps on ergo are such a nice change of pace after mining ETH the last 7 months, especially down in Florida
+
+
+[04/18/2022 1:50 PM] GPU STR DSTRYR#2445
+Can anyone tell me why my difficulty per block seems to have gone up from 64 G to 104G?  I checked network difficulty and it seems unchanged
+
+
+[04/19/2022 3:41 AM] coltrain#5970
+Hey there @GPU STR DSTRYR , I don't think network difficulty affects what you're looking at
+
+
+[04/19/2022 3:42 AM] coltrain#5970
+For the share difficulty I mean
+
+
+[04/19/2022 6:55 AM] GPU STR DSTRYR#2445
+Still out here getting cuter :MonkaChrist: :ergo_orange2:
+
+
+[04/19/2022 8:43 PM] GPU STR DSTRYR#2445
+I’m still out here getting cuter!!!
+
+
+[04/19/2022 10:56 PM] coltrain#5970
+mr star destroyer, even if you may be captaining a star destroyer class vessel, it does not give you authority to discuss non solo-mining topics in this channel!!!!
+
+
+[04/21/2022 9:45 PM] NewfieCrypto#4843
+Anyone here mining against a local Ergo node using HiveOS? If so, would you mind sharing the flight sheet setup you're using?
+
+
+[04/25/2022 7:43 PM] lmttx2#3516
+hello all  , i have only nvidia - trex is good for solo ?
+
+
+[04/27/2022 10:28 PM] lmttx2#3516
+yes is , for 40m but is a risk
+
+
+[04/28/2022 3:27 AM] bonfiggy#3939
+did you ever get to mining on your own node? i set up my own node/stratum as well recently
+
+
+[04/28/2022 9:06 AM] lmttx2#3516
+yes im
+
+
+[04/28/2022 10:16 AM] deadmanjack#7418
+What are the benefits to running my node , i set mine up but its for ever synching
+
+
+[04/28/2022 10:42 AM] lmttx2#3516
+in my case it took days to sync, the advantage of node is the speed with which you send the shares +/- 2ms
+
+
+[04/28/2022 11:47 AM] deadmanjack#7418
+Is shares the transactions ?
+
+
+[04/28/2022 1:07 PM] lmttx2#3516
+this ? I'm new to these things, I'm not sure what you  ask.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/969208330193084526/unknown.png
+
+
+[04/28/2022 6:41 PM] GPU STR DSTRYR#2445
+would love to know more about how you setup your node/stratum
+
+
+[04/28/2022 7:09 PM] lmttx2#3516
+https://www.youtube.com/channel/UC9vn36p409nj_IbqGkmHkQA/videos
+
+{Embed}
+https://www.youtube.com/channel/UC9vn36p409nj_IbqGkmHkQA/videos
+Zeche Königsberg
+https://images-ext-1.discordapp.net/external/_oQfusnPgfY9NWjGrIcmBH-RQZMv3kGVvW1psfeaR_I/https/yt3.ggpht.com/HBWQ4oSoEHS2mhWtsoVnCQgR6TgyiYKxO3hTuE-UgMMfRWHKVSEm5x1rdpQ0JX2pKTSNTCT6AQ%3Ds900-c-k-c0x00ffffff-no-rj
+
+{Reactions}
+👍 
+
+[04/28/2022 7:10 PM] lmttx2#3516
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/969299568204320828/unknown.png
+
+
+[04/29/2022 11:58 AM] deadmanjack#7418
+ive go ta 2080ti mining ,bout to have 2 3060's  as well on my 2nd rig, and i have a 2060 12 gig that im looking at plugging into my pain pc 2nd slot via a riser , should i be looking at solo mining for better returns then a pool ?
+If so what resources should i be aware of and wha tshould i read/watch
+Cheers
+
+
+[04/30/2022 6:48 PM] Jayrod1229#2305
+Is it better to solo mine to a pool that has less miners or more?
+
+
+[04/30/2022 8:15 PM] livingoodlife#2560
+2Miners Solo mining here- Anything better?? What do you all use to Solo Mine? Besides your own node.
+
+
+[05/01/2022 7:10 AM] flocki#0712
+No, gave up on it.
+
+
+[05/04/2022 6:11 AM] bonfiggy#3939
+please someone for the love of all things good
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/971277783726686218/5c0b48c1823b2335fa7ea7e1f3cf5e71.png
+
+{Reactions}
+🤣 
+
+[05/04/2022 6:11 AM] bonfiggy#3939
+will me to find this block in the next 2 hours plsss
+
+
+[05/06/2022 3:39 PM] RulezZzOr#2883
+ouch
+
+
+[05/07/2022 12:08 AM] Error 404#9062
+i`m trying solo mining with 140mh/s LoL
+
+
+[05/07/2022 12:09 AM] Error 404#9062
+going for a block with 1% luck
+
+
+[05/07/2022 12:09 AM] Error 404#9062
+not like the 432% up there 😆
+
+
+[05/08/2022 10:02 AM] blackinsecure#3693
+literally good luck
+
+
+[05/25/2022 6:10 PM] Skitzo#0190
+anybody ever hit a block with 130 MH/s? just wondering if im waistin my time solo mining...
+
+
+[05/25/2022 7:57 PM] ÅrÖhBê#8289
+It’s possible but would be entirely based on luck.  There was a calculator created some time back.  You can take a look https://docs.google.com/forms/d/e/1FAIpQLScBFv3mxpu5Erv55zvfFuIo2NnaWht3cc70xZoRo-3c58Cv0A/viewform
+
+{Embed}
+https://docs.google.com/forms/d/e/1FAIpQLScBFv3mxpu5Erv55zvfFuIo2NnaWht3cc70xZoRo-3c58Cv0A/viewform
+Can I solo mine?
+Put in these values and check for yourself
+https://images-ext-1.discordapp.net/external/tmEKk9Jc5TuAnP9xnP6dI4RhPJ-_Ti3qidAgfCXuNLI/https/lh5.googleusercontent.com/g_WOCCdvs4vggFmZETEApXY053s-T3yFRVv2KwwkAFi5vb8mHqViXKbigkJSgZTv-gwV42JU2oQ%3Dw1200-h630-p
+
+
+[05/26/2022 5:15 AM] Babelfish24#2887
+This is my solo mining effort.  I'm hitting a block every 23 hours on average over the last 12 days with 11 gh/s.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/979236200466505728/unknown.png
+
+
+[05/26/2022 5:15 AM] Babelfish24#2887
+One of the blocks was an Uncle though.
+
+
+[05/27/2022 8:10 PM] Babelfish24#2887
+Hi, I just setup a ergo node and I have started mining to it. How do I know that everything is working properly?
+
+
+[05/28/2022 2:42 PM] glasgowm#9381
+How you were you solo mining in the previous photo?
+
+
+[05/28/2022 2:44 PM] glasgowm#9381
+I think the subpooling that GetBlok are enabling now could make things a lot easier; or would you need at least 1 other person @ÅrÖhBê ?
+
+
+[05/28/2022 3:06 PM] ÅrÖhBê#8289
+It can be a single solo instance which is what we are in process of launching now.  In the next few weeks user based subpools will be ready which can be customized to mine with friends as youre referring to
+
+{Reactions}
+👍 
+
+[05/28/2022 3:27 PM] Babelfish24#2887
+I am currently solo mining to woolypooly, I just want to solo mine to my own node.
+
+
+[05/28/2022 4:29 PM] Babelfish24#2887
+Right now I am solo mining to a pool, but I'd like to mine to my own node, are there any references to getting this running? I followed a couple of videos on youtube and appear to have it all running but when I mine to it, the miner doesn't find any shares. and this is what the node says:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/980130740970860634/unknown.png
+
+
+[05/28/2022 4:31 PM] ÅrÖhBê#8289
+Check the pinned messages in #🛠│host-a-pool should be a good start
+
+
+[05/31/2022 3:42 AM] Babelfish24#2887
+Hi everyone, I just setup my node and miningcore server so that I can solo mine to my node is there someone who can look at my json file to make sure I have it set correctly?
+
+
+[05/31/2022 5:30 AM] Babelfish24#2887
+Is there anyone here?
+
+
+[06/01/2022 4:42 AM] coltrain#5970
+I'd help if I could but I can't, solo mining like you were to wooly, going to try that subpool mentioned above eventually
+
+
+[06/01/2022 5:18 AM] Babelfish24#2887
+solo to woolypooly is working great, I just figured solo to my own node would be better.
+
+
+[06/02/2022 2:56 AM] Babelfish24#2887
+If I mine a solo block to my node how many network confirmations till it shows up in the wallet?
+
+
+[06/02/2022 12:25 PM] festere#4187
+Hi everyone, I am solo mining and have a few questions. The first one is for 2miners in EU there is 2 server, one is normal and the other one is "HiDIFF" what does it mean ? And is using multiple miners for one rig can have bad effect or doesn't change anything ?
+
+
+[06/04/2022 4:38 PM] ÅrÖhBê#8289
+Hey everyone if you’re interested in solo mining check out our new Solo SmartPool at Ergo.GetBlok.io 
+
+Our first solo miner found 3 blocks with 50gh in less than 12 hours!
+
+
+[06/04/2022 4:38 PM] ÅrÖhBê#8289
+https://twitter.com/GetBlok_io/status/1533109915455209473
+
+{Embed}
+GetBlok.io (@GetBlok_io)
+https://twitter.com/GetBlok_io/status/1533109915455209473
+🎉 First Solo Blok found, confirmed, and paid on https://t.co/2eRiEOP6B4 Solo SubPool
+
+Come see why SubPooling is all about at https://t.co/AaLBlBBwuy
+
+Next in line let’s get those @CometMooning Blocks
+
+5000 $COMET bonus reward for every 1 $ERG mined 👀
+
+#CryptoMining #gpumining
+https://images-ext-2.discordapp.net/external/mGO-6py387OAxU0k4lVA4MT2dXcN8QKdbiumPA5sZrk/https/pbs.twimg.com/media/FUazU6GXsAAaxSj.jpg
+Twitter
+
+
+[06/07/2022 4:31 PM] 0xMNITY#6979
+Hi diff from what they say is if you have a lot of gpu's but if you're unsure you can just use the lower difficulty one.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/983755208641363968/unknown.png
+
+
+[06/07/2022 4:39 PM] festere#4187
+Oh alright, thanks you so it's logically better to use the normal one when we don't have thousand of GPU's
+
+
+[06/07/2022 4:39 PM] 0xMNITY#6979
+yes sir 👍
+
+
+[06/07/2022 4:40 PM] festere#4187
+Thanks you again 😉
+
+
+[06/08/2022 1:21 PM] zzzkky#1782
+hi, i have set up the testnet, and solo  mined some blocks, but with different address, prefix with 'm', like this block
+https://testnet.ergoplatform.com/en/blocks/ea3dc3df94ef6b1a14c769d9ef1996c53248912e2f7575452af065d18f29425f
+and the node wallet shows my address with prefis '3', with 0 balance.
+so what't the relation between these two addresses? how can i use the balance from block coinbase?
+
+
+[06/09/2022 3:42 AM] zzzkky#1782
+now i can see the balance. so i should wait for some confirms to see my balance? how many confirms?
+
+
+[06/16/2022 3:34 PM] Manzier#4790
+do I need to really install the pool software or can I just mine directly to my node?
+
+
+[06/16/2022 6:16 PM] miningcrypto.live#1846
+New Solo pool is up
+https://ergo-solo.miningcrypto.live
+
+
+[06/17/2022 2:39 AM] Babelfish24#2887
+Hi, I need some help setting up my ergostratumserver. I'm having an issue where the difficulty keeps going down and the times go down.  And i get a bunch of invalid low diff shares.
+
+
+[06/18/2022 10:15 PM] DoBetter#3671
+anyone have any luck solo mining on herominers
+
+
+[06/19/2022 7:11 PM] Murr#9913
+I have a question about solo mining to my home node .... do I need to enable block generation in the config?
+
+
+[06/19/2022 7:11 PM] Murr#9913
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/988144078539620453/unknown.png
+
+
+[06/19/2022 7:12 PM] Murr#9913
+or is this not required ?
+
+
+[06/19/2022 7:15 PM] Murr#9913
+The how-to set up a node tutorial does not cover mining ...
+
+
+[06/20/2022 1:50 PM] GeoMax65#0566
+I believe that is High Difficulty. It seems more geared toward miners with high rig count.
+
+
+[06/22/2022 8:10 PM] ▲.#1802
+is there the equivalent of monero cart but for ergo - cause that level of mining accessibility is needed for scale
+
+
+[06/29/2022 4:46 PM] GeoMax65#0566
+Solo Mining for 8 days with 2.4GH and nothing. 94% luck right now. I guess I should have pool mined. I am mining on 2miners.com
+
+
+[06/29/2022 6:31 PM] Murr#9913
+yeah that's not enough GH for solo mining
+
+
+[06/29/2022 11:17 PM] GeoMax65#0566
+The calculator says I should get a block per week and 4 per mo. I kinda want to keep going until I get at least one block and the go back to the pool.
+
+
+[06/29/2022 11:59 PM] 0xMNITY#6979
+Yeah that's the thing with solo mining it's all luck, one month you may only get 2 blocks, another month you could get 6 so over the long run it should even out, but short term is just lucky or unlucky
+
+
+[06/30/2022 12:00 AM] 0xMNITY#6979
+difficulty adjusts also, so it might depend on when you do that calculation
+
+
+[06/30/2022 12:00 AM] 0xMNITY#6979
+it would have to also stay relatively steady
+
+
+[06/30/2022 12:02 AM] 0xMNITY#6979
+and lately the difficulty has been fluctuating a bit
+
+
+[06/30/2022 1:26 AM] Murr#9913
+have you tried using a poisson distribution model to predict when you might get a block?
+
+
+[06/30/2022 2:19 AM] GeoMax65#0566
+No I have not. I pulled one rig off and went back to the pool. I will just let it go solo on the others for a few more days. If I dont get a block, oh well. I only missed out on a block at this point.
+
+
+[06/30/2022 2:20 AM] GeoMax65#0566
+Yes. It is wilding jumping around. Not sure what is behind that?
+
+
+[06/30/2022 2:22 AM] GeoMax65#0566
+Even though mining ETH kinda dried up, I think I would keep mining ERGO for the long haul. It seems more solid than anything else I have mined. Rigs are stable and cool. Power drain is much less. What's not to like, right?
+
+
+[06/30/2022 5:25 AM] 0xMNITY#6979
+profitability switching I would guess, would think once ergo has more hashrate it would stabalize more
+
+
+[06/30/2022 5:26 AM] 0xMNITY#6979
+I mined raven a little bit and yeah the cards ran a lot hotter, it's nice for the summer with them much cooler
+
+
+[06/30/2022 7:51 PM] 0xMNITY#6979
+do you have mining = true set in ergo.conf?
+
+
+[06/30/2022 7:51 PM] 0xMNITY#6979
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992140380806054059/unknown.png
+
+{Reactions}
+😭 
+
+[06/30/2022 8:06 PM] Murr#9913
+its appears he does not
+
+
+[06/30/2022 8:09 PM] Murr#9913
+make sure you have this in ergo.conf file @claudiodelf
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992144820518780959/unknown.png
+
+
+[06/30/2022 10:25 PM] GeoMax65#0566
+How can I be at 103% luck, then it drops to 94% luck without getting a block?
+
+
+[06/30/2022 10:36 PM] 0xMNITY#6979
+difficulty increased
+
+
+[06/30/2022 10:38 PM] Murr#9913
+this
+
+
+[06/30/2022 10:40 PM] 0xMNITY#6979
+this is what we were talking about regarding the difficulty fluctuation
+
+
+[06/30/2022 11:11 PM] GeoMax65#0566
+I see, thanks! I am still a newbie 😉
+
+{Reactions}
+👍 
+
+[06/30/2022 11:38 PM] 0xMNITY#6979
+you and me both
+
+
+[06/30/2022 11:38 PM] Murr#9913
+You can change it afterwards, you will just need to shut down and restart the node after changing the .conf file
+
+
+[06/30/2022 11:45 PM] Murr#9913
+I'm starting up a new node right now in docker ubuntu raspberry pi 4
+
+
+[06/30/2022 11:55 PM] GeoMax65#0566
+I gave up on solo-mining. Just not worth fighting all the manipulation and greed. I will just chip away making my little pool profit and hope someday that ERGO goes to the moon.
+
+
+[07/01/2022 12:01 AM] Murr#9913
+put the local ip address of the node and port 3032
+
+
+[07/01/2022 12:05 AM] Murr#9913
+if you are trying to connect to your node from outside your local network you will need to use the public ip address to connect
+
+
+[07/01/2022 12:28 AM] Murr#9913
+for your rigs on the home network, you would put the node's local ip address, not 127.0.0.1, that would only work if you were mining on the same machine as the node
+
+
+[07/01/2022 12:29 AM] Murr#9913
+yes for your friends to connect give them your ISP public ip address
+
+
+[07/01/2022 12:36 AM] Murr#9913
+No that’s the public IP address get the node private IP address that your router assigned the node pc, usually begins with 192. Or 10.
+
+
+[07/01/2022 12:45 AM] Murr#9913
+Yes
+
+
+[07/01/2022 12:46 AM] Murr#9913
+Lol you got it correct now
+
+
+[07/01/2022 12:50 AM] Murr#9913
+Correct
+
+
+[07/01/2022 1:04 AM] Murr#9913
+Glad to help and good luck
+
+
+[07/01/2022 6:26 AM] Babelfish24#2887
+Is the 4.0.32 RC a required update for running a node?
+
+
+[07/01/2022 10:45 PM] Murr#9913
+this is how im monitoring my rigs mining solo
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992546515082018946/unknown.png
+
+{Reactions}
+👍 
+
+[07/01/2022 10:46 PM] Murr#9913
+there is nothing in the ergo node interface to monitor your rigs with
+
+
+[07/02/2022 12:42 AM] claudiodelf#7503
+Hello sorry for the trouble but I have a problem.  So I was able to configure the whole node and also the wallet then after I launched ErgoStratumServer and thank god it started without any errors.  Now I have a problem with hive.os.  In practice I put the ip of the pc where I installed the node example 192.168.50.76:3032 and the wallet and the rest but the conditions from shellinabox I see them doing them but the gpu does not start on hiveos!  What cost am I doing wrong in the flight sheet configuration?
+on the powershell of ErgoStratumServer see what is written in the images I have attached to you
+
+
+[07/02/2022 12:42 AM] claudiodelf#7503
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992576083335585893/server.jpg
+
+
+[07/02/2022 12:43 AM] claudiodelf#7503
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992576127400955985/goooood.jpg
+
+
+[07/02/2022 12:43 AM] claudiodelf#7503
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992576169608216638/Shellinabox.jpg
+
+
+[07/02/2022 12:50 AM] Murr#9913
+Try to just put the ip and port without stratum+tcp
+
+
+[07/02/2022 12:50 AM] Murr#9913
+In the flight sheet
+
+
+[07/02/2022 12:53 AM] claudiodelf#7503
+Already tried but if I don't put it it doesn't even share 1! the problem is that the gpus don't start
+
+
+[07/02/2022 12:53 AM] Murr#9913
+Try a different miner
+
+
+[07/02/2022 12:53 AM] Murr#9913
+Trex or gminer
+
+
+[07/02/2022 12:54 AM] Murr#9913
+For 5700xt I would use phoenix miner or team red miner
+
+
+[07/02/2022 12:54 AM] claudiodelf#7503
+I call these mysteries !!!! Finally I managed to synchronize all the node and the server and now the hive does not start .... Crazy
+
+
+[07/02/2022 12:55 AM] Murr#9913
+I don’t use hiveos anymore
+
+
+[07/02/2022 12:55 AM] claudiodelf#7503
+now I try
+
+
+[07/02/2022 1:52 AM] claudiodelf#7503
+Then with t-rex and lolminer the gpu start but with port 3032 the gpu does not go to maximum speed instead with port 3256 it is fine to the maximum .... It seems to me that I finally managed to set everything with this rig.
+
+
+[07/02/2022 1:52 AM] claudiodelf#7503
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992593671352504390/sincro.jpg
+
+
+[07/02/2022 1:53 AM] claudiodelf#7503
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992593715795333190/3256.jpg
+
+
+[07/02/2022 1:53 AM] claudiodelf#7503
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992593757985833032/ci_siamo.jpg
+
+
+[07/02/2022 1:54 AM] claudiodelf#7503
+sure it does a lot of refused shares but it makes a mess of it with the low ping with the local node
+
+
+[07/02/2022 2:53 AM] Murr#9913
+oh yeah you can change the ports and difficulty to whatever you want on the stratum server
+
+
+[07/02/2022 3:08 AM] claudiodelf#7503
+In fact the difficulty in port 3032 was starting from 8 which was too low and I set it to 256 now and I took port 3256 off the flight sheet.  Now it starts from at least 256 and adjusts the difficulty directly from port 3032.Thank you again for your help, if it wasn't for you I was still going crazy ... Thanks a lot friend.
+
+
+[07/02/2022 3:09 AM] Murr#9913
+no problem glad you got it all sorted
+
+
+[07/02/2022 3:10 AM] claudiodelf#7503
+Yesssssd
+
+
+[07/02/2022 3:11 AM] claudiodelf#7503
+I'm going to bed bye.
+
+
+[07/02/2022 3:40 AM] Babelfish24#2887
+what do I do to mine to the testnet with my own node?
+I want to verify my node/miningcore setup..
+
+
+[07/02/2022 11:26 AM] claudiodelf#7503
+Hello and good morning can you help me with this configuration of the start.js txt for the configuration of the difficulty. What settings did you set as the minimum difficulty of port 3032?
+I'll put some pictures under you. I would like to try to fix this problem I have with port 3032 ... if I put port 3256 the difficulty is always static at 256!
+Can you help me about it?
+
+
+[07/02/2022 11:26 AM] claudiodelf#7503
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992738095764086824/invio.jpg
+
+
+[07/02/2022 11:26 AM] claudiodelf#7503
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992738132225183804/invio2.jpg
+
+
+[07/02/2022 11:27 AM] claudiodelf#7503
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992738179792785408/invio_3.jpg
+
+
+[07/02/2022 11:44 AM] claudiodelf#7503
+I think I should set these up somehow but I don't know how
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992742464668565554/invio_4.jpg
+
+
+[07/02/2022 1:28 PM] claudiodelf#7503
+I think it is optimal to set a sharing difficulty of 8 or 9 Gb inside the start.js file
+Consider that initially on this node I will put about 6.5 GB of power on Ergo so I think a right difficulty to set should be 8 or 9 GB.
+How did you set everything up in yours?
+I found this setting online on youtube that I put below in the image, in your opinion this is a good setting here.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992768717480013824/impostare_difficolta_nodo_start_stradum.jpg
+
+
+[07/02/2022 1:32 PM] claudiodelf#7503
+But you with more than 8 gb of power in ergo alone on the node, how many blocks can you extract in an average month more or less?
+
+
+[07/02/2022 4:53 PM] Murr#9913
+That looks like the same setting I used from the YouTube video
+
+
+[07/02/2022 4:54 PM] Murr#9913
+I mined for three days on my node and did not find a block, now I’m mining ETH
+
+
+[07/02/2022 4:54 PM] Murr#9913
+I will trade the ETH I’ve mined for ergo
+
+
+[07/02/2022 5:15 PM] Flashgear#8659
+I'm sitting at 440% at 11.5Gh man it's tough
+
+
+[07/02/2022 6:44 PM] claudiodelf#7503
+3 days of mining with 8GB of power?
+
+
+[07/02/2022 6:44 PM] Murr#9913
+with 7-8GH yes
+
+
+[07/02/2022 6:45 PM] claudiodelf#7503
+But are you in the pool?
+
+
+[07/02/2022 6:46 PM] claudiodelf#7503
+so you never took even 1 block from your node?
+
+
+[07/02/2022 6:46 PM] Murr#9913
+nope
+
+
+[07/02/2022 6:47 PM] claudiodelf#7503
+:raging_mate:
+
+
+[07/02/2022 6:47 PM] Murr#9913
+but did this on 2miners
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/992848934823276594/unknown.png
+
+
+[07/02/2022 6:47 PM] claudiodelf#7503
+😭
+
+
+[07/02/2022 6:48 PM] claudiodelf#7503
+I am also on 2 miners from day 22 to 18 started but only 1 block I have taken so far
+
+
+[07/02/2022 6:53 PM] Murr#9913
+how many GH do you have ?
+
+
+[07/02/2022 6:55 PM] claudiodelf#7503
+on ergo I only have 2.3 gb
+
+
+[07/02/2022 6:57 PM] Murr#9913
+that's to low GH for solo mining, I would stick to pool mining with that
+
+
+[07/02/2022 6:57 PM] Murr#9913
+up to you though
+
+
+[07/02/2022 7:10 PM] claudiodelf#7503
+The others I have on eth in pool ... I wanted to try ergo just to see if it was better. But if I don't take another block by July 5th at 6pm, I'm below the eth pool. I thought much better erg in solo sincerely. Then yesterday 2miner sucked just 34 blocks in just 24 hours
+
+
+[07/03/2022 12:36 AM] Flashgear#8659
+Solo bro - finally hit a block at 467%
+
+
+[07/03/2022 12:38 AM] Murr#9913
+man thats rough
+
+
+[07/06/2022 11:40 PM] Elemental#9509
+Dang. I feel that. I've been hitting a block every few days and never went past 100% but now I did and it's a pain because like.. whats going on? 😂
+
+
+[07/07/2022 12:33 AM] Murr#9913
+I've been mining on my node for days and haven't got shit
+
+
+[07/07/2022 3:17 AM] Elemental#9509
+how much hash?
+
+
+[07/07/2022 3:17 AM] Murr#9913
+8-9gh
+
+
+[07/07/2022 3:18 AM] Elemental#9509
+dang. Are you sure that node is working?
+
+
+[07/07/2022 3:18 AM] Murr#9913
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/994427269709832212/unknown.png
+
+
+[07/07/2022 3:19 AM] Elemental#9509
+hmm
+
+
+[07/07/2022 3:19 AM] Murr#9913
+the other day i mined on woolypooly and found a block within like 2 1/2 hrs
+
+
+[07/07/2022 3:19 AM] Elemental#9509
+not sure what to tell you man. I only solo mine on 2miners
+
+
+[07/07/2022 3:20 AM] Elemental#9509
+since I don't have a separate pc to host my node currently
+
+
+[07/07/2022 3:21 AM] Murr#9913
+i mined a 2miners and was getting blocks there too
+
+
+[07/07/2022 3:22 AM] Murr#9913
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/994428080661737552/unknown.png
+
+
+[07/07/2022 3:22 AM] Murr#9913
+but my luck was going up a lot recently there
+
+
+[07/07/2022 4:13 AM] Elemental#9509
+unfortunate. Definitely a pain when you see your luck increasing a ton 😅
+
+
+[07/07/2022 6:24 AM] Babelfish24#2887
+For Miningcore, I'm looking for suggestions for my config.json file. I have an ERGO node setup and just want to mine to my node. I just want the rewards to go to the node wallet. What should I put in the config.json file for that... Also if I am mining to my own node, should I use varidiff? Or should I just set a static difficulty? Would it be more likely to hit a block with a low static diff like 1.0 if I'm not worrying about network congestion?
+
+Any help would be appreciated 🙂
+
+
+[07/07/2022 11:27 PM] Elemental#9509
+Yoo random but genuine question since I'm curious and this seems like the most logical place to ask. If I were to look for a friend/partner to solo mine with, would anyone be interested? 🤔 Currently at 4.6gh for those who care haha
+Profits would be split accordingly of course
+
+
+[07/07/2022 11:42 PM] Babelfish24#2887
+I've done this before, but we had similar hashrates.
+
+
+[07/07/2022 11:43 PM] Babelfish24#2887
+honestly, just solomine to a pool.
+
+
+[07/07/2022 11:43 PM] Babelfish24#2887
+or a node
+
+
+[07/07/2022 11:44 PM] Babelfish24#2887
+If you are going to split it in accordance with hash power you are just pool mining with a more sporadic payout....
+
+
+[07/08/2022 12:48 AM] Murr#9913
+I was going to do that with a friend but when the ETH diff bomb got reset they bailed out
+
+
+[07/08/2022 12:56 AM] Elemental#9509
+why'd he bail exactly?
+
+
+[07/08/2022 12:56 AM] Murr#9913
+To mine ETH
+
+
+[07/08/2022 12:56 AM] Elemental#9509
+I mean I get the eth bomb thing but is it really that profitable?
+
+
+[07/08/2022 12:57 AM] Murr#9913
+Yes check whattomine
+
+
+[07/08/2022 12:58 AM] Murr#9913
+I mined on pool with erg 24 hrs and made half what I’d make with ETH
+
+
+[07/08/2022 2:36 AM] Elemental#9509
+ah I see. Yeah personally my electric cost is too high for me to continue mining eth so I've just been testing my luck with ergo and have honestly been getting really lucky with it haha
+
+
+[07/08/2022 2:36 AM] Elemental#9509
+got  2 blocks within the 1st 12 hours
+
+
+[07/08/2022 2:40 AM] Babelfish24#2887
+Very nice, my best 24 hours was 3 blocks.
+
+
+[07/08/2022 4:31 AM] Elemental#9509
+oh dang good job man haha
+
+
+[07/08/2022 4:31 AM] Elemental#9509
+Yo @Murr how much hash do you have again? on ergo
+
+
+[07/08/2022 5:22 AM] Murr#9913
+8-9gh
+
+
+[07/08/2022 12:35 PM] Elemental#9509
+Oh dang. Got a better estimate by chance? lol
+
+
+[07/08/2022 9:53 PM] Murr#9913
+Estimate of what ?
+
+
+[07/08/2022 11:10 PM] Elemental#9509
+The hashrate. You said 8-9gh and that's kinda a big gap in between so I'm curious to know what the official amount is. Lol
+
+
+[07/08/2022 11:10 PM] Elemental#9509
+Like 8.5gh or something
+
+
+[07/08/2022 11:16 PM] Murr#9913
+It goes up and down between 8-9 on ergo, your hashrate stays steady?
+
+
+[07/08/2022 11:38 PM] Elemental#9509
+I meant like on hiveos or whatever you use. What is the displayed average amount? Lol
+Mine stays steady around 4.6gh
+
+
+[07/09/2022 12:33 PM] GeoMax65#0566
+This had me thinking about strategy. If one isnt selling, would it make more sense to mine and hold ERG rather than ETH? Mine 1000 ERG and hold, or mine 1 ETH and hold?
+
+
+[07/09/2022 12:34 PM] GeoMax65#0566
+Current price is not a real indicator of future value. Future value target is what makes me think having more coin at a lower entry point has greater potential upside.
+
+
+[07/09/2022 11:21 PM] Elemental#9509
+Personally I think that ergo is the way since eth mining is coming to an end and ergo still has tons of potential and more room to grow
+
+
+[07/09/2022 11:36 PM] Elemental#9509
+Also yeah I'm just gonna go for it now. Anyone looking for a friend/partner to solo mine with together to increase our chances of finding blocks? Lol
+
+I got 4.6gh on the ready with soon to be more
+
+
+[07/10/2022 1:50 AM] Elemental#9509
+Ayee let's go we hit another block today 😄
+
+
+[07/10/2022 3:15 PM] Murr#9913
+this is not fun
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/995694833895215187/unknown.png
+
+
+[07/11/2022 5:57 AM] Elemental#9509
+agreed haha. Don't worry, my guy. You'll hit another block soon!
+
+
+[07/11/2022 8:37 PM] Murr#9913
+No I went back to mining ETH for now
+
+
+[07/21/2022 12:51 PM] Flashgear#8659
+404% luck. Reminder people. Solo mining hurts.
+
+
+[07/21/2022 12:52 PM] Elemental#9509
+painn
+
+
+[07/21/2022 12:52 PM] Elemental#9509
+what's your hash?
+
+
+[07/21/2022 1:39 PM] Flashgear#8659
+12Gh
+
+
+[07/21/2022 1:39 PM] Elemental#9509
+pain
+
+
+[07/21/2022 1:39 PM] Flashgear#8659
+Torture at its finest
+
+
+[07/23/2022 5:28 AM] blackinsecure#3693
+wow
+
+
+[07/28/2022 2:35 PM] Breakfasto#1552
+Is this normal? I hit 3 blocks in 24 hours with less than 4 GH/s
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1002207658796920842/isthisnormal.PNG
+
+{Reactions}
+spicy 
+
+[07/28/2022 2:46 PM] blackinsecure#3693
+on average you could expect 2 blocks a week
+
+
+[07/28/2022 2:46 PM] blackinsecure#3693
+8 a month
+
+
+[07/28/2022 2:46 PM] blackinsecure#3693
+so you should expect some high luck % coming next
+
+
+[07/28/2022 2:47 PM] Breakfasto#1552
+I figured as much that this was a rare occurrence and not normal
+
+
+[07/28/2022 2:47 PM] blackinsecure#3693
+normal statistical fluctuations
+
+
+[07/31/2022 6:17 AM] deadmanjack#7418
+I have 3.1 GH atm will have 3.5 on friday likely closer to 4GH, should i try solo mining?
+
+
+[07/31/2022 6:17 AM] deadmanjack#7418
+also which miner has a low dev fee , seems best i can find is 2.0%
+
+
+[07/31/2022 6:44 AM] blackinsecure#3693
+at these HRs it may be worth it, will depend on initial luck
+
+
+[07/31/2022 6:44 AM] blackinsecure#3693
+NVMiner is free, but not as good
+
+
+[07/31/2022 6:44 AM] blackinsecure#3693
+also you can turn off NBMiner's dev fee, but you get lower HR
+
+
+[07/31/2022 4:18 PM] blahBloodyBlah#6434
+Am I right thinking that Solo is not the way to go if I have 53mh/s?
+Not sure if it's enough to mine with or not.
+
+
+[07/31/2022 4:18 PM] blackinsecure#3693
+yes you are
+
+
+[07/31/2022 4:19 PM] blackinsecure#3693
+to be worth it, solo mining only above a couple of GHs
+
+
+[07/31/2022 4:20 PM] blahBloodyBlah#6434
+Wow, that was a fast reply. Here I was expecting 24 hours. Nope. 
+Ok, yup. I'll try out a pool and see how that goes. 
+
+Thanks for your legendary help
+
+
+[07/31/2022 4:21 PM] blackinsecure#3693
+this is a nice calculator
+
+https://2cryptocalc.com/erg-mining-calculator
+
+{Embed}
+https://2cryptocalc.com/erg-mining-calculator
+Ergo (ERG) Mining Profitability Calculator - for Pools and Solo
+Calculate the ERG mining profit for your GPU’s (video cards) in real time. The calculator uses your mining hardware hashrate, network difficulty, and coin price.
+https://images-ext-2.discordapp.net/external/a_C-CIl79LXwgl5fN4wGf9D8RcbcT-elYfcOuYZBYl8/https/2cryptocalc.com/favicons/apple-icon-180x180.png
+
+
+[08/02/2022 8:08 PM] Breakfasto#1552
+Crying
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1004103525686591508/unknown.png
+
+
+[08/03/2022 1:17 AM] Breakfasto#1552
+Finally popped, 188% lmao
+
+
+[08/03/2022 12:26 PM] blackinsecure#3693
+Next one probably faster
+
+
+[08/06/2022 1:37 AM] Murr#9913
+Need more GH
+
+
+[08/06/2022 1:37 AM] Elemental#9509
+agreed
+
+
+[08/06/2022 6:11 AM] blackinsecure#3693
+8GHs is already a large operation
+
+
+[08/06/2022 6:11 AM] blackinsecure#3693
+at that point you're basically a professional
+
+
+[08/06/2022 12:31 PM] CorvaMox#2528
+Hi. Im minnig solo ergo. My Lucky restart but not payme. Dont see block.
+
+
+[08/06/2022 2:17 PM] CorvaMox#2528
+Help
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1005464570242023484/20220806_100841.jpg
+
+
+[08/06/2022 8:39 PM] Murr#9913
+no rewards for orphans ..?
+
+
+[08/07/2022 12:15 AM] Breakfasto#1552
+oof
+
+
+[08/07/2022 12:15 AM] Breakfasto#1552
+feels bad
+
+
+[08/07/2022 12:16 AM] Elemental#9509
+dang how much hash do you have to be getting blocks this often? haha
+
+
+[08/07/2022 5:22 PM] Murr#9913
+thats a mining pool...
+
+
+[08/07/2022 11:04 PM] Elemental#9509
+Ah. He said he's solo mining so I'm sure you can understand the confusion haha
+
+
+[08/07/2022 11:23 PM] Murr#9913
+yeah lol i had to look very closely at the pic
+
+
+[08/10/2022 3:57 AM] CryptoHaven#0111
+question.,  I setup a ergo node and I want to mine to it.  I get a ergo - login failed: Timeout! error   How can I fix?
+
+
+[08/10/2022 4:46 AM] blackinsecure#3693
+#node
+
+
+[08/18/2022 5:41 AM] Elemental#9509
+Yooo. Anyone care to partner up and solo mine together? I got 3gh+ rn. Will be adding another 1gh next week. Shoot me a pm if interested. Or talking here works too lol
+
+
+[08/18/2022 4:20 PM] claudiodelf#7503
+Guys, an information ... I don't understand why every time I close the ergo and stratum pool node and then I reopen it every time I have to do the configuration from Swagger UI 127.0.0.1:9053/swagger#/utils/hashBlake2b
+/ utils / hash / blake2b ?????? And of course also the authorization from ApiKeyAuth (apiKey)?
+It's normal ? or did I do something wrong in the configuration phase? Please help me. Thank you
+
+
+[08/18/2022 4:31 PM] claudiodelf#7503
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1009847073635586168/Ergo_nodo__stratum_server_pool.jpg
+
+
+[08/18/2022 7:23 PM] Murr#9913
+You need to put the apikey in the ergo.conf file
+
+
+[08/18/2022 7:27 PM] Murr#9913
+https://github.com/ergoplatform/ergo/wiki/Set-up-a-full-node
+
+{Embed}
+https://github.com/ergoplatform/ergo/wiki/Set-up-a-full-node
+Set up a full node · ergoplatform/ergo Wiki
+Ergo protocol description & reference client implementation - Set up a full node · ergoplatform/ergo Wiki
+
+
+[08/18/2022 7:27 PM] Murr#9913
+@claudiodelf
+
+
+[08/18/2022 10:19 PM] claudiodelf#7503
+It is placed inside the configuration file !!  You can take a picture of yours so I understand better if it's my trivial mistake.
+
+
+[08/18/2022 10:44 PM] claudiodelf#7503
+ergo {
+  node {
+    mining = false
+  }
+}
+
+scorex {
+ restApi {
+    # Hex-encoded Blake2b256 hash of an API key. 
+    # Should be 64-chars long Base16 string.
+    # below is the hash of the string 'hello'
+    # replace with your actual hash 
+    apiKeyHash = "324dcf027dd4a30a932c441f365a25e86b173defa4b8e58948253471b81b72cf"
+  }
+}
+
+
+[08/18/2022 10:45 PM] claudiodelf#7503
+This you mean ... And mine is configured right with my string like this with my data.
+
+
+[08/18/2022 11:13 PM] claudiodelf#7503
+I'll send you mine with the blacked out credentials. Sometimes it can even be a bad point or comma, and that's why it does this to me
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1009948186275758212/Screenshot_1241.jpg
+
+
+[08/19/2022 12:07 AM] Murr#9913
+That looks correct so must be something else
+
+{Reactions}
+👍 
+
+[08/21/2022 11:28 PM] geneS#6039
+Hi, I am just getting in to mining and building a rig for the very first time. I have been reading the handbook and watching videos, and learning a lot. However, it is a lot of stuff to take in and before I begin accumulating my parts, is there a list of major considerations to check when building a mining rig for Ergo? 
+For example, if I have more than one GPU, should they all be the same make, i.e. Nvidia or AMD? Or minimum specs on CPU, CPU RAM, overclock? Total noob here, and just learning.
+
+{Reactions}
+❓ 
+
+[08/22/2022 12:49 AM] YOLO-OTM-Calls#5561
+Sorry for posting in multiple channels but anyone know how to fix my apikey issue in miningcore?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1011059415870341200/IMG_0200.jpg
+
+
+[08/22/2022 3:15 AM] fartinthewind#3121
+Nah, rig building is only complicated if you make it complicated.
+
+
+[08/23/2022 1:42 PM] iotapi322 vipor.net#9019
+I have a fully functioning node, I would like to generate another wallet address for this node, but I don't see in the swagger API the ability to create another address.  I see you can init a new wallet.  Is that what I have to do?  I would think that one wallet could have multiple addresses.
+
+
+[08/23/2022 4:51 PM] lgd#5847
+What do I do if I want to solo mine on testnet with my node?
+
+
+[08/24/2022 6:54 PM] Zer0k!LLer#6655
+Hi, mining solo is better than pool?
+
+
+[08/25/2022 5:30 PM] Elemental#9509
+If you got enough hash, it could be
+
+
+[08/25/2022 6:24 PM] Zer0k!LLer#6655
+3.7Gh/s, the difference is high ?
+
+
+[08/25/2022 6:27 PM] Elemental#9509
+Not bad but you could definitely use a bit more
+
+
+[08/25/2022 6:27 PM] Zer0k!LLer#6655
+30 Days                      282     0.043780    939.66 $ pool
+30 Days     6 blocks 288    0.044698    959.35 $ solo
+
+
+[08/25/2022 6:28 PM] Elemental#9509
+That's what you got?
+
+
+[08/25/2022 6:28 PM] Zer0k!LLer#6655
+with 2cryptocalc
+
+
+[08/25/2022 6:28 PM] Elemental#9509
+Oh
+
+
+[08/25/2022 6:28 PM] Elemental#9509
+No yeah solo mining is good and you got a good enough amount of hash for it, but I'd say keep growing if you can, for solo mining
+
+
+[08/25/2022 6:29 PM] Zer0k!LLer#6655
+last weekend i bought 3 rigs so no money more lol
+
+
+[08/25/2022 6:29 PM] Zer0k!LLer#6655
+(sorry for my english school)
+
+
+[08/28/2022 3:11 AM] Noob _Pro#9214
+I put 1.2ghs in solo. 😁 Any estimate to find a block?
+
+
+[08/28/2022 4:14 AM] elazor#0115
+You might get 1-2 blocks a month
+
+
+[08/28/2022 7:54 AM] Noob _Pro#9214
+thank you! break even if I will find 2 blocks vs the electric cost.
+
+
+[08/28/2022 8:43 AM] Zer0k!LLer#6655
+founded 2 blocks in 2 days, it's begnining nice ^^
+
+
+[08/28/2022 8:44 AM] Elemental#9509
+Dang. Definitely off to a great start there
+
+
+[08/28/2022 9:06 AM] Noob _Pro#9214
+What is your hash rate?
+
+
+[08/28/2022 9:36 AM] Zer0k!LLer#6655
+3.7gh/s
+
+{Reactions}
+👍 
+
+[08/28/2022 10:28 AM] Noob _Pro#9214
+Nice. I put 1.7 now. Let's see how it goes. I hope I will be lucky like you. 👍😁
+
+
+[08/28/2022 10:29 AM] Zer0k!LLer#6655
+me too
+
+{Reactions}
+👍 
+
+[08/29/2022 1:08 AM] UnlikelyChungus#7656
+Currently trying to setup my node for solo mining. Node is fully synced and I'm using miningcore currently to set up the stratum, but it won't take the last bit of my config file. 
+            => 'Payment Processing' must not be empty.
+This is the error
+
+
+[08/29/2022 1:10 AM] UnlikelyChungus#7656
+"paymentProcessing": {
+        "enabled": true,
+        "wallet password": "xxx",
+        "minimumPayment": 0.25,
+        "minimumPaymentToPaymentId": 1.0,
+        "payoutScheme": "PPLNS",
+        "payoutSchemeConfig": {
+          "factor": 1.0
+        }
+      }
+
+This is what I've got...definitely not empty. I'm not great at this by any means, is there an issue with my config or just a coding error?
+
+
+[08/29/2022 1:48 AM] bbot#6878
+I just put 2.5gh on solo too
+
+
+[08/29/2022 2:58 AM] elazor#0115
+Man all these new miners killing my block finds !
+
+
+[08/29/2022 10:34 AM] Proafk#5272
+anyone know what causes this debug warning?
+
+
+[08/29/2022 10:34 AM] Proafk#5272
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1013743464992735232/unknown.png
+
+{Reactions}
+🔥 
+
+[09/03/2022 4:50 PM] Breakfasto#1552
+Just hit a dank block of erg right as it hit 4$
+
+
+[09/03/2022 6:22 PM] elazor#0115
+Nice grats
+
+
+[09/04/2022 3:26 PM] IX#0909
+electricity cost goes above rewards in germany? incase anyone knows im lazy to calc
+
+
+[09/04/2022 8:15 PM] bbot#6878
+Yep. Lots of europe electric is super expensive now
+
+
+[09/04/2022 8:15 PM] bbot#6878
+Not profitable to mine in many countries..
+
+
+[09/07/2022 4:07 PM] iotapi322 vipor.net#9019
+Has to be done in the config file
+
+
+[09/07/2022 4:08 PM] MaMa#7975
+false to true? in ergo.conf?
+
+
+[09/07/2022 4:08 PM] iotapi322 vipor.net#9019
+Yes but enable other items as well. Search this channel for examples
+
+
+[09/07/2022 4:09 PM] MaMa#7975
+i watched the pin video, but he doesnt show how could he change it
+
+
+[09/07/2022 4:09 PM] MaMa#7975
+i tried to change, my jar wont start
+
+
+[09/07/2022 4:42 PM] MaMa#7975
+@claudiodelf hello mate, did u fix all ur problem on ur node?
+
+
+[09/07/2022 5:16 PM] MaMa#7975
+i cannot artical mention abot remission
+
+
+[09/07/2022 5:32 PM] iotapi322 vipor.net#9019
+first hit when doing a google search 
+https://ergoplatform.org/en/blog/Ergo%E2%80%99s-EIP-27-Rollout/
+
+
+[09/07/2022 6:19 PM] MaMa#7975
+oops found
+
+
+[09/07/2022 6:20 PM] MaMa#7975
+now trying to rerun jar
+
+
+[09/08/2022 12:42 PM] MaMa#7975
+anyone managed to fix port 3032 to run properly?
+
+
+[09/08/2022 4:05 PM] $cryptopwnk#6214
+i love it when that happens
+
+
+[09/08/2022 6:39 PM] Mavs111#3866
+Is it worth trying to solo mine with 370 MH/s?
+
+
+[09/08/2022 6:45 PM] iotapi322 vipor.net#9019
+We had 40Gh last weekend and hit 1 block. Difficulty has risen substantially
+
+
+[09/08/2022 6:45 PM] Mavs111#3866
+A friend of mine hit a block in 48 hours with 600 mh/s
+
+I’m wondering if it’s worth taking a shot in terms of luck
+
+
+[09/08/2022 10:05 PM] elazor#0115
+probably not
+
+
+[09/08/2022 10:05 PM] elazor#0115
+10-15 ghs can take a week or longer for me nowadays ... but its all luck give it a shot
+
+{Reactions}
+💯 
+
+[09/08/2022 10:06 PM] elazor#0115
+pool mining at this point will get you very little or nothing
+
+
+[09/09/2022 4:17 AM] blackinsecure#3693
+no
+
+
+[09/09/2022 1:24 PM] Ciufcia#1746
+Hello, I have this message on stratum server:
+debug: [No new blocks for 60 seconds - updating transactions & rebroadcasting work] undefined
+My rig is connecting to server properly and I can see hashrate but no shares, does anyone knows whats happening?
+
+
+[09/11/2022 12:02 AM] skinny#2063
+Anyone know what this means on my stratum server?  
+debug: [Block notification via RPC polling] undefined  
+debug: [Unknown stratum method from (miner address)
+debug: [No new blocks for 60 seconds - updating transactions & rebroadcasting work] undefined
+
+
+[09/12/2022 11:09 AM] MaMa#7975
+m trying to find answer for this too
+
+
+[09/12/2022 10:29 PM] skinny#2063
+Are you using nbminer.  I found in the start.js  some miner like NBMiner does not support difficulty method of stratum
+
+
+[09/12/2022 10:29 PM] skinny#2063
+No idea on how to fix that
+
+
+[09/12/2022 10:30 PM] skinny#2063
+now Im getting this.
+Looking for some assistance.  I am able to connect to my stratum node now.  But I get an error after a few seconds and the server disconnects.
+"difficulty":1643198652874752,"shareDiff":1,"blockDiff":false,"blockDiffActual":819562.494277954,"blockHash":"","blockHashInvalid":false}
+warning: [Socket error from user.Rig_x.Rig_x [::ffff:ipaddres.195]: {"code":"ERR_STREAM_DESTROYED"}] undefined
+Authorize user.Rig_x.Rig_x:Cisco@::ffff:ipaddress.195
+warning: [Detected socket flooding from user.rig_x
+
+
+[09/13/2022 3:04 AM] MaMa#7975
+are u using 3032? i cannot fix this
+
+
+[09/13/2022 12:00 PM] Ciufcia#1746
+try adjusting diffculty in start.js, if its wrong this may happen
+
+
+[09/13/2022 4:02 PM] nonrev69#1381
+If at anypoint my mining is interrupted during my current effort do I basically start from 0% again? for example a power cut turns off one off my miners or an intermittent internet outtage etc and there is a dead spot in my mining for a few minutes. thanks
+
+
+[09/13/2022 9:35 PM] iotapi322 vipor.net#9019
+there is no '0'.  You have a luck score but that's all it is luck.  When you go to vegas and take a bathroom break does your luck change?
+
+{Reactions}
+😎 
+
+[09/13/2022 11:21 PM] skinny#2063
+I changed the diff and tried to guess at the diff for the current.  Now I get thousands of accepted shares but I dont think its correct because the diff at the end of the msg.
+on the node
+share data: {"job":"2","ip":"::ipadd","port":3032,"worker":"user.Rig_x.Rig_x","height":837762,"msg":"c279870d136c3113fbaf3af5b9c0ff92ea00ddda7d9f942d6217c554582c8a0b","difficulty":8726000000,"shareDiff":1,"blockDiff":false,"blockDiffActual":770990.235443115,"blockHash":"","blockHashInvalid":false}
+warning: [Socket error from user.Rig_x.Rig_x [ipadd]: {"errno":"EPIPE","code":"EPIPE","syscall":"write"}] undefined
+on the rig
+share accepted. (GPU0) (a:3164 r:0) (5 ms) (diff 0.00 GH)
+
+
+[09/13/2022 11:22 PM] Ciufcia#1746
+@skinny the diff is too low, you need to adjust it so you won't get flooded with shares but also you will be getting some shares
+
+
+[09/14/2022 9:17 AM] nonrev69#1381
+nice depiction I now understand it perfectly I have mainly mined pools thought effort was a gross performance of where we were up to!
+
+
+[09/14/2022 12:09 PM] WHALE#9260
+I got a block in 3 days with 4ghs
+
+
+[09/14/2022 12:10 PM] WHALE#9260
+Never thought that i will get one 😂
+
+
+[09/14/2022 12:10 PM] WHALE#9260
+So far so good
+
+
+[09/14/2022 12:10 PM] WHALE#9260
+:ergo_black:
+
+
+[09/14/2022 12:11 PM] WHALE#9260
+:ergo_white: :ergo_orange2: :ergo_orange:
+
+
+[09/14/2022 8:12 PM] elazor#0115
+Nice and lucky!
+
+{Reactions}
+👌🏻 
+
+[09/14/2022 9:59 PM] WHALE#9260
+Yeah
+
+
+[09/15/2022 1:20 PM] RulezZzOr#2883
+which diff?
+
+
+[09/15/2022 1:20 PM] RulezZzOr#2883
+and miner?
+
+
+[09/15/2022 1:20 PM] RulezZzOr#2883
+latency?
+
+
+[09/16/2022 3:31 PM] claudiodelf#7503
+Good afternoon I would like to have a clarification on the ergo node. I'm running a custom node but getting debugged on ErgoStratumServer
+debug: [Block notification via RPC polling] undefined
+Is this normal or is there some problem in the node?
+Another question: Is there a way from the personal node to know if a block has been taken via notification from android mobile or something similar? I await clarification in this regard thanks.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1020341068434255943/ergo.jpg
+
+
+[09/16/2022 3:35 PM] claudiodelf#7503
+@CW@glasgowm  Can you help me about it?👆
+
+
+[09/16/2022 4:48 PM] WHALE#9260
+Trex . Not high difficulty . I dropped that message before the merge 😂
+
+
+[09/16/2022 4:48 PM] WHALE#9260
+This is dated 14th
+
+
+[09/16/2022 4:49 PM] WHALE#9260
+Asia server did not  bother to check latency of that
+
+
+[09/16/2022 4:49 PM] WHALE#9260
+On 2miners
+
+
+[09/19/2022 9:18 AM] Sesto_A0#1849
+How is it different mining with your node than mining with a solo pool?
+
+
+[09/19/2022 9:18 AM] Elemental#9509
+no pool fee
+
+{Reactions}
+👍 
+
+[09/22/2022 12:46 AM] asil furkan.#1305
+Hello, can't compile the miner on linux, can you help me?
+
+
+[09/22/2022 12:50 AM] asil furkan.#1305
+Couldn't share the output of nvidia-smi command
+
+
+[09/22/2022 12:50 AM] asil furkan.#1305
+NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7
+
+
+[09/22/2022 12:50 AM] asil furkan.#1305
+Bot prevents me doing it. This should be enough I hope.
+
+
+[09/22/2022 12:51 AM] asil furkan.#1305
+My card is GTX 1650 Ti Mobile
+
+
+[09/22/2022 12:51 AM] asil furkan.#1305
+make command in the official miner returns: nvcc fatal   : Unsupported gpu architecture 'compute_30'
+
+
+[09/22/2022 12:52 AM] asil furkan.#1305
+Using latest version of all programs except java: using java 17
+
+
+[09/22/2022 6:38 PM] BlowUpDaChr0n#5415
+Do you put your rewardpubkey in the start.js file ?
+
+
+[09/23/2022 2:51 PM] Babelfish24#2887
+Is there a command line in linux to see the status of my node?
+
+
+[09/23/2022 5:11 PM] Babelfish24#2887
+Anyone get this whey they try to install Ergostratumserver?  And then run the npm update?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1022903056951672912/unknown.png
+
+
+[09/24/2022 3:54 PM] Babelfish24#2887
+Ok, I got past this problem
+
+
+[09/24/2022 3:55 PM] Babelfish24#2887
+Now when I start mining to the Vardiff port, The miner submits hundreds of shares per minute and then only get faster and faster.  Anyone have any insights?
+
+
+[09/28/2022 3:15 AM] MaMa#7975
+how did u pass
+
+
+[09/28/2022 3:15 AM] Babelfish24#2887
+Are you having the same issue?
+
+
+[09/28/2022 3:16 AM] Babelfish24#2887
+Try this command:
+git config --global url.https://github.com/.insteadOf git://github.com/
+
+
+[09/28/2022 3:22 AM] MaMa#7975
+thank you, will try
+
+
+[09/28/2022 3:24 AM] Babelfish24#2887
+no problem
+
+
+[09/28/2022 4:22 AM] Babelfish24#2887
+Did that work for you?
+
+
+[09/28/2022 4:30 AM] MaMa#7975
+yes it work, not syncing thank you
+
+
+[09/28/2022 4:31 AM] Babelfish24#2887
+you're welcome
+
+
+[09/28/2022 4:37 AM] MaMa#7975
+try using solo port
+
+
+[09/28/2022 4:38 AM] Babelfish24#2887
+actually, Mhs_Sam and vorujack fixed it, There was a mistake in the varDiff.js file.
+
+
+[09/28/2022 4:43 AM] MaMa#7975
+could u share?
+
+
+[09/28/2022 3:03 PM] MaMa#7975
+21:01:58.071 INFO  [tor.default-dispatcher-10] s.c.n.PeerConnectionHandler - Handshake sent to ConnectionId(remote=/177.75.4.29:9053, local=/192.168.100.199:60710, direction=Outgoing)
+21:01:58.477 INFO  [tor.default-dispatcher-10] s.c.n.PeerConnectionHandler - Error during parsing a handshake
+java.lang.IllegalArgumentException: requirement failed: Not enough bytes in the buffer: 97
+
+
+[09/28/2022 3:03 PM] MaMa#7975
+anyone knows what cause this error in node?
+
+
+[09/29/2022 3:22 PM] Väenämöenen#0085
+Just checked my payments from nanopool. Usually i get 1 ergo per day. Now last payment 14th September. What's up? My miners have been running all the time. Anything i should adjuts?
+
+
+[10/03/2022 5:00 AM] DishBrain#1197
+Question about setting the difficulty in the ErgoStratumServer config.  My goal is to solo mine to my own node. With the node running on a server and my rigs pointing at it as if it were a pool. I've set up my node and synced it, and set up ErgoStratumServer.  I'm able to connect to it from my rig and I can see the valid shares being submitted and the variable difficulty adjusting.
+
+But, if I'm solo mining, and the only one mining, would I not need to set the difficulty to the same as the network difficulty? Or can a valid share of any difficulty actually find a block, regardless of what the network difficulty is?
+
+{Reactions}
+ergo_orange 
+
+[10/07/2022 5:19 AM] Babelfish24#2887
+I have the same question...
+
+
+[10/15/2022 4:59 PM] KC-Cowboy#6297
+LMK if I am wrong here, but difficulty has more to do with network traffic than 'finding a block'.  ie. Higher difficulty = lower network traffic
+
+
+[10/15/2022 5:01 PM] KC-Cowboy#6297
+Variable difficulty usually tries to adjust to get about 4 shares/min ...
+
+
+[10/15/2022 8:38 PM] Lopes#3669
+hi all , 3 weeks here in solo mining with my 6 card rig , 0 blocks founds , luck around 35/50% ,its normal ?
+
+
+[10/15/2022 9:58 PM] Jack#3324
+@Lopes yes, for compare pool vs solo 100% luck is like mining via pool. If you bellow then you lucky and outperform mining pool BUT if your effort is more then 100% then you are in worse position as mining via pool. There are even 400% efforts or more to hit a single block. You are basically gambling by solo mining.
+
+{Reactions}
+👍 
+
+[10/15/2022 10:34 PM] Lopes#3669
+I.m on 2miners solo ....
+I guess I will chance too ethermine solo 🤔
+
+
+[10/15/2022 10:40 PM] Jack#3324
+I am mining at 2miners SOLO too, found first block about 5 days ago. It's not profitable at all. I am mining solo only because have left contract till end of this year at housing company. I would rather turn off the rigs and buy ergo for fiat instead housing bill 🙂
+
+{Reactions}
+👍 
+
+[10/21/2022 9:46 PM] r6#3182
+try to mine on my pool !
+
+
+[10/21/2022 10:30 PM] Jack#3324
+Not worth in this market rather take that risk
+
+
+[10/21/2022 10:32 PM] Jack#3324
+at least for me becuase in month I am out, if I would mine long therm then yes pool would be the right choice
+
+{Reactions}
+👍 
+
+[11/15/2022 9:04 AM] Cain#4363
+100gh miner, wtf is it?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1042002052571746324/8d8ee2b70fb45466.PNG
+
+
+[11/15/2022 4:35 PM] elazor#0115
+Could be nicehash buys
+
+
+[12/03/2022 6:32 PM] GladRags#6218
+what is a ideal ping for solo mining? im getting 29ms on 2miners
+
+
+[12/09/2022 12:28 AM] Redrum Master#9143
+With current diff is 4gh enough for solo?
+
+
+[12/09/2022 12:51 PM] Jpow#2124
+i wouldnt. itll take you like over a week to find blocks on avrg.
+
+
+[12/19/2022 7:44 AM] HastyBear#6742
+Is anyone solo mining on full local ergo node? I want to know whether its wise idea or not?
+
+
+[12/19/2022 7:45 AM] HastyBear#6742
+Currently I am using 2miners for solo mining and my ping is < 50 ms is it okay or high??
+
+
+[12/20/2022 7:41 AM] HastyBear#6742
+How can someone be so lucky with such a small hash rate?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1054664711905480754/image.png
+
+
+[12/20/2022 7:41 AM] HastyBear#6742
+Is there any trick? 😄
+
+
+[12/21/2022 9:17 PM] matty_19#4994
+If anyone can provide some direction that would be awesome. I had a look at Ergo Doc Solo Mining page and I'm still not sure whats happening. Block reward looks like it's paid to my reward address. Shows up as a balance on my node wallet, but not on Explorer or my mobile app that should be linked. Confirmations on the transaction look like they are at 1160 but still doesn't seem accessible. Maybe i have something configured incorrectly? 🙋‍♂️
+
+
+[12/21/2022 9:49 PM] matty_19#4994
+When I scan unspent boxes it shows spending transaction:null
+
+
+[12/22/2022 2:46 AM] HastyBear#6742
+@matty_19  Would you be kind to assist me setup solo mining in local ergo node in windows?
+Below steps are done following the online vidos:
+installed Node.js
+installed open SSL
+installed bignum node package
+installed ergo node which is fully synced now.
+mining = true in conf file.
+
+
+[12/22/2022 2:50 AM] matty_19#4994
+i don't think im the best person lol. Currently trying to figure out why i have rewards but they don't show up in other wallets.
+
+
+[12/22/2022 2:55 AM] HastyBear#6742
+Thats okay. You at least managed to set it up and successfully hit a block too ... correct? If you can take out some time to walk me through the steps you have performed so far will be a great help.
+
+
+[12/22/2022 2:56 AM] matty_19#4994
+Yeah i believe so. Funds are in the reward address but didn't land on my actual wallet. Seem to be stranded.
+
+
+[12/22/2022 3:00 AM] matty_19#4994
+https://youtu.be/_1M8dGpfKjU that guy has 3 videos that were pretty comprehensive. 1 is the node setup 2 is the stratum server. 3 is mining to it i believe. I don't speak german but was able to follow along with the video. Let me know if you get hung up somewhere along the way
+
+
+[12/22/2022 3:01 AM] matty_19#4994
+Some of the items are slightly older so just make sure you use the correct version number in your conf file
+
+
+[12/22/2022 3:02 AM] HastyBear#6742
+Okay let me follow it... Thanks
+
+
+[12/22/2022 3:03 AM] HastyBear#6742
+for your first block what was the time taken and how much hash rate you have?
+
+
+[12/22/2022 3:04 AM] matty_19#4994
+Almost a week with a little over 3 GH
+
+{Reactions}
+🍻 
+
+[12/22/2022 3:06 AM] matty_19#4994
+again take that all with a grain of salt lol, my ergo is stuck in an unspent box currently. Trying to get support on fixing that part but if yours works let me know and maybe i'll just restart from the beginning.
+
+
+[12/22/2022 3:16 AM] HastyBear#6742
+Sure
+
+
+[12/22/2022 6:32 PM] matty_19#4994
+Did you get yours working? With that JSON update my funds are accessible so everything seems functional on my end. If you need some help let me know.
+
+
+[12/23/2022 1:50 AM] deathgripson#2395
+what pool difficulty are you setting may I ask?
+
+
+[12/23/2022 1:56 AM] matty_19#4994
+Variable I believe. Was already set up in the stratum server files.
+
+
+[12/23/2022 1:57 AM] deathgripson#2395
+Ok so just the default 4000000
+
+
+[12/23/2022 1:57 AM] deathgripson#2395
+what was the issue with the unspent box
+
+
+[12/23/2022 1:58 AM] matty_19#4994
+Variable depending on your hashrate. Had my config file set up incorrectly. Then I reset wallet and sent myself a transfer. Everything popped back up after.
+
+
+[12/23/2022 1:58 AM] matty_19#4994
+/* Each pool can have as many ports for your miners to connect to as you wish. Each port can
+       be configured to use its own pool difficulty and variable difficulty settings. varDiff is
+       optional and will only be used for the ports you configure it for. /
+    "ports": {
+        "3032": { //A port for your miners to connect to
+            "diff": 4000000, //the pool difficulty for this port
+            /
+            * use this parameter to multiply difficulty to b for each request.
+            * some miner like NBMiner does not support difficulty method of stratum.
+            * if you want your pool work with these miners set this parameters.
+            *
+            * /
+            "multiplyDifficulty": true,
+            / Variable difficulty is a feature that will automatically adjust difficulty for
+               individual miners based on their hashrate in order to lower networking overhead */
+            "varDiff": {
+                "minDiff": 8, //Minimum difficulty
+                "maxDiff": 16431986528747520, //Network difficulty will be used if it is lower than this
+                "targetTime": 15, //Try to get 1 share per this many seconds
+                "retargetTime": 10, //Check to see if we should retarget every this many seconds
+                "variancePercent": 30 //Allow time to very this % from target without retargeting
+
+
+[12/23/2022 1:59 AM] matty_19#4994
+thats what was already in the stratum server start file
+
+
+[12/23/2022 1:59 AM] deathgripson#2395
+Thanks I will go back to the default "diff" setting
+
+
+[12/23/2022 2:00 AM] deathgripson#2395
+I was just experimenting setting it lower to increase the base difficulty
+
+
+[12/23/2022 2:02 AM] matty_19#4994
+if i recall correctly shares don't affect actual mining performance. They are an indicator for the pool to tell hashrate performance unless i'm mistaken. Would probably cause issues with too many shares maybe because they would cause a lot of overhead but don't really affect finding blocks
+
+
+[12/23/2022 2:02 AM] matty_19#4994
+Share Difficulty and Mining Difficulty
+
+Share and block solution are different things.
+Share difficulty doesn’t affect the number of blocks found by a pool.
+Share difficulty doesn’t affect miner rewards.
+Shares are used by miners to monitor their rigs and by pools to distribute rewards amongst their miners.
+
+
+[12/23/2022 2:02 AM] matty_19#4994
+thats from the 2 miners page
+
+
+[12/23/2022 2:03 AM] matty_19#4994
+for solo mining anyways.
+
+
+[12/23/2022 2:04 AM] deathgripson#2395
+This makes sense but since im a small solo mine I should probably not set high difficulty or else the share reporting may be to slow to submit on time, does that make sense?
+
+
+[12/23/2022 2:04 AM] matty_19#4994
+Unless I'm mistaken block solutions and shares are 2 different things
+
+
+[12/23/2022 2:05 AM] deathgripson#2395
+Would be nice to get an expert to clarify this lol
+
+
+[12/23/2022 2:05 AM] deathgripson#2395
+but thank you for your info
+
+
+[12/23/2022 2:06 AM] matty_19#4994
+It has absolutely nothing to do with your probability of finding a block. It only changes how accurate the pool's idea of your hashrate (and thus affects your share of payout in case it finds something) is. – 
+Pieter Wuille
+ Jun 1, 2021 at 23:02 
+
+from another site.
+
+
+[12/23/2022 2:07 AM] deathgripson#2395
+Thanks, I trust Peters word on it
+
+
+[12/23/2022 2:07 AM] matty_19#4994
+I have no idea who peter is lol
+
+
+[12/23/2022 2:07 AM] deathgripson#2395
+He coded the lib_secp256k for bitcoin!
+
+
+[12/23/2022 2:07 AM] matty_19#4994
+Oh well he would probably know then lol
+
+
+[12/23/2022 2:08 AM] deathgripson#2395
+yea forreal, I have lots of respect for tht guy
+
+
+[12/23/2022 2:08 AM] matty_19#4994
+Cool, well then yeah what peter said lol
+
+
+[12/23/2022 2:08 AM] deathgripson#2395
+in this case maybe difficulty can be turned up without worrying, I guess it doesnt matter though If i am not paying per share
+
+
+[12/23/2022 2:09 AM] matty_19#4994
+Seems like it will just affect your hashrate reporting
+
+
+[12/23/2022 8:42 AM] claudiodelf#7503
+Sorry guys, a question: But if I would like to set the starting difficulty of the share to 35 GB in start.js, what value should I change???
+
+
+[12/23/2022 8:46 AM] claudiodelf#7503
+Because I have the same settings as yours but I have too many low shares even under 1 gb and this is not good. I would like to find a setting to have shares starting from at least 18 GB and going up. But I did several tests but without any change
+
+
+[12/23/2022 9:50 AM] HastyBear#6742
+Something went wrong with my node so deleted .ergo folder and resyncing node. Its keep on failing after couple of hours before node can fully sync. Now I have installed WSL and syncing node in ubuntu environment. its in progress...
+
+Glad that its working for you . I'll contact you if I will get stuck.
+
+
+[12/23/2022 12:44 PM] glasgowm#9381
+Please submit PRs to the docs for the next person, you can claim bounties for doing so. Not a miner (and energy prices mean I won't be any time soon either 😢)
+
+https://docs.ergoplatform.com/contribute/bounties/
+
+
+[12/23/2022 3:39 PM] matty_19#4994
+yeah not really profitable at this price point but gonna mine and hold for a bit. I already had all the equipment sitting from eth mining. Hope for the best lol. If i sold as i mined it would be close ish to break even but it's also -40 here so maybe help offset some heating costs lol.
+
+
+[12/23/2022 3:40 PM] matty_19#4994
+is it just coming up all the time or once in awhile?
+
+
+[12/23/2022 3:43 PM] matty_19#4994
+Just for reference my one 3090 ti sits around 4G and i almost never see a low diff share error
+
+
+[12/25/2022 10:56 AM] claudiodelf#7503
+If you have 4 GB of power on Ergo, the calculation to do to set the difficulty is as follows:
+
+The power of the current network is from 28.66 TH to 35.34 TH so the calculation is 29 th divided your power 4 GB x 8 which are and shares to take 1 block result: 58 add three zeros after the number or the comma and you can enter that both minimum and maximum difficulty
+
+I set here what you should insert with 4 gb of power:
+
+
+"ports": {
+         "3032": { //A port for your miners to connect to
+             "diff": 58000,//the pool difficulty for this port
+             /*
+             * use this parameter to multiply difficulty to b for each request.
+             * some miner like NBMiner does not support difficulty method of stratum.
+             * if you want your pool work with these miners set this parameters.
+             *
+             * */
+             "multiplyDifficulty": true,
+             /* Variable difficulty is a feature that will automatically adjust difficulty for
+                individual miners based on their hashrate in order to lower networking overhead */
+             "varDiff": {
+                 "minDiff": 58000,//Minimum difficulty
+                 "maxDiff": 58000,//Network difficulty will be used if it is lower than this
+                 "targetTime": 15, //Try to get 1 share per this many seconds
+                 "retargetTime": 10, //Check to see if we should retarget every this many seconds
+                 "variancePercent": 30, //Allow time to very this % from target without retargeting
+             }
+         },
+         "3256": { //Another port for your miners to connect to, this port does not use varDiff
+             "diff": 58000,//The pool difficulty
+
+If example the rig has 1gb of power it hardly changes from 58000 to 232000.
+I hope you understand the alcohol you need to make.
+
+
+[12/25/2022 11:00 AM] claudiodelf#7503
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1056526857878650900/diff.jpg
+
+
+[12/25/2022 2:43 PM] matty_19#4994
+I think we might be mixing up terms here lol. That card mines at 255 - 260 MH/s and with the variable difficulty that is already set up it sits at a share difficulty of just under 4G as reported by T rex miner. There's no need to set a hard value. Also share difficulty doesn't matter a whole bunch in solo mining, it doesnt affect your block find chance. It only changes your accuracy of hashrate reporting and is used by a 3rd party pool to calculate reward payout.
+
+
+[12/25/2022 9:34 PM] matty_19#4994
+At the bottom of your pic it also says the diff number doesn't matter if you are using variable difficulty as it will adjust itselft
+
+
+[12/25/2022 10:54 PM] deathgripson#2395
+GB stands for gigabyte where as GH stands for GigaHash you are referring to GigaHash
+
+
+[12/30/2022 8:08 PM] tech.profits#9584
+Dual Mining Ergo+Kaspa pretty efficient https://www.youtube.com/watch?v=S-yoV2GOHLU
+
+
+[01/03/2023 6:07 PM] HelixEvo#2120
+Is there a good how’s to on mining to own node? Guessing it’s not just set variable mining=true in conf?
+
+
+[01/04/2023 5:51 PM] R 3 B 🚬 .#9458
+hi i have problem  , installed ergo node , and 100% synced , also installed miningcore , and also running ...  , went to my hive created flight sheet  used lolminer , but always have error that the miner not able to communicate to the node
+
+
+[01/04/2023 5:51 PM] R 3 B 🚬 .#9458
+cant paste screenshot here
+
+
+[01/04/2023 5:52 PM] R 3 B 🚬 .#9458
+tried port 9053 , not working as well 4000 .
+
+
+[01/04/2023 5:53 PM] R 3 B 🚬 .#9458
+in config.json , "daemons": [
+                {
+                    "host": "192.168.101.81",
+                    "port": 15001,
+
+
+[01/04/2023 5:54 PM] R 3 B 🚬 .#9458
+also tried  port 15001
+
+
+[01/04/2023 5:54 PM] R 3 B 🚬 .#9458
+connection failed
+
+
+[01/04/2023 5:55 PM] R 3 B 🚬 .#9458
+please anyone can help me on this
+
+
+[01/04/2023 5:58 PM] R 3 B 🚬 .#9458
+@matty_19  : please can you help me on this
+
+
+[01/04/2023 6:00 PM] R 3 B 🚬 .#9458
+023-01-04 20:59:15.1298] [I] [dash1] Waiting for daemons to come online ...
+
+
+[01/04/2023 6:00 PM] R 3 B 🚬 .#9458
+That miningcore
+
+
+[01/04/2023 6:00 PM] R 3 B 🚬 .#9458
+and wallet synced 100%
+
+
+[01/04/2023 6:00 PM] R 3 B 🚬 .#9458
+😦
+
+
+[01/04/2023 7:49 PM] R 3 B 🚬 .#9458
+i suspect my problem is on  config.json
+
+
+[01/04/2023 7:49 PM] R 3 B 🚬 .#9458
+dont know , since yesterday i am trying
+
+
+[01/04/2023 7:51 PM] R 3 B 🚬 .#9458
+i give up
+
+
+[01/04/2023 7:54 PM] matty_19#4994
+https://docs.ergoplatform.com/
+
+There's some resources there. Under miners there's a solo mining and start a pool section. Let me know if you get stuck and I can try and help though I'm not super well versed. Seems to be working on my setup but I've been having some issues with needing to transfer to myself to get the funds to show up in my actual wallet instead of sitting in the rewards wallet. Made some adjustments to my config file and just got another block though. We'll see if it will all work automatically this time. I have a node set up and use the stratum server that's all linked on that page.
+
+
+[01/04/2023 7:55 PM] matty_19#4994
+Same as above lol. I use windows not Linux though and I'm not using miningcore but I can try to help after work if you're still stuck.
+
+
+[01/04/2023 8:02 PM] R 3 B 🚬 .#9458
+@matty_19 , appreciate your help really , but i believe my problem 100% creating this config.json file ,  mainly i feel in this part : https://docs.ergoplatform.com/mining/setup/miningcore/#load-the-schema   << into this document , there is a command create pool , which reflect the data in config.json 
+( maybe i am not sure ) , the command CREATE TABLE shares_mypool1 PARTITION OF shares FOR VALUES IN ('mypool1');  , always give me error , that  "ERROR : "shares" is not partitioned "  ,  so in config.json ,  in config.json under pool section , there is a details i have to add , like pool name etc ...  i am not sure "pools": [
+        // Repeat the following section for multiple coins
+        {
+            // DON'T change the id after a production pool has begun collecting shares!
+            "id": "<>",
+            "enabled": true,
+            "coin": "ergo",
+
+
+[01/04/2023 8:04 PM] R 3 B 🚬 .#9458
+also i am confused , in this part daemon "daemons": [
+                {
+                    "host": "192.168.101.81",
+                    "port": 9052,
+                    "user": "",
+                    "password": "",
+                    "apiKey": "", << i have to add the long key or only the word used to generate the apikey  "hello "  , also which user and password ?  dont know....
+
+
+[01/04/2023 8:04 PM] R 3 B 🚬 .#9458
+god
+
+
+[01/04/2023 8:06 PM] matty_19#4994
+Are you mining to your local machine this is running on?
+
+
+[01/04/2023 8:07 PM] R 3 B 🚬 .#9458
+no , i just purchased another computer to be dedicated only for Ergo node setup , it is ubuntu  desktop version i am using .
+
+
+[01/04/2023 8:07 PM] matty_19#4994
+Sorry is your stratum on the same machine as the node? Because then the host should be 127.0.0.1 if I'm not mistaken
+
+
+[01/04/2023 8:07 PM] R 3 B 🚬 .#9458
+yes
+
+
+[01/04/2023 8:07 PM] R 3 B 🚬 .#9458
+you are right
+
+
+[01/04/2023 8:08 PM] matty_19#4994
+So host on your stratum should be pointed at 127.0.0.1 then you point the miners at the ip of the machine your node is on.
+
+
+[01/04/2023 8:08 PM] R 3 B 🚬 .#9458
+default is 127.0.0.1 , same as 192.168.101.81 , where i am running the node
+
+
+[01/04/2023 8:09 PM] R 3 B 🚬 .#9458
+both are ergo node computer
+
+
+[01/04/2023 8:10 PM] R 3 B 🚬 .#9458
+@matty_19 possible to DM you ?
+
+
+[01/04/2023 8:11 PM] matty_19#4994
+Sure. I'm just not at either of my node computers to check setup until after work
+
+
+[01/04/2023 8:11 PM] R 3 B 🚬 .#9458
+i am fully understand , just i would send you some screenshots ... so might once you finish you work , can help
+
+
+[01/04/2023 8:13 PM] matty_19#4994
+Might be easier if you use the stratum server option  instead of miningcore because I vaguely know what I'm looking at there lol. No idea what minincore setup should be lol.
+
+
+[01/04/2023 8:14 PM] R 3 B 🚬 .#9458
+ErgoStratumServer ?
+
+
+[01/04/2023 8:15 PM] matty_19#4994
+Yeah i think that's the one
+
+
+[01/04/2023 8:15 PM] R 3 B 🚬 .#9458
+starting from the scratch  😦
+
+
+[01/04/2023 8:19 PM] matty_19#4994
+Just should have to put your address on above the recipients section, delete other recipients and change host to 127.0.0.1 3/4 of the way down the page.
+
+
+[01/04/2023 8:20 PM] matty_19#4994
+Unless I'm forgetting a step.
+
+
+[01/04/2023 8:20 PM] R 3 B 🚬 .#9458
+sorry i am lost where exactly ?
+
+
+[01/04/2023 8:21 PM] matty_19#4994
+In the start.json file of ergo stratum server
+
+
+[01/04/2023 8:23 PM] R 3 B 🚬 .#9458
+start.js ?
+
+
+[01/04/2023 8:26 PM] matty_19#4994
+It's the config file for ergo stratum server.
+
+
+[01/04/2023 8:27 PM] R 3 B 🚬 .#9458
+got it matty_19 , i will strat now with stratum server
+
+
+[01/04/2023 8:53 PM] R 3 B 🚬 .#9458
+getting error can not find bignum  , i do npm install bignum , but seem doing nothing
+
+
+[01/04/2023 10:03 PM] deathgripson#2395
+what hardware are you running the stratum on
+
+
+[01/04/2023 10:03 PM] R 3 B 🚬 .#9458
+ubuntu , i beleive now the stratum is working ,
+
+
+[01/04/2023 10:03 PM] R 3 B 🚬 .#9458
+but still not able to connect
+
+
+[01/04/2023 10:04 PM] deathgripson#2395
+oh cool, i mean like architecture. i tried on raspi and couldnt install bignum so i put the stratum on my amd node and kept the ergo node on my raspi. Are you connecting from the same network or a different internet network?
+
+
+[01/04/2023 10:05 PM] R 3 B 🚬 .#9458
+@matty_19  can you check your DM please
+
+
+[01/04/2023 10:06 PM] matty_19#4994
+https://m.youtube.com/watch?v=0G7IMMVlMIM
+
+I followed that video it's for windows though so the issues he found along the way and fixed are probably a bit different on Linux but it helped me to follow along on windows.
+
+
+[01/04/2023 10:06 PM] deathgripson#2395
+if connecting from a different network use your public IP and open/port-forward the port you need to connect to
+
+
+[01/04/2023 10:07 PM] matty_19#4994
+Looks like from your screenshot it should be working. Once you point a miner at the stratum server it should start sending your miner jobs
+
+
+[01/04/2023 10:07 PM] R 3 B 🚬 .#9458
+port 9053 ?
+
+
+[01/04/2023 10:08 PM] matty_19#4994
+Shouldn't need to forward if you're on your own local network
+
+
+[01/04/2023 10:08 PM] deathgripson#2395
+I know i was saying if you are on a different network
+
+
+[01/04/2023 10:08 PM] R 3 B 🚬 .#9458
+i am on same network
+
+
+[01/04/2023 10:09 PM] deathgripson#2395
+connect to your personal ip that is running the stratum, you can find that ip via command ``ip add`` on ubuntu
+
+
+[01/04/2023 10:10 PM] deathgripson#2395
+the port is specified in the start.js file, the variable difficulty one
+
+
+[01/04/2023 10:14 PM] R 3 B 🚬 .#9458
+is there any use for the user and password ?
+
+
+[01/04/2023 10:14 PM] R 3 B 🚬 .#9458
+into daemon section
+
+
+[01/04/2023 10:15 PM] deathgripson#2395
+i dont think so, not sure how those work. I left them blank and havent had to deal with them
+
+
+[01/04/2023 10:15 PM] matty_19#4994
+On my t rex for example it's stratum+tcp://192.168.1.119:3032. I'm pretty sure 3032 is the default port for variable difficulty I believe.
+
+
+[01/04/2023 10:15 PM] R 3 B 🚬 .#9458
+ohhh
+
+
+[01/04/2023 10:15 PM] deathgripson#2395
+yea 3032 is the mining server
+
+
+[01/04/2023 10:15 PM] deathgripson#2395
+the node default was 9053
+
+
+[01/04/2023 10:15 PM] R 3 B 🚬 .#9458
+into my flight sheet , i have to add the word stratum+tcp ?
+
+
+[01/04/2023 10:15 PM] matty_19#4994
+Username and password isn't used
+
+
+[01/04/2023 10:16 PM] deathgripson#2395
+yes
+
+
+[01/04/2023 10:16 PM] deathgripson#2395
+for most mining software i think
+
+
+[01/04/2023 10:16 PM] matty_19#4994
+That's my bat file for windows not sure about linux
+
+
+[01/04/2023 10:16 PM] deathgripson#2395
+teamredminer doesnt need the stratum+tcp
+
+
+[01/04/2023 10:17 PM] deathgripson#2395
+looks like Server field needs stratum+tcp while URL field does not in hiveOS flightsheets
+
+
+[01/04/2023 10:17 PM] matty_19#4994
+Same format you would use for a pool just instead of pointing at the pool website it's going to your local network ip of your mining server.
+
+
+[01/04/2023 10:21 PM] deathgripson#2395
+make sure you changed the address where block rewards are given as well as removing reward recipients
+
+
+[01/04/2023 10:22 PM] deathgripson#2395
+line 23 & 29
+
+
+[01/04/2023 10:23 PM] R 3 B 🚬 .#9458
+ok let me try that
+
+
+[01/04/2023 10:26 PM] matty_19#4994
+Yeah that step is critical lol.
+
+
+[01/04/2023 10:32 PM] R 3 B 🚬 .#9458
+i beleive  then it is my network issue
+
+
+[01/04/2023 10:34 PM] R 3 B 🚬 .#9458
+my rig ip : 192.168.100.2  , node ip : 192.168.101.81  , i can ping  node ip from my rig  , does this mean no network issue  ?
+
+
+[01/04/2023 10:35 PM] R 3 B 🚬 .#9458
+it shouldnt be an issue
+
+
+[01/04/2023 10:49 PM] deathgripson#2395
+yea you should be able to connect to 192.168.101.81:3032 from your mining rig
+
+
+[01/04/2023 10:49 PM] deathgripson#2395
+or stratum+tcp://192.168.101.81:3032
+
+
+[01/04/2023 10:54 PM] deathgripson#2395
+I have a mesh network which allows me to connect from wifi, if you are using something like that your wifi could produce a different IP than your ethernet connection, if ``ip add`` produces two inet addr results you could disconnect the wired connection and run ip add on the wifi to get your wifi IP. If you are only using wired connection though then the previous thing should work. If this is the case you can get around all of it by port forwarding and connecting to public IP
+
+
+[01/05/2023 12:17 AM] matty_19#4994
+You have a different subnet. One is on 101 one is on 100. Should be on the same subnet. Might be your issue.
+
+{Reactions}
+this 
+
+[01/05/2023 2:32 AM] matty_19#4994
+Oh also make sure you unlock your wallet once your node is running. Not entirely sure how critical that is but it's in all the tutorials I saw so I have a batch file to start everything and unlock my wallet after the node is running.
+
+
+[01/08/2023 6:45 PM] deathgripson#2395
+Opinions on if raspi 4 8gb Ergo node would be a disadvantage to use as a solo mining pool?
+
+
+[01/12/2023 1:27 AM] deathgripson#2395
+Does anyone know how one could change transaction fees if hosting solo mining node w ergostratumserver
+
+
+[01/12/2023 1:27 AM] deathgripson#2395
+is it in the config of the nodes?
+
+
+[01/12/2023 7:11 PM] glasgowm#9381
+@Sachin$17 some resources/discussions in this channel. Also there's a start.js here for stratum
+
+https://docs.ergoplatform.com/mining/setup/stratum/#startjs
+
+
+[01/12/2023 7:13 PM] Sachin$17#1581
+Yes I have start.js
+
+
+[01/12/2023 7:14 PM] Sachin$17#1581
+I have change ip address to localhost and user password accordingly
+
+
+[01/12/2023 9:29 PM] deathgripson#2395
+user and password doesnt need to be used if solo as far as im aware
+
+
+[01/12/2023 9:53 PM] deathgripson#2395
+anyone have a good idea on re-targeting time settings? Would faster re-targeting be beneficial?
+
+
+[01/13/2023 2:00 AM] Sachin$17#1581
+@deathgripson I think user and password is just words... Weather I use default or I use something else.as far as ergo node concern
+
+
+[01/13/2023 2:01 AM] Sachin$17#1581
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1063276543545180321/IMG_20230113_000128.jpg
+
+
+[01/13/2023 2:01 AM] Sachin$17#1581
+Am I doing right, can anyone help me with this... In first line I get error
+
+
+[01/13/2023 3:53 AM] deathgripson#2395
+does it do this every time and nothing else?
+
+
+[01/13/2023 4:51 AM] Sachin$17#1581
+@deathgripson yes everytime
+
+
+[01/13/2023 4:51 AM] Sachin$17#1581
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1063319460309647390/IMG_20230113_102042.jpg
+
+
+[01/13/2023 4:52 AM] Sachin$17#1581
+Can anyone tell me.... Is is all going good?
+
+
+[01/13/2023 4:54 AM] Sachin$17#1581
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1063320226252455956/IMG_20230113_102333.jpg
+https://cdn.discordapp.com/attachments/881966410006417409/1063320226613178449/IMG_20230113_102359.jpg
+
+
+[01/13/2023 4:55 AM] Sachin$17#1581
+These are two different output... Now I am confused weather I am mining or not?
+
+
+[01/13/2023 4:55 AM] Sachin$17#1581
+How to confirm it?
+
+
+[01/13/2023 5:07 AM] Sachin$17#1581
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1063323275863805992/IMG_20230113_103454.jpg
+
+
+[01/13/2023 5:07 AM] Sachin$17#1581
+With NBminer I always get this error
+
+
+[01/13/2023 5:23 AM] Sachin$17#1581
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1063327313791553606/IMG_20230113_105209.jpg
+
+
+[01/13/2023 5:23 AM] Sachin$17#1581
+This is combiner screenshot of my miner, stratum and node....
+
+
+[01/13/2023 5:23 AM] Sachin$17#1581
+Am I doing right or something wrong? Please help me
+
+
+[01/13/2023 5:59 AM] deathgripson#2395
+is mining enabled in your ergo.conf
+
+
+[01/13/2023 6:12 AM] Sachin$17#1581
+@deathgripson yes it's enabled
+
+
+[01/13/2023 6:13 AM] deathgripson#2395
+checkReemissionRules = true
+also?
+
+
+[01/13/2023 6:13 AM] Sachin$17#1581
+@deathgripson yes it's also true
+
+
+[01/13/2023 6:13 AM] deathgripson#2395
+how long has the node been running
+
+
+[01/13/2023 6:14 AM] Sachin$17#1581
+One and half hour
+
+
+[01/13/2023 6:14 AM] Sachin$17#1581
+But it's fully synced
+
+
+[01/13/2023 6:15 AM] deathgripson#2395
+try removing user and password settings in the start.js and rerunning it if youre using those
+
+
+[01/13/2023 6:16 AM] Sachin$17#1581
+@deathgripson you mean the user by default start.js gave me... I should remove it and run without user and password?
+
+
+[01/13/2023 6:17 AM] deathgripson#2395
+in the daemons section of start.js looks like this:
+```"daemons": [
+        {   //Main daemon instance
+            "host": "NODE IP ADDRESS",
+            "port": 9053,
+            "user": "",
+            "password": ""
+        }
+    ],```
+
+
+[01/13/2023 6:18 AM] Sachin$17#1581
+@deathgripson yes done it
+
+
+[01/13/2023 6:18 AM] deathgripson#2395
+let me know if it runs normally
+
+
+[01/13/2023 6:18 AM] Sachin$17#1581
+Ok
+
+
+[01/13/2023 6:20 AM] Sachin$17#1581
+Do I need to restart node also after changing in start.js?
+
+
+[01/13/2023 6:20 AM] deathgripson#2395
+no only if theres something else wrong
+
+
+[01/13/2023 6:20 AM] Sachin$17#1581
+No
+
+
+[01/13/2023 6:20 AM] Sachin$17#1581
+It's same as before
+
+
+[01/13/2023 6:21 AM] Sachin$17#1581
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1063341966345121842/IMG_20230113_115103.jpg
+
+
+[01/13/2023 6:21 AM] Sachin$17#1581
+This is after changing in start.js
+
+
+[01/13/2023 6:21 AM] deathgripson#2395
+authorize shows a good connection
+
+
+[01/13/2023 6:22 AM] Sachin$17#1581
+Ok
+
+
+[01/13/2023 6:22 AM] Sachin$17#1581
+Now
+
+
+[01/13/2023 6:22 AM] deathgripson#2395
+are you seeing valid share posts?
+
+
+[01/13/2023 6:22 AM] Sachin$17#1581
+No
+
+
+[01/13/2023 6:22 AM] Sachin$17#1581
+It is not accepting any share
+
+
+[01/13/2023 6:23 AM] deathgripson#2395
+which port is your miner connected to
+
+
+[01/13/2023 6:23 AM] Sachin$17#1581
+3032
+
+
+[01/13/2023 6:23 AM] Sachin$17#1581
+I am using tRex miner
+
+
+[01/13/2023 6:24 AM] deathgripson#2395
+what is the miner saying]
+
+
+[01/13/2023 6:24 AM] Sachin$17#1581
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1063342866123980874/IMG_20230113_115437.jpg
+
+
+[01/13/2023 6:25 AM] Sachin$17#1581
+It shows like this
+
+
+[01/13/2023 6:27 AM] deathgripson#2395
+are you planning to solo mine with only one gpu or more? it looks like this is due to the variable difficulty setting likely
+
+
+[01/13/2023 6:27 AM] Sachin$17#1581
+Pool difficulty is set to 35G and my hashrate is approx 30
+
+
+[01/13/2023 6:27 AM] Sachin$17#1581
+@deathgripson yes I am planning solo.. But single gpu is just for testing purpose
+
+
+[01/13/2023 6:27 AM] Sachin$17#1581
+I have rig also
+
+
+[01/13/2023 6:28 AM] deathgripson#2395
+when you add more gpu from your rig it should theoretically start to solve the shares faster
+
+
+[01/13/2023 6:28 AM] deathgripson#2395
+or you can turn down the targeting settings : ```"varDiff": {
+                "minDiff": 8, //Minimum difficulty
+                "maxDiff": 16431986528747520, //Network difficulty will be used if it is lower than this
+                "targetTime": 15, //Try to get 1 share per this many seconds
+                "retargetTime": 10, //Check to see if we should retarget every this many seconds
+                "variancePercent": 30 //Allow time to very this % from target without retargeting
+            }```
+
+
+[01/13/2023 6:29 AM] Sachin$17#1581
+@deathgripson OK... But I think I can set a lower difficulty so that it can give me few share just to test... Then I can connect my rig... Will that work?
+
+
+[01/13/2023 6:29 AM] deathgripson#2395
+go ahead and try
+
+
+[01/13/2023 6:29 AM] deathgripson#2395
+not an expert on this yet unfortunately
+
+
+[01/13/2023 6:30 AM] Sachin$17#1581
+How much I can set according to my single gpu
+
+
+[01/13/2023 6:31 AM] deathgripson#2395
+tough to say, in general all i know that works is turning target time and retarget time down
+
+
+[01/13/2023 6:31 AM] deathgripson#2395
+they will adjust the difficulty automatically
+
+
+[01/13/2023 6:31 AM] deathgripson#2395
+when you turn the time down it will adjust faster and ask for shares faster
+
+
+[01/13/2023 6:32 AM] deathgripson#2395
+may cause invalid shares if too fast
+
+
+[01/13/2023 6:32 AM] Sachin$17#1581
+Which time should down... Target time or retarget time?
+
+
+[01/13/2023 6:32 AM] deathgripson#2395
+start with target time change it to 10 maybe
+
+
+[01/13/2023 6:33 AM] deathgripson#2395
+is it posting that weird large error output on your stratum server still? that happens to mine during normal function but not consistently its very random
+
+
+[01/13/2023 6:35 AM] Sachin$17#1581
+Ok
+
+
+[01/13/2023 8:24 AM] Sachin$17#1581
+Now it has started giving me errors... Connection failed
+
+
+[01/13/2023 1:01 PM] Sachin$17#1581
+Working good now.... It's just we need to adjust difficulty according to our hardware.. Then you are good to go..
+
+
+[01/13/2023 3:22 PM] matty_19#4994
+shares are just a measure of mining speed. they target 15 and adjust diff automatically to try and only get 4 shares per minute so you aren't hammering out a whole bunch for nothing.
+
+
+[01/13/2023 3:23 PM] matty_19#4994
+roughly targeting 15 seconds per share
+
+
+[01/13/2023 3:23 PM] matty_19#4994
+share difficulty doesn't affect mining performance just more shares gives you a more accurate hashrate measurement but causes more overhead.
+
+
+[01/13/2023 3:24 PM] matty_19#4994
+from the pic in the support channel you need to rescan your wallet.
+
+
+[01/13/2023 3:41 PM] matty_19#4994
+Also in the first pic you sent it looks like you have your wallet address in the reward recipients section. In the readme notes for Ergo Stratum Server it says that isn't used. Your address goes above that section "address": "YourAddress", and remove the rest of them under reward recipients. User name and password is also not used.
+
+
+[01/13/2023 4:19 PM] Sachin$17#1581
+@matty_19 how to rescan wallet?
+
+
+[01/13/2023 4:20 PM] glasgowm#9381
+http://204.48.31.129:9053/swagger#/wallet/walletRescan
+
+
+[01/13/2023 4:20 PM] Sachin$17#1581
+@glasgowm just need to click on this link that's it?
+
+
+[01/13/2023 4:21 PM] glasgowm#9381
+You'll need to load it locally on your swagger or run it via CLI
+
+
+[01/13/2023 4:22 PM] glasgowm#9381
+```
+curl -X POST "http://204.48.31.129:9053/wallet/rescan" -H  "accept: application/json" -H  "api_key: hello" -H  "Content-Type: application/json" -d "{\"fromHeight\":0}"
+```
+
+
+[01/13/2023 4:22 PM] Sachin$17#1581
+@glasgowm OK.. I got it... I saw that curl command... I need to run that command locally
+
+{Reactions}
+👍 
+
+[01/13/2023 4:22 PM] Sachin$17#1581
+@glasgowm thank you I will try it
+
+
+[01/13/2023 4:28 PM] deathgripson#2395
+Im using the default target time and difficulty but still getting share not found pretty consistently should I turn my settings up maybe?
+
+
+[01/13/2023 4:30 PM] matty_19#4994
+swagger will actually run commands too. Login at the top input API key and click try it out and execute
+
+
+[01/13/2023 4:33 PM] matty_19#4994
+it adjusts to find a share in the target time automatically. Shouldn't have to its more likely OC settings or network inconsistency/speed if you are getting a lot of invalid shares
+
+
+[01/13/2023 4:33 PM] matty_19#4994
+like your local network of miners connecting to the node
+
+
+[01/13/2023 4:34 PM] matty_19#4994
+I get some every once in awhile but fairly rare.
+
+
+[01/13/2023 4:35 PM] matty_19#4994
+My node is also hard wire connected the other mining rigs are over wifi for the most part. Noticed more errors when i tested with one of the wifi rigs hosting the node.
+
+
+[01/13/2023 4:35 PM] deathgripson#2395
+Yea, I basically have been experimenting with tweaking those settings which was what lead to the share not found, but even after I turned it back to default settings still getting some. not nearly as much but maybe my rigs are adjusting to the pool difficulty or something
+
+
+[01/13/2023 4:36 PM] matty_19#4994
+like within a couple min of them running they should be at a roughly consistent share time of 15s per share submitted
+
+
+[01/13/2023 4:37 PM] deathgripson#2395
+yea Im not getting too many rejects anymore I will leave it on for a while to see if it stays consistent
+
+
+[01/13/2023 4:38 PM] matty_19#4994
+over a couple percent and you probably want to dig in but obviously percentage will adjust over time as you get a larger sample size
+
+
+[01/13/2023 4:43 PM] deathgripson#2395
+seems like old version of teamredminer may be the common denominator here gonna update and see if that helps
+
+
+[01/13/2023 4:48 PM] matty_19#4994
+I use t rex but I'm all team green.
+
+
+[01/13/2023 4:49 PM] deathgripson#2395
+my nvidia rig is doing really well on gminer
+
+
+[01/13/2023 4:52 PM] matty_19#4994
+I've never had issues with T-rex so I've never really had a reason to change. Other than when LHR unlock became a thing I used NBminer for a little bit but I had some bugs. As soon as t rex had an unlocker I swapped back.
+
+
+[01/13/2023 4:53 PM] deathgripson#2395
+I will try it out
+
+
+[01/13/2023 5:02 PM] deathgripson#2395
+getting way less rejects w the update but there are still some, i want 0 :PB_reee:
+
+
+[01/13/2023 6:04 PM] matty_19#4994
+Under 1% not much to worry about but yeah 0 is obviously best lol. I nit pick on mine lol
+
+
+[01/14/2023 8:53 PM] deathgripson#2395
+so my large rigs are doing better in terms of rejects than my rigs which are basically single gpu PCs at the moment, any idea how I can solve this? its gotta be on the stratum side because the ocs have all been normal on 2miners pool for example
+
+
+[01/14/2023 8:57 PM] matty_19#4994
+Yeah maybe their network connection to the node?
+
+
+[01/14/2023 8:59 PM] deathgripson#2395
+I will try to get a better connection on it and see
+
+
+[01/14/2023 9:08 PM] matty_19#4994
+My node is hardwired and most of the rest are on wifi. When i ran the node on a wifi connected machine I saw more rejected shares. Not sure how you're set up
+
+
+[01/14/2023 9:11 PM] matty_19#4994
+Assuming your stratum and node are on the same unit. I'm not sure if you can try putting a copy of the stratum server on one of the further away machines and connect to the same node.
+
+
+[01/14/2023 9:11 PM] deathgripson#2395
+ok I havent tried running more than one stratum
+
+
+[01/14/2023 9:11 PM] matty_19#4994
+I haven't either so I don't know if that will work.
+
+
+[01/14/2023 9:12 PM] deathgripson#2395
+I gave the invalid rig a stronger connection so it should do better ill test that out for now
+
+
+[01/14/2023 9:13 PM] matty_19#4994
+Worst case I guess you would be running a whole other node for the further machines if it seems like a network issue
+
+
+[01/14/2023 9:13 PM] matty_19#4994
+Ok let me know. I'm curious now lol.
+
+
+[01/14/2023 9:14 PM] deathgripson#2395
+im fixing several things at once including mining rig clocks lol so it may take a little while, i hope that i get it solved today though
+
+
+[01/14/2023 9:16 PM] matty_19#4994
+Do you also still have difficulty on automatic?
+
+
+[01/14/2023 9:16 PM] deathgripson#2395
+yea
+
+
+[01/14/2023 9:17 PM] matty_19#4994
+And difficulty hangs out around 4g on a single gpu?
+
+
+[01/14/2023 9:17 PM] deathgripson#2395
+wym 4g?
+
+
+[01/14/2023 9:17 PM] matty_19#4994
+Share difficulty reported by miner
+
+
+[01/14/2023 9:18 PM] matty_19#4994
+My 3090 bounces around 3.5 to 4g difficulty
+
+
+[01/14/2023 9:19 PM] deathgripson#2395
+since my last restart they have been doing pretty well but yes for example i have  a 6800xt on my pc right now and it just hit a 8+ G share and yesterday something was causing it to get tons of rejects
+
+
+[01/14/2023 9:19 PM] deathgripson#2395
+rn its ok though
+
+
+[01/14/2023 9:19 PM] deathgripson#2395
+I restarted every rig and the stratum at the same time
+
+
+[01/14/2023 9:19 PM] deathgripson#2395
+and gave my upstairs single GPU rig a stronger connection to the network
+
+
+[01/14/2023 9:20 PM] matty_19#4994
+Yeah mine will swing up high from time to time as well but generally will see it in that region
+
+
+[01/14/2023 9:20 PM] deathgripson#2395
+also theres a setting on the stratum called jobRebroadcastTimeout that claims if you turn it to 0 it turns off the feature but infact it will just spam your rigs with jobs
+
+
+[01/14/2023 9:20 PM] matty_19#4994
+Yes lol
+
+
+[01/14/2023 9:20 PM] deathgripson#2395
+lmao
+
+
+[01/14/2023 9:23 PM] deathgripson#2395
+fuck
+
+
+[01/14/2023 9:23 PM] deathgripson#2395
+got one reject
+
+
+[01/14/2023 9:28 PM] matty_19#4994
+Percentage matters. 1 out of 4 is 25% rejected. 1 out of 100 shares is 1% let it run.
+
+
+[01/14/2023 9:29 PM] matty_19#4994
+Give it a half hour to an hour and see where you're at.
+
+
+[01/14/2023 9:32 PM] matty_19#4994
+Also worth trying for a short period just remove oc settings to eliminate that as a potential cause
+
+
+[01/16/2023 6:16 PM] Sachin$17#1581
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1064609181568614420/IMG_20230116_234543.jpg
+
+
+[01/16/2023 6:18 PM] Sachin$17#1581
+Need to some help to understand... That why my stratum is accepting same job ID many times... For example in this image job Id 1221 is accepted 3 times....i want to know is this normal or something wrong?
+
+
+[01/16/2023 7:16 PM] matty_19#4994
+Submitting multiple solutions and they are incorrect/didn't mine the block maybe?
+
+
+[01/16/2023 9:09 PM] deathgripson#2395
+its now only 1% rejects not sure what worked but in general thanks for the help
+
+
+[01/17/2023 2:02 AM] Sachin$17#1581
+@matty_19 so should I consider them as good shares or not?
+
+
+[01/17/2023 2:03 AM] matty_19#4994
+No worries.
+
+
+[01/17/2023 2:04 AM] matty_19#4994
+Well says valid share submitted so I would lean that way. That's the same thing both of my nodes/servers do.
+
+
+[01/17/2023 2:07 AM] Sachin$17#1581
+@matty_19 OK... But the thing is this information doesn't match with my daemon debug log file.... The shares I am submitting on stratum only 5-10% are showing on my daemon log file...
+
+
+[01/17/2023 2:07 AM] matty_19#4994
+I've mined 5 blocks over the last month to so it's working as far as I can tell. All the miners return the same info for valaid/rejected as is reported.
+
+
+[01/17/2023 2:09 AM] matty_19#4994
+@Sachin$17 yeah I'm no expert on the way the node works. There is a node channel on here as well that may be worth asking.
+
+
+[01/17/2023 2:09 AM] Sachin$17#1581
+@matty_19 OK...
+
+
+[01/17/2023 2:12 AM] matty_19#4994
+As far as im aware shares are not block solutions though. So maybe that's the difference you are seeing?
+
+
+[01/17/2023 2:12 AM] matty_19#4994
+Shares are a much less difficult snippet to gauge mining performance.
+
+
+[01/17/2023 2:13 AM] matty_19#4994
+https://discord.com/channels/668903786361651200/668930902751182913
+
+
+[01/17/2023 2:13 AM] matty_19#4994
+That's the node channel.
+
+
+[01/17/2023 4:02 AM] Sachin$17#1581
+@matty_19 yes that I known shares are not block found solution... But my concern is should I consider accepted share Good with same job ID
+
+
+[01/17/2023 4:10 AM] matty_19#4994
+Well let me know if you find an answer. I'm curious.
+
+
+[01/17/2023 7:25 AM] deathgripson#2395
+i believe it is normal for a worker to compute more than one valid share for the same job
+
+
+[01/17/2023 7:25 AM] deathgripson#2395
+or atleast i also see it happening on mine
+
+
+[01/17/2023 3:37 PM] deathgripson#2395
+praying 4 block :prayge: :k_thumbs_up:
+
+
+[01/17/2023 5:52 PM] Sachin$17#1581
+@matty_19 I think it's normal...
+
+
+[01/17/2023 5:53 PM] Sachin$17#1581
+Because same I got it on some other coin and I was getting blocks...  But that was test net..  So I just wanted to confirm that weather this works on main net or not of ergo... But yes according to me now it should work
+
+
+[01/17/2023 7:11 PM] matty_19#4994
+Yeah I've hit 5 blocks since the middle of December ish so it works. Good to know it's consistent.
+
+
+[01/17/2023 7:44 PM] Sachin$17#1581
+@matty_19 yes it works
+
+
+[01/17/2023 9:50 PM] deathgripson#2395
+what hashrate u got
+
+
+[01/17/2023 10:01 PM] matty_19#4994
+@deathgripson 3.4 GH ish
+
+{Reactions}
+nodders 
+
+[01/17/2023 10:03 PM] deathgripson#2395
+hopefully I can get my luck back on track with better uptime
+
+
+[01/20/2023 3:54 PM] matty_19#4994
+the luck is not with me anymore lol, haven't hit a block since the 8th
+
+
+[01/20/2023 4:33 PM] deathgripson#2395
+u will hit one soon probably, i havent hit one since getblock stepped down
+
+
+[01/20/2023 4:33 PM] deathgripson#2395
+nfa ofcourse xD
+
+
+[01/21/2023 12:36 PM] Sachin$17#1581
+@matty_19 difficulty is increased... So most probably you should hit 2 blocks in next couple of days... If your hashrate is same 3.4 ghs
+
+
+[01/29/2023 2:35 AM] deathgripson#2395
+if i have some other nodes that my stratum server is connecting to, do they need to be set to mining = true also or just the one w the stratum?
+
+
+[02/01/2023 3:35 AM] deathgripson#2395
+lol miner seems to produce less rejects than any other amd ergo miner i have tried. makes my rig considerably stable
+
+
+[02/13/2023 8:37 PM] RulezZzOr#2883
+guys, could anyone help me with rpc connection?
+
+
+[02/13/2023 8:37 PM] RulezZzOr#2883
+Feb 13 20:35:46 kaspa Miningcore[1206878]: [2023-02-13 20:35:46.4396] [I] [erg6] ExtraNonceProvider using 4 bits for instance id, 12 bits for 4095 values, instance id = 0x4
+Feb 13 20:35:46 kaspa Miningcore[1206878]: [2023-02-13 20:35:46.4396] [E] [erg5] Ergo daemon apiKey not provided
+
+
+[02/13/2023 8:37 PM] RulezZzOr#2883
+i am lost, rxd is working fine with pw, ergo not, ;/ dont have any pw and username filled in
+
+
+[02/14/2023 4:40 AM] RulezZzOr#2883
+fixed myself:D used apikey instead of username lol
+
+
+[02/14/2023 7:57 PM] deathgripson#2395
+lol nice, also w the stratum server leaving user and pass blank should work
+
+
+[02/15/2023 8:35 PM] RulezZzOr#2883
+didnt worked, on newest version , dunnot why
+
+
+[02/15/2023 8:36 PM] RulezZzOr#2883
+does anyone have nice newer gui for miningcore, which could recomnd?
+
+
+[02/17/2023 5:50 AM] deathgripson#2395
+not using mining core im just using the stratum server
+
+
+[02/17/2023 5:50 AM] deathgripson#2395
+thats why my tip may not have worked not sure about mining core
+
+
+[02/17/2023 5:51 AM] deathgripson#2395
+I HIT A SOLO BLOCK THO!!! never stop digging :k_thumbs_up: :kushtinaut:
+
+{Reactions}
+❤️ (2) 
+
+[02/21/2023 3:39 PM] Sonicchemist#6523
+Any recommendation for the minimum amount of hashrate needed to support a solo mine?
+
+
+[02/21/2023 3:40 PM] Sonicchemist#6523
+1gh?
+
+
+[02/22/2023 4:38 AM] blackinsecure#3693
+more like 5
+
+
+[02/22/2023 4:38 AM] blackinsecure#3693
+10 to be consistent
+
+
+[02/22/2023 4:41 AM] Sonicchemist#6523
+Whats Consistent for you? Monthly, weekly, daily?
+
+
+[02/22/2023 2:04 PM] blackinsecure#3693
+being at least as advantageous as just using a pool
+
+
+[02/22/2023 2:06 PM] Sonicchemist#6523
+Thats already covered don't you worry about that. What's consistent?
+
+
+[02/22/2023 2:06 PM] blackinsecure#3693
+?
+
+
+[02/22/2023 2:06 PM] Sonicchemist#6523
+Your views of consistency
+
+
+[02/22/2023 2:08 PM] Sonicchemist#6523
+Is what you mentioned earlier.  5 to 10gh would provide consistency. What's consistency within hitting a block? Monthly weekly or daily blocks
+
+
+[02/22/2023 2:08 PM] blackinsecure#3693
+*with current HR* you'd need at least 5GHs to hit *on average* a block weekly
+
+
+[02/22/2023 2:09 PM] Sonicchemist#6523
+Awesome and thank you for that
+
+
+[02/22/2023 2:10 PM] Sonicchemist#6523
+Pool mining it is for now
+
+
+[02/23/2023 1:55 AM] deathgripson#2395
+yea even w ~2GH blocks are very inconsistent and you are probably fighting reorgs 99% of the time
+
+
+[02/23/2023 1:56 AM] deathgripson#2395
+when getblok was still around it was more consistent w less hash because their pool was reorging more frequently than just 2GH would for me, Im on my own pool and took me like a month to hit a block
+
+
+[03/29/2023 8:58 PM] Reggerriee#5482
+Hello
+
+
+[03/29/2023 8:59 PM] Reggerriee#5482
+Could someone help with miningcore ergo pool?
+
+
+[03/29/2023 9:00 PM] Reggerriee#5482
+I set it up, I did everything, but something is wrong, because if I find a block, it doesn't go to the pool wallet, so miningcore can't pay it.
+
+
+[03/29/2023 9:00 PM] Reggerriee#5482
+I'm trying on testnet.
+
+
+[03/29/2023 9:00 PM] Reggerriee#5482
+my pool wallet address: 3WwW13FrUgpu6hHmsgHHtAydsiwair6Ao8mtxZWLAP5CT31DPK57
+
+
+[03/29/2023 9:01 PM] Reggerriee#5482
+founded block address:
+
+
+[03/29/2023 9:01 PM] Reggerriee#5482
+https://testnet.ergoplatform.com/en/addresses/mPdcmWTSJ6EEE2vHcjSFsUvM3sDkiZkGzUMDwTwUtT5kocSZfzdLjGx59EKKfLbpBf7oNntV5LpNAWNW
+
+
+[03/29/2023 9:01 PM] Reggerriee#5482
+I found these test blocks, but this is not my wallet address.
+
+
+[03/29/2023 9:02 PM] Reggerriee#5482
+if I see correctly, this wallet is not syntactically correct.
+
+
+[03/29/2023 9:13 PM] Reggerriee#5482
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/881966410006417409/1090730419902754826/response_1680120639470.json
+
+
+[03/29/2023 9:13 PM] Reggerriee#5482
+SWAGGER api see transactions but my node balance 0 erg
+
+
+==============================================================
+Exported 1,246 message(s)
+==============================================================

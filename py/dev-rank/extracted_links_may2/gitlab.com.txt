@@ -1,0 +1,12 @@
+https://gitlab.com/calvintam236/miningcore-ui
+https://gitlab.com/freetrader/bitcoincash-upgrade-specifications/-/blob/aserti3_2d_specification/spec/2020-11-15-asert.md
+https://gitlab.com/0353F40E/anyhedge-stats/-/blob/master/plots/plots.md
+https://gitlab.com/cafebedouin/gjp
+https://gitlab.com/bitcoin-cash-node/announcements/-/blob/master/2021-12-23_evaluate_viability_of_transaction_format_or_id_change_EN.md
+https://gitlab.com/thorchain/thornode/-/blob/develop/docs/newchain.md%E2%80%9D
+https://gitlab.com/garuda-linux/themes-and-settings
+https://gitlab.com/markglasgow/ergoweb
+https://gitlab.com/bitcoin-cash-node/announcements/-/blob/master/2022-06-09_bitcoin_cash_pay_to_script_hash_p2sh_past_present_and_future_EN.md
+https://gitlab.com/im_uname/cash-improvement-proposals/-/blob/master/CHIPs.md
+https://gitlab.com/calvintam236/miningcore-ui/-/issues
+https://gitlab.com/thorchain/thornode/-/blob/develop/docs/newchain.md

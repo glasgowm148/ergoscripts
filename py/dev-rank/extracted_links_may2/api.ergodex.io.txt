@@ -1,0 +1,14 @@
+https://api.ergodex.io/v1/amm/pool/7d2e28431063cbb1e9e14468facc47b984d962532c19b0b14f74d0ce9ed459be/chart?from=1655627521082&resolution=1
+https://api.ergodex.io/v1/amm/pool/9916d75132593c8b07fe18bd8d583bda1652eed7565cf41a4738ddd90fc992ec/chart?from=1658000000000
+https://api.ergodex.io/v1/docs/*)
+https://api.ergodex.io/v1/amm/pool/$
+https://api.ergodex.io/v1/amm/markets?from=1653075262280
+https://api.ergodex.io/v1/amm/markets?from='+aDayAgo)
+https://api.ergodex.io/v1/amm/markets
+https://api.ergodex.io/v1/amm/pool/1d5afc59838920bb5ef2a8f9d63825a55b1d48e269d7cecee335d637c3ff5f3f/chart?from=1655889031824
+https://api.ergodex.io
+https://api.ergodex.io/v1/amm/pool/92b1600f001b3f03d7152d7da90ebe6b46fc43edd9f325adbf1677b443520dcb/chart
+https://api.ergodex.io/v1/amm/pool/9916d75132593c8b07fe18bd8d583bda1652eed7565cf41a4738ddd90fc992ec/chart?from=1658000000000*)
+https://api.ergodex.io/v1/amm/pool/92b1600f001b3f03d7152d7da90ebe6b46fc43edd9f325adbf1677b443520dcb/chart*)
+https://api.ergodex.io/v1/docs/
+https://api.ergodex.io/v1/amm/markets?from=1653075262280*)

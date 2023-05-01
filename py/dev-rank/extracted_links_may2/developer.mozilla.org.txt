@@ -1,0 +1,5 @@
+https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors/CORSAllowOriginNotMatchingOrigin
+https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API)

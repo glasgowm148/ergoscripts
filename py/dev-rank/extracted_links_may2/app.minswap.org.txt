@@ -1,0 +1,5 @@
+https://app.minswap.org/swap
+https://app.minswap.org/
+https://app.minswap.org/swap?currencySymbolA=&tokenNameA=&currencySymbolB=29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6&tokenNameB=4d494e
+https://app.minswap.org
+https://app.minswap.org/farm

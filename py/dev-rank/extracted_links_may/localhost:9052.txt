@@ -1,0 +1,6 @@
+http://localhost:9052/wallet/transaction/send
+http://localhost:9052/
+http://localhost:9052/utxo/byIdBinary/$
+http://localhost:9052/swagger
+http://localhost:9052/wallet/transaction/send'
+http://localhost:9052/wallet/signMessage

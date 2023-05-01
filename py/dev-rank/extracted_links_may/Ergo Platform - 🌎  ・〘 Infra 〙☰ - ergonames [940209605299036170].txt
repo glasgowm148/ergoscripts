@@ -1,0 +1,1772 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🌎  ・〘 Infra 〙☰ / ergonames
+Topic: The intent is to make Ergo Addresses human friendly. Remembering a sequence of randomly generated address strings is impossible for humans. This project is about creating a DNS service to convert easy to remember strings (i.e. Easy Address) to actual Ergo Wallet addresses. The DNS service would be powered by Ergo blockchain itself and hence, would be decentralized.
+==============================================================
+
+[02/07/2022 2:00 PM] 6directions#1089
+Hello 👋🏼
+Who's working on this project and what exactly is it?
+
+
+[02/07/2022 2:04 PM] glasgowm#9381
+see the post in #📢│event-announcements for descriptions please. Still sorting all the roles
+
+
+[02/07/2022 2:23 PM] 6directions#1089
+Thank you. Seems like project is what I thought it was. Read their proposal. Curious to talk with someone from the team.
+
+
+[02/07/2022 2:28 PM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/940252569186480249/ergo-dns.pdf
+
+
+[02/07/2022 2:30 PM] 6directions#1089
+That's the proposal I found in a Dropbox folder 🙂. Thanks @glasgowm . No mention of team members though so I'll wait until one of them stumbles upon this chat.
+
+
+[02/07/2022 2:31 PM] glasgowm#9381
+Welcome @ergo-dns Let me know if anyone else is to be added to this role.
+
+
+[02/07/2022 5:00 PM] Adoo#5093
+Hi all, I submitted this proposal. Happy to kickstart the discussion here to take this forward. 🙂
+
+
+[02/07/2022 5:03 PM] Adoo#5093
+We plan to make a simple service as described in the proposal - a proof of concept.
+Bells and whistles can be added over a few iterations. Got to start somewhere.
+
+
+[02/07/2022 5:08 PM] Adoo#5093
+@6directions - Are you interested in this project? How would you like to contribute?
+
+
+[02/07/2022 6:10 PM] Kurikun#6941
+Hi team, I spent a lot of time thinking about this issue and also watching how it was recently (successfully) implemented on Cardano.  I wish your team the best in your project.  I'm happy to share my thinking if it would be beneficial.
+
+
+[02/07/2022 6:12 PM] Kurikun#6941
+As part of my project, I acquired the domain ergonames.com, which you might find useful.
+
+
+[02/07/2022 8:41 PM] Balb#7267
+I’ve been building this dapp as well. I called it Sigma Domains. I’ve written basically everything for the frontend and part of the backend that tracks if the domains have been sent to a new address. I really only have to create a way to store ownership of each domain. I’ve also realized that if this dapp is built right, the registration fees could be used to fun a project catalyst type of dao. Which would help ergo development a lot. Maybe we all could work together?
+
+
+[02/08/2022 12:46 AM] Kurikun#6941
+What does everyone think of the nft solution used over on Cardano by ADA handle? https://adahandle.com/
+
+
+[02/08/2022 12:47 AM] Kurikun#6941
+This is nice, because a) Ergo already supports NFTs, b) you can establish ownership of a name by owning the NFT, which makes transferability so easy and c) you can easily support multiple names per wallet, which the original proposal doesn't support.
+
+
+[02/08/2022 12:51 AM] Kurikun#6941
+There are some drawbacks to this vs Cardano, based on the way that Ergo currently supports NFTs, so it's not all roses.  For example, you'd ideally want to mint an NFT on -demand, when a customer orders one for a specific name.  You'd store the name in one of the registers.  
+
+A "minting policy"  (https://developers.cardano.org/docs/native-tokens/minting-nfts/) would be ideal to "group" these NFTs together and show that they are all authentic.  But Ergo doesn't support minting policies, so there needs to be some other way to determine what's an authentic "Ergo Name NFT".
+
+
+[02/08/2022 12:55 AM] Kurikun#6941
+This could be by issuer address, for example, but maybe other alternatives exist.
+
+
+[02/08/2022 1:30 AM] NoahErgo#4349
+Wow I assumed this submission was by @Balb ! Didnt realize somebody else was working on this too
+
+
+[02/08/2022 1:30 AM] NoahErgo#4349
+You guys should all team up no doubt
+
+
+[02/08/2022 2:03 AM] 6directions#1089
+Hey all.
+
+What a small world haha. I too have been working on this idea.
+
+In fact, I was talking to one of the Ergnome Devs about it, and he pointed me to the Sigma Domains Twitter account @Balb .
+
+Anyway, I'm open to working together to bring it all together, @Adoo , @Balb 
+
+I have put together a lot of the backend functionality:
+
+- token minting
+- token burning (for testing, and in case of a fluke)
+- token authenticity validation
+- address resolution: going from the token name to the address holding the NFT. 
+
+@Kurikun I actually drew inspiration from ADA handle. I very much like what they did. I particularly like the fact that it makes handles dynamic. Meaning, whatever wallet currently holds the token is the address that the handle resolves to. This allows them to be transferable.
+
+@Kurikun , with regards to verifying if the token is authentic: mint address is the approach I've taken. Basically, a single address has to be allocated for minting. Then, one can verify that the address of the first input to the minting tx is equal to the mint address. If it's not, then the token is considered counterfeit.
+
+
+[02/08/2022 2:05 AM] 6directions#1089
+I've been doing some testing today, and have the beginnings of a working proof of concept in a console app.
+
+It can take a token/handle name and ultimately find the address of the wallet holding it, all while verifying the token is not a counterfeit, and that it hasn't been burned.
+
+
+[02/08/2022 2:06 AM] Balb#7267
+I agree. The best way to verify would be with the minting address
+
+
+[02/08/2022 2:07 AM] Balb#7267
+Allowing for domains to be transferable is easy since they will naturally be transferable
+
+
+[02/08/2022 2:07 AM] Balb#7267
+We would just need to create a program that tracks all the domains and then updates with the current address owner of each one
+
+
+[02/08/2022 2:08 AM] Balb#7267
+Could write a script that scans transactions in a block and searches for token ids that match token ids of minted domains and then get the address it was sent to
+
+
+[02/08/2022 2:11 AM] 6directions#1089
+It can also be done in an ad hoc fashion by querying the ergo explorer API.
+
+That way there is no need to keep a database that keeps track of each token's movement and current location.
+
+When you want to know where a token is, you just make a sequence of calls that end up giving you the answer.
+
+Happy to share the sequence of calls that get you from token name to wallet address once I'm back at the computer in the next 1-2 hours.
+
+
+[02/08/2022 2:13 AM] 6directions#1089
+I started looking into a way to perform the sequence of queries that I'm currently making against the ergo explorer api, but against the node API.
+
+For now, the explorer api seems to be sufficient.
+
+
+[02/08/2022 2:24 AM] Adoo#5093
+I was thinking more of a transaction based approach where all the registration data is centralised at one address. It would be faster to parse all the transactions in one address to determine the current ownership status.
+
+NFT Approach
+* Pro - Naturally transferrable
+* Pro - Proven Implementation in Cardano
+* Con - Need to parse entire blockchain to determine current state of ownership
+* Time to determine ownership of Name NFT = Current Height (Parse through blockchain in reverse order starting from latest block) * Average Tx Per Block (Parse all transactions in each Block) 
+
+Transaction Approach
+* Pro - Need to parse only transaction history of one address to determine current state of ownership
+* Con - Transfers would have to be developed.
+* Time to determine ownership of Name NFT = All transactions at one address 
+
+Additional Note - 1 easy address per ergo address is not a technical limitation. It is to prevent one address holding too many easy addresses. Imagine early adopters spamming and registering all celebrity names. I think we should solve for it before going live
+
+@Balb , @6directions I am really glad to see so much work has already happened.  Power of community and open-source is really blowing me away. My 2 cents - NFT approach can work if there is a scalable solution to determine the current ownership of Name NFT. A decentralised service which creates a HashMap between easy addresses and ergo addresses based on latest state of blockchain perhaps for O(1) complexity.
+
+
+[02/08/2022 3:46 AM] Balb#7267
+I like that NFT approach better since it'll be more decentralized. I don't think building a solution to determine current ownership will be a tough thing to do imo
+
+
+[02/08/2022 3:55 AM] 6directions#1089
+@Adoo raises some valid points/concerns, though ultimately agree with @Balb . At the very least, it can be a good starting point.
+
+Lookup performance is a legitimate concern at scale. In Cardano, I think the concern is mitigated by the fact that you can use a combination of `policy_id + hex_encoded(asset_name)` to lookup an asset in a single request, the response of which tells you which wallet holds the NFT. All this is possible because of the policy id.
+
+In Ergo, there is a workaround to achieve the same end result, but it takes a few extra steps. I think that, at the very least, it would be worth testing the impact of those "few extra steps" at scale, or "some scale" (like some sort of beta testing). I have been running tests locally and it all works pretty fast, but of course I have thought: how would this scale? As @Balb , I am more inclined towards a more decentralized solution. If it can be dynamic, then even better.
+
+But like I said, it could be a descent starting point. There is definitely some performance testing that would need to be done.
+
+
+[02/08/2022 3:57 AM] Balb#7267
+The approach I was thinking of would be minting nfts on chain and then storing the owner address in a database. Dapps and wallets can call the database for quick lookup times and then we could write scripts that track ownership and then update the database
+
+
+[02/08/2022 3:58 AM] Balb#7267
+and then overtime we could possibly create a network of bots that serve as the database to stop the reliance on a centralized server
+
+
+[02/08/2022 4:03 AM] 6directions#1089
+what are your thoughts on just reading the data from the chain through the explorer api?
+
+I looked into how the explorer reads data from the chain, and was surprised to find that they do a lot of heavy lifting to make on chain data more easily readable/searchable.
+
+They have an off chain component called `Chain Grabber` responsible for syncing blockchain data to an off chain SQL db... They fetch block data and split it into different entities you might find in a block (transactions, inputs, outputs, assets, etc), establish some relationships and save them into a db.
+
+https://github.com/ergoplatform/explorer-backend/blob/master/doc/DesignNotes.md#chain-grabber
+
+It does almost the same thing as cardano's db-sync component. except (I think), there is an instance of db-sync for every cardano node, whereas the ergo explorer's chain grabber is a centralized solution.
+
+either way, the explorer's backend already offers a reliably way to continually sync on chain data to an off chain database, as well as making it more easily searchable.
+
+{Embed}
+https://github.com/ergoplatform/explorer-backend/blob/master/doc/DesignNotes.md
+explorer-backend/DesignNotes.md at master · ergoplatform/explorer-b...
+Ergo Blockchain Explorer. Contribute to ergoplatform/explorer-backend development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/Ei3ry70VViXFAVlMeIPVCD6cjJPiyoVuY-tyNPDSrCo/https/opengraph.githubassets.com/80ff8a9fa7aaf9d04de53b49ee3b41cd208e88ee59f64a352a36aaa55700c7ff/ergoplatform/explorer-backend
+
+
+[02/08/2022 4:07 AM] 6directions#1089
+> NFT approach can work if there is a scalable solution to determine the current ownership of Name NFT
+@Adoo , I'm inclined to think the interface exposed by the explorer API might suffice. But at the end of the day, I think we would only be able to get a concrete answer by stress testing it.
+
+
+[02/08/2022 4:24 AM] Balb#7267
+this looks like a better solution. we could call this instead of building our own
+
+
+[02/08/2022 6:38 AM] Kurikun#6941
+>> It is to prevent one address holding too many easy addresses.
+
+The way to prevent this is two-fold: First, you make the names (somewhat) costly.  In the proposal, you mention a nominal fee, like 0.1 Erg.  I think that's really too low and creates the problem you identify.  Remember also that running this service requires an ongoing investment, and a too-low upfront fee will not leave much to run the system over time.
+
+The fees that ADA Handle charged were:
+* Legendary (1 character): Auction Only
+* Ultra Rare (2 characters): 500 $ADA
+* Rare (3 characters): 100 $ADA
+* Common (4–7): 50 $ADA
+* Basic (8–15): 10 $ADA
+
+These would prevent most people from getting a lot of names.
+
+Secondly, in  their minting process, you had to verify an email address and there was some limit to the number of names you could register at one time per email address.
+
+One cool thing that ADA Handle did was grant free names to people that were helping to build the Cardano ecosystem.  For example, all of the stake pools got a name that was equivalent to their stake pool ticker.  You could grant a free "kushti" for example, so no one could buy that.
+
+
+[02/08/2022 6:43 AM] Kurikun#6941
+This is a possible solution, but it is overly centralized in my opinion, and a single point of failure.  My thought when I was considering this was that yes, my "project" would provide an API that a "client", like a wallet, could call.  But if I ever went out of business, any other app could perform the same lookup as my API could (because the data is all on-chain), and all functionality could be maintained.  The API at some point could even be hosted within Ergo Explorer.
+
+
+[02/08/2022 6:47 AM] Kurikun#6941
+There are 3 instances of Ergo Explorer maintained by the Ergo Foundation.  All of the dApps on Ergo can call them, and in some cases it may get overly congested.   This article describes what happened for ErgoDex: https://ergodex.medium.com/reasons-of-network-issues-on-january-28th-20113ef960a5.  It may be fine as a POC to call Ergo Explorer, but as a commercial app if it ever evolves to that the name service should have it's own Explorer database, imo
+
+
+[02/08/2022 6:51 AM] Kurikun#6941
+Just as an aside, this is not my project.  I think @Adoo signed up for it and he's probably thinking, "Who TF are these people and why are they talking about NFTs?", lol.
+
+I wanted to offer my opinions, and I've done that, but I don't want to walk all over Adoo's plans.  If there's some way I can contribute, I would like too, but I don't want to derail any plans that Adoo may have had for his project.
+
+
+[02/08/2022 8:57 AM] Adoo#5093
+Guys, I am all up for teaming up to get this done.
+
+Summary of current contribution:
+CloudScope - ergonames.com domain + Experience and learnings from Cardano ecosystem
+Balb - Frontend + Partial Backend. Ownership storage is not solved yet.
+6directions - Ownership storage solution using NFT.
+Adoo - Scalability Lens. Business case lens.
+
+We can get on a call to explore if we want to work together to do this! If we agree to work together, we can setup a repo, conceptualise MVP and start working towards it.
+
+{Reactions}
+💯 
+
+[02/08/2022 9:22 AM] Balb#7267
+I am very much in for this
+
+{Reactions}
+ergo_black 
+
+[02/08/2022 11:07 AM] glasgowm#9381
+Great discussion in here guys, throwing this in the mix: https://www.ergoforum.org/t/proof-of-work-backed-tokens/224
+
+{Embed}
+https://www.ergoforum.org/t/proof-of-work-backed-tokens/224
+Proof-of-Work Backed Tokens
+In Ergo, one token per transaction can be issued, and the token id must be the same as id of the box of the first input.  Thus if you have generated a box you know id of the future token. And this id is calculated via hashing.  Thus via iterating over a register (e.g. R4) used as a nonce, you can create a token with specific id properties, e.g. ...
+
+
+[02/08/2022 2:48 PM] Adoo#5093
+Thanks @glasgowm . 
+
+POW backed NFTs can add a whole new dimension to this project. The complexity would increase multifold, so would novelty of the solution.
+
+Benefits of POW Backed NFT
+- **Novel Solution** - Really cutting edge I would say.
+- **Additional Revenue Stream for Project** - In addition to tier the pricing based on how rare an Easy Address would be (fewer characters = rarer), POW backed NFT could add another dimension of how secure an Easy Address would be. If a POW backed NFT has more leading 0s, that implies a higher 'quality' of Address. Reproducing something similar would take more resources.
+- **Additional Revenue Stream for Miners** - While minting a new Easy Address NFT, users can specify their target quality (aka difficulty) and be priced accordingly (higher NFT fees + Miner fees for higher quality NFTs). Miners would have an incentive to dedicate resources towards minting these NFTs.
+
+Disadvantages
+- The complexity of MVP would increase 3x. We would need (i) Smart contract solution for POW Based NFT, (ii) frontend changes for taking quality inputs while minting NFTs and (iii) a way to communicate miner incentives to miner community. Solving for (iii) would be highly complex.
+- Besides quality, I am not sure if POW Backed NFT solves any other problem. Maybe Spam control.
+
+
+[02/08/2022 3:04 PM] Adoo#5093
+For the call, I have created a Doodle to find common meeting slot. Let's try to connect before the start of ErgoHack.
+
+https://doodle.com/poll/brknsdpcw84aif36?utm_source=poll&utm_medium=link
+
+Please adjust timezones before giving in your inputs. Hoping to connect with you - @Kurikun , @Balb , @6directions.
+
+{Reactions}
+👍 (2) 
+
+[02/08/2022 3:19 PM] MGpai#4313
+Just found this channel and read through the great discussion!
+
+
+[02/08/2022 3:20 PM] MGpai#4313
+Very excited to see how this will be implemented!
+
+
+[02/08/2022 3:20 PM] MGpai#4313
+I will try to contribute if I can but I doubt it lol
+
+
+[02/08/2022 3:20 PM] 6directions#1089
+Will do. Looking forward to talking!
+
+
+[02/08/2022 4:47 PM] Kurikun#6941
+Very much looking forward to participating.  I'm US-Pacific timezone, and I've added my times on Doodle.  Also, I'm a developer, and previously I've created https://ergo.nodespyder.io.  It sounds like much of the development of the UI may have been complete, so I'll contribute where I can.
+
+
+[02/08/2022 5:22 PM] jethiya#8148
+Very much looking forward to contributing together with you guys.
+
+
+[02/09/2022 2:59 AM] Adoo#5093
+Seems like we have a common available slot. I have setup a zoom meeting for us to connect. 
+
+Anyone interested in this project can join the Zoom meeting using the details below. Agenda for the call would be as follows:
+
+* Intro - 1 minute per person (5 min)
+* Project Plan - Adoo (5 min)
+* Current State of Frontend - Baub (5 min)
+* Brainstorming - All (10 min)
+* Agree on Next steps - All (5 min)
+
+Topic: ergo-dns meet
+Time: Feb 10, 2022 08:30 AM Mumbai, Kolkata, New Delhi (GMT +05:30)
+Please convert the time to your time-zones.
+
+Join Zoom Meeting
+https://us04web.zoom.us/j/78029974274?pwd=9WdU3Z9gKE6uYHxq_Vp3ZBvAxG031e.1
+
+Meeting ID: 780 2997 4274
+Passcode: 3nfMQ9
+
+{Embed}
+https://us04web.zoom.us/j/78029974274?pwd=9WdU3Z9gKE6uYHxq_Vp3ZBvAxG031e.1
+Join our Cloud HD Video Meeting
+Zoom is the leader in modern enterprise video communications, with an easy, reliable cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems. Zoom Rooms is the original software-based conference room solution used around the world in board, conference, huddle, and training rooms, as well as ex...
+
+
+[02/09/2022 5:31 PM] NoahErgo#4349
+https://twitter.com/adahandle/status/1491461165385338886
+
+{Embed}
+$handle (@adahandle)
+https://twitter.com/adahandle/status/1491461165385338886
+We are beyond excited to announce our newest partnership with @ergoplatformorg! 🔥 
+
+We will work alongside the brilliant business development team at Ergo, led by @CuriaCrypto, in addition to @DanielTetsuyama!
+
+Read more below! ⬇️
+
+https://t.co/kGUUSfhozK
+https://images-ext-2.discordapp.net/external/wOT1GhJsnZJL8HI0Twxw8InbBc2-BN5RXNWbxRokU3U/%3Fformat%3Dpng%26name%3D600x314/https/pbs.twimg.com/card_img/1491461038964805635/MHOLYRDF
+Twitter
+
+{Reactions}
+🤷 ⛔ 
+
+[02/09/2022 5:37 PM] NoahErgo#4349
+Not sure what this means for you guys to be honest
+
+
+[02/09/2022 5:38 PM] Adoo#5093
+Wow, that is some news!
+
+
+[02/09/2022 5:38 PM] NoahErgo#4349
+maybe theres some way you could all work together or something? @glasgowm maybe you can chime in if you have more info
+
+
+[02/09/2022 5:39 PM] Adoo#5093
+Happy to see that our thoughts are in the right direction
+
+
+[02/09/2022 5:41 PM] Adoo#5093
+I am personally okay with contributing to the team or building a POC for ErgoHack. Getting hands on with a usable DeFi solution is exciting for sure. Good from learning perspective either way.
+
+
+[02/09/2022 5:42 PM] NoahErgo#4349
+Would just be a shame to see all of your collective work wasted, hopefully that isnt the case
+
+{Reactions}
+🤷 
+
+[02/09/2022 5:44 PM] Adoo#5093
+PFA a deck for the discussion later. @Balb @6directions @Kurikun Let me know if you guys still want to move forward with this.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/941026738606067762/ergo-dns_Plan.pdf
+
+
+[02/09/2022 5:51 PM] lgd#5847
+You guys should still do it, no reason ada handle has to have a monopoly, imo. Who knows, maybe you might end up doing it better. Tbh, somebody must have known that a team was gonna do this during eh3. Kinda shitty they didn't say anything if EF knew before hand. Just business right?
+
+
+[02/09/2022 6:00 PM] glasgowm#9381
+Not looked into it properly, sneaky one from @Armeanio
+
+
+[02/09/2022 6:04 PM] 6directions#1089
+https://tenor.com/view/this-is-fine-fire-house-burning-okay-gif-5263684
+
+{Embed}
+https://tenor.com/view/this-is-fine-fire-house-burning-okay-gif-5263684
+https://images-ext-1.discordapp.net/external/GDGYHcgdXXYZJJGMWJZHvAi0JTiPadPel7n2fWrvrFc/https/media.tenor.co/images/c0e250347276c40d9737a73628d3bc4a/raw
+
+
+[02/09/2022 6:45 PM] Armeanio#0321
+This had been in motion for a while. I hope nobody has hard feelings.
+
+ Open source development can mean joint progress. I am a big advocate of competing solutions. I hope you all still build.
+
+
+[02/09/2022 6:46 PM] Armeanio#0321
+I think in the name space we are still pretty green, a lot of innovative solutions to explore.
+
+
+[02/09/2022 6:51 PM] Adoo#5093
+I would like to proceed with POC - In the spirit of learning and hopefully creating something useful.
+
+If anyone feels that we should pivot, all ears for hearing ideas.
+
+Regarding EF partnership and conflict with EH 3 ideas, things could have been done better. Selecting ideas which conflict with current or future partnerships might not be best for developer community and / or EF partners. Slightly demotivating as a participant.
+
+We are where we are. It's okay. I say - we build. We will undwrstand if we can function well as team. Could be a good platform for future projects.
+
+
+[02/09/2022 6:53 PM] Kurikun#6941
+It all depends on how the Ergo Foundation handles this.  If ADAHandle is the "blessed solution" from EF and any other solutions are like "hey, whatever, knock yourselves out guys" then how is that in any way balanced?
+
+
+[02/09/2022 6:54 PM] Kurikun#6941
+Creating winners just knocks out any development you want to encourage on your platform.
+
+
+[02/09/2022 7:02 PM] lgd#5847
+I think showing support and promoting awareness of projects is fine, but making business deals with third-party projects building on Ergo is another. Is this within the purpose of EF? Tbh I didn't think it was. Interesting question for the future though.
+
+
+[02/09/2022 7:09 PM] NoahErgo#4349
+Creating partnerships is well within the goals of the Ergo Foundation
+
+
+[02/09/2022 7:10 PM] lgd#5847
+Maybe the types of partnerships should be more clearly defined.
+
+
+[02/09/2022 7:14 PM] Armeanio#0321
+I don't want to pick winners and losers. 
+
+Any project that builds open source solutions can leverage the Ergo Foundation for our support.
+
+
+[02/09/2022 7:15 PM] Armeanio#0321
+That has been the ask on our side, build open source and we will do what we can to support your project.
+
+
+[02/09/2022 7:17 PM] Armeanio#0321
+There isn't any official business partership here other than support for open development, I would be happy to give your project equal coverage. 
+
+I just have been trying to help find a solution for the NFT scams in the ecosystem.
+
+
+[02/09/2022 7:22 PM] Armeanio#0321
+My recommendation is build. Unique solutions and use cases within this area are still yet to be discovered/implemented. 
+
+As the ecosystem develops I think we will see a lot of competing solutions Dexes, Defi Platforms, NFT dApps. 
+
+I think there is ample room for unique solutions and would be happy to support your project if you build open source. That has been my only ask for my support.
+
+
+[02/09/2022 7:27 PM] Kurikun#6941
+>> I just have been trying to help find a solution for the NFT scams in the ecosystem. 
+If you want to do this, just implement policyId as they have on Cardano.  This is the single biggest hinderance for making a flourishing NFT system on Ergo, imo.
+
+Currently there is no easy way for a collection of NFTs to be viewed as a collection.
+
+
+[02/09/2022 7:28 PM] Armeanio#0321
+I agree. This type of solution is needed and would solve a lot of issues.
+
+
+[02/09/2022 7:30 PM] lgd#5847
+Their blog post made it seem more official than it is, as though it was some kind of legal deal/partnership. I think that's what would worry projects and where the confusion came from. Obviously just helping and giving advice is different, like you said, you would do that for any project that decides to be open on Ergo.
+
+
+[02/09/2022 7:33 PM] Armeanio#0321
+We officially support any project that builds with open source code and participates in community driven development.
+
+
+[02/09/2022 7:33 PM] Armeanio#0321
+That is one of the goals of the EF.
+
+{Reactions}
+👍 
+
+[02/09/2022 7:34 PM] Armeanio#0321
+I would be happy to extend the same level of support to your project.
+
+
+[02/09/2022 7:35 PM] Armeanio#0321
+Personally, I really want to remain neutral and try to encourage good development practices, not pick any winners and losers.
+
+Competition between projects will come, but I do think that each can find unique solutions that benefit the users.
+
+
+[02/09/2022 7:38 PM] Armeanio#0321
+I apologize if you guys feel rugged, unsupported or have lost some motivation, it really was not my intent here.
+
+
+[02/09/2022 8:33 PM] 6directions#1089
+I'm in to proceed with discussions and potential POC. If it goes somewhere, cool. If it doesn't, might be worth it in the spirit of learning.
+
+
+[02/09/2022 8:44 PM] 6directions#1089
+If I may, what does a "partnership" entail in this case? Are you at liberty to say? I'm genuinely curious since the verbiage of the post painted a picture in my mind of something more than just promotion of a team who, in all fairness, is pursuing a very neat and practical solution.
+
+
+[02/09/2022 8:46 PM] NoahErgo#4349
+“ADA Handle will work alongside the business development team to promote the Handle Standard on Ergo. We will explore the option of starting that integration with Nautilus Wallet.”
+
+
+[02/09/2022 8:48 PM] 6directions#1089
+I see
+
+
+[02/09/2022 9:08 PM] Armeanio#0321
+I told their team if they build open source to help facilitate any partnerships in the community I could make an introduction. 
+
+If they participate in the weekly community update I make videos weekly. 
+
+Also we are a community that often has  pretty open community development so if there are issues and questions feel free to ask. 
+
+We are in the early stages of working on a developer driven DAO for tooling, pattern design, etc and when that comes to life they are welcome to participate.
+
+
+[02/09/2022 9:09 PM] Armeanio#0321
+The same invitation is extended to any open source project in the ecosystem.
+
+
+[02/09/2022 9:19 PM] 6directions#1089
+Roger that 👍
+
+
+[02/09/2022 9:20 PM] 6directions#1089
+As far as me personally: in the end, don't worry about it. I harbor no resentment (don't see a reason to).
+
+
+[02/09/2022 9:22 PM] 6directions#1089
+Wish you could have heard the genuine, chill tone in which I said that. I really mean it. And I never believed there was any negative intent on your behalf!
+
+{Reactions}
+ergo_white 
+
+[02/09/2022 9:23 PM] 6directions#1089
+@Adoo for what it's worth, I intend on showing up to the call tomorrow.
+
+{Reactions}
+ergo_black 
+
+[02/09/2022 9:30 PM] NoahErgo#4349
+I hope you all continue, I have a feeling you guys are in a good position to be first movers in the ergo ecosystem
+
+{Reactions}
+👍 
+
+[02/09/2022 9:31 PM] NoahErgo#4349
+Also want to throw out there that a domain name service is one of the suggested ideas for good whale grant fund
+
+
+[02/09/2022 9:32 PM] NoahErgo#4349
+https://ergoplatform.org/en/blog/2021-11-02-good-whales-grant-fund/
+
+{Embed}
+https://ergoplatform.org/en/blog/2021-11-02-good-whales-grant-fund/
+Good Whale’s Grant Fund
+Ergo believes that people …
+https://images-ext-1.discordapp.net/external/CLmd69iWnRvAWTLclAAMMNVYkCIB2IVoFTAAinCW_08/https/ergoplatform.org/img/uploads/good-whale-cover-1-.png
+
+
+[02/09/2022 9:33 PM] NoahErgo#4349
+You all should apply for sure
+
+
+[02/09/2022 9:33 PM] Balb#7267
+I want to continue too . I will be there on the call as well
+
+{Reactions}
+ergo_black 
+
+[02/09/2022 11:58 PM] Kurikun#6941
+I will be on the call.
+
+{Reactions}
+ergo_black 
+
+[02/10/2022 2:25 AM] Adoo#5093
+Call starts in around 30 mins. Open for all. Looking forward to meeting you guys.
+
+
+[02/10/2022 2:58 AM] Chris Ray#2713
+This is open to all?
+
+
+[02/10/2022 2:58 AM] Kurikun#6941
+Yes
+
+
+[02/10/2022 3:19 AM] Adoo#5093
+For discussion
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/941171503859396638/ergo-dns_Plan_1.pdf
+
+{Reactions}
+ergo_orange 
+
+[02/10/2022 5:34 AM] Adoo#5093
+Minutes of Meeting
+
+* Overall consensus on moving forward (first 10 mins)
+    * Dedicated team for Ergo
+    * Faster time to market
+    * Faster pivots based on Ergo developments
+* Skillset (next 10 mins)
+    * **CloudScope** - Domain & Discord Created. .NET Developer.
+    * **Balb** - ErgoScript + Sigma Contracts Skill. Working prototype of sigma contract to mint + burn tokens. Some bugs.
+    * **6directions** - .NET Developer. Working prototypes of frontend and backend.
+    * **Adoo** - Worked with .NET, Scala in the past. Now into Product Management + CX.
+    * **jethiya** - Backend Developer from Germany. He would join the next call.
+* Project Overview and Parts (last 10 mins)
+    * Slide 2 - Key Components - Done
+    * Slide 5 - User Flows - Done
+    * Slide 3 - Key Decisions - In Progress
+    * Slide 4 - Key Ownership - TBD
+* Next Steps
+    * Schedule Next Call - Adoo will share Doodle link for Scheduling
+    * Join Discord - Get invite from CloudScope
+    * Agenda for next call
+        * Demos (20 mins)
+            * 6directions - 10 mins
+            * Balb - 10 mins
+        * Key Decisions - Agree on key decisions on approach in Slide 3 - 10 mins
+            * If there are missing key decision points, please add on discord / DM me / raise in next call.
+        * Key Ownership - Slide 4 - If time permits
+
+{Reactions}
+ergo_orange 
+
+[02/10/2022 5:49 AM] Adoo#5093
+Doodle link for scheduling our next meeting:
+https://doodle.com/poll/gs4w2di5whr8i8qa?utm_source=poll&utm_medium=link
+
+
+[02/10/2022 12:38 PM] Adoo#5093
+Invite for next meeting.
+
+Topic: ergo-dns meet #2
+Time: Feb 11, 2022 10:30 AM Mumbai, Kolkata, New Delhi (GMT + 05:30)
+
+Please convert time zone to correct time zone.
+
+**Agenda**
+- 6directions Demo  - 10 mins
+- Balb Demo - 10 mins
+- Key Decisions - Slide 3 - 10 mins
+- Key Ownership - Slide 4 - If time permits
+
+Note - If there are missing decision points, please add on discord or raise in next call.
+
+Join Zoom Meeting
+https://us04web.zoom.us/j/79262558236?pwd=tYzyvzzN2hG33WidT11YzFsgs-Q0Hd.1
+
+Meeting ID: 792 6255 8236
+Passcode: EQHv9t
+
+{Embed}
+https://us04web.zoom.us/j/79262558236?pwd=tYzyvzzN2hG33WidT11YzFsgs-Q0Hd.1
+Join our Cloud HD Video Meeting
+Zoom is the leader in modern enterprise video communications, with an easy, reliable cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems. Zoom Rooms is the original software-based conference room solution used around the world in board, conference, huddle, and training rooms, as well as ex...
+
+{Reactions}
+👍 (4) 
+
+[02/11/2022 4:39 AM] Adoo#5093
+Call starts in 20 mins.
+
+
+[02/11/2022 12:53 PM] root7Z#8699
+Hello @ergo-dns project team! How is it going with your development, would you provide updates?
+
+
+[02/11/2022 1:22 PM] Adoo#5093
+Hi @root7Z - is there a format for providing update? How frequently are the updates expected?
+
+
+[02/11/2022 1:24 PM] root7Z#8699
+No there is not a certain format you can provide as image or docs or message. It would be good if one now -midday- and one at the closing of the day. Thank you
+
+
+[02/11/2022 1:25 PM] root7Z#8699
+A general update on how is it going, and if you need any help about the project etc.
+
+
+[02/11/2022 1:30 PM] kushti#0978
+If any help needed with contracts or any tech, please let me know
+
+{Reactions}
+ergo_black (2) 
+
+[02/11/2022 2:00 PM] Adoo#5093
+**Meeting Minutes**
+
+- @6directions's demo - 
+   EasyName -> Holding Address Resolver is working.
+   EasyName NFT Counterfeit Checker is working.
+   Assumption - All EasyNFT would be minted from same address.
+   Converting to Javascript library is possible for fast-tracking Nautilus integration.
+- @Balb's demo -
+   Frontend is somewhat done.
+   Ergo Assembler based NFT minting flow. 
+      Step 1 - Take User Inputs
+      Step 2 - Generate Smart Contract Address and wait for Erg to be received
+      Step 3 - Erg transaction can be done through DApp connector or from the wallet
+      Step 4 - Smart Contract will either mint NFT or return the (funds - tx fee).
+   Each NFT minting address would be different if Ergo Assembler is used.
+   Appkit based solution can allow for same minting address for each NFT.
+
+{Reactions}
+👍 (2) 
+
+[02/11/2022 2:00 PM] Adoo#5093
+WIP Plan
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/941695284566708224/ergo-dns_Plan_-_20220211.pdf
+
+{Reactions}
+👍 (3) ergo_orange (2) 
+
+[02/11/2022 8:55 PM] root7Z#8699
+I hope the first day is going well. Please share a few notes from today's development as we are coming closer to the end of the day. Best regards,
+
+
+[02/11/2022 10:14 PM] Balb#7267
+Created initial backend to mint domain nfts
+
+{Reactions}
+ergo_orange (2) 
+
+[02/11/2022 10:15 PM] Balb#7267
+Created an api system to lookup address of each nft owner
+
+
+[02/11/2022 10:15 PM] Balb#7267
+Planning out how to connect each system module to each other
+
+
+[02/12/2022 5:05 AM] Adoo#5093
+@capt_nemo - We are brainstorming on how to create connector between ergo-dns and existing wallets. There are two ways in which we can connect with Nautilus.
+
+1. ergo-dns would be a separate webservice. We connect to Nautilus using DApp connector after resolution happens.
+2. Inbuilt functionality in Nautilus for ergo name resolution.
+
+We would like to go for option 2. Would it be possible? We are happy to provide help for such type of integration. Let us know.
+
+{Reactions}
+ergo_orange (2) 👍 
+
+[02/12/2022 5:46 AM] root7Z#8699
+@ergo-dns Good morning team! Seems like you are solving your problems. I am very excited to see Ergo DNS and mint it with Blockchain wallets. Good luck on the second day 👍
+
+{Reactions}
+ergo_black (3) ergo_orange (2) 
+
+[02/12/2022 12:43 PM] kushti#0978
+Any help needed with contracts?
+
+
+[02/12/2022 12:54 PM] capt_nemo#3204
+Hi, sure thing, option 2 seems to be a more assertive choice for UX, I'm glad to help with that! Please give me more details on the integration, it will be an api for name resolution?
+
+Feel free to DM me if necessary
+
+
+[02/12/2022 2:19 PM] 6directions#1089
+Not at the moment but really appreciate you offering. We have a working POC for token authenticity verification, and address resolution (figuring out address of token holder by token name) that manages to do it without using contracts, but by querying the ergo explorer API instead.
+
+But have started thinking of a way to leverage simple contracts to ultimately achieve the same thing.
+
+
+[02/12/2022 2:25 PM] 6directions#1089
+That is one option. We provide an API that can be queried with an NFT name, and it returns the wallet address of the holder _if_ it's an NFT we have issued.
+
+Another option would be, we could provide a JS library that Nautilus can consume to resolve name of NFT minted by our service (if it exists) to wallet address.
+
+
+[02/12/2022 2:33 PM] capt_nemo#3204
+Sounds great, any of these options works for me, that is up to you )
+
+{Reactions}
+👍 
+
+[02/12/2022 2:35 PM] 6directions#1089
+Awesome! Will continue to discuss amongst ourselves but think we were leaning towards API approach to begin with.
+
+
+[02/12/2022 2:37 PM] 6directions#1089
+We could get it out the soonest, and if we choose to provide address resolution libraries for later use, upgrade from API to consuming library should be seamless.
+
+
+[02/12/2022 2:38 PM] capt_nemo#3204
+How are you guys handling possible conflicts with another services? Are you using a specific naming pattern? eg, AdaHandle uses $handle, ens uses handle.eth and so on
+
+
+[02/12/2022 2:41 PM] capt_nemo#3204
+You can choose whatever is easy/quick for now and in the future we chan change it if necessary, no problem from my side
+
+{Reactions}
+👍 (2) 
+
+[02/12/2022 2:42 PM] 6directions#1089
+Still in discussion but so far we were thinking about handle.erg, maybe some other "extensions" as well.
+
+{Reactions}
+ergo_orange 
+
+[02/12/2022 2:54 PM] capt_nemo#3204
+Looks very good! This way a wallet can easily determine from what naming system it can try to resolve the name
+
+
+[02/12/2022 7:06 PM] 6directions#1089
+Hello. So actually we do have some contract related questions now 😅 .
+
+
+[02/12/2022 7:12 PM] 6directions#1089
+if you mint NFTs in different txs, say using a node wallet or via node REST API, every NFT will have different token id, but same "artist identity" as defined in EIP-0024 (in essence, same mint address).
+https://github.com/ergoplatform/eips/blob/master/eip-0024.md#artist-identity
+
+Is it possible to have a "minting contract" with similar properties? Namely, same contract address for every NFT minted? The idea/hope is to be able to use mint contract address to verify "artist identity" (token authenticity) instead of address of wallet used to submit mint tx.
+
+My initial assumption is that no? Because every time contract is compiled, if at least 1 contract input is different, then it will yield a different contract address. But wanted to ask you in case it is possible and I'm just not aware.
+
+{Embed}
+https://github.com/ergoplatform/eips/blob/master/eip-0024.md
+eips/eip-0024.md at master · ergoplatform/eips
+Ergo Improvement Proposals. Contribute to ergoplatform/eips development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/iBcJ9ND8OYBQDGpJCjI9yJ1Z3DkfaVCi-m5FwAib_qg/https/opengraph.githubassets.com/3748b109e1e98343daca3f5eb9050274a2eae53103da46824053965fcb175ce4/ergoplatform/eips
+
+
+[02/12/2022 7:26 PM] 6directions#1089
+Mmm... Though I suppose even if contract is used to mint, some wallet still has to initiate and submit the mint tx to the network, right?
+
+Because sending funds to a contract address doesn't automatically trigger a mint even if all conditions are met, right? Boxes at contract address have to be spent, and to spend a box, someone has to submit a tx to a node... In which case, there would always be an address that provided the inputs to the mint tx.
+
+
+[02/12/2022 7:53 PM] Cheese Enthusiast#0548
+Maybe the best way to do this is to have a script that checks two things:
+
+- OUTPUTS(0).tokens._1 == SELF.id && OUTPUTS(0).tokens._2 == 1
+- OUTPUTS(0) is a valid NFT box according to EIP-0004, and it has some tag that lets you have a specific contract address. Maybe check if R4 is prefixed with "ERGO-DNS"?
+
+Now you can say a given NFT is valid if it was minted at the contract address.
+
+
+[02/12/2022 7:58 PM] Cheese Enthusiast#0548
+If you structure the contract correctly, you could have a backend that can listen for new boxes at the contract address and then send and sign them. That way it could essentially be "automatic" for the end user.
+
+
+[02/12/2022 7:58 PM] 6directions#1089
+Yes! Cool that you say that, it recently occurred to me too
+
+
+[02/12/2022 8:00 PM] 6directions#1089
+in this case, what would prevent a bad actor from providing an output box with whatever tag we use, and minting nfts with our contract?
+
+
+[02/12/2022 8:01 PM] 6directions#1089
+> OUTPUTS(0) is a valid NFT box according to EIP-0004
+would it be this part?
+
+
+[02/12/2022 8:02 PM] Cheese Enthusiast#0548
+It would be on you to check if a given NFT was minted at the address. Anybody can make an NFT that says "ERGO-DNS" in front of it, so you will have to check to make sure that the tx that minted the NFT had the correct contract in INPUTS(0)
+
+
+[02/12/2022 8:02 PM] 6directions#1089
+ah yes, ok
+
+
+[02/12/2022 8:03 PM] 6directions#1089
+to take it a step further, can the contract itself check for something like
+INPUTS(0).propositionBytes == mintAddressPubKey ?
+
+
+[02/12/2022 8:04 PM] 6directions#1089
+if not, this would suffice
+
+
+[02/12/2022 8:05 PM] Cheese Enthusiast#0548
+By mintAddress you mean the contract address or the address of whoever sent funds to the contract?
+
+
+[02/12/2022 8:05 PM] 6directions#1089
+ah crap I see what you mean
+
+
+[02/12/2022 8:06 PM] 6directions#1089
+I was thinking the address that submitted the mint tx
+
+
+[02/12/2022 8:06 PM] 6directions#1089
+which would be the address of a wallet we control
+
+
+[02/12/2022 8:08 PM] 6directions#1089
+so people can send boxes to the contract address, and then our backend has to pick them up, sign a tx and submit it.
+how could the contract also check that the address that signed the tx is us?
+
+
+[02/12/2022 8:09 PM] Cheese Enthusiast#0548
+Store your pubKey as a constant SigmaProp in the script. Then add `&& pubKey` to the end of the contract. Only you guys would be able to sign minting transactions then.
+
+
+[02/12/2022 8:12 PM] 6directions#1089
+awesome. thanks a lot. will test this out.
+
+
+[02/12/2022 9:42 PM] 6directions#1089
+Been thinking about this and there's one detail I'm having a hard time wrapping my head around.
+
+There can be many boxes at a contract address.
+
+When we first we create the contract address, there will be a box at that address with a script that basically says "only ergo dns dApp can spend this box". Ok, great.
+
+But what about boxes with funds that users may send to the contract address? Those boxes aren't guaranteed to have the contract preventing them from being spent by someone else... So what prevents anyone from scanning for boxes at the contract address and spending funds that users sent?
+
+
+[02/12/2022 9:44 PM] Cheese Enthusiast#0548
+Once ERG is sent to an output box under an address, it is protected by the contract at that address. Once they send the ERG there, the only way to get it out would be for you guys to sign the tx that makes the NFT.
+
+
+[02/12/2022 9:45 PM] Cheese Enthusiast#0548
+You can't have boxes with different scripts under the same address
+
+
+[02/12/2022 9:45 PM] Cheese Enthusiast#0548
+Because essentially the contract is the address.
+
+
+[02/12/2022 9:47 PM] 6directions#1089
+I see... Oof, okay thanks for clearing that up. My head started to spin just thinking about it 😵‍💫.
+
+So basically whatever output box a user sends to a contract address becomes "guarded" by the script of that address
+
+
+[02/12/2022 9:50 PM] Cheese Enthusiast#0548
+Yeah exactly. Think of an address as a way to show all unspent boxes protected by a certain script/contract. For a P2PK address used in wallets, that contract is just `pk`
+
+{Reactions}
+😯 👍 🙏 
+
+[02/12/2022 10:36 PM] root7Z#8699
+Hello @ergo-dns team, I hope the second day went well for you. Please provide updates regarding today's development. With best wishes
+
+
+[02/12/2022 11:16 PM] Balb#7267
+Working on creating APIs between frontend and backend modules
+
+{Reactions}
+ergo_orange (2) ergonaut 
+
+[02/12/2022 11:16 PM] Balb#7267
+Planning out standard for domain token name
+
+
+[02/12/2022 11:17 PM] Balb#7267
+Started smart contract design and integration with minting process
+
+
+[02/12/2022 11:20 PM] Kurikun#6941
+@root7Z , I'm participating on the ergo-dns team.  Can you add the appropriate roles to my account?  ty
+
+{Reactions}
+👍 
+
+[02/12/2022 11:34 PM] root7Z#8699
+Thank you for the updates, your role seems added
+
+{Reactions}
+🙏 
+
+[02/12/2022 11:53 PM] jethiya#8148
+@root7Z same for me, it looks like I'm missing the roles as well
+
+
+[02/12/2022 11:55 PM] jethiya#8148
+I have it now, thanks 🙂
+
+
+[02/13/2022 2:07 AM] davidcodes#2138
+👋 just want to know if there is a way I can help with anything 👍 good luck .
+
+{Reactions}
+🙂 (6) 
+
+[02/13/2022 8:45 AM] MGpai#4313
+https://ergotokens.org/#/?token=eba6ac4ee7f63f05659450271f6f34ec31f05e8251aea90ead36ae69ce28d82a
+
+
+[02/13/2022 8:45 AM] MGpai#4313
+Created an on-chain NFT
+
+
+[02/13/2022 8:45 AM] MGpai#4313
+May be useful for the dns name to show up as the NFT image
+
+
+[02/13/2022 8:45 AM] MGpai#4313
+and it could be on-chain
+
+
+[02/13/2022 8:45 AM] MGpai#4313
+which would be a lot cooler 🙂
+
+{Reactions}
+ergo_black (8) ergo_orange (2) 😯 😃 
+
+[02/13/2022 3:19 PM] 6directions#1089
+@MGpai you did it dude! That's awesome!
+
+
+[02/13/2022 3:19 PM] 6directions#1089
+(we have been going back and worth over the last week in DMs)
+
+
+[02/13/2022 6:11 PM] 6directions#1089
+@Cheese Enthusiast : if someone sends a new box/unspent output to a contract address without including information about the sender's address in the registers, is there a way for the contract to check who created that box?
+
+In the explorer, I can look at the transaction and look at the address that provided the input(s). But is there a way to "natively" check for this from within a script?
+
+
+[02/13/2022 6:18 PM] 6directions#1089
+This is ultimately what I'm thinking about: say someone randomly sends funds to a contract address (in our case, a minting contract), but does not include the expected register data for the contract to evaluate to true.
+
+When we go to try and spend that box with the intention of minting an asset, we wouldn't be able to spend it, so we'd wanna return the funds to the user since we don't want to just leave the funds sitting at the contract address. But how to tell the address to issue the refund?
+
+If not possible to check that within the context of a script (again, without the data having been provide in the registers), would we have to have some off chain logic that looks up the tx where the funds were sent, and check the address that provided the inputs to the tx?
+
+
+[02/13/2022 6:46 PM] MGpai#4313
+Yes thank you!
+
+
+[02/13/2022 6:57 PM] kushti#0978
+Anyone can create a box, they only way to authincate it before sending is to include a signature for some message, which can be checked offchain or via a contract, there are examples for such a contract
+
+
+[02/13/2022 6:58 PM] Cheese Enthusiast#0548
+I guess this is a matter of what is most important to the design. You could set the pk as a constant in the script, but then each contract address would be different for each person. If that won't work with your design then you could pass their pk in as a context variable, but I imagine that that would have the same problem as using a register, there's no guarantee that it will be there.
+
+My personal opinion is that with dApp connectors like nautilus and ergopay, most users will not have to know what "setting a register" means. Ideally, the website code and the dApp connectors should handle this stuff automatically. If someone decides to go out of their way to not follow instructions, go around the dApp connectors, and send their ERG straight to the contract address, well I'd say that's mostly their fault then 🤷‍♂️
+
+{Reactions}
+👍 
+
+[02/13/2022 7:05 PM] Cheese Enthusiast#0548
+You could also do this by having an official refund wallet and adding `|| refundPK` to the end of your contract. But this would require off chain code to search for the correct transaction, and it is not really assured that the refund will go to the right person. Could technically be manipulated by anyone with the secret for that wallet
+
+
+[02/13/2022 7:15 PM] root7Z#8699
+Hello @ergo-dns team, a quick update regarding the submissions: You are expected to send your final reports by Monday 12.00 UTC noon, not tonight. So please make the best out of your time, good luck!
+
+{Reactions}
+👍 (2) 
+
+[02/13/2022 7:35 PM] 6directions#1089
+Fair and solid point.
+
+Actually was thinking we could just build the tx for the user using the dApp connector and make sure it includes everything it needs. Hearing you echo that same thought validates that idea.
+
+
+[02/13/2022 7:42 PM] 6directions#1089
+The signed message approach sounds promising, going to play with that. Where could I find an example of a contract that does this?
+
+
+[02/13/2022 7:44 PM] 6directions#1089
+Btw, what exactly is a context variable? Are those set via dataInputs?
+
+
+[02/13/2022 9:11 PM] Kurikun#6941
+That's definitely in the plan... that part is coming up real soon now (rsn).
+
+
+[02/13/2022 9:21 PM] MGpai#4313
+would love to contribute if I can!
+
+{Reactions}
+🙂 
+
+[02/13/2022 10:05 PM] Kurikun#6941
+Do you have any info on how to upload an image to ipfs?  Just beginning to look in to this.  We are still finalizing on our art, but this is an example of what an nft would look like.
+
+
+[02/13/2022 10:06 PM] Kurikun#6941
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/942542167887446147/AdobeStock_273135898_Preview.jpg
+
+{Reactions}
+🔥 
+
+[02/13/2022 10:06 PM] Kurikun#6941
+A background, and then the ergo name branded into the specific image jpeg as the nft
+
+
+[02/13/2022 10:06 PM] MGpai#4313
+This could be used https://www.pinata.cloud/
+
+
+[02/13/2022 10:07 PM] MGpai#4313
+This too
+
+
+[02/13/2022 10:07 PM] MGpai#4313
+https://nft.storage/
+
+
+[02/13/2022 10:07 PM] Kurikun#6941
+Very cool, tyvm!
+
+
+[02/13/2022 10:07 PM] MGpai#4313
+another long term thing could be running our own ipfs node
+
+
+[02/13/2022 10:08 PM] MGpai#4313
+But I suggest having it onchain
+
+
+[02/13/2022 10:08 PM] MGpai#4313
+rather than a link
+
+
+[02/13/2022 10:08 PM] MGpai#4313
+only thing is I believe the art cannot be too complex due to the data constraints
+
+
+[02/13/2022 10:09 PM] Kurikun#6941
+ok, good to know.  I will experiment with these suggestions, thanks!
+
+{Reactions}
+👍 
+
+[02/13/2022 10:22 PM] MGpai#4313
+https://ergotokens.org/#/?token=3b273736096fe8f66e4ef4eb9cb49ac8f2534b3b50c7e91ac060f5ebddffd8b9
+
+
+[02/13/2022 10:23 PM] MGpai#4313
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/942546502860017695/unknown.png
+
+
+[02/13/2022 10:23 PM] MGpai#4313
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/942546557641822208/unknown.png
+
+
+[02/13/2022 10:24 PM] MGpai#4313
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/942546702961901568/unknown.png
+
+
+[02/13/2022 10:24 PM] MGpai#4313
+What do you guys think?
+
+
+[02/13/2022 10:24 PM] MGpai#4313
+I think font can be changed as well!
+
+
+[02/13/2022 10:30 PM] Kurikun#6941
+So the image itself is on-chain?  I see the link to the artwork.  Nothing happens when I click on it, but I'm sure it displays as an img when it's hooked up to the src attrib?
+
+
+[02/13/2022 10:31 PM] MGpai#4313
+yes
+
+
+[02/13/2022 10:31 PM] MGpai#4313
+Click the link and just reload the page
+
+
+[02/13/2022 10:32 PM] MGpai#4313
+it has this weird blank space in front for some reason
+
+
+[02/13/2022 10:32 PM] MGpai#4313
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/942548835618668644/unknown.png
+
+
+[02/13/2022 10:33 PM] MGpai#4313
+if you paste this `data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNSIgZmlsbD0iYmxhY2siPkBlcmdvLWRuczwvdGV4dD48L3N2Zz4=` in your browser url field you should get an image
+
+
+[02/13/2022 10:35 PM] 6directions#1089
+on chain 👀
+
+
+[02/13/2022 10:36 PM] Balb#7267
+The entire thing being on chain is really cool
+
+{Reactions}
+💯 (4) 
+
+[02/13/2022 10:36 PM] 6directions#1089
+could be wrong, but I have not seen anyone do this on Ergo yet
+
+
+[02/13/2022 10:36 PM] MGpai#4313
+Thats what I hope
+
+
+[02/13/2022 10:37 PM] MGpai#4313
+Then I can get some credit lol
+
+{Reactions}
+ergo_orange 
+
+[02/13/2022 11:15 PM] Kurikun#6941
+Would you know the max length of the register?  I'm assuming that you just compute the image data and then encode it into the appropriate register at mint?
+
+
+[02/13/2022 11:22 PM] MGpai#4313
+I am still a bit confused with this aspect
+
+
+[02/13/2022 11:22 PM] MGpai#4313
+I think it is something like 4kb
+
+
+[02/13/2022 11:22 PM] MGpai#4313
+But yes I compute the data and then encode it into r9
+
+
+[02/13/2022 11:22 PM] MGpai#4313
+@kushti could you provide some insight on the length of the register entries?
+
+
+[02/14/2022 1:44 AM] 6directions#1089
+I know max total box size is capped at ~4kb. Not sure if registers themselves have specific limits.
+
+
+[02/14/2022 1:46 AM] Cheese Enthusiast#0548
+I think kushti said it somewhere in one of the dev chats, but no limits for registers, just the entire box itself
+
+{Reactions}
+👍 (2) 
+
+[02/14/2022 5:19 AM] MrStahlfelge#0042
+Nice trick, only works in browsers out of the box though. In general I would suggest to use the content register for the actual byte data, but this is not covered by eip4
+
+
+[02/14/2022 5:33 AM] MGpai#4313
+what do you mean `out the box`?
+
+
+[02/14/2022 5:35 AM] MrStahlfelge#0042
+You are using data URIs, that's something working in most browsers but before I have seen it I would never had thought of supporting such stuff in the Android wallet.
+
+
+[02/14/2022 5:37 AM] MGpai#4313
+So what do you suggest to be inclusive?
+
+
+[02/14/2022 5:41 AM] MrStahlfelge#0042
+At first I would have thought of using Pair of Coll(Byte) with the actual data and the data type. But the idea is the same, it would just save some space because extra encoding is not needed.
+Or, suggest your solution to be added to eip4. It is a viable solution as well, but without mentioning it in eip4 it is no standard and therefore not sure if supported by an application or not
+
+
+[02/14/2022 5:42 AM] MGpai#4313
+hmm I like your first suggestion
+
+
+[02/14/2022 5:43 AM] MGpai#4313
+saving space is important as it allows for the complexity of the artwork to increase
+
+
+[02/14/2022 5:44 AM] MrStahlfelge#0042
+Yes I do also think so. And if it is part of eip4 websites can convert the data into the data uri themselves
+
+
+[02/14/2022 5:44 AM] MrStahlfelge#0042
+But just to be sure, it is really a nice hack to get it working in existing websites. Props for that. 👍
+
+
+[02/14/2022 5:47 AM] MGpai#4313
+thank you it took some research 🤓
+
+{Reactions}
+🎉 🤓 
+
+[02/14/2022 10:32 AM] root7Z#8699
+Hello @ergo-dns team, kindly reminder that you have about 90 min to send your final reports and documents. So please check-in on time. Thanks
+
+
+[02/14/2022 11:53 AM] Adoo#5093
+Hi @root7Z - I am currently editing the video and uploading it. Can I get a 30 min extension please?
+
+
+[02/14/2022 11:55 AM] glasgowm#9381
+Yeah that's fine
+
+
+[02/14/2022 12:29 PM] Adoo#5093
+Just the last step. Encoding and upload takes a bit of time. Should be done in 15 mins.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/942759529815359488/Screenshot_2022-02-14_at_5.58.39_PM.png
+
+{Reactions}
+👍 
+
+[02/14/2022 12:31 PM] glasgowm#9381
+Could you maybe write a quick bullet-point summary for https://docs.ergoplatform.com/events/ergohack/#ergohack-iii
+
+
+[02/14/2022 12:34 PM] Adoo#5093
+Okay. 5 mins.
+
+
+[02/14/2022 12:37 PM] Adoo#5093
+We have created a MVP for ergo-dns service to resolve Ergo Names to the wallet addresses.
+
+Key Features
+
+**Registration** - Ownership of Ergo Names can be established by minting Ergo Name NFT.
+**Resolution** - ergo-dns service can be used to resolve Ergo Name to Wallet Address where Ergo Name NFT currently resides.
+**Transfer** - When ownership of Ergo Name NFT changes, the resolution changes automatically.
+
+The service is fully decentralised and all the ownership data is maintained on-chain.
+
+{Reactions}
+🙌 (4) 
+
+[02/14/2022 12:37 PM] Adoo#5093
+https://www.youtube.com/watch?v=G7glbtnAnMY
+
+
+[02/14/2022 12:39 PM] glasgowm#9381
+Brilliant, thank you!
+
+
+[02/14/2022 2:09 PM] glasgowm#9381
+Is minting enabled right now? I get a prompt that I've reserved but no dApp popup to sign
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/942784740736532500/unknown.png
+
+
+[02/14/2022 2:14 PM] Adoo#5093
+Minting Flow is not yet connected with firebaseapp frontend. There are still a lot of things to iron out before beta launch.
+
+{Reactions}
+👍 (4) 
+
+[02/14/2022 5:56 PM] MGpai#4313
+Can't wait!
+
+
+[02/14/2022 7:24 PM] HelixEvo#2120
+@glasgowm are you trying to mint 20-17.com ? 😇
+
+
+[02/14/2022 7:24 PM] HelixEvo#2120
+Serious question, is this a take on unstoppable domains type thing?
+
+
+[02/14/2022 9:17 PM] Kurikun#6941
+Currently I have this hooked up using pinata.cloud, which is one of your suggested IPFS providers.  I think this is common in the NFT spaces to have the image off-chain and on IPFS.  Our current image size is 25.4kb, which I think will be an issue for on-chain storage.
+
+
+[02/14/2022 9:18 PM] MGpai#4313
+Yeah it is common for it to be offchain
+
+
+[02/14/2022 9:18 PM] MGpai#4313
+but onchain is a lot cooler
+
+{Reactions}
+💯 (3) 
+
+[02/17/2022 4:28 PM] morphic#4133
+Hey, @ergo-dns, great demo video, but I cannot find the sources 🙂
+
+
+[02/17/2022 5:10 PM] Kurikun#6941
+Current front end code: https://github.com/jaythiya/ergodns-frontend/
+Back end: https://github.com/ergonames/ergo-names-backend
+Resolver API: https://github.com/chriswill/ErgoNames.Api
+
+{Reactions}
+⭐ (2) 👍 
+
+[02/17/2022 5:13 PM] Kurikun#6941
+Our contracts also in https://github.com/ergonames
+
+
+[02/17/2022 5:27 PM] morphic#4133
+Awsome, could you please update the project summary here https://docs.ergoplatform.com/events/ergohack/#ergohack-iii ?
+
+
+[02/17/2022 6:52 PM] glasgowm#9381
+added
+
+
+[02/18/2022 6:07 PM] Kurikun#6941
+@glasgowm  @morphic  I've created a PR to update some of the Ergo DNS urls.
+
+{Reactions}
+👍 ✅ 
+
+[02/24/2022 9:33 PM] NoahErgo#4349
+Did you guys ever apply for the good whale grant
+
+
+[02/25/2022 2:04 AM] Adoo#5093
+Hi @NoahErgo - we have not applied for the grant yet.
+
+
+[02/25/2022 2:09 AM] Adoo#5093
+We were considering the application. Not yet acted on it.
+
+{Reactions}
+ergo_orange 
+
+[02/27/2022 8:34 PM] Armeanio#0321
+I chose your group as one of my winners of 100$ in ERG. 
+
+Please send a donation address!
+
+{Reactions}
+ergo_orange (9) 🔥 (6) 
+
+[02/28/2022 5:09 PM] Adoo#5093
+Hi @Armeanio , big thanks from Ergo DNS team. Ergo community is really open and supportive and we are loving it.
+
+This project ended up being a platform for bringing very passionate members of the community together. Thank you EF for making this possible.
+
+We are getting encouragement across the board to move this project forward. And we will.
+
+Credits:
+@Balb - For minting solution
+@6directions - For resolution solution
+@Kurikun - For production APIs
+@jethiya - For frontend
+
+{Reactions}
+ergo_white 
+
+[02/28/2022 5:10 PM] Adoo#5093
+Receiving Address - 9ekLyiSYLvxVgJs7pB3iPecBUShNUzQ7ukBMrvtA8xhd8dtQF4q
+
+
+[02/28/2022 9:10 PM] AngieHar#0865
+Congratulations Ergo- DNS team! Great work, thank you for participating in ErgoHack 3 🎉
+
+{Reactions}
+🙏 (2) 
+
+[03/16/2022 1:01 PM] glasgowm#9381
+A tutorial for this would be cool 🙂 generally tutorials for mass minting, doing things with NFTs are high demand (and you can claim bounties for these :))
+
+
+[03/16/2022 7:56 PM] MGpai#4313
+Yeah sure! I can work on them 😉
+
+
+[03/30/2022 9:39 PM] Mx62#7304
+any thoughts on providing a web bridge like btc.us?
+
+
+[03/30/2022 9:41 PM] Mx62#7304
+its essentially a website that redirects ergonames to subdomains, so your ergoname could resolve to an address on-chain, and a website in a browser
+
+
+[04/12/2022 11:40 PM] capt_nemo#3204
+Hey guys! How's development going? Looking forward to integrate ergo-dns into Nautilus
+
+
+[04/13/2022 6:57 AM] Balb#7267
+smart contracts are done, now just finalizing backend and sdks
+
+
+[04/13/2022 1:20 PM] capt_nemo#3204
+Awesome! Please, let me know when I can start integrating )
+
+{Reactions}
+👍 
+
+[04/14/2022 6:07 PM] nitram147#5106
+Based on the "about text" of this channel I assume that by DNS you are meaning "nicknames" for Ergo-Addresses not traditional IP-Address. Am I right? @Balb
+
+
+[04/14/2022 6:08 PM] nitram147#5106
+Where can I view your smartcontracts? 🙂
+
+
+[04/14/2022 8:13 PM] glasgowm#9381
+^
+
+
+[04/14/2022 8:51 PM] Balb#7267
+https://github.com/ergonames/ergo-names-backend/blob/master/src/main/scala/contracts/ErgoNamesMintingContract.scala
+
+{Embed}
+https://github.com/ergonames/ergo-names-backend/blob/master/src/main/scala/contracts/ErgoNamesMintingContract.scala
+ergo-names-backend/ErgoNamesMintingContract.scala at master · ergon...
+Contribute to ergonames/ergo-names-backend development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/tdptFz_YzojePtUrsW5Zdyx2yAPFCxEmV07QVuic4oc/https/opengraph.githubassets.com/9e82cfce65408597849f8767bf89d337cbec1749dcf63ccdb42191be98607469/ergonames/ergo-names-backend
+
+
+[04/17/2022 4:25 PM] GhostCBuster#2855
+yay this makes me happy to see you're already working on this!
+
+
+[04/25/2022 8:24 PM] 6directions#1089
+Correct
+
+
+[04/25/2022 8:24 PM] 6directions#1089
+We have since rebranded to ErgoNames
+
+
+[05/21/2022 7:45 PM] NoahErgo#4349
+Hey guys. How is ergonames coming along? Any kind of rough roadmap for launch?
+
+
+[06/08/2022 12:23 PM] R C#4349
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/984055187381563402/unknown.png
+
+
+[06/08/2022 12:48 PM] glasgowm#9381
+https://twitter.com/ergonames/status/1531865031792418816?t=JLdF5cah8VuW45m9oO0C-g&s=19
+
+{Embed}
+Ergo Names (@ergonames)
+https://twitter.com/ergonames/status/1531865031792418816?t=JLdF5cah8VuW45m9oO0C-g&s=19
+Ergo Names project is actively moving forward. Here is a sneak peek into our landing page.
+Likes
+142
+https://images-ext-1.discordapp.net/external/fZi3KXH8sSwkoC_W3qJgTmnBPy0xAS6i_gm8vtmLB9A/https/pbs.twimg.com/media/FUJHCyFUUAAjuy7.jpg
+https://images-ext-2.discordapp.net/external/ktg1Uw7V5-CO40RkhRSXvh6HNG83AHGFaE50p3t_6EE/https/pbs.twimg.com/media/FUJHEHyUUAEPK-A.jpg
+Twitter
+
+{Reactions}
+soon (2) 
+
+[10/07/2022 5:25 PM] Balb#7267
+if anyone is interested in following along, heres our proposal
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/1027979992111526021/ErgoHack_V_Proposal.pdf
+
+{Reactions}
+👍 (3) 
+
+[10/10/2022 5:30 PM] AngieHar#0865
+Hey Team, 
+How are you? Could you please duplicate a short description of your project and add updates done for the previous week since i haven't received your interim report?
+
+
+[10/11/2022 3:54 AM] Balb#7267
+Updates from previous week
+- Discussed plan for creating static mint address
+- Updated minting smart contract code to allow for static mint address
+- Started rework of off-chain code to use new smart contract
+- General updates to frontend / resolution sdks
+
+{Reactions}
+ergo_orange 
+
+[10/11/2022 4:11 AM] Balb#7267
+Also talked with Nemo about adding support in nautilus to decode svg format images. Needed for images stored on chain like in ergonames
+
+{Reactions}
+ergo_orange 
+
+[10/17/2022 12:12 AM] capt_nemo#3204
+Added! Already under Chrome Store review, should be published in a couple hours
+
+https://github.com/capt-nemo429/nautilus-wallet/releases/tag/v0.6.2
+
+{Reactions}
+💯 (2) 🔥 (2) 
+
+[10/17/2022 12:27 AM] Balb#7267
+awesome!
+
+
+[10/17/2022 12:27 AM] Balb#7267
+thank you for jumping on it so quickly
+
+
+[10/17/2022 12:29 AM] capt_nemo#3204
+np, looking forward to start integrating ergonames into Nautilus 🙂
+
+{Reactions}
+🔥 (3) 
+
+[10/17/2022 2:56 AM] Adoo#5093
+Looks amazing!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/1031385224497598574/unknown.png
+
+{Reactions}
+🔥 (4) 
+
+[10/17/2022 2:57 AM] MGpai#4313
+thank you @capt_nemo looks great!
+
+{Reactions}
+❤️ 
+
+[10/17/2022 8:07 PM] Balb#7267
+Progress from past week:
+
+
+[10/17/2022 8:07 PM] Balb#7267
+Updated backend to have consistent mint address
+
+
+[10/17/2022 8:07 PM] Balb#7267
+Reintegrated api to connect frontend to backend
+
+
+[10/17/2022 8:07 PM] Balb#7267
+Successfully ran end to end test on painet
+
+
+[10/17/2022 8:08 PM] Balb#7267
+Preparing system for small closed beta on testnet
+
+
+[10/17/2022 8:08 PM] Balb#7267
+And started trying to break resolution sdks
+
+{Reactions}
+spicy (3) 👌 (2) 
+
+[10/21/2022 3:04 AM] Adoo#5093
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/1032836684011798549/ErgoNames_-_Ergohack_V_Submission.pdf
+
+{Reactions}
+👍 
+
+[10/21/2022 2:00 PM] Deleted User#0000
+Wen
+
+{Reactions}
+soon (2) 
+
+[10/29/2022 1:39 PM] ❤/#2713
+@☉🍒
+
+
+[11/12/2022 5:52 AM] $alex.ada#1660
+Any word on when we can start buying these?
+
+
+[11/12/2022 9:09 PM] Balb#7267
+were still finalizing some things with the system. we're going to do a beta test on testnet first with some people in the community (ergonames wont transfer over to mainnet. just intended to test how our system handles under load and see which points are vulnerable to attack). full launch of mainnet will be a little bit after that
+
+{Reactions}
+ergo_orange (3) 
+
+[11/16/2022 9:18 PM] T U L O (ErgoMinnow)#6385
+Hello Ergonames team, couple questions. Do you guys have a discord? Also im wondering how far along in development you guys are?
+
+
+[11/17/2022 3:09 AM] Balb#7267
+we don't have a discord open to the public yet. we'll open it up as we get closer to launch
+
+
+[11/17/2022 3:10 AM] Balb#7267
+we're getting close. We implemented just about everything we need. At this point were just fixing issues and making the overall system more secure
+
+
+[11/17/2022 3:17 AM] T U L O (ErgoMinnow)#6385
+Thanks so much for the insight
+
+{Reactions}
+👍 (4) 
+
+[11/17/2022 3:38 PM] Deleted User#0000
+Aoinoikaz.ERG
+
+
+[12/10/2022 5:05 AM] pcfreak30#8526
+@Balb Hello, I am interested in a partnership with your project when it is ready (not asking for money to be clear or sell anything). Can I please DM you with a summary of who we are? Kudos.
+
+
+[12/10/2022 5:12 AM] Balb#7267
+yes please do!
+
+
+[12/21/2022 3:29 AM] yea.ok#2677
+Hey guys, hope things are going well! How's development going? Any updates thanks!
+
+
+[12/23/2022 9:31 AM] Balb#7267
+development is still underway. Instead of using a mint address to validate ergoname tokens we're going to use an on-chain avltree to have a list of valid tokens. this way the protocol doesn't have a centralized set of keys. just completed a mvp that allows for token minting, avltree (on chain registry) update, and a syncing engine
+
+{Reactions}
+👍 (7) 
+
+[12/23/2022 10:18 AM] yea.ok#2677
+Awesome thanks!
+
+
+[03/01/2023 5:36 PM] RektRerb#0425
+Hi guys how is everything going?
+
+
+[03/02/2023 9:25 AM] glasgowm#9381
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/940209605299036170/1080782990688403536/image.png
+
+{Reactions}
+👍 (3) 
+
+[03/02/2023 7:21 PM] RektRerb#0425
+Thanks mate
+
+{Reactions}
+k_thumbs_up 
+
+==============================================================
+Exported 309 message(s)
+==============================================================

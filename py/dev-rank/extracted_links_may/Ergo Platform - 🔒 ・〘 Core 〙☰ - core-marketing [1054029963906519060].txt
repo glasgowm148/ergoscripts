@@ -1,0 +1,521 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🔒 ・〘 Core 〙☰ / core-marketing
+Topic: https://t.me/+5LJIx7hPzBkyMTQ1
+==============================================================
+
+[03/30/2023 11:25 AM] glasgowm#0000
+Is this group still set to public @seedubya ?
+
+
+[03/30/2023 11:25 AM] glasgowm#0000
+(re @tortodelivery : *i will do a last check tomorrow, but i think i just finish this orange mode for the website.*)
+
+
+[03/30/2023 11:25 AM] glasgowm#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1054029963906519060/1090944990533922886/beever-double.mp4
+
+
+[03/30/2023 11:27 AM] CW#0000
+(re @glasgowm : *Is this group still set to public @seedubya ?*)
+
+
+[03/30/2023 11:27 AM] CW#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1054029963906519060/1090945275784347688/file_107128.jpg
+
+
+[03/30/2023 11:27 AM] CW#0000
+Yup
+
+
+[03/30/2023 11:28 AM] glasgowm#0000
+Can you make it private again please? Only needs to be switched on/off once for the bridge to work (changes the format of the number assigned to the group)
+
+
+[03/30/2023 11:28 AM] CW#0000
+Done
+
+
+[03/30/2023 11:31 AM] CW#0000
+FYI won't be doing the ama broadcast to twitter this week. It's been pushed to 4pm utc as dan will be on flights and might be doing it by himself. That's 3am for me so won't be jumping on heh
+
+
+[03/30/2023 11:37 AM] glasgowm#0000
+Think we should schedule a monthly Reddit community chat. Have it the same day. Last Friday of the month? 
+
+Can set up automod to post it automatically so we’d just need to remind core people to stop in at some point over that day to answer Q’s
+
+Community chats on Telegram are good when they’re busy. But I’m in the ecosystem 24/7 and they often catch me by surprise. 
+
+In the monthly community chat post, we could post links to smaller focused chats during the month, then I could summarise with chat gpt and post summaries for those who can’t make it.
+
+
+[03/30/2023 11:42 AM] CW#0000
+Yeah been thinking about it too. Last couple the tg/discord haven't seen much engagement as it's quote low generally of late. 
+
+Then was thinking about Reddit, we have the weekly Q theads that are posted but I kind of consider them a little more higher level (somewhat).
+
+Having a thread on there where we all jump in on a specific day, say Friday like ya said give a chance for more Qs but also the community to join in and answer whenever
+
+
+[03/30/2023 11:43 AM] CW#0000
+Feeding chatgpt and getting summaries each month would be good posting on the main twitter too
+
+
+[03/30/2023 12:11 PM] glasgowm#0000
+Weekly ones I often forget about, I imagine other people do too. If it’s a monthly one and we can get kushti and a few other core people to drop by, think engagement would be good.
+
+
+[03/30/2023 3:49 PM] glasgowm#0000
+@AndyLowe @sean_ergonaut - sent you invites to Taiga. 
+
+Please use this instead of Notion going forward - and grab any stuff you want off the Notion. I’ve moved some over already and will migrate some more this week. 
+
+We can have as many users or boards as we want with this. So we could have a seperate ‘Contributors Group’ one, or just invite people to the Ergo Editorial one.
+
+
+[03/30/2023 3:51 PM] AngieHar#0000
+No notion anymore?
+
+
+[03/30/2023 3:52 PM] glasgowm#0000
+No they wanted $2.5k to renew & only a few people using it sparringly. This one is open-source so it can grow with us.
+
+
+[03/30/2023 3:54 PM] glasgowm#0000
+editorial one atm
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1054029963906519060/1091012603091878080/file_107184.jpg
+
+
+[03/30/2023 3:54 PM] AngieHar#0000
+> (re @glasgowm : *No they wanted $2.5k to renew & only a few peo...*)
+         
+        Can I have an invite too?
+
+
+[03/30/2023 3:55 PM] AngieHar#0000
+> (re @glasgowm : *editorial one atm*)
+         
+        So all the data is duplicated already?
+
+
+[03/30/2023 3:55 PM] AngieHar#0000
+Not all of the tasks
+
+
+[03/30/2023 3:55 PM] glasgowm#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1054029963906519060/1091012782859767818/file_107185.jpg
+
+
+[03/30/2023 3:55 PM] glasgowm#0000
+> (re @AngieHar : *So all the data is duplicated already?*)
+         
+        Not all, I’ve grabbed what looks like the most important stuff
+
+
+[03/30/2023 3:55 PM] glasgowm#0000
+I also have a data dump of Notion
+
+
+[03/30/2023 3:56 PM] AngieHar#0000
+Okay, thank you, will check soon 🙏🏼
+
+
+[03/30/2023 4:06 PM] AndyLowe#0000
+> (re @glasgowm : *@AndyLowe @sean_ergonaut - sent you invites to...*)
+         
+        Nice one, wow $2.5k that's really pushing it
+
+
+[03/30/2023 4:07 PM] sean_ergonaut#0000
+> (re @glasgowm : *@AndyLowe @sean_ergonaut - sent you invites to...*)
+         
+        Got it, thanks!
+
+
+[03/30/2023 4:09 PM] AndyLowe#0000
+Where did you send the invite to @glasgowm ?
+
+
+[03/30/2023 4:11 PM] glasgowm#0000
+Thought I had but just sent it there to your hotmail.
+
+
+[03/30/2023 4:12 PM] NoahErgo#0000
+Been meaning to join havent gotten to it yet but mines sitting in my inbox
+
+
+[03/31/2023 9:41 AM] AndyLowe#0000
+happy to do it, but dont want to mess things up if you already have a plan
+
+
+[03/31/2023 9:41 AM] glasgowm#0000
+added you to the video board
+
+
+[03/31/2023 9:41 AM] glasgowm#0000
+also made you admin there if you want to mess around with it
+
+
+[03/31/2023 9:41 AM] AndyLowe#0000
+nice. Im attempting to add images to tiles, i see that its possible, but not sure how
+
+
+[03/31/2023 9:42 AM] AndyLowe#0000
+so that when you look at the whole kanban, its more clear what everything is
+
+
+[03/31/2023 9:42 AM] glasgowm#0000
+You need to change to the ‘Expanded’ view, might be a way to set it as the default for the board
+
+
+[03/31/2023 9:42 AM] glasgowm#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1054029963906519060/1091281399509688371/file_107214.jpg
+
+
+[03/31/2023 9:50 AM] sean_ergonaut#0000
+Not sure if this is of any interest to the Ergo Foundation 
+
+https://www.futuristconference.com
+
+Blockchain conference here in Canada in Toronto
+
+{Embed}
+https://www.futuristconference.com/
+Blockchain Futurist Conference 2023 | Toronto, CA
+5th Annual Blockchain Futurist Conference is the largest Blockchain and Cryptocurrency conference in Toronto, Canada, this August 15-16 2023, at Rebel and Cabana
+https://images-ext-2.discordapp.net/external/9Cyq1g7Y5Cqwb-pg8FB5iI1WH99_pewziz8Kf9YYCnU/https/assets-global.website-files.com/61e8788db85eabd9f0305f67/63beb8cb8141105b0dd500a6_LinkedIn%2520Social%2520Card.jpg
+
+
+[03/31/2023 9:50 AM] sean_ergonaut#0000
+They are taking applications for speakers
+
+
+[04/01/2023 12:21 AM] sean_ergonaut#0000
+They are taking applications for speakers
+
+
+[04/01/2023 12:21 AM] CW#0000
+@AndyLowe smashed out the dev update solo again. sending through wetransfer now
+
+
+[04/01/2023 12:33 AM] NoahErgo#0000
+Champion
+
+
+[04/02/2023 3:01 PM] AngieHar#0000
+@seedubya Hey CW, i have a question 
+when you publish editorial links to twitter, do you change them somehow? 
+
+i’m interested in regards to stats, because i put bitly link that reflects clicks from telegram, and then additionally we have GA data 
+but i don’t see twitter flow 🤷‍♀️
+
+or twitter changes them?
+
+
+[04/02/2023 10:32 PM] CW#0000
+> (re @AngieHar : *@seedubya Hey CW, i have a question 
+when you ...*)
+         
+        Using hoot it will change them but for the most part will use the bitly link
+
+
+[04/03/2023 10:03 AM] AngieHar#0000
+> (re @seedubya : *Using hoot it will change them but for the mos...*)
+         
+        Ah, maybe that’s why there is no data from twitter 
+Alright, please try to use bitly, it helps with the stats 🙏🏼
+
+
+[04/05/2023 4:14 PM] AngieHar#0000
+@seedubya Hi CW 
+
+I would like to confirm smth with you 
+we were about to make an engagement event with Flux’s team for our communitites 
+they propose a poker tournament at the end of April 
+
+Flux Ergo with Kadena Mining Club (they have experience with big cross project poker tourneys
+
+we will use this mobile app where everything is automatic and easy to manage  https://www.clubgg.net/
+sigmanauts said they would love to join, so i guess it can be great entartainment for our communities and networking
+
+my question is do we have a small budget for winners? 
+Flux will give around 500 Flux ( so not that much) 
+and we will make a cross promo 
+
+how does it sound?
+
+{Embed}
+https://www.clubgg.net/
+Main | ClubGG
+ClubGG is a mobile-friendly, new-generation subscription poker platform.  Play for fun with friends by creating your own club or joining a club for free. Anytime and anywhere.
+https://images-ext-2.discordapp.net/external/5tvK-3w14W25uDzxn2idmf9wtm2EBQfd8u5gB-6gK8I/https/static.wixstatic.com/media/1984d8_d2f516cd256746848304c668865f7321~mv2.jpg/v1/fill/w_1200%2Ch_630%2Cal_c/1984d8_d2f516cd256746848304c668865f7321~mv2.jpg
+
+
+[04/06/2023 11:00 AM] CW#0000
+> (re @AngieHar : *@seedubya Hi CW 
+
+I would like to confirm smth...*)
+         
+        I think its a good idea, and hopefully we can cough up some ERG for it. Worst case i can create a raffle and try get some people to chuck in some
+
+
+[04/11/2023 2:02 PM] glasgowm#0000
+Maybe we should start a newsletter? Do a monthly round up.
+
+Could use https://substack.com/ unless anyone has any better ideas.
+
+{Embed}
+https://substack.com/
+Substack - A new economic engine for culture
+With Substack, anyone can start a publication that combines a personal website, blog, and email newsletter or podcast. It's quick and simple, so you don't have to be tech savvy. Your audience can pay you directly through subscriptions, with no ads to get in the way. Writers and podcasters can own their intellectual property, keep their mailing l...
+https://images-ext-2.discordapp.net/external/yMIwekE0XA5y1O53pEUIJS5ud1WYlv8Nw3mpRyaOtfA/https/substack.com/img/home_page/og-homepage.png
+
+
+[04/11/2023 2:02 PM] AngieHar#0000
+(re @glasgowm : *Maybe we should start a newsletter? Do a month...*)
+        
+        I thought it contradicts the policy
+
+
+[04/11/2023 2:02 PM] AngieHar#0000
+I mean people don’t like to leave emails in the ecosystem
+
+
+[04/11/2023 2:03 PM] glasgowm#0000
+Don’t think many would care. Not like they’re linked to their wallets or anything
+
+
+[04/11/2023 2:04 PM] AngieHar#0000
+I’m general newsletter is extremely good instrument 
+On the other hand, even when you send to fill out the g form people were against this sometimes and ask for not sharing the email 
+Just my 2 cents
+
+
+[04/11/2023 2:07 PM] glasgowm#0000
+Depends on the context I guess. If the g-form was tying their email to their psuedonym or wallet somehow I could see why there was pushback but if it’s just a newsletter they can subscribe to it or not (Anyone _that_ concerned with privacy should probably have a dummy email anyway though)
+
+
+[04/11/2023 2:12 PM] AngieHar#0000
+(re @glasgowm : *Depends on the context I guess. If the g-form ...*)
+        
+        do you have an idea why do we need to open the channel with a newsletter? 
+for a specific content? bcs usually it’s about lead generation and sales that closely related to content marketing
+
+
+[04/11/2023 2:13 PM] glasgowm#0000
+Retention. Monthly newsletter is infrequent enough to give it a glance which may pull someone back into the ecosystem if they see something that interests them.
+
+
+[04/11/2023 2:14 PM] glasgowm#0000
+& those still in the ecosystem still miss loads - so a monthly summary would bring everyone up to speed.
+
+
+[04/11/2023 2:14 PM] AngieHar#0000
+(re @glasgowm : *Retention. Monthly newsletter is infrequent en...*)
+        
+        like a summary of the month you mean?
+
+
+[04/11/2023 2:14 PM] AngieHar#0000
+ah cool, agree with it
+
+
+[04/11/2023 2:17 PM] AngieHar#0000
+but if we start it, it’s highly important to connect it with the entire strategy and general content 
+this is way big opportunity for the future like posting case stadies/ ebook/ webinars, tools and infographics
+
+
+[04/11/2023 2:18 PM] AngieHar#0000
+but currently no forces for such a content, maybe technical 
+but that’s just a thought 
+and to try ai maybe
+
+
+[04/11/2023 5:15 PM] CW#0000
+Monthly newsletter/recap is a great idea. I've also floated with doing a monthly recap video at the beginning of the year but struggled with being able to find the time to culminate the info with quite a bit going on. If someone can take the lead on an ecosystem newsletter im more than happy to turn that into a video
+
+
+[04/11/2023 6:14 PM] glasgowm#0000
+Yeah I can keep a log of all the announcements and draft something
+
+https://ergoplatform.substack.com/p/afdc0df0-ee3f-4254-a85a-32dd48521d63
+
+{Embed}
+https://ergoplatform.substack.com/p/afdc0df0-ee3f-4254-a85a-32dd48521d63
+Ergo’s Substack
+My personal Substack. Click to read Ergo’s Substack, by Ergo Platform, a Substack publication. Launched 4 hours ago.
+https://images-ext-2.discordapp.net/external/p2iGQfVQ2RXoTm0qbTyqH2OpltpgI9RlHUARAbs9M94/https/substackcdn.com/image/fetch/f_auto%2Cq_auto%3Abest%2Cfl_progressive%3Asteep/https%253A%252F%252Fergoplatform.substack.com%252Ftwitter%252Fsubscribe-card.jpg%253Fv%253D-66897252%2526version%253D9
+
+
+[04/12/2023 6:03 AM] NoahErgo#0000
+@seedubya @AngieHar @glasgowm thoughts on when we are targeting for next hackathon?
+
+
+[04/12/2023 6:11 AM] NoahErgo#0000
+Thinking maybe theme could be Adoption & Integration.
+
+Covers things like wallet integrations, atm integrations, could do urbit frontends for dapps, rosen network additions, integrations with other blockchain platforms
+
+But could also include marketing based projects and things like that.
+
+Would expand possible participants to be much wider net for the community. Of course more ergoscript based projects welcome as well
+
+
+[04/12/2023 6:11 AM] NoahErgo#0000
+could also potentially open up some outside partnership opportunities if we do some digging
+
+
+[04/17/2023 10:32 AM] AngieHar#0000
+Hi everyone, 
+
+please be so kind to confirm the reward amount for the poker tournament
+it is highly needed to approve and start promoting, tomorrow is the latest 
+
+300$ in ERG is more than enough 🙏
+
+@seedubya
+
+
+[04/17/2023 11:40 AM] CW#0000
+(re @AngieHar : *Hi everyone, 
+
+please be so kind to confirm th...*)
+        
+        150 ERG
+
+
+[04/17/2023 11:40 AM] AngieHar#0000
+(re @seedubya : *150 ERG*)
+        
+        Okay, thank you for update!
+
+
+[04/17/2023 11:44 AM] CW#0000
+(re @AngieHar : *Okay, thank you for update!*)
+        
+        Please let me know the details so we can push out from our side also
+
+
+[04/17/2023 11:44 AM] AngieHar#0000
+(re @seedubya : *Please let me know the details so we can push ...*)
+        
+        yep yep preparing
+
+
+[04/17/2023 11:47 AM] AngieHar#0000
+we can attract representatives of other projects in outr ecosystem
+
+
+[04/17/2023 11:47 AM] AngieHar#0000
+https://docs.google.com/forms/d/e/1FAIpQLSeT5BvOgu3VTahsHdoLaJFrdcTrT08y75oh5d-v4ztFsW0plw/viewform
+
+{Embed}
+https://docs.google.com/forms/d/e/1FAIpQLSeT5BvOgu3VTahsHdoLaJFrdcTrT08y75oh5d-v4ztFsW0plw/viewform
+Google Forms: Sign-in
+Access Google Forms with a personal Google account or Google Workspace account (for business use).
+
+
+[04/18/2023 11:59 AM] AngieHar#0000
+@seedubya CW, hetre is the announcement 
+
+
+🃏Get ready for the ultimate showdown! Join us for the Poker Royale tournament Co-hosted by us at #Flux, @ergo_platform & Kadena Mining Club on April 29th at 17:00 UTC! 
+
+Over 300 participants, and with over $1,000 in the prize pool to be won! 🏆 Register now! #PokerRoyale
+
+https://forms.gle/RGreM1nL1gKGRuqVA
+
+{Embed}
+https://forms.gle/RGreM1nL1gKGRuqVA
+Poker Royale - Participant Registration
+The Poker Royale - Cross Chain poker Tournament is organised between Ergo,  FLUX and Kadena Mining Club in collaboration with various projects across different L1 Ecosystems. This is a form to register for the Tournament. We will reach out by email to confirm your registration so please check your JUNK mail as well for an email coming from nuger...
+https://images-ext-2.discordapp.net/external/jbqa4f4QtZtqFiDQap_UMI-D2SStiQtzBdk3UGwkhiI/https/lh3.googleusercontent.com/a7m3SqVJVy-Q3LcUxNP5rNR5ynZZhBi_7BXvtcaP15CLQctrYu9ty5eEqfWk2jIbdbxophUz1L8%3Dw1200-h630-p
+
+
+[04/18/2023 11:59 AM] AngieHar#0000
+and the video can be embed
+
+
+[04/18/2023 7:52 PM] CW#0000
+(re @AngieHar : *@seedubya CW, hetre is the announcement 
+
+
+🃏Ge...*)
+        
+        Ok cool thanks. We can announce now?
+
+
+[04/18/2023 8:09 PM] AngieHar#0000
+(re @seedubya : *Ok cool thanks. We can announce now?*)
+        
+        One moment, let me check with flux very fast
+
+
+[04/25/2023 4:00 PM] glasgowm#0000
+Hi,
+
+We received a request on Reddit regarding the interview with Alex Chepurnoy.
+
+Kindly note that it is paid content. If you are interested in paid content, let me know so I can send you our offer.
+
+Thank you so much
+
+
+Hanife Diktas
+Cloud7 | Sales and Marketing Manager
+Media Kit | Directory | Community
+
+
+[04/25/2023 4:00 PM] glasgowm#0000
+Anyone know what this means? Not sure what they’re on about ‘request on Reddit’ ?
+
+
+[04/25/2023 4:09 PM] CW#0000
+Not sure mate, someone from the community reach out to them?
+
+
+[04/25/2023 4:10 PM] glasgowm#0000
+No idea, not even sure if they want to pay us or vice versa 😅
+
+
+[04/25/2023 4:15 PM] AngieHar#0000
+They probably want us to pay when saying paid content 😁
+
+
+[04/25/2023 10:55 PM] AngieHar#0000
+Forwarded from HQ3rr: Hello admin,
+
+Your team recently applied for listing on BingX and I’ll like to be in contact with a team member designated for this role. 
+
+Thanks.
+
+
+[04/25/2023 10:55 PM] AngieHar#0000
+Forwarded from HQ3rr:
+
+
+[04/25/2023 10:55 PM] AngieHar#0000
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/1054029963906519060/1100540649327054858/file_112140.jpg
+
+
+==============================================================
+Exported 83 message(s)
+==============================================================

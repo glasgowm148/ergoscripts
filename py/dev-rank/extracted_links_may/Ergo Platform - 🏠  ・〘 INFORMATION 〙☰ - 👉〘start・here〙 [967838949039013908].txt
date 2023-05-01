@@ -1,0 +1,80 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🏠  ・〘 INFORMATION 〙☰ / 👉〘start・here〙
+==============================================================
+
+[04/24/2022 11:59 PM] ProBot ✨#5803
+
+
+{Embed}
+Welcome to Ergo!
+🚧 Getting started.
+To reduce the amount of noise, most channels are opt-in. At the top of each category you'll see a channel marked with the 🚧 emoji. Click the matching emojis at the bottom of each message to gain access. 
+
+🌉 *Note that messages with the 'BOT' tag are being bridged from Telegram (and your messages are being bridged there)*
+❓  │What is Ergo?
+Ergo is a next-generation smart contract platform that enables anyone to participate in the digital DeFi revolution now.
+[Read more](https://docs.ergoplatform.com/dev/protocol/)
+🙋‍♂️│Support
+There are several designated help channels that you can access (be sure to enable them) 
+
+- ❓│support
+- ❓│mining-support
+- ❓│dev-support
+- ❓│ergoscript-support
+
+This is **community support** for general Ergo issues. If your problem relates to a specific bit of tooling or dApp please post in that channel.
+🎩 │Tip Bot
+Tips across discord, telegram, Reddit, and Twitter with Ergo native tokens. Full setup guide available on [ergonaut.space](https://ergonaut.space/en/Guides/tip-bot)
+❤️  │Contributing
+See the [contributing](https://docs.ergoplatform.com/contribute/) page for information on how to get involved.
+💰 │Grants and Bounties
+Check out the [#💰jobs-bounties](https://discord.com/channels/668903786361651200/880827367868743730) channel, or the [grow-ergo](https://discord.com/channels/668903786361651200/937758217939861544/937774823566884935) repository.
+🔑  │Key Links
+- [ergodocs](https://docs.ergoplatform.com/)
+- [Wallets](https://ergoplatform.org/en/wallets/)
+- [Exchanges](https://www.reddit.com/r/ergonauts/)
+- [linktr.ee](https://linktr.ee/ergoplatform)
+Ecosystem Discords
+Access ergo ecosystem discords.
+Development
+- [ErgoPi](https://discord.gg/3TP8YkYaXB
+)
+- [DeCo (ErgoLearn)](https://discord.gg/PQPyFbKZ9z)
+Mining
+- [GetBlok](https://discord.com/channels/668903786361651200/967838949039013908/967840626429292614)
+- [EnigmaPool](https://discord.com/invite/enigmapool)
+NFTs
+- [ErgoNFTs](https://discord.gg/eu3PQHgmmu)
+- [Ergnomes NFTs](https://discord.com/channels/668903786361651200/967838949039013908/967840678174412950)
+Gaming
+- [Night Owl](https://discord.gg/8JzGhmMc3c) 
+- [ErgoGames.io](https://discord.gg/QdAM7Xuw5W) 
+- [BlitzTCG](https://discord.gg/MHfsrbsHhK) 
+- [SigmaValley](https://discord.gg/7SMJ5Rhtrm)
+dApps
+- [ErgoLend](https://discord.gg/W7YXzVdz8k
+)
+- [ErgoPad](https://discord.gg/BhQbEmk29N)
+- [Shrimpcoin](https://discord.gg/uRRtjGZPbB)
+- [ErgoDex](https://discord.gg/vrUCaygy59)
+- [anetaBTC](https://discord.gg/g23tkKkshW)
+Tokens
+- [COMET](https://discord.gg/ED9WUeXnfb)
+
+{Reactions}
+👍 (316) 
+
+[04/25/2022 12:37 AM] ProBot ✨#5803
+
+
+{Embed}
+⚠️  │ WATCH OUT FOR SCAMS
+We will never DM you and ask for your seed. Spammers and scammers can get around all defences. Be vigilant and ideally, disable DMs from non-server members.
+
+{Reactions}
+🫡 (260) 
+
+==============================================================
+Exported 2 message(s)
+==============================================================

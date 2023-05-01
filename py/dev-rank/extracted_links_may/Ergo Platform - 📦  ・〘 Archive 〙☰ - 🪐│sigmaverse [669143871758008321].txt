@@ -1,0 +1,1548 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 📦  ・〘 Archive 〙☰ / 🪐│sigmaverse
+==============================================================
+
+[01/24/2020 7:19 PM] kushti#0978
+@jasondavies @benjyz @Robert K @morphic @scalahub  So initially blockchains provided rich functionality via features built into the protocol (Nxt, BitShares), then blockchains with generic Turing-complete languages appeared (Ethereum etc). With them DeFi is about platforms which are hard-to-produce, error-prone and have centralized interface. 
+However, with templatizeable contracts attached to coins directly and interacting over blockchain transactions we now have protocolized DeFi where all the participants do create contracts (usually by picking them from templates and parameterizing) and they're interacting through transactions . 
+
+Is it a good picture? 
+
+Then this https://www.ergoforum.org/t/universal-dapp-interface-package-standard/153 can be a game-changer
+
+{Embed}
+https://www.ergoforum.org/t/universal-dapp-interface-package-standard/153
+Universal dApp Interface & Package Standard
+Before I head off for vacation I thought it would be worth posting this publicly on the forum for anyone who’s interested. This is a potential standard that could make sense to work towards for dApps for Ergo, so I’m open to all feedback. You can find the original doc her...
+
+{Reactions}
+🙏 (2) 
+
+[01/24/2020 10:11 PM] Robert K#0722
+I think that's a good way to describe the whole picture.
+
+
+[01/24/2020 10:13 PM] Robert K#0722
+There's most definitely a lot left to be developed compared to the current model of smart contracts, and the idea I outline in that piece is likely a solid first iteration forward for generalizing dApps so that they aren't simply funneled to centralized entities.
+
+
+[01/25/2020 7:36 AM] steinsg8#0288
+I want to see a platform like bubble.is for crypto :D
+
+
+[01/25/2020 7:36 AM] steinsg8#0288
+Dapps*
+
+
+[01/26/2020 9:06 AM] scalahub#2618
+I would prefer the IDL to be a subset of Scala
+
+
+[01/26/2020 9:06 AM] scalahub#2618
+Is that possible?
+
+
+[01/26/2020 3:47 PM] Robert K#0722
+@scalahub It's defnitely possible, it just needs to be decided on. I think for our ecosystem aiming to make the IDL work with AppKit/GraalVM is probably the most sensible approach imo.
+
+
+[03/07/2020 11:34 PM] namnhan567#6085
+hi sir
+
+
+[03/07/2020 11:36 PM] namnhan567#6085
+Discord
+
+
+[08/10/2020 5:10 PM] Kst#0250
+i have a question on ergo mixing,
+
+when i mix it asking for multiple addresses
+
+
+but magnum wallet has one wallet address for ergo
+
+
+[08/10/2020 5:41 PM] kushti#0978
+@Kst actually, Magnum allows for multiple addresses (derived from the same secret phrase, don't forget to back it up!), use "add wallet" button to add new Ergo wallet
+
+
+[08/10/2020 6:20 PM] Kst#0250
+@kushti nice, it works 👍
+
+
+[08/11/2020 1:21 AM] Kst#0250
+@kushti how long does mixing take, its been more than several hours
+
+
+[08/11/2020 8:08 AM] scalahub#2618
+@Kst I guess it would depend on number of rounds, size of pool and token/fee boxes. Is it stuck at one status?
+
+
+[08/11/2020 8:31 AM] Kst#0250
+> @Kst I guess it would depend on number of rounds, size of pool and token/fee boxes. Is it stuck at one status?
+@scalahub 
+
+thats probably why, 
+
+
+no it's still going through
+
+
+[11/11/2020 9:36 PM] filippounits#3593
+With the maximum number of rounds took me more than 4days
+
+
+[11/11/2020 9:36 PM] filippounits#3593
+but you can always withdraw your coin whenever you want
+
+
+[11/12/2020 12:25 PM] Robert K#0722
+I think we need to update whatever bot we're using to detect spam
+
+
+[11/12/2020 12:26 PM] Robert K#0722
+Keep getting uniswap spammers coming in here.
+
+
+[11/12/2020 12:26 PM] Robert K#0722
+@mx
+
+
+[11/12/2020 1:25 PM] mx#5165
+looks like it is bypassing our bot, will look for some paid versions
+
+
+[03/18/2021 3:34 PM] LADOPIXΣL#6072
+I would like to create a Hello world in dapp, where do you recommend that it is better to start learning? Thanks.
+
+
+[03/18/2021 6:24 PM] kushti#0978
+@LADOPIXΣL welcome aboard!
+
+
+[03/18/2021 6:24 PM] kushti#0978
+https://github.com/ergoplatform/ergo-js
+
+{Embed}
+https://github.com/ergoplatform/ergo-js
+ergoplatform/ergo-js
+JS library for Ergo integration. Contribute to ergoplatform/ergo-js development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/-KRVlD4_nyV4m1pVCd9KQWWbk8Kzhe9Rdnel6es6kxo/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/27490654
+
+{Reactions}
+👍 
+
+[03/18/2021 6:24 PM] kushti#0978
+ergo-js template dapp
+
+
+[03/18/2021 6:24 PM] kushti#0978
+https://github.com/ergoplatform/ergoscript-by-example
+
+{Embed}
+https://github.com/ergoplatform/ergoscript-by-example
+ergoplatform/ergoscript-by-example
+Learn ErgoScript by reading example smart contracts powered by Ergo Playground. - ergoplatform/ergoscript-by-example
+https://images-ext-1.discordapp.net/external/-KRVlD4_nyV4m1pVCd9KQWWbk8Kzhe9Rdnel6es6kxo/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/27490654
+
+{Reactions}
+👍 
+
+[03/18/2021 6:24 PM] kushti#0978
+To check some contract examples and play with them in Ergo Playgrounds
+
+{Reactions}
+👍 
+
+[03/18/2021 6:25 PM] kushti#0978
+Please also note that AuctionHouse / SigmaUSD /ErgoUtils etc fully opensourced!
+
+
+[03/18/2021 6:33 PM] LADOPIXΣL#6072
+Thank you very much for the information, I start to study everything calmly.
+
+
+[03/18/2021 8:09 PM] kushti#0978
+also https://discord.com/channels/668903786361651200/668903786902847502/811634590187913216 for offchain parts
+
+
+[03/18/2021 8:56 PM] LADOPIXΣL#6072
+Thanks!!
+
+
+[03/19/2021 12:06 PM] LADOPIXΣL#6072
+I started with a tutorial but when compiling it gives me this error, Where should I declare Ergsbox?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669143871758008321/822440954643480616/Captura_de_pantalla_2021-03-19_a_las_13.04.32.png
+
+
+[03/19/2021 12:06 PM] LADOPIXΣL#6072
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669143871758008321/822440972013011014/Captura_de_pantalla_2021-03-19_a_las_13.06.00.png
+
+
+[03/19/2021 2:01 PM] kushti#0978
+@LADOPIXΣL looks it is there https://github.com/Emurgo/ergo-headless-dapp-framework/blob/acb82d0d293514a5c8c47f59226ec6b016901435/src/specified_boxes.rs
+
+{Embed}
+https://github.com/Emurgo/ergo-headless-dapp-framework/blob/acb82d0d293514a5c8c47f59226ec6b016901435/src/specified_boxes.rs
+Emurgo/ergo-headless-dapp-framework
+An easy to use framework for building Ergo headless dApps. - Emurgo/ergo-headless-dapp-framework
+https://images-ext-2.discordapp.net/external/xHAk_ziRPnkEG9RreCwow25rgpXAukdgRa4kd6p1WIY/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/36142236
+
+{Reactions}
+👍 
+
+[03/19/2021 2:05 PM] kushti#0978
+@greenhat did you play with HDF maybe ^ ?
+
+
+[03/19/2021 2:54 PM] greenhat#6562
+Nope, I did not use it. I submitted a fix or two and have some general knowledge how it works.
+
+
+[03/19/2021 2:57 PM] kushti#0978
+@greenhat did you compile the tutorial successfully ?
+
+
+[03/19/2021 3:04 PM] greenhat#6562
+No.
+
+
+[03/19/2021 3:05 PM] kushti#0978
+@Robert K any thoughts? ^
+
+
+[03/25/2021 12:54 PM] Robert K#0722
+@LADOPIXΣL Hey there, make sure you import everything using `pub use ergo_headless_dapp_framework::*;` as specified in the tutorial, because in that list of errors you shared you also are missing `erg_to_nano_erg` which both are exported in the HDF root: https://github.com/Emurgo/ergo-headless-dapp-framework/blob/main/src/lib.rs
+
+{Embed}
+https://github.com/Emurgo/ergo-headless-dapp-framework/blob/main/src/lib.rs
+Emurgo/ergo-headless-dapp-framework
+An easy to use framework for building Ergo headless dApps. - Emurgo/ergo-headless-dapp-framework
+https://images-ext-2.discordapp.net/external/xHAk_ziRPnkEG9RreCwow25rgpXAukdgRa4kd6p1WIY/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/36142236
+
+{Reactions}
+👍 
+
+[03/25/2021 6:59 PM] LADOPIXΣL#6072
+Thanks!
+
+
+[04/05/2021 7:41 PM] kranebitt#0334
+As a non-tech person - executing linux bash commands is my limit - I would love to dedicate a day or two to learning Ergo smart contracts. If somebody wants to organize a course for beginners. Maybe to go together through this guide
+
+
+[04/05/2021 7:42 PM] kranebitt#0334
+https://github.com/ergoplatform/ergoscript-by-example
+
+{Embed}
+https://github.com/ergoplatform/ergoscript-by-example
+ergoplatform/ergoscript-by-example
+Learn ErgoScript by reading example smart contracts powered by Ergo Playground. - ergoplatform/ergoscript-by-example
+https://images-ext-1.discordapp.net/external/-KRVlD4_nyV4m1pVCd9KQWWbk8Kzhe9Rdnel6es6kxo/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/27490654
+
+
+[04/05/2021 9:06 PM] Dergler#0451
+yes, there is a lot of opportunity in the front end ecosystem.
+
+{Reactions}
+👍 
+
+[04/06/2021 8:01 PM] pragmaxim#0778
+currently it needs basic coding skills ... as you see in the examples, this playground environment `import org.ergoplatform.playground._` from https://github.com/ergoplatform/ergo-playgrounds helps you  design your dapps but then one needs to get rid of it and replace the playground "calls" with real API calls (note that I'm a newbie in this, this is how I see it now) ...
+
+{Reactions}
+👍 
+
+[04/09/2021 9:29 PM] kushti#0978
+in regards with frontend, there's https://github.com/anon-real/ergo-js-template by @anon_real
+
+{Embed}
+https://github.com/anon-real/ergo-js-template
+anon-real/ergo-js-template
+A JS template for Ergo dApp development. Contribute to anon-real/ergo-js-template development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ipQrVKfmlPTmSOY7l1jLEMnTzfKpEyS4aWEi1MOm0MA/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/68861503
+
+{Reactions}
+💯 (4) 👍 (2) 
+
+[04/09/2021 9:45 PM] Dergler#0451
+Thanks! we'll be using this.
+
+
+[04/09/2021 9:45 PM] Dergler#0451
+@weskinner
+
+
+[05/06/2021 9:03 PM] NucaCola👨🚀#3711
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669143871758008321/839955543044390912/unknown.png
+
+
+[05/06/2021 9:04 PM] NucaCola👨🚀#3711
+Very similar to SigUSD/RSV, Could Ergo do Forex ?
+
+
+[05/07/2021 11:22 PM] kushti#0978
+Why not, I guess doable
+
+
+[05/10/2021 4:16 PM] glasgowm#9381 (pinned)
+https://ergoplatform.org/en/blog/2021-05-10-defi-ecosystem/
+
+{Embed}
+https://ergoplatform.org/en/blog/2021-05-10-defi-ecosystem/
+DeFi Ecosystem
+Ergo Blockchain is Layer 1 …
+https://images-ext-2.discordapp.net/external/iFjjtnVBGA4clxIJQFMfT1qcEVBZ5mo1mHxro_xl3Yg/https/ergoplatform.org/img/uploads/futureball.jpg
+
+{Reactions}
+🙌 (3) 
+
+[05/10/2021 4:16 PM] glasgowm#9381
+Pinned a message.
+
+
+[05/12/2021 11:02 PM] root7Z#8699
+it's like an extension of stable coin protocol imo, shouldn't be much different from sigusd protocol just other currencies than dollar
+
+
+[05/24/2021 10:00 PM] QU₳Z₳R#0436
+Is ERGO looking for insurance solutions similar to NexusMutual or other risk transfer mechanisms?
+
+
+[05/25/2021 3:45 PM] danandbeard#3509
+I'm new to smart contracts and their capabilities - is it possible to lock/unlock portions of funds inside and address "quickly"
+
+usecase: distributed exchange, everyone sends their coins to the DEX wallet but can only unlock coins they own - no transaction fees, so similar behavior to traditional exchanges, but protected from exchange exit scams
+
+
+[05/25/2021 3:47 PM] danandbeard#3509
+again, extremely ignorant on the subject, but it seems like it's unlikely you could do more than lock/unlock entire addresses which to achieve the same functionality would mean a trade would have to happen in even units and the DEX wallets would have to be a crap ton of addresses that effectively get locked/unlocked a bunch of addresses to represent an entire trade
+
+
+[05/28/2021 11:07 PM] kushti#0978
+@danandbeard not fully understand the usecase, but funds locking is possible in Ergo, some examples are in https://ergoplatform.org/docs/AdvancedErgoScriptTutorial.pdf (reversible addresses, cold wallets)
+
+
+[05/28/2021 11:19 PM] danandbeard#3509
+I think what I'm envisioning seems impossible, but I'm new to smart contract
+
+
+[05/28/2021 11:20 PM] danandbeard#3509
+but effectively I want to take a single address that has 2 ERG and lock 1ERG such that userA can unlock it and lock the other 1ERG such that userB can unlock it
+
+
+[05/28/2021 11:20 PM] danandbeard#3509
+the use case is this...an exchange is simply sending all coins to a single wallet - no transactions involved...then trading happens just by sending the keys around
+
+
+[05/28/2021 11:21 PM] danandbeard#3509
+so off-chain trading without ever having to worry about the "exchange" having access to your crypto
+
+
+[05/28/2021 11:22 PM] danandbeard#3509
+my somewhat trivial knowledge of cryptography would suggest that each address has keys such that you can unlock all or nothing, though
+
+
+[05/28/2021 11:23 PM] danandbeard#3509
+effectively I'd like to trade crypto without incurring on-chain transaction costs
+
+
+[05/28/2021 11:25 PM] danandbeard#3509
+so my next iteration on this idea is to just create a bunch of wallets with small units of coins and then you trade around the keys - again this can all be p2p trading keys around (and the "centralized" authority would just be a piece of software that can verify all addresses A-Z do in fact belong to user A, at which point the software would decrypt those keys such that userA wishing to move their funds away from the "exchange" now has decrypted keys to do so)
+
+
+[05/28/2021 11:27 PM] danandbeard#3509
+I suspect my use-case is poorly thought out and thus hard to envision though so I'll probably just read up on the capabilities here
+
+
+[05/28/2021 11:29 PM] danandbeard#3509
+but the overall goal would be that you can send ERG to a collection of addresses - these addresses represent the "exchange" - the off-chain software simply keeps track of which user owns which keys and only when a user who owns the keys to a collection of addresses decides to move off the "exchange" does the software decrypt those keys for the user wishing to "withdraw" from the "exchange"
+
+
+[05/28/2021 11:33 PM] danandbeard#3509
+ohhh, hot wallet contracts look very promising! thanks for the link, sorry I rambled on before reading!
+
+
+[05/29/2021 7:03 PM] gp#6635
+would this be a good place to brainstorm an idea for a defi-based art project/fundraising protocol?
+
+
+[05/29/2021 7:03 PM] gp#6635
+or is there a more appropriate channel
+
+
+[05/31/2021 1:20 PM] olliten#5885
+Hello beautiful people! I'm trying to figure out what makes Ergo attractive to you as developers in comparison to other DeFi platforms. Getting a crisp pitch could help strengthen the ecosystem.
+
+What's your personal take? Why are you here?
+
+
+[05/31/2021 1:22 PM] glasgowm#9381
+here would be fine
+
+
+[05/31/2021 10:23 PM] kushti#0978
+there are some contracts like that, even for Bitcoin, with different use cases and assumptions, e.g. coinpools https://discrete-blog.github.io/coinpool/ . Pretty promising L2 solution actually
+
+{Embed}
+https://discrete-blog.github.io/coinpool/
+CoinPool, exploring generic payment pools for Fun and Privacy
+We think that a wide range of second-layer protocols
+(LN, vaults, inheritance, etc) will be used by average Bitcoin users. We
+are interested in finding and addressing the privacy issues coming from the
+unique fingerprints these protocols bring.
+
+{Reactions}
+💯 (2) 👍 (2) 
+
+[05/31/2021 10:23 PM] kushti#0978
+let's start here!
+
+
+[05/31/2021 10:24 PM] kushti#0978
+I am working on Ergofund contracts these days
+
+
+[05/31/2021 11:10 PM] danandbeard#3509
+very cool, crowdfunding with erg it seems?
+
+
+[06/02/2021 9:16 PM] kidamoianlicci#1768
+is this the much awaited democtratized crowdfunding/projectfunding app? :D
+
+
+[06/03/2021 9:47 PM] gp#6635
+I had an idea for a fundraising platform for professionals, where investors could crowdfund someone's education by purchasing tokens/NFTs that entitle the holder to a certain percentage of that individual's future earnings as a professional
+
+
+[06/03/2021 9:47 PM] gp#6635
+along the same lines as what David Bowie did in the late 90s https://www.investopedia.com/terms/b/bowie-bond.asp
+
+{Embed}
+https://www.investopedia.com/terms/b/bowie-bond.asp
+Bowie Bond Definition
+A Bowie bond was an asset-backed security which used the revenue from albums recorded by musician David Bowie as collateral.
+https://images-ext-2.discordapp.net/external/aipspfLBfpap1OIA-wHdVLAC_4Lv3DLo_6KXRB1Mv-Y/https/www.investopedia.com/thmb/JA99lnMrbza2sqBubLj_6GEUFTc%3D/380x254/filters%3Afill%28auto%2C1%29/dv740090-5bfc2b8b46e0fb00265bea71.jpg
+
+
+[06/03/2021 9:48 PM] gp#6635
+the 'artistic statement' part of it is mainly a way of generating buzz/marketing the idea
+
+
+[06/03/2021 9:49 PM] gp#6635
+but the jist of it is this; "if a corporation can legally be considered a 'person', then why can't a person be a corporation?"
+
+
+[06/03/2021 9:50 PM] gp#6635
+maybe you're a student, and you get accepted to a very good university, but you can't afford the tuition
+
+
+[06/03/2021 9:54 PM] gp#6635
+you could auction off tokens worth, say, 3% of your income as a doctor or a lawyer (or whatever career you were shooting for - maybe even just your net income in general) to try and pay for it
+
+
+[06/03/2021 9:55 PM] gp#6635
+token holders are incentivized to support the individuals they have a stake in, because the more successful they end up, the greater the value of that token
+
+
+[06/03/2021 9:55 PM] gp#6635
+can be thought of as decentralized private lending, or a form of 'social investing'
+
+
+[06/03/2021 9:57 PM] gp#6635
+lets say that doctor you helped sponsor ends up making 200k/yr; as a token holder, you get 3% of that distributed to your wallet (aka. $500/month in passive income) for as long as that doctor is making money
+
+
+[06/03/2021 10:02 PM] gp#6635
+in theory, the platform would enable anyone to tokenize their income, allowing us to trade 'shares' in eachother via decentralized exchanges
+
+
+[06/03/2021 10:03 PM] gp#6635
+I'll trade you 6% of John for 8% of Barbara
+
+
+[06/03/2021 10:05 PM] gp#6635
+could end up being a highly controversial idea, because of the absurd libertarianism of it
+
+
+[06/03/2021 10:06 PM] gp#6635
+but controversy lends itself well to marketing
+
+
+[06/03/2021 10:06 PM] gp#6635
+would love to hear people's thoughts
+
+
+[06/03/2021 10:13 PM] glasgowm#9381
+Sounds like LETS + ErgoFund
+
+
+[06/03/2021 10:13 PM] glasgowm#9381
+down for buying people though, as always
+
+{Reactions}
+😆 
+
+[06/03/2021 10:14 PM] danandbeard#3509
+how do you ensure payouts from the earner? tax records are private, correct?
+
+
+[06/03/2021 10:14 PM] gp#6635
+yes; that's where the infrastructure may have to be built; could potentially use something like OpenLaw to create decentralized legal contracts
+
+
+[06/03/2021 10:15 PM] danandbeard#3509
+how do you incentivize the people to build the infrastructure?
+
+
+[06/03/2021 10:16 PM] danandbeard#3509
+the person being educated has a strong disincentive to lie about their income so presumably you'd need a stronger incentive for people part of that transaction to disclose, and even then seems like laws would probably go against leaking income information
+
+
+[06/03/2021 10:16 PM] gp#6635
+that's a good question lmao
+
+
+[06/03/2021 10:17 PM] gp#6635
+in keeping with the idea of 'people becoming corporations', it may have to be that token holders are entitled to that information
+
+
+[06/03/2021 10:21 PM] gp#6635
+In the US, Federal and state laws grant shareholders the right to sufficient information about the corporation they've invested in to be able to make informed decisions re: the company/voting/etc, which would probably mean tax records in this case, but there are a whole bunch of limitations to inspection rights
+
+
+[06/03/2021 10:23 PM] gp#6635
+in any case, first step might be wrangling some grad students to hash out the legality of this
+
+
+[06/03/2021 10:23 PM] danandbeard#3509
+so the person, before becoming educated has to become a publicly traded company with the SEC?
+
+
+[06/03/2021 10:24 PM] danandbeard#3509
+that sounds more expensive than an education :p
+
+
+[06/03/2021 10:24 PM] danandbeard#3509
+but yeah, if you can figure out the hard part - definitely an interesting approach
+
+
+[06/03/2021 10:24 PM] danandbeard#3509
+the hard part is gonna be hard though
+
+
+[06/03/2021 10:25 PM] danandbeard#3509
+:p
+
+
+[06/03/2021 10:25 PM] gp#6635
+absolutely, it's still well in the brainstorming stage
+
+
+[06/03/2021 10:25 PM] danandbeard#3509
+not to discourage you, I hope you come up with a novel solution
+
+{Reactions}
+❤️ 
+
+[06/03/2021 10:25 PM] gp#6635
+appreciate the questions!
+
+
+[06/03/2021 10:26 PM] gp#6635
+i will say, you'd be surprised what hoops students are willing to jump through these days
+
+
+[06/03/2021 10:27 PM] danandbeard#3509
+oh for sure, but given the choice of 3% federal loans and leaking your financial information to the public for some period of time for 3% of your income sounds like a hard sell
+
+
+[06/03/2021 10:28 PM] danandbeard#3509
+crowdfunding education does sound really cool though
+
+
+[06/03/2021 10:29 PM] danandbeard#3509
+maybe instead of education you fund apprenticeship where the person is on contract to work for a company...you pay that persons wages and then after the apprenticeship that company is part of the contract to release their salary info?
+
+
+[06/03/2021 10:29 PM] danandbeard#3509
+that situation incentivizes everyone involved I think?
+
+
+[06/03/2021 10:31 PM] danandbeard#3509
+still some gaps to fill there, of course, but seems closer to plausible imo
+
+
+[06/03/2021 10:31 PM] gp#6635
+yeah i follow you there
+
+
+[06/03/2021 10:35 PM] gp#6635
+my only gripe is that it moves away from the educational aspect then; e.g. law firms will often 'court' law students from specific institutions for a year or two and then hire them as soon as they've graduated
+
+
+[06/03/2021 10:36 PM] gp#6635
+the barrier to entry in such cases can be the tuition cost of the more well-regarded universities
+
+
+[06/03/2021 10:38 PM] gp#6635
+banks will happily give you a juicy loan if you're accepted to harvard or wherever - but they'll also want you to hand over all your financial information, not to mention the predatory arrangements centralized institutions are often incentivized to make
+
+
+[06/03/2021 10:39 PM] gp#6635
+will check both of these out, thanks m8
+
+
+[06/03/2021 10:53 PM] kushti#0978
+Btw I think global mutual credit system (trustless, so collateralized) can be perfectly combined with ErgoFund, so funds collected can be used to open credit-line basically to spend money for services in the mutual credit system
+
+{Reactions}
+👍 (3) ergo_white (4) 🤔 (3) 
+
+[06/09/2021 8:53 PM] whatisworklmao#9364
+sounds like ISA, income share agreements
+
+
+[06/09/2021 8:53 PM] whatisworklmao#9364
+these exist out there in the world i believe. so the novel part would be the decentralized trading of the assets i guess
+
+
+[06/09/2021 8:53 PM] whatisworklmao#9364
+https://www.rmu.edu/about/news/rmu-make-college-more-affordable-through-income-share-agreements
+
+{Embed}
+https://www.rmu.edu/about/news/rmu-make-college-more-affordable-through-income-share-agreements
+RMU to Make College More Affordable Through Income Share Agreements...
+Robert Morris University now offers an innovative college financing tool called an income share agreement (ISA) to help students reduce the amount of traditional student loan debt they need to pay for their education.
+
+
+[06/09/2021 8:54 PM] whatisworklmao#9364
+sounds like you're going to need a team of lawyers for all the legal stuff
+
+
+[06/09/2021 8:54 PM] whatisworklmao#9364
+contracts written and signed, etc
+
+
+[06/09/2021 10:12 PM] gp#6635
+Hey, thanks a million! There's a lot of work to be done but the fact that there's at least some sort of precedent is big
+
+
+[07/31/2021 6:52 PM] imranistan#5185
+I've been investigating "community lending" for a bit and the LETS/mutual credit works well but is limited in scale and is very hard to get adopted. In a sense, you would have to convince enough people to have a working mini economy
+
+{Reactions}
+ergo_orange 👍🏻 
+
+[07/31/2021 6:58 PM] imranistan#5185
+here is a success story of mutual credit: https://www.grassrootseconomics.org/
+
+{Embed}
+https://www.grassrootseconomics.org/
+Home | Grassroots Economics
+Ending poverty lies in building community. Community currencies provide a way to exchange goods and services and incubate new businesses, without relying on scarce national currency and volatile markets.
+https://images-ext-1.discordapp.net/external/5JF9NZleQtWmfq3Crq0QzL32TNQYezQJ_woH9UAffUo/https/static.wixstatic.com/media/ce30dd_d272e4149ba847ac90332bdeb94c78d7%257Emv2.jpg/v1/fit/w_2500%2Ch_1330%2Cal_c/ce30dd_d272e4149ba847ac90332bdeb94c78d7%257Emv2.jpg
+
+
+[08/04/2021 9:19 PM] WilfordGrimley#0124
+Essentially a global credit union. I am confident that ErgoFund can be used in this way also!
+
+
+[08/25/2021 5:48 PM] bluecheez#7573
+is this the place to go to hear more about erdadex?
+
+
+[08/25/2021 5:48 PM] bluecheez#7573
+on cardano
+
+
+[08/25/2021 6:06 PM] glasgowm#9381
+#spectrum
+
+
+[09/13/2021 11:16 AM] Despa#8351
+man, wtf is ergo? what he can do? dex? nft? yield farm?
+
+
+[09/13/2021 11:53 AM] glasgowm#9381
+most things
+
+
+[09/13/2021 12:29 PM] Despa#8351
+i see
+
+
+[09/20/2021 5:24 PM] Arnaud 🐢#7300
+Where can I find yield farming / lending platform on ergo ?
+
+
+[09/20/2021 6:01 PM] glasgowm#9381
+coinex amm pool, sigmausd.io, swop.fi amm pool, ergodex amm pools. More in a couple weeks with graviton and ergodex tokenisation
+
+
+[09/20/2021 8:49 PM] Arnaud 🐢#7300
+Thanks men
+
+
+[09/27/2021 10:17 AM] callie#3352
+is swop.fi legit?
+
+
+[09/27/2021 10:21 AM] callie#3352
+
+
+{Attachments}
+https://cdn.discordapp.com/attachments/669143871758008321/891977930232700939/unknown.png
+
+
+[09/27/2021 10:21 AM] callie#3352
+can't connect there is no yoroi
+
+
+[09/27/2021 11:39 AM] glasgowm#9381
+yes it's ran by Waves (a blockchain built on ScoreX)
+
+
+[09/27/2021 11:39 AM] glasgowm#9381
+Yoroi can't connect to that yet, you just transfer in manually
+
+
+[09/27/2021 2:54 PM] callie#3352
+so Waves is can be a wallet too?
+
+
+[09/27/2021 3:20 PM] glasgowm#9381
+Think so yeh, you can also put erg on ledger that way in a wrapped form
+
+
+[09/27/2021 3:40 PM] callie#3352
+I might hold ergo until ergo dex come out as I dont trust wave
+
+
+[10/01/2021 1:34 PM] NEEKS#2070
+can someone explain to me what defi dapps are in ergo
+
+
+[10/01/2021 1:43 PM] glasgowm#9381
+https://sigmaverse.io/
+
+{Embed}
+https://sigmaverse.io/
+Sigmaverse - explore dapps in the ergo ecosystem.
+Sigmaverse is a one-stop portal to the Ergo dApp ecosystem: a place where users can find all the cool functionality that community developers are building on Ergo, all in one place.
+
+
+[10/01/2021 1:44 PM] glasgowm#9381
+co-founder of waves also helped with erg and was on the EF 😉 - lots of wave connections. They're trustable.
+
+
+[10/01/2021 3:42 PM] callie#3352
+I get it now, if that's the case. I will trust wave 😄
+
+
+[10/01/2021 3:43 PM] callie#3352
+I will try the staking of it
+
+
+[10/17/2021 6:48 PM] Azen#2783
+Hey team, where can I read up on ergo dex, and will it have a separate token?
+
+
+[10/18/2021 12:46 AM] root7Z#8699
+search ergodex here https://ergoplatform.org/en/search/  , right now they are not thinking about token as i know
+
+{Embed}
+https://ergoplatform.org/en/search/
+Search | Ergo
+
+
+[10/18/2021 7:25 AM] root7Z#8699
+here the contract and sort of litepaper https://github.com/ergolabs/ergo-dex
+
+{Embed}
+https://github.com/ergolabs/ergo-dex
+GitHub - ergolabs/ergo-dex: An Automated Decentralized Exchange
+An Automated Decentralized Exchange. Contribute to ergolabs/ergo-dex development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/zGmyd4hMjo-b1Bab3DaHqCJwGzGfn50mfJrKYOAlbyc/https/opengraph.githubassets.com/069dadc05dc4d5cd388b831fbcd1b04f3b15bf3af5e6c6b44d61766bfecb8671/ergolabs/ergo-dex
+
+
+[10/18/2021 8:38 AM] glasgowm#9381
+see #deleted-channel
+
+
+[10/19/2021 3:21 AM] Azen#2783
+Thank you !!!
+
+
+[11/09/2021 11:48 AM] 777even | AgoraNodes#2624
+Is there a dapp for merchants/retailers/to accept Ergo? Or a peer to peer hook up for Ergo?
+
+
+[11/09/2021 12:50 PM] glasgowm#9381
+https://cryptocurrencycheckout.com/coin/sigmausd
+
+https://cryptocurrencycheckout.com/coin/ergo
+
+{Embed}
+https://cryptocurrencycheckout.com/coin/sigmausd
+Accept SIGUSD on your website for free with CryptocurrencyCheckout.
+Start Accepting SigmaUSD crypto on Woocommerce, Shopify, Bigcommerce, Twitch.tv, Youtube, Twitter, Facebook & more!
+https://images-ext-2.discordapp.net/external/8wMnYOSBp47l9b3Fwlxy7s1PiLKtTfvmYUdrV1h8wRM/https/cryptocurrencycheckout.com/img/coins/coin_banner/SigusdBanner.png
+
+{Embed}
+https://cryptocurrencycheckout.com/coin/ergo
+Accept ERG on your website for free with CryptocurrencyCheckout.
+Start Accepting Ergo crypto on Woocommerce, Shopify, Bigcommerce, Twitch.tv, Youtube, Twitter, Facebook & more!
+https://images-ext-1.discordapp.net/external/KO2ZabIpUFgNtObcXLskaAAOfgsELXDY84RZFYWSkVw/https/cryptocurrencycheckout.com/img/coins/coin_banner/ErgBanner.png
+
+
+[11/10/2021 12:21 AM] 777even | AgoraNodes#2624
+Thank you as always Glasgow
+
+
+[11/22/2021 11:00 PM] anon.Σrg#5184
+Are DeFi dApps on Ergo audited?
+
+
+[11/25/2021 2:25 PM] glasgowm#9381
+Up to the dApp - things like wallets are checked by core devs.
+
+{Reactions}
+👍 
+
+[11/29/2021 1:18 PM] essaias#5787
+I don't know a better place to ask, as I dont see an ergodex channel here... 
+What timeline is to be expected for "other" (like ref. client or android) wallets for the ErgoDEX?
+
+
+[11/29/2021 2:59 PM] glasgowm#9381
+Early 2022 I believe - see ergodex server in #deleted-channel
+
+{Reactions}
+👍 
+
+[12/24/2021 12:17 PM] Smokey Burger#0724
+which ergo wallets is everyone's favourite now?
+
+
+[12/25/2021 6:40 PM] RNK#7973
+Mobile wallet for android
+
+{Reactions}
+👍 
+
+[01/03/2022 10:02 AM] gilgaMesh#8262
+Ergo Android Wallet
+
+{Reactions}
+sigmanaut (2) 
+
+[01/03/2022 10:02 AM] gilgaMesh#8262
+lifesaver
+
+
+[01/04/2022 8:36 AM] texas_miner#9831
+@glasgowm  @Justin1000 @kushti @mhs_sam 
+@morphic 
+@Noah ~ 贺能 
+>I have joined the sanctuary exchange team as director of marketing. A live crypto application  that acts as a point of sale (POS) for crypto on the ios app store.   
+
+>I have had multiple sit downs with Blake, the leader of the SanctuaryExchange project to explain to him why he needs to add sigusd to the app for merchant’s (like me, I own a roofing supply business in dallas texas). So that we can conduct business without a 3rd party middle man in the form of a stable dollar.
+Now that we have had multiple meetings about ergo, sigusd, and how they work, as well as the development future……
+
+
+He is sold on the idea and ready to act. However our dev team desperately needs a meet with you are someone with extensive knowledge so our team can be pointed in the correct direction and have a point of contact for dev questions. 
+
+Blake is an old school guy, all I am asking for is a 30 min top onboarding zoom to meet someone from the team, welcome him,  show him the dev resources, and where to go ask for help should anyone on our team have a question or get stuck in the dev process. 
+https://apps.apple.com/us/app/sanctuary-wallet/id1574240939
+
+{Embed}
+https://apps.apple.com/us/app/sanctuary-wallet/id1574240939
+‎Sanctuary Wallet
+‎*** SANCTUARY DEX Soft Wallet ***
+The easiest way to own you cryptocurrency keys is with the SANCTUARY DEX cryptocurrency soft wallet.
+
+*** Easy To Use ***
+Storing cryptocurrency keys can be very confusing. The SANCTUARY DEX wallet simplifies the concept and reduces the number of steps involved in s…
+https://images-ext-1.discordapp.net/external/zaQXN_LUYhAJWkmaNOgbynYRO4m_gGpzv8808Dz5hkI/https/is2-ssl.mzstatic.com/image/thumb/Purple116/v4/c0/9a/0c/c09a0cb9-4866-62b0-dc95-4d6f60aa9fec/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png
+
+
+[01/04/2022 8:42 AM] texas_miner#9831
+My specialty is the economics of crypto, mining and marketing. 
+
+With the help of a developer I was able to build and still operate a 3 Gh/s mining farm. 
+
+I can manage a crypto project but I am desperately looking for a link on the ergo side to ask questions during the process of integrating sigusd to the Point of sale app.
+
+
+[01/04/2022 4:27 PM] glasgowm#9381
+I'm always available for questions 🙂 
+
+The integration guide is here: http://docs.ergoplatform.org/dev/Integration/guide/
+
+
+[01/16/2022 3:48 PM] Alien Σ Crypto#4489
+Does anyone here knows if ergo has a bridge to Bsc.?
+
+
+[01/16/2022 5:50 PM] glasgowm#9381
+There's no bridges currently, SOL soon
+
+
+[01/16/2022 5:59 PM] Alien Σ Crypto#4489
+There is project that Ergo, I believe should cross partner, is called Drip Network. The farm that is launched called L1 Manor Farm and next week The Animal Farm L2.
+Their L3 project cross platforms and that should probably be the partnership. I believe it's amazing advertising for Ergo to be in partnership and eventually should do a liquidity pool like ergo stable coin and Drip.
+
+
+[01/16/2022 6:00 PM] Alien Σ Crypto#4489
+Also they have a bridge coming in to Sol this year.
+
+
+[01/16/2022 6:05 PM] Alien Σ Crypto#4489
+We are like #2 project on BSC and top 10 among entire difi community. I say we are is due to the fact that I'm on Drip Network and Farm and part of the community, however I'm not affiliated directly with dev team. I will have a very tiny part of ownership in the Animal Farm like everyone who is holding/staking Farm tokens.
+
+
+[01/16/2022 6:05 PM] Alien Σ Crypto#4489
+Anyways I'm mining ergo since may and I love the ergo tech it self.
+
+
+[01/16/2022 6:08 PM] Alien Σ Crypto#4489
+Maybe ergo foundation should contact Drip Network devs and arrange something  for L3 face in the Animal Farm
+
+
+[01/16/2022 6:22 PM] Alien Σ Crypto#4489
+Building as many use cases as possible for ergo is the most important part of survival for ergo community, this is what I believe.
+
+
+[02/15/2022 2:26 PM] inspiredude#6199
+are there any dapps on ergo in which we can yield farm (equivalents of Anchor Protocol on Terra blockchain for example) ?
+
+
+[02/15/2022 2:44 PM] glasgowm#9381
+https://ergonaut.space/en/Guides/yield
+
+{Embed}
+https://ergonaut.space/en/Guides/yield
+Yield
+Earn Yield with your ERG
+
+
+[02/15/2022 3:57 PM] inspiredude#6199
+thanks @glasgowm , went through it already but have not really found what I was looking for. Thank you anyways
+
+
+[02/15/2022 4:49 PM] SoCool#6419
+Perhaps keep an eye on the NightOwl project, sounds like they made some really solid progress during hackathon and liquidity providers for it are the house, and just as in regulated casinos, the house wins by programmably controlled rates
+
+{Reactions}
+👍 (3) 
+
+[02/16/2022 11:54 AM] inspiredude#6199
+Thanks will take a look at it
+
+
+[03/01/2022 6:44 PM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Now that Ergohack III is over, which project 💻 are you most excited to see completed and join the Sigmaverse?Check out submissions...**
+
+https://twitter.com/sigmaverse_ergo/status/1498722370462253057
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1498722370462253057
+Now that Ergohack III is over, which project 💻 are you most excited to see completed and join the Sigmaverse?
+
+Check out submissions here: https://t.co/MsOTrUOkma
+
+and tell us why you're excited about it below👇
+
+#ergo #Ergonauts #BUIDL #BUIDLing #Blockchain #hackathon https://t.co/GQG2gg1uM8
+https://images-ext-2.discordapp.net/external/Xsf4GkQY5Q6ipY5tnkCoY7IIPgguxNeYxGUqujClj14/https/pbs.twimg.com/tweet_video_thumb/FMyIDNFUYAM5U0N.jpg
+Twitter
+
+
+[03/01/2022 6:44 PM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: @​NautilusWallet @​SatergoWallet @​GuapSwapErgo @​SkyHarbor_io @​NightOwlCasino @​anetaBTC**
+
+https://twitter.com/sigmaverse_ergo/status/1498723402433007618
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1498723402433007618
+@NautilusWallet 
+@SatergoWallet 
+@GuapSwapErgo 
+@SkyHarbor_io 
+@NightOwlCasino 
+@anetaBTC
+Twitter
+
+
+[03/01/2022 8:12 PM] MonitoRSS#3921
+:newspaper:  |  **@​GuapSwapErgo: Wanna know more about Profit swapping on ERGO?Join us and ask your questions. $erg**
+
+https://twitter.com/GuapSwapErgo/status/1498741790563876871
+
+{Embed}
+GuapSwap (@GuapSwapErgo)
+https://twitter.com/GuapSwapErgo/status/1498741790563876871
+Wanna know more about Profit swapping on ERGO?
+
+Join us and ask your questions.
+ https://t.co/WIk57x1BDE
+
+$erg
+Twitter
+
+
+[03/02/2022 2:45 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Anybody feeling lucky? 🤑A bit of decentralized gambling never hurt anybody. Just don’t bet what you can’t afford to lose 💸Can’t w...**
+
+https://twitter.com/sigmaverse_ergo/status/1498846162262003714
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1498846162262003714
+Anybody feeling lucky? 🤑
+
+A bit of decentralized gambling never hurt anybody. Just don’t bet what you can’t afford to lose 💸
+
+Can’t wait to trustlessly place bets on @ergoplatformorg 
+
+#cryptocurrency #CryptoGaming #Blockchain #BlockchainGaming #CryptoBetting #ergo #ergonauts
+https://images-ext-2.discordapp.net/external/-z3xd7dlRQ4IzzP-kz5p3ghF7Om35lTiBY8wK9ldWaw/https/pbs.twimg.com/media/FMzEzNQWQAAl2Mr.jpg
+Twitter
+
+
+[03/02/2022 7:46 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: @​ErgoDex building a decentalized exchange that will eventually support swaps between #ergo and #cardano**
+
+https://twitter.com/sigmaverse_ergo/status/1498920254960930824
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1498920254960930824
+@ergoplatformorg @ErgoDex building a decentalized exchange that will eventually support swaps between #ergo and #cardano
+
+https://t.co/ibtWikUdJI
+Twitter
+
+
+[03/02/2022 7:46 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Interesting crosschain projects related to @​ergoplatformorg A thread 🧵 List will be below 👇 #ergo #ergonauts #Cardano #crosschai...**
+
+https://twitter.com/sigmaverse_ergo/status/1498919864248926211
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1498919864248926211
+Interesting crosschain projects related to @ergoplatformorg 
+
+A thread 🧵 
+
+List will be below 👇 
+
+#ergo #ergonauts #Cardano #crosschainswap #cryptocurrency #Blockchain #DeFi
+Twitter
+
+
+[03/02/2022 7:46 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: @​SusyOracles creating bridges between Ergo and other #EVM chains beginning with #Solana. This is done via Wormhole.**
+
+https://twitter.com/sigmaverse_ergo/status/1498920923923038212
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1498920923923038212
+@ergoplatformorg @SusyOracles creating bridges between Ergo and other #EVM chains beginning with #Solana. This is done via Wormhole.
+
+https://t.co/vzReqHXXnb
+Twitter
+
+
+[03/02/2022 7:46 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: @​ConcealNetwork is building a bridge between #Ergo and their blockchain. #Conceal is a project focused on privacy and pairs natura...**
+
+https://twitter.com/sigmaverse_ergo/status/1498921439713378304
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1498921439713378304
+@ergoplatformorg @ConcealNetwork is building a bridge between #Ergo and their blockchain. #Conceal is a project focused on privacy and pairs naturally with the ethos of Ergo.
+
+https://t.co/EPLU27DTGr
+Twitter
+
+
+[03/02/2022 7:46 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: @​adahandle has had great success on #Cardano, creating custome addresses for transactions. They recently partnered with #Ergo to b...**
+
+https://twitter.com/sigmaverse_ergo/status/1498922277936664578
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1498922277936664578
+@ergoplatformorg @adahandle has had great success on #Cardano, creating custome addresses for transactions. They recently partnered with #Ergo to branch their well-loved service to the Ergo Blockchain.
+
+https://t.co/jcLQKWUM2K
+Twitter
+
+
+[03/02/2022 7:46 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: @​wvsenterprise partnered with #ergo to explore and support development of #Oracle infrastructure.**
+
+https://twitter.com/sigmaverse_ergo/status/1498923117661470725
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1498923117661470725
+@ergoplatformorg @wvsenterprise partnered with #ergo to explore and support development of #Oracle infrastructure.
+
+https://t.co/RthSUi577I
+Twitter
+
+
+[03/02/2022 7:46 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: @​anetaBTC will be wrapping #Bitcoin on both #ergo and #Cardano in the future to help expand UTXO into the world of #DeFi**
+
+https://twitter.com/sigmaverse_ergo/status/1498923587536785410
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1498923587536785410
+@ergoplatformorg @anetaBTC will be wrapping #Bitcoin on both #ergo and #Cardano in the future to help expand UTXO into the world of #DeFi
+
+https://t.co/d6LccHG6Av
+Twitter
+
+
+[03/02/2022 7:46 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: @​RayNetwork is a suite of products being developed on #Cardano. On their roadmap they have Ergo support listed for 2022!**
+
+https://twitter.com/sigmaverse_ergo/status/1498923965976252416
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1498923965976252416
+@ergoplatformorg @RayNetwork is a suite of products being developed on #Cardano. On their roadmap they have Ergo support listed for 2022!
+
+https://t.co/KvRmgIxOJL
+Twitter
+
+
+[03/02/2022 7:46 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: @​PgwadaS is developing privacy-focused trustless AI deep learning on #Cardano and #ergo**
+
+https://twitter.com/sigmaverse_ergo/status/1498924601908215808
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1498924601908215808
+@ergoplatformorg @PgwadaS is developing privacy-focused trustless AI deep learning on #Cardano and #ergo
+
+https://t.co/De9wf2KEab
+Twitter
+
+
+[03/02/2022 7:46 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Which chain do you want to see bridged to Ergo next? Reply below 👇**
+
+https://twitter.com/sigmaverse_ergo/status/1498924957375496192
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1498924957375496192
+@ergoplatformorg Which chain do you want to see bridged to Ergo next? Reply below 👇
+Twitter
+
+
+[03/02/2022 3:21 PM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Incredible seeing your rapid pace of development!Watch out auctionhouse, there is a new #NFT marketplace in town**
+
+https://twitter.com/sigmaverse_ergo/status/1499035539403460613
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1499035539403460613
+Incredible seeing your rapid pace of development!
+
+Watch out auctionhouse, there is a new #NFT marketplace in town https://t.co/vYYnzox7pX
+https://images-ext-1.discordapp.net/external/vOi02GdhRfKiP9e_6vYRIdgWuXuEhulFoVJElkeb4nc/https/pbs.twimg.com/tweet_video_thumb/FM2k4DfUYAwbkqb.jpg
+Twitter
+
+
+[03/02/2022 4:48 PM] MonitoRSS#3921
+:newspaper:  |  **@​NautilusWallet: v0.1.12 pushed to chrome store with 'remove wallet' functionality, some UI improvements, and bug fixes.@​ergoplatformorg**
+
+https://twitter.com/NautilusWallet/status/1499052388807626754
+
+{Embed}
+Captain Nemo (@NautilusWallet)
+https://twitter.com/NautilusWallet/status/1499052388807626754
+v0.1.12 pushed to chrome store with 'remove wallet' functionality, some UI improvements, and bug fixes.
+
+@ergoplatformorg https://t.co/MoqKU0rllN
+https://images-ext-1.discordapp.net/external/cPemjZSpsAKPD-ixTnm64B3fVhC-qjeg24AdmfsS50g/https/pbs.twimg.com/media/FM20GZyUYAMHM_w.jpg
+Twitter
+
+
+[03/02/2022 5:53 PM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Sigmaverse Project Profile #10Ergoraffle is a decentralized raffle dapp built by @​mhs_sam. The platform is oriented toward charita...**
+
+https://twitter.com/sigmaverse_ergo/status/1499069914992103426
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1499069914992103426
+Sigmaverse Project Profile #10
+
+Ergoraffle is a decentralized raffle dapp built by @mhs_sam. The platform is oriented toward charitable funding but free to be used however you like!
+
+https://t.co/xp9dBbGvW7
+
+#ergosigmaverse #ergonauts https://t.co/xsL2lgoPub
+https://images-ext-2.discordapp.net/external/z8dXe_Um2LZDQk16qy5zSCyre95eIv6aLgBBdA_qtSw/https/pbs.twimg.com/media/FM3DdaQVcAUrP0M.jpg
+Twitter
+
+
+[03/02/2022 6:19 PM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Bridges are coming guys 🔥🔥🔥**
+
+https://twitter.com/sigmaverse_ergo/status/1499083675308158980
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1499083675308158980
+Bridges are coming guys 🔥🔥🔥
+Twitter
+
+
+[03/03/2022 4:21 PM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Lots of new additions are coming to the sigmaverse in 2022 🗓Hope you’re ready 😎**
+
+https://twitter.com/sigmaverse_ergo/status/1499415500131995649
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1499415500131995649
+Lots of new additions are coming to the sigmaverse in 2022 🗓
+
+Hope you’re ready 😎
+https://images-ext-2.discordapp.net/external/FPW8EGGXnHzxWP-3DTNMUQ8u5s98DbMa2-M2WN0yxn0/https/pbs.twimg.com/media/FM7bqHOXIAAFahr.jpg
+Twitter
+
+
+[03/04/2022 8:46 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: New project on !@​HopiumRecords is an audio NFT record label minting on #Ergo Their first audio release explored vibroacoustics 🔊#...**
+
+https://twitter.com/sigmaverse_ergo/status/1499665786104795136
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1499665786104795136
+New project on https://t.co/g3KHBAtK87!
+
+@HopiumRecords is an audio NFT record label minting on #Ergo 
+
+Their first audio release explored vibroacoustics 🔊
+
+#Ergonauts #nfts #audionft #ENFT https://t.co/LUbIGll03D
+https://images-ext-2.discordapp.net/external/-8r4YDECQncBLVlQpQqddNU9Rl2XI7xfsWRmvDDGj84/https/pbs.twimg.com/tweet_video_thumb/FM_iE1UVEAAOpYM.jpg
+Twitter
+
+
+[03/04/2022 4:48 PM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: DeCo is highly underrated in the Ergo ecosystem. In an age of scarce devs they are doing very important work. 🤝A few of the first ...**
+
+https://twitter.com/sigmaverse_ergo/status/1499780087582892032
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1499780087582892032
+DeCo is highly underrated in the Ergo ecosystem. In an age of scarce devs they are doing very important work. 🤝
+
+A few of the first DeCo cohort even participated in Ergohack III and now we have @GuapSwapErgo 💪
+Twitter
+
+
+[03/04/2022 4:48 PM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Sigmaverse Project Profile #11You know them, you love them ❤️@​NautilusWallet team helped spark the recent dapp connector revolutio...**
+
+https://twitter.com/sigmaverse_ergo/status/1499781368095539202
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1499781368095539202
+Sigmaverse Project Profile #11
+
+You know them, you love them ❤️
+
+@NautilusWallet team helped spark the recent dapp connector revolution in the #Ergo ecosystem. Reliance on faulty tooling was holding us back. Nautilus saw this and made a move 🏃‍♂️
+
+#ergosigmaverse https://t.co/DdFM67LZdk
+https://images-ext-2.discordapp.net/external/BP226etQlXhEoWD5MqNg-M5ioOm3MKOqs__ejzisxfU/https/pbs.twimg.com/media/FNBKQbJVQAQKmPw.jpg
+Twitter
+
+
+[03/04/2022 4:48 PM] MonitoRSS#3921
+:newspaper:  |  **@​anetaBTC: #Cardano and #Ergo community-- We're excited to announce Roadmap 2.0 is now live! 🥳Read about our development and objectives for the next...**
+
+https://twitter.com/anetaBTC/status/1499746890190970882
+
+{Embed}
+anetaBTC 👼 Wrapped BTC on Ergo and Cardano (@anetaBTC)
+https://twitter.com/anetaBTC/status/1499746890190970882
+#Cardano and #Ergo community-- We're excited to announce Roadmap 2.0 is now live! 🥳
+
+Read about our development and objectives for the next 12 months and beyond 😇
+
+Roadmap below 🎉👇
+https://t.co/b8u3bDIW0Y https://t.co/c9eCOfIm2z
+Likes
+138
+https://images-ext-1.discordapp.net/external/ECLFzbxU3u5EHI61-a6nMDWc7DY4uD4UdpWecLAthzU/https/pbs.twimg.com/media/FNAqwcAVUAYLzXd.jpg
+Twitter
+
+
+[03/04/2022 8:46 PM] MonitoRSS#3921
+:newspaper:  |  **@​ErgoDex: Since the Cardano launch is right around the corner, we decided to give everyone a sneak preview of what they can expect to see, stay tuned...**
+
+https://twitter.com/ErgoDex/status/1499810795718389769
+
+{Embed}
+ErgoDEX (@ErgoDex)
+https://twitter.com/ErgoDex/status/1499810795718389769
+Since the Cardano launch is right around the corner, we decided to give everyone a sneak preview of what they can expect to see, stay tuned! https://t.co/mJyELaG23l
+Likes
+374
+https://images-ext-1.discordapp.net/external/KM_e6htj8971CJ4E8XNcE3Hy0TfozlKXLz01EzhtkBA/https/pbs.twimg.com/media/FNBl9etXMAcFnu1.jpg
+Twitter
+
+
+[03/05/2022 1:15 AM] MonitoRSS#3921
+:newspaper:  |  **@​RichardMcCrackn: Reading over Minotaur (the parts I can understand) I have a pretty good feeling one day #Ergo and #Cardano could be capable of a so...**
+
+https://twitter.com/RichardMcCrackn/status/1499912128739876877
+
+{Embed}
+Rick McCracken 💧,💧 (@RichardMcCrackn)
+https://twitter.com/RichardMcCrackn/status/1499912128739876877
+Reading over Minotaur (the parts I can understand) I have a pretty good feeling one day #Ergo and #Cardano could be capable of a sort hybrid proof-of-work and proof-of-stake consensus. Pretty cool to think about it.
+
+Link: https://t.co/JJExX77axR
+#Ergonauts $ERG #ADA $Ada #DeFi https://t.co/zGiZRg9bfU
+https://images-ext-2.discordapp.net/external/kDsHy7yk-z5_8GLwrC-kDJLK1lDXntfuG58c7drGFHE/https/pbs.twimg.com/media/FNDAV8nX0AEftPP.jpg
+Twitter
+
+
+[03/05/2022 2:45 AM] MonitoRSS#3921
+:newspaper:  |  **@​CuriaCrypto: Seeing things using "decentralization" as marketing for software service. In reality, it is a joke, with no principles. Censorship Resi...**
+
+https://twitter.com/CuriaCrypto/status/1499904819829501956
+
+{Embed}
+Armeanio (@CuriaCrypto)
+https://twitter.com/CuriaCrypto/status/1499904819829501956
+Seeing things using "decentralization" as marketing for software service. 
+
+In reality, it is a joke, with no principles. 
+
+Censorship Resistant. Borderless. Optional anonymity. Open. Secure.  
+
+Build on strong foundations.
+Twitter
+
+
+[03/05/2022 2:45 AM] MonitoRSS#3921
+:newspaper:  |  **@​CuriaCrypto: Discussing ErgoHack4 with @​chepurnoy @​ErgoFoundation Network infrastructure is where decentralization is born. (Miners/Operators) Let...**
+
+https://twitter.com/CuriaCrypto/status/1499903917395611648
+
+{Embed}
+Armeanio (@CuriaCrypto)
+https://twitter.com/CuriaCrypto/status/1499903917395611648
+Discussing ErgoHack4 with @chepurnoy @ErgoFoundation 
+
+Network infrastructure is where decentralization is born. (Miners/Operators)  
+
+Let's explore Decentralization this hackathon. 
+
+Infrastructure. Hosting. TxBot Operation. Security Assumptions. Improvements over the status quo
+Twitter
+
+
+[03/05/2022 9:15 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: A number of projects have already made an effort to go cross-chain between #Cardano and #Ergo ⛓Which projects would you like to see...**
+
+https://twitter.com/sigmaverse_ergo/status/1500029916456239105
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1500029916456239105
+A number of projects have already made an effort to go cross-chain between #Cardano and #Ergo ⛓
+
+Which projects would you like to see expand from Cardano to Ergo next? Tag them below 👇 https://t.co/79sUrWU4yi
+https://images-ext-1.discordapp.net/external/faAxTYOx-cRShW5rpWxVpKpevWJojmeuQzDOJWEjXbQ/https/pbs.twimg.com/tweet_video_thumb/FNEtQbEUYAM08AS.jpg
+Twitter
+
+
+[03/05/2022 7:55 PM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Sigmaverse Project Profile #12@​joinENFT is helping to cultivate a robust #NFT community on #Ergo. Currently in Beta access, creato...**
+
+https://twitter.com/sigmaverse_ergo/status/1500195488338878464
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1500195488338878464
+Sigmaverse Project Profile #12
+
+@joinENFT is helping to cultivate a robust #NFT community on #Ergo. Currently in Beta access, creators can organize, share, and display their collections 🎨🖌
+
+https://t.co/Ej3KvhmbTw
+
+#ergosigmaverse https://t.co/rdbgk3trJ7
+https://images-ext-2.discordapp.net/external/iWyjeU7n7KDHyYAQWmCdeBDkXi4pBcvCiP0Md1zDRec/https/pbs.twimg.com/media/FNHDDHhUUAAEoiY.jpg
+Twitter
+
+
+[03/06/2022 8:25 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Ergonames, a domain service for wallet addresses on Erg, coming to the Sigmaverse Soon™️Seriously though, very excited to see your ...**
+
+https://twitter.com/sigmaverse_ergo/status/1500380249665662976
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1500380249665662976
+Ergonames, a domain service for wallet addresses on Erg, coming to the Sigmaverse Soon™️
+
+Seriously though, very excited to see your project come to fruition 👏
+https://images-ext-2.discordapp.net/external/hGMA0-iD62uPnZdwcYRBLNeKrtnPSjI-hjONiH9zjmc/https/pbs.twimg.com/tweet_video_thumb/FNI2q1qagAYl8Fg.jpg
+Twitter
+
+
+[03/06/2022 5:55 PM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Calling all Ergonauts! If you are interested in testing out the new Skyharbor NFT marketplace - get in here!**
+
+https://twitter.com/sigmaverse_ergo/status/1500527583703691264
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1500527583703691264
+Calling all Ergonauts! If you are interested in testing out the new Skyharbor NFT marketplace - get in here!
+Twitter
+
+
+[03/06/2022 6:25 PM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Sigmaverse Project Profile #13It may not be sexy or offer a high APY, but Ergo watch offers users crucial visibility into on chain ...**
+
+https://twitter.com/sigmaverse_ergo/status/1500531466194673666
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1500531466194673666
+Sigmaverse Project Profile #13
+
+It may not be sexy or offer a high APY, but Ergo watch offers users crucial visibility into on chain statistics. If you are a true Ergonaut chances are you will have stared at these charts before.
+
+https://t.co/sePFzIWe8V
+
+#ergosigmaverse https://t.co/Rm0PIDlLOc
+https://images-ext-2.discordapp.net/external/HXUP_pz4UWpI8fqGpcqIZ9rgdjGc8Pzl-VBRFaMfjmY/https/pbs.twimg.com/media/FNL1amFVIAA7Dmu.jpg
+Twitter
+
+
+[03/06/2022 8:55 PM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Let’s bring attention to underrated NFT projects on Ergo!Tag your favorite projects below 👇 that you don’t think get enough attent...**
+
+https://twitter.com/sigmaverse_ergo/status/1500572514317049863
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1500572514317049863
+Let’s bring attention to underrated NFT projects on Ergo!
+
+Tag your favorite projects below 👇 that you don’t think get enough attention.
+
+I’ll start. Randomly found @THE_DLOP on twitter the other day and they are minting generative visual art 🖼
+Twitter
+
+
+[03/07/2022 4:00 PM] MonitoRSS#3921
+:newspaper:  |  **@​NightOwlCasino: Check out our new write-up and competitive analysis on the crypto-casino industry 🌙 🦉 $ERG #NightOwl**
+
+https://twitter.com/NightOwlCasino/status/1500854449111248897
+
+{Embed}
+Night Owl (@NightOwlCasino)
+https://twitter.com/NightOwlCasino/status/1500854449111248897
+Check out our new write-up and competitive analysis on the crypto-casino industry 🌙 🦉 
+
+ $ERG #NightOwl 
+
+https://t.co/MzcTFNLKE5
+Twitter
+
+
+[03/07/2022 5:28 PM] MonitoRSS#3921
+:newspaper:  |  **@​ErgoWhale: ERGO pool has upgraded to #Cardano node 1.34.0.We are going to mint two blocks next epoch!**
+
+https://twitter.com/ErgoWhale/status/1500575337490624518
+
+{Embed}
+Ergo Pool (stake your Ada with us!) (@ErgoWhale)
+https://twitter.com/ErgoWhale/status/1500575337490624518
+ERGO pool has upgraded to #Cardano node 1.34.0.
+
+We are going to mint two blocks next epoch!
+Twitter
+
+
+[03/08/2022 7:26 AM] MonitoRSS#3921
+:newspaper:  |  **@​sigmaverse_ergo: Interested in learning Ergoscript?DeCo is offering a free Laymans course. You will be in good hands, first cohort alums had great p...**
+
+https://twitter.com/sigmaverse_ergo/status/1501088162755399680
+
+{Embed}
+Sigmaverse on Ergo (@sigmaverse_ergo)
+https://twitter.com/sigmaverse_ergo/status/1501088162755399680
+Interested in learning Ergoscript?
+
+DeCo is offering a free Laymans course. You will be in good hands, first cohort alums had great projects in the most recent Ergohack!
+Twitter
+
+
+[06/17/2022 2:51 PM] Manzier#4790
+this account doesn't exist twitter says
+
+
+[06/17/2022 5:38 PM] TheSentientNFT#0744
+We changed the handle to be more formal
+
+
+[06/17/2022 5:38 PM] TheSentientNFT#0744
+https://twitter.com/sentientchain
+
+{Embed}
+https://twitter.com/sentientchain
+Sentient Foundation (@SentientChain)
+NIPoPoW Sidechain Built Specifically For P2E Games, GameFi & DEX
+Followers
+3939
+Tweets
+180
+https://images-ext-1.discordapp.net/external/31-FFNIJUtycxzYWG6ykVbqY1RXyK0zAk64F1atSG1k/https/pbs.twimg.com/profile_images/1524534897121112064/lB_e3doZ_400x400.jpg
+Twitter
+
+
+==============================================================
+Exported 224 message(s)
+==============================================================

@@ -1,0 +1,478 @@
+==============================================================
+Guild: Ergo Platform
+Channel: 🗺  ・〘 Regional 〙☰ / 🇵🇭│pilipino
+==============================================================
+
+[09/29/2021 1:08 PM] callie#3352
+Great for Filipino people.
+
+
+[09/29/2021 1:08 PM] callie#3352
+Those who are Pinoy and Pinay, come lets chat it here.
+
+
+[09/29/2021 1:09 PM] slbe#5461
+Hello
+
+
+[09/29/2021 1:31 PM] callie#3352
+hi, Pilipino kadin?
+
+
+[09/29/2021 1:32 PM] callie#3352
+welcome sa Ergo, astig buti nalaman mo ang ergo?
+
+
+[09/29/2021 1:41 PM] slbe#5461
+Nag eexplore lang hehe
+
+
+[09/29/2021 1:41 PM] slbe#5461
+Yes
+
+
+[09/29/2021 1:46 PM] callie#3352
+haha ou, swerte mo isa ka sa nalaman ang ergo
+
+
+[09/29/2021 1:46 PM] callie#3352
+4 yrs from now mayaman kana 😄
+
+
+[09/29/2021 2:46 PM] slbe#5461
+Part ka ng development team?
+
+
+[09/29/2021 2:58 PM] callie#3352
+hindi man
+
+
+[09/29/2021 2:58 PM] callie#3352
+investor lang ako
+
+
+[09/29/2021 3:51 PM] slbe#5461
+Nice nice
+
+
+[09/29/2021 3:51 PM] slbe#5461
+May nfts ka na ba?
+
+
+[09/29/2021 3:54 PM] Wen ༼ つ ◕_◕ ༽つ#0984
+ow there are actually pinoys here? hahaha
+
+
+[09/29/2021 3:54 PM] Wen ༼ つ ◕_◕ ༽つ#0984
+kala ko ako lang
+
+
+[09/29/2021 6:09 PM] callie#3352
+wala man, naginvest lang ako sa ergo
+
+
+[09/29/2021 6:09 PM] callie#3352
+haha syempre meron. ano nyan tatlo lang tayo yayaman sa 2024? haha
+
+
+[09/30/2021 2:02 AM] Wen ༼ つ ◕_◕ ༽つ#0984
+hahaha just that based on experience filipinos are more into p2e or the more popular coins
+
+
+[09/30/2021 4:22 AM] JKleinne#7947
+oh wait
+
+
+[09/30/2021 4:22 AM] JKleinne#7947
+may filipino channel na pala
+
+
+[09/30/2021 4:22 AM] JKleinne#7947
+hi all 🙂
+
+
+[09/30/2021 5:59 AM] callie#3352
+yeah meron na, goods naman may pinoy pala dito.
+
+
+[09/30/2021 5:59 AM] callie#3352
+ou nga puro axie xD
+
+
+[09/30/2021 6:00 AM] callie#3352
+part ka pala ng team, ano ginagawa mo sa ergo comunity dev?
+
+
+[09/30/2021 6:15 AM] Wen ༼ つ ◕_◕ ༽つ#0984
+nice
+
+
+[09/30/2021 11:38 AM] JKleinne#7947
+Mostly mga personal projects related sa cardano and ergo lang haha. Yung Ergo Core ang part talaga ng team
+
+
+[09/30/2021 2:06 PM] Wen ༼ つ ◕_◕ ༽つ#0984
+are you guys using the beta dex na?
+
+
+[09/30/2021 2:06 PM] Wen ༼ つ ◕_◕ ༽つ#0984
+i'm doing LPs for ERG-sigRSV don't really know if i gained anything or how much yet
+
+
+[09/30/2021 5:06 PM] callie#3352
+Gnun ba, parang gusto ko maging part or mag project din. Ano ba gagawin or poprogram ?
+
+
+[09/30/2021 5:06 PM] callie#3352
+Hindi pa, di ko din gets yung ganyan wait ko nalang yung staking xD
+
+
+[09/30/2021 5:24 PM] haribabu#0829
+hello mga kababayan
+
+
+[09/30/2021 9:49 PM] JKleinne#7947
+Na pull out ko na yung sa akin but if I remember correctly, pwede mo ma check within the Redeem tab
+
+
+[09/30/2021 9:54 PM] JKleinne#7947
+Mostly mag create ng applications with some UI tsaka yung smart contract (parang application na nag live sa ergo blockchain)
+
+
+[09/30/2021 9:56 PM] JKleinne#7947
+Marami ang pwede mo gawin din like it’s not solely writing code. Proper UI/UX designs, writing documentation, systems design, etc. if interested ka I’m sure you’ll be able to contribute
+
+
+[10/01/2021 12:25 AM] Wen ༼ つ ◕_◕ ༽つ#0984
+but no definite way to check pa no can only monitor LP
+
+
+[10/01/2021 2:08 AM] JKleinne#7947
+Yea hopefully meron na once it launches
+
+
+[10/01/2021 3:05 AM] callie#3352
+ou interested ako, baka pwede malaman paano makakakcontribute at paano magsisimula kahit basic lang muna para maintindihan ko siya.
+
+
+[10/01/2021 3:05 AM] callie#3352
+I like to support kahit man lang sa security ng ergo kasi work ko is sa cyber security. baka maka contribute ako
+
+
+[10/01/2021 1:36 PM] NEEKS#2070
+hello guys
+
+
+[10/01/2021 1:36 PM] NEEKS#2070
+anong exchange ginagamit nyo para sa $erg
+
+
+[10/01/2021 1:40 PM] JKleinne#7947
+https://github.com/glasgowm148/awesome-ergo/blob/master/pages/devs.md and https://github.com/ergoplatform/ergoscript-by-example
+
+{Embed}
+https://github.com/glasgowm148/awesome-ergo/blob/master/pages/devs.md
+awesome-ergo/devs.md at master · glasgowm148/awesome-ergo
+A curated list of awesome and useful Ergo resources - awesome-ergo/devs.md at master · glasgowm148/awesome-ergo
+https://images-ext-1.discordapp.net/external/pRtj41yl_vMOtpj-DLVn-lWDAydeOZeM0rxLZx5PLNU/https/opengraph.githubassets.com/ff36f0ae27a6c8a8e916e88c2c0d9ffa54f70a763d853b1182b90cf82c2e3722/glasgowm148/awesome-ergo
+
+{Embed}
+https://github.com/ergoplatform/ergoscript-by-example
+GitHub - ergoplatform/ergoscript-by-example: Learn ErgoScript by re...
+Learn ErgoScript by reading example smart contracts powered by Ergo Playground. - GitHub - ergoplatform/ergoscript-by-example: Learn ErgoScript by reading example smart contracts powered by Ergo Pl...
+https://images-ext-1.discordapp.net/external/diKRSJfRx25OhgOkcIxt5CdyyGVjXMaOQSbBe24iyHM/https/opengraph.githubassets.com/660be40dfeabdd134118bda6a9bc3424d9940efb52048522de832af2ff0273da/ergoplatform/ergoscript-by-example
+
+
+[10/01/2021 1:40 PM] JKleinne#7947
+coinex and kucoin yung ginagamit ko
+
+
+[10/01/2021 1:44 PM] NEEKS#2070
+ah yeah i just deposited into kucoin
+
+
+[10/01/2021 1:44 PM] NEEKS#2070
+what are the options of what i can do with $erg besides holding
+
+
+[10/01/2021 3:51 PM] callie#3352
+thank you
+
+
+[10/03/2021 12:41 AM] Wen ༼ つ ◕_◕ ༽つ#0984
+right now sigma usd and sigma rsv lang and the beta dex, you can provide liquidity for the beta dex but no definite way to know how much your LP would earn
+
+
+[10/03/2021 12:42 AM] Wen ༼ つ ◕_◕ ༽つ#0984
+since i have sigrsv from way before i just put it there and will see if i earned anything siguro when dex officially launch
+
+
+[10/03/2021 12:42 AM] Wen ༼ つ ◕_◕ ༽つ#0984
+ay sorry filipino channel english pa din HAHAHA
+
+
+[10/04/2021 5:20 AM] callie#3352
+Ang sigrsv ba is kapag up ang price ng ergo?
+
+
+[10/04/2021 5:20 AM] callie#3352
+Tapos ang sigma usd naman pag price down?
+
+
+[10/04/2021 7:39 AM] Wen ༼ つ ◕_◕ ༽つ#0984
+nope madaming factors eh, reserve ratio, price of erg, minting of sigUSD etc.
+
+
+[10/04/2021 7:40 AM] Wen ༼ つ ◕_◕ ༽つ#0984
+ito treat it as stables like USDT, UST, BUSD etc.
+
+
+[10/04/2021 11:12 AM] Runstyle#5968
+Is anyone mining here?
+
+
+[10/04/2021 11:31 AM] Deleted User#0000
+plan ko mag mine
+
+
+[10/04/2021 7:26 PM] callie#3352
+gawa kaya tayo ng nft play to earn sa ergo>
+
+
+[10/20/2021 8:20 PM] callie#3352
+kamusta ditooo
+
+
+[10/31/2021 6:29 AM] Wen ༼ つ ◕_◕ ༽つ#0984
+🤷‍♀️ dex launch wen 🤣🤣🤣
+
+
+[11/01/2021 9:21 PM] callie#3352
+lapit na daw haha
+
+
+[11/10/2021 1:21 PM] callie#3352
+wazzup people peeps
+
+
+[11/20/2021 6:36 PM] callie#3352
+wazzup mga peeps
+
+
+[11/23/2021 2:50 AM] sidd#8012
+Hi mga ERGOnoy.
+
+
+[11/26/2021 10:16 AM] callie#3352
+Bagsak  ngayon ergonoy.
+
+
+[12/01/2021 12:20 PM] sidd#8012
+Bagsak parin kahit yung sister blockchain nya nasi Cardano/ADA, ERGOnoy..
+
+
+[12/01/2021 4:16 PM] callie#3352
+Sadlife, mamumulubi na ata tayo haha
+
+
+[12/01/2021 10:34 PM] sidd#8012
+hahhaa, hindi naman mas doble confidence ko sa ADA and ERGO after the Alonzo Hard Fork, coordinated FUD and Price Control lang yan.
+
+
+[12/01/2021 10:46 PM] callie#3352
+Ou, pero naniniwala ako magpupump ergo natin pagkatapos ng pos 2.0 ng eth
+
+{Reactions}
+😋 (2) 
+
+[12/01/2021 11:27 PM] sidd#8012
+Same speculation, ang problem natin baka 2023 na di pa naka migrate to 2.0 hahaha.
+
+
+[12/01/2021 11:31 PM] callie#3352
+Tiwala lang magmimigrate yan haha
+
+{Reactions}
+😋 (2) 
+
+[12/14/2021 4:57 PM] Deleted User#0000
+gm
+
+
+[12/14/2021 4:57 PM] Deleted User#0000
+best hot wallet to store $ERGO?
+
+
+[12/14/2021 4:57 PM] Deleted User#0000
+wala pa ako cold wallet eh haha
+
+
+[12/14/2021 4:57 PM] Deleted User#0000
+and di pa din ata supported ng either ledger or trezor ERGO last time i checked
+
+
+[12/18/2021 10:23 PM] callie#3352
+Meron na yung android wallet
+
+
+[12/19/2021 12:53 PM] Deleted User#0000
+yung kay Benjamin?
+
+
+[12/19/2021 12:53 PM] Deleted User#0000
+kita ko nga din eh, na try niyo na?
+
+
+[01/04/2022 11:26 AM] Deleted User#0000
+may nagmmina ba dito ng ergo?
+
+
+[01/10/2022 2:04 AM] Deleted User#0000
+Yoroi, since it can hold both ERG and ADA. 
+Alternatively, you can try using YoroiNightly so pwede mo magamit yung Ergodex and start farming.
+
+
+[01/10/2022 2:05 AM] Deleted User#0000
+kamusta mga homieeees
+
+
+[01/10/2022 5:13 AM] Deleted User#0000
+ayyt salamat!!!
+
+
+[01/10/2022 5:17 AM] Deleted User#0000
+@Deleted User  shameless plug sa project namin pala on ADA
+
+
+[01/10/2022 5:18 AM] Deleted User#0000
+https://discord.gg/nRKwKcGjS7
+
+
+[01/10/2022 5:20 AM] Deleted User#0000
+parang nakita ko na to somewhere haha angas
+
+
+[01/10/2022 5:22 AM] Deleted User#0000
+join ka dude! still early, minting soon
+
+
+[01/10/2022 5:22 AM] Deleted User#0000
+noiceeee
+
+
+[01/10/2022 5:23 AM] Deleted User#0000
+any ergo NFT collectors here?
+
+
+[01/22/2022 2:58 AM] Deleted User#0000
+Kamusta everyone
+
+
+[01/27/2022 5:54 AM] Runstyle#5968
+wazup
+
+
+[01/29/2022 8:35 AM] wewmonic demonic#3271
+guys
+
+
+[01/29/2022 8:35 AM] wewmonic demonic#3271
+join our fb group
+
+
+[01/29/2022 8:35 AM] wewmonic demonic#3271
+https://www.facebook.com/groups/394434732381364
+
+{Embed}
+https://www.facebook.com/groups/394434732381364
+Log in or sign up to view
+See posts, photos and more on Facebook.
+
+
+[01/29/2022 8:37 AM] wewmonic demonic#3271
+ergo filipino community
+
+
+[01/29/2022 8:37 AM] wewmonic demonic#3271
+OG members representtt
+
+
+[01/29/2022 12:42 PM] wewmonic demonic#3271
+sino na naka stack ng 1k ergs>
+
+
+[01/31/2022 3:19 PM] Runstyle#5968
+getting there XD
+
+
+[01/31/2022 6:28 PM] Deleted User#0000
+oyyy
+
+
+[01/31/2022 6:28 PM] Deleted User#0000
+sup
+
+
+[02/01/2022 10:23 AM] wewmonic demonic#3271
+msuta
+
+
+[02/01/2022 10:24 AM] wewmonic demonic#3271
+hi guys how's everyone?
+
+
+[02/04/2022 4:44 PM] wewmonic demonic#3271
+nice
+
+
+[02/04/2022 4:44 PM] wewmonic demonic#3271
+miner
+
+
+[02/04/2022 4:44 PM] wewmonic demonic#3271
+?
+
+
+[02/04/2022 4:44 PM] wewmonic demonic#3271
+guys....?
+
+
+[02/04/2022 4:44 PM] wewmonic demonic#3271
+😦
+
+
+[02/05/2022 12:10 PM] Runstyle#5968
+Im aminere
+
+
+[02/06/2022 9:36 PM] Deleted User#0000
+sup
+
+
+[04/12/2022 8:30 AM] CARLITO#2370
+Hlo
+
+
+[04/19/2022 3:59 AM] panasonic#9004
+hey guys, anyone from cebu?
+
+
+[06/01/2022 8:04 AM] wewmonic demonic#3271
+Sup all
+
+
+[06/01/2022 8:04 AM] wewmonic demonic#3271
+goal -- 1k ergs
+
+
+[06/13/2022 9:10 AM] wewmonic demonic#3271
+surp
+
+
+[09/18/2022 3:36 AM] wewmonic demonic#3271
+ano na
+
+
+==============================================================
+Exported 112 message(s)
+==============================================================
