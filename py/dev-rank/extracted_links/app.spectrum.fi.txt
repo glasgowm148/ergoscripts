@@ -1,0 +1,8 @@
+https://app.spectrum.fi/cardano/swap
+https://app.spectrum.fi/ergo/swap
+https://app.spectrum.fi
+https://app.spectrum.fi/ergo/swap?quote=e8b20745ee9d18817305f32eb21015831a48f02d40980de6e849f886dca7f807&base=0000000000000000000000000000000000000000000000000000000000000000
+https://app.spectrum.fi/ergo/swap*)
+https://app.spectrum.fi/
+https://app.spectrum.fi/*)
+https://app.spectrum.fi/ergo/swap?quote=18c938e1924fc3eadc266e75ec02d81fe73b56e4e9f4e268dffffcb30387c42d&base=0000000000000000000000000000000000000000000000000000000000000000

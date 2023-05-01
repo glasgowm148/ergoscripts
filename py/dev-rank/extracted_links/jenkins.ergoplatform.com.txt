@@ -1,0 +1,5 @@
+https://jenkins.ergoplatform.com/job/sigmastate-ergo-unit-tests/1760/console
+https://jenkins.ergoplatform.com/job/ergo-node-benchmarks/1888/
+https://jenkins.ergoplatform.com/
+https://jenkins.ergoplatform.com/job/ergo-node-benchmarks/
+https://jenkins.ergoplatform.com

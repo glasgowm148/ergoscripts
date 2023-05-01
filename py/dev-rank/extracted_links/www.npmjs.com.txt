@@ -1,0 +1,7 @@
+https://www.npmjs.com/package/sigmastate-js
+https://www.npmjs.com/package/@ergo-graphql/ts-types
+https://www.npmjs.com/package/react-ergo-payments/v/1.0.1
+https://www.npmjs.com/package/bignum
+https://www.npmjs.com/package/base58-encode
+https://www.npmjs.com/package/ergo-dapp-connector
+https://www.npmjs.com/package/sigmajs-crypto-facade

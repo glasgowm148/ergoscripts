@@ -1,0 +1,7 @@
+https://faucet.ergopool.io/payment/address/TESTNET_WALLET_ADDRESS
+https://faucet.ergopool.io/payment/address/<address>
+https://faucet.ergopool.io
+https://faucet.ergopool.io/payment/address/xxxx
+https://faucet.ergopool.io/payment/address/3Wx8uqKzEYrLLBNEYg56kY7X4RqL4iJooopeCDL1VEcifziGxAim
+https://faucet.ergopool.io/payment/address/(myaddress)
+https://faucet.ergopool.io/

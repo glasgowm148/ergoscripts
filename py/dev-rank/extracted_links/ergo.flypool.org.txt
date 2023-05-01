@@ -1,0 +1,6 @@
+https://ergo.flypool.org/start
+https://ergo.flypool.org/miners/9htf2YsKn1KzJ5F5TbT1DSjvCnBwKxUVKbELtUH6ukUdLDWHQfb/dashboard
+https://ergo.flypool.org/
+https://ergo.flypool.org/miners/9g29cfexGhN1Gzs2LB1iAMxWdfVGHfaBZFxuXj9jHomb7RcWTQ5/dashboard
+https://ergo.flypool.org/,
+https://ergo.flypool.org/api)

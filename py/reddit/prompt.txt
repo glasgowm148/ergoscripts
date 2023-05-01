@@ -1,0 +1,7 @@
+Summarise {discussion} into a paragraph giving the title of the post in bold and the link at the start. 
+Identify any questions that went unanswered or concerns that were raised. 
+Include the hyperlink and https://www.reddit.com/r/ always. 
+Do not use the title for context in your summarisation. If there are no comments then say so. 
+Never mention ergonomics
+----
+{discussion}

@@ -1,0 +1,13 @@
+https://www.nicehash.com/blog/post/nvidia-rtx-4090-specs-and-mining-hashrate
+https://www.nicehash.com/blog/post/a-word-about-nicehash-miner-and-autolykos-ergo
+https://www.nicehash.com/blog/post/new-algorithm-autolykos-(ergo)-available-on-the-hashpower-marketplace
+https://www.nicehash.com/blog/post/quickminer-v0-6-0-0-rc-multi-algorithm-support
+https://www.nicehash.com/blog/post/100-lhr-unlock-at-nicehash-its-here
+https://www.nicehash.com/algorithm/autolykos
+https://www.nicehash.com/blog/post/mining-psu-power-supply-buying-guide
+https://www.nicehash.com/profitability-calculator/nvidia-gtx-960
+https://www.nicehash.com/pricing
+https://www.nicehash.com/blog/post/how-to-increase-virtual-memory-on-windows
+https://www.nicehash.com/blog/post/quickminer-0.5.3.3-rc-with-amd-support
+https://www.nicehash.com/support/general-help/nicehash-service/what-is-nicehash-and-how-it-works
+https://www.nicehash.com/my/marketplace/AUTOLYKOS
